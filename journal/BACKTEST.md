@@ -6,7 +6,6 @@ Realised intraday vol over the period: 10.6% (if far from the IV above, recalibr
 
 | variant | trades | win% | avg win | avg loss | expectancy/trade | best | final $ | peak $ | max DD | 2x / 5x / 10x | ruined |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| gap_fade | 125 | 43% | +112% | -99% | -7.8% | +143% | 50 | 500 | 90% | — / — / — | 2025-10-14 |
 | gap_with | 125 | 42% | +106% | -91% | -9.0% | +151% | 4 | 500 | 99% | — / — / — | 2025-11-04 |
 | oil_lead | 172 | 41% | +107% | -94% | -11.2% | +161% | 25 | 500 | 95% | — / — / — | 2025-10-07 |
 | orb15_tp100 | 248 | 26% | +106% | -53% | -11.3% | +164% | 44 | 500 | 91% | — / — / — | 2025-10-21 |
@@ -19,7 +18,6 @@ Realised intraday vol over the period: 10.6% (if far from the IV above, recalibr
 
 | variant | 30% stake | 50% stake | 100% stake |
 |---|---|---|---|
-| gap_fade | 11.4% | 12.6% | 18.0% |
 | gap_with | 8.4% | 11.3% | 17.6% |
 | oil_lead | 7.6% | 9.8% | 17.4% |
 | open_drive_calm | 4.4% | 7.8% | 15.4% |
@@ -41,13 +39,11 @@ If a variant only works in the old part of the sample, the market has moved on.
 | open_drive_run | 177 | -17.5% | 10.0% | 40 | -12.4% | 11.1% | holding up |
 | oil_lead | 172 | -11.2% | 17.4% | 47 | -27.1% | 10.9% | fading |
 | orb15_tp100 | 248 | -11.3% | 10.2% | 63 | -14.7% | 9.5% | holding up |
-| gap_fade | 125 | -7.8% | 18.0% | 31 | -46.4% | 6.8% | broken |
 
 ## Macro days (CPI / NFP / FOMC) vs other days — expectancy per trade
 
 | variant | macro-day trades | macro-day avg | other trades | other avg |
 |---|---|---|---|---|
-| gap_fade | 14 | -36.8% | 111 | -4.1% |
 | gap_with | 14 | -37.8% | 111 | -5.4% |
 | oil_lead | 21 | -27.0% | 151 | -9.0% |
 | orb15_tp100 | 30 | -27.3% | 218 | -9.1% |
@@ -56,11 +52,10 @@ If a variant only works in the old part of the sample, the market has moved on.
 | open_drive | 23 | -37.7% | 177 | -15.4% |
 | open_drive_x4 | 0 | +0.0% | 177 | -33.5% |
 
-Live-only variants (no history to backtest): claude_bias, claude_confirm
+Live-only variants (no history to backtest): claude_bias, claude_confirm, catalyst_sniper
 
 Exit reasons:
 
-- gap_fade: {'time': 72, 'take_profit': 53}
 - gap_with: {'time': 75, 'take_profit': 50}
 - oil_lead: {'time': 103, 'take_profit': 69}
 - orb15_tp100: {'stop_loss': 181, 'take_profit': 63, 'time': 4}
