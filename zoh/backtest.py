@@ -88,6 +88,7 @@ def compound(trades_by_day, days, config):
 
 
 HERO_TARGET = 2000
+ULTRA_TARGETS = (50_000, 500_000)  # the "500 -> 500k" question
 SIZINGS = (0.3, 0.5, 1.0)
 RECENT_DAYS = 63  # ~3 months: does the edge still hold in the current regime?
 
@@ -164,6 +165,9 @@ def run(config, by_day, cross_by_day=None, weekdays=None):
             "id": variant["id"], "trades": len(pnl),
             "hero": {r: hero_odds(pnl, r, start, HERO_TARGET, config["dead_equity"])
                      for r in SIZINGS},
+            "ultra": {t: hero_odds(pnl, 1.0, start, t, config["dead_equity"], max_trades=1000)
+                      for t in ULTRA_TARGETS},
+            "multiples": sorted((t["exit"] / t["entry"] for t in trades.values()), reverse=True)[:5],
             "win_rate": len(wins) / len(pnl) if pnl else 0,
             "avg_win": sum(wins) / len(wins) if wins else 0,
             "avg_loss": sum(losses) / len(losses) if losses else 0,
@@ -247,6 +251,13 @@ def report(config, days, results, rv=None, detail=False):
     for r in sorted(results, key=lambda r: max(r["hero"].values()), reverse=True):
         lines.append(f"| {r['id']} | " + " | ".join(f"{r['hero'][s]:.1%}" for s in SIZINGS)
                      + " |")
+    lines += ["", "## Ultra-aggressive: all-in odds of $500 → $50k / $500k, and the best multiples", "",
+              "| variant | trades | win% | P(→$50k) | P(→$500k) | top 5 multiples |",
+              "|---|---|---|---|---|---|"]
+    for r in sorted(results, key=lambda r: (r["ultra"][500_000], r["ultra"][50_000]), reverse=True):
+        tops = ", ".join(f"{m:.0f}x" for m in r["multiples"])
+        lines.append(f"| {r['id']} | {r['trades']} | {r['win_rate']:.0%} | {r['ultra'][50_000]:.2%} | "
+                     f"{r['ultra'][500_000]:.2%} | {tops} |")
     lines += ["", f"## Regime check: last {RECENT_DAYS} trading days vs full period", "",
               "If a variant only works in the old part of the sample, the market has moved on.",
               "",
