@@ -35,7 +35,7 @@
     {"id": "claude_confirm", "signal": "bias", "confirm": true, "after_minutes": 10, "threshold_pct": 0.1, "target_delta": 0.3, "take_profit": 1.0, "stop_loss": null, "entry_cutoff": "10:30"},
     {"id": "open_drive_x4", "signal": "momentum", "after_minutes": 10, "threshold_pct": 0.15, "target_delta": 0.15, "take_profit": 3.0, "stop_loss": null, "entry_cutoff": "10:00", "days": "non_event"},
     {"id": "open_drive_run", "signal": "momentum", "after_minutes": 10, "threshold_pct": 0.15, "target_delta": 0.3, "take_profit": null, "stop_loss": null, "trail_after": 1.0, "trail_giveback": 0.4, "entry_cutoff": "10:00", "days": "non_event"},
-    {"id": "catalyst_sniper", "signal": "catalyst", "after_minutes": 15, "move_pct": 1.0, "target_delta": 0.2, "take_profit": null, "stop_loss": null, "entry_cutoff": "12:00"},
+    {"id": "catalyst_sniper", "signal": "catalyst", "after_minutes": 15, "move_pct": 1.0, "target_delta": 0.2, "take_profit": null, "stop_loss": null, "trail_after": 1.0, "trail_giveback": 0.4, "entry_cutoff": "12:00"},
     {"id": "oil_lead", "signal": "cross", "asset": "USO", "sign": -1, "after_minutes": 15, "threshold_pct": 0.5, "target_delta": 0.3, "take_profit": 1.0, "stop_loss": null, "entry_cutoff": "10:30"}
   ]
 }
