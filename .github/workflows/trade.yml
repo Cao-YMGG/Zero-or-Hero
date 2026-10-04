@@ -1,0 +1,66 @@
+name: Trade
+
+# Scheduled workflows only run from the default branch. Two crons cover both EDT and EST;
+# the bot exits immediately when started before 09:00 ET, and the concurrency group queues
+# the second run behind the first, which then sees the day is done.
+on:
+  schedule:
+    - cron: "25 13 * * 1-5"
+    - cron: "25 14 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Shadow trades only (no real paper orders)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: trade
+  cancel-in-progress: false
+
+env:
+  APCA_API_KEY_ID: ${{ secrets.APCA_API_KEY_ID }}
+  APCA_API_SECRET_KEY: ${{ secrets.APCA_API_SECRET_KEY }}
+  DRY_RUN_FLAG: ${{ inputs.dry_run && '--dry-run' || '' }}
+
+jobs:
+  morning:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Trade until 12:45 ET
+        run: python -m zoh.bot --until 12:45 $DRY_RUN_FLAG
+      - name: Commit journal
+        if: always()
+        run: .github/commit-journal.sh "morning"
+
+  # Runs even if the morning leg failed so open positions are always managed and closed.
+  afternoon:
+    needs: morning
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Trade to exit time and close out
+        run: python -m zoh.bot $DRY_RUN_FLAG
+      - name: Review and promote
+        if: always()
+        run: python -m zoh.review
+      - name: Commit journal
+        if: always()
+        run: .github/commit-journal.sh "afternoon"
