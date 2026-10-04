@@ -31,5 +31,9 @@ already in a big pre-market gap (> 4%): product traction, legal rulings, regulat
 major contracts, sector-moving news. Research (journal/research/SNIPER.md) shows a purely
 mechanical "biggest mover" rule fires most days and loses; the edge has to come from the
 catalyst judgment. Leave it null unless the case is clear.
+Pick the SOURCE of the catalyst, not the echo: on 2026-09-21 Meta (Muse, gap +2.3%) ran to
++10% while AMD/INTC, the CPU beneficiaries, had already gapped 4-7% and added little after
+the open (journal/research/SNIPER.md, EVOLUTION.md v7). Second-order names qualify only if
+they have not gapped yet.
 
 Never edit a bias file after the open: it is the record the variant is scored on.
