@@ -14,7 +14,7 @@ from datetime import datetime, timedelta
 
 from . import journal
 from .alpaca import Alpaca
-from .strategy import (ET, LIVE_ONLY_SIGNALS, TRADING_MINUTES_PER_YEAR, bs_delta, bs_price,
+from .strategy import (ET, LIVE_ONLY_SIGNALS, cross_assets, TRADING_MINUTES_PER_YEAR, bs_delta, bs_price,
                        check_exit, contracts_for, current_phase, day_context, evaluate_signal,
                        hhmm, parse_bar, regular_session, years_to_close)
 
@@ -110,7 +110,7 @@ def hero_odds(pnl, risk, start, target, dead, paths=4000, max_trades=500, seed=7
     return wins / paths
 
 
-def load_days(api, symbol, days_back):
+def load_days(api, symbol, days_back, min_bars=300):
     end = datetime.now(ET) - timedelta(minutes=20)
     start = end - timedelta(days=days_back)
     bars = regular_session([parse_bar(b) for b in api.stock_bars(symbol, start, end)])
@@ -118,17 +118,18 @@ def load_days(api, symbol, days_back):
     for bar in bars:
         by_day[bar["t"].date()].append(bar)
     # drop thin days (half sessions / data gaps)
-    return {d: b for d, b in sorted(by_day.items()) if len(b) >= 300}
+    return {d: b for d, b in sorted(by_day.items()) if len(b) >= min_bars}
 
 
-def run(config, by_day):
+def run(config, by_day, cross_by_day=None):
     iv, slip = config["backtest"]["iv"], config["backtest"]["slippage"]
     exit_at = hhmm(config["exit_time"])
     days = list(by_day)
     events = journal.load_events()
     contexts, prev = {}, None
     for day, bars in by_day.items():
-        contexts[day] = day_context(day, events, prev, bars[0]["o"])
+        cross = {sym: days_.get(day, []) for sym, days_ in (cross_by_day or {}).items()}
+        contexts[day] = day_context(day, events, prev, bars[0]["o"], cross=cross)
         prev = bars[-1]["c"]
     results = []
     for variant in config["variants"]:
@@ -230,8 +231,11 @@ def main():
     parser.add_argument("--out", help="also write the markdown report here")
     args = parser.parse_args()
     config = journal.load_config()
-    by_day = load_days(Alpaca(), config["underlying"], args.days)
-    days, results = run(config, by_day)
+    api = Alpaca()
+    by_day = load_days(api, config["underlying"], args.days)
+    cross = {sym: load_days(api, sym, args.days, min_bars=100)
+             for sym in cross_assets(config["variants"])}
+    days, results = run(config, by_day, cross)
     text = report(config, days, results, realized_vol(by_day))
     print(text)
     if args.out:

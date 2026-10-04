@@ -32,7 +32,7 @@
  └─ review：挑战者最近 20 笔明显优于冠军 → 自动晋升，记入 EVOLUTION.md
 
 每个交易日 08:50 ET (Claude 盘前会话)
- └─ 查期货、新闻、经济日历 → 写下当天 call / put / 不做 → journal/bias/
+ └─ 查期货、新闻、经济日历、油价、美债收益率、美元 → 写下当天 call / put / 不做 → journal/bias/
     → 影子变体 claude_bias / claude_confirm 按它交易，和纯价格策略同台比赛
 
 每周 (Claude 进化会话)
