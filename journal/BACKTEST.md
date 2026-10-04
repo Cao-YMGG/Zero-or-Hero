@@ -22,6 +22,16 @@ Realised intraday vol over the period: 10.6% (if far from the IV above, recalibr
 | open_drive | 3.8% | 6.5% | 14.7% |
 | open_drive_run | 5.4% | 7.4% | 10.0% |
 
+## Ultra-aggressive: all-in odds of $500 → $50k / $500k, and the best multiples
+
+| variant | trades | win% | P(→$50k) | P(→$500k) | top 5 multiples |
+|---|---|---|---|---|---|
+| gap_with | 125 | 42% | 0.30% | 0.03% | 3x, 2x, 2x, 2x, 2x |
+| open_drive_calm | 177 | 38% | 0.15% | 0.03% | 4x, 3x, 2x, 2x, 2x |
+| open_drive_x4 | 177 | 16% | 0.10% | 0.00% | 5x, 5x, 5x, 5x, 4x |
+| open_drive_run | 177 | 38% | 0.07% | 0.00% | 9x, 8x, 5x, 4x, 4x |
+| open_drive | 200 | 36% | 0.07% | 0.00% | 4x, 3x, 3x, 2x, 2x |
+
 ## Regime check: last 63 trading days vs full period
 
 If a variant only works in the old part of the sample, the market has moved on.
