@@ -28,6 +28,21 @@ Realised intraday vol over the period: 10.6% (if far from the IV above, recalibr
 | orb15_tp100 | 2.4% | 5.4% | 10.2% |
 | open_drive_macro | 0.6% | 1.8% | 6.7% |
 
+## Regime check: last 63 trading days vs full period
+
+If a variant only works in the old part of the sample, the market has moved on.
+
+| variant | full: trades | full: avg | full: odds (100%) | recent: trades | recent: avg | recent: odds (100%) | verdict |
+|---|---|---|---|---|---|---|---|
+| open_drive_calm | 177 | -15.4% | 15.4% | 40 | -24.5% | 13.4% | holding up |
+| open_drive | 200 | -18.0% | 14.7% | 44 | -26.6% | 12.7% | holding up |
+| gap_with | 125 | -9.0% | 17.6% | 31 | -26.3% | 12.2% | fading |
+| oil_lead | 172 | -11.2% | 17.4% | 47 | -27.1% | 10.9% | fading |
+| orb15_tp100 | 248 | -11.3% | 10.2% | 63 | -14.7% | 9.5% | holding up |
+| gap_fade | 125 | -7.8% | 18.0% | 31 | -46.4% | 6.8% | broken |
+| open_drive_macro | 23 | -37.7% | 6.7% | 4 | -47.6% | 6.7% | holding up |
+| rates_lead | 185 | -28.3% | 10.8% | 46 | -52.1% | 5.2% | fading |
+
 ## Macro days (CPI / NFP / FOMC) vs other days — expectancy per trade
 
 | variant | macro-day trades | macro-day avg | other trades | other avg |
