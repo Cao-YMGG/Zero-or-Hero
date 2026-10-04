@@ -103,6 +103,15 @@ class ContextTests(unittest.TestCase):
         self.assertIsNone(evaluate_signal(rising, variant, put_ctx))  # price disagrees
         self.assertIsNone(evaluate_signal(rising, variant, day_context(self.day, {})))
 
+    def test_weekday_filter(self):
+        bars = make_bars([100 + i * 0.05 for i in range(15)])
+        variant = {"signal": "momentum", "after_minutes": 10, "threshold_pct": 0.15,
+                   "weekdays": [0, 2, 4]}
+        wed = day_context(datetime(2026, 10, 14).date(), {})
+        thu = day_context(datetime(2026, 10, 15).date(), {})
+        self.assertEqual(evaluate_signal(bars, variant, wed), "call")
+        self.assertIsNone(evaluate_signal(bars, variant, thu))
+
     def test_macro_calendar_loads(self):
         events = journal.load_events()
         self.assertIn("CPI", events["2026-10-14"])
