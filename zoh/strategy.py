@@ -114,7 +114,11 @@ def signal_gap(bars, variant, ctx):
     """Overnight gap: once N minutes have traded, follow (or fade) a gap of at least X%."""
     if not bars or bars[-1]["t"].time() < minutes_after_open(variant.get("after_minutes", 1)):
         return None
-    return _flip(_gap_direction(ctx, variant.get("min_gap_pct", 0.3)), variant)
+    direction = _gap_direction(ctx, variant.get("min_gap_pct", 0.3))
+    sides = variant.get("sides")  # e.g. ["up"]: only act on up gaps
+    if direction and sides and ("up" if direction == "call" else "down") not in sides:
+        return None
+    return _flip(direction, variant)
 
 
 def signal_bias(bars, variant, ctx):

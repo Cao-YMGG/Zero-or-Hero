@@ -66,6 +66,16 @@ class ContextTests(unittest.TestCase):
         self.assertEqual(evaluate_signal(bars, {**variant, "fade": True}, up), "put")
         self.assertIsNone(evaluate_signal(bars, variant, flat))
 
+    def test_gap_sides(self):
+        bars = make_bars([100.0, 100.0])
+        variant = {"signal": "gap", "after_minutes": 1, "min_gap_pct": 2.0, "sides": ["up"]}
+        up = day_context(self.day, {}, prev_close=100, open_price=102.5)
+        down = day_context(self.day, {}, prev_close=100, open_price=97.5)
+        self.assertEqual(evaluate_signal(bars, variant, up), "call")
+        self.assertIsNone(evaluate_signal(bars, variant, down))
+        rebound = {**variant, "sides": ["down"], "fade": True}
+        self.assertEqual(evaluate_signal(bars, rebound, down), "call")
+
     def test_bias_signal_and_confirm(self):
         rising = make_bars([100 + i * 0.02 for i in range(12)])
         put_bias = day_context(self.day, {}, bias={"bias": "put"})

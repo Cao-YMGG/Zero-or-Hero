@@ -37,6 +37,7 @@
     {"id": "nvda_open_run", "underlying": "NVDA", "weekdays": [0, 2, 4], "signal": "momentum", "after_minutes": 10, "threshold_pct": 0.15, "target_delta": 0.3, "take_profit": null, "stop_loss": null, "trail_after": 1.0, "trail_giveback": 0.4, "entry_cutoff": "10:00", "days": "non_event"},
     {"id": "amd_open_calm", "underlying": "AMD", "weekdays": [0, 2, 4], "signal": "momentum", "after_minutes": 10, "threshold_pct": 0.15, "target_delta": 0.3, "take_profit": 1.0, "stop_loss": null, "entry_cutoff": "10:00", "days": "non_event"},
     {"id": "meta_open_calm", "underlying": "META", "weekdays": [0, 2, 4], "signal": "momentum", "after_minutes": 10, "threshold_pct": 0.15, "target_delta": 0.3, "take_profit": 1.0, "stop_loss": null, "entry_cutoff": "10:00", "days": "non_event"},
+    {"id": "amd_gap_rebound", "underlying": "AMD", "weekdays": [0, 2, 4], "signal": "gap", "sides": ["down"], "fade": true, "after_minutes": 15, "min_gap_pct": 2.0, "target_delta": 0.3, "take_profit": null, "stop_loss": null, "trail_after": 1.0, "trail_giveback": 0.4, "entry_cutoff": "10:30", "days": "non_event"},
     {"id": "catalyst_sniper", "signal": "catalyst", "after_minutes": 15, "move_pct": 1.0, "target_delta": 0.2, "take_profit": null, "stop_loss": null, "trail_after": 1.0, "trail_giveback": 0.4, "entry_cutoff": "12:00"}
   ]
 }
