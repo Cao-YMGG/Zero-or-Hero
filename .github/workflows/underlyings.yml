@@ -13,6 +13,9 @@ on:
       suffix:
         description: "Report file suffix (e.g. _2m)"
         default: ""
+      variants:
+        description: "Optional JSON variant list (path), instead of config/strategy.json"
+        default: ""
       trades:
         description: "Append trade-by-trade log"
         type: boolean
@@ -35,6 +38,7 @@ jobs:
       DAYS: ${{ inputs.days || '365' }}
       SUFFIX: ${{ inputs.suffix || '' }}
       TRADES_FLAG: ${{ inputs.trades && '--trades' || '' }}
+      VARIANTS_FLAG: ${{ inputs.variants && format('--variants {0}', inputs.variants) || '' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -44,7 +48,7 @@ jobs:
         run: |
           for sym in $SYMBOLS; do
             python -m zoh.backtest --underlying $sym --iv auto --slippage 0.03 --mwf \
-              --days $DAYS $TRADES_FLAG --out journal/research/underlyings/$sym$SUFFIX.md
+              --days $DAYS $TRADES_FLAG $VARIANTS_FLAG --out journal/research/underlyings/$sym$SUFFIX.md
           done
       - name: Commit results
         run: |

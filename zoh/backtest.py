@@ -7,6 +7,7 @@ a ranking of ideas, not a P&L forecast: real 0DTE skew, spreads and IV crush dif
     python -m zoh.backtest --days 365 [--out journal/BACKTEST.md]
 """
 import argparse
+import json
 import math
 import random
 from collections import defaultdict
@@ -283,12 +284,15 @@ def main():
     parser.add_argument("--iv", help="option IV: a number, or 'auto' = realised vol x 1.15")
     parser.add_argument("--slippage", type=float, help="override slippage (single stocks ~0.03)")
     parser.add_argument("--trades", action="store_true", help="append a trade-by-trade log")
+    parser.add_argument("--variants", help="JSON file with a variant list to test instead of config")
     parser.add_argument("--mwf", action="store_true",
                         help="trade only Mon/Wed/Fri (single-stock same-day expiries)")
     args = parser.parse_args()
     config = journal.load_config()
     if args.underlying:
         config["underlying"] = args.underlying
+    if args.variants:
+        config["variants"] = json.loads((journal.ROOT / args.variants).read_text())
     api = Alpaca()
     by_day = load_days(api, config["underlying"], args.days)
     if args.iv:

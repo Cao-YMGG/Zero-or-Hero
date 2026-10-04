@@ -1,0 +1,364 @@
+[
+ {
+  "id": "gapw_d15_tp1",
+  "signal": "gap",
+  "after_minutes": 1,
+  "min_gap_pct": 0.3,
+  "entry_cutoff": "10:00",
+  "take_profit": 1.0,
+  "stop_loss": null,
+  "target_delta": 0.15
+ },
+ {
+  "id": "gapw_d15_tp3",
+  "signal": "gap",
+  "after_minutes": 1,
+  "min_gap_pct": 0.3,
+  "entry_cutoff": "10:00",
+  "take_profit": 3.0,
+  "stop_loss": null,
+  "target_delta": 0.15
+ },
+ {
+  "id": "gapw_d15_run",
+  "signal": "gap",
+  "after_minutes": 1,
+  "min_gap_pct": 0.3,
+  "entry_cutoff": "10:00",
+  "take_profit": null,
+  "stop_loss": null,
+  "trail_after": 1.0,
+  "trail_giveback": 0.4,
+  "target_delta": 0.15
+ },
+ {
+  "id": "gapw_d08_tp1",
+  "signal": "gap",
+  "after_minutes": 1,
+  "min_gap_pct": 0.3,
+  "entry_cutoff": "10:00",
+  "take_profit": 1.0,
+  "stop_loss": null,
+  "target_delta": 0.08
+ },
+ {
+  "id": "gapw_d08_tp3",
+  "signal": "gap",
+  "after_minutes": 1,
+  "min_gap_pct": 0.3,
+  "entry_cutoff": "10:00",
+  "take_profit": 3.0,
+  "stop_loss": null,
+  "target_delta": 0.08
+ },
+ {
+  "id": "gapw_d08_run",
+  "signal": "gap",
+  "after_minutes": 1,
+  "min_gap_pct": 0.3,
+  "entry_cutoff": "10:00",
+  "take_profit": null,
+  "stop_loss": null,
+  "trail_after": 1.0,
+  "trail_giveback": 0.4,
+  "target_delta": 0.08
+ },
+ {
+  "id": "gapw1_d15_tp1",
+  "signal": "gap",
+  "after_minutes": 1,
+  "min_gap_pct": 1.0,
+  "entry_cutoff": "10:00",
+  "take_profit": 1.0,
+  "stop_loss": null,
+  "target_delta": 0.15
+ },
+ {
+  "id": "gapw1_d15_tp3",
+  "signal": "gap",
+  "after_minutes": 1,
+  "min_gap_pct": 1.0,
+  "entry_cutoff": "10:00",
+  "take_profit": 3.0,
+  "stop_loss": null,
+  "target_delta": 0.15
+ },
+ {
+  "id": "gapw1_d15_run",
+  "signal": "gap",
+  "after_minutes": 1,
+  "min_gap_pct": 1.0,
+  "entry_cutoff": "10:00",
+  "take_profit": null,
+  "stop_loss": null,
+  "trail_after": 1.0,
+  "trail_giveback": 0.4,
+  "target_delta": 0.15
+ },
+ {
+  "id": "gapw1_d08_tp1",
+  "signal": "gap",
+  "after_minutes": 1,
+  "min_gap_pct": 1.0,
+  "entry_cutoff": "10:00",
+  "take_profit": 1.0,
+  "stop_loss": null,
+  "target_delta": 0.08
+ },
+ {
+  "id": "gapw1_d08_tp3",
+  "signal": "gap",
+  "after_minutes": 1,
+  "min_gap_pct": 1.0,
+  "entry_cutoff": "10:00",
+  "take_profit": 3.0,
+  "stop_loss": null,
+  "target_delta": 0.08
+ },
+ {
+  "id": "gapw1_d08_run",
+  "signal": "gap",
+  "after_minutes": 1,
+  "min_gap_pct": 1.0,
+  "entry_cutoff": "10:00",
+  "take_profit": null,
+  "stop_loss": null,
+  "trail_after": 1.0,
+  "trail_giveback": 0.4,
+  "target_delta": 0.08
+ },
+ {
+  "id": "rebound_d15_tp1",
+  "signal": "gap",
+  "sides": [
+   "down"
+  ],
+  "fade": true,
+  "after_minutes": 15,
+  "min_gap_pct": 2.0,
+  "entry_cutoff": "10:30",
+  "days": "non_event",
+  "take_profit": 1.0,
+  "stop_loss": null,
+  "target_delta": 0.15
+ },
+ {
+  "id": "rebound_d15_tp3",
+  "signal": "gap",
+  "sides": [
+   "down"
+  ],
+  "fade": true,
+  "after_minutes": 15,
+  "min_gap_pct": 2.0,
+  "entry_cutoff": "10:30",
+  "days": "non_event",
+  "take_profit": 3.0,
+  "stop_loss": null,
+  "target_delta": 0.15
+ },
+ {
+  "id": "rebound_d15_run",
+  "signal": "gap",
+  "sides": [
+   "down"
+  ],
+  "fade": true,
+  "after_minutes": 15,
+  "min_gap_pct": 2.0,
+  "entry_cutoff": "10:30",
+  "days": "non_event",
+  "take_profit": null,
+  "stop_loss": null,
+  "trail_after": 1.0,
+  "trail_giveback": 0.4,
+  "target_delta": 0.15
+ },
+ {
+  "id": "rebound_d08_tp1",
+  "signal": "gap",
+  "sides": [
+   "down"
+  ],
+  "fade": true,
+  "after_minutes": 15,
+  "min_gap_pct": 2.0,
+  "entry_cutoff": "10:30",
+  "days": "non_event",
+  "take_profit": 1.0,
+  "stop_loss": null,
+  "target_delta": 0.08
+ },
+ {
+  "id": "rebound_d08_tp3",
+  "signal": "gap",
+  "sides": [
+   "down"
+  ],
+  "fade": true,
+  "after_minutes": 15,
+  "min_gap_pct": 2.0,
+  "entry_cutoff": "10:30",
+  "days": "non_event",
+  "take_profit": 3.0,
+  "stop_loss": null,
+  "target_delta": 0.08
+ },
+ {
+  "id": "rebound_d08_run",
+  "signal": "gap",
+  "sides": [
+   "down"
+  ],
+  "fade": true,
+  "after_minutes": 15,
+  "min_gap_pct": 2.0,
+  "entry_cutoff": "10:30",
+  "days": "non_event",
+  "take_profit": null,
+  "stop_loss": null,
+  "trail_after": 1.0,
+  "trail_giveback": 0.4,
+  "target_delta": 0.08
+ },
+ {
+  "id": "drive_d15_tp1",
+  "signal": "momentum",
+  "after_minutes": 10,
+  "threshold_pct": 0.15,
+  "entry_cutoff": "10:00",
+  "days": "non_event",
+  "take_profit": 1.0,
+  "stop_loss": null,
+  "target_delta": 0.15
+ },
+ {
+  "id": "drive_d15_tp3",
+  "signal": "momentum",
+  "after_minutes": 10,
+  "threshold_pct": 0.15,
+  "entry_cutoff": "10:00",
+  "days": "non_event",
+  "take_profit": 3.0,
+  "stop_loss": null,
+  "target_delta": 0.15
+ },
+ {
+  "id": "drive_d15_run",
+  "signal": "momentum",
+  "after_minutes": 10,
+  "threshold_pct": 0.15,
+  "entry_cutoff": "10:00",
+  "days": "non_event",
+  "take_profit": null,
+  "stop_loss": null,
+  "trail_after": 1.0,
+  "trail_giveback": 0.4,
+  "target_delta": 0.15
+ },
+ {
+  "id": "drive_d08_tp1",
+  "signal": "momentum",
+  "after_minutes": 10,
+  "threshold_pct": 0.15,
+  "entry_cutoff": "10:00",
+  "days": "non_event",
+  "take_profit": 1.0,
+  "stop_loss": null,
+  "target_delta": 0.08
+ },
+ {
+  "id": "drive_d08_tp3",
+  "signal": "momentum",
+  "after_minutes": 10,
+  "threshold_pct": 0.15,
+  "entry_cutoff": "10:00",
+  "days": "non_event",
+  "take_profit": 3.0,
+  "stop_loss": null,
+  "target_delta": 0.08
+ },
+ {
+  "id": "drive_d08_run",
+  "signal": "momentum",
+  "after_minutes": 10,
+  "threshold_pct": 0.15,
+  "entry_cutoff": "10:00",
+  "days": "non_event",
+  "take_profit": null,
+  "stop_loss": null,
+  "trail_after": 1.0,
+  "trail_giveback": 0.4,
+  "target_delta": 0.08
+ },
+ {
+  "id": "drive1_d15_tp1",
+  "signal": "momentum",
+  "after_minutes": 30,
+  "threshold_pct": 1.0,
+  "entry_cutoff": "10:30",
+  "days": "non_event",
+  "take_profit": 1.0,
+  "stop_loss": null,
+  "target_delta": 0.15
+ },
+ {
+  "id": "drive1_d15_tp3",
+  "signal": "momentum",
+  "after_minutes": 30,
+  "threshold_pct": 1.0,
+  "entry_cutoff": "10:30",
+  "days": "non_event",
+  "take_profit": 3.0,
+  "stop_loss": null,
+  "target_delta": 0.15
+ },
+ {
+  "id": "drive1_d15_run",
+  "signal": "momentum",
+  "after_minutes": 30,
+  "threshold_pct": 1.0,
+  "entry_cutoff": "10:30",
+  "days": "non_event",
+  "take_profit": null,
+  "stop_loss": null,
+  "trail_after": 1.0,
+  "trail_giveback": 0.4,
+  "target_delta": 0.15
+ },
+ {
+  "id": "drive1_d08_tp1",
+  "signal": "momentum",
+  "after_minutes": 30,
+  "threshold_pct": 1.0,
+  "entry_cutoff": "10:30",
+  "days": "non_event",
+  "take_profit": 1.0,
+  "stop_loss": null,
+  "target_delta": 0.08
+ },
+ {
+  "id": "drive1_d08_tp3",
+  "signal": "momentum",
+  "after_minutes": 30,
+  "threshold_pct": 1.0,
+  "entry_cutoff": "10:30",
+  "days": "non_event",
+  "take_profit": 3.0,
+  "stop_loss": null,
+  "target_delta": 0.08
+ },
+ {
+  "id": "drive1_d08_run",
+  "signal": "momentum",
+  "after_minutes": 30,
+  "threshold_pct": 1.0,
+  "entry_cutoff": "10:30",
+  "days": "non_event",
+  "take_profit": null,
+  "stop_loss": null,
+  "trail_after": 1.0,
+  "trail_giveback": 0.4,
+  "target_delta": 0.08
+ }
+]
