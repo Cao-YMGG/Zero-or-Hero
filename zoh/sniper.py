@@ -23,6 +23,13 @@ from .alpaca import Alpaca
 from .strategy import ET, bs_price, parse_bar, regular_session
 
 SYMBOLS = ["META", "NVDA", "TSLA", "AAPL", "AMZN", "MSFT", "GOOGL", "AVGO", "AMD", "MU"]
+CONFIRM_ONLY = ["INTC", "ARM", "QCOM", "SMH"]  # theme peers used for confirmation, not traded
+# Theme groups: a move confirmed by peers in the same group is a theme day, not noise.
+GROUPS = {
+    "cpu": ["AMD", "INTC", "ARM", "QCOM"],
+    "ai_semis": ["NVDA", "AVGO", "MU", "AMD", "SMH"],
+    "internet": ["META", "GOOGL", "AMZN", "MSFT", "AAPL"],
+}
 START = date(2026, 1, 26)
 IV_MULT = 1.15
 IV_FLOOR = 0.25
@@ -31,6 +38,12 @@ EXIT = time(15, 45)
 TRADING_MINUTES = 252 * 390
 
 RULES = [
+    {"id": "theme_t1000_m15_p2", "check": time(10, 0), "move": 0.015, "peers": 2, "peer_move": 0.01,
+     "max_gap": 0.06},
+    {"id": "theme_t1030_m20_p2", "check": time(10, 30), "move": 0.020, "peers": 2, "peer_move": 0.01,
+     "max_gap": 0.06},
+    {"id": "theme_t1030_m20_p3", "check": time(10, 30), "move": 0.020, "peers": 3, "peer_move": 0.01,
+     "max_gap": 0.06},
     {"id": "t1000_m15", "check": time(10, 0), "move": 0.015},
     {"id": "t1000_m20", "check": time(10, 0), "move": 0.020},
     {"id": "t1030_m20", "check": time(10, 30), "move": 0.020},
@@ -58,7 +71,7 @@ def realised_vol(closes):
 
 def load(api, start, end):
     data = {}
-    for sym in SYMBOLS:
+    for sym in SYMBOLS + CONFIRM_ONLY:
         bars = regular_session([parse_bar(b) for b in api.stock_bars(sym, start, end)])
         by_day = defaultdict(list)
         for b in bars:
@@ -68,14 +81,33 @@ def load(api, start, end):
     return data
 
 
+def move_at(data, sym, day, check):
+    bars = data.get(sym, {}).get(day)
+    if not bars:
+        return None
+    at = [b for b in bars if b["t"].time() < check]
+    return at[-1]["c"] / bars[0]["o"] - 1 if at else None
+
+
+def peers_confirm(data, sym, day, rule, direction):
+    """How many same-group peers moved >= peer_move in the same direction by the check time."""
+    peers = {p for g in GROUPS.values() if sym in g for p in g if p != sym}
+    count = 0
+    for peer in peers:
+        m = move_at(data, peer, day, rule["check"])
+        if m is not None and m * direction >= rule["peer_move"]:
+            count += 1
+    return count
+
+
 def simulate(data, rule):
-    days = sorted(set().union(*(set(d) for d in data.values())))
+    days = sorted(set().union(*(set(d) for sym, d in data.items() if sym in SYMBOLS)))
     days = [d for d in days if d >= START]
     trades = []
     for day in days:
         best = None
         for sym, by_day in data.items():
-            if day not in by_day:
+            if sym not in SYMBOLS or day not in by_day:
                 continue
             prior = [d for d in sorted(by_day) if d < day]
             if len(prior) < 21:
@@ -83,7 +115,7 @@ def simulate(data, rule):
             prev_close = by_day[prior[-1]][-1]["c"]
             bars = by_day[day]
             o = bars[0]["o"]
-            if abs(o / prev_close - 1) > MAX_GAP:
+            if abs(o / prev_close - 1) > rule.get("max_gap", MAX_GAP):
                 continue
             at = [b for b in bars if b["t"].time() < rule["check"]]
             if not at:
@@ -91,6 +123,9 @@ def simulate(data, rule):
             spot = at[-1]["c"]
             move = spot / o - 1
             if abs(move) < rule["move"]:
+                continue
+            if rule.get("peers") and peers_confirm(data, sym, day, rule,
+                                                   1 if move > 0 else -1) < rule["peers"]:
                 continue
             if best is None or abs(move) > abs(best["move"]):
                 closes = [by_day[d][-1]["c"] for d in prior[-21:]]
@@ -149,6 +184,9 @@ def report(days, results):
              f"{OTM:.0%} OTM nearest expiry (same day Mon/Wed/Fri, next day Tue/Thu); exit 15:45. "
              f"Black-Scholes at trailing realised vol x {IV_MULT}, {SLIP:.0%} slippage + $0.02. "
              "Modelled prices — rank ideas, don't trust the dollar figures.", "",
+             "`theme_*` rules also require >= N same-group peers (CPU: AMD/INTC/ARM/QCOM; AI semis: "
+             "NVDA/AVGO/MU/AMD/SMH; internet: META/GOOGL/AMZN/MSFT/AAPL) to have moved >= 1% the same "
+             "way by the check time, and allow gaps up to 6% (theme days gap more).", "",
              "| rule | trades | trade days % | win % (>1x) | ≥5x | ≥10x | median x | mean x | "
              "P($500→$2k) | P($500→$50k) | all-in chain, actual order |",
              "|---|---|---|---|---|---|---|---|---|---|---|"]
