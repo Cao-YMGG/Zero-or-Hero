@@ -9,7 +9,7 @@
     {"name": "compounder", "min_equity": 2000, "risk_per_trade": 0.1},
     {"name": "preserve", "min_equity": 10000, "risk_per_trade": 0.03}
   ],
-  "backtest": {"iv": 0.16, "slippage": 0.03, "start_equity": 500},
+  "backtest": {"iv": 0.11, "slippage": 0.01, "start_equity": 500},
   "variants": [
     {"id": "orb30_hero", "signal": "orb", "or_minutes": 30, "target_delta": 0.3,
      "take_profit": null, "stop_loss": 0.5, "trail_after": 1.0, "trail_giveback": 0.4,

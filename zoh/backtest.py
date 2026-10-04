@@ -7,12 +7,13 @@ a ranking of ideas, not a P&L forecast: real 0DTE skew, spreads and IV crush dif
     python -m zoh.backtest --days 365 [--out journal/BACKTEST.md]
 """
 import argparse
+import math
 from collections import defaultdict
 from datetime import datetime, timedelta
 
 from . import journal
 from .alpaca import Alpaca
-from .strategy import (ET, MARKET_CLOSE, bs_delta, bs_price, check_exit, contracts_for,
+from .strategy import (ET, TRADING_MINUTES_PER_YEAR, bs_delta, bs_price, check_exit, contracts_for,
                        current_phase, evaluate_signal, hhmm, parse_bar, regular_session,
                        years_to_close)
 
@@ -127,7 +128,17 @@ def _count(items):
     return dict(counts)
 
 
-def report(config, days, results):
+def realized_vol(by_day):
+    """Annualised intraday (09:30-16:00) volatility from 1-minute log returns."""
+    rets = [math.log(b[i]["c"] / b[i - 1]["c"]) for b in by_day.values() for i in range(1, len(b))]
+    if len(rets) < 2:
+        return 0.0
+    mean = sum(rets) / len(rets)
+    var = sum((r - mean) ** 2 for r in rets) / (len(rets) - 1)
+    return math.sqrt(var * TRADING_MINUTES_PER_YEAR)
+
+
+def report(config, days, results, rv=None):
     lines = [
         f"# Backtest — {config['underlying']} 0DTE, {days[0]} → {days[-1]} ({len(days)} days)",
         "",
@@ -135,6 +146,10 @@ def report(config, days, results):
         f"{config['backtest']['slippage']:.0%} + $0.01 each side, start "
         f"${config['backtest']['start_equity']}, phase sizing from config. "
         "Option prices are modelled, not real quotes — use this to rank ideas.",
+        "",
+        f"Realised intraday vol over the period: {rv:.1%} (if far from the IV above, "
+        "recalibrate `backtest.iv` against live quotes from `python -m zoh.check`)."
+        if rv is not None else "",
         "",
         "| variant | trades | win% | avg win | avg loss | expectancy/trade | best | final $ | "
         "peak $ | max DD | 2x / 5x / 10x | ruined |",
@@ -160,10 +175,12 @@ def main():
     config = journal.load_config()
     by_day = load_days(Alpaca(), config["underlying"], args.days)
     days, results = run(config, by_day)
-    text = report(config, days, results)
+    text = report(config, days, results, realized_vol(by_day))
     print(text)
     if args.out:
-        (journal.ROOT / args.out).write_text(text)
+        out = journal.ROOT / args.out
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(text)
 
 
 if __name__ == "__main__":
