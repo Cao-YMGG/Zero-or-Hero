@@ -31,9 +31,12 @@ already in a big pre-market gap (> 4%): product traction, legal rulings, regulat
 major contracts, sector-moving news. Research (journal/research/SNIPER.md) shows a purely
 mechanical "biggest mover" rule fires most days and loses; the edge has to come from the
 catalyst judgment. Leave it null unless the case is clear.
-Pick the SOURCE of the catalyst, not the echo: on 2026-09-21 Meta (Muse, gap +2.3%) ran to
-+10% while AMD/INTC, the CPU beneficiaries, had already gapped 4-7% and added little after
-the open (journal/research/SNIPER.md, EVOLUTION.md v7). Second-order names qualify only if
-they have not gapped yet.
+What matters is whether the move is already in the price, not source vs echo. Pick the
+name in the catalyst chain with the most catalyst left relative to its gap: on 2026-09-21
+Meta (source, gap +2.3%) ran +10% while the CPU echoes had gapped 4-7%; on 2026-06-11
+Intel (source) gapped +6% and added 3%, while AMD (echo, gap +2%) ran +5.8%. News that
+breaks during market hours is the best case (2026-05-08 WSJ Apple-Intel report: both INTC
+and AMD gapped ~2% and ran +9-12%); news already gapped pre-market (2026-06-18 Intel-Apple
+post, INTC +8.8% gap) is usually spent.
 
 Never edit a bias file after the open: it is the record the variant is scored on.
