@@ -1,6 +1,6 @@
 {
   "underlying": "SPY",
-  "champion": "open_drive",
+  "champion": "gap_fade",
   "dead_equity": 50,
   "exit_time": "15:45",
   "poll_seconds": 30,
