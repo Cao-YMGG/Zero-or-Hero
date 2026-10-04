@@ -14,6 +14,11 @@ appears; the `claude_bias` / `claude_confirm` variants trade it in shadow mode.
   "events": ["CPI 08:30"],        // scheduled releases / speakers today
   "inputs": {"es_futures_pct": 0.4, "vix": 16.2, "wti_pct": -1.2, "us10y": 4.12,
              "us10y_change_bp": -3, "us2y_change_bp": -2, "dxy_pct": 0.1, "overnight": "..."},
+  "rotation": {                   // theme baskets, 1-week / 1-month returns
+    "heating": ["optical (LITE +15% 1w)", "GPU (NVDA +4% 1w)"],
+    "cooling": ["CPU (INTC -3% 1w after +33% 1m)", "storage (WDC -9% 1w)"],
+    "note": "money rotating from CPU into optical; SPY flat while themes diverge"
+  },
   "sniper": {                     // optional: at most ONE single stock with a fresh catalyst
     "symbol": "META", "direction": "call",
     "catalyst": "Muse hit #1 on the US App Store over the weekend; Wells Fargo PT raise",
