@@ -20,7 +20,12 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
 ## Evolution protocol (weekly review session)
 1. Read `journal/REVIEW.md`, `journal/trades.csv`, `journal/equity.csv`, `journal/BACKTEST.md`,
    `EVOLUTION.md`.
-2. Diagnose: which variants make money live vs backtest? Is the fade control as good as the
+2. Regime first: markets change (themes, volatility, rate/oil sensitivity). Weight recent
+   evidence over old: live shadow trades > the backtest's "Regime check" (last ~3 months) >
+   the full-year backtest. Note in EVOLUTION.md whether the regime looks different from last
+   week (volatility level, leading themes, stock/bond correlation) and retire variants the
+   regime check marks "broken" even if their full-year numbers look fine.
+   Then diagnose: which variants make money live vs backtest? Is the fade control as good as the
    trend versions (then direction has no edge)? Are shadow fills far from real fills?
 3. Change at most a few things per week, each with a stated hypothesis: add 1–2 new
    challenger variants, retire variants with ≥20 live trades and clearly negative
