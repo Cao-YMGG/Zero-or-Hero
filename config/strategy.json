@@ -1,0 +1,35 @@
+{
+  "underlying": "SPY",
+  "champion": "open_drive",
+  "dead_equity": 50,
+  "exit_time": "15:45",
+  "poll_seconds": 30,
+  "phases": [
+    {"name": "zero-or-hero", "min_equity": 0, "risk_per_trade": 1.0},
+    {"name": "compounder", "min_equity": 2000, "risk_per_trade": 0.1},
+    {"name": "preserve", "min_equity": 10000, "risk_per_trade": 0.03}
+  ],
+  "backtest": {"iv": 0.11, "slippage": 0.01, "start_equity": 500},
+  "variants": [
+    {"id": "orb30_hero", "signal": "orb", "or_minutes": 30, "target_delta": 0.3,
+     "take_profit": null, "stop_loss": 0.5, "trail_after": 1.0, "trail_giveback": 0.4,
+     "entry_cutoff": "13:00"},
+    {"id": "orb30_tp100", "signal": "orb", "or_minutes": 30, "target_delta": 0.3,
+     "take_profit": 1.0, "stop_loss": 0.5, "entry_cutoff": "13:00"},
+    {"id": "orb15_tp100", "signal": "orb", "or_minutes": 15, "target_delta": 0.3,
+     "take_profit": 1.0, "stop_loss": 0.5, "entry_cutoff": "13:00"},
+    {"id": "orb60_tp100", "signal": "orb", "or_minutes": 60, "target_delta": 0.3,
+     "take_profit": 1.0, "stop_loss": 0.5, "entry_cutoff": "13:00"},
+    {"id": "orb30_fade", "signal": "orb", "or_minutes": 30, "fade": true, "target_delta": 0.3,
+     "take_profit": 1.0, "stop_loss": 0.5, "entry_cutoff": "13:00"},
+    {"id": "mom60_hero", "signal": "momentum", "after_minutes": 60, "threshold_pct": 0.3,
+     "target_delta": 0.25, "take_profit": null, "stop_loss": 0.6, "trail_after": 1.0,
+     "trail_giveback": 0.4, "entry_cutoff": "13:00"},
+    {"id": "orb30_lotto", "signal": "orb", "or_minutes": 30, "target_delta": 0.12,
+     "take_profit": 3.0, "stop_loss": null, "entry_cutoff": "12:00"},
+    {"id": "open_drive", "signal": "momentum", "after_minutes": 10, "threshold_pct": 0.15,
+     "target_delta": 0.3, "take_profit": 1.0, "stop_loss": null, "entry_cutoff": "10:00"},
+    {"id": "power_hour", "signal": "momentum", "after_minutes": 300, "threshold_pct": 0.3,
+     "target_delta": 0.3, "take_profit": 1.0, "stop_loss": null, "entry_cutoff": "15:15"}
+  ]
+}

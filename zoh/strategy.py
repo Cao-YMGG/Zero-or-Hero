@@ -1,0 +1,172 @@
+"""Pure strategy logic shared by the live bot, the backtester and the tests.
+
+Bars are dicts with keys t (aware datetime in US/Eastern), o, h, l, c.
+A variant is a dict from config/strategy.json describing one strategy.
+"""
+import math
+from datetime import datetime, time, timedelta
+from zoneinfo import ZoneInfo
+
+ET = ZoneInfo("America/New_York")
+MARKET_OPEN = time(9, 30)
+MARKET_CLOSE = time(16, 0)
+TRADING_MINUTES_PER_YEAR = 252 * 390
+
+
+def hhmm(text):
+    hours, minutes = map(int, text.split(":"))
+    return time(hours, minutes)
+
+
+def minutes_after_open(minutes):
+    return (datetime(2000, 1, 1, 9, 30) + timedelta(minutes=minutes)).time()
+
+
+def parse_bar(raw):
+    t = datetime.fromisoformat(raw["t"].replace("Z", "+00:00")).astimezone(ET)
+    return {"t": t, "o": raw["o"], "h": raw["h"], "l": raw["l"], "c": raw["c"]}
+
+
+def regular_session(bars):
+    return [b for b in bars if MARKET_OPEN <= b["t"].time() < MARKET_CLOSE]
+
+
+# --- signals -------------------------------------------------------------
+# Each signal sees today's closed bars so far and returns "call", "put" or None.
+
+def _flip(direction, variant):
+    if direction and variant.get("fade"):
+        return "put" if direction == "call" else "call"
+    return direction
+
+
+def signal_orb(bars, variant):
+    """Opening-range breakout: close beyond the high/low of the first N minutes."""
+    end = minutes_after_open(variant.get("or_minutes", 30))
+    rng = [b for b in bars if b["t"].time() < end]
+    after = [b for b in bars if b["t"].time() >= end]
+    if len(rng) < 3 or not after:
+        return None
+    hi = max(b["h"] for b in rng)
+    lo = min(b["l"] for b in rng)
+    buffer = variant.get("buffer_pct", 0) / 100
+    last = after[-1]["c"]
+    direction = None
+    if last > hi * (1 + buffer):
+        direction = "call"
+    elif last < lo * (1 - buffer):
+        direction = "put"
+    return _flip(direction, variant)
+
+
+def signal_momentum(bars, variant):
+    """Trend day: after N minutes, follow the move from the open if it exceeds a threshold."""
+    if not bars or bars[-1]["t"].time() < minutes_after_open(variant.get("after_minutes", 60)):
+        return None
+    ret = bars[-1]["c"] / bars[0]["o"] - 1
+    threshold = variant.get("threshold_pct", 0.3) / 100
+    direction = None
+    if ret >= threshold:
+        direction = "call"
+    elif ret <= -threshold:
+        direction = "put"
+    return _flip(direction, variant)
+
+
+SIGNALS = {"orb": signal_orb, "momentum": signal_momentum}
+
+
+def evaluate_signal(bars, variant):
+    return SIGNALS[variant["signal"]](bars, variant)
+
+
+# --- exits -----------------------------------------------------------------
+
+def check_exit(entry, peak, price, variant):
+    """Exit reason for an open long option, or None. Time exits are the caller's job."""
+    tp = variant.get("take_profit")
+    if tp is not None and price >= entry * (1 + tp):
+        return "take_profit"
+    sl = variant.get("stop_loss")
+    if sl is not None and price <= entry * (1 - sl):
+        return "stop_loss"
+    trail_after = variant.get("trail_after")
+    if trail_after is not None and peak >= entry * (1 + trail_after):
+        floor = max(entry, peak * (1 - variant.get("trail_giveback", 0.4)))
+        if price <= floor:
+            return "trail"
+    return None
+
+
+# --- option math -----------------------------------------------------------
+
+def norm_cdf(x):
+    return 0.5 * (1 + math.erf(x / math.sqrt(2)))
+
+
+def years_to_close(now, close=MARKET_CLOSE):
+    minutes = (datetime.combine(now.date(), close, now.tzinfo) - now).total_seconds() / 60
+    return max(minutes, 0) / TRADING_MINUTES_PER_YEAR
+
+
+def bs_price(spot, strike, years, iv, kind):
+    if years <= 0 or iv <= 0:
+        return max(spot - strike, 0.0) if kind == "call" else max(strike - spot, 0.0)
+    sd = iv * math.sqrt(years)
+    d1 = (math.log(spot / strike) + 0.5 * sd * sd) / sd
+    d2 = d1 - sd
+    if kind == "call":
+        return spot * norm_cdf(d1) - strike * norm_cdf(d2)
+    return strike * norm_cdf(-d2) - spot * norm_cdf(-d1)
+
+
+def bs_delta(spot, strike, years, iv, kind):
+    if years <= 0 or iv <= 0:
+        itm = spot > strike if kind == "call" else spot < strike
+        return (1.0 if itm else 0.0) * (1 if kind == "call" else -1)
+    sd = iv * math.sqrt(years)
+    d1 = (math.log(spot / strike) + 0.5 * sd * sd) / sd
+    return norm_cdf(d1) if kind == "call" else norm_cdf(d1) - 1
+
+
+def parse_occ(symbol):
+    """'SPY261005C00580000' -> ('SPY', '261005', 'call', 580.0)."""
+    root, rest = symbol[:-15], symbol[-15:]
+    kind = "call" if rest[6] == "C" else "put"
+    return root, rest[:6], kind, int(rest[7:]) / 1000
+
+
+# --- sizing & selection ------------------------------------------------------
+
+def current_phase(config, equity):
+    phases = sorted(config["phases"], key=lambda p: p["min_equity"])
+    chosen = phases[0]
+    for phase in phases:
+        if equity >= phase["min_equity"]:
+            chosen = phase
+    return chosen
+
+
+def contracts_for(budget, price):
+    if price <= 0:
+        return 0
+    return int(budget // (price * 100))
+
+
+def select_contract(candidates, target_delta, budget):
+    """Pick the affordable contract whose |delta| is closest to the target.
+
+    candidates: dicts with symbol, strike, ask, delta. Returns one or None.
+    """
+    affordable = [c for c in candidates if c["ask"] > 0 and c["ask"] * 100 <= budget
+                  and c["delta"] is not None]
+    if not affordable:
+        return None
+    return min(affordable, key=lambda c: (abs(abs(c["delta"]) - target_delta), c["ask"]))
+
+
+def round_limit(price, up=True):
+    """Penny-pilot ticks: $0.01 below $3, $0.05 above."""
+    tick = 0.01 if price < 3 else 0.05
+    steps = math.ceil(price / tick - 1e-9) if up else math.floor(price / tick + 1e-9)
+    return round(max(steps, 1) * tick, 2)
