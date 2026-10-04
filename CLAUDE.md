@@ -60,7 +60,13 @@ scored against purely mechanical variants.
    yields or an oil spike are usually equity headwinds; note what is already priced in.
 3. Decide `call`, `put` or `none`. Prefer `none` when evidence is mixed: a skipped day costs
    nothing, a coin flip costs the spread and theta.
-3b. Sniper (optional, most days null): scan mega caps with same-day options for a fresh,
+2b. Rotation map: with Webull daily bars, compute 1-week and 1-month returns for theme
+   baskets — GPU (NVDA), CPU (AMD, INTC, ARM), memory/storage (MU, SNDK, WDC), optical
+   (LITE, CIEN), power (GEV, VST), internet (META, GOOGL, MSFT, AMZN, AAPL), plus SPY/QQQ —
+   and record which themes are heating up (money flowing in) and cooling (flowing out).
+   Add newly hot themes (e.g. a new AI supply-chain link) as they appear.
+3b. Sniper (optional, most days null): prefer names in themes that are heating up; good news
+   in a cooling theme tends to fade. scan mega caps with same-day options for a fresh,
    non-earnings catalyst (Webull PRE_MARKET movers + news). Name at most one stock with
    direction and catalyst in `sniper`; see journal/bias/README.md for the bar it must clear.
 4. Write `journal/bias/<today>.json` in the schema from `journal/bias/README.md`, commit
