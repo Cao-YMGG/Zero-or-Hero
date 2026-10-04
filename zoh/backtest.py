@@ -8,6 +8,7 @@ a ranking of ideas, not a P&L forecast: real 0DTE skew, spreads and IV crush dif
 """
 import argparse
 import math
+import random
 from collections import defaultdict
 from datetime import datetime, timedelta
 
@@ -83,6 +84,32 @@ def compound(trades_by_day, days, config):
             "ruined_on": ruined_on}
 
 
+HERO_TARGET = 2000
+SIZINGS = (0.3, 0.5, 1.0)
+
+
+def hero_odds(pnl, risk, start, target, dead, paths=4000, max_trades=500, seed=7):
+    """P(equity reaches target before falling below dead), resampling trade returns.
+
+    Each trade stakes `risk` of current equity; a trade returning r changes equity by
+    stake * r. Contract granularity is ignored.
+    """
+    if not pnl:
+        return 0.0
+    rng = random.Random(seed)
+    wins = 0
+    for _ in range(paths):
+        equity = start
+        for _ in range(max_trades):
+            equity += equity * risk * rng.choice(pnl)
+            if equity >= target:
+                wins += 1
+                break
+            if equity < dead:
+                break
+    return wins / paths
+
+
 def load_days(api, symbol, days_back):
     end = datetime.now(ET) - timedelta(minutes=20)
     start = end - timedelta(days=days_back)
@@ -108,8 +135,11 @@ def run(config, by_day):
         pnl = [t["pnl_pct"] for t in trades.values()]
         wins = [p for p in pnl if p > 0]
         losses = [p for p in pnl if p <= 0]
+        start = config["backtest"]["start_equity"]
         results.append({
             "id": variant["id"], "trades": len(pnl),
+            "hero": {r: hero_odds(pnl, r, start, HERO_TARGET, config["dead_equity"])
+                     for r in SIZINGS},
             "win_rate": len(wins) / len(pnl) if pnl else 0,
             "avg_win": sum(wins) / len(wins) if wins else 0,
             "avg_loss": sum(losses) / len(losses) if losses else 0,
@@ -162,6 +192,13 @@ def report(config, days, results, rv=None):
             f"{r['avg_loss']:+.0%} | {r['expectancy']:+.1%} | {r['best']:+.0%} | "
             f"{r['final']:,.0f} | {r['peak']:,.0f} | {r['max_dd']:.0%} | {ms} | "
             f"{r['ruined_on'] or '—'} |")
+    lines += ["", f"## Odds of $500 → ${HERO_TARGET:,} before ruin (bootstrap of each variant's "
+              "trades, stake = % of equity per trade)", "",
+              "| variant | " + " | ".join(f"{r:.0%} stake" for r in SIZINGS) + " |",
+              "|---|" + "---|" * len(SIZINGS)]
+    for r in sorted(results, key=lambda r: max(r["hero"].values()), reverse=True):
+        lines.append(f"| {r['id']} | " + " | ".join(f"{r['hero'][s]:.1%}" for s in SIZINGS)
+                     + " |")
     lines += ["", "Exit reasons:", ""]
     lines += [f"- {r['id']}: {r['reasons']}" for r in results]
     return "\n".join(lines) + "\n"

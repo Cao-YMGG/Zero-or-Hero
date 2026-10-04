@@ -102,6 +102,14 @@ class BacktestTests(unittest.TestCase):
         self.assertGreater(trade["pnl_pct"], 0.9)
 
 
+class HeroOddsTests(unittest.TestCase):
+    def test_bounds(self):
+        self.assertEqual(backtest.hero_odds([-1.0], 1.0, 500, 2000, 50), 0.0)
+        self.assertEqual(backtest.hero_odds([4.0], 1.0, 500, 2000, 50), 1.0)
+        odds = backtest.hero_odds([3.0, -1.0], 1.0, 500, 2000, 50, paths=2000)
+        self.assertAlmostEqual(odds, 0.5, delta=0.05)  # one all-in coin flip
+
+
 class ReviewTests(unittest.TestCase):
     def test_promotion(self):
         config = {"champion": "a", "variants": [{"id": "a"}, {"id": "b"}]}

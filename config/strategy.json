@@ -26,6 +26,10 @@
      "target_delta": 0.25, "take_profit": null, "stop_loss": 0.6, "trail_after": 1.0,
      "trail_giveback": 0.4, "entry_cutoff": "13:00"},
     {"id": "orb30_lotto", "signal": "orb", "or_minutes": 30, "target_delta": 0.12,
-     "take_profit": 3.0, "stop_loss": null, "entry_cutoff": "12:00"}
+     "take_profit": 3.0, "stop_loss": null, "entry_cutoff": "12:00"},
+    {"id": "open_drive", "signal": "momentum", "after_minutes": 10, "threshold_pct": 0.15,
+     "target_delta": 0.3, "take_profit": 1.0, "stop_loss": null, "entry_cutoff": "10:00"},
+    {"id": "power_hour", "signal": "momentum", "after_minutes": 300, "threshold_pct": 0.3,
+     "target_delta": 0.3, "take_profit": 1.0, "stop_loss": null, "entry_cutoff": "15:15"}
   ]
 }
