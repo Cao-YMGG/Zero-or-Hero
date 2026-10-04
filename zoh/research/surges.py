@@ -26,6 +26,9 @@ SURGE_PCT = 0.15
 MIN_PRICE = 5.0
 MIN_DOLLAR_VOLUME = 10e6
 NEWS_PAUSE = 0.32  # stay under 200 requests/minute
+MAX_TAGGED_SYMBOLS = 3  # roundups ("20 stocks moving premarket") tag many tickers; skip them
+ROUNDUP_WORDS = ("stocks moving", "here are", "movers", "stocks to watch", "mid-day",
+                 "biggest gainers", "trading halt")
 
 FUND_WORDS = ("etf", "fund", "trust", "proshares", "direxion", "ishares", "leveraged",
               " 2x", " 3x", "ultra", "bull ", "bear ", "notes", "depositary", "warrant",
@@ -35,8 +38,9 @@ FUND_WORDS = ("etf", "fund", "trust", "proshares", "direxion", "ishares", "lever
 CATEGORIES = [
     ("M&A", ("to acquire", "acquisition", "acquired by", "merger", "buyout", "takeover",
              "to be acquired", "go private", "take private", "all-cash", "per share in cash")),
-    ("FDA / clinical", ("fda", "phase 3", "phase 2", "phase iii", "phase ii", "clinical",
-                        "trial", "approval", "topline", "data readout", "breakthrough therapy")),
+    ("FDA / clinical", ("fda", "phase 3", "phase 2", "phase iii", "phase ii", "phase 1",
+                        "clinical trial", "topline", "top-line", "pdufa", "data readout",
+                        "breakthrough therapy", "medicines agency")),
     ("earnings", ("earnings", "eps", "revenue", "quarter", " q1", " q2", " q3", " q4",
                   "results", "guidance", "beats", "fiscal", "outlook", "raises forecast")),
     ("index inclusion", ("s&p 500", "join the s&p", "added to the s&p", "nasdaq-100",
@@ -134,6 +138,8 @@ def attach_news(api, events):
         except AlpacaError as e:
             print(f"news failed {ev['symbol']} {ev['date']}: {e}")
             items = []
+        items = [it for it in items if len(it.get("symbols") or []) <= MAX_TAGGED_SYMBOLS
+                 and not any(w in it.get("headline", "").lower() for w in ROUNDUP_WORDS)]
         headlines = [it.get("headline", "") for it in items]
         ev["category"] = classify(headlines + [it.get("summary", "") for it in items])
         ev["headline"] = headlines[-1] if headlines else ""  # earliest (sorted desc)
