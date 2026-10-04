@@ -31,6 +31,10 @@
  ├─ 收盘后写入 journal/（trades.csv / equity.csv / REVIEW.md）
  └─ review：挑战者最近 20 笔明显优于冠军 → 自动晋升，记入 EVOLUTION.md
 
+每个交易日 08:50 ET (Claude 盘前会话)
+ └─ 查期货、新闻、经济日历 → 写下当天 call / put / 不做 → journal/bias/
+    → 影子变体 claude_bias / claude_confirm 按它交易，和纯价格策略同台比赛
+
 每周 (Claude 进化会话)
  └─ 读日志和回测 → 提出假设 → 新增/淘汰变体、调参数 → 记入 EVOLUTION.md
 ```
@@ -38,6 +42,7 @@
 - `config/strategy.json` — 阶段、冠军、全部策略变体（进化主要改这里）
 - `zoh/strategy.py` — 信号、出场、期权定价、选合约（实盘和回测共用）
 - `zoh/bot.py` — 实盘循环；`zoh/backtest.py` — 历史回测；`zoh/review.py` — 评分与晋升；`zoh/check.py` — 诊断
+- `config/macro_events.json` — CPI / 非农 / FOMC 公布日（变体可以只在这些日子或避开这些日子交易）
 - `journal/` — 所有交易记录、每日净值、回测报告、复盘
 - `EVOLUTION.md` — 每一次策略变化的原因和证据
 

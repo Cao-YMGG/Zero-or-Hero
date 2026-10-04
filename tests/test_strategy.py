@@ -2,8 +2,10 @@ import unittest
 from datetime import datetime, time, timedelta
 
 from zoh import backtest, review
+from zoh import journal
 from zoh.strategy import (ET, bs_delta, bs_price, check_exit, contracts_for, current_phase,
-                          parse_occ, round_limit, select_contract, signal_momentum, signal_orb)
+                          day_context, evaluate_signal, parse_occ, round_limit, select_contract,
+                          signal_momentum, signal_orb)
 
 
 def make_bars(closes, day=datetime(2026, 10, 2)):
@@ -36,6 +38,51 @@ class SignalTests(unittest.TestCase):
         up = [100 + i * 0.01 for i in range(61)]  # +0.6% after 60 minutes
         self.assertEqual(signal_momentum(make_bars(up), {"after_minutes": 60}), "call")
         self.assertIsNone(signal_momentum(make_bars(up[:30]), {"after_minutes": 60}))
+
+
+class ContextTests(unittest.TestCase):
+    day = datetime(2026, 10, 14).date()
+
+    def test_context_gap_and_events(self):
+        ctx = day_context(self.day, {"2026-10-14": ["CPI"]}, prev_close=100, open_price=100.5)
+        self.assertEqual(ctx["events"], ["CPI"])
+        self.assertAlmostEqual(ctx["gap_pct"], 0.5)
+
+    def test_day_filters(self):
+        bars = make_bars([100 + i * 0.05 for i in range(15)])
+        variant = {"signal": "momentum", "after_minutes": 10, "threshold_pct": 0.15}
+        macro = day_context(self.day, {"2026-10-14": ["CPI"]})
+        calm = day_context(self.day, {})
+        self.assertEqual(evaluate_signal(bars, {**variant, "days": "event"}, macro), "call")
+        self.assertIsNone(evaluate_signal(bars, {**variant, "days": "event"}, calm))
+        self.assertIsNone(evaluate_signal(bars, {**variant, "days": "non_event"}, macro))
+
+    def test_gap_signal(self):
+        bars = make_bars([100.6, 100.6])
+        variant = {"signal": "gap", "after_minutes": 1, "min_gap_pct": 0.3}
+        up = day_context(self.day, {}, prev_close=100, open_price=100.6)
+        flat = day_context(self.day, {}, prev_close=100, open_price=100.1)
+        self.assertEqual(evaluate_signal(bars, variant, up), "call")
+        self.assertEqual(evaluate_signal(bars, {**variant, "fade": True}, up), "put")
+        self.assertIsNone(evaluate_signal(bars, variant, flat))
+
+    def test_bias_signal_and_confirm(self):
+        rising = make_bars([100 + i * 0.02 for i in range(12)])
+        put_bias = day_context(self.day, {}, bias={"bias": "put"})
+        none_bias = day_context(self.day, {}, bias={"bias": "none"})
+        plain = {"signal": "bias", "after_minutes": 5}
+        confirm = {"signal": "bias", "after_minutes": 10, "confirm": True, "threshold_pct": 0.1}
+        self.assertEqual(evaluate_signal(rising, plain, put_bias), "put")
+        self.assertIsNone(evaluate_signal(rising, confirm, put_bias))  # tape disagrees
+        self.assertEqual(evaluate_signal(rising, confirm,
+                                         day_context(self.day, {}, bias={"bias": "call"})), "call")
+        self.assertIsNone(evaluate_signal(rising, plain, none_bias))
+        self.assertIsNone(evaluate_signal(rising, plain, day_context(self.day, {})))
+
+    def test_macro_calendar_loads(self):
+        events = journal.load_events()
+        self.assertIn("CPI", events["2026-10-14"])
+        self.assertIn("FOMC", events["2026-10-28"])
 
 
 class ExitTests(unittest.TestCase):
