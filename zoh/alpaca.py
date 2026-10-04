@@ -92,6 +92,25 @@ class Alpaca:
             bars.extend(page)
         return bars
 
+    def assets(self):
+        return self._request("GET", f"{TRADING_URL}/v2/assets",
+                             {"status": "active", "asset_class": "us_equity"})
+
+    def daily_bars_multi(self, symbols, start, end, feed="sip"):
+        """{symbol: [bars]} for many symbols, split-adjusted daily bars."""
+        params = {"symbols": ",".join(symbols), "timeframe": "1Day", "start": start.isoformat(),
+                  "end": end.isoformat(), "feed": feed, "limit": 10000, "adjustment": "all"}
+        out = {}
+        for page in self._paged(f"{DATA_URL}/v2/stocks/bars", params, "bars"):
+            for symbol, bars in (page or {}).items():
+                out.setdefault(symbol, []).extend(bars)
+        return out
+
+    def news(self, symbols, start, end, limit=50):
+        params = {"symbols": ",".join(symbols), "start": start.isoformat(), "end": end.isoformat(),
+                  "limit": limit, "sort": "desc", "include_content": "false"}
+        return self._request("GET", f"{DATA_URL}/v1beta1/news", params).get("news") or []
+
     def option_chain(self, underlying, expiration, kind, strike_gte=None, strike_lte=None):
         """Snapshots (quote + greeks) for one expiry/side of an option chain."""
         params = {"feed": "indicative", "type": kind, "expiration_date": expiration.isoformat(),

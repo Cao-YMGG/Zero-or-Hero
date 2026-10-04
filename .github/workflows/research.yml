@@ -1,0 +1,41 @@
+name: Research
+
+on:
+  workflow_dispatch:
+    inputs:
+      years:
+        description: "Years of history"
+        default: "2"
+  push:
+    branches: ["claude/**"]
+    paths: ["zoh/research/**", ".github/workflows/research.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: research-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  surges:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    env:
+      APCA_API_KEY_ID: ${{ secrets.APCA_API_KEY_ID }}
+      APCA_API_SECRET_KEY: ${{ secrets.APCA_API_SECRET_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Surge study
+        run: python -m zoh.research.surges --years "${{ inputs.years || '2' }}"
+      - name: Commit results
+        run: |
+          git config user.name "zoh-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add journal/research
+          git diff --cached --quiet && exit 0
+          git commit -m "research: surge study $(date -u +%F)"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done

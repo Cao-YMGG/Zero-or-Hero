@@ -1,8 +1,10 @@
 # Zero-or-Hero — notes for Claude
 
 A self-evolving 0DTE options experiment on an **Alpaca paper account** ($500 start).
-Never connect it to a live brokerage account or use real money (the Webull connector is a
-live account — do not trade through it for this project).
+Never connect it to a live brokerage account or use real money. The Webull connector is the
+owner's live account: its read-only market-data tools (snapshots, bars, rankings, earnings
+calendar, company profile) may be used for research and the pre-market bias; never call any
+Webull order/instruction/account tool. All trading goes through Alpaca paper only.
 
 ## Layout
 - `config/strategy.json`: phases, champion, variants. Most evolution happens here.
@@ -15,10 +17,27 @@ live account — do not trade through it for this project).
   needs Alpaca runs through the workflows (push to a `claude/**` branch triggers
   Diagnostics & backtest; read the run logs).
 
+## Cadence
+- Weekdays 08:50 ET: pre-market bias (below).
+- Weekdays 16:35 ET: daily post-market review and light evolution.
+- Sundays 09:52 ET: weekly deep review (full protocol below, population cleanup, backtests).
+
+## Noise gate (applies to the daily review)
+One trade per variant per day is mostly luck, so daily changes are limited to additive ones:
+new shadow-only challengers or signals, checklist and calendar fixes, bug fixes, hypotheses.
+Retiring a variant needs >= 20 live shadow trades with clearly negative expectancy, or a
+"broken" verdict in the backtest Regime check. Changing the champion's parameters or phase
+sizing needs >= 10 live trades of evidence, or a documented regime change.
+
 ## Evolution protocol (weekly review session)
 1. Read `journal/REVIEW.md`, `journal/trades.csv`, `journal/equity.csv`, `journal/BACKTEST.md`,
    `EVOLUTION.md`.
-2. Diagnose: which variants make money live vs backtest? Is the fade control as good as the
+2. Regime first: markets change (themes, volatility, rate/oil sensitivity). Weight recent
+   evidence over old: live shadow trades > the backtest's "Regime check" (last ~3 months) >
+   the full-year backtest. Note in EVOLUTION.md whether the regime looks different from last
+   week (volatility level, leading themes, stock/bond correlation) and retire variants the
+   regime check marks "broken" even if their full-year numbers look fine.
+   Then diagnose: which variants make money live vs backtest? Is the fade control as good as the
    trend versions (then direction has no edge)? Are shadow fills far from real fills?
 3. Change at most a few things per week, each with a stated hypothesis: add 1–2 new
    challenger variants, retire variants with ≥20 live trades and clearly negative
@@ -33,7 +52,8 @@ live account — do not trade through it for this project).
 Goal: one honest directional call for SPY today, so `claude_bias` and `claude_confirm` can be
 scored against purely mechanical variants.
 1. If today is not a NYSE trading day, stop without writing anything.
-2. Research with web search: S&P 500 futures vs prior close, overnight Asia/Europe, major
+2. Research (Webull read-only snapshots with extended hours for SPY/QQQ/TLT/USO/UUP and
+   pre-market movers; web search for the rest): S&P 500 futures vs prior close, overnight Asia/Europe, major
    news, today's scheduled releases/Fed speakers (also `config/macro_events.json`), VIX,
    yesterday's SPY close and trend, **crude oil (WTI/Brent) overnight move and why**,
    **US Treasury yields (2Y, 10Y) overnight change**, and the dollar index (DXY). Rising

@@ -86,6 +86,7 @@ def compound(trades_by_day, days, config):
 
 HERO_TARGET = 2000
 SIZINGS = (0.3, 0.5, 1.0)
+RECENT_DAYS = 63  # ~3 months: does the edge still hold in the current regime?
 
 
 def hero_odds(pnl, risk, start, target, dead, paths=4000, max_trades=500, seed=7):
@@ -146,7 +147,11 @@ def run(config, by_day, cross_by_day=None):
         wins = [p for p in pnl if p > 0]
         losses = [p for p in pnl if p <= 0]
         start = config["backtest"]["start_equity"]
+        recent_days = set(days[-RECENT_DAYS:])
+        recent = [t["pnl_pct"] for d, t in trades.items() if d in recent_days]
         results.append({
+            "recent": (len(recent), sum(recent) / len(recent) if recent else 0,
+                       hero_odds(recent, 1.0, start, HERO_TARGET, config["dead_equity"])),
             "id": variant["id"], "trades": len(pnl),
             "hero": {r: hero_odds(pnl, r, start, HERO_TARGET, config["dead_equity"])
                      for r in SIZINGS},
@@ -211,6 +216,19 @@ def report(config, days, results, rv=None):
     for r in sorted(results, key=lambda r: max(r["hero"].values()), reverse=True):
         lines.append(f"| {r['id']} | " + " | ".join(f"{r['hero'][s]:.1%}" for s in SIZINGS)
                      + " |")
+    lines += ["", f"## Regime check: last {RECENT_DAYS} trading days vs full period", "",
+              "If a variant only works in the old part of the sample, the market has moved on.",
+              "",
+              "| variant | full: trades | full: avg | full: odds (100%) | recent: trades | "
+              "recent: avg | recent: odds (100%) | verdict |",
+              "|---|---|---|---|---|---|---|---|"]
+    for r in sorted(results, key=lambda r: r["recent"][2], reverse=True):
+        n, avg, odds = r["recent"]
+        full = r["hero"][1.0]
+        verdict = ("no recent trades" if n == 0 else "holding up" if odds >= full * 0.8
+                   else "fading" if odds >= full * 0.4 else "broken")
+        lines.append(f"| {r['id']} | {r['trades']} | {r['expectancy']:+.1%} | {full:.1%} | {n} | "
+                     f"{avg:+.1%} | {odds:.1%} | {verdict} |")
     lines += ["", "## Macro days (CPI / NFP / FOMC) vs other days — expectancy per trade", "",
               "| variant | macro-day trades | macro-day avg | other trades | other avg |",
               "|---|---|---|---|---|"]
