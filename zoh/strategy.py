@@ -34,11 +34,17 @@ def regular_session(bars):
 # --- day context -------------------------------------------------------------
 # Facts about the day that signals and filters may use:
 #   events: macro releases today (e.g. ["CPI"]), gap_pct: open vs previous close in %,
-#   bias: Claude's pre-market call ({"bias": "call"|"put"|"none", ...}) or None.
+#   bias: Claude's pre-market call ({"bias": "call"|"put"|"none", ...}) or None,
+#   cross: today's bars for other assets ({"TLT": [...], "USO": [...]}).
 
-def day_context(day, events_by_date, prev_close=None, open_price=None, bias=None):
+def day_context(day, events_by_date, prev_close=None, open_price=None, bias=None, cross=None):
     gap = (open_price / prev_close - 1) * 100 if prev_close and open_price else None
-    return {"events": events_by_date.get(day.isoformat(), []), "gap_pct": gap, "bias": bias}
+    return {"events": events_by_date.get(day.isoformat(), []), "gap_pct": gap, "bias": bias,
+            "cross": cross or {}}
+
+
+def cross_assets(variants):
+    return sorted({v["asset"] for v in variants if v.get("signal") == "cross"})
 
 
 def passes_filters(variant, ctx):
@@ -123,8 +129,29 @@ def signal_bias(bars, variant, ctx):
     return _flip(bias, variant)
 
 
+def signal_cross(bars, variant, ctx):
+    """Another asset leads SPY: after N minutes, trade SPY on that asset's move since its open.
+
+    sign +1: asset up -> SPY call (e.g. TLT up = yields down); -1: asset up -> SPY put (oil).
+    """
+    if not bars or bars[-1]["t"].time() < minutes_after_open(variant.get("after_minutes", 10)):
+        return None
+    other = [b for b in (ctx.get("cross") or {}).get(variant["asset"], [])
+             if b["t"] <= bars[-1]["t"]]
+    if len(other) < 2:
+        return None
+    ret = (other[-1]["c"] / other[0]["o"] - 1) * variant.get("sign", 1)
+    threshold = variant.get("threshold_pct", 0.2) / 100
+    direction = None
+    if ret >= threshold:
+        direction = "call"
+    elif ret <= -threshold:
+        direction = "put"
+    return _flip(direction, variant)
+
+
 SIGNALS = {"orb": signal_orb, "momentum": signal_momentum, "gap": signal_gap,
-           "bias": signal_bias}
+           "bias": signal_bias, "cross": signal_cross}
 LIVE_ONLY_SIGNALS = {"bias"}  # no history to backtest
 
 

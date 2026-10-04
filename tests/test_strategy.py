@@ -79,6 +79,18 @@ class ContextTests(unittest.TestCase):
         self.assertIsNone(evaluate_signal(rising, plain, none_bias))
         self.assertIsNone(evaluate_signal(rising, plain, day_context(self.day, {})))
 
+    def test_cross_asset_signal(self):
+        spy = make_bars([100.0] * 16)
+        tlt_up = make_bars([90 + i * 0.02 for i in range(16)])  # +0.33% by 09:45
+        ctx = day_context(self.day, {}, cross={"TLT": tlt_up, "USO": tlt_up})
+        rates = {"signal": "cross", "asset": "TLT", "sign": 1, "after_minutes": 15,
+                 "threshold_pct": 0.15}
+        oil = {**rates, "asset": "USO", "sign": -1}
+        self.assertEqual(evaluate_signal(spy, rates, ctx), "call")
+        self.assertEqual(evaluate_signal(spy, oil, ctx), "put")
+        self.assertIsNone(evaluate_signal(spy[:10], rates, ctx))  # too early
+        self.assertIsNone(evaluate_signal(spy, rates, day_context(self.day, {})))  # no data
+
     def test_macro_calendar_loads(self):
         events = journal.load_events()
         self.assertIn("CPI", events["2026-10-14"])

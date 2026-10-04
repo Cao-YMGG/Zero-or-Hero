@@ -18,7 +18,7 @@ from datetime import datetime, timedelta
 from . import journal
 from .alpaca import Alpaca, AlpacaError
 from .strategy import (ET, MARKET_OPEN, bs_delta, contracts_for, current_phase, check_exit,
-                       day_context, evaluate_signal, hhmm, parse_bar, parse_occ,
+                       cross_assets, day_context, evaluate_signal, hhmm, parse_bar, parse_occ,
                        regular_session, round_limit, select_contract, years_to_close)
 
 MAX_ENTRY_ATTEMPTS = 3
@@ -193,8 +193,9 @@ class Bot:
 
     def step(self, now):
         bars = closed_bars(self.api, self.underlying, now)
+        cross = {sym: closed_bars(self.api, sym, now) for sym in cross_assets(self.config["variants"])}
         ctx = day_context(self.today, self.events, self.prev_close,
-                          bars[0]["o"] if bars else None, self.load_bias())
+                          bars[0]["o"] if bars else None, self.load_bias(), cross)
         variants = self.config["variants"]
         vstates = self.state["variants"]
         open_symbols = [vs["shadow"]["contract"] for vs in vstates.values() if vs.get("shadow")]

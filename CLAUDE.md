@@ -35,7 +35,9 @@ scored against purely mechanical variants.
 1. If today is not a NYSE trading day, stop without writing anything.
 2. Research with web search: S&P 500 futures vs prior close, overnight Asia/Europe, major
    news, today's scheduled releases/Fed speakers (also `config/macro_events.json`), VIX,
-   yesterday's SPY close and trend. Note what is already priced in.
+   yesterday's SPY close and trend, **crude oil (WTI/Brent) overnight move and why**,
+   **US Treasury yields (2Y, 10Y) overnight change**, and the dollar index (DXY). Rising
+   yields or an oil spike are usually equity headwinds; note what is already priced in.
 3. Decide `call`, `put` or `none`. Prefer `none` when evidence is mixed: a skipped day costs
    nothing, a coin flip costs the spread and theta.
 4. Write `journal/bias/<today>.json` in the schema from `journal/bias/README.md`, commit

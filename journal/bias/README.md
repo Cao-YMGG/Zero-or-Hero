@@ -12,7 +12,8 @@ appears; the `claude_bias` / `claude_confirm` variants trade it in shadow mode.
   "summary": "one sentence",
   "reasons": ["...", "..."],
   "events": ["CPI 08:30"],        // scheduled releases / speakers today
-  "inputs": {"es_futures_pct": 0.4, "vix": 16.2, "overnight": "..."},
+  "inputs": {"es_futures_pct": 0.4, "vix": 16.2, "wti_pct": -1.2, "us10y": 4.12,
+             "us10y_change_bp": -3, "us2y_change_bp": -2, "dxy_pct": 0.1, "overnight": "..."},
   "generated_at": "2026-10-05T09:05:00-04:00"
 }
 ```
