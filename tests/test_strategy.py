@@ -91,6 +91,18 @@ class ContextTests(unittest.TestCase):
         self.assertIsNone(evaluate_signal(spy[:10], rates, ctx))  # too early
         self.assertIsNone(evaluate_signal(spy, rates, day_context(self.day, {})))  # no data
 
+    def test_catalyst_signal(self):
+        rising = make_bars([700 + i * 0.6 for i in range(20)])  # +1.6% by 09:49
+        pick = {"sniper": {"symbol": "META", "direction": "call", "catalyst": "Muse #1"}}
+        ctx = day_context(self.day, {}, bias=pick)
+        variant = {"signal": "catalyst", "after_minutes": 15, "move_pct": 1.0}
+        self.assertEqual(evaluate_signal(rising, variant, ctx), "call")
+        self.assertIsNone(evaluate_signal(rising[:10], variant, ctx))  # before 09:45
+        put_ctx = day_context(self.day, {}, bias={"sniper": {"symbol": "META",
+                                                             "direction": "put"}})
+        self.assertIsNone(evaluate_signal(rising, variant, put_ctx))  # price disagrees
+        self.assertIsNone(evaluate_signal(rising, variant, day_context(self.day, {})))
+
     def test_macro_calendar_loads(self):
         events = journal.load_events()
         self.assertIn("CPI", events["2026-10-14"])

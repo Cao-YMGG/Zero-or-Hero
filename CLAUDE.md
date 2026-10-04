@@ -60,6 +60,9 @@ scored against purely mechanical variants.
    yields or an oil spike are usually equity headwinds; note what is already priced in.
 3. Decide `call`, `put` or `none`. Prefer `none` when evidence is mixed: a skipped day costs
    nothing, a coin flip costs the spread and theta.
+3b. Sniper (optional, most days null): scan mega caps with same-day options for a fresh,
+   non-earnings catalyst (Webull PRE_MARKET movers + news). Name at most one stock with
+   direction and catalyst in `sniper`; see journal/bias/README.md for the bar it must clear.
 4. Write `journal/bias/<today>.json` in the schema from `journal/bias/README.md`, commit
    ("bias: <date> <call|put|none>") and push to `main` before 09:30 ET. Retry the push on
    conflict (`git pull --rebase`). Do not touch any other file. Never place trades.
