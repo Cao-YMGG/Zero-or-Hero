@@ -40,7 +40,7 @@ def regular_session(bars):
 def day_context(day, events_by_date, prev_close=None, open_price=None, bias=None, cross=None):
     gap = (open_price / prev_close - 1) * 100 if prev_close and open_price else None
     return {"events": events_by_date.get(day.isoformat(), []), "gap_pct": gap, "bias": bias,
-            "cross": cross or {}}
+            "cross": cross or {}, "weekday": day.weekday()}
 
 
 def cross_assets(variants):
@@ -53,6 +53,9 @@ def passes_filters(variant, ctx):
     if days == "event" and not ctx["events"]:
         return False
     if days == "non_event" and ctx["events"]:
+        return False
+    weekdays = variant.get("weekdays")  # e.g. [0, 2, 4]: single-stock same-day expiries
+    if weekdays is not None and ctx.get("weekday") not in weekdays:
         return False
     return True
 

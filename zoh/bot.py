@@ -211,6 +211,7 @@ class Bot:
                           bars[0]["o"] if bars else None, self.load_bias(), cross)
         pick = sniper_pick(ctx)
         pick_bars = []
+        own_bars = {}
         if pick and any(v["signal"] == "catalyst" for v in self.config["variants"]):
             try:
                 pick_bars = closed_bars(self.api, pick["symbol"], now)
@@ -241,12 +242,19 @@ class Bot:
                   and vstate.get("attempts", 0) < MAX_ENTRY_ATTEMPTS
                   and now.time() <= hhmm(variant.get("entry_cutoff", "13:00"))):
                 catalyst = variant["signal"] == "catalyst"
-                their_bars = pick_bars if catalyst else bars
+                own = variant.get("underlying")  # fixed single-stock underlying
+                if own and own not in own_bars:
+                    try:
+                        own_bars[own] = closed_bars(self.api, own, now)
+                    except AlpacaError as e:
+                        log(f"{own} bars failed: {e}")
+                        own_bars[own] = []
+                their_bars = pick_bars if catalyst else own_bars[own] if own else bars
                 direction = evaluate_signal(their_bars, variant, ctx) if their_bars else None
                 if direction:
                     try:
                         self.try_enter(variant, vstate, direction, their_bars[-1]["c"], now,
-                                       pick["symbol"] if catalyst else None)
+                                       pick["symbol"] if catalyst else own)
                     except AlpacaError as e:
                         log(f"{variant['id']}: entry failed: {e}")
 

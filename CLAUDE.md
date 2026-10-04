@@ -42,7 +42,7 @@ sizing needs >= 10 live trades of evidence, or a documented regime change.
 3. Change at most a few things per week, each with a stated hypothesis: add 1–2 new
    challenger variants, retire variants with ≥20 live trades and clearly negative
    expectancy, tune parameters, calibrate `backtest.iv` to observed option prices.
-4. Keep the population ≤ 10 variants. Never change trade history; never raise risk above the
+4. Keep the population ≤ 12 variants (raised from 10 when single-stock variants were added). Never change trade history; never raise risk above the
    phase table without logging why.
 5. When equity approaches the next phase, make sure that phase has a fitting strategy
    (e.g. debit spreads or longer-dated options for `compounder`).
