@@ -20,7 +20,8 @@ from .strategy import (ET, LIVE_ONLY_SIGNALS, cross_assets, TRADING_MINUTES_PER_
 
 
 def pick_strike(spot, years, iv, kind, target_delta):
-    strikes = [round(spot) + k for k in range(-20, 21)]
+    width = max(20, int(spot * 0.08))  # $1 strikes within ±8% (±$20 minimum)
+    strikes = [round(spot) + k for k in range(-width, width + 1)]
     return min(strikes, key=lambda k: abs(abs(bs_delta(spot, k, years, iv, kind)) - target_delta))
 
 
@@ -42,7 +43,7 @@ def simulate_day(bars, variant, iv, slip, exit_at, ctx=None):
             if entry < 0.05:
                 continue
             pos = {"kind": direction, "strike": strike, "entry": entry, "peak": entry,
-                   "entry_time": now}
+                   "entry_time": now, "spot": bar["c"]}
             continue
         bid = max(bs_price(bar["c"], pos["strike"], years, iv, pos["kind"]) * (1 - slip) - 0.01,
                   0.0)
@@ -75,6 +76,7 @@ def compound(trades_by_day, days, config):
             if qty == 0 and trade["entry"] * 100 <= equity:
                 qty = 1  # hero fallback: one contract if the whole account can buy it
             equity += qty * 100 * (trade["exit"] - trade["entry"])
+            trade["qty"], trade["equity_after"] = qty, equity
         peak = max(peak, equity)
         max_dd = max(max_dd, 1 - equity / peak if peak else 0)
         for mult in (2, 5, 10):
@@ -144,6 +146,8 @@ def run(config, by_day, cross_by_day=None, weekdays=None):
                 continue  # no same-day expiry that day (single stocks: Mon/Wed/Fri only)
             trade = simulate_day(bars, variant, iv, slip, exit_at, contexts[day])
             if trade:
+                trade["day_oc"] = bars[-1]["c"] / bars[0]["o"] - 1
+                trade["gap"] = contexts[day]["gap_pct"]
                 trades[day] = trade
         pnl = [t["pnl_pct"] for t in trades.values()]
         on_event = [t["pnl_pct"] for d, t in trades.items() if contexts[d]["events"]]
@@ -168,6 +172,7 @@ def run(config, by_day, cross_by_day=None, weekdays=None):
             "non_event": (len(off_event), sum(off_event) / len(off_event) if off_event else 0),
             "reasons": _count(t["reason"] for t in trades.values()),
             **compound(trades, days, config),
+            "log": sorted(trades.items()),
         })
     return days, sorted(results, key=lambda r: r["expectancy"], reverse=True)
 
@@ -189,7 +194,28 @@ def realized_vol(by_day):
     return math.sqrt(var * TRADING_MINUTES_PER_YEAR)
 
 
-def report(config, days, results, rv=None):
+def trade_log(results):
+    lines = ["", "## Trade by trade", "",
+             "Each variant on its own, $500 start, phase sizing (all-in below $2,000).", ""]
+    for r in results:
+        if not r["log"]:
+            continue
+        lines += [f"### {r['id']} — {len(r['log'])} trades, $500 → ${r['final']:,.0f}", "",
+                  "| date | gap | stock open→close | entry | side | strike / spot | option in → out "
+                  "| multiple | exit | contracts | equity after |",
+                  "|---|---|---|---|---|---|---|---|---|---|---|"]
+        for day, t in r["log"]:
+            gap = f"{t['gap']:+.1f}%" if t.get("gap") is not None else "—"
+            lines.append(
+                f"| {day} | {gap} | {t['day_oc']:+.1%} | {t['entry_time']:%H:%M} | {t['kind']} | "
+                f"{t['strike']} / {t['spot']:.2f} | {t['entry']:.2f} → {t['exit']:.2f} | "
+                f"{t['exit'] / t['entry']:.2f}x | {t['reason']} | {t.get('qty', '—')} | "
+                f"{'$' + format(t['equity_after'], ',.0f') if 'equity_after' in t else '(not traded: ruined)'} |")
+        lines.append("")
+    return lines
+
+
+def report(config, days, results, rv=None, detail=False):
     lines = [
         f"# Backtest — {config['underlying']} 0DTE, {days[0]} → {days[-1]} ({len(days)} days)",
         "",
@@ -242,6 +268,8 @@ def report(config, days, results, rv=None):
     live_only = [v["id"] for v in config["variants"] if v["signal"] in LIVE_ONLY_SIGNALS]
     if live_only:
         lines += ["", f"Live-only variants (no history to backtest): {', '.join(live_only)}"]
+    if detail:
+        lines += trade_log(results)
     lines += ["", "Exit reasons:", ""]
     lines += [f"- {r['id']}: {r['reasons']}" for r in results]
     return "\n".join(lines) + "\n"
@@ -254,6 +282,7 @@ def main():
     parser.add_argument("--underlying", help="override config underlying, e.g. AMD")
     parser.add_argument("--iv", help="option IV: a number, or 'auto' = realised vol x 1.15")
     parser.add_argument("--slippage", type=float, help="override slippage (single stocks ~0.03)")
+    parser.add_argument("--trades", action="store_true", help="append a trade-by-trade log")
     parser.add_argument("--mwf", action="store_true",
                         help="trade only Mon/Wed/Fri (single-stock same-day expiries)")
     args = parser.parse_args()
@@ -270,7 +299,7 @@ def main():
     cross = {sym: load_days(api, sym, args.days, min_bars=100)
              for sym in cross_assets(config["variants"])}
     days, results = run(config, by_day, cross, {0, 2, 4} if args.mwf else None)
-    text = report(config, days, results, realized_vol(by_day))
+    text = report(config, days, results, realized_vol(by_day), args.trades)
     print(text)
     if args.out:
         out = journal.ROOT / args.out

@@ -3,6 +3,20 @@ name: Underlying comparison
 # Same variants, different underlyings: is 0DTE on high-volatility single stocks better than SPY?
 on:
   workflow_dispatch:
+    inputs:
+      symbols:
+        description: "Space-separated underlyings"
+        default: "AMD NVDA TSLA META MU"
+      days:
+        description: "Calendar days of history"
+        default: "365"
+      suffix:
+        description: "Report file suffix (e.g. _2m)"
+        default: ""
+      trades:
+        description: "Append trade-by-trade log"
+        type: boolean
+        default: false
   push:
     branches: ["claude/**"]
     paths: [".github/workflows/underlyings.yml"]
@@ -17,6 +31,10 @@ jobs:
     env:
       APCA_API_KEY_ID: ${{ secrets.APCA_API_KEY_ID }}
       APCA_API_SECRET_KEY: ${{ secrets.APCA_API_SECRET_KEY }}
+      SYMBOLS: ${{ inputs.symbols || 'AMD NVDA TSLA META MU' }}
+      DAYS: ${{ inputs.days || '365' }}
+      SUFFIX: ${{ inputs.suffix || '' }}
+      TRADES_FLAG: ${{ inputs.trades && '--trades' || '' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -24,9 +42,9 @@ jobs:
           python-version: "3.12"
       - name: Backtest each underlying
         run: |
-          for sym in AMD NVDA TSLA META MU; do
+          for sym in $SYMBOLS; do
             python -m zoh.backtest --underlying $sym --iv auto --slippage 0.03 --mwf \
-              --out journal/research/underlyings/$sym.md
+              --days $DAYS $TRADES_FLAG --out journal/research/underlyings/$sym$SUFFIX.md
           done
       - name: Commit results
         run: |
