@@ -295,6 +295,9 @@ def main():
     parser.add_argument("--iv", help="option IV: a number, or 'auto' = realised vol x 1.15")
     parser.add_argument("--slippage", type=float, help="override slippage (single stocks ~0.03)")
     parser.add_argument("--trades", action="store_true", help="append a trade-by-trade log")
+    parser.add_argument("--fri", action="store_true",
+                        help="trade only Fridays (stocks with weekly options only)")
+    parser.add_argument("--json-out", help="also write a machine-readable summary here")
     parser.add_argument("--variants", help="JSON file with a variant list to test instead of config")
     parser.add_argument("--mwf", action="store_true",
                         help="trade only Mon/Wed/Fri (single-stock same-day expiries)")
@@ -313,13 +316,29 @@ def main():
         config["backtest"]["slippage"] = args.slippage
     cross = {sym: load_days(api, sym, args.days, min_bars=100)
              for sym in cross_assets(config["variants"])}
-    days, results = run(config, by_day, cross, {0, 2, 4} if args.mwf else None)
+    weekdays = {0, 2, 4} if args.mwf else {4} if args.fri else None
+    days, results = run(config, by_day, cross, weekdays)
     text = report(config, days, results, realized_vol(by_day), args.trades)
     print(text)
     if args.out:
         out = journal.ROOT / args.out
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(text)
+    if args.json_out:
+        summary = {"underlying": config["underlying"], "iv": config["backtest"]["iv"],
+                   "days": len(days), "start": str(days[0]), "end": str(days[-1]),
+                   "weekdays": sorted(weekdays) if weekdays else None,
+                   "variants": [{
+                       "id": r["id"], "trades": r["trades"], "win_rate": r["win_rate"],
+                       "expectancy": r["expectancy"], "best": r["best"],
+                       "hero": {str(k): v for k, v in r["hero"].items()},
+                       "ultra": {str(k): v for k, v in r["ultra"].items()},
+                       "recent_n": r["recent"][0], "recent_avg": r["recent"][1],
+                       "recent_odds": r["recent"][2], "multiples": r["multiples"],
+                   } for r in results]}
+        out = journal.ROOT / args.json_out
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(json.dumps(summary, indent=1))
 
 
 if __name__ == "__main__":
