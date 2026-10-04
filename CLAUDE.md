@@ -17,6 +17,18 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
   needs Alpaca runs through the workflows (push to a `claude/**` branch triggers
   Diagnostics & backtest; read the run logs).
 
+## Cadence
+- Weekdays 08:50 ET: pre-market bias (below).
+- Weekdays 16:35 ET: daily post-market review and light evolution.
+- Sundays 09:52 ET: weekly deep review (full protocol below, population cleanup, backtests).
+
+## Noise gate (applies to the daily review)
+One trade per variant per day is mostly luck, so daily changes are limited to additive ones:
+new shadow-only challengers or signals, checklist and calendar fixes, bug fixes, hypotheses.
+Retiring a variant needs >= 20 live shadow trades with clearly negative expectancy, or a
+"broken" verdict in the backtest Regime check. Changing the champion's parameters or phase
+sizing needs >= 10 live trades of evidence, or a documented regime change.
+
 ## Evolution protocol (weekly review session)
 1. Read `journal/REVIEW.md`, `journal/trades.csv`, `journal/equity.csv`, `journal/BACKTEST.md`,
    `EVOLUTION.md`.
