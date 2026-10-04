@@ -122,7 +122,7 @@ def load_days(api, symbol, days_back, min_bars=300):
     return {d: b for d, b in sorted(by_day.items()) if len(b) >= min_bars}
 
 
-def run(config, by_day, cross_by_day=None):
+def run(config, by_day, cross_by_day=None, weekdays=None):
     iv, slip = config["backtest"]["iv"], config["backtest"]["slippage"]
     exit_at = hhmm(config["exit_time"])
     days = list(by_day)
@@ -138,6 +138,8 @@ def run(config, by_day, cross_by_day=None):
             continue
         trades = {}
         for day, bars in by_day.items():
+            if weekdays is not None and day.weekday() not in weekdays:
+                continue  # no same-day expiry that day (single stocks: Mon/Wed/Fri only)
             trade = simulate_day(bars, variant, iv, slip, exit_at, contexts[day])
             if trade:
                 trades[day] = trade
@@ -247,13 +249,25 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--days", type=int, default=365, help="calendar days of history")
     parser.add_argument("--out", help="also write the markdown report here")
+    parser.add_argument("--underlying", help="override config underlying, e.g. AMD")
+    parser.add_argument("--iv", help="option IV: a number, or 'auto' = realised vol x 1.15")
+    parser.add_argument("--slippage", type=float, help="override slippage (single stocks ~0.03)")
+    parser.add_argument("--mwf", action="store_true",
+                        help="trade only Mon/Wed/Fri (single-stock same-day expiries)")
     args = parser.parse_args()
     config = journal.load_config()
+    if args.underlying:
+        config["underlying"] = args.underlying
     api = Alpaca()
     by_day = load_days(api, config["underlying"], args.days)
+    if args.iv:
+        config["backtest"]["iv"] = (round(realized_vol(by_day) * 1.15, 3) if args.iv == "auto"
+                                    else float(args.iv))
+    if args.slippage is not None:
+        config["backtest"]["slippage"] = args.slippage
     cross = {sym: load_days(api, sym, args.days, min_bars=100)
              for sym in cross_assets(config["variants"])}
-    days, results = run(config, by_day, cross)
+    days, results = run(config, by_day, cross, {0, 2, 4} if args.mwf else None)
     text = report(config, days, results, realized_vol(by_day))
     print(text)
     if args.out:
