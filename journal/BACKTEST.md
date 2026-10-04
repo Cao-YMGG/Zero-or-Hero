@@ -1,55 +1,55 @@
-# Backtest — SPY 0DTE, 2025-10-06 → 2026-10-02 (248 days)
+# Backtest — SPY 0DTE, 2026-09-04 → 2026-10-02 (20 days)
 
 Model: Black-Scholes at IV 11%, slippage 1% + $0.01 each side, start $500, phase sizing from config. Option prices are modelled, not real quotes — use this to rank ideas.
 
-Realised intraday vol over the period: 10.6% (if far from the IV above, recalibrate `backtest.iv` against live quotes from `python -m zoh.check`).
+Realised intraday vol over the period: 7.7% (if far from the IV above, recalibrate `backtest.iv` against live quotes from `python -m zoh.check`).
 
 | variant | trades | win% | avg win | avg loss | expectancy/trade | best | final $ | peak $ | max DD | 2x / 5x / 10x | ruined |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| gap_fade | 125 | 43% | +112% | -99% | -7.8% | +143% | 50 | 500 | 90% | — / — / — | 2025-10-14 |
-| gap_with | 125 | 42% | +106% | -91% | -9.0% | +151% | 4 | 500 | 99% | — / — / — | 2025-11-04 |
-| oil_lead | 172 | 41% | +107% | -94% | -11.2% | +161% | 25 | 500 | 95% | — / — / — | 2025-10-07 |
-| orb15_tp100 | 248 | 26% | +106% | -53% | -11.3% | +164% | 44 | 500 | 91% | — / — / — | 2025-10-21 |
-| open_drive_calm | 177 | 38% | +110% | -92% | -15.4% | +251% | 73 | 500 | 85% | — / — / — | — |
-| open_drive | 200 | 36% | +111% | -92% | -18.0% | +251% | 73 | 500 | 85% | — / — / — | — |
-| rates_lead | 185 | 33% | +111% | -97% | -28.3% | +161% | 30 | 500 | 94% | — / — / — | 2025-10-07 |
-| open_drive_macro | 23 | 26% | +119% | -93% | -37.7% | +150% | 59 | 500 | 88% | — / — / — | — |
+| orb15_tp100 | 19 | 21% | +106% | -52% | -19.0% | +113% | 86 | 500 | 83% | — / — / — | — |
+| oil_lead | 14 | 36% | +111% | -100% | -24.6% | +125% | 4 | 500 | 99% | — / — / — | 2026-09-14 |
+| open_drive_calm | 13 | 31% | +104% | -96% | -34.7% | +107% | 4 | 500 | 99% | — / — / — | 2026-09-11 |
+| open_drive | 15 | 27% | +104% | -97% | -43.4% | +107% | 4 | 500 | 99% | — / — / — | 2026-09-11 |
+| gap_fade | 8 | 25% | +108% | -100% | -48.1% | +114% | 44 | 500 | 91% | — / — / — | 2026-09-11 |
+| gap_with | 8 | 25% | +104% | -100% | -48.9% | +105% | 13 | 500 | 97% | — / — / — | 2026-09-11 |
+| rates_lead | 17 | 18% | +120% | -100% | -61.2% | +149% | 8 | 500 | 98% | — / — / — | 2026-09-08 |
+| open_drive_macro | 2 | 0% | +0% | -100% | -100.0% | -100% | 76 | 500 | 85% | — / — / — | — |
 
 ## Odds of $500 → $2,000 before ruin (bootstrap of each variant's trades, stake = % of equity per trade)
 
 | variant | 30% stake | 50% stake | 100% stake |
 |---|---|---|---|
-| gap_fade | 11.4% | 12.6% | 18.0% |
-| gap_with | 8.4% | 11.3% | 17.6% |
-| oil_lead | 7.6% | 9.8% | 17.4% |
-| open_drive_calm | 4.4% | 7.8% | 15.4% |
-| open_drive | 3.8% | 6.5% | 14.7% |
-| rates_lead | 1.5% | 4.0% | 10.8% |
-| orb15_tp100 | 2.4% | 5.4% | 10.2% |
-| open_drive_macro | 0.6% | 1.8% | 6.7% |
+| oil_lead | 2.5% | 4.2% | 12.6% |
+| open_drive_calm | 0.4% | 2.4% | 9.2% |
+| open_drive | 0.1% | 0.9% | 6.9% |
+| orb15_tp100 | 0.3% | 1.3% | 6.3% |
+| gap_fade | 0.1% | 0.8% | 6.2% |
+| gap_with | 0.1% | 0.7% | 6.0% |
+| rates_lead | 0.0% | 0.5% | 2.8% |
+| open_drive_macro | 0.0% | 0.0% | 0.0% |
 
 ## Macro days (CPI / NFP / FOMC) vs other days — expectancy per trade
 
 | variant | macro-day trades | macro-day avg | other trades | other avg |
 |---|---|---|---|---|
-| gap_fade | 14 | -36.8% | 111 | -4.1% |
-| gap_with | 14 | -37.8% | 111 | -5.4% |
-| oil_lead | 21 | -27.0% | 151 | -9.0% |
-| orb15_tp100 | 30 | -27.3% | 218 | -9.1% |
-| open_drive_calm | 0 | +0.0% | 177 | -15.4% |
-| open_drive | 23 | -37.7% | 177 | -15.4% |
-| rates_lead | 26 | -42.6% | 159 | -26.0% |
-| open_drive_macro | 23 | -37.7% | 0 | +0.0% |
+| orb15_tp100 | 3 | -54.9% | 16 | -12.3% |
+| oil_lead | 3 | -24.9% | 11 | -24.6% |
+| open_drive_calm | 0 | +0.0% | 13 | -34.7% |
+| open_drive | 2 | -100.0% | 13 | -34.7% |
+| gap_fade | 2 | -100.0% | 6 | -30.8% |
+| gap_with | 2 | -99.9% | 6 | -31.9% |
+| rates_lead | 4 | -100.0% | 13 | -49.2% |
+| open_drive_macro | 2 | -100.0% | 0 | +0.0% |
 
 Live-only variants (no history to backtest): claude_bias, claude_confirm
 
 Exit reasons:
 
-- gap_fade: {'time': 72, 'take_profit': 53}
-- gap_with: {'time': 75, 'take_profit': 50}
-- oil_lead: {'time': 103, 'take_profit': 69}
-- orb15_tp100: {'stop_loss': 181, 'take_profit': 63, 'time': 4}
-- open_drive_calm: {'time': 111, 'take_profit': 66}
-- open_drive: {'time': 128, 'take_profit': 72}
-- rates_lead: {'time': 126, 'take_profit': 59}
-- open_drive_macro: {'time': 17, 'take_profit': 6}
+- orb15_tp100: {'stop_loss': 15, 'take_profit': 4}
+- oil_lead: {'time': 9, 'take_profit': 5}
+- open_drive_calm: {'time': 9, 'take_profit': 4}
+- open_drive: {'time': 11, 'take_profit': 4}
+- gap_fade: {'time': 6, 'take_profit': 2}
+- gap_with: {'time': 6, 'take_profit': 2}
+- rates_lead: {'time': 14, 'take_profit': 3}
+- open_drive_macro: {'time': 2}
