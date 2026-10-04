@@ -1,8 +1,10 @@
 # Zero-or-Hero — notes for Claude
 
 A self-evolving 0DTE options experiment on an **Alpaca paper account** ($500 start).
-Never connect it to a live brokerage account or use real money (the Webull connector is a
-live account — do not trade through it for this project).
+Never connect it to a live brokerage account or use real money. The Webull connector is the
+owner's live account: its read-only market-data tools (snapshots, bars, rankings, earnings
+calendar, company profile) may be used for research and the pre-market bias; never call any
+Webull order/instruction/account tool. All trading goes through Alpaca paper only.
 
 ## Layout
 - `config/strategy.json`: phases, champion, variants. Most evolution happens here.
@@ -33,7 +35,8 @@ live account — do not trade through it for this project).
 Goal: one honest directional call for SPY today, so `claude_bias` and `claude_confirm` can be
 scored against purely mechanical variants.
 1. If today is not a NYSE trading day, stop without writing anything.
-2. Research with web search: S&P 500 futures vs prior close, overnight Asia/Europe, major
+2. Research (Webull read-only snapshots with extended hours for SPY/QQQ/TLT/USO/UUP and
+   pre-market movers; web search for the rest): S&P 500 futures vs prior close, overnight Asia/Europe, major
    news, today's scheduled releases/Fed speakers (also `config/macro_events.json`), VIX,
    yesterday's SPY close and trend, **crude oil (WTI/Brent) overnight move and why**,
    **US Treasury yields (2Y, 10Y) overnight change**, and the dollar index (DXY). Rising
