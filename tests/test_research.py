@@ -15,6 +15,8 @@ class ClassifyTests(unittest.TestCase):
                          "contract / partnership")
         self.assertEqual(classify(["Analyst upgrades Acme, raises price target"]), "analyst")
         self.assertEqual(classify(["Acme shares are trading higher"]), "other news")
+        self.assertEqual(classify(["Sandisk wins customer approval for new SSD line"]),
+                         "other news")  # generic "approval" is not FDA
         self.assertEqual(classify([]), "no news found")
 
     def test_fund_filter(self):
