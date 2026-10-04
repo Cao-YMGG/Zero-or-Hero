@@ -6,6 +6,9 @@ on:
       days:
         description: "Calendar days of history"
         default: "730"
+      groups:
+        description: 'JSON list of "MWF:SYM SYM" / "FRI:SYM" groups (default: all)'
+        default: ""
   push:
     branches: ["claude/**"]
     paths: ["zoh/screen_report.py", ".github/workflows/screen.yml"]
@@ -20,12 +23,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        group:
-          - "MWF:AAPL AMZN MSFT META NVDA"
-          - "MWF:TSLA GOOGL AVGO AMD MU"
-          - "FRI:NFLX PLTR COIN MSTR SMCI"
-          - "FRI:ARM INTC ORCL HOOD APP"
-          - "FRI:RKLB IONQ CRDO LITE SNDK"
+        group: ${{ fromJSON(inputs.groups || '["MWF:AAPL AMZN MSFT META NVDA", "MWF:TSLA GOOGL AVGO AMD MU", "FRI:NFLX PLTR COIN MSTR SMCI", "FRI:ARM INTC ORCL HOOD APP", "FRI:RKLB IONQ CRDO LITE SNDK"]') }}
     env:
       APCA_API_KEY_ID: ${{ secrets.APCA_API_KEY_ID }}
       APCA_API_SECRET_KEY: ${{ secrets.APCA_API_SECRET_KEY }}

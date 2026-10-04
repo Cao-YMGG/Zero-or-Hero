@@ -7,6 +7,7 @@ import json
 from . import journal
 
 DIR = journal.ROOT / "journal" / "research" / "screen"
+MIN_TRADES = 10  # rank only rules with enough trades
 
 
 def main():
@@ -18,9 +19,12 @@ def main():
                          "days": "M/W/F" if s["weekdays"] == [0, 2, 4] else
                          "Fri" if s["weekdays"] == [4] else "all"})
     syms = sorted({r["sym"] for r in rows})
+    ranked = [r for r in rows if r["trades"] >= MIN_TRADES]
     best = {}
     for sym in syms:
-        mine = [r for r in rows if r["sym"] == sym]
+        mine = [r for r in ranked if r["sym"] == sym]
+        if not mine:
+            continue
         best[sym] = {
             "ultra": max(mine, key=lambda r: (r["ultra"]["500000"], r["ultra"]["50000"])),
             "hero": max(mine, key=lambda r: r["hero"]["0.3"]),
@@ -30,10 +34,12 @@ def main():
          f"{len(syms)} stocks × {len(rows) // max(len(syms), 1)} rules. Same-day expiries: "
          "Mon/Wed/Fri for the largest names, Fridays only for the rest. Black-Scholes at each "
          "stock's intraday vol ×1.15, 3% slippage + $0.01; deep OTM prices are flattered by the "
-         "flat-IV model. Odds are all-in bootstraps from $500 unless noted.", "",
+         "flat-IV model. Odds are all-in bootstraps from $500 unless noted. Only rules with "
+         f">= {MIN_TRADES} trades are ranked.", "",
          "## Ultra: best rule per stock by P($500 → $500k)", "",
          "| stock | days | IV | rule | trades | win% | exp/trade | P(→$50k) | P(→$500k) | top multiples |",
          "|---|---|---|---|---|---|---|---|---|---|"]
+    syms = [s for s in syms if s in best]
     for sym in sorted(syms, key=lambda s: (-best[s]["ultra"]["ultra"]["500000"],
                                            -best[s]["ultra"]["ultra"]["50000"])):
         r = best[sym]["ultra"]

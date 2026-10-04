@@ -83,10 +83,11 @@ class Alpaca:
 
     # --- market data -------------------------------------------------------
 
-    def stock_bars(self, symbol, start, end, timeframe="1Min"):
-        """All bars between two aware datetimes, IEX feed (free tier)."""
+    def stock_bars(self, symbol, start, end, timeframe="1Min", feed="iex", adjustment="raw"):
+        """All bars between two aware datetimes. IEX (free, real time) by default; SIP is the
+        full consolidated tape, available on the free tier for data older than 15 minutes."""
         params = {"timeframe": timeframe, "start": start.isoformat(), "end": end.isoformat(),
-                  "feed": "iex", "limit": 10000, "adjustment": "raw"}
+                  "feed": feed, "limit": 10000, "adjustment": adjustment}
         bars = []
         for page in self._paged(f"{DATA_URL}/v2/stocks/{symbol}/bars", params, "bars"):
             bars.extend(page)

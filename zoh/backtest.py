@@ -14,7 +14,7 @@ from collections import defaultdict
 from datetime import datetime, timedelta
 
 from . import journal
-from .alpaca import Alpaca
+from .alpaca import Alpaca, AlpacaError
 from .strategy import (ET, LIVE_ONLY_SIGNALS, cross_assets, TRADING_MINUTES_PER_YEAR, bs_delta, bs_price,
                        check_exit, contracts_for, current_phase, day_context, evaluate_signal,
                        hhmm, parse_bar, regular_session, years_to_close)
@@ -115,10 +115,15 @@ def hero_odds(pnl, risk, start, target, dead, paths=4000, max_trades=500, seed=7
     return wins / paths
 
 
-def load_days(api, symbol, days_back, min_bars=300):
+def load_days(api, symbol, days_back, min_bars=250):
     end = datetime.now(ET) - timedelta(minutes=20)
     start = end - timedelta(days=days_back)
-    bars = regular_session([parse_bar(b) for b in api.stock_bars(symbol, start, end)])
+    try:  # full consolidated tape, split-adjusted; IEX is thin for smaller names
+        raw = api.stock_bars(symbol, start, end, feed="sip", adjustment="split")
+    except AlpacaError as e:
+        print(f"{symbol}: SIP unavailable ({e.status}), falling back to IEX")
+        raw = api.stock_bars(symbol, start, end, adjustment="split")
+    bars = regular_session([parse_bar(b) for b in raw])
     by_day = defaultdict(list)
     for bar in bars:
         by_day[bar["t"].date()].append(bar)
