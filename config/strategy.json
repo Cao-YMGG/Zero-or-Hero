@@ -1,11 +1,11 @@
 {
   "underlying": "SPY",
-  "champion": "orb30_hero",
+  "champion": "open_drive",
   "dead_equity": 50,
   "exit_time": "15:45",
   "poll_seconds": 30,
   "phases": [
-    {"name": "zero-or-hero", "min_equity": 0, "risk_per_trade": 0.3},
+    {"name": "zero-or-hero", "min_equity": 0, "risk_per_trade": 1.0},
     {"name": "compounder", "min_equity": 2000, "risk_per_trade": 0.1},
     {"name": "preserve", "min_equity": 10000, "risk_per_trade": 0.03}
   ],

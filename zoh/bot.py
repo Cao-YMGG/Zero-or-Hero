@@ -200,8 +200,8 @@ def main():
     config = journal.load_config()
     api = Alpaca()
     now = now_et()
-    if now.hour < 9:
-        log("before 09:00 ET; the later scheduled run handles today")
+    if now.time() < hhmm("08:30"):
+        log("before 08:30 ET; the later scheduled run handles today")
         return
     session = api.calendar(now.date(), now.date())
     if not session or session[0]["date"] != now.date().isoformat():

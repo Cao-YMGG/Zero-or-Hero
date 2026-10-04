@@ -1,12 +1,13 @@
 name: Trade
 
-# Scheduled workflows only run from the default branch. Two crons cover both EDT and EST;
-# the bot exits immediately when started before 09:00 ET, and the concurrency group queues
-# the second run behind the first, which then sees the day is done.
+# Scheduled workflows only run from the default branch. Two crons cover both EDT and EST
+# (08:45 ET either way, leaving slack for GitHub's cron delays before the open); the bot
+# exits immediately when started before 08:30 ET, and the concurrency group queues the
+# second run behind the first, which then sees the day is done.
 on:
   schedule:
-    - cron: "25 13 * * 1-5"
-    - cron: "25 14 * * 1-5"
+    - cron: "45 12 * * 1-5"
+    - cron: "45 13 * * 1-5"
   workflow_dispatch:
     inputs:
       dry_run:
