@@ -14,8 +14,22 @@ appears; the `claude_bias` / `claude_confirm` variants trade it in shadow mode.
   "events": ["CPI 08:30"],        // scheduled releases / speakers today
   "inputs": {"es_futures_pct": 0.4, "vix": 16.2, "wti_pct": -1.2, "us10y": 4.12,
              "us10y_change_bp": -3, "us2y_change_bp": -2, "dxy_pct": 0.1, "overnight": "..."},
+  "sniper": {                     // optional: at most ONE single stock with a fresh catalyst
+    "symbol": "META", "direction": "call",
+    "catalyst": "Muse hit #1 on the US App Store over the weekend; Wells Fargo PT raise",
+    "confidence": 0.6
+  },                              // or null when nothing qualifies (most days)
   "generated_at": "2026-10-05T09:05:00-04:00"
 }
 ```
+
+The `catalyst_sniper` variant buys a ~0.2-delta nearest-expiry option on `sniper.symbol` only
+if the stock has moved >= 1% from its open in the stated direction after 09:45 (price
+confirmation). Pick only mega caps with same-day options (META, NVDA, TSLA, AAPL, AMZN, MSFT,
+GOOGL, AVGO, AMD, MU...) and only for a fresh, non-earnings catalyst whose effect is not
+already in a big pre-market gap (> 4%): product traction, legal rulings, regulatory news,
+major contracts, sector-moving news. Research (journal/research/SNIPER.md) shows a purely
+mechanical "biggest mover" rule fires most days and loses; the edge has to come from the
+catalyst judgment. Leave it null unless the case is clear.
 
 Never edit a bias file after the open: it is the record the variant is scored on.

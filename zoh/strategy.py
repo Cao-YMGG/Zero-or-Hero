@@ -150,9 +150,36 @@ def signal_cross(bars, variant, ctx):
     return _flip(direction, variant)
 
 
+def sniper_pick(ctx):
+    """Claude's single-stock pick for today: {"symbol", "direction", "catalyst", ...} or None."""
+    pick = (ctx.get("bias") or {}).get("sniper") or None
+    if not pick or pick.get("direction") not in ("call", "put") or not pick.get("symbol"):
+        return None
+    return pick
+
+
+def signal_catalyst(bars, variant, ctx):
+    """Trade Claude's pre-market single-stock pick once its price confirms after the open.
+
+    `bars` here are the picked stock's bars (the bot swaps them in); fires when the move from
+    the open, in the picked direction, reaches move_pct after N minutes.
+    """
+    pick = sniper_pick(ctx)
+    if not pick or not bars:
+        return None
+    if bars[-1]["t"].time() < minutes_after_open(variant.get("after_minutes", 15)):
+        return None
+    move = bars[-1]["c"] / bars[0]["o"] - 1
+    need = variant.get("move_pct", 1.0) / 100
+    if (pick["direction"] == "call" and move >= need) or (pick["direction"] == "put"
+                                                          and move <= -need):
+        return pick["direction"]
+    return None
+
+
 SIGNALS = {"orb": signal_orb, "momentum": signal_momentum, "gap": signal_gap,
-           "bias": signal_bias, "cross": signal_cross}
-LIVE_ONLY_SIGNALS = {"bias"}  # no history to backtest
+           "bias": signal_bias, "cross": signal_cross, "catalyst": signal_catalyst}
+LIVE_ONLY_SIGNALS = {"bias", "catalyst"}  # no history to backtest
 
 
 def evaluate_signal(bars, variant, ctx=None):

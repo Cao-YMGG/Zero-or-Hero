@@ -18,7 +18,7 @@ from datetime import datetime, timedelta
 from . import journal
 from .alpaca import Alpaca, AlpacaError
 from .strategy import (ET, MARKET_OPEN, bs_delta, contracts_for, current_phase, check_exit,
-                       cross_assets, day_context, evaluate_signal, hhmm, parse_bar, parse_occ,
+                       cross_assets, day_context, evaluate_signal, hhmm, sniper_pick, parse_bar, parse_occ,
                        regular_session, round_limit, select_contract, years_to_close)
 
 MAX_ENTRY_ATTEMPTS = 3
@@ -58,9 +58,9 @@ def fetch_bias(day):
     return json.loads(shown.stdout) if shown.returncode == 0 else None
 
 
-def chain_candidates(api, underlying, expiry, kind, spot, now):
-    snaps = api.option_chain(underlying, expiry, kind, round(spot * 0.97, 2),
-                             round(spot * 1.03, 2))
+def chain_candidates(api, underlying, expiry, kind, spot, now, width=0.03):
+    snaps = api.option_chain(underlying, expiry, kind, round(spot * (1 - width), 2),
+                             round(spot * (1 + width), 2))
     years = years_to_close(now)
     candidates = []
     for symbol, snap in snaps.items():
@@ -140,10 +140,23 @@ class Bot:
 
     # --- trade lifecycle ---------------------------------------------------
 
-    def try_enter(self, variant, vstate, direction, spot, now):
+    def nearest_chain(self, underlying, direction, spot, now, width):
+        """Today's expiry if listed, else the next few calendar days (single stocks: Tue/Thu)."""
+        for ahead in range(0, 5):
+            expiry = self.today + timedelta(days=ahead)
+            candidates = chain_candidates(self.api, underlying, expiry, direction, spot, now, width)
+            if candidates:
+                return candidates
+        return []
+
+    def try_enter(self, variant, vstate, direction, spot, now, underlying=None):
         vstate["attempts"] = vstate.get("attempts", 0) + 1
         budget = self.state["equity_start"] * self.state["risk_per_trade"]
-        candidates = chain_candidates(self.api, self.underlying, self.today, direction, spot, now)
+        underlying = underlying or self.underlying
+        if underlying == self.underlying:
+            candidates = chain_candidates(self.api, underlying, self.today, direction, spot, now)
+        else:
+            candidates = self.nearest_chain(underlying, direction, spot, now, width=0.08)
         pick = select_contract(candidates, variant.get("target_delta", 0.3), budget)
         if not pick:
             log(f"{variant['id']}: {direction} signal but nothing affordable within ${budget:.0f}")
@@ -196,6 +209,13 @@ class Bot:
         cross = {sym: closed_bars(self.api, sym, now) for sym in cross_assets(self.config["variants"])}
         ctx = day_context(self.today, self.events, self.prev_close,
                           bars[0]["o"] if bars else None, self.load_bias(), cross)
+        pick = sniper_pick(ctx)
+        pick_bars = []
+        if pick and any(v["signal"] == "catalyst" for v in self.config["variants"]):
+            try:
+                pick_bars = closed_bars(self.api, pick["symbol"], now)
+            except AlpacaError as e:
+                log(f"sniper bars for {pick['symbol']} failed: {e}")
         variants = self.config["variants"]
         vstates = self.state["variants"]
         open_symbols = [vs["shadow"]["contract"] for vs in vstates.values() if vs.get("shadow")]
@@ -220,10 +240,13 @@ class Bot:
             elif (not vstate.get("entered") and not at_exit and bars
                   and vstate.get("attempts", 0) < MAX_ENTRY_ATTEMPTS
                   and now.time() <= hhmm(variant.get("entry_cutoff", "13:00"))):
-                direction = evaluate_signal(bars, variant, ctx)
+                catalyst = variant["signal"] == "catalyst"
+                their_bars = pick_bars if catalyst else bars
+                direction = evaluate_signal(their_bars, variant, ctx) if their_bars else None
                 if direction:
                     try:
-                        self.try_enter(variant, vstate, direction, bars[-1]["c"], now)
+                        self.try_enter(variant, vstate, direction, their_bars[-1]["c"], now,
+                                       pick["symbol"] if catalyst else None)
                     except AlpacaError as e:
                         log(f"{variant['id']}: entry failed: {e}")
 
