@@ -7,7 +7,8 @@ from datetime import datetime, timedelta
 from . import journal
 from .alpaca import Alpaca
 from .bot import chain_candidates
-from .strategy import (ET, MARKET_OPEN, current_phase, evaluate_signal, parse_bar,
+from .bot import previous_close
+from .strategy import (ET, MARKET_OPEN, current_phase, day_context, evaluate_signal, parse_bar,
                        regular_session, select_contract)
 
 
@@ -35,12 +36,15 @@ def main():
     start = datetime.combine(day, MARKET_OPEN, ET)
     bars = regular_session([parse_bar(b) for b in api.stock_bars(
         config["underlying"], start, min(start + timedelta(hours=7), now - timedelta(minutes=16)))])
+    ctx = day_context(day, journal.load_events(), previous_close(api, config["underlying"], day),
+                      bars[0]["o"] if bars else None)
     print(f"\nreplay of {day}: {len(bars)} bars, open {bars[0]['o'] if bars else '-'} "
-          f"close {bars[-1]['c'] if bars else '-'}")
+          f"close {bars[-1]['c'] if bars else '-'} events={ctx['events']} "
+          f"gap={ctx['gap_pct'] and round(ctx['gap_pct'], 2)}%")
     for variant in config["variants"]:
         hit = None
         for i in range(len(bars)):
-            direction = evaluate_signal(bars[:i + 1], variant)
+            direction = evaluate_signal(bars[:i + 1], variant, ctx)
             if direction:
                 hit = (bars[i]["t"] + timedelta(minutes=1), direction, bars[i]["c"])
                 break

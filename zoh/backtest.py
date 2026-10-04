@@ -14,9 +14,9 @@ from datetime import datetime, timedelta
 
 from . import journal
 from .alpaca import Alpaca
-from .strategy import (ET, TRADING_MINUTES_PER_YEAR, bs_delta, bs_price, check_exit, contracts_for,
-                       current_phase, evaluate_signal, hhmm, parse_bar, regular_session,
-                       years_to_close)
+from .strategy import (ET, LIVE_ONLY_SIGNALS, TRADING_MINUTES_PER_YEAR, bs_delta, bs_price,
+                       check_exit, contracts_for, current_phase, day_context, evaluate_signal,
+                       hhmm, parse_bar, regular_session, years_to_close)
 
 
 def pick_strike(spot, years, iv, kind, target_delta):
@@ -24,7 +24,7 @@ def pick_strike(spot, years, iv, kind, target_delta):
     return min(strikes, key=lambda k: abs(abs(bs_delta(spot, k, years, iv, kind)) - target_delta))
 
 
-def simulate_day(bars, variant, iv, slip, exit_at):
+def simulate_day(bars, variant, iv, slip, exit_at, ctx=None):
     """One variant on one day. Returns a trade dict or None."""
     pos = None
     for i, bar in enumerate(bars):
@@ -33,7 +33,7 @@ def simulate_day(bars, variant, iv, slip, exit_at):
         if pos is None:
             if now.time() > hhmm(variant.get("entry_cutoff", "13:00")) or now.time() >= exit_at:
                 return None
-            direction = evaluate_signal(bars[:i + 1], variant)
+            direction = evaluate_signal(bars[:i + 1], variant, ctx)
             if not direction:
                 continue
             strike = pick_strike(bar["c"], years, iv, direction, variant.get("target_delta", 0.3))
@@ -125,14 +125,23 @@ def run(config, by_day):
     iv, slip = config["backtest"]["iv"], config["backtest"]["slippage"]
     exit_at = hhmm(config["exit_time"])
     days = list(by_day)
+    events = journal.load_events()
+    contexts, prev = {}, None
+    for day, bars in by_day.items():
+        contexts[day] = day_context(day, events, prev, bars[0]["o"])
+        prev = bars[-1]["c"]
     results = []
     for variant in config["variants"]:
+        if variant["signal"] in LIVE_ONLY_SIGNALS:
+            continue
         trades = {}
         for day, bars in by_day.items():
-            trade = simulate_day(bars, variant, iv, slip, exit_at)
+            trade = simulate_day(bars, variant, iv, slip, exit_at, contexts[day])
             if trade:
                 trades[day] = trade
         pnl = [t["pnl_pct"] for t in trades.values()]
+        on_event = [t["pnl_pct"] for d, t in trades.items() if contexts[d]["events"]]
+        off_event = [t["pnl_pct"] for d, t in trades.items() if not contexts[d]["events"]]
         wins = [p for p in pnl if p > 0]
         losses = [p for p in pnl if p <= 0]
         start = config["backtest"]["start_equity"]
@@ -145,6 +154,8 @@ def run(config, by_day):
             "avg_loss": sum(losses) / len(losses) if losses else 0,
             "expectancy": sum(pnl) / len(pnl) if pnl else 0,
             "best": max(pnl) if pnl else 0,
+            "event": (len(on_event), sum(on_event) / len(on_event) if on_event else 0),
+            "non_event": (len(off_event), sum(off_event) / len(off_event) if off_event else 0),
             "reasons": _count(t["reason"] for t in trades.values()),
             **compound(trades, days, config),
         })
@@ -199,6 +210,15 @@ def report(config, days, results, rv=None):
     for r in sorted(results, key=lambda r: max(r["hero"].values()), reverse=True):
         lines.append(f"| {r['id']} | " + " | ".join(f"{r['hero'][s]:.1%}" for s in SIZINGS)
                      + " |")
+    lines += ["", "## Macro days (CPI / NFP / FOMC) vs other days — expectancy per trade", "",
+              "| variant | macro-day trades | macro-day avg | other trades | other avg |",
+              "|---|---|---|---|---|"]
+    for r in results:
+        lines.append(f"| {r['id']} | {r['event'][0]} | {r['event'][1]:+.1%} | "
+                     f"{r['non_event'][0]} | {r['non_event'][1]:+.1%} |")
+    live_only = [v["id"] for v in config["variants"] if v["signal"] in LIVE_ONLY_SIGNALS]
+    if live_only:
+        lines += ["", f"Live-only variants (no history to backtest): {', '.join(live_only)}"]
     lines += ["", "Exit reasons:", ""]
     lines += [f"- {r['id']}: {r['reasons']}" for r in results]
     return "\n".join(lines) + "\n"

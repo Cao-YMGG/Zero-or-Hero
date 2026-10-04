@@ -26,3 +26,15 @@
 - 交易时间表提前到 08:45 ET 启动，避免 GitHub 定时任务延迟错过 10:00 前的入场窗口。
 
 **下一步要验证**：回测用的是统一的 IV，真实市场开盘时 IV 更高、午盘更低。影子交易的实盘数据会说明 `open_drive` 的优势是不是模型假象。
+
+## 2026-10-04 — v2: 加入宏观层
+
+**假设**：纯价格信号没有方向优势；宏观信息（数据日、隔夜跳空、Claude 盘前判断）也许有。用同样的影子交易规则来检验，不靠主观认定。
+
+**改动**
+- 新增 `config/macro_events.json`：CPI / 非农 / FOMC 公布日（来自美联储和 BLS 官方日程，已按 2025 年政府停摆时的延期和取消修正）。
+- 新增日级上下文：数据日、隔夜跳空幅度、Claude 盘前判断。变体可以用 `"days": "event" | "non_event"` 只在数据日或只在平常日交易。
+- 新信号：`gap`（顺着或反着隔夜跳空）、`bias`（按 Claude 盘前判断，`confirm` 版要求开盘走势同向）。
+- 回测报告增加「数据日 vs 平常日」对比。
+- 种群调整为 10 个：淘汰回测中到达 $2,000 概率最低的 5 个（orb30_hero、orb30_tp100、orb60_tp100、mom60_hero、power_hour）；新增 open_drive_macro、open_drive_calm、gap_with、gap_fade、claude_bias、claude_confirm。
+- 新增每个交易日 08:50 ET 的 Claude 盘前会话，结果写入 `journal/bias/`。`claude_*` 变体没有历史可回测，只靠实盘影子交易打分。

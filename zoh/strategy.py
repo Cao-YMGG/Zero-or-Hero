@@ -31,8 +31,36 @@ def regular_session(bars):
     return [b for b in bars if MARKET_OPEN <= b["t"].time() < MARKET_CLOSE]
 
 
+# --- day context -------------------------------------------------------------
+# Facts about the day that signals and filters may use:
+#   events: macro releases today (e.g. ["CPI"]), gap_pct: open vs previous close in %,
+#   bias: Claude's pre-market call ({"bias": "call"|"put"|"none", ...}) or None.
+
+def day_context(day, events_by_date, prev_close=None, open_price=None, bias=None):
+    gap = (open_price / prev_close - 1) * 100 if prev_close and open_price else None
+    return {"events": events_by_date.get(day.isoformat(), []), "gap_pct": gap, "bias": bias}
+
+
+def passes_filters(variant, ctx):
+    """Day-level filters a variant can declare in config, checked before its signal."""
+    days = variant.get("days")
+    if days == "event" and not ctx["events"]:
+        return False
+    if days == "non_event" and ctx["events"]:
+        return False
+    return True
+
+
+def _gap_direction(ctx, min_gap_pct):
+    gap = ctx.get("gap_pct")
+    if gap is None or abs(gap) < min_gap_pct:
+        return None
+    return "call" if gap > 0 else "put"
+
+
 # --- signals -------------------------------------------------------------
-# Each signal sees today's closed bars so far and returns "call", "put" or None.
+# Each signal sees today's closed bars so far plus the day context and returns
+# "call", "put" or None.
 
 def _flip(direction, variant):
     if direction and variant.get("fade"):
@@ -40,7 +68,7 @@ def _flip(direction, variant):
     return direction
 
 
-def signal_orb(bars, variant):
+def signal_orb(bars, variant, ctx=None):
     """Opening-range breakout: close beyond the high/low of the first N minutes."""
     end = minutes_after_open(variant.get("or_minutes", 30))
     rng = [b for b in bars if b["t"].time() < end]
@@ -59,7 +87,7 @@ def signal_orb(bars, variant):
     return _flip(direction, variant)
 
 
-def signal_momentum(bars, variant):
+def signal_momentum(bars, variant, ctx=None):
     """Trend day: after N minutes, follow the move from the open if it exceeds a threshold."""
     if not bars or bars[-1]["t"].time() < minutes_after_open(variant.get("after_minutes", 60)):
         return None
@@ -73,11 +101,38 @@ def signal_momentum(bars, variant):
     return _flip(direction, variant)
 
 
-SIGNALS = {"orb": signal_orb, "momentum": signal_momentum}
+def signal_gap(bars, variant, ctx):
+    """Overnight gap: once N minutes have traded, follow (or fade) a gap of at least X%."""
+    if not bars or bars[-1]["t"].time() < minutes_after_open(variant.get("after_minutes", 1)):
+        return None
+    return _flip(_gap_direction(ctx, variant.get("min_gap_pct", 0.3)), variant)
 
 
-def evaluate_signal(bars, variant):
-    return SIGNALS[variant["signal"]](bars, variant)
+def signal_bias(bars, variant, ctx):
+    """Claude's pre-market call. With confirm, the move since the open must agree."""
+    bias = (ctx.get("bias") or {}).get("bias")
+    if bias not in ("call", "put"):
+        return None
+    if not bars or bars[-1]["t"].time() < minutes_after_open(variant.get("after_minutes", 5)):
+        return None
+    if variant.get("confirm"):
+        ret = bars[-1]["c"] / bars[0]["o"] - 1
+        threshold = variant.get("threshold_pct", 0.1) / 100
+        if (bias == "call" and ret < threshold) or (bias == "put" and ret > -threshold):
+            return None
+    return _flip(bias, variant)
+
+
+SIGNALS = {"orb": signal_orb, "momentum": signal_momentum, "gap": signal_gap,
+           "bias": signal_bias}
+LIVE_ONLY_SIGNALS = {"bias"}  # no history to backtest
+
+
+def evaluate_signal(bars, variant, ctx=None):
+    ctx = ctx or {"events": [], "gap_pct": None, "bias": None}
+    if not passes_filters(variant, ctx):
+        return None
+    return SIGNALS[variant["signal"]](bars, variant, ctx)
 
 
 # --- exits -----------------------------------------------------------------

@@ -28,3 +28,16 @@ live account — do not trade through it for this project).
 5. When equity approaches the next phase, make sure that phase has a fitting strategy
    (e.g. debit spreads or longer-dated options for `compounder`).
 6. Run `python -m unittest`, append an entry to `EVOLUTION.md`, commit and push to `main`.
+
+## Daily pre-market bias (weekday session, before 09:30 ET)
+Goal: one honest directional call for SPY today, so `claude_bias` and `claude_confirm` can be
+scored against purely mechanical variants.
+1. If today is not a NYSE trading day, stop without writing anything.
+2. Research with web search: S&P 500 futures vs prior close, overnight Asia/Europe, major
+   news, today's scheduled releases/Fed speakers (also `config/macro_events.json`), VIX,
+   yesterday's SPY close and trend. Note what is already priced in.
+3. Decide `call`, `put` or `none`. Prefer `none` when evidence is mixed: a skipped day costs
+   nothing, a coin flip costs the spread and theta.
+4. Write `journal/bias/<today>.json` in the schema from `journal/bias/README.md`, commit
+   ("bias: <date> <call|put|none>") and push to `main` before 09:30 ET. Retry the push on
+   conflict (`git pull --rebase`). Do not touch any other file. Never place trades.

@@ -1,0 +1,11 @@
+{
+  "_note": "US macro release days (08:30 ET data, 14:00 ET FOMC decision). Sources: federalreserve.gov FOMC calendar, bls.gov CPI and Employment Situation schedules. 2025 shutdown: Sep CPI moved to Oct 24, Oct CPI and Oct jobs cancelled, Sep jobs Nov 20, Nov jobs Dec 16, Nov CPI Dec 18. Extend this list as new schedules are published.",
+  "FOMC": ["2025-10-29", "2025-12-10", "2026-01-28", "2026-03-18", "2026-04-29", "2026-06-17",
+           "2026-07-29", "2026-09-16", "2026-10-28", "2026-12-09"],
+  "CPI": ["2025-10-24", "2025-12-18", "2026-01-13", "2026-02-13", "2026-03-11", "2026-04-10",
+          "2026-05-12", "2026-06-10", "2026-07-14", "2026-08-12", "2026-09-11", "2026-10-14",
+          "2026-11-10", "2026-12-10"],
+  "NFP": ["2025-11-20", "2025-12-16", "2026-01-09", "2026-02-11", "2026-03-06", "2026-04-03",
+          "2026-05-08", "2026-06-05", "2026-07-02", "2026-08-07", "2026-09-04", "2026-10-02",
+          "2026-11-06"]
+}

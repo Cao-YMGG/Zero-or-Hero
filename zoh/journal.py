@@ -5,10 +5,12 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = ROOT / "config" / "strategy.json"
+EVENTS_PATH = ROOT / "config" / "macro_events.json"
 JOURNAL_DIR = ROOT / "journal"
 TRADES_PATH = JOURNAL_DIR / "trades.csv"
 EQUITY_PATH = JOURNAL_DIR / "equity.csv"
 STATE_PATH = JOURNAL_DIR / "state.json"
+BIAS_DIR = JOURNAL_DIR / "bias"
 
 TRADE_FIELDS = ["date", "variant", "mode", "contract", "direction", "entry_time", "entry_price",
                 "exit_time", "exit_price", "qty", "pnl", "pnl_pct", "exit_reason", "phase",
@@ -22,6 +24,21 @@ def load_config():
 
 def save_config(config):
     CONFIG_PATH.write_text(json.dumps(config, indent=2) + "\n")
+
+
+def load_events():
+    """{"2026-10-14": ["CPI"], ...} from config/macro_events.json."""
+    by_date = {}
+    for kind, dates in json.loads(EVENTS_PATH.read_text()).items():
+        if kind.startswith("_"):
+            continue
+        for day in dates:
+            by_date.setdefault(day, []).append(kind)
+    return by_date
+
+
+def bias_path(day):
+    return BIAS_DIR / f"{day.isoformat()}.json"
 
 
 def variant_by_id(config, variant_id):
