@@ -88,10 +88,14 @@ def profile(sym, data, peers):
                      "filled": (lo <= pc) if o > pc else (hi >= pc), "bars": bars, "o": o, "c": c,
                      "pc": pc})
     rv = statistics.pstdev([math.log(r["c"] / r["pc"]) for r in rows]) * math.sqrt(252)
-    iv = rv * IV_MULT
+    # Same-day options only cover the rest of the session, so price them off intraday
+    # (1-minute) volatility, not close-to-close vol that includes overnight gaps.
+    mins = [math.log(b2["c"] / b1["c"]) for r in rows for b1, b2 in zip(r["bars"], r["bars"][1:])]
+    intraday_vol = statistics.pstdev(mins) * math.sqrt(252 * 390)
+    iv = intraday_vol * IV_MULT
     oc = [abs(r["oc"]) for r in rows]
     L = [f"# {sym} personality — {rows[0]['d']} → {rows[-1]['d']} ({len(rows)} days)", "",
-         f"Daily realised vol {rv:.0%} (option model IV {iv:.0%}). Median |open→close| "
+         f"Close-to-close vol {rv:.0%}, intraday vol {intraday_vol:.0%} (option model IV {iv:.0%}). Median |open→close| "
          f"{statistics.median(oc):.1%}, median range {statistics.median(r['rng'] for r in rows):.1%}. "
          f"Days with |open→close| ≥ 3%: {sum(x >= .03 for x in oc)}; ≥ 5%: {sum(x >= .05 for x in oc)}.",
          "", "## 1. Gaps: does the open's gap continue or fill?", "",
