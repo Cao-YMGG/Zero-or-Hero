@@ -1,0 +1,85 @@
+[
+ {
+  "id": "rebound_trail_1_40",
+  "signal": "gap",
+  "sides": [
+   "down"
+  ],
+  "fade": true,
+  "after_minutes": 15,
+  "min_gap_pct": 2.0,
+  "target_delta": 0.08,
+  "take_profit": null,
+  "stop_loss": null,
+  "entry_cutoff": "10:30",
+  "days": "non_event",
+  "trail_after": 1.0,
+  "trail_giveback": 0.4
+ },
+ {
+  "id": "rebound_trail_1_65",
+  "signal": "gap",
+  "sides": [
+   "down"
+  ],
+  "fade": true,
+  "after_minutes": 15,
+  "min_gap_pct": 2.0,
+  "target_delta": 0.08,
+  "take_profit": null,
+  "stop_loss": null,
+  "entry_cutoff": "10:30",
+  "days": "non_event",
+  "trail_after": 1.0,
+  "trail_giveback": 0.65
+ },
+ {
+  "id": "rebound_trail_2_50",
+  "signal": "gap",
+  "sides": [
+   "down"
+  ],
+  "fade": true,
+  "after_minutes": 15,
+  "min_gap_pct": 2.0,
+  "target_delta": 0.08,
+  "take_profit": null,
+  "stop_loss": null,
+  "entry_cutoff": "10:30",
+  "days": "non_event",
+  "trail_after": 2.0,
+  "trail_giveback": 0.5
+ },
+ {
+  "id": "rebound_trail_3_60",
+  "signal": "gap",
+  "sides": [
+   "down"
+  ],
+  "fade": true,
+  "after_minutes": 15,
+  "min_gap_pct": 2.0,
+  "target_delta": 0.08,
+  "take_profit": null,
+  "stop_loss": null,
+  "entry_cutoff": "10:30",
+  "days": "non_event",
+  "trail_after": 3.0,
+  "trail_giveback": 0.6
+ },
+ {
+  "id": "rebound_hold",
+  "signal": "gap",
+  "sides": [
+   "down"
+  ],
+  "fade": true,
+  "after_minutes": 15,
+  "min_gap_pct": 2.0,
+  "target_delta": 0.08,
+  "take_profit": null,
+  "stop_loss": null,
+  "entry_cutoff": "10:30",
+  "days": "non_event"
+ }
+]
