@@ -50,6 +50,8 @@ post, INTC +8.8% gap) is usually spent.
 
 Two more patterns from 2026-10-05: (1) a same-morning analyst upgrade with a small gap (Melius upgraded MSFT to Buy, gap +0.9%, then +1.5% from the open in 15 minutes); (2) the day after a sharp non-earnings selloff on a supply/competition headline, when the sell side pushes back pre-market (WDC -10% on 10/2 on Toshiba doubling HDD capacity; Bernstein, Citi and Morgan Stanley said supply stays tight through 2028; WDC gapped +3.5% and was +6.6% by 09:55, STX +5.4%). A theme marked "cooling" after a one-day headline drop is a rebound candidate, not a fade. WDC/STX only have Friday expiries, so on other days the sniper uses the nearest expiry.
 
+Third pattern from 2026-10-05, the other side of the same headline: Musk said TSMC is in talks to help run Terafab. INTC fell -3.7% pre-market (the loser was priced), while TSLA (the beneficiary, plus a Q3 delivery beat) was -0.4% pre-market, dipped to -1% in the first 15 minutes and then climbed to +3.2% from the open by 15:20. When news moves one name pre-market, check who is on the other side of it and whether that name has moved yet.
+
 Never edit a bias file after the open: it is the record the variant is scored on.
 
 ## Intraday picks (since v19)
