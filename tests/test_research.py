@@ -38,3 +38,13 @@ class SurgeTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class SiteTest(unittest.TestCase):
+    def test_build(self):
+        import tempfile
+        from zoh import site
+        with tempfile.TemporaryDirectory() as tmp:
+            html = site.build(tmp).read_text()
+        self.assertIn("Zero or Hero", html)
+        self.assertIn("rebound_scanner", html)
