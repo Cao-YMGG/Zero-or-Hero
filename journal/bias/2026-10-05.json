@@ -9,17 +9,37 @@
     "ISM Services PMI 10:00 ET is the only notable release; not in macro_events (no CPI/NFP/FOMC), so the day counts as non-event. Fed speakers through the week, FOMC minutes Wednesday",
     "AMD pre-market 628.25 (-0.9% vs 633.91): far from the 2% down gap for the rebound rule; amd_gap_cheap_run needs |gap| >= 1%, borderline at the open",
     "INTC -3.7% pre-market after Friday's run (Musk said TSMC is in talks to help run Terafab, possibly supplementing Intel) plus profit-taking; INTC has no Monday expiry, so rebound_scanner cannot trade it today",
-    "Dossiers: news already gapped pre-market is usually spent; INTC's drop is an echo of a weekend headline, not an intraday catalyst"
+    "Dossiers: news already gapped pre-market is usually spent; INTC's drop is an echo of a weekend headline, not an intraday catalyst",
+    "VIX ~15 (low-normal volatility); Treasury yield sources disagree, TLT -0.4% pre-market is the reliable read",
+    "META pre-market -0.25%; Muse still #1 free US App Store app (5.6M downloads as of 10/2), already known and priced; META -3% 1w after +23% 1m, so no fresh catalyst"
   ],
-  "events": ["ISM Services PMI 10:00"],
-  "inputs": {"es_futures_pct": -0.19, "vix": null, "wti_pct": -1.4, "us10y": null,
-             "us10y_change_bp": 3, "us2y_change_bp": null, "dxy_pct": 0.4,
-             "overnight": "Futures slightly lower after Friday's rally; oil eases; yields elevated; INTC -3.7% on TSMC-Terafab talks"},
+  "events": [
+    "ISM Services PMI 10:00"
+  ],
+  "inputs": {
+    "es_futures_pct": -0.19,
+    "vix": 15.3,
+    "wti_pct": -1.4,
+    "us10y": null,
+    "us10y_change_bp": null,
+    "us2y_change_bp": null,
+    "dxy_pct": 0.4,
+    "overnight": "Futures slightly lower after Friday's rally; oil eases; yields elevated; INTC -3.7% on TSMC-Terafab talks; VIX ~15.3 (web, unverified); 2Y/10Y levels conflicting across web sources (4.65% vs 5.26% 10Y), so only TLT -0.4% pre-market is used: long yields up a few bp"
+  },
   "rotation": {
-    "heating": ["optical (LITE +15% 1w / +25% 1m, CIEN +10% 1w)", "GPU (NVDA +4% 1w)", "power (GEV +3% 1w)"],
-    "cooling": ["storage (WDC -9% 1w, SNDK -3% 1w)", "CPU (INTC -3% 1w and -3.7% pre-market after +33% 1m; AMD +0.5% 1w after +39% 1m; ARM -1% 1w)", "memory (MU -1% 1w)"],
-    "note": "Money keeps moving from the stretched CPU/storage run into optical and back to NVDA; index flat near highs while themes diverge"
+    "heating": [
+      "optical (LITE +15% 1w / +25% 1m, CIEN +10% 1w)",
+      "GPU (NVDA +4% 1w)",
+      "power (GEV +3% 1w)"
+    ],
+    "cooling": [
+      "storage (WDC -9% 1w, SNDK -3% 1w)",
+      "CPU (INTC -3% 1w and -3.7% pre-market after +33% 1m; AMD +0.5% 1w after +39% 1m; ARM -1% 1w)",
+      "memory (MU -1% 1w)",
+      "internet mixed (META -3% 1w after +23% 1m, AAPL -2% 1w; MSFT/AMZN/GOOGL flat)"
+    ],
+    "note": "Money keeps moving from the stretched CPU/storage run into optical and back to NVDA; index flat near highs while themes diverge; SPY -0.2% 1w / +0.8% 1m, QQQ +0.7% 1w / +5.8% 1m: tech-led but narrow"
   },
   "sniper": null,
-  "generated_at": "2026-10-05T09:02:00-04:00"
+  "generated_at": "2026-10-05T09:20:00-04:00"
 }
