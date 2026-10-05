@@ -234,3 +234,20 @@ class ReviewTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class IntradayPickTest(unittest.TestCase):
+    def test_intraday_variant_enters_regardless_of_move_from_open(self):
+        import json
+        from datetime import datetime
+        from zoh import journal
+        from zoh.strategy import ET, evaluate_signal
+        config = json.loads(journal.CONFIG_PATH.read_text())
+        variant = next(v for v in config["variants"] if v.get("source") == "intraday")
+        bars = [{"t": datetime(2026, 10, 6, 9, 30 + i, tzinfo=ET), "o": 100 + 3 * i, "h": 0,
+                 "l": 0, "c": 100 + 3 * i} for i in range(3)]  # stock already up 6%
+        ctx = {"events": [], "gap_pct": None, "weekday": 1,
+               "bias": {"sniper": {"symbol": "AMD", "direction": "put"}}}
+        self.assertEqual(evaluate_signal(bars, variant, ctx), "put")
+        self.assertTrue(str(journal.intraday_path(datetime(2026, 10, 6).date())).endswith(
+            "bias/intraday/2026-10-06.json"))

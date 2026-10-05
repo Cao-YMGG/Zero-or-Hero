@@ -47,10 +47,12 @@ def previous_close(api, symbol, today):
     return prior[-1]["c"] if prior else None
 
 
-def fetch_bias(day):
-    """Claude's pre-market bias for `day`, from the checkout or freshly pushed to main."""
-    path = journal.bias_path(day)
-    if path.exists():
+def fetch_bias(day, path=None, refresh=False):
+    """Claude's pre-market bias for `day`, from the checkout or freshly pushed to main.
+
+    With refresh, always read main (the intraday file can gain picks during the day)."""
+    path = path or journal.bias_path(day)
+    if path.exists() and not refresh:
         return json.loads(path.read_text())
     rel = path.relative_to(journal.ROOT).as_posix()
     subprocess.run(["git", "fetch", "-q", "origin", "main"], timeout=60, check=False)
@@ -109,6 +111,8 @@ class Bot:
             self.prev_close = None
         self.bias = None
         self.bias_checked_at = 0.0
+        self.intraday = None
+        self.intraday_checked_at = 0.0
         self.prev_closes = {}
         log(f"context: events={self.events.get(self.today.isoformat(), [])} "
             f"prev_close={self.prev_close}")
@@ -133,6 +137,22 @@ class Bot:
                 log(f"claude bias: {self.bias.get('bias')} "
                     f"(confidence {self.bias.get('confidence')}): {self.bias.get('summary', '')}")
         return self.bias
+
+    def load_intraday(self):
+        """Claude's latest intraday pick ({"symbol", "direction", "catalyst", "time"}) or None."""
+        if systime.time() - self.intraday_checked_at >= BIAS_RECHECK_SECONDS:
+            self.intraday_checked_at = systime.time()
+            try:
+                data = fetch_bias(self.today, journal.intraday_path(self.today), refresh=True)
+            except (OSError, ValueError, subprocess.SubprocessError) as e:
+                log(f"intraday fetch failed: {e}")
+                data = None
+            picks = (data or {}).get("picks") or []
+            latest = picks[-1] if picks else None
+            if latest and latest != self.intraday:
+                log(f"claude intraday pick: {latest}")
+            self.intraday = latest
+        return self.intraday
 
     # --- orders ----------------------------------------------------------
 
@@ -237,6 +257,15 @@ class Bot:
                 pick_bars = closed_bars(self.api, pick["symbol"], now)
             except AlpacaError as e:
                 log(f"sniper bars for {pick['symbol']} failed: {e}")
+        intraday, intraday_bars, intraday_ctx = None, [], ctx
+        if any(v.get("source") == "intraday" for v in self.config["variants"]):
+            intraday = self.load_intraday()
+            if intraday and intraday.get("symbol"):
+                try:
+                    intraday_bars = closed_bars(self.api, intraday["symbol"], now)
+                except AlpacaError as e:
+                    log(f"intraday bars for {intraday['symbol']} failed: {e}")
+                intraday_ctx = {**ctx, "bias": {"sniper": intraday}}
         variants = self.config["variants"]
         vstates = self.state["variants"]
         open_symbols = [vs["shadow"]["contract"] for vs in vstates.values() if vs.get("shadow")]
@@ -261,7 +290,10 @@ class Bot:
             elif (not vstate.get("entered") and not at_exit and bars
                   and vstate.get("attempts", 0) < MAX_ENTRY_ATTEMPTS
                   and now.time() <= hhmm(variant.get("entry_cutoff", "13:00"))):
-                if variant["signal"] == "catalyst":
+                if variant.get("source") == "intraday":
+                    candidates = ([(intraday["symbol"], intraday_bars, intraday_ctx)]
+                                  if intraday and intraday.get("symbol") else [])
+                elif variant["signal"] == "catalyst":
                     candidates = [(pick["symbol"], pick_bars, ctx)] if pick else []
                 else:
                     # fixed single stock, a scanner universe, or the main underlying

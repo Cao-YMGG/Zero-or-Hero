@@ -41,6 +41,11 @@ def bias_path(day):
     return BIAS_DIR / f"{day.isoformat()}.json"
 
 
+def intraday_path(day):
+    """Claude's intraday picks: {"date": ..., "picks": [{"time", "symbol", "direction", ...}]}."""
+    return BIAS_DIR / "intraday" / f"{day.isoformat()}.json"
+
+
 def variant_by_id(config, variant_id):
     return next(v for v in config["variants"] if v["id"] == variant_id)
 
