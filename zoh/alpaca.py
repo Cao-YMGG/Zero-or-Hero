@@ -25,7 +25,7 @@ class Alpaca:
             "Content-Type": "application/json",
         }
 
-    def _request(self, method, url, params=None, body=None, retries=4):
+    def _request(self, method, url, params=None, body=None, retries=6):
         if params:
             query = {k: v for k, v in params.items() if v is not None}
             url += "?" + urllib.parse.urlencode(query)
@@ -38,7 +38,8 @@ class Alpaca:
                     return json.loads(raw) if raw else None
             except urllib.error.HTTPError as e:
                 if e.code in (429, 500, 502, 503, 504) and attempt < retries - 1:
-                    time.sleep(2 ** attempt)
+                    # rate limits need a real pause (parallel research jobs share one key)
+                    time.sleep(min(60, 5 * 2 ** attempt) if e.code == 429 else 2 ** attempt)
                     continue
                 raise AlpacaError(e.code, e.read().decode(errors="replace")) from None
             except (urllib.error.URLError, TimeoutError):

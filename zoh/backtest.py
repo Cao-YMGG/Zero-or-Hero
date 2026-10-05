@@ -21,8 +21,14 @@ from .strategy import (ET, LIVE_ONLY_SIGNALS, cross_assets, TRADING_MINUTES_PER_
 
 
 def pick_strike(spot, years, iv, kind, target_delta):
-    width = max(20, int(spot * 0.08))  # $1 strikes within ±8% (±$20 minimum)
-    strikes = [round(spot) + k for k in range(-width, width + 1)]
+    """Strike whose |delta| is closest to the target, on a realistic grid within ±15%."""
+    step = 0.5 if spot < 100 else 1.0 if spot < 500 else 5.0 if spot > 2000 else 1.0
+    lo, hi = spot * 0.85, spot * 1.15
+    strikes, k = [], math.ceil(lo / step) * step
+    while k <= hi:
+        if k > 0:
+            strikes.append(round(k, 2))
+        k += step
     return min(strikes, key=lambda k: abs(abs(bs_delta(spot, k, years, iv, kind)) - target_delta))
 
 

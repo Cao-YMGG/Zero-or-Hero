@@ -22,6 +22,7 @@ jobs:
     timeout-minutes: 120
     strategy:
       fail-fast: false
+      max-parallel: 2  # one data API key: avoid rate limits
       matrix:
         group: ${{ fromJSON(inputs.groups || '["MWF:AAPL AMZN MSFT META NVDA", "MWF:TSLA GOOGL AVGO AMD MU", "FRI:NFLX PLTR COIN MSTR SMCI", "FRI:ARM INTC ORCL HOOD APP", "FRI:RKLB IONQ CRDO LITE SNDK"]') }}
     env:
