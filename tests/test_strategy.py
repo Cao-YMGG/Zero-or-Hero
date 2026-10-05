@@ -3,6 +3,7 @@ from datetime import datetime, time, timedelta
 
 from zoh import backtest, review
 from zoh import journal
+from zoh.strategy import same_day_expiry, with_gap
 from zoh.strategy import (ET, bs_delta, bs_price, check_exit, contracts_for, current_phase,
                           day_context, evaluate_signal, parse_occ, round_limit, select_contract,
                           signal_momentum, signal_orb)
@@ -121,6 +122,23 @@ class ContextTests(unittest.TestCase):
         thu = day_context(datetime(2026, 10, 15).date(), {})
         self.assertEqual(evaluate_signal(bars, variant, wed), "call")
         self.assertIsNone(evaluate_signal(bars, variant, thu))
+
+    def test_same_day_expiry(self):
+        self.assertTrue(same_day_expiry("SPY", 1))
+        self.assertTrue(same_day_expiry("META", 2))
+        self.assertFalse(same_day_expiry("META", 3))
+        self.assertTrue(same_day_expiry("RKLB", 4))
+        self.assertFalse(same_day_expiry("RKLB", 0))
+
+    def test_with_gap_rebases_context(self):
+        spy = day_context(self.day, {}, prev_close=100, open_price=100.1)
+        amd = with_gap(spy, prev_close=600, open_price=582)
+        self.assertAlmostEqual(amd["gap_pct"], -3.0)
+        rebound = {"signal": "gap", "sides": ["down"], "fade": True, "after_minutes": 1,
+                   "min_gap_pct": 2.0}
+        bars = make_bars([582.0, 583.0])
+        self.assertIsNone(evaluate_signal(bars, rebound, spy))  # SPY flat: no signal
+        self.assertEqual(evaluate_signal(bars, rebound, amd), "call")
 
     def test_macro_calendar_loads(self):
         events = journal.load_events()

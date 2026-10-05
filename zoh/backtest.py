@@ -151,6 +151,8 @@ def run(config, by_day, cross_by_day=None, weekdays=None):
     for variant in config["variants"]:
         if variant["signal"] in LIVE_ONLY_SIGNALS:
             continue
+        if variant.get("universe"):
+            continue  # multi-stock scanner; validated per stock by the stock screen
         if variant.get("underlying", config["underlying"]) != config["underlying"]:
             continue  # runs on another stock; backtest it with --underlying
         trades = {}

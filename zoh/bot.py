@@ -18,7 +18,8 @@ from datetime import datetime, timedelta
 from . import journal
 from .alpaca import Alpaca, AlpacaError
 from .strategy import (ET, MARKET_OPEN, bs_delta, contracts_for, current_phase, check_exit,
-                       cross_assets, day_context, evaluate_signal, hhmm, sniper_pick, parse_bar, parse_occ,
+                       cross_assets, day_context, evaluate_signal, hhmm, same_day_expiry,
+                       sniper_pick, with_gap, parse_bar, parse_occ,
                        regular_session, round_limit, select_contract, years_to_close)
 
 MAX_ENTRY_ATTEMPTS = 3
@@ -108,8 +109,18 @@ class Bot:
             self.prev_close = None
         self.bias = None
         self.bias_checked_at = 0.0
+        self.prev_closes = {}
         log(f"context: events={self.events.get(self.today.isoformat(), [])} "
             f"prev_close={self.prev_close}")
+
+    def prev_close_of(self, symbol):
+        if symbol not in self.prev_closes:
+            try:
+                self.prev_closes[symbol] = previous_close(self.api, symbol, self.today)
+            except AlpacaError as e:
+                log(f"previous close for {symbol} unavailable: {e}")
+                self.prev_closes[symbol] = None
+        return self.prev_closes[symbol]
 
     def load_bias(self):
         if self.bias is None and systime.time() - self.bias_checked_at >= BIAS_RECHECK_SECONDS:
@@ -241,22 +252,35 @@ class Bot:
             elif (not vstate.get("entered") and not at_exit and bars
                   and vstate.get("attempts", 0) < MAX_ENTRY_ATTEMPTS
                   and now.time() <= hhmm(variant.get("entry_cutoff", "13:00"))):
-                catalyst = variant["signal"] == "catalyst"
-                own = variant.get("underlying")  # fixed single-stock underlying
-                if own and own not in own_bars:
-                    try:
-                        own_bars[own] = closed_bars(self.api, own, now)
-                    except AlpacaError as e:
-                        log(f"{own} bars failed: {e}")
-                        own_bars[own] = []
-                their_bars = pick_bars if catalyst else own_bars[own] if own else bars
-                direction = evaluate_signal(their_bars, variant, ctx) if their_bars else None
-                if direction:
-                    try:
-                        self.try_enter(variant, vstate, direction, their_bars[-1]["c"], now,
-                                       pick["symbol"] if catalyst else own)
-                    except AlpacaError as e:
-                        log(f"{variant['id']}: entry failed: {e}")
+                if variant["signal"] == "catalyst":
+                    candidates = [(pick["symbol"], pick_bars, ctx)] if pick else []
+                else:
+                    # fixed single stock, a scanner universe, or the main underlying
+                    symbols = variant.get("universe") or (
+                        [variant["underlying"]] if variant.get("underlying") else [])
+                    candidates = []
+                    for sym in symbols:
+                        if variant.get("universe") and not same_day_expiry(sym, self.today.weekday()):
+                            continue
+                        if sym not in own_bars:
+                            try:
+                                own_bars[sym] = closed_bars(self.api, sym, now)
+                            except AlpacaError as e:
+                                log(f"{sym} bars failed: {e}")
+                                own_bars[sym] = []
+                        sb = own_bars[sym]
+                        candidates.append((sym, sb, with_gap(ctx, self.prev_close_of(sym),
+                                                             sb[0]["o"] if sb else None)))
+                    if not symbols:
+                        candidates = [(None, bars, ctx)]
+                for sym, their_bars, their_ctx in candidates:
+                    direction = evaluate_signal(their_bars, variant, their_ctx) if their_bars else None
+                    if direction:
+                        try:
+                            self.try_enter(variant, vstate, direction, their_bars[-1]["c"], now, sym)
+                        except AlpacaError as e:
+                            log(f"{variant['id']}: entry failed on {sym}: {e}")
+                        break
 
     def sweep(self):
         """Flatten every option position expiring today, tracked or not."""
