@@ -44,4 +44,6 @@ breaks during market hours is the best case (2026-05-08 WSJ Apple-Intel report: 
 and AMD gapped ~2% and ran +9-12%); news already gapped pre-market (2026-06-18 Intel-Apple
 post, INTC +8.8% gap) is usually spent.
 
+Two more patterns from 2026-10-05: (1) a same-morning analyst upgrade with a small gap (Melius upgraded MSFT to Buy, gap +0.9%, then +1.5% from the open in 15 minutes); (2) the day after a sharp non-earnings selloff on a supply/competition headline, when the sell side pushes back pre-market (WDC -10% on 10/2 on Toshiba doubling HDD capacity; Bernstein, Citi and Morgan Stanley said supply stays tight through 2028; WDC gapped +3.5% and was +6.6% by 09:55, STX +5.4%). A theme marked "cooling" after a one-day headline drop is a rebound candidate, not a fade. WDC/STX only have Friday expiries, so on other days the sniper uses the nearest expiry.
+
 Never edit a bias file after the open: it is the record the variant is scored on.
