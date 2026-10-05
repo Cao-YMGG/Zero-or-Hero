@@ -54,7 +54,7 @@ If a variant only works in the old part of the sample, the market has moved on.
 | open_drive_run | 0 | +0.0% | 177 | -19.7% |
 | open_drive_x4 | 0 | +0.0% | 177 | -27.3% |
 
-Live-only variants (no history to backtest): claude_bias, claude_confirm, catalyst_sniper
+Live-only variants (no history to backtest): claude_bias, claude_confirm, catalyst_sniper, catalyst_open
 
 Exit reasons:
 
