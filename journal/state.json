@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-05",
+  "done": true,
+  "variants": {
+    "claude_bias": {},
+    "claude_confirm": {},
+    "open_drive_run": {},
+    "nvda_open_run": {},
+    "amd_gap_cheap_run": {},
+    "meta_ultra_gap": {},
+    "meta_follow2": {},
+    "rebound_scanner": {},
+    "rebound_scanner_wide": {},
+    "catalyst_sniper": {},
+    "catalyst_open": {},
+    "catalyst_intraday": {}
+  },
+  "equity_start": 500.0,
+  "phase": "zero-or-hero",
+  "risk_per_trade": 0.5,
+  "champion": "rebound_scanner"
+}
