@@ -47,6 +47,14 @@ sizing needs >= 10 live trades of evidence, or a documented regime change.
 5. When equity approaches the next phase, make sure that phase has a fitting strategy
    (e.g. debit spreads or longer-dated options for `compounder`).
 6. Run `python -m unittest`, append an entry to `EVOLUTION.md`, commit and push to `main`.
+7. Live-readiness scorecard (the owner may later trade the champion with real money on Webull,
+   by hand, only when Claude says the evidence is there). Append to the EVOLUTION.md entry, each
+   gate with its current number: (a) >= 30 real paper fills by the champion; (b) median real fill
+   vs shadow quote vs model price measured; (c) expectancy per trade still positive at real fill
+   prices; (d) paper equity actually up from $500; (e) has lived through at least one regime
+   change. Verdict: "not ready", "close" or "ready" — be honest, "never" is allowed. Claude
+   never connects the project to Webull or any live account and never places live trades;
+   saying "ready" is a report, not an action.
 
 ## Daily pre-market bias (weekday session, before 09:30 ET)
 Goal: one honest directional call for SPY today, so `claude_bias` and `claude_confirm` can be
