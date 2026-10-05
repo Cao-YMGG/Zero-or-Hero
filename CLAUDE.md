@@ -19,6 +19,10 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
 
 ## Cadence
 - Weekdays 08:50 ET: pre-market bias (below).
+- Weekdays ~10:30 and ~13:00 ET: intraday check-in. Scan big intraday movers (Webull MIN_5 /
+  DAY_1 rankings, read-only) and breaking news; if one has a fresh catalyst still unfolding,
+  append one pick to `journal/bias/intraday/<today>.json` (schema in journal/bias/README.md)
+  and push to main. Most check-ins add nothing. Never touch the pre-market file after 09:30.
 - Weekdays 16:35 ET: daily post-market review and light evolution.
 - Sundays 09:52 ET: weekly deep review (full protocol below, population cleanup, backtests).
 
