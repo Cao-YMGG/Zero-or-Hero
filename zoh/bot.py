@@ -1,8 +1,8 @@
 """Live 0DTE paper-trading loop.
 
 Every variant in config/strategy.json trades in "shadow" mode (simulated fills on live
-quotes: buy at the ask, mark and sell at the bid). The champion variant also sends real
-orders to the Alpaca paper account. Results go to journal/ so the review step can compare
+quotes: buy at the ask, mark and sell at the bid). The champion variant, and any variant
+with "real_risk" (fraction of equity), also sends real orders to the Alpaca paper account. Results go to journal/ so the review step can compare
 variants and promote a better one.
 
 Run from GitHub Actions in two legs (each job is capped at 6 hours):
@@ -179,8 +179,12 @@ class Bot:
         vstate["shadow"] = {"contract": pick["symbol"], "direction": direction,
                             "entry_time": now.isoformat(timespec="seconds"),
                             "entry_price": pick["ask"], "peak": pick["ask"], "qty": qty}
-        if variant["id"] == self.state["champion"] and not self.dry_run:
-            filled, price = self._order(pick["symbol"], qty, "buy", "limit", "in",
+        # The champion trades the phase stake; a variant with real_risk also trades real
+        # paper orders at that fraction of equity, to collect real fills sooner.
+        real_qty = qty if variant["id"] == self.state["champion"] else contracts_for(
+            self.state["equity_start"] * variant.get("real_risk", 0), pick["ask"])
+        if real_qty and not self.dry_run:
+            filled, price = self._order(pick["symbol"], real_qty, "buy", "limit", "in",
                                         round_limit(pick["ask"]))
             if filled:
                 vstate["real"] = {"contract": pick["symbol"], "qty": filled,
