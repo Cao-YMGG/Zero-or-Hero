@@ -14,15 +14,21 @@ from collections import defaultdict
 from datetime import datetime, timedelta
 
 from . import journal
-from .alpaca import Alpaca
+from .alpaca import Alpaca, AlpacaError
 from .strategy import (ET, LIVE_ONLY_SIGNALS, cross_assets, TRADING_MINUTES_PER_YEAR, bs_delta, bs_price,
                        check_exit, contracts_for, current_phase, day_context, evaluate_signal,
                        hhmm, parse_bar, regular_session, years_to_close)
 
 
 def pick_strike(spot, years, iv, kind, target_delta):
-    width = max(20, int(spot * 0.08))  # $1 strikes within ±8% (±$20 minimum)
-    strikes = [round(spot) + k for k in range(-width, width + 1)]
+    """Strike whose |delta| is closest to the target, on a realistic grid within ±15%."""
+    step = 0.5 if spot < 100 else 1.0 if spot < 500 else 5.0 if spot > 2000 else 1.0
+    lo, hi = spot * 0.85, spot * 1.15
+    strikes, k = [], math.ceil(lo / step) * step
+    while k <= hi:
+        if k > 0:
+            strikes.append(round(k, 2))
+        k += step
     return min(strikes, key=lambda k: abs(abs(bs_delta(spot, k, years, iv, kind)) - target_delta))
 
 
@@ -115,10 +121,15 @@ def hero_odds(pnl, risk, start, target, dead, paths=4000, max_trades=500, seed=7
     return wins / paths
 
 
-def load_days(api, symbol, days_back, min_bars=300):
+def load_days(api, symbol, days_back, min_bars=250):
     end = datetime.now(ET) - timedelta(minutes=20)
     start = end - timedelta(days=days_back)
-    bars = regular_session([parse_bar(b) for b in api.stock_bars(symbol, start, end)])
+    try:  # full consolidated tape, split-adjusted; IEX is thin for smaller names
+        raw = api.stock_bars(symbol, start, end, feed="sip", adjustment="split")
+    except AlpacaError as e:
+        print(f"{symbol}: SIP unavailable ({e.status}), falling back to IEX")
+        raw = api.stock_bars(symbol, start, end, adjustment="split")
+    bars = regular_session([parse_bar(b) for b in raw])
     by_day = defaultdict(list)
     for bar in bars:
         by_day[bar["t"].date()].append(bar)
@@ -140,6 +151,8 @@ def run(config, by_day, cross_by_day=None, weekdays=None):
     for variant in config["variants"]:
         if variant["signal"] in LIVE_ONLY_SIGNALS:
             continue
+        if variant.get("universe"):
+            continue  # multi-stock scanner; validated per stock by the stock screen
         if variant.get("underlying", config["underlying"]) != config["underlying"]:
             continue  # runs on another stock; backtest it with --underlying
         trades = {}
@@ -295,6 +308,9 @@ def main():
     parser.add_argument("--iv", help="option IV: a number, or 'auto' = realised vol x 1.15")
     parser.add_argument("--slippage", type=float, help="override slippage (single stocks ~0.03)")
     parser.add_argument("--trades", action="store_true", help="append a trade-by-trade log")
+    parser.add_argument("--fri", action="store_true",
+                        help="trade only Fridays (stocks with weekly options only)")
+    parser.add_argument("--json-out", help="also write a machine-readable summary here")
     parser.add_argument("--variants", help="JSON file with a variant list to test instead of config")
     parser.add_argument("--mwf", action="store_true",
                         help="trade only Mon/Wed/Fri (single-stock same-day expiries)")
@@ -313,13 +329,29 @@ def main():
         config["backtest"]["slippage"] = args.slippage
     cross = {sym: load_days(api, sym, args.days, min_bars=100)
              for sym in cross_assets(config["variants"])}
-    days, results = run(config, by_day, cross, {0, 2, 4} if args.mwf else None)
+    weekdays = {0, 2, 4} if args.mwf else {4} if args.fri else None
+    days, results = run(config, by_day, cross, weekdays)
     text = report(config, days, results, realized_vol(by_day), args.trades)
     print(text)
     if args.out:
         out = journal.ROOT / args.out
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(text)
+    if args.json_out:
+        summary = {"underlying": config["underlying"], "iv": config["backtest"]["iv"],
+                   "days": len(days), "start": str(days[0]), "end": str(days[-1]),
+                   "weekdays": sorted(weekdays) if weekdays else None,
+                   "variants": [{
+                       "id": r["id"], "trades": r["trades"], "win_rate": r["win_rate"],
+                       "expectancy": r["expectancy"], "best": r["best"],
+                       "hero": {str(k): v for k, v in r["hero"].items()},
+                       "ultra": {str(k): v for k, v in r["ultra"].items()},
+                       "recent_n": r["recent"][0], "recent_avg": r["recent"][1],
+                       "recent_odds": r["recent"][2], "multiples": r["multiples"],
+                   } for r in results]}
+        out = journal.ROOT / args.json_out
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(json.dumps(summary, indent=1))
 
 
 if __name__ == "__main__":

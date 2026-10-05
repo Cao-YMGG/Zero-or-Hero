@@ -43,6 +43,26 @@ def day_context(day, events_by_date, prev_close=None, open_price=None, bias=None
             "cross": cross or {}, "weekday": day.weekday()}
 
 
+# Same-day option expiries: index ETFs daily; the largest single stocks Mon/Wed/Fri (since
+# 2026-01-26); every other optionable stock only on Fridays.
+DAILY_EXPIRY = {"SPY", "QQQ", "IWM"}
+MWF_EXPIRY = {"AAPL", "AMZN", "MSFT", "META", "NVDA", "TSLA", "GOOGL", "AVGO", "AMD", "MU"}
+
+
+def same_day_expiry(symbol, weekday):
+    if symbol in DAILY_EXPIRY:
+        return weekday < 5
+    if symbol in MWF_EXPIRY:
+        return weekday in (0, 2, 4)
+    return weekday == 4
+
+
+def with_gap(ctx, prev_close, open_price):
+    """The day context re-based on another stock's own overnight gap."""
+    gap = (open_price / prev_close - 1) * 100 if prev_close and open_price else None
+    return {**ctx, "gap_pct": gap}
+
+
 def cross_assets(variants):
     return sorted({v["asset"] for v in variants if v.get("signal") == "cross"})
 
