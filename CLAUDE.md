@@ -73,7 +73,8 @@ scored against purely mechanical variants.
    (LITE, CIEN), power (GEV, VST), internet (META, GOOGL, MSFT, AMZN, AAPL), plus SPY/QQQ —
    and record which themes are heating up (money flowing in) and cooling (flowing out).
    Add newly hot themes (e.g. a new AI supply-chain link) as they appear.
-3b. Sniper (optional, most days null): prefer names in themes that are heating up; good news
+3b. Sniper (name one whenever a fresh catalyst with a small gap exists; null only when nothing
+   qualifies; prefer upgrades over downgrades): prefer names in themes that are heating up; good news
    in a cooling theme tends to fade. scan mega caps with same-day options for a fresh,
    non-earnings catalyst (Webull PRE_MARKET movers + news, and that morning's analyst upgrades/downgrades on mega caps, e.g. 24/7 Wall St. "top analyst research calls"; 2026-10-05 Melius upgraded MSFT to Buy, gap only +0.9%, and it ran +1.5% from the open in 15 minutes). Name at most one stock with
    direction and catalyst in `sniper`; see journal/bias/README.md for the bar it must clear.

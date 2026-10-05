@@ -35,7 +35,11 @@ GOOGL, AVGO, AMD, MU...) and only for a fresh, non-earnings catalyst whose effec
 already in a big pre-market gap (> 4%): product traction, legal rulings, regulatory news,
 major contracts, sector-moving news. Research (journal/research/SNIPER.md) shows a purely
 mechanical "biggest mover" rule fires most days and loses; the edge has to come from the
-catalyst judgment. Leave it null unless the case is clear.
+catalyst judgment. Since v17 (paper account, the owner asked for boldness) name a pick on
+most days that have a fresh catalyst with a small gap, an upgrade being the most common one
+(journal/research/ANALYST.md: upgrades carry, downgrades do not). `catalyst_open` buys a
+~0.1-delta option at the open (from 09:31, as long as the stock is not against the pick) and
+trails; `catalyst_sniper` keeps the 1% confirmation. Null only when nothing qualifies.
 What matters is whether the move is already in the price, not source vs echo. Pick the
 name in the catalyst chain with the most catalyst left relative to its gap: on 2026-09-21
 Meta (source, gap +2.3%) ran +10% while the CPU echoes had gapped 4-7%; on 2026-06-11

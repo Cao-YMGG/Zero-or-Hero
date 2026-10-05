@@ -143,7 +143,12 @@ class Bot:
         if limit is not None:
             order["limit_price"] = str(limit)
         log(f"ORDER {side} {qty} {symbol} {kind} {limit or ''}")
-        filled = wait_for_fill(self.api, self.api.submit_order(**order))
+        try:
+            submitted = self.api.submit_order(**order)
+        except AlpacaError as e:  # e.g. not enough buying power with several real variants
+            log(f"  -> rejected: {e}")
+            return 0, None
+        filled = wait_for_fill(self.api, submitted)
         qty_filled = int(float(filled.get("filled_qty") or 0))
         price = float(filled["filled_avg_price"]) if qty_filled else None
         log(f"  -> {filled['status']} filled={qty_filled} @ {price}")
