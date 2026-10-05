@@ -1,6 +1,6 @@
 {
   "underlying": "SPY",
-  "champion": "open_drive_calm",
+  "champion": "rebound_scanner",
   "dead_equity": 50,
   "exit_time": "15:45",
   "poll_seconds": 30,
@@ -8,7 +8,7 @@
     {
       "name": "zero-or-hero",
       "min_equity": 0,
-      "risk_per_trade": 1.0
+      "risk_per_trade": 0.5
     },
     {
       "name": "compounder",
