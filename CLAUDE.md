@@ -75,7 +75,7 @@ scored against purely mechanical variants.
    Add newly hot themes (e.g. a new AI supply-chain link) as they appear.
 3b. Sniper (optional, most days null): prefer names in themes that are heating up; good news
    in a cooling theme tends to fade. scan mega caps with same-day options for a fresh,
-   non-earnings catalyst (Webull PRE_MARKET movers + news). Name at most one stock with
+   non-earnings catalyst (Webull PRE_MARKET movers + news, and that morning's analyst upgrades/downgrades on mega caps, e.g. 24/7 Wall St. "top analyst research calls"; 2026-10-05 Melius upgraded MSFT to Buy, gap only +0.9%, and it ran +1.5% from the open in 15 minutes). Name at most one stock with
    direction and catalyst in `sniper`; see journal/bias/README.md for the bar it must clear.
 4. Write `journal/bias/<today>.json` in the schema from `journal/bias/README.md`, commit
    ("bias: <date> <call|put|none>") and push to `main` before 09:30 ET. Retry the push on
