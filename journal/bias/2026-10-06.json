@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-06",
+  "bias": "call",
+  "confidence": 0.6,
+  "summary": "Oil, long yields and the dollar all ease pre-market while megacap tech leads to fresh highs; the tailwind that drove Monday's +0.7% is still in place, no macro release today.",
+  "reasons": [
+    "SPY pre-market 777.88 (+0.39% vs 774.83 close, above the 777.44 52w high); QQQ +0.50% to a record; futures about +0.6% S&P / +1% Nasdaq per Reuters",
+    "Oil keeps falling: USO -2.2% pre-market (Brent about $98.6, G7 stockpile release and steady Middle East exports), after -2.3% Monday; Monday showed oil dominates small yield moves",
+    "TLT +0.4% pre-market (long yields off the multi-year highs; 30y fell from 5.70% to about 5.63%); UUP -0.3%. Web sources conflict on 10Y/2Y levels (5.27-5.32% / 4.79-4.83%), so TLT is the reliable read",
+    "VIX about 15.5 (web, unverified). No CPI/NFP/FOMC today (FOMC minutes Wednesday); ~78% odds of a hold this month",
+    "Leaders pre-market: NVDA +1.0% to a record, MSFT +0.9%, TSLA +0.9%, AVGO +0.8%; AAPL flat",
+    "No >= 2% down gap in the rebound_scanner universe; Tuesday has no same-day single-stock expiries except via nearest expiry, so the rebound champion is unlikely to trade",
+    "Risk: SPY already at a record and up two days; a hot data surprise or yield spike would reverse it, so confidence is moderate"
+  ],
+  "events": ["FOMC minutes Wednesday (not today)"],
+  "inputs": {"es_futures_pct": 0.6, "vix": 15.5, "wti_pct": -2.2, "us10y": null,
+             "us10y_change_bp": null, "us2y_change_bp": null, "dxy_pct": -0.3,
+             "overnight": "Futures up with oil and long yields lower; Nasdaq at a record; 10Y/2Y levels conflicting across web sources, TLT +0.4% used instead"},
+  "rotation": {
+    "heating": ["optical (LITE +18.5% 1w / +29% 1m, CIEN +13% 1w)", "CPU again (ARM +6.9% 1w, AMD +3.9% 1w, +38% 1m)", "power (VST +5% 1w, GEV +4% 1w)", "GPU (NVDA +4.4% 1w, record pre-market)", "internet (META +3.7% 1w, MSFT +3.1% 1w)"],
+    "cooling": ["storage (WDC -2.6% 1w, SNDK -0.5% 1w; WDC rebounded Monday after the Toshiba drop)", "AAPL (-1.6% 1w)", "memory flat (MU +0.9% 1w)"],
+    "note": "Broad AI-led strength: optical leads, CPU heating again after last week's pause, storage the laggard; index at a record"
+  },
+  "sniper": {
+    "symbol": "AMD",
+    "direction": "call",
+    "catalyst": "Citi raised its AMD price target to $800 from $575 this morning, tying it to Meta Muse compute demand and Lisa Su's comment that demand outpaces supply for years; AMD +2.0% pre-market (644 vs 631.75), well under a 4% gap, CPU theme heating again. No same-day AMD expiry on Tuesday, so the bot uses the nearest (Wednesday) expiry. A price-target raise, not a rating change, so weaker evidence than an upgrade",
+    "confidence": 0.5
+  },
+  "generated_at": "2026-10-06T09:05:00-04:00"
+}
