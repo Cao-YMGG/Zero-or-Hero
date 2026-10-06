@@ -1,19 +1,60 @@
 {
-  "date": "2026-10-05",
-  "done": true,
+  "date": "2026-10-06",
+  "done": false,
   "variants": {
-    "claude_bias": {},
-    "claude_confirm": {},
-    "open_drive_run": {},
+    "claude_bias": {
+      "attempts": 1,
+      "entered": true,
+      "closed": true
+    },
+    "claude_confirm": {
+      "attempts": 1,
+      "entered": true,
+      "closed": true
+    },
+    "open_drive_run": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "SPY261006C00784000",
+        "direction": "call",
+        "entry_time": "2026-10-06T09:56:27-04:00",
+        "entry_price": 0.12,
+        "peak": 0.19,
+        "qty": 20
+      }
+    },
     "nvda_open_run": {},
     "amd_gap_cheap_run": {},
     "meta_ultra_gap": {},
     "meta_follow2": {},
     "rebound_scanner": {},
     "rebound_scanner_wide": {},
-    "catalyst_sniper": {},
+    "catalyst_sniper": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "AMD261007C00675000",
+        "direction": "call",
+        "entry_time": "2026-10-06T11:04:14-04:00",
+        "entry_price": 2.11,
+        "peak": 2.34,
+        "qty": 1
+      }
+    },
     "catalyst_open": {},
-    "catalyst_intraday": {}
+    "catalyst_intraday": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "AVGO261007C00385000",
+        "direction": "call",
+        "entry_time": "2026-10-06T10:19:36-04:00",
+        "entry_price": 1.17,
+        "peak": 1.65,
+        "qty": 2
+      }
+    }
   },
   "equity_start": 500.0,
   "phase": "zero-or-hero",
