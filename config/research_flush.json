@@ -1,0 +1,142 @@
+[
+ {
+  "id": "flush15_both_d02",
+  "signal": "flush",
+  "flush_minutes": 15,
+  "reclaim": 0.5,
+  "take_profit": null,
+  "stop_loss": null,
+  "trail_after": 1.0,
+  "trail_giveback": 0.4,
+  "entry_cutoff": "11:00",
+  "flush_pct": 1.5,
+  "target_delta": 0.2
+ },
+ {
+  "id": "flush15_down_d02",
+  "signal": "flush",
+  "flush_minutes": 15,
+  "reclaim": 0.5,
+  "take_profit": null,
+  "stop_loss": null,
+  "trail_after": 1.0,
+  "trail_giveback": 0.4,
+  "entry_cutoff": "11:00",
+  "flush_pct": 1.5,
+  "target_delta": 0.2,
+  "sides": [
+   "down"
+  ]
+ },
+ {
+  "id": "flush15_both_d008",
+  "signal": "flush",
+  "flush_minutes": 15,
+  "reclaim": 0.5,
+  "take_profit": null,
+  "stop_loss": null,
+  "trail_after": 1.0,
+  "trail_giveback": 0.4,
+  "entry_cutoff": "11:00",
+  "flush_pct": 1.5,
+  "target_delta": 0.08
+ },
+ {
+  "id": "flush20_both_d02",
+  "signal": "flush",
+  "flush_minutes": 15,
+  "reclaim": 0.5,
+  "take_profit": null,
+  "stop_loss": null,
+  "trail_after": 1.0,
+  "trail_giveback": 0.4,
+  "entry_cutoff": "11:00",
+  "flush_pct": 2.0,
+  "target_delta": 0.2
+ },
+ {
+  "id": "flush20_down_d02",
+  "signal": "flush",
+  "flush_minutes": 15,
+  "reclaim": 0.5,
+  "take_profit": null,
+  "stop_loss": null,
+  "trail_after": 1.0,
+  "trail_giveback": 0.4,
+  "entry_cutoff": "11:00",
+  "flush_pct": 2.0,
+  "target_delta": 0.2,
+  "sides": [
+   "down"
+  ]
+ },
+ {
+  "id": "flush20_both_d008",
+  "signal": "flush",
+  "flush_minutes": 15,
+  "reclaim": 0.5,
+  "take_profit": null,
+  "stop_loss": null,
+  "trail_after": 1.0,
+  "trail_giveback": 0.4,
+  "entry_cutoff": "11:00",
+  "flush_pct": 2.0,
+  "target_delta": 0.08
+ },
+ {
+  "id": "flush30_both_d02",
+  "signal": "flush",
+  "flush_minutes": 15,
+  "reclaim": 0.5,
+  "take_profit": null,
+  "stop_loss": null,
+  "trail_after": 1.0,
+  "trail_giveback": 0.4,
+  "entry_cutoff": "11:00",
+  "flush_pct": 3.0,
+  "target_delta": 0.2
+ },
+ {
+  "id": "flush30_down_d02",
+  "signal": "flush",
+  "flush_minutes": 15,
+  "reclaim": 0.5,
+  "take_profit": null,
+  "stop_loss": null,
+  "trail_after": 1.0,
+  "trail_giveback": 0.4,
+  "entry_cutoff": "11:00",
+  "flush_pct": 3.0,
+  "target_delta": 0.2,
+  "sides": [
+   "down"
+  ]
+ },
+ {
+  "id": "flush30_both_d008",
+  "signal": "flush",
+  "flush_minutes": 15,
+  "reclaim": 0.5,
+  "take_profit": null,
+  "stop_loss": null,
+  "trail_after": 1.0,
+  "trail_giveback": 0.4,
+  "entry_cutoff": "11:00",
+  "flush_pct": 3.0,
+  "target_delta": 0.08
+ },
+ {
+  "id": "flush20_both_fade",
+  "signal": "flush",
+  "flush_minutes": 15,
+  "reclaim": 0.5,
+  "take_profit": null,
+  "stop_loss": null,
+  "trail_after": 1.0,
+  "trail_giveback": 0.4,
+  "entry_cutoff": "11:00",
+  "flush_pct": 2.0,
+  "target_delta": 0.2,
+  "fade": true
+ }
+]
