@@ -17,6 +17,7 @@ on:
 
 permissions:
   contents: write
+  actions: write  # the bot asks for a dashboard rebuild every 30 minutes
 
 concurrency:
   group: trade
@@ -25,6 +26,7 @@ concurrency:
 env:
   APCA_API_KEY_ID: ${{ secrets.APCA_API_KEY_ID }}
   APCA_API_SECRET_KEY: ${{ secrets.APCA_API_SECRET_KEY }}
+  GH_TOKEN: ${{ github.token }}
   DRY_RUN_FLAG: ${{ inputs.dry_run && '--dry-run' || '' }}
 
 jobs:
@@ -39,7 +41,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Trade until 12:45 ET
-        run: python -m zoh.bot --until 12:45 $DRY_RUN_FLAG
+        run: python -m zoh.bot --until 12:45 --publish $DRY_RUN_FLAG
       - name: Commit journal
         if: always()
         run: .github/commit-journal.sh "morning"
@@ -58,7 +60,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Trade to exit time and close out
-        run: python -m zoh.bot $DRY_RUN_FLAG
+        run: python -m zoh.bot --publish $DRY_RUN_FLAG
       - name: Review and promote
         if: always()
         run: python -m zoh.review

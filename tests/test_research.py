@@ -48,3 +48,26 @@ class SiteTest(unittest.TestCase):
             html = site.build(tmp).read_text()
         self.assertIn("Zero or Hero", html)
         self.assertIn("rebound_scanner", html)
+
+
+class PositionsCardTest(unittest.TestCase):
+    def test_open_positions_show_live_pnl(self):
+        import json
+        import tempfile
+        from datetime import datetime
+        from pathlib import Path
+        from unittest import mock
+        from zoh import journal, site
+        from zoh.strategy import ET
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "state.json"
+            path.write_text(json.dumps({"date": datetime.now(ET).date().isoformat(), "variants": {
+                "catalyst_open": {"shadow": {"contract": "AMD261007C00650000",
+                                             "entry_time": "2026-10-06T09:31:00-04:00",
+                                             "entry_price": 1.0, "peak": 2.2, "last": 1.5},
+                                  "real": {"qty": 1}}}}))
+            with mock.patch.object(journal, "STATE_PATH", path):
+                html = site.positions_card()
+        self.assertIn("AMD261007C00650000", html)
+        self.assertIn("+50%", html)
+        self.assertIn("真实 1 张", html)

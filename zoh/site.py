@@ -138,6 +138,40 @@ def trades_card(trades):
             + "".join(rows) + "</table></div></div>")
 
 
+def positions_card():
+    """Today's open positions (shadow and real) from journal/state.json."""
+    today = datetime.now(ET).date().isoformat()
+    path = journal.STATE_PATH
+    state = json.loads(path.read_text()) if path.exists() else {}
+    if state.get("date") != today:
+        return ""
+    rows = []
+    for vid, vs in sorted((state.get("variants") or {}).items()):
+        pos = vs.get("shadow")
+        if not pos:
+            continue
+        entry, last = float(pos["entry_price"]), pos.get("last")
+        p = (float(last) / entry - 1) if last is not None and entry else None
+        cls = "up" if p and p > 0 else "down" if p and p < 0 else "muted"
+        real = vs.get("real")
+        rows.append(f'<tr><td>{escape(vid)}</td><td>{escape(pos["contract"])}</td>'
+                    f'<td>{escape(pos["entry_time"][11:16])}</td>'
+                    f'<td class="n">{entry:g}</td>'
+                    f'<td class="n">{"—" if last is None else f"{float(last):g}"}</td>'
+                    f'<td class="n {cls}">{pct(p) if p is not None else "—"}</td>'
+                    f'<td class="n">{float(pos["peak"]):g}</td>'
+                    f'<td>{"真实 " + str(real["qty"]) + " 张" if real else "影子"}</td></tr>')
+    closed = sum(1 for vs in (state.get("variants") or {}).values() if vs.get("closed"))
+    status = "今天已收盘" if state.get("done") else "交易中"
+    body = ("<p class=\"muted\">现在没有持仓。</p>" if not rows else
+            '<div class="scroll"><table><tr><th>策略</th><th>合约</th><th>买入时间</th>'
+            '<th class="n">买入</th><th class="n">最新</th><th class="n">收益</th>'
+            '<th class="n">最高</th><th>类型</th></tr>' + "".join(rows) + "</table></div>")
+    return (f'<div class="card"><h2>今天的持仓 · {status}</h2>{body}'
+            f'<p class="muted" style="font-size:12px">今天已平仓 {closed} 笔（见下方最近交易）。'
+            f'交易时段每 30 分钟更新一次。</p></div>')
+
+
 def evolution_card():
     path = journal.ROOT / "EVOLUTION.md"
     heads = [l[3:].strip() for l in path.read_text().splitlines() if l.startswith("## ")] \
@@ -166,12 +200,14 @@ def build(out):
     html = f"""<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="refresh" content="300">
 <title>Zero or Hero</title><style>{CSS}</style></head>
 <body><main>
 <h1>Zero or Hero</h1>
 <div class="sub">$500 末日期权自我进化实验 · Alpaca 模拟盘 · 更新于 {now}</div>
 <div class="tiles">{tile_html}</div>
 <div class="card"><h2>资金曲线</h2>{equity_chart(equity_rows)}</div>
+{positions_card()}
 {bias_card(latest_bias())}
 {leaderboard_card(config, trades)}
 {trades_card(trades)}
