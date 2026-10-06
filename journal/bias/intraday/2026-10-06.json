@@ -1,0 +1,7 @@
+{
+  "date": "2026-10-06",
+  "picks": [
+    {"time": "10:20", "symbol": "AVGO", "direction": "call", "confidence": 0.5,
+     "catalyst": "Reports that Broadcom is raising $60-100B of debt (Blackstone, Apollo) to finance AI chips for Anthropic; AVGO was only +0.8% pre-market and is +4.0% at 10:20 (open 366.85 -> 377.15, at the day's high, +2.8% from the open) while chips lead. Move still building during the session; nearest expiry Wednesday."}
+  ]
+}
