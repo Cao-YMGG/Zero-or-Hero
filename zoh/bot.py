@@ -35,6 +35,20 @@ def log(msg):
     print(f"[{now_et():%H:%M:%S}] {msg}", flush=True)
 
 
+REAL_ONE_CONTRACT_CAP = 0.5  # with real_risk, buy one contract if it costs <= 50% of equity
+
+
+def real_contracts(equity, real_risk, ask):
+    """Contracts for a real_risk variant. If its stake cannot buy one (a pricey stock's option),
+    still buy one when that costs at most half the account: paper money, aggressive by design."""
+    if not real_risk:
+        return 0
+    qty = contracts_for(equity * real_risk, ask)
+    if qty == 0 and 0 < ask * 100 <= equity * REAL_ONE_CONTRACT_CAP:
+        qty = 1
+    return qty
+
+
 def publish():
     """Commit today's journal so far and ask GitHub to rebuild the dashboard. Best effort."""
     try:
@@ -219,8 +233,8 @@ class Bot:
                             "entry_price": pick["ask"], "peak": pick["ask"], "qty": qty}
         # The champion trades the phase stake; a variant with real_risk also trades real
         # paper orders at that fraction of equity, to collect real fills sooner.
-        real_qty = qty if variant["id"] == self.state["champion"] else contracts_for(
-            self.state["equity_start"] * variant.get("real_risk", 0), pick["ask"])
+        real_qty = qty if variant["id"] == self.state["champion"] else real_contracts(
+            self.state["equity_start"], variant.get("real_risk", 0), pick["ask"])
         if real_qty and not self.dry_run:
             filled, price = self._order(pick["symbol"], real_qty, "buy", "limit", "in",
                                         round_limit(pick["ask"]))
