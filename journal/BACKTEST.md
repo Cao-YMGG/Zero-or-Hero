@@ -6,13 +6,13 @@ Realised intraday vol over the period: 10.5% (if far from the IV above, recalibr
 
 | variant | trades | win% | avg win | avg loss | expectancy/trade | best | final $ | peak $ | max DD | 2x / 5x / 10x | ruined |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| open_drive_run | 178 | 38% | +98% | -92% | -19.2% | +805% | 4 | 500 | 99% | — / — / — | 2025-10-16 |
+| open_drive_run | 178 | 38% | +98% | -92% | -19.2% | +805% | 60 | 500 | 88% | — / — / — | — |
 
 ## Odds of $500 → $2,000 before ruin (bootstrap of each variant's trades, stake = % of equity per trade)
 
 | variant | 30% stake | 50% stake | 100% stake |
 |---|---|---|---|
-| open_drive_run | 4.5% | 6.5% | 9.1% |
+| open_drive_run | 4.4% | 6.5% | 9.2% |
 
 ## Ultra-aggressive: all-in odds of $500 → $50k / $500k, and the best multiples
 
@@ -26,7 +26,7 @@ If a variant only works in the old part of the sample, the market has moved on.
 
 | variant | full: trades | full: avg | full: odds (100%) | recent: trades | recent: avg | recent: odds (100%) | verdict |
 |---|---|---|---|---|---|---|---|
-| open_drive_run | 178 | -19.2% | 9.1% | 40 | -14.9% | 9.7% | holding up |
+| open_drive_run | 178 | -19.2% | 9.2% | 40 | -14.7% | 9.7% | holding up |
 
 ## Macro days (CPI / NFP / FOMC) vs other days — expectancy per trade
 
@@ -38,4 +38,4 @@ Live-only variants (no history to backtest): claude_bias, claude_confirm, cataly
 
 Exit reasons:
 
-- open_drive_run: {'time': 118, 'trail': 59, 'eod': 1}
+- open_drive_run: {'time': 119, 'trail': 59}
