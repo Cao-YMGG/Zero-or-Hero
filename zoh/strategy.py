@@ -204,8 +204,33 @@ def signal_catalyst(bars, variant, ctx):
     return None
 
 
+def signal_flush(bars, variant, ctx=None):
+    """Opening flush and reclaim: the first N minutes push X% beyond the open, then price
+    takes back a fraction of that move -> trade the reversal (a flush down -> call).
+
+    sides: ["down"] for flush-down/call only, ["up"] for spike-up/put only (default both).
+    """
+    end = minutes_after_open(variant.get("flush_minutes", 15))
+    window = [b for b in bars if b["t"].time() < end]
+    after = [b for b in bars if b["t"].time() >= end]
+    if len(window) < 3 or not after:
+        return None
+    open_ = window[0]["o"]
+    need = variant.get("flush_pct", 2.0) / 100
+    frac = variant.get("reclaim", 0.5)
+    sides = variant.get("sides") or ["down", "up"]
+    last = after[-1]["c"]
+    lo, hi = min(b["l"] for b in window), max(b["h"] for b in window)
+    if "down" in sides and lo <= open_ * (1 - need) and last >= lo + frac * (open_ - lo):
+        return _flip("call", variant)
+    if "up" in sides and hi >= open_ * (1 + need) and last <= hi - frac * (hi - open_):
+        return _flip("put", variant)
+    return None
+
+
 SIGNALS = {"orb": signal_orb, "momentum": signal_momentum, "gap": signal_gap,
-           "bias": signal_bias, "cross": signal_cross, "catalyst": signal_catalyst}
+           "bias": signal_bias, "cross": signal_cross, "catalyst": signal_catalyst,
+           "flush": signal_flush}
 LIVE_ONLY_SIGNALS = {"bias", "catalyst"}  # no history to backtest
 
 

@@ -251,3 +251,17 @@ class IntradayPickTest(unittest.TestCase):
         self.assertEqual(evaluate_signal(bars, variant, ctx), "put")
         self.assertTrue(str(journal.intraday_path(datetime(2026, 10, 6).date())).endswith(
             "bias/intraday/2026-10-06.json"))
+
+
+class FlushSignalTest(unittest.TestCase):
+    def test_flush_down_then_reclaim_is_a_call(self):
+        from datetime import datetime, timedelta
+        from zoh.strategy import ET, signal_flush
+        t0 = datetime(2026, 10, 6, 9, 30, tzinfo=ET)
+        prices = [649, 640, 630, 628] + [629] * 11 + [636, 640]  # AMD 2026-10-06 shape
+        bars = [{"t": t0 + timedelta(minutes=i), "o": p, "h": p, "l": p, "c": p}
+                for i, p in enumerate(prices)]
+        variant = {"flush_minutes": 15, "flush_pct": 2.0, "reclaim": 0.5}
+        self.assertIsNone(signal_flush(bars[:16], variant))  # 636 < 628 + 10.5
+        self.assertEqual(signal_flush(bars, variant), "call")
+        self.assertEqual(signal_flush(bars, {**variant, "fade": True}), "put")
