@@ -50,17 +50,23 @@ def daily_raw(api, sym, start, end):
             for b in out]
 
 
-def occ(sym, day, strike):
-    return f"{sym}{day:%y%m%d}C{int(round(strike * 1000)):08d}"
+def occ(sym, day, strike, kind="call"):
+    return f"{sym}{day:%y%m%d}{'C' if kind == 'call' else 'P'}{int(round(strike * 1000)):08d}"
 
 
-def strike_grid(spot):
+def strike_grid(spot, kind="call", reach=0.12):
     cands = set()
     for step in (0.5, 1, 2.5, 5, 10):
-        k = math.ceil(spot / step) * step
-        while k <= spot * 1.12:
-            cands.add(round(k, 2))
-            k += step
+        if kind == "call":
+            k = math.floor(spot / step) * step
+            while k <= spot * (1 + reach):
+                cands.add(round(k, 2))
+                k += step
+        else:
+            k = math.ceil(spot / step) * step
+            while k >= spot * (1 - reach) and k > 0:
+                cands.add(round(k, 2))
+                k -= step
     return sorted(cands)
 
 
@@ -78,13 +84,14 @@ def option_minutes(api, symbols, day):
         params["page_token"] = token
 
 
-def implied_vol(price, spot, strike, years):
+def implied_vol(price, spot, strike, years, kind="call"):
     lo, hi = 0.01, 5.0
-    if price <= max(spot - strike, 0) or years <= 0:
+    intrinsic = max(spot - strike, 0) if kind == "call" else max(strike - spot, 0)
+    if price <= intrinsic or years <= 0:
         return None
     for _ in range(60):
         mid = (lo + hi) / 2
-        if bs_price(spot, strike, years, mid, "call") < price:
+        if bs_price(spot, strike, years, mid, kind) < price:
             lo = mid
         else:
             hi = mid
@@ -99,6 +106,42 @@ def at_or_after(bars, t, within=5):
         if mins > within:
             return None
     return None
+
+
+def pick_and_trade(api, sym, day, entry_t, spot, kind, target_delta, expiry=None):
+    """Real-price trade: contract with |delta| nearest target at entry_t, trail exit.
+    Returns a dict with pnl per slippage, or None when no contract/quote."""
+    expiry = expiry or day
+    mins_left = (16 * 60) - (entry_t.hour * 60 + entry_t.minute) + (expiry - day).days * 390
+    years = mins_left / Y
+    syms = {occ(sym, expiry, k, kind): k for k in strike_grid(spot, kind)}
+    opts = {}
+    keys = list(syms)
+    for j in range(0, len(keys), 100):
+        opts.update(option_minutes(api, keys[j:j + 100], day))
+    best = None
+    for s, bars in opts.items():
+        b = at_or_after(bars, entry_t, 5)
+        if not b or b["c"] <= 0:
+            continue
+        iv = implied_vol(b["c"], spot, syms[s], years, kind)
+        if not iv:
+            continue
+        d = abs(bs_delta(spot, syms[s], years, iv, kind))
+        if best is None or abs(d - target_delta) < abs(best[1] - target_delta):
+            best = (s, d, b, iv)
+    if not best:
+        return None
+    s, d, b, iv = best
+    path = [(x["t"], x["c"]) for x in opts[s] if x["t"] > b["t"]]
+    row = {"contract": s, "delta": round(d, 3), "iv": round(iv, 3), "px": b["c"]}
+    for slip in SLIPS:
+        entry = max(b["c"] * (1 + slip), b["c"] + 0.01)
+        exit_, why, peak = run_exit(path, entry, slip)
+        row[f"pnl_{int(slip*100)}"] = exit_ / entry - 1
+        row[f"why_{int(slip*100)}"] = why
+        row[f"peak_{int(slip*100)}"] = peak / entry
+    return row
 
 
 def run_exit(path, entry, slip):
