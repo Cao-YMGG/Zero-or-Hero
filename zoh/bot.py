@@ -24,6 +24,7 @@ from .strategy import (ET, MARKET_OPEN, bs_delta, contracts_for, current_phase, 
 
 MAX_ENTRY_ATTEMPTS = 3
 BIAS_RECHECK_SECONDS = 120
+PUBLISH_SECONDS = 30 * 60  # push the journal and rebuild the dashboard during the session
 
 
 def now_et():
@@ -32,6 +33,18 @@ def now_et():
 
 def log(msg):
     print(f"[{now_et():%H:%M:%S}] {msg}", flush=True)
+
+
+def publish():
+    """Commit today's journal so far and ask GitHub to rebuild the dashboard. Best effort."""
+    try:
+        subprocess.run(["bash", ".github/commit-journal.sh", "intraday"], timeout=120, check=True,
+                       cwd=journal.ROOT)
+        subprocess.run(["gh", "workflow", "run", "pages.yml", "--ref", "main"], timeout=60,
+                       check=False, cwd=journal.ROOT)
+        log("published journal and requested a dashboard rebuild")
+    except (OSError, subprocess.SubprocessError) as e:
+        log(f"publish failed: {e}")
 
 
 def closed_bars(api, symbol, now):
@@ -283,6 +296,7 @@ class Bot:
                         self.close(variant, vstate, 0.0, "time_noquote", now)
                     continue
                 shadow["peak"] = max(shadow["peak"], bid)
+                shadow["last"], shadow["last_time"] = bid, now.isoformat(timespec="seconds")
                 reason = "time" if at_exit else check_exit(shadow["entry_price"],
                                                            shadow["peak"], bid, variant)
                 if reason:
@@ -338,6 +352,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--until", help="stop this leg at HH:MM ET (default: exit time)")
     parser.add_argument("--dry-run", action="store_true", help="shadow trades only")
+    parser.add_argument("--publish", action="store_true",
+                        help="push the journal every 30 minutes and rebuild the dashboard")
     args = parser.parse_args()
 
     config = journal.load_config()
@@ -379,6 +395,7 @@ def main():
     if now < first_bar_ready:
         systime.sleep((first_bar_ready - now).total_seconds())
 
+    last_publish = systime.time()
     while True:
         now = now_et()
         try:
@@ -388,6 +405,9 @@ def main():
         journal.save_state(state)
         if now.time() >= until:
             break
+        if args.publish and systime.time() - last_publish >= PUBLISH_SECONDS:
+            last_publish = systime.time()
+            publish()
         systime.sleep(config["poll_seconds"])
 
     if until >= exit_at:
