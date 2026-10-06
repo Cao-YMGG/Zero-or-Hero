@@ -265,3 +265,12 @@ class FlushSignalTest(unittest.TestCase):
         self.assertIsNone(signal_flush(bars[:16], variant))  # 636 < 628 + 10.5
         self.assertEqual(signal_flush(bars, variant), "call")
         self.assertEqual(signal_flush(bars, {**variant, "fade": True}), "put")
+
+
+class RealContractsTest(unittest.TestCase):
+    def test_one_contract_fallback_for_pricey_options(self):
+        from zoh.bot import real_contracts
+        self.assertEqual(real_contracts(500, 0.2, 1.17), 1)  # $117 > $100 stake, <= $250
+        self.assertEqual(real_contracts(500, 0.2, 0.40), 2)
+        self.assertEqual(real_contracts(500, 0.2, 2.60), 0)  # $260 > half the account
+        self.assertEqual(real_contracts(500, 0, 0.40), 0)
