@@ -411,3 +411,13 @@ AMD 连续两天开盘 15 分钟急跌再收回：10/5 630.7 → 620 → 631.7�
   trading at the $500 start stake, the dashboard asks the owner to reset the Alpaca paper
   account. Each reset counts as a new generation in the reviews. Per-trade cap (50%) unchanged.
 - Takes effect from the next Trade run (today's run uses the old code).
+
+## 2026-10-07 — hold non-same-day options (owner decision)
+- Owner: a Friday-expiry MRVL call is not an intraday trade. From the next run, a contract
+  that does not expire today is held overnight (shadow and real alike); it exits on the trail
+  (after 2x, 40% giveback) or at 15:45 on its expiry day. Same-day contracts still close at
+  15:45. A variant holding a carried position sits out new entries until it closes.
+- Today's MRVL 297.5C / 302.5C still close at 15:45 (the running bot has the old code).
+- Hypothesis: catalyst trades (upgrades) play out over days; closing a weekly the same
+  afternoon pays the spread twice and throws away the time we paid for. Compare carried vs
+  same-day exits in the weekly review.

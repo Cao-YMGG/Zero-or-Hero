@@ -269,7 +269,7 @@ class Bot:
                                         round_limit(pick["ask"]))
             if filled:
                 self.state.setdefault("real_underlyings", []).append(underlying)
-                vstate["real"] = {"contract": pick["symbol"], "qty": filled,
+                vstate["real"] = {"contract": pick["symbol"], "qty": filled, "underlying": underlying,
                                   "entry_price": price,
                                   "entry_time": now_et().isoformat(timespec="seconds")}
 
@@ -333,16 +333,23 @@ class Bot:
             vstate = vstates.setdefault(variant["id"], {})
             shadow = vstate.get("shadow")
             if shadow:
+                # A contract that does not expire today is not an intraday trade: it is held
+                # overnight (trail still applies) and closes at the exit time of its expiry day.
+                expires_today = parse_occ(shadow["contract"])[1] <= f"{self.today:%y%m%d}"
+                if at_exit and not expires_today:
+                    vstate["hold"] = True
                 quote = (snaps.get(shadow["contract"]) or {}).get("latestQuote") or {}
                 bid = quote.get("bp")
                 if bid is None:
-                    if at_exit:
+                    if at_exit and expires_today:
                         self.close(variant, vstate, 0.0, "time_noquote", now)
                     continue
                 shadow["peak"] = max(shadow["peak"], bid)
                 shadow["last"], shadow["last_time"] = bid, now.isoformat(timespec="seconds")
-                reason = "time" if at_exit else check_exit(shadow["entry_price"],
-                                                           shadow["peak"], bid, variant)
+                if at_exit:
+                    reason = "time" if expires_today else None
+                else:
+                    reason = check_exit(shadow["entry_price"], shadow["peak"], bid, variant)
                 if reason:
                     self.close(variant, vstate, bid, reason, now)
             elif (not vstate.get("entered") and not at_exit and bars
