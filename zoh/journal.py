@@ -52,11 +52,26 @@ def variant_by_id(config, variant_id):
 
 
 def load_state(today):
-    if STATE_PATH.exists():
-        state = json.loads(STATE_PATH.read_text())
-        if state.get("date") == today.isoformat():
-            return state
-    return {"date": today.isoformat(), "done": False, "variants": {}}
+    prev = json.loads(STATE_PATH.read_text()) if STATE_PATH.exists() else {}
+    if prev.get("date") == today.isoformat():
+        return prev
+    return carry_over(prev, today)
+
+
+def carry_over(prev, today):
+    """A new day's state. Positions marked "hold" (contracts expiring after the day they were
+    bought) carry over; their variant sits out new entries until the position closes."""
+    state = {"date": today.isoformat(), "done": False, "variants": {}}
+    for vid, vs in (prev.get("variants") or {}).items():
+        if vs.get("hold") and vs.get("shadow"):
+            kept = {"entered": True, "carried": True, "shadow": vs["shadow"]}
+            if vs.get("real"):
+                kept["real"] = vs["real"]
+                underlying = vs["real"].get("underlying")
+                if underlying:
+                    state.setdefault("real_underlyings", []).append(underlying)
+            state["variants"][vid] = kept
+    return state
 
 
 def save_state(state):

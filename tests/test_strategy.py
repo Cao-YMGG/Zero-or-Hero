@@ -296,3 +296,16 @@ class RealOrderGateTests(unittest.TestCase):
         eq, led = virtual_equity(led, 4540.0, 500, 50, "2026-10-12")
         self.assertEqual((eq, led["generation"], led["anchor"]), (500, 2, 4540.0))
         self.assertEqual(led["history"][0]["final_equity"], 40.0)
+
+    def test_held_positions_carry_to_next_day(self):
+        from datetime import date
+        prev = {"date": "2026-10-07", "done": True, "variants": {
+            "catalyst_open": {"entered": True, "hold": True,
+                              "shadow": {"contract": "MRVL261009C00302500", "entry_price": 0.98},
+                              "real": {"contract": "MRVL261009C00302500", "qty": 1,
+                                       "underlying": "MRVL"}},
+            "claude_bias": {"entered": True, "closed": True}}}
+        state = journal.carry_over(prev, date(2026, 10, 8))
+        self.assertEqual(list(state["variants"]), ["catalyst_open"])
+        self.assertTrue(state["variants"]["catalyst_open"]["carried"])
+        self.assertEqual(state["real_underlyings"], ["MRVL"])

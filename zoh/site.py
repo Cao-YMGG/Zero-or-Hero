@@ -155,7 +155,7 @@ def positions_card():
         cls = "up" if p and p > 0 else "down" if p and p < 0 else "muted"
         real = vs.get("real")
         rows.append(f'<tr><td>{escape(vid)}</td><td>{escape(pos["contract"])}</td>'
-                    f'<td>{escape(pos["entry_time"][11:16])}</td>'
+                    f'<td>{escape(pos["entry_time"][11:16] if pos["entry_time"][:10] == today else pos["entry_time"][5:16].replace("T", " "))}</td>'
                     f'<td class="n">{entry:g}</td>'
                     f'<td class="n">{"—" if last is None else f"{float(last):g}"}</td>'
                     f'<td class="n {cls}">{pct(p) if p is not None else "—"}</td>'
