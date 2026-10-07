@@ -70,14 +70,14 @@ scored against purely mechanical variants.
 1. If today is not a NYSE trading day, stop without writing anything.
 2. Research (Webull read-only snapshots with extended hours for SPY/QQQ/TLT/USO/UUP and
    pre-market movers; web search for the rest): S&P 500 futures vs prior close, overnight Asia/Europe, major
-   news, today's scheduled releases/Fed speakers (also `config/macro_events.json`), VIX,
+   news, today's scheduled releases/Fed speakers (also `config/macro_events.json`) and Treasury auctions (10Y/30Y auction results at 13:00 ET can turn the afternoon, as on 2026-10-07), VIX,
    yesterday's SPY close and trend, **crude oil (WTI/Brent) overnight move and why**,
    **US Treasury yields (2Y, 10Y) overnight change**, and the dollar index (DXY). Rising
    yields or an oil spike are usually equity headwinds; note what is already priced in.
 3. Decide `call`, `put` or `none`. Prefer `none` when evidence is mixed: a skipped day costs
    nothing, a coin flip costs the spread and theta.
 2b. Rotation map: with Webull daily bars, compute 1-week and 1-month returns for theme
-   baskets — GPU (NVDA), CPU (AMD, INTC, ARM), memory/storage (MU, SNDK, WDC), optical
+   baskets — GPU (NVDA), CPU (AMD, INTC, ARM), memory (MU, SNDK), disk storage (WDC, STX) — keep these two apart, they split on 2026-10-07, optical
    (LITE, CIEN), power (GEV, VST), internet (META, GOOGL, MSFT, AMZN, AAPL), plus SPY/QQQ —
    and record which themes are heating up (money flowing in) and cooling (flowing out).
    Add newly hot themes (e.g. a new AI supply-chain link) as they appear.
