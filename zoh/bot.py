@@ -49,6 +49,12 @@ def real_contracts(equity, real_risk, ask):
     return qty
 
 
+def may_trade_real(state, underlying):
+    """Real orders stop when the account needs a reset, and one stock gets at most one real
+    position a day: two rules on the same news are one bet, so shadows still log both."""
+    return not state.get("reset_needed") and underlying not in state.get("real_underlyings", [])
+
+
 def publish():
     """Commit today's journal so far and ask GitHub to rebuild the dashboard. Best effort."""
     try:
@@ -214,7 +220,10 @@ class Bot:
 
     def try_enter(self, variant, vstate, direction, spot, now, underlying=None):
         vstate["attempts"] = vstate.get("attempts", 0) + 1
-        budget = self.state["equity_start"] * self.state["risk_per_trade"]
+        # A spent account keeps scoring shadows at the start stake until it is reset.
+        stake = (self.config["backtest"]["start_equity"] if self.state.get("reset_needed")
+                 else self.state["equity_start"])
+        budget = stake * self.state["risk_per_trade"]
         underlying = underlying or self.underlying
         if underlying == self.underlying:
             candidates = chain_candidates(self.api, underlying, self.today, direction, spot, now)
@@ -235,10 +244,15 @@ class Bot:
         # paper orders at that fraction of equity, to collect real fills sooner.
         real_qty = qty if variant["id"] == self.state["champion"] else real_contracts(
             self.state["equity_start"], variant.get("real_risk", 0), pick["ask"])
+        if real_qty and not may_trade_real(self.state, underlying):
+            log(f"{variant['id']}: shadow only (real position on {underlying} already today "
+                f"or account needs a reset)")
+            real_qty = 0
         if real_qty and not self.dry_run:
             filled, price = self._order(pick["symbol"], real_qty, "buy", "limit", "in",
                                         round_limit(pick["ask"]))
             if filled:
+                self.state.setdefault("real_underlyings", []).append(underlying)
                 vstate["real"] = {"contract": pick["symbol"], "qty": filled,
                                   "entry_price": price,
                                   "entry_time": now_et().isoformat(timespec="seconds")}
@@ -396,10 +410,9 @@ def main():
                       "risk_per_trade": phase["risk_per_trade"],
                       "champion": phase.get("champion", config["champion"])})
         if equity < config["dead_equity"]:
-            log(f"GAME OVER: equity ${equity:.2f} < ${config['dead_equity']}")
-            state["done"] = True
-            journal.save_state(state)
-            return
+            # Keep collecting shadow data; real orders wait for the owner to reset the account.
+            log(f"RESET NEEDED: equity ${equity:.2f} < ${config['dead_equity']}; shadow only today")
+            state["reset_needed"] = True
         journal.save_state(state)
     log(f"equity ${state['equity_start']:.2f} phase={state['phase']} "
         f"champion={state['champion']} until={until} exit={exit_at} dry_run={args.dry_run}")
