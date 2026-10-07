@@ -401,3 +401,13 @@ AMD 连续两天开盘 15 分钟急跌再收回：10/5 630.7 → 620 → 631.7�
 **学到**：(1) 翻倍前没有任何保护，AVGO +41% 吐回到 +2%；(2) 周三到期的期权周二 15:45 就被强制平仓，多付了一天的时间价值却没用上。
 **改动**：`semis_flush` 退役（真实期权价格下全时段为负，REALOPT2.md：全部 −49%、2026 年以来 −46%，等同 Regime check 的 broken）→ 新影子变体 `intraday_lock`：和 catalyst_intraday 同一个盘中选股，涨 30% 就开始跟踪，从最高点回撤 20% 卖（不低于成本；AVGO 今天按这个会在约 +13% 卖出），检验「翻倍前就保护利润」。种群仍 12。
 **待周日**：冠军去留（真实价格下 −39%/笔）；非当天到期合约是否允许持有到到期日。
+
+## 2026-10-07 — real-order gates (owner approved)
+- First real paper fills: AMD 650C (champion), MRVL 297.5C (catalyst_sniper), MRVL 302.5C
+  (catalyst_open). Real fills were $0.02 better than the shadow ask on all three.
+- The three used ~87% of equity on one idea (semis calls; two on the same MRVL upgrade).
+  Change: one real position per stock per day; shadows still log every rule.
+- Below `dead_equity` the bot no longer stops for the day: real orders pause, shadows keep
+  trading at the $500 start stake, the dashboard asks the owner to reset the Alpaca paper
+  account. Each reset counts as a new generation in the reviews. Per-trade cap (50%) unchanged.
+- Takes effect from the next Trade run (today's run uses the old code).

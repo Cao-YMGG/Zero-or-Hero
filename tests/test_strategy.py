@@ -274,3 +274,15 @@ class RealContractsTest(unittest.TestCase):
         self.assertEqual(real_contracts(500, 0.2, 0.40), 2)
         self.assertEqual(real_contracts(500, 0.2, 2.60), 0)  # $260 > half the account
         self.assertEqual(real_contracts(500, 0, 0.40), 0)
+
+
+class RealOrderGateTests(unittest.TestCase):
+    def test_one_real_position_per_stock_and_reset(self):
+        from zoh.bot import may_trade_real
+        state = {}
+        self.assertTrue(may_trade_real(state, "MRVL"))
+        state["real_underlyings"] = ["MRVL"]
+        self.assertFalse(may_trade_real(state, "MRVL"))
+        self.assertTrue(may_trade_real(state, "AMD"))
+        state["reset_needed"] = True
+        self.assertFalse(may_trade_real(state, "AMD"))

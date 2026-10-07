@@ -163,6 +163,8 @@ def positions_card():
                     f'<td>{"真实 " + str(real["qty"]) + " 张" if real else "影子"}</td></tr>')
     closed = sum(1 for vs in (state.get("variants") or {}).values() if vs.get("closed"))
     status = "今天已收盘" if state.get("done") else "交易中"
+    if state.get("reset_needed"):
+        status += " · 账户低于归零线，只记影子单，请在 Alpaca 后台重置模拟账户"
     body = ("<p class=\"muted\">现在没有持仓。</p>" if not rows else
             '<div class="scroll"><table><tr><th>策略</th><th>合约</th><th>买入时间</th>'
             '<th class="n">买入</th><th class="n">最新</th><th class="n">收益</th>'
