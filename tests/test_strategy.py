@@ -286,3 +286,13 @@ class RealOrderGateTests(unittest.TestCase):
         self.assertTrue(may_trade_real(state, "AMD"))
         state["reset_needed"] = True
         self.assertFalse(may_trade_real(state, "AMD"))
+
+    def test_virtual_ledger_restarts_generation(self):
+        from zoh.bot import virtual_equity
+        eq, led = virtual_equity(None, 5000.0, 500, 50, "2026-10-08")
+        self.assertEqual((eq, led["generation"]), (500, 1))
+        eq, led = virtual_equity(led, 5200.0, 500, 50, "2026-10-09")
+        self.assertEqual(eq, 700)
+        eq, led = virtual_equity(led, 4540.0, 500, 50, "2026-10-12")
+        self.assertEqual((eq, led["generation"], led["anchor"]), (500, 2, 4540.0))
+        self.assertEqual(led["history"][0]["final_equity"], 40.0)

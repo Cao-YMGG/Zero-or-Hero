@@ -10,6 +10,7 @@ JOURNAL_DIR = ROOT / "journal"
 TRADES_PATH = JOURNAL_DIR / "trades.csv"
 EQUITY_PATH = JOURNAL_DIR / "equity.csv"
 STATE_PATH = JOURNAL_DIR / "state.json"
+LEDGER_PATH = JOURNAL_DIR / "ledger.json"
 BIAS_DIR = JOURNAL_DIR / "bias"
 
 TRADE_FIELDS = ["date", "variant", "mode", "contract", "direction", "entry_time", "entry_price",
@@ -96,3 +97,11 @@ def record_equity(row):
         writer = csv.DictWriter(f, fieldnames=EQUITY_FIELDS)
         writer.writeheader()
         writer.writerows(sorted(rows, key=lambda r: r["date"]))
+
+
+def load_ledger():
+    return json.loads(LEDGER_PATH.read_text()) if LEDGER_PATH.exists() else None
+
+
+def save_ledger(ledger):
+    LEDGER_PATH.write_text(json.dumps(ledger, indent=2) + "\n")
