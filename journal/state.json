@@ -12,8 +12,8 @@
         "entry_price": 0.33,
         "peak": 0.49,
         "qty": 7,
-        "last": 0.19,
-        "last_time": "2026-10-07T10:32:47-04:00"
+        "last": 0.26,
+        "last_time": "2026-10-07T11:02:47-04:00"
       }
     },
     "claude_confirm": {
@@ -26,8 +26,8 @@
         "entry_price": 0.35,
         "peak": 0.35,
         "qty": 7,
-        "last": 0.15,
-        "last_time": "2026-10-07T10:32:47-04:00"
+        "last": 0.13,
+        "last_time": "2026-10-07T11:02:47-04:00"
       }
     },
     "open_drive_run": {
@@ -40,8 +40,8 @@
         "entry_price": 0.35,
         "peak": 0.35,
         "qty": 7,
-        "last": 0.15,
-        "last_time": "2026-10-07T10:32:47-04:00"
+        "last": 0.13,
+        "last_time": "2026-10-07T11:02:47-04:00"
       }
     },
     "intraday_lock": {},
@@ -55,8 +55,8 @@
         "entry_price": 1.65,
         "peak": 2.14,
         "qty": 1,
-        "last": 0.7,
-        "last_time": "2026-10-07T10:32:47-04:00"
+        "last": 0.27,
+        "last_time": "2026-10-07T11:02:47-04:00"
       }
     },
     "meta_ultra_gap": {},
@@ -70,8 +70,8 @@
         "entry_price": 1.72,
         "peak": 1.74,
         "qty": 1,
-        "last": 1.08,
-        "last_time": "2026-10-07T10:32:47-04:00"
+        "last": 0.59,
+        "last_time": "2026-10-07T11:02:47-04:00"
       }
     },
     "rebound_scanner": {
@@ -84,8 +84,8 @@
         "entry_price": 1.47,
         "peak": 1.47,
         "qty": 1,
-        "last": 0.59,
-        "last_time": "2026-10-07T10:32:47-04:00"
+        "last": 1.05,
+        "last_time": "2026-10-07T11:02:47-04:00"
       },
       "real": {
         "contract": "AMD261007C00650000",
@@ -104,8 +104,8 @@
         "entry_price": 1.47,
         "peak": 1.47,
         "qty": 1,
-        "last": 0.59,
-        "last_time": "2026-10-07T10:32:47-04:00"
+        "last": 1.05,
+        "last_time": "2026-10-07T11:02:47-04:00"
       }
     },
     "catalyst_sniper": {
@@ -118,8 +118,8 @@
         "entry_price": 1.95,
         "peak": 1.95,
         "qty": 1,
-        "last": 1.73,
-        "last_time": "2026-10-07T10:32:47-04:00"
+        "last": 1.19,
+        "last_time": "2026-10-07T11:02:47-04:00"
       },
       "real": {
         "contract": "MRVL261009C00297500",
@@ -138,8 +138,8 @@
         "entry_price": 0.98,
         "peak": 1.08,
         "qty": 2,
-        "last": 1,
-        "last_time": "2026-10-07T10:32:47-04:00"
+        "last": 0.62,
+        "last_time": "2026-10-07T11:02:47-04:00"
       },
       "real": {
         "contract": "MRVL261009C00302500",
