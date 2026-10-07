@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-07",
+  "bias": "put",
+  "confidence": 0.55,
+  "summary": "Yields, oil and the dollar all rise again before the open, with FOMC minutes at 14:00 and SPY just off a record after a four-day rally; every macro input points the same way, so a modest put.",
+  "reasons": [
+    "SPY pre-market 776.12 (-0.38% vs 779.09 close, Tuesday record high 781.62); QQQ -0.68%; futures S&P -0.3%, Nasdaq -0.7%, Dow -0.6% (Reuters/AP)",
+    "Yields back up: 10Y about 5.33% (highest since 2002 earlier this week), 30Y 5.71%; TLT -0.9% pre-market, the cleanest read",
+    "Oil rebounds: Brent +1.3% to about $101.9, WTI about $90 (AP); USO +0.4% pre-market. Dollar firmer: UUP +0.5%",
+    "FOMC minutes of the September hike at 14:00 ET; hawkish tone would extend the yield move. No major data release this morning",
+    "Semis weakest pre-market: MU -2.5%, AMD -1.9%, AVGO -1.1%, NVDA -0.9%, AMZN -0.9%; AAPL +0.9% the exception",
+    "Rebound_scanner: MU is a >= 2% down gap (-2.5%) on a same-day-expiry Wednesday, so the champion may fire on MU; real-option-price retest says this rule is about -39%/trade (REALOPT.md). AMD -1.9% is just under the 2% line",
+    "AMD dossier: Wednesday is AMD's most volatile day; down gaps under -2% bounced more often than not, but today's dip follows +6.9% in a week and is a sector-wide yield move, not AMD news",
+    "Risk to the put: buy-the-dip regime (index at a record, Q3 earnings season ahead); a soft minutes reading could reverse it. Hence 0.55, not higher"
+  ],
+  "events": ["FOMC minutes 14:00 ET"],
+  "inputs": {"es_futures_pct": -0.3, "vix": null, "wti_pct": 0.6, "us10y": 5.33,
+             "us10y_change_bp": null, "us2y_change_bp": null, "dxy_pct": 0.5,
+             "overnight": "Futures lower as yields and oil rebound before the FOMC minutes; VIX level and exact 2Y/10Y bp changes not found in time (web sources conflict, 10Y quoted 5.25-5.33%), so TLT -0.9% and UUP +0.5% are used as the rate and dollar reads"},
+  "rotation": {
+    "heating": ["optical (CIEN +25% 1w / +38% 1m, LITE +16% 1w / +29% 1m, MRVL +9% 1w)", "power (VST +14% 1w, GEV +7% 1w)", "CPU (AMD +6.9% 1w / +36% 1m, ARM +3% 1w)", "GPU (NVDA +5.3% 1w)", "internet ex-META (MSFT +4%, AMZN +3.9% 1w)"],
+    "cooling": ["storage (WDC -9.4% 1w / -12% 1m, SNDK -4% 1w)", "INTC (-3% 1w after Tuesday's drop, Northland downgrade today)", "memory (MU -1.8% 1w, -2.5% pre-market)", "META flat for the week (+20% 1m)"],
+    "note": "Bars from Alpaca SIP daily closes (through 2026-10-06) instead of Webull, for speed; same symbols. Optical and power lead, storage and memory lag"
+  },
+  "sniper": {
+    "symbol": "MRVL",
+    "direction": "call",
+    "catalyst": "HSBC upgraded Marvell to Buy from Hold this morning (target $300), citing undervalued optical interconnect and CXL revenue; optical is the hottest theme (CIEN/LITE). MRVL is -1.7% pre-market (282 vs 287 close) in the semis selloff after +5.8% Tuesday, so the upgrade is not in the price yet. Upgrades carry per ANALYST.md; catalyst_sniper waits for +1% from the open, catalyst_open only buys if the stock is not falling at 09:31. Not a mega cap ($250B) and only Friday expiries; risk is a risk-off tape. No mega-cap upgrade found today (Northland downgraded INTC, downgrades don't carry)",
+    "confidence": 0.4
+  },
+  "generated_at": "2026-10-07T09:08:00-04:00"
+}
