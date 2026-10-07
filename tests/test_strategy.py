@@ -309,3 +309,9 @@ class RealOrderGateTests(unittest.TestCase):
         self.assertEqual(list(state["variants"]), ["catalyst_open"])
         self.assertTrue(state["variants"]["catalyst_open"]["carried"])
         self.assertEqual(state["real_underlyings"], ["MRVL"])
+
+    def test_carry_over_finds_underlying_from_contract(self):
+        from datetime import date
+        prev = {"variants": {"catalyst_sniper": {"hold": True, "shadow": {"contract": "MRVL261009C00297500"},
+                                                 "real": {"contract": "MRVL261009C00297500", "qty": 1}}}}
+        self.assertEqual(journal.carry_over(prev, date(2026, 10, 8))["real_underlyings"], ["MRVL"])
