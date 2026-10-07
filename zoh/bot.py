@@ -55,6 +55,22 @@ def may_trade_real(state, underlying):
     return not state.get("reset_needed") and underlying not in state.get("real_underlyings", [])
 
 
+def virtual_equity(ledger, account_equity, base, dead, today):
+    """The experiment's own $base account inside a bigger paper account. Its equity is base plus
+    the account's change since the generation began; below `dead` a new generation starts at
+    base, so a wipe-out restarts without a manual reset. Returns (equity, ledger)."""
+    if ledger is None:
+        ledger = {"base": base, "generation": 1, "anchor": account_equity, "started": today,
+                  "history": []}
+    equity = ledger["base"] + account_equity - ledger["anchor"]
+    if equity < dead:
+        ledger["history"].append({"generation": ledger["generation"], "started": ledger["started"],
+                                  "ended": today, "final_equity": round(equity, 2)})
+        ledger.update(generation=ledger["generation"] + 1, anchor=account_equity, started=today)
+        equity = ledger["base"]
+    return equity, ledger
+
+
 def publish():
     """Commit today's journal so far and ask GitHub to rebuild the dashboard. Best effort."""
     try:
@@ -405,6 +421,12 @@ def main():
         return
     if "equity_start" not in state:
         equity = float(api.account()["equity"])
+        if config.get("ledger"):
+            equity, ledger = virtual_equity(journal.load_ledger(), equity, config["ledger"]["base"],
+                                            config["dead_equity"], now.date().isoformat())
+            journal.save_ledger(ledger)
+            state["generation"] = ledger["generation"]
+            log(f"virtual ledger: generation {ledger['generation']}, equity ${equity:.2f}")
         phase = current_phase(config, equity)
         state.update({"equity_start": equity, "phase": phase["name"],
                       "risk_per_trade": phase["risk_per_trade"],
