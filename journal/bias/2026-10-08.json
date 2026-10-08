@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-08",
+  "bias": "none",
+  "confidence": 0.0,
+  "summary": "Oil jumps again (Brent ~$104-108, Gulf shipping attacks) and futures are lower, but this is the same set-up as 2026-10-07: the bearish move is already in the pre-market gap, and yesterday's put lost 97% while SPY rose from the open. Skip rather than pay for a move that already happened.",
+  "reasons": [
+    "SPY pre-market 773.90 (-0.43% vs 777.22 close); QQQ -0.70%; futures S&P -0.5%, Nasdaq -0.7%, Dow -0.9% (Yahoo live)",
+    "Oil: USO +3.9% pre-market; Brent about $104-108, WTI about $91 (+3.6%), on more attacks on shipping in the Gulf / Strait of Hormuz, reversing Wednesday's post-IEA dip. TLT -0.3% (yields up a little), UUP flat",
+    "FOMC minutes came out at 14:00 Wednesday; no clear reporting on the yield reaction found. No CPI/NFP today; CPI is 10-14",
+    "Lesson from 2026-10-07 (EVOLUTION.md): with the bias matching the pre-market gap, SPY was -0.25% close-to-close but +0.18% open-to-close, so 0DTE puts bought after the open lost ~97%. Same pattern today: macro gap down, bias would only buy the move that already happened. Hypothesis 3 in SUNDAY_TESTS.md tests this properly",
+    "Pre-market weakness is semis-led: INTC -2.5%, MRVL -2.6%, AVGO -1.7%, AMD -1.6%, MU -1.6% (after +4% Wednesday), TSM -1.4%; energy up (XOM +2.2%); GOOGL +0.5%, AAPL +0.1%",
+    "Thursday: no same-day single-stock expiries, so rebound_scanner will not trade. Our two carried MRVL calls (Friday expiry) face a -2.6% pre-market MRVL",
+    "AMD dossier: down gap -1.6% is under the 2% line; it moves with CPU/semis, which are the weak group today. META dossier: META flat pre-market after -2.4% Wednesday; Muse still #1 free app as of the last check (no newer rank found)"
+  ],
+  "events": ["No major US data; CPI 2026-10-14"],
+  "inputs": {"es_futures_pct": -0.5, "vix": null, "wti_pct": 3.6, "us10y": null,
+             "us10y_change_bp": null, "us2y_change_bp": null, "dxy_pct": 0.0,
+             "overnight": "Oil spike on Gulf shipping attacks; futures lower. VIX and exact 2Y/10Y bp changes not found in time; TLT -0.3% and UUP flat used as the rate and dollar reads"},
+  "rotation": {
+    "heating": ["optical (CIEN +27% 1w / +31% 1m, LITE +14% 1w)", "power (VST +20% 1w, GEV +5% 1w)", "CPU (AMD +5.6% 1w / +28% 1m)", "GPU (NVDA +4% 1w)", "memory (MU +2% 1w after Wednesday's +4%)", "internet ex-META (AMZN +4.3%, MSFT +3.3% 1w)"],
+    "cooling": ["disk storage (STX -12.5% 1w, WDC -10.8% 1w, the Toshiba capacity overhang)", "INTC (-5.9% 1w)", "flash (SNDK -2.8% 1w)", "META flat for the week"],
+    "note": "Alpaca IEX daily closes through 2026-10-07 (recent SIP not permitted on our plan), same symbols as the Webull basket. Memory and disk storage now tracked apart: memory holding up, disk storage the weakest theme"
+  },
+  "sniper": {
+    "symbol": "PLTR",
+    "direction": "call",
+    "catalyst": "Goldman Sachs upgraded Palantir to Buy from Neutral this morning (target $230, about +18% from 194). A real rating change by a major firm; PLTR +2.2% pre-market (198.4 vs 194.1), well under a 4% gap, in a tape where most tech is red, so the upgrade is carrying. No same-day PLTR expiry on Thursday: nearest is Friday. Caution: on real option prices the strict upgrade rule is only -12%/trade since 2026-01 (17 trades) after removing false events, so this is a catalyst bet, not an evidenced edge. No mega-cap upgrade found today (Citi downgraded NXPI, downgrades don't carry)",
+    "confidence": 0.4
+  },
+  "generated_at": "2026-10-08T08:58:00-04:00"
+}
