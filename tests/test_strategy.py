@@ -306,8 +306,13 @@ class RealOrderGateTests(unittest.TestCase):
                                        "underlying": "MRVL"}},
             "claude_bias": {"entered": True, "closed": True}}}
         state = journal.carry_over(prev, date(2026, 10, 8))
-        self.assertEqual(list(state["variants"]), ["catalyst_open"])
-        self.assertTrue(state["variants"]["catalyst_open"]["carried"])
+        self.assertEqual(list(state["variants"]), ["catalyst_open@2026-10-07"])
+        kept = state["variants"]["catalyst_open@2026-10-07"]
+        self.assertTrue(kept["carried"])
+        self.assertEqual(kept["of"], "catalyst_open")
+        again = journal.carry_over({"date": "2026-10-08", "variants": {
+            "catalyst_open@2026-10-07": {**kept, "hold": True}}}, date(2026, 10, 9))
+        self.assertEqual(list(again["variants"]), ["catalyst_open@2026-10-07"])
         self.assertEqual(state["real_underlyings"], ["MRVL"])
 
     def test_carry_over_finds_underlying_from_contract(self):
