@@ -1,6 +1,6 @@
 {
   "date": "2026-10-08",
-  "done": false,
+  "done": true,
   "variants": {
     "catalyst_sniper": {
       "entered": true,
@@ -12,15 +12,16 @@
         "entry_price": 1.95,
         "peak": 2.15,
         "qty": 1,
-        "last": 0.08,
-        "last_time": "2026-10-08T15:17:22-04:00"
+        "last": 0.1,
+        "last_time": "2026-10-08T15:45:09-04:00"
       },
       "real": {
         "contract": "MRVL261009C00297500",
         "qty": 1,
         "entry_price": 1.93,
         "entry_time": "2026-10-07T09:59:10-04:00"
-      }
+      },
+      "hold": true
     },
     "catalyst_open": {
       "entered": true,
@@ -32,15 +33,16 @@
         "entry_price": 0.98,
         "peak": 1.29,
         "qty": 2,
-        "last": 0.02,
-        "last_time": "2026-10-08T15:17:22-04:00"
+        "last": 0.07,
+        "last_time": "2026-10-08T15:45:09-04:00"
       },
       "real": {
         "contract": "MRVL261009C00302500",
         "qty": 1,
         "entry_price": 0.96,
         "entry_time": "2026-10-07T09:43:17-04:00"
-      }
+      },
+      "hold": true
     },
     "claude_bias": {},
     "claude_confirm": {},
