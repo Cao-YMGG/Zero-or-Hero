@@ -65,17 +65,19 @@ def occ_root(contract):
 
 def carry_over(prev, today):
     """A new day's state. Positions marked "hold" (contracts expiring after the day they were
-    bought) carry over; their variant sits out new entries until the position closes."""
+    bought) carry over under "<variant>@<first day carried>", so the variant itself can trade again."""
     state = {"date": today.isoformat(), "done": False, "variants": {}}
     for vid, vs in (prev.get("variants") or {}).items():
         if vs.get("hold") and vs.get("shadow"):
-            kept = {"entered": True, "carried": True, "shadow": vs["shadow"]}
+            of = vs.get("of", vid)
+            key = vid if "@" in vid else f"{vid}@{prev.get('date', '')}"
+            kept = {"entered": True, "carried": True, "of": of, "shadow": vs["shadow"]}
             if vs.get("real"):
                 kept["real"] = vs["real"]
                 underlying = vs["real"].get("underlying") or occ_root(vs["real"]["contract"])
                 if underlying:
                     state.setdefault("real_underlyings", []).append(underlying)
-            state["variants"][vid] = kept
+            state["variants"][key] = kept
     return state
 
 

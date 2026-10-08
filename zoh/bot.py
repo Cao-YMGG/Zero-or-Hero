@@ -329,8 +329,12 @@ class Bot:
         snaps = self.api.option_snapshots(open_symbols)
         at_exit = now.time() >= self.exit_at
 
-        for variant in variants:
-            vstate = vstates.setdefault(variant["id"], {})
+        # Positions carried over from an earlier day sit under their own key ("<id>@<date>",
+        # with "of" naming the variant), so the variant itself can still trade today.
+        by_id = {v["id"]: v for v in variants}
+        pairs = [(v, vstates.setdefault(v["id"], {})) for v in variants]
+        pairs += [(by_id[vs["of"]], vs) for vs in list(vstates.values()) if vs.get("of") in by_id]
+        for variant, vstate in pairs:
             shadow = vstate.get("shadow")
             if shadow:
                 # A contract that does not expire today is not an intraday trade: it is held
