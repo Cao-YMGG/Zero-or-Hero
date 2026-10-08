@@ -1,47 +1,10 @@
 {
-  "date": "2026-10-07",
-  "done": true,
+  "date": "2026-10-08",
+  "done": false,
   "variants": {
-    "claude_bias": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "claude_confirm": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "open_drive_run": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "intraday_lock": {},
-    "amd_gap_cheap_run": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "meta_ultra_gap": {},
-    "meta_follow2": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "rebound_scanner": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "rebound_scanner_wide": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
     "catalyst_sniper": {
-      "attempts": 1,
       "entered": true,
+      "carried": true,
       "shadow": {
         "contract": "MRVL261009C00297500",
         "direction": "call",
@@ -49,20 +12,19 @@
         "entry_price": 1.95,
         "peak": 2.15,
         "qty": 1,
-        "last": 1.85,
-        "last_time": "2026-10-07T15:45:04-04:00"
+        "last": 0.33,
+        "last_time": "2026-10-08T10:02:18-04:00"
       },
       "real": {
         "contract": "MRVL261009C00297500",
         "qty": 1,
         "entry_price": 1.93,
         "entry_time": "2026-10-07T09:59:10-04:00"
-      },
-      "hold": true
+      }
     },
     "catalyst_open": {
-      "attempts": 1,
       "entered": true,
+      "carried": true,
       "shadow": {
         "contract": "MRVL261009C00302500",
         "direction": "call",
@@ -70,20 +32,32 @@
         "entry_price": 0.98,
         "peak": 1.29,
         "qty": 2,
-        "last": 1.08,
-        "last_time": "2026-10-07T15:45:04-04:00"
+        "last": 0.17,
+        "last_time": "2026-10-08T10:02:18-04:00"
       },
       "real": {
         "contract": "MRVL261009C00302500",
         "qty": 1,
         "entry_price": 0.96,
         "entry_time": "2026-10-07T09:43:17-04:00"
-      },
-      "hold": true
+      }
     },
+    "claude_bias": {},
+    "claude_confirm": {},
+    "open_drive_run": {},
+    "intraday_lock": {},
+    "amd_gap_cheap_run": {},
+    "meta_ultra_gap": {},
+    "meta_follow2": {},
+    "rebound_scanner": {},
+    "rebound_scanner_wide": {},
     "catalyst_intraday": {}
   },
-  "equity_start": 500.0,
+  "real_underlyings": [
+    "MRVL",
+    "MRVL"
+  ],
+  "equity_start": 335.79,
   "phase": "zero-or-hero",
   "risk_per_trade": 0.5,
   "champion": "rebound_scanner"
