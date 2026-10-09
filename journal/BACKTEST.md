@@ -1,4 +1,4 @@
-# Backtest — SPY 0DTE, 2025-10-08 → 2026-10-06 (250 days)
+# Backtest — SPY 0DTE, 2025-10-10 → 2026-10-09 (251 days)
 
 Model: Black-Scholes at IV 11%, slippage 1% + $0.01 each side, start $500, phase sizing from config. Option prices are modelled, not real quotes — use this to rank ideas.
 
@@ -6,19 +6,19 @@ Realised intraday vol over the period: 10.5% (if far from the IV above, recalibr
 
 | variant | trades | win% | avg win | avg loss | expectancy/trade | best | final $ | peak $ | max DD | 2x / 5x / 10x | ruined |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| open_drive_run | 178 | 38% | +98% | -92% | -19.2% | +805% | 9 | 500 | 98% | — / — / — | 2025-12-10 |
+| open_drive_run | 178 | 38% | +98% | -92% | -19.2% | +805% | 4 | 500 | 99% | — / — / — | 2025-10-16 |
 
 ## Odds of $500 → $2,000 before ruin (bootstrap of each variant's trades, stake = % of equity per trade)
 
 | variant | 30% stake | 50% stake | 100% stake |
 |---|---|---|---|
-| open_drive_run | 4.3% | 6.9% | 8.4% |
+| open_drive_run | 4.5% | 7.3% | 8.8% |
 
 ## Ultra-aggressive: all-in odds of $500 → $50k / $500k, and the best multiples
 
 | variant | trades | win% | P(→$50k) | P(→$500k) | top 5 multiples |
 |---|---|---|---|---|---|
-| open_drive_run | 178 | 38% | 0.30% | 0.03% | 9x, 8x, 5x, 4x, 4x |
+| open_drive_run | 178 | 38% | 0.25% | 0.03% | 9x, 8x, 5x, 4x, 4x |
 
 ## Regime check: last 63 trading days vs full period
 
@@ -26,7 +26,7 @@ If a variant only works in the old part of the sample, the market has moved on.
 
 | variant | full: trades | full: avg | full: odds (100%) | recent: trades | recent: avg | recent: odds (100%) | verdict |
 |---|---|---|---|---|---|---|---|
-| open_drive_run | 178 | -19.2% | 8.4% | 40 | -14.7% | 10.0% | holding up |
+| open_drive_run | 178 | -19.2% | 8.8% | 39 | -14.0% | 9.7% | holding up |
 
 ## Macro days (CPI / NFP / FOMC) vs other days — expectancy per trade
 
