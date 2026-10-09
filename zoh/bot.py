@@ -282,6 +282,11 @@ class Bot:
             filled, fill_price = self._order(real["contract"], real["qty"], "sell", "market", "out")
             if filled:
                 self._record(variant, "real", real, fill_price, now_et(), reason, filled)
+            elif parse_occ(real["contract"])[1] <= f"{self.today:%y%m%d}":
+                # Expiring with no bid: the broker rejects the sell and the contract expires
+                # worthless, so book it at 0 rather than lose the trade from the journal.
+                log(f"!! real exit for {real['contract']} did not fill; booked as expired at 0")
+                self._record(variant, "real", real, 0.0, now_et(), "expired", real["qty"])
             else:
                 log(f"!! real exit for {real['contract']} did not fill; final sweep will retry")
         vstate["closed"] = True
