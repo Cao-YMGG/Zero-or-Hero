@@ -14,7 +14,7 @@
         "peak": 2.15,
         "qty": 1,
         "last": 0,
-        "last_time": "2026-10-09T14:16:18-04:00"
+        "last_time": "2026-10-09T14:46:24-04:00"
       },
       "real": {
         "contract": "MRVL261009C00297500",
@@ -35,7 +35,7 @@
         "peak": 1.29,
         "qty": 2,
         "last": 0,
-        "last_time": "2026-10-09T14:16:18-04:00"
+        "last_time": "2026-10-09T14:46:24-04:00"
       },
       "real": {
         "contract": "MRVL261009C00302500",
@@ -59,10 +59,10 @@
         "direction": "call",
         "entry_time": "2026-10-09T09:46:31-04:00",
         "entry_price": 0.25,
-        "peak": 0.26,
+        "peak": 0.36,
         "qty": 1,
-        "last": 0.15,
-        "last_time": "2026-10-09T14:16:18-04:00"
+        "last": 0.3,
+        "last_time": "2026-10-09T14:46:24-04:00"
       },
       "real": {
         "contract": "AAPL261009C00337500",
@@ -80,10 +80,10 @@
         "direction": "call",
         "entry_time": "2026-10-09T09:46:31-04:00",
         "entry_price": 0.25,
-        "peak": 0.26,
+        "peak": 0.36,
         "qty": 1,
-        "last": 0.15,
-        "last_time": "2026-10-09T14:16:18-04:00"
+        "last": 0.3,
+        "last_time": "2026-10-09T14:46:24-04:00"
       }
     },
     "catalyst_sniper": {
@@ -97,7 +97,7 @@
         "peak": 0.23,
         "qty": 1,
         "last": 0,
-        "last_time": "2026-10-09T14:16:18-04:00"
+        "last_time": "2026-10-09T14:46:24-04:00"
       }
     },
     "catalyst_open": {
