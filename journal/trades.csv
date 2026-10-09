@@ -12,3 +12,5 @@ date,variant,mode,contract,direction,entry_time,entry_price,exit_time,exit_price
 2026-10-07,rebound_scanner,shadow,AMD261007C00650000,call,2026-10-07T09:46:01-04:00,1.47,2026-10-07T15:45:04-04:00,0.11,1,-136.0,-0.9252,time,zero-or-hero,500.0
 2026-10-07,rebound_scanner,real,AMD261007C00650000,call,2026-10-07T09:46:06-04:00,1.45,2026-10-07T15:45:05-04:00,0.09,1,-136.0,-0.9379,time,zero-or-hero,500.0
 2026-10-07,rebound_scanner_wide,shadow,AMD261007C00650000,call,2026-10-07T09:46:01-04:00,1.47,2026-10-07T15:45:04-04:00,0.11,1,-136.0,-0.9252,time,zero-or-hero,500.0
+2026-10-09,catalyst_open,shadow,LITE261009C01200000,call,2026-10-09T09:32:00-04:00,0.42,2026-10-09T09:33:52-04:00,0.73,1,31.0,0.7381,trail,zero-or-hero,86.79
+2026-10-09,catalyst_open,real,LITE261009C01200000,call,2026-10-09T09:32:12-04:00,0.4,2026-10-09T09:33:57-04:00,0.85,1,45.0,1.125,trail,zero-or-hero,86.79

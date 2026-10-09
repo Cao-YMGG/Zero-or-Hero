@@ -1,10 +1,11 @@
 {
-  "date": "2026-10-08",
-  "done": true,
+  "date": "2026-10-09",
+  "done": false,
   "variants": {
-    "catalyst_sniper": {
+    "catalyst_sniper@2026-10-08": {
       "entered": true,
       "carried": true,
+      "of": "catalyst_sniper",
       "shadow": {
         "contract": "MRVL261009C00297500",
         "direction": "call",
@@ -12,20 +13,20 @@
         "entry_price": 1.95,
         "peak": 2.15,
         "qty": 1,
-        "last": 0.1,
-        "last_time": "2026-10-08T15:45:09-04:00"
+        "last": 0.01,
+        "last_time": "2026-10-09T10:02:08-04:00"
       },
       "real": {
         "contract": "MRVL261009C00297500",
         "qty": 1,
         "entry_price": 1.93,
         "entry_time": "2026-10-07T09:59:10-04:00"
-      },
-      "hold": true
+      }
     },
-    "catalyst_open": {
+    "catalyst_open@2026-10-08": {
       "entered": true,
       "carried": true,
+      "of": "catalyst_open",
       "shadow": {
         "contract": "MRVL261009C00302500",
         "direction": "call",
@@ -33,16 +34,15 @@
         "entry_price": 0.98,
         "peak": 1.29,
         "qty": 2,
-        "last": 0.07,
-        "last_time": "2026-10-08T15:45:09-04:00"
+        "last": 0.03,
+        "last_time": "2026-10-09T10:02:08-04:00"
       },
       "real": {
         "contract": "MRVL261009C00302500",
         "qty": 1,
         "entry_price": 0.96,
         "entry_time": "2026-10-07T09:43:17-04:00"
-      },
-      "hold": true
+      }
     },
     "claude_bias": {},
     "claude_confirm": {},
@@ -51,15 +51,56 @@
     "amd_gap_cheap_run": {},
     "meta_ultra_gap": {},
     "meta_follow2": {},
-    "rebound_scanner": {},
-    "rebound_scanner_wide": {},
+    "rebound_scanner": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "AAPL261009C00337500",
+        "direction": "call",
+        "entry_time": "2026-10-09T09:46:31-04:00",
+        "entry_price": 0.25,
+        "peak": 0.25,
+        "qty": 1,
+        "last": 0.14,
+        "last_time": "2026-10-09T10:02:08-04:00"
+      },
+      "real": {
+        "contract": "AAPL261009C00337500",
+        "qty": 1,
+        "underlying": "AAPL",
+        "entry_price": 0.23,
+        "entry_time": "2026-10-09T09:46:37-04:00"
+      }
+    },
+    "rebound_scanner_wide": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "AAPL261009C00337500",
+        "direction": "call",
+        "entry_time": "2026-10-09T09:46:31-04:00",
+        "entry_price": 0.25,
+        "peak": 0.25,
+        "qty": 1,
+        "last": 0.14,
+        "last_time": "2026-10-09T10:02:08-04:00"
+      }
+    },
+    "catalyst_sniper": {},
+    "catalyst_open": {
+      "attempts": 1,
+      "entered": true,
+      "closed": true
+    },
     "catalyst_intraday": {}
   },
   "real_underlyings": [
     "MRVL",
-    "MRVL"
+    "MRVL",
+    "LITE",
+    "AAPL"
   ],
-  "equity_start": 335.79,
+  "equity_start": 86.79,
   "phase": "zero-or-hero",
   "risk_per_trade": 0.5,
   "champion": "rebound_scanner"
