@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-09",
+  "bias": "none",
+  "confidence": 0.0,
+  "summary": "Futures bounce (S&P +0.3%, Nasdaq +0.7%) as oil eases on US-Iran talk and tech rebounds from Thursday's chip selloff, but yields stay the pressure (1-year inflation expectations 3.9%, highest since May 2023). A small gap in a direction the gap already reflects; same reasoning as 10-07 and 10-08: skip.",
+  "reasons": [
+    "Futures: S&P about +0.3%, Nasdaq about +0.7% (Investrade, TheStreet); Yahoo described S&P futures as dipping earlier, so the pre-market picture is mixed",
+    "Webull connector needs re-authorization this morning, so live pre-market snapshots came from Alpaca IEX (thin): SPY 776.70 (+0.36% vs 773.88 close), QQQ +0.65%, NVDA +1.5%, MU +2.0%, MSFT +0.9%, META +0.6%, USO -0.7%. TLT/UUP had no pre-market prints",
+    "Oil: Brent eases on comments about progress in US-Iran talks; analysts say the Hormuz premium stays while shipping attacks continue",
+    "Rates: yields the main headwind; 10Y around 5.3% earlier in the week (highest since 2002), strong 30Y auction Thursday (bid-to-cover 2.54x vs 2.43x average). Exact bp changes, VIX and DXY not found in time",
+    "Thursday's chip selloff was tied to an FT report that OpenAI's annualized revenue is about $20B below prior estimates; a Friday rebound is the consensus read, which is already in the gap",
+    "Friday: same-day expiries for all names. No >= 2% pre-market down gap visible in the rebound_scanner universe (tech gapping up), so the champion should stay out",
+    "AMD dossier: Friday is AMD's calmest day; AMD had no pre-market print yet. META dossier: META +0.6% pre-market, no fresh Muse rank found"
+  ],
+  "events": ["No major US data today; CPI 2026-10-14"],
+  "inputs": {"es_futures_pct": 0.3, "vix": null, "wti_pct": -0.7, "us10y": null,
+             "us10y_change_bp": null, "us2y_change_bp": null, "dxy_pct": null,
+             "overnight": "Tech rebound after the chip selloff, oil eases. Webull unavailable (needs re-authorization); Alpaca IEX pre-market used; VIX, 2Y/10Y bp and DXY not found"},
+  "rotation": {
+    "heating": ["optical (CIEN +12% 1w / +26% 1m; LITE flat 1w, but its CEO said optical parts are sold out into 2029)", "power (VST +12% 1w)", "internet (AAPL +3%, GOOGL +2.9%, AMZN +2.3%, MSFT +2% 1w)"],
+    "cooling": ["disk storage (STX -18% 1w, WDC -15% 1w)", "flash (SNDK -10% 1w)", "INTC (-10.7% 1w)", "memory (MU -5.7% 1w)", "ARM (-5.8% 1w)"],
+    "note": "Alpaca IEX daily closes through 2026-10-08. The chip selloff this week moved money from semis/memory/storage into the platform names; optical and power still lead on one month"
+  },
+  "sniper": {
+    "symbol": "LITE",
+    "direction": "call",
+    "catalyst": "Lumentum's CEO said optical components are 'completely sold out' through early 2029 (reported in this morning's previews), in the hottest one-month theme (optical), after LITE was flat for the week while the chip group sold off. Friday weekly options. Caution: no pre-market print was available to confirm the gap is under ~4%, and the timing of the comment is not verified; catalyst_open only buys if LITE is not falling at 09:31 and catalyst_sniper waits for +1% from the open. Barclays' PLTR Overweight initiation is the alternative but PLTR already ran Thursday",
+    "confidence": 0.35
+  },
+  "generated_at": "2026-10-09T08:58:00-04:00"
+}
