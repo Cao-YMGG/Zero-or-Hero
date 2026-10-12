@@ -14,11 +14,16 @@ data), `underlyings/META.md` (1-year backtest), EVOLUTION.md v6–v10.
 
 ## What has (and hasn't) worked
 - Big gaps continue: ≥+2% continued 73% (median +0.8%), ≤−2% continued 64%. Small gaps
-  (±1%) mostly fill.
+  (±1%) mostly fill; this says nothing about the +1–2% band (2026-10-12: +1.5% ran).
 - Early move alone is a coin flip (~50% continuation), except the rare days already ≥3% by
   10:00–10:30 (4 days), which kept going — those were catalyst days.
-- Mechanical rules can't find its big days; they come from fresh catalysts with a small gap.
-  This stock is for the catalyst sniper, not for mechanical momentum.
+- Mechanical rules rarely find its big days; most come from fresh catalysts with a small gap.
+  Exception seen 2026-10-12 (one day, not yet a rule): no news, gap +1.5% (outside the ±1%
+  "fills" band), on a rotation day out of AI hardware (MU -3.9%, LITE/CIEN -10%) into the
+  mega-cap platforms, after a -7.8% pullback from the 9/24 high and two weeks before
+  earnings. META ran +4.6% at the high (+3.4% close) and `meta_follow2` (>= +2% from the
+  open after 30 minutes) caught it: 755C $0.75 -> trail exit $1.30 (+73%; the option was
+  $0.28 by 14:45). The catalyst-only screen missed it.
 - Connect (late September) marked a top; earnings reactions are large both ways (−8.5%
   4/30, −8% 7/30 on capex worries; +10% 1/29).
 

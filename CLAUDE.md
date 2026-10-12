@@ -85,6 +85,11 @@ scored against purely mechanical variants.
    (LITE, CIEN), power (GEV, VST), internet (META, GOOGL, MSFT, AMZN, AAPL), plus SPY/QQQ —
    and record which themes are heating up (money flowing in) and cooling (flowing out).
    Add newly hot themes (e.g. a new AI supply-chain link) as they appear.
+   A theme that is hottest into its own industry event (e.g. optical into the OCP summit)
+   can be sold on the news: on 2026-10-12 LITE and CIEN fell ~10% with no news on the
+   summit's first day. Do not name a sniper in such a theme on an event day, and note the
+   event in `rotation`. On a rotation day out of one group, check the laggards of the
+   group money is moving into (META +3.4% with no news on 2026-10-12).
 3b. Sniper (name one whenever a fresh catalyst with a small gap exists; null only when nothing
    qualifies; prefer upgrades over downgrades): prefer names in themes that are heating up; good news
    in a cooling theme tends to fade. scan mega caps with same-day options for a fresh,
