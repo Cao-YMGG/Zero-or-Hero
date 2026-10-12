@@ -9,7 +9,7 @@ in EVOLUTION.md.
 
 ## Open (added 2026-10-07)
 
-1. **Champion pick when several stocks gap down.** Same rebound rule, but choose among the
+1. ~~**Champion pick when several stocks gap down.**~~ DONE 2026-10-11, see below. Same rebound rule, but choose among the
    qualifying stocks by (a) list order (today's behaviour), (b) largest gap, (c) theme that
    is heating up (1-week return of its basket), (d) smallest gap. 2026-10-07: list order
    picked AMD (-94%), the largest gap was MU (1070C $0.30 -> peak $19.45).
@@ -28,10 +28,22 @@ in EVOLUTION.md.
    (sold 15:50) and +1-2% (held to close). 2026-10-07: centered $1 fly 2.7x.
 5. **Far, cheap directional butterflies** (cost <= 25% of the width), centered 0.3-0.6% away
    from spot in the direction of the day, at 12:00 and 14:00.
-6. **Analyst rule, strict headlines.** Rerun zoh/analyst.py + realopt2 with only
+6. ~~**Analyst rule, strict headlines.**~~ PARTLY DONE (strict filter applied to the existing realopt2 rows; zoh/analyst.py itself not yet changed). Rerun zoh/analyst.py + realopt2 with only
    "<firm> Upgrades|Downgrades <stock> to <rating>" headlines (the loose regex let 5 false
    events in, including TSLA 2026-05-11 +415%), plus a price-target-raise >= 20% bucket.
 7. **Hold vs same-day exit for non-same-day options.** Compare carried positions (new rule
    since 2026-10-07) with what a 15:45 exit would have given.
 
 ## Done
+
+- **Item 1, champion pick (2026-10-11, journal/research/realopt.json, 211 trades / 72 days, data to 2026-09-14).**
+  Choosing one stock per day, at 10% costs:
+  | pick | last 3 months (12 days) | since 2026-01-26 (27 days) | all (72 days) |
+  |---|---|---|---|
+  | list order (today) | -36%/trade | -45% | -65% |
+  | largest gap | -67% | -56% | -72% |
+  | smallest gap | -36% | -55% | -65% |
+  | buy every qualifier, equal split (per day) | -39%/day | -48% | -64% |
+  The +49%/trade "all qualifiers" figure for the last 3 months comes from one day (2026-07-17, 13 stocks gapped down and nearly all rebounded 2-6x); without it the basket is -61%/day. Verdict: no pick rule fixes the rule; largest gap is the worst. Keep list order. The MU (10-07) and AAPL (10-09) wins were one-day luck.
+  Theme-heating filter not run (needs point-in-time basket returns; carried to next week).
+- **Item 6 (partial), sniper entry, open vs +1% confirmation, strict upgrade headlines only:** open buy -3%/trade since 2026-01-26 (18), +33% last 3 months (6); confirm buy -12% (17), +24% (5). Without the single best trade every window is negative (-23% to -63%). Live: catalyst_sniper 0 of 3, catalyst_open 1 of 2 (LITE +113% real). Opening buy is less bad than waiting for +1%.
