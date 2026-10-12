@@ -45,12 +45,16 @@ sizing needs >= 10 live trades of evidence, or a documented regime change.
    two-year numbers are context only, because the story changes (a year ago the AI-CPU and
    Muse themes did not exist). A rule that is negative over two years but positive recently
    is a candidate, not a reject; the reverse is a reject.
+   Every result also reports the average without its single best trade (and best two): option
+   rules here live on fat tails, and on 2026-10-07 a +6% result became -12% once false events
+   and one +415% trade were removed. A rule that is only positive because of one trade is a
+   candidate at most.
    Then diagnose: which variants make money live vs backtest? Is the fade control as good as the
    trend versions (then direction has no edge)? Are shadow fills far from real fills?
 3. Change at most a few things per week, each with a stated hypothesis: add 1–2 new
    challenger variants, retire variants with ≥20 live trades and clearly negative
    expectancy, tune parameters, calibrate `backtest.iv` to observed option prices.
-4. Keep the population ≤ 12 variants (raised from 10 when single-stock variants were added). Never change trade history; never raise risk above the
+4. Keep the population ≤ 12 variants (cut to 7 on 2026-10-11 so each gathers trades faster). Never change trade history; never raise risk above the
    phase table without logging why.
 5. When equity approaches the next phase, make sure that phase has a fitting strategy
    (e.g. debit spreads or longer-dated options for `compounder`).
@@ -86,6 +90,9 @@ scored against purely mechanical variants.
    in a cooling theme tends to fade. scan mega caps with same-day options for a fresh,
    non-earnings catalyst (Webull PRE_MARKET movers + news, and that morning's analyst upgrades/downgrades on mega caps, e.g. 24/7 Wall St. "top analyst research calls"; 2026-10-05 Melius upgraded MSFT to Buy, gap only +0.9%, and it ran +1.5% from the open in 15 minutes). Name at most one stock with
    direction and catalyst in `sniper`; see journal/bias/README.md for the bar it must clear.
+   If you cannot see a pre-market price for the candidate (e.g. Webull down and no Alpaca/IEX
+   print), do not name it: on 2026-10-09 LITE was named blind and had gapped +6%.
+   When Webull is unavailable, use Alpaca snapshots (zoh.alpaca, feed iex) and say so in the file.
 4. Write `journal/bias/<today>.json` in the schema from `journal/bias/README.md`, commit
    ("bias: <date> <call|put|none>") and push to `main` before 09:30 ET. Retry the push on
    conflict (`git pull --rebase`). Do not touch any other file. Never place trades.
