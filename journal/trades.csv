@@ -21,3 +21,6 @@ date,variant,mode,contract,direction,entry_time,entry_price,exit_time,exit_price
 2026-10-09,catalyst_sniper,shadow,MRVL261009C00297500,call,2026-10-07T09:59:06-04:00,1.95,2026-10-09T15:45:12-04:00,0,1,-195.0,-1.0,time,zero-or-hero,86.79
 2026-10-09,catalyst_open,shadow,MRVL261009C00302500,call,2026-10-07T09:43:13-04:00,0.98,2026-10-09T15:45:12-04:00,0,2,-196.0,-1.0,time,zero-or-hero,86.79
 2026-10-12,meta_follow2,shadow,META261012C00755000,call,2026-10-12T10:03:18-04:00,0.75,2026-10-12T11:22:55-04:00,1.3,1,55.0,0.7333,trail,zero-or-hero,166.58
+2026-10-12,rebound_scanner,shadow,MU261012C01025000,call,2026-10-12T09:46:14-04:00,0.69,2026-10-12T15:45:10-04:00,0,1,-69.0,-1.0,time,zero-or-hero,166.58
+2026-10-12,rebound_scanner,real,MU261012C01025000,call,2026-10-12T09:46:22-04:00,0.69,2026-10-12T15:45:11-04:00,0.0,1,-69.0,-1.0,expired,zero-or-hero,166.58
+2026-10-12,rebound_scanner_wide,shadow,MU261012C01025000,call,2026-10-12T09:46:14-04:00,0.67,2026-10-12T15:45:10-04:00,0,1,-67.0,-1.0,time,zero-or-hero,166.58

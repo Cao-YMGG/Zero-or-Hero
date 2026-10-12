@@ -1,6 +1,6 @@
 {
   "date": "2026-10-12",
-  "done": false,
+  "done": true,
   "variants": {
     "claude_bias": {},
     "meta_follow2": {
@@ -12,37 +12,12 @@
     "rebound_scanner": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "MU261012C01025000",
-        "direction": "call",
-        "entry_time": "2026-10-12T09:46:14-04:00",
-        "entry_price": 0.69,
-        "peak": 0.7,
-        "qty": 1,
-        "last": 0,
-        "last_time": "2026-10-12T15:16:02-04:00"
-      },
-      "real": {
-        "contract": "MU261012C01025000",
-        "qty": 1,
-        "underlying": "MU",
-        "entry_price": 0.69,
-        "entry_time": "2026-10-12T09:46:22-04:00"
-      }
+      "closed": true
     },
     "rebound_scanner_wide": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "MU261012C01025000",
-        "direction": "call",
-        "entry_time": "2026-10-12T09:46:14-04:00",
-        "entry_price": 0.67,
-        "peak": 0.7,
-        "qty": 1,
-        "last": 0,
-        "last_time": "2026-10-12T15:16:02-04:00"
-      }
+      "closed": true
     },
     "catalyst_open": {
       "attempts": 1,
@@ -55,7 +30,7 @@
         "peak": 1.16,
         "qty": 1,
         "last": 0.21,
-        "last_time": "2026-10-12T15:16:02-04:00"
+        "last_time": "2026-10-12T15:45:10-04:00"
       },
       "real": {
         "contract": "CRM261016C00252500",
@@ -63,7 +38,8 @@
         "underlying": "CRM",
         "entry_price": 0.7,
         "entry_time": "2026-10-12T09:32:22-04:00"
-      }
+      },
+      "hold": true
     },
     "catalyst_intraday": {}
   },
