@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-12",
+  "bias": "none",
+  "confidence": 0.0,
+  "summary": "Flat futures on a holiday-thin Monday (bond market closed for Columbus Day), oil back up with Brent near $106, and the week's real tests still ahead (bank earnings Tuesday, CPI Wednesday). Nothing points one way for SPY today, so skip.",
+  "reasons": [
+    "SPY pre-market 778.67 (+0.01% vs 778.57 Friday close, record 781.62); QQQ 750.02 (-0.17%); S&P futures +0.1%, Nasdaq futures -0.1% at 08:00 (ZeroHedge/Reuters). S&P +1.2% last week",
+    "Oil: USO +2.4% pre-market; Brent about $106, WTI about $93 (+1%). It first fell on Trump's Russia-Ukraine 'energy ceasefire' (not confirmed by Moscow), then rebounded on Houthi strikes on Riyadh airport and more tanker incidents in Hormuz; Iran says Hormuz stays shut until its conditions are met",
+    "Rates and dollar: cash Treasuries closed (Columbus Day); 10Y closed 5.24% Friday, Treasury futures a little lower; TLT -0.2% pre-market. UUP +0.3%, DXY near 102.3. Bunds and gilts lower in yield",
+    "Calendar: no US data today; Fed's Hammack 12:10 ET; Open Compute Project summit (AMD, NVDA, MRVL in focus). Banks report Tuesday (JPM, WFC, GS, C), CPI Wednesday 10-14 (Reuters: headline +0.6% m/m, 3.7% y/y; core 0.2% / 2.5%), PPI and retail sales Thursday. FedWatch: about 19% odds of a hike this month",
+    "Memory slide: Samsung and SK Hynix fell more than 4% in Seoul (Kospi -3.6%, buyback quotas done, foreign selling); MU -2.2% pre-market (1006.7 vs 1029.0). That is a >= 2% down gap in the rebound_scanner universe on a same-day-expiry Monday, so the champion may fire on MU; the real-option-price retest says this rule is about -39%/trade",
+    "Other pre-market: META +1.5% (729.4, no specific news found), MSFT +0.4%, AAPL +0.3%, AMD -0.9%, INTC -1.5%, MRVL -1.4%, AVGO -0.7%, NVDA -0.3%, AMZN/GOOGL -0.2%",
+    "AMD dossier: -0.9% gap is under the 2% rebound line; it trades with CPU/semis, and CPU is the weakest theme this week (INTC -12%, ARM -13% 1w). Same-day options Mon/Wed/Fri. META dossier: +1.5% is a small gap with no catalyst found; small gaps mostly fill, so not a sniper pick",
+    "VIX level not found in time; Goldman's index-vol desk sees a higher chance of VIX > 25 than of a 2% S&P drop"
+  ],
+  "events": ["US bond market closed (Columbus Day)", "Fed Hammack 12:10 ET", "Bank earnings 10-13", "CPI 2026-10-14"],
+  "inputs": {"es_futures_pct": 0.1, "vix": null, "wti_pct": 1.0, "us10y": 5.24,
+             "us10y_change_bp": null, "us2y_change_bp": null, "dxy_pct": 0.0,
+             "overnight": "Asia: Kospi -3.6% on memory selling. Europe: yields lower. Oil rebounds as the Russia-Ukraine 'energy ceasefire' looks shaky and Gulf shipping attacks continue. US cash bonds closed, so no 2Y/10Y change today; 10Y level is Friday's close"},
+  "rotation": {
+    "heating": ["optical (CIEN +15% 1w / +34% 1m, LITE +2% 1w / +18% 1m)", "power (VST +15% 1w / +10% 1m, GEV +2% 1w / +9% 1m)", "internet ex-META (AMZN +4.3%, MSFT +3.4%, GOOGL +2.4% 1w)"],
+    "cooling": ["CPU (ARM -13%, INTC -12%, AMD -4% 1w; AMD still +21% 1m)", "flash and disk storage (SNDK -8%, STX -8%, WDC -4% 1w; WDC -14% 1m)", "memory (MU -4% 1w, -2.2% pre-market with Korea)", "GPU (NVDA -2% 1w)", "META (-1% 1w, +12% 1m)"],
+    "note": "Webull daily bars, closes 2026-10-09 vs 10-02 (1w) and 09-10 (1m). Money keeps moving from chips (CPU, memory, storage) into optical, power and the big internet platforms"
+  },
+  "sniper": {
+    "symbol": "CRM",
+    "direction": "call",
+    "catalyst": "Bank of America double-upgraded Salesforce to Buy this morning (target $285, about +20% from 238). A two-notch rating change by a major firm is the strongest kind of upgrade; CRM +3.9% pre-market (238.06 vs 229.13), just inside the 4% line, so part of it is already priced. Not a mega cap with same-day options (nearest expiry Friday) and software is not one of the hot themes; on real option prices the strict upgrade rule is only -12%/trade since 2026-01, so this is a catalyst bet, not an evidenced edge. Other upgrades today are small or mid caps (BIIB, FSLR, TYL); META +1.5% has no catalyst found",
+    "confidence": 0.35
+  },
+  "generated_at": "2026-10-12T09:08:00-04:00"
+}
