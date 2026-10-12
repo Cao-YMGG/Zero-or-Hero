@@ -3,7 +3,20 @@
   "done": false,
   "variants": {
     "claude_bias": {},
-    "meta_follow2": {},
+    "meta_follow2": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "META261012C00755000",
+        "direction": "call",
+        "entry_time": "2026-10-12T10:03:18-04:00",
+        "entry_price": 0.75,
+        "peak": 0.83,
+        "qty": 1,
+        "last": 0.83,
+        "last_time": "2026-10-12T10:32:18-04:00"
+      }
+    },
     "megacap_reclaim": {},
     "rebound_scanner": {
       "attempts": 1,
@@ -15,8 +28,8 @@
         "entry_price": 0.69,
         "peak": 0.7,
         "qty": 1,
-        "last": 0.19,
-        "last_time": "2026-10-12T10:02:08-04:00"
+        "last": 0.12,
+        "last_time": "2026-10-12T10:32:18-04:00"
       },
       "real": {
         "contract": "MU261012C01025000",
@@ -36,8 +49,8 @@
         "entry_price": 0.67,
         "peak": 0.7,
         "qty": 1,
-        "last": 0.19,
-        "last_time": "2026-10-12T10:02:08-04:00"
+        "last": 0.12,
+        "last_time": "2026-10-12T10:32:18-04:00"
       }
     },
     "catalyst_open": {
@@ -50,8 +63,8 @@
         "entry_price": 0.7,
         "peak": 1.16,
         "qty": 1,
-        "last": 0.37,
-        "last_time": "2026-10-12T10:02:08-04:00"
+        "last": 0.42,
+        "last_time": "2026-10-12T10:32:18-04:00"
       },
       "real": {
         "contract": "CRM261016C00252500",
