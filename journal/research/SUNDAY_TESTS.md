@@ -34,6 +34,23 @@ in EVOLUTION.md.
 7. **Hold vs same-day exit for non-same-day options.** Compare carried positions (new rule
    since 2026-10-07) with what a 15:45 exit would have given.
 
+8. **Earlier trail start.** On real prices, compare `trail_after` 1.0 (today) with 0.5 and
+   0.6 (giveback 0.4) for rebound_scanner, catalyst_open and meta_follow2. 2026-10-12:
+   CRM 252.5C peaked +66% and never armed the trail (now -70%); META 755C armed it and kept
+   +73%. Report with and without the best trade.
+9. **Delta floor for expensive underlyings.** With a small budget, rebound_scanner on MU
+   (~$1,000) could only afford a 3.3%-OTM same-day call (Alpaca delta 0.00, target 0.08);
+   it expired worthless. Test skipping (or switching to the cheapest affordable strike with
+   delta >= half the target) when the best affordable delta is below 0.03.
+10. **Rotation laggard, no news.** Mega-cap platform in a heating theme, down >= 5% from its
+   20-day high, gapping +1% to +2.5% pre-market on a day the AI-hardware basket is red
+   pre-market: buy at the open or after a +1% confirmation. One example so far
+   (META 2026-10-12); count how often it happens and what the option made.
+11. **Hot theme into its industry event.** Optical (LITE/CIEN), the hottest theme for a
+   month (+18-34% 1m), fell ~10% on the first day of the OCP summit with no news
+   (sell the news). Check past event days (OCP, Computex, GTC, Hot Chips) for the hottest
+   basket's open-to-close and the 0DTE put.
+
 ## Done
 
 - **Item 1, champion pick (2026-10-11, journal/research/realopt.json, 211 trades / 72 days, data to 2026-09-14).**
