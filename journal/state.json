@@ -19,8 +19,8 @@
         "entry_price": 0.69,
         "peak": 0.7,
         "qty": 1,
-        "last": 0.01,
-        "last_time": "2026-10-12T14:15:47-04:00"
+        "last": 0,
+        "last_time": "2026-10-12T14:45:55-04:00"
       },
       "real": {
         "contract": "MU261012C01025000",
@@ -40,8 +40,8 @@
         "entry_price": 0.67,
         "peak": 0.7,
         "qty": 1,
-        "last": 0.01,
-        "last_time": "2026-10-12T14:15:47-04:00"
+        "last": 0,
+        "last_time": "2026-10-12T14:45:55-04:00"
       }
     },
     "catalyst_open": {
@@ -54,8 +54,8 @@
         "entry_price": 0.7,
         "peak": 1.16,
         "qty": 1,
-        "last": 0.21,
-        "last_time": "2026-10-12T14:15:47-04:00"
+        "last": 0.2,
+        "last_time": "2026-10-12T14:45:55-04:00"
       },
       "real": {
         "contract": "CRM261016C00252500",
