@@ -35,24 +35,42 @@ def log(msg):
     print(f"[{now_et():%H:%M:%S}] {msg}", flush=True)
 
 
-REAL_ONE_CONTRACT_CAP = 0.5  # with real_risk, buy one contract if it costs <= 50% of equity
+REAL_ONE_CONTRACT_CAP = 0.5  # default; config "real_one_contract_cap" overrides
+
+# One real position per theme per day: on 2026-10-07 three real orders were all chip calls and
+# fell together. Names not listed are their own theme.
+THEMES = {
+    "semis": {"NVDA", "AMD", "INTC", "MU", "AVGO", "MRVL", "ARM", "TSM", "SMCI", "QCOM", "SKHY"},
+    "optical": {"LITE", "CIEN", "COHR", "CRDO", "ANET"},
+    "storage": {"WDC", "STX", "SNDK", "NTAP"},
+    "internet": {"META", "GOOGL", "GOOG", "MSFT", "AMZN", "AAPL", "NFLX"},
+    "index": {"SPY", "QQQ", "IWM"},
+    "crypto": {"COIN", "HOOD", "MSTR"},
+}
 
 
-def real_contracts(equity, real_risk, ask):
+def theme_of(symbol):
+    return next((name for name, members in THEMES.items() if symbol in members), symbol)
+
+
+def real_contracts(equity, real_risk, ask, cap=REAL_ONE_CONTRACT_CAP):
     """Contracts for a real_risk variant. If its stake cannot buy one (a pricey stock's option),
-    still buy one when that costs at most half the account: paper money, aggressive by design."""
+    still buy one when that costs at most `cap` of the account: paper money, aggressive by design."""
     if not real_risk:
         return 0
     qty = contracts_for(equity * real_risk, ask)
-    if qty == 0 and 0 < ask * 100 <= equity * REAL_ONE_CONTRACT_CAP:
+    if qty == 0 and 0 < ask * 100 <= equity * cap:
         qty = 1
     return qty
 
 
 def may_trade_real(state, underlying):
-    """Real orders stop when the account needs a reset, and one stock gets at most one real
-    position a day: two rules on the same news are one bet, so shadows still log both."""
-    return not state.get("reset_needed") and underlying not in state.get("real_underlyings", [])
+    """Real orders stop when the account needs a reset, and one theme gets at most one real
+    position a day: two rules on the same news (or the same sector move) are one bet, so
+    shadows still log both."""
+    if state.get("reset_needed"):
+        return False
+    return all(theme_of(u) != theme_of(underlying) for u in state.get("real_underlyings", []))
 
 
 def virtual_equity(ledger, account_equity, base, dead, today):
@@ -259,10 +277,11 @@ class Bot:
         # The champion trades the phase stake; a variant with real_risk also trades real
         # paper orders at that fraction of equity, to collect real fills sooner.
         real_qty = qty if variant["id"] == self.state["champion"] else real_contracts(
-            self.state["equity_start"], variant.get("real_risk", 0), pick["ask"])
+            self.state["equity_start"], variant.get("real_risk", 0), pick["ask"],
+            self.config.get("real_one_contract_cap", REAL_ONE_CONTRACT_CAP))
         if real_qty and not may_trade_real(self.state, underlying):
-            log(f"{variant['id']}: shadow only (real position on {underlying} already today "
-                f"or account needs a reset)")
+            log(f"{variant['id']}: shadow only (real position in theme {theme_of(underlying)} "
+                f"already today, or account needs a reset)")
             real_qty = 0
         if real_qty and not self.dry_run:
             filled, price = self._order(pick["symbol"], real_qty, "buy", "limit", "in",

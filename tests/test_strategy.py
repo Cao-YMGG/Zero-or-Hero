@@ -283,9 +283,11 @@ class RealOrderGateTests(unittest.TestCase):
         self.assertTrue(may_trade_real(state, "MRVL"))
         state["real_underlyings"] = ["MRVL"]
         self.assertFalse(may_trade_real(state, "MRVL"))
-        self.assertTrue(may_trade_real(state, "AMD"))
+        self.assertFalse(may_trade_real(state, "AMD"))   # same theme (semis)
+        self.assertTrue(may_trade_real(state, "AAPL"))
+        self.assertTrue(may_trade_real(state, "PLTR"))   # unlisted name is its own theme
         state["reset_needed"] = True
-        self.assertFalse(may_trade_real(state, "AMD"))
+        self.assertFalse(may_trade_real(state, "AAPL"))
 
     def test_virtual_ledger_restarts_generation(self):
         from zoh.bot import virtual_equity
@@ -320,3 +322,16 @@ class RealOrderGateTests(unittest.TestCase):
         prev = {"variants": {"catalyst_sniper": {"hold": True, "shadow": {"contract": "MRVL261009C00297500"},
                                                  "real": {"contract": "MRVL261009C00297500", "qty": 1}}}}
         self.assertEqual(journal.carry_over(prev, date(2026, 10, 8))["real_underlyings"], ["MRVL"])
+
+
+class ReclaimSignalTests(unittest.TestCase):
+    def test_megacap_reclaim_fires_after_dip_and_reclaim(self):
+        from zoh.strategy import signal_flush
+        base = datetime(2026, 10, 7, 9, 30, tzinfo=ET)
+        prices = [254.0, 253.5, 253.0, 252.6] + [252.8] * 11 + [253.5, 254.2]
+        bars = [{"t": base + timedelta(minutes=i), "o": p, "h": p + 0.1, "l": p - 0.1, "c": p}
+                for i, p in enumerate(prices)]
+        bars[0]["o"] = 254.0
+        variant = {"flush_minutes": 15, "flush_pct": 0.5, "reclaim": 1.0, "sides": ["down"]}
+        self.assertIsNone(signal_flush(bars[:16], variant))
+        self.assertEqual(signal_flush(bars, variant), "call")
