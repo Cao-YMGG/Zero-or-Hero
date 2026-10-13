@@ -148,14 +148,23 @@ def rank_by_move(candidates, sides=None):
 
 
 def signal_gap(bars, variant, ctx):
-    """Overnight gap: once N minutes have traded, follow (or fade) a gap of at least X%."""
+    """Overnight gap: once N minutes have traded, follow (or fade) a gap of at least X%.
+    With confirm_pct, the move since the open must already go the trade's way by that much
+    (a gap up that has slipped below its open -> put)."""
     if not bars or bars[-1]["t"].time() < minutes_after_open(variant.get("after_minutes", 1)):
         return None
     direction = _gap_direction(ctx, variant.get("min_gap_pct", 0.3))
     sides = variant.get("sides")  # e.g. ["up"]: only act on up gaps
     if direction and sides and ("up" if direction == "call" else "down") not in sides:
         return None
-    return _flip(direction, variant)
+    direction = _flip(direction, variant)
+    confirm = variant.get("confirm_pct")  # the move since the open must already agree
+    if direction and confirm is not None:
+        ret = bars[-1]["c"] / bars[0]["o"] - 1
+        if (direction == "call" and ret < confirm / 100) or (direction == "put"
+                                                             and ret > -confirm / 100):
+            return None
+    return direction
 
 
 def signal_bias(bars, variant, ctx):
