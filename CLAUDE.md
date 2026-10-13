@@ -23,6 +23,10 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
   DAY_1 rankings, read-only) and breaking news; if one has a fresh catalyst still unfolding,
   append one pick to `journal/bias/intraday/<today>.json` (schema in journal/bias/README.md)
   and push to main. Most check-ins add nothing. Never touch the pre-market file after 09:30.
+  Look for the day's leader: a large cap up >= 2% beyond SPY while its sector or the index is
+  flat or red (META 2026-10-12/13 while chips sold off). Search that company's own news
+  (product launches, model releases, analyst target changes) before calling a move "no news":
+  on 2026-10-12 the Muse Wonder launch was missed and META ran +3.4%, then +4.5% the next day.
 - Weekdays 16:35 ET: daily post-market review and light evolution.
 - Sundays 09:52 ET: weekly deep review (full protocol below, population cleanup, backtests).
 
