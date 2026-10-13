@@ -78,6 +78,14 @@ in EVOLUTION.md.
    Real option prices, last 3 months first, with and without the best trade. Also test the
    0DTE version: the sniper's open buy on names 5-10 days before their report vs other days.
 
+15. **Gap fill symmetry: gapup_fade vs rebound.** On 2026-10-13 tech that gapped down bounced
+   (ORCL, AMD, META, INTC) and names that gapped up on known news faded (UNH -4.2% after an
+   earnings beat, GS -2.6%). Shadow variant gapup_fade: large cap gaps up >= 2%, 15 minutes after
+   the open it is >= 0.2% below its open -> ~0.15-delta put, nearest expiry. Real option prices,
+   last 3 months first, with and without the best one/two trades; compare with the rebound
+   (down gaps), with and without the "below the open" confirmation, and by gap size
+   (2-4 / 4-6 / >6%) and by earnings vs non-earnings gap.
+
 ## Done
 
 - **Item 1, champion pick (2026-10-11, journal/research/realopt.json, 211 trades / 72 days, data to 2026-09-14).**

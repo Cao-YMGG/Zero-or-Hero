@@ -432,3 +432,36 @@ class LedgerEquityTest(unittest.TestCase):
                                          "shadow": {"last": 1.47}}}}
         self.assertAlmostEqual(live_equity(state, []), 500 + 519.0)
         self.assertIsNone(live_equity({**state, "done": True}, []))
+
+
+class GapUpFadeTest(unittest.TestCase):
+    """A big-cap gap up on known good news that slips below its open (UNH 2026-10-13)."""
+
+    def _bars(self, open_, last, minutes=16):
+        from zoh.strategy import ET
+        start = datetime(2026, 10, 13, 9, 30, tzinfo=ET)
+        return [{"t": start + timedelta(minutes=i), "o": open_ + (last - open_) * i / minutes,
+                 "h": max(open_, last), "l": min(open_, last),
+                 "c": open_ + (last - open_) * (i + 1) / minutes, "v": 1} for i in range(minutes)]
+
+    V = {"signal": "gap", "sides": ["up"], "fade": True, "after_minutes": 15,
+         "min_gap_pct": 2.0, "confirm_pct": 0.2}
+
+    def test_fades_gap_up_once_below_open(self):
+        from zoh.strategy import signal_gap
+        self.assertEqual(signal_gap(self._bars(400, 397), self.V, {"gap_pct": 3.8}), "put")
+
+    def test_holding_gap_is_left_alone(self):
+        from zoh.strategy import signal_gap
+        self.assertIsNone(signal_gap(self._bars(400, 401), self.V, {"gap_pct": 3.8}))
+        self.assertIsNone(signal_gap(self._bars(400, 399.5), self.V, {"gap_pct": 3.8}))  # -0.125%
+
+    def test_gap_down_and_small_gap_ignored(self):
+        from zoh.strategy import signal_gap
+        self.assertIsNone(signal_gap(self._bars(400, 390), self.V, {"gap_pct": -3.0}))
+        self.assertIsNone(signal_gap(self._bars(400, 390), self.V, {"gap_pct": 1.5}))
+
+    def test_without_confirm_unchanged(self):
+        from zoh.strategy import signal_gap
+        v = {k: x for k, x in self.V.items() if k != "confirm_pct"}
+        self.assertEqual(signal_gap(self._bars(400, 405), v, {"gap_pct": 3.8}), "put")
