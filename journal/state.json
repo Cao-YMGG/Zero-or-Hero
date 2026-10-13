@@ -1,6 +1,6 @@
 {
   "date": "2026-10-13",
-  "done": false,
+  "done": true,
   "variants": {
     "catalyst_open@2026-10-12": {
       "entered": true,
@@ -29,9 +29,10 @@
         "entry_price": 0.88,
         "peak": 1.33,
         "qty": 1,
-        "last": 1.14,
-        "last_time": "2026-10-13T15:16:43-04:00"
-      }
+        "last": 0.98,
+        "last_time": "2026-10-13T15:45:02-04:00"
+      },
+      "hold": true
     },
     "rebound_scanner_any": {}
   },
