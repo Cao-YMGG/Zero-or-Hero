@@ -155,7 +155,7 @@ def leaderboard_card(config, trades):
                     f'</td>{stats}</tr>')
     return ('<div class="card"><h2>各策略战绩（影子单，每笔平均收益）</h2>'
             '<p class="muted" style="font-size:12px">影子单 = 按实时报价模拟买卖、不花钱；'
-            ('只有冠军和开盘/盘中狙击会同时下真实单。' if config.get("champion_real", True)
+            + ('只有冠军和开盘/盘中狙击会同时下真实单。' if config.get("champion_real", True)
              else '只有开盘/盘中狙击会同时下真实单（冠军暂时只记影子）。')
             + '每个策略至少 20 笔才看得出好坏。</p>'
             '<div class="scroll"><table>'
