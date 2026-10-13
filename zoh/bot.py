@@ -73,6 +73,14 @@ def may_trade_real(state, underlying):
     return all(theme_of(u) != theme_of(underlying) for u in state.get("real_underlyings", []))
 
 
+def ledger_equity(ledger, account_equity):
+    """The experiment's equity: the virtual ledger's when one is running, else the account's.
+    (No new generation here: that only happens at the start of a day.)"""
+    if ledger is None:
+        return account_equity
+    return ledger["base"] + account_equity - ledger["anchor"]
+
+
 def ledger_can_start(ledger, account_equity, cfg):
     """A new ledger anchors on the account's equity, so only start it once the account has
     really been reset to a large balance (guards against stale keys on the old $50 account)."""
@@ -534,10 +542,12 @@ def main():
     if until >= exit_at:
         bot.sweep()
         state["done"] = True
-        equity = float(api.account()["equity"])
-        journal.record_equity({"date": state["date"], "equity": equity, "phase": state["phase"],
-                               "champion": state["champion"]})
-        log(f"day done, equity ${equity:.2f}")
+        account = float(api.account()["equity"])
+        ledger = journal.load_ledger() if config.get("ledger") and state.get("generation") else None
+        equity = ledger_equity(ledger, account)
+        journal.record_equity({"date": state["date"], "equity": round(equity, 2),
+                               "phase": state["phase"], "champion": state["champion"]})
+        log(f"day done, equity ${equity:.2f}" + (f" (account ${account:.2f})" if ledger else ""))
     journal.save_state(state)
 
 
