@@ -18,7 +18,22 @@
       "entered": true,
       "closed": true
     },
-    "catalyst_intraday": {}
+    "catalyst_intraday": {},
+    "leader_follow": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "ORCL261016C00150000",
+        "direction": "call",
+        "entry_time": "2026-10-13T12:45:37-04:00",
+        "entry_price": 0.88,
+        "peak": 1.06,
+        "qty": 1,
+        "last": 0.77,
+        "last_time": "2026-10-13T13:15:43-04:00"
+      }
+    },
+    "rebound_scanner_any": {}
   },
   "real_underlyings": [
     "CRM",
