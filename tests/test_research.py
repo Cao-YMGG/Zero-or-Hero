@@ -68,6 +68,6 @@ class PositionsCardTest(unittest.TestCase):
                                   "real": {"qty": 1}}}}))
             with mock.patch.object(journal, "STATE_PATH", path):
                 html = site.positions_card()
-        self.assertIn("AMD261007C00650000", html)
+        self.assertIn("AMD 10/07 650 看涨", html)
         self.assertIn("+50%", html)
         self.assertIn("真实 1 张", html)

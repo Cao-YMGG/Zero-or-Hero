@@ -47,6 +47,43 @@ svg text { fill:var(--muted); font-size:11px; }
 """
 
 
+# Plain-language names for the dashboard; unknown ids fall back to the id itself.
+NAMES = {
+    "rebound_scanner": ("低开反弹", "大盘股低开 ≥2%，15 分钟后买看涨，赌当天收复"),
+    "rebound_scanner_wide": ("低开反弹·宽追踪", "同上，追踪止盈放得更宽（对照组）"),
+    "catalyst_open": ("开盘狙击", "盘前选的有新消息的股票，09:31 开盘就买"),
+    "catalyst_intraday": ("盘中狙击", "盘中检查发现的新消息股票，立刻买"),
+    "catalyst_sniper": ("确认后狙击", "盘前选的股票，等它先涨 1% 再买（已停）"),
+    "claude_bias": ("盘前判断 SPY", "按 Claude 盘前对 SPY 的看涨/看跌判断买"),
+    "claude_confirm": ("盘前判断·确认", "盘前判断 + 开盘走势确认（已退役）"),
+    "meta_follow2": ("META 跟势", "META 开盘 30 分钟比开盘价涨/跌 ≥2% 就跟（周一三五）"),
+    "leader_follow": ("当日领涨股", "开盘 15 分钟后，比 SPY 多涨 ≥1.5% 最多的大盘股，买看涨"),
+    "megacap_reclaim": ("大盘股收复", "大盘股开盘先跌 0.5% 再收回开盘价，买看涨"),
+    "open_drive_run": ("开盘冲刺", "已退役"),
+    "amd_gap_cheap_run": ("AMD 低开便宜看涨", "已退役"),
+}
+REASONS = {"trail": "追踪止盈", "time": "收盘前平仓", "expired": "到期作废",
+           "take_profit": "止盈", "stop_loss": "止损", "time_noquote": "无报价按 0",
+           "penny": "无买价 $0.01 卖出"}
+
+
+def vname(vid):
+    base, _, carried = vid.partition("@")
+    name = NAMES.get(base, (base, ""))[0]
+    return name + (f"（{carried[5:].replace('-', '/')} 留仓）" if carried else "")
+
+
+def contract_label(occ):
+    """'META261014C00775000' -> 'META 10/14 775 看涨'."""
+    try:
+        root, rest = occ[:-15], occ[-15:]
+        strike = int(rest[7:]) / 1000
+        kind = "看涨" if rest[6] == "C" else "看跌"
+        return f"{root} {rest[2:4]}/{rest[4:6]} {strike:g} {kind}"
+    except (ValueError, IndexError):
+        return occ
+
+
 def pct(x, digits=0):
     return f"{x * 100:+.{digits}f}%"
 
@@ -108,34 +145,56 @@ def leaderboard_card(config, trades):
         a = r["all"]
         champ = ' <span class="badge champ">冠军</span>' if r["id"] == config["champion"] else ""
         cls = "up" if a["avg"] > 0 else "down" if a["avg"] < 0 else "muted"
-        stats = (f'<td class="n">{a["win_rate"]:.0%}</td><td class="n {cls}">{pct(a["avg"])}</td>'
-                 f'<td class="n">{pct(a["best"])}</td>') if a["n"] else \
-            '<td class="n muted">—</td>' * 3
-        rows.append(f'<tr><td>{escape(r["id"])}{champ}</td><td class="n">{a["n"]}</td>{stats}</tr>')
-    return ('<div class="card"><h2>影子交易排行（每笔平均收益）</h2><div class="scroll"><table>'
-            '<tr><th>策略</th><th class="n">笔数</th><th class="n">胜率</th>'
-            '<th class="n">平均</th><th class="n">最好</th></tr>'
+        stats = (f'<td class="n">{a["n"]}</td><td class="n">{a["win_rate"]:.0%}</td>'
+                 f'<td class="n {cls}">{pct(a["avg"])}</td><td class="n">{pct(a["best"])}</td>'
+                 ) if a["n"] else '<td class="n">0</td>' + '<td class="n muted">—</td>' * 3
+        desc = NAMES.get(r["id"], ("", ""))[1]
+        rows.append(f'<tr><td><b>{escape(vname(r["id"]))}</b>{champ}'
+                    f'<div class="muted" style="font-size:12px;white-space:normal">{escape(desc)}</div>'
+                    f'</td>{stats}</tr>')
+    return ('<div class="card"><h2>各策略战绩（影子单，每笔平均收益）</h2>'
+            '<p class="muted" style="font-size:12px">影子单 = 按实时报价模拟买卖、不花钱；'
+            '只有冠军和开盘/盘中狙击会同时下真实单。每个策略至少 20 笔才看得出好坏。</p>'
+            '<div class="scroll"><table>'
+            '<tr><th>策略</th><th class="n">笔数</th><th class="n">赚钱比例</th>'
+            '<th class="n">平均每笔</th><th class="n">最好一笔</th></tr>'
             + "".join(rows) + "</table></div></div>")
+
+
+def _trade_rows(trades, with_money):
+    rows = []
+    for t in trades:
+        p = float(t["pnl_pct"]) if t["pnl_pct"] else 0.0
+        cls = "up" if p > 0 else "down" if p < 0 else "muted"
+        held = t["entry_time"][:10] != t["exit_time"][:10]
+        when = (f'{t["entry_time"][5:10].replace("-", "/")} {t["entry_time"][11:16]} → '
+                f'{t["exit_time"][5:10].replace("-", "/") + " " if held else ""}{t["exit_time"][11:16]}')
+        money_td = (f'<td class="n {cls}">{float(t["pnl"]):+,.0f}</td>' if with_money else "")
+        rows.append(f'<tr><td>{escape(when)}</td><td>{escape(vname(t["variant"]))}</td>'
+                    f'<td>{escape(contract_label(t["contract"]))}</td>'
+                    f'<td class="n">{escape(t["entry_price"])} → {escape(t["exit_price"])}</td>'
+                    f'<td class="n {cls}">{pct(p)}</td>{money_td}'
+                    f'<td>{escape(REASONS.get(t["exit_reason"], t["exit_reason"]))}</td></tr>')
+    return "".join(rows)
 
 
 def trades_card(trades):
-    recent = trades[-30:][::-1]
-    if not recent:
-        return '<div class="card"><h2>最近交易</h2><p class="muted">还没有交易。</p></div>'
-    rows = []
-    for t in recent:
-        p = float(t["pnl_pct"]) if t["pnl_pct"] else 0.0
-        cls = "up" if p > 0 else "down" if p < 0 else "muted"
-        mode = "真实" if t["mode"] == "real" else "影子"
-        rows.append(f'<tr><td>{escape(t["date"])}</td><td>{escape(t["variant"])}</td>'
-                    f'<td>{mode}</td><td>{escape(t["contract"])}</td>'
-                    f'<td class="n">{escape(t["entry_price"])}</td>'
-                    f'<td class="n">{escape(t["exit_price"])}</td>'
-                    f'<td class="n {cls}">{pct(p)}</td><td>{escape(t["exit_reason"])}</td></tr>')
-    return ('<div class="card"><h2>最近交易</h2><div class="scroll"><table>'
-            '<tr><th>日期</th><th>策略</th><th>类型</th><th>合约</th><th class="n">买入</th>'
-            '<th class="n">卖出</th><th class="n">收益</th><th>原因</th></tr>'
-            + "".join(rows) + "</table></div></div>")
+    real = [t for t in trades if t["mode"] == "real"][::-1]
+    shadow = [t for t in trades if t["mode"] != "real"][-20:][::-1]
+    if not trades:
+        return '<div class="card"><h2>交易记录</h2><p class="muted">还没有交易。</p></div>'
+    head = ('<tr><th>时间（美东）</th><th>策略</th><th>合约</th><th class="n">买 → 卖</th>'
+            '<th class="n">收益</th>{money}<th>卖出原因</th></tr>')
+    total = sum(float(t["pnl"] or 0) for t in real)
+    return (f'<div class="card"><h2>真实交易（模拟盘真实下单）· 合计 '
+            f'<span class="{"up" if total > 0 else "down"}">{total:+,.0f} 美元</span></h2>'
+            '<div class="scroll"><table>' + head.format(money='<th class="n">盈亏 $</th>')
+            + _trade_rows(real, True) + '</table></div>'
+            '<p class="muted" style="font-size:12px">10/07 买入的两张 MRVL 周五看涨（-$289）'
+            '因当时的 bug 没有记进交易表，合计未含（见 EVOLUTION.md 10/09）。'
+            '10/13 起的真实单都按 $500 虚拟账本下单。</p></div>'
+            '<div class="card"><h2>影子交易（最近 20 笔）</h2><div class="scroll"><table>'
+            + head.format(money="") + _trade_rows(shadow, False) + '</table></div></div>')
 
 
 def positions_card():
@@ -154,8 +213,8 @@ def positions_card():
         p = (float(last) / entry - 1) if last is not None and entry else None
         cls = "up" if p and p > 0 else "down" if p and p < 0 else "muted"
         real = vs.get("real")
-        rows.append(f'<tr><td>{escape(vid)}</td><td>{escape(pos["contract"])}</td>'
-                    f'<td>{escape(pos["entry_time"][11:16] if pos["entry_time"][:10] == today else pos["entry_time"][5:16].replace("T", " "))}</td>'
+        rows.append(f'<tr><td>{escape(vname(vid))}</td><td>{escape(contract_label(pos["contract"]))}</td>'
+                    f'<td>{escape(pos["entry_time"][11:16] if pos["entry_time"][:10] == today else pos["entry_time"][5:16].replace("T", " ").replace("-", "/"))}</td>'
                     f'<td class="n">{entry:g}</td>'
                     f'<td class="n">{"—" if last is None else f"{float(last):g}"}</td>'
                     f'<td class="n {cls}">{pct(p) if p is not None else "—"}</td>'
@@ -167,10 +226,10 @@ def positions_card():
         status += " · 账户低于归零线，只记影子单，请在 Alpaca 后台重置模拟账户"
     body = ("<p class=\"muted\">现在没有持仓。</p>" if not rows else
             '<div class="scroll"><table><tr><th>策略</th><th>合约</th><th>买入时间</th>'
-            '<th class="n">买入</th><th class="n">最新</th><th class="n">收益</th>'
-            '<th class="n">最高</th><th>类型</th></tr>' + "".join(rows) + "</table></div>")
+            '<th class="n">买入价</th><th class="n">现价（买价）</th><th class="n">收益</th>'
+            '<th class="n">最高价</th><th>类型</th></tr>' + "".join(rows) + "</table></div>")
     return (f'<div class="card"><h2>今天的持仓 · {status}</h2>{body}'
-            f'<p class="muted" style="font-size:12px">今天已平仓 {closed} 笔（见下方最近交易）。'
+            f'<p class="muted" style="font-size:12px">今天已平仓 {closed} 笔（见下方交易记录）。'
             f'交易时段每 30 分钟更新一次。</p></div>')
 
 
