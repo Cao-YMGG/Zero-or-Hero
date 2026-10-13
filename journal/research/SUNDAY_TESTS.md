@@ -55,6 +55,10 @@ in EVOLUTION.md.
    open beyond SPY's (>= +2% after 30 minutes, any weekday, nearest expiry) -> ~0.2-delta
    call, trail from +100%. Universe as in the `leader_follow` variant. Compare with
    meta_follow2 (META only, Mon/Wed/Fri) and with the same rule without the SPY adjustment.
+   Entry time matters most: on 2026-10-13 META ran 735.8 -> 769 between 09:35 and 10:00 and
+   pulled back to 761 by 10:10, so a 10:00 entry bought the top. Compare entries at 5, 10, 15
+   and 30 minutes (thresholds 1.0 / 1.5 / 2.0% beyond SPY): earlier catches more of the run
+   but more false starts reverse (DOSSIER_AMD: small early moves reversed 70% of the time).
    Report the last 3 months first, with and without the best trade.
 
 ## Done
