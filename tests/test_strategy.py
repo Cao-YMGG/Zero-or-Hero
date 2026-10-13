@@ -380,3 +380,36 @@ class LedgerStartTest(unittest.TestCase):
         self.assertFalse(ledger_can_start(None, 50.48, cfg))
         self.assertTrue(ledger_can_start(None, 30000, cfg))
         self.assertTrue(ledger_can_start({"anchor": 30000}, 29000, cfg))
+
+
+class LeaderFollowTest(unittest.TestCase):
+    """The stock running on its own while the index is flat (META 2026-10-12/13)."""
+
+    def _bars(self, open_, last, minutes=31):
+        from zoh.strategy import ET
+        start = datetime(2026, 10, 13, 9, 30, tzinfo=ET)
+        n = minutes
+        return [{"t": start + timedelta(minutes=i), "o": open_ + (last - open_) * i / n,
+                 "h": max(open_, last), "l": min(open_, last),
+                 "c": open_ + (last - open_) * (i + 1) / n, "v": 1} for i in range(n)]
+
+    def test_relative_momentum_needs_outperformance(self):
+        from zoh.strategy import signal_momentum
+        v = {"signal": "momentum", "relative": True, "after_minutes": 30, "threshold_pct": 2.0}
+        bars = self._bars(735.76, 755.0)  # +2.6% from the open
+        self.assertEqual(signal_momentum(bars, v, {"index_ret": 0.0}), "call")
+        self.assertIsNone(signal_momentum(bars, v, {"index_ret": 0.01}))  # index +1%: only +1.6% beyond
+
+    def test_strongest_mover_first(self):
+        from zoh.strategy import rank_by_move
+        a = ("AAPL", self._bars(340, 343), {})
+        m = ("META", self._bars(735, 760), {})
+        d = ("MU", self._bars(990, 950), {})
+        self.assertEqual([c[0] for c in rank_by_move([a, m, d])], ["MU", "META", "AAPL"])
+        self.assertEqual([c[0] for c in rank_by_move([a, m, d], ["up"])], ["META", "AAPL", "MU"])
+
+    def test_up_only(self):
+        from zoh.strategy import signal_momentum
+        v = {"signal": "momentum", "relative": True, "after_minutes": 30, "threshold_pct": 2.0,
+             "sides": ["up"]}
+        self.assertIsNone(signal_momentum(self._bars(990, 950), v, {"index_ret": 0.0}))

@@ -51,6 +51,12 @@ in EVOLUTION.md.
    (sell the news). Check past event days (OCP, Computex, GTC, Hot Chips) for the hottest
    basket's open-to-close and the 0DTE put.
 
+12. **Leader follow on real prices.** Each day, the large cap with the biggest move from the
+   open beyond SPY's (>= +2% after 30 minutes, any weekday, nearest expiry) -> ~0.2-delta
+   call, trail from +100%. Universe as in the `leader_follow` variant. Compare with
+   meta_follow2 (META only, Mon/Wed/Fri) and with the same rule without the SPY adjustment.
+   Report the last 3 months first, with and without the best trade.
+
 ## Done
 
 - **Item 1, champion pick (2026-10-11, journal/research/realopt.json, 211 trades / 72 days, data to 2026-09-14).**

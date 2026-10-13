@@ -19,7 +19,7 @@ from . import journal
 from .alpaca import Alpaca, AlpacaError
 from .strategy import (ET, MARKET_OPEN, bs_delta, contracts_for, current_phase, check_exit,
                        cross_assets, day_context, evaluate_signal, hhmm, same_day_expiry,
-                       sniper_pick, with_gap, parse_bar, parse_occ,
+                       rank_by_move, sniper_pick, with_gap, parse_bar, parse_occ,
                        regular_session, round_limit, select_contract, years_to_close)
 
 MAX_ENTRY_ATTEMPTS = 3
@@ -422,7 +422,8 @@ class Bot:
                         [variant["underlying"]] if variant.get("underlying") else [])
                     candidates = []
                     for sym in symbols:
-                        if variant.get("universe") and not same_day_expiry(sym, self.today.weekday()):
+                        if (variant.get("universe") and not variant.get("any_expiry")
+                                and not same_day_expiry(sym, self.today.weekday())):
                             continue
                         if sym not in own_bars:
                             try:
@@ -431,8 +432,12 @@ class Bot:
                                 log(f"{sym} bars failed: {e}")
                                 own_bars[sym] = []
                         sb = own_bars[sym]
-                        candidates.append((sym, sb, with_gap(ctx, self.prev_close_of(sym),
-                                                             sb[0]["o"] if sb else None)))
+                        their_ctx = with_gap(ctx, self.prev_close_of(sym), sb[0]["o"] if sb else None)
+                        if bars:
+                            their_ctx["index_ret"] = bars[-1]["c"] / bars[0]["o"] - 1
+                        candidates.append((sym, sb, their_ctx))
+                    if variant.get("pick") == "strongest":
+                        candidates = rank_by_move(candidates, variant.get("sides"))
                     if not symbols:
                         candidates = [(None, bars, ctx)]
                 for sym, their_bars, their_ctx in candidates:

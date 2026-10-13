@@ -121,13 +121,30 @@ def signal_momentum(bars, variant, ctx=None):
     if not bars or bars[-1]["t"].time() < minutes_after_open(variant.get("after_minutes", 60)):
         return None
     ret = bars[-1]["c"] / bars[0]["o"] - 1
+    if variant.get("relative"):  # move beyond the index's own move since the open
+        ret -= (ctx or {}).get("index_ret", 0.0)
     threshold = variant.get("threshold_pct", 0.3) / 100
     direction = None
     if ret >= threshold:
         direction = "call"
     elif ret <= -threshold:
         direction = "put"
+    sides = variant.get("sides")  # e.g. ["up"]: only follow moves up
+    if direction and sides and ("up" if direction == "call" else "down") not in sides:
+        return None
     return _flip(direction, variant)
+
+
+def rank_by_move(candidates, sides=None):
+    """Scanner order for "pick": "strongest": biggest move from the open first (only the
+    upward move counts when sides == ["up"]). candidates: (symbol, bars, ctx) tuples."""
+    def move(c):
+        bars = c[1]
+        if not bars:
+            return float("-inf")
+        ret = bars[-1]["c"] / bars[0]["o"] - 1
+        return ret if sides == ["up"] else abs(ret)
+    return sorted(candidates, key=move, reverse=True)
 
 
 def signal_gap(bars, variant, ctx):
