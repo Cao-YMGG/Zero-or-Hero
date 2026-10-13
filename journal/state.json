@@ -6,23 +6,7 @@
       "entered": true,
       "carried": true,
       "of": "catalyst_open",
-      "shadow": {
-        "contract": "CRM261016C00252500",
-        "direction": "call",
-        "entry_time": "2026-10-12T09:32:00-04:00",
-        "entry_price": 0.7,
-        "peak": 1.6,
-        "qty": 1,
-        "last": 1.47,
-        "last_time": "2026-10-13T10:02:13-04:00"
-      },
-      "real": {
-        "contract": "CRM261016C00252500",
-        "qty": 1,
-        "underlying": "CRM",
-        "entry_price": 0.7,
-        "entry_time": "2026-10-12T09:32:22-04:00"
-      }
+      "closed": true
     },
     "claude_bias": {},
     "meta_follow2": {},
@@ -32,23 +16,7 @@
     "catalyst_open": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "META261014C00775000",
-        "direction": "call",
-        "entry_time": "2026-10-13T09:32:00-04:00",
-        "entry_price": 0.95,
-        "peak": 7.39,
-        "qty": 1,
-        "last": 6.12,
-        "last_time": "2026-10-13T10:02:13-04:00"
-      },
-      "real": {
-        "contract": "META261014C00775000",
-        "qty": 1,
-        "underlying": "META",
-        "entry_price": 0.93,
-        "entry_time": "2026-10-13T09:32:07-04:00"
-      }
+      "closed": true
     },
     "catalyst_intraday": {}
   },
