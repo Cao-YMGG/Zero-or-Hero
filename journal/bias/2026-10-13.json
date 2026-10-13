@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-13",
+  "bias": "none",
+  "confidence": 0.0,
+  "summary": "Index flat to slightly lower before CPI tomorrow: yields and oil ease (supportive) but chips sell off for a second day on China's CXMT memory advances, and the first bank results are mixed (JPM miss, GS beat). The forces offset at the index level, so skip SPY.",
+  "reasons": [
+    "SPY pre-market 777.59 (-0.07% vs 778.10 close); QQQ 740.42 (-0.75%). Futures at 06:54: S&P -0.13%, Nasdaq-100 -0.59%, Dow +0.18% (Reuters/Investing.com)",
+    "Rates and dollar: 10Y about 5.19% (-5 to -6 bp), 30Y 5.55% (-5 bp); TLT +0.65% pre-market. DXY 102.06 (-0.3%); UUP flat on Webull. VIX about 15.3",
+    "Oil lower: Brent $104.6 (-1.9%), WTI $92.3 (-1.6%), USO -0.8% pre-market; Russia says its diesel exports may exceed the US-deal volumes, offsetting Houthi strikes on Saudi infrastructure",
+    "Chips: second day of selling on reports of China's CXMT memory advances (direct competition for Samsung/SK Hynix); KOSPI -5.5%. Pre-market MU -4.9% (940.4), SK Hynix ADR -6.4%, AMD -2.2%, INTC -2.0%, AVGO -1.5%, NVDA -1.0%, LITE -2.3%, CIEN -2.2%",
+    "Banks: JPM EPS $5.57 vs $5.90 expected (fixed income trading, expenses) but NII guide raised, stock about flat to -3% pre-market depending on the print; GS beat on equities trading (+3.2% pre-market); WFC -2.8%; UNH +2% on a raised outlook; JNJ -2.7%",
+    "Calendar: CPI tomorrow 10-14 (Reuters consensus headline +0.6% m/m, 3.7% y/y; core 0.2% / 2.5%); PPI and retail sales Thursday. No coupon auctions this week (3Y/10Y/30Y were 10-6 to 10-8); no Fed speaker found for today",
+    "rebound_scanner: MU -4.9%, AMD -2.2%, INTC -2.0% are >= 2% down gaps in its universe. Tuesday has no same-day single-stock expiries, so it would use the nearest (Wednesday) expiry. Real-option-price retest for this rule is about -39%/trade; on 10-12 MU kept falling after a -2.2% gap (expired at 0)",
+    "Correction to 10-12: META's +3.4% was not news-free. Meta introduced Muse Wonder / Wonder Full (its first frontier-class models since the 2025 AI reorganization) on Monday; we missed it pre-market",
+    "AMD dossier: -2.2% gap is at the rebound line, but this is a sector move (memory/CXMT), not AMD news; CPU basket is the weakest of the month. META dossier: product traction (Muse) is its catalyst chain; today two target raises follow the model launch"
+  ],
+  "events": ["CPI 2026-10-14", "Bank earnings (JPM, GS, WFC, C)", "No Treasury coupon auction this week"],
+  "inputs": {"es_futures_pct": -0.13, "vix": 15.3, "wti_pct": -1.6, "us10y": 5.19,
+             "us10y_change_bp": -5.5, "us2y_change_bp": null, "dxy_pct": -0.3,
+             "overnight": "KOSPI -5.5% on the CXMT memory headlines; Treasuries rally (first cash session after Columbus Day); oil eases on Russian diesel supply. 2Y change not found in time"},
+  "rotation": {
+    "heating": ["internet platforms (MSFT +3.0%, AAPL +2.5% 1w; META +3.4% Monday on Muse Wonder)", "power (VST +9% 1w)", "energy (XOM +1.9% Monday)"],
+    "cooling": ["memory (MU -7% 1w, -4.9% pre-market; CXMT competition headlines)", "CPU (INTC -13%, AMD -6% 1w)", "GPU (NVDA -5% 1w)", "optical (LITE -9% 1w after the -10% OCP sell-the-news day; CIEN still +4% 1w)", "disk storage (WDC/STX/SNDK -3 to -5% Monday)"],
+    "note": "Closes through 10-12 vs 10-05 (Webull bars plus Monday's closes). The AI-hardware to platforms rotation from 10-07 continued and widened: optical joined the selling at the OCP summit, memory got a new negative catalyst (CXMT). No industry event for the platforms today"
+  },
+  "sniper": {
+    "symbol": "META",
+    "direction": "call",
+    "catalyst": "Two target raises this morning after Monday's Muse Wonder frontier-model launch: Pivotal to $930 from $790 (Buy, published 07:26 ET: 'returns on AI spend becoming clearer', Muse Wonder at or near parity with leading models) and Truist to $1,000 from $763 (Buy). META is -1.0% pre-market (735.3 vs 742.96) after +3.4% Monday, so the raises are not in the price; it is the leader of the theme money is rotating into while chips sell off again. Price-target raises are not rating upgrades (ANALYST.md tested upgrades only), and Monday's move may have spent part of the news, hence moderate confidence. Same-day META options exist Mon/Wed/Fri only, so this uses Wednesday's expiry",
+    "confidence": 0.35
+  },
+  "generated_at": "2026-10-13T09:05:00-04:00"
+}
