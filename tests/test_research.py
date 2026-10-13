@@ -47,7 +47,7 @@ class SiteTest(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             html = site.build(tmp).read_text()
         self.assertIn("Zero or Hero", html)
-        self.assertIn("rebound_scanner", html)
+        self.assertIn("低开反弹", html)
 
 
 class PositionsCardTest(unittest.TestCase):

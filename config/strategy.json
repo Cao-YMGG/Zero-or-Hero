@@ -1,6 +1,7 @@
 {
   "underlying": "SPY",
   "champion": "rebound_scanner",
+  "champion_real": false,
   "dead_equity": 50,
   "ledger": {"base": 500, "min_account": 5000},
   "real_one_contract_cap": 0.25,

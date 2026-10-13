@@ -293,7 +293,8 @@ class Bot:
                             "entry_price": pick["ask"], "peak": pick["ask"], "qty": qty}
         # The champion trades the phase stake; a variant with real_risk also trades real
         # paper orders at that fraction of equity, to collect real fills sooner.
-        real_qty = qty if variant["id"] == self.state["champion"] else real_contracts(
+        champion_real = self.config.get("champion_real", True)
+        real_qty = qty if variant["id"] == self.state["champion"] and champion_real else real_contracts(
             self.state["equity_start"], variant.get("real_risk", 0), pick["ask"],
             self.config.get("real_one_contract_cap", REAL_ONE_CONTRACT_CAP))
         if real_qty and not may_trade_real(self.state, underlying):
