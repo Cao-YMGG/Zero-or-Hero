@@ -182,15 +182,44 @@ def evolution_card():
     return f'<div class="card"><h2>最近的进化</h2><ul>{items}</ul></div>'
 
 
+def _today_state():
+    path = journal.JOURNAL_DIR / "state.json"
+    try:
+        return json.loads(path.read_text())
+    except (OSError, ValueError):
+        return {}
+
+
+def live_equity(state, trades):
+    """During the day: today's starting equity (the virtual ledger's when it runs) plus real
+    P&L booked today plus open real legs entered today, marked at their last bid. Carried
+    legs from earlier days are left out (their value is already in the starting equity)."""
+    if not state or state.get("done") or "equity_start" not in state:
+        return None
+    pnl = sum(float(t["pnl"] or 0) for t in trades
+              if t["mode"] == "real" and t["date"] == state.get("date"))
+    for vs in (state.get("variants") or {}).values():
+        real, shadow = vs.get("real"), vs.get("shadow") or {}
+        if real and shadow.get("last") is not None and real["entry_time"][:10] == state.get("date"):
+            pnl += (float(shadow["last"]) - float(real["entry_price"])) * 100 * int(real["qty"])
+    return float(state["equity_start"]) + pnl
+
+
 def build(out):
     config = journal.load_config()
     trades = journal.read_trades()
     equity_rows = journal.read_equity()
     equity = float(equity_rows[-1]["equity"]) if equity_rows else START
+    today_state = _today_state()
+    live = live_equity(today_state, trades)
+    if live is not None:
+        equity = live
     phase = current_phase(config, equity)
     real = [t for t in trades if t["mode"] == "real" and t["variant"] == config["champion"]]
     change = equity / START - 1
-    tiles = [("账户资金", money(equity), "up" if change > 0 else "down" if change < 0 else ""),
+    label = (f"账本资金 · 第 {today_state['generation']} 局" if today_state.get("generation")
+             else "账户资金")
+    tiles = [(label, money(equity), "up" if change > 0 else "down" if change < 0 else ""),
              ("相对 $500", pct(change), "up" if change > 0 else "down" if change < 0 else ""),
              ("阶段", f'{phase["name"]} · 每笔 {phase["risk_per_trade"]:.0%}', ""),
              ("冠军", config["champion"], ""),

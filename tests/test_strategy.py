@@ -413,3 +413,22 @@ class LeaderFollowTest(unittest.TestCase):
         v = {"signal": "momentum", "relative": True, "after_minutes": 30, "threshold_pct": 2.0,
              "sides": ["up"]}
         self.assertIsNone(signal_momentum(self._bars(990, 950), v, {"index_ret": 0.0}))
+
+
+class LedgerEquityTest(unittest.TestCase):
+    def test_day_end_records_the_ledger_not_the_account(self):
+        from zoh.bot import ledger_equity
+        ledger = {"base": 500, "anchor": 50000.0, "generation": 1}
+        self.assertAlmostEqual(ledger_equity(ledger, 50520.0), 1020.0)
+        self.assertAlmostEqual(ledger_equity(None, 46.52), 46.52)
+
+    def test_live_equity_marks_todays_real_legs(self):
+        from zoh.site import live_equity
+        state = {"date": "2026-10-13", "done": False, "equity_start": 500.0, "variants": {
+            "catalyst_open": {"real": {"entry_price": 0.93, "qty": 1, "entry_time": "2026-10-13T09:32:07"},
+                              "shadow": {"last": 6.12}},
+            "catalyst_open@2026-10-12": {"real": {"entry_price": 0.7, "qty": 1,
+                                                  "entry_time": "2026-10-12T09:32:22"},
+                                         "shadow": {"last": 1.47}}}}
+        self.assertAlmostEqual(live_equity(state, []), 500 + 519.0)
+        self.assertIsNone(live_equity({**state, "done": True}, []))
