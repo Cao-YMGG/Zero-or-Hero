@@ -51,6 +51,7 @@ svg text { fill:var(--muted); font-size:11px; }
 NAMES = {
     "rebound_scanner": ("低开反弹", "大盘股低开 ≥2%，15 分钟后买看涨，赌当天收复"),
     "rebound_scanner_wide": ("低开反弹·宽追踪", "同上，追踪止盈放得更宽（对照组）"),
+    "rebound_scanner_any": ("低开反弹·每天", "同冠军规则，但周二周四也做（用最近到期日）"),
     "catalyst_open": ("开盘狙击", "盘前选的有新消息的股票，09:31 开盘就买"),
     "catalyst_intraday": ("盘中狙击", "盘中检查发现的新消息股票，立刻买"),
     "catalyst_sniper": ("确认后狙击", "盘前选的股票，等它先涨 1% 再买（已停）"),
@@ -58,7 +59,7 @@ NAMES = {
     "claude_confirm": ("盘前判断·确认", "盘前判断 + 开盘走势确认（已退役）"),
     "meta_follow2": ("META 跟势", "META 开盘 30 分钟比开盘价涨/跌 ≥2% 就跟（周一三五）"),
     "leader_follow": ("当日领涨股", "开盘 15 分钟后，比 SPY 多涨 ≥1.5% 最多的大盘股，买看涨"),
-    "megacap_reclaim": ("大盘股收复", "大盘股开盘先跌 0.5% 再收回开盘价，买看涨"),
+    "megacap_reclaim": ("大盘股收复", "大盘股开盘先跌 0.5% 再收回开盘价，买看涨（每天，没有当天到期就用最近到期日）"),
     "open_drive_run": ("开盘冲刺", "已退役"),
     "amd_gap_cheap_run": ("AMD 低开便宜看涨", "已退役"),
 }
