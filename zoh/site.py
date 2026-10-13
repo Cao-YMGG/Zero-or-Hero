@@ -155,7 +155,9 @@ def leaderboard_card(config, trades):
                     f'</td>{stats}</tr>')
     return ('<div class="card"><h2>各策略战绩（影子单，每笔平均收益）</h2>'
             '<p class="muted" style="font-size:12px">影子单 = 按实时报价模拟买卖、不花钱；'
-            '只有冠军和开盘/盘中狙击会同时下真实单。每个策略至少 20 笔才看得出好坏。</p>'
+            + ('只有冠军和开盘/盘中狙击会同时下真实单。' if config.get("champion_real", True)
+             else '只有开盘/盘中狙击会同时下真实单（冠军暂时只记影子）。')
+            + '每个策略至少 20 笔才看得出好坏。</p>'
             '<div class="scroll"><table>'
             '<tr><th>策略</th><th class="n">笔数</th><th class="n">赚钱比例</th>'
             '<th class="n">平均每笔</th><th class="n">最好一笔</th></tr>'
@@ -282,7 +284,8 @@ def build(out):
     tiles = [(label, money(equity), "up" if change > 0 else "down" if change < 0 else ""),
              ("相对 $500", pct(change), "up" if change > 0 else "down" if change < 0 else ""),
              ("阶段", f'{phase["name"]} · 每笔 {phase["risk_per_trade"]:.0%}', ""),
-             ("冠军", config["champion"], ""),
+             ("冠军", vname(config["champion"]) + ("" if config.get("champion_real", True)
+                                                  else "（只记影子）"), ""),
              ("实战检查：真实成交", f"{len(real)} / {READY_FILLS}", "")]
     tile_html = "".join(f'<div class="tile"><div class="k">{k}</div>'
                         f'<div class="v {c}" style="font-size:{18 if len(v) > 12 else 22}px">'
