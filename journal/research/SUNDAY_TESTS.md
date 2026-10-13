@@ -38,6 +38,10 @@ in EVOLUTION.md.
    0.6 (giveback 0.4) for rebound_scanner, catalyst_open and meta_follow2. 2026-10-12:
    CRM 252.5C peaked +66% and never armed the trail (now -70%); META 755C armed it and kept
    +73%. Report with and without the best trade.
+   Also test a tighter trail on big runners: 2026-10-13 META 775C $0.93 -> peak $7.39 ->
+   trail exit $4.15 (floor was $4.43 = 60% of peak; a 30-second poll in a fast drop filled
+   below it). Compare giveback 0.4 flat vs 0.25 once the option is >= 5x, and a floor at
+   peak minus a fixed share of the gain.
 9. **Delta floor for expensive underlyings.** With a small budget, rebound_scanner on MU
    (~$1,000) could only afford a 3.3%-OTM same-day call (Alpaca delta 0.00, target 0.08);
    it expired worthless. Test skipping (or switching to the cheapest affordable strike with
