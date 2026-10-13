@@ -1,36 +1,20 @@
 {
-  "date": "2026-10-12",
-  "done": true,
+  "date": "2026-10-13",
+  "done": false,
   "variants": {
-    "claude_bias": {},
-    "meta_follow2": {
-      "attempts": 1,
+    "catalyst_open@2026-10-12": {
       "entered": true,
-      "closed": true
-    },
-    "megacap_reclaim": {},
-    "rebound_scanner": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "rebound_scanner_wide": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "catalyst_open": {
-      "attempts": 1,
-      "entered": true,
+      "carried": true,
+      "of": "catalyst_open",
       "shadow": {
         "contract": "CRM261016C00252500",
         "direction": "call",
         "entry_time": "2026-10-12T09:32:00-04:00",
         "entry_price": 0.7,
-        "peak": 1.16,
+        "peak": 1.6,
         "qty": 1,
-        "last": 0.21,
-        "last_time": "2026-10-12T15:45:10-04:00"
+        "last": 1.47,
+        "last_time": "2026-10-13T10:02:13-04:00"
       },
       "real": {
         "contract": "CRM261016C00252500",
@@ -38,17 +22,43 @@
         "underlying": "CRM",
         "entry_price": 0.7,
         "entry_time": "2026-10-12T09:32:22-04:00"
+      }
+    },
+    "claude_bias": {},
+    "meta_follow2": {},
+    "megacap_reclaim": {},
+    "rebound_scanner": {},
+    "rebound_scanner_wide": {},
+    "catalyst_open": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "META261014C00775000",
+        "direction": "call",
+        "entry_time": "2026-10-13T09:32:00-04:00",
+        "entry_price": 0.95,
+        "peak": 7.39,
+        "qty": 1,
+        "last": 6.12,
+        "last_time": "2026-10-13T10:02:13-04:00"
       },
-      "hold": true
+      "real": {
+        "contract": "META261014C00775000",
+        "qty": 1,
+        "underlying": "META",
+        "entry_price": 0.93,
+        "entry_time": "2026-10-13T09:32:07-04:00"
+      }
     },
     "catalyst_intraday": {}
   },
-  "equity_start": 166.58,
-  "phase": "zero-or-hero",
-  "risk_per_trade": 0.5,
-  "champion": "rebound_scanner",
   "real_underlyings": [
     "CRM",
-    "MU"
-  ]
+    "META"
+  ],
+  "generation": 1,
+  "equity_start": 500.0,
+  "phase": "zero-or-hero",
+  "risk_per_trade": 0.2,
+  "champion": "rebound_scanner"
 }
