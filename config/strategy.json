@@ -2,13 +2,15 @@
   "underlying": "SPY",
   "champion": "rebound_scanner",
   "dead_equity": 50,
+  "ledger": {"base": 500, "min_account": 5000},
+  "real_one_contract_cap": 0.25,
   "exit_time": "15:45",
   "poll_seconds": 30,
   "phases": [
     {
       "name": "zero-or-hero",
       "min_equity": 0,
-      "risk_per_trade": 0.5
+      "risk_per_trade": 0.2
     },
     {
       "name": "compounder",
