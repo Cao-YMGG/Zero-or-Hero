@@ -128,6 +128,9 @@ def fetch_bias(day, path=None, refresh=False):
     return json.loads(shown.stdout) if shown.returncode == 0 else None
 
 
+PENNY = 0.01  # limit price for selling an expiring option that has no bid
+
+
 def chain_candidates(api, underlying, expiry, kind, spot, now, width=0.03):
     snaps = api.option_chain(underlying, expiry, kind, round(spot * (1 - width), 2),
                              round(spot * (1 + width), 2))
@@ -298,17 +301,36 @@ class Bot:
         self._record(variant, "shadow", shadow, price, now, reason, shadow["qty"])
         real = vstate.pop("real", None)
         if real:
-            filled, fill_price = self._order(real["contract"], real["qty"], "sell", "market", "out")
+            filled, fill_price, how = self._sell_out(real["contract"], real["qty"], "out")
             if filled:
-                self._record(variant, "real", real, fill_price, now_et(), reason, filled)
-            elif parse_occ(real["contract"])[1] <= f"{self.today:%y%m%d}":
-                # Expiring with no bid: the broker rejects the sell and the contract expires
+                self._record(variant, "real", real, fill_price, now_et(),
+                             reason if how == "market" else "penny", filled)
+            elif self._expires_today(real["contract"]):
+                # Expiring with no bid and the penny limit unfilled: the contract expires
                 # worthless, so book it at 0 rather than lose the trade from the journal.
                 log(f"!! real exit for {real['contract']} did not fill; booked as expired at 0")
                 self._record(variant, "real", real, 0.0, now_et(), "expired", real["qty"])
             else:
                 log(f"!! real exit for {real['contract']} did not fill; final sweep will retry")
         vstate["closed"] = True
+
+    def _expires_today(self, contract):
+        return parse_occ(contract)[1] <= f"{self.today:%y%m%d}"
+
+    def _sell_out(self, contract, qty, tag):
+        """Market sell; if that fails on an expiring contract, try a $0.01 limit.
+
+        With no bid Alpaca rejects market sells ("no available quote ... reenter with a
+        limit"); a penny limit may be accepted and occasionally filled. Owner approved the
+        experiment on 2026-10-12. Returns (qty filled, price, "market" | "penny").
+        """
+        filled, price = self._order(contract, qty, "sell", "market", tag)
+        if filled or not self._expires_today(contract):
+            return filled, price, "market"
+        log(f"penny: market sell of {contract} failed; trying a $0.01 limit")
+        filled, price = self._order(contract, qty, "sell", "limit", tag + "p", limit=PENNY)
+        log(f"penny: {contract} {'filled' if filled else 'not filled'} at the $0.01 limit")
+        return filled, price, "penny"
 
     def _record(self, variant, mode, pos, exit_price, now, reason, qty):
         entry = pos["entry_price"]
@@ -424,7 +446,7 @@ class Bot:
                 qty = abs(int(float(pos["qty"])))
                 if qty and not self.dry_run:
                     log(f"sweep: closing {qty} {pos['symbol']}")
-                    self._order(pos["symbol"], qty, "sell", "market", "sweep")
+                    self._sell_out(pos["symbol"], qty, "sweep")
 
 
 def main():

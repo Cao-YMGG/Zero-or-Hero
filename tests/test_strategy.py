@@ -335,3 +335,39 @@ class ReclaimSignalTests(unittest.TestCase):
         variant = {"flush_minutes": 15, "flush_pct": 0.5, "reclaim": 1.0, "sides": ["down"]}
         self.assertIsNone(signal_flush(bars[:16], variant))
         self.assertEqual(signal_flush(bars, variant), "call")
+
+
+class PennySellTest(unittest.TestCase):
+    """Expiring option with no bid: market sell rejected, then a $0.01 limit."""
+
+    def _bot(self, penny_fills):
+        from datetime import date
+        from zoh import bot as botmod
+        calls = []
+
+        class FakeBot(botmod.Bot):
+            def __init__(self):
+                self.today = date(2026, 10, 12)
+
+            def _order(self, symbol, qty, side, kind, tag, limit=None):
+                calls.append((kind, limit))
+                if kind == "limit" and penny_fills:
+                    return qty, limit
+                return 0, None
+
+        return FakeBot(), calls
+
+    def test_penny_limit_after_rejected_market_sell(self):
+        b, calls = self._bot(penny_fills=True)
+        self.assertEqual(b._sell_out("MU261012C01025000", 1, "out"), (1, 0.01, "penny"))
+        self.assertEqual(calls, [("market", None), ("limit", 0.01)])
+
+    def test_penny_unfilled_returns_zero(self):
+        b, calls = self._bot(penny_fills=False)
+        self.assertEqual(b._sell_out("MU261012C01025000", 1, "out")[0], 0)
+        self.assertEqual(len(calls), 2)
+
+    def test_no_penny_for_later_expiry(self):
+        b, calls = self._bot(penny_fills=True)
+        self.assertEqual(b._sell_out("CRM261016C00252500", 1, "out"), (0, None, "market"))
+        self.assertEqual(calls, [("market", None)])
