@@ -73,6 +73,12 @@ def may_trade_real(state, underlying):
     return all(theme_of(u) != theme_of(underlying) for u in state.get("real_underlyings", []))
 
 
+def ledger_can_start(ledger, account_equity, cfg):
+    """A new ledger anchors on the account's equity, so only start it once the account has
+    really been reset to a large balance (guards against stale keys on the old $50 account)."""
+    return ledger is not None or account_equity >= cfg.get("min_account", 0)
+
+
 def virtual_equity(ledger, account_equity, base, dead, today):
     """The experiment's own $base account inside a bigger paper account. Its equity is base plus
     the account's change since the generation began; below `dead` a new generation starts at
@@ -478,8 +484,12 @@ def main():
         return
     if "equity_start" not in state:
         equity = float(api.account()["equity"])
-        if config.get("ledger"):
-            equity, ledger = virtual_equity(journal.load_ledger(), equity, config["ledger"]["base"],
+        ledger = journal.load_ledger() if config.get("ledger") else None
+        if config.get("ledger") and not ledger_can_start(ledger, equity, config["ledger"]):
+            log(f"virtual ledger not started: account ${equity:.2f} is below "
+                f"${config['ledger']['min_account']:.0f} (not reset yet, or stale API keys)")
+        elif config.get("ledger"):
+            equity, ledger = virtual_equity(ledger, equity, config["ledger"]["base"],
                                             config["dead_equity"], now.date().isoformat())
             journal.save_ledger(ledger)
             state["generation"] = ledger["generation"]

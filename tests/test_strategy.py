@@ -371,3 +371,12 @@ class PennySellTest(unittest.TestCase):
         b, calls = self._bot(penny_fills=True)
         self.assertEqual(b._sell_out("CRM261016C00252500", 1, "out"), (0, None, "market"))
         self.assertEqual(calls, [("market", None)])
+
+
+class LedgerStartTest(unittest.TestCase):
+    def test_waits_for_a_reset_account(self):
+        from zoh.bot import ledger_can_start
+        cfg = {"base": 500, "min_account": 5000}
+        self.assertFalse(ledger_can_start(None, 50.48, cfg))
+        self.assertTrue(ledger_can_start(None, 30000, cfg))
+        self.assertTrue(ledger_can_start({"anchor": 30000}, 29000, cfg))
