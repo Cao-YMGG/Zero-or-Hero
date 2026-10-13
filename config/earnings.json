@@ -1,0 +1,10 @@
+{
+  "_note": "Expected report dates (Webull earnings calendar, read 2026-10-13; dates can move, recheck each pre-market). Used by the pre-market checklist: names reporting within 10 trading days are pre-earnings drift candidates; never name a sniper on the day before or the day of its report.",
+  "2026-10-20": ["NFLX"],
+  "2026-10-21": ["TSLA", "META"],
+  "2026-10-28": ["MSFT", "GOOGL"],
+  "2026-10-29": ["INTC"],
+  "2026-11-02": ["AAPL"],
+  "2026-11-03": ["AMD"],
+  "2026-11-05": ["LITE"]
+}

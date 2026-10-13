@@ -94,6 +94,13 @@ scored against purely mechanical variants.
    summit's first day. Do not name a sniper in such a theme on an event day, and note the
    event in `rotation`. On a rotation day out of one group, check the laggards of the
    group money is moving into (META +3.4% with no news on 2026-10-12).
+2c. Earnings window: check `config/earnings.json` (and the Webull earnings calendar, which can
+   move dates) for large caps reporting within 10 trading days. journal/research/RUNUP.md (201
+   reports, 2 years): median 10-day run-up +1.6% vs SPY (60% up), but the reaction day is -1.6%
+   (43% up) and options are pricey into the print. So these names are pre-earnings drift
+   candidates for the sniper (META 2026-10-13 was two weeks out), never on the day before or
+   the day of their report. Note peers' reports as read-through catalysts (TSMC/ASML for
+   chips, big banks for financials) and record the window in `reasons`.
 3b. Sniper (name one whenever a fresh catalyst with a small gap exists; null only when nothing
    qualifies; prefer upgrades over downgrades): prefer names in themes that are heating up; good news
    in a cooling theme tends to fade. scan mega caps with same-day options for a fresh,

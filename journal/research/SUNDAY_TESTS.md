@@ -72,6 +72,12 @@ in EVOLUTION.md.
    Mon/Wed/Fri same-day results. Live twins since 10-14: rebound_scanner_any (shadow) and
    megacap_reclaim with any_expiry.
 
+14. **Pre-earnings drift with 2-4 week calls (compounder phase).** Buy ~0.3-delta calls
+   expiring after the report, 10 trading days before it, sell the day before the report.
+   RUNUP.md (stock only): +1.6% median excess, 60% up; +11.4% for names already running >5%.
+   Real option prices, last 3 months first, with and without the best trade. Also test the
+   0DTE version: the sniper's open buy on names 5-10 days before their report vs other days.
+
 ## Done
 
 - **Item 1, champion pick (2026-10-11, journal/research/realopt.json, 211 trades / 72 days, data to 2026-09-14).**
