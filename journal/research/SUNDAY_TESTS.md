@@ -65,6 +65,13 @@ in EVOLUTION.md.
    but more false starts reverse (DOSSIER_AMD: small early moves reversed 70% of the time).
    Report the last 3 months first, with and without the best trade.
 
+13. **Tue/Thu with the next expiry.** Single-stock scanners only bought same-day options, so
+   they sat out every Tuesday and Thursday (2026-10-13: MU -4.9% and AMD -2.2% gaps skipped;
+   AAPL dipped -1% after the open and reclaimed to a new high). On real prices, compare the
+   rebound rule and the reclaim rule on Tue/Thu using the next day's expiry against their
+   Mon/Wed/Fri same-day results. Live twins since 10-14: rebound_scanner_any (shadow) and
+   megacap_reclaim with any_expiry.
+
 ## Done
 
 - **Item 1, champion pick (2026-10-11, journal/research/realopt.json, 211 trades / 72 days, data to 2026-09-14).**
