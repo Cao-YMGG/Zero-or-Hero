@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 from . import journal
 from .alpaca import Alpaca
 from .bot import chain_candidates
-from .bot import previous_close
+from .bot import ledger_equity, previous_close
 from .strategy import (ET, MARKET_OPEN, cross_assets, current_phase, day_context, evaluate_signal, parse_bar,
                        regular_session, select_contract)
 
@@ -16,9 +16,11 @@ def main():
     config = journal.load_config()
     api = Alpaca()
     acct = api.account()
-    equity = float(acct["equity"])
+    account_equity = float(acct["equity"])
+    ledger = journal.load_ledger() if config.get("ledger") else None
+    equity = ledger_equity(ledger, account_equity)  # phases follow the $500 ledger, not the account
     phase = current_phase(config, equity)
-    print(f"account   status={acct['status']} equity=${equity:.2f} "
+    print(f"account   status={acct['status']} equity=${account_equity:.2f} ledger=${equity:.2f} "
           f"buying_power=${float(acct['buying_power']):.2f} "
           f"options_level={acct.get('options_trading_level')}")
     print(f"phase     {phase['name']} risk/trade={phase['risk_per_trade']:.0%} "
