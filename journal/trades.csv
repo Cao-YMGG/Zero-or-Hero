@@ -28,3 +28,4 @@ date,variant,mode,contract,direction,entry_time,entry_price,exit_time,exit_price
 2026-10-13,catalyst_open,real,META261014C00775000,call,2026-10-13T09:32:07-04:00,0.93,2026-10-13T10:08:33-04:00,4.15,1,322.0,3.4624,trail,zero-or-hero,500.0
 2026-10-13,catalyst_open,shadow,CRM261016C00252500,call,2026-10-12T09:32:00-04:00,0.7,2026-10-13T10:15:15-04:00,0.95,1,25.0,0.3571,trail,zero-or-hero,500.0
 2026-10-14,claude_bias,shadow,SPY261014P00771000,put,2026-10-14T09:36:25-04:00,0.31,2026-10-14T10:07:48-04:00,0.65,5,170.0,1.0968,take_profit,zero-or-hero,821.8799999999974
+2026-10-14,meta_follow2,shadow,META261014P00737500,put,2026-10-14T10:20:07-04:00,1.22,2026-10-14T12:37:57-04:00,2.61,1,139.0,1.1393,trail,zero-or-hero,821.8799999999974
