@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-14",
+  "bias": "put",
+  "confidence": 0.4,
+  "summary": "September CPI came in hot (headline 3.7% y/y vs 3.6%, core 2.6% vs 2.5%). The 10Y is up to about 5.31%, oil is up and chips and banks are lower pre-market, so SPY leans down from just under its record. The gap is small (-0.3%), so this is a lean, not a conviction.",
+  "reasons": [
+    "CPI 08:30 (CNBC): headline +0.6% m/m, 3.7% y/y vs 3.6% expected; core 2.6% vs 2.5% expected. Futures turned red after the print (S&P -0.2%, Nasdaq-100 -0.5% in CNBC's snapshot). This comes two weeks before the 10-28 FOMC, after the September hike; a December hike was already being discussed",
+    "Webull pre-market 08:53: SPY 775.67 (-0.30% vs 778.01 close, record 781.62); QQQ 739.12 (-0.60%); TLT 77.84 (-0.68%); USO +0.97%; UUP flat (stale print). Yesterday SPY was flat (778.10 -> 778.01) and QQQ -0.3%",
+    "Rates: 10Y jumped to 5.306%, 30Y 5.564% (CNBC); TLT -0.68% suggests roughly +4bp on the long end. 2Y post-CPI change not found (4.78% pre-CPI, -1.5bp, InvestingLive)",
+    "Oil: WTI about $94-96 and Brent about $106 (sources conflict); USO +1% pre-market and was +1.4% yesterday. Gulf shipping risk is unresolved. Rising yields plus firm oil are the usual equity headwind; a hot core print is not priced in, because consensus had core cooling to 0.2% m/m",
+    "Chips weak again pre-market: MU 934.81 (-1.9% vs 953.19 close, third day of CXMT selling; the pushback is only buy-side commentary, Rayliant), INTC -2.6%, AMD -2.1%, ORCL -2.5% (after +4.2% yesterday), AVGO -0.9%, NVDA -1.0%. ASML beat and raised the low end of 2026 guidance (orders interest into 2029-30) but the shares are lower: sell the news. Banks lower after earnings: JPM -1.1%, GS -1.5%",
+    "Holding up: AAPL 344.60 (+1.0%; home hardware lineup 10-13, record high 348.15 then a fade to 341.27), GOOGL +0.9%, MSFT +0.2%. META 756.40 (-0.8% after +2.6% and +3.4%)",
+    "Rebound universe: no >= 2% down gap (MU -1.9% is the closest). It is a same-day-expiry Wednesday, but CPI makes it a macro day, so rebound_scanner*, gapup_fade and megacap_reclaim are off by their non_event filter",
+    "Dossiers: META small gaps (within ±1%) mostly fill, so the -0.8% dip leans toward a fill up; it moves on its own news (correlation with QQQ 0.37-0.50). AMD: -2.1% is just above the >= 2% bounce line, and the rule is off on macro days anyway",
+    "Earnings window (config/earnings.json): META and TSLA 10-21 (META unconfirmed, 10-27/28 also reported), NFLX 10-20, MSFT/GOOGL 10-28, INTC 10-29. All within 10 trading days. None reports today or tomorrow",
+    "VIX about 15.3 at yesterday's close (Yahoo); no post-CPI level found. DXY about 102.1 pre-CPI. Today's 24/7 Wall St. analyst roundup was not published yet; no mega-cap upgrade found this morning (the upgrades seen were ALB, GLEN, EAT, KTB, PNR)"
+  ],
+  "events": ["CPI 08:30 (hot: 3.7% y/y, core 2.6%)", "More bank earnings", "FOMC 2026-10-28"],
+  "inputs": {"es_futures_pct": -0.3, "vix": 15.3, "wti_pct": 1.0, "us10y": 5.306,
+             "us10y_change_bp": 4, "us2y_change_bp": null, "dxy_pct": null,
+             "overnight": "Hot US CPI at 08:30 pushed the 10Y to about 5.31%. ASML beat and raised but the shares fell. Memory stocks are down a third day on CXMT's denser-DRAM claim. Oil is firm (USO +1%). The 10Y change is estimated from TLT; the 2Y and DXY post-CPI moves were not found (not in the search results)"},
+  "rotation": {
+    "heating": ["internet platforms (META +3.2% 1w / +14.6% 1m, MSFT +2.7% / +7.5%, AAPL +2.3% / +2.5%, GOOGL +1.8% / +1.3%, AMZN +0.9% / +2.0%)", "power (VST +1.2% 1w / +15.6% 1m; GEV -2.4% / +14.8%)"],
+    "cooling": ["CPU (ARM -15.6% 1w, INTC -8.6%, AMD -6.8%; AMD still +22.7% 1m)", "optical after its OCP summit (LITE -12.8% 1w, CIEN -9.7%; still +18% / +25% 1m)", "memory (MU -8.8% 1w, CXMT headline)", "flash and disk storage (SNDK -10.7%, WDC -7.4%, STX -7.3% 1w; all negative 1m)", "GPU (NVDA -4.5% 1w, +8.3% 1m)"],
+    "note": "Webull daily bars, closes 2026-10-13 vs 10-06 (1w) and 09-14 (1m). SPY -0.1% 1w, QQQ -2.1% 1w. Money keeps leaving AI hardware for the mega-cap platforms. Memory's drop is a one-day competition headline (CXMT) with only buy-side pushback so far, so it is a rebound candidate later, not today with a hot CPI"
+  },
+  "sniper": {
+    "symbol": "META",
+    "direction": "call",
+    "catalyst": "Muse Wonder follow-through, with street-high targets raised on 10-13 (Truist $1,000, Wells Fargo $1,000, Guggenheim $850 from $700). META is the leader of the money rotating into the platforms (+3.2% 1w while chips fell 7-16%) and is inside its pre-earnings window (10-21 or 10-28, 5-10 trading days out; the RUNUP study shows a median +1.6% excess over 10 days). Pre-market 756.40 is -0.8%, a small gap that the dossier says usually fills. Weaker than yesterday: the target raises are a day old and were part of the +2.6% move, and hot CPI weighs on growth. This is a momentum plus earnings-window bet, not a fresh catalyst. Wednesday has a same-day expiry",
+    "confidence": 0.3
+  },
+  "generated_at": "2026-10-14T09:02:00-04:00"
+}
