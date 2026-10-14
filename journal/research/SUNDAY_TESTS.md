@@ -92,6 +92,14 @@ in EVOLUTION.md.
    months first, with and without the best one/two trades, against all other days. Live so
    far: 10-07 put day -97% (afternoon auction reversal), 10-14 SPY put +52% at 10:01.
 
+17. **Vertical spreads vs single legs (prep for the compounder phase at $2,000).** Same
+   sniper days and the 0DTE SPY bias days: buy ~0.3 delta / sell ~0.1 delta vs the single
+   ~0.1-0.3 delta leg, real option prices, last 3 months first, with and without the best
+   trade. Then the 2-4 week version around hyperscaler capex and pre-earnings windows
+   (AVGO/NVDA/AMD/MU into GOOGL/MSFT/META/AMZN reports). The account has options level 3
+   (diagnostics 2026-10-13), so spreads are allowed. Expectation: spreads cut the fat tails
+   this phase lives on, so they belong to `compounder`, not `zero-or-hero`.
+
 ## Done
 
 - **Item 1, champion pick (2026-10-11, journal/research/realopt.json, 211 trades / 72 days, data to 2026-09-14).**
