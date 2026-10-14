@@ -1,0 +1,49 @@
+name: Codex read-only cloud probe
+on:
+  push:
+    branches: [codex/cloud-readonly-probe-20261014]
+    paths: [.github/workflows/codex-cloud-readonly-probe.yml]
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Read paper clock and explicitly identified market feeds
+        env:
+          APCA_API_KEY_ID: ${{ secrets.APCA_API_KEY_ID }}
+          APCA_API_SECRET_KEY: ${{ secrets.APCA_API_SECRET_KEY }}
+        run: |
+          python3 - <<'PY'
+          import json, os, time, urllib.request, urllib.error
+          from datetime import datetime, timezone
+          now = lambda: datetime.now(timezone.utc).isoformat()
+          result = {'started_at': now(), 'mode': 'GET_ONLY_NO_ORDERS', 'requests': []}
+          headers = {'APCA-API-KEY-ID': os.environ['APCA_API_KEY_ID'], 'APCA-API-SECRET-KEY': os.environ['APCA_API_SECRET_KEY']}
+          endpoints = [
+              ('paper_clock', 'https://paper-api.alpaca.markets/v2/clock'),
+              ('stock_quotes_iex', 'https://data.alpaca.markets/v2/stocks/quotes/latest?symbols=SPY,NVDA&feed=iex'),
+              ('stock_quotes_sip_permission', 'https://data.alpaca.markets/v2/stocks/quotes/latest?symbols=SPY,NVDA&feed=sip'),
+          ]
+          for name, url in endpoints:
+              started = time.monotonic()
+              entry = {'name': name, 'requested_at': now()}
+              try:
+                  req = urllib.request.Request(url, headers=headers, method='GET')
+                  with urllib.request.urlopen(req, timeout=20) as response:
+                      entry['http_status'] = response.status
+                      entry['data'] = json.load(response)
+              except urllib.error.HTTPError as exc:
+                  entry['http_status'] = exc.code
+                  entry['error'] = 'HTTP_ERROR_BODY_OMITTED'
+              except Exception as exc:
+                  entry['error'] = type(exc).__name__
+              entry['elapsed_seconds'] = round(time.monotonic() - started, 3)
+              entry['received_at'] = now()
+              result['requests'].append(entry)
+          result['finished_at'] = now()
+          result['passed'] = all(r.get('http_status') == 200 for r in result['requests'][:2])
+          print('PROBE_RESULT=' + json.dumps(result, ensure_ascii=False))
+          raise SystemExit(0 if result['passed'] else 1)
+          PY
