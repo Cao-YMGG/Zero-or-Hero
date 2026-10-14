@@ -465,3 +465,22 @@ class GapUpFadeTest(unittest.TestCase):
         from zoh.strategy import signal_gap
         v = {k: x for k, x in self.V.items() if k != "confirm_pct"}
         self.assertEqual(signal_gap(self._bars(400, 405), v, {"gap_pct": 3.8}), "put")
+
+
+class NvdaGapDownPutTest(unittest.TestCase):
+    """NVDA gaps down and is still below its open at 10:00 -> put (journal/research/OPENDRIVE.md)."""
+
+    def test_config_variant_fires_only_when_below_open_at_ten(self):
+        from zoh import journal
+        from zoh.strategy import ET, signal_gap
+        v = next(x for x in journal.load_config()["variants"] if x["id"] == "nvda_gapdown_put")
+        start = datetime(2026, 10, 14, 9, 30, tzinfo=ET)
+
+        def bars(open_, last, n=31):
+            return [{"t": start + timedelta(minutes=i), "o": open_, "h": max(open_, last),
+                     "l": min(open_, last), "c": open_ + (last - open_) * (i + 1) / n, "v": 1}
+                    for i in range(n)]
+        self.assertEqual(signal_gap(bars(225.6, 224.4), v, {"gap_pct": -1.3}), "put")
+        self.assertIsNone(signal_gap(bars(225.6, 226.0), v, {"gap_pct": -1.3}))  # back above open
+        self.assertIsNone(signal_gap(bars(225.6, 224.4), v, {"gap_pct": 0.8}))   # gapped up
+        self.assertIsNone(signal_gap(bars(225.6, 224.4, n=20), v, {"gap_pct": -1.3}))  # before 10:00
