@@ -1,64 +1,64 @@
-# 暴涨原因研究 — 2024-10-03 → 2026-10-03
+# 暴涨原因研究 — 2024-10-13 → 2026-10-13
 
-股票池：3781 只可碎股交易的美股（剔除 ETF/基金），股价 ≥ $5、日成交额中位数 ≥ $10M。暴涨日 = 收盘较前收盘涨 ≥ 15%。原因 = 前一日收盘到当日收盘之间的新闻标题按关键词归类（按顺序取第一个命中的类别，存在误判）。
+股票池：3771 只可碎股交易的美股（剔除 ETF/基金），股价 ≥ $5、日成交额中位数 ≥ $10M。暴涨日 = 收盘较前收盘涨 ≥ 15%。原因 = 前一日收盘到当日收盘之间的新闻标题按关键词归类（按顺序取第一个命中的类别，存在误判）。
 
-共 3155 次暴涨。
+共 3214 次暴涨。
 
 ## 按原因分类
 
 | 原因 | 次数 | 占比 | 当日涨幅中位数 | 开盘跳空占当日涨幅 | 次日 | 5 日后 | 20 日后 | 20 日后仍上涨的比例 |
 |---|---|---|---|---|---|---|---|---|
-| no news found | 1175 | 37% | +18% | 13% | -2% | -3% | -1% | 48% |
-| earnings | 1051 | 33% | +20% | 59% | +0% | -1% | -0% | 50% |
-| other news | 284 | 9% | +19% | 20% | -2% | -2% | -2% | 47% |
-| analyst | 208 | 7% | +17% | 20% | -2% | -4% | -1% | 48% |
-| FDA / clinical | 126 | 4% | +27% | 68% | -1% | -0% | -0% | 48% |
-| contract / partnership | 112 | 4% | +20% | 35% | -2% | -4% | -12% | 34% |
-| M&A | 95 | 3% | +21% | 57% | +0% | -0% | -1% | 46% |
-| government / policy | 78 | 2% | +23% | 34% | -3% | -2% | +2% | 53% |
+| no news found | 1230 | 38% | +18% | 12% | -2% | -3% | -0% | 49% |
+| earnings | 1055 | 33% | +20% | 59% | +0% | -1% | +0% | 50% |
+| other news | 282 | 9% | +19% | 21% | -1% | -2% | -2% | 47% |
+| analyst | 208 | 6% | +18% | 20% | -2% | -4% | -1% | 47% |
+| FDA / clinical | 129 | 4% | +28% | 68% | -1% | +0% | -0% | 47% |
+| contract / partnership | 113 | 4% | +20% | 35% | -2% | -4% | -12% | 35% |
+| M&A | 96 | 3% | +22% | 59% | +0% | -0% | -0% | 47% |
+| government / policy | 74 | 2% | +23% | 38% | -3% | -3% | +1% | 51% |
 | crypto | 23 | 1% | +20% | 24% | -3% | +3% | -18% | 41% |
-| index inclusion | 3 | 0% | +17% | 31% | -6% | -16% | -2% | 33% |
+| index inclusion | 4 | 0% | +20% | 40% | -2% | -7% | -2% | 33% |
 
 ## 时间分布
 
-按星期：Mon 516、Tue 496、Wed 880、Thu 689、Fri 574
+按星期：Mon 535、Tue 504、Wed 891、Thu 702、Fri 582
 
-暴涨最多的月份：2025-04（316）、2024-11（225）、2026-05（219）、2025-10（194）、2025-05（171）、2026-02（165）
+暴涨最多的月份：2025-04（315）、2024-11（227）、2026-05（226）、2025-10（197）、2026-02（172）、2025-05（170）
 
 ## 两年涨幅榜（前 30）
 
 | 股票 | 名称 | 两年涨幅 | 暴涨日数 | 暴涨日贡献的涨幅占比 | 最大的几次暴涨 |
 |---|---|---|---|---|---|
-| SNDK | Sandisk Corporation Common S | +4,678% | 12 | 55% | 2025-02-18 +29% no news found；2026-01-06 +28% no news found；2026-07-30 +26% other news |
-| BE | Bloom Energy Corporation | +2,615% | 11 | 73% | 2024-11-15 +59% earnings；2026-04-29 +27% earnings；2025-10-13 +27% contract / partnership |
-| LITE | Lumentum Holdings Inc. Commo | +1,541% | 5 | 30% | 2025-11-05 +24% earnings；2025-04-09 +20% no news found；2025-11-24 +17% analyst |
-| NBIS | Nebius Group N.V. Class A Or | +1,114% | 16 | 121% | 2025-09-09 +49% contract / partnership；2026-08-12 +34% earnings；2026-07-30 +27% earnings |
-| GRAL | GRAIL, Inc. Common Stock | +1,040% | 17 | 125% | 2025-02-13 +34% no news found；2026-09-21 +34% FDA / clinical；2025-01-22 +22% no news found |
-| MU | Micron Technology, Inc. Comm | +962% | 5 | 34% | 2026-05-26 +19% government / policy；2025-04-09 +19% no news found；2026-07-30 +18% earnings |
-| NUTX | Nutex Health Inc. Common Sto | +951% | 12 | 106% | 2025-04-01 +52% other news；2024-11-12 +35% analyst；2025-11-20 +27% earnings |
-| WDC | Western Digital Corporation  | +820% | 4 | 26% | 2026-01-06 +17% no news found；2026-06-15 +16% crypto；2026-07-30 +15% no news found |
-| AEHR | Aehr Test Systems Common Sto | +779% | 18 | 165% | 2025-08-25 +36% contract / partnership；2025-04-09 +29% earnings；2026-07-21 +28% no news found |
-| DAVE | Dave Inc. Class A Common Sto | +768% | 6 | 64% | 2024-11-13 +44% earnings；2025-05-08 +42% earnings；2024-11-06 +22% earnings |
-| GH | Guardant Health, Inc. Common | +716% | 4 | 37% | 2025-10-30 +28% earnings；2025-01-21 +23% earnings；2025-03-11 +19% earnings |
-| AAOI | Applied Optoelectronics, Inc | +714% | 31 | 289% | 2026-02-27 +57% earnings；2024-11-08 +55% earnings；2025-03-14 +39% contract / partnership |
-| PVLA | Palvella Therapeutics, Inc.  | +713% | 6 | 52% | 2026-02-24 +37% FDA / clinical；2025-02-13 +18% no news found；2025-11-19 +17% analyst |
-| STX | Seagate Technology Holdings  | +704% | 2 | 17% | 2026-01-28 +19% earnings；2025-10-29 +19% earnings |
-| RKLB | Rocket Lab Corporation Commo | +699% | 7 | 69% | 2026-05-08 +34% M&A；2025-01-21 +30% analyst；2024-11-13 +28% earnings |
-| MXL | MaxLinear, Inc. Common Stock | +689% | 7 | 84% | 2026-04-24 +76% earnings；2026-04-29 +30% analyst；2025-04-09 +23% no news found |
-| HUT | Hut 8 Corp. Common Stock | +664% | 8 | 75% | 2026-05-06 +35% earnings；2024-11-11 +26% no news found；2026-07-30 +23% no news found |
-| CLS | Celestica, Inc. | +653% | 4 | 32% | 2025-04-09 +19% no news found；2024-10-24 +18% earnings；2025-07-29 +17% earnings |
-| VICR | Vicor Corporation Common Sto | +649% | 7 | 69% | 2025-10-22 +30% earnings；2026-05-26 +24% no news found；2025-02-21 +23% earnings |
-| TTMI | TTM Technologies, Inc. Commo | +630% | 3 | 24% | 2026-01-13 +20% analyst；2025-05-01 +17% earnings；2026-04-30 +15% earnings |
-| OUST | Ouster, Inc. Common Stock | +621% | 14 | 137% | 2024-11-11 +32% analyst；2025-03-21 +32% earnings；2026-06-29 +29% contract / partnership |
-| ALAB | Astera Labs, Inc. Common Sto | +618% | 10 | 96% | 2024-11-05 +38% earnings；2025-08-06 +29% earnings；2026-07-30 +20% no news found |
-| CRDO | Credo Technology Group Holdi | +608% | 3 | 39% | 2024-12-03 +48% earnings；2025-04-09 +23% no news found；2026-04-14 +19% M&A |
-| DFTX | Definium Therapeutics, Inc.  | +584% | 2 | 29% | 2026-06-22 +50% FDA / clinical；2026-06-24 +16% analyst |
-| SRRK | Scholar Rock Holding Corpora | +562% | 4 | 113% | 2024-10-07 +362% FDA / clinical；2024-11-25 +26% analyst；2025-11-14 +24% earnings |
-| VSAT | ViaSat, Inc. Common Stock | +545% | 10 | 106% | 2025-01-21 +33% contract / partnership；2025-08-06 +31% earnings；2026-06-29 +24% no news found |
-| CIEN | Ciena Corporation | +500% | 2 | 20% | 2025-09-04 +23% earnings；2024-12-12 +15% earnings |
-| XMTR | Xometry, Inc. Class A Common | +486% | 5 | 72% | 2025-08-05 +43% earnings；2026-05-07 +39% earnings；2025-11-04 +29% earnings |
+| SNDK | Sandisk Corporation Common S | +4,018% | 12 | 57% | 2025-02-18 +29% no news found；2026-01-06 +28% no news found；2026-07-30 +26% other news |
+| BE | Bloom Energy Corporation | +2,419% | 11 | 75% | 2024-11-15 +59% earnings；2026-04-29 +27% earnings；2025-10-13 +27% contract / partnership |
+| LITE | Lumentum Holdings Inc. Commo | +1,327% | 5 | 32% | 2025-11-05 +24% earnings；2025-04-09 +20% no news found；2025-11-24 +17% analyst |
+| NUTX | Nutex Health Inc. Common Sto | +959% | 12 | 106% | 2025-04-01 +52% other news；2024-11-12 +35% analyst；2025-11-20 +27% earnings |
+| NBIS | Nebius Group N.V. Class A Or | +934% | 16 | 130% | 2025-09-09 +49% contract / partnership；2026-08-12 +34% earnings；2026-07-30 +27% earnings |
+| GRAL | GRAIL, Inc. Common Stock | +912% | 17 | 132% | 2025-02-13 +34% no news found；2026-09-21 +34% FDA / clinical；2025-01-22 +22% no news found |
+| MU | Micron Technology, Inc. Comm | +784% | 5 | 37% | 2026-05-26 +19% government / policy；2025-04-09 +19% no news found；2026-07-30 +18% earnings |
+| WDC | Western Digital Corporation  | +740% | 4 | 28% | 2026-01-06 +17% no news found；2026-06-15 +16% crypto；2026-07-30 +15% no news found |
+| DAVE | Dave Inc. Class A Common Sto | +728% | 6 | 65% | 2024-11-13 +44% earnings；2025-05-08 +42% earnings；2024-11-06 +22% earnings |
+| PVLA | Palvella Therapeutics, Inc.  | +690% | 6 | 52% | 2026-02-24 +37% FDA / clinical；2025-02-13 +18% no news found；2025-11-19 +17% analyst |
+| GH | Guardant Health, Inc. Common | +660% | 4 | 39% | 2025-10-30 +28% earnings；2025-01-21 +23% earnings；2025-03-11 +19% earnings |
+| STX | Seagate Technology Holdings  | +593% | 2 | 18% | 2026-01-28 +19% earnings；2025-10-29 +19% earnings |
+| HUT | Hut 8 Corp. Common Stock | +586% | 8 | 79% | 2026-05-06 +35% earnings；2024-11-11 +26% no news found；2026-07-30 +23% no news found |
+| RKLB | Rocket Lab Corporation Commo | +550% | 7 | 77% | 2026-05-08 +34% M&A；2025-01-21 +30% analyst；2024-11-13 +28% earnings |
+| VICR | Vicor Corporation Common Sto | +542% | 7 | 74% | 2025-10-22 +30% earnings；2026-05-26 +24% no news found；2025-02-21 +23% earnings |
+| VSAT | ViaSat, Inc. Common Stock | +512% | 10 | 109% | 2025-01-21 +33% contract / partnership；2025-08-06 +31% earnings；2026-06-29 +24% no news found |
+| MXL | MaxLinear, Inc. Common Stock | +508% | 7 | 96% | 2026-04-24 +76% earnings；2026-04-29 +30% analyst；2025-04-09 +23% no news found |
+| TTMI | TTM Technologies, Inc. Commo | +506% | 3 | 26% | 2026-01-13 +20% analyst；2025-05-01 +17% earnings；2026-04-30 +15% earnings |
+| DFTX | Definium Therapeutics, Inc.  | +492% | 2 | 31% | 2026-06-22 +50% FDA / clinical；2026-06-24 +16% analyst |
+| CIEN | Ciena Corporation | +491% | 2 | 20% | 2025-09-04 +23% earnings；2024-12-12 +15% earnings |
 | SSRM | SSR Mining Inc. Common Stock | +477% | 2 | 17% | 2025-08-06 +17% earnings；2026-05-06 +15% earnings |
-| SEI | Solaris Energy Infrastructur | +472% | 10 | 92% | 2025-02-21 +23% earnings；2026-07-30 +18% no news found；2025-09-10 +18% no news found |
+| SEI | Solaris Energy Infrastructur | +477% | 10 | 92% | 2025-02-21 +23% earnings；2026-07-30 +18% no news found；2025-09-10 +18% no news found |
+| XMTR | Xometry, Inc. Class A Common | +474% | 5 | 73% | 2025-08-05 +43% earnings；2026-05-07 +39% earnings；2025-11-04 +29% earnings |
+| CLS | Celestica, Inc. | +466% | 4 | 37% | 2025-04-09 +19% no news found；2024-10-24 +18% earnings；2025-07-29 +17% earnings |
+| AAOI | Applied Optoelectronics, Inc | +431% | 31 | 363% | 2026-02-27 +57% earnings；2024-11-08 +55% earnings；2025-03-14 +39% contract / partnership |
+| CRDO | Credo Technology Group Holdi | +420% | 3 | 47% | 2024-12-03 +48% earnings；2025-04-09 +23% no news found；2026-04-14 +19% M&A |
+| PARR | Par Pacific Holdings, Inc. C | +410% | 0 | 0% |  |
+| ALAB | Astera Labs, Inc. Common Sto | +401% | 9 | 108% | 2024-11-05 +38% earnings；2025-08-06 +29% earnings；2026-07-30 +20% no news found |
+| OUST | Ouster, Inc. Common Stock | +399% | 14 | 168% | 2024-11-11 +32% analyst；2025-03-21 +32% earnings；2026-06-29 +29% contract / partnership |
+| AEHR | Aehr Test Systems Common Sto | +395% | 17 | 213% | 2025-08-25 +36% contract / partnership；2025-04-09 +29% earnings；2026-07-21 +28% no news found |
 
 ## 单日涨幅最大的 40 次
 
@@ -67,10 +67,10 @@
 | 2025-05-07 | ASST | +456% | +184% | +104% | M&A | Asset Entities Enters Into Definitive Merger Agreement With Strive Asset Management To For |
 | 2025-05-27 | SBET | +433% | +405% | -71% | crypto | SharpLink Gaming Announces $425,000,000 Private Placement; Upon Closing, Co. Will Adopt Et |
 | 2025-12-03 | CAPR | +371% | +372% | -6% | FDA / clinical | Capricor Therapeutics Shared Topline Results From Its Phase 3 HOPE-3 Trial Evaluating Dera |
-| 2024-10-07 | SRRK | +362% | +255% | -19% | FDA / clinical | Scholar Rock Announced Topline Results From Phase 3 Sapphire Trial Of Apitegromab For Spin |
 | 2025-01-06 | FUBO | +251% | +176% | -12% | M&A | Bloomberg Reported Disney Nears Deal To Merge Hulu + Live Into Fubo |
 | 2025-09-24 | QURE | +248% | +188% | +26% | FDA / clinical | uniQure's AMT-130 Shows Phase 2 Data, Offering New Hope For Huntington's Disease Patients |
 | 2025-10-16 | PRAX | +184% | +176% | +9% | FDA / clinical | Praxis Precision Reports Phase 3 Results for Ulixacaltamide in Essential Tremor |
+| 2026-09-28 | KOD | +178% | +91% | — | FDA / clinical | Kodiak Sciences To Host Webcast To Report Phase 3 DAYBREAK Topline Results For Wet AMD Can |
 | 2026-08-19 | MRNA | +177% | +84% | -9% | FDA / clinical | Merck And Moderna Announce Topline Results From The Phase 3 Interpath-001 Trial Evaluating |
 | 2025-05-29 | SBET | +172% | +0% | -88% | crypto | SharpLink Gaming Stock Soars Over 500% This Week On Ethereum Treasury Move |
 | 2025-07-28 | CELC | +167% | +234% | +34% | FDA / clinical | Celcuity To Announce Topline Results For PIK3CA Wild-Type Cohort From Phase 3 VIKTORIA-1 T |
@@ -82,10 +82,12 @@
 | 2025-10-20 | BYND | +128% | +58% | -29% | other news | Beyond Meat Stock Surges After Debt Swap: No Bankruptcy, But Tons of Dilution |
 | 2025-05-08 | ASST | +127% | +64% | -25% | M&A | Asset Entities Shares Resume Trade Following Circuit Breaker Halt |
 | 2025-11-10 | COGT | +119% | +121% | +19% | FDA / clinical | Cogent Biosciences Files For Mixed Shelf Offering, Size Not Disclosed |
+| 2026-05-07 | AGL | +118% | +57% | +60% | earnings | Agilon Health Q1 EPS $2.94 Beats $1.31 Estimate, Sales $1.420B Beat $1.380B Estimate |
 | 2024-12-10 | QURE | +110% | +88% | -9% | FDA / clinical | uniQure Reaches Agreement With FDA On Key Elements Of An Accelerated Approval Pathway For  |
 | 2025-03-31 | CORT | +109% | +74% | -36% | FDA / clinical | Corcept Therapeutics Met Primary Endpoint In Phase 3 ROSELLA Trial of Relacorilant in Pati |
 | 2026-07-31 | REPL | +107% | +110% | +38% | FDA / clinical | 'US FDA panel backs Replimune skin cancer drug study data'- Reuters |
 | 2026-02-02 | AZN | +103% | +102% | +8% | FDA / clinical | The Committee for Medicinal Products for Human Use of the European Medicines Agency Recomm |
+| 2025-09-22 | MBX | +100% | +124% | -29% | FDA / clinical | MBX Biosciences To Report Topline Results From Phase 2 Clinical Trial Of Potential Once-We |
 | 2025-11-03 | RHLD | +97% | +79% | +24% | earnings | CORRECTION: Resolute Holdings Mgmt Q3 Adj. EPS $0.13, Sales $120.865M Up From $107.135M Yo |
 | 2025-01-21 | ASST | +94% | +145% | -33% | no news found |  |
 | 2024-11-29 | UMAC | +89% | +44% | +3% | other news | Unusual Machines Shares Halted On Circuit Breaker To The Upside, Stock Now Up 68.1% |
@@ -99,8 +101,6 @@
 | 2026-06-17 | QURE | +78% | +61% | -16% | FDA / clinical | uniQure To Submit BLA In Q3 2026 For AMT‑130 Huntington's Therapy After FDA Accepts 3‑Year |
 | 2026-04-24 | MXL | +76% | +58% | +64% | earnings | MaxLinear Q1 Adj. EPS $0.22 Beats $0.18 Estimate, Sales $137.188M Beat $134.999M Estimate |
 | 2024-11-08 | INOD | +76% | +25% | +2% | earnings | Innodata Sees FY2024 Sales to between 88% and 92% year-over-year. |
+| 2026-03-26 | KOD | +75% | +56% | +13% | FDA / clinical | Kodiak Reports Phase 3 Results For Zenkuda, Study Shows 85% Reduction In Sight-Threatening |
 | 2025-05-16 | TSSI | +74% | +47% | +40% | earnings | TSS Q1 EPS $0.12, Sales $98.96M Up From $15.89M YoY |
 | 2024-10-16 | WVE | +74% | +41% | +5% | earnings | Wave Life Sciences Achieves First-Ever Therapeutic RNA Editing In Humans With Results From |
-| 2026-02-12 | FSLY | +72% | +45% | +53% | earnings | Fastly Q4 Adj. EPS $0.12 Beats $0.06 Estimate, Sales $172.612M Beat $161.362M Estimate |
-| 2024-11-08 | SEZL | +72% | +40% | -23% | earnings | Sezzle Q3 EPS $2.62 Up From $0.23 YoY, Sales $69.96M Up From $40.84M YoY |
-| 2025-03-14 | USAR | +72% | -5% | -55% | no news found |  |
