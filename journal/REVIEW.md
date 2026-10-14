@@ -1,7 +1,7 @@
-# Review — 2026-10-13
+# Review — 2026-10-14
 
 - Champion: **rebound_scanner**
-- Equity: **$821.95** (phase zero-or-hero)
+- Equity: **$821.88** (phase zero-or-hero)
 - Real trades: 5, realised P&L $+209.00
 
 ## Shadow leaderboard (last 20 trades / all)
@@ -9,14 +9,16 @@
 | variant | n | win% | avg/trade | sum | best | worst | all-time n | all-time avg |
 |---|---|---|---|---|---|---|---|---|
 | catalyst_open | 4 | 75% | +87.1% | +348% | +339% | -100% | 4 | +87.1% |
-| claude_bias | 2 | 50% | +12.0% | +24% | +121% | -97% | 2 | +12.0% |
+| claude_bias | 3 | 67% | +44.6% | +134% | +121% | -97% | 3 | +44.6% |
+| meta_follow2 | 3 | 67% | +30.6% | +92% | +114% | -95% | 3 | +30.6% |
 | catalyst_intraday | 1 | 100% | +1.7% | +2% | +2% | +2% | 1 | +1.7% |
-| leader_follow | 0 | 0% | +0.0% | +0% | +0% | +0% | 0 | +0.0% |
-| megacap_reclaim | 0 | 0% | +0.0% | +0% | +0% | +0% | 0 | +0.0% |
 | rebound_scanner_any | 0 | 0% | +0.0% | +0% | +0% | +0% | 0 | +0.0% |
+| gapup_fade | 0 | 0% | +0.0% | +0% | +0% | +0% | 0 | +0.0% |
+| nvda_gapdown_put | 0 | 0% | +0.0% | +0% | +0% | +0% | 0 | +0.0% |
 | rebound_scanner 👑 | 3 | 33% | -1.5% | -5% | +188% | -100% | 3 | -1.5% |
-| meta_follow2 | 2 | 50% | -11.0% | -22% | +73% | -95% | 2 | -11.0% |
 | rebound_scanner_wide | 3 | 33% | -40.2% | -121% | +72% | -100% | 3 | -40.2% |
+| megacap_reclaim | 1 | 0% | -98.2% | -98% | -98% | -98% | 1 | -98.2% |
+| leader_follow | 1 | 0% | -100.0% | -100% | -100% | -100% | 1 | -100.0% |
 
 ## Last real trades
 
