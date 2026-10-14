@@ -1,27 +1,11 @@
 {
-  "date": "2026-10-13",
-  "done": true,
+  "date": "2026-10-14",
+  "done": false,
   "variants": {
-    "catalyst_open@2026-10-12": {
+    "leader_follow@2026-10-13": {
       "entered": true,
       "carried": true,
-      "of": "catalyst_open",
-      "closed": true
-    },
-    "claude_bias": {},
-    "meta_follow2": {},
-    "megacap_reclaim": {},
-    "rebound_scanner": {},
-    "rebound_scanner_wide": {},
-    "catalyst_open": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "catalyst_intraday": {},
-    "leader_follow": {
-      "attempts": 1,
-      "entered": true,
+      "of": "leader_follow",
       "shadow": {
         "contract": "ORCL261016C00150000",
         "direction": "call",
@@ -29,19 +13,62 @@
         "entry_price": 0.88,
         "peak": 1.33,
         "qty": 1,
-        "last": 0.98,
-        "last_time": "2026-10-13T15:45:02-04:00"
-      },
-      "hold": true
+        "last": 0.07,
+        "last_time": "2026-10-14T10:01:17-04:00"
+      }
     },
-    "rebound_scanner_any": {}
+    "claude_bias": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "SPY261014P00771000",
+        "direction": "put",
+        "entry_time": "2026-10-14T09:36:25-04:00",
+        "entry_price": 0.31,
+        "peak": 0.55,
+        "qty": 5,
+        "last": 0.47,
+        "last_time": "2026-10-14T10:01:17-04:00"
+      }
+    },
+    "meta_follow2": {},
+    "leader_follow": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "INTC261014C00102000",
+        "direction": "call",
+        "entry_time": "2026-10-14T09:50:03-04:00",
+        "entry_price": 0.6,
+        "peak": 0.6,
+        "qty": 2,
+        "last": 0.27,
+        "last_time": "2026-10-14T10:01:17-04:00"
+      }
+    },
+    "megacap_reclaim": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "NVDA261014C00227500",
+        "direction": "call",
+        "entry_time": "2026-10-14T09:48:17-04:00",
+        "entry_price": 0.54,
+        "peak": 0.56,
+        "qty": 3,
+        "last": 0.25,
+        "last_time": "2026-10-14T10:01:17-04:00"
+      }
+    },
+    "rebound_scanner": {},
+    "rebound_scanner_wide": {},
+    "rebound_scanner_any": {},
+    "gapup_fade": {},
+    "catalyst_open": {},
+    "catalyst_intraday": {}
   },
-  "real_underlyings": [
-    "CRM",
-    "META"
-  ],
   "generation": 1,
-  "equity_start": 500.0,
+  "equity_start": 821.8799999999974,
   "phase": "zero-or-hero",
   "risk_per_trade": 0.2,
   "champion": "rebound_scanner"
