@@ -109,6 +109,13 @@ scored against purely mechanical variants.
    If you cannot see a pre-market price for the candidate (e.g. Webull down and no Alpaca/IEX
    print), do not name it: on 2026-10-09 LITE was named blind and had gapped +6%.
    When Webull is unavailable, use Alpaca snapshots (zoh.alpaca, feed iex) and say so in the file.
+   Bearish days: when the SPY call is `put` with aligned macro evidence (hot data, yields and
+   dollar up, futures red), the sniper may be a put. Look for a mega cap with no good news of
+   its own, in a cooling theme or carrying a fresh negative (rate-sensitive, leveraged AI
+   build-out, a peer's miss), with a gap under ~4%. Do not pick a call on a name whose story
+   is momentum alone that day. On 2026-10-14 (hot core CPI) the META call never filled and
+   META fell 2%, while ORCL fell 7.6% and AMD 3.5%. Puts are still rarer than calls: the market
+   has trended up and the 10-07 put day lost.
 4. Write `journal/bias/<today>.json` in the schema from `journal/bias/README.md`, commit
    ("bias: <date> <call|put|none>") and push to `main` before 09:30 ET. Retry the push on
    conflict (`git pull --rebase`). Do not touch any other file. Never place trades.
