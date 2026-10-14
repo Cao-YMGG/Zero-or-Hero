@@ -13,8 +13,8 @@
         "entry_price": 0.88,
         "peak": 1.33,
         "qty": 1,
-        "last": 0.09,
-        "last_time": "2026-10-14T12:45:10-04:00"
+        "last": 0.1,
+        "last_time": "2026-10-14T13:15:48-04:00"
       }
     },
     "claude_bias": {
@@ -37,8 +37,8 @@
         "entry_price": 0.6,
         "peak": 0.6,
         "qty": 2,
-        "last": 0.07,
-        "last_time": "2026-10-14T12:45:10-04:00"
+        "last": 0.06,
+        "last_time": "2026-10-14T13:15:48-04:00"
       }
     },
     "megacap_reclaim": {
@@ -51,8 +51,8 @@
         "entry_price": 0.54,
         "peak": 0.56,
         "qty": 3,
-        "last": 0.01,
-        "last_time": "2026-10-14T12:45:10-04:00"
+        "last": 0.02,
+        "last_time": "2026-10-14T13:15:48-04:00"
       }
     },
     "rebound_scanner": {},
