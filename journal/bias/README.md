@@ -40,6 +40,10 @@ most days that have a fresh catalyst with a small gap, an upgrade being the most
 (journal/research/ANALYST.md: upgrades carry, downgrades do not). `catalyst_open` buys a
 ~0.1-delta option at the open (from 09:31, as long as the stock is not against the pick) and
 trails; `catalyst_sniper` keeps the 1% confirmation. Null only when nothing qualifies.
+On a `put` day with aligned macro evidence the sniper may be a put (`"direction": "put"`): a
+mega cap without good news of its own that is exposed to the day's driver (rates, a cooling
+theme, a peer's miss), gap under ~4%. Both catalyst variants trade puts the same way
+(catalyst_open buys at the open as long as the stock is not above it).
 What matters is whether the move is already in the price, not source vs echo. Pick the
 name in the catalyst chain with the most catalyst left relative to its gap: on 2026-09-21
 Meta (source, gap +2.3%) ran +10% while the CPU echoes had gapped 4-7%; on 2026-06-11

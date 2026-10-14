@@ -86,6 +86,12 @@ in EVOLUTION.md.
    (down gaps), with and without the "below the open" confirmation, and by gap size
    (2-4 / 4-6 / >6%) and by earnings vs non-earnings gap.
 
+16. **Bearish macro days: SPY puts and put snipers.** Days with a hot CPI/PPI/jobs print (or
+   yields up >= 5bp and futures red by 09:00): buy a 0DTE SPY put at 09:35 and, separately, a
+   ~0.1-delta put on the weakest mega cap in a cooling theme. Real option prices, last 3
+   months first, with and without the best one/two trades, against all other days. Live so
+   far: 10-07 put day -97% (afternoon auction reversal), 10-14 SPY put +52% at 10:01.
+
 ## Done
 
 - **Item 1, champion pick (2026-10-11, journal/research/realopt.json, 211 trades / 72 days, data to 2026-09-14).**
