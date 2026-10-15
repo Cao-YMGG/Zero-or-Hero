@@ -46,3 +46,5 @@ date,variant,mode,contract,direction,pnl_pct,thesis,entry,exit,discipline,score,
 2026-10-13,premarket_sniper,call,META,call,,,,,,,,right,META +3.6%; +346% real
 2026-10-14,premarket_spy,call,,put,,,,,,,,right,SPY -0.7% open to close (-1.1% vs prior close)
 2026-10-14,premarket_sniper,call,META,call,,,,,,,,wrong,META -3.0%; contradicted the put call; did not fill
+2026-10-15,premarket_spy,call,,none,,,,,,,,missed,"SPY +0.7% open to close (+0.3% vs prior close): chips reversed from -6% to green after the hot PPI; hard to see before the open"
+2026-10-15,premarket_sniper,call,AAPL,call,,,,,,,,wrong,"AAPL -1.4% open to close (342.00); no fresh catalyst, relative strength only; real 355C 0.36 -> ~0.01"

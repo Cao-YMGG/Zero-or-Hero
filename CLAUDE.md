@@ -126,6 +126,12 @@ scored against purely mechanical variants.
    map shows money moving into their sector.
    If you cannot see a pre-market price for the candidate (e.g. Webull down and no Alpaca/IEX
    print), do not name it: on 2026-10-09 LITE was named blind and had gapped +6%.
+   Relative strength or "money is moving into it" is not a catalyst. The sniper needs news of its
+   own from the last day (rating change, target raise, product, contract, company statement);
+   without one it is null. On 2026-10-15 AAPL was named on relative strength alone (no upgrade
+   found), the chip selloff reversed by 10:00, money left the haven and AAPL fell 1.4% from the
+   open: the real 355C went 0.36 -> 0.01 (-$140, 17% of the ledger). Low confidence is not the
+   filter (the 0.35 picks LITE and META made +$45 and +$322); a missing catalyst is.
    When Webull is unavailable, use Alpaca snapshots (zoh.alpaca, feed iex) and say so in the file.
    Bearish days: when the SPY call is `put` with aligned macro evidence (hot data, yields and
    dollar up, futures red), the sniper may be a put. Look for a mega cap with no good news of
