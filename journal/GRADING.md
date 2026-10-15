@@ -4,6 +4,15 @@ Result alone is mostly luck (one trade per variant per day). Each trade, real an
 process score out of 10 so that a lucky win and an unlucky loss are not confused. The daily
 post-market review fills `journal/grades.csv`; the weekly review averages it by variant.
 
+## Who fills it
+
+`python -m zoh.grade` runs at the end of the afternoon Trade job and appends every new closed
+trade: thesis, entry and exit are computed from prices (underlying minute bars between entry and
+exit; the peak from journal/exits.csv), discipline is pre-filled with the visible deductions
+(direction against the day's SPY call, a macro day without a filter). The daily review checks the
+discipline score, adds judgment deductions (blind pick, stale catalyst, budget-forced strike,
+late entry) and the pre-market call verdicts. Rows marked "auto" have not been reviewed yet.
+
 ## Trade score (0-10)
 
 | part | points | rule |

@@ -64,6 +64,10 @@ jobs:
       - name: Review and promote
         if: always()
         run: python -m zoh.review
+      - name: Grade today's trades
+        if: always()
+        continue-on-error: true
+        run: python -m zoh.grade
       - name: Commit journal
         if: always()
         run: .github/commit-journal.sh "afternoon"
