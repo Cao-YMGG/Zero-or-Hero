@@ -111,6 +111,15 @@ in EVOLUTION.md.
    (diagnostics 2026-10-13), so spreads are allowed. Expectation: spreads cut the fat tails
    this phase lives on, so they belong to `compounder`, not `zero-or-hero`.
 
+18. **Sniper strike distance (the other Claude's 10-15 change).** They moved their sniper from a
+   fixed 0.10 delta to a strike half the stock's 20-day average daily move out of the money,
+   never below 0.30 delta (their owner's view, not a backtest). On real prices for our sniper
+   days and the strict-upgrade events (realopt2): 0.10 vs 0.20 vs 0.30 delta vs 0.5x / 1x the
+   daily swing, last 3 months first, with and without the best one/two trades, and what our
+   budget could actually buy (20% of the ledger, one-contract cap 50%). 2026-10-15: AAPL 355C
+   (0.12 delta, 2.3% out, AAPL's daily swing ~1.2%) -97%; 2026-10-13: META 775C (~0.1 delta)
+   +346%. Live twin since 10-16: catalyst_open_near (0.30 delta, shadow).
+
 ## Done
 
 - **Item 1, champion pick (2026-10-11, journal/research/realopt.json, 211 trades / 72 days, data to 2026-09-14).**
