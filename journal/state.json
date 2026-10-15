@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "done": false,
+  "done": true,
   "variants": {
     "leader_follow@2026-10-13": {
       "entered": true,
@@ -14,8 +14,9 @@
         "peak": 1.33,
         "qty": 1,
         "last": 0.05,
-        "last_time": "2026-10-15T15:16:57-04:00"
-      }
+        "last_time": "2026-10-15T15:45:00-04:00"
+      },
+      "hold": true
     },
     "claude_bias": {},
     "meta_follow2": {},
@@ -29,9 +30,10 @@
         "entry_price": 0.66,
         "peak": 1.77,
         "qty": 2,
-        "last": 1.56,
-        "last_time": "2026-10-15T15:16:57-04:00"
-      }
+        "last": 1.41,
+        "last_time": "2026-10-15T15:45:00-04:00"
+      },
+      "hold": true
     },
     "megacap_reclaim": {
       "attempts": 1,
@@ -43,9 +45,10 @@
         "entry_price": 0.64,
         "peak": 1.24,
         "qty": 2,
-        "last": 0.38,
-        "last_time": "2026-10-15T15:16:57-04:00"
-      }
+        "last": 0.43,
+        "last_time": "2026-10-15T15:45:00-04:00"
+      },
+      "hold": true
     },
     "rebound_scanner": {},
     "rebound_scanner_wide": {},
@@ -59,9 +62,10 @@
         "entry_price": 0.26,
         "peak": 0.43,
         "qty": 6,
-        "last": 0.31,
-        "last_time": "2026-10-15T15:16:57-04:00"
-      }
+        "last": 0.26,
+        "last_time": "2026-10-15T15:45:00-04:00"
+      },
+      "hold": true
     },
     "gapup_fade": {},
     "nvda_gapdown_put": {},
@@ -75,8 +79,8 @@
         "entry_price": 0.39,
         "peak": 0.39,
         "qty": 4,
-        "last": 0.04,
-        "last_time": "2026-10-15T15:16:57-04:00"
+        "last": 0.01,
+        "last_time": "2026-10-15T15:45:00-04:00"
       },
       "real": {
         "contract": "AAPL261016C00355000",
@@ -84,7 +88,8 @@
         "underlying": "AAPL",
         "entry_price": 0.36,
         "entry_time": "2026-10-15T09:34:11-04:00"
-      }
+      },
+      "hold": true
     },
     "catalyst_intraday": {}
   },

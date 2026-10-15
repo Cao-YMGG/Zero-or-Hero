@@ -1,7 +1,7 @@
-# Review — 2026-10-14
+# Review — 2026-10-15
 
 - Champion: **rebound_scanner**
-- Equity: **$821.88** (phase zero-or-hero)
+- Equity: **$685.78** (phase zero-or-hero)
 - Real trades: 5, realised P&L $+209.00
 
 ## Shadow leaderboard (last 20 trades / all)
