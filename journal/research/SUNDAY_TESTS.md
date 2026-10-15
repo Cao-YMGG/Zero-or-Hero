@@ -42,6 +42,10 @@ in EVOLUTION.md.
    trail exit $4.15 (floor was $4.43 = 60% of peak; a 30-second poll in a fast drop filled
    below it). Compare giveback 0.4 flat vs 0.25 once the option is >= 5x, and a floor at
    peak minus a fixed share of the gain.
+   Third exit to compare (the other Claude's split, proposed 2026-10-14): sell half at 2x or 3x,
+   trail the rest (40% giveback). 2026-10-14 META 737.5P: $1.22 -> peak $4.64 -> trail exit
+   $2.61; half at 3x would have sold near $3.66. Decision rule: adopt for the snipers only if
+   it beats the single trail over the last 3 months AND without the best trade.
 9. **Delta floor for expensive underlyings.** With a small budget, rebound_scanner on MU
    (~$1,000) could only afford a 3.3%-OTM same-day call (Alpaca delta 0.00, target 0.08);
    it expired worthless. Test skipping (or switching to the cheapest affordable strike with
