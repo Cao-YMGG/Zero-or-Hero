@@ -27,7 +27,10 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
   flat or red (META 2026-10-12/13 while chips sold off). Search that company's own news
   (product launches, model releases, analyst target changes) before calling a move "no news":
   on 2026-10-12 the Muse Wonder launch was missed and META ran +3.4%, then +4.5% the next day.
-- Weekdays 16:35 ET: daily post-market review and light evolution.
+- Weekdays 16:35 ET: daily post-market review and light evolution. Grade every closed trade
+  (real and shadow) and the day's pre-market calls in `journal/grades.csv` with the rubric in
+  `journal/GRADING.md` (process score out of 10, separate from the result; peaks from
+  `journal/exits.csv`). A win with a low score is luck, not evidence.
 - Sundays 09:52 ET: weekly deep review (full protocol below, population cleanup, backtests).
 
 ## Noise gate (applies to the daily review)
@@ -53,7 +56,9 @@ sizing needs >= 10 live trades of evidence, or a documented regime change.
    rules here live on fat tails, and on 2026-10-07 a +6% result became -12% once false events
    and one +415% trade were removed. A rule that is only positive because of one trade is a
    candidate at most.
-   Then diagnose: which variants make money live vs backtest? Is the fade control as good as the
+   Then diagnose: average grade (journal/grades.csv) next to average result per variant; good
+   scores with bad results need more trades, bad scores with good results are luck and are never
+   promoted. Which variants make money live vs backtest? Is the fade control as good as the
    trend versions (then direction has no edge)? Are shadow fills far from real fills?
 3. Change at most a few things per week, each with a stated hypothesis: add 1–2 new
    challenger variants, retire variants with ≥20 live trades and clearly negative

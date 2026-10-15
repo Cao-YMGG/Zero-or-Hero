@@ -11,6 +11,8 @@ TRADES_PATH = JOURNAL_DIR / "trades.csv"
 EQUITY_PATH = JOURNAL_DIR / "equity.csv"
 STATE_PATH = JOURNAL_DIR / "state.json"
 LEDGER_PATH = JOURNAL_DIR / "ledger.json"
+EXITS_PATH = JOURNAL_DIR / "exits.csv"
+EXIT_FIELDS = ["date", "variant", "mode", "contract", "entry_price", "exit_price", "peak", "exit_reason"]
 BIAS_DIR = JOURNAL_DIR / "bias"
 
 TRADE_FIELDS = ["date", "variant", "mode", "contract", "direction", "entry_time", "entry_price",
@@ -109,6 +111,17 @@ def append_trade(row):
         if new:
             writer.writeheader()
         writer.writerow({k: row.get(k, "") for k in TRADE_FIELDS})
+
+
+def append_exit(row):
+    """Peak price seen while holding, per closed trade (for grading exits; see GRADING.md)."""
+    JOURNAL_DIR.mkdir(exist_ok=True)
+    new = not EXITS_PATH.exists()
+    with EXITS_PATH.open("a", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=EXIT_FIELDS)
+        if new:
+            writer.writeheader()
+        writer.writerow({k: row.get(k, "") for k in EXIT_FIELDS})
 
 
 def record_equity(row):

@@ -484,3 +484,28 @@ class NvdaGapDownPutTest(unittest.TestCase):
         self.assertIsNone(signal_gap(bars(225.6, 226.0), v, {"gap_pct": -1.3}))  # back above open
         self.assertIsNone(signal_gap(bars(225.6, 224.4), v, {"gap_pct": 0.8}))   # gapped up
         self.assertIsNone(signal_gap(bars(225.6, 224.4, n=20), v, {"gap_pct": -1.3}))  # before 10:00
+
+
+class ExitLogTest(unittest.TestCase):
+    """Every close writes the peak it saw, so exits can be graded (journal/GRADING.md)."""
+
+    def test_append_exit_writes_header_once(self):
+        import csv
+        import tempfile
+        from pathlib import Path
+        from zoh import journal
+        with tempfile.TemporaryDirectory() as tmp:
+            old = journal.JOURNAL_DIR, journal.EXITS_PATH
+            journal.JOURNAL_DIR, journal.EXITS_PATH = Path(tmp), Path(tmp) / "exits.csv"
+            try:
+                journal.append_exit({"date": "2026-10-14", "variant": "meta_follow2", "mode": "shadow",
+                                     "contract": "META261014P00737500", "entry_price": 1.22,
+                                     "exit_price": 2.61, "peak": 4.64, "exit_reason": "trail"})
+                journal.append_exit({"date": "2026-10-14", "variant": "leader_follow", "mode": "shadow",
+                                     "contract": "INTC261014C00102000", "entry_price": 0.6,
+                                     "exit_price": 0, "peak": "", "exit_reason": "time"})
+                rows = list(csv.DictReader(journal.EXITS_PATH.open()))
+            finally:
+                journal.JOURNAL_DIR, journal.EXITS_PATH = old
+        self.assertEqual(len(rows), 2)
+        self.assertEqual(rows[0]["peak"], "4.64")
