@@ -8,7 +8,7 @@ on:
         default: "2"
   push:
     branches: ["claude/**"]
-    paths: ["zoh/research/**", ".github/workflows/research.yml"]
+    paths: ["zoh/research/surges.py", ".github/workflows/research.yml"]
 
 permissions:
   contents: write
