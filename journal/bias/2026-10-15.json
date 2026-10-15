@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-15",
+  "bias": "none",
+  "confidence": 0.0,
+  "summary": "Mixed for SPY. The AI and chip selloff is going global (Kospi in a bear market, CoreWeave bonds near distress), and PPI and retail sales both came in hot, but Treasuries are rallying hard as a haven (TLT +2%) and the Dow and banks are up. Nasdaq is red and the Dow green, so SPY (-0.25%) has no clean direction: skip.",
+  "reasons": [
+    "Webull pre-market 08:52: SPY 767.68 (-0.25% vs 769.60), QQQ 720.27 (-1.2%), SMH 549.92 (-2.6%), TLT 80.50 (+2.0%), USO -0.1%, UUP -0.3%. Futures around 08:00: Nasdaq about -1%, S&P -0.3%, Dow and Russell +0.3-0.4%",
+    "08:30 data, both hot: September PPI +1.3% m/m (about 0.5% expected), 6.3% y/y (about 5.3% expected), the biggest jump in four years (CNN). Retail sales +0.8% vs +0.3% expected. Core figures not found",
+    "Rates move the other way: the 10Y fell about 10bp to about 5.08% early (ZeroHedge, before the data), the lowest since 9-23. October hike odds fell back to about 30% from a 58% peak after CPI. TLT is +2% at 08:52, so the data did not reverse the haven bid. 2Y change and VIX not found",
+    "AI unwind, day 3: the 20 largest AI and chip stocks have lost more than $1 trillion this week. CoreWeave unsecured bond yields are near 15% (Bernstein: 'typically associated with distress'). TSMC had a record profit but was cautious on 2027. SK Hynix -6.7%. The worry has shifted from AI demand to who can finance the build-out",
+    "Pre-market down gaps >= 2% in the rebound universe: MU 873.54 (-4.4% vs 914.13), INTC 94.21 (-4.0%), AMD 550.68 (-3.5%), COIN -2.0%. Also AVGO -1.8%, NVDA 217.16 (-1.9%), PLTR -2.5%, ORCL -1.9%, TSLA -1.5%, META 728.26 (-1.3%), AMZN -1.2%, MSFT -0.5%, GOOGL -0.8%. Thursday has no same-day single-stock expiry: the champion is off, but rebound_scanner_any (nearest expiry, shadow) can fire. PPI and retail sales are not in macro_events.json, so non-event filters do not stop it",
+    "Holding up or up: JPM 339.01 (+1.1%), UNH +1.0% after +4.7%, LLY +1.7% after +3.6%, AAPL 345.50 (+0.7%), NFLX +1.0%. Money is moving from AI hardware into banks, health care and Apple",
+    "Night session (new checklist step): SPY overnight 767.40 (-0.29%), QQQ -1.1%, TLT +1.2%, SMH -2.1%, USO -1.1%. The night selling continued into the pre-market, so this is not the SPY 'night down, pre-market recovers' lean. Treated as news (Asia AI rout), not as a direction signal",
+    "AMD dossier: down gaps >= 2% continued only 42% of the time (median open->close +0.5%), but this is a financing-driven sector rout with no sell-side pushback yet; the gap rebound rule is negative on real option prices. META dossier: -1.3% is a small gap (they mostly fill), but META is being sold with AI capex names and its earnings are 10-21 or 10-28",
+    "Earnings window: NFLX 10-20, TSLA and META 10-21 (META unconfirmed), MSFT and GOOGL 10-28, INTC 10-29, AAPL 11-02. TSMC reported today (cautious 2027, a negative read-through for chips)"
+  ],
+  "events": ["PPI 08:30 (hot)", "Retail sales 08:30 (hot)", "TSMC earnings"],
+  "inputs": {"es_futures_pct": -0.3, "vix": null, "wti_pct": -0.1, "us10y": 5.08,
+             "us10y_change_bp": -10, "us2y_change_bp": null, "dxy_pct": -0.3,
+             "overnight": "Global AI and chip rout: Kospi in a bear market, SK Hynix -6.7%, Treasuries bid hard. Hot US PPI and retail sales at 08:30 did not stop the bond rally. Oil and the dollar are slightly lower. USO is used for oil, UUP stands in for DXY, and the 10Y level comes from an early report. VIX and the 2Y were not found"},
+  "rotation": {
+    "heating": ["health care (UNH +4.7%, LLY +3.6% on 10-14, both up again pre-market)", "banks after earnings (JPM +1.1% pre-market)", "Apple (AAPL +1.9% 1w; up again pre-market while tech falls)", "META held up best among AI-capex names on the week (+2.2% 1w to 10-14) but is -1.3% pre-market"],
+    "cooling": ["memory (MU -16% 1w, -4.4% pre-market)", "CPU (INTC -13%, AMD -12% 1w)", "optical (LITE -19% 1w)", "GPU (NVDA -7% 1w)", "AI infrastructure and financing (ORCL -9% 1w, CoreWeave)", "QQQ -3.8% 1w vs SPY -1.0%"],
+    "note": "1-week returns are closes 2026-10-14 vs 10-07 from Webull daily bars. Power and disk storage were not recomputed today (last read 10-13: power heating, storage cooling). Money is leaving AI hardware and the AI financing chain for banks, health care and Apple. Treasuries are a haven, which breaks this week's pattern of stocks and bonds falling together"
+  },
+  "sniper": {
+    "symbol": "AAPL",
+    "direction": "call",
+    "catalyst": "AAPL is the big tech name money is moving into: it is outside the AI capex and financing chain now being sold, it was +0.5% on a day QQQ fell 2%, and it is +0.7% pre-market (345.50, record 348.15). Today's hot retail sales (+0.8% vs +0.3%) back the consumer side, and the HomeView launch (10-13) adds product news. The gap is small. Earnings are 11-02, entering the 10-day drift window next week. Weaker than a fresh upgrade: no AAPL rating change was found this morning, and part of the story is relative strength. A call is allowed because today's SPY call is none, not put",
+    "confidence": 0.3
+  },
+  "generated_at": "2026-10-15T08:58:00-04:00"
+}
