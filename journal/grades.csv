@@ -1,0 +1,48 @@
+date,variant,mode,contract,direction,pnl_pct,thesis,entry,exit,discipline,score,luck,verdict,note
+2026-10-06,claude_bias,shadow,SPY261006C00782000,call,1.2105,2,2,2,3,9,,,SPY up from the open (high +0.4%); 2x take profit
+2026-10-06,claude_confirm,shadow,SPY261006C00783000,call,1.1818,2,2,2,3,9,,,"same day, confirmed entry"
+2026-10-06,open_drive_run,shadow,SPY261006C00784000,call,-1.0,1,1,0,2,4,,,784 strike never reached (high 781.6); peak 1.6x given back
+2026-10-06,catalyst_sniper,shadow,AMD261007C00675000,call,-0.7299,1,0,1,2,4,,,"AMD flat; bought at 11:04 after the 1% confirmation, strike far"
+2026-10-06,catalyst_intraday,shadow,AVGO261007C00385000,call,0.0171,2,1,2,3,8,,,"AVGO financing news, ran +2.4% but not to 385; peak 1.4x"
+2026-10-07,claude_bias,shadow,SPY261007P00771000,put,-0.9697,0,1,0,2,3,,,SPY closed up; 13:00 10Y auction reversed the afternoon (not in the checklist then)
+2026-10-07,claude_confirm,shadow,SPY261007P00770000,put,-0.9714,0,0,1,2,3,,,"same call, wrong"
+2026-10-07,open_drive_run,shadow,SPY261007P00770000,put,-0.9714,0,0,1,2,3,,,"followed the open, reversed"
+2026-10-07,amd_gap_cheap_run,shadow,AMD261007P00630000,put,-1.0,0,1,0,2,3,,,AMD closed up 1.7%; peak 1.3x given back
+2026-10-07,meta_follow2,shadow,META261007P00717500,put,-0.9535,1,0,1,3,5,,,META drifted lower but never reached 717.5
+2026-10-07,rebound_scanner,shadow,AMD261007C00650000,call,-0.9252,2,0,1,3,6,unlucky,,AMD rebounded (high 648.5) but not to 650
+2026-10-07,rebound_scanner,real,AMD261007C00650000,call,-0.9379,2,0,1,3,6,unlucky,,real fill = shadow ask
+2026-10-07,rebound_scanner_wide,shadow,AMD261007C00650000,call,-0.9252,2,0,1,3,6,unlucky,,same contract
+2026-10-09,catalyst_open,shadow,LITE261009C01200000,call,0.7381,2,2,2,1,7,,,"named blind: LITE had gapped +6%; ran to 1143 early, trail exit"
+2026-10-09,catalyst_open,real,LITE261009C01200000,call,1.125,2,2,2,1,7,,,real fill better than shadow
+2026-10-09,rebound_scanner,shadow,AAPL261009C00337500,call,1.88,3,2,1,3,9,,,"AAPL reclaimed and passed the strike; peak 5x, kept 58%"
+2026-10-09,rebound_scanner,real,AAPL261009C00337500,call,2.0435,3,2,1,3,9,,,real
+2026-10-09,rebound_scanner_wide,shadow,AAPL261009C00337500,call,0.72,3,2,1,3,9,,,wider trail kept only 35% of the peak
+2026-10-09,catalyst_sniper,shadow,LITE261009C01180000,call,-1.0,0,0,1,1,2,,,bought 10:57 after the run; LITE faded to close below the open
+2026-10-09,catalyst_sniper,shadow,MRVL261009C00297500,call,-1.0,0,0,1,2,3,,,"MRVL pick 10-07, carried to Friday expiry, fell"
+2026-10-09,catalyst_open,shadow,MRVL261009C00302500,call,-1.0,0,1,0,2,3,,,peak 1.3x then zero
+2026-10-12,meta_follow2,shadow,META261012C00755000,call,0.7333,2,2,2,3,9,,,META +2% rotation day; trail exit near the peak
+2026-10-12,rebound_scanner,shadow,MU261012C01025000,call,-1.0,1,0,1,1,3,,,budget forced a 3.3% OTM strike (delta ~0); MU never bounced
+2026-10-12,rebound_scanner,real,MU261012C01025000,call,-1.0,1,0,1,1,3,,,expired
+2026-10-12,rebound_scanner_wide,shadow,MU261012C01025000,call,-1.0,1,0,1,1,3,,,same
+2026-10-13,catalyst_open,shadow,META261014C00775000,call,3.3895,3,2,1,3,9,,,"Muse catalyst, +3.6%; peak $7.39, exit $4.17 (56%)"
+2026-10-13,catalyst_open,real,META261014C00775000,call,3.4624,3,2,1,3,9,,,real fill $0.93 vs shadow $0.95
+2026-10-13,catalyst_open,shadow,CRM261016C00252500,call,0.3571,2,2,1,2,7,,,"BofA double upgrade, gap 3.9% near the line; peak 2.3x, kept 59%"
+2026-10-14,claude_bias,shadow,SPY261014P00771000,put,1.0968,3,2,1,3,9,,,"hot core CPI; 2x take profit at 10:07, SPY kept falling to 766.7"
+2026-10-14,meta_follow2,shadow,META261014P00737500,put,1.1393,3,2,1,3,9,,,"peak $4.64, trail exit $2.61 (56%)"
+2026-10-14,leader_follow,shadow,INTC261014C00102000,call,-1.0,0,0,1,1,2,,,CPI day false start; call-only rule against a put day
+2026-10-14,megacap_reclaim,shadow,NVDA261014C00227500,call,-0.9815,0,0,1,1,2,,,CPI day false start; reclaim failed
+2026-10-05,premarket_spy,call,,none,,,,,,,,missed,SPY +0.7% open to close
+2026-10-06,premarket_spy,call,,call,,,,,,,,right,"SPY +0.1% close, +0.4% high"
+2026-10-06,premarket_sniper,call,AMD,call,,,,,,,,flat,AMD +0.1% (high +1.5%)
+2026-10-07,premarket_spy,call,,put,,,,,,,,wrong,SPY +0.2%; afternoon auction reversal
+2026-10-07,premarket_sniper,call,MRVL,call,,,,,,,,right,"MRVL +1.3%, but put call for SPY the same day (contradiction); trades lost"
+2026-10-08,premarket_spy,call,,none,,,,,,,,ok,SPY -0.1%
+2026-10-08,premarket_sniper,call,PLTR,call,,,,,,,,flat,PLTR -0.1% (high +2.7%); no fill
+2026-10-09,premarket_spy,call,,none,,,,,,,,ok,SPY +0.3%
+2026-10-09,premarket_sniper,call,LITE,call,,,,,,,,wrong,"LITE -1.1% close, but +2.5% early; named blind; catalyst_open still won"
+2026-10-12,premarket_spy,call,,none,,,,,,,,ok,SPY -0.1%
+2026-10-12,premarket_sniper,call,CRM,call,,,,,,,,wrong,"CRM -1.0% that day, +1.3% the next"
+2026-10-13,premarket_spy,call,,none,,,,,,,,ok,SPY +0.1%
+2026-10-13,premarket_sniper,call,META,call,,,,,,,,right,META +3.6%; +346% real
+2026-10-14,premarket_spy,call,,put,,,,,,,,right,SPY -0.7% open to close (-1.1% vs prior close)
+2026-10-14,premarket_sniper,call,META,call,,,,,,,,wrong,META -3.0%; contradicted the put call; did not fill

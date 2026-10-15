@@ -313,18 +313,19 @@ class Bot:
     def close(self, variant, vstate, price, reason, now):
         shadow = vstate.pop("shadow")
         log(f"{variant['id']}: exit {shadow['contract']} @ {price} ({reason})")
-        self._record(variant, "shadow", shadow, price, now, reason, shadow["qty"])
+        self._record(variant, "shadow", shadow, price, now, reason, shadow["qty"], shadow.get("peak"))
         real = vstate.pop("real", None)
         if real:
             filled, fill_price, how = self._sell_out(real["contract"], real["qty"], "out")
             if filled:
                 self._record(variant, "real", real, fill_price, now_et(),
-                             reason if how == "market" else "penny", filled)
+                             reason if how == "market" else "penny", filled, shadow.get("peak"))
             elif self._expires_today(real["contract"]):
                 # Expiring with no bid and the penny limit unfilled: the contract expires
                 # worthless, so book it at 0 rather than lose the trade from the journal.
                 log(f"!! real exit for {real['contract']} did not fill; booked as expired at 0")
-                self._record(variant, "real", real, 0.0, now_et(), "expired", real["qty"])
+                self._record(variant, "real", real, 0.0, now_et(), "expired", real["qty"],
+                             shadow.get("peak"))
             else:
                 log(f"!! real exit for {real['contract']} did not fill; final sweep will retry")
         vstate["closed"] = True
@@ -347,8 +348,12 @@ class Bot:
         log(f"penny: {contract} {'filled' if filled else 'not filled'} at the $0.01 limit")
         return filled, price, "penny"
 
-    def _record(self, variant, mode, pos, exit_price, now, reason, qty):
+    def _record(self, variant, mode, pos, exit_price, now, reason, qty, peak=None):
         entry = pos["entry_price"]
+        journal.append_exit({"date": self.state["date"], "variant": variant["id"], "mode": mode,
+                             "contract": pos["contract"], "entry_price": entry,
+                             "exit_price": exit_price, "peak": peak if peak is not None else "",
+                             "exit_reason": reason})
         journal.append_trade({
             "date": self.state["date"], "variant": variant["id"], "mode": mode,
             "contract": pos["contract"], "direction": parse_occ(pos["contract"])[2],
