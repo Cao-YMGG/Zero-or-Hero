@@ -38,6 +38,9 @@ in EVOLUTION.md.
    0.6 (giveback 0.4) for rebound_scanner, catalyst_open and meta_follow2. 2026-10-12:
    CRM 252.5C peaked +66% and never armed the trail (now -70%); META 755C armed it and kept
    +73%. Report with and without the best trade.
+   2026-10-15: GOOGL 357.5C (megacap_reclaim) $0.64 -> peak $1.24 (1.94x, just short of
+   arming) -> $0.43 at 15:45; ORCL 135C (leader_follow) reached 2.7x and armed. Include
+   megacap_reclaim and leader_follow in the comparison.
    Also test a tighter trail on big runners: 2026-10-13 META 775C $0.93 -> peak $7.39 ->
    trail exit $4.15 (floor was $4.43 = 60% of peak; a 30-second poll in a fast drop filled
    below it). Compare giveback 0.4 flat vs 0.25 once the option is >= 5x, and a floor at
@@ -75,6 +78,10 @@ in EVOLUTION.md.
    rebound rule and the reclaim rule on Tue/Thu using the next day's expiry against their
    Mon/Wed/Fri same-day results. Live twins since 10-14: rebound_scanner_any (shadow) and
    megacap_reclaim with any_expiry.
+   2026-10-15 (Thursday, hot PPI): MU gapped -4.4% and went 858 -> 931 (+1.9% on the day),
+   AMD -7% -> -1.5%; the champion sat out (no same-day expiry) and rebound_scanner_any
+   bought NVDA 225C by list order (peak 1.65x). Also count how often a multi-day sector
+   rout (3+ red days, sector -15%) ends in a gap-down reversal like this one.
 
 14. **Pre-earnings drift with 2-4 week calls (compounder phase).** Buy ~0.3-delta calls
    expiring after the report, 10 trading days before it, sell the day before the report.
