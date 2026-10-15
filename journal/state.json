@@ -13,8 +13,8 @@
         "entry_price": 0.88,
         "peak": 1.33,
         "qty": 1,
-        "last": 0.05,
-        "last_time": "2026-10-15T11:02:59-04:00"
+        "last": 0.01,
+        "last_time": "2026-10-15T11:33:28-04:00"
       }
     },
     "claude_bias": {},
@@ -27,10 +27,10 @@
         "direction": "call",
         "entry_time": "2026-10-15T09:46:16-04:00",
         "entry_price": 0.66,
-        "peak": 1.14,
+        "peak": 1.48,
         "qty": 2,
-        "last": 0.67,
-        "last_time": "2026-10-15T11:02:59-04:00"
+        "last": 1.09,
+        "last_time": "2026-10-15T11:33:28-04:00"
       }
     },
     "megacap_reclaim": {
@@ -43,8 +43,8 @@
         "entry_price": 0.64,
         "peak": 1.24,
         "qty": 2,
-        "last": 0.54,
-        "last_time": "2026-10-15T11:02:59-04:00"
+        "last": 0.52,
+        "last_time": "2026-10-15T11:33:28-04:00"
       }
     },
     "rebound_scanner": {},
@@ -57,10 +57,10 @@
         "direction": "call",
         "entry_time": "2026-10-15T09:46:16-04:00",
         "entry_price": 0.26,
-        "peak": 0.37,
+        "peak": 0.39,
         "qty": 6,
-        "last": 0.29,
-        "last_time": "2026-10-15T11:02:59-04:00"
+        "last": 0.33,
+        "last_time": "2026-10-15T11:33:28-04:00"
       }
     },
     "gapup_fade": {},
@@ -76,7 +76,7 @@
         "peak": 0.39,
         "qty": 4,
         "last": 0.06,
-        "last_time": "2026-10-15T11:02:59-04:00"
+        "last_time": "2026-10-15T11:33:28-04:00"
       },
       "real": {
         "contract": "AAPL261016C00355000",
