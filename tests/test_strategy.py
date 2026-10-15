@@ -509,3 +509,33 @@ class ExitLogTest(unittest.TestCase):
                 journal.JOURNAL_DIR, journal.EXITS_PATH = old
         self.assertEqual(len(rows), 2)
         self.assertEqual(rows[0]["peak"], "4.64")
+
+
+class AutoGradeTest(unittest.TestCase):
+    """zoh.grade: the price-based parts of the trade score (journal/GRADING.md)."""
+
+    def test_thesis(self):
+        from zoh.grade import thesis_score
+        self.assertEqual(thesis_score("put", 771, 773.3, 769.6, 766.7), 3)    # SPY 10-14
+        self.assertEqual(thesis_score("call", 650, 637.0, 645.9, 648.5), 2)   # AMD 10-07
+        self.assertEqual(thesis_score("call", 1025, 990.0, 989.0, 1002.0), 1)  # MU 10-12
+        self.assertEqual(thesis_score("call", 102, 100.6, 98.1, 101.3), 0)    # INTC 10-14
+
+    def test_entry_exit(self):
+        from zoh.grade import entry_score, exit_score
+        self.assertEqual(entry_score(1.22, 4.64), 2)
+        self.assertEqual(exit_score(1.22, 2.61, 4.64), 1)   # kept 56%
+        self.assertEqual(exit_score(0.93, 4.15, 7.39), 1)
+        self.assertEqual(exit_score(0.75, 1.30, 1.48), 2)
+        self.assertEqual(exit_score(0.6, 0.0, 0.6), 1)      # never moved: nothing to manage
+        self.assertEqual(exit_score(0.12, 0.0, 0.19), 0)    # 1.6x given back
+        self.assertIsNone(entry_score(1.0, None))
+
+    def test_discipline_and_luck(self):
+        from zoh.grade import discipline_auto, luck_flag
+        self.assertEqual(discipline_auto("call", "leader_follow", {}, "put", True)[0], 1)
+        self.assertEqual(discipline_auto("call", "leader_follow", {"days": "non_event"}, "put", True)[0], 2)
+        self.assertEqual(discipline_auto("put", "claude_bias", {}, "put", True)[0], 3)
+        self.assertEqual(luck_flag(1.1, 4), "lucky")
+        self.assertEqual(luck_flag(-0.9, 6), "unlucky")
+        self.assertEqual(luck_flag(-0.9, None), "")
