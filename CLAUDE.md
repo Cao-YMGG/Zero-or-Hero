@@ -99,6 +99,11 @@ scored against purely mechanical variants.
    (LITE, CIEN), power (GEV, VST), internet (META, GOOGL, MSFT, AMZN, AAPL), plus SPY/QQQ —
    and record which themes are heating up (money flowing in) and cooling (flowing out).
    Add newly hot themes (e.g. a new AI supply-chain link) as they appear.
+   Outside tech, also track sector baskets every day: banks (JPM, GS, BAC), health care (UNH,
+   LLY), energy (XOM, CVX), consumer (WMT, COST, HD), industrials (CAT, GE), with XLF/XLV/
+   XLE/XLY/XLI and IWM as checks. Every universe and theme here was tech, so on 2026-10-14/15,
+   when money left AI hardware for banks and health care (UNH +4.7%, LLY +3.6%), we had
+   nothing pointed at where it went.
    A theme that is hottest into its own industry event (e.g. optical into the OCP summit)
    can be sold on the news: on 2026-10-12 LITE and CIEN fell ~10% with no news on the
    summit's first day. Do not name a sniper in such a theme on an event day, and note the
@@ -116,6 +121,9 @@ scored against purely mechanical variants.
    in a cooling theme tends to fade. scan mega caps with same-day options for a fresh,
    non-earnings catalyst (Webull PRE_MARKET movers + news, and that morning's analyst upgrades/downgrades on mega caps, e.g. 24/7 Wall St. "top analyst research calls"; 2026-10-05 Melius upgraded MSFT to Buy, gap only +0.9%, and it ran +1.5% from the open in 15 minutes). Name at most one stock with
    direction and catalyst in `sniper`; see journal/bias/README.md for the bar it must clear.
+   Non-tech mega caps qualify too (JPM, GS, UNH, LLY, XOM, WMT, COST, V...). They mostly have
+   Friday expiries only, so the sniper buys the nearest expiry; prefer them when the rotation
+   map shows money moving into their sector.
    If you cannot see a pre-market price for the candidate (e.g. Webull down and no Alpaca/IEX
    print), do not name it: on 2026-10-09 LITE was named blind and had gapped +6%.
    When Webull is unavailable, use Alpaca snapshots (zoh.alpaca, feed iex) and say so in the file.
