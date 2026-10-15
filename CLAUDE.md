@@ -87,6 +87,11 @@ scored against purely mechanical variants.
    yesterday's SPY close and trend, **crude oil (WTI/Brent) overnight move and why**,
    **US Treasury yields (2Y, 10Y) overnight change**, and the dollar index (DXY). Rising
    yields or an oil spike are usually equity headwinds; note what is already priced in.
+   Night session (Webull snapshot with overnight_required=true; 20:00-04:00 ET): use it to spot
+   news that broke after the close, not as a direction signal. journal/research/OVERNIGHT.md
+   (2024-02+): the night move barely predicts open->close (SPY corr -0.11, QQQ -0.07, mega caps
+   -0.04). One weak lean, SPY only: night down >= 0.3% then the pre-market recovers >= 0.2%,
+   day +0.66% avg (32 days, 59% up); not true for QQQ or single stocks. 8:30 data overrides it.
 3. Decide `call`, `put` or `none`. Prefer `none` when evidence is mixed: a skipped day costs
    nothing, a coin flip costs the spread and theta.
 2b. Rotation map: with Webull daily bars, compute 1-week and 1-month returns for theme
