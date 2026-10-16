@@ -1,7 +1,49 @@
 {
- "as_of": "2026-10-16T15:30-04:00",
+ "as_of": "2026-10-16T18:10-04:00",
  "since": "2026-10-15T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-16 17:57",
+   "symbols": [
+    "AMZN",
+    "GOOGL",
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "'Anthropic quietly pitches its own AI safety bill to lawmakers'- Politico",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62426440/anthropic-quietly-pitches-its-own-ai-safety-bill-lawmakers-politico"
+  },
+  {
+   "time": "10-16 16:41",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta's AI Spending Could Hit $205 Billion in 2027: Why Magnificent 7 ETFs Face a Crucial Test",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62425494/metas-ai-spending-could-hit-205-billion-in-2027-why-magnificent-7-etfs-face-a-crucial-test"
+  },
+  {
+   "time": "10-16 16:23",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly Takes 19.9% Stake In TRex Bio With 5.48M Shares, Investing $12.3M In IPO",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m/26/10/62425124/eli-lilly-takes-19-9-stake-trex-bio-5-48m-shares-investing-12-3m-ipo"
+  },
+  {
+   "time": "10-16 16:14",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Semis And Bonds At Inflection Points; Bonds Become Correlated With AI Trade; Musk Shows Flying Roadster",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/Opinion/26/10/62424859/semis-and-bonds-at-inflection-points-bonds-become-correlated-with-ai-trade-musk-shows-flying-roadster"
+  },
   {
    "time": "10-16 15:16",
    "symbols": [

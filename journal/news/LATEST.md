@@ -1,4 +1,4 @@
-# Headlines since 2026-10-15 16:00 ET (as of 2026-10-16 15:30 ET)
+# Headlines since 2026-10-15 16:00 ET (as of 2026-10-16 18:10 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -17,6 +17,10 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-16 08:18 | VST | initiate | CIBC Initiates Coverage On Vistra with Outperformer Rating, Announces Price Target of $201 |
 | 10-15 18:02 | MSFT | target up | UBS Maintains Buy on Microsoft, Raises Price Target to $675 |
 | 10-15 17:18 | COST | target up | Tigress Financial Maintains Buy on Costco Wholesale, Raises Price Target to $1250 |
+| 10-16 17:57 | AMZN GOOGL MSFT |  | 'Anthropic quietly pitches its own AI safety bill to lawmakers'- Politico |
+| 10-16 16:41 | META |  | Meta's AI Spending Could Hit $205 Billion in 2027: Why Magnificent 7 ETFs Face a Crucial Test |
+| 10-16 16:23 | LLY |  | Eli Lilly Takes 19.9% Stake In TRex Bio With 5.48M Shares, Investing $12.3M In IPO |
+| 10-16 16:14 | TSLA |  | Semis And Bonds At Inflection Points; Bonds Become Correlated With AI Trade; Musk Shows Flying Roadster |
 | 10-16 14:48 | NVDA SMCI WDC |  | Super Micro Finally Names a CFO, Nearly Two Years After an Accounting Review Prompted the Search |
 | 10-16 14:34 | AMD NVDA |  | SemiAnalysis Pots On X "SHOCKING: We have confirmed that multiple Neoclouds have been refused access to GTC Berlin due to them adding AMD GPUs, TPUs, and other chips to their cloud offerings. Note that this doesn't apply to hyperscalers, as they have more buying power. But for neoclouds, executives feel NVIDIA has been using high-pressure tactics to keep them NVIDIA-only...." |
 | 10-16 14:29 | TSM |  | Taiwan Semiconductor Manufacturing Doubles Down on CapEx as Agentic AI Expands, Say Bullish Analysts |
