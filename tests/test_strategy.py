@@ -565,3 +565,20 @@ class NewsFeedTest(unittest.TestCase):
         self.assertEqual(len(rows), 1)
         self.assertEqual(rows[0]["rating"], "upgrade")
         self.assertEqual(rows[0]["time"], "10-05 07:02")
+
+
+class OpendriveExitsTest(unittest.TestCase):
+    def test_split_exit_keeps_the_tail(self):
+        from datetime import datetime
+        from zoh.research.opendrive import exits
+        from zoh.strategy import ET
+        day = datetime(2026, 10, 16, tzinfo=ET)
+        path = [(day.replace(hour=10, minute=m), c) for m, c in ((5, 0.20), (30, 0.70), (59, 2.0))]
+        path += [(day.replace(hour=13, minute=0), 4.0), (day.replace(hour=15, minute=30), 3.0)]
+        e = exits(path, 0.20, 0.0)
+        self.assertAlmostEqual(e["take3"], 2.45, places=2)        # out at the first bid >= 3x (0.69)
+        self.assertAlmostEqual(e["hold"], 13.95, places=2)        # 2.99 at 15:30
+        self.assertGreater(e["half3_hold"], e["take3"])
+        self.assertGreater(e["half3_trail"], e["take3"])
+        self.assertEqual(exits([(day.replace(hour=15, minute=30), 0.05)], 0.20, 0.0)["half3_hold"],
+                         exits([(day.replace(hour=15, minute=30), 0.05)], 0.20, 0.0)["hold"])
