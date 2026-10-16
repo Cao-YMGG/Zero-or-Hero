@@ -98,12 +98,12 @@ def markdown(rows, start, now):
     return "\n".join(lines) + "\n"
 
 
-def main():
+def refresh(api=None, start=None, quiet=False):
+    """Fetch and write the headline files; returns the rows. The live bot calls this before each
+    30-minute journal publish (GitHub's own cron did not fire the News feed workflow on 10-16)."""
     now = datetime.now(ET)
-    start = previous_close(now)
-    if "--hours" in sys.argv:
-        start = now - timedelta(hours=float(sys.argv[sys.argv.index("--hours") + 1]))
-    api = Alpaca()
+    start = start or previous_close(now)
+    api = api or Alpaca()
     items = []
     for k in range(0, len(WATCH), 15):  # keep each request's symbol list short
         items += fetch(api, WATCH[k:k + 15], start, now)
@@ -115,8 +115,17 @@ def main():
     (OUT / "LATEST.md").write_text(markdown(rows, start, now))
     ratings = [r for r in rows if r["rating"]]
     print(f"news: {len(rows)} headlines since {start:%m-%d %H:%M}, {len(ratings)} rating changes")
-    for r in ratings[:20]:
-        print(f"  {r['time']} {' '.join(r['symbols'])} [{r['rating']}] {r['headline']}")
+    if not quiet:
+        for r in ratings[:20]:
+            print(f"  {r['time']} {' '.join(r['symbols'])} [{r['rating']}] {r['headline']}")
+    return rows
+
+
+def main():
+    start = None
+    if "--hours" in sys.argv:
+        start = datetime.now(ET) - timedelta(hours=float(sys.argv[sys.argv.index("--hours") + 1]))
+    refresh(start=start)
 
 
 if __name__ == "__main__":

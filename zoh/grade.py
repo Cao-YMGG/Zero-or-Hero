@@ -91,8 +91,15 @@ def peaks_by_trade():
 
 
 def underlying_path(api, symbol, start, end):
-    bars = [parse_bar(b) for b in api.stock_bars(symbol, start - timedelta(minutes=1),
-                                                 end + timedelta(minutes=1), feed="sip")]
+    """Minute bars between entry and exit. SIP first; the free plan refuses SIP for the last
+    15 minutes (403 on 2026-10-16 for every 15:45 exit), so fall back to IEX."""
+    try:
+        raw = api.stock_bars(symbol, start - timedelta(minutes=1), end + timedelta(minutes=1), feed="sip")
+    except AlpacaError as e:
+        if e.status != 403:
+            raise
+        raw = api.stock_bars(symbol, start - timedelta(minutes=1), end + timedelta(minutes=1), feed="iex")
+    bars = [parse_bar(b) for b in raw]
     return [b for b in bars if start - timedelta(minutes=1) <= b["t"] <= end + timedelta(minutes=1)]
 
 
