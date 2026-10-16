@@ -1,24 +1,25 @@
-# Review — 2026-10-15
+# Review — 2026-10-16
 
 - Champion: **rebound_scanner**
-- Equity: **$685.78** (phase zero-or-hero)
-- Real trades: 5, realised P&L $+209.00
+- Equity: **$677.71** (phase zero-or-hero)
+- Real trades: 6, realised P&L $+65.00
 
 ## Shadow leaderboard (last 20 trades / all)
 
 | variant | n | win% | avg/trade | sum | best | worst | all-time n | all-time avg |
 |---|---|---|---|---|---|---|---|---|
-| catalyst_open | 4 | 75% | +87.1% | +348% | +339% | -100% | 4 | +87.1% |
+| meta_follow2 | 4 | 75% | +87.7% | +351% | +259% | -95% | 4 | +87.7% |
+| nvda_gapdown_put | 1 | 100% | +47.7% | +48% | +48% | +48% | 1 | +47.7% |
 | claude_bias | 3 | 67% | +44.6% | +134% | +121% | -97% | 3 | +44.6% |
-| meta_follow2 | 3 | 67% | +30.6% | +92% | +114% | -95% | 3 | +30.6% |
+| catalyst_open | 6 | 50% | +24.7% | +148% | +339% | -100% | 6 | +24.7% |
 | catalyst_intraday | 1 | 100% | +1.7% | +2% | +2% | +2% | 1 | +1.7% |
-| rebound_scanner_any | 0 | 0% | +0.0% | +0% | +0% | +0% | 0 | +0.0% |
 | gapup_fade | 0 | 0% | +0.0% | +0% | +0% | +0% | 0 | +0.0% |
-| nvda_gapdown_put | 0 | 0% | +0.0% | +0% | +0% | +0% | 0 | +0.0% |
-| rebound_scanner 👑 | 3 | 33% | -1.5% | -5% | +188% | -100% | 3 | -1.5% |
-| rebound_scanner_wide | 3 | 33% | -40.2% | -121% | +72% | -100% | 3 | -40.2% |
-| megacap_reclaim | 1 | 0% | -98.2% | -98% | -98% | -98% | 1 | -98.2% |
-| leader_follow | 1 | 0% | -100.0% | -100% | -100% | -100% | 1 | -100.0% |
+| rebound_scanner 👑 | 4 | 25% | -26.1% | -105% | +188% | -100% | 4 | -26.1% |
+| rebound_scanner_wide | 4 | 25% | -55.1% | -221% | +72% | -100% | 4 | -55.1% |
+| leader_follow | 4 | 0% | -89.8% | -359% | -59% | -100% | 4 | -89.8% |
+| megacap_reclaim | 3 | 0% | -99.4% | -298% | -98% | -100% | 3 | -99.4% |
+| rebound_scanner_any | 2 | 0% | -100.0% | -200% | -100% | -100% | 2 | -100.0% |
+| catalyst_open_near | 1 | 0% | -100.0% | -100% | -100% | -100% | 1 | -100.0% |
 
 ## Last real trades
 
@@ -29,3 +30,4 @@
 | 2026-10-09 | rebound_scanner | AAPL261009C00337500 | 0.23 | 0.7 | 1 | +47.00 | trail |
 | 2026-10-12 | rebound_scanner | MU261012C01025000 | 0.69 | 0.0 | 1 | -69.00 | expired |
 | 2026-10-13 | catalyst_open | META261014C00775000 | 0.93 | 4.15 | 1 | +322.00 | trail |
+| 2026-10-16 | catalyst_open | AAPL261016C00355000 | 0.36 | 0.0 | 4 | -144.00 | expired |

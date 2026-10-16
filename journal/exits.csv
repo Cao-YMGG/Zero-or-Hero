@@ -1,2 +1,16 @@
 date,variant,mode,contract,entry_price,exit_price,peak,exit_reason
 2026-10-16,leader_follow,shadow,ORCL261016C00135000,0.66,0.27,1.77,trail
+2026-10-16,meta_follow2,shadow,META261016P00715000,1.12,4.019,6.85,trail
+2026-10-16,leader_follow,shadow,NFLX261016C00072000,0.14,0,0.21,time
+2026-10-16,megacap_reclaim,shadow,TSLA261016C00377500,1,0,1,time
+2026-10-16,rebound_scanner,shadow,AMD261016C00560000,1.15,0,1.15,time
+2026-10-16,rebound_scanner_wide,shadow,AMD261016C00560000,1.15,0,1.15,time
+2026-10-16,rebound_scanner_any,shadow,AMD261016C00560000,1.14,0,1.14,time
+2026-10-16,nvda_gapdown_put,shadow,NVDA261016P00215000,0.65,0.96,1.72,time
+2026-10-16,catalyst_open,shadow,AAPL261016C00352500,0.33,0,0.33,time
+2026-10-16,catalyst_open_near,shadow,AAPL261016C00350000,0.81,0,0.81,time
+2026-10-16,leader_follow,shadow,ORCL261016C00150000,0.88,0,1.33,time
+2026-10-16,megacap_reclaim,shadow,GOOGL261016C00357500,0.64,0,1.24,time
+2026-10-16,rebound_scanner_any,shadow,NVDA261016C00225000,0.26,0,0.43,time
+2026-10-16,catalyst_open,shadow,AAPL261016C00355000,0.39,0,0.39,time
+2026-10-16,catalyst_open,real,AAPL261016C00355000,0.36,0.0,0.39,expired

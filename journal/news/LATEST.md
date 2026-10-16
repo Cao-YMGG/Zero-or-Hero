@@ -1,9 +1,13 @@
-# Headlines since 2026-10-15 16:00 ET (as of 2026-10-16 13:17 ET)
+# Headlines since 2026-10-15 16:00 ET (as of 2026-10-16 15:30 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-16 15:16 | TSM | target up | Barclays Maintains Overweight on Taiwan Semiconductor, Raises Price Target to $670 |
+| 10-16 13:36 | NFLX | target down | BMO Capital Maintains Outperform on Netflix, Lowers Price Target to $125 |
+| 10-16 13:35 | WDC | target down | Wells Fargo Maintains Overweight on Western Digital, Lowers Price Target to $450 |
+| 10-16 13:34 | STX | target down | Wells Fargo Maintains Overweight on Seagate Technology Hldgs, Lowers Price Target to $865 |
 | 10-16 13:05 | UNH | target down | Bernstein Maintains Outperform on UnitedHealth Group, Lowers Price Target to $500 |
 | 10-16 11:30 | UNH | target up | JP Morgan Maintains Overweight on UnitedHealth Group, Raises Price Target to $524 |
 | 10-16 11:27 | GS | target up | JP Morgan Maintains Neutral on Goldman Sachs Group, Raises Price Target to $970 |
@@ -13,6 +17,12 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-16 08:18 | VST | initiate | CIBC Initiates Coverage On Vistra with Outperformer Rating, Announces Price Target of $201 |
 | 10-15 18:02 | MSFT | target up | UBS Maintains Buy on Microsoft, Raises Price Target to $675 |
 | 10-15 17:18 | COST | target up | Tigress Financial Maintains Buy on Costco Wholesale, Raises Price Target to $1250 |
+| 10-16 14:48 | NVDA SMCI WDC |  | Super Micro Finally Names a CFO, Nearly Two Years After an Accounting Review Prompted the Search |
+| 10-16 14:34 | AMD NVDA |  | SemiAnalysis Pots On X "SHOCKING: We have confirmed that multiple Neoclouds have been refused access to GTC Berlin due to them adding AMD GPUs, TPUs, and other chips to their cloud offerings. Note that this doesn't apply to hyperscalers, as they have more buying power. But for neoclouds, executives feel NVIDIA has been using high-pressure tactics to keep them NVIDIA-only...." |
+| 10-16 14:29 | TSM |  | Taiwan Semiconductor Manufacturing Doubles Down on CapEx as Agentic AI Expands, Say Bullish Analysts |
+| 10-16 14:20 | META |  | Shopify Price Hikes Signal Pricing Power as JPMorgan Keeps $200 Bullish Target |
+| 10-16 14:19 | TSLA |  | Tesla's Flying Roadster Sends Delivery Odds Tumbling Despite Spectacular Demo |
+| 10-16 13:35 | META |  | 3 Communication Services Stocks Whale Activity In Today’s Session |
 | 10-16 13:01 | JPM |  | CNBC Halftime Report Final Trades: ServiceNow, Eaton, SentinelOne, JP Morgan Chase |
 | 10-16 12:54 | META |  | PayPal Teams Up with Glance to Turn AI Shopping Discovery into Instant Purchases |
 | 10-16 12:47 | COIN |  | Coinbase Strikes Marqeta Deal but COIN Loses 3% |

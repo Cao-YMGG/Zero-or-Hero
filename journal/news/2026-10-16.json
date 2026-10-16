@@ -1,7 +1,110 @@
 {
- "as_of": "2026-10-16T13:17-04:00",
+ "as_of": "2026-10-16T15:30-04:00",
  "since": "2026-10-15T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-16 15:16",
+   "symbols": [
+    "TSM"
+   ],
+   "rating": "target up",
+   "headline": "Barclays Maintains Overweight on Taiwan Semiconductor, Raises Price Target to $670",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62423026/barclays-maintains-overweight-taiwan-semiconductor-raises-price-target-670"
+  },
+  {
+   "time": "10-16 14:48",
+   "symbols": [
+    "NVDA",
+    "SMCI",
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Super Micro Finally Names a CFO, Nearly Two Years After an Accounting Review Prompted the Search",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62422037/super-micro-finally-names-a-cfo-nearly-two-years-after-an-accounting-review-prompted-the-search"
+  },
+  {
+   "time": "10-16 14:34",
+   "symbols": [
+    "AMD",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "SemiAnalysis Pots On X \"SHOCKING: We have confirmed that multiple Neoclouds have been refused access to GTC Berlin due to them adding AMD GPUs, TPUs, and other chips to their cloud offerings. Note that this doesn't apply to hyperscalers, as they have more buying power. But for neoclouds, executives feel NVIDIA has been using high-pressure tactics to keep them NVIDIA-only....\"",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62421700/semianalysis-pots-x-shocking-we-have-confirmed-multiple-neoclouds-have-been-refused-access-gtc-berli"
+  },
+  {
+   "time": "10-16 14:29",
+   "symbols": [
+    "TSM"
+   ],
+   "rating": "",
+   "headline": "Taiwan Semiconductor Manufacturing Doubles Down on CapEx as Agentic AI Expands, Say Bullish Analysts",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62421560/taiwan-semiconductor-manufacturing-doubles-down-on-capex-as-agentic-ai-expands-say-bullish-analysts"
+  },
+  {
+   "time": "10-16 14:20",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Shopify Price Hikes Signal Pricing Power as JPMorgan Keeps $200 Bullish Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62421218/shopify-price-hikes-signal-pricing-power-as-jpmorgan-keeps-200-bullish-target"
+  },
+  {
+   "time": "10-16 14:19",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla's Flying Roadster Sends Delivery Odds Tumbling Despite Spectacular Demo",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62421188/tesla-roadster-delivery-odds-flying-demo"
+  },
+  {
+   "time": "10-16 13:36",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "target down",
+   "headline": "BMO Capital Maintains Outperform on Netflix, Lowers Price Target to $125",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62419591/bmo-capital-maintains-outperform-netflix-lowers-price-target-125"
+  },
+  {
+   "time": "10-16 13:35",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "target down",
+   "headline": "Wells Fargo Maintains Overweight on Western Digital, Lowers Price Target to $450",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62419524/wells-fargo-maintains-overweight-western-digital-lowers-price-target-450"
+  },
+  {
+   "time": "10-16 13:35",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "3 Communication Services Stocks Whale Activity In Today\u2019s Session",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/options/26/10/62419492/3-communication-services-stocks-whale-activity-today-s-session"
+  },
+  {
+   "time": "10-16 13:34",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "target down",
+   "headline": "Wells Fargo Maintains Overweight on Seagate Technology Hldgs, Lowers Price Target to $865",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62419446/wells-fargo-maintains-overweight-seagate-technology-hldgs-lowers-price-target-865"
+  },
   {
    "time": "10-16 13:05",
    "symbols": [
