@@ -539,3 +539,29 @@ class AutoGradeTest(unittest.TestCase):
         self.assertEqual(luck_flag(1.1, 4), "lucky")
         self.assertEqual(luck_flag(-0.9, 6), "unlucky")
         self.assertEqual(luck_flag(-0.9, None), "")
+
+
+class NewsFeedTest(unittest.TestCase):
+    def test_rating_kind(self):
+        from zoh.news import rating_kind
+        self.assertEqual(rating_kind("Wells Fargo Downgrades Netflix to Underweight, Lowers Price Target to $57"), "downgrade")
+        self.assertEqual(rating_kind("Melius Upgrades Microsoft to Buy"), "upgrade")
+        self.assertEqual(rating_kind("JP Morgan Maintains Overweight on Apple, Raises Price Target to $360"), "target up")
+        self.assertEqual(rating_kind("Apple's first foldable iPhone sells out within minutes"), "")
+
+    def test_clean_drops_roundups_and_duplicates(self):
+        from zoh.news import clean
+        items = [
+            {"id": 1, "headline": "Melius Upgrades Microsoft to Buy", "symbols": ["MSFT"],
+             "created_at": "2026-10-05T11:02:00Z", "source": "benzinga"},
+            {"id": 1, "headline": "Melius Upgrades Microsoft to Buy", "symbols": ["MSFT"],
+             "created_at": "2026-10-05T11:02:00Z", "source": "benzinga"},
+            {"id": 2, "headline": "12 Tech Stocks Moving In Monday's Pre-Market Session",
+             "symbols": ["MSFT"], "created_at": "2026-10-05T11:30:00Z"},
+            {"id": 3, "headline": "Big list", "symbols": ["A", "B", "C", "D", "E"],
+             "created_at": "2026-10-05T11:40:00Z"},
+        ]
+        rows = clean(items, {"MSFT"})
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0]["rating"], "upgrade")
+        self.assertEqual(rows[0]["time"], "10-05 07:02")
