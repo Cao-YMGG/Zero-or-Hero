@@ -43,3 +43,21 @@ rule's own recent record) picks the good periods. The usable "environment" is th
 how hard the open drives. So: gate on move size, run several plays at once with their own
 ledgers, weight recent live results, and retire a play quickly once its regime check breaks.
 Half-year persistence was 1 of 3, so a play that worked for six months can stop without warning.
+
+## 4. Trend days vs chop days (follow the open, or fade it?)
+
+Environment = share of recent 10:00 moves (all four symbols, prior 10 or 20 days) that kept
+going until the close (55% overall). If moves have been continuing, follow; if reversing, fade.
+- Follow-the-open after "trend" stretches (>= 55%): calls -22% / -29% / -33% (292), puts
+  -26% (299). No better than after chop stretches; the best cell was after chop (calls +50% /
+  +11% / -21%, n=98), the opposite of the idea and not stable across 10 vs 20 days.
+- The regime does not persist: the last 20 days' continuation rate vs the next 20 days
+  correlates -0.09 (591 days). 2024H2 had the most continuation (60%) and follow-the-open lost
+  the most there: option prices, not direction, decided it.
+
+## Verdict (updated)
+
+Looking back, each period had a play that worked. Looking forward, slow labels (trend, VIX,
+trend-vs-chop, a rule's own record) change faster than we can recognise and use them. The
+environments we can see in time are the fast ones: that day's calendar (CPI/FOMC, earnings
+window, industry event, rotation day; already in CLAUDE.md) and how hard that day's open drives.
