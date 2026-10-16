@@ -104,7 +104,13 @@ def virtual_equity(ledger, account_equity, base, dead, today):
 
 
 def publish():
-    """Commit today's journal so far and ask GitHub to rebuild the dashboard. Best effort."""
+    """Refresh the headline feed, commit today's journal so far and ask GitHub to rebuild the
+    dashboard. Best effort: a failure here never stops trading."""
+    try:
+        from . import news
+        news.refresh(quiet=True)
+    except Exception as e:  # noqa: BLE001 - news is optional
+        log(f"news refresh failed: {e}")
     try:
         subprocess.run(["bash", ".github/commit-journal.sh", "intraday"], timeout=120, check=True,
                        cwd=journal.ROOT)

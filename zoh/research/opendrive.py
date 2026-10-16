@@ -85,6 +85,52 @@ def trade(path, entry, slip):
     return last, "eod"
 
 
+def exits(path, entry, slip):
+    """P&L (fraction of entry) under each exit rule, same entry. The 3x cap (`take3`) cuts the
+    fat tails this rule lives on (2026-10-16: SPY 766P $0.18 -> $3.56), so compare it with the
+    other Claude's split (half at 3x, the rest held or trailed) and with plain holding.
+      take3        all out at 3x, else 15:30 (the original study)
+      hold         hold to 15:30
+      trail        ours: arms at 2x, out at max(entry, 60% of the peak), else 15:30
+      half3_hold   half at 3x, the other half to 15:30
+      half3_trail  half at 3x, the other half trails (40% giveback from the peak, floor = entry)
+    """
+    def bid_of(c):
+        return max(0.0, min(c * (1 - slip), c - 0.01))
+
+    out = {}
+    take, _ = trade(path, entry, slip)
+    out["take3"] = take / entry - 1
+    bids = [(t, bid_of(c)) for t, c in path]
+    before = [b for t, b in bids if t.time() < EXIT_AT]
+    at_exit = next((b for t, b in bids if t.time() >= EXIT_AT), before[-1] if before else entry)
+    out["hold"] = at_exit / entry - 1
+
+    def trail_from(series, start_peak, arm, floor):
+        peak, armed = start_peak, start_peak >= arm
+        for b in series:
+            peak = max(peak, b)
+            armed = armed or peak >= arm
+            if armed and b <= max(floor, 0.6 * peak):
+                return b
+        return at_exit
+
+    out["trail"] = trail_from(before, 0.0, 2 * entry, entry) / entry - 1
+    hit = next((i for i, b in enumerate(before) if b >= TAKE * entry), None)
+    if hit is None:
+        out["half3_hold"] = out["hold"]
+        out["half3_trail"] = out["hold"]
+    else:
+        first = before[hit] / entry - 1
+        out["half3_hold"] = 0.5 * first + 0.5 * out["hold"]
+        rest = trail_from(before[hit + 1:], before[hit], 0.0, entry)
+        out["half3_trail"] = 0.5 * first + 0.5 * (rest / entry - 1)
+    return {k: round(v, 4) for k, v in out.items()}
+
+
+EXIT_MODES = ["take3", "hold", "trail", "half3_hold", "half3_trail"]
+
+
 def main():
     api = Alpaca()
     events = macro_days()
@@ -143,6 +189,8 @@ def main():
                 exit_, why = trade(path, entry, slip)
                 row[f"pnl_{int(slip * 100)}"] = round(exit_ / entry - 1, 4)
                 row[f"why_{int(slip * 100)}"] = why
+            entry10 = max(b["c"] * 1.10, b["c"] + 0.01)
+            row["exits_10"] = exits(path, entry10, 0.10)
             rows.append(row)
             n += 1
         print(f"{sym}: {n} trades", flush=True)
@@ -202,6 +250,27 @@ def report(rows, skipped, end):
                 if s:
                     lines.append(f"| {name} | {period} | {s['n']} | {s['win']:.0%} | {pct(s['avg'])} | "
                                  f"{pct(s['ex1'])} | {pct(s['ex2'])} | {pct(s['med'])} | {pct(s['best'])} |")
+        lines.append("")
+    lines += ["## Exit rules compared (10% slippage, same entries)", "",
+              "take3 = all out at 3x (the tables above); hold = to 15:30; trail = arm at 2x, out at "
+              "max(entry, 60% of peak); half3_hold / half3_trail = half at 3x, the rest held / "
+              "trailed (40% giveback, floor = entry). Each cell: avg / avg without best / without best 2.", ""]
+    exit_groups = {k: groups[k] for k in ("all days", "puts (below the open at 10:00)",
+                                          "calls (above the open at 10:00)", "gap and 10:00 move agree")}
+    for sym in ["all", "SPY", "QQQ"]:
+        lines += [f"### {sym}", "", "| group | period | n | " + " | ".join(EXIT_MODES) + " |",
+                  "|---|---|---|" + "---|" * len(EXIT_MODES)]
+        for name, f in exit_groups.items():
+            for period, cut in (("last 3 months", recent), ("last year", year), ("since 2024-02", "")):
+                sel = [r for r in rows if (sym == "all" or r["sym"] == sym) and f(r) and r["day"] >= cut
+                       and r.get("exits_10")]
+                if not sel:
+                    continue
+                cells = []
+                for m in EXIT_MODES:
+                    st = stats([r["exits_10"][m] for r in sel])
+                    cells.append(f"{pct(st['avg'])} / {pct(st['ex1'])} / {pct(st['ex2'])}")
+                lines.append(f"| {name} | {period} | {len(sel)} | " + " | ".join(cells) + " |")
         lines.append("")
     like = [r for r in rows if r["macro"] and r["gap"] < 0 and r["kind"] == "put"]
     lines += ["## Every 'like 2026-10-14' trade", "",
