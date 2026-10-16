@@ -134,6 +134,11 @@ in EVOLUTION.md.
    compares take3 / hold / trail / half3_hold / half3_trail on the same entries (the 3x cap cut
    the tails: 2026-10-16 SPY 766P $0.18 -> $3.56). If a split exit is positive over the last 3
    months without the best two trades, add a shadow "SPY 10:00 follow-the-open" variant.
+   Result (EVOLUTION 10-16 evening, REGIME.md): only calls hold up. Use move size as the gate,
+   not trend or VIX (no label known in advance picked the good periods; uptrend + calm calls
+   were among the worst). Candidates: SPY calls >= 0.5% above the open at 10:00, half at 3x,
+   rest to 15:30 (n=17, +30% / +4% / -19%); TSLA/NVDA calls >= 0.8% (+21% / +10% / +2% all,
+   +57-65% in 2026). Never puts. Each gets its own $500 ledger under item 19.
 
 ## Done
 
