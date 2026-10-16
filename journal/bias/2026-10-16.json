@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-16",
+  "bias": "none",
+  "confidence": 0.0,
+  "summary": "Mixed again: futures slightly up (Dow +0.3%, S&P +0.2%, Nasdaq -0.2%) after Warsh said little, no US data today, monthly options expiry. SPY +0.17% pre-market, QQQ -0.2%, chips still soft. No clean direction for SPY: skip.",
+  "reasons": [
+    "Webull pre-market ~08:55: SPY 773.13 (+0.17% vs 771.79), QQQ 726.54 (-0.20%), SMH 552.38 (-1.2%), TLT 79.89 (-0.1% after +1.4% Thursday), USO -0.5% (after +2.4%), UUP -0.2%, XLV +0.4%, XLF +0.1%",
+    "Futures (TheStreet, Invezz, ZeroHedge): Dow about +0.3%, S&P +0.2%, Nasdaq 100 -0.2%. Fed chair Warsh said little on inflation, which helped; S&P and Nasdaq still on track for weekly losses after the AI selloff, the Dow for a gain",
+    "Rates and oil (10-15 close, today's levels not found): 10Y 5.06% (-12.8bp Thursday), 2Y 4.76% (-4.5bp); WTI about $95-96, Brent about $104; dollar about 102.1. VIX near a one-month high around 17.5 on 10-15 (today's not found). No US data today (config/macro_events.json empty); October 16 is the monthly options expiry",
+    "Thursday reversal: chips gapped down hard after the hot PPI and closed near flat (MU -6.1% intraday to +1.9%, AMD -7% to -1.5%), SPY +0.7% open to close. Today the chips are soft again pre-market: MU 909.41 (-2.3%), SK Hynix -2.8%, AMD -1.8%, INTC -1.6%, AVGO -0.9%, ORCL -1.1%. MU is a >= 2% down gap on a same-day-expiry day (Friday), so the champion rebound_scanner (shadow) can fire; the AMD dossier says down gaps of >= 2% continue only 42% of the time, but AMD's -1.8% is below that line",
+    "Movers: AAPL 347.80 (+1.7%) on its first foldable iPhone selling out within minutes of preorders (Investing.com) and a JPMorgan target raise to $360 (StocksToTrade); TSLA 374.14 (+3.2%) after the Roadster unveil (Ives and Munster: an engineering flex with little near-term financial impact); NFLX -3.5% on a Wells Fargo downgrade to Underweight (PT $57 from $80). META 738.20 (+0.2%), MSFT +0.2%, NVDA -0.2%, GOOGL -0.1%, AMZN -0.1%",
+    "META: no fresh news found today; Muse App Store rank not found in a dated source (last seen No. 1 in September). META dossier: small gaps mostly fill, and the big days come from fresh catalysts; nothing today. Earnings 10-21 (with TSLA), NFLX 10-20, MSFT/GOOGL 10-28, INTC 10-29, AAPL 11-02",
+    "Night session not pulled separately; SPY closed 771.79 and is 773.13 pre-market, so it is not the 'night down, pre-market recovers' lean"
+  ],
+  "events": ["Monthly options expiry", "No scheduled US data", "Fed chair Warsh (spoke 10-15, little on rates)"],
+  "inputs": {"es_futures_pct": 0.2, "vix": 17.5, "wti_pct": -0.5, "us10y": 5.06,
+             "us10y_change_bp": null, "us2y_change_bp": null, "dxy_pct": -0.2,
+             "overnight": "Quiet: futures slightly up, Nasdaq slightly down, chips soft again after Thursday's reversal. VIX, 10Y and 2Y are the 10-15 closes (today's changes not found); USO stands in for oil and UUP for DXY"},
+  "rotation": {
+    "heating": ["health care (UNH +9.6%, LLY +7.0% 1w; XLV +5.4% 1w, +6.0% 1m)", "consumer (WMT +6.6%, HD +4.3%, COST +3.2% 1w; XLY +1.5%)", "energy (XOM/CVX +3.7% 1w, XLE +2.0%)", "internet (+1.3% 1w, +5.6% 1m: MSFT +3.2%, META +2.2%, AAPL +0.5%, GOOGL +0.3%, AMZN +0.3%)"],
+    "cooling": ["optical (LITE -17.1%, CIEN -16.3% 1w)", "memory (MU -10.1%, SNDK -13.3% 1w)", "CPU (AMD -9.4%, INTC -10.9%, ARM -11.1% 1w)", "disk storage (WDC -9.4%, STX -10.8% 1w; -13% 1m)", "GPU (NVDA -5.7% 1w)", "power (GEV -7.3%, VST -1.3% 1w)", "industrials (CAT -7.6% 1w; XLI -0.3%)", "banks mixed (JPM +1.2%, GS +1.0%, BAC -3.6% 1w; -6% 1m)"],
+    "note": "1-week = 10-15 vs 10-08 closes, 1-month = vs 09-16 (Webull daily bars). SPY -0.3% 1w, QQQ -2.6%, IWM -0.9%. Money keeps leaving every AI-hardware link (optical, memory, CPU, storage, GPU, power) for health care, consumer staples and energy, with the internet platforms in between. Thursday's chip reversal did not change the 1-week picture"
+  },
+  "sniper": {
+    "symbol": "AAPL",
+    "direction": "call",
+    "catalyst": "Fresh product news of its own this morning: Apple's first foldable iPhone sold out within minutes of opening preorders, with delivery estimates pushed out (Investing.com, AppleInsider), plus JPMorgan raising its target to $360 (Overweight). Gap +1.7% (347.80 vs 342.00), small for a demand signal; the record high is 348.15. Internet and consumer are heating while AI hardware cools. Not earnings (11-02). Risk: the move may be partly priced and Friday expiry options are cheap but decay fast. TSLA (Roadster, +3.2%) was the other candidate: bigger gap and the sell side calls it no financial impact",
+    "confidence": 0.4
+  },
+  "generated_at": "2026-10-16T09:06:00-04:00"
+}
