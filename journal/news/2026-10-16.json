@@ -1,7 +1,107 @@
 {
- "as_of": "2026-10-16T11:57-04:00",
+ "as_of": "2026-10-16T13:17-04:00",
  "since": "2026-10-15T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-16 13:05",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "target down",
+   "headline": "Bernstein Maintains Outperform on UnitedHealth Group, Lowers Price Target to $500",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62418178/bernstein-maintains-outperform-unitedhealth-group-lowers-price-target-500"
+  },
+  {
+   "time": "10-16 13:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "CNBC Halftime Report Final Trades: ServiceNow, Eaton, SentinelOne, JP Morgan Chase",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/S"
+  },
+  {
+   "time": "10-16 12:54",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "PayPal Teams Up with Glance to Turn AI Shopping Discovery into Instant Purchases",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62417892/paypal-teams-up-with-glance-to-turn-ai-shopping-discovery-into-instant-purchases"
+  },
+  {
+   "time": "10-16 12:47",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Coinbase Strikes Marqeta Deal but COIN Loses 3%",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62417677/coinbase-strikes-marqeta-deal-but-coin-loses-3"
+  },
+  {
+   "time": "10-16 12:45",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla's Roadster Just Made SpaceX More Valuable. Does Tesla Get Any Credit?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62417594/tesla-roadster-spacex-value"
+  },
+  {
+   "time": "10-16 12:44",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Why Is U.S. Bancorp Stock Gaining Friday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62417573/why-is-u-s-bancorp-stock-gaining-friday"
+  },
+  {
+   "time": "10-16 12:27",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "ExxonMobil Sees $4.5 Billion Boost from Higher Refining Margins",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/large-cap/26/10/62416970/exxonmobil-sees-4-5-billion-boost-from-higher-refining-margins"
+  },
+  {
+   "time": "10-16 12:21",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Prologis Analyst Touts \u2018Ample Defenses\u2019 Against Data Center Challenges",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62416816/prologis-analyst-touts-ample-defenses-against-data-center-challenges"
+  },
+  {
+   "time": "10-16 12:00",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Here\u2019s How Much You Would Have Made Owning Walmart Stock In The Last 20 Years",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62415937/here-s-how-much-you-would-have-made-owning-walmart-stock-last-20-years"
+  },
+  {
+   "time": "10-16 11:59",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta's AI Bet Could Deliver Another Earnings Surprise, Analyst Says",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62415867/metas-ai-bet-could-deliver-another-earnings-surprise-analyst-says"
+  },
   {
    "time": "10-16 11:45",
    "symbols": [

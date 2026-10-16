@@ -1,9 +1,10 @@
-# Headlines since 2026-10-15 16:00 ET (as of 2026-10-16 11:57 ET)
+# Headlines since 2026-10-15 16:00 ET (as of 2026-10-16 13:17 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-16 13:05 | UNH | target down | Bernstein Maintains Outperform on UnitedHealth Group, Lowers Price Target to $500 |
 | 10-16 11:30 | UNH | target up | JP Morgan Maintains Overweight on UnitedHealth Group, Raises Price Target to $524 |
 | 10-16 11:27 | GS | target up | JP Morgan Maintains Neutral on Goldman Sachs Group, Raises Price Target to $970 |
 | 10-16 09:37 | MSFT | target up | StoneX Maintains Buy on Microsoft, Raises Price Target to $600 |
@@ -12,6 +13,15 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-16 08:18 | VST | initiate | CIBC Initiates Coverage On Vistra with Outperformer Rating, Announces Price Target of $201 |
 | 10-15 18:02 | MSFT | target up | UBS Maintains Buy on Microsoft, Raises Price Target to $675 |
 | 10-15 17:18 | COST | target up | Tigress Financial Maintains Buy on Costco Wholesale, Raises Price Target to $1250 |
+| 10-16 13:01 | JPM |  | CNBC Halftime Report Final Trades: ServiceNow, Eaton, SentinelOne, JP Morgan Chase |
+| 10-16 12:54 | META |  | PayPal Teams Up with Glance to Turn AI Shopping Discovery into Instant Purchases |
+| 10-16 12:47 | COIN |  | Coinbase Strikes Marqeta Deal but COIN Loses 3% |
+| 10-16 12:45 | TSLA |  | Tesla's Roadster Just Made SpaceX More Valuable. Does Tesla Get Any Credit? |
+| 10-16 12:44 | AMZN |  | Why Is U.S. Bancorp Stock Gaining Friday? |
+| 10-16 12:27 | XOM |  | ExxonMobil Sees $4.5 Billion Boost from Higher Refining Margins |
+| 10-16 12:21 | ORCL |  | Prologis Analyst Touts ‘Ample Defenses’ Against Data Center Challenges |
+| 10-16 12:00 | WMT |  | Here’s How Much You Would Have Made Owning Walmart Stock In The Last 20 Years |
+| 10-16 11:59 | META |  | Meta's AI Bet Could Deliver Another Earnings Surprise, Analyst Says |
 | 10-16 11:45 | STX |  | $1000 Invested In Seagate Technology Hldgs 10 Years Ago Would Be Worth This Much Today |
 | 10-16 11:33 | AAPL |  | 'Apple Set For UK Legal Fight Over iPhone Tap-To-Pay Rules' - Financial Times |
 | 10-16 11:30 | TSM |  | S. Korean Publication MTN Reports Samsung Foundry Eyes Silicon Photonics Technology Company Called 'Optical (Light) Semiconductor' To Close Advanced Packaging Gap With TSMC |
