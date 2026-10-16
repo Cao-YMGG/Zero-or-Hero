@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-15",
-  "done": true,
+  "date": "2026-10-16",
+  "done": false,
   "variants": {
     "leader_follow@2026-10-13": {
       "entered": true,
@@ -13,31 +13,20 @@
         "entry_price": 0.88,
         "peak": 1.33,
         "qty": 1,
-        "last": 0.05,
-        "last_time": "2026-10-15T15:45:00-04:00"
-      },
-      "hold": true
+        "last": 0.01,
+        "last_time": "2026-10-16T10:02:02-04:00"
+      }
     },
-    "claude_bias": {},
-    "meta_follow2": {},
-    "leader_follow": {
-      "attempts": 1,
+    "leader_follow@2026-10-15": {
       "entered": true,
-      "shadow": {
-        "contract": "ORCL261016C00135000",
-        "direction": "call",
-        "entry_time": "2026-10-15T09:46:16-04:00",
-        "entry_price": 0.66,
-        "peak": 1.77,
-        "qty": 2,
-        "last": 1.41,
-        "last_time": "2026-10-15T15:45:00-04:00"
-      },
-      "hold": true
+      "carried": true,
+      "of": "leader_follow",
+      "closed": true
     },
-    "megacap_reclaim": {
-      "attempts": 1,
+    "megacap_reclaim@2026-10-15": {
       "entered": true,
+      "carried": true,
+      "of": "megacap_reclaim",
       "shadow": {
         "contract": "GOOGL261016C00357500",
         "direction": "call",
@@ -45,16 +34,14 @@
         "entry_price": 0.64,
         "peak": 1.24,
         "qty": 2,
-        "last": 0.43,
-        "last_time": "2026-10-15T15:45:00-04:00"
-      },
-      "hold": true
+        "last": 0.03,
+        "last_time": "2026-10-16T10:02:02-04:00"
+      }
     },
-    "rebound_scanner": {},
-    "rebound_scanner_wide": {},
-    "rebound_scanner_any": {
-      "attempts": 1,
+    "rebound_scanner_any@2026-10-15": {
       "entered": true,
+      "carried": true,
+      "of": "rebound_scanner_any",
       "shadow": {
         "contract": "NVDA261016C00225000",
         "direction": "call",
@@ -62,16 +49,14 @@
         "entry_price": 0.26,
         "peak": 0.43,
         "qty": 6,
-        "last": 0.26,
-        "last_time": "2026-10-15T15:45:00-04:00"
-      },
-      "hold": true
+        "last": 0.04,
+        "last_time": "2026-10-16T10:02:02-04:00"
+      }
     },
-    "gapup_fade": {},
-    "nvda_gapdown_put": {},
-    "catalyst_open": {
-      "attempts": 1,
+    "catalyst_open@2026-10-15": {
       "entered": true,
+      "carried": true,
+      "of": "catalyst_open",
       "shadow": {
         "contract": "AAPL261016C00355000",
         "direction": "call",
@@ -79,8 +64,8 @@
         "entry_price": 0.39,
         "peak": 0.39,
         "qty": 4,
-        "last": 0.01,
-        "last_time": "2026-10-15T15:45:00-04:00"
+        "last": 0.03,
+        "last_time": "2026-10-16T10:02:02-04:00"
       },
       "real": {
         "contract": "AAPL261016C00355000",
@@ -88,17 +73,131 @@
         "underlying": "AAPL",
         "entry_price": 0.36,
         "entry_time": "2026-10-15T09:34:11-04:00"
-      },
-      "hold": true
+      }
+    },
+    "claude_bias": {},
+    "meta_follow2": {},
+    "leader_follow": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "NFLX261016C00072000",
+        "direction": "call",
+        "entry_time": "2026-10-16T09:46:24-04:00",
+        "entry_price": 0.14,
+        "peak": 0.21,
+        "qty": 9,
+        "last": 0.17,
+        "last_time": "2026-10-16T10:02:02-04:00"
+      }
+    },
+    "megacap_reclaim": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "TSLA261016C00377500",
+        "direction": "call",
+        "entry_time": "2026-10-16T09:47:28-04:00",
+        "entry_price": 1,
+        "peak": 1,
+        "qty": 1,
+        "last": 0.64,
+        "last_time": "2026-10-16T10:02:02-04:00"
+      }
+    },
+    "rebound_scanner": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "AMD261016C00560000",
+        "direction": "call",
+        "entry_time": "2026-10-16T09:46:24-04:00",
+        "entry_price": 1.15,
+        "peak": 1.15,
+        "qty": 1,
+        "last": 0.41,
+        "last_time": "2026-10-16T10:02:02-04:00"
+      }
+    },
+    "rebound_scanner_wide": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "AMD261016C00560000",
+        "direction": "call",
+        "entry_time": "2026-10-16T09:46:24-04:00",
+        "entry_price": 1.15,
+        "peak": 1.15,
+        "qty": 1,
+        "last": 0.41,
+        "last_time": "2026-10-16T10:02:02-04:00"
+      }
+    },
+    "rebound_scanner_any": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "AMD261016C00560000",
+        "direction": "call",
+        "entry_time": "2026-10-16T09:46:24-04:00",
+        "entry_price": 1.14,
+        "peak": 1.14,
+        "qty": 1,
+        "last": 0.41,
+        "last_time": "2026-10-16T10:02:02-04:00"
+      }
+    },
+    "gapup_fade": {},
+    "nvda_gapdown_put": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "NVDA261016P00215000",
+        "direction": "put",
+        "entry_time": "2026-10-16T10:01:25-04:00",
+        "entry_price": 0.65,
+        "peak": 0.65,
+        "qty": 2,
+        "last": 0.62,
+        "last_time": "2026-10-16T10:02:02-04:00"
+      }
+    },
+    "catalyst_open": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "AAPL261016C00352500",
+        "direction": "call",
+        "entry_time": "2026-10-16T09:32:00-04:00",
+        "entry_price": 0.33,
+        "peak": 0.33,
+        "qty": 4,
+        "last": 0.05,
+        "last_time": "2026-10-16T10:02:02-04:00"
+      }
+    },
+    "catalyst_open_near": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "AAPL261016C00350000",
+        "direction": "call",
+        "entry_time": "2026-10-16T09:32:00-04:00",
+        "entry_price": 0.81,
+        "peak": 0.81,
+        "qty": 1,
+        "last": 0.1,
+        "last_time": "2026-10-16T10:02:02-04:00"
+      }
     },
     "catalyst_intraday": {}
   },
-  "generation": 1,
-  "equity_start": 821.8799999999974,
-  "phase": "zero-or-hero",
-  "risk_per_trade": 0.2,
-  "champion": "rebound_scanner",
   "real_underlyings": [
     "AAPL"
-  ]
+  ],
+  "generation": 1,
+  "equity_start": 685.7099999999991,
+  "phase": "zero-or-hero",
+  "risk_per_trade": 0.2,
+  "champion": "rebound_scanner"
 }
