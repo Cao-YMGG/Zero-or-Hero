@@ -1,0 +1,46 @@
+name: News feed
+
+# Benzinga headlines (Alpaca news, free) for the large caps we trade or watch, written to
+# journal/news/ before the pre-market call and every 30 minutes in the session, so the
+# check-ins can read the day's rating changes and company news.
+
+on:
+  schedule:
+    - cron: "40 12 * * 1-5"         # 08:40 ET (EDT), before the pre-market call
+    - cron: "5,35 13-19 * * 1-5"    # every 30 minutes, 09:05-15:35 ET (EDT)
+  workflow_dispatch:
+  push:
+    branches: ["claude/**"]
+    paths: ["zoh/news.py", ".github/workflows/news.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: news
+  cancel-in-progress: false
+
+jobs:
+  news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      APCA_API_KEY_ID: ${{ secrets.APCA_API_KEY_ID }}
+      APCA_API_SECRET_KEY: ${{ secrets.APCA_API_SECRET_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch headlines
+        run: python -m zoh.news
+      - name: Commit headlines
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "zoh-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add journal/news
+          git diff --cached --quiet && exit 0
+          git commit -m "news: $(TZ=America/New_York date '+%F %H:%M')"
+          for i in 1 2 3 4; do git pull --rebase && git push && exit 0; sleep 5; done
+          exit 1

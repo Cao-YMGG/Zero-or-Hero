@@ -22,7 +22,7 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
 - Weekdays ~10:30 and ~13:00 ET: intraday check-in. Scan big intraday movers (Webull MIN_5 /
   DAY_1 rankings, read-only) and breaking news; if one has a fresh catalyst still unfolding,
   append one pick to `journal/bias/intraday/<today>.json` (schema in journal/bias/README.md)
-  and push to main. Most check-ins add nothing. Never touch the pre-market file after 09:30.
+  and push to main. Most check-ins add nothing. Read journal/news/LATEST.md for headlines since the open. Never touch the pre-market file after 09:30.
   Look for the day's leader: a large cap up >= 2% beyond SPY while its sector or the index is
   flat or red (META 2026-10-12/13 while chips sold off). Search that company's own news
   (product launches, model releases, analyst target changes) before calling a move "no news":
@@ -124,6 +124,10 @@ scored against purely mechanical variants.
    Non-tech mega caps qualify too (JPM, GS, UNH, LLY, XOM, WMT, COST, V...). They mostly have
    Friday expiries only, so the sniper buys the nearest expiry; prefer them when the rotation
    map shows money moving into their sector.
+   Headlines: read journal/news/LATEST.md first (Benzinga via Alpaca, refreshed 08:40 ET and every
+   30 minutes in the session by the News feed workflow; rating changes listed first), then web
+   search. For the candidate, check Webull get_analyst_target_price / get_analyst_rating (read-only):
+   a price already above the median target leaves less room. No paid data (owner, 2026-10-16).
    If you cannot see a pre-market price for the candidate (e.g. Webull down and no Alpaca/IEX
    print), do not name it: on 2026-10-09 LITE was named blind and had gapped +6%.
    Relative strength or "money is moving into it" is not a catalyst. The sniper needs news of its
