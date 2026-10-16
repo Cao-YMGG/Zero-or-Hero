@@ -120,6 +120,21 @@ in EVOLUTION.md.
    (0.12 delta, 2.3% out, AAPL's daily swing ~1.2%) -97%; 2026-10-13: META 775C (~0.1 delta)
    +346%. Live twin since 10-16: catalyst_open_near (0.30 delta, shadow).
 
+19. **Multi-ledger real trading (owner approved the direction 2026-10-16; plan and build on Sunday).**
+   The other Claude runs 17 strategies x two ledgers ($500 and $1,000), 34 virtual ledgers, all
+   trading real paper orders inside one $50k Alpaca account; each ledger dies or doubles on its
+   own (87 option orders in 7 days). We trade one $500 ledger and only the snipers place real
+   orders, so 11 of 12 variants have no real fills (live-readiness gate (a) needs 30). Our paper
+   account also holds ~$50k. Plan: give the 8-10 best variants their own $500 virtual ledger with
+   real paper orders (~$4-5k in use), per-ledger generations (reset below $50), per-ledger
+   equity in journal/, the review and dashboard per ledger; keep shadows for the rest. Decide
+   which variants, sizing per trade, how the "one theme a day" rule applies across ledgers, and
+   the reporting. Write the plan in EVOLUTION.md, then build with tests.
+20. **Follow-the-open with split exits (owner approved 2026-10-16).** zoh/research/opendrive.py now
+   compares take3 / hold / trail / half3_hold / half3_trail on the same entries (the 3x cap cut
+   the tails: 2026-10-16 SPY 766P $0.18 -> $3.56). If a split exit is positive over the last 3
+   months without the best two trades, add a shadow "SPY 10:00 follow-the-open" variant.
+
 ## Done
 
 - **Item 1, champion pick (2026-10-11, journal/research/realopt.json, 211 trades / 72 days, data to 2026-09-14).**
