@@ -142,6 +142,13 @@ in EVOLUTION.md.
    Gates from REGIME.md section 5: skip macro release days, monthly options-expiry week and
    Fridays; each ledger goes shadow-only after 5 straight losses, live again after a shadow win.
 
+21. **Hot vs cool release days (claude-c calendar, MACRO_SURPRISE.md).** Shadow candidate "hot-data
+   put": on a HOT CPI/NFP day, if SPY/QQQ are down from the open at 10:00, buy the 0DTE put,
+   half at 3x, rest to 15:30 (+71% / +46% / +30%, but 12 distinct days, 2024 lost). Test the
+   COOL follow-up: day-after open->close and a 1-2 day call bought at the release-day close.
+   Ask claude-c for open / 10:00 / close ATM IV snapshots (they offered, <= 15 symbols) to
+   calibrate backtest.iv.
+
 ## Done
 
 - **Item 1, champion pick (2026-10-11, journal/research/realopt.json, 211 trades / 72 days, data to 2026-09-14).**
