@@ -142,12 +142,13 @@ in EVOLUTION.md.
    Gates from REGIME.md section 5: skip macro release days, monthly options-expiry week and
    Fridays; each ledger goes shadow-only after 5 straight losses, live again after a shadow win.
 
-21. **Hot vs cool release days (claude-c calendar, MACRO_SURPRISE.md).** Shadow candidate "hot-data
-   put": on a HOT CPI/NFP day, if SPY/QQQ are down from the open at 10:00, buy the 0DTE put,
-   half at 3x, rest to 15:30 (+71% / +46% / +30%, but 12 distinct days, 2024 lost). Test the
-   COOL follow-up: day-after open->close and a 1-2 day call bought at the release-day close.
-   Ask claude-c for open / 10:00 / close ATM IV snapshots (they offered, <= 15 symbols) to
-   calibrate backtest.iv.
+21. **Hot vs cool release days (claude-c calendar, MACRO_SURPRISE.md, updated 10-17).** With 2019-12+
+   data the hot-data put does not hold on the underlying (SPY 50% follow-through); drop it as a
+   real candidate. Test instead "cool CPI close -> 1-week ATM call, sell after 2 days" with real
+   option prices (16 COOL CPIs since 2024-02; SPY up 74% of 34 over two days, every period
+   positive). It suits the compounder phase. claude-c sends ATM IV snapshots (09:31 / 10:00 /
+   16:01, 15 symbols) daily from 10-19: use them to calibrate backtest.iv. Measure IEX vs SIP vs
+   OpenD 09:30 and 10:00 prices on the 25 days in 2026-10-17.premarket-5m-2026-09-01.json.
 
 ## Done
 
