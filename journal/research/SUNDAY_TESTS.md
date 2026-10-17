@@ -139,6 +139,8 @@ in EVOLUTION.md.
    were among the worst). Candidates: SPY calls >= 0.5% above the open at 10:00, half at 3x,
    rest to 15:30 (n=17, +30% / +4% / -19%); TSLA/NVDA calls >= 0.8% (+21% / +10% / +2% all,
    +57-65% in 2026). Never puts. Each gets its own $500 ledger under item 19.
+   Gates from REGIME.md section 5: skip macro release days, monthly options-expiry week and
+   Fridays; each ledger goes shadow-only after 5 straight losses, live again after a shadow win.
 
 ## Done
 

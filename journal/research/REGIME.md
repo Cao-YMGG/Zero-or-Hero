@@ -61,3 +61,36 @@ Looking back, each period had a play that worked. Looking forward, slow labels (
 trend-vs-chop, a rule's own record) change faster than we can recognise and use them. The
 environments we can see in time are the fast ones: that day's calendar (CPI/FOMC, earnings
 window, industry event, rotation day; already in CLAUDE.md) and how hard that day's open drives.
+
+## 5. Environments of any length: day, week, month (owner, 2026-10-17)
+
+Owner: an environment sometimes lasts a day, sometimes a week, sometimes a month. Two tests
+(half3_hold exit; plays = symbol + side + 10:00 move >= 0.5% or not):
+
+**A. A switch with no fixed length**: a play stays ON while it keeps winning and goes OFF after
+K straight shadow losses (back ON after its next shadow win).
+| K | ON (traded) | OFF (shadow only) |
+|---|---|---|
+| 1 | -11% / -18% / -23% (281) | -21% / -25% / -27% (855) |
+| 5 | -16% / -19% / -21% (837) | -27% / -37% / -42% (299) |
+It avoids the worst stretches (about 10-20 points per trade) but does not turn a losing rule
+positive. It is a stop rule for each ledger, not a source of edge.
+
+**B. Week-level calendar** (all symbols; strong calls = 10:00 move >= +0.5%):
+| environment | all calls | all puts | strong calls |
+|---|---|---|---|
+| macro release day | -76% (101) | -8% (94) | -65% (35) |
+| monthly options-expiry week | -49% (127) | -38% (184) | -45% / -64% / -72% (41) |
+| Friday | -46% (242) | -5% (202) | -34% (105) |
+| Monday | -2% (136) | -24% (103) | **+41% / +10% / -1%** (53) |
+| no tag (Tue-Thu, not expiry week, not earnings season, no release) | -26% (148) | +8% (171) | +20% / +6% / -5% (38) |
+Caveat: many slices of one data set; small cells can be luck. The macro-day and expiry-week
+cells are large and consistent across sides, so those are the ones to act on.
+
+## Layered playbook
+
+- **Day** (seen at 10:00): how hard the open drives; macro release day; the stock's own news.
+- **Week** (seen on Monday): monthly options-expiry week and macro weeks are bad for following
+  the open; Monday and quiet mid-week days are the best.
+- **Month** (seen only afterwards): themes and trend. Not predicted; handled by giving each play
+  its own ledger and switching it off after 5 straight shadow losses, back on after a shadow win.
