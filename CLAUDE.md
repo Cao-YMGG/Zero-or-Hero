@@ -11,6 +11,10 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
 - `zoh/strategy.py`: pure logic shared by live bot and backtest. Add new signals to `SIGNALS`.
 - `zoh/bot.py` (live), `zoh/backtest.py`, `zoh/review.py` (scoring + auto-promotion),
   `zoh/check.py` (diagnostics). Stdlib only, Python 3.12.
+- `zoh/ledgers.py`: variants listed in config `ledgers` trade real paper orders from their own
+  $500 ledger (journal/ledgers.json, journal/ledger_equity.csv); the main ledger (journal/ledger.json)
+  belongs to the champion and the snipers. Weekly-review studies: `.github/workflows/sunday.yml`
+  (run by hand) and `zoh/research/` (exits.py, scanners.py, ...).
 - `journal/`: written by GitHub Actions — `trades.csv`, `equity.csv`, `REVIEW.md`,
   `BACKTEST.md`, `state.json`. Do not hand-edit trade history.
 - API keys live only in GitHub Secrets; this container usually has none, so anything that

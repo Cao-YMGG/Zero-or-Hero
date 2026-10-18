@@ -300,7 +300,8 @@
         1,
         2,
         3
-      ]
+      ],
+      "half_at": 3.0
     },
     {
       "id": "stock_open_drive",
@@ -325,7 +326,8 @@
       "weekdays": [
         0,
         2
-      ]
+      ],
+      "half_at": 3.0
     }
   ],
   "ledgers": {
