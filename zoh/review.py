@@ -7,7 +7,7 @@ positive. Every promotion is logged in EVOLUTION.md.
 """
 from datetime import date
 
-from . import journal
+from . import journal, ledgers
 
 WINDOW = 20
 MIN_TRADES = 10
@@ -42,7 +42,7 @@ def promotion(config, board):
     return None
 
 
-def render(config, board, trades, equity, promoted):
+def render(config, board, trades, equity, promoted, book=None):
     real = [t for t in trades if t["mode"] == "real"]
     real_pnl = sum(float(t["pnl"]) for t in real)
     last = equity[-1] if equity else None
@@ -64,6 +64,16 @@ def render(config, board, trades, equity, promoted):
         lines.append(f"| {r['id']}{mark} | {rec['n']} | {rec['win_rate']:.0%} | {rec['avg']:+.1%} "
                      f"| {rec['total']:+.0%} | {rec['best']:+.0%} | {rec['worst']:+.0%} "
                      f"| {a['n']} | {a['avg']:+.1%} |")
+    cfg = config.get("ledgers")
+    if cfg and book is not None:
+        lines += ["", "## Ledgers (one $%d virtual account per variant, real paper orders)" % cfg.get("base", 500), "",
+                  "| variant | generation | equity | real trades | losses in a row | earlier generations |",
+                  "|---|---|---|---|---|---|"]
+        for vid in cfg.get("variants", []):
+            led = book.get(vid) or {}
+            past = ", ".join(f"#{h['generation']} ${h['final_equity']:.0f}" for h in led.get("history", [])) or "-"
+            lines.append(f"| {vid} | {led.get('generation', 1)} | ${ledgers.equity(book, vid, cfg):,.2f} | "
+                         f"{led.get('real_trades', 0)} | {ledgers.losing_streak(trades, vid)} | {past} |")
     if real:
         lines += ["", "## Last real trades", "",
                   "| date | variant | contract | entry | exit | qty | P&L | reason |",
@@ -89,7 +99,7 @@ def main():
                     f"- `{new['id']}` replaces `{old['id']}` as champion: last {WINDOW} shadow "
                     f"trades avg {new['recent']['avg']:+.1%} vs {old['recent']['avg']:+.1%} "
                     f"(n={new['recent']['n']} / {old['recent']['n']}).\n")
-    text = render(config, board, trades, journal.read_equity(), promoted)
+    text = render(config, board, trades, journal.read_equity(), promoted, ledgers.load())
     (journal.JOURNAL_DIR / "REVIEW.md").write_text(text)
     print(text)
 

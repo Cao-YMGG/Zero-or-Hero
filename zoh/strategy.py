@@ -40,7 +40,16 @@ def regular_session(bars):
 def day_context(day, events_by_date, prev_close=None, open_price=None, bias=None, cross=None):
     gap = (open_price / prev_close - 1) * 100 if prev_close and open_price else None
     return {"events": events_by_date.get(day.isoformat(), []), "gap_pct": gap, "bias": bias,
-            "cross": cross or {}, "weekday": day.weekday()}
+            "cross": cross or {}, "weekday": day.weekday(), "opex_week": opex_week(day)}
+
+
+def opex_week(day):
+    """Mon-Fri week holding the month's third Friday (monthly options expiry). Following the
+    open lost there on real prices: calls -49%, puts -38% a trade (journal/research/REGIME.md)."""
+    first = day.replace(day=1)
+    third_friday = first + timedelta(days=(4 - first.weekday()) % 7 + 14)
+    monday = day - timedelta(days=day.weekday())
+    return monday <= third_friday <= monday + timedelta(days=4)
 
 
 # Same-day option expiries: index ETFs daily; the largest single stocks Mon/Wed/Fri (since
@@ -76,6 +85,8 @@ def passes_filters(variant, ctx):
         return False
     weekdays = variant.get("weekdays")  # e.g. [0, 2, 4]: single-stock same-day expiries
     if weekdays is not None and ctx.get("weekday") not in weekdays:
+        return False
+    if variant.get("skip_opex_week") and ctx.get("opex_week"):
         return False
     return True
 

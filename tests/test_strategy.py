@@ -606,3 +606,39 @@ class GradeFeedFallbackTest(unittest.TestCase):
         bars = underlying_path(api, "AAPL", t0, t1)
         self.assertEqual(api.feeds, ["sip", "iex"])
         self.assertEqual(len(bars), 1)
+
+
+class OpenDriveVariantTest(unittest.TestCase):
+    """spy_open_drive / stock_open_drive: calls only, at 10:00, not in the monthly expiry week
+    or on Fridays (journal/research/REGIME.md)."""
+
+    def test_opex_week(self):
+        from datetime import date
+        from zoh.strategy import opex_week
+        self.assertTrue(opex_week(date(2026, 10, 12)))   # week of Fri 2026-10-16
+        self.assertTrue(opex_week(date(2026, 10, 16)))
+        self.assertFalse(opex_week(date(2026, 10, 19)))
+        self.assertFalse(opex_week(date(2026, 10, 9)))
+        self.assertTrue(opex_week(date(2026, 11, 20)))   # Nov 2026: third Friday is the 20th
+
+    def _variant(self, vid):
+        return journal.variant_by_id(journal.load_config(), vid)
+
+    def test_spy_open_drive_fires_on_a_strong_open_only(self):
+        from datetime import date
+        v = self._variant("spy_open_drive")
+        ctx = day_context(date(2026, 10, 20), {})
+        up = make_bars([700.0] * 30 + [703.6], datetime(2026, 10, 20))   # +0.51% at 10:00
+        self.assertEqual(evaluate_signal(up, v, ctx), "call")
+        down = make_bars([700.0] * 30 + [696.0], datetime(2026, 10, 20))
+        self.assertIsNone(evaluate_signal(down, v, ctx))                   # never puts
+        self.assertIsNone(evaluate_signal(up, v, day_context(date(2026, 10, 14), {})))  # expiry week
+        self.assertIsNone(evaluate_signal(up, v, day_context(date(2026, 10, 23), {})))  # Friday
+        self.assertIsNone(evaluate_signal(up, v, day_context(date(2026, 10, 20), {"2026-10-20": ["CPI"]})))
+
+    def test_stock_open_drive_needs_point_eight(self):
+        from datetime import date
+        v = self._variant("stock_open_drive")
+        ctx = day_context(date(2026, 10, 21), {})
+        self.assertIsNone(evaluate_signal(make_bars([200.0] * 30 + [201.4], datetime(2026, 10, 21)), v, ctx))
+        self.assertEqual(evaluate_signal(make_bars([200.0] * 30 + [201.7], datetime(2026, 10, 21)), v, ctx), "call")

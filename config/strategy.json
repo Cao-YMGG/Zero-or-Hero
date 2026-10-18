@@ -3,7 +3,10 @@
   "champion": "rebound_scanner",
   "champion_real": false,
   "dead_equity": 50,
-  "ledger": {"base": 500, "min_account": 5000},
+  "ledger": {
+    "base": 500,
+    "min_account": 5000
+  },
   "real_one_contract_cap": 0.25,
   "exit_time": "15:45",
   "poll_seconds": 30,
@@ -30,17 +33,345 @@
     "start_equity": 500
   },
   "variants": [
-    {"id": "claude_bias", "signal": "bias", "after_minutes": 5, "target_delta": 0.3, "take_profit": 1.0, "stop_loss": null, "entry_cutoff": "10:30"},
-    {"id": "meta_follow2", "underlying": "META", "weekdays": [0, 2, 4], "signal": "momentum", "after_minutes": 30, "threshold_pct": 2.0, "target_delta": 0.2, "take_profit": null, "stop_loss": null, "trail_after": 1.0, "trail_giveback": 0.4, "entry_cutoff": "14:00"},
-    {"id": "leader_follow", "universe": ["META", "AAPL", "MSFT", "GOOGL", "AMZN", "NVDA", "TSLA", "AVGO", "AMD", "MU", "NFLX", "ORCL", "CRM", "PLTR", "INTC", "COIN"], "any_expiry": true, "pick": "strongest", "signal": "momentum", "relative": true, "sides": ["up"], "after_minutes": 15, "threshold_pct": 1.5, "target_delta": 0.2, "take_profit": null, "stop_loss": null, "trail_after": 1.0, "trail_giveback": 0.4, "entry_cutoff": "14:00", "days": "non_event"},
-    {"id": "megacap_reclaim", "any_expiry": true, "universe": ["AAPL", "AMZN", "MSFT", "GOOGL", "META", "NVDA", "TSLA"], "signal": "flush", "flush_minutes": 15, "flush_pct": 0.5, "reclaim": 1.0, "sides": ["down"], "target_delta": 0.15, "take_profit": null, "stop_loss": null, "trail_after": 1.0, "trail_giveback": 0.4, "entry_cutoff": "12:00", "days": "non_event"},
-    {"id": "rebound_scanner", "universe": ["META", "NVDA", "TSLA", "AMZN", "AMD", "RKLB", "CRDO", "HOOD", "INTC", "GOOGL", "AAPL", "COIN", "SMCI", "PLTR", "AVGO", "MU"], "signal": "gap", "sides": ["down"], "fade": true, "after_minutes": 15, "min_gap_pct": 2.0, "target_delta": 0.08, "take_profit": null, "stop_loss": null, "trail_after": 1.0, "trail_giveback": 0.4, "entry_cutoff": "10:30", "days": "non_event"},
-    {"id": "rebound_scanner_wide", "universe": ["META", "NVDA", "TSLA", "AMZN", "AMD", "RKLB", "CRDO", "HOOD", "INTC", "GOOGL", "AAPL", "COIN", "SMCI", "PLTR", "AVGO", "MU"], "signal": "gap", "sides": ["down"], "fade": true, "after_minutes": 15, "min_gap_pct": 2.0, "target_delta": 0.08, "take_profit": null, "stop_loss": null, "trail_after": 3.0, "trail_giveback": 0.6, "entry_cutoff": "10:30", "days": "non_event"},
-    {"id": "rebound_scanner_any", "universe": ["META", "NVDA", "TSLA", "AMZN", "AMD", "RKLB", "CRDO", "HOOD", "INTC", "GOOGL", "AAPL", "COIN", "SMCI", "PLTR", "AVGO", "MU"], "signal": "gap", "sides": ["down"], "fade": true, "after_minutes": 15, "min_gap_pct": 2.0, "target_delta": 0.08, "take_profit": null, "stop_loss": null, "trail_after": 1.0, "trail_giveback": 0.4, "entry_cutoff": "10:30", "days": "non_event", "any_expiry": true},
-    {"id": "gapup_fade", "any_expiry": true, "universe": ["META", "AAPL", "MSFT", "GOOGL", "AMZN", "NVDA", "TSLA", "AVGO", "AMD", "MU", "NFLX", "ORCL", "CRM", "PLTR", "COIN", "UNH", "JPM", "GS"], "signal": "gap", "sides": ["up"], "fade": true, "after_minutes": 15, "min_gap_pct": 2.0, "confirm_pct": 0.2, "target_delta": 0.15, "take_profit": null, "stop_loss": null, "trail_after": 1.0, "trail_giveback": 0.4, "entry_cutoff": "10:30", "days": "non_event"},
-    {"id": "nvda_gapdown_put", "universe": ["NVDA"], "signal": "gap", "sides": ["down"], "after_minutes": 30, "min_gap_pct": 0.01, "confirm_pct": 0.1, "target_delta": 0.4, "take_profit": 2.0, "stop_loss": null, "trail_after": null, "entry_cutoff": "10:05"},
-    {"id": "catalyst_open", "real_risk": 0.2, "signal": "catalyst", "after_minutes": 1, "move_pct": 0.0, "target_delta": 0.1, "take_profit": null, "stop_loss": null, "trail_after": 1.0, "trail_giveback": 0.4, "entry_cutoff": "10:00"},
-    {"id": "catalyst_open_near", "signal": "catalyst", "after_minutes": 1, "move_pct": 0.0, "target_delta": 0.3, "take_profit": null, "stop_loss": null, "trail_after": 1.0, "trail_giveback": 0.4, "entry_cutoff": "10:00"},
-    {"id": "catalyst_intraday", "source": "intraday", "real_risk": 0.2, "signal": "catalyst", "after_minutes": 1, "move_pct": -100, "target_delta": 0.2, "take_profit": null, "stop_loss": null, "trail_after": 1.0, "trail_giveback": 0.4, "entry_cutoff": "14:30"}
+    {
+      "id": "claude_bias",
+      "signal": "bias",
+      "after_minutes": 5,
+      "target_delta": 0.3,
+      "take_profit": 1.0,
+      "stop_loss": null,
+      "entry_cutoff": "10:30"
+    },
+    {
+      "id": "meta_follow2",
+      "underlying": "META",
+      "weekdays": [
+        0,
+        2,
+        4
+      ],
+      "signal": "momentum",
+      "after_minutes": 30,
+      "threshold_pct": 2.0,
+      "target_delta": 0.2,
+      "take_profit": null,
+      "stop_loss": null,
+      "trail_after": 1.0,
+      "trail_giveback": 0.4,
+      "entry_cutoff": "14:00"
+    },
+    {
+      "id": "leader_follow",
+      "universe": [
+        "META",
+        "AAPL",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "NVDA",
+        "TSLA",
+        "AVGO",
+        "AMD",
+        "MU",
+        "NFLX",
+        "ORCL",
+        "CRM",
+        "PLTR",
+        "INTC",
+        "COIN"
+      ],
+      "any_expiry": true,
+      "pick": "strongest",
+      "signal": "momentum",
+      "relative": true,
+      "sides": [
+        "up"
+      ],
+      "after_minutes": 15,
+      "threshold_pct": 1.5,
+      "target_delta": 0.2,
+      "take_profit": null,
+      "stop_loss": null,
+      "trail_after": 1.0,
+      "trail_giveback": 0.4,
+      "entry_cutoff": "14:00",
+      "days": "non_event"
+    },
+    {
+      "id": "megacap_reclaim",
+      "any_expiry": true,
+      "universe": [
+        "AAPL",
+        "AMZN",
+        "MSFT",
+        "GOOGL",
+        "META",
+        "NVDA",
+        "TSLA"
+      ],
+      "signal": "flush",
+      "flush_minutes": 15,
+      "flush_pct": 0.5,
+      "reclaim": 1.0,
+      "sides": [
+        "down"
+      ],
+      "target_delta": 0.15,
+      "take_profit": null,
+      "stop_loss": null,
+      "trail_after": 1.0,
+      "trail_giveback": 0.4,
+      "entry_cutoff": "12:00",
+      "days": "non_event"
+    },
+    {
+      "id": "rebound_scanner",
+      "universe": [
+        "META",
+        "NVDA",
+        "TSLA",
+        "AMZN",
+        "AMD",
+        "RKLB",
+        "CRDO",
+        "HOOD",
+        "INTC",
+        "GOOGL",
+        "AAPL",
+        "COIN",
+        "SMCI",
+        "PLTR",
+        "AVGO",
+        "MU"
+      ],
+      "signal": "gap",
+      "sides": [
+        "down"
+      ],
+      "fade": true,
+      "after_minutes": 15,
+      "min_gap_pct": 2.0,
+      "target_delta": 0.08,
+      "take_profit": null,
+      "stop_loss": null,
+      "trail_after": 1.0,
+      "trail_giveback": 0.4,
+      "entry_cutoff": "10:30",
+      "days": "non_event"
+    },
+    {
+      "id": "rebound_scanner_wide",
+      "universe": [
+        "META",
+        "NVDA",
+        "TSLA",
+        "AMZN",
+        "AMD",
+        "RKLB",
+        "CRDO",
+        "HOOD",
+        "INTC",
+        "GOOGL",
+        "AAPL",
+        "COIN",
+        "SMCI",
+        "PLTR",
+        "AVGO",
+        "MU"
+      ],
+      "signal": "gap",
+      "sides": [
+        "down"
+      ],
+      "fade": true,
+      "after_minutes": 15,
+      "min_gap_pct": 2.0,
+      "target_delta": 0.08,
+      "take_profit": null,
+      "stop_loss": null,
+      "trail_after": 3.0,
+      "trail_giveback": 0.6,
+      "entry_cutoff": "10:30",
+      "days": "non_event"
+    },
+    {
+      "id": "rebound_scanner_any",
+      "universe": [
+        "META",
+        "NVDA",
+        "TSLA",
+        "AMZN",
+        "AMD",
+        "RKLB",
+        "CRDO",
+        "HOOD",
+        "INTC",
+        "GOOGL",
+        "AAPL",
+        "COIN",
+        "SMCI",
+        "PLTR",
+        "AVGO",
+        "MU"
+      ],
+      "signal": "gap",
+      "sides": [
+        "down"
+      ],
+      "fade": true,
+      "after_minutes": 15,
+      "min_gap_pct": 2.0,
+      "target_delta": 0.08,
+      "take_profit": null,
+      "stop_loss": null,
+      "trail_after": 1.0,
+      "trail_giveback": 0.4,
+      "entry_cutoff": "10:30",
+      "days": "non_event",
+      "any_expiry": true
+    },
+    {
+      "id": "gapup_fade",
+      "any_expiry": true,
+      "universe": [
+        "META",
+        "AAPL",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "NVDA",
+        "TSLA",
+        "AVGO",
+        "AMD",
+        "MU",
+        "NFLX",
+        "ORCL",
+        "CRM",
+        "PLTR",
+        "COIN",
+        "UNH",
+        "JPM",
+        "GS"
+      ],
+      "signal": "gap",
+      "sides": [
+        "up"
+      ],
+      "fade": true,
+      "after_minutes": 15,
+      "min_gap_pct": 2.0,
+      "confirm_pct": 0.2,
+      "target_delta": 0.15,
+      "take_profit": null,
+      "stop_loss": null,
+      "trail_after": 1.0,
+      "trail_giveback": 0.4,
+      "entry_cutoff": "10:30",
+      "days": "non_event"
+    },
+    {
+      "id": "nvda_gapdown_put",
+      "universe": [
+        "NVDA"
+      ],
+      "signal": "gap",
+      "sides": [
+        "down"
+      ],
+      "after_minutes": 30,
+      "min_gap_pct": 0.01,
+      "confirm_pct": 0.1,
+      "target_delta": 0.4,
+      "take_profit": 2.0,
+      "stop_loss": null,
+      "trail_after": null,
+      "entry_cutoff": "10:05"
+    },
+    {
+      "id": "catalyst_open",
+      "real_risk": 0.2,
+      "signal": "catalyst",
+      "after_minutes": 1,
+      "move_pct": 0.0,
+      "target_delta": 0.1,
+      "take_profit": null,
+      "stop_loss": null,
+      "trail_after": 1.0,
+      "trail_giveback": 0.4,
+      "entry_cutoff": "10:00"
+    },
+    {
+      "id": "catalyst_open_near",
+      "signal": "catalyst",
+      "after_minutes": 1,
+      "move_pct": 0.0,
+      "target_delta": 0.3,
+      "take_profit": null,
+      "stop_loss": null,
+      "trail_after": 1.0,
+      "trail_giveback": 0.4,
+      "entry_cutoff": "10:00"
+    },
+    {
+      "id": "catalyst_intraday",
+      "source": "intraday",
+      "real_risk": 0.2,
+      "signal": "catalyst",
+      "after_minutes": 1,
+      "move_pct": -100,
+      "target_delta": 0.2,
+      "take_profit": null,
+      "stop_loss": null,
+      "trail_after": 1.0,
+      "trail_giveback": 0.4,
+      "entry_cutoff": "14:30"
+    },
+    {
+      "id": "spy_open_drive",
+      "signal": "momentum",
+      "after_minutes": 30,
+      "sides": [
+        "up"
+      ],
+      "target_delta": 0.15,
+      "take_profit": null,
+      "stop_loss": null,
+      "trail_after": null,
+      "entry_cutoff": "10:05",
+      "days": "non_event",
+      "skip_opex_week": true,
+      "threshold_pct": 0.5,
+      "weekdays": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "stock_open_drive",
+      "universe": [
+        "NVDA",
+        "TSLA"
+      ],
+      "pick": "strongest",
+      "signal": "momentum",
+      "after_minutes": 30,
+      "sides": [
+        "up"
+      ],
+      "target_delta": 0.15,
+      "take_profit": null,
+      "stop_loss": null,
+      "trail_after": null,
+      "entry_cutoff": "10:05",
+      "days": "non_event",
+      "skip_opex_week": true,
+      "threshold_pct": 0.8,
+      "weekdays": [
+        0,
+        2
+      ]
+    }
   ]
 }
