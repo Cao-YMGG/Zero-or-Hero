@@ -9,7 +9,7 @@
 | sip vs opend | 0.0 | 0.0 | 3 of 315 | 3 | 0 |
 
 IEX share of 09:30-10:00 volume: median 3.2% (range 0.9% to 8.9%).
-IEX's first regular bar starts after 09:30 on 315 of 315 symbol-days.
+IEX's first regular bar starts after 09:30 on 1 of 315 symbol-days.
 
 ## Largest 10:00-move differences, IEX vs SIP
 
