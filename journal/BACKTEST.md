@@ -34,7 +34,7 @@ If a variant only works in the old part of the sample, the market has moved on.
 |---|---|---|---|---|
 | spy_open_drive | 0 | +0.0% | 7 | +44.3% |
 
-Live-only variants (no history to backtest): claude_bias, catalyst_open, catalyst_open_near, catalyst_intraday
+Live-only variants (no history to backtest): claude_bias, catalyst_open, catalyst_intraday
 
 Exit reasons:
 
