@@ -1,0 +1,49 @@
+name: Research - scanners on real prices
+
+# Sunday tests 12 and 15 on real option prices (zoh/research/scanners.py).
+# Run by hand (Actions -> Run workflow) on a weekend.
+# Do not run during market hours: it shares the API key with the live bot.
+
+on:
+  workflow_dispatch:
+    inputs:
+      module:
+        description: "scanners or all"
+        default: "all"
+
+permissions:
+  contents: write
+
+jobs:
+  study:
+    strategy:
+      fail-fast: false
+      matrix:
+        module: [scanners]
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    concurrency:
+      group: scanners-${{ matrix.module }}-${{ github.ref }}
+      cancel-in-progress: true
+    env:
+      APCA_API_KEY_ID: ${{ secrets.APCA_API_KEY_ID }}
+      APCA_API_SECRET_KEY: ${{ secrets.APCA_API_SECRET_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        if: inputs.module == 'all' || inputs.module == matrix.module
+      - uses: actions/setup-python@v5
+        if: inputs.module == 'all' || inputs.module == matrix.module
+        with:
+          python-version: "3.12"
+      - name: Study
+        if: inputs.module == 'all' || inputs.module == matrix.module
+        run: python -m zoh.research.${{ matrix.module }}
+      - name: Commit results
+        if: inputs.module == 'all' || inputs.module == matrix.module
+        run: |
+          git config user.name "zoh-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add journal/research
+          git diff --cached --quiet && exit 0
+          git commit -m "research: ${{ matrix.module }} $(date -u +%F)"
+          for i in 1 2 3 4 5; do git pull --rebase && git push && break; sleep $((RANDOM % 10 + 5)); done

@@ -15,7 +15,7 @@ import subprocess
 import time as systime
 from datetime import datetime, timedelta
 
-from . import journal
+from . import journal, ledgers
 from .alpaca import Alpaca, AlpacaError
 from .strategy import (ET, MARKET_OPEN, bs_delta, contracts_for, current_phase, check_exit,
                        cross_assets, day_context, evaluate_signal, hhmm, same_day_expiry,
@@ -101,6 +101,35 @@ def virtual_equity(ledger, account_equity, base, dead, today):
         ledger.update(generation=ledger["generation"] + 1, anchor=account_equity, started=today)
         equity = ledger["base"]
     return equity, ledger
+
+
+def carries(variant):
+    """Hold a non-expiring option overnight? Only news picks (catalyst signal) by default:
+    on real prices carried upgrade picks did better (+12% vs -13% sold at 15:45) and carried
+    Tue/Thu rebounds much worse (-42% vs -13%). A variant can override with "carry"."""
+    return variant.get("carry", variant.get("signal") == "catalyst")
+
+
+def half_out(shadow, bid, variant):
+    """True once, when the bid first reaches the variant's half_at multiple of the entry."""
+    k = variant.get("half_at")
+    return bool(k) and "banked" not in shadow and bid >= k * shadow["entry_price"]
+
+
+def start_ledgers(config, today):
+    """Roll the per-variant ledgers for today and fix each one's stake and pause state, like
+    equity_start for the main ledger. Returns {variant: {"equity", "paused", "generation"}}."""
+    cfg = config["ledgers"]
+    book = ledgers.roll(ledgers.load(), cfg, today)
+    ledgers.save(book)
+    trades = journal.read_trades()
+    out = {}
+    for vid in cfg.get("variants", []):
+        out[vid] = {"equity": ledgers.equity(book, vid, cfg), "generation": book[vid]["generation"],
+                    "paused": ledgers.paused(trades, vid, cfg)}
+        log(f"ledger {vid}: generation {out[vid]['generation']}, ${out[vid]['equity']:.2f}"
+            + (" (paused)" if out[vid]["paused"] else ""))
+    return out
 
 
 def publish():
@@ -300,10 +329,22 @@ class Bot:
         # The champion trades the phase stake; a variant with real_risk also trades real
         # paper orders at that fraction of equity, to collect real fills sooner.
         champion_real = self.config.get("champion_real", True)
-        real_qty = qty if variant["id"] == self.state["champion"] and champion_real else real_contracts(
-            self.state["equity_start"], variant.get("real_risk", 0), pick["ask"],
-            self.config.get("real_one_contract_cap", REAL_ONE_CONTRACT_CAP))
-        if real_qty and not may_trade_real(self.state, underlying):
+        own = (self.state.get("ledgers") or {}).get(variant["id"])
+        if own is not None:
+            # Its own $500 ledger: sized on that ledger, independent of the main one's themes.
+            cfg = self.config["ledgers"]
+            real_qty = 0 if own["paused"] else real_contracts(
+                own["equity"], cfg.get("risk", 0.2), pick["ask"],
+                cfg.get("one_contract_cap", REAL_ONE_CONTRACT_CAP))
+            if own["paused"]:
+                log(f"{variant['id']}: shadow only (its ledger is paused after a losing streak)")
+        elif variant["id"] == self.state["champion"] and champion_real:
+            real_qty = qty
+        else:
+            real_qty = real_contracts(
+                self.state["equity_start"], variant.get("real_risk", 0), pick["ask"],
+                self.config.get("real_one_contract_cap", REAL_ONE_CONTRACT_CAP))
+        if real_qty and own is None and not may_trade_real(self.state, underlying):
             log(f"{variant['id']}: shadow only (real position in theme {theme_of(underlying)} "
                 f"already today, or account needs a reset)")
             real_qty = 0
@@ -311,13 +352,32 @@ class Bot:
             filled, price = self._order(pick["symbol"], real_qty, "buy", "limit", "in",
                                         round_limit(pick["ask"]))
             if filled:
-                self.state.setdefault("real_underlyings", []).append(underlying)
+                if own is None:
+                    self.state.setdefault("real_underlyings", []).append(underlying)
                 vstate["real"] = {"contract": pick["symbol"], "qty": filled, "underlying": underlying,
                                   "entry_price": price,
                                   "entry_time": now_et().isoformat(timespec="seconds")}
 
+    def sell_half(self, variant, vstate, bid, now):
+        """Take half off at the variant's half_at multiple; the rest keeps trailing. The shadow
+        banks half the price (its final row records the blended exit); the real position sells
+        half its contracts when it has two or more."""
+        shadow = vstate["shadow"]
+        shadow["banked"] = round(0.5 * bid, 4)
+        log(f"{variant['id']}: half out of {shadow['contract']} @ {bid} "
+            f"({bid / shadow['entry_price']:.1f}x)")
+        real = vstate.get("real")
+        if real and real["qty"] >= 2 and not self.dry_run:
+            half = real["qty"] // 2
+            filled, price, _ = self._sell_out(real["contract"], half, "half")
+            if filled:
+                self._record(variant, "real", real, price, now_et(), "half", filled, shadow.get("peak"))
+                real["qty"] -= filled
+
     def close(self, variant, vstate, price, reason, now):
         shadow = vstate.pop("shadow")
+        if "banked" in shadow:  # half was sold earlier at its half_at multiple
+            price = round(shadow["banked"] + 0.5 * price, 4)
         log(f"{variant['id']}: exit {shadow['contract']} @ {price} ({reason})")
         self._record(variant, "shadow", shadow, price, now, reason, shadow["qty"], shadow.get("peak"))
         real = vstate.pop("real", None)
@@ -356,6 +416,13 @@ class Bot:
 
     def _record(self, variant, mode, pos, exit_price, now, reason, qty, peak=None):
         entry = pos["entry_price"]
+        if mode == "real" and variant["id"] in ledgers.members(self.config):
+            pnl = round((exit_price - entry) * 100 * qty, 2)
+            book = ledgers.load()
+            ledgers.roll(book, self.config["ledgers"], self.state["date"])
+            ledgers.book(book, variant["id"], pnl)
+            ledgers.save(book)
+            ledgers.shift_main_anchor(pnl)
         journal.append_exit({"date": self.state["date"], "variant": variant["id"], "mode": mode,
                              "contract": pos["contract"], "entry_price": entry,
                              "exit_price": exit_price, "peak": peak if peak is not None else "",
@@ -409,21 +476,25 @@ class Bot:
         for variant, vstate in pairs:
             shadow = vstate.get("shadow")
             if shadow:
-                # A contract that does not expire today is not an intraday trade: it is held
-                # overnight (trail still applies) and closes at the exit time of its expiry day.
+                # A news pick that does not expire today is held overnight (trail still applies)
+                # and closes at the exit time of its expiry day; every other variant sells at the
+                # exit time anyway (journal/research/EXITS.md: carried rebounds -42% vs -13%).
                 expires_today = parse_occ(shadow["contract"])[1] <= f"{self.today:%y%m%d}"
-                if at_exit and not expires_today:
+                closes_today = expires_today or not carries(variant)
+                if at_exit and not closes_today:
                     vstate["hold"] = True
                 quote = (snaps.get(shadow["contract"]) or {}).get("latestQuote") or {}
                 bid = quote.get("bp")
                 if bid is None:
-                    if at_exit and expires_today:
+                    if at_exit and closes_today:
                         self.close(variant, vstate, 0.0, "time_noquote", now)
                     continue
                 shadow["peak"] = max(shadow["peak"], bid)
                 shadow["last"], shadow["last_time"] = bid, now.isoformat(timespec="seconds")
+                if not at_exit and half_out(shadow, bid, variant):
+                    self.sell_half(variant, vstate, bid, now)
                 if at_exit:
-                    reason = "time" if expires_today else None
+                    reason = "time" if closes_today else None
                 else:
                     reason = check_exit(shadow["entry_price"], shadow["peak"], bid, variant)
                 if reason:
@@ -527,6 +598,8 @@ def main():
             # Keep collecting shadow data; real orders wait for the owner to reset the account.
             log(f"RESET NEEDED: equity ${equity:.2f} < ${config['dead_equity']}; shadow only today")
             state["reset_needed"] = True
+        if config.get("ledgers"):
+            state["ledgers"] = start_ledgers(config, now.date().isoformat())
         journal.save_state(state)
     log(f"equity ${state['equity_start']:.2f} phase={state['phase']} "
         f"champion={state['champion']} until={until} exit={exit_at} dry_run={args.dry_run}")
@@ -560,6 +633,9 @@ def main():
         journal.record_equity({"date": state["date"], "equity": round(equity, 2),
                                "phase": state["phase"], "champion": state["champion"]})
         log(f"day done, equity ${equity:.2f}" + (f" (account ${account:.2f})" if ledger else ""))
+        if config.get("ledgers"):
+            ledgers.record_equity(ledgers.load(), config["ledgers"], state["date"],
+                                  {v for v, s in (state.get("ledgers") or {}).items() if s["paused"]})
     journal.save_state(state)
 
 

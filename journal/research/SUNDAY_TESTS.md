@@ -18,7 +18,7 @@ in EVOLUTION.md.
    then close a minute back above VWAP (or the open) before 12:00 -> buy the same-day call
    ~0.1-0.2 delta. Control: the same trigger on ordinary days. 2026-10-07: AMZN 257.5C
    $0.10 at 09:45, $2.16 at 15:10.
-3. **Pre-market gap already in the price.** When the pre-market bias direction matches the
+3. **Pre-market gap already in the price.** (2026-10-18, live so far: 3 directional calls, open->close 2 of 3 right, close->close 3 of 3; too few to judge, keep counting.) When the pre-market bias direction matches the
    gap (e.g. 2026-10-07 put on a gap down), does the 0DTE option bought after the open still
    pay? Compare open-to-close vs close-to-close direction hit rates for claude_bias.
 4. **Afternoon butterflies, only on quiet afternoons.** SPY 0DTE call/put butterfly at 14:00,
@@ -31,24 +31,6 @@ in EVOLUTION.md.
 6. ~~**Analyst rule, strict headlines.**~~ PARTLY DONE (strict filter applied to the existing realopt2 rows; zoh/analyst.py itself not yet changed). Rerun zoh/analyst.py + realopt2 with only
    "<firm> Upgrades|Downgrades <stock> to <rating>" headlines (the loose regex let 5 false
    events in, including TSLA 2026-05-11 +415%), plus a price-target-raise >= 20% bucket.
-7. **Hold vs same-day exit for non-same-day options.** Compare carried positions (new rule
-   since 2026-10-07) with what a 15:45 exit would have given.
-
-8. **Earlier trail start.** On real prices, compare `trail_after` 1.0 (today) with 0.5 and
-   0.6 (giveback 0.4) for rebound_scanner, catalyst_open and meta_follow2. 2026-10-12:
-   CRM 252.5C peaked +66% and never armed the trail (now -70%); META 755C armed it and kept
-   +73%. Report with and without the best trade.
-   2026-10-15: GOOGL 357.5C (megacap_reclaim) $0.64 -> peak $1.24 (1.94x, just short of
-   arming) -> $0.43 at 15:45; ORCL 135C (leader_follow) reached 2.7x and armed. Include
-   megacap_reclaim and leader_follow in the comparison.
-   Also test a tighter trail on big runners: 2026-10-13 META 775C $0.93 -> peak $7.39 ->
-   trail exit $4.15 (floor was $4.43 = 60% of peak; a 30-second poll in a fast drop filled
-   below it). Compare giveback 0.4 flat vs 0.25 once the option is >= 5x, and a floor at
-   peak minus a fixed share of the gain.
-   Third exit to compare (the other Claude's split, proposed 2026-10-14): sell half at 2x or 3x,
-   trail the rest (40% giveback). 2026-10-14 META 737.5P: $1.22 -> peak $4.64 -> trail exit
-   $2.61; half at 3x would have sold near $3.66. Decision rule: adopt for the snipers only if
-   it beats the single trail over the last 3 months AND without the best trade.
 9. **Delta floor for expensive underlyings.** With a small budget, rebound_scanner on MU
    (~$1,000) could only afford a 3.3%-OTM same-day call (Alpaca delta 0.00, target 0.08);
    it expired worthless. Test skipping (or switching to the cheapest affordable strike with
@@ -62,42 +44,13 @@ in EVOLUTION.md.
    (sell the news). Check past event days (OCP, Computex, GTC, Hot Chips) for the hottest
    basket's open-to-close and the 0DTE put.
 
-12. **Leader follow on real prices.** Each day, the large cap with the biggest move from the
-   open beyond SPY's (>= +2% after 30 minutes, any weekday, nearest expiry) -> ~0.2-delta
-   call, trail from +100%. Universe as in the `leader_follow` variant. Compare with
-   meta_follow2 (META only, Mon/Wed/Fri) and with the same rule without the SPY adjustment.
-   Entry time matters most: on 2026-10-13 META ran 735.8 -> 769 between 09:35 and 10:00 and
-   pulled back to 761 by 10:10, so a 10:00 entry bought the top. Compare entries at 5, 10, 15
-   and 30 minutes (thresholds 1.0 / 1.5 / 2.0% beyond SPY): earlier catches more of the run
-   but more false starts reverse (DOSSIER_AMD: small early moves reversed 70% of the time).
-   Report the last 3 months first, with and without the best trade.
-
-13. **Tue/Thu with the next expiry.** Single-stock scanners only bought same-day options, so
-   they sat out every Tuesday and Thursday (2026-10-13: MU -4.9% and AMD -2.2% gaps skipped;
-   AAPL dipped -1% after the open and reclaimed to a new high). On real prices, compare the
-   rebound rule and the reclaim rule on Tue/Thu using the next day's expiry against their
-   Mon/Wed/Fri same-day results. Live twins since 10-14: rebound_scanner_any (shadow) and
-   megacap_reclaim with any_expiry.
-   2026-10-15 (Thursday, hot PPI): MU gapped -4.4% and went 858 -> 931 (+1.9% on the day),
-   AMD -7% -> -1.5%; the champion sat out (no same-day expiry) and rebound_scanner_any
-   bought NVDA 225C by list order (peak 1.65x). Also count how often a multi-day sector
-   rout (3+ red days, sector -15%) ends in a gap-down reversal like this one.
-
 14. **Pre-earnings drift with 2-4 week calls (compounder phase).** Buy ~0.3-delta calls
    expiring after the report, 10 trading days before it, sell the day before the report.
    RUNUP.md (stock only): +1.6% median excess, 60% up; +11.4% for names already running >5%.
    Real option prices, last 3 months first, with and without the best trade. Also test the
    0DTE version: the sniper's open buy on names 5-10 days before their report vs other days.
 
-15. **Gap fill symmetry: gapup_fade vs rebound.** On 2026-10-13 tech that gapped down bounced
-   (ORCL, AMD, META, INTC) and names that gapped up on known news faded (UNH -4.2% after an
-   earnings beat, GS -2.6%). Shadow variant gapup_fade: large cap gaps up >= 2%, 15 minutes after
-   the open it is >= 0.2% below its open -> ~0.15-delta put, nearest expiry. Real option prices,
-   last 3 months first, with and without the best one/two trades; compare with the rebound
-   (down gaps), with and without the "below the open" confirmation, and by gap size
-   (2-4 / 4-6 / >6%) and by earnings vs non-earnings gap.
-
-16. **Bearish macro days: SPY puts and put snipers.** Days with a hot CPI/PPI/jobs print (or
+16. **Bearish macro days: SPY puts and put snipers.** (Partly answered by MACRO_SURPRISE.md: with 2019-12+ data a hot print does not make the afternoon follow through on SPY/QQQ; the put-sniper half is still open.) Days with a hot CPI/PPI/jobs print (or
    yields up >= 5bp and futures red by 09:00): buy a 0DTE SPY put at 09:35 and, separately, a
    ~0.1-delta put on the weakest mega cap in a cooling theme. Real option prices, last 3
    months first, with and without the best one/two trades, against all other days. Live so
@@ -111,26 +64,7 @@ in EVOLUTION.md.
    (diagnostics 2026-10-13), so spreads are allowed. Expectation: spreads cut the fat tails
    this phase lives on, so they belong to `compounder`, not `zero-or-hero`.
 
-18. **Sniper strike distance (the other Claude's 10-15 change).** They moved their sniper from a
-   fixed 0.10 delta to a strike half the stock's 20-day average daily move out of the money,
-   never below 0.30 delta (their owner's view, not a backtest). On real prices for our sniper
-   days and the strict-upgrade events (realopt2): 0.10 vs 0.20 vs 0.30 delta vs 0.5x / 1x the
-   daily swing, last 3 months first, with and without the best one/two trades, and what our
-   budget could actually buy (20% of the ledger, one-contract cap 50%). 2026-10-15: AAPL 355C
-   (0.12 delta, 2.3% out, AAPL's daily swing ~1.2%) -97%; 2026-10-13: META 775C (~0.1 delta)
-   +346%. Live twin since 10-16: catalyst_open_near (0.30 delta, shadow).
-
-19. **Multi-ledger real trading (owner approved the direction 2026-10-16; plan and build on Sunday).**
-   The other Claude runs 17 strategies x two ledgers ($500 and $1,000), 34 virtual ledgers, all
-   trading real paper orders inside one $50k Alpaca account; each ledger dies or doubles on its
-   own (87 option orders in 7 days). We trade one $500 ledger and only the snipers place real
-   orders, so 11 of 12 variants have no real fills (live-readiness gate (a) needs 30). Our paper
-   account also holds ~$50k. Plan: give the 8-10 best variants their own $500 virtual ledger with
-   real paper orders (~$4-5k in use), per-ledger generations (reset below $50), per-ledger
-   equity in journal/, the review and dashboard per ledger; keep shadows for the rest. Decide
-   which variants, sizing per trade, how the "one theme a day" rule applies across ledgers, and
-   the reporting. Write the plan in EVOLUTION.md, then build with tests.
-20. **Follow-the-open with split exits (owner approved 2026-10-16).** zoh/research/opendrive.py now
+20. **Follow-the-open with split exits (owner approved 2026-10-16).** (2026-10-18: added as spy_open_drive and stock_open_drive with half at 3x and the rest held to 15:45; each has its own ledger. Open until they have live trades.) zoh/research/opendrive.py now
    compares take3 / hold / trail / half3_hold / half3_trail on the same entries (the 3x cap cut
    the tails: 2026-10-16 SPY 766P $0.18 -> $3.56). If a split exit is positive over the last 3
    months without the best two trades, add a shadow "SPY 10:00 follow-the-open" variant.
@@ -142,15 +76,21 @@ in EVOLUTION.md.
    Gates from REGIME.md section 5: skip macro release days, monthly options-expiry week and
    Fridays; each ledger goes shadow-only after 5 straight losses, live again after a shadow win.
 
-21. **Hot vs cool release days (claude-c calendar, MACRO_SURPRISE.md, updated 10-17).** With 2019-12+
-   data the hot-data put does not hold on the underlying (SPY 50% follow-through); drop it as a
-   real candidate. Test instead "cool CPI close -> 1-week ATM call, sell after 2 days" with real
-   option prices (16 COOL CPIs since 2024-02; SPY up 74% of 34 over two days, every period
-   positive). It suits the compounder phase. claude-c sends ATM IV snapshots (09:31 / 10:00 /
-   16:01, 15 symbols) daily from 10-19: use them to calibrate backtest.iv. Measure IEX vs SIP vs
-   OpenD 09:30 and 10:00 prices on the 25 days in 2026-10-17.premarket-5m-2026-09-01.json.
-
 ## Done
+
+- **Items 12 and 15 (2026-10-18, journal/research/SCANNERS.md + scanners.json, real option prices, 10% costs).**
+  - Leader follow (biggest move beyond SPY, ~0.2 delta call, trail2x), last 3 months / all: 5 min >= 1.0%: -21% / -20% (51 / 413); 10 min >= 1.5%: -7% / -11%; **15 min >= 1.5% (live rule): +15% / -14% / -21%** (43), all -10% (363); 30 min >= 2.0%: -6% / -18%. The live entry time is the best one, but it is positive only because of one trade: leader_follow stays shadow, no ledger. 0.30 delta at 15 minutes: +13% / -6% / -12%.
+  - Gap-up fade (gap >= 2%, >= 0.2% below the open at 09:45, ~0.15 delta put): last 3 months -5% / -14% / -21% (32), all -14% (381); without the confirmation -39% (94) / -18% (803). Negative on every strike and exit, never fired live: gapup_fade retired. Gap-size buckets in SCANNERS.md.
+
+- **Items 7, 8, 13, 18 (2026-10-18, journal/research/EXITS.md + exits.json, real option prices 2024-02 to 2026-10-16, 10% costs; avg / without best / without best two).**
+  - Rebound (champion rule, Mon/Wed/Fri same day, 37 trades in the last 3 months): live 0.08 delta + trail2x **+46% / +34% / +20%**; all 171 trades -33%. Positive recently, negative over 2.7 years: a candidate, and it now trades its own ledger. 0.30 delta + half at 3x: +38% / +25% / +18% (all -10%), the least bad overall.
+  - Item 13, Tue/Thu with the next day's expiry (29 trades, last 3 months): negative on every strike and exit (0.08 trail2x -13% / -22% / -29%). rebound_scanner_any retired.
+  - Item 7, carry vs 15:45: carried Tue/Thu rebounds -42% vs -13% sold at 15:45 (0.08 delta, last 3 months); strict-upgrade picks carried +12% / -4% / -16% vs -13% / -19% / -23% sold (all 66). Only catalyst variants carry now.
+  - Item 8, exits: arming the trail at 1.5x or 1.6x is no better than 2x (rebound +44% vs +46%; META much worse, -7% vs +94%). Tighter trail above 5x helps rebound ex-best but hurts META: unchanged. Half at 3x + trail on strict upgrades: -12% / -40% vs single trail -21% / -57% (last 3 months, 11 trades), also better over all 90: adopted for catalyst_open / catalyst_intraday (half_at 3).
+  - Item 18, strike distance on strict upgrades (11 last 3 months / 90 all): 0.10 delta -21% / -16%, 0.20 -29% / -19%, 0.30 -31% / -17%, half / one daily swing out -37% / -31%. No strike makes the mechanical upgrade rule positive; nearer is not better. catalyst_open_near retired. On rebound the near strikes lose less overall but the 0.08 lottery is best recently.
+  - meta_follow2 (21 trades last 3 months): 0.20 trail2x +59% / -18% / -29%: positive only because of one trade. Shadow only.
+- **Item 19, multi-ledger (2026-10-18, built: zoh/ledgers.py, tests/test_ledgers.py).** A variant listed in config `ledgers` trades real paper orders from its own $500 ledger (20% a trade, one contract up to 30%), own generations below $50, real orders pause after 5 losses in a row and resume after a win; its P&L is kept out of the main ledger by moving the main anchor. Bar for a ledger: positive on real prices over the last 3 months without the best trade. Four pass: rebound_scanner, nvda_gapdown_put, spy_open_drive, stock_open_drive. meta_follow2 (one-trade result) and claude_bias (no real-price history) stay shadow. Ledgers are independent of each other's themes. Review shows a ledger table; journal/ledger_equity.csv gets a row per ledger each day.
+- **Item 21 (2026-10-18, COOLCPI.md, FEEDS.md).** Cool CPI call at the close, sold 2 days later, real prices: SPY ATM +4% / -3% / -9% (16), QQQ +0% / -11% / -21%: the 74% underlying edge does not survive option prices. Rejected. IEX vs SIP vs OpenD (315 symbol-days): median difference 4 bp; the 10:00 direction flips on 7 of 315, all with moves under 0.3%, none at >= 0.5% (IEX is ~3% of the volume). The 0.5% / 0.8% gates are safe on IEX.
 
 - **Item 1, champion pick (2026-10-11, journal/research/realopt.json, 211 trades / 72 days, data to 2026-09-14).**
   Choosing one stock per day, at 10% costs:
