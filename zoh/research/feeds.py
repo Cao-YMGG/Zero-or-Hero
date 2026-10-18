@@ -71,7 +71,7 @@ def main():
         share.sort()
         lines += ["", f"IEX share of 09:30-10:00 volume: median {share[len(share) // 2]:.1%} "
                       f"(range {share[0]:.1%} to {share[-1]:.1%})."]
-    late = sum(r["iex_first_min"] > 0 for r in rows)
+    late = sum(r["iex_first_min"] > 30 for r in rows)
     lines += [f"IEX's first regular bar starts after 09:30 on {late} of {len(rows)} symbol-days.", "",
               "## Largest 10:00-move differences, IEX vs SIP", "", "| day | stock | IEX move | SIP move | OpenD move |",
               "|---|---|---|---|---|"]

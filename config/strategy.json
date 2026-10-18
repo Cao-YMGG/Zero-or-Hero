@@ -195,42 +195,6 @@
       "days": "non_event"
     },
     {
-      "id": "rebound_scanner_any",
-      "universe": [
-        "META",
-        "NVDA",
-        "TSLA",
-        "AMZN",
-        "AMD",
-        "RKLB",
-        "CRDO",
-        "HOOD",
-        "INTC",
-        "GOOGL",
-        "AAPL",
-        "COIN",
-        "SMCI",
-        "PLTR",
-        "AVGO",
-        "MU"
-      ],
-      "signal": "gap",
-      "sides": [
-        "down"
-      ],
-      "fade": true,
-      "after_minutes": 15,
-      "min_gap_pct": 2.0,
-      "target_delta": 0.08,
-      "take_profit": null,
-      "stop_loss": null,
-      "trail_after": 1.0,
-      "trail_giveback": 0.4,
-      "entry_cutoff": "10:30",
-      "days": "non_event",
-      "any_expiry": true
-    },
-    {
       "id": "gapup_fade",
       "any_expiry": true,
       "universe": [
@@ -298,19 +262,8 @@
       "stop_loss": null,
       "trail_after": 1.0,
       "trail_giveback": 0.4,
-      "entry_cutoff": "10:00"
-    },
-    {
-      "id": "catalyst_open_near",
-      "signal": "catalyst",
-      "after_minutes": 1,
-      "move_pct": 0.0,
-      "target_delta": 0.3,
-      "take_profit": null,
-      "stop_loss": null,
-      "trail_after": 1.0,
-      "trail_giveback": 0.4,
-      "entry_cutoff": "10:00"
+      "entry_cutoff": "10:00",
+      "half_at": 3.0
     },
     {
       "id": "catalyst_intraday",
@@ -324,7 +277,8 @@
       "stop_loss": null,
       "trail_after": 1.0,
       "trail_giveback": 0.4,
-      "entry_cutoff": "14:30"
+      "entry_cutoff": "14:30",
+      "half_at": 3.0
     },
     {
       "id": "spy_open_drive",
@@ -373,5 +327,18 @@
         2
       ]
     }
-  ]
+  ],
+  "ledgers": {
+    "base": 500,
+    "dead": 50,
+    "risk": 0.2,
+    "one_contract_cap": 0.3,
+    "pause_after": 5,
+    "variants": [
+      "rebound_scanner",
+      "nvda_gapdown_put",
+      "spy_open_drive",
+      "stock_open_drive"
+    ]
+  }
 }

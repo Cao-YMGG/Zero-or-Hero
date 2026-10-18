@@ -103,6 +103,19 @@ def virtual_equity(ledger, account_equity, base, dead, today):
     return equity, ledger
 
 
+def carries(variant):
+    """Hold a non-expiring option overnight? Only news picks (catalyst signal) by default:
+    on real prices carried upgrade picks did better (+12% vs -13% sold at 15:45) and carried
+    Tue/Thu rebounds much worse (-42% vs -13%). A variant can override with "carry"."""
+    return variant.get("carry", variant.get("signal") == "catalyst")
+
+
+def half_out(shadow, bid, variant):
+    """True once, when the bid first reaches the variant's half_at multiple of the entry."""
+    k = variant.get("half_at")
+    return bool(k) and "banked" not in shadow and bid >= k * shadow["entry_price"]
+
+
 def start_ledgers(config, today):
     """Roll the per-variant ledgers for today and fix each one's stake and pause state, like
     equity_start for the main ledger. Returns {variant: {"equity", "paused", "generation"}}."""
@@ -345,8 +358,26 @@ class Bot:
                                   "entry_price": price,
                                   "entry_time": now_et().isoformat(timespec="seconds")}
 
+    def sell_half(self, variant, vstate, bid, now):
+        """Take half off at the variant's half_at multiple; the rest keeps trailing. The shadow
+        banks half the price (its final row records the blended exit); the real position sells
+        half its contracts when it has two or more."""
+        shadow = vstate["shadow"]
+        shadow["banked"] = round(0.5 * bid, 4)
+        log(f"{variant['id']}: half out of {shadow['contract']} @ {bid} "
+            f"({bid / shadow['entry_price']:.1f}x)")
+        real = vstate.get("real")
+        if real and real["qty"] >= 2 and not self.dry_run:
+            half = real["qty"] // 2
+            filled, price, _ = self._sell_out(real["contract"], half, "half")
+            if filled:
+                self._record(variant, "real", real, price, now_et(), "half", filled, shadow.get("peak"))
+                real["qty"] -= filled
+
     def close(self, variant, vstate, price, reason, now):
         shadow = vstate.pop("shadow")
+        if "banked" in shadow:  # half was sold earlier at its half_at multiple
+            price = round(shadow["banked"] + 0.5 * price, 4)
         log(f"{variant['id']}: exit {shadow['contract']} @ {price} ({reason})")
         self._record(variant, "shadow", shadow, price, now, reason, shadow["qty"], shadow.get("peak"))
         real = vstate.pop("real", None)
@@ -445,21 +476,25 @@ class Bot:
         for variant, vstate in pairs:
             shadow = vstate.get("shadow")
             if shadow:
-                # A contract that does not expire today is not an intraday trade: it is held
-                # overnight (trail still applies) and closes at the exit time of its expiry day.
+                # A news pick that does not expire today is held overnight (trail still applies)
+                # and closes at the exit time of its expiry day; every other variant sells at the
+                # exit time anyway (journal/research/EXITS.md: carried rebounds -42% vs -13%).
                 expires_today = parse_occ(shadow["contract"])[1] <= f"{self.today:%y%m%d}"
-                if at_exit and not expires_today:
+                closes_today = expires_today or not carries(variant)
+                if at_exit and not closes_today:
                     vstate["hold"] = True
                 quote = (snaps.get(shadow["contract"]) or {}).get("latestQuote") or {}
                 bid = quote.get("bp")
                 if bid is None:
-                    if at_exit and expires_today:
+                    if at_exit and closes_today:
                         self.close(variant, vstate, 0.0, "time_noquote", now)
                     continue
                 shadow["peak"] = max(shadow["peak"], bid)
                 shadow["last"], shadow["last_time"] = bid, now.isoformat(timespec="seconds")
+                if not at_exit and half_out(shadow, bid, variant):
+                    self.sell_half(variant, vstate, bid, now)
                 if at_exit:
-                    reason = "time" if expires_today else None
+                    reason = "time" if closes_today else None
                 else:
                     reason = check_exit(shadow["entry_price"], shadow["peak"], bid, variant)
                 if reason:

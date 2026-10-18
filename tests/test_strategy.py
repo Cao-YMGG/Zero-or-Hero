@@ -642,3 +642,45 @@ class OpenDriveVariantTest(unittest.TestCase):
         ctx = day_context(date(2026, 10, 21), {})
         self.assertIsNone(evaluate_signal(make_bars([200.0] * 30 + [201.4], datetime(2026, 10, 21)), v, ctx))
         self.assertEqual(evaluate_signal(make_bars([200.0] * 30 + [201.7], datetime(2026, 10, 21)), v, ctx), "call")
+
+
+class CarryAndHalfOutTest(unittest.TestCase):
+    """Only news picks carry overnight; snipers sell half at 3x (journal/research/EXITS.md)."""
+
+    def test_carries(self):
+        from zoh.bot import carries
+        self.assertTrue(carries({"signal": "catalyst"}))
+        self.assertFalse(carries({"signal": "gap"}))
+        self.assertTrue(carries({"signal": "gap", "carry": True}))
+
+    def test_half_out_then_blended_close(self):
+        from datetime import date
+        from zoh import bot as botmod
+        from zoh.bot import half_out
+        rows, orders = [], []
+
+        class FakeBot(botmod.Bot):
+            def __init__(self):
+                self.today, self.dry_run, self.config = date(2026, 10, 19), False, {}
+
+            def _sell_out(self, contract, qty, tag):
+                orders.append((contract, qty, tag))
+                return qty, 3.1, "market"
+
+            def _record(self, variant, mode, pos, exit_price, now, reason, qty, peak=None):
+                rows.append((mode, exit_price, reason, qty))
+
+        v = {"id": "catalyst_open", "half_at": 3.0}
+        vs = {"shadow": {"contract": "META261019C00780000", "entry_price": 1.0, "peak": 3.0, "qty": 2},
+              "real": {"contract": "META261019C00780000", "qty": 3, "entry_price": 1.0}}
+        self.assertFalse(half_out(vs["shadow"], 2.9, v))
+        self.assertTrue(half_out(vs["shadow"], 3.0, v))
+        b = FakeBot()
+        b.sell_half(v, vs, 3.0, datetime(2026, 10, 19, 10, 0, tzinfo=ET))
+        self.assertFalse(half_out(vs["shadow"], 3.5, v))          # only once
+        self.assertEqual(orders, [("META261019C00780000", 1, "half")])
+        self.assertEqual(vs["real"]["qty"], 2)
+        self.assertEqual(rows, [("real", 3.1, "half", 1)])
+        vs.pop("real")
+        b.close(v, vs, 2.0, "trail", datetime(2026, 10, 19, 11, 0, tzinfo=ET))
+        self.assertEqual(rows[-1], ("shadow", 2.5, "trail", 2))   # 0.5 x 3.0 + 0.5 x 2.0
