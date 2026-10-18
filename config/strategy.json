@@ -195,45 +195,6 @@
       "days": "non_event"
     },
     {
-      "id": "gapup_fade",
-      "any_expiry": true,
-      "universe": [
-        "META",
-        "AAPL",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "NVDA",
-        "TSLA",
-        "AVGO",
-        "AMD",
-        "MU",
-        "NFLX",
-        "ORCL",
-        "CRM",
-        "PLTR",
-        "COIN",
-        "UNH",
-        "JPM",
-        "GS"
-      ],
-      "signal": "gap",
-      "sides": [
-        "up"
-      ],
-      "fade": true,
-      "after_minutes": 15,
-      "min_gap_pct": 2.0,
-      "confirm_pct": 0.2,
-      "target_delta": 0.15,
-      "take_profit": null,
-      "stop_loss": null,
-      "trail_after": 1.0,
-      "trail_giveback": 0.4,
-      "entry_cutoff": "10:30",
-      "days": "non_event"
-    },
-    {
       "id": "nvda_gapdown_put",
       "universe": [
         "NVDA"

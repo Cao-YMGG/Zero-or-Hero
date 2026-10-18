@@ -1,18 +1,15 @@
 name: Research - scanners on real prices
 
 # Sunday tests 12 and 15 on real option prices (zoh/research/scanners.py).
-# Runs on a push to a claude/** branch that touches them, or by hand for one module.
+# Run by hand (Actions -> Run workflow) on a weekend.
 # Do not run during market hours: it shares the API key with the live bot.
 
 on:
   workflow_dispatch:
     inputs:
       module:
-        description: "scanners"
+        description: "scanners or all"
         default: "all"
-  push:
-    branches: ["claude/**"]
-    paths: ["zoh/research/scanners.py", ".github/workflows/scanners.yml"]
 
 permissions:
   contents: write
@@ -33,16 +30,16 @@ jobs:
       APCA_API_SECRET_KEY: ${{ secrets.APCA_API_SECRET_KEY }}
     steps:
       - uses: actions/checkout@v4
-        if: github.event_name == 'push' || inputs.module == 'all' || inputs.module == matrix.module
+        if: inputs.module == 'all' || inputs.module == matrix.module
       - uses: actions/setup-python@v5
-        if: github.event_name == 'push' || inputs.module == 'all' || inputs.module == matrix.module
+        if: inputs.module == 'all' || inputs.module == matrix.module
         with:
           python-version: "3.12"
       - name: Study
-        if: github.event_name == 'push' || inputs.module == 'all' || inputs.module == matrix.module
+        if: inputs.module == 'all' || inputs.module == matrix.module
         run: python -m zoh.research.${{ matrix.module }}
       - name: Commit results
-        if: github.event_name == 'push' || inputs.module == 'all' || inputs.module == matrix.module
+        if: inputs.module == 'all' || inputs.module == matrix.module
         run: |
           git config user.name "zoh-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

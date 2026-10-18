@@ -44,29 +44,11 @@ in EVOLUTION.md.
    (sell the news). Check past event days (OCP, Computex, GTC, Hot Chips) for the hottest
    basket's open-to-close and the 0DTE put.
 
-12. **Leader follow on real prices.** Each day, the large cap with the biggest move from the
-   open beyond SPY's (>= +2% after 30 minutes, any weekday, nearest expiry) -> ~0.2-delta
-   call, trail from +100%. Universe as in the `leader_follow` variant. Compare with
-   meta_follow2 (META only, Mon/Wed/Fri) and with the same rule without the SPY adjustment.
-   Entry time matters most: on 2026-10-13 META ran 735.8 -> 769 between 09:35 and 10:00 and
-   pulled back to 761 by 10:10, so a 10:00 entry bought the top. Compare entries at 5, 10, 15
-   and 30 minutes (thresholds 1.0 / 1.5 / 2.0% beyond SPY): earlier catches more of the run
-   but more false starts reverse (DOSSIER_AMD: small early moves reversed 70% of the time).
-   Report the last 3 months first, with and without the best trade.
-
 14. **Pre-earnings drift with 2-4 week calls (compounder phase).** Buy ~0.3-delta calls
    expiring after the report, 10 trading days before it, sell the day before the report.
    RUNUP.md (stock only): +1.6% median excess, 60% up; +11.4% for names already running >5%.
    Real option prices, last 3 months first, with and without the best trade. Also test the
    0DTE version: the sniper's open buy on names 5-10 days before their report vs other days.
-
-15. **Gap fill symmetry: gapup_fade vs rebound.** On 2026-10-13 tech that gapped down bounced
-   (ORCL, AMD, META, INTC) and names that gapped up on known news faded (UNH -4.2% after an
-   earnings beat, GS -2.6%). Shadow variant gapup_fade: large cap gaps up >= 2%, 15 minutes after
-   the open it is >= 0.2% below its open -> ~0.15-delta put, nearest expiry. Real option prices,
-   last 3 months first, with and without the best one/two trades; compare with the rebound
-   (down gaps), with and without the "below the open" confirmation, and by gap size
-   (2-4 / 4-6 / >6%) and by earnings vs non-earnings gap.
 
 16. **Bearish macro days: SPY puts and put snipers.** (Partly answered by MACRO_SURPRISE.md: with 2019-12+ data a hot print does not make the afternoon follow through on SPY/QQQ; the put-sniper half is still open.) Days with a hot CPI/PPI/jobs print (or
    yields up >= 5bp and futures red by 09:00): buy a 0DTE SPY put at 09:35 and, separately, a
@@ -95,6 +77,10 @@ in EVOLUTION.md.
    Fridays; each ledger goes shadow-only after 5 straight losses, live again after a shadow win.
 
 ## Done
+
+- **Items 12 and 15 (2026-10-18, journal/research/SCANNERS.md + scanners.json, real option prices, 10% costs).**
+  - Leader follow (biggest move beyond SPY, ~0.2 delta call, trail2x), last 3 months / all: 5 min >= 1.0%: -21% / -20% (51 / 413); 10 min >= 1.5%: -7% / -11%; **15 min >= 1.5% (live rule): +15% / -14% / -21%** (43), all -10% (363); 30 min >= 2.0%: -6% / -18%. The live entry time is the best one, but it is positive only because of one trade: leader_follow stays shadow, no ledger. 0.30 delta at 15 minutes: +13% / -6% / -12%.
+  - Gap-up fade (gap >= 2%, >= 0.2% below the open at 09:45, ~0.15 delta put): last 3 months -5% / -14% / -21% (32), all -14% (381); without the confirmation -39% (94) / -18% (803). Negative on every strike and exit, never fired live: gapup_fade retired. Gap-size buckets in SCANNERS.md.
 
 - **Items 7, 8, 13, 18 (2026-10-18, journal/research/EXITS.md + exits.json, real option prices 2024-02 to 2026-10-16, 10% costs; avg / without best / without best two).**
   - Rebound (champion rule, Mon/Wed/Fri same day, 37 trades in the last 3 months): live 0.08 delta + trail2x **+46% / +34% / +20%**; all 171 trades -33%. Positive recently, negative over 2.7 years: a candidate, and it now trades its own ledger. 0.30 delta + half at 3x: +38% / +25% / +18% (all -10%), the least bad overall.
