@@ -1,0 +1,612 @@
+{
+ "as_of": "2026-10-19T08:52-04:00",
+ "since": "2026-10-16T16:00-04:00",
+ "headlines": [
+  {
+   "time": "10-19 08:49",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Why Is PayPal Stock Trending Monday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62436904/why-is-paypal-stock-trending-monday"
+  },
+  {
+   "time": "10-19 08:43",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "'Goldman, Evercore Are Pitching \u2018Forever Funds\u2019 to Private Equity' - Bloomberg Exclusive",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62436806/goldman-evercore-are-pitching-forever-funds-private-equity-bloomberg-exclusive"
+  },
+  {
+   "time": "10-19 08:34",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Musk Wants Every Kid In America To Own A Piece Of SpaceX",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/Opinion/26/10/62436461/musk-wants-every-kid-in-america-to-own-a-piece-of-spacex"
+  },
+  {
+   "time": "10-19 08:33",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "American Electric Power Inks Agreement With X-Energy, Amazon To Evaluate Feasibility Of Constructing 960-MW Nuclear Energy Project In Indiana",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62436439/american-electric-power-inks-agreement-x-energy-amazon-evaluate-feasibility-constructing-960-mw-nucl"
+  },
+  {
+   "time": "10-19 08:22",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Santander Builds AI Capabilities That Improve Performance And Lower Costs Using NVIDIA AI Infrastructure",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62436154/santander-builds-ai-capabilities-improve-performance-and-lower-costs-using-nvidia-ai-infrastructure"
+  },
+  {
+   "time": "10-19 08:22",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Siemens Partners With NVIDIA To Advance AI-Driven, Autonomous Factories",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62436143/siemens-partners-nvidia-advance-ai-driven-autonomous-factories"
+  },
+  {
+   "time": "10-19 08:20",
+   "symbols": [
+    "COIN",
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Taps Ethereum for JPM Coin as Tokenization Race Heats Up",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62436078/jpmorgan-taps-ethereum-for-jpm-coin"
+  },
+  {
+   "time": "10-19 08:18",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Why Is Nebius Group Stock Surging Monday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62436014/why-is-nebius-group-stock-surging-monday"
+  },
+  {
+   "time": "10-19 07:55",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Danaher Likely To Report Higher Q3 Earnings; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62435054/danaher-likely-to-report-higher-q3-earnings-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call"
+  },
+  {
+   "time": "10-19 07:33",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "target up",
+   "headline": "Bernstein Maintains Outperform on Microsoft, Raises Price Target to $662",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62434574/bernstein-maintains-outperform-microsoft-raises-price-target-662"
+  },
+  {
+   "time": "10-19 07:27",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "AST SpaceMobile Welcomes European LoI Signed By Deutsche Telekom, Orange, Telef\u00f3nica And Vodafone To Explore A Potential Joint Bid For Mobile Satellite Services Spectrum",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62434416/ast-spacemobile-welcomes-european-loi-signed-by-deutsche-telekom-orange-telefonica-and-vodafone-to-explore-a-potential-joint-bid-for-mobile-satellite-services"
+  },
+  {
+   "time": "10-19 07:27",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "ServiceNow, Eaton, SentinelOne And A Financial Stock: CNBC\u2019s \u2018Final Trades\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62434405/servicenow-eaton-sentinelone-and-a-financial-stock-cnbcs-final-trades"
+  },
+  {
+   "time": "10-19 07:01",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Knox Systems Announces New Partnership With Palantir Technologies To Accelerate Secure AI Deployment In FedRAMP And IL5 Environments",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62433805/knox-systems-announces-new-partnership-palantir-technologies-accelerate-secure-ai-deployment-fedramp"
+  },
+  {
+   "time": "10-19 06:24",
+   "symbols": [
+    "MSFT",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "AI Boom Hits a Power Wall: Microsoft Walks Away From Nscale's UK Data Center Deal",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62433053/ai-boom-hits-a-power-wall-microsoft-walks-away-from-nscales-uk-data-center-deal"
+  },
+  {
+   "time": "10-19 06:10",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62432791/netflix-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts"
+  },
+  {
+   "time": "10-19 06:00",
+   "symbols": [
+    "RKLB",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Challenges Jeff Bezos' Blue Origin and Other SpaceX Rivals, Says They Still Can\u2019t Catch Starship \u2014 \u2018Even Their Future Plans Are Behind\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62432342/elon-musk-challenges-jeff-bezos-blue-origin-and-other-spacex-rivals-says-they-still-cant-catch-starship-even-their-future-plans-are-behind"
+  },
+  {
+   "time": "10-19 06:00",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Ross Gerber Dismisses Elon Musk\u2019s Tesla Roadster as a \u2018Marketing' Demo: \u2018Old Hot Wheels Dream\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62432990/ross-gerber-dismisses-elon-musks-tesla-roadster-as-a-marketing-demo-old-hot-wheels-dream"
+  },
+  {
+   "time": "10-19 05:59",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "'JPMorgan and Alibaba Are Said Among Investors in Dongshan\u2019s Listing' - Bloomberg",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62432296/jpmorgan-and-alibaba-are-said-among-investors-dongshan-s-listing-bloomberg"
+  },
+  {
+   "time": "10-19 05:58",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Analyzing Apple In Comparison To Competitors In Technology Hardware, Storage &amp; Peripherals Industry",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62432270/analyzing-apple-comparison-competitors-technology-hardware-storage-amp-peripherals-industry"
+  },
+  {
+   "time": "10-19 05:52",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "Accenture Reportedly Weighs $1.5 Billion Sale of Greater China Business After Attracting Unsolicited Interest Over Past Year",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62432201/accenture-reportedly-weighs-sale-greater-china-operations"
+  },
+  {
+   "time": "10-19 05:26",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "upgrade",
+   "headline": "JP Morgan Upgrades Intel to Neutral, Maintains Price Target to $85",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62431993/jp-morgan-upgrades-intel-neutral-maintains-price-target-85"
+  },
+  {
+   "time": "10-19 05:26",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Mark Cuban Says US Manufacturing Can Come Back Home From China With One Big Catch: \u2018Our Robots and AI vs Their Robots and AI\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62431992/mark-cuban-us-manufacturing-return-stay-ahead-on-ai-china-robots"
+  },
+  {
+   "time": "10-19 04:58",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Jeff Bezos\u2019 Florida Real Estate Empire Could Be Growing With $69 Million Golden Beach Mansion: Report",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/real-estate/26/10/62431775/jeff-bezos-florida-real-estate-empire-could-be-growing-with-69-million-golden-beach-mansion-report"
+  },
+  {
+   "time": "10-19 04:44",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly\u2019s Omvoh Shows 1-Year Phase 3 Results for Kids with Ulcerative Colitis",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62431722/eli-lilly-s-omvoh-shows-1-year-phase-3-results-kids-ulcerative-colitis"
+  },
+  {
+   "time": "10-19 04:42",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Trump Says Google \u2018Wouldn\u2019t Have Taken My Call\u2019 In First Term, Now \u2018They Kiss My\u2026\u2019 \u2014 Then Dines With Sergey Brin",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62431710/trump-google-sergey-brin-sanders-tax"
+  },
+  {
+   "time": "10-19 04:23",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Peter Schiff Says AI Could Rewrite the Rules of Starting a Business: \u2018Don\u2019t Look for a Job\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62431563/peter-schiff-says-ai-could-rewrite-the-rules-of-starting-a-business-dont-look-for-a-job"
+  },
+  {
+   "time": "10-19 02:53",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Reported Sunday, Lilly Brings Updated Phase 3 Selpercatinib Data Versus Cabozantinib Or Vandetanib In RET-Mutant Medullary Thyroid Cancer To ESMO 2026, Alongside Sofetabart Mipitecan, Olomorasib And Abemaciclib Presentations",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62431016/reported-sunday-lilly-brings-updated-phase-3-selpercatinib-data-versus-cabozantinib-or-vandetanib-re"
+  },
+  {
+   "time": "10-19 02:37",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Santander Agrees Three-Year Collaboration Framework With Nvidia, Marking New AI Milestone And Building Capabilities On Nvidia AI Infrastructure",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62430888/santander-agrees-three-year-collaboration-framework-nvidia-marking-new-ai-milestone-and-building-cap"
+  },
+  {
+   "time": "10-19 01:16",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Says AI And Robots Are The Only Way To Solve America's $40 Trillion Debt Problem \u2014 \u2018We\u2019re Not Gonna Save Our Way There\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62430591/elon-musk-says-ai-and-robots-are-the-only-way-to-solve-americas-40-trillion-debt-problem-were-not-gonna-save-our-way-there"
+  },
+  {
+   "time": "10-18 16:55",
+   "symbols": [
+    "JPM",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Stock Falls as Options Market Signals Jump to $370 After Earnings",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62429795/tesla-stock-falls-as-options-market-signals-a-jump-to-370-after-earnings"
+  },
+  {
+   "time": "10-18 14:20",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia Enters Correction After Rising Wedge Breakdown as AI Stock Bubble Index Jumps",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62429648/nvidia-enters-correction-after-rising-wedge-breakdown-as-ai-stock-bubble-index-jumps"
+  },
+  {
+   "time": "10-18 12:30",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Larry Ellison\u2019s Net Worth Plummets as Oracle Suffers $488 Billion Wipeout",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62429506/larry-ellisons-net-worth-plummets-as-oracle-suffers-488-billion-wipeout"
+  },
+  {
+   "time": "10-18 11:45",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "DRAM ETF Records Biggest Daily Outflow as AI Bubble Fears Rise",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62429473/dram-etf-records-biggest-daily-outflow-as-ai-bubble-fears-rise"
+  },
+  {
+   "time": "10-18 11:00",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "UK's Telegraph Reported Sunday, Microsoft Pulls Plug On Deal To Lease Computing Capacity From UK Start-Up Nscale At Essex Data Centre",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62429404/uk-s-telegraph-reported-sunday-microsoft-pulls-plug-deal-lease-computing-capacity-uk-start-nscale-es"
+  },
+  {
+   "time": "10-18 10:30",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Trump Gave Crypto What It Wanted: Is He Also Its Biggest Problem?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62429371/trump-gave-crypto-what-it-wanted-is-he-also-its-biggest-problem"
+  },
+  {
+   "time": "10-18 08:51",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "This Week in TSLA: Roadster's Flying Debut, Cybercab Speeding in School Zones, SpaceX Merger and More",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62429279/this-week-in-tsla-roadsters-flying-debut-cybercab-speeding-in-school-zones-spacex-merger-and-more"
+  },
+  {
+   "time": "10-18 08:30",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Promises Its Flying Roadster For 2028, but MKBHD Has One Question: \u2018This Is A Prank, Right?\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62429218/tesla-promises-its-flying-roadster-for-2028-but-mkbhd-has-one-question-this-is-a-prank-right"
+  },
+  {
+   "time": "10-18 07:11",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Says Optimus, Cybercab Will Be \u2018the Vast Majority\u2019 of Tesla\u2019s Value",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62429164/elon-musk-says-optimus-cybercab-will-be-the-vast-majority-of-teslas-value"
+  },
+  {
+   "time": "10-18 07:00",
+   "symbols": [
+    "AAPL",
+    "META",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "iPhone Duo Preorders, AAPL Crosses $5 Trillion and More: This Week in Appleverse",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62429143/apple-iphone-duo-preorders-5-trillion-ai-china"
+  },
+  {
+   "time": "10-18 06:00",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Inflation Shakes Fed Outlook Crude Oil Surges, Sanders Targets Oil Companies and More: This Week in Economy",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/macro-economic-events/26/10/62429062/inflation-fed-ai-boom-oil-prices-bond-yields"
+  },
+  {
+   "time": "10-18 04:16",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Faces Brazil Election Scrutiny Over Instagram Restrictions on Lula\u2019s Accounts Ahead of Runoff",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62428960/meta-instagram-lula-bolsonaro-brazil-election"
+  },
+  {
+   "time": "10-17 23:27",
+   "symbols": [
+    "NVDA",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Kevin O'Leary Says This Is What Sets Elon Musk Apart: 'He Does Not Deal With Noise'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62428791/kevin-oleary-says-this-is-what-sets-elon-musk-apart-he-does-not-deal-with-noise"
+  },
+  {
+   "time": "10-17 16:30",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Rocket Lab Stock Erases $57 Billion in Value as Headwinds Mount",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62428608/rocket-lab-stock-erases-57-billion-in-value-as-headwinds-mount-is-the-drop-a-gift"
+  },
+  {
+   "time": "10-17 16:15",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Dell Stock Enters Bear Market as Analysts Remain Highly Bullish Despite AI Jitters",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62428590/dell-stock-enters-a-bear-market-as-analysts-remain-highly-bullish-despite-ai-jitters"
+  },
+  {
+   "time": "10-17 14:30",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "CoreWeave Stock Forms H&S Pattern as Key Bond Yield Hits 15% Amid Insider Selling",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62428511/coreweave-stock-forms-hs-pattern-as-key-bond-yield-hits-15-amid-insider-selling"
+  },
+  {
+   "time": "10-17 11:31",
+   "symbols": [
+    "AVGO",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Broadcom Stock Is Down 35% From Its Peak as AI Bubble Warnings Rise, but Analysts Stay Optimistic",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62428348/broadcom-stock-is-down-35-from-its-peak-as-ai-bubble-warnings-rise-but-analysts-stay-optimistic"
+  },
+  {
+   "time": "10-17 10:00",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "The Next Hollywood Trailer May Talk Back: Tech CEO Predicts Interactive Technology Could Change How Audiences Experience Movies",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62428248/flam-hollywood-studios-interactive-movie-trailers"
+  },
+  {
+   "time": "10-17 08:59",
+   "symbols": [
+    "MU",
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "EXCLUSIVE: Forget China \u2014 Samsung Is The Bigger Threat To Micron, SanDisk Investors, Says Nicholas Mugalli",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62428132/exclusive-forget-china-samsung-is-the-bigger-threat-to-micron-sandisk-investors-says-nicholas-mugalli"
+  },
+  {
+   "time": "10-17 08:51",
+   "symbols": [
+    "TSM"
+   ],
+   "rating": "",
+   "headline": "Consumer Tech (Oct 12-16): Big Banks Reports Earnings, Anthropic Revenue Jumps 45% & More",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62428117/consumer-tech-oct-12-16-big-banks-reports-earnings-anthropic-revenue-jumps-45-more"
+  },
+  {
+   "time": "10-17 05:33",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Disney to Spend $60 Million a Year on Character.AI Talent After Its Own Layoffs as AI Startup Faces Bankruptcy",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62427403/disney-60-million-character-ai-employees-ai-strategy"
+  },
+  {
+   "time": "10-17 02:22",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "JD Vance Touts TrumpRx Drug Price Push, Trump Accounts as \u2018Economic Nationalism\u2019 Wins Ahead Of Midterms",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62427207/jd-vance-trumprx-trump-accounts-economic-wins"
+  },
+  {
+   "time": "10-17 01:38",
+   "symbols": [
+    "LLY",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Robotics Remains In Its \u2018Lego Era,\u2019 Says Former Nvidia Leader Turned VC as Physical AI Awaits Its ChatGPT Moment",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62427182/robotics-lego-era-simulation-safety-physical-ai"
+  },
+  {
+   "time": "10-17 01:10",
+   "symbols": [
+    "AMZN",
+    "GOOGL",
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "UK Watchdog Proposes Strategic Market Tag for Microsoft, Puts Excel and Copilot AI Under Competition Scrutiny",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62427164/uk-watchdog-microsoft-competition-scrutiny"
+  },
+  {
+   "time": "10-16 22:29",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Denies Political Bias in Brazil Elections After Staff Flagged Instagram Restrictions Affecting President Lula's Accounts: Report",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62427064/meta-brazil-election-lula-bolsonaro-instagram"
+  },
+  {
+   "time": "10-16 21:18",
+   "symbols": [
+    "INTC",
+    "NVDA",
+    "TSM"
+   ],
+   "rating": "",
+   "headline": "The Moment Jensen Huang Realized Nvidia 'Won't Have to Die' Came After a Call From This CEO: 'For the Whole Time, 30 Years\u2026'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62426900/the-moment-jensen-huang-realized-nvidia-wont-have-to-die-came-after-a-call-from-this-ceo-for-the-whole-time-30-years"
+  },
+  {
+   "time": "10-16 17:57",
+   "symbols": [
+    "AMZN",
+    "GOOGL",
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "'Anthropic quietly pitches its own AI safety bill to lawmakers'- Politico",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62426440/anthropic-quietly-pitches-its-own-ai-safety-bill-lawmakers-politico"
+  },
+  {
+   "time": "10-16 16:41",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta's AI Spending Could Hit $205 Billion in 2027: Why Magnificent 7 ETFs Face a Crucial Test",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62425494/metas-ai-spending-could-hit-205-billion-in-2027-why-magnificent-7-etfs-face-a-crucial-test"
+  },
+  {
+   "time": "10-16 16:23",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly Takes 19.9% Stake In TRex Bio With 5.48M Shares, Investing $12.3M In IPO",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m/26/10/62425124/eli-lilly-takes-19-9-stake-trex-bio-5-48m-shares-investing-12-3m-ipo"
+  },
+  {
+   "time": "10-16 16:14",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Semis And Bonds At Inflection Points; Bonds Become Correlated With AI Trade; Musk Shows Flying Roadster",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/Opinion/26/10/62424859/semis-and-bonds-at-inflection-points-bonds-become-correlated-with-ai-trade-musk-shows-flying-roadster"
+  }
+ ]
+}
