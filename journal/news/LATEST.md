@@ -1,11 +1,15 @@
-# Headlines since 2026-10-16 16:00 ET (as of 2026-10-19 08:52 ET)
+# Headlines since 2026-10-16 16:00 ET (as of 2026-10-19 10:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-19 09:21 | MSFT | upgrade | Goldman Sachs Upgrades CoreWeave Despite 15% Bond Yields as Stock Jumps 6% |
+| 10-19 09:14 | GOOGL | target down | Keybanc Maintains Overweight on Alphabet, Lowers Price Target to $410 |
 | 10-19 07:33 | MSFT | target up | Bernstein Maintains Outperform on Microsoft, Raises Price Target to $662 |
 | 10-19 05:26 | INTC | upgrade | JP Morgan Upgrades Intel to Neutral, Maintains Price Target to $85 |
+| 10-19 09:25 | MSFT |  | Microsoft Expands Project Perception, CEO Satya Nadella Announces |
+| 10-19 09:06 | AMZN |  | Amazon Opens Its AWS Trainium AI Chips To Every PyTorch Developer, No Rewrite Needed |
 | 10-19 08:49 | META |  | Why Is PayPal Stock Trending Monday? |
 | 10-19 08:43 | GS |  | 'Goldman, Evercore Are Pitching ‘Forever Funds’ to Private Equity' - Bloomberg Exclusive |
 | 10-19 08:34 | TSLA |  | Musk Wants Every Kid In America To Own A Piece Of SpaceX |

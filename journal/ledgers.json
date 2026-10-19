@@ -1,0 +1,30 @@
+{
+  "nvda_gapdown_put": {
+    "generation": 1,
+    "history": [],
+    "real_trades": 0,
+    "realized": 0.0,
+    "started": "2026-10-19"
+  },
+  "rebound_scanner": {
+    "generation": 1,
+    "history": [],
+    "real_trades": 0,
+    "realized": 0.0,
+    "started": "2026-10-19"
+  },
+  "spy_open_drive": {
+    "generation": 1,
+    "history": [],
+    "real_trades": 0,
+    "realized": 0.0,
+    "started": "2026-10-19"
+  },
+  "stock_open_drive": {
+    "generation": 1,
+    "history": [],
+    "real_trades": 0,
+    "realized": 0.0,
+    "started": "2026-10-19"
+  }
+}

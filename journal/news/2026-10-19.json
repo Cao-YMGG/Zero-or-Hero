@@ -1,7 +1,47 @@
 {
- "as_of": "2026-10-19T08:52-04:00",
+ "as_of": "2026-10-19T10:02-04:00",
  "since": "2026-10-16T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-19 09:25",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Expands Project Perception, CEO Satya Nadella Announces",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62437997/microsoft-expands-project-perception-ceo-satya-nadella-announces"
+  },
+  {
+   "time": "10-19 09:21",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "upgrade",
+   "headline": "Goldman Sachs Upgrades CoreWeave Despite 15% Bond Yields as Stock Jumps 6%",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62437919/coreweave-goldman-upgrade-bond-yields"
+  },
+  {
+   "time": "10-19 09:14",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "target down",
+   "headline": "Keybanc Maintains Overweight on Alphabet, Lowers Price Target to $410",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62437759/keybanc-maintains-overweight-alphabet-lowers-price-target-410"
+  },
+  {
+   "time": "10-19 09:06",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Opens Its AWS Trainium AI Chips To Every PyTorch Developer, No Rewrite Needed",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62437460/amazon-opens-its-aws-trainium-ai-chips-every-pytorch-developer-no-rewrite-needed"
+  },
   {
    "time": "10-19 08:49",
    "symbols": [
