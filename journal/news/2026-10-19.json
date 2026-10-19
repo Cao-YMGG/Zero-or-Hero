@@ -1,7 +1,58 @@
 {
- "as_of": "2026-10-19T11:32-04:00",
+ "as_of": "2026-10-19T12:02-04:00",
  "since": "2026-10-16T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-19 11:56",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "18 Globo Titles Heading To Netflix In Unprecedented Licensing Agreement",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62444083/18-globo-titles-heading-netflix-unprecedented-licensing-agreement"
+  },
+  {
+   "time": "10-19 11:45",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Rocket Lab Stock Climbs: What's Happening?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62443732/rocket-lab-stock-climbs-whats-happening"
+  },
+  {
+   "time": "10-19 11:40",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "'Walmart Sells US Debt, Eyes Canadian Market as Spending Grows' - Bloomberg",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62443544/walmart-sells-us-debt-eyes-canadian-market-spending-grows-bloomberg"
+  },
+  {
+   "time": "10-19 11:37",
+   "symbols": [
+    "MU",
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "Why Micron and Sandisk Stocks Are Surging Monday",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62443354/why-micron-and-sandisk-stocks-are-surging-monday"
+  },
+  {
+   "time": "10-19 11:31",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "'Dan Lin Out as Netflix Film Chief' - Variety",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62443155/dan-lin-out-netflix-film-chief-variety"
+  },
   {
    "time": "10-19 11:13",
    "symbols": [

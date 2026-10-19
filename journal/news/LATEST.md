@@ -1,4 +1,4 @@
-# Headlines since 2026-10-16 16:00 ET (as of 2026-10-19 11:32 ET)
+# Headlines since 2026-10-16 16:00 ET (as of 2026-10-19 12:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -8,6 +8,11 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-19 09:14 | GOOGL | target down | Keybanc Maintains Overweight on Alphabet, Lowers Price Target to $410 |
 | 10-19 07:33 | MSFT | target up | Bernstein Maintains Outperform on Microsoft, Raises Price Target to $662 |
 | 10-19 05:26 | INTC | upgrade | JP Morgan Upgrades Intel to Neutral, Maintains Price Target to $85 |
+| 10-19 11:56 | NFLX |  | 18 Globo Titles Heading To Netflix In Unprecedented Licensing Agreement |
+| 10-19 11:45 | RKLB |  | Rocket Lab Stock Climbs: What's Happening? |
+| 10-19 11:40 | WMT |  | 'Walmart Sells US Debt, Eyes Canadian Market as Spending Grows' - Bloomberg |
+| 10-19 11:37 | MU SNDK |  | Why Micron and Sandisk Stocks Are Surging Monday |
+| 10-19 11:31 | NFLX |  | 'Dan Lin Out as Netflix Film Chief' - Variety |
 | 10-19 11:13 | AVGO MU |  | Broadcom Vs. Micron: Which Semiconductor Stock Wins the AI Sell-Off? |
 | 10-19 11:06 | NVDA |  | NVIDIA Advances Agentic Security For Media, From European Public Service Broadcasting To Global Content Production |
 | 10-19 11:00 | BAC |  | Recent Report Shows That Rep. Laurel Lee Sold Up to $100K Worth of Bank of America Stock |
