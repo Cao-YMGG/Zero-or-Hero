@@ -386,6 +386,10 @@ class Bot:
             if filled:
                 self._record(variant, "real", real, fill_price, now_et(),
                              reason if how == "market" else "penny", filled, shadow.get("peak"))
+            elif (sold := self._already_sold(real)) is not None:
+                # Another run (or an earlier attempt) already sold it: book that fill, not 0.
+                log(f"!! {real['contract']} was already sold today at {sold}; booking that fill")
+                self._record(variant, "real", real, sold, now_et(), reason, real["qty"], shadow.get("peak"))
             elif self._expires_today(real["contract"]):
                 # Expiring with no bid and the penny limit unfilled: the contract expires
                 # worthless, so book it at 0 rather than lose the trade from the journal.
@@ -395,6 +399,24 @@ class Bot:
             else:
                 log(f"!! real exit for {real['contract']} did not fill; final sweep will retry")
         vstate["closed"] = True
+
+    def _already_sold(self, real):
+        """Average price of today's filled sells of this contract when the account no longer holds
+        it (2026-10-19: a second run tried to close positions the first run had sold at 15:45 and
+        booked them as expired at 0). None when it is still held or no fill is found."""
+        try:
+            if any(p.get("symbol") == real["contract"] for p in self.api.positions()):
+                return None
+            start = datetime.combine(self.today, MARKET_OPEN, ET) - timedelta(hours=1)
+            fills = [o for o in self.api.orders(start) if o.get("symbol") == real["contract"]
+                     and o.get("side") == "sell" and float(o.get("filled_qty") or 0) > 0]
+        except AlpacaError as e:
+            log(f"already-sold check failed: {e}")
+            return None
+        if not fills:
+            return None
+        qty = sum(float(o["filled_qty"]) for o in fills)
+        return round(sum(float(o["filled_qty"]) * float(o["filled_avg_price"]) for o in fills) / qty, 4)
 
     def _expires_today(self, contract):
         return parse_occ(contract)[1] <= f"{self.today:%y%m%d}"
