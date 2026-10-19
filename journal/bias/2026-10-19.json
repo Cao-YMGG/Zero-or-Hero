@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-19",
+  "bias": "none",
+  "confidence": 0.0,
+  "summary": "Rebound open after Friday's one-sided -1.1% day: SPY +0.5% and QQQ +1.3% pre-market, chips +3-4% (SMH +3.0%), while energy and defensives give back. A gap up into a bounce in a theme that lost 14-26% in a week can fade or run; no data today and earnings (NFLX Tue, TSLA/META Wed) ahead. Mixed: skip SPY.",
+  "reasons": [
+    "Pre-market (Webull, 08:52 ET) vs Friday close: SPY 766.94 (+0.48%), QQQ 719.05 (+1.30%), SMH +3.03%, TLT -0.17%, USO -1.07%, UUP flat, XLE -0.94%, XLF -0.49%, XLV -0.55%.",
+    "Chips bounce after the worst week of the year for AI hardware: AMD +3.6%, INTC +4.4% (JP Morgan upgrade to Neutral, PT 5), MU +3.8%, AVGO +3.2%, NVDA +1.9%, ORCL +1.9%, AMZN +2.0% (AEP/X-energy/Amazon nuclear project); META +0.2%, GOOGL +0.7%, MSFT flat, AAPL -0.5%, TSLA +0.1%, NFLX -0.7% (reports Tue).",
+    "Weekend headlines lean against AI capex: Microsoft pulled out of leasing Nscale's Essex data centre (Telegraph), 'Nvidia enters correction', record DRAM-ETF outflow. The bounce is a relief move, not news-driven.",
+    "No rebound_scanner trigger: no universe name gaps down >= 2% (everything gaps up). nvda_gapdown_put cannot fire (NVDA gaps up). spy_open_drive (>= +0.5% at 10:00, Monday, not an expiry week, no release) and stock_open_drive (NVDA/TSLA >= +0.8%) can fire.",
+    "Dossiers: AMD up gaps >= 2% continue 64% of the time but calls bought at 09:45 lost (already priced); the AMD gap today is +3.6% on no news of its own (echo of the INTC upgrade): no sniper. META: small gap, earnings Wed 10-21: no sniper on the day before or of its report, and tomorrow is the day before.",
+    "Earnings window (config/earnings.json): NFLX 10-20, TSLA/META 10-21, MSFT/GOOGL 10-28, INTC 10-29, AAPL 11-02, AMD 11-03. MSFT is 7 trading days out (drift window)."
+  ],
+  "events": ["No scheduled US data", "FOMC 10-28", "NFLX reports after the close Tue 10-20"],
+  "inputs": {
+    "es_futures_pct": 0.5,
+    "vix": null,
+    "wti_pct": -1.1,
+    "us10y": null,
+    "us10y_change_bp": 1,
+    "us2y_change_bp": null,
+    "dxy_pct": 0.0,
+    "overnight": "Web search found no coverage of today's futures, yields, VIX or oil, so SPY's pre-market (+0.48%) stands in for futures, USO for WTI, UUP for DXY and TLT (-0.17%, ~+1bp) for the 10Y; VIX and 2Y not found."
+  },
+  "rotation": {
+    "heating": ["health care (UNH +5.8%, LLY +6.6% 1w)", "energy (XOM +5.9%, CVX +6.1% 1w)", "consumer (WMT +6.7%, HD +6.5%, COST +4.5% 1w)"],
+    "cooling": ["optical (LITE/CIEN -26% 1w)", "storage (WDC/STX -17% 1w)", "memory (MU/SNDK -16% 1w)", "CPU (AMD/INTC/ARM -14% 1w)", "GPU (NVDA -6.6% 1w)", "power (GEV/VST -7% 1w)", "industrials (CAT -8.7% 1w)", "banks mixed (JPM +2.0%, BAC -5.7% 1w)"],
+    "note": "Money left AI hardware for health care, energy and consumer staples last week (QQQ -5.5% vs SPY -2.0%). Today's pre-market reverses part of it (chips +3-4%, energy and health care red): a relief bounce in the cooling group; internet held up best inside tech (-1.7% 1w)."
+  },
+  "sniper": {
+    "symbol": "MSFT",
+    "direction": "call",
+    "catalyst": "Bernstein raised its MSFT price target to $662 (Outperform) this morning (Benzinga 07:33). MSFT is flat pre-market (-0.03%) while QQQ is +1.3%, so the note is not in the price; the stock trades at 529 vs a median target of 600 and reports 10-28 (pre-earnings drift window). Risk: the Nscale pull-out headline and a cooling internet theme.",
+    "confidence": 0.35
+  },
+  "generated_at": "2026-10-19T08:54:13-04:00"
+}
