@@ -1,7 +1,57 @@
 {
- "as_of": "2026-10-19T12:02-04:00",
+ "as_of": "2026-10-19T12:33-04:00",
  "since": "2026-10-16T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-19 12:24",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "X-Energy Expands Nuclear Pipeline With New Indiana Reactor Proposal",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62445162/x-energy-expands-nuclear-pipeline-with-new-indiana-reactor-proposal"
+  },
+  {
+   "time": "10-19 12:21",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "SpaceX Could Buy Tesla for $480 Per Share in $3.74 Trillion Merger, RBC Says",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62445058/spacex-tesla-merger-480-rbc"
+  },
+  {
+   "time": "10-19 12:08",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "'DeepSeek Working With Huawei Technologies To Shape Design Of Future AI Chips' - The Information",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62444499/deepseek-working-huawei-technologies-shape-design-future-ai-chips-information"
+  },
+  {
+   "time": "10-19 12:07",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple iPhone Duo Has 82-Day Lead Time: Analyst Names Tech Giant 'Eventual' AI Winner",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62444480/apple-iphone-duo-analyst-winner-ai"
+  },
+  {
+   "time": "10-19 12:06",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Cognizant, Google Cloud Expand Collaboration Over Adoption Of Agentic AI",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62444412/cognizant-google-cloud-expand-collaboration-over-adoption-agentic-ai"
+  },
   {
    "time": "10-19 11:56",
    "symbols": [

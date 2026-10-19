@@ -1,4 +1,4 @@
-# Headlines since 2026-10-16 16:00 ET (as of 2026-10-19 12:02 ET)
+# Headlines since 2026-10-16 16:00 ET (as of 2026-10-19 12:33 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -8,6 +8,11 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-19 09:14 | GOOGL | target down | Keybanc Maintains Overweight on Alphabet, Lowers Price Target to $410 |
 | 10-19 07:33 | MSFT | target up | Bernstein Maintains Outperform on Microsoft, Raises Price Target to $662 |
 | 10-19 05:26 | INTC | upgrade | JP Morgan Upgrades Intel to Neutral, Maintains Price Target to $85 |
+| 10-19 12:24 | AMZN |  | X-Energy Expands Nuclear Pipeline With New Indiana Reactor Proposal |
+| 10-19 12:21 | TSLA |  | SpaceX Could Buy Tesla for $480 Per Share in $3.74 Trillion Merger, RBC Says |
+| 10-19 12:08 | NVDA |  | 'DeepSeek Working With Huawei Technologies To Shape Design Of Future AI Chips' - The Information |
+| 10-19 12:07 | AAPL |  | Apple iPhone Duo Has 82-Day Lead Time: Analyst Names Tech Giant 'Eventual' AI Winner |
+| 10-19 12:06 | GOOGL |  | Cognizant, Google Cloud Expand Collaboration Over Adoption Of Agentic AI |
 | 10-19 11:56 | NFLX |  | 18 Globo Titles Heading To Netflix In Unprecedented Licensing Agreement |
 | 10-19 11:45 | RKLB |  | Rocket Lab Stock Climbs: What's Happening? |
 | 10-19 11:40 | WMT |  | 'Walmart Sells US Debt, Eyes Canadian Market as Spending Grows' - Bloomberg |
