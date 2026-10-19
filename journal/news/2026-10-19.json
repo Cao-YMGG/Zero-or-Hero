@@ -1,7 +1,109 @@
 {
- "as_of": "2026-10-19T12:33-04:00",
+ "as_of": "2026-10-19T13:15-04:00",
  "since": "2026-10-16T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-19 13:08",
+   "symbols": [
+    "META"
+   ],
+   "rating": "target up",
+   "headline": "Morgan Stanley Maintains Overweight on Meta Platforms, Raises Price Target to $820",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62447082/morgan-stanley-maintains-overweight-meta-platforms-raises-price-target-820"
+  },
+  {
+   "time": "10-19 13:00",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "CNBC Halftime Report Final Trades: UnitedHealth Group, Twilio, Transocean",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/UNH"
+  },
+  {
+   "time": "10-19 12:52",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Can Meta\u2019s Fiber Partner Corning Capitalize On Rising AI Fiber Prices?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62446382/corning-optical-fiber-prices-ai"
+  },
+  {
+   "time": "10-19 12:50",
+   "symbols": [
+    "AMZN",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Waymo Is Bringing Robotaxis to Canada in 2028 \u2014 Toronto\u2019s Winter Weather Will Put Them to the Test",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/private-markets/26/10/62446343/waymo-is-bringing-robotaxis-to-canada-in-2028-torontos-winter-weather-will-put-them-to-the-test"
+  },
+  {
+   "time": "10-19 12:49",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "'Apple Announces Oct. 28 Event for Touch-Screen MacBook Pro' - Bloomberg",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62446313/apple-announces-oct-28-event-touch-screen-macbook-pro-bloomberg"
+  },
+  {
+   "time": "10-19 12:47",
+   "symbols": [
+    "ARM"
+   ],
+   "rating": "",
+   "headline": "Live On CNBC, Bill Baruch Announces Sold Arm Holdings; Sold Entegris",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/ENTG"
+  },
+  {
+   "time": "10-19 12:45",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Live On CNBC, Bill Baruch Announces Bought More Walmart",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/WMT"
+  },
+  {
+   "time": "10-19 12:42",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "target up",
+   "headline": "Morgan Stanley Maintains Overweight on Amazon.com, Raises Price Target to $350",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62445922/morgan-stanley-maintains-overweight-amazon-com-raises-price-target-350"
+  },
+  {
+   "time": "10-19 12:40",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple SVP Marketing Greg Joswiak, On Social Media, Hints At New Product Announcement Next Week",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62445873/apple-svp-marketing-greg-joswiak-social-media-hints-new-product-announcement-next-week"
+  },
+  {
+   "time": "10-19 12:31",
+   "symbols": [
+    "AMD",
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Why Is AMD Stock Surging on Monday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62445435/why-is-amd-stock-surging-on-monday"
+  },
   {
    "time": "10-19 12:24",
    "symbols": [

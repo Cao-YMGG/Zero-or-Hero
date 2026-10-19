@@ -1,13 +1,23 @@
-# Headlines since 2026-10-16 16:00 ET (as of 2026-10-19 12:33 ET)
+# Headlines since 2026-10-16 16:00 ET (as of 2026-10-19 13:15 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-19 13:08 | META | target up | Morgan Stanley Maintains Overweight on Meta Platforms, Raises Price Target to $820 |
+| 10-19 12:42 | AMZN | target up | Morgan Stanley Maintains Overweight on Amazon.com, Raises Price Target to $350 |
 | 10-19 09:21 | MSFT | upgrade | Goldman Sachs Upgrades CoreWeave Despite 15% Bond Yields as Stock Jumps 6% |
 | 10-19 09:14 | GOOGL | target down | Keybanc Maintains Overweight on Alphabet, Lowers Price Target to $410 |
 | 10-19 07:33 | MSFT | target up | Bernstein Maintains Outperform on Microsoft, Raises Price Target to $662 |
 | 10-19 05:26 | INTC | upgrade | JP Morgan Upgrades Intel to Neutral, Maintains Price Target to $85 |
+| 10-19 13:00 | UNH |  | CNBC Halftime Report Final Trades: UnitedHealth Group, Twilio, Transocean |
+| 10-19 12:52 | META |  | Can Meta’s Fiber Partner Corning Capitalize On Rising AI Fiber Prices? |
+| 10-19 12:50 | AMZN TSLA |  | Waymo Is Bringing Robotaxis to Canada in 2028 — Toronto’s Winter Weather Will Put Them to the Test |
+| 10-19 12:49 | AAPL |  | 'Apple Announces Oct. 28 Event for Touch-Screen MacBook Pro' - Bloomberg |
+| 10-19 12:47 | ARM |  | Live On CNBC, Bill Baruch Announces Sold Arm Holdings; Sold Entegris |
+| 10-19 12:45 | WMT |  | Live On CNBC, Bill Baruch Announces Bought More Walmart |
+| 10-19 12:40 | AAPL |  | Apple SVP Marketing Greg Joswiak, On Social Media, Hints At New Product Announcement Next Week |
+| 10-19 12:31 | AMD GS |  | Why Is AMD Stock Surging on Monday? |
 | 10-19 12:24 | AMZN |  | X-Energy Expands Nuclear Pipeline With New Indiana Reactor Proposal |
 | 10-19 12:21 | TSLA |  | SpaceX Could Buy Tesla for $480 Per Share in $3.74 Trillion Merger, RBC Says |
 | 10-19 12:08 | NVDA |  | 'DeepSeek Working With Huawei Technologies To Shape Design Of Future AI Chips' - The Information |
