@@ -1,7 +1,18 @@
 {
- "as_of": "2026-10-19T13:15-04:00",
+ "as_of": "2026-10-19T13:45-04:00",
  "since": "2026-10-16T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-19 13:17",
+   "symbols": [
+    "META",
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Analyst Sees Billions in Walmart's Next Big Advertising Opportunity",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62447386/analyst-sees-billions-in-walmarts-next-big-advertising-opportunity"
+  },
   {
    "time": "10-19 13:08",
    "symbols": [

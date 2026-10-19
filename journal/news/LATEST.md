@@ -1,4 +1,4 @@
-# Headlines since 2026-10-16 16:00 ET (as of 2026-10-19 13:15 ET)
+# Headlines since 2026-10-16 16:00 ET (as of 2026-10-19 13:45 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -10,6 +10,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-19 09:14 | GOOGL | target down | Keybanc Maintains Overweight on Alphabet, Lowers Price Target to $410 |
 | 10-19 07:33 | MSFT | target up | Bernstein Maintains Outperform on Microsoft, Raises Price Target to $662 |
 | 10-19 05:26 | INTC | upgrade | JP Morgan Upgrades Intel to Neutral, Maintains Price Target to $85 |
+| 10-19 13:17 | META WMT |  | Analyst Sees Billions in Walmart's Next Big Advertising Opportunity |
 | 10-19 13:00 | UNH |  | CNBC Halftime Report Final Trades: UnitedHealth Group, Twilio, Transocean |
 | 10-19 12:52 | META |  | Can Meta’s Fiber Partner Corning Capitalize On Rising AI Fiber Prices? |
 | 10-19 12:50 | AMZN TSLA |  | Waymo Is Bringing Robotaxis to Canada in 2028 — Toronto’s Winter Weather Will Put Them to the Test |
