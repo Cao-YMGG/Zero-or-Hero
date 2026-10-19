@@ -1,9 +1,10 @@
-# Headlines since 2026-10-16 16:00 ET (as of 2026-10-19 15:12 ET)
+# Headlines since 2026-10-16 16:00 ET (as of 2026-10-19 19:01 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-19 15:19 | XOM | target up | Barclays Maintains Overweight on ExxonMobil Holdings, Raises Price Target to $200 |
 | 10-19 13:45 | GS | target down | BMO Capital Maintains Market Perform on Goldman Sachs Group, Lowers Price Target to $950 |
 | 10-19 13:08 | META | target up | Morgan Stanley Maintains Overweight on Meta Platforms, Raises Price Target to $820 |
 | 10-19 12:42 | AMZN | target up | Morgan Stanley Maintains Overweight on Amazon.com, Raises Price Target to $350 |
@@ -11,6 +12,16 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-19 09:14 | GOOGL | target down | Keybanc Maintains Overweight on Alphabet, Lowers Price Target to $410 |
 | 10-19 07:33 | MSFT | target up | Bernstein Maintains Outperform on Microsoft, Raises Price Target to $662 |
 | 10-19 05:26 | INTC | upgrade | JP Morgan Upgrades Intel to Neutral, Maintains Price Target to $85 |
+| 10-19 18:19 | NVDA |  | Congressman Sells Nvidia Stock Again: 7 Sales in 2026 Add to Trades Since 2022 |
+| 10-19 17:29 | AMZN GOOGL MSFT |  | 'Eric Schmidt’s 1% Anthropic Stake Set to Pay Massive Windfall'- Bloomberg |
+| 10-19 16:52 | TSLA |  | Tesla Q3 Earnings Preview: Can the Company Reverse Recent EPS, Revenue Misses? |
+| 10-19 16:38 | GS |  | Goldman, Evercore Explore Funds That Would Let PE Firms Hold Assets for 15 Years |
+| 10-19 16:23 | NFLX |  | Netflix Stock Has Fallen After 5 Straight Reports: Will Q3 Break the Streak? |
+| 10-19 16:05 | AMZN NVDA |  | Amazon Just Found a Way Around Nvidia’s Biggest Moat |
+| 10-19 16:00 | ORCL |  | Here's How Much $100 Invested In Oracle 20 Years Ago Would Be Worth Today |
+| 10-19 15:56 | MU NVDA |  | TIPS Now Pay 2.8% Above Inflation. Here's The Hurdle That Sets For S&P 500 Investors |
+| 10-19 15:52 | NVDA |  | NVIDIA CEO Jensen Huang Announces New Planned Investments In Germany's Agile Robots, Avelios Medical, Mirelo And Reflex Aerospace |
+| 10-19 15:33 | AMZN GOOGL NVDA |  | 'Nscale, Anthropic in Talks for $45 Billion Cloud Computing Deal' - Bloomberg News |
 | 10-19 14:46 | MSFT NVDA |  | Microsoft Walks Away From AI Data Center Deal, but SemiAnalysis Predicts 50-GW Boom in 2027 |
 | 10-19 14:07 | NVDA |  | Nvidia Researchers Using Supercomputer Jupiter For Fault-Tolerant Computing Simulation |
 | 10-19 13:53 | LLY |  | Swiss Pharma Giant Roche Suspends German Capital Commitments Amid Dispute Over Drug Discounts |

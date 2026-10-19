@@ -1,7 +1,123 @@
 {
- "as_of": "2026-10-19T15:12-04:00",
+ "as_of": "2026-10-19T19:01-04:00",
  "since": "2026-10-16T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-19 18:19",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Congressman Sells Nvidia Stock Again: 7 Sales in 2026 Add to Trades Since 2022",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62456282/congressman-sells-nvidia-stock-again-7-sales-in-2026-add-to-trades-since-2022"
+  },
+  {
+   "time": "10-19 17:29",
+   "symbols": [
+    "AMZN",
+    "GOOGL",
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "'Eric Schmidt\u2019s 1% Anthropic Stake Set to Pay Massive Windfall'- Bloomberg",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62455730/eric-schmidt-s-1-anthropic-stake-set-pay-massive-windfall-bloomberg"
+  },
+  {
+   "time": "10-19 16:52",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Q3 Earnings Preview: Can the Company Reverse Recent EPS, Revenue Misses?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/previews/26/10/62454857/tesla-q3-earnings-preview-can-the-company-reverse-recent-eps-revenue-misses"
+  },
+  {
+   "time": "10-19 16:38",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman, Evercore Explore Funds That Would Let PE Firms Hold Assets for 15 Years",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/private-markets/26/10/62454377/goldman-evercore-explore-funds-that-would-let-pe-firms-hold-assets-for-15-years"
+  },
+  {
+   "time": "10-19 16:23",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Stock Has Fallen After 5 Straight Reports: Will Q3 Break the Streak?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/previews/26/10/62453726/netflix-stock-fallen-5-straight-reports-will-q3-break-the-streak"
+  },
+  {
+   "time": "10-19 16:05",
+   "symbols": [
+    "AMZN",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Amazon Just Found a Way Around Nvidia\u2019s Biggest Moat",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62452876/amazon-trainium-nvidia-cuda"
+  },
+  {
+   "time": "10-19 16:00",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Here's How Much $100 Invested In Oracle 20 Years Ago Would Be Worth Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62452576/here-s-how-much-100-invested-oracle-20-years-ago-would-be-worth-today"
+  },
+  {
+   "time": "10-19 15:56",
+   "symbols": [
+    "MU",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "TIPS Now Pay 2.8% Above Inflation. Here's The Hurdle That Sets For S&P 500 Investors",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/Opinion/26/10/62452412/tips-now-pay-2-8-above-inflation-heres-the-hurdle-that-sets-for-sp500-investors"
+  },
+  {
+   "time": "10-19 15:52",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA CEO Jensen Huang Announces New Planned Investments In Germany's Agile Robots, Avelios Medical, Mirelo And Reflex Aerospace",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62452291/nvidia-ceo-jensen-huang-announces-new-planned-investments-germany-s-agile-robots-avelios-medical-mir"
+  },
+  {
+   "time": "10-19 15:33",
+   "symbols": [
+    "AMZN",
+    "GOOGL",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "'Nscale, Anthropic in Talks for $45 Billion Cloud Computing Deal' - Bloomberg News",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62451753/nscale-anthropic-talks-45-billion-cloud-computing-deal-bloomberg-news"
+  },
+  {
+   "time": "10-19 15:19",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "target up",
+   "headline": "Barclays Maintains Overweight on ExxonMobil Holdings, Raises Price Target to $200",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62451108/barclays-maintains-overweight-exxonmobil-holdings-raises-price-target-200"
+  },
   {
    "time": "10-19 14:46",
    "symbols": [
