@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-19",
+  "picks": [
+    {
+      "time": "10:20",
+      "symbol": "AMZN",
+      "direction": "call",
+      "confidence": 0.4,
+      "catalyst": "Day leader with fresh news of its own: AWS opened Trainium AI chips to every PyTorch developer (09:06 ET) on top of the AEP / X-energy / Amazon 960-MW nuclear project (pre-market). AMZN +3.8% on the day and +1.7% from its open at 10:20 while SPY and QQQ are flat from the open; still at the high (259.9)."
+    }
+  ]
+}
