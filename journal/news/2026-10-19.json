@@ -1,7 +1,48 @@
 {
- "as_of": "2026-10-19T10:32-04:00",
+ "as_of": "2026-10-19T11:02-04:00",
  "since": "2026-10-16T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-19 11:00",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Recent Report Shows That Rep. Laurel Lee Sold Up to $100K Worth of Bank of America Stock",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/government/26/10/62441906/recent-report-shows-rep-laurel-lee-sold-100k-worth-bank-america-stock"
+  },
+  {
+   "time": "10-19 10:59",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "TeraWulf Rebounds 5% As CEO Distinguishes Model From Neoclouds",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62441860/terawulf-rebounds-5-as-ceo-distinguishes-model-from-neoclouds"
+  },
+  {
+   "time": "10-19 10:52",
+   "symbols": [
+    "SMCI",
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Why Is SMCI Stock Climbing on Monday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62441633/why-is-smci-stock-climbing-on-monday"
+  },
+  {
+   "time": "10-19 10:43",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "EXCLUSIVE: Sports Betting No More Addictive Than Stock Trading, Smarkets CEO Says",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62441307/sports-betting-stock-trading-addiction-smarkets"
+  },
   {
    "time": "10-19 10:07",
    "symbols": [

@@ -1,4 +1,4 @@
-# Headlines since 2026-10-16 16:00 ET (as of 2026-10-19 10:32 ET)
+# Headlines since 2026-10-16 16:00 ET (as of 2026-10-19 11:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -8,6 +8,10 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-19 09:14 | GOOGL | target down | Keybanc Maintains Overweight on Alphabet, Lowers Price Target to $410 |
 | 10-19 07:33 | MSFT | target up | Bernstein Maintains Outperform on Microsoft, Raises Price Target to $662 |
 | 10-19 05:26 | INTC | upgrade | JP Morgan Upgrades Intel to Neutral, Maintains Price Target to $85 |
+| 10-19 11:00 | BAC |  | Recent Report Shows That Rep. Laurel Lee Sold Up to $100K Worth of Bank of America Stock |
+| 10-19 10:59 | GOOGL |  | TeraWulf Rebounds 5% As CEO Distinguishes Model From Neoclouds |
+| 10-19 10:52 | SMCI WDC |  | Why Is SMCI Stock Climbing on Monday? |
+| 10-19 10:43 | HOOD |  | EXCLUSIVE: Sports Betting No More Addictive Than Stock Trading, Smarkets CEO Says |
 | 10-19 10:07 | PLTR |  | Why Is Palantir Technologies Stock Gaining Monday? |
 | 10-19 10:04 | MSFT |  | Ex-OpenAI Employee Accused Of Planting Recording Device Appears To Have Received 'Considerable Support' From Saudi Government |
 | 10-19 10:02 | AMZN GOOGL MSFT |  | "Anthropic Readies Model That Reads Users' Intentions Better" - The Information |
