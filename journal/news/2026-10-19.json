@@ -1,7 +1,37 @@
 {
- "as_of": "2026-10-19T13:45-04:00",
+ "as_of": "2026-10-19T14:15-04:00",
  "since": "2026-10-16T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-19 14:07",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia Researchers Using Supercomputer Jupiter For Fault-Tolerant Computing Simulation",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62449008/nvidia-researchers-using-supercomputer-jupiter-fault-tolerant-computing-simulation"
+  },
+  {
+   "time": "10-19 13:53",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Swiss Pharma Giant Roche Suspends German Capital Commitments Amid Dispute Over Drug Discounts",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/10/62448550/swiss-pharma-giant-roche-suspends-german-capital-commitments-amid-dispute-over-drug-discounts"
+  },
+  {
+   "time": "10-19 13:45",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "target down",
+   "headline": "BMO Capital Maintains Market Perform on Goldman Sachs Group, Lowers Price Target to $950",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62448316/bmo-capital-maintains-market-perform-goldman-sachs-group-lowers-price-target-950"
+  },
   {
    "time": "10-19 13:17",
    "symbols": [

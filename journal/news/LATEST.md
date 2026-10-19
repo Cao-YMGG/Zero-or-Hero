@@ -1,15 +1,18 @@
-# Headlines since 2026-10-16 16:00 ET (as of 2026-10-19 13:45 ET)
+# Headlines since 2026-10-16 16:00 ET (as of 2026-10-19 14:15 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-19 13:45 | GS | target down | BMO Capital Maintains Market Perform on Goldman Sachs Group, Lowers Price Target to $950 |
 | 10-19 13:08 | META | target up | Morgan Stanley Maintains Overweight on Meta Platforms, Raises Price Target to $820 |
 | 10-19 12:42 | AMZN | target up | Morgan Stanley Maintains Overweight on Amazon.com, Raises Price Target to $350 |
 | 10-19 09:21 | MSFT | upgrade | Goldman Sachs Upgrades CoreWeave Despite 15% Bond Yields as Stock Jumps 6% |
 | 10-19 09:14 | GOOGL | target down | Keybanc Maintains Overweight on Alphabet, Lowers Price Target to $410 |
 | 10-19 07:33 | MSFT | target up | Bernstein Maintains Outperform on Microsoft, Raises Price Target to $662 |
 | 10-19 05:26 | INTC | upgrade | JP Morgan Upgrades Intel to Neutral, Maintains Price Target to $85 |
+| 10-19 14:07 | NVDA |  | Nvidia Researchers Using Supercomputer Jupiter For Fault-Tolerant Computing Simulation |
+| 10-19 13:53 | LLY |  | Swiss Pharma Giant Roche Suspends German Capital Commitments Amid Dispute Over Drug Discounts |
 | 10-19 13:17 | META WMT |  | Analyst Sees Billions in Walmart's Next Big Advertising Opportunity |
 | 10-19 13:00 | UNH |  | CNBC Halftime Report Final Trades: UnitedHealth Group, Twilio, Transocean |
 | 10-19 12:52 | META |  | Can Meta’s Fiber Partner Corning Capitalize On Rising AI Fiber Prices? |
