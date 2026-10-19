@@ -1,7 +1,18 @@
 {
- "as_of": "2026-10-19T14:49-04:00",
+ "as_of": "2026-10-19T15:12-04:00",
  "since": "2026-10-16T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-19 14:46",
+   "symbols": [
+    "MSFT",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Microsoft Walks Away From AI Data Center Deal, but SemiAnalysis Predicts 50-GW Boom in 2027",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62450024/ai-data-center-boom-50-gw-semianalysis"
+  },
   {
    "time": "10-19 14:07",
    "symbols": [

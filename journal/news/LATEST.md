@@ -1,4 +1,4 @@
-# Headlines since 2026-10-16 16:00 ET (as of 2026-10-19 14:49 ET)
+# Headlines since 2026-10-16 16:00 ET (as of 2026-10-19 15:12 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -11,6 +11,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-19 09:14 | GOOGL | target down | Keybanc Maintains Overweight on Alphabet, Lowers Price Target to $410 |
 | 10-19 07:33 | MSFT | target up | Bernstein Maintains Outperform on Microsoft, Raises Price Target to $662 |
 | 10-19 05:26 | INTC | upgrade | JP Morgan Upgrades Intel to Neutral, Maintains Price Target to $85 |
+| 10-19 14:46 | MSFT NVDA |  | Microsoft Walks Away From AI Data Center Deal, but SemiAnalysis Predicts 50-GW Boom in 2027 |
 | 10-19 14:07 | NVDA |  | Nvidia Researchers Using Supercomputer Jupiter For Fault-Tolerant Computing Simulation |
 | 10-19 13:53 | LLY |  | Swiss Pharma Giant Roche Suspends German Capital Commitments Amid Dispute Over Drug Discounts |
 | 10-19 13:17 | META WMT |  | Analyst Sees Billions in Walmart's Next Big Advertising Opportunity |
