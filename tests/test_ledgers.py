@@ -117,3 +117,32 @@ class LedgerBookingTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class AlreadySoldTest(unittest.TestCase):
+    """2026-10-19: a second run booked positions the first run had sold as expired at 0."""
+
+    def _bot(self, positions, orders):
+        class Api:
+            def positions(self):
+                return positions
+
+            def orders(self, after):
+                return orders
+
+        class FakeBot(botmod.Bot):
+            def __init__(self):
+                self.api, self.today = Api(), date(2026, 10, 19)
+
+        return FakeBot()
+
+    def test_books_the_earlier_fill(self):
+        fills = [{"symbol": "TSLA261019C00365000", "side": "sell", "filled_qty": "1", "filled_avg_price": "3.7"},
+                 {"symbol": "MSFT261019C00537500", "side": "sell", "filled_qty": "3", "filled_avg_price": "0.01"}]
+        b = self._bot([], fills)
+        self.assertEqual(b._already_sold({"contract": "TSLA261019C00365000"}), 3.7)
+        self.assertIsNone(b._already_sold({"contract": "AMZN261019C00262500"}))
+
+    def test_still_held_is_not_sold(self):
+        b = self._bot([{"symbol": "TSLA261019C00365000"}], [])
+        self.assertIsNone(b._already_sold({"contract": "TSLA261019C00365000"}))

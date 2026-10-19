@@ -79,6 +79,11 @@ class Alpaca:
     def get_order(self, order_id):
         return self._request("GET", f"{TRADING_URL}/v2/orders/{order_id}")
 
+    def orders(self, after, status="closed", limit=100):
+        """Orders submitted after an aware datetime (newest first)."""
+        return self._request("GET", f"{TRADING_URL}/v2/orders",
+                             {"status": status, "after": after.isoformat(), "limit": limit})
+
     def cancel_order(self, order_id):
         return self._request("DELETE", f"{TRADING_URL}/v2/orders/{order_id}")
 
