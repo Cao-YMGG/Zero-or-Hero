@@ -14,3 +14,4 @@ date,variant,mode,contract,entry_price,exit_price,peak,exit_reason
 2026-10-16,rebound_scanner_any,shadow,NVDA261016C00225000,0.26,0,0.43,time
 2026-10-16,catalyst_open,shadow,AAPL261016C00355000,0.39,0,0.39,time
 2026-10-16,catalyst_open,real,AAPL261016C00355000,0.36,0.0,0.39,expired
+2026-10-19,catalyst_intraday,shadow,AMZN261019C00262500,0.34,0.84,1.35,trail

@@ -1,7 +1,28 @@
 {
- "as_of": "2026-10-19T11:02-04:00",
+ "as_of": "2026-10-19T11:32-04:00",
  "since": "2026-10-16T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-19 11:13",
+   "symbols": [
+    "AVGO",
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Broadcom Vs. Micron: Which Semiconductor Stock Wins the AI Sell-Off?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62442502/broadcom-vs-micron-ai-stocks"
+  },
+  {
+   "time": "10-19 11:06",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Advances Agentic Security For Media, From European Public Service Broadcasting To Global Content Production",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62442157/nvidia-advances-agentic-security-for-media-from-european-public-service-broadcasting-to-global-content-production"
+  },
   {
    "time": "10-19 11:00",
    "symbols": [
