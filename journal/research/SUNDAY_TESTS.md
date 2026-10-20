@@ -76,6 +76,15 @@ in EVOLUTION.md.
    Gates from REGIME.md section 5: skip macro release days, monthly options-expiry week and
    Fridays; each ledger goes shadow-only after 5 straight losses, live again after a shadow win.
 
+22. **Sector rotation follow (2026-10-20).** On rotation days the move is in a sector, not in
+   a single stock with news: 10-20 XLV +2.2% (LLY +4.6%, UNH +3.5%, no stock-specific catalyst),
+   IWM +1.7%, XLF +1.2%, while QQQ +0.1%. Test: at 10:00 (and 10:30) a sector ETF (XLV, XLF,
+   XLE, XLY, XLI, XLP, IWM) >= +0.8% beyond SPY from the open, and its 1-week basket return was
+   heating -> ~0.2-delta call on the ETF, nearest expiry, real option prices, half at 3x / hold
+   to 15:45. Report last 3 months first, without the best one and two. Also: SPY follow-the-open
+   in the 0.3-0.5% bucket (10-20 SPY was +0.30% at 10:00 and closed +0.45% from the open; the
+   other side's no-gate rule made ~+$4,900 on two calls, but lost $2,854 on 10-19 puts).
+
 ## Done
 
 - **Items 12 and 15 (2026-10-18, journal/research/SCANNERS.md + scanners.json, real option prices, 10% costs).**
