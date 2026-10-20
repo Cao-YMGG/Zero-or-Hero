@@ -84,6 +84,9 @@ in EVOLUTION.md.
    to 15:45. Report last 3 months first, without the best one and two. Also: SPY follow-the-open
    in the 0.3-0.5% bucket (10-20 SPY was +0.30% at 10:00 and closed +0.45% from the open; the
    other side's no-gate rule made ~+$4,900 on two calls, but lost $2,854 on 10-19 puts).
+   (c) Exit: add half-at-3x-then-trail (the other side's rule) next to half-at-3x-then-hold for
+   spy_open_drive / stock_open_drive, and the one-contract case. 10-20 SPY 770C 0.52: trail +169%,
+   hold +58%, one contract held -85%; 10-19 TSLA 365C: hold beat the 3x sale.
 
 ## Done
 
