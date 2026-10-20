@@ -1,9 +1,11 @@
-# Headlines since 2026-10-19 16:00 ET (as of 2026-10-20 13:45 ET)
+# Headlines since 2026-10-19 16:00 ET (as of 2026-10-20 13:53 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-20 13:47 | MSFT | target up | BMO Capital Maintains Outperform on Microsoft, Raises Price Target to $600 |
+| 10-20 13:46 | GOOGL | target up | BMO Capital Maintains Outperform on Alphabet, Raises Price Target to $480 |
 | 10-20 10:59 | HOOD | target up | JP Morgan Maintains Neutral on Robinhood Markets, Raises Price Target to $115 |
 | 10-20 09:33 | UNH | target up | RBC Capital Maintains Outperform on UnitedHealth Group, Raises Price Target to $498 |
 | 10-20 08:46 | WMT | target up | Evercore ISI Group Maintains Outperform on Walmart, Raises Price Target to $130 |
@@ -12,6 +14,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-20 06:53 | TSLA | rating | Cantor Fitzgerald Reiterates Overweight on Tesla, Maintains $485 Price Target |
 | 10-20 05:48 | AAPL | downgrade | Loop Capital Downgrades Apple to Hold, Lowers Price Target to $330 |
 | 10-19 21:45 | PLTR | upgrade | Cathie Wood Buys $8.1 Million of CoreWeave Stock as Goldman Sachs Upgrades, Ark Invest Sells Palantir Stock |
+| 10-20 13:48 | AMZN MSFT |  | Why Is 3M Stock Soaring Tuesday? |
 | 10-20 13:35 | GOOGL |  | Alphabet Earnings Ahead: Cloud Growth, Gemini, TPU Sales Could Drive Upside |
 | 10-20 13:29 | NFLX |  | Netflix Ads Suite Has Better Buying, Better Planning, Better Results; Plans To Expand Ads To 15 New Countries |
 | 10-20 13:25 | GE |  | Why Is American Airlines Stock Surging Tuesday? |

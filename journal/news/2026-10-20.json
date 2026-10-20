@@ -1,7 +1,38 @@
 {
- "as_of": "2026-10-20T13:45-04:00",
+ "as_of": "2026-10-20T13:53-04:00",
  "since": "2026-10-19T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-20 13:48",
+   "symbols": [
+    "AMZN",
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Why Is 3M Stock Soaring Tuesday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62477397/why-is-3m-stock-soaring-tuesday"
+  },
+  {
+   "time": "10-20 13:47",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "target up",
+   "headline": "BMO Capital Maintains Outperform on Microsoft, Raises Price Target to $600",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62477346/bmo-capital-maintains-outperform-microsoft-raises-price-target-600"
+  },
+  {
+   "time": "10-20 13:46",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "target up",
+   "headline": "BMO Capital Maintains Outperform on Alphabet, Raises Price Target to $480",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62477293/bmo-capital-maintains-outperform-alphabet-raises-price-target-480"
+  },
   {
    "time": "10-20 13:35",
    "symbols": [
