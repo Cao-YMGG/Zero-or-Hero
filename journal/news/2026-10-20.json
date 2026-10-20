@@ -1,7 +1,108 @@
 {
- "as_of": "2026-10-20T08:53-04:00",
+ "as_of": "2026-10-20T10:02-04:00",
  "since": "2026-10-19T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-20 09:49",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Stock in Focus as iPhone Duo Launch, U.S. Expansion and Earnings Loom",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62467759/apple-stock-in-focus-as-iphone-duo-launch-us-expansion-and-earnings-loom"
+  },
+  {
+   "time": "10-20 09:47",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "'RBC Considers Blocking Meta\u2019s Muse AI Agent, CEO Dave McKay Says' - Bloomberg News",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62467657/rbc-considers-blocking-meta-s-muse-ai-agent-ceo-dave-mckay-says-bloomberg-news"
+  },
+  {
+   "time": "10-20 09:33",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "target up",
+   "headline": "RBC Capital Maintains Outperform on UnitedHealth Group, Raises Price Target to $498",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62466707/rbc-capital-maintains-outperform-unitedhealth-group-raises-price-target-498"
+  },
+  {
+   "time": "10-20 09:24",
+   "symbols": [
+    "AMZN",
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Hunterbrook Media Issues Report On Anthropic; Finds Claude AI Designed Experimental Scorpion Antivenom Binders, But Tests Show Mixed Results And No Proven Toxin Neutralization Yet; States Hunterbrook Capital Is Both Long And Short Securities Related To AI In Biotech",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/general/biotech/26/10/62466407/hunterbrook-media-issues-report-anthropic-finds-claude-ai-designed-experimental-scorpion-antivenom-b"
+  },
+  {
+   "time": "10-20 09:23",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce Bets $5.7 Billion on AI Marketing With Braze Acquisition",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m-a/26/10/62466382/salesforce-bets-5-7-billion-on-ai-marketing-with-braze-acquisition"
+  },
+  {
+   "time": "10-20 09:15",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "SpaceX's Starship Catch Could Unlock Valuation Upside, Morgan Stanley's Adam Jonas Says Ahead of SPCX Q3 Earnings",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62466084/spacexs-starship-catch-could-unlock-valuation-upside-morgan-stanleys-adam-jonas-says-ahead-of-spcx-q3-earnings"
+  },
+  {
+   "time": "10-20 09:10",
+   "symbols": [
+    "TSM"
+   ],
+   "rating": "",
+   "headline": "Taiwan Semiconductor Manufacturing Halts Construction At Kaohsiung Plant Due To Accident At Construction Process Of Steel Structure Operation",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62465926/taiwan-semiconductor-manufacturing-halts-construction-kaohsiung-plant-due-accident-construction-proc"
+  },
+  {
+   "time": "10-20 09:09",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "'Waymo Plans To Quintuple Its Fleet' - Semafor Exclusive",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62465893/waymo-plans-quintuple-its-fleet-semafor-exclusive"
+  },
+  {
+   "time": "10-20 09:04",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "",
+   "headline": "FedEx To Continue Utilizing Broadcom's Infrastructure Software Portfolio Under Expanded Collaboration",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62465516/fedex-continue-utilizing-broadcom-s-infrastructure-software-portfolio-under-expanded-collaboration"
+  },
+  {
+   "time": "10-20 08:56",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Why Is Walmart Stock in the Spotlight Tuesday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62464965/why-is-walmart-stock-in-the-spotlight-tuesday"
+  },
   {
    "time": "10-20 08:51",
    "symbols": [

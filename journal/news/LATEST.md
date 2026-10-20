@@ -1,15 +1,25 @@
-# Headlines since 2026-10-19 16:00 ET (as of 2026-10-20 08:53 ET)
+# Headlines since 2026-10-19 16:00 ET (as of 2026-10-20 10:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-20 09:33 | UNH | target up | RBC Capital Maintains Outperform on UnitedHealth Group, Raises Price Target to $498 |
 | 10-20 08:46 | WMT | target up | Evercore ISI Group Maintains Outperform on Walmart, Raises Price Target to $130 |
 | 10-20 08:37 | AMD | rating | Wedbush Reiterates Outperform on Advanced Micro Devices, Maintains $600 Price Target |
 | 10-20 08:05 | V | initiate | Visa Partners With Bill.com And Billtrust To Launch First Live Pilot For Trusted AI Agents To Initiate And Complete Approved Buyer Invoice Payments |
 | 10-20 06:53 | TSLA | rating | Cantor Fitzgerald Reiterates Overweight on Tesla, Maintains $485 Price Target |
 | 10-20 05:48 | AAPL | downgrade | Loop Capital Downgrades Apple to Hold, Lowers Price Target to $330 |
 | 10-19 21:45 | PLTR | upgrade | Cathie Wood Buys $8.1 Million of CoreWeave Stock as Goldman Sachs Upgrades, Ark Invest Sells Palantir Stock |
+| 10-20 09:49 | AAPL |  | Apple Stock in Focus as iPhone Duo Launch, U.S. Expansion and Earnings Loom |
+| 10-20 09:47 | META |  | 'RBC Considers Blocking Meta’s Muse AI Agent, CEO Dave McKay Says' - Bloomberg News |
+| 10-20 09:24 | AMZN GOOGL |  | Hunterbrook Media Issues Report On Anthropic; Finds Claude AI Designed Experimental Scorpion Antivenom Binders, But Tests Show Mixed Results And No Proven Toxin Neutralization Yet; States Hunterbrook Capital Is Both Long And Short Securities Related To AI In Biotech |
+| 10-20 09:23 | CRM |  | Salesforce Bets $5.7 Billion on AI Marketing With Braze Acquisition |
+| 10-20 09:15 | TSLA |  | SpaceX's Starship Catch Could Unlock Valuation Upside, Morgan Stanley's Adam Jonas Says Ahead of SPCX Q3 Earnings |
+| 10-20 09:10 | TSM |  | Taiwan Semiconductor Manufacturing Halts Construction At Kaohsiung Plant Due To Accident At Construction Process Of Steel Structure Operation |
+| 10-20 09:09 | GOOGL |  | 'Waymo Plans To Quintuple Its Fleet' - Semafor Exclusive |
+| 10-20 09:04 | AVGO |  | FedEx To Continue Utilizing Broadcom's Infrastructure Software Portfolio Under Expanded Collaboration |
+| 10-20 08:56 | WMT |  | Why Is Walmart Stock in the Spotlight Tuesday? |
 | 10-20 08:51 | PLTR |  | PLTR Stock’s Biggest Risk Isn’t Slowing Growth, but Its Price, Analyst Warns — Valuation Already Bakes In ‘Years of Exceptional Execution’ |
 | 10-20 08:38 | AMZN |  | Amazon Is Creating Over 300K New U.S. Jobs This Holiday Season With Increased Pay, Expanded Benefits |
 | 10-20 08:38 | GE |  | GE Aerospace Q3 2026 Earnings Call Transcript |

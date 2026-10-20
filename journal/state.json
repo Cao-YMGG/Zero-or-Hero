@@ -1,41 +1,47 @@
 {
-  "date": "2026-10-19",
-  "done": true,
+  "date": "2026-10-20",
+  "done": false,
   "variants": {
     "claude_bias": {},
     "meta_follow2": {},
     "leader_follow": {
       "attempts": 1,
       "entered": true,
-      "closed": true
+      "shadow": {
+        "contract": "CRM261023C00252500",
+        "direction": "call",
+        "entry_time": "2026-10-20T09:46:30-04:00",
+        "entry_price": 1.12,
+        "peak": 1.52,
+        "qty": 1,
+        "last": 1.4,
+        "last_time": "2026-10-20T10:02:18-04:00"
+      }
     },
     "megacap_reclaim": {
-      "attempts": 1,
+      "attempts": 3,
       "entered": true,
-      "closed": true
+      "shadow": {
+        "contract": "GOOGL261021C00350000",
+        "direction": "call",
+        "entry_time": "2026-10-20T10:01:13-04:00",
+        "entry_price": 0.7,
+        "peak": 0.73,
+        "qty": 1,
+        "last": 0.73,
+        "last_time": "2026-10-20T10:02:18-04:00"
+      }
     },
     "rebound_scanner": {},
     "rebound_scanner_wide": {},
     "nvda_gapdown_put": {},
-    "catalyst_open": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "catalyst_intraday": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
+    "catalyst_open": {},
+    "catalyst_intraday": {},
     "spy_open_drive": {},
-    "stock_open_drive": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    }
+    "stock_open_drive": {}
   },
   "generation": 1,
-  "equity_start": 677.7099999999991,
+  "equity_start": 578.3300000000017,
   "phase": "zero-or-hero",
   "risk_per_trade": 0.2,
   "champion": "rebound_scanner",
@@ -56,12 +62,9 @@
       "paused": false
     },
     "stock_open_drive": {
-      "equity": 500.0,
+      "equity": 767.0,
       "generation": 1,
       "paused": false
     }
-  },
-  "real_underlyings": [
-    "MSFT"
-  ]
+  }
 }
