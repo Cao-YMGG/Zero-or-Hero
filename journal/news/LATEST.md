@@ -1,4 +1,4 @@
-# Headlines since 2026-10-19 16:00 ET (as of 2026-10-20 11:33 ET)
+# Headlines since 2026-10-19 16:00 ET (as of 2026-10-20 12:03 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -12,6 +12,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-20 06:53 | TSLA | rating | Cantor Fitzgerald Reiterates Overweight on Tesla, Maintains $485 Price Target |
 | 10-20 05:48 | AAPL | downgrade | Loop Capital Downgrades Apple to Hold, Lowers Price Target to $330 |
 | 10-19 21:45 | PLTR | upgrade | Cathie Wood Buys $8.1 Million of CoreWeave Stock as Goldman Sachs Upgrades, Ark Invest Sells Palantir Stock |
+| 10-20 11:31 | TSLA |  | SpaceX Stock for Every Child Could Kick Off $100B Giving Race, Brad Gerstner Says |
 | 10-20 11:13 | MU |  | Is SK Hynix Stock a 270% Opportunity? Nomura Says Yes |
 | 10-20 11:05 | TSLA |  | EXCLUSIVE: Tesla SpaceX Merger? 70% of Benzinga Viewers Say Elon Musk Will Get There — But Not When You Think |
 | 10-20 11:00 | GOOGL |  | Recent Report Shows That Rep. Michael Rulli Sold Up to $115K Worth of Alphabet Stock |
