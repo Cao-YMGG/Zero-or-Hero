@@ -1,7 +1,27 @@
 {
- "as_of": "2026-10-20T13:31-04:00",
+ "as_of": "2026-10-20T13:45-04:00",
  "since": "2026-10-19T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-20 13:35",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet Earnings Ahead: Cloud Growth, Gemini, TPU Sales Could Drive Upside",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62476791/alphabet-earnings-ahead-cloud-growth-gemini-tpu-sales-could-drive-upside"
+  },
+  {
+   "time": "10-20 13:29",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Ads Suite Has Better Buying, Better Planning, Better Results; Plans To Expand Ads To 15 New Countries",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62476616/netflix-ads-suite-has-better-buying-better-planning-better-results-plans-expand-ads-15-new-countries"
+  },
   {
    "time": "10-20 13:25",
    "symbols": [
