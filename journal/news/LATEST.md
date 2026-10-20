@@ -1,4 +1,4 @@
-# Headlines since 2026-10-19 16:00 ET (as of 2026-10-20 14:46 ET)
+# Headlines since 2026-10-19 16:00 ET (as of 2026-10-20 15:17 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -17,6 +17,10 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-20 06:53 | TSLA | rating | Cantor Fitzgerald Reiterates Overweight on Tesla, Maintains $485 Price Target |
 | 10-20 05:48 | AAPL | downgrade | Loop Capital Downgrades Apple to Hold, Lowers Price Target to $330 |
 | 10-19 21:45 | PLTR | upgrade | Cathie Wood Buys $8.1 Million of CoreWeave Stock as Goldman Sachs Upgrades, Ark Invest Sells Palantir Stock |
+| 10-20 15:15 | GE |  | GE Aerospace Turns To AI To Ease Engine Maintenance Bottlenecks |
+| 10-20 15:12 | NVDA |  | 'Big Short' Trader Danny Moses Calls CoreWeave the WeWork of AI |
+| 10-20 15:03 | GEV |  | GE Vernova Q3 Preview: Analyst Projects Orders Growth Of 44% |
+| 10-20 14:47 | AMZN NVDA |  | 'Amazon Is Buying Billions In NVIDIA AI Systems It Can't Yet Turn On' - Business Insider |
 | 10-20 14:15 | COIN |  | Mastercard Taps Coinbase, Cloudflare as AI Agents Learn to Pay |
 | 10-20 14:00 | MSFT |  | 'OpenAI Acquires Biotech Startup As AI Race Moves Into Drug Development' - Axios Exclusive |
 | 10-20 13:48 | AMZN MSFT |  | Why Is 3M Stock Soaring Tuesday? |

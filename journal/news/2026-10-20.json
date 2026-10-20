@@ -1,7 +1,48 @@
 {
- "as_of": "2026-10-20T14:46-04:00",
+ "as_of": "2026-10-20T15:17-04:00",
  "since": "2026-10-19T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-20 15:15",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "GE Aerospace Turns To AI To Ease Engine Maintenance Bottlenecks",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62480151/ge-aerospace-ai-engine-maintenance"
+  },
+  {
+   "time": "10-20 15:12",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "'Big Short' Trader Danny Moses Calls CoreWeave the WeWork of AI",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62480073/big-short-trader-danny-moses-calls-coreweave-the-wework-of-ai"
+  },
+  {
+   "time": "10-20 15:03",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova Q3 Preview: Analyst Projects Orders Growth Of 44%",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62479818/ge-vernova-q3-preview-analyst-projects-orders-growth-of-44"
+  },
+  {
+   "time": "10-20 14:47",
+   "symbols": [
+    "AMZN",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "'Amazon Is Buying Billions In NVIDIA AI Systems It Can't Yet Turn On' - Business Insider",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62479295/amazon-buying-billions-nvidia-ai-systems-it-can-t-yet-turn-business-insider"
+  },
   {
    "time": "10-20 14:15",
    "symbols": [
