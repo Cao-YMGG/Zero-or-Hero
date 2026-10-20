@@ -1,4 +1,4 @@
-# Headlines since 2026-10-19 16:00 ET (as of 2026-10-20 14:16 ET)
+# Headlines since 2026-10-19 16:00 ET (as of 2026-10-20 14:46 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -17,6 +17,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-20 06:53 | TSLA | rating | Cantor Fitzgerald Reiterates Overweight on Tesla, Maintains $485 Price Target |
 | 10-20 05:48 | AAPL | downgrade | Loop Capital Downgrades Apple to Hold, Lowers Price Target to $330 |
 | 10-19 21:45 | PLTR | upgrade | Cathie Wood Buys $8.1 Million of CoreWeave Stock as Goldman Sachs Upgrades, Ark Invest Sells Palantir Stock |
+| 10-20 14:15 | COIN |  | Mastercard Taps Coinbase, Cloudflare as AI Agents Learn to Pay |
 | 10-20 14:00 | MSFT |  | 'OpenAI Acquires Biotech Startup As AI Race Moves Into Drug Development' - Axios Exclusive |
 | 10-20 13:48 | AMZN MSFT |  | Why Is 3M Stock Soaring Tuesday? |
 | 10-20 13:35 | GOOGL |  | Alphabet Earnings Ahead: Cloud Growth, Gemini, TPU Sales Could Drive Upside |
