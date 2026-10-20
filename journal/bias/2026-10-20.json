@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-20",
+  "bias": "none",
+  "confidence": 0.3,
+  "summary": "SPY flat pre-market (-0.1%), QQQ -0.4% on a chip pullback, oil up on Iran threats while yields ease: mixed, no SPY call; sniper NVDA call on the Reuters report of $35B in Chinese orders with the stock still slightly red.",
+  "reasons": [
+    "SPY 765.7 pre-market vs 766.48 close (-0.1%); QQQ -0.4%, SMH -1.3%: memory/CPU give back Monday's bounce (MU -2.1%, INTC -1.6%, AMD -1.2%)",
+    "Oil up: USO +1.2% pre-market, Brent at 5-month highs on fresh US-Israel threats against Iran (headwind); TLT +0.75% (yields lower, tailwind); dollar flat (UUP -0.07%)",
+    "No scheduled US macro release today (not in config/macro_events.json); NFLX reports after the close; TSLA and META report Wednesday 10-21, so no sniper on them today (day before the report)",
+    "Earnings window: TSLA/META 10-21, MSFT/GOOGL 10-28, INTC 10-29; GE Aerospace beat and raised but is -3.1% pre-market (earnings, not a sniper)",
+    "Sniper NVDA: Reuters exclusive (Benzinga 05:48, again 07:13) that ByteDance, Alibaba and Tencent placed over $35B of Nvidia orders; NVDA is -0.5% pre-market at 216.0, so the news is not in the price. Risks: GPU theme cooling (-4.1% 1w), chips red this morning, China license/regulatory doubts and a 'Big Short' concentration-risk note. I could not confirm the report in an independent search, only the Benzinga relay",
+    "Not picked: AAPL Loop downgrade to Hold (downgrades do not carry, -1.1%); WMT Evercore target raise to $130 (target raise only, Friday expiry); AMZN $18B Germany investment after +5% Monday (already run); CRM buying Braze ($5.66B, acquirer)",
+    "Tuesday: single stocks have no same-day expiry, so the sniper uses the nearest (Wednesday 10-21 for NVDA)"
+  ],
+  "events": ["NFLX earnings after the close", "TSLA and META report 10-21 after the close"],
+  "inputs": {"es_futures_pct": -0.1, "vix": null, "wti_pct": 1.2, "us10y": null, "us10y_change_bp": null, "us2y_change_bp": null, "dxy_pct": -0.1,
+             "overnight": "SPY ETF -0.1% / QQQ -0.4% pre-market (Webull, extended hours); USO +1.2%, TLT +0.75%, UUP flat; futures/yield levels from the ETF proxies only"},
+  "rotation": {
+    "heating": ["health care (UNH +7.5% 1w, LLY +4.9% 1w)", "consumer (WMT +5.0% 1w, +11.2% 1m)", "energy (XOM +3.6% 1w, 52-week highs on Iran)"],
+    "cooling": ["optical (LITE -16.2% 1w)", "CPU (AMD -9.5% 1w)", "disk storage (WDC -9.0% 1w, -20% 1m, despite +6.1% Monday)", "memory (MU -8.5% 1w)", "power (GEV -8.9% 1w)", "industrials (CAT -9.2% 1w)", "GPU (NVDA -4.1% 1w)", "internet ex-AMZN (META -5.1% 1w ahead of earnings, GOOGL -2.4%)"],
+    "note": "Last week's move from AI hardware into health care, consumer and energy still holds on the 1-week view; Monday's chip bounce is fading pre-market. AMZN is the one internet name holding up (+5% Monday on a Morgan Stanley target raise, $18B Germany investment today). Banks soft (JPM -1.8% Monday)."
+  },
+  "sniper": {"symbol": "NVDA", "direction": "call",
+             "catalyst": "Reuters exclusive: ByteDance, Alibaba and Tencent placed over $35B of Nvidia chip orders; stock -0.5% pre-market, so not priced",
+             "confidence": 0.35},
+  "generated_at": "2026-10-20T08:55:29-04:00"
+}
