@@ -1,4 +1,4 @@
-# Headlines since 2026-10-19 16:00 ET (as of 2026-10-20 12:34 ET)
+# Headlines since 2026-10-19 16:00 ET (as of 2026-10-20 13:15 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -12,6 +12,13 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-20 06:53 | TSLA | rating | Cantor Fitzgerald Reiterates Overweight on Tesla, Maintains $485 Price Target |
 | 10-20 05:48 | AAPL | downgrade | Loop Capital Downgrades Apple to Hold, Lowers Price Target to $330 |
 | 10-19 21:45 | PLTR | upgrade | Cathie Wood Buys $8.1 Million of CoreWeave Stock as Goldman Sachs Upgrades, Ark Invest Sells Palantir Stock |
+| 10-20 13:03 | CRM |  | Why Is Braze Stock Surging on Tuesday? |
+| 10-20 13:02 | META |  | Meta Heads Into Earnings With AI Ambitions Soaring, Cash Burn in Focus |
+| 10-20 13:01 | AMZN UNH |  | CNBC Halftime Report Final Trades: Amazon, UnitedHealth Group, Twilio, eBay |
+| 10-20 12:54 | NVDA SMCI WDC |  | Why Is SMCI Stock Seesawing on Tuesday? |
+| 10-20 12:45 | NFLX |  | Live On CNBC, Josh Brown Trimmed Netflix Position |
+| 10-20 12:42 | TSLA |  | Tesla Analyst Raises Revenues Estimates Ahead Of Q3 Results |
+| 10-20 12:37 | NVDA |  | Stock of the Day: Where is the Bottom for NVIDIA? |
 | 10-20 12:27 | AAPL |  | Qualcomm Plans Global Layoffs Starting November |
 | 10-20 12:20 | UNH |  | Live On CNBC, Kevin Simpson Announces Bought More UnitedHealth Group |
 | 10-20 12:10 | AMD INTC |  | AMD And Intel Collaborate To Combine x86 CPU Optimization Work For PyTorch In oneDNN, Open-Source Deep Learning Library Governed By Unified Acceleration Foundation |

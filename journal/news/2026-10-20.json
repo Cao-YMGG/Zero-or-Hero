@@ -1,7 +1,80 @@
 {
- "as_of": "2026-10-20T12:34-04:00",
+ "as_of": "2026-10-20T13:15-04:00",
  "since": "2026-10-19T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-20 13:03",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Why Is Braze Stock Surging on Tuesday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62475885/why-is-braze-stock-surging-on-tuesday"
+  },
+  {
+   "time": "10-20 13:02",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Heads Into Earnings With AI Ambitions Soaring, Cash Burn in Focus",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62475856/meta-heads-into-earnings-with-ai-ambitions-soaring-cash-burn-in-focus"
+  },
+  {
+   "time": "10-20 13:01",
+   "symbols": [
+    "AMZN",
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "CNBC Halftime Report Final Trades: Amazon, UnitedHealth Group, Twilio, eBay",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/EBAY"
+  },
+  {
+   "time": "10-20 12:54",
+   "symbols": [
+    "NVDA",
+    "SMCI",
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Why Is SMCI Stock Seesawing on Tuesday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62475622/why-is-smci-stock-seesawing-on-tuesday"
+  },
+  {
+   "time": "10-20 12:45",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Live On CNBC, Josh Brown Trimmed Netflix Position",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/NFLX"
+  },
+  {
+   "time": "10-20 12:42",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Analyst Raises Revenues Estimates Ahead Of Q3 Results",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62475250/tesla-analyst-raises-revenues-estimates-ahead-of-q3-results"
+  },
+  {
+   "time": "10-20 12:37",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Stock of the Day: Where is the Bottom for NVIDIA?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/technicals/26/10/62474967/stock-of-the-day-where-is-the-bottom-for-nvidia"
+  },
   {
    "time": "10-20 12:27",
    "symbols": [
