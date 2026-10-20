@@ -1,0 +1,596 @@
+{
+ "as_of": "2026-10-20T08:53-04:00",
+ "since": "2026-10-19T16:00-04:00",
+ "headlines": [
+  {
+   "time": "10-20 08:51",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "PLTR Stock\u2019s Biggest Risk Isn\u2019t Slowing Growth, but Its Price, Analyst Warns \u2014 Valuation Already Bakes In \u2018Years of Exceptional Execution\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62464767/pltr-stocks-biggest-risk-isnt-slowing-growth-but-its-price-analyst-warns-valuation-already-bakes-in-years-of-exceptional-execution"
+  },
+  {
+   "time": "10-20 08:46",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "target up",
+   "headline": "Evercore ISI Group Maintains Outperform on Walmart, Raises Price Target to $130",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62464612/evercore-isi-group-maintains-outperform-walmart-raises-price-target-130"
+  },
+  {
+   "time": "10-20 08:38",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Is Creating Over 300K New U.S. Jobs This Holiday Season With Increased Pay, Expanded Benefits",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62464251/amazon-creating-over-300k-new-u-s-jobs-holiday-season-increased-pay-expanded-benefits"
+  },
+  {
+   "time": "10-20 08:38",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "GE Aerospace Q3 2026 Earnings Call Transcript",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62464248/ge-aerospace-q3-2026-earnings-call-transcript"
+  },
+  {
+   "time": "10-20 08:37",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "rating",
+   "headline": "Wedbush Reiterates Outperform on Advanced Micro Devices, Maintains $600 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62464212/wedbush-reiterates-outperform-advanced-micro-devices-maintains-600-price-target"
+  },
+  {
+   "time": "10-20 08:30",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Synaptics Announces Availability Of Its Synaptics Coralboard For Purchase Through DigiKey",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62463867/synaptics-announces-availability-its-synaptics-coralboard-purchase-through-digikey"
+  },
+  {
+   "time": "10-20 08:26",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "GE Aerospace CFO Says Number Of Genx Engines In Boeing Inventory Has Grown Over Last Few Months As Engine Deliveries Have Outpaced Aircraft Deliveries; Confident We'll Continue To Grow Genx Deliveries & Help Boeing Get To Rate 10 On 787 Deliveries Along With Rest Of Supply Chain; On Both Narrow Body And Wide Body Overall, We Expect Work Scopes To Increase Next Year",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62463682/ge-aerospace-cfo-says-number-genx-engines-boeing-inventory-has-grown-over-last-few-months-engine-del"
+  },
+  {
+   "time": "10-20 08:16",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "Twilio, Transocean and a Health Care Stock on CNBC\u2019s \u2018Final Trades\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62463518/twilio-transocean-and-a-health-care-stock-on-cnbcs-final-trades"
+  },
+  {
+   "time": "10-20 08:16",
+   "symbols": [
+    "META",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Meta Q3 Earnings Preview: Wall Street Eyes Muse AI Monetization As Mark Zuckerberg's AI Bet Faces Its Next Test",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62463513/meta-q3-earnings-preview-wall-street-eyes-muse-ai-monetization-as-mark-zuckerbergs-ai-bet-faces-its-next-test"
+  },
+  {
+   "time": "10-20 08:05",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Commits Up To $100M Over Three Years With American Manufacturing Program Partner Perryman For iPhone Duo Titanium; Expands Qnity Electronics Partnership For iPhone 18 Pro Camera",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AAPL"
+  },
+  {
+   "time": "10-20 08:05",
+   "symbols": [
+    "V"
+   ],
+   "rating": "initiate",
+   "headline": "Visa Partners With Bill.com And Billtrust To Launch First Live Pilot For Trusted AI Agents To Initiate And Complete Approved Buyer Invoice Payments",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62462963/visa-partners-bill-com-and-billtrust-launch-first-live-pilot-trusted-ai-agents-initiate-and-complete"
+  },
+  {
+   "time": "10-20 08:02",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce To Acquire Braze For ~$5.66B",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/BRZE"
+  },
+  {
+   "time": "10-20 08:01",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "GE Aerospace CEO Says In Conference Call That Q3 Departures Up 1%, Wide-Bodies Strong Despite Possible Flight Schedule Trims; Expects Departures Growth In 2027",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/GE"
+  },
+  {
+   "time": "10-20 07:50",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "GE Aerospace CFO Says In Conference Call The Company Is Working To Achieve GE9X FAA Certification By End Of 2026, Assumes Fewer Units In Year Given Timing",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/GE"
+  },
+  {
+   "time": "10-20 07:46",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "GE Aerospace CFO Says In Conference Call That Spare Parts Delinquency Increased Sequentially Despite Strong Revenue Growth, Reflecting Strong Underlying Demand",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/GE"
+  },
+  {
+   "time": "10-20 07:37",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Likely To Report Lower Q3 Earnings; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62461966/tesla-likely-to-report-lower-q3-earnings-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call"
+  },
+  {
+   "time": "10-20 07:35",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Micron Technology To Invest In Critical Minerals Under Its $3B Investment Plan",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62461933/micron-technology-invest-critical-minerals-under-its-3b-investment-plan"
+  },
+  {
+   "time": "10-20 07:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Deepens Europe Push With $18 Billion Germany Investment, AWS Expansion",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62461808/amazon-deepens-europe-push-with-18-billion-germany-investment-aws-expansion"
+  },
+  {
+   "time": "10-20 07:13",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "ByteDance, Alibaba, Tencent Place Massive $35 Billion NVIDIA Order",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62461592/bytedance-alibaba-tencent-place-massive-35-billion-nvidia-order"
+  },
+  {
+   "time": "10-20 06:53",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "rating",
+   "headline": "Cantor Fitzgerald Reiterates Overweight on Tesla, Maintains $485 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62460873/cantor-fitzgerald-reiterates-overweight-tesla-maintains-485-price-target"
+  },
+  {
+   "time": "10-20 06:52",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Gary Black Predicts SPCX to Offer $420 Per Share For TSLA in a Stock-For-Stock Deal, Calls Tesla-SpaceX Merger \u2018Inevitable\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62460836/gary-black-predicts-spcx-to-offer-420-per-share-for-tsla-in-a-stock-for-stock-deal-calls-tesla-spacex-merger-inevitable"
+  },
+  {
+   "time": "10-20 06:36",
+   "symbols": [
+    "COST",
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart Bundles Its Walmart+ and Sam\u2019s Club Plus Memberships Together For $120/Year",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62460476/walmart-bundles-its-walmart-and-sam-s-club-plus-memberships-together-120-year"
+  },
+  {
+   "time": "10-20 06:35",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "GE Aerospace Raises FY2026 Adj EPS Guidance from $7.65-$7.85 to $8.00-$8.10 vs $7.92 Est",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62460452/ge-aerospace-raises-fy2026-adj-eps-guidance-7-65-7-85-8-00-8-10-vs-7-92-est"
+  },
+  {
+   "time": "10-20 06:30",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "GE Aero Q3 Adj. EPS $2.25 Beats $2.00 Estimate, Sales $14.118B Beat $12.849B Estimate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/10/62460212/ge-aero-q3-adj-eps-2-25-beats-2-00-estimate-sales-14-118b-beat-12-849b-estimate"
+  },
+  {
+   "time": "10-20 06:10",
+   "symbols": [
+    "META",
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "CoreWeave Stock Sinks to 52-Week Low As Wall Street's AI Debt Fears Deepen",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62459918/coreweave-stock-sinks-to-52-week-low-as-wall-streets-ai-debt-fears-deepen"
+  },
+  {
+   "time": "10-20 06:10",
+   "symbols": [
+    "BAC",
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Top 3 Financial Stocks Which Could Rescue Your Portfolio In Q4",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62459916/top-3-financial-stocks-which-could-rescue-your-portfolio-in-q4"
+  },
+  {
+   "time": "10-20 06:06",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "UK CMA Outlines Proposals To Unlock Contactless Technology On Apple iPhone; Apple\u2019s Fees And Rules Are Blocking UJ Fintechs And Other Businesses From Innovating And Growing",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62459740/uk-cma-outlines-proposals-unlock-contactless-technology-apple-iphone-apple-s-fees-and-rules-are-bloc"
+  },
+  {
+   "time": "10-20 05:59",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Comparing Apple With Industry Competitors In Technology Hardware, Storage &amp; Peripherals Industry",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62459425/comparing-apple-industry-competitors-technology-hardware-storage-amp-peripherals-industry"
+  },
+  {
+   "time": "10-20 05:56",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Announces Plan To Invest More Than \u20ac16B ($18B) In Germany In 2027, Spanning Data Centers, AI, Satellite Internet, Logistics And Prime Video",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62459390/amazon-announces-plan-invest-more-16b-18b-germany-2027-spanning-data-centers-ai-satellite-internet-l"
+  },
+  {
+   "time": "10-20 05:50",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Google Cloud Services In Europe-West2 Face Errors And Intermittent Network Failures Since October 19, Engineers Investigating, Customers May Migrate Workloads If Feasible",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62459336/google-cloud-services-europe-west2-face-errors-and-intermittent-network-failures-october-19-engineer"
+  },
+  {
+   "time": "10-20 05:48",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "'ByteDance, Alibaba, Tencent Place Over $35 Billion Worth of Nvidia Chip Orders' - Reuters Exclusive",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62459314/bytedance-alibaba-tencent-place-over-35-billion-worth-nvidia-chip-orders-reuters-exclusive"
+  },
+  {
+   "time": "10-20 05:48",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "downgrade",
+   "headline": "Loop Capital Downgrades Apple to Hold, Lowers Price Target to $330",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62459303/loop-capital-downgrades-apple-hold-lowers-price-target-330"
+  },
+  {
+   "time": "10-20 05:29",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Joins Forces With AstraZeneca to Put AI to Work in Drug Research",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/10/62459103/oracle-joins-forces-with-astrazeneca-to-put-ai-to-work-in-drug-research"
+  },
+  {
+   "time": "10-20 05:16",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "SpaceX Earnings Preview: SPCX Investors Have 3 Big Questions Ahead of Q3 Results: Tesla Merger, Moon Lander Updates and Starship Refueling",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62459053/spacex-q3-earnings-preview-investors-tesla-merger-moon-lander-refueling"
+  },
+  {
+   "time": "10-20 04:58",
+   "symbols": [
+    "GOOGL",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "TSLA Stock Could Surge Nearly 1,100% by 2031, Cathie Wood\u2019s ARK Invest Says: Expects Tesla-SpaceX Merger Within Five Years",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62458813/tsla-stock-could-surge-nearly-1100-by-2031-cathie-woods-ark-invest-says-expects-tesla-spacex-merger-within-five-years"
+  },
+  {
+   "time": "10-20 04:44",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Poland\u2019s Competition Office Orders Apple To Change App Tracking Transparency Policy With Neutral Consent Notices, Fair Terms For Polish Developers And Liaison Officer Within Two Months Of Final Decision",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62458781/poland-s-competition-office-orders-apple-change-app-tracking-transparency-policy-neutral-consent-not"
+  },
+  {
+   "time": "10-20 03:43",
+   "symbols": [
+    "CVX",
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "Chevron, ExxonMobil Stocks Hit 52-Week Highs as Fresh US-Israel Threats Against Iran Push Brent Crude to 5-Month Highs",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62458379/chevron-exxonmobil-stocks-hit-52-week-highs-as-fresh-us-israel-threats-against-iran-push-brent-crude-to-5-month-highs"
+  },
+  {
+   "time": "10-20 03:40",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Mark Zuckerberg Called AI Agents Meta\u2019s Next Revenue Engine: Will Muse Deliver When Q3 Earnings Land",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62458367/meta-q3-earnings-muse-ai-agent-revenue"
+  },
+  {
+   "time": "10-20 03:33",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova Secures Order To Supply 9E Gas Turbine For 372MW Songon Power Plant In C\u00f4te D\u2019Ivoire, Scheduled To Launch In 2029",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62458231/ge-vernova-secures-order-supply-9e-gas-turbine-372mw-songon-power-plant-c-te-d-ivoire-scheduled-laun"
+  },
+  {
+   "time": "10-20 03:25",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Big Short Investor Flags Major Vulnerability for Nvidia \u2014 5 Customers Account for 70% of Receivables: \u2018Tremendous Amount of Concentration Risk\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62458211/big-short-investor-flags-major-vulnerability-for-nvidia-5-customers-account-for-70-of-receivables-tremendous-amount-of-concentration-risk"
+  },
+  {
+   "time": "10-20 03:18",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Anthony Scaramucci Says Ukraine Gave Up Nuclear Arsenal, And Trump Is Treating The Deal \u2018As If It Never Existed\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/economic-data/26/10/62458192/anthony-scaramucci-trump-abandoned-ukraine-promise-russia-sanctions-waiver"
+  },
+  {
+   "time": "10-20 02:19",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "'Waymo Plans To Quintuple Its Fleet' - Semafor",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62457837/waymo-plans-quintuple-its-fleet-semafor"
+  },
+  {
+   "time": "10-20 01:36",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Stock to Top $300 in October? Prediction Market Punters Trade the Odds as Morgan Stanley Raises Near-Term Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62457636/amzn-stock-amazon-price-prediction-polymarket-prediction"
+  },
+  {
+   "time": "10-20 01:27",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "",
+   "headline": "Reported Earlier, Broadcom And NTT DOCOMO Sign 10-Year Agreement To Advance DOCOMO\u2019s Private Cloud, Built On VMware Cloud Foundation, Amid AI Expansion And Cyberattacks",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/NTTYY"
+  },
+  {
+   "time": "10-20 01:13",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Announces Non-Binding Agreement With AstraZeneca To Explore AI And Real-World Data For Clinical Trial Patient Identification, Evidence Generation And Care Insights",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62457573/oracle-announces-non-binding-agreement-astrazeneca-explore-ai-and-real-world-data-clinical-trial-pat"
+  },
+  {
+   "time": "10-19 23:17",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "\u2018Obviously This Is a Finger\u2019: Apple\u2019s \u2018Pro and Tell\u2019 Teaser Has Everyone Talking \u2014 MacBook Pro Buzz Intensifies",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62457324/apple-touchscreen-macbook-pro"
+  },
+  {
+   "time": "10-19 22:58",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Jim Cramer Calls Trump's Russia Sanctions Waiver 'Tragic' After Report Says President 'Openly Aiding the Kremlin'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/economic-data/26/10/62457282/jim-cramer-tragic-report-trump-russia-sanctions-waiver"
+  },
+  {
+   "time": "10-19 21:45",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "upgrade",
+   "headline": "Cathie Wood Buys $8.1 Million of CoreWeave Stock as Goldman Sachs Upgrades, Ark Invest Sells Palantir Stock",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/10/62457109/cathie-wood-buys-8-1-million-of-coreweave-stock-as-goldman-sachs-upgrades-ark-invest-sells-palantir-stock"
+  },
+  {
+   "time": "10-19 21:40",
+   "symbols": [
+    "AMZN",
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Amazon Gets Warrant to Buy $521.4 Million of 3M Stock in Expanded Data Center Partnership: MMM Rises Over 5% After Hours",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62457090/amazon-gets-3m-stock-warrant-data-center-partnership"
+  },
+  {
+   "time": "10-19 19:45",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "If You Invested $1000 In JPMorgan Chase Stock 10 Years Ago, You Would Have This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62456725/if-you-invested-1000-jpmorgan-chase-stock-10-years-ago-you-would-have-much-today"
+  },
+  {
+   "time": "10-19 19:15",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "Here\u2019s How Much You Would Have Made Owning GE Aerospace Stock In The Last 5 Years",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62456557/here-s-how-much-you-would-have-made-owning-ge-aerospace-stock-last-5-years"
+  },
+  {
+   "time": "10-19 18:19",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Congressman Sells Nvidia Stock Again: 7 Sales in 2026 Add to Trades Since 2022",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62456282/congressman-sells-nvidia-stock-again-7-sales-in-2026-add-to-trades-since-2022"
+  },
+  {
+   "time": "10-19 17:29",
+   "symbols": [
+    "AMZN",
+    "GOOGL",
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "'Eric Schmidt\u2019s 1% Anthropic Stake Set to Pay Massive Windfall'- Bloomberg",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62455730/eric-schmidt-s-1-anthropic-stake-set-pay-massive-windfall-bloomberg"
+  },
+  {
+   "time": "10-19 16:52",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Q3 Earnings Preview: Can the Company Reverse Recent EPS, Revenue Misses?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/previews/26/10/62454857/tesla-q3-earnings-preview-can-the-company-reverse-recent-eps-revenue-misses"
+  },
+  {
+   "time": "10-19 16:38",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman, Evercore Explore Funds That Would Let PE Firms Hold Assets for 15 Years",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/private-markets/26/10/62454377/goldman-evercore-explore-funds-that-would-let-pe-firms-hold-assets-for-15-years"
+  },
+  {
+   "time": "10-19 16:23",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Stock Has Fallen After 5 Straight Reports: Will Q3 Break the Streak?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/previews/26/10/62453726/netflix-stock-fallen-5-straight-reports-will-q3-break-the-streak"
+  },
+  {
+   "time": "10-19 16:05",
+   "symbols": [
+    "AMZN",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Amazon Just Found a Way Around Nvidia\u2019s Biggest Moat",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62452876/amazon-trainium-nvidia-cuda"
+  },
+  {
+   "time": "10-19 16:00",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Here's How Much $100 Invested In Oracle 20 Years Ago Would Be Worth Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62452576/here-s-how-much-100-invested-oracle-20-years-ago-would-be-worth-today"
+  }
+ ]
+}

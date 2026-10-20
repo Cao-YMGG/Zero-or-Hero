@@ -1,17 +1,60 @@
-# Headlines since 2026-10-16 16:00 ET (as of 2026-10-19 19:01 ET)
+# Headlines since 2026-10-19 16:00 ET (as of 2026-10-20 08:53 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
-| 10-19 15:19 | XOM | target up | Barclays Maintains Overweight on ExxonMobil Holdings, Raises Price Target to $200 |
-| 10-19 13:45 | GS | target down | BMO Capital Maintains Market Perform on Goldman Sachs Group, Lowers Price Target to $950 |
-| 10-19 13:08 | META | target up | Morgan Stanley Maintains Overweight on Meta Platforms, Raises Price Target to $820 |
-| 10-19 12:42 | AMZN | target up | Morgan Stanley Maintains Overweight on Amazon.com, Raises Price Target to $350 |
-| 10-19 09:21 | MSFT | upgrade | Goldman Sachs Upgrades CoreWeave Despite 15% Bond Yields as Stock Jumps 6% |
-| 10-19 09:14 | GOOGL | target down | Keybanc Maintains Overweight on Alphabet, Lowers Price Target to $410 |
-| 10-19 07:33 | MSFT | target up | Bernstein Maintains Outperform on Microsoft, Raises Price Target to $662 |
-| 10-19 05:26 | INTC | upgrade | JP Morgan Upgrades Intel to Neutral, Maintains Price Target to $85 |
+| 10-20 08:46 | WMT | target up | Evercore ISI Group Maintains Outperform on Walmart, Raises Price Target to $130 |
+| 10-20 08:37 | AMD | rating | Wedbush Reiterates Outperform on Advanced Micro Devices, Maintains $600 Price Target |
+| 10-20 08:05 | V | initiate | Visa Partners With Bill.com And Billtrust To Launch First Live Pilot For Trusted AI Agents To Initiate And Complete Approved Buyer Invoice Payments |
+| 10-20 06:53 | TSLA | rating | Cantor Fitzgerald Reiterates Overweight on Tesla, Maintains $485 Price Target |
+| 10-20 05:48 | AAPL | downgrade | Loop Capital Downgrades Apple to Hold, Lowers Price Target to $330 |
+| 10-19 21:45 | PLTR | upgrade | Cathie Wood Buys $8.1 Million of CoreWeave Stock as Goldman Sachs Upgrades, Ark Invest Sells Palantir Stock |
+| 10-20 08:51 | PLTR |  | PLTR Stock’s Biggest Risk Isn’t Slowing Growth, but Its Price, Analyst Warns — Valuation Already Bakes In ‘Years of Exceptional Execution’ |
+| 10-20 08:38 | AMZN |  | Amazon Is Creating Over 300K New U.S. Jobs This Holiday Season With Increased Pay, Expanded Benefits |
+| 10-20 08:38 | GE |  | GE Aerospace Q3 2026 Earnings Call Transcript |
+| 10-20 08:30 | GOOGL |  | Synaptics Announces Availability Of Its Synaptics Coralboard For Purchase Through DigiKey |
+| 10-20 08:26 | GE |  | GE Aerospace CFO Says Number Of Genx Engines In Boeing Inventory Has Grown Over Last Few Months As Engine Deliveries Have Outpaced Aircraft Deliveries; Confident We'll Continue To Grow Genx Deliveries & Help Boeing Get To Rate 10 On 787 Deliveries Along With Rest Of Supply Chain; On Both Narrow Body And Wide Body Overall, We Expect Work Scopes To Increase Next Year |
+| 10-20 08:16 | UNH |  | Twilio, Transocean and a Health Care Stock on CNBC’s ‘Final Trades’ |
+| 10-20 08:16 | META NVDA |  | Meta Q3 Earnings Preview: Wall Street Eyes Muse AI Monetization As Mark Zuckerberg's AI Bet Faces Its Next Test |
+| 10-20 08:05 | AAPL |  | Apple Commits Up To $100M Over Three Years With American Manufacturing Program Partner Perryman For iPhone Duo Titanium; Expands Qnity Electronics Partnership For iPhone 18 Pro Camera |
+| 10-20 08:02 | CRM |  | Salesforce To Acquire Braze For ~$5.66B |
+| 10-20 08:01 | GE |  | GE Aerospace CEO Says In Conference Call That Q3 Departures Up 1%, Wide-Bodies Strong Despite Possible Flight Schedule Trims; Expects Departures Growth In 2027 |
+| 10-20 07:50 | GE |  | GE Aerospace CFO Says In Conference Call The Company Is Working To Achieve GE9X FAA Certification By End Of 2026, Assumes Fewer Units In Year Given Timing |
+| 10-20 07:46 | GE |  | GE Aerospace CFO Says In Conference Call That Spare Parts Delinquency Increased Sequentially Despite Strong Revenue Growth, Reflecting Strong Underlying Demand |
+| 10-20 07:37 | TSLA |  | Tesla Likely To Report Lower Q3 Earnings; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call |
+| 10-20 07:35 | MU |  | Micron Technology To Invest In Critical Minerals Under Its $3B Investment Plan |
+| 10-20 07:31 | AMZN |  | Amazon Deepens Europe Push With $18 Billion Germany Investment, AWS Expansion |
+| 10-20 07:13 | NVDA |  | ByteDance, Alibaba, Tencent Place Massive $35 Billion NVIDIA Order |
+| 10-20 06:52 | TSLA |  | Gary Black Predicts SPCX to Offer $420 Per Share For TSLA in a Stock-For-Stock Deal, Calls Tesla-SpaceX Merger ‘Inevitable’ |
+| 10-20 06:36 | COST WMT |  | Walmart Bundles Its Walmart+ and Sam’s Club Plus Memberships Together For $120/Year |
+| 10-20 06:35 | GE |  | GE Aerospace Raises FY2026 Adj EPS Guidance from $7.65-$7.85 to $8.00-$8.10 vs $7.92 Est |
+| 10-20 06:30 | GE |  | GE Aero Q3 Adj. EPS $2.25 Beats $2.00 Estimate, Sales $14.118B Beat $12.849B Estimate |
+| 10-20 06:10 | META MSFT |  | CoreWeave Stock Sinks to 52-Week Low As Wall Street's AI Debt Fears Deepen |
+| 10-20 06:10 | BAC GS |  | Top 3 Financial Stocks Which Could Rescue Your Portfolio In Q4 |
+| 10-20 06:06 | AAPL |  | UK CMA Outlines Proposals To Unlock Contactless Technology On Apple iPhone; Apple’s Fees And Rules Are Blocking UJ Fintechs And Other Businesses From Innovating And Growing |
+| 10-20 05:59 | AAPL |  | Comparing Apple With Industry Competitors In Technology Hardware, Storage &amp; Peripherals Industry |
+| 10-20 05:56 | AMZN |  | Amazon Announces Plan To Invest More Than €16B ($18B) In Germany In 2027, Spanning Data Centers, AI, Satellite Internet, Logistics And Prime Video |
+| 10-20 05:50 | GOOGL |  | Google Cloud Services In Europe-West2 Face Errors And Intermittent Network Failures Since October 19, Engineers Investigating, Customers May Migrate Workloads If Feasible |
+| 10-20 05:48 | NVDA |  | 'ByteDance, Alibaba, Tencent Place Over $35 Billion Worth of Nvidia Chip Orders' - Reuters Exclusive |
+| 10-20 05:29 | ORCL |  | Oracle Joins Forces With AstraZeneca to Put AI to Work in Drug Research |
+| 10-20 05:16 | TSLA |  | SpaceX Earnings Preview: SPCX Investors Have 3 Big Questions Ahead of Q3 Results: Tesla Merger, Moon Lander Updates and Starship Refueling |
+| 10-20 04:58 | GOOGL TSLA |  | TSLA Stock Could Surge Nearly 1,100% by 2031, Cathie Wood’s ARK Invest Says: Expects Tesla-SpaceX Merger Within Five Years |
+| 10-20 04:44 | AAPL |  | Poland’s Competition Office Orders Apple To Change App Tracking Transparency Policy With Neutral Consent Notices, Fair Terms For Polish Developers And Liaison Officer Within Two Months Of Final Decision |
+| 10-20 03:43 | CVX XOM |  | Chevron, ExxonMobil Stocks Hit 52-Week Highs as Fresh US-Israel Threats Against Iran Push Brent Crude to 5-Month Highs |
+| 10-20 03:40 | META |  | Mark Zuckerberg Called AI Agents Meta’s Next Revenue Engine: Will Muse Deliver When Q3 Earnings Land |
+| 10-20 03:33 | GEV |  | GE Vernova Secures Order To Supply 9E Gas Turbine For 372MW Songon Power Plant In Côte D’Ivoire, Scheduled To Launch In 2029 |
+| 10-20 03:25 | NVDA |  | Big Short Investor Flags Major Vulnerability for Nvidia — 5 Customers Account for 70% of Receivables: ‘Tremendous Amount of Concentration Risk’ |
+| 10-20 03:18 | GS |  | Anthony Scaramucci Says Ukraine Gave Up Nuclear Arsenal, And Trump Is Treating The Deal ‘As If It Never Existed’ |
+| 10-20 02:19 | GOOGL |  | 'Waymo Plans To Quintuple Its Fleet' - Semafor |
+| 10-20 01:36 | AMZN |  | Amazon Stock to Top $300 in October? Prediction Market Punters Trade the Odds as Morgan Stanley Raises Near-Term Target |
+| 10-20 01:27 | AVGO |  | Reported Earlier, Broadcom And NTT DOCOMO Sign 10-Year Agreement To Advance DOCOMO’s Private Cloud, Built On VMware Cloud Foundation, Amid AI Expansion And Cyberattacks |
+| 10-20 01:13 | ORCL |  | Oracle Announces Non-Binding Agreement With AstraZeneca To Explore AI And Real-World Data For Clinical Trial Patient Identification, Evidence Generation And Care Insights |
+| 10-19 23:17 | AAPL |  | ‘Obviously This Is a Finger’: Apple’s ‘Pro and Tell’ Teaser Has Everyone Talking — MacBook Pro Buzz Intensifies |
+| 10-19 22:58 | GS |  | Jim Cramer Calls Trump's Russia Sanctions Waiver 'Tragic' After Report Says President 'Openly Aiding the Kremlin' |
+| 10-19 21:40 | AMZN MSFT |  | Amazon Gets Warrant to Buy $521.4 Million of 3M Stock in Expanded Data Center Partnership: MMM Rises Over 5% After Hours |
+| 10-19 19:45 | JPM |  | If You Invested $1000 In JPMorgan Chase Stock 10 Years Ago, You Would Have This Much Today |
+| 10-19 19:15 | GE |  | Here’s How Much You Would Have Made Owning GE Aerospace Stock In The Last 5 Years |
 | 10-19 18:19 | NVDA |  | Congressman Sells Nvidia Stock Again: 7 Sales in 2026 Add to Trades Since 2022 |
 | 10-19 17:29 | AMZN GOOGL MSFT |  | 'Eric Schmidt’s 1% Anthropic Stake Set to Pay Massive Windfall'- Bloomberg |
 | 10-19 16:52 | TSLA |  | Tesla Q3 Earnings Preview: Can the Company Reverse Recent EPS, Revenue Misses? |
@@ -19,96 +62,3 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-19 16:23 | NFLX |  | Netflix Stock Has Fallen After 5 Straight Reports: Will Q3 Break the Streak? |
 | 10-19 16:05 | AMZN NVDA |  | Amazon Just Found a Way Around Nvidia’s Biggest Moat |
 | 10-19 16:00 | ORCL |  | Here's How Much $100 Invested In Oracle 20 Years Ago Would Be Worth Today |
-| 10-19 15:56 | MU NVDA |  | TIPS Now Pay 2.8% Above Inflation. Here's The Hurdle That Sets For S&P 500 Investors |
-| 10-19 15:52 | NVDA |  | NVIDIA CEO Jensen Huang Announces New Planned Investments In Germany's Agile Robots, Avelios Medical, Mirelo And Reflex Aerospace |
-| 10-19 15:33 | AMZN GOOGL NVDA |  | 'Nscale, Anthropic in Talks for $45 Billion Cloud Computing Deal' - Bloomberg News |
-| 10-19 14:46 | MSFT NVDA |  | Microsoft Walks Away From AI Data Center Deal, but SemiAnalysis Predicts 50-GW Boom in 2027 |
-| 10-19 14:07 | NVDA |  | Nvidia Researchers Using Supercomputer Jupiter For Fault-Tolerant Computing Simulation |
-| 10-19 13:53 | LLY |  | Swiss Pharma Giant Roche Suspends German Capital Commitments Amid Dispute Over Drug Discounts |
-| 10-19 13:17 | META WMT |  | Analyst Sees Billions in Walmart's Next Big Advertising Opportunity |
-| 10-19 13:00 | UNH |  | CNBC Halftime Report Final Trades: UnitedHealth Group, Twilio, Transocean |
-| 10-19 12:52 | META |  | Can Meta’s Fiber Partner Corning Capitalize On Rising AI Fiber Prices? |
-| 10-19 12:50 | AMZN TSLA |  | Waymo Is Bringing Robotaxis to Canada in 2028 — Toronto’s Winter Weather Will Put Them to the Test |
-| 10-19 12:49 | AAPL |  | 'Apple Announces Oct. 28 Event for Touch-Screen MacBook Pro' - Bloomberg |
-| 10-19 12:47 | ARM |  | Live On CNBC, Bill Baruch Announces Sold Arm Holdings; Sold Entegris |
-| 10-19 12:45 | WMT |  | Live On CNBC, Bill Baruch Announces Bought More Walmart |
-| 10-19 12:40 | AAPL |  | Apple SVP Marketing Greg Joswiak, On Social Media, Hints At New Product Announcement Next Week |
-| 10-19 12:31 | AMD GS |  | Why Is AMD Stock Surging on Monday? |
-| 10-19 12:24 | AMZN |  | X-Energy Expands Nuclear Pipeline With New Indiana Reactor Proposal |
-| 10-19 12:21 | TSLA |  | SpaceX Could Buy Tesla for $480 Per Share in $3.74 Trillion Merger, RBC Says |
-| 10-19 12:08 | NVDA |  | 'DeepSeek Working With Huawei Technologies To Shape Design Of Future AI Chips' - The Information |
-| 10-19 12:07 | AAPL |  | Apple iPhone Duo Has 82-Day Lead Time: Analyst Names Tech Giant 'Eventual' AI Winner |
-| 10-19 12:06 | GOOGL |  | Cognizant, Google Cloud Expand Collaboration Over Adoption Of Agentic AI |
-| 10-19 11:56 | NFLX |  | 18 Globo Titles Heading To Netflix In Unprecedented Licensing Agreement |
-| 10-19 11:45 | RKLB |  | Rocket Lab Stock Climbs: What's Happening? |
-| 10-19 11:40 | WMT |  | 'Walmart Sells US Debt, Eyes Canadian Market as Spending Grows' - Bloomberg |
-| 10-19 11:37 | MU SNDK |  | Why Micron and Sandisk Stocks Are Surging Monday |
-| 10-19 11:31 | NFLX |  | 'Dan Lin Out as Netflix Film Chief' - Variety |
-| 10-19 11:13 | AVGO MU |  | Broadcom Vs. Micron: Which Semiconductor Stock Wins the AI Sell-Off? |
-| 10-19 11:06 | NVDA |  | NVIDIA Advances Agentic Security For Media, From European Public Service Broadcasting To Global Content Production |
-| 10-19 11:00 | BAC |  | Recent Report Shows That Rep. Laurel Lee Sold Up to $100K Worth of Bank of America Stock |
-| 10-19 10:59 | GOOGL |  | TeraWulf Rebounds 5% As CEO Distinguishes Model From Neoclouds |
-| 10-19 10:52 | SMCI WDC |  | Why Is SMCI Stock Climbing on Monday? |
-| 10-19 10:43 | HOOD |  | EXCLUSIVE: Sports Betting No More Addictive Than Stock Trading, Smarkets CEO Says |
-| 10-19 10:07 | PLTR |  | Why Is Palantir Technologies Stock Gaining Monday? |
-| 10-19 10:04 | MSFT |  | Ex-OpenAI Employee Accused Of Planting Recording Device Appears To Have Received 'Considerable Support' From Saudi Government |
-| 10-19 10:02 | AMZN GOOGL MSFT |  | "Anthropic Readies Model That Reads Users' Intentions Better" - The Information |
-| 10-19 09:25 | MSFT |  | Microsoft Expands Project Perception, CEO Satya Nadella Announces |
-| 10-19 09:06 | AMZN |  | Amazon Opens Its AWS Trainium AI Chips To Every PyTorch Developer, No Rewrite Needed |
-| 10-19 08:49 | META |  | Why Is PayPal Stock Trending Monday? |
-| 10-19 08:43 | GS |  | 'Goldman, Evercore Are Pitching ‘Forever Funds’ to Private Equity' - Bloomberg Exclusive |
-| 10-19 08:34 | TSLA |  | Musk Wants Every Kid In America To Own A Piece Of SpaceX |
-| 10-19 08:33 | AMZN |  | American Electric Power Inks Agreement With X-Energy, Amazon To Evaluate Feasibility Of Constructing 960-MW Nuclear Energy Project In Indiana |
-| 10-19 08:22 | NVDA |  | Santander Builds AI Capabilities That Improve Performance And Lower Costs Using NVIDIA AI Infrastructure |
-| 10-19 08:22 | NVDA |  | Siemens Partners With NVIDIA To Advance AI-Driven, Autonomous Factories |
-| 10-19 08:20 | COIN JPM |  | JPMorgan Taps Ethereum for JPM Coin as Tokenization Race Heats Up |
-| 10-19 08:18 | NVDA |  | Why Is Nebius Group Stock Surging Monday? |
-| 10-19 07:55 | NVDA |  | Danaher Likely To Report Higher Q3 Earnings; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call |
-| 10-19 07:27 | RKLB |  | AST SpaceMobile Welcomes European LoI Signed By Deutsche Telekom, Orange, Telefónica And Vodafone To Explore A Potential Joint Bid For Mobile Satellite Services Spectrum |
-| 10-19 07:27 | JPM |  | ServiceNow, Eaton, SentinelOne And A Financial Stock: CNBC’s ‘Final Trades’ |
-| 10-19 07:01 | PLTR |  | Knox Systems Announces New Partnership With Palantir Technologies To Accelerate Secure AI Deployment In FedRAMP And IL5 Environments |
-| 10-19 06:24 | MSFT NVDA |  | AI Boom Hits a Power Wall: Microsoft Walks Away From Nscale's UK Data Center Deal |
-| 10-19 06:10 | NFLX |  | Netflix Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts |
-| 10-19 06:00 | RKLB TSLA |  | Elon Musk Challenges Jeff Bezos' Blue Origin and Other SpaceX Rivals, Says They Still Can’t Catch Starship — ‘Even Their Future Plans Are Behind’ |
-| 10-19 06:00 | TSLA |  | Ross Gerber Dismisses Elon Musk’s Tesla Roadster as a ‘Marketing' Demo: ‘Old Hot Wheels Dream’ |
-| 10-19 05:59 | JPM |  | 'JPMorgan and Alibaba Are Said Among Investors in Dongshan’s Listing' - Bloomberg |
-| 10-19 05:58 | AAPL |  | Analyzing Apple In Comparison To Competitors In Technology Hardware, Storage &amp; Peripherals Industry |
-| 10-19 05:52 | JPM |  | Accenture Reportedly Weighs $1.5 Billion Sale of Greater China Business After Attracting Unsolicited Interest Over Past Year |
-| 10-19 05:26 | NVDA |  | Mark Cuban Says US Manufacturing Can Come Back Home From China With One Big Catch: ‘Our Robots and AI vs Their Robots and AI’ |
-| 10-19 04:58 | AMZN |  | Jeff Bezos’ Florida Real Estate Empire Could Be Growing With $69 Million Golden Beach Mansion: Report |
-| 10-19 04:44 | LLY |  | Eli Lilly’s Omvoh Shows 1-Year Phase 3 Results for Kids with Ulcerative Colitis |
-| 10-19 04:42 | GOOGL |  | Trump Says Google ‘Wouldn’t Have Taken My Call’ In First Term, Now ‘They Kiss My…’ — Then Dines With Sergey Brin |
-| 10-19 04:23 | CRM |  | Peter Schiff Says AI Could Rewrite the Rules of Starting a Business: ‘Don’t Look for a Job’ |
-| 10-19 02:53 | LLY |  | Reported Sunday, Lilly Brings Updated Phase 3 Selpercatinib Data Versus Cabozantinib Or Vandetanib In RET-Mutant Medullary Thyroid Cancer To ESMO 2026, Alongside Sofetabart Mipitecan, Olomorasib And Abemaciclib Presentations |
-| 10-19 02:37 | NVDA |  | Santander Agrees Three-Year Collaboration Framework With Nvidia, Marking New AI Milestone And Building Capabilities On Nvidia AI Infrastructure |
-| 10-19 01:16 | TSLA |  | Elon Musk Says AI And Robots Are The Only Way To Solve America's $40 Trillion Debt Problem — ‘We’re Not Gonna Save Our Way There’ |
-| 10-18 16:55 | JPM TSLA |  | Tesla Stock Falls as Options Market Signals Jump to $370 After Earnings |
-| 10-18 14:20 | NVDA |  | Nvidia Enters Correction After Rising Wedge Breakdown as AI Stock Bubble Index Jumps |
-| 10-18 12:30 | ORCL |  | Larry Ellison’s Net Worth Plummets as Oracle Suffers $488 Billion Wipeout |
-| 10-18 11:45 | MU |  | DRAM ETF Records Biggest Daily Outflow as AI Bubble Fears Rise |
-| 10-18 11:00 | MSFT |  | UK's Telegraph Reported Sunday, Microsoft Pulls Plug On Deal To Lease Computing Capacity From UK Start-Up Nscale At Essex Data Centre |
-| 10-18 10:30 | COIN |  | Trump Gave Crypto What It Wanted: Is He Also Its Biggest Problem? |
-| 10-18 08:51 | TSLA |  | This Week in TSLA: Roadster's Flying Debut, Cybercab Speeding in School Zones, SpaceX Merger and More |
-| 10-18 08:30 | TSLA |  | Tesla Promises Its Flying Roadster For 2028, but MKBHD Has One Question: ‘This Is A Prank, Right?’ |
-| 10-18 07:11 | TSLA |  | Elon Musk Says Optimus, Cybercab Will Be ‘the Vast Majority’ of Tesla’s Value |
-| 10-18 07:00 | AAPL META NVDA |  | iPhone Duo Preorders, AAPL Crosses $5 Trillion and More: This Week in Appleverse |
-| 10-18 06:00 | NVDA |  | Inflation Shakes Fed Outlook Crude Oil Surges, Sanders Targets Oil Companies and More: This Week in Economy |
-| 10-18 04:16 | META |  | Meta Faces Brazil Election Scrutiny Over Instagram Restrictions on Lula’s Accounts Ahead of Runoff |
-| 10-17 23:27 | NVDA TSLA |  | Kevin O'Leary Says This Is What Sets Elon Musk Apart: 'He Does Not Deal With Noise' |
-| 10-17 16:30 | RKLB |  | Rocket Lab Stock Erases $57 Billion in Value as Headwinds Mount |
-| 10-17 16:15 | GS |  | Dell Stock Enters Bear Market as Analysts Remain Highly Bullish Despite AI Jitters |
-| 10-17 14:30 | NVDA |  | CoreWeave Stock Forms H&S Pattern as Key Bond Yield Hits 15% Amid Insider Selling |
-| 10-17 11:31 | AVGO NVDA |  | Broadcom Stock Is Down 35% From Its Peak as AI Bubble Warnings Rise, but Analysts Stay Optimistic |
-| 10-17 10:00 | GOOGL |  | The Next Hollywood Trailer May Talk Back: Tech CEO Predicts Interactive Technology Could Change How Audiences Experience Movies |
-| 10-17 08:59 | MU SNDK |  | EXCLUSIVE: Forget China — Samsung Is The Bigger Threat To Micron, SanDisk Investors, Says Nicholas Mugalli |
-| 10-17 08:51 | TSM |  | Consumer Tech (Oct 12-16): Big Banks Reports Earnings, Anthropic Revenue Jumps 45% & More |
-| 10-17 05:33 | GOOGL |  | Disney to Spend $60 Million a Year on Character.AI Talent After Its Own Layoffs as AI Startup Faces Bankruptcy |
-| 10-17 02:22 | LLY |  | JD Vance Touts TrumpRx Drug Price Push, Trump Accounts as ‘Economic Nationalism’ Wins Ahead Of Midterms |
-| 10-17 01:38 | LLY NVDA |  | Robotics Remains In Its ‘Lego Era,’ Says Former Nvidia Leader Turned VC as Physical AI Awaits Its ChatGPT Moment |
-| 10-17 01:10 | AMZN GOOGL MSFT |  | UK Watchdog Proposes Strategic Market Tag for Microsoft, Puts Excel and Copilot AI Under Competition Scrutiny |
-| 10-16 22:29 | META |  | Meta Denies Political Bias in Brazil Elections After Staff Flagged Instagram Restrictions Affecting President Lula's Accounts: Report |
-| 10-16 21:18 | INTC NVDA TSM |  | The Moment Jensen Huang Realized Nvidia 'Won't Have to Die' Came After a Call From This CEO: 'For the Whole Time, 30 Years…' |
-| 10-16 17:57 | AMZN GOOGL MSFT |  | 'Anthropic quietly pitches its own AI safety bill to lawmakers'- Politico |
-| 10-16 16:41 | META |  | Meta's AI Spending Could Hit $205 Billion in 2027: Why Magnificent 7 ETFs Face a Crucial Test |
-| 10-16 16:23 | LLY |  | Eli Lilly Takes 19.9% Stake In TRex Bio With 5.48M Shares, Investing $12.3M In IPO |
-| 10-16 16:14 | TSLA |  | Semis And Bonds At Inflection Points; Bonds Become Correlated With AI Trade; Musk Shows Flying Roadster |
