@@ -1,7 +1,27 @@
 {
- "as_of": "2026-10-20T10:02-04:00",
+ "as_of": "2026-10-20T10:32-04:00",
  "since": "2026-10-19T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-20 10:11",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Earnings Prediction Market Preview: Will Ted Sarandos Discuss Layoffs?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62468926/netflix-earnings-ted-sarandos-layoffs"
+  },
+  {
+   "time": "10-20 10:09",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "GE Aerospace Raises 2026 Profit Outlook on Solid Demand, 49% Surge in Orders",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62468789/ge-aerospace-raises-2026-profit-outlook-on-solid-demand-49-surge-in-orders"
+  },
   {
    "time": "10-20 09:49",
    "symbols": [

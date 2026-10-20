@@ -1,4 +1,4 @@
-# Headlines since 2026-10-19 16:00 ET (as of 2026-10-20 10:02 ET)
+# Headlines since 2026-10-19 16:00 ET (as of 2026-10-20 10:32 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -11,6 +11,8 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-20 06:53 | TSLA | rating | Cantor Fitzgerald Reiterates Overweight on Tesla, Maintains $485 Price Target |
 | 10-20 05:48 | AAPL | downgrade | Loop Capital Downgrades Apple to Hold, Lowers Price Target to $330 |
 | 10-19 21:45 | PLTR | upgrade | Cathie Wood Buys $8.1 Million of CoreWeave Stock as Goldman Sachs Upgrades, Ark Invest Sells Palantir Stock |
+| 10-20 10:11 | NFLX |  | Netflix Earnings Prediction Market Preview: Will Ted Sarandos Discuss Layoffs? |
+| 10-20 10:09 | GE |  | GE Aerospace Raises 2026 Profit Outlook on Solid Demand, 49% Surge in Orders |
 | 10-20 09:49 | AAPL |  | Apple Stock in Focus as iPhone Duo Launch, U.S. Expansion and Earnings Loom |
 | 10-20 09:47 | META |  | 'RBC Considers Blocking Meta’s Muse AI Agent, CEO Dave McKay Says' - Bloomberg News |
 | 10-20 09:24 | AMZN GOOGL |  | Hunterbrook Media Issues Report On Anthropic; Finds Claude AI Designed Experimental Scorpion Antivenom Binders, But Tests Show Mixed Results And No Proven Toxin Neutralization Yet; States Hunterbrook Capital Is Both Long And Short Securities Related To AI In Biotech |
