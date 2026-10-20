@@ -1,7 +1,27 @@
 {
- "as_of": "2026-10-20T13:15-04:00",
+ "as_of": "2026-10-20T13:31-04:00",
  "since": "2026-10-19T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-20 13:25",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "Why Is American Airlines Stock Surging Tuesday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62476494/why-is-american-airlines-stock-surging-tuesday-2"
+  },
+  {
+   "time": "10-20 13:16",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Q3 Preview: Muse Put Company in Spotlight, Will Financials Support a Rally?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/previews/26/10/62476257/meta-q3-preview-muse-put-company-in-spotlight-will-financials-support-a-rally"
+  },
   {
    "time": "10-20 13:03",
    "symbols": [
