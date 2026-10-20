@@ -1,36 +1,18 @@
 {
   "date": "2026-10-20",
-  "done": false,
+  "done": true,
   "variants": {
     "claude_bias": {},
     "meta_follow2": {},
     "leader_follow": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "CRM261023C00252500",
-        "direction": "call",
-        "entry_time": "2026-10-20T09:46:30-04:00",
-        "entry_price": 1.12,
-        "peak": 1.52,
-        "qty": 1,
-        "last": 0.78,
-        "last_time": "2026-10-20T15:17:22-04:00"
-      }
+      "closed": true
     },
     "megacap_reclaim": {
       "attempts": 3,
       "entered": true,
-      "shadow": {
-        "contract": "GOOGL261021C00350000",
-        "direction": "call",
-        "entry_time": "2026-10-20T10:01:13-04:00",
-        "entry_price": 0.7,
-        "peak": 0.97,
-        "qty": 1,
-        "last": 0.2,
-        "last_time": "2026-10-20T15:17:22-04:00"
-      }
+      "closed": true
     },
     "rebound_scanner": {},
     "rebound_scanner_wide": {},

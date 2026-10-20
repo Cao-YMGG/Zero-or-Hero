@@ -1,7 +1,7 @@
 # Review — 2026-10-20
 
 - Champion: **rebound_scanner**
-- Equity: **$578.51** (phase zero-or-hero)
+- Equity: **$578.33** (phase zero-or-hero)
 - Real trades: 8, realised P&L $+233.00
 
 ## Shadow leaderboard (last 20 trades / all)
@@ -15,10 +15,10 @@
 | claude_bias | 3 | 67% | +44.6% | +134% | +121% | -97% | 3 | +44.6% |
 | catalyst_open | 7 | 43% | +8.1% | +57% | +339% | -100% | 7 | +8.1% |
 | spy_open_drive | 0 | 0% | +0.0% | +0% | +0% | +0% | 0 | +0.0% |
-| megacap_reclaim | 4 | 25% | -17.9% | -72% | +227% | -100% | 4 | -17.9% |
 | rebound_scanner 👑 | 4 | 25% | -26.1% | -105% | +188% | -100% | 4 | -26.1% |
+| megacap_reclaim | 5 | 20% | -28.6% | -143% | +227% | -100% | 5 | -28.6% |
+| leader_follow | 6 | 17% | -52.8% | -317% | +68% | -100% | 6 | -52.8% |
 | rebound_scanner_wide | 4 | 25% | -55.1% | -221% | +72% | -100% | 4 | -55.1% |
-| leader_follow | 5 | 20% | -58.1% | -291% | +68% | -100% | 5 | -58.1% |
 
 ## Ledgers (one $500 virtual account per variant, real paper orders)
 
