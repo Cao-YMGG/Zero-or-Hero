@@ -1,7 +1,48 @@
 {
- "as_of": "2026-10-20T10:32-04:00",
+ "as_of": "2026-10-20T11:02-04:00",
  "since": "2026-10-19T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-20 11:00",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Recent Report Shows That Rep. Michael Rulli Sold Up to $115K Worth of Alphabet Stock",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/government/26/10/62471141/recent-report-shows-rep-michael-rulli-sold-115k-worth-alphabet-stock"
+  },
+  {
+   "time": "10-20 10:59",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "target up",
+   "headline": "JP Morgan Maintains Neutral on Robinhood Markets, Raises Price Target to $115",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62471089/jp-morgan-maintains-neutral-robinhood-markets-raises-price-target-115"
+  },
+  {
+   "time": "10-20 10:57",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "RTX\u2019s Engine Aftermarket Surged 21%. GE Aerospace Is the Rival to Watch",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62471009/rtx-engine-aftermarket-ge-aerospace"
+  },
+  {
+   "time": "10-20 10:52",
+   "symbols": [
+    "NVDA",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "SpaceX Earnings Prediction Market Preview: What Will Elon Musk Say?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62470823/spacex-earnings-elon-musk-prediction-market"
+  },
   {
    "time": "10-20 10:11",
    "symbols": [
