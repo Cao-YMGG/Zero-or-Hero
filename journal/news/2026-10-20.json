@@ -1,7 +1,27 @@
 {
- "as_of": "2026-10-20T11:02-04:00",
+ "as_of": "2026-10-20T11:33-04:00",
  "since": "2026-10-19T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-20 11:13",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Is SK Hynix Stock a 270% Opportunity? Nomura Says Yes",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62471785/sk-hynix-stock-270-percent-upside-nomura-memory"
+  },
+  {
+   "time": "10-20 11:05",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "EXCLUSIVE: Tesla SpaceX Merger? 70% of Benzinga Viewers Say Elon Musk Will Get There \u2014 But Not When You Think",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m-a/26/10/62471414/exclusive-tesla-spacex-merger-benzinga-viewers-elon-musk"
+  },
   {
    "time": "10-20 11:00",
    "symbols": [
