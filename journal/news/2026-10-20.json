@@ -1,7 +1,47 @@
 {
- "as_of": "2026-10-20T13:53-04:00",
+ "as_of": "2026-10-20T14:16-04:00",
  "since": "2026-10-19T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-20 14:05",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "target down",
+   "headline": "Morgan Stanley Maintains Overweight on Western Digital, Lowers Price Target to $643",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62477975/morgan-stanley-maintains-overweight-western-digital-lowers-price-target-643"
+  },
+  {
+   "time": "10-20 14:02",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "target up",
+   "headline": "Morgan Stanley Maintains Overweight on Seagate Technology Hldgs, Raises Price Target to $1200",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62477918/morgan-stanley-maintains-overweight-seagate-technology-hldgs-raises-price-target-1200"
+  },
+  {
+   "time": "10-20 14:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "target down",
+   "headline": "MoffettNathanson Maintains Neutral on Apple, Lowers Price Target to $283",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62477887/moffettnathanson-maintains-neutral-apple-lowers-price-target-283"
+  },
+  {
+   "time": "10-20 14:00",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "'OpenAI Acquires Biotech Startup As AI Race Moves Into Drug Development' - Axios Exclusive",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m/26/10/62477847/openai-acquires-biotech-startup-ai-race-moves-drug-development-axios-exclusive"
+  },
   {
    "time": "10-20 13:48",
    "symbols": [
