@@ -1,9 +1,11 @@
-# Headlines since 2026-10-20 16:00 ET (as of 2026-10-21 15:17 ET)
+# Headlines since 2026-10-20 16:00 ET (as of 2026-10-21 17:32 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-21 15:36 | NFLX | target down | UBS Maintains Buy on Netflix, Lowers Price Target to $100 |
+| 10-21 15:18 | GE | target up | UBS Maintains Buy on GE Aerospace, Raises Price Target to $380 |
 | 10-21 15:04 | NFLX | target down | Citigroup Maintains Buy on Netflix, Lowers Price Target to $85 |
 | 10-21 13:51 | LLY | target up | Leerink Partners Maintains Outperform on Eli Lilly, Raises Price Target to $1316 |
 | 10-21 13:23 | GE | target down | BNP Paribas Maintains Underperform on GE Aerospace, Lowers Price Target to $280 |
@@ -44,6 +46,43 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-21 06:51 | COIN | target up | Needham Maintains Buy on Coinbase Global, Raises Price Target to $205 |
 | 10-21 06:47 | CRM | rating | Cantor Fitzgerald Reiterates Overweight on Salesforce, Maintains $300 Price Target |
 | 10-21 06:31 | GE | downgrade | President Capital Downgrades GE Aerospace to Neutral |
+| 10-21 17:23 | META |  | Meta Platforms CFO Says We Feel Good That AI Is Going To Become A Meaningful Source Of Revenue Diversification Over Time |
+| 10-21 17:20 | META |  | Meta Platfroms CFO Says We Expect Our New AI Businesses Can Begin Contributing Incremental Revenue In 2027 |
+| 10-21 17:00 | RKLB |  | $100 Invested In Rocket Lab 5 Years Ago Would Be Worth This Much Today |
+| 10-21 17:00 | META |  | Meta Platforms CFO Says Advertiser Adoption Of Our Video Generation Features Grew 25% Q/Q; Muse's Compute Intensity Means That Expanding Its User BASE Will Require Significant Investment, Expect Total Serving Costs To Rise |
+| 10-21 17:00 | COIN HOOD |  | Robinhood, Coinbase Face a New Rival as Bybit Eyes US Entry |
+| 10-21 16:55 | GOOGL |  | 'Google Stops Using Nondisclosure Agreements For Data Centers' - The Information |
+| 10-21 16:49 | META |  | Meta CFO Says In Conference Call Instagram Global Time Spent Per User Hit Record In Q3, Up Double Digits Year-Over-Year; Facebook Reels Time Spent At Record Highs |
+| 10-21 16:48 | META |  | Meta Platform Announces Under Founder Alignment Agreement, 20% Of Shares Of Class C Common Stock To Be Issued To Holder Group In Stock Dividend Will Be Freely Saleable; Other 80% Of Shares Of Class C Common Stock Will Be Subject To Sale And Transfer Restrictions |
+| 10-21 16:46 | TSLA |  | Tesla Says Q3 Automotive Gross Margin Excluding Regulatory Credit Sales On Non-GAAP Basis Of 18.1% |
+| 10-21 16:46 | NFLX |  | Congressman Could Be Down 2.65x Annual Salary by Betting on Netflix Stock: Here’s the Math |
+| 10-21 16:45 | TSLA |  | Tesla On AI Compute Says Continued Construction For Austin Fab, Where We Plan To Start Commissioning Equipment In 2027 |
+| 10-21 16:44 | META |  | Meta CEO Says We Are Also Working On New Smaller Models That Are Coming Out Soon And Will Deliver Muse Wonder Level Intelligence More Efficiently; Glasses Sales Continue To Grow Rapidly; Now With Muse, We Expect Paid Subscriptions Will Increase |
+| 10-21 16:44 | TSLA |  | Tesla Says Production Has Begun For Tesla Semi In Nevada And Optimus In Fremont |
+| 10-21 16:38 | META |  | Meta Platforms CEO Says More Than 10M People In U.S., Canada Have Set Up Muse Personal Agents In Just A Month And A Half; We Expect To Grow Muse To Serve Billions Of People; Sees Muse AI Potentially Generating Higher Revenue Per User Than Family Of Apps |
+| 10-21 16:33 | META |  | Meta Platforms Says Co. Entered Into A Founder Alignment Agreement With Mark Zuckerberg |
+| 10-21 16:31 | META |  | Meta Platforms Says AI Investments Benefits Delivering To Core Business Position Us To Sustain Strong Overall Revenue Growth Throughout 2027; Beyond 2026, Expect To Continue Investing Aggressively To Support Both Our Core Business And Emerging AI Initiatives |
+| 10-21 16:31 | AAPL |  | Apple Confirms Apple Pencil Support for iPhone Duo via iOS 27.2 |
+| 10-21 16:31 | BAC |  | Bank of America Declares Quarterly Dividends |
+| 10-21 16:31 | META |  | Meta Platforms, Inc. Reports Third Quarter 2026 Financial Results |
+| 10-21 16:31 | TSLA |  | Tesla Q3 Highlights: Double Beat, Highest Passenger Vehicle Backlog in Four Years |
+| 10-21 16:30 | LLY |  | If You Invested $100 In Eli Lilly Stock 20 Years Ago, You Would Have This Much Today |
+| 10-21 16:30 | META |  | Meta Platforms Says  Family Daily Active People Was 3.64B On Average For September 2026;  Headcount Was 66,775 As Of September 30, 2026, A Decrease Of 15% YoY; Co.  Not Providing A FY 2027 Revenue Outlook |
+| 10-21 16:21 | META |  | Meta Posts Q3 Double Beat: 'We're Seeing Velocity Across the Board' |
+| 10-21 16:14 | META |  | Meta Platforms Announces It Plans To Qualify Class C Common Stock For Listing On Nasdaq Upon Its Issuance |
+| 10-21 16:07 | TSLA |  | Tesla Q3 Adj. EPS $0.48 Beats $0.43 Estimate, Sales $28.046B Beat $27.883B Estimate |
+| 10-21 16:04 | TSLA |  | Tesla Says We Expect Rising Data Center Demand To Continue Driving Demand For Our Products; Plan To Reach 400 Mw Of SI Training Compute By End Of Year, Supporting Development Of Vehicle And Humanoid Robot Autonomy Software |
+| 10-21 16:04 | META |  | Meta Platforms Board Approves Creation Of New Public Class C Common Shares, Effective Jan. 19, 2027 |
+| 10-21 16:03 | META |  | Meta Platforms Announces 2-For-1 Stock Split Through Stock Dividend, Dates to Be Determined |
+| 10-21 16:03 | META |  | Meta Platforms Sees Q4 Sales $73.000B-$76.000B vs $73.736B Est |
+| 10-21 16:03 | META |  | Meta Platforms Q3 Adj. EPS $7.40 Beats $5.74 Estimate, Sales $64.601B Beat $63.373B Estimate |
+| 10-21 16:03 | NVDA PLTR |  | Palantir Says Ondas Is Launching Regna AI, Built On Palantir’s AIP Platform And Nvidia Nemotron Models |
+| 10-21 16:02 | PLTR |  | Palantir Says L3Harris To Explore Building Own AI Models For Mission Systems; L3Harris Exec Says Early Tests Cut Costs By 95% |
+| 10-21 16:02 | PLTR |  | Palantir Announces Sovereign AI Work With L3Harris, McCarthy Building, Nvidia, Ondas, And Tampa General |
+| 10-21 15:45 | AMZN GOOGL |  | Anthropic Announces Opening A Research Preview Of Claude Duet, A New App Where Claude Works As Proactive Agent; Claude Duet Available As A Standalone App On iOS & Android, And On Claude.ai |
+| 10-21 15:37 | CVX |  | 'Chevron Dropped Funding for Proposed Guyana Port Studies Inherited From Hess' - Bloomberg |
+| 10-21 15:33 | WMT |  | Walmart Introduces Agent Profiles And Agent Gateway For AI-Enabled Shopping; To Launch Agent Profiles For AI Agents In Customer Accounts Next Month |
+| 10-21 15:12 | MSFT |  | Microsoft Says China-Aligned Hackers Used AI To Accelerate ConnectWise Supply-Chain Attack Across Hundreds Of Organizations |
 | 10-21 15:02 | GOOGL |  | Ex-Google CEO Eric Schmidt Says AI Could Eliminate 20% of Jobs at Large Companies |
 | 10-21 15:01 | UNH |  | UnitedHealth Group Sued by Major Corporations Over Claims Handling |
 | 10-21 15:01 | GS |  | CIRO Schedules Settlement Hearing for Goldman Sachs Canada Inc. |
