@@ -1,4 +1,4 @@
-# Headlines since 2026-10-20 16:00 ET (as of 2026-10-21 13:38 ET)
+# Headlines since 2026-10-20 16:00 ET (as of 2026-10-21 13:46 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -42,6 +42,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-21 06:51 | COIN | target up | Needham Maintains Buy on Coinbase Global, Raises Price Target to $205 |
 | 10-21 06:47 | CRM | rating | Cantor Fitzgerald Reiterates Overweight on Salesforce, Maintains $300 Price Target |
 | 10-21 06:31 | GE | downgrade | President Capital Downgrades GE Aerospace to Neutral |
+| 10-21 13:37 | MU |  | 'Micron won't pursue 4F-squared memory chips despite CXMT's advance' - Nikkei Asia |
 | 10-21 13:18 | META |  | Meta Must Pay $25B In Penalties, New Mexico Judge Rules After Jury Found Company Misled Consumers About Privacy |
 | 10-21 13:00 | META |  | UPDATE: Charles Gasparino Says "Speculation is growing that Meta will issue new stock to finance a massive buildout of AI infrastructure – even as Wall Street grows increasingly skittish over whether the big bets will pay off, On The Money has learned." - NY POST |
 | 10-21 12:31 | GOOGL |  | 'Senators Express ‘Grave Concerns,’ Launch Inquiry Into Google’s AI Push In Schools; Sens. Richard Blumenthal And Josh Hawley Wrote To CEO Sundar Pichai Following A Wall Street Journal Investigation' - WSJ Exclusive |
