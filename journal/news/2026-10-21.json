@@ -1,7 +1,107 @@
 {
- "as_of": "2026-10-21T10:32-04:00",
+ "as_of": "2026-10-21T11:02-04:00",
  "since": "2026-10-20T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-21 11:01",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Launches AI Agent Studio for Industry Applications",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1001858901/oracle-ai-agent-studio-for-industry-applications-helps-accelerate-business"
+  },
+  {
+   "time": "10-21 11:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Omdia Reports Global Smartphone Market Contraction in 3Q26",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.co.kr/newsRead.php?no=1045238"
+  },
+  {
+   "time": "10-21 11:01",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "Multiple Analysts Adjust Price Targets and Ratings for GE Aerospace",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/morgan-stanley-adjusts-price-target-on-ge-aerospace-to-375-from-400-ce785cd9db89fe26"
+  },
+  {
+   "time": "10-21 11:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "3Business and AWS Launch AI Marketplace in Hong Kong",
+   "source": "fiscal.ai",
+   "url": "https://markets.ft.com/data/announce/detail?dockey=600-202610210815DGAP____ASPR_____corporate_2419652_en-1"
+  },
+  {
+   "time": "10-21 11:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Volkswagen Group Partners with Microsoft for Autonomous Vehicle AI Development",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261021de77444/volkswagen-group-builds-physical-ai-data-flywheel-for-autonomous-vehicle-development-with-integrations-from-voxel51-nvidia-and-microsoft"
+  },
+  {
+   "time": "10-21 11:01",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "",
+   "headline": "Broadcom Launches Arcot Scam Defense to Combat Social Engineering Fraud",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1001884786/broadcom-unveils-arcot-scam-defense-to-block-social-engineering-fraud"
+  },
+  {
+   "time": "10-21 10:49",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Google CEO Admits Cloud Business Is Sacrificing Revenue to Win AI Race",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62499522/google-cloud-revenue-ai-compute"
+  },
+  {
+   "time": "10-21 10:49",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "target down",
+   "headline": "Piper Sandler Maintains Overweight on Netflix, Lowers Price Target to $78",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62499511/piper-sandler-maintains-overweight-netflix-lowers-price-target-78"
+  },
+  {
+   "time": "10-21 10:45",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk's Net Worth Tops $1 Trillion as SpaceX Stock Rallies 10%",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/movers-shakers/26/10/62499320/elon-musk-net-worth-1-trillion-spacex-earnings-tesla"
+  },
+  {
+   "time": "10-21 10:34",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Reported Earlier: 'Micron\u2019s Taiwan Taoyuan Union Says It Will Proceed With Planned Strike On Oct 22, After Company Reached Agreement With Separate Taichung Union' - Taiwan News",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62498772/reported-earlier-micron-s-taiwan-taoyuan-union-says-it-will-proceed-planned-strike-oct-22-after-comp"
+  },
   {
    "time": "10-21 10:26",
    "symbols": [
