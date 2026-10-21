@@ -82,3 +82,6 @@ date,variant,mode,contract,direction,pnl_pct,thesis,entry,exit,discipline,score,
 2026-10-21,megacap_reclaim,shadow,MSFT261021C00535000,call,-0.6667,2,0,1,3,6,unlucky,,"auto; MSFT 530.82->532.12, best 533.25 vs strike 535; peak 0.77"
 2026-10-21,catalyst_intraday,shadow,AMD261021C00562500,call,0.3521,2,1,2,3,8,,,"auto; AMD 554.31->555.69, best 556.30 vs strike 562.5; peak 1"
 2026-10-21,catalyst_intraday,real,AMD261021C00562500,call,0.3239,2,1,2,3,8,,,"auto; AMD 554.31->555.69, best 556.30 vs strike 562.5; peak 1"
+2026-10-21,premarket_spy,call,,call,,,,,,,,right,"SPY +0.54% close to close (+0.26% open to close), QQQ +0.4% from the open; chips held the gap (SMH +1.9% close to close). claude_bias shadow SPY 774C +141% at take_profit."
+2026-10-21,premarket_sniper,call,GOOGL,call,,,,,,,,wrong,"Missed the 06:53 headline (Google Cloud to scale to 960K Rubin GPUs = more capex); GOOGL never got back above its 337.00 open before 10:00 (low 330.38), closed -1.6% on the day. The seller on the other side (NVDA) closed +2.5%. catalyst_open never entered."
+2026-10-21,premarket_rotation,call,,,,,,,,,,mixed,"Chips (marked cooling) led on the SpaceX compute comment while health care (heating) slipped early and closed +0.5% from the open; small caps flat."
