@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-21",
+  "bias": "call",
+  "confidence": 0.4,
+  "summary": "Mild risk-on pre-market led by chips (SMH +1.6% on Musk saying SpaceX adds 200k AI chips a month), yields and oil a bit lower: lean call, low confidence with TSLA/META reporting tonight; sniper GOOGL call on OpenAI bringing its models to Google Cloud while GOOGL is still red.",
+  "reasons": [
+    "SPY 771.03 pre-market vs 769.05 close (+0.26%); QQQ +0.56%; IWM +0.35% after +1.7% Tuesday",
+    "Chips lead: SMH +1.6%, MU +3.0% (Fubon initiates Buy), NVDA +1.8%, AMD +1.7% (Susquehanna target $620), INTC +1.7%; Benzinga 08:07/08:20: Musk said on SpaceX's call it is adding 200,000 chips a month and cloud providers 'don't have any' spare AI compute (NVDA, CRWV, NBIS up)",
+    "Macro tailwinds small: TLT +0.25% (yields a bit lower after Tuesday's record-low pending home sales), USO -0.5%, UUP flat. No scheduled US release in config/macro_events.json; web search gave no dated wrap for futures/VIX/auctions today, so those inputs are from the ETF proxies only",
+    "Against: TSLA and META report after today's close (index heavyweights, positioning into the print), NFLX -6.3% on its report (52-week low), Tuesday's pre-market read was wrong-way, and health care gives back a little (XLV -0.7%, LLY -0.5%)",
+    "Sniper GOOGL: CNBC (Benzinga 08:15) reports OpenAI will bring its AI models to Google Cloud, a further step beyond Microsoft. GOOGL is -1.0% pre-market (336.96) after -1.1% Tuesday, so the news is not in the price; Alphabet reports 10-28 (5 trading days, pre-earnings drift window, not the day before). Risks: internet basket cooling (GOOGL -2.4% 1w), a Europe-west2 cloud outage story from Tuesday, and I could not see why GOOGL is red this morning",
+    "Not picked: NVDA (strongest catalyst, but gap +1.8% after a 1.5%+ gap was sold on 10-16, and it fizzled as yesterday's pick); AMD (target raise only, +1.7%); MU (initiation, +3.0% gap); TSLA/META (report tonight); NFLX (earnings reaction); GE (several target cuts after earnings); JPM (MarketScreener downgrade, minor)",
+    "No >= 2% pre-market gap-down in the rebound_scanner universe besides NFLX (earnings). Wednesday: stock_open_drive (NVDA/TSLA >= +0.8% at 10:00) and spy_open_drive (SPY >= +0.5%) both allowed; not an opex week (that was 10-12..16)"
+  ],
+  "events": ["TSLA and META earnings after the close", "NFLX earnings reaction today"],
+  "inputs": {"es_futures_pct": 0.26, "vix": null, "wti_pct": -0.5, "us10y": null, "us10y_change_bp": null, "us2y_change_bp": null, "dxy_pct": 0.0,
+             "overnight": "SPY +0.26% / QQQ +0.56% / SMH +1.6% pre-market (Webull extended hours, 08:52 ET); TLT +0.25%, USO -0.5%, UUP flat; no dated web wrap found for futures, VIX or yields"},
+  "rotation": {
+    "heating": ["health care (UNH +7.5% 1w to 10-19, then +3% Tuesday; LLY new high)", "small caps (IWM +1.7% Tuesday)", "banks (XLF +1.2% Tuesday)", "consumer staples/retail (WMT +5% 1w)"],
+    "cooling": ["optical (LITE -16% 1w)", "CPU (AMD -9.5% 1w)", "memory (MU -8.5% 1w)", "disk storage (WDC -9% 1w)", "power (GEV -8.9% 1w)", "internet ex-AMZN (META -5% 1w, GOOGL -2.4% 1w)"],
+    "note": "1-week numbers from the 10-19 close plus Tuesday's moves (not recomputed this morning). Money kept leaving AI hardware for health care, small caps and banks on Tuesday; this morning chips bounce on the SpaceX compute comment. A bounce in a cooling theme can fade at the open, as on Tuesday."
+  },
+  "sniper": {"symbol": "GOOGL", "direction": "call",
+             "catalyst": "CNBC: OpenAI to bring its AI models to Google Cloud (08:15 ET); GOOGL -1.0% pre-market, reports 10-28",
+             "confidence": 0.3},
+  "generated_at": "2026-10-21T08:53:38-04:00"
+}
