@@ -1,9 +1,13 @@
-# Headlines since 2026-10-20 16:00 ET (as of 2026-10-21 08:52 ET)
+# Headlines since 2026-10-20 16:00 ET (as of 2026-10-21 10:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-21 09:55 | CRM | downgrade | Salesforce-Braze Deal Draws Downgrades as Analysts Assess Acquisition Value |
+| 10-21 09:32 | MSFT | rating | Guggenheim Reiterates Buy on Microsoft, Maintains $586 Price Target |
+| 10-21 09:32 | GE | rating | Deutsche Bank Adjusts GE Aerospace Price Target to $378 |
+| 10-21 09:03 | NFLX | target down | Barclays Maintains Equal-Weight on Netflix, Lowers Price Target to $65 |
 | 10-21 08:46 | INTC | target down | Susquehanna Maintains Neutral on Intel, Lowers Price Target to $105 |
 | 10-21 08:45 | GE | target down | Susquehanna Maintains Positive on GE Aerospace, Lowers Price Target to $400 |
 | 10-21 08:41 | AMD | target up | Susquehanna Maintains Positive on Advanced Micro Devices, Raises Price Target to $620 |
@@ -28,6 +32,23 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-21 06:51 | COIN | target up | Needham Maintains Buy on Coinbase Global, Raises Price Target to $205 |
 | 10-21 06:47 | CRM | rating | Cantor Fitzgerald Reiterates Overweight on Salesforce, Maintains $300 Price Target |
 | 10-21 06:31 | GE | downgrade | President Capital Downgrades GE Aerospace to Neutral |
+| 10-21 09:51 | NVDA SMCI |  | Why Is Dell Stock Surging Wednesday? |
+| 10-21 09:46 | GE |  | These Analysts Slash Their Forecasts On GE Aerospace After Q3 Results |
+| 10-21 09:42 | NVDA SMCI WDC |  | Super Micro Squeeze Watch: Revenue Guide Jumps, Margins Widen |
+| 10-21 09:32 | RKLB |  | Rocket Lab Supports Viasat NASA CSP Relay Demonstration |
+| 10-21 09:32 | WDC |  | BofA Adjusts Price Target on Western Digital to $800 From $720 |
+| 10-21 09:31 | SMCI |  | Supermicro and Nutanix Announce AI Infrastructure Partnership |
+| 10-21 09:31 | WMT |  | Walmart Launches Exclusive Fast & Furious NOS Capsule Collectibles |
+| 10-21 09:31 | ORCL |  | Southwest General Expands Relationship with Oracle |
+| 10-21 09:31 | COST |  | Costco Taiwan Announces 14-Day Black Friday Shopping Event |
+| 10-21 09:31 | AMD |  | Susquehanna Adjusts Price Target on Advanced Micro Devices to $620 From $550 |
+| 10-21 09:24 | MSFT |  | ChatGPT Ads Expands To 26 New Countries As Over 100,000 Advertisers Have Used The Platform |
+| 10-21 09:22 | GOOGL |  | Google’s Parent Alphabet Reports Earnings in a Week. Here’s the Setup |
+| 10-21 09:22 | NVDA |  | Amadeus And NVIDIA Sign MoU To Accelerate AI-Powered Flight Search And Optimize Computing Efficiency |
+| 10-21 09:05 | NVDA |  | Nebius Now Presenting Live At NVIDIA GTC Berlin Day 1 |
+| 10-21 09:02 | NVDA |  | Procore Collaborates With Nvidia To Roll Out Digital Twin Capabilities For Construction Projects |
+| 10-21 09:01 | NVDA |  | Schneider Electric, NVIDIA & HPE Announce Strategic Collaboration To Accelerate Physical AI For Process Industries |
+| 10-21 08:55 | NVDA SMCI |  | Nokia Teams Up with Super Micro on Nvidia-Based AI-RAN. Here’s the Setup for Nokia Stock |
 | 10-21 08:47 | TSLA |  | Elon Musk's Tesla-SpaceX Mega-Merger Could Create 'Most Unique Company in the World,' Says Analyst |
 | 10-21 08:26 | GOOGL INTC TSLA |  | Tesla Earnings Prediction Market Preview: Will Elon Musk Discuss a SpaceX Merger? |
 | 10-21 08:20 | NVDA |  | Nvidia Stock Rises in Wednesday Premarket as Elon Musk Says SpaceX Is Adding 200,000 Chips a Month — Daniel Newman Says NVDA Is 'Ripping' (UPDATED) |

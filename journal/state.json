@@ -1,18 +1,49 @@
 {
-  "date": "2026-10-20",
-  "done": true,
+  "date": "2026-10-21",
+  "done": false,
   "variants": {
-    "claude_bias": {},
+    "claude_bias": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "SPY261021C00774000",
+        "direction": "call",
+        "entry_time": "2026-10-21T09:36:29-04:00",
+        "entry_price": 0.39,
+        "peak": 0.5,
+        "qty": 2,
+        "last": 0.3,
+        "last_time": "2026-10-21T10:01:59-04:00"
+      }
+    },
     "meta_follow2": {},
     "leader_follow": {
       "attempts": 1,
       "entered": true,
-      "closed": true
+      "shadow": {
+        "contract": "NFLX261023C00069000",
+        "direction": "call",
+        "entry_time": "2026-10-21T09:46:29-04:00",
+        "entry_price": 0.32,
+        "peak": 0.41,
+        "qty": 3,
+        "last": 0.26,
+        "last_time": "2026-10-21T10:01:59-04:00"
+      }
     },
     "megacap_reclaim": {
-      "attempts": 3,
+      "attempts": 1,
       "entered": true,
-      "closed": true
+      "shadow": {
+        "contract": "MSFT261021C00535000",
+        "direction": "call",
+        "entry_time": "2026-10-21T09:46:29-04:00",
+        "entry_price": 0.69,
+        "peak": 0.77,
+        "qty": 1,
+        "last": 0.3,
+        "last_time": "2026-10-21T10:01:59-04:00"
+      }
     },
     "rebound_scanner": {},
     "rebound_scanner_wide": {},
@@ -20,7 +51,9 @@
     "catalyst_open": {},
     "catalyst_intraday": {},
     "spy_open_drive": {},
-    "stock_open_drive": {}
+    "stock_open_drive": {
+      "attempts": 2
+    }
   },
   "generation": 1,
   "equity_start": 578.3300000000017,

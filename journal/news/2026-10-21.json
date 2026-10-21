@@ -1,7 +1,221 @@
 {
- "as_of": "2026-10-21T08:52-04:00",
+ "as_of": "2026-10-21T10:02-04:00",
  "since": "2026-10-20T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-21 09:55",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "downgrade",
+   "headline": "Salesforce-Braze Deal Draws Downgrades as Analysts Assess Acquisition Value",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/mid-cap/26/10/62496813/salesforce-braze-deal-draws-downgrades-as-analysts-assess-acquisition-value"
+  },
+  {
+   "time": "10-21 09:51",
+   "symbols": [
+    "NVDA",
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Why Is Dell Stock Surging Wednesday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62496573/why-is-dell-stock-surging-wednesday"
+  },
+  {
+   "time": "10-21 09:46",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "These Analysts Slash Their Forecasts On GE Aerospace After Q3 Results",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62496371/these-analysts-slash-their-forecasts-on-ge-aerospace-after-q3-results"
+  },
+  {
+   "time": "10-21 09:42",
+   "symbols": [
+    "NVDA",
+    "SMCI",
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Super Micro Squeeze Watch: Revenue Guide Jumps, Margins Widen",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62496147/super-micro-squeeze-watch-revenue-guide-jumps-margins-widen"
+  },
+  {
+   "time": "10-21 09:32",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "rating",
+   "headline": "Guggenheim Reiterates Buy on Microsoft, Maintains $586 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62495360/guggenheim-reiterates-buy-microsoft-maintains-586-price-target"
+  },
+  {
+   "time": "10-21 09:32",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Rocket Lab Supports Viasat NASA CSP Relay Demonstration",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/21/3385459/0/en/viasat-advances-nasa-communications-services-project-demonstration-with-successful-launch.html"
+  },
+  {
+   "time": "10-21 09:32",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "rating",
+   "headline": "Deutsche Bank Adjusts GE Aerospace Price Target to $378",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/deutsche-bank-adjusts-ge-aerospace-price-target-to-378-from-377-maintains-buy-rating-ce785cd9d98ff426"
+  },
+  {
+   "time": "10-21 09:32",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "BofA Adjusts Price Target on Western Digital to $800 From $720",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/bofa-adjusts-price-target-on-western-digital-to-800-from-720-keeps-buy-rating-ce785cd9d88af52c"
+  },
+  {
+   "time": "10-21 09:31",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Supermicro and Nutanix Announce AI Infrastructure Partnership",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/21/3385416/0/en/nutanix-and-supermicro-take-on-runaway-ai-costs-with-jointly-engineered-system-for-private-inference.html"
+  },
+  {
+   "time": "10-21 09:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart Launches Exclusive Fast & Furious NOS Capsule Collectibles",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/pmi-launches-fast--furious-nos-capsule-collectibles-exclusively-at-walmart-302915190.html"
+  },
+  {
+   "time": "10-21 09:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Southwest General Expands Relationship with Oracle",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261021sf77057/southwest-general-expands-relationship-with-oracle-to-connect-care-finance-and-operations"
+  },
+  {
+   "time": "10-21 09:31",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Costco Taiwan Announces 14-Day Black Friday Shopping Event",
+   "source": "fiscal.ai",
+   "url": "https://leho.com.tw/archives/409624"
+  },
+  {
+   "time": "10-21 09:31",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "Susquehanna Adjusts Price Target on Advanced Micro Devices to $620 From $550",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/susquehanna-adjusts-price-target-on-advanced-micro-devices-to-620-from-550-ce785cd9d88bfe25"
+  },
+  {
+   "time": "10-21 09:24",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "ChatGPT Ads Expands To 26 New Countries As Over 100,000 Advertisers Have Used The Platform",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62495090/chatgpt-ads-expands-26-new-countries-over-100-000-advertisers-have-used-platform"
+  },
+  {
+   "time": "10-21 09:22",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Google\u2019s Parent Alphabet Reports Earnings in a Week. Here\u2019s the Setup",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62495052/googles-parent-alphabet-reports-earnings-in-a-week-heres-the-setup"
+  },
+  {
+   "time": "10-21 09:22",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Amadeus And NVIDIA Sign MoU To Accelerate AI-Powered Flight Search And Optimize Computing Efficiency",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62495016/amadeus-and-nvidia-sign-mou-accelerate-ai-powered-flight-search-and-optimize-computing-efficiency"
+  },
+  {
+   "time": "10-21 09:05",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nebius Now Presenting Live At NVIDIA GTC Berlin Day 1",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62494431/nebius-now-presenting-live-nvidia-gtc-berlin-day-1"
+  },
+  {
+   "time": "10-21 09:03",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "target down",
+   "headline": "Barclays Maintains Equal-Weight on Netflix, Lowers Price Target to $65",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62494327/barclays-maintains-equal-weight-netflix-lowers-price-target-65"
+  },
+  {
+   "time": "10-21 09:02",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Procore Collaborates With Nvidia To Roll Out Digital Twin Capabilities For Construction Projects",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62494294/procore-collaborates-nvidia-roll-out-digital-twin-capabilities-construction-projects"
+  },
+  {
+   "time": "10-21 09:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Schneider Electric, NVIDIA & HPE Announce Strategic Collaboration To Accelerate Physical AI For Process Industries",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62494196/schneider-electric-nvidia-hpe-announce-strategic-collaboration-accelerate-physical-ai-process-indust"
+  },
+  {
+   "time": "10-21 08:55",
+   "symbols": [
+    "NVDA",
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Nokia Teams Up with Super Micro on Nvidia-Based AI-RAN. Here\u2019s the Setup for Nokia Stock",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62493883/nokia-teams-up-with-super-micro-on-nvidia-based-ai-ran-heres-the-setup-for-nokia-stock"
+  },
   {
    "time": "10-21 08:47",
    "symbols": [
