@@ -1,4 +1,4 @@
-# Headlines since 2026-10-20 16:00 ET (as of 2026-10-21 13:58 ET)
+# Headlines since 2026-10-20 16:00 ET (as of 2026-10-21 14:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -43,6 +43,13 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-21 06:51 | COIN | target up | Needham Maintains Buy on Coinbase Global, Raises Price Target to $205 |
 | 10-21 06:47 | CRM | rating | Cantor Fitzgerald Reiterates Overweight on Salesforce, Maintains $300 Price Target |
 | 10-21 06:31 | GE | downgrade | President Capital Downgrades GE Aerospace to Neutral |
+| 10-21 14:06 | AMZN NVDA |  | Amazon's Nvidia Chips Are Sitting in Warehouses Without Power as AI Spending Soars, Business Insider Reports |
+| 10-21 14:01 | SMCI |  | Supermicro Reports Preliminary September Quarter Gross Margin Update |
+| 10-21 14:01 | RKLB |  | Rocket Lab's Maxwell Spacecraft Successfully Launched for NASA Demonstration |
+| 10-21 14:01 | META |  | Meta Ordered to Pay $25 Billion in New Mexico Cambridge Analytica Case |
+| 10-21 14:01 | AAPL |  | Apple Music Unveils Refreshed Visual Identity |
+| 10-21 14:01 | JPM |  | JPMorgan's Turkish Brokerage Unit to Surrender Operating License |
+| 10-21 14:01 | LLY |  | Mubadala Bio and Lilly Announce Landmark Agreement to Advance Pharmaceutical Contract Manufacturing in Abu Dhabi |
 | 10-21 13:49 | NVDA SMCI TSLA |  | SpaceX Bulls Get Louder After Q3 Earnings Print, But One Firm Flags $475B Funding Gap |
 | 10-21 13:37 | MU |  | 'Micron won't pursue 4F-squared memory chips despite CXMT's advance' - Nikkei Asia |
 | 10-21 13:18 | META |  | Meta Must Pay $25B In Penalties, New Mexico Judge Rules After Jury Found Company Misled Consumers About Privacy |

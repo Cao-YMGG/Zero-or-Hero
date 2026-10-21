@@ -1,7 +1,78 @@
 {
- "as_of": "2026-10-21T13:58-04:00",
+ "as_of": "2026-10-21T14:16-04:00",
  "since": "2026-10-20T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-21 14:06",
+   "symbols": [
+    "AMZN",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Amazon's Nvidia Chips Are Sitting in Warehouses Without Power as AI Spending Soars, Business Insider Reports",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62506868/amazon-nvidia-chips-warehouses-power"
+  },
+  {
+   "time": "10-21 14:01",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Supermicro Reports Preliminary September Quarter Gross Margin Update",
+   "source": "fiscal.ai",
+   "url": "https://longbridge.com/en/news/302480758"
+  },
+  {
+   "time": "10-21 14:01",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Rocket Lab's Maxwell Spacecraft Successfully Launched for NASA Demonstration",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/21/3385459/0/en/viasat-advances-nasa-communications-services-project-demonstration-with-successful-launch.html"
+  },
+  {
+   "time": "10-21 14:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Ordered to Pay $25 Billion in New Mexico Cambridge Analytica Case",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/meta-reportedly-ordered-to-pay-new-mexico-25-billion-in-cambridge-analytica-case-ce785cd9dd89f42c"
+  },
+  {
+   "time": "10-21 14:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Music Unveils Refreshed Visual Identity",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/1tciaux/"
+  },
+  {
+   "time": "10-21 14:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan's Turkish Brokerage Unit to Surrender Operating License",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1001892436/jpmorgan-s-turkish-brokerage-unit-to-surrender-operating-license"
+  },
+  {
+   "time": "10-21 14:01",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Mubadala Bio and Lilly Announce Landmark Agreement to Advance Pharmaceutical Contract Manufacturing in Abu Dhabi",
+   "source": "fiscal.ai",
+   "url": "https://blog.abudhabicityguide.com/mubadala-bio-and-lilly-announce-landmark-agreement-to-advance-pharmaceutical-contract-manufacturing-in-abu-dhabi/"
+  },
   {
    "time": "10-21 13:51",
    "symbols": [

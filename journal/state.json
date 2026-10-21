@@ -19,7 +19,7 @@
         "peak": 0.41,
         "qty": 3,
         "last": 0.05,
-        "last_time": "2026-10-21T13:46:08-04:00"
+        "last_time": "2026-10-21T14:16:26-04:00"
       }
     },
     "megacap_reclaim": {
@@ -32,15 +32,35 @@
         "entry_price": 0.69,
         "peak": 0.77,
         "qty": 1,
-        "last": 0.48,
-        "last_time": "2026-10-21T13:46:08-04:00"
+        "last": 0.47,
+        "last_time": "2026-10-21T14:16:26-04:00"
       }
     },
     "rebound_scanner": {},
     "rebound_scanner_wide": {},
     "nvda_gapdown_put": {},
     "catalyst_open": {},
-    "catalyst_intraday": {},
+    "catalyst_intraday": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "AMD261021C00562500",
+        "direction": "call",
+        "entry_time": "2026-10-21T14:08:24-04:00",
+        "entry_price": 0.71,
+        "peak": 0.75,
+        "qty": 1,
+        "last": 0.75,
+        "last_time": "2026-10-21T14:16:26-04:00"
+      },
+      "real": {
+        "contract": "AMD261021C00562500",
+        "qty": 1,
+        "underlying": "AMD",
+        "entry_price": 0.71,
+        "entry_time": "2026-10-21T14:08:52-04:00"
+      }
+    },
     "spy_open_drive": {},
     "stock_open_drive": {
       "attempts": 3
@@ -72,5 +92,8 @@
       "generation": 1,
       "paused": false
     }
-  }
+  },
+  "real_underlyings": [
+    "AMD"
+  ]
 }
