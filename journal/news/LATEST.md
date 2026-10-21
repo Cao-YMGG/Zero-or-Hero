@@ -1,9 +1,12 @@
-# Headlines since 2026-10-20 16:00 ET (as of 2026-10-21 11:02 ET)
+# Headlines since 2026-10-20 16:00 ET (as of 2026-10-21 11:33 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-21 11:24 | NFLX | target down | JP Morgan Maintains Overweight on Netflix, Lowers Price Target to $81 |
+| 10-21 11:21 | GE | target down | JP Morgan Maintains Overweight on GE Aerospace, Lowers Price Target to $375 |
+| 10-21 11:06 | NFLX | rating | TD Cowen Reiterates Buy on Netflix, Maintains $100 Price Target |
 | 10-21 10:49 | NFLX | target down | Piper Sandler Maintains Overweight on Netflix, Lowers Price Target to $78 |
 | 10-21 10:26 | NFLX | target down | Evercore ISI Group Maintains Outperform on Netflix, Lowers Price Target to $90 |
 | 10-21 09:55 | CRM | downgrade | Salesforce-Braze Deal Draws Downgrades as Analysts Assess Acquisition Value |
@@ -34,6 +37,11 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-21 06:51 | COIN | target up | Needham Maintains Buy on Coinbase Global, Raises Price Target to $205 |
 | 10-21 06:47 | CRM | rating | Cantor Fitzgerald Reiterates Overweight on Salesforce, Maintains $300 Price Target |
 | 10-21 06:31 | GE | downgrade | President Capital Downgrades GE Aerospace to Neutral |
+| 10-21 11:22 | INTC |  | Intel Anticipates Operations At Fab 62 To Begin By 2028 End |
+| 10-21 11:17 | PLTR |  | Watching Palantir Technologies; Hearing Investor Business Daily SwingTrader Buys Stock |
+| 10-21 11:15 | HOOD |  | Here's How Much $100 Invested In Robinhood Markets 5 Years Ago Would Be Worth Today |
+| 10-21 11:15 | NVDA |  | Amkor Secures $1.3 Billion NVIDIA Deal To Expand AI Packaging |
+| 10-21 11:03 | NFLX |  | Netflix Announces Season 2 of 'Love is Blind Habibi' |
 | 10-21 11:01 | ORCL |  | Oracle Launches AI Agent Studio for Industry Applications |
 | 10-21 11:01 | AAPL |  | Omdia Reports Global Smartphone Market Contraction in 3Q26 |
 | 10-21 11:01 | GE |  | Multiple Analysts Adjust Price Targets and Ratings for GE Aerospace |

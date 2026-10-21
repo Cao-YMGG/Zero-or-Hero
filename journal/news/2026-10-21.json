@@ -1,7 +1,87 @@
 {
- "as_of": "2026-10-21T11:02-04:00",
+ "as_of": "2026-10-21T11:33-04:00",
  "since": "2026-10-20T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-21 11:24",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "target down",
+   "headline": "JP Morgan Maintains Overweight on Netflix, Lowers Price Target to $81",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62501044/jp-morgan-maintains-overweight-netflix-lowers-price-target-81"
+  },
+  {
+   "time": "10-21 11:22",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel Anticipates Operations At Fab 62 To Begin By 2028 End",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62500968/intel-anticipates-operations-fab-62-begin-2028-end"
+  },
+  {
+   "time": "10-21 11:21",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "target down",
+   "headline": "JP Morgan Maintains Overweight on GE Aerospace, Lowers Price Target to $375",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62500947/jp-morgan-maintains-overweight-ge-aerospace-lowers-price-target-375"
+  },
+  {
+   "time": "10-21 11:17",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Watching Palantir Technologies; Hearing Investor Business Daily SwingTrader Buys Stock",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/PLTR"
+  },
+  {
+   "time": "10-21 11:15",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Here's How Much $100 Invested In Robinhood Markets 5 Years Ago Would Be Worth Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62500689/here-s-how-much-100-invested-robinhood-markets-5-years-ago-would-be-worth-today"
+  },
+  {
+   "time": "10-21 11:15",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Amkor Secures $1.3 Billion NVIDIA Deal To Expand AI Packaging",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62500685/amkor-secures-1-3-billion-nvidia-deal-to-expand-ai-packaging"
+  },
+  {
+   "time": "10-21 11:06",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "rating",
+   "headline": "TD Cowen Reiterates Buy on Netflix, Maintains $100 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62500186/td-cowen-reiterates-buy-netflix-maintains-100-price-target"
+  },
+  {
+   "time": "10-21 11:03",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Announces Season 2 of 'Love is Blind Habibi'",
+   "source": "fiscal.ai",
+   "url": "https://www.publicnow.com/view/843AB0F85F562B85C427AD40C183AE88547F54DE"
+  },
   {
    "time": "10-21 11:01",
    "symbols": [
