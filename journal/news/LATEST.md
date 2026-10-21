@@ -1,4 +1,4 @@
-# Headlines since 2026-10-20 16:00 ET (as of 2026-10-21 14:16 ET)
+# Headlines since 2026-10-20 16:00 ET (as of 2026-10-21 14:46 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -43,6 +43,9 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-21 06:51 | COIN | target up | Needham Maintains Buy on Coinbase Global, Raises Price Target to $205 |
 | 10-21 06:47 | CRM | rating | Cantor Fitzgerald Reiterates Overweight on Salesforce, Maintains $300 Price Target |
 | 10-21 06:31 | GE | downgrade | President Capital Downgrades GE Aerospace to Neutral |
+| 10-21 14:32 | NVDA |  | Nebius Says It Faces Less Debt Risk Than CoreWeave As AI Spending Fears Mount |
+| 10-21 14:31 | GOOGL |  | Google Announces Availability Of Gemini In Google Maps Navigation On CarPlay |
+| 10-21 14:29 | RKLB |  | Why Is Rocket Lab Stock Surging on Wednesday? |
 | 10-21 14:06 | AMZN NVDA |  | Amazon's Nvidia Chips Are Sitting in Warehouses Without Power as AI Spending Soars, Business Insider Reports |
 | 10-21 14:01 | SMCI |  | Supermicro Reports Preliminary September Quarter Gross Margin Update |
 | 10-21 14:01 | RKLB |  | Rocket Lab's Maxwell Spacecraft Successfully Launched for NASA Demonstration |

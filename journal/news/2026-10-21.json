@@ -1,7 +1,37 @@
 {
- "as_of": "2026-10-21T14:16-04:00",
+ "as_of": "2026-10-21T14:46-04:00",
  "since": "2026-10-20T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-21 14:32",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nebius Says It Faces Less Debt Risk Than CoreWeave As AI Spending Fears Mount",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62507673/nebius-says-it-faces-less-debt-risk-than-coreweave-as-ai-spending-fears-mount"
+  },
+  {
+   "time": "10-21 14:31",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Google Announces Availability Of Gemini In Google Maps Navigation On CarPlay",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62507630/google-announces-availability-gemini-google-maps-navigation-carplay"
+  },
+  {
+   "time": "10-21 14:29",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Why Is Rocket Lab Stock Surging on Wednesday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62507567/why-is-rocket-lab-stock-surging-on-wednesday-2"
+  },
   {
    "time": "10-21 14:06",
    "symbols": [
@@ -123,7 +153,7 @@
    "rating": "",
    "headline": "Meta Must Pay $25B In Penalties, New Mexico Judge Rules After Jury Found Company Misled Consumers About Privacy",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62505308/meta-must-pay-25b-penalties-new-mexico-judge-rules-after-jury-found-company-misled-consumers-about-p"
+   "url": "https://www.benzinga.com/news/26/10/62505308/meta-must-pay-25b-in-penalties-new-mexico-judge-rules-after-jury-found-company-misled-consumers-about-privacy"
   },
   {
    "time": "10-21 13:06",
