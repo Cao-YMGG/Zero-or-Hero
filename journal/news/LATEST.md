@@ -1,25 +1,124 @@
-# Headlines since 2026-10-19 16:00 ET (as of 2026-10-20 17:30 ET)
+# Headlines since 2026-10-20 16:00 ET (as of 2026-10-21 08:52 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
-| 10-20 14:05 | WDC | target down | Morgan Stanley Maintains Overweight on Western Digital, Lowers Price Target to $643 |
-| 10-20 14:02 | STX | target up | Morgan Stanley Maintains Overweight on Seagate Technology Hldgs, Raises Price Target to $1200 |
-| 10-20 14:01 | AMD | rating | Wedbush Reiterates Outperform Rating and $600 Price Target on AMD |
-| 10-20 14:01 | AAPL | target down | MoffettNathanson Maintains Neutral on Apple, Lowers Price Target to $283 |
-| 10-20 13:47 | MSFT | target up | BMO Capital Maintains Outperform on Microsoft, Raises Price Target to $600 |
-| 10-20 13:46 | GOOGL | target up | BMO Capital Maintains Outperform on Alphabet, Raises Price Target to $480 |
-| 10-20 10:59 | HOOD | target up | JP Morgan Maintains Neutral on Robinhood Markets, Raises Price Target to $115 |
-| 10-20 10:01 | STX | rating | Morgan Stanley Adjusts Seagate Technology Price Target to $1,200 From $1,187 |
-| 10-20 09:33 | UNH | target up | RBC Capital Maintains Outperform on UnitedHealth Group, Raises Price Target to $498 |
-| 10-20 08:46 | WMT | target up | Evercore ISI Group Maintains Outperform on Walmart, Raises Price Target to $130 |
-| 10-20 08:37 | AMD | rating | Wedbush Reiterates Outperform on Advanced Micro Devices, Maintains $600 Price Target |
-| 10-20 08:05 | V | initiate | Visa Partners With Bill.com And Billtrust To Launch First Live Pilot For Trusted AI Agents To Initiate And Complete Approved Buyer Invoice Payments |
-| 10-20 06:53 | TSLA | rating | Cantor Fitzgerald Reiterates Overweight on Tesla, Maintains $485 Price Target |
-| 10-20 05:48 | AAPL | downgrade | Loop Capital Downgrades Apple to Hold, Lowers Price Target to $330 |
-| 10-19 21:45 | PLTR | upgrade | Cathie Wood Buys $8.1 Million of CoreWeave Stock as Goldman Sachs Upgrades, Ark Invest Sells Palantir Stock |
-| 10-19 16:31 | INTC | upgrade | JPMorgan Upgrades Intel Stock |
+| 10-21 08:46 | INTC | target down | Susquehanna Maintains Neutral on Intel, Lowers Price Target to $105 |
+| 10-21 08:45 | GE | target down | Susquehanna Maintains Positive on GE Aerospace, Lowers Price Target to $400 |
+| 10-21 08:41 | AMD | target up | Susquehanna Maintains Positive on Advanced Micro Devices, Raises Price Target to $620 |
+| 10-21 08:36 | GE | target down | RBC Capital Maintains Outperform on GE Aerospace, Lowers Price Target to $375 |
+| 10-21 08:32 | NFLX | target down | Guggenheim Maintains Buy on Netflix, Lowers Price Target to $78 |
+| 10-21 08:29 | NFLX | rating | Citizens Reiterates Market Perform on Netflixto Market Perform |
+| 10-21 08:27 | NFLX | target down | Wedbush Maintains Outperform on Netflix, Lowers Price Target to $80 |
+| 10-21 08:18 | NFLX | target down | Bernstein Maintains Outperform on Netflix, Lowers Price Target to $80 |
+| 10-21 08:13 | WDC | target up | B of A Securities Maintains Buy on Western Digital, Raises Price Target to $800 |
+| 10-21 08:12 | STX | target up | B of A Securities Maintains Buy on Seagate Technology Hldgs, Raises Price Target to $1200 |
+| 10-21 08:02 | JPM | downgrade | JPMorgan Chase Downgraded by MarketScreener |
+| 10-21 08:01 | MU | initiate | Fubon Securities Initiates Coverage of Micron Technology with Buy Rating |
+| 10-21 07:48 | NFLX | target down | Rosenblatt Maintains Neutral on Netflix, Lowers Price Target to $71 |
+| 10-21 07:43 | HOOD | initiate | Rosenblatt Initiates Coverage On Robinhood Markets with Buy Rating, Announces Price Target of $135 |
+| 10-21 07:32 | HOOD | rating | Needham Adjusts Robinhood Markets Price Target to $126 From $123 |
+| 10-21 07:31 | COIN | rating | Needham & Co. Adjusts Coinbase Global Price Target to $205 From $200 |
+| 10-21 07:24 | GE | target down | Morgan Stanley Maintains Overweight on GE Aerospace, Lowers Price Target to $375 |
+| 10-21 07:18 | NFLX | downgrade | Needham Downgrades Netflix to Hold |
+| 10-21 07:16 | NFLX | target down | Morgan Stanley Maintains Overweight on Netflix, Lowers Price Target to $77 |
+| 10-21 07:08 | HOOD | target up | Needham Maintains Buy on Robinhood Markets, Raises Price Target to $126 |
+| 10-21 07:06 | NFLX | target down | B of A Securities Maintains Buy on Netflix, Lowers Price Target to $90 |
+| 10-21 06:51 | COIN | target up | Needham Maintains Buy on Coinbase Global, Raises Price Target to $205 |
+| 10-21 06:47 | CRM | rating | Cantor Fitzgerald Reiterates Overweight on Salesforce, Maintains $300 Price Target |
+| 10-21 06:31 | GE | downgrade | President Capital Downgrades GE Aerospace to Neutral |
+| 10-21 08:47 | TSLA |  | Elon Musk's Tesla-SpaceX Mega-Merger Could Create 'Most Unique Company in the World,' Says Analyst |
+| 10-21 08:26 | GOOGL INTC TSLA |  | Tesla Earnings Prediction Market Preview: Will Elon Musk Discuss a SpaceX Merger? |
+| 10-21 08:20 | NVDA |  | Nvidia Stock Rises in Wednesday Premarket as Elon Musk Says SpaceX Is Adding 200,000 Chips a Month — Daniel Newman Says NVDA Is 'Ripping' (UPDATED) |
+| 10-21 08:15 | GOOGL MSFT |  | 'OpenAI To Bring AI Models To Google’s Cloud, In Further Expansion Beyond Microsoft' - CNBC |
+| 10-21 08:14 | NVDA |  | Telecome Italia Partners With Nvidia To Provide Advanced Capabilities To Develop, Deploy AI Applications; AI Platform, Developed By Tim Enterprise And Hosted In Italy, Will Integrate Group’s Centralized Cloud And Distributed Edge Footprint With Nvidia Full-Stack AI Infrastructure |
+| 10-21 08:12 | NFLX |  | Netflix Stock Sinks To 52-Week Low - Here's Why |
+| 10-21 08:09 | TSLA |  | SpaceX Earnings: 7 Big Questions Elon Musk Answered — and What Investors Should Watch Next |
+| 10-21 08:07 | NVDA |  | NVDA, CRWV, NBIS and Crypto Miners Surge After Elon Musk Says Cloud Providers 'Don't Have Any' AI Compute |
+| 10-21 08:04 | ORCL |  | Southwest General Integrating Oracle Health Patient Accounting, Oracle Health Data Intelligence, Oracle Fusion Cloud Applications |
+| 10-21 08:03 | RKLB |  | Viasat Announces Launch Of Rocket Lab-Built Spacecraft For NASA Satellite Relay Demonstration Under $81M In Contracts |
+| 10-21 08:01 | GS |  | Goldman Sachs Acts as Financial Advisor to Abbott in Transaction |
+| 10-21 07:59 | NFLX |  | These Analysts Slash Their Forecasts On Netflix After Q3 Results |
+| 10-21 07:45 | NVDA |  | Zscaler Supports Nvidia OpenShell Reference Architecture For Safe AI Agents |
+| 10-21 07:41 | SMCI |  | Super Micro Computer Partners With Nokia To Deploy AI-RAN From Distributed Cell Sites To Centralized Network Hubs |
+| 10-21 07:38 | NVDA |  | Cadence Announces Availability Of AI Data Center In Munich, Integrating Cadence OnCloud, Nvidia Vera And Grace CPU Systems |
+| 10-21 07:37 | NVDA |  | ServiceNow Announces Updates For Governance, Security Across Its AI Offering With Nvidia |
+| 10-21 07:37 | NVDA |  | Vertiv And Nvidia Launch Faster AI Factory Approach To Combine Rapid Configuration And Virtual Validation; To Generate Up To 30% More Cumulative Token Output Within The First 12 Months |
+| 10-21 07:36 | NVDA |  | HPE Partners With Nvidia To Roll Out Innovations Across Its HPE AI Factory |
+| 10-21 07:35 | NVDA |  | Dell Technologies Collaborates With Nvidia To Expand Advancements Across Dell AI Factory, Spanning New AI Services, Ecosystem Enhancements |
+| 10-21 07:34 | NVDA |  | Sereact, NVIDIA, Nebius, CEVA Logistics And Zalando Announce Closed Training Loop For Cortex, Sereact's Robot Brain |
+| 10-21 07:33 | NVDA |  | Einride AB Partners With Nvidia To Evaluate AI Reasoning Driving Model Nvidia Alpamayo |
+| 10-21 07:32 | NVDA |  | CrowdStrike Announces Expanded Nvidia Collaboration To Integrate Falcon Guardian AI Agent Security With OpenShell, Plans Chip-Level Enforcement Via Sentry |
+| 10-21 07:32 | V |  | Visa Announces Enhanced Capabilities for Business Payments |
+| 10-21 07:32 | VST |  | Morgan Stanley Adjusts Price Target on Vistra to $226 From $227 |
+| 10-21 07:32 | VST |  | Raymond James Adjusts Price Target on Vistra to $176 From $182 |
+| 10-21 07:31 | SMCI |  | Nutanix, Supermicro Announce Plans For Jointly Engineered On-Premises AI Inference System, Available In Early 2027 |
+| 10-21 07:31 | GE |  | Susquehanna Adjusts Price Target on GE Aerospace to $400 |
+| 10-21 07:31 | NFLX |  | Morgan Stanley Adjusts Price Target on Netflix |
+| 10-21 07:31 | NVDA |  | NVIDIA Announces Global Supply Chain Expansion to Boost AI Manufacturing Capacity |
+| 10-21 06:53 | NVDA |  | Nvidia And Google Announce General Availability Of Vera Rubin Infrastructure; Google Cloud Plans To Scale Its Rubin-Based Infrastructure To As Many As 960K Rubin GPUs Across Multiple Sites; General Availability Of The Instances Is Coming Next Month |
+| 10-21 06:44 | NVDA |  | NVIDIA Expands Substrate Supply Chain With Ibiden, Samsung Electro-Mechanics, And Unimicron To Drive 2.5x Capacity Growth |
+| 10-21 06:42 | NVDA |  | NVIDIA And SPIL To Boost Taiwan Optical Engine Capacity 15-Fold By 2027, Target Further Expansion By 2028 |
+| 10-21 06:40 | NVDA |  | NVIDIA And Amkor Plan To Expand Advanced Packaging Capacity In South Korea, Targeting Greater Than 300% Increase In Interposer Wafer Capacity By End Of 2028 |
+| 10-21 06:39 | NVDA |  | NVIDIA Plans With Supply Chain Partners To Expand Global Manufacturing Capacity To Meet Growing Demand For Accelerated Computing And Full-Stack AI Factory Platform |
+| 10-21 06:32 | NVDA |  | NVIDIA Introduces DSX POD for Rapid AI Factory Deployment |
+| 10-21 06:32 | NVDA |  | NVIDIA Expands Isaac Robotics Platform with Humanoid Reference and Learning Frameworks |
+| 10-21 06:32 | NVDA |  | NVIDIA Announces Healthcare Collaborations and New Protein Design Model |
+| 10-21 06:32 | NVDA |  | Global Telecom Operators Expand NVIDIA-Powered AI-RAN Infrastructure |
+| 10-21 06:31 | CRM |  | Navatar Integrates Claude and Salesforce via Bidirectional MCP |
+| 10-21 06:31 | PLTR |  | Palantir and NVIDIA Collaborate on OpenShell Reference Architecture for Secure AI Agents |
+| 10-21 06:31 | GEV |  | GE Vernova Joins NVIDIA Ecosystem for AI Factory Infrastructure |
+| 10-21 06:31 | MU |  | Micron Signs Labor-Management Deal With Taiwan Union |
+| 10-21 06:31 | WMT |  | Walmart Canada and Tori Wesszer Unveil 2026 Holiday Fraiche Collection |
+| 10-21 06:31 | WMT |  | True Nutrition Technology to Expand Sales to Walmart.com |
+| 10-21 06:31 | ORCL |  | Oracle Integrates Cohere AI Models into Cloud Infrastructure |
+| 10-21 06:31 | AMD |  | AMD and Vultr Expand AI Computing Capacity in India |
+| 10-21 06:31 | MSFT |  | CAS Announces Availability of CAS Connections in Microsoft Copilot |
+| 10-21 06:31 | AMZN |  | Credera Announces Five-Year Strategic Collaboration Agreement with Amazon Web Services |
+| 10-21 06:23 | META |  | Meta's Muse AI Agent Gains Traction Ahead of Q3 Earnings, Hits 10 Million Downloads in 40 Days as OpenAI’s ChatGPT App Installs Slide 25% in US: Report |
+| 10-21 06:22 | NVDA |  | Nvidia Expands Its Isaac Open Robotics Platform With Reference Humanoid, Datasets And Runtime |
+| 10-21 06:16 | NVDA |  | Nvidia Launches Tools For Telecom Operators For Turning Networks Into Distributed Intelligence Platforms |
+| 10-21 06:07 | META |  | Meta Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts |
+| 10-21 06:00 | TSLA |  | ‘Could Happen This Week’: Ross Gerber Says SpaceX Could Make $420 Tesla Bid, Spurred by 'Pretty Poor' Earnings From TSLA |
+| 10-21 05:59 | META MSFT ORCL |  | Trump Floats ‘Dividend’ Payments to Communities Hosting AI Data Centers — Tells Big Tech That Financial Deals Can Turn Local Opposition Into ‘Extremely Popular’ Support |
+| 10-21 05:58 | AAPL |  | Industry Comparison: Evaluating Apple Against Competitors In Technology Hardware, Storage &amp; Peripherals Industry |
+| 10-21 05:52 | NVDA |  | Nvidia Introduces OpenShell Reference Architecture For Ensuring Safe Agents On Enterprise Infrastructure And Edge Systems |
+| 10-21 05:49 | NVDA |  | European Partners Adopt NVIDIA DSX AI Factory Platform To Cut Cooling Water To Near Zero And Power Use By Up To 30% |
+| 10-21 05:46 | NFLX |  | Netflix CFO Eyes Double-Digit Revenue Growth Into 2027 Despite ‘Modest’ Viewership Gains, Points to 3 Key Drivers: ‘Not Overly Dependent…’ |
+| 10-21 05:45 | GOOGL NFLX |  | Ted Sarandos Says Netflix 'Could Do Better’ as YouTube, TikTok Threaten to Steal Viewers: Time to Take Shows and Movies 'To The Next Level' |
+| 10-21 05:43 | NVDA |  | NVIDIA Unveils DSX POD Factory-Built Vera Rubin AI Factory Reference Design, Cutting Deployment From Six Months To As Little As 14 Days |
+| 10-21 05:39 | META MSFT |  | $39 or $150? Wall Street Can't Agree on CoreWeave's Future As AI Debt Fears Mount |
+| 10-21 05:31 | TSM |  | TSMC Suspends Construction Work Following Fatal Accident in Kaohsiung |
+| 10-21 05:28 | META |  | Mark Zuckerberg Will Announce Muse on Meta Glasses Soon? Crypto Bettors Say Don't Hold Your Breath |
+| 10-21 05:26 | NVDA |  | Nvidia CEO Huang Sais AI Marks Beginning Of New Industrial Revolution, Extending Beyond Software Into Machines And Infrastructure, Transforming Everything We Build And Enabling Creation Of New Technologies -Wall Street Journal |
+| 10-21 05:25 | NVDA |  | Nvidia CEO Huang, At GTC Berlin, Said Co Invested Nearly €10B In Europe Over Past Year, With More Than 12K Partnerships - Wall Street Journal |
+| 10-21 05:10 | SMCI |  | Top Analyst Says SpaceX, Super Micro's Blowout Results Delivered the Catalyst for Next AI Stock Rally: ‘Odds Based on History Are High’ |
+| 10-21 05:01 | NFLX |  | Netflix CFO Admits He's 'Not Satisfied' With View Hour Growth as NFLX Bets on Brad Pitt's Cliff Booth Return, Narnia and NFL Games |
+| 10-21 04:16 | TSLA |  | TSLA, SPCX Stocks Are Trending In Pre-Market After Elon Musk Confirms Tesla-SpaceX Merger Committees |
+| 10-21 03:23 | NVDA TSLA TSM |  | Elon Musk Hints at SpaceX Chip Breakthroughs, Keeps Details Close: ‘Let’s Not Give Away the Shop’ |
+| 10-21 03:01 | MU |  | Micron Technology Reaches Labour-Management Agreement With Taiwan’s Taichung Union, Both Sides Withdraw From October 22 Mediation |
+| 10-21 02:21 | AMD |  | Vultr Expands AMD Collaboration With 20 MW Chennai MI355X Supercluster For In-Country AI Workloads, Plans 2027 MI455X And Helios Expansion |
+| 10-21 02:00 | GOOGL |  | Elon Musk Says Social Media Can Feel Dark Sometimes, Here’s the Other Place Billionaire Gets News |
+| 10-21 01:39 | AMZN GOOGL MSFT |  | UK Watchdog Proposes Strategic Market Tag for Microsoft, Puts Excel and Copilot AI Under Competition Scrutiny (UPDATED) |
+| 10-21 00:49 | TSLA |  | Elon Musk Says SPCX Could Reach Up to $1 Trillion ARR By 2027—Gwynne Shotwell Says Starlink Is Contracted for 12,000 Aircraft |
+| 10-21 00:42 | RKLB |  | Rocket Lab Stock Gains As Earnings Date Is Set, Wall Street Price Targets Signal Triple-Digit Upside |
+| 10-20 23:37 | AAPL META |  | Meta Pauses Muse AI Sharing After Researchers Say 6,800 Chats Were Exposed ‘Like a Table Of Contents’ |
+| 10-20 23:34 | SMCI |  | Dell, HPE Shares Jump After Hours as AI Server Rival Super Micro Raises Revenue Outlook: What You Should Know (CORRECTED) |
+| 10-20 22:23 | TSLA |  | Gene Munster Puts SpaceX-Tesla Merger Odds at 95%, but Says Elon Musk Is a ‘Conflicted’ Party: ‘He Can’t Be in the Conversation’ |
+| 10-20 22:11 | PLTR |  | Cathie Wood Sells $5.4 Million Worth of Palantir Stock as Ark Continues to Dump PLTR, Analyst Warns Valuation Prices In ‘Years of Exceptional Execution’ |
+| 10-20 22:01 | MSFT |  | Nerdio Releases 2026 State of the MSP Business Report on Microsoft Cloud Ecosystem |
+| 10-20 20:31 | NVDA |  | The Information Reported Earlier, Nvidia In Talks To Invest Hundreds Of Millions Of Dollars In Australian AI GPU Cloud Provider Firmus |
+| 10-20 20:01 | CVX |  | Chevron Moves to Take Over Iraqi Oil Field |
+| 10-20 19:01 | GS |  | Goldman Sachs Adjusts Price Target on UDR, Inc. |
+| 10-20 19:01 | NFLX |  | Netflix Reports Q3 2026 Financial Results |
+| 10-20 19:01 | INTC |  | Intel and AMD Announce Collaboration on oneDNN Software Optimizations |
+| 10-20 19:01 | TSLA |  | Tesla and SpaceX Explore Potential Merger |
+| 10-20 18:07 | TSLA |  | Elon Musk Says AI Could Be a Threat, but He Can’t Stop It: ‘Be Participant or be a Spectator’ |
+| 10-20 18:02 | SMCI |  | Supermicro Announces Preliminary Fiscal Q1 2027 Revenue Results |
+| 10-20 18:01 | RKLB |  | Rocket Lab Announces Third Quarter 2026 Earnings Release Date |
+| 10-20 17:55 | TSLA |  | Elon Musk Confirms SpaceX, Tesla Merger Committees, Calls Deal ‘A Good Idea’ |
+| 10-20 17:34 | NFLX |  | Netflix Q3 2026 Earnings Call Transcript |
 | 10-20 17:25 | TSLA |  | SpaceX CEO Musk Says He Thinks A Merger With Tesla Would Be A Good Idea |
 | 10-20 17:23 | TSLA |  | SpaceX CEO Musk Says Co And Tesla Have Formed Special Committees To Discuss Merger |
 | 10-20 17:05 | NFLX |  | Netflix Executive Says We Expect To Deliver Strong Revenue Growth Into 2027 |
@@ -39,160 +138,3 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-20 16:03 | NFLX |  | Netflix Narrows FY2026 Sales Guidance from $51.000B-$51.400B to $51.100B vs $51.230B Est |
 | 10-20 16:03 | NFLX |  | Netflix Q3 EPS $0.59 Misses $0.82 Estimate, Sales $11.510B Miss $12.876B Estimate |
 | 10-20 16:03 | NFLX |  | Netflix Sees Q4 GAAP EPS $0.67 vs $0.73 Est; Sees Sales $13.442B vs $13.517B Est |
-| 10-20 15:59 | CRM |  | After Braze, Could Klaviyo Be Big Tech’s Next Billion-Dollar Bet? |
-| 10-20 15:27 | GOOGL |  | Claude Opus 5.5, Claude Sonnet 5.5 Are Now Available In Google Antigravity |
-| 10-20 15:15 | GE |  | GE Aerospace Turns To AI To Ease Engine Maintenance Bottlenecks |
-| 10-20 15:12 | NVDA |  | 'Big Short' Trader Danny Moses Calls CoreWeave the WeWork of AI |
-| 10-20 15:03 | GEV |  | GE Vernova Q3 Preview: Analyst Projects Orders Growth Of 44% |
-| 10-20 15:02 | AMZN |  | 3M Expands Commercial Relationship with Amazon and Issues Stock Warrant |
-| 10-20 15:02 | AMZN |  | Amazon Announces Hiring of Over 300,000 Seasonal Workers for U.S. Holiday Season |
-| 10-20 15:02 | META |  | Meta Chief Global Affairs Officer Joel Kaplan to Depart |
-| 10-20 15:02 | AAPL |  | Analysts Adjust Outlook on Apple Stock |
-| 10-20 15:01 | HD |  | The Home Depot Partners with DIY CON for Inaugural Dallas Event |
-| 10-20 15:01 | INTC |  | Intel's Aruni Nelson Appointed Co-Chair of MIPI Alliance Board |
-| 10-20 14:47 | AMZN NVDA |  | 'Amazon Is Buying Billions In NVIDIA AI Systems It Can't Yet Turn On' - Business Insider |
-| 10-20 14:15 | COIN |  | Mastercard Taps Coinbase, Cloudflare as AI Agents Learn to Pay |
-| 10-20 14:02 | COIN |  | Coinbase Responds to Regulatory Inquiries Regarding Stablecoin Transactions |
-| 10-20 14:01 | AMZN |  | Amazon Announces Seasonal Hiring Drive in Canada |
-| 10-20 14:01 | NFLX |  | Netflix Philippines to Premiere Mystery-Thriller Series 'Balaraw' |
-| 10-20 14:01 | AAPL |  | Apple Expands American Manufacturing Program with New Suppliers |
-| 10-20 14:00 | MSFT |  | 'OpenAI Acquires Biotech Startup As AI Race Moves Into Drug Development' - Axios Exclusive |
-| 10-20 13:48 | AMZN MSFT |  | Why Is 3M Stock Soaring Tuesday? |
-| 10-20 13:35 | GOOGL |  | Alphabet Earnings Ahead: Cloud Growth, Gemini, TPU Sales Could Drive Upside |
-| 10-20 13:29 | NFLX |  | Netflix Ads Suite Has Better Buying, Better Planning, Better Results; Plans To Expand Ads To 15 New Countries |
-| 10-20 13:25 | GE |  | Why Is American Airlines Stock Surging Tuesday? |
-| 10-20 13:16 | META |  | Meta Q3 Preview: Muse Put Company in Spotlight, Will Financials Support a Rally? |
-| 10-20 13:03 | CRM |  | Why Is Braze Stock Surging on Tuesday? |
-| 10-20 13:02 | META |  | Meta Heads Into Earnings With AI Ambitions Soaring, Cash Burn in Focus |
-| 10-20 13:01 | AMZN UNH |  | CNBC Halftime Report Final Trades: Amazon, UnitedHealth Group, Twilio, eBay |
-| 10-20 12:54 | NVDA SMCI WDC |  | Why Is SMCI Stock Seesawing on Tuesday? |
-| 10-20 12:45 | NFLX |  | Live On CNBC, Josh Brown Trimmed Netflix Position |
-| 10-20 12:42 | TSLA |  | Tesla Analyst Raises Revenues Estimates Ahead Of Q3 Results |
-| 10-20 12:37 | NVDA |  | Stock of the Day: Where is the Bottom for NVIDIA? |
-| 10-20 12:27 | AAPL |  | Qualcomm Plans Global Layoffs Starting November |
-| 10-20 12:20 | UNH |  | Live On CNBC, Kevin Simpson Announces Bought More UnitedHealth Group |
-| 10-20 12:10 | AMD INTC |  | AMD And Intel Collaborate To Combine x86 CPU Optimization Work For PyTorch In oneDNN, Open-Source Deep Learning Library Governed By Unified Acceleration Foundation |
-| 10-20 12:07 | META |  | 'Joel Kaplan leaving Meta after 15 years as policy chief' - Axios Exclusive |
-| 10-20 11:31 | TSLA |  | SpaceX Stock for Every Child Could Kick Off $100B Giving Race, Brad Gerstner Says |
-| 10-20 11:13 | MU |  | Is SK Hynix Stock a 270% Opportunity? Nomura Says Yes |
-| 10-20 11:05 | TSLA |  | EXCLUSIVE: Tesla SpaceX Merger? 70% of Benzinga Viewers Say Elon Musk Will Get There — But Not When You Think |
-| 10-20 11:02 | NVDA |  | NVIDIA Hosts GTC Berlin AI Conference |
-| 10-20 11:01 | GEV |  | Eversource Collaborates with GE Vernova on Advanced Grid Operations Pilot |
-| 10-20 11:01 | LLY |  | Correction Regarding Eli Lilly's Omvoh Phase 3 Study |
-| 10-20 11:01 | NFLX |  | Netflix Announces U2 to Headline NFL Thanksgiving Eve Halftime Show |
-| 10-20 11:01 | WMT |  | Walmart and Sam's Club Launch Combined Membership Bundle |
-| 10-20 11:00 | GOOGL |  | Recent Report Shows That Rep. Michael Rulli Sold Up to $115K Worth of Alphabet Stock |
-| 10-20 10:57 | GE |  | RTX’s Engine Aftermarket Surged 21%. GE Aerospace Is the Rival to Watch |
-| 10-20 10:52 | NVDA TSLA |  | SpaceX Earnings Prediction Market Preview: What Will Elon Musk Say? |
-| 10-20 10:11 | NFLX |  | Netflix Earnings Prediction Market Preview: Will Ted Sarandos Discuss Layoffs? |
-| 10-20 10:09 | GE |  | GE Aerospace Raises 2026 Profit Outlook on Solid Demand, 49% Surge in Orders |
-| 10-20 09:49 | AAPL |  | Apple Stock in Focus as iPhone Duo Launch, U.S. Expansion and Earnings Loom |
-| 10-20 09:47 | META |  | 'RBC Considers Blocking Meta’s Muse AI Agent, CEO Dave McKay Says' - Bloomberg News |
-| 10-20 09:32 | RKLB |  | Iridium Communications Provides Update on Pending Acquisition by Rocket Lab |
-| 10-20 09:31 | CRM |  | Salesforce to Acquire Braze for $5.66 Billion |
-| 10-20 09:31 | GEV |  | GE Vernova Executive Participates in Singapore International Energy Week 2026 |
-| 10-20 09:31 | GS |  | The Goldman Sachs Group, Inc. Files Voting Rights Notification for thyssenkrupp AG |
-| 10-20 09:31 | MSFT |  | CAS Collaborates with Microsoft to Accelerate Scientific Innovation |
-| 10-20 09:31 | V |  | Visa Launches AI Agent B2B Payment Pilot |
-| 10-20 09:31 | AMZN |  | GOOD TRAFFIC Wins Two Bronze OBIE Awards for Spider-Noir Vintage Taxi Campaign with Amazon Prime Video |
-| 10-20 09:31 | AVGO |  | Broadcom Announces Continued Infrastructure Agreement With FedEx |
-| 10-20 09:31 | NVDA |  | NVIDIA and Partners Release llm-d 1.0 for Distributed AI Inference |
-| 10-20 09:31 | TSLA |  | Tesla Announces Delivery of Flying Vehicle |
-| 10-20 09:24 | AMZN GOOGL |  | Hunterbrook Media Issues Report On Anthropic; Finds Claude AI Designed Experimental Scorpion Antivenom Binders, But Tests Show Mixed Results And No Proven Toxin Neutralization Yet; States Hunterbrook Capital Is Both Long And Short Securities Related To AI In Biotech |
-| 10-20 09:23 | CRM |  | Salesforce Bets $5.7 Billion on AI Marketing With Braze Acquisition |
-| 10-20 09:15 | TSLA |  | SpaceX's Starship Catch Could Unlock Valuation Upside, Morgan Stanley's Adam Jonas Says Ahead of SPCX Q3 Earnings |
-| 10-20 09:10 | TSM |  | Taiwan Semiconductor Manufacturing Halts Construction At Kaohsiung Plant Due To Accident At Construction Process Of Steel Structure Operation |
-| 10-20 09:09 | GOOGL |  | 'Waymo Plans To Quintuple Its Fleet' - Semafor Exclusive |
-| 10-20 09:04 | AVGO |  | FedEx To Continue Utilizing Broadcom's Infrastructure Software Portfolio Under Expanded Collaboration |
-| 10-20 08:56 | WMT |  | Why Is Walmart Stock in the Spotlight Tuesday? |
-| 10-20 08:51 | PLTR |  | PLTR Stock’s Biggest Risk Isn’t Slowing Growth, but Its Price, Analyst Warns — Valuation Already Bakes In ‘Years of Exceptional Execution’ |
-| 10-20 08:38 | AMZN |  | Amazon Is Creating Over 300K New U.S. Jobs This Holiday Season With Increased Pay, Expanded Benefits |
-| 10-20 08:38 | GE |  | GE Aerospace Q3 2026 Earnings Call Transcript |
-| 10-20 08:30 | GOOGL |  | Synaptics Announces Availability Of Its Synaptics Coralboard For Purchase Through DigiKey |
-| 10-20 08:26 | GE |  | GE Aerospace CFO Says Number Of Genx Engines In Boeing Inventory Has Grown Over Last Few Months As Engine Deliveries Have Outpaced Aircraft Deliveries; Confident We'll Continue To Grow Genx Deliveries & Help Boeing Get To Rate 10 On 787 Deliveries Along With Rest Of Supply Chain; On Both Narrow Body And Wide Body Overall, We Expect Work Scopes To Increase Next Year |
-| 10-20 08:16 | UNH |  | Twilio, Transocean and a Health Care Stock on CNBC’s ‘Final Trades’ |
-| 10-20 08:16 | META NVDA |  | Meta Q3 Earnings Preview: Wall Street Eyes Muse AI Monetization As Mark Zuckerberg's AI Bet Faces Its Next Test |
-| 10-20 08:05 | AAPL |  | Apple Commits Up To $100M Over Three Years With American Manufacturing Program Partner Perryman For iPhone Duo Titanium; Expands Qnity Electronics Partnership For iPhone 18 Pro Camera |
-| 10-20 08:02 | CRM |  | Salesforce To Acquire Braze For ~$5.66B |
-| 10-20 08:01 | GS |  | Goldman Sachs Issues Economic Outlook on Housing Market Headwinds |
-| 10-20 08:01 | MU |  | Micron Announces Investment in Critical Minerals Processing for Semiconductor Supply Chain |
-| 10-20 08:01 | MSFT |  | Boeing Launches Dataliner Platform in Partnership with Microsoft |
-| 10-20 08:01 | BAC |  | Kevin Stone Appointed Senior Vice President and Senior Portfolio Manager at Bank of America Private Bank |
-| 10-20 08:01 | GE |  | GE Aerospace CEO Says In Conference Call That Q3 Departures Up 1%, Wide-Bodies Strong Despite Possible Flight Schedule Trims; Expects Departures Growth In 2027 |
-| 10-20 07:50 | GE |  | GE Aerospace CFO Says In Conference Call The Company Is Working To Achieve GE9X FAA Certification By End Of 2026, Assumes Fewer Units In Year Given Timing |
-| 10-20 07:46 | GE |  | GE Aerospace CFO Says In Conference Call That Spare Parts Delinquency Increased Sequentially Despite Strong Revenue Growth, Reflecting Strong Underlying Demand |
-| 10-20 07:37 | TSLA |  | Tesla Likely To Report Lower Q3 Earnings; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call |
-| 10-20 07:35 | MU |  | Micron Technology To Invest In Critical Minerals Under Its $3B Investment Plan |
-| 10-20 07:32 | INTC |  | Intel Introduces RADAR for AI-Driven Marketing |
-| 10-20 07:31 | AAPL |  | Apple CFO Kevan Parekh Sells Shares |
-| 10-20 07:31 | AAPL |  | UK Competition and Markets Authority Proposes Changes to Apple's Contactless Payment Access |
-| 10-20 07:31 | GE |  | GE Aerospace Reports Q3 2026 Financial Results and Raises Full-Year Outlook |
-| 10-20 07:31 | NVDA |  | Nvidia to Invest in 4 German Startups as Part of $10 Billion Europe Pledge |
-| 10-20 07:31 | AMZN |  | Amazon Deepens Europe Push With $18 Billion Germany Investment, AWS Expansion |
-| 10-20 07:31 | MSFT |  | Beyond Now Integrates Wave AI Framework with Microsoft AI Foundry |
-| 10-20 07:13 | NVDA |  | ByteDance, Alibaba, Tencent Place Massive $35 Billion NVIDIA Order |
-| 10-20 06:52 | TSLA |  | Gary Black Predicts SPCX to Offer $420 Per Share For TSLA in a Stock-For-Stock Deal, Calls Tesla-SpaceX Merger ‘Inevitable’ |
-| 10-20 06:36 | COST WMT |  | Walmart Bundles Its Walmart+ and Sam’s Club Plus Memberships Together For $120/Year |
-| 10-20 06:35 | GE |  | GE Aerospace Raises FY2026 Adj EPS Guidance from $7.65-$7.85 to $8.00-$8.10 vs $7.92 Est |
-| 10-20 06:31 | AAPL |  | Poland's Competition Watchdog Orders Changes to Apple's App Tracking Transparency Policy |
-| 10-20 06:31 | AAPL |  | Apple Principal Accounting Officer Reports Stock Sale |
-| 10-20 06:31 | HOOD |  | JPMorgan Adjusts Price Target and Rating for Robinhood Markets |
-| 10-20 06:31 | UNH |  | RBC Capital Adjusts Price Target on UnitedHealth to $498 From $478 |
-| 10-20 06:31 | WDC |  | Morgan Stanley Adjusts Western Digital Price Target |
-| 10-20 06:31 | CVX |  | Goldman Sachs Adjusts Price Target on Chevron to $241 From $228 |
-| 10-20 06:31 | NVDA |  | NVIDIA Receives Over $35 Billion in Chip Orders From ByteDance, Tencent, and Alibaba |
-| 10-20 06:31 | NVDA |  | NVIDIA Collaborates with Fortanix and CNCF on Confidential Computing |
-| 10-20 06:31 | PLTR |  | Palantir Technologies Insider Executes Stock Sale |
-| 10-20 06:31 | LLY |  | Goldman Sachs Adjusts Price Target on Eli Lilly to $1,413 From $1,371 |
-| 10-20 06:31 | LLY |  | Metis TechBio Enters Strategic Collaboration with Eli Lilly |
-| 10-20 06:31 | ORCL |  | Oracle and AstraZeneca Partner to Advance AI-Enabled Healthcare Innovation |
-| 10-20 06:31 | XOM |  | Goldman Sachs Adjusts Price Target on Exxon Mobil |
-| 10-20 06:31 | MU |  | Micron Taiwan Union Plans Strike Over Bonus Dispute |
-| 10-20 06:31 | JPM |  | JPMorgan Chase Advances Nigeria Expansion With Central Bank Deposit |
-| 10-20 06:31 | WMT |  | K&N Engineering Launches Advantage Air Filters at Walmart |
-| 10-20 06:30 | GE |  | GE Aero Q3 Adj. EPS $2.25 Beats $2.00 Estimate, Sales $14.118B Beat $12.849B Estimate |
-| 10-20 06:10 | META MSFT |  | CoreWeave Stock Sinks to 52-Week Low As Wall Street's AI Debt Fears Deepen |
-| 10-20 06:10 | BAC GS |  | Top 3 Financial Stocks Which Could Rescue Your Portfolio In Q4 |
-| 10-20 06:06 | AAPL |  | UK CMA Outlines Proposals To Unlock Contactless Technology On Apple iPhone; Apple’s Fees And Rules Are Blocking UJ Fintechs And Other Businesses From Innovating And Growing |
-| 10-20 05:59 | AAPL |  | Comparing Apple With Industry Competitors In Technology Hardware, Storage &amp; Peripherals Industry |
-| 10-20 05:56 | AMZN |  | Amazon Announces Plan To Invest More Than €16B ($18B) In Germany In 2027, Spanning Data Centers, AI, Satellite Internet, Logistics And Prime Video |
-| 10-20 05:50 | GOOGL |  | Google Cloud Services In Europe-West2 Face Errors And Intermittent Network Failures Since October 19, Engineers Investigating, Customers May Migrate Workloads If Feasible |
-| 10-20 05:48 | NVDA |  | 'ByteDance, Alibaba, Tencent Place Over $35 Billion Worth of Nvidia Chip Orders' - Reuters Exclusive |
-| 10-20 05:29 | ORCL |  | Oracle Joins Forces With AstraZeneca to Put AI to Work in Drug Research |
-| 10-20 05:16 | TSLA |  | SpaceX Earnings Preview: SPCX Investors Have 3 Big Questions Ahead of Q3 Results: Tesla Merger, Moon Lander Updates and Starship Refueling |
-| 10-20 04:58 | GOOGL TSLA |  | TSLA Stock Could Surge Nearly 1,100% by 2031, Cathie Wood’s ARK Invest Says: Expects Tesla-SpaceX Merger Within Five Years |
-| 10-20 04:44 | AAPL |  | Poland’s Competition Office Orders Apple To Change App Tracking Transparency Policy With Neutral Consent Notices, Fair Terms For Polish Developers And Liaison Officer Within Two Months Of Final Decision |
-| 10-20 03:43 | CVX XOM |  | Chevron, ExxonMobil Stocks Hit 52-Week Highs as Fresh US-Israel Threats Against Iran Push Brent Crude to 5-Month Highs |
-| 10-20 03:40 | META |  | Mark Zuckerberg Called AI Agents Meta’s Next Revenue Engine: Will Muse Deliver When Q3 Earnings Land |
-| 10-20 03:33 | GEV |  | GE Vernova Secures Order To Supply 9E Gas Turbine For 372MW Songon Power Plant In Côte D’Ivoire, Scheduled To Launch In 2029 |
-| 10-20 03:25 | NVDA |  | Big Short Investor Flags Major Vulnerability for Nvidia — 5 Customers Account for 70% of Receivables: ‘Tremendous Amount of Concentration Risk’ |
-| 10-20 03:18 | GS |  | Anthony Scaramucci Says Ukraine Gave Up Nuclear Arsenal, And Trump Is Treating The Deal ‘As If It Never Existed’ |
-| 10-20 02:19 | GOOGL |  | 'Waymo Plans To Quintuple Its Fleet' - Semafor |
-| 10-20 01:36 | AMZN |  | Amazon Stock to Top $300 in October? Prediction Market Punters Trade the Odds as Morgan Stanley Raises Near-Term Target |
-| 10-20 01:27 | AVGO |  | Reported Earlier, Broadcom And NTT DOCOMO Sign 10-Year Agreement To Advance DOCOMO’s Private Cloud, Built On VMware Cloud Foundation, Amid AI Expansion And Cyberattacks |
-| 10-20 01:13 | ORCL |  | Oracle Announces Non-Binding Agreement With AstraZeneca To Explore AI And Real-World Data For Clinical Trial Patient Identification, Evidence Generation And Care Insights |
-| 10-19 23:17 | AAPL |  | ‘Obviously This Is a Finger’: Apple’s ‘Pro and Tell’ Teaser Has Everyone Talking — MacBook Pro Buzz Intensifies |
-| 10-19 22:58 | GS |  | Jim Cramer Calls Trump's Russia Sanctions Waiver 'Tragic' After Report Says President 'Openly Aiding the Kremlin' |
-| 10-19 22:01 | AVGO |  | Broadcom Signs 10-Year Agreement with NTT DOCOMO to Advance Private Cloud Infrastructure |
-| 10-19 22:01 | GE |  | GE Aerospace Scheduled to Report Third-Quarter 2026 Financial Results |
-| 10-19 22:01 | AMZN |  | Amazon Files 8-K Regarding Data Center Product Payments and Warrant Shares |
-| 10-19 22:01 | MSFT |  | Reports of Potential Cost-Cutting Measures at Microsoft's Azure Unit |
-| 10-19 21:40 | AMZN MSFT |  | Amazon Gets Warrant to Buy $521.4 Million of 3M Stock in Expanded Data Center Partnership: MMM Rises Over 5% After Hours |
-| 10-19 20:01 | SNDK |  | SanDisk Participates in Tenstorrent's $1.5 Billion Series E Funding Round |
-| 10-19 19:45 | JPM |  | If You Invested $1000 In JPMorgan Chase Stock 10 Years Ago, You Would Have This Much Today |
-| 10-19 19:15 | GE |  | Here’s How Much You Would Have Made Owning GE Aerospace Stock In The Last 5 Years |
-| 10-19 19:01 | CRM |  | Salesforce Launches Slack Frontline Add-on for Enterprise+ Customers |
-| 10-19 18:19 | NVDA |  | Congressman Sells Nvidia Stock Again: 7 Sales in 2026 Add to Trades Since 2022 |
-| 10-19 18:02 | SMCI |  | Supermicro Supports Fortanix Confidential AI for Secure Enterprise AI Adoption |
-| 10-19 17:31 | CIEN |  | Ciena Insider Sells Shares Worth $870,157 |
-| 10-19 17:31 | AAPL |  | Apple Responds to OpenAI Legal Allegations |
-| 10-19 17:31 | WMT |  | Straight Talk Wireless Announces Service Enhancements |
-| 10-19 17:29 | AMZN GOOGL MSFT |  | 'Eric Schmidt’s 1% Anthropic Stake Set to Pay Massive Windfall'- Bloomberg |
-| 10-19 16:52 | TSLA |  | Tesla Q3 Earnings Preview: Can the Company Reverse Recent EPS, Revenue Misses? |
-| 10-19 16:38 | GS |  | Goldman, Evercore Explore Funds That Would Let PE Firms Hold Assets for 15 Years |
-| 10-19 16:31 | GS |  | Goldman Sachs and Evercore Pitch Evergreen Continuation Vehicles to Investors |
-| 10-19 16:31 | LLY |  | BofA Projects Continued Market Share Growth for Eli Lilly's Foundayo |
-| 10-19 16:31 | AMD |  | AMD Insider Executes Significant Share Sale |
-| 10-19 16:23 | NFLX |  | Netflix Stock Has Fallen After 5 Straight Reports: Will Q3 Break the Streak? |
-| 10-19 16:05 | AMZN NVDA |  | Amazon Just Found a Way Around Nvidia’s Biggest Moat |
-| 10-19 16:00 | ORCL |  | Here's How Much $100 Invested In Oracle 20 Years Ago Would Be Worth Today |

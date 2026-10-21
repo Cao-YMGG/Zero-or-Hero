@@ -1,0 +1,1358 @@
+{
+ "as_of": "2026-10-21T08:52-04:00",
+ "since": "2026-10-20T16:00-04:00",
+ "headlines": [
+  {
+   "time": "10-21 08:47",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk's Tesla-SpaceX Mega-Merger Could Create 'Most Unique Company in the World,' Says Analyst",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62493572/elon-musks-tesla-spacex-mega-merger-could-create-most-unique-company-in-the-world-says-analyst"
+  },
+  {
+   "time": "10-21 08:46",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "target down",
+   "headline": "Susquehanna Maintains Neutral on Intel, Lowers Price Target to $105",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62493516/susquehanna-maintains-neutral-intel-lowers-price-target-105"
+  },
+  {
+   "time": "10-21 08:45",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "target down",
+   "headline": "Susquehanna Maintains Positive on GE Aerospace, Lowers Price Target to $400",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62493480/susquehanna-maintains-positive-ge-aerospace-lowers-price-target-400"
+  },
+  {
+   "time": "10-21 08:41",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "target up",
+   "headline": "Susquehanna Maintains Positive on Advanced Micro Devices, Raises Price Target to $620",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62493353/susquehanna-maintains-positive-advanced-micro-devices-raises-price-target-620"
+  },
+  {
+   "time": "10-21 08:36",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "target down",
+   "headline": "RBC Capital Maintains Outperform on GE Aerospace, Lowers Price Target to $375",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62493149/rbc-capital-maintains-outperform-ge-aerospace-lowers-price-target-375"
+  },
+  {
+   "time": "10-21 08:32",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "target down",
+   "headline": "Guggenheim Maintains Buy on Netflix, Lowers Price Target to $78",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62492954/guggenheim-maintains-buy-netflix-lowers-price-target-78"
+  },
+  {
+   "time": "10-21 08:29",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "rating",
+   "headline": "Citizens Reiterates Market Perform on Netflixto Market Perform",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62492854/citizens-reiterates-market-perform-netflixto-market-perform"
+  },
+  {
+   "time": "10-21 08:27",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "target down",
+   "headline": "Wedbush Maintains Outperform on Netflix, Lowers Price Target to $80",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62492804/wedbush-maintains-outperform-netflix-lowers-price-target-80"
+  },
+  {
+   "time": "10-21 08:26",
+   "symbols": [
+    "GOOGL",
+    "INTC",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Earnings Prediction Market Preview: Will Elon Musk Discuss a SpaceX Merger?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62492793/tesla-earnings-musk-spacex-merger"
+  },
+  {
+   "time": "10-21 08:20",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia Stock Rises in Wednesday Premarket as Elon Musk Says SpaceX Is Adding 200,000 Chips a Month \u2014 Daniel Newman Says NVDA Is 'Ripping' (UPDATED)",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62485538/nvidia-pops-after-hours-spacex-musk-chips-newman-ripping"
+  },
+  {
+   "time": "10-21 08:18",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "target down",
+   "headline": "Bernstein Maintains Outperform on Netflix, Lowers Price Target to $80",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62492645/bernstein-maintains-outperform-netflix-lowers-price-target-80"
+  },
+  {
+   "time": "10-21 08:15",
+   "symbols": [
+    "GOOGL",
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "'OpenAI To Bring AI Models To Google\u2019s Cloud, In Further Expansion Beyond Microsoft' - CNBC",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62492564/openai-bring-ai-models-google-s-cloud-further-expansion-beyond-microsoft-cnbc"
+  },
+  {
+   "time": "10-21 08:14",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Telecome Italia Partners With Nvidia To Provide Advanced Capabilities To Develop, Deploy AI Applications; AI Platform, Developed By Tim Enterprise And Hosted In Italy, Will Integrate Group\u2019s Centralized Cloud And Distributed Edge Footprint With Nvidia Full-Stack AI Infrastructure",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62492508/telecome-italia-partners-nvidia-provide-advanced-capabilities-develop-deploy-ai-applications-ai-plat"
+  },
+  {
+   "time": "10-21 08:13",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "target up",
+   "headline": "B of A Securities Maintains Buy on Western Digital, Raises Price Target to $800",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62492494/b-securities-maintains-buy-western-digital-raises-price-target-800"
+  },
+  {
+   "time": "10-21 08:12",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Stock Sinks To 52-Week Low - Here's Why",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62492470/netflix-stock-sinks-to-52-week-low-heres-why"
+  },
+  {
+   "time": "10-21 08:12",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "target up",
+   "headline": "B of A Securities Maintains Buy on Seagate Technology Hldgs, Raises Price Target to $1200",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62492458/b-securities-maintains-buy-seagate-technology-hldgs-raises-price-target-1200"
+  },
+  {
+   "time": "10-21 08:09",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "SpaceX Earnings: 7 Big Questions Elon Musk Answered \u2014 and What Investors Should Watch Next",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62492289/spacex-earnings-musk-questions"
+  },
+  {
+   "time": "10-21 08:07",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVDA, CRWV, NBIS and Crypto Miners Surge After Elon Musk Says Cloud Providers 'Don't Have Any' AI Compute",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62492213/nvda-crwv-nbis-and-crypto-miners-surge-after-elon-musk-says-cloud-providers-dont-have-any-ai-compute"
+  },
+  {
+   "time": "10-21 08:04",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Southwest General Integrating Oracle Health Patient Accounting, Oracle Health Data Intelligence, Oracle Fusion Cloud Applications",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62492098/southwest-general-integrating-oracle-health-patient-accounting-oracle-health-data-intelligence-oracl"
+  },
+  {
+   "time": "10-21 08:03",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Viasat Announces Launch Of Rocket Lab-Built Spacecraft For NASA Satellite Relay Demonstration Under $81M In Contracts",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/RKLB"
+  },
+  {
+   "time": "10-21 08:02",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "downgrade",
+   "headline": "JPMorgan Chase Downgraded by MarketScreener",
+   "source": "fiscal.ai",
+   "url": "https://ch.marketscreener.com/boerse-nachrichten/corning-incorporated-jpmorgan-chase-stuft-jpmorgan-chase-von-neutral-auf-verkaufen-zurueck-ce785cd9d989f021"
+  },
+  {
+   "time": "10-21 08:01",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "initiate",
+   "headline": "Fubon Securities Initiates Coverage of Micron Technology with Buy Rating",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/fubon-securities-initiates-micron-technology-at-buy-with-1-260-price-target-ce785cd9d98cf520"
+  },
+  {
+   "time": "10-21 08:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Acts as Financial Advisor to Abbott in Transaction",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/abbott-announces-its-intention-to-separate-its-global-nutrition-business-into-an-independent-publicly-traded-company-302915339.html"
+  },
+  {
+   "time": "10-21 07:59",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "These Analysts Slash Their Forecasts On Netflix After Q3 Results",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62491675/these-analysts-slash-their-forecasts-on-netflix-after-q3-results"
+  },
+  {
+   "time": "10-21 07:48",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "target down",
+   "headline": "Rosenblatt Maintains Neutral on Netflix, Lowers Price Target to $71",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62491421/rosenblatt-maintains-neutral-netflix-lowers-price-target-71"
+  },
+  {
+   "time": "10-21 07:45",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Zscaler Supports Nvidia OpenShell Reference Architecture For Safe AI Agents",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62491393/zscaler-supports-nvidia-openshell-reference-architecture-safe-ai-agents"
+  },
+  {
+   "time": "10-21 07:43",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "initiate",
+   "headline": "Rosenblatt Initiates Coverage On Robinhood Markets with Buy Rating, Announces Price Target of $135",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62491343/rosenblatt-initiates-coverage-robinhood-markets-buy-rating-announces-price-target-135"
+  },
+  {
+   "time": "10-21 07:41",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Super Micro Computer Partners With Nokia To Deploy AI-RAN From Distributed Cell Sites To Centralized Network Hubs",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62491318/super-micro-computer-partners-nokia-deploy-ai-ran-distributed-cell-sites-centralized-network-hubs"
+  },
+  {
+   "time": "10-21 07:38",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Cadence Announces Availability Of AI Data Center In Munich, Integrating Cadence OnCloud, Nvidia Vera And Grace CPU Systems",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62491177/cadence-announces-availability-ai-data-center-munich-integrating-cadence-oncloud-nvidia-vera-and-gra"
+  },
+  {
+   "time": "10-21 07:37",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "ServiceNow Announces Updates For Governance, Security Across Its AI Offering With Nvidia",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62491123/servicenow-announces-updates-governance-security-across-its-ai-offering-nvidia"
+  },
+  {
+   "time": "10-21 07:37",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Vertiv And Nvidia Launch Faster AI Factory Approach To Combine Rapid Configuration And Virtual Validation; To Generate Up To 30% More Cumulative Token Output Within The First 12 Months",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62491112/vertiv-and-nvidia-launch-faster-ai-factory-approach-combine-rapid-configuration-and-virtual-validati"
+  },
+  {
+   "time": "10-21 07:36",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "HPE Partners With Nvidia To Roll Out Innovations Across Its HPE AI Factory",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62491097/hpe-partners-nvidia-roll-out-innovations-across-its-hpe-ai-factory"
+  },
+  {
+   "time": "10-21 07:35",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Dell Technologies Collaborates With Nvidia To Expand Advancements Across Dell AI Factory, Spanning New AI Services, Ecosystem Enhancements",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62491049/dell-technologies-collaborates-nvidia-expand-advancements-across-dell-ai-factory-spanning-new-ai-ser"
+  },
+  {
+   "time": "10-21 07:34",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Sereact, NVIDIA, Nebius, CEVA Logistics And Zalando Announce Closed Training Loop For Cortex, Sereact's Robot Brain",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62491009/sereact-nvidia-nebius-ceva-logistics-and-zalando-announce-closed-training-loop-cortex-sereact-s-robo"
+  },
+  {
+   "time": "10-21 07:33",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Einride AB Partners With Nvidia To Evaluate AI Reasoning Driving Model Nvidia Alpamayo",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62490962/einride-ab-partners-nvidia-evaluate-ai-reasoning-driving-model-nvidia-alpamayo"
+  },
+  {
+   "time": "10-21 07:32",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "CrowdStrike Announces Expanded Nvidia Collaboration To Integrate Falcon Guardian AI Agent Security With OpenShell, Plans Chip-Level Enforcement Via Sentry",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/NVDA"
+  },
+  {
+   "time": "10-21 07:32",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Announces Enhanced Capabilities for Business Payments",
+   "source": "fiscal.ai",
+   "url": "https://www.streetinsider.com/Press+Releases?before_id=27212838"
+  },
+  {
+   "time": "10-21 07:32",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "",
+   "headline": "Morgan Stanley Adjusts Price Target on Vistra to $226 From $227",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/morgan-stanley-adjusts-price-target-on-vistra-to-226-from-227-ce785cd8d081fe25"
+  },
+  {
+   "time": "10-21 07:32",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "",
+   "headline": "Raymond James Adjusts Price Target on Vistra to $176 From $182",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/raymond-james-adjusts-price-target-on-vistra-to-176-from-182-ce785cd8d080f42c"
+  },
+  {
+   "time": "10-21 07:32",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "rating",
+   "headline": "Needham Adjusts Robinhood Markets Price Target to $126 From $123",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/needham-adjusts-robinhood-markets-price-target-to-126-from-123-ce785cd9d98aff22"
+  },
+  {
+   "time": "10-21 07:31",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "rating",
+   "headline": "Needham & Co. Adjusts Coinbase Global Price Target to $205 From $200",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/needham-co-adjusts-coinbase-global-price-target-to-205-from-200-ce785cd9d98aff2c"
+  },
+  {
+   "time": "10-21 07:31",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Nutanix, Supermicro Announce Plans For Jointly Engineered On-Premises AI Inference System, Available In Early 2027",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/SMCI"
+  },
+  {
+   "time": "10-21 07:31",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "Susquehanna Adjusts Price Target on GE Aerospace to $400",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/susquehanna-adjusts-price-target-on-ge-aerospace-to-400-from-430-ce785cd8d080f224"
+  },
+  {
+   "time": "10-21 07:31",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Morgan Stanley Adjusts Price Target on Netflix",
+   "source": "fiscal.ai",
+   "url": "https://www.streetinsider.com/Analyst+Comments/Netflix+%28NFLX%29+PT+Lowered+to+%2477+at+Morgan+Stanley/27212609.html"
+  },
+  {
+   "time": "10-21 07:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Announces Global Supply Chain Expansion to Boost AI Manufacturing Capacity",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/21/3385344/0/en/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout.html"
+  },
+  {
+   "time": "10-21 07:24",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "target down",
+   "headline": "Morgan Stanley Maintains Overweight on GE Aerospace, Lowers Price Target to $375",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62490684/morgan-stanley-maintains-overweight-ge-aerospace-lowers-price-target-375"
+  },
+  {
+   "time": "10-21 07:18",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "downgrade",
+   "headline": "Needham Downgrades Netflix to Hold",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62490585/needham-downgrades-netflix-hold"
+  },
+  {
+   "time": "10-21 07:16",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "target down",
+   "headline": "Morgan Stanley Maintains Overweight on Netflix, Lowers Price Target to $77",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62490562/morgan-stanley-maintains-overweight-netflix-lowers-price-target-77"
+  },
+  {
+   "time": "10-21 07:08",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "target up",
+   "headline": "Needham Maintains Buy on Robinhood Markets, Raises Price Target to $126",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62490292/needham-maintains-buy-robinhood-markets-raises-price-target-126"
+  },
+  {
+   "time": "10-21 07:06",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "target down",
+   "headline": "B of A Securities Maintains Buy on Netflix, Lowers Price Target to $90",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62490235/b-securities-maintains-buy-netflix-lowers-price-target-90"
+  },
+  {
+   "time": "10-21 06:53",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia And Google Announce General Availability Of Vera Rubin Infrastructure; Google Cloud Plans To Scale Its Rubin-Based Infrastructure To As Many As 960K Rubin GPUs Across Multiple Sites; General Availability Of The Instances Is Coming Next Month",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62489686/nvidia-and-google-announce-general-availability-vera-rubin-infrastructure-google-cloud-plans-scale-i"
+  },
+  {
+   "time": "10-21 06:51",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "target up",
+   "headline": "Needham Maintains Buy on Coinbase Global, Raises Price Target to $205",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62489674/needham-maintains-buy-coinbase-global-raises-price-target-205"
+  },
+  {
+   "time": "10-21 06:47",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "rating",
+   "headline": "Cantor Fitzgerald Reiterates Overweight on Salesforce, Maintains $300 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62489607/cantor-fitzgerald-reiterates-overweight-salesforce-maintains-300-price-target"
+  },
+  {
+   "time": "10-21 06:44",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Expands Substrate Supply Chain With Ibiden, Samsung Electro-Mechanics, And Unimicron To Drive 2.5x Capacity Growth",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62489539/nvidia-expands-substrate-supply-chain-ibiden-samsung-electro-mechanics-and-unimicron-drive-2-5x-capa"
+  },
+  {
+   "time": "10-21 06:42",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA And SPIL To Boost Taiwan Optical Engine Capacity 15-Fold By 2027, Target Further Expansion By 2028",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62489492/nvidia-and-spil-boost-taiwan-optical-engine-capacity-15-fold-2027-target-further-expansion-2028"
+  },
+  {
+   "time": "10-21 06:40",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA And Amkor Plan To Expand Advanced Packaging Capacity In South Korea, Targeting Greater Than 300% Increase In Interposer Wafer Capacity By End Of 2028",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62489468/nvidia-and-amkor-plan-expand-advanced-packaging-capacity-south-korea-targeting-greater-300-increase-"
+  },
+  {
+   "time": "10-21 06:39",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Plans With Supply Chain Partners To Expand Global Manufacturing Capacity To Meet Growing Demand For Accelerated Computing And Full-Stack AI Factory Platform",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62489357/nvidia-plans-supply-chain-partners-expand-global-manufacturing-capacity-meet-growing-demand-accelera"
+  },
+  {
+   "time": "10-21 06:32",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Introduces DSX POD for Rapid AI Factory Deployment",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/21/3385267/0/en/nvidia-introduces-dsx-pod-ai-factories-to-accelerate-europe-s-infrastructure-deployment.html"
+  },
+  {
+   "time": "10-21 06:32",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Expands Isaac Robotics Platform with Humanoid Reference and Learning Frameworks",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/21/3385337/0/en/nvidia-advances-isaac-platform-for-general-purpose-robotics-with-new-reference-humanoid-frameworks-simulation-pipelines-and-data.html"
+  },
+  {
+   "time": "10-21 06:32",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Announces Healthcare Collaborations and New Protein Design Model",
+   "source": "fiscal.ai",
+   "url": "https://www.streetinsider.com/Globe+Newswire/Healthcare+and+Life+Sciences+Leaders+Build+on+NVIDIA+to+Advance+Drug+Discovery+and+Expand+Patient+Care/27212585.html"
+  },
+  {
+   "time": "10-21 06:32",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Global Telecom Operators Expand NVIDIA-Powered AI-RAN Infrastructure",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/21/3385332/0/en/nvidia-nokia-and-leading-telecom-operators-turn-networks-into-distributed-intelligence-platforms.html"
+  },
+  {
+   "time": "10-21 06:31",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Navatar Integrates Claude and Salesforce via Bidirectional MCP",
+   "source": "fiscal.ai",
+   "url": "https://www.streetinsider.com/Press+Releases?before_id=27211821"
+  },
+  {
+   "time": "10-21 06:31",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "downgrade",
+   "headline": "President Capital Downgrades GE Aerospace to Neutral",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/president-capital-downgrades-ge-aerospace-to-neutral-price-target-is-330-ce785cd8d089f524"
+  },
+  {
+   "time": "10-21 06:31",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir and NVIDIA Collaborate on OpenShell Reference Architecture for Secure AI Agents",
+   "source": "fiscal.ai",
+   "url": "https://news.futunn.com/hk/post/1001792409/nvidia-launches-openshell-reference-architecture-for-safe-ai-agents"
+  },
+  {
+   "time": "10-21 06:31",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova Joins NVIDIA Ecosystem for AI Factory Infrastructure",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/21/3385268/0/en/european-ecosystem-builds-world-s-most-efficient-ai-factories-with-nvidia-dsx.html"
+  },
+  {
+   "time": "10-21 06:31",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Micron Signs Labor-Management Deal With Taiwan Union",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/micron-signs-labor-management-deal-with-taiwan-union-ce785cd8d180f52c"
+  },
+  {
+   "time": "10-21 06:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart Canada and Tori Wesszer Unveil 2026 Holiday Fraiche Collection",
+   "source": "fiscal.ai",
+   "url": "https://pr.chinookobserver.com/article/Walmart-Canada-and-Tori-Wesszer-unveil-a-new-limited-edition-holiday-Fraiche-Collection-for-2026/6ad87febdba4ed9cc76d8595"
+  },
+  {
+   "time": "10-21 06:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "True Nutrition Technology to Expand Sales to Walmart.com",
+   "source": "fiscal.ai",
+   "url": "https://www.streetinsider.com/Press+Releases/TNT+Coming+Soon+to+Walmart.com+as+U.S.+Expansion+Continues/27212085.html"
+  },
+  {
+   "time": "10-21 06:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Integrates Cohere AI Models into Cloud Infrastructure",
+   "source": "fiscal.ai",
+   "url": "https://aimagazine.com/news/cohere-targets-agentic-ai-security-via-aisle-deal"
+  },
+  {
+   "time": "10-21 06:31",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD and Vultr Expand AI Computing Capacity in India",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1001831901/advanced-micro-devices-vultr-expand-ai-computing-capacity-in-india"
+  },
+  {
+   "time": "10-21 06:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "CAS Announces Availability of CAS Connections in Microsoft Copilot",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/in/news-releases/"
+  },
+  {
+   "time": "10-21 06:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Credera Announces Five-Year Strategic Collaboration Agreement with Amazon Web Services",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/business-technology-latest-news/networks-list/"
+  },
+  {
+   "time": "10-21 06:23",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta's Muse AI Agent Gains Traction Ahead of Q3 Earnings, Hits 10 Million Downloads in 40 Days as OpenAI\u2019s ChatGPT App Installs Slide 25% in US: Report",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62489056/metas-muse-ai-agent-gains-traction-ahead-of-q3-earnings-hits-10-million-downloads-in-40-days-as-openais-chatgpt-app-installs-slide-25-in-us-report"
+  },
+  {
+   "time": "10-21 06:22",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia Expands Its Isaac Open Robotics Platform With Reference Humanoid, Datasets And Runtime",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62489043/nvidia-expands-its-isaac-open-robotics-platform-reference-humanoid-datasets-and-runtime"
+  },
+  {
+   "time": "10-21 06:16",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia Launches Tools For Telecom Operators For Turning Networks Into Distributed Intelligence Platforms",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62488984/nvidia-launches-tools-telecom-operators-turning-networks-distributed-intelligence-platforms"
+  },
+  {
+   "time": "10-21 06:07",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62488771/meta-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts"
+  },
+  {
+   "time": "10-21 06:00",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "\u2018Could Happen This Week\u2019: Ross Gerber Says SpaceX Could Make $420 Tesla Bid, Spurred by 'Pretty Poor' Earnings From TSLA",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62488314/ross-gerber-says-spacex-make-420-tesla-bid-this-week"
+  },
+  {
+   "time": "10-21 05:59",
+   "symbols": [
+    "META",
+    "MSFT",
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Trump Floats \u2018Dividend\u2019 Payments to Communities Hosting AI Data Centers \u2014 Tells Big Tech That Financial Deals Can Turn Local Opposition Into \u2018Extremely Popular\u2019 Support",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62488256/trump-urges-data-center-community-dividends-amid-backlash"
+  },
+  {
+   "time": "10-21 05:58",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Industry Comparison: Evaluating Apple Against Competitors In Technology Hardware, Storage &amp; Peripherals Industry",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62488207/industry-comparison-evaluating-apple-against-competitors-technology-hardware-storage-amp-peripherals"
+  },
+  {
+   "time": "10-21 05:52",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia Introduces OpenShell Reference Architecture For Ensuring Safe Agents On Enterprise Infrastructure And Edge Systems",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62488152/nvidia-introduces-openshell-reference-architecture-ensuring-safe-agents-enterprise-infrastructure-an"
+  },
+  {
+   "time": "10-21 05:49",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "European Partners Adopt NVIDIA DSX AI Factory Platform To Cut Cooling Water To Near Zero And Power Use By Up To 30%",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62488120/european-partners-adopt-nvidia-dsx-ai-factory-platform-cut-cooling-water-near-zero-and-power-use-30"
+  },
+  {
+   "time": "10-21 05:46",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix CFO Eyes Double-Digit Revenue Growth Into 2027 Despite \u2018Modest\u2019 Viewership Gains, Points to 3 Key Drivers: \u2018Not Overly Dependent\u2026\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62488101/netflix-cfo-eyes-double-digit-revenue-growth-into-2027-despite-modest-viewership-gains-points-to-3-key-drivers-not-overly-dependent"
+  },
+  {
+   "time": "10-21 05:45",
+   "symbols": [
+    "GOOGL",
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Ted Sarandos Says Netflix 'Could Do Better\u2019 as YouTube, TikTok Threaten to Steal Viewers: Time to Take Shows and Movies 'To The Next Level'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62488058/netflix-ted-sarandos-content-quality"
+  },
+  {
+   "time": "10-21 05:43",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Unveils DSX POD Factory-Built Vera Rubin AI Factory Reference Design, Cutting Deployment From Six Months To As Little As 14 Days",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62488010/nvidia-unveils-dsx-pod-factory-built-vera-rubin-ai-factory-reference-design-cutting-deployment-six-m"
+  },
+  {
+   "time": "10-21 05:39",
+   "symbols": [
+    "META",
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "$39 or $150? Wall Street Can't Agree on CoreWeave's Future As AI Debt Fears Mount",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62487950/39-or-150-wall-street-cant-agree-on-coreweaves-future-as-ai-debt-fears-mount"
+  },
+  {
+   "time": "10-21 05:31",
+   "symbols": [
+    "TSM"
+   ],
+   "rating": "",
+   "headline": "TSMC Suspends Construction Work Following Fatal Accident in Kaohsiung",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/taiwan-semiconductor-reportedly-suspends-certain-construction-work-after-fatal-accident-in-kaohsiung-ce785cd8d180f720"
+  },
+  {
+   "time": "10-21 05:28",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Mark Zuckerberg Will Announce Muse on Meta Glasses Soon? Crypto Bettors Say Don't Hold Your Breath",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62487868/meta-glasses-ai-muse-mark-zuckerberg-q3"
+  },
+  {
+   "time": "10-21 05:26",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia CEO Huang Sais AI Marks Beginning Of New Industrial Revolution, Extending Beyond Software Into Machines And Infrastructure, Transforming Everything We Build And Enabling Creation Of New Technologies -Wall Street Journal",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/NVDA"
+  },
+  {
+   "time": "10-21 05:25",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia CEO Huang, At GTC Berlin, Said Co Invested Nearly \u20ac10B In Europe Over Past Year, With More Than 12K Partnerships - Wall Street Journal",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/NVDA"
+  },
+  {
+   "time": "10-21 05:10",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Top Analyst Says SpaceX, Super Micro's Blowout Results Delivered the Catalyst for Next AI Stock Rally: \u2018Odds Based on History Are High\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62487776/top-analyst-says-spacex-super-micros-blowout-results-delivered-the-catalyst-for-next-ai-stock-rally-odds-based-on-history-are-high"
+  },
+  {
+   "time": "10-21 05:01",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix CFO Admits He's 'Not Satisfied' With View Hour Growth as NFLX Bets on Brad Pitt's Cliff Booth Return, Narnia and NFL Games",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62487586/netflix-view-hour-growth-better-execution-us-brad-pitt-narnia-nfl"
+  },
+  {
+   "time": "10-21 04:16",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "TSLA, SPCX Stocks Are Trending In Pre-Market After Elon Musk Confirms Tesla-SpaceX Merger Committees",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62487368/tesla-spacex-shares-rise-musk-confirms-merger-committees"
+  },
+  {
+   "time": "10-21 03:23",
+   "symbols": [
+    "NVDA",
+    "TSLA",
+    "TSM"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Hints at SpaceX Chip Breakthroughs, Keeps Details Close: \u2018Let\u2019s Not Give Away the Shop\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62487002/elon-musk-spacex-potential-breakthroughs-chip-fabrication-terafab-tesla-2028"
+  },
+  {
+   "time": "10-21 03:01",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Micron Technology Reaches Labour-Management Agreement With Taiwan\u2019s Taichung Union, Both Sides Withdraw From October 22 Mediation",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62486805/micron-technology-reaches-labour-management-agreement-taiwan-s-taichung-union-both-sides-withdraw-oc"
+  },
+  {
+   "time": "10-21 02:21",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "Vultr Expands AMD Collaboration With 20 MW Chennai MI355X Supercluster For In-Country AI Workloads, Plans 2027 MI455X And Helios Expansion",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AMD"
+  },
+  {
+   "time": "10-21 02:00",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Says Social Media Can Feel Dark Sometimes, Here\u2019s the Other Place Billionaire Gets News",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/social-media/26/10/62486297/elon-musk-says-social-media-can-feel-dark-sometimes-heres-the-other-place-billionaire-gets-news"
+  },
+  {
+   "time": "10-21 01:39",
+   "symbols": [
+    "AMZN",
+    "GOOGL",
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "UK Watchdog Proposes Strategic Market Tag for Microsoft, Puts Excel and Copilot AI Under Competition Scrutiny (UPDATED)",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62427164/uk-watchdog-microsoft-competition-scrutiny"
+  },
+  {
+   "time": "10-21 00:49",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Says SPCX Could Reach Up to $1 Trillion ARR By 2027\u2014Gwynne Shotwell Says Starlink Is Contracted for 12,000 Aircraft",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/space/26/10/62486038/elon-musk-says-spcx-could-reach-up-to-1-trillion-arr-by-2027-gwynne-shotwell-says-starlink-is-contracted-for-12000-aircraft"
+  },
+  {
+   "time": "10-21 00:42",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Rocket Lab Stock Gains As Earnings Date Is Set, Wall Street Price Targets Signal Triple-Digit Upside",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62486025/rocket-lab-shares-rise-after-hours-third-quarter-earnings"
+  },
+  {
+   "time": "10-20 23:37",
+   "symbols": [
+    "AAPL",
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Pauses Muse AI Sharing After Researchers Say 6,800 Chats Were Exposed \u2018Like a Table Of Contents\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62485859/meta-muse-ai-chat-privacy-flaw"
+  },
+  {
+   "time": "10-20 23:34",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Dell, HPE Shares Jump After Hours as AI Server Rival Super Micro Raises Revenue Outlook: What You Should Know (CORRECTED)",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62485847/dell-technologies-shares-jump-after-hours-super-micro-outlook"
+  },
+  {
+   "time": "10-20 22:23",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Gene Munster Puts SpaceX-Tesla Merger Odds at 95%, but Says Elon Musk Is a \u2018Conflicted\u2019 Party: \u2018He Can\u2019t Be in the Conversation\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62485714/tesla-spacex-merger-odds-musk"
+  },
+  {
+   "time": "10-20 22:11",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Cathie Wood Sells $5.4 Million Worth of Palantir Stock as Ark Continues to Dump PLTR, Analyst Warns Valuation Prices In \u2018Years of Exceptional Execution\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/10/62485690/cathie-wood-ark-invest-sells-5-million-palantir-stock-valuation-warning"
+  },
+  {
+   "time": "10-20 22:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Nerdio Releases 2026 State of the MSP Business Report on Microsoft Cloud Ecosystem",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/20/3384525/0/en/32-of-managed-service-providers-have-adopted-ai-but-only-12-can-show-it-s-paying-off.html"
+  },
+  {
+   "time": "10-20 20:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "The Information Reported Earlier, Nvidia In Talks To Invest Hundreds Of Millions Of Dollars In Australian AI GPU Cloud Provider Firmus",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m/26/10/62485329/information-reported-earlier-nvidia-talks-invest-hundreds-millions-dollars-australian-ai-gpu-cloud-p"
+  },
+  {
+   "time": "10-20 20:01",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Chevron Moves to Take Over Iraqi Oil Field",
+   "source": "fiscal.ai",
+   "url": "https://eng.pressbee.net/show4933732.html?title=chevron-moves-to-take-over-russia-s-most-prized-iraqi-oil-field"
+  },
+  {
+   "time": "10-20 19:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Adjusts Price Target on UDR, Inc.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-price-target-on-udr-to-35-from-38-ce785cd8db8bff20"
+  },
+  {
+   "time": "10-20 19:01",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Reports Q3 2026 Financial Results",
+   "source": "fiscal.ai",
+   "url": "https://michaelwest.com.au/netflix-revenue-and-profit-grows-in-third-quarter/"
+  },
+  {
+   "time": "10-20 19:01",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel and AMD Announce Collaboration on oneDNN Software Optimizations",
+   "source": "fiscal.ai",
+   "url": "https://lxer.com/module/newswire/view/368332/index.html"
+  },
+  {
+   "time": "10-20 19:01",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla and SpaceX Explore Potential Merger",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/20261020419/teslas-stock-rises-as-elon-musk-drops-new-clues-about-a-possible-spacex-merger"
+  },
+  {
+   "time": "10-20 18:07",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Says AI Could Be a Threat, but He Can\u2019t Stop It: \u2018Be Participant or be a Spectator\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62484767/elon-musk-says-ai-could-be-a-threat-but-he-cant-stop-it-be-participant-or-be-a-spectator"
+  },
+  {
+   "time": "10-20 18:02",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Supermicro Announces Preliminary Fiscal Q1 2027 Revenue Results",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/super-micro-computer-reports-higher-fiscal-q1-preliminary-revenue-shares-rise-after-hours-ce785cd8dc88f220"
+  },
+  {
+   "time": "10-20 18:01",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Rocket Lab Announces Third Quarter 2026 Earnings Release Date",
+   "source": "fiscal.ai",
+   "url": "https://news.futunn.com/post/1001710465/rocket-lab-announces-date-of-third-quarter-2026-financial-results"
+  },
+  {
+   "time": "10-20 17:55",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Confirms SpaceX, Tesla Merger Committees, Calls Deal \u2018A Good Idea\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62484678/elon-musk-confirms-spacex-tesla-merger-committees-calls-deal-a-good-idea"
+  },
+  {
+   "time": "10-20 17:34",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Q3 2026 Earnings Call Transcript",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62484446/netflix-q3-2026-earnings-call-transcript"
+  },
+  {
+   "time": "10-20 17:25",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "SpaceX CEO Musk Says He Thinks A Merger With Tesla Would Be A Good Idea",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62484355/spacex-ceo-musk-says-he-thinks-merger-tesla-would-be-good-idea"
+  },
+  {
+   "time": "10-20 17:23",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "SpaceX CEO Musk Says Co And Tesla Have Formed Special Committees To Discuss Merger",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62484324/spacex-ceo-musk-says-co-and-tesla-have-formed-special-committees-discuss-merger"
+  },
+  {
+   "time": "10-20 17:05",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Executive Says We Expect To Deliver Strong Revenue Growth Into 2027",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62483892/netflix-executive-says-we-expect-deliver-strong-revenue-growth-2027"
+  },
+  {
+   "time": "10-20 16:58",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Co\u2011CEO Ted Sarandos Says We Do Need Better Execution In The US",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62483722/netflix-co-ceo-ted-sarandos-says-we-do-need-better-execution-us"
+  },
+  {
+   "time": "10-20 16:51",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Super Micro Computer Stock Surges on Increased AI Demand",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62483607/super-micro-computer-stock-surges-on-increased-ai-demand"
+  },
+  {
+   "time": "10-20 16:42",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Super Micro Computer Raises Q1 Sales Guidance from $14.500B-$15.500B to $18.500B-$19.500B vs $14.916B Est",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62483413/super-micro-computer-raises-q1-sales-guidance-14-500b-15-500b-18-500b-19-500b-vs-14-916b-est"
+  },
+  {
+   "time": "10-20 16:32",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Super Micro Computer Raises Q1 Revenue Range From $14.5B - $15.5B To $18.5B - $19.5B; Gross Margins Anticipated To Be In Range 12% - 12.5%",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62482963/super-micro-computer-raises-q1-revenue-range-14-5b-15-5b-18-5b-19-5b-gross-margins-anticipated-be-ra"
+  },
+  {
+   "time": "10-20 16:32",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Q3 Highlights: Shares Slide As Earnings Beat Overshadowed by Weak Q4 Guidance",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62482952/netflix-q3-highlights-shares-slide-as-earnings-beat-overshadowed-by-weak-q4-guidance"
+  },
+  {
+   "time": "10-20 16:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Adjusts Price Target on Eli Lilly",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-price-target-on-eli-lilly-to-1-413-from-1-371-ce785cd8d98df521"
+  },
+  {
+   "time": "10-20 16:31",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Reported Departure of Netflix Film Head Dan Lin",
+   "source": "fiscal.ai",
+   "url": "https://www.avclub.com/article-type/news"
+  },
+  {
+   "time": "10-20 16:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Forecasts Bitcoin to Outperform Stocks Over Next Decade",
+   "source": "fiscal.ai",
+   "url": "https://www.baystreet.ca/cryptonews/1412/JPMorgan-Expects-Bitcoin-To-Outperform-Stocks-Over-The-Next-Decade"
+  },
+  {
+   "time": "10-20 16:31",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "'Musk Ordered Starlink Slowdown That Blindsided Ukraine' - Wall Street Journal",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62482922/musk-ordered-starlink-slowdown-blindsided-ukraine-wall-street-journal"
+  },
+  {
+   "time": "10-20 16:31",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "Jury Verdict in Mazza v. ExxonMobil Litigation",
+   "source": "fiscal.ai",
+   "url": "https://dailycallernewsfoundation.org/2026/10/20/exxon-defeats-gasoline-cancer-claim-as-oil-companies-fend-off-sprawling-lawfare-push/"
+  },
+  {
+   "time": "10-20 16:30",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "Jamie Dimon Once Called Bitcoin a 'Fraud'\u2014Now JP Morgan Projects 10% Annualized Returns",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62482863/jamie-dimon-once-called-bitcoin-a-fraud-now-jp-morgan-projects-10-annualized-returns"
+  },
+  {
+   "time": "10-20 16:20",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Will Introduce Advertising Tier To 15 New Countries In 2027; Adjusted Expected 2026 FCF Forecast To ~$12B Vs. Prior Projection Of $12.5B",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62482535/netflix-will-introduce-advertising-tier-15-new-countries-2027-adjusted-expected-2026-fcf-forecast-12"
+  },
+  {
+   "time": "10-20 16:10",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "CORRECTION: Netflix Q3 EPS $0.87 Beats $0.82 Estimate, Sales $12.874B Miss $12.876B Estimate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/10/62482083/correction-netflix-q3-eps-0-87-beats-0-82-estimate-sales-12-874b-miss-12-876b-estimate"
+  },
+  {
+   "time": "10-20 16:03",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Narrows FY2026 Sales Guidance from $51.000B-$51.400B to $51.100B vs $51.230B Est",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62481638/netflix-narrows-fy2026-sales-guidance-51-000b-51-400b-51-100b-vs-51-230b-est"
+  },
+  {
+   "time": "10-20 16:03",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Q3 EPS $0.59 Misses $0.82 Estimate, Sales $11.510B Miss $12.876B Estimate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/10/62481632/netflix-q3-eps-0-59-misses-0-82-estimate-sales-11-510b-miss-12-876b-estimate"
+  },
+  {
+   "time": "10-20 16:03",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Sees Q4 GAAP EPS $0.67 vs $0.73 Est; Sees Sales $13.442B vs $13.517B Est",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62481592/netflix-sees-q4-gaap-eps-0-67-vs-0-73-est-sees-sales-13-442b-vs-13-517b-est"
+  }
+ ]
+}
