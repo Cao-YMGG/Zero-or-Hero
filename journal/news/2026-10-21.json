@@ -1,7 +1,77 @@
 {
- "as_of": "2026-10-21T10:02-04:00",
+ "as_of": "2026-10-21T10:32-04:00",
  "since": "2026-10-20T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-21 10:26",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "LIVE: Micro Technology And Product Webinar; Says Has \u201cMore Confidence In The Next Several Years Of Scaling On Both DRAM And NAND Than We Have In Quite Some Time,\u201d Supporting Continued Cost And Performance Improvements",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62498429/live-micro-technology-and-product-webinar-says-has-more-confidence-next-several-years-scaling-both-d"
+  },
+  {
+   "time": "10-21 10:26",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "target down",
+   "headline": "Evercore ISI Group Maintains Outperform on Netflix, Lowers Price Target to $90",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62498407/evercore-isi-group-maintains-outperform-netflix-lowers-price-target-90"
+  },
+  {
+   "time": "10-21 10:20",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "Why Is Advanced Micro Devices Stock Trending Wednesday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62498125/why-is-advanced-micro-devices-stock-trending-wednesday"
+  },
+  {
+   "time": "10-21 10:15",
+   "symbols": [
+    "ASML"
+   ],
+   "rating": "",
+   "headline": "$1000 Invested In ASML Holding 15 Years Ago Would Be Worth This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62497936/1000-invested-asml-holding-15-years-ago-would-be-worth-much-today"
+  },
+  {
+   "time": "10-21 10:12",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Stock Is Trading Just Under Its 200-Day Average Into Earnings. Here\u2019s What Investors Are Watching",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62497809/tesla-stock-is-trading-just-under-its-200-day-average-into-earnings-heres-what-investors-are-watching"
+  },
+  {
+   "time": "10-21 10:06",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "GE Aerospace Announces Aero-Dienst Takes Delivery Of First CF34 Powered Air Ambulance; To Deliver Second CF34 Powered Aircraft To Aero-Dienst Next Year",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62497434/ge-aerospace-announces-aero-dienst-takes-delivery-first-cf34-powered-air-ambulance-deliver-second-cf"
+  },
+  {
+   "time": "10-21 10:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Says It Will Have 'Limited' iPhone Duo Units Available For Walk-In Customers On October 23 Launch Date",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62497184/apple-says-it-will-have-limited-iphone-duo-units-available-walk-customers-october-23-launch-date"
+  },
   {
    "time": "10-21 09:55",
    "symbols": [

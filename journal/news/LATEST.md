@@ -1,9 +1,10 @@
-# Headlines since 2026-10-20 16:00 ET (as of 2026-10-21 10:02 ET)
+# Headlines since 2026-10-20 16:00 ET (as of 2026-10-21 10:32 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-21 10:26 | NFLX | target down | Evercore ISI Group Maintains Outperform on Netflix, Lowers Price Target to $90 |
 | 10-21 09:55 | CRM | downgrade | Salesforce-Braze Deal Draws Downgrades as Analysts Assess Acquisition Value |
 | 10-21 09:32 | MSFT | rating | Guggenheim Reiterates Buy on Microsoft, Maintains $586 Price Target |
 | 10-21 09:32 | GE | rating | Deutsche Bank Adjusts GE Aerospace Price Target to $378 |
@@ -32,6 +33,12 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-21 06:51 | COIN | target up | Needham Maintains Buy on Coinbase Global, Raises Price Target to $205 |
 | 10-21 06:47 | CRM | rating | Cantor Fitzgerald Reiterates Overweight on Salesforce, Maintains $300 Price Target |
 | 10-21 06:31 | GE | downgrade | President Capital Downgrades GE Aerospace to Neutral |
+| 10-21 10:26 | MU |  | LIVE: Micro Technology And Product Webinar; Says Has “More Confidence In The Next Several Years Of Scaling On Both DRAM And NAND Than We Have In Quite Some Time,” Supporting Continued Cost And Performance Improvements |
+| 10-21 10:20 | AMD |  | Why Is Advanced Micro Devices Stock Trending Wednesday? |
+| 10-21 10:15 | ASML |  | $1000 Invested In ASML Holding 15 Years Ago Would Be Worth This Much Today |
+| 10-21 10:12 | TSLA |  | Tesla Stock Is Trading Just Under Its 200-Day Average Into Earnings. Here’s What Investors Are Watching |
+| 10-21 10:06 | GE |  | GE Aerospace Announces Aero-Dienst Takes Delivery Of First CF34 Powered Air Ambulance; To Deliver Second CF34 Powered Aircraft To Aero-Dienst Next Year |
+| 10-21 10:01 | AAPL |  | Apple Says It Will Have 'Limited' iPhone Duo Units Available For Walk-In Customers On October 23 Launch Date |
 | 10-21 09:51 | NVDA SMCI |  | Why Is Dell Stock Surging Wednesday? |
 | 10-21 09:46 | GE |  | These Analysts Slash Their Forecasts On GE Aerospace After Q3 Results |
 | 10-21 09:42 | NVDA SMCI WDC |  | Super Micro Squeeze Watch: Revenue Guide Jumps, Margins Widen |
