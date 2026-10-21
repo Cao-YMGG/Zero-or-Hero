@@ -1,7 +1,49 @@
 {
- "as_of": "2026-10-21T11:33-04:00",
+ "as_of": "2026-10-21T12:03-04:00",
  "since": "2026-10-20T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-21 11:52",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "'JPMorgan\u2019s Turkey Securities Unit Plans to Cease Operations' - Bloomberg",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62501996/jpmorgan-s-turkey-securities-unit-plans-cease-operations-bloomberg"
+  },
+  {
+   "time": "10-21 11:51",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Why Is Coinbase Stock Surging Wednesday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62501952/why-is-coinbase-stock-surging-wednesday"
+  },
+  {
+   "time": "10-21 11:45",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "",
+   "headline": "Here's How Much $1000 Invested In Broadcom 15 Years Ago Would Be Worth Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62501776/here-s-how-much-1000-invested-broadcom-15-years-ago-would-be-worth-today"
+  },
+  {
+   "time": "10-21 11:33",
+   "symbols": [
+    "ASML",
+    "TSLA",
+    "TSM"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Can Build Terafab Faster Than Anyone, but Mass Production May Take Until 2030, Analyst Says",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62501365/tesla-terafab-mass-production-2030"
+  },
   {
    "time": "10-21 11:24",
    "symbols": [

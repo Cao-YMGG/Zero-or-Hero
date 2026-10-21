@@ -1,4 +1,4 @@
-# Headlines since 2026-10-20 16:00 ET (as of 2026-10-21 11:33 ET)
+# Headlines since 2026-10-20 16:00 ET (as of 2026-10-21 12:03 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -37,6 +37,10 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-21 06:51 | COIN | target up | Needham Maintains Buy on Coinbase Global, Raises Price Target to $205 |
 | 10-21 06:47 | CRM | rating | Cantor Fitzgerald Reiterates Overweight on Salesforce, Maintains $300 Price Target |
 | 10-21 06:31 | GE | downgrade | President Capital Downgrades GE Aerospace to Neutral |
+| 10-21 11:52 | JPM |  | 'JPMorgan’s Turkey Securities Unit Plans to Cease Operations' - Bloomberg |
+| 10-21 11:51 | COIN |  | Why Is Coinbase Stock Surging Wednesday? |
+| 10-21 11:45 | AVGO |  | Here's How Much $1000 Invested In Broadcom 15 Years Ago Would Be Worth Today |
+| 10-21 11:33 | ASML TSLA TSM |  | Elon Musk Can Build Terafab Faster Than Anyone, but Mass Production May Take Until 2030, Analyst Says |
 | 10-21 11:22 | INTC |  | Intel Anticipates Operations At Fab 62 To Begin By 2028 End |
 | 10-21 11:17 | PLTR |  | Watching Palantir Technologies; Hearing Investor Business Daily SwingTrader Buys Stock |
 | 10-21 11:15 | HOOD |  | Here's How Much $100 Invested In Robinhood Markets 5 Years Ago Would Be Worth Today |
