@@ -1,9 +1,11 @@
-# Headlines since 2026-10-20 16:00 ET (as of 2026-10-21 12:03 ET)
+# Headlines since 2026-10-20 16:00 ET (as of 2026-10-21 12:33 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-21 12:19 | LITE | target up | Jefferies Maintains Buy on Lumentum Holdings, Raises Price Target to $1250 |
+| 10-21 12:12 | CRM | target up | DA Davidson Maintains Neutral on Salesforce, Raises Price Target to $250 |
 | 10-21 11:24 | NFLX | target down | JP Morgan Maintains Overweight on Netflix, Lowers Price Target to $81 |
 | 10-21 11:21 | GE | target down | JP Morgan Maintains Overweight on GE Aerospace, Lowers Price Target to $375 |
 | 10-21 11:06 | NFLX | rating | TD Cowen Reiterates Buy on Netflix, Maintains $100 Price Target |
@@ -37,6 +39,11 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-21 06:51 | COIN | target up | Needham Maintains Buy on Coinbase Global, Raises Price Target to $205 |
 | 10-21 06:47 | CRM | rating | Cantor Fitzgerald Reiterates Overweight on Salesforce, Maintains $300 Price Target |
 | 10-21 06:31 | GE | downgrade | President Capital Downgrades GE Aerospace to Neutral |
+| 10-21 12:31 | GOOGL |  | 'Senators Express ‘Grave Concerns,’ Launch Inquiry Into Google’s AI Push In Schools; Sens. Richard Blumenthal And Josh Hawley Wrote To CEO Sundar Pichai Following A Wall Street Journal Investigation' - WSJ Exclusive |
+| 10-21 12:15 | WDC |  | If You Invested $100 In Western Digital Stock 20 Years Ago, You Would Have This Much Today |
+| 10-21 12:12 | TSLA |  | Tesla’s China Business Could Be the Biggest Obstacle to a SpaceX Merger |
+| 10-21 12:09 | NFLX |  | Netflix Stock Hits 2-Year Lows: Dan Ives Says Streamer Cut ‘Two of the Numbers That Matter Most’ |
+| 10-21 12:03 | META |  | Meta's AI Engine Is Firing Up — Will Earnings Show It's Worth the Billions? |
 | 10-21 11:52 | JPM |  | 'JPMorgan’s Turkey Securities Unit Plans to Cease Operations' - Bloomberg |
 | 10-21 11:51 | COIN |  | Why Is Coinbase Stock Surging Wednesday? |
 | 10-21 11:45 | AVGO |  | Here's How Much $1000 Invested In Broadcom 15 Years Ago Would Be Worth Today |

@@ -1,7 +1,77 @@
 {
- "as_of": "2026-10-21T12:03-04:00",
+ "as_of": "2026-10-21T12:33-04:00",
  "since": "2026-10-20T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-21 12:31",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "'Senators Express \u2018Grave Concerns,\u2019 Launch Inquiry Into Google\u2019s AI Push In Schools; Sens. Richard Blumenthal And Josh Hawley Wrote To CEO Sundar Pichai Following A Wall Street Journal Investigation' - WSJ Exclusive",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62503584/senators-express-grave-concerns-launch-inquiry-google-s-ai-push-schools-sens-richard-blumenthal-and-"
+  },
+  {
+   "time": "10-21 12:19",
+   "symbols": [
+    "LITE"
+   ],
+   "rating": "target up",
+   "headline": "Jefferies Maintains Buy on Lumentum Holdings, Raises Price Target to $1250",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62503109/jefferies-maintains-buy-lumentum-holdings-raises-price-target-1250"
+  },
+  {
+   "time": "10-21 12:15",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "If You Invested $100 In Western Digital Stock 20 Years Ago, You Would Have This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62502965/if-you-invested-100-western-digital-stock-20-years-ago-you-would-have-much-today"
+  },
+  {
+   "time": "10-21 12:12",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla\u2019s China Business Could Be the Biggest Obstacle to a SpaceX Merger",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m-a/26/10/62502869/tesla-china-spacex-merger"
+  },
+  {
+   "time": "10-21 12:12",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "target up",
+   "headline": "DA Davidson Maintains Neutral on Salesforce, Raises Price Target to $250",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62502847/da-davidson-maintains-neutral-salesforce-raises-price-target-250"
+  },
+  {
+   "time": "10-21 12:09",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Stock Hits 2-Year Lows: Dan Ives Says Streamer Cut \u2018Two of the Numbers That Matter Most\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62502631/netflix-stock-hits-2-year-lows-dan-ives-says-streamer-cut-two-of-the-numbers-that-matter-most"
+  },
+  {
+   "time": "10-21 12:03",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta's AI Engine Is Firing Up \u2014 Will Earnings Show It's Worth the Billions?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62502442/metas-ai-engine-is-firing-up-will-earnings-show-its-worth-the-billions"
+  },
   {
    "time": "10-21 11:52",
    "symbols": [
