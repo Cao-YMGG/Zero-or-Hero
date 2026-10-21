@@ -1,7 +1,77 @@
 {
- "as_of": "2026-10-21T14:46-04:00",
+ "as_of": "2026-10-21T15:17-04:00",
  "since": "2026-10-20T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-21 15:04",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "target down",
+   "headline": "Citigroup Maintains Buy on Netflix, Lowers Price Target to $85",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62508710/citigroup-maintains-buy-netflix-lowers-price-target-85"
+  },
+  {
+   "time": "10-21 15:02",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Ex-Google CEO Eric Schmidt Says AI Could Eliminate 20% of Jobs at Large Companies",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62508649/eric-schmidt-ai-jobs-large-companies"
+  },
+  {
+   "time": "10-21 15:01",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "UnitedHealth Group Sued by Major Corporations Over Claims Handling",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/ja/news/post/1001901363/unitedhealth-sued-by-aramark-kraft-others-over-claims-handling"
+  },
+  {
+   "time": "10-21 15:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "CIRO Schedules Settlement Hearing for Goldman Sachs Canada Inc.",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.ca/news-releases/hearing-notice-ciro-to-hold-a-settlement-hearing-for-goldman-sachs-canada-inc--892153052.html"
+  },
+  {
+   "time": "10-21 15:01",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "IronSight AI and Fast Iron Partner to Enhance Inventory Management for Caterpillar Dealers",
+   "source": "fiscal.ai",
+   "url": "https://markets.businessinsider.com/news/stocks/ironsight-ai-and-fast-iron-partner-to-bring-ai-powered-inventory-capture-to-caterpillar-komatsu-and-volvo-equipment-dealers-1036650499"
+  },
+  {
+   "time": "10-21 15:00",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "\u2018Ergonomically Terrible\u2019 \u2014 Steve Jobs Said Touchscreen MacBook Wouldn\u2019t Work, but Apple Is Finally Doing It Anyway",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62508566/steve-jobs-said-touchscreen-macbook-wouldnt-work-apple-is-doing-it-anyway"
+  },
+  {
+   "time": "10-21 14:44",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Why Is Circle Stock Surging on Wednesday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62508122/why-is-circle-stock-surging-on-wednesday"
+  },
   {
    "time": "10-21 14:32",
    "symbols": [

@@ -1,9 +1,10 @@
-# Headlines since 2026-10-20 16:00 ET (as of 2026-10-21 14:46 ET)
+# Headlines since 2026-10-20 16:00 ET (as of 2026-10-21 15:17 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-21 15:04 | NFLX | target down | Citigroup Maintains Buy on Netflix, Lowers Price Target to $85 |
 | 10-21 13:51 | LLY | target up | Leerink Partners Maintains Outperform on Eli Lilly, Raises Price Target to $1316 |
 | 10-21 13:23 | GE | target down | BNP Paribas Maintains Underperform on GE Aerospace, Lowers Price Target to $280 |
 | 10-21 13:06 | NFLX | target down | Oppenheimer Maintains Outperform on Netflix, Lowers Price Target to $80 |
@@ -43,6 +44,12 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-21 06:51 | COIN | target up | Needham Maintains Buy on Coinbase Global, Raises Price Target to $205 |
 | 10-21 06:47 | CRM | rating | Cantor Fitzgerald Reiterates Overweight on Salesforce, Maintains $300 Price Target |
 | 10-21 06:31 | GE | downgrade | President Capital Downgrades GE Aerospace to Neutral |
+| 10-21 15:02 | GOOGL |  | Ex-Google CEO Eric Schmidt Says AI Could Eliminate 20% of Jobs at Large Companies |
+| 10-21 15:01 | UNH |  | UnitedHealth Group Sued by Major Corporations Over Claims Handling |
+| 10-21 15:01 | GS |  | CIRO Schedules Settlement Hearing for Goldman Sachs Canada Inc. |
+| 10-21 15:01 | CAT |  | IronSight AI and Fast Iron Partner to Enhance Inventory Management for Caterpillar Dealers |
+| 10-21 15:00 | AAPL |  | ‘Ergonomically Terrible’ — Steve Jobs Said Touchscreen MacBook Wouldn’t Work, but Apple Is Finally Doing It Anyway |
+| 10-21 14:44 | TSLA |  | Why Is Circle Stock Surging on Wednesday? |
 | 10-21 14:32 | NVDA |  | Nebius Says It Faces Less Debt Risk Than CoreWeave As AI Spending Fears Mount |
 | 10-21 14:31 | GOOGL |  | Google Announces Availability Of Gemini In Google Maps Navigation On CarPlay |
 | 10-21 14:29 | RKLB |  | Why Is Rocket Lab Stock Surging on Wednesday? |
