@@ -1,9 +1,11 @@
-# Headlines since 2026-10-20 16:00 ET (as of 2026-10-21 12:33 ET)
+# Headlines since 2026-10-20 16:00 ET (as of 2026-10-21 13:15 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-21 13:06 | NFLX | target down | Oppenheimer Maintains Outperform on Netflix, Lowers Price Target to $80 |
+| 10-21 12:55 | VST | target down | Morgan Stanley Maintains Overweight on Vistra, Lowers Price Target to $226 |
 | 10-21 12:19 | LITE | target up | Jefferies Maintains Buy on Lumentum Holdings, Raises Price Target to $1250 |
 | 10-21 12:12 | CRM | target up | DA Davidson Maintains Neutral on Salesforce, Raises Price Target to $250 |
 | 10-21 11:24 | NFLX | target down | JP Morgan Maintains Overweight on Netflix, Lowers Price Target to $81 |
@@ -39,6 +41,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-21 06:51 | COIN | target up | Needham Maintains Buy on Coinbase Global, Raises Price Target to $205 |
 | 10-21 06:47 | CRM | rating | Cantor Fitzgerald Reiterates Overweight on Salesforce, Maintains $300 Price Target |
 | 10-21 06:31 | GE | downgrade | President Capital Downgrades GE Aerospace to Neutral |
+| 10-21 13:00 | META |  | UPDATE: Charles Gasparino Says "Speculation is growing that Meta will issue new stock to finance a massive buildout of AI infrastructure – even as Wall Street grows increasingly skittish over whether the big bets will pay off, On The Money has learned." - NY POST |
 | 10-21 12:31 | GOOGL |  | 'Senators Express ‘Grave Concerns,’ Launch Inquiry Into Google’s AI Push In Schools; Sens. Richard Blumenthal And Josh Hawley Wrote To CEO Sundar Pichai Following A Wall Street Journal Investigation' - WSJ Exclusive |
 | 10-21 12:15 | WDC |  | If You Invested $100 In Western Digital Stock 20 Years Ago, You Would Have This Much Today |
 | 10-21 12:12 | TSLA |  | Tesla’s China Business Could Be the Biggest Obstacle to a SpaceX Merger |

@@ -1,7 +1,37 @@
 {
- "as_of": "2026-10-21T12:33-04:00",
+ "as_of": "2026-10-21T13:15-04:00",
  "since": "2026-10-20T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-21 13:06",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "target down",
+   "headline": "Oppenheimer Maintains Outperform on Netflix, Lowers Price Target to $80",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62504915/oppenheimer-maintains-outperform-netflix-lowers-price-target-80"
+  },
+  {
+   "time": "10-21 13:00",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "UPDATE: Charles Gasparino Says \"Speculation is growing that Meta will issue new stock to finance a massive buildout of AI infrastructure \u2013 even as Wall Street grows increasingly skittish over whether the big bets will pay off, On The Money has learned.\" - NY POST",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62504618/update-charles-gasparino-says-speculation-growing-meta-will-issue-new-stock-finance-massive-buildout"
+  },
+  {
+   "time": "10-21 12:55",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "target down",
+   "headline": "Morgan Stanley Maintains Overweight on Vistra, Lowers Price Target to $226",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62504419/morgan-stanley-maintains-overweight-vistra-lowers-price-target-226"
+  },
   {
    "time": "10-21 12:31",
    "symbols": [
