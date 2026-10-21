@@ -1,8 +1,8 @@
-# Review — 2026-10-20
+# Review — 2026-10-21
 
 - Champion: **rebound_scanner**
-- Equity: **$578.33** (phase zero-or-hero)
-- Real trades: 8, realised P&L $+233.00
+- Equity: **$601.28** (phase zero-or-hero)
+- Real trades: 9, realised P&L $+256.00
 
 ## Shadow leaderboard (last 20 trades / all)
 
@@ -10,15 +10,15 @@
 |---|---|---|---|---|---|---|---|---|
 | stock_open_drive | 1 | 100% | +230.3% | +230% | +230% | +230% | 1 | +230.3% |
 | meta_follow2 | 4 | 75% | +87.7% | +351% | +259% | -95% | 4 | +87.7% |
-| catalyst_intraday | 2 | 100% | +74.4% | +149% | +147% | +2% | 2 | +74.4% |
+| claude_bias | 4 | 75% | +68.7% | +275% | +141% | -97% | 4 | +68.7% |
+| catalyst_intraday | 3 | 100% | +61.3% | +184% | +147% | +2% | 3 | +61.3% |
 | nvda_gapdown_put | 1 | 100% | +47.7% | +48% | +48% | +48% | 1 | +47.7% |
-| claude_bias | 3 | 67% | +44.6% | +134% | +121% | -97% | 3 | +44.6% |
 | catalyst_open | 7 | 43% | +8.1% | +57% | +339% | -100% | 7 | +8.1% |
 | spy_open_drive | 0 | 0% | +0.0% | +0% | +0% | +0% | 0 | +0.0% |
 | rebound_scanner 👑 | 4 | 25% | -26.1% | -105% | +188% | -100% | 4 | -26.1% |
-| megacap_reclaim | 5 | 20% | -28.6% | -143% | +227% | -100% | 5 | -28.6% |
-| leader_follow | 6 | 17% | -52.8% | -317% | +68% | -100% | 6 | -52.8% |
+| megacap_reclaim | 6 | 17% | -35.0% | -210% | +227% | -100% | 6 | -35.0% |
 | rebound_scanner_wide | 4 | 25% | -55.1% | -221% | +72% | -100% | 4 | -55.1% |
+| leader_follow | 7 | 14% | -57.7% | -404% | +68% | -100% | 7 | -57.7% |
 
 ## Ledgers (one $500 virtual account per variant, real paper orders)
 
@@ -41,3 +41,4 @@
 | 2026-10-16 | catalyst_open | AAPL261016C00355000 | 0.36 | 0.0 | 4 | -144.00 | expired |
 | 2026-10-19 | catalyst_open | MSFT261019C00537500 | 0.34 | 0.01 | 3 | -99.00 | time |
 | 2026-10-19 | stock_open_drive | TSLA261019C00365000 | 1.03 | 3.7 | 1 | +267.00 | time |
+| 2026-10-21 | catalyst_intraday | AMD261021C00562500 | 0.71 | 0.94 | 1 | +23.00 | time |

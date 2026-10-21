@@ -77,3 +77,8 @@ date,variant,mode,contract,direction,pnl_pct,thesis,entry,exit,discipline,score,
 2026-10-20,premarket_spy,call,,none,,,,,,,,right,"SPY +0.45% open to close; pre-market looked risk-off (QQQ -0.4%, SMH -1.3%, oil +1.2%) and turned after the open (oil reversed, record-low pending home sales pulled yields down, health care/small caps/banks led). A call from the pre-market picture would have been a put."
 2026-10-20,premarket_sniper,call,NVDA,call,,,,,,,,fizzled,"Reuters-relayed $35B China order, gap -0.5%; NVDA stayed below its open until 10:08 so catalyst_open never entered, closed 216.41 (+0.2% from open, below 217.09). The news did not move it: China license doubts, and the report could not be confirmed independently."
 2026-10-20,premarket_rotation,call,,,,,,,,,,mostly right,"health care / consumer / energy heating vs AI hardware cooling: health care led the day (XLV +2.2%, LLY +4.6%, UNH +3.5%); energy fell with oil (XLE -0.7%)."
+2026-10-21,claude_bias,shadow,SPY261021C00774000,call,1.4103,2,2,2,3,9,,,"auto; SPY 770.22->773.00, best 773.91 vs strike 774; peak 0.94"
+2026-10-21,leader_follow,shadow,NFLX261023C00069000,call,-0.875,0,0,1,3,4,,,"auto; NFLX 66.43->65.12, best 67.11 vs strike 69; peak 0.41"
+2026-10-21,megacap_reclaim,shadow,MSFT261021C00535000,call,-0.6667,2,0,1,3,6,unlucky,,"auto; MSFT 530.82->532.12, best 533.25 vs strike 535; peak 0.77"
+2026-10-21,catalyst_intraday,shadow,AMD261021C00562500,call,0.3521,2,1,2,3,8,,,"auto; AMD 554.31->555.69, best 556.30 vs strike 562.5; peak 1"
+2026-10-21,catalyst_intraday,real,AMD261021C00562500,call,0.3239,2,1,2,3,8,,,"auto; AMD 554.31->555.69, best 556.30 vs strike 562.5; peak 1"
