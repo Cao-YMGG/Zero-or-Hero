@@ -1,9 +1,10 @@
-# Headlines since 2026-10-20 16:00 ET (as of 2026-10-21 13:46 ET)
+# Headlines since 2026-10-20 16:00 ET (as of 2026-10-21 13:58 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-21 13:51 | LLY | target up | Leerink Partners Maintains Outperform on Eli Lilly, Raises Price Target to $1316 |
 | 10-21 13:23 | GE | target down | BNP Paribas Maintains Underperform on GE Aerospace, Lowers Price Target to $280 |
 | 10-21 13:06 | NFLX | target down | Oppenheimer Maintains Outperform on Netflix, Lowers Price Target to $80 |
 | 10-21 12:55 | VST | target down | Morgan Stanley Maintains Overweight on Vistra, Lowers Price Target to $226 |
@@ -42,6 +43,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-21 06:51 | COIN | target up | Needham Maintains Buy on Coinbase Global, Raises Price Target to $205 |
 | 10-21 06:47 | CRM | rating | Cantor Fitzgerald Reiterates Overweight on Salesforce, Maintains $300 Price Target |
 | 10-21 06:31 | GE | downgrade | President Capital Downgrades GE Aerospace to Neutral |
+| 10-21 13:49 | NVDA SMCI TSLA |  | SpaceX Bulls Get Louder After Q3 Earnings Print, But One Firm Flags $475B Funding Gap |
 | 10-21 13:37 | MU |  | 'Micron won't pursue 4F-squared memory chips despite CXMT's advance' - Nikkei Asia |
 | 10-21 13:18 | META |  | Meta Must Pay $25B In Penalties, New Mexico Judge Rules After Jury Found Company Misled Consumers About Privacy |
 | 10-21 13:00 | META |  | UPDATE: Charles Gasparino Says "Speculation is growing that Meta will issue new stock to finance a massive buildout of AI infrastructure – even as Wall Street grows increasingly skittish over whether the big bets will pay off, On The Money has learned." - NY POST |

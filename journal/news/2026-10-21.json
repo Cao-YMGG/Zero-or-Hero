@@ -1,7 +1,29 @@
 {
- "as_of": "2026-10-21T13:46-04:00",
+ "as_of": "2026-10-21T13:58-04:00",
  "since": "2026-10-20T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-21 13:51",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "target up",
+   "headline": "Leerink Partners Maintains Outperform on Eli Lilly, Raises Price Target to $1316",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62506395/leerink-partners-maintains-outperform-eli-lilly-raises-price-target-1316"
+  },
+  {
+   "time": "10-21 13:49",
+   "symbols": [
+    "NVDA",
+    "SMCI",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "SpaceX Bulls Get Louder After Q3 Earnings Print, But One Firm Flags $475B Funding Gap",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62506339/spacex-bulls-get-louder-after-q3-earnings-print-but-one-firm-flags-475b-funding-gap"
+  },
   {
    "time": "10-21 13:37",
    "symbols": [
