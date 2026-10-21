@@ -1,7 +1,27 @@
 {
- "as_of": "2026-10-21T13:15-04:00",
+ "as_of": "2026-10-21T13:38-04:00",
  "since": "2026-10-20T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-21 13:23",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "target down",
+   "headline": "BNP Paribas Maintains Underperform on GE Aerospace, Lowers Price Target to $280",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62505471/bnp-paribas-maintains-underperform-ge-aerospace-lowers-price-target-280"
+  },
+  {
+   "time": "10-21 13:18",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Must Pay $25B In Penalties, New Mexico Judge Rules After Jury Found Company Misled Consumers About Privacy",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62505308/meta-must-pay-25b-penalties-new-mexico-judge-rules-after-jury-found-company-misled-consumers-about-p"
+  },
   {
    "time": "10-21 13:06",
    "symbols": [
