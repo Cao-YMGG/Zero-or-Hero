@@ -265,6 +265,29 @@
       "half_at": 3.0
     },
     {
+      "id": "spy_open_drive_wide",
+      "signal": "momentum",
+      "after_minutes": 30,
+      "sides": [
+        "up"
+      ],
+      "target_delta": 0.15,
+      "take_profit": null,
+      "stop_loss": null,
+      "trail_after": null,
+      "entry_cutoff": "10:05",
+      "days": "non_event",
+      "skip_opex_week": true,
+      "threshold_pct": 0.3,
+      "weekdays": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "half_at": 3.0
+    },
+    {
       "id": "stock_open_drive",
       "universe": [
         "NVDA",
@@ -301,7 +324,10 @@
       "rebound_scanner",
       "nvda_gapdown_put",
       "spy_open_drive",
-      "stock_open_drive"
+      "stock_open_drive",
+      "leader_follow",
+      "megacap_reclaim",
+      "spy_open_drive_wide"
     ]
   }
 }
