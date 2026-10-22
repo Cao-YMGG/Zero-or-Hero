@@ -1,4 +1,18 @@
 {
+  "leader_follow": {
+    "generation": 1,
+    "history": [],
+    "real_trades": 0,
+    "realized": 0.0,
+    "started": "2026-10-22"
+  },
+  "megacap_reclaim": {
+    "generation": 1,
+    "history": [],
+    "real_trades": 0,
+    "realized": 0.0,
+    "started": "2026-10-22"
+  },
   "nvda_gapdown_put": {
     "generation": 1,
     "history": [],
@@ -19,6 +33,13 @@
     "real_trades": 0,
     "realized": 0.0,
     "started": "2026-10-19"
+  },
+  "spy_open_drive_wide": {
+    "generation": 1,
+    "history": [],
+    "real_trades": 0,
+    "realized": 0.0,
+    "started": "2026-10-22"
   },
   "stock_open_drive": {
     "generation": 1,

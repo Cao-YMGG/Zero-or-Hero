@@ -1,7 +1,348 @@
 {
- "as_of": "2026-10-22T08:53-04:00",
+ "as_of": "2026-10-22T10:02-04:00",
  "since": "2026-10-21T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-22 09:53",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "target up",
+   "headline": "JP Morgan Maintains Neutral on Tesla, Raises Price Target to $430",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62527911/jp-morgan-maintains-neutral-tesla-raises-price-target-430"
+  },
+  {
+   "time": "10-22 09:52",
+   "symbols": [
+    "META"
+   ],
+   "rating": "target up",
+   "headline": "JP Morgan Maintains Overweight on Meta Platforms, Raises Price Target to $940",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62527843/jp-morgan-maintains-overweight-meta-platforms-raises-price-target-940"
+  },
+  {
+   "time": "10-22 09:47",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Just Reversed Its 2026 CapEx Surge \u2014 Why Gordon Johnson Asks If It's the 'End of the AI Trade'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62527514/tesla-just-reversed-its-2026-capex-surge-why-gordon-johnson-asks-if-its-the-end-of-the-ai-trade"
+  },
+  {
+   "time": "10-22 09:39",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "'Shell And Exxon\u2019s $8B UK Chemicals Unit Put Up For Sale' - Financial Times",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62526915/shell-and-exxon-s-8b-uk-chemicals-unit-put-sale-financial-times"
+  },
+  {
+   "time": "10-22 09:37",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "rating",
+   "headline": "TD Cowen Reiterates Buy on Tesla, Maintains $460 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62526717/td-cowen-reiterates-buy-tesla-maintains-460-price-target"
+  },
+  {
+   "time": "10-22 09:32",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "initiate",
+   "headline": "HSBC Initiates Coverage on Vistra With Buy Rating",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/hsbc-initiates-coverage-on-vistra-with-buy-rating-190-price-target-ce785cded881f22d"
+  },
+  {
+   "time": "10-22 09:32",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "DeFi Development Corp.'s CHAD Preferred Stock Now Available on Robinhood",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1002025755/defi-development-corp-announces-chad-now-available-on-robinhood"
+  },
+  {
+   "time": "10-22 09:31",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "initiate",
+   "headline": "Tigress Financial Initiates Coverage on Broadcom",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/tigress-initiates-broadcom-at-buy-with-600-price-target-ce785cdedb89f42d"
+  },
+  {
+   "time": "10-22 09:31",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa in Discussions to Acquire Fireblocks",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/visa-in-discussions-to-buy-fireblocks-for-roughly-2-50-billion-axios-reports-ce785cdedb8bf021"
+  },
+  {
+   "time": "10-22 09:31",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "UnitedHealthcare Announces Support for Northeast Missouri Health Council Maternal Healthcare",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/corporate-activity/esg/"
+  },
+  {
+   "time": "10-22 09:31",
+   "symbols": [
+    "HD"
+   ],
+   "rating": "",
+   "headline": "The Home Depot Foundation Pledges $1 Billion to Veteran Causes by 2032",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/the-home-depot-foundation-pledges-1-billion-to-veteran-causes-by-2032-302915941.html"
+  },
+  {
+   "time": "10-22 09:31",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Announces Surge in Future Spending Commitments",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/flash/1002019134/meta-reports-825-billion-in-future-spending-commitments"
+  },
+  {
+   "time": "10-22 09:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Zadara Achieves NVIDIA AI Cloud Ready Validation",
+   "source": "fiscal.ai",
+   "url": "https://markets.businessinsider.com/news/stocks/zadara-achieves-nvidia-ai-cloud-ready-validation-and-will-showcase-its-ai-optimized-platform-at-nvidia-gtc-berlin-2026-1036654382"
+  },
+  {
+   "time": "10-22 09:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Infragistics Announces Collaboration with Microsoft to Advance Blazor",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/22/3386445/0/en/infragistics-to-strengthen-blazor-development-with-microsoft.html"
+  },
+  {
+   "time": "10-22 09:31",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla\u2019s Most Boring Business Upstages Entire Company",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62526408/teslas-most-boring-business-just-upstaged-the-entire-company-with-a-catch"
+  },
+  {
+   "time": "10-22 09:31",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Orangetheory Fitness Launches OTconnect for Apple Watch",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/orangetheory-fitness-launches-otconnect-for-apple-watch-302916283.html"
+  },
+  {
+   "time": "10-22 09:29",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platform's 5-year Credit Default Swaps Hit All-Time High, Last At 114.5 Basis Points",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62526325/meta-platform-s-5-year-credit-default-swaps-hit-all-time-high-last-114-5-basis-points"
+  },
+  {
+   "time": "10-22 09:26",
+   "symbols": [
+    "GOOGL",
+    "META"
+   ],
+   "rating": "",
+   "headline": "Top Economists Warn California\u2019s Billionaire Tax Could Backfire, Wealthy Residents Leaving Could Cost the State $39 Billion More Than It Collects: 'Will Not Fulfill the Primary Functions'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62526254/top-economists-warn-californias-billionaire-tax-could-backfire-wealthy-residents-leaving-could-cost-the-state-39-billion-more-than-it-collects-will-not-fulfill-the-primary-functions"
+  },
+  {
+   "time": "10-22 09:25",
+   "symbols": [
+    "META"
+   ],
+   "rating": "target down",
+   "headline": "TD Cowen Maintains Buy on Meta Platforms, Lowers Price Target to $850",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62526229/td-cowen-maintains-buy-meta-platforms-lowers-price-target-850"
+  },
+  {
+   "time": "10-22 09:18",
+   "symbols": [
+    "META"
+   ],
+   "rating": "target down",
+   "headline": "Piper Sandler Maintains Overweight on Meta Platforms, Lowers Price Target to $850",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62525957/piper-sandler-maintains-overweight-meta-platforms-lowers-price-target-850"
+  },
+  {
+   "time": "10-22 09:17",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Chevron Stock Hits New 52-Week High - Here's Why",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62525899/chevron-stock-hits-new-52-week-high-heres-why"
+  },
+  {
+   "time": "10-22 09:17",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "target up",
+   "headline": "Piper Sandler Maintains Overweight on Tesla, Raises Price Target to $475",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62525889/piper-sandler-maintains-overweight-tesla-raises-price-target-475"
+  },
+  {
+   "time": "10-22 09:16",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "initiate",
+   "headline": "Tigress Financial Initiates Coverage On Broadcom with Buy Rating, Announces Price Target of $600",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62525864/tigress-financial-initiates-coverage-broadcom-buy-rating-announces-price-target-600"
+  },
+  {
+   "time": "10-22 09:14",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Google CEO Says Fully Self-Improving AI Is Still a Long Way Off",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62525802/google-self-improving-ai-rsi-pichai"
+  },
+  {
+   "time": "10-22 09:12",
+   "symbols": [
+    "META"
+   ],
+   "rating": "rating",
+   "headline": "StoneX Reiterates Hold on Meta Platformsto Hold",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62525724/stonex-reiterates-hold-meta-platformsto-hold"
+  },
+  {
+   "time": "10-22 09:10",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Just Unveiled a New Takeover Weapon \u2014 But There's a Catch",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62525568/meta-just-unveiled-a-new-takeover-weapon-but-theres-a-catch"
+  },
+  {
+   "time": "10-22 09:10",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "rating",
+   "headline": "StoneX Reiterates Buy on Tesla, Maintains $475 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62525551/stonex-reiterates-buy-tesla-maintains-475-price-target"
+  },
+  {
+   "time": "10-22 09:09",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Affirm Partners Exclusively With SAM\u2019s Club In Multi-Year Deal, Launching Buy Now, Pay Later Online Before Expanding In-Store In 2027",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62525514/affirm-partners-exclusively-sam-s-club-multi-year-deal-launching-buy-now-pay-later-online-expanding-"
+  },
+  {
+   "time": "10-22 09:07",
+   "symbols": [
+    "META"
+   ],
+   "rating": "target up",
+   "headline": "Wedbush Maintains Neutral on Meta Platforms, Raises Price Target to $730",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62525396/wedbush-maintains-neutral-meta-platforms-raises-price-target-730"
+  },
+  {
+   "time": "10-22 09:07",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Jensen Huang Says Nvidia GPUs Could Last Over 8 Years, Not 4, Carry \u2018Really High\u2019 Residual Value: \u2018Lowest Risk\u2019 Assets for Lenders",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62525394/jensen-huang-says-nvidia-gpus-could-last-over-8-years-not-4-carry-really-high-residual-value-lowest-risk-assets-for-lenders"
+  },
+  {
+   "time": "10-22 09:06",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Stagwell Expands Partnership With Palantir Over AI-Powered Marketing Services",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62525316/stagwell-expands-partnership-palantir-over-ai-powered-marketing-services"
+  },
+  {
+   "time": "10-22 09:05",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Got Trump Tariff Refunds, and Elon Musk Isn\u2019t Sitting on the Cash \u2014 CFO Says Money Is Going Into...",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62525251/tesla-got-trump-tariff-refunds-and-elon-musk-isnt-sitting-on-the-cash-cfo-says-money-is-going-into"
+  },
+  {
+   "time": "10-22 09:04",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "BacTech Environmental Corporation Files Patent for Mine Water Remediation Process",
+   "source": "fiscal.ai",
+   "url": "https://www.thenewswire.com/press-releases/1AXXFzKmz-bactech-files-patent-on-process-that-turns-toxic-mine-water-into-saleable-iron-and-acid.html"
+  },
+  {
+   "time": "10-22 08:58",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel Earnings Are Around the Corner: Here\u2019s What to Expect",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62524716/intel-earnings-are-around-the-corner-heres-what-to-expect"
+  },
   {
    "time": "10-22 08:48",
    "symbols": [

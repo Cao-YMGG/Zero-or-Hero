@@ -1,9 +1,21 @@
-# Headlines since 2026-10-21 16:00 ET (as of 2026-10-22 08:53 ET)
+# Headlines since 2026-10-21 16:00 ET (as of 2026-10-22 10:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-22 09:53 | TSLA | target up | JP Morgan Maintains Neutral on Tesla, Raises Price Target to $430 |
+| 10-22 09:52 | META | target up | JP Morgan Maintains Overweight on Meta Platforms, Raises Price Target to $940 |
+| 10-22 09:37 | TSLA | rating | TD Cowen Reiterates Buy on Tesla, Maintains $460 Price Target |
+| 10-22 09:32 | VST | initiate | HSBC Initiates Coverage on Vistra With Buy Rating |
+| 10-22 09:31 | AVGO | initiate | Tigress Financial Initiates Coverage on Broadcom |
+| 10-22 09:25 | META | target down | TD Cowen Maintains Buy on Meta Platforms, Lowers Price Target to $850 |
+| 10-22 09:18 | META | target down | Piper Sandler Maintains Overweight on Meta Platforms, Lowers Price Target to $850 |
+| 10-22 09:17 | TSLA | target up | Piper Sandler Maintains Overweight on Tesla, Raises Price Target to $475 |
+| 10-22 09:16 | AVGO | initiate | Tigress Financial Initiates Coverage On Broadcom with Buy Rating, Announces Price Target of $600 |
+| 10-22 09:12 | META | rating | StoneX Reiterates Hold on Meta Platformsto Hold |
+| 10-22 09:10 | TSLA | rating | StoneX Reiterates Buy on Tesla, Maintains $475 Price Target |
+| 10-22 09:07 | META | target up | Wedbush Maintains Neutral on Meta Platforms, Raises Price Target to $730 |
 | 10-22 08:48 | META | rating | Guggenheim Reiterates Buy on Meta Platforms, Maintains $850 Price Target |
 | 10-22 08:48 | META | target up | Rosenblatt Maintains Buy on Meta Platforms, Raises Price Target to $900 |
 | 10-22 08:41 | GOOGL | target down | Citizens Maintains Market Outperform on Alphabet, Lowers Price Target to $450 |
@@ -25,6 +37,28 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-22 05:57 | MU | rating | Needham Reiterates Buy on Micron Technology, Maintains $1650 Price Target |
 | 10-22 05:52 | NVDA | rating | Needham Reiterates Buy on NVIDIA, Maintains $300 Price Target |
 | 10-22 02:47 | AMZN | upgrade | Reported Earlier, Amazon Threat Intelligence Detects PHP2Shell Exploitation Attempt On Oct. 17, Four Days Before Public Disclosure Of CVE-2026-109618, CVE-2026-109619; Urges Immediate Upgrade |
+| 10-22 09:47 | TSLA |  | Tesla Just Reversed Its 2026 CapEx Surge — Why Gordon Johnson Asks If It's the 'End of the AI Trade' |
+| 10-22 09:39 | XOM |  | 'Shell And Exxon’s $8B UK Chemicals Unit Put Up For Sale' - Financial Times |
+| 10-22 09:32 | HOOD |  | DeFi Development Corp.'s CHAD Preferred Stock Now Available on Robinhood |
+| 10-22 09:31 | V |  | Visa in Discussions to Acquire Fireblocks |
+| 10-22 09:31 | UNH |  | UnitedHealthcare Announces Support for Northeast Missouri Health Council Maternal Healthcare |
+| 10-22 09:31 | HD |  | The Home Depot Foundation Pledges $1 Billion to Veteran Causes by 2032 |
+| 10-22 09:31 | META |  | Meta Announces Surge in Future Spending Commitments |
+| 10-22 09:31 | NVDA |  | Zadara Achieves NVIDIA AI Cloud Ready Validation |
+| 10-22 09:31 | MSFT |  | Infragistics Announces Collaboration with Microsoft to Advance Blazor |
+| 10-22 09:31 | TSLA |  | Tesla’s Most Boring Business Upstages Entire Company |
+| 10-22 09:31 | AAPL |  | Orangetheory Fitness Launches OTconnect for Apple Watch |
+| 10-22 09:29 | META |  | Meta Platform's 5-year Credit Default Swaps Hit All-Time High, Last At 114.5 Basis Points |
+| 10-22 09:26 | GOOGL META |  | Top Economists Warn California’s Billionaire Tax Could Backfire, Wealthy Residents Leaving Could Cost the State $39 Billion More Than It Collects: 'Will Not Fulfill the Primary Functions' |
+| 10-22 09:17 | CVX |  | Chevron Stock Hits New 52-Week High - Here's Why |
+| 10-22 09:14 | GOOGL |  | Google CEO Says Fully Self-Improving AI Is Still a Long Way Off |
+| 10-22 09:10 | META |  | Meta Just Unveiled a New Takeover Weapon — But There's a Catch |
+| 10-22 09:09 | WMT |  | Affirm Partners Exclusively With SAM’s Club In Multi-Year Deal, Launching Buy Now, Pay Later Online Before Expanding In-Store In 2027 |
+| 10-22 09:07 | NVDA |  | Jensen Huang Says Nvidia GPUs Could Last Over 8 Years, Not 4, Carry ‘Really High’ Residual Value: ‘Lowest Risk’ Assets for Lenders |
+| 10-22 09:06 | PLTR |  | Stagwell Expands Partnership With Palantir Over AI-Powered Marketing Services |
+| 10-22 09:05 | TSLA |  | Tesla Got Trump Tariff Refunds, and Elon Musk Isn’t Sitting on the Cash — CFO Says Money Is Going Into... |
+| 10-22 09:04 | BAC |  | BacTech Environmental Corporation Files Patent for Mine Water Remediation Process |
+| 10-22 08:58 | INTC |  | Intel Earnings Are Around the Corner: Here’s What to Expect |
 | 10-22 08:48 | TSLA |  | 'Almost Everything Elon Musk Touches’ Grows 10x and More, Says Top Analyst as He Makes the Case for Tesla-SpaceX Merger |
 | 10-22 08:26 | V |  | 'Visa In Talks To Acquire Fireblocks For Around $2.5B' - Axios Pro Exclusive |
 | 10-22 08:21 | META |  | Meta's $145 Billion AI Bet Doesn't Scare This Bull: Why He Thinks Bears Are Wrong |

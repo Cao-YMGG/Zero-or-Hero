@@ -1,39 +1,75 @@
 {
-  "date": "2026-10-21",
-  "done": true,
+  "date": "2026-10-22",
+  "done": false,
   "variants": {
     "claude_bias": {
       "attempts": 1,
       "entered": true,
-      "closed": true
+      "shadow": {
+        "contract": "SPY261022P00763000",
+        "direction": "put",
+        "entry_time": "2026-10-22T09:36:27-04:00",
+        "entry_price": 0.53,
+        "peak": 0.89,
+        "qty": 2,
+        "last": 0.39,
+        "last_time": "2026-10-22T10:02:21-04:00"
+      }
     },
     "meta_follow2": {},
     "leader_follow": {
       "attempts": 1,
       "entered": true,
-      "closed": true
+      "shadow": {
+        "contract": "NFLX261023C00068000",
+        "direction": "call",
+        "entry_time": "2026-10-22T09:46:08-04:00",
+        "entry_price": 0.29,
+        "peak": 0.29,
+        "qty": 4,
+        "last": 0.12,
+        "last_time": "2026-10-22T10:02:21-04:00"
+      },
+      "real": {
+        "contract": "NFLX261023C00068000",
+        "qty": 3,
+        "underlying": "NFLX",
+        "entry_price": 0.27,
+        "entry_time": "2026-10-22T09:46:15-04:00"
+      }
     },
-    "megacap_reclaim": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
+    "megacap_reclaim": {},
     "rebound_scanner": {},
     "rebound_scanner_wide": {},
     "nvda_gapdown_put": {},
-    "catalyst_open": {},
-    "catalyst_intraday": {
+    "catalyst_open": {
       "attempts": 1,
       "entered": true,
-      "closed": true
+      "shadow": {
+        "contract": "UNH261023C00430000",
+        "direction": "call",
+        "entry_time": "2026-10-22T09:32:00-04:00",
+        "entry_price": 0.52,
+        "peak": 0.77,
+        "qty": 2,
+        "last": 0.75,
+        "last_time": "2026-10-22T10:02:21-04:00"
+      },
+      "real": {
+        "contract": "UNH261023C00430000",
+        "qty": 2,
+        "underlying": "UNH",
+        "entry_price": 0.52,
+        "entry_time": "2026-10-22T09:32:11-04:00"
+      }
     },
+    "catalyst_intraday": {},
     "spy_open_drive": {},
-    "stock_open_drive": {
-      "attempts": 3
-    }
+    "spy_open_drive_wide": {},
+    "stock_open_drive": {}
   },
   "generation": 1,
-  "equity_start": 578.3300000000017,
+  "equity_start": 601.2099999999991,
   "phase": "zero-or-hero",
   "risk_per_trade": 0.2,
   "champion": "rebound_scanner",
@@ -57,9 +93,24 @@
       "equity": 767.0,
       "generation": 1,
       "paused": false
+    },
+    "leader_follow": {
+      "equity": 500.0,
+      "generation": 1,
+      "paused": false
+    },
+    "megacap_reclaim": {
+      "equity": 500.0,
+      "generation": 1,
+      "paused": false
+    },
+    "spy_open_drive_wide": {
+      "equity": 500.0,
+      "generation": 1,
+      "paused": false
     }
   },
   "real_underlyings": [
-    "AMD"
+    "UNH"
   ]
 }
