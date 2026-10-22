@@ -1,4 +1,4 @@
-# Headlines since 2026-10-21 16:00 ET (as of 2026-10-22 10:02 ET)
+# Headlines since 2026-10-21 16:00 ET (as of 2026-10-22 10:32 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -37,6 +37,11 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-22 05:57 | MU | rating | Needham Reiterates Buy on Micron Technology, Maintains $1650 Price Target |
 | 10-22 05:52 | NVDA | rating | Needham Reiterates Buy on NVIDIA, Maintains $300 Price Target |
 | 10-22 02:47 | AMZN | upgrade | Reported Earlier, Amazon Threat Intelligence Detects PHP2Shell Exploitation Attempt On Oct. 17, Four Days Before Public Disclosure Of CVE-2026-109618, CVE-2026-109619; Urges Immediate Upgrade |
+| 10-22 10:29 | NVDA |  | Nvidia CEO Jensen Huang Says US Must Take China ‘Seriously,’ Warns Against Underestimating Its AI and Chipmaking Prowess: ‘If There's One Country That Could Manufacture Things at Scale’ |
+| 10-22 10:23 | META |  | Comcast Calls Rival Broadband Pricing 'Irrational' As Competition Heats Up |
+| 10-22 10:21 | MSFT NVDA |  | Jensen Huang on Keeping AI Under Control: 'You Contain the Baby and You Monitor It' |
+| 10-22 10:03 | NFLX |  | Netflix, Hoichoi Join Forces To Bring Acclaimed Stories, New Premieres, Adaptations To Audiences Worldwide |
+| 10-22 10:00 | AMZN |  | Here’s How Much You Would Have Made Owning Amazon.com Stock In The Last 10 Years |
 | 10-22 09:47 | TSLA |  | Tesla Just Reversed Its 2026 CapEx Surge — Why Gordon Johnson Asks If It's the 'End of the AI Trade' |
 | 10-22 09:39 | XOM |  | 'Shell And Exxon’s $8B UK Chemicals Unit Put Up For Sale' - Financial Times |
 | 10-22 09:32 | HOOD |  | DeFi Development Corp.'s CHAD Preferred Stock Now Available on Robinhood |

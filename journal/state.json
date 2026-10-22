@@ -5,16 +5,7 @@
     "claude_bias": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "SPY261022P00763000",
-        "direction": "put",
-        "entry_time": "2026-10-22T09:36:27-04:00",
-        "entry_price": 0.53,
-        "peak": 0.89,
-        "qty": 2,
-        "last": 0.39,
-        "last_time": "2026-10-22T10:02:21-04:00"
-      }
+      "closed": true
     },
     "meta_follow2": {},
     "leader_follow": {
@@ -27,8 +18,8 @@
         "entry_price": 0.29,
         "peak": 0.29,
         "qty": 4,
-        "last": 0.12,
-        "last_time": "2026-10-22T10:02:21-04:00"
+        "last": 0.14,
+        "last_time": "2026-10-22T10:32:52-04:00"
       },
       "real": {
         "contract": "NFLX261023C00068000",
@@ -50,10 +41,10 @@
         "direction": "call",
         "entry_time": "2026-10-22T09:32:00-04:00",
         "entry_price": 0.52,
-        "peak": 0.77,
+        "peak": 0.93,
         "qty": 2,
-        "last": 0.75,
-        "last_time": "2026-10-22T10:02:21-04:00"
+        "last": 0.81,
+        "last_time": "2026-10-22T10:32:52-04:00"
       },
       "real": {
         "contract": "UNH261023C00430000",
@@ -63,7 +54,27 @@
         "entry_time": "2026-10-22T09:32:11-04:00"
       }
     },
-    "catalyst_intraday": {},
+    "catalyst_intraday": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "MSFT261023P00515000",
+        "direction": "put",
+        "entry_time": "2026-10-22T10:29:00-04:00",
+        "entry_price": 1.05,
+        "peak": 1.12,
+        "qty": 1,
+        "last": 0.93,
+        "last_time": "2026-10-22T10:32:52-04:00"
+      },
+      "real": {
+        "contract": "MSFT261023P00515000",
+        "qty": 1,
+        "underlying": "MSFT",
+        "entry_price": 1.02,
+        "entry_time": "2026-10-22T10:29:43-04:00"
+      }
+    },
     "spy_open_drive": {},
     "spy_open_drive_wide": {},
     "stock_open_drive": {}
@@ -111,6 +122,7 @@
     }
   },
   "real_underlyings": [
-    "UNH"
+    "UNH",
+    "MSFT"
   ]
 }

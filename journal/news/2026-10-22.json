@@ -1,7 +1,58 @@
 {
- "as_of": "2026-10-22T10:02-04:00",
+ "as_of": "2026-10-22T10:32-04:00",
  "since": "2026-10-21T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-22 10:29",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia CEO Jensen Huang Says US Must Take China \u2018Seriously,\u2019 Warns Against Underestimating Its AI and Chipmaking Prowess: \u2018If There's One Country That Could Manufacture Things at Scale\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62529878/nvidia-ceo-jensen-huang-says-us-must-take-china-seriously-warns-against-underestimating-its-ai-and-chipmaking-prowess-if-theres-one-country-that-could-manufacture-things"
+  },
+  {
+   "time": "10-22 10:23",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Comcast Calls Rival Broadband Pricing 'Irrational' As Competition Heats Up",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62529554/comcast-calls-rival-broadband-pricing-irrational-as-competition-heats-up"
+  },
+  {
+   "time": "10-22 10:21",
+   "symbols": [
+    "MSFT",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Jensen Huang on Keeping AI Under Control: 'You Contain the Baby and You Monitor It'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62529457/jensen-huang-ai-safety-openshell"
+  },
+  {
+   "time": "10-22 10:03",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix, Hoichoi Join Forces To Bring Acclaimed Stories, New Premieres, Adaptations To Audiences Worldwide",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62528543/netflix-hoichoi-join-forces-bring-acclaimed-stories-new-premieres-adaptations-audiences-worldwide"
+  },
+  {
+   "time": "10-22 10:00",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Here\u2019s How Much You Would Have Made Owning Amazon.com Stock In The Last 10 Years",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62528334/here-s-how-much-you-would-have-made-owning-amazon-com-stock-last-10-years"
+  },
   {
    "time": "10-22 09:53",
    "symbols": [
