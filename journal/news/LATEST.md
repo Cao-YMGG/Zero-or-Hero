@@ -1,9 +1,11 @@
-# Headlines since 2026-10-21 16:00 ET (as of 2026-10-22 15:17 ET)
+# Headlines since 2026-10-21 16:00 ET (as of 2026-10-22 17:27 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-22 15:42 | TSLA | target up | UBS Maintains Neutral on Tesla, Raises Price Target to $425 |
+| 10-22 15:40 | META | target up | UBS Maintains Buy on Meta Platforms, Raises Price Target to $892 |
 | 10-22 15:11 | META | target up | Citigroup Maintains Buy on Meta Platforms, Raises Price Target to $905 |
 | 10-22 15:07 | PLTR | target up | Citigroup Maintains Buy on Palantir Technologies, Raises Price Target to $250 |
 | 10-22 14:51 | META | target up | DA Davidson Maintains Buy on Meta Platforms, Raises Price Target to $800 |
@@ -56,6 +58,26 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-22 05:57 | MU | rating | Needham Reiterates Buy on Micron Technology, Maintains $1650 Price Target |
 | 10-22 05:52 | NVDA | rating | Needham Reiterates Buy on NVIDIA, Maintains $300 Price Target |
 | 10-22 02:47 | AMZN | upgrade | Reported Earlier, Amazon Threat Intelligence Detects PHP2Shell Exploitation Attempt On Oct. 17, Four Days Before Public Disclosure Of CVE-2026-109618, CVE-2026-109619; Urges Immediate Upgrade |
+| 10-22 17:15 | META |  | Bill Ackman Says Meta Can Finance 'Whatever They Want,' Points to $82 Billion Cash |
+| 10-22 17:03 | INTC |  | The Federal Communications Commission Said On Thursday It Has Granted A Waiver To Intel From Its Ban On Some Foreign-Made Advanced Robotics; FCC Said It Would Grant A One-Year Waiver Of Its Rules In Order To Prevent "Potential Disruptions In The Availability Of Domestic Semiconductor Manufacturing Services For Intel’s Customers." |
+| 10-22 16:51 | WDC |  | Western Digital Exec Says Customer Demand Remains Healthy And Our Visibility Is Extending Further Out |
+| 10-22 16:45 | TSLA |  | SpaceX Says Any Potential Tesla Combination Would Be Subject To Further Approval By Our Special Committee, Board & Controlling Shareholder |
+| 10-22 16:31 | WDC |  | Western Digital Reports Fiscal Q1 2027 Earnings Beat and Sets Q2 Guidance |
+| 10-22 16:31 | HOOD |  | Robinhood CEO Participates in Dataline Investment |
+| 10-22 16:31 | GEV |  | GE Vernova Prepares for Q3 2026 Earnings Release |
+| 10-22 16:31 | GEV |  | GE Vernova Shares Experience Significant Intraday Decline |
+| 10-22 16:31 | JPM |  | JPMorganChase Announces $10 Million Loan to Support Atlanta Small Businesses |
+| 10-22 16:31 | NVDA |  | Merck Collaborates with NVIDIA, Microsoft, and Dawn Health on Patient Support Model |
+| 10-22 16:31 | TSLA |  | SpaceX Says During Three & Nine Months Ended September 30, Purchased $151M And $480M, Respectively, Of Megapack Products From Tesla |
+| 10-22 16:21 | MSFT |  | 'OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors'- CNBC |
+| 10-22 16:19 | META |  | Meta’s Muse Downloads Top 10 Million, Join Elite Company: Here’s the 2 Non-Game Apps to Hit Same Milestone |
+| 10-22 16:17 | WDC |  | Western Digital Stock Climbs on Solid Q1 EPS, Revenue Beats |
+| 10-22 16:04 | WDC |  | Western Digital Raises Quarterly Dividend From $0.15 To $0.175 Per Share |
+| 10-22 16:02 | WDC |  | Western Digital Sees Q2 Adj EPS $5.60-$6.00 vs $4.79 Est; Sees Sales $5.000B-$5.200B vs $4.566B Est |
+| 10-22 16:01 | WDC |  | Western Digital Q1 Adj. EPS $4.64 Beats $4.07 Estimate, Sales $4.381B Beat $4.131B Estimate |
+| 10-22 15:43 | STX WDC |  | Western Digital Is Down 55% From Its June Peak. Can DRAM and SOXX ETFs Hold Up? |
+| 10-22 15:40 | MSFT |  | OpenAI Makes The Decisions API Generally Available |
+| 10-22 15:36 | AAPL AMZN GOOGL META |  | Meta Analysts Revise Price Target After Q3 Core Ad Strength, Muse Concerns Remain |
 | 10-22 15:03 | SNDK |  | SanDisk Stock Drops as AI Cost Worries Mount |
 | 10-22 15:01 | INTC |  | SUNMI Launches Windows Commercial Product Family Featuring Intel Core Ultra Processors |
 | 10-22 15:01 | NVDA |  | Nutanix Announces Collaboration with NVIDIA, Supermicro, and Netris to Simplify AI Infrastructure |
