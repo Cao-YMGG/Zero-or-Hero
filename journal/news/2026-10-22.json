@@ -1,7 +1,141 @@
 {
- "as_of": "2026-10-22T13:55-04:00",
+ "as_of": "2026-10-22T14:16-04:00",
  "since": "2026-10-21T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-22 14:15",
+   "symbols": [
+    "NVDA",
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Bloom Energy\u2019s October Stock Slump Deepens: Options Signal Post-Earnings Bounce to $230",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62541149/bloom-energy-october-stock-slump-deepens-to-23-options-signal-post-earnings-bounce-to-230"
+  },
+  {
+   "time": "10-22 14:14",
+   "symbols": [
+    "AMZN",
+    "CRM",
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "'Salesforce Customers Brace For New Fees to Use Claude in Its Apps' - The Information",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62541117/salesforce-customers-brace-new-fees-use-claude-its-apps-information"
+  },
+  {
+   "time": "10-22 14:09",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "target up",
+   "headline": "Canaccord Genuity Maintains Buy on Tesla, Raises Price Target to $442",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62540880/canaccord-genuity-maintains-buy-tesla-raises-price-target-442"
+  },
+  {
+   "time": "10-22 14:02",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "'Trump Called Musk and Asked Him to Lift Ukraine Starlink Restrictions' - WSJ Exclusive",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62540621/trump-called-musk-and-asked-him-lift-ukraine-starlink-restrictions-wsj-exclusive"
+  },
+  {
+   "time": "10-22 14:02",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "REI Systems Launches GovGrants\u00ae Public Sector on Salesforce",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/rei-systems-launches-govgrants-public-sector-on-salesforce-delivering-advanced-grants-management-and-ai-powered-intelligence-302916325.html"
+  },
+  {
+   "time": "10-22 14:02",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "28 North Consulting and Lumin Partner to Integrate Document Workflows with Salesforce",
+   "source": "fiscal.ai",
+   "url": "https://www.einpresswire.com/article/951014411/28-north-consulting-and-lumin-partner-to-connect-agreement-workflows-with-gtm-systems"
+  },
+  {
+   "time": "10-22 14:01",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "TradePMR by Robinhood Integrates ICE Connect Wealth into Fusion Platform",
+   "source": "fiscal.ai",
+   "url": "https://investingnews.com/ice-connect-wealth-now-integrated-into-tradepmr-by-robinhood-s-fusion-r-platform/"
+  },
+  {
+   "time": "10-22 14:01",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Stagwell Expands Strategic AI Partnership with Palantir",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:f1baa70073165:0"
+  },
+  {
+   "time": "10-22 14:01",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir Names Aplos Data to Vanguard: Elite Partner Tier",
+   "source": "fiscal.ai",
+   "url": "https://natlawreview.com/press-releases/palantir-elevates-aplos-data-vanguard-elite"
+  },
+  {
+   "time": "10-22 14:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Expands 'Amazon Quick' AI Platform with PwC Partnership",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/news/retail/2026/walmart-and-amazon-expand-ai-agents-roles-in-shopping-and-work/"
+  },
+  {
+   "time": "10-22 14:01",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "Optum Ventures Participates in $45 Million Series B Financing for Oxbridge Health",
+   "source": "fiscal.ai",
+   "url": "https://natlawreview.com/press-releases/oxbridge-health-save-employers-much-25-health-benefits-2027"
+  },
+  {
+   "time": "10-22 14:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "J.P. Morgan Asset Management Launches Tokenized Money Market Funds on Solana",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/jp-morgan-asset-management-expands-access-to-its-tokenized-money-market-funds-on-solana-302917188.html"
+  },
+  {
+   "time": "10-22 13:58",
+   "symbols": [
+    "AMZN",
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Anthropic Donates Agent Skills Open Standard To Agentic AI Foundation",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62540494/anthropic-donates-agent-skills-open-standard-agentic-ai-foundation"
+  },
   {
    "time": "10-22 13:50",
    "symbols": [

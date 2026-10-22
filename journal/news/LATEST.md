@@ -1,9 +1,10 @@
-# Headlines since 2026-10-21 16:00 ET (as of 2026-10-22 13:55 ET)
+# Headlines since 2026-10-21 16:00 ET (as of 2026-10-22 14:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-22 14:09 | TSLA | target up | Canaccord Genuity Maintains Buy on Tesla, Raises Price Target to $442 |
 | 10-22 13:39 | TSLA | target up | Morgan Stanley Maintains Equal-Weight on Tesla, Raises Price Target to $410 |
 | 10-22 13:28 | META | target up | BMO Capital Maintains Market Perform on Meta Platforms, Raises Price Target to $685 |
 | 10-22 13:17 | META | target up | Evercore ISI Group Maintains Outperform on Meta Platforms, Raises Price Target to $870 |
@@ -51,6 +52,18 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-22 05:57 | MU | rating | Needham Reiterates Buy on Micron Technology, Maintains $1650 Price Target |
 | 10-22 05:52 | NVDA | rating | Needham Reiterates Buy on NVIDIA, Maintains $300 Price Target |
 | 10-22 02:47 | AMZN | upgrade | Reported Earlier, Amazon Threat Intelligence Detects PHP2Shell Exploitation Attempt On Oct. 17, Four Days Before Public Disclosure Of CVE-2026-109618, CVE-2026-109619; Urges Immediate Upgrade |
+| 10-22 14:15 | NVDA ORCL |  | Bloom Energy’s October Stock Slump Deepens: Options Signal Post-Earnings Bounce to $230 |
+| 10-22 14:14 | AMZN CRM GOOGL |  | 'Salesforce Customers Brace For New Fees to Use Claude in Its Apps' - The Information |
+| 10-22 14:02 | TSLA |  | 'Trump Called Musk and Asked Him to Lift Ukraine Starlink Restrictions' - WSJ Exclusive |
+| 10-22 14:02 | CRM |  | REI Systems Launches GovGrants® Public Sector on Salesforce |
+| 10-22 14:02 | CRM |  | 28 North Consulting and Lumin Partner to Integrate Document Workflows with Salesforce |
+| 10-22 14:01 | HOOD |  | TradePMR by Robinhood Integrates ICE Connect Wealth into Fusion Platform |
+| 10-22 14:01 | PLTR |  | Stagwell Expands Strategic AI Partnership with Palantir |
+| 10-22 14:01 | PLTR |  | Palantir Names Aplos Data to Vanguard: Elite Partner Tier |
+| 10-22 14:01 | AMZN |  | Amazon Expands 'Amazon Quick' AI Platform with PwC Partnership |
+| 10-22 14:01 | UNH |  | Optum Ventures Participates in $45 Million Series B Financing for Oxbridge Health |
+| 10-22 14:01 | JPM |  | J.P. Morgan Asset Management Launches Tokenized Money Market Funds on Solana |
+| 10-22 13:58 | AMZN GOOGL |  | Anthropic Donates Agent Skills Open Standard To Agentic AI Foundation |
 | 10-22 13:50 | NFLX |  | Trump Admin Warned Netflix Its Warner Bid Was Going Nowhere, John Malone Says |
 | 10-22 13:49 | TSLA |  | Tesla Q3 Results Overshadowed by SpaceX Merger Talk: Analysts Struggle to See ‘Meaningful Upside’ From Deal |
 | 10-22 13:43 | INTC TSLA TSM |  | 'Intel Plus Elon' Could Pose Bigger Threat to TSMC Than Musk Alone, Chip Analyst Says |
