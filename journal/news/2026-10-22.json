@@ -1,0 +1,1525 @@
+{
+ "as_of": "2026-10-22T08:53-04:00",
+ "since": "2026-10-21T16:00-04:00",
+ "headlines": [
+  {
+   "time": "10-22 08:48",
+   "symbols": [
+    "META"
+   ],
+   "rating": "rating",
+   "headline": "Guggenheim Reiterates Buy on Meta Platforms, Maintains $850 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62524490/guggenheim-reiterates-buy-meta-platforms-maintains-850-price-target"
+  },
+  {
+   "time": "10-22 08:48",
+   "symbols": [
+    "META"
+   ],
+   "rating": "target up",
+   "headline": "Rosenblatt Maintains Buy on Meta Platforms, Raises Price Target to $900",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62524482/rosenblatt-maintains-buy-meta-platforms-raises-price-target-900"
+  },
+  {
+   "time": "10-22 08:48",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "'Almost Everything Elon Musk Touches\u2019 Grows 10x and More, Says Top Analyst as He Makes the Case for Tesla-SpaceX Merger",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62524454/almost-everything-elon-musk-touches-grows-10x-and-more-says-top-analyst-as-he-makes-the-case-for-tesla-spacex-merger"
+  },
+  {
+   "time": "10-22 08:41",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "target down",
+   "headline": "Citizens Maintains Market Outperform on Alphabet, Lowers Price Target to $450",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62524223/citizens-maintains-market-outperform-alphabet-lowers-price-target-450"
+  },
+  {
+   "time": "10-22 08:33",
+   "symbols": [
+    "META"
+   ],
+   "rating": "target up",
+   "headline": "Susquehanna Maintains Positive on Meta Platforms, Raises Price Target to $850",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62523913/susquehanna-maintains-positive-meta-platforms-raises-price-target-850"
+  },
+  {
+   "time": "10-22 08:31",
+   "symbols": [
+    "META"
+   ],
+   "rating": "target up",
+   "headline": "Keybanc Maintains Overweight on Meta Platforms, Raises Price Target to $905",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62523833/keybanc-maintains-overweight-meta-platforms-raises-price-target-905"
+  },
+  {
+   "time": "10-22 08:28",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "rating",
+   "headline": "GLJ Research Reiterates Sell on Tesla, Maintains $24.86 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62523664/glj-research-reiterates-sell-tesla-maintains-24-86-price-target"
+  },
+  {
+   "time": "10-22 08:26",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "'Visa In Talks To Acquire Fireblocks For Around $2.5B' - Axios Pro Exclusive",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m/26/10/62523648/visa-talks-acquire-fireblocks-around-2-5b-axios-pro-exclusive"
+  },
+  {
+   "time": "10-22 08:21",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta's $145 Billion AI Bet Doesn't Scare This Bull: Why He Thinks Bears Are Wrong",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62523526/metas-145-billion-ai-bet-doesnt-scare-this-bull-why-he-thinks-bears-are-wrong"
+  },
+  {
+   "time": "10-22 08:20",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "initiate",
+   "headline": "HSBC Initiates Coverage On Vistra with Buy Rating, Announces Price Target of $190",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62523487/hsbc-initiates-coverage-vistra-buy-rating-announces-price-target-190"
+  },
+  {
+   "time": "10-22 08:18",
+   "symbols": [
+    "GOOGL",
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Ted Lieu Pushes Congress to Act as NSA Warns of Critical Cyber Vulnerabilities: \u2018We Need More Cybersecurity Personnel\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62523449/ted-lieu-pushes-congress-to-act-as-nsa-warns-of-critical-cyber-vulnerabilities-we-need-more-cybersecurity-personnel"
+  },
+  {
+   "time": "10-22 08:14",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "'Meta Reports $825 Billion in Future Spending Commitments' - Bloomberg",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62523265/meta-reports-825-billion-future-spending-commitments-bloomberg"
+  },
+  {
+   "time": "10-22 08:12",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "target up",
+   "headline": "Mizuho Maintains Outperform on UnitedHealth Group, Raises Price Target to $500",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62523198/mizuho-maintains-outperform-unitedhealth-group-raises-price-target-500"
+  },
+  {
+   "time": "10-22 08:10",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Rockwell Automation Announces Expansion Of FactoryTalk Conductor Through Nvidia Nemotron",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62523015/rockwell-automation-announces-expansion-factorytalk-conductor-through-nvidia-nemotron"
+  },
+  {
+   "time": "10-22 08:09",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "target up",
+   "headline": "Mizuho Maintains Outperform on Tesla, Raises Price Target to $460",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62522956/mizuho-maintains-outperform-tesla-raises-price-target-460"
+  },
+  {
+   "time": "10-22 08:01",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Announces December 11 Release Date for K-Drama 'Tantara'",
+   "source": "fiscal.ai",
+   "url": "https://m.koreaherald.com/article/10911891"
+  },
+  {
+   "time": "10-22 08:01",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Micron Introduces Global Profit-Linked Bonuses After Taiwan Union Demands",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/micron-introduces-global-profit-linked-bonuses-after-taiwan-union-demands-ce785cded889f72c"
+  },
+  {
+   "time": "10-22 08:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Uzbekistan Engages in Telecom Discussions with Amazon",
+   "source": "fiscal.ai",
+   "url": "https://www.uzdaily.uz/en/uzbekistan-discusses-telecom-projects-with-viasat-amazon-leo/"
+  },
+  {
+   "time": "10-22 08:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Bank, N.A. Acts as Administrative Agent for Watsco Credit Facility",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/22/3386216/0/en/watsco-completes-750-million-unsecured-senior-credit-facility.html"
+  },
+  {
+   "time": "10-22 08:00",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Says Tesla Cars' Value Lies in FSD Service: 'People Are Buying FSD With a Car Attached, Not the Other Way Around'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62522458/elon-musk-says-tesla-cars-value-lies-in-fsd-service-people-are-buying-fsd-with-a-car-attached-not-the-other-way-around"
+  },
+  {
+   "time": "10-22 07:48",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Earnings Are a Week Away: Here\u2019s What to Expect",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62522059/amazon-earnings-are-a-week-away-heres-what-to-expect"
+  },
+  {
+   "time": "10-22 07:38",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Voltus, Google Expand Agreement To Construct 1 GW Virtual Power Plant In PJM Grid",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62521797/voltus-google-expand-agreement-construct-1-gw-virtual-power-plant-pjm-grid"
+  },
+  {
+   "time": "10-22 07:37",
+   "symbols": [
+    "META"
+   ],
+   "rating": "target up",
+   "headline": "B of A Securities Maintains Buy on Meta Platforms, Raises Price Target to $845",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62521785/b-securities-maintains-buy-meta-platforms-raises-price-target-845"
+  },
+  {
+   "time": "10-22 07:32",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Coinbase Global Unit Reaches EUR3.3 Million Settlement with Irish Central Bank",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/coinbase-global-unit-reaches-eur3-3-million-settlement-with-irish-central-bank-over-past-safeguardin-ce785cded98dff22"
+  },
+  {
+   "time": "10-22 07:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "LG Innotek Partners with NVIDIA for HSB-Enabled Sensing Solutions",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:092e45c947cea:0-lg-innotek-collaborates-with-nvidia-on-hsb-enabled-physical-ai-sensing/"
+  },
+  {
+   "time": "10-22 07:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Agility Robotics Standardizes Digit 5 Compute on NVIDIA IGX Thor",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/2026/10/22/tmt-newswire/globenewswire/agility-robotics-expands-nvidia-collaboration-as-it-prepares-digit-5-for-commercial-scale/2451676"
+  },
+  {
+   "time": "10-22 07:31",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Aims to Build 5 Million Vehicles Per Year by 2030",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/tesla-aims-to-build-5-million-vehicles-per-year-by-2030-musk-says-ce785cded98bf322"
+  },
+  {
+   "time": "10-22 07:31",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platforms, Inc. Faces Lawsuit in Australia Over Alleged Social Media Harm to Minors",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/meta-sued-in-australia-over-alleged-social-media-harm-to-minors-ce785cd9d181f427"
+  },
+  {
+   "time": "10-22 07:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart Introduces AI Agent Shopping Gateway",
+   "source": "fiscal.ai",
+   "url": "https://www.globai.org/blog/walmart-opens-its-website-to-ai-shopping-agents-next-month"
+  },
+  {
+   "time": "10-22 07:31",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Supermicro Introduces NVIDIA Vera CPU Rack-Scale Solution",
+   "source": "fiscal.ai",
+   "url": "https://www.taiwannews.com.tw/en/news/6463261"
+  },
+  {
+   "time": "10-22 07:14",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Google\u2019s Ex-CEO Says China Trails US by 6 Months in AI Race, but Could Still Win Due to This Strategy: \u2018We\u2019re Already Losing\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62521320/googles-ex-ceo-says-china-trails-us-by-6-months-in-ai-race-but-could-still-win-due-to-this-strategy-were-already-losing"
+  },
+  {
+   "time": "10-22 07:09",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nokia's AI Business Soars 126%, Data Center Boom Is Becoming a Big Profit Story",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62521128/nokias-ai-business-soars-126-data-center-boom-is-becoming-a-big-profit-story"
+  },
+  {
+   "time": "10-22 07:02",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Western Digital Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62517245/western-digital-earnings-are-imminent-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call-2"
+  },
+  {
+   "time": "10-22 07:01",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "rating",
+   "headline": "BofA Securities Maintains Buy Rating on Seagate Technology",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1001999552/bofa-securities-maintains-seagate-technology-stxus-with-buy-rating-announces"
+  },
+  {
+   "time": "10-22 07:01",
+   "symbols": [
+    "TSM"
+   ],
+   "rating": "",
+   "headline": "TSMC Explores Rare Earth-Free Factory Equipment Amid China Supply Concerns",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/tsmc-explores-rare-earth-free-factory-equipment-amid-china-supply-concerns-ce785cd9d080f42d"
+  },
+  {
+   "time": "10-22 07:00",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Says Tesla\u2019s Megapacks Are Nearly Sold Out Through 2027 as Energy Demand Surges: 'Ramping Production as Quickly as Possible'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62520624/elon-musk-says-teslas-megapacks-are-nearly-sold-out-through-2027-as-energy-demand-surges-ramping-production-as-quickly-as-possible"
+  },
+  {
+   "time": "10-22 06:49",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "rating",
+   "headline": "Cantor Fitzgerald Reiterates Overweight on Oracle, Maintains $284 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62520206/cantor-fitzgerald-reiterates-overweight-oracle-maintains-284-price-target"
+  },
+  {
+   "time": "10-22 06:48",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia\u2019s Jensen Huang Says AI Agents Have Sent Token, GPU Demand \u2018Through the Roof\u2019: Gene Munster Sees 15 Million Bot Users Soaring to Billions",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62520190/nvidias-jensen-huang-says-ai-agents-have-sent-token-gpu-demand-through-the-roof-gene-munster-sees-15-million-bot-users-soaring-to-billions"
+  },
+  {
+   "time": "10-22 06:47",
+   "symbols": [
+    "META"
+   ],
+   "rating": "target up",
+   "headline": "Cantor Fitzgerald Maintains Overweight on Meta Platforms, Raises Price Target to $860",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62520137/cantor-fitzgerald-maintains-overweight-meta-platforms-raises-price-target-860"
+  },
+  {
+   "time": "10-22 06:45",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "rating",
+   "headline": "Cantor Fitzgerald Reiterates Overweight on Tesla, Maintains $485 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62520086/cantor-fitzgerald-reiterates-overweight-tesla-maintains-485-price-target"
+  },
+  {
+   "time": "10-22 06:40",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "rating",
+   "headline": "Needham Reiterates Hold on Teslato Hold",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62519907/needham-reiterates-hold-teslato-hold"
+  },
+  {
+   "time": "10-22 06:31",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Receives Approval to Launch Retail Investing Platform in the Middle East",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/robinhood-gets-approval-to-launch-middle-east-retail-investing-platform-from-dubai-ce785cd9d08ff420"
+  },
+  {
+   "time": "10-22 06:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA and Tesla to Invest $2.8 Billion in Samsung Electro-Mechanics",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/nvidia-tesla-to-invest-2-80-billion-in-samsung-electro-mechanics-ce785cd9d089f722"
+  },
+  {
+   "time": "10-22 06:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "TACTICA AI Collaborates with NVIDIA on Agentic AI",
+   "source": "fiscal.ai",
+   "url": "https://pressreleasehub.pa.media/article/tacticaai-and-nvidia-collaborate-to-scale-agentic-ai-capabilities-with-nvidia-nemotron-86850.html"
+  },
+  {
+   "time": "10-22 06:31",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "TD Cowen Adjusts Price Target on Bank of America to $56 From $60",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/td-cowen-adjusts-price-target-on-bank-of-america-to-56-from-60-ce785cd9d08ef426"
+  },
+  {
+   "time": "10-22 06:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Launches Small Business AI Institute",
+   "source": "fiscal.ai",
+   "url": "https://natlawreview.com/press-releases/goldman-sachs-commits-500-million-launch-small-business-ai-institute-and"
+  },
+  {
+   "time": "10-22 06:31",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Targets Late 2027 for Full Production of Optimus Robots",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/tesla-to-begin-full-production-of-optimus-robots-in-late-2027-at-the-earliest-elon-musk-says-ce785cd9d08ef72c"
+  },
+  {
+   "time": "10-22 06:31",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla to Launch Cybercab Robotaxi Service in Dallas",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/tesla-to-launch-cybercab-robotaxi-service-in-dallas-next-month-ce785cd9d089f52c"
+  },
+  {
+   "time": "10-22 06:31",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "target up",
+   "headline": "Citi Maintains Buy Rating and Raises Price Target for Palantir",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1001999416/citi-maintains-palantir-pltrus-with-buy-rating-raises-target-price"
+  },
+  {
+   "time": "10-22 06:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase & Co. Reports Change in Major Holding in Crest Nicholson Holdings PLC",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/rns/crest-nicholson-holdings--crst/holding-s-in-company/9836346"
+  },
+  {
+   "time": "10-22 06:31",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Costco to Invest 4.475 Billion TWD in New Tainan Store",
+   "source": "fiscal.ai",
+   "url": "https://www.bigmedia.com.tw/article/1792663205301"
+  },
+  {
+   "time": "10-22 06:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Pledges 30,000 Entry-Level Jobs for UK Youth by 2030",
+   "source": "fiscal.ai",
+   "url": "https://www.voxmarkets.com/articles/rns-hotlist-october-22-aj-bell-amazon-arrow-bradda-head-fusion-ixico-london-stock-exchange-potentially-ai-wildcat-edf880e"
+  },
+  {
+   "time": "10-22 06:30",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "CoreWeave Stock Is Getting Crushed \u2014 But Daniel Newman Says the Selloff Is a \u2018Psyop\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62519722/coreweave-premarket-slide-daniel-newman-completely-missing-the-point"
+  },
+  {
+   "time": "10-22 06:16",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Why Is Tesla (TSLA) Stock Trending Pre-Market?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62519510/tesla-shares-fall-premarket-q3-earnings-results"
+  },
+  {
+   "time": "10-22 06:13",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Micron CTO Downplays New Memory Chip Design as \u2018Complex and Costly\u2019 While Chinese Rival CXMT Advances DRAM Technology",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62519446/micron-cto-downplays-new-memory-chip-design-as-complex-and-costly-while-chinese-rival-cxmt-advances-dram-technology"
+  },
+  {
+   "time": "10-22 06:12",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "target down",
+   "headline": "Pivotal Research Maintains Hold on Netflix, Lowers Price Target to $65",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62519434/pivotal-research-maintains-hold-netflix-lowers-price-target-65"
+  },
+  {
+   "time": "10-22 06:11",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Central Bank Of Ireland Fined Coinbase Ireland \u20ac3.25M For Breaching Safeguarding And Outsourcing Obligations Under Electronic Money Regulations 2011",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62519307/central-bank-ireland-fined-coinbase-ireland-3-25m-breaching-safeguarding-and-outsourcing-obligations"
+  },
+  {
+   "time": "10-22 05:58",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Investigating Apple's Standing In Technology Hardware, Storage &amp; Peripherals Industry Compared To Competitors",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62518613/investigating-apple-s-standing-technology-hardware-storage-amp-peripherals-industry-compared-competi"
+  },
+  {
+   "time": "10-22 05:57",
+   "symbols": [
+    "META"
+   ],
+   "rating": "target up",
+   "headline": "Pivotal Research Maintains Buy on Meta Platforms, Raises Price Target to $960",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62518601/pivotal-research-maintains-buy-meta-platforms-raises-price-target-960"
+  },
+  {
+   "time": "10-22 05:57",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "rating",
+   "headline": "Needham Reiterates Buy on Micron Technology, Maintains $1650 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62518590/needham-reiterates-buy-micron-technology-maintains-1650-price-target"
+  },
+  {
+   "time": "10-22 05:53",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia CEO Huang Said Trying To Establish Nvidia's Compute As A Financeable Asset",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/NVDA"
+  },
+  {
+   "time": "10-22 05:52",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "rating",
+   "headline": "Needham Reiterates Buy on NVIDIA, Maintains $300 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62518542/needham-reiterates-buy-nvidia-maintains-300-price-target"
+  },
+  {
+   "time": "10-22 05:48",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia CEO Huang Said Demand For The Neoclouds Is Off The Charts",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/NVDA"
+  },
+  {
+   "time": "10-22 05:47",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia CEO Huang On CNBC Said Trying To Kickstart The AI Economy In Europe",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/VGK"
+  },
+  {
+   "time": "10-22 05:40",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Sundar Pichai Is Using AI Agents to Track Google 24/7: 'Made All of Us... Be Better at What We Do'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62518366/sundar-pichai-is-using-ai-agents-to-track-google-24-7-made-all-of-us-be-better-at-what-we-do"
+  },
+  {
+   "time": "10-22 05:39",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk's SpaceX Could Become World's First $10 Trillion Company, Early Investor Says",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62518354/elon-musks-spacex-could-become-worlds-first-10-trillion-company-early-investor-says"
+  },
+  {
+   "time": "10-22 05:37",
+   "symbols": [
+    "BAC",
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "Axios Reported Morgan Stanley, Bank Of America, JPMorgan, Wells Fargo, Other Major U.S. Banks Race To Block Unauthorized Third-Party AI Agents Accessing Customer Accounts, Some Acting Independently Of User Instructions",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62518341/axios-reported-morgan-stanley-bank-america-jpmorgan-wells-fargo-other-major-u-s-banks-race-block-una"
+  },
+  {
+   "time": "10-22 05:23",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Met Xi Jinping and Took Tesla FSD to China \u2014 Now His CFO Says Getting the Green Light for Unsupervised Driving Is \u2018Hard\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/asia/26/10/62518257/elon-musk-met-xi-jinping-and-took-tesla-fsd-to-china-now-his-cfo-says-getting-the-green-light-for-unsupervised-driving-is-hard"
+  },
+  {
+   "time": "10-22 05:02",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Has a New \u2018North Star\u2019 \u2014 Mark Zuckerberg Explains Why He\u2019s Betting Big on Personal Superintelligence, AI Models and Smart Glasses",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62518027/zuckerberg-meta-personal-superintelligencem"
+  },
+  {
+   "time": "10-22 04:33",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Micron Introduces Quarterly Profit-Linked Bonuses Worldwide Following Taiwan Union Demands For Profit-Sharing",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62517843/micron-introduces-quarterly-profit-linked-bonuses-worldwide-following-taiwan-union-demands-profit-sh"
+  },
+  {
+   "time": "10-22 04:22",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Strikes 8-Year Deal to Keep Mark Zuckerberg in California as Billionaire Tax Looms: \u2018Critically Important\u2019 for Him to Remain in Leadership",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62517820/meta-strikes-8-year-deal-to-keep-mark-zuckerberg-in-california-as-billionaire-tax-looms-critically-important-for-him-to-remain-in-leadership"
+  },
+  {
+   "time": "10-22 04:22",
+   "symbols": [
+    "TSM"
+   ],
+   "rating": "",
+   "headline": "'TSMC Seeks Factory-Equipment Alternatives To Thwart China's Rare Earths Grip, Sources Say' - Reuters Exclusive",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62517811/tsmc-seeks-factory-equipment-alternatives-thwart-china-s-rare-earths-grip-sources-say-reuters-exclus"
+  },
+  {
+   "time": "10-22 04:15",
+   "symbols": [
+    "NVDA",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla, Nvidia To Invest 3.7 Trillion Won ($2.8B) In Samsung Electro-Mechanics For AI Semiconductor Substrates",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62517762/tesla-nvidia-invest-3-7-trillion-won-2-8b-samsung-electro-mechanics-ai-semiconductor-substrates"
+  },
+  {
+   "time": "10-22 04:01",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Costain Group PLC Appoints Joh. Berenberg, Gossler & Co. KG as Joint Corporate Broker",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/rns/costain-group--cost/appointment-of-joint-corporate-broker/9835284"
+  },
+  {
+   "time": "10-22 03:26",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Mark Zuckerberg Says Meta Will \u2018Build Superintelligence Through Scaling\u2019 After $64.6 Billion Q3 Beat, META Stock Jumps After Hours",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62517271/mark-zuckerberg-superintelligence-scaling-meta-bigger-models"
+  },
+  {
+   "time": "10-22 03:24",
+   "symbols": [
+    "NVDA",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Gene Munster Says Tesla FSD Is at an \u2018Inflection Point\u2019 as TSLA AI Lead Says Rivals Can\u2019t 'Match It' for Years\u2014Dan Ives Hails 75%+ Attach Rate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62517257/gene-munster-says-tesla-fsd-is-at-an-inflection-point-as-tsla-ai-lead-says-rivals-cant-match-it-for-years-dan-ives-hails-75-attach-rate"
+  },
+  {
+   "time": "10-22 02:55",
+   "symbols": [
+    "NVDA",
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Supermicro Launches NVIDIA Vera CPU Rack With 256 Liquid-Cooled CPUs, Supporting Up To 22,500 Agent Sandboxes Per Rack For Agentic AI",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62517068/supermicro-launches-nvidia-vera-cpu-rack-256-liquid-cooled-cpus-supporting-22-500-agent-sandboxes-ra"
+  },
+  {
+   "time": "10-22 02:47",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "upgrade",
+   "headline": "Reported Earlier, Amazon Threat Intelligence Detects PHP2Shell Exploitation Attempt On Oct. 17, Four Days Before Public Disclosure Of CVE-2026-109618, CVE-2026-109619; Urges Immediate Upgrade",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AMZN"
+  },
+  {
+   "time": "10-22 02:42",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Reported Earlier, TIER IV, TUM Initiative Pairs NVIDIA Hyperion, Halos With Autoware Open-Source Software To Accelerate Level 4 Autonomous Mobility In Germany",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/NVDA"
+  },
+  {
+   "time": "10-22 02:37",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla September Registrations Rise 72.5% YoY To 68,776 Across EU, EFTA And UK; Jan-Sep Up 50.0% To 260,575, Market Share 2.5% Vs 1.7%",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62516883/tesla-september-registrations-rise-72-5-yoy-68-776-across-eu-efta-and-uk-jan-sep-50-0-260-575-market"
+  },
+  {
+   "time": "10-22 02:21",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Reported Earlier, Australian Court Orders Apple To Allow Alternative App Distribution, Payments For Australian Users From March 1, 2027; Rejects Epic\u2019s Global Relief",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/EWA"
+  },
+  {
+   "time": "10-22 01:54",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "United Airlines CEO Says Starlink Is a Key Factor in Customers\u2019 Flight Choices\u2014Elon Musk Responds",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/travel/26/10/62516630/united-airlines-ceo-says-starlink-is-a-key-factor-in-customers-flight-choices-elon-musk-responds"
+  },
+  {
+   "time": "10-22 01:46",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla\u2019s Cybercab Fleet Expands Tenfold in Just a Month, Elon Musk Says Driverless Mileage Is Growing \u2018Like a Rocket Going to Orbit\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62516616/teslas-cybercab-fleet-expands-tenfold-in-just-a-month-elon-musk-says-driverless-mileage-is-growing-like-a-rocket-going-to-orbit"
+  },
+  {
+   "time": "10-22 01:43",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "'Musk\u2019s Public Endorsement Of SpaceX-Tesla Deal May Throw A Wrench In Talks' - Reuters Exclusive",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62516580/musk-s-public-endorsement-spacex-tesla-deal-may-throw-wrench-talks-reuters-exclusive"
+  },
+  {
+   "time": "10-22 01:28",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Says He'd Be 'Stunned' If Any Robot Rivals Optimus At Launch: Gene Munster Calls It A Tesla 'Call Option' With 'Massive Value'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62516418/elon-musk-tesla-optimus-robot-gene-munster-call-option-value"
+  },
+  {
+   "time": "10-22 00:34",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Cybercabs Could Reach Customers by End of 2026, but Elon Musk Says Vast Majority Will Be TSLA-Owned",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62516205/tesla-cybercabs-could-reach-customers-by-end-of-2026-but-elon-musk-says-vast-majority-will-be-tsla-owned"
+  },
+  {
+   "time": "10-22 00:20",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Mark Zuckerberg Says Muse Could Out-Earn Facebook, Instagram Per User, But Analyst Warns It\u2019s 'Losing' More Money Than Any Other Product Meta Has Launched",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62516175/meta-muse-ai-revenue-costs-analyst"
+  },
+  {
+   "time": "10-21 23:52",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Mark Zuckerberg Keeps Control as Meta Adds Class C Stock \u2014 Analyst Sees \u2018More Capex Coming\u2019 for AI",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62516100/meta-non-voting-stock-split-zuckerberg-keeps-control-ai-buildout"
+  },
+  {
+   "time": "10-21 22:27",
+   "symbols": [
+    "NFLX",
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Cathie Wood Adds Netflix After Earnings Selloff, Ark Keeps Selling Palantir Stock",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/10/62515939/cathie-wood-adds-netflix-after-earnings-selloff-ark-keeps-selling-palantir-stock"
+  },
+  {
+   "time": "10-21 22:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Announces Establishment of New Class C Common Stock",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/2026/10/22/business/foreign-business/meta-beats-expectations-but-legal-penalties-hit-profit-amid-ai-race/2451354"
+  },
+  {
+   "time": "10-21 22:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Tavant Launches Accelerator for Microsoft Fabric on Microsoft Marketplace",
+   "source": "fiscal.ai",
+   "url": "https://ittech-pulse.com/news/tavant-microsoft-fabric-accelerator-marketplace-launch/"
+  },
+  {
+   "time": "10-21 22:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Adjusts Chubb Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1001876793/goldman-sachs-adjusts-price-target-on-chubb-to-403-from"
+  },
+  {
+   "time": "10-21 22:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "AWS Executive Reports European Startup Concerns Over Regional Scaling",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/startups/2026/aws-executive-says-40-of-european-startups-consider-leaving-region-to-scale/"
+  },
+  {
+   "time": "10-21 22:00",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Says \u2018If Its Predictions Are Not Very Good, It\u2019s Not That Smart\u2019 \u2014 The One Intelligence Test for Humans and AI",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/movers-shakers/26/10/62515827/elon-musk-one-intelligence-test-for-humans-and-ai"
+  },
+  {
+   "time": "10-21 21:55",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Stock Drops After Earnings as Gary Black Says CFO Vaibhav Taneja \u2018Didn't Help Matters,' While Bulls Tout SpaceX Merger Fit",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62515813/tesla-stock-drops-earnings-gary-black-cfo-vaibhav-taneja-spacex-merger"
+  },
+  {
+   "time": "10-21 20:01",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir Accelerates Delivery of Sovereign AI to New Wave of Customers",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1001908660/palantir-accelerates-delivery-of-sovereign-ai-to-new-wave-of"
+  },
+  {
+   "time": "10-21 20:01",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Launches Commercial Fraud Solutions and Enhanced Spend Analytics",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/news/b2b-payments/2026/visa-debuts-tools-to-keep-fraud-out-of-virtual-commercial-card-payments/"
+  },
+  {
+   "time": "10-21 19:15",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Here\u2019s How Much You Would Have Made Owning Visa Stock In The Last 15 Years",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62515305/here-s-how-much-you-would-have-made-owning-visa-stock-last-15-years"
+  },
+  {
+   "time": "10-21 19:01",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Reports Third-Quarter 2026 Financial Results",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/2026/10/22/world/americas-emea/tesla-profits-drop-but-top-analyst-estimates/2451296"
+  },
+  {
+   "time": "10-21 19:01",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Launches Claw-Powered Agentic Applications for HR",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/oracle-introduces-claw-powered-fusion-agentic-applications-for-hr-302915166.html"
+  },
+  {
+   "time": "10-21 19:01",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Vincent Renovatio Launches 'An Apple A Day' at Walmart",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/on-national-apple-day-vincent-renovatio-launches-an-apple-a-day-at-walmart-aussie-apple-doc-vincent-candrawinata-reveals-secrets-about-the-apple-302915529.html"
+  },
+  {
+   "time": "10-21 19:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "3M and Amazon Web Services Announce Strategic Collaboration on Optical Connectivity",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/3m-and-aws-collaborate-to-advance-optical-connectivity-innovation-302915596.html"
+  },
+  {
+   "time": "10-21 19:00",
+   "symbols": [
+    "META",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Kevin O\u2019Leary Says Tesla-SpaceX Merger Is Inevitable After Flying Roadster Demo \u2014  \u2018If You Own Tesla, You\u2019re Gonna Own New Company\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62515178/kevin-oleary-tesla-spacex-merger"
+  },
+  {
+   "time": "10-21 18:45",
+   "symbols": [
+    "LITE"
+   ],
+   "rating": "",
+   "headline": "If You Invested $1000 In Lumentum Holdings Stock 10 Years Ago, You Would Have This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62515137/if-you-invested-1000-lumentum-holdings-stock-10-years-ago-you-would-have-much-today"
+  },
+  {
+   "time": "10-21 18:40",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Q3 2026 Earnings Call Transcript",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62515021/tesla-q3-2026-earnings-call-transcript"
+  },
+  {
+   "time": "10-21 18:01",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Supermicro Partners with Nokia and NVIDIA for AI-RAN Solutions",
+   "source": "fiscal.ai",
+   "url": "https://fr.tradingview.com/news/tradingview:98241fa679c03:0-super-micro-computer-inc-smci-partners-with-nokia-nvidia-to-deploy-ai-ran-at-network-edge/"
+  },
+  {
+   "time": "10-21 18:00",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Executive Says Expect Around Q2 Next Year To Turn On Some Customer Cars To Be Part Of Robotaxi Fleet; Trying To To Get Cybercabs To Customers By The End Of This Year",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62514738/tesla-executive-says-expect-around-q2-next-year-turn-some-customer-cars-be-part-robotaxi-fleet-tryin"
+  },
+  {
+   "time": "10-21 17:55",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Executive Says Launching Cybercabs In Dallas Next Month",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62514687/tesla-executive-says-launching-cybercabs-dallas-next-month"
+  },
+  {
+   "time": "10-21 17:51",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla CFO Says Revising CAPEX Guidance To $20B This Year; Energy Gross Margins Improved From 20.4% To 33.1% Primarily Attributed To Tariff Refunds And Warranty True Downs",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62514651/tesla-cfo-says-revising-capex-guidance-20b-year-energy-gross-margins-improved-20-4-33-1-primarily-at"
+  },
+  {
+   "time": "10-21 17:44",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla CEO Musk Says With Regard To Potential Merger With SpaceX, I Think I Said Everything That Should Be Said Yesterday",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62514546/tesla-ceo-musk-says-regard-potential-merger-spacex-i-think-i-said-everything-should-be-said-yesterda"
+  },
+  {
+   "time": "10-21 17:37",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platforms Q3 2026 Earnings Call Transcript",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62514401/meta-platforms-q3-2026-earnings-call-transcript"
+  },
+  {
+   "time": "10-21 17:35",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla CEO Musk Says Aiming For 5M Vehicles A Year By ~ 2030",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62514372/tesla-ceo-musk-says-aiming-5m-vehicles-year-2030"
+  },
+  {
+   "time": "10-21 17:34",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla CEO Elon Musk Says Ramping Production To Meet Demand",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62514355/tesla-ceo-elon-musk-says-ramping-production-meet-demand"
+  },
+  {
+   "time": "10-21 17:33",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platforms CEO Says Co To Work On Muse Monetization Sooner Than Normal Playbook;  Reason We're Not Charging Everyone For Muse Is That We Want To Establish A Network Of People And Businesses Using It At Scale",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62514334/meta-platforms-ceo-says-co-work-muse-monetization-sooner-normal-playbook-reason-we-re-not-charging-e"
+  },
+  {
+   "time": "10-21 17:32",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon's Blink Brand Launches Five New Security Cameras",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/AMZN-US/news?chain_id=Name1K9-3FXPhg.1ldg040&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A39,%22f%22%3A%22www.moomoo.com%2Fus%2Flearn%2Fcommon-mistakes-to-avoid-when-investing-in-etfs%22%7D"
+  },
+  {
+   "time": "10-21 17:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Adjusts Moody's Corporation Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-moody-s-price-target-to-573-from-564-ce785cd9da81f72c"
+  },
+  {
+   "time": "10-21 17:31",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank of America Appoints Two New Directors to Board",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:a41a974569680:0-bank-of-america-corporation-bac-adds-two-directors/"
+  },
+  {
+   "time": "10-21 17:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart Business Expands Payment Options with TreviPay",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom"
+  },
+  {
+   "time": "10-21 17:23",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platforms CFO Says We Feel Good That AI Is Going To Become A Meaningful Source Of Revenue Diversification Over Time",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62514166/meta-platforms-cfo-says-we-feel-good-ai-going-become-meaningful-source-revenue-diversification-over-"
+  },
+  {
+   "time": "10-21 17:20",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platfroms CFO Says We Expect Our New AI Businesses Can Begin Contributing Incremental Revenue In 2027",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62514117/meta-platfroms-cfo-says-we-expect-our-new-ai-businesses-can-begin-contributing-incremental-revenue-2"
+  },
+  {
+   "time": "10-21 17:00",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "$100 Invested In Rocket Lab 5 Years Ago Would Be Worth This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62513650/100-invested-rocket-lab-5-years-ago-would-be-worth-much-today"
+  },
+  {
+   "time": "10-21 17:00",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platforms CFO Says Advertiser Adoption Of Our Video Generation Features Grew 25% Q/Q; Muse's Compute Intensity Means That Expanding Its User BASE Will Require Significant Investment, Expect Total Serving Costs To Rise",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62513646/meta-platforms-cfo-says-advertiser-adoption-our-video-generation-features-grew-25-q-q-muse-s-compute"
+  },
+  {
+   "time": "10-21 17:00",
+   "symbols": [
+    "COIN",
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood, Coinbase Face a New Rival as Bybit Eyes US Entry",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62513645/robinhood-coinbase-face-a-new-rival-as-bybit-eyes-us-entry"
+  },
+  {
+   "time": "10-21 16:55",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "'Google Stops Using Nondisclosure Agreements For Data Centers' - The Information",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62513317/google-stops-using-nondisclosure-agreements-data-centers-information"
+  },
+  {
+   "time": "10-21 16:49",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta CFO Says In Conference Call Instagram Global Time Spent Per User Hit Record In Q3, Up Double Digits Year-Over-Year; Facebook Reels Time Spent At Record Highs",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/content/62513114/meta-cfo-says-conference-call-instagram-global-time-spent-user-hit-record-q3-double-digits-year-over"
+  },
+  {
+   "time": "10-21 16:48",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platform Announces Under Founder Alignment Agreement, 20% Of Shares Of Class C Common Stock To Be Issued To Holder Group In Stock Dividend Will Be Freely Saleable; Other 80% Of Shares Of Class C Common Stock Will Be Subject To Sale And Transfer Restrictions",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62513065/meta-platform-announces-under-founder-alignment-agreement-20-shares-class-c-common-stock-be-issued-h"
+  },
+  {
+   "time": "10-21 16:46",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Says Q3 Automotive Gross Margin Excluding Regulatory Credit Sales On Non-GAAP Basis Of 18.1%",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/TSLA"
+  },
+  {
+   "time": "10-21 16:46",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Congressman Could Be Down 2.65x Annual Salary by Betting on Netflix Stock: Here\u2019s the Math",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62513022/congressman-could-be-down-2-65x-annual-salary-by-betting-on-netflix-stock-heres-the-math"
+  },
+  {
+   "time": "10-21 16:45",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla On AI Compute Says Continued Construction For Austin Fab, Where We Plan To Start Commissioning Equipment In 2027",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/TSLA"
+  },
+  {
+   "time": "10-21 16:44",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta CEO Says We Are Also Working On New Smaller Models That Are Coming Out Soon And Will Deliver Muse Wonder Level Intelligence More Efficiently; Glasses Sales Continue To Grow Rapidly; Now With Muse, We Expect Paid Subscriptions Will Increase",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62512962/meta-ceo-says-we-are-also-working-new-smaller-models-are-coming-out-soon-and-will-deliver-muse-wonde"
+  },
+  {
+   "time": "10-21 16:44",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Says Production Has Begun For Tesla Semi In Nevada And Optimus In Fremont",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/TSLA"
+  },
+  {
+   "time": "10-21 16:38",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platforms CEO Says More Than 10M People In U.S., Canada Have Set Up Muse Personal Agents In Just A Month And A Half; We Expect To Grow Muse To Serve Billions Of People; Sees Muse AI Potentially Generating Higher Revenue Per User Than Family Of Apps",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62512694/meta-platforms-ceo-says-more-10m-people-u-s-canada-have-set-muse-personal-agents-just-month-and-half"
+  },
+  {
+   "time": "10-21 16:33",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platforms Says Co. Entered Into A Founder Alignment Agreement With Mark Zuckerberg",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62512511/meta-platforms-says-co-entered-founder-alignment-agreement-mark-zuckerberg"
+  },
+  {
+   "time": "10-21 16:31",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platforms Says AI Investments Benefits Delivering To Core Business Position Us To Sustain Strong Overall Revenue Growth Throughout 2027; Beyond 2026, Expect To Continue Investing Aggressively To Support Both Our Core Business And Emerging AI Initiatives",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62512409/meta-platforms-says-ai-investments-benefits-delivering-core-business-position-us-sustain-strong-over"
+  },
+  {
+   "time": "10-21 16:31",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Confirms Apple Pencil Support for iPhone Duo via iOS 27.2",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/396es5h/"
+  },
+  {
+   "time": "10-21 16:31",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank of America Declares Quarterly Dividends",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/bank-of-america-declares-fourth-quarter-2026-stock-dividends-302915305.html"
+  },
+  {
+   "time": "10-21 16:31",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platforms, Inc. Reports Third Quarter 2026 Financial Results",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/meta-reports-third-quarter-2026-results-302915964.html"
+  },
+  {
+   "time": "10-21 16:31",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Q3 Highlights: Double Beat, Highest Passenger Vehicle Backlog in Four Years",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62512363/tesla-q3-highlights-double-beat-highest-passenger-vehicle-backlog-in-four-years"
+  },
+  {
+   "time": "10-21 16:30",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "If You Invested $100 In Eli Lilly Stock 20 Years Ago, You Would Have This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62512329/if-you-invested-100-eli-lilly-stock-20-years-ago-you-would-have-much-today"
+  },
+  {
+   "time": "10-21 16:30",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platforms Says  Family Daily Active People Was 3.64B On Average For September 2026;  Headcount Was 66,775 As Of September 30, 2026, A Decrease Of 15% YoY; Co.  Not Providing A FY 2027 Revenue Outlook",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62512328/meta-platforms-says-family-daily-active-people-was-3-64b-average-september-2026-headcount-was-66-775"
+  },
+  {
+   "time": "10-21 16:21",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Posts Q3 Double Beat: 'We're Seeing Velocity Across the Board'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62511966/meta-posts-q3-double-beat-were-seeing-velocity-across-the-board"
+  },
+  {
+   "time": "10-21 16:14",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platforms Announces It Plans To Qualify Class C Common Stock For Listing On Nasdaq Upon Its Issuance",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62511381/meta-platforms-announces-it-plans-qualify-class-c-common-stock-listing-nasdaq-upon-its-issuance"
+  },
+  {
+   "time": "10-21 16:07",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Q3 Adj. EPS $0.48 Beats $0.43 Estimate, Sales $28.046B Beat $27.883B Estimate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/10/62510946/tesla-q3-adj-eps-0-48-beats-0-43-estimate-sales-28-046b-beat-27-883b-estimate"
+  },
+  {
+   "time": "10-21 16:04",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Says We Expect Rising Data Center Demand To Continue Driving Demand For Our Products; Plan To Reach 400 Mw Of SI Training Compute By End Of Year, Supporting Development Of Vehicle And Humanoid Robot Autonomy Software",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/TSLA"
+  },
+  {
+   "time": "10-21 16:04",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platforms Board Approves Creation Of New Public Class C Common Shares, Effective Jan. 19, 2027",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62510623/meta-platforms-board-approves-creation-of-new-public-class-c-common-shares-effective-january-2027"
+  },
+  {
+   "time": "10-21 16:03",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platforms Announces 2-For-1 Stock Split Through Stock Dividend, Dates to Be Determined",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62510611/meta-platforms-announces-2-1-stock-split-through-stock-dividend-dates-be-determined"
+  },
+  {
+   "time": "10-21 16:03",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platforms Sees Q4 Sales $73.000B-$76.000B vs $73.736B Est",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62510553/meta-platforms-sees-q4-sales-73-000b-76-000b-vs-73-736b-est"
+  },
+  {
+   "time": "10-21 16:03",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platforms Q3 Adj. EPS $7.40 Beats $5.74 Estimate, Sales $64.601B Beat $63.373B Estimate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/10/62510543/meta-platforms-q3-adj-eps-7-40-beats-5-74-estimate-sales-64-601b-beat-63-373b-estimate"
+  },
+  {
+   "time": "10-21 16:03",
+   "symbols": [
+    "NVDA",
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir Says Ondas Is Launching Regna AI, Built On Palantir\u2019s AIP Platform And Nvidia Nemotron Models",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/NVDA"
+  },
+  {
+   "time": "10-21 16:02",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir Says L3Harris To Explore Building Own AI Models For Mission Systems; L3Harris Exec Says Early Tests Cut Costs By 95%",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/LHX"
+  },
+  {
+   "time": "10-21 16:02",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir Announces Sovereign AI Work With L3Harris, McCarthy Building, Nvidia, Ondas, And Tampa General",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/PLTR"
+  }
+ ]
+}
