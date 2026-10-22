@@ -1,7 +1,107 @@
 {
- "as_of": "2026-10-22T14:46-04:00",
+ "as_of": "2026-10-22T15:17-04:00",
  "since": "2026-10-21T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-22 15:11",
+   "symbols": [
+    "META"
+   ],
+   "rating": "target up",
+   "headline": "Citigroup Maintains Buy on Meta Platforms, Raises Price Target to $905",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62543030/citigroup-maintains-buy-meta-platforms-raises-price-target-905"
+  },
+  {
+   "time": "10-22 15:07",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "target up",
+   "headline": "Citigroup Maintains Buy on Palantir Technologies, Raises Price Target to $250",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62542871/citigroup-maintains-buy-palantir-technologies-raises-price-target-250"
+  },
+  {
+   "time": "10-22 15:03",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "SanDisk Stock Drops as AI Cost Worries Mount",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62542737/sandisk-stock-drops-as-ai-cost-worries-mount"
+  },
+  {
+   "time": "10-22 15:01",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "SUNMI Launches Windows Commercial Product Family Featuring Intel Core Ultra Processors",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261022cn78957/sunmi-launches-windows-commercial-product-family-expanding-computing-choices-for-intelligent-commerce"
+  },
+  {
+   "time": "10-22 15:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nutanix Announces Collaboration with NVIDIA, Supermicro, and Netris to Simplify AI Infrastructure",
+   "source": "fiscal.ai",
+   "url": "https://gecnewswire.com/nutanix-partners-with-nvidia-supermicro-and-netris-to-speed-up-ai/"
+  },
+  {
+   "time": "10-22 15:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Reportedly Testing Second-Generation iPhone Duo Prototypes",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/52venfd/"
+  },
+  {
+   "time": "10-22 15:01",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Analysts Discuss Oracle's AI Financing Requirements and Market Concerns",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1002028981/oracle-stock-was-caught-in-the-ai-debt-selloff-wall"
+  },
+  {
+   "time": "10-22 15:00",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Gov. Ron DeSantis Says Florida Will Legalize Tesla's Flying Roadster So It Can 'Leapfrog Golf Carts' \u2014 But His Term Is Almost Over",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/space/26/10/62542623/gov-ron-desantis-says-florida-will-legalize-teslas-flying-roadster-so-it-can-leapfrog-golf-carts-but-his-term-is-almost-over"
+  },
+  {
+   "time": "10-22 14:51",
+   "symbols": [
+    "META"
+   ],
+   "rating": "target up",
+   "headline": "DA Davidson Maintains Buy on Meta Platforms, Raises Price Target to $800",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62542401/da-davidson-maintains-buy-meta-platforms-raises-price-target-800"
+  },
+  {
+   "time": "10-22 14:46",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "upgrade",
+   "headline": "CLSA Upgrades Tesla to Hold, Raises Price Target to $400",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62542216/clsa-upgrades-tesla-hold-raises-price-target-400"
+  },
   {
    "time": "10-22 14:30",
    "symbols": [

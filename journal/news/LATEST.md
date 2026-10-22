@@ -1,9 +1,13 @@
-# Headlines since 2026-10-21 16:00 ET (as of 2026-10-22 14:46 ET)
+# Headlines since 2026-10-21 16:00 ET (as of 2026-10-22 15:17 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-22 15:11 | META | target up | Citigroup Maintains Buy on Meta Platforms, Raises Price Target to $905 |
+| 10-22 15:07 | PLTR | target up | Citigroup Maintains Buy on Palantir Technologies, Raises Price Target to $250 |
+| 10-22 14:51 | META | target up | DA Davidson Maintains Buy on Meta Platforms, Raises Price Target to $800 |
+| 10-22 14:46 | TSLA | upgrade | CLSA Upgrades Tesla to Hold, Raises Price Target to $400 |
 | 10-22 14:09 | TSLA | target up | Canaccord Genuity Maintains Buy on Tesla, Raises Price Target to $442 |
 | 10-22 13:39 | TSLA | target up | Morgan Stanley Maintains Equal-Weight on Tesla, Raises Price Target to $410 |
 | 10-22 13:28 | META | target up | BMO Capital Maintains Market Perform on Meta Platforms, Raises Price Target to $685 |
@@ -52,6 +56,12 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-22 05:57 | MU | rating | Needham Reiterates Buy on Micron Technology, Maintains $1650 Price Target |
 | 10-22 05:52 | NVDA | rating | Needham Reiterates Buy on NVIDIA, Maintains $300 Price Target |
 | 10-22 02:47 | AMZN | upgrade | Reported Earlier, Amazon Threat Intelligence Detects PHP2Shell Exploitation Attempt On Oct. 17, Four Days Before Public Disclosure Of CVE-2026-109618, CVE-2026-109619; Urges Immediate Upgrade |
+| 10-22 15:03 | SNDK |  | SanDisk Stock Drops as AI Cost Worries Mount |
+| 10-22 15:01 | INTC |  | SUNMI Launches Windows Commercial Product Family Featuring Intel Core Ultra Processors |
+| 10-22 15:01 | NVDA |  | Nutanix Announces Collaboration with NVIDIA, Supermicro, and Netris to Simplify AI Infrastructure |
+| 10-22 15:01 | AAPL |  | Apple Reportedly Testing Second-Generation iPhone Duo Prototypes |
+| 10-22 15:01 | ORCL |  | Analysts Discuss Oracle's AI Financing Requirements and Market Concerns |
+| 10-22 15:00 | TSLA |  | Gov. Ron DeSantis Says Florida Will Legalize Tesla's Flying Roadster So It Can 'Leapfrog Golf Carts' — But His Term Is Almost Over |
 | 10-22 14:30 | AMZN META NVDA ORCL |  | Meta Bulls Beware: Bond Market Sends Its Loudest Warning on Zuckerberg's Borrowing Binge |
 | 10-22 14:27 | NVDA |  | Cipher Digital Stock Sinks To 52-Week Low - Here's Why |
 | 10-22 14:23 | NVDA |  | Why Is Lucid Stock Surging on Thursday? |
