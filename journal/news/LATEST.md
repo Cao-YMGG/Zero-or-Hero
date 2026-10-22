@@ -1,4 +1,4 @@
-# Headlines since 2026-10-21 16:00 ET (as of 2026-10-22 13:46 ET)
+# Headlines since 2026-10-21 16:00 ET (as of 2026-10-22 13:55 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -51,6 +51,8 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-22 05:57 | MU | rating | Needham Reiterates Buy on Micron Technology, Maintains $1650 Price Target |
 | 10-22 05:52 | NVDA | rating | Needham Reiterates Buy on NVIDIA, Maintains $300 Price Target |
 | 10-22 02:47 | AMZN | upgrade | Reported Earlier, Amazon Threat Intelligence Detects PHP2Shell Exploitation Attempt On Oct. 17, Four Days Before Public Disclosure Of CVE-2026-109618, CVE-2026-109619; Urges Immediate Upgrade |
+| 10-22 13:50 | NFLX |  | Trump Admin Warned Netflix Its Warner Bid Was Going Nowhere, John Malone Says |
+| 10-22 13:49 | TSLA |  | Tesla Q3 Results Overshadowed by SpaceX Merger Talk: Analysts Struggle to See ‘Meaningful Upside’ From Deal |
 | 10-22 13:43 | INTC TSLA TSM |  | 'Intel Plus Elon' Could Pose Bigger Threat to TSMC Than Musk Alone, Chip Analyst Says |
 | 10-22 13:32 | TSLA |  | SpaceX Analyst Sees an Empire Taking Shape in Orbit |
 | 10-22 13:03 | CRM |  | Why Is Salesforce Stock Surging on Thursday? |

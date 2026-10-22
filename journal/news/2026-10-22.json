@@ -1,7 +1,27 @@
 {
- "as_of": "2026-10-22T13:46-04:00",
+ "as_of": "2026-10-22T13:55-04:00",
  "since": "2026-10-21T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-22 13:50",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Trump Admin Warned Netflix Its Warner Bid Was Going Nowhere, John Malone Says",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m-a/26/10/62540124/trump-admin-warned-netflix-its-warner-bid-was-going-nowhere-john-malone-says"
+  },
+  {
+   "time": "10-22 13:49",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Q3 Results Overshadowed by SpaceX Merger Talk: Analysts Struggle to See \u2018Meaningful Upside\u2019 From Deal",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62540075/tesla-q3-results-overshadowed-by-spacex-merger-talk-analysts-struggle-to-see-meaningful-upside-from-deal"
+  },
   {
    "time": "10-22 13:43",
    "symbols": [
