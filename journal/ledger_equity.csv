@@ -11,3 +11,10 @@ date,variant,generation,equity,real_trades,paused
 2026-10-21,rebound_scanner,1,500.0,0,0
 2026-10-21,spy_open_drive,1,500.0,0,0
 2026-10-21,stock_open_drive,1,767.0,1,0
+2026-10-22,leader_follow,1,464.0,1,0
+2026-10-22,megacap_reclaim,1,500.0,0,0
+2026-10-22,nvda_gapdown_put,1,500.0,0,0
+2026-10-22,rebound_scanner,1,500.0,0,0
+2026-10-22,spy_open_drive,1,500.0,0,0
+2026-10-22,spy_open_drive_wide,1,500.0,0,0
+2026-10-22,stock_open_drive,1,767.0,1,0

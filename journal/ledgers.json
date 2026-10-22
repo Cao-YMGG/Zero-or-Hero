@@ -2,8 +2,8 @@
   "leader_follow": {
     "generation": 1,
     "history": [],
-    "real_trades": 0,
-    "realized": 0.0,
+    "real_trades": 1,
+    "realized": -36.0,
     "started": "2026-10-22"
   },
   "megacap_reclaim": {

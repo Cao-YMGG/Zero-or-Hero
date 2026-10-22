@@ -32,3 +32,5 @@ date,variant,mode,contract,entry_price,exit_price,peak,exit_reason
 2026-10-22,catalyst_open,real,UNH261023C00430000,0.52,1.69,1.69,half
 2026-10-22,catalyst_open,shadow,UNH261023C00430000,0.52,1.35,1.71,trail
 2026-10-22,catalyst_open,real,UNH261023C00430000,0.52,1.03,1.71,trail
+2026-10-22,leader_follow,shadow,NFLX261023C00068000,0.29,0.13,0.47,time
+2026-10-22,leader_follow,real,NFLX261023C00068000,0.27,0.15,0.47,time

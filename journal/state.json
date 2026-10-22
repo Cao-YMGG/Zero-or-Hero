@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "done": false,
+  "done": true,
   "variants": {
     "claude_bias": {
       "attempts": 1,
@@ -11,23 +11,7 @@
     "leader_follow": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "NFLX261023C00068000",
-        "direction": "call",
-        "entry_time": "2026-10-22T09:46:08-04:00",
-        "entry_price": 0.29,
-        "peak": 0.47,
-        "qty": 4,
-        "last": 0.31,
-        "last_time": "2026-10-22T15:17:00-04:00"
-      },
-      "real": {
-        "contract": "NFLX261023C00068000",
-        "qty": 3,
-        "underlying": "NFLX",
-        "entry_price": 0.27,
-        "entry_time": "2026-10-22T09:46:15-04:00"
-      }
+      "closed": true
     },
     "megacap_reclaim": {},
     "rebound_scanner": {},
@@ -46,10 +30,10 @@
         "direction": "put",
         "entry_time": "2026-10-22T10:29:00-04:00",
         "entry_price": 1.05,
-        "peak": 1.35,
+        "peak": 1.42,
         "qty": 1,
-        "last": 1.21,
-        "last_time": "2026-10-22T15:17:00-04:00"
+        "last": 1.18,
+        "last_time": "2026-10-22T15:45:22-04:00"
       },
       "real": {
         "contract": "MSFT261023P00515000",
@@ -57,7 +41,8 @@
         "underlying": "MSFT",
         "entry_price": 1.02,
         "entry_time": "2026-10-22T10:29:43-04:00"
-      }
+      },
+      "hold": true
     },
     "spy_open_drive": {},
     "spy_open_drive_wide": {},
