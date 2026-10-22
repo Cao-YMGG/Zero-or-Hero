@@ -1,0 +1,12 @@
+{
+ "date": "2026-10-22",
+ "picks": [
+  {
+   "time": "10:27",
+   "symbol": "MSFT",
+   "direction": "put",
+   "confidence": 0.3,
+   "catalyst": "AI-capex selloff after META's earnings ($825B spending commitments) is spreading to the hyperscalers: META -6.6%, AMZN -3.8%, GOOGL -2.2%, MSFT only -1.8% and at its day low (523.40, open 533.18); SPY -1.2%, QQQ -2.1%. Same-day sector catalyst, MSFT lagging the group's drop. Reports 10-28 (not the day before)."
+  }
+ ]
+}
