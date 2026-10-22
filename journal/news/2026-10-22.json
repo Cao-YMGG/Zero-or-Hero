@@ -1,9 +1,79 @@
 {
- "as_of": "2026-10-22T12:03-04:00",
+ "as_of": "2026-10-22T12:33-04:00",
  "since": "2026-10-21T16:00-04:00",
  "headlines": [
   {
-   "time": "10-22 11:59",
+   "time": "10-22 12:21",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "State Of Rhode Island Attorney General Neronha Sues Meta For Fraudulent Advertisements",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62535984/state-rhode-island-attorney-general-neronha-sues-meta-fraudulent-advertisements"
+  },
+  {
+   "time": "10-22 12:15",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta\u2019s $25 Billion Headache: The ETF Cashing In on META\u2019s Pain",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/specialty-etfs/26/10/62535706/metas-25-billion-headache-the-etf-cashing-in-on-metas-pain"
+  },
+  {
+   "time": "10-22 12:14",
+   "symbols": [
+    "META"
+   ],
+   "rating": "target up",
+   "headline": "Barclays Maintains Overweight on Meta Platforms, Raises Price Target to $880",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62535642/barclays-maintains-overweight-meta-platforms-raises-price-target-880"
+  },
+  {
+   "time": "10-22 12:13",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Uber Brings ChatGPT Work To All Employees With OpenAI",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62535612/uber-brings-chatgpt-work-all-employees-openai"
+  },
+  {
+   "time": "10-22 12:10",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "rating",
+   "headline": "RBC Capital Reiterates Outperform on Tesla, Maintains $480 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62535386/rbc-capital-reiterates-outperform-tesla-maintains-480-price-target"
+  },
+  {
+   "time": "10-22 12:06",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "'Elon Musk Makes $1 Billion Investment In Ellison\u2019s Skydance' - Semafor Exclusive",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62535217/elon-musk-makes-1-billion-investment-ellison-s-skydance-semafor-exclusive"
+  },
+  {
+   "time": "10-22 12:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "target up",
+   "headline": "RBC Capital Maintains Outperform on Meta Platforms, Raises Price Target to $800",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62534979/rbc-capital-maintains-outperform-meta-platforms-raises-price-target-800"
+  },
+  {
+   "time": "10-22 12:00",
    "symbols": [
     "TSLA"
    ],

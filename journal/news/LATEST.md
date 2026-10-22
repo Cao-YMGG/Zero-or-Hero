@@ -1,9 +1,12 @@
-# Headlines since 2026-10-21 16:00 ET (as of 2026-10-22 12:03 ET)
+# Headlines since 2026-10-21 16:00 ET (as of 2026-10-22 12:33 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-22 12:14 | META | target up | Barclays Maintains Overweight on Meta Platforms, Raises Price Target to $880 |
+| 10-22 12:10 | TSLA | rating | RBC Capital Reiterates Outperform on Tesla, Maintains $480 Price Target |
+| 10-22 12:01 | META | target up | RBC Capital Maintains Outperform on Meta Platforms, Raises Price Target to $800 |
 | 10-22 11:33 | META | target down | Wells Fargo Maintains Overweight on Meta Platforms, Lowers Price Target to $995 |
 | 10-22 11:14 | META | rating | Citizens Reiterates Market Outperform on Meta Platforms, Maintains $885 Price Target |
 | 10-22 11:01 | JPM | upgrade | JPMorgan Chase Upgrades CME Group Inc. to Buy |
@@ -42,7 +45,11 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-22 05:57 | MU | rating | Needham Reiterates Buy on Micron Technology, Maintains $1650 Price Target |
 | 10-22 05:52 | NVDA | rating | Needham Reiterates Buy on NVIDIA, Maintains $300 Price Target |
 | 10-22 02:47 | AMZN | upgrade | Reported Earlier, Amazon Threat Intelligence Detects PHP2Shell Exploitation Attempt On Oct. 17, Four Days Before Public Disclosure Of CVE-2026-109618, CVE-2026-109619; Urges Immediate Upgrade |
-| 10-22 11:59 | TSLA |  | ‘If You’re Not in a Body Anymore, There’s Definitely Gonna Be Some Difference’ — Elon Musk Says We Could Upload Ourselves Into Humanoids to Live Forever |
+| 10-22 12:21 | META |  | State Of Rhode Island Attorney General Neronha Sues Meta For Fraudulent Advertisements |
+| 10-22 12:15 | META |  | Meta’s $25 Billion Headache: The ETF Cashing In on META’s Pain |
+| 10-22 12:13 | MSFT |  | Uber Brings ChatGPT Work To All Employees With OpenAI |
+| 10-22 12:06 | TSLA |  | 'Elon Musk Makes $1 Billion Investment In Ellison’s Skydance' - Semafor Exclusive |
+| 10-22 12:00 | TSLA |  | ‘If You’re Not in a Body Anymore, There’s Definitely Gonna Be Some Difference’ — Elon Musk Says We Could Upload Ourselves Into Humanoids to Live Forever |
 | 10-22 11:30 | JPM |  | $100 Invested In JPMorgan Chase 15 Years Ago Would Be Worth This Much Today |
 | 10-22 11:04 | GOOGL NVDA |  | Eric Schmidt Rejects AI Bubble Fears, Says Anthropic Is Growing Twice as Fast as Google Did |
 | 10-22 11:02 | INTC |  | Intel Reaches Construction Milestone at Ohio Manufacturing Campus |
