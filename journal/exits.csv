@@ -29,3 +29,4 @@ date,variant,mode,contract,entry_price,exit_price,peak,exit_reason
 2026-10-21,catalyst_intraday,shadow,AMD261021C00562500,0.71,0.96,1,time
 2026-10-21,catalyst_intraday,real,AMD261021C00562500,0.71,0.94,1,time
 2026-10-22,claude_bias,shadow,SPY261022P00763000,0.53,1.09,1.09,take_profit
+2026-10-22,catalyst_open,real,UNH261023C00430000,0.52,1.69,1.69,half

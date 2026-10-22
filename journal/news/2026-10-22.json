@@ -1,7 +1,58 @@
 {
- "as_of": "2026-10-22T11:02-04:00",
+ "as_of": "2026-10-22T11:33-04:00",
  "since": "2026-10-21T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-22 11:30",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "$100 Invested In JPMorgan Chase 15 Years Ago Would Be Worth This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62533218/100-invested-jpmorgan-chase-15-years-ago-would-be-worth-much-today"
+  },
+  {
+   "time": "10-22 11:14",
+   "symbols": [
+    "META"
+   ],
+   "rating": "rating",
+   "headline": "Citizens Reiterates Market Outperform on Meta Platforms, Maintains $885 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62532486/citizens-reiterates-market-outperform-meta-platforms-maintains-885-price-target"
+  },
+  {
+   "time": "10-22 11:04",
+   "symbols": [
+    "GOOGL",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Eric Schmidt Rejects AI Bubble Fears, Says Anthropic Is Growing Twice as Fast as Google Did",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62531967/eric-schmidt-ai-bubble-anthropic-growth"
+  },
+  {
+   "time": "10-22 11:02",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel Reaches Construction Milestone at Ohio Manufacturing Campus",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8323866/intc-stock-alert-what-to-know-as-intel-hits-construction-milestone-at-ohio-fab"
+  },
+  {
+   "time": "10-22 11:01",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Western Digital Corporation Set to Report First-Quarter Fiscal 2027 Results",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8321951/dear-western-digital-stock-fans-mark-your-calendars-for-october-22"
+  },
   {
    "time": "10-22 11:01",
    "symbols": [

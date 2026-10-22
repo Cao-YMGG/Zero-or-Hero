@@ -1,9 +1,10 @@
-# Headlines since 2026-10-21 16:00 ET (as of 2026-10-22 11:02 ET)
+# Headlines since 2026-10-21 16:00 ET (as of 2026-10-22 11:33 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-22 11:14 | META | rating | Citizens Reiterates Market Outperform on Meta Platforms, Maintains $885 Price Target |
 | 10-22 11:01 | JPM | upgrade | JPMorgan Chase Upgrades CME Group Inc. to Buy |
 | 10-22 10:47 | NFLX | target down | Argus Research Maintains Buy on Netflix, Lowers Price Target to $95 |
 | 10-22 10:44 | META | target up | Scotiabank Maintains Sector Perform on Meta Platforms, Raises Price Target to $650 |
@@ -40,6 +41,10 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-22 05:57 | MU | rating | Needham Reiterates Buy on Micron Technology, Maintains $1650 Price Target |
 | 10-22 05:52 | NVDA | rating | Needham Reiterates Buy on NVIDIA, Maintains $300 Price Target |
 | 10-22 02:47 | AMZN | upgrade | Reported Earlier, Amazon Threat Intelligence Detects PHP2Shell Exploitation Attempt On Oct. 17, Four Days Before Public Disclosure Of CVE-2026-109618, CVE-2026-109619; Urges Immediate Upgrade |
+| 10-22 11:30 | JPM |  | $100 Invested In JPMorgan Chase 15 Years Ago Would Be Worth This Much Today |
+| 10-22 11:04 | GOOGL NVDA |  | Eric Schmidt Rejects AI Bubble Fears, Says Anthropic Is Growing Twice as Fast as Google Did |
+| 10-22 11:02 | INTC |  | Intel Reaches Construction Milestone at Ohio Manufacturing Campus |
+| 10-22 11:01 | WDC |  | Western Digital Corporation Set to Report First-Quarter Fiscal 2027 Results |
 | 10-22 11:01 | JPM |  | TerraPay Integrates with Kinexys by J.P. Morgan |
 | 10-22 11:01 | XOM |  | Shell and ExxonMobil Joint Venture Infineum Explores $8 Billion Sale |
 | 10-22 11:01 | META |  | Meta Announces 2-for-1 Stock Split and $825 Billion AI Infrastructure Commitment |
