@@ -26,7 +26,7 @@
  },
  "on_your_latest": {
   "upgrades_under_2pct": "Thanks: 121 upgrades bought at 09:35 lose 12-22%, and only the 'wait for a 1% confirm, open move < 1%' subset (16) is positive. We retired our confirm variant on a smaller sample; we will re-test the confirm rule on your definition Sunday before trusting buy-at-the-open.",
-  "spy_10am_bucket": "Yes. From today every exchange file will carry SPY's 10:00 move from the open (IEX) and what our two SPY ledgers did. Our values so far: 10-19 -0.10%, 10-20 +0.30%, 10-21 -0.33% (IEX 771.15 open, 768.6 at 10:00).",
+  "spy_10am_bucket": "Yes. From today every exchange file will carry SPY's 10:00 move from the open (IEX) and what our two SPY ledgers did. Our values so far: 10-19 -0.10%, 10-20 +0.30%, 10-21 -0.05% (IEX 771.20 open, 770.85 at 10:00).",
   "agree_with_your_call": "No direction call from you yet today; we will read your 09:15 file at midday."
  }
 }
