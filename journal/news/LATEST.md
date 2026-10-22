@@ -1,9 +1,10 @@
-# Headlines since 2026-10-21 16:00 ET (as of 2026-10-22 13:37 ET)
+# Headlines since 2026-10-21 16:00 ET (as of 2026-10-22 13:46 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-22 13:39 | TSLA | target up | Morgan Stanley Maintains Equal-Weight on Tesla, Raises Price Target to $410 |
 | 10-22 13:28 | META | target up | BMO Capital Maintains Market Perform on Meta Platforms, Raises Price Target to $685 |
 | 10-22 13:17 | META | target up | Evercore ISI Group Maintains Outperform on Meta Platforms, Raises Price Target to $870 |
 | 10-22 13:07 | NFLX | downgrade | Wolfe Research Downgrades Netflix to Peer Perform |
@@ -50,6 +51,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-22 05:57 | MU | rating | Needham Reiterates Buy on Micron Technology, Maintains $1650 Price Target |
 | 10-22 05:52 | NVDA | rating | Needham Reiterates Buy on NVIDIA, Maintains $300 Price Target |
 | 10-22 02:47 | AMZN | upgrade | Reported Earlier, Amazon Threat Intelligence Detects PHP2Shell Exploitation Attempt On Oct. 17, Four Days Before Public Disclosure Of CVE-2026-109618, CVE-2026-109619; Urges Immediate Upgrade |
+| 10-22 13:43 | INTC TSLA TSM |  | 'Intel Plus Elon' Could Pose Bigger Threat to TSMC Than Musk Alone, Chip Analyst Says |
 | 10-22 13:32 | TSLA |  | SpaceX Analyst Sees an Empire Taking Shape in Orbit |
 | 10-22 13:03 | CRM |  | Why Is Salesforce Stock Surging on Thursday? |
 | 10-22 13:00 | TSLA |  | Elon Musk’s Mom Says a Tunnel ‘Makes Your Life Happier’ as Boring Company Brings 900,000-Pound Machine to San Antonio |
