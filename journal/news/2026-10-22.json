@@ -1,7 +1,177 @@
 {
- "as_of": "2026-10-22T10:32-04:00",
+ "as_of": "2026-10-22T11:02-04:00",
  "since": "2026-10-21T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-22 11:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "upgrade",
+   "headline": "JPMorgan Chase Upgrades CME Group Inc. to Buy",
+   "source": "fiscal.ai",
+   "url": "https://de.marketscreener.com/boerse-nachrichten/cme-group-inc-jpmorgan-chase-erhoeht-von-verkaufen-auf-kaufen-ce785cdeda89f227"
+  },
+  {
+   "time": "10-22 11:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "TerraPay Integrates with Kinexys by J.P. Morgan",
+   "source": "fiscal.ai",
+   "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69904400-terrapay-verify-integrates-with-kinexys-by-j-p-morgan-s-liink-network-for-global-payee-verification-008.htm"
+  },
+  {
+   "time": "10-22 11:01",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "Shell and ExxonMobil Joint Venture Infineum Explores $8 Billion Sale",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/ft-shell-exxonmobil-s-chemicals-jv-explores-8-billion-sale-ce785cdedb80f321"
+  },
+  {
+   "time": "10-22 11:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Announces 2-for-1 Stock Split and $825 Billion AI Infrastructure Commitment",
+   "source": "fiscal.ai",
+   "url": "https://ucapital.com/en/news/breaking/17677389"
+  },
+  {
+   "time": "10-22 11:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft and Boehringer Ingelheim Announce Strategic AI Collaboration",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/22/3386225/0/en/boehringer-ingelheim-and-microsoft-partner-to-drive-patient-centric-and-ai-backed-clinical-development.html"
+  },
+  {
+   "time": "10-22 11:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Merck Collaborates with Microsoft, NVIDIA, and Dawn Health on Patient Support Programs",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswirechina.com/en/news/64377.html"
+  },
+  {
+   "time": "10-22 11:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "ModelOp Integrates Microsoft Agent 365 and Copilot Studio into AI Governance Platform",
+   "source": "fiscal.ai",
+   "url": "https://markets.businessinsider.com/news/stocks/modelop-takes-control-of-enterprise-ai-agent-sprawl-with-expanded-microsoft-and-amazon-integrations-1036654616"
+  },
+  {
+   "time": "10-22 11:01",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "IQBAR Launches Indulgent Protein Bites at Costco",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/iqbar-expands-protein-bites-line-with-three-new-indulgent-flavors-exclusively-at-costco-302916155.html"
+  },
+  {
+   "time": "10-22 11:01",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly and Company Breaks Ground on $5B Integrated Manufacturing Site in Virginia",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:29a75614a8c29:0-eli-lilly-and-company-lly-breaks-ground-on-5b-integrated-adc-plant-in-virginia/"
+  },
+  {
+   "time": "10-22 11:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Rockwell Automation Adds Support for NVIDIA Nemotron Models",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.ca/news-releases/rockwell-automation-expands-factorytalk-conductor-with-nvidia-nemotron-support-882067016.html"
+  },
+  {
+   "time": "10-22 10:59",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "'Crypto custody specialist Fireblocks denies it's in talks to be acquired by Visa' - CoinDesk",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62531656/crypto-custody-specialist-fireblocks-denies-it-s-talks-be-acquired-visa-coindesk"
+  },
+  {
+   "time": "10-22 10:52",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Ripple Sees a $100 Million Opportunity for Banks\u2014What\u2019s in It for XRP?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62531338/ripple-sees-a-100-million-opportunity-for-banks-whats-in-it-for-xrp"
+  },
+  {
+   "time": "10-22 10:47",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "target down",
+   "headline": "Argus Research Maintains Buy on Netflix, Lowers Price Target to $95",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62531036/argus-research-maintains-buy-netflix-lowers-price-target-95"
+  },
+  {
+   "time": "10-22 10:44",
+   "symbols": [
+    "META"
+   ],
+   "rating": "target up",
+   "headline": "Scotiabank Maintains Sector Perform on Meta Platforms, Raises Price Target to $650",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62530915/scotiabank-maintains-sector-perform-meta-platforms-raises-price-target-650"
+  },
+  {
+   "time": "10-22 10:44",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platforms\u2019 $25B Penalty Has a Second Bill: $3.5B a Year",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62530911/meta-platforms-25-billion-penalty-has-a-second-bill-3-5-billion-a-year"
+  },
+  {
+   "time": "10-22 10:41",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly Starts Construction On $5B Production Site In Richmond, Virginia",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62530619/eli-lilly-starts-construction-5b-production-site-richmond-virginia"
+  },
+  {
+   "time": "10-22 10:40",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Just Burned Cash for the First Time Since Its IPO Year: Wall Street Raised Its Targets Anyway",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62530530/meta-free-cash-flow-negative-first-time-since-2012-capex"
+  },
   {
    "time": "10-22 10:29",
    "symbols": [

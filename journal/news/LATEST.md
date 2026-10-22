@@ -1,9 +1,12 @@
-# Headlines since 2026-10-21 16:00 ET (as of 2026-10-22 10:32 ET)
+# Headlines since 2026-10-21 16:00 ET (as of 2026-10-22 11:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-22 11:01 | JPM | upgrade | JPMorgan Chase Upgrades CME Group Inc. to Buy |
+| 10-22 10:47 | NFLX | target down | Argus Research Maintains Buy on Netflix, Lowers Price Target to $95 |
+| 10-22 10:44 | META | target up | Scotiabank Maintains Sector Perform on Meta Platforms, Raises Price Target to $650 |
 | 10-22 09:53 | TSLA | target up | JP Morgan Maintains Neutral on Tesla, Raises Price Target to $430 |
 | 10-22 09:52 | META | target up | JP Morgan Maintains Overweight on Meta Platforms, Raises Price Target to $940 |
 | 10-22 09:37 | TSLA | rating | TD Cowen Reiterates Buy on Tesla, Maintains $460 Price Target |
@@ -37,6 +40,20 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-22 05:57 | MU | rating | Needham Reiterates Buy on Micron Technology, Maintains $1650 Price Target |
 | 10-22 05:52 | NVDA | rating | Needham Reiterates Buy on NVIDIA, Maintains $300 Price Target |
 | 10-22 02:47 | AMZN | upgrade | Reported Earlier, Amazon Threat Intelligence Detects PHP2Shell Exploitation Attempt On Oct. 17, Four Days Before Public Disclosure Of CVE-2026-109618, CVE-2026-109619; Urges Immediate Upgrade |
+| 10-22 11:01 | JPM |  | TerraPay Integrates with Kinexys by J.P. Morgan |
+| 10-22 11:01 | XOM |  | Shell and ExxonMobil Joint Venture Infineum Explores $8 Billion Sale |
+| 10-22 11:01 | META |  | Meta Announces 2-for-1 Stock Split and $825 Billion AI Infrastructure Commitment |
+| 10-22 11:01 | MSFT |  | Microsoft and Boehringer Ingelheim Announce Strategic AI Collaboration |
+| 10-22 11:01 | MSFT |  | Merck Collaborates with Microsoft, NVIDIA, and Dawn Health on Patient Support Programs |
+| 10-22 11:01 | MSFT |  | ModelOp Integrates Microsoft Agent 365 and Copilot Studio into AI Governance Platform |
+| 10-22 11:01 | COST |  | IQBAR Launches Indulgent Protein Bites at Costco |
+| 10-22 11:01 | LLY |  | Eli Lilly and Company Breaks Ground on $5B Integrated Manufacturing Site in Virginia |
+| 10-22 11:01 | NVDA |  | Rockwell Automation Adds Support for NVIDIA Nemotron Models |
+| 10-22 10:59 | V |  | 'Crypto custody specialist Fireblocks denies it's in talks to be acquired by Visa' - CoinDesk |
+| 10-22 10:52 | COIN |  | Ripple Sees a $100 Million Opportunity for Banks—What’s in It for XRP? |
+| 10-22 10:44 | META |  | Meta Platforms’ $25B Penalty Has a Second Bill: $3.5B a Year |
+| 10-22 10:41 | LLY |  | Eli Lilly Starts Construction On $5B Production Site In Richmond, Virginia |
+| 10-22 10:40 | META |  | Meta Just Burned Cash for the First Time Since Its IPO Year: Wall Street Raised Its Targets Anyway |
 | 10-22 10:29 | NVDA |  | Nvidia CEO Jensen Huang Says US Must Take China ‘Seriously,’ Warns Against Underestimating Its AI and Chipmaking Prowess: ‘If There's One Country That Could Manufacture Things at Scale’ |
 | 10-22 10:23 | META |  | Comcast Calls Rival Broadband Pricing 'Irrational' As Competition Heats Up |
 | 10-22 10:21 | MSFT NVDA |  | Jensen Huang on Keeping AI Under Control: 'You Contain the Baby and You Monitor It' |

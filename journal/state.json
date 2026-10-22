@@ -18,8 +18,8 @@
         "entry_price": 0.29,
         "peak": 0.29,
         "qty": 4,
-        "last": 0.14,
-        "last_time": "2026-10-22T10:32:52-04:00"
+        "last": 0.21,
+        "last_time": "2026-10-22T11:02:51-04:00"
       },
       "real": {
         "contract": "NFLX261023C00068000",
@@ -41,10 +41,10 @@
         "direction": "call",
         "entry_time": "2026-10-22T09:32:00-04:00",
         "entry_price": 0.52,
-        "peak": 0.93,
+        "peak": 1.27,
         "qty": 2,
-        "last": 0.81,
-        "last_time": "2026-10-22T10:32:52-04:00"
+        "last": 1.17,
+        "last_time": "2026-10-22T11:02:51-04:00"
       },
       "real": {
         "contract": "UNH261023C00430000",
@@ -64,8 +64,8 @@
         "entry_price": 1.05,
         "peak": 1.12,
         "qty": 1,
-        "last": 0.93,
-        "last_time": "2026-10-22T10:32:52-04:00"
+        "last": 0.64,
+        "last_time": "2026-10-22T11:02:51-04:00"
       },
       "real": {
         "contract": "MSFT261023P00515000",
