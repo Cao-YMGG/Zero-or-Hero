@@ -1,7 +1,51 @@
 {
- "as_of": "2026-10-22T14:16-04:00",
+ "as_of": "2026-10-22T14:46-04:00",
  "since": "2026-10-21T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-22 14:30",
+   "symbols": [
+    "AMZN",
+    "META",
+    "NVDA",
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Meta Bulls Beware: Bond Market Sends Its Loudest Warning on Zuckerberg's Borrowing Binge",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62541680/meta-bulls-beware-bond-market-sends-its-loudest-warning-on-zuckerbergs-borrowing-binge"
+  },
+  {
+   "time": "10-22 14:27",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Cipher Digital Stock Sinks To 52-Week Low - Here's Why",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62541611/cipher-digital-stock-sinks-to-52-week-low-heres-why"
+  },
+  {
+   "time": "10-22 14:23",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Why Is Lucid Stock Surging on Thursday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62541466/why-is-lucid-stock-surging-on-thursday"
+  },
+  {
+   "time": "10-22 14:18",
+   "symbols": [
+    "GOOGL",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Blackstone CEO Sounds Alarm on AI Supply Crunch: 'Seldom in My Career Have I Seen' Anything Like It",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62541272/blackstone-ceo-sounds-alarm-on-ai-supply-crunch-seldom-in-my-career-have-i-seen-anything-like-it"
+  },
   {
    "time": "10-22 14:15",
    "symbols": [
@@ -124,6 +168,16 @@
    "headline": "J.P. Morgan Asset Management Launches Tokenized Money Market Funds on Solana",
    "source": "fiscal.ai",
    "url": "https://www.prnewswire.com/news-releases/jp-morgan-asset-management-expands-access-to-its-tokenized-money-market-funds-on-solana-302917188.html"
+  },
+  {
+   "time": "10-22 14:00",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "'He Thrives on Chaos' \u2014 Elon Musk's First Wife Says He Can 'Jump Off the Edge of a Cliff and Invent a Parachute on the Way Down'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/space/26/10/62541395/he-thrives-on-chaos-elon-musks-first-wife-says-he-can-jump-off-the-edge-of-a-cliff-and-invent-a-parachute-on-the-way-down"
   },
   {
    "time": "10-22 13:58",

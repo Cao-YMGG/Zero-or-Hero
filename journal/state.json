@@ -18,8 +18,8 @@
         "entry_price": 0.29,
         "peak": 0.47,
         "qty": 4,
-        "last": 0.42,
-        "last_time": "2026-10-22T14:16:29-04:00"
+        "last": 0.24,
+        "last_time": "2026-10-22T14:46:43-04:00"
       },
       "real": {
         "contract": "NFLX261023C00068000",
@@ -46,10 +46,10 @@
         "direction": "put",
         "entry_time": "2026-10-22T10:29:00-04:00",
         "entry_price": 1.05,
-        "peak": 1.12,
+        "peak": 1.17,
         "qty": 1,
-        "last": 0.81,
-        "last_time": "2026-10-22T14:16:29-04:00"
+        "last": 1.11,
+        "last_time": "2026-10-22T14:46:43-04:00"
       },
       "real": {
         "contract": "MSFT261023P00515000",
