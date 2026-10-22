@@ -1,9 +1,12 @@
-# Headlines since 2026-10-21 16:00 ET (as of 2026-10-22 12:33 ET)
+# Headlines since 2026-10-21 16:00 ET (as of 2026-10-22 13:15 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-22 13:07 | NFLX | downgrade | Wolfe Research Downgrades Netflix to Peer Perform |
+| 10-22 13:06 | META | target up | Mizuho Maintains Outperform on Meta Platforms, Raises Price Target to $950 |
+| 10-22 12:44 | TSLA | upgrade | BNP Paribas Upgrades Tesla to Neutral, Raises Price Target to $420 |
 | 10-22 12:14 | META | target up | Barclays Maintains Overweight on Meta Platforms, Raises Price Target to $880 |
 | 10-22 12:10 | TSLA | rating | RBC Capital Reiterates Outperform on Tesla, Maintains $480 Price Target |
 | 10-22 12:01 | META | target up | RBC Capital Maintains Outperform on Meta Platforms, Raises Price Target to $800 |
@@ -45,6 +48,10 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-22 05:57 | MU | rating | Needham Reiterates Buy on Micron Technology, Maintains $1650 Price Target |
 | 10-22 05:52 | NVDA | rating | Needham Reiterates Buy on NVIDIA, Maintains $300 Price Target |
 | 10-22 02:47 | AMZN | upgrade | Reported Earlier, Amazon Threat Intelligence Detects PHP2Shell Exploitation Attempt On Oct. 17, Four Days Before Public Disclosure Of CVE-2026-109618, CVE-2026-109619; Urges Immediate Upgrade |
+| 10-22 13:03 | CRM |  | Why Is Salesforce Stock Surging on Thursday? |
+| 10-22 13:00 | TSLA |  | Elon Musk’s Mom Says a Tunnel ‘Makes Your Life Happier’ as Boring Company Brings 900,000-Pound Machine to San Antonio |
+| 10-22 12:44 | WMT |  | Walmart Stock Eyes Best Monthly Rally Since 2014: Is This an Early Recession Warning? |
+| 10-22 12:35 | TSLA |  | Tesla Beat Wall Street, But TSLL Bulls Face a Crucial Test—Here’s Why |
 | 10-22 12:21 | META |  | State Of Rhode Island Attorney General Neronha Sues Meta For Fraudulent Advertisements |
 | 10-22 12:15 | META |  | Meta’s $25 Billion Headache: The ETF Cashing In on META’s Pain |
 | 10-22 12:13 | MSFT |  | Uber Brings ChatGPT Work To All Employees With OpenAI |

@@ -1,7 +1,77 @@
 {
- "as_of": "2026-10-22T12:33-04:00",
+ "as_of": "2026-10-22T13:15-04:00",
  "since": "2026-10-21T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-22 13:07",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "downgrade",
+   "headline": "Wolfe Research Downgrades Netflix to Peer Perform",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62538128/wolfe-research-downgrades-netflix-peer-perform"
+  },
+  {
+   "time": "10-22 13:06",
+   "symbols": [
+    "META"
+   ],
+   "rating": "target up",
+   "headline": "Mizuho Maintains Outperform on Meta Platforms, Raises Price Target to $950",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62538097/mizuho-maintains-outperform-meta-platforms-raises-price-target-950"
+  },
+  {
+   "time": "10-22 13:03",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Why Is Salesforce Stock Surging on Thursday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62537933/why-is-salesforce-stock-surging-on-thursday"
+  },
+  {
+   "time": "10-22 13:00",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk\u2019s Mom Says a Tunnel \u2018Makes Your Life Happier\u2019 as Boring Company Brings 900,000-Pound Machine to San Antonio",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/space/26/10/62537759/elon-musks-mom-says-a-tunnel-makes-your-life-happier-as-boring-company-brings-900000-pound-machine-to-san-antonio"
+  },
+  {
+   "time": "10-22 12:44",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "upgrade",
+   "headline": "BNP Paribas Upgrades Tesla to Neutral, Raises Price Target to $420",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62537083/bnp-paribas-upgrades-tesla-neutral-raises-price-target-420"
+  },
+  {
+   "time": "10-22 12:44",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart Stock Eyes Best Monthly Rally Since 2014: Is This an Early Recession Warning?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62537079/walmart-stock-best-month-since-2014-recession-signal"
+  },
+  {
+   "time": "10-22 12:35",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Beat Wall Street, But TSLL Bulls Face a Crucial Test\u2014Here\u2019s Why",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/specialty-etfs/26/10/62536588/tesla-beat-wall-street-but-tsll-bulls-face-a-crucial-test-heres-why"
+  },
   {
    "time": "10-22 12:21",
    "symbols": [
