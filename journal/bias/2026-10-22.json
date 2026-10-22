@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-22",
+  "bias": "put",
+  "confidence": 0.35,
+  "summary": "Risk-off pre-market: META and TSLA earnings reignite AI-spending worries (Meta reports $825B of future spending commitments), LRCX -7% after its report, chips -3.5%, oil above $112 on Iran; SPY -0.9%, QQQ -1.6%. Lean put, low confidence because yields fall and gap-downs often get bought. Sniper UNH call: Mizuho target $500 in the sector money is moving into.",
+  "reasons": [
+    "SPY 766.00 pre-market vs 773.09 close (-0.9%); QQQ -1.6%; SMH -3.5%; IWM -0.6%. Nasdaq-100 futures about -1.6% to -1.9% (CNBC live blog, Stocktwits)",
+    "Driver: AI spending reassessed after META (-2.5%, Bloomberg: $825B in future spending commitments) and TSLA (-3.5%) reported; LRCX -7% after its report; INTC -5.1%, AMD -4.5%, MU -3.7%, AVGO -3.3%, ORCL -2.4%, NVDA -2.4%, AMZN -2.0%, GOOGL -1.7%; CRWV/NBIS -5%",
+    "Oil up: USO +1.9%, Brent above $112 on Iran tensions (headwind). Yields down: TLT +1.0% (flight to safety, a cushion). Dollar flat (UUP +0.1%). Not every macro input is aligned for a put (yields falling), hence low confidence",
+    "Defensives up: XLV +0.8% (LLY +1.3%, UNH +0.9%), XLE +1.0%. Rotation out of AI hardware into health care and energy continues",
+    "Rebound_scanner universe: >= 2% gap-downs in INTC, AMD, MU, AVGO, NVDA, ORCL, AMZN (META and TSLA are earnings reactions). Thursday: most single stocks have no same-day expiry. nvda_gapdown_put can fire (NVDA -2.4%)",
+    "Sniper UNH call: Mizuho raised its target to $500 (08:12), UNH +0.9% pre-market at 420.78, health care is the hottest sector (UNH +5.4% 1w, +11.8% 1m; LLY +5.1% 1w). A target raise is a weaker catalyst, but it points where money is moving on a risk-off day (the 10-14/15 lesson). Friday expiry (10-23) is the nearest. No UNH headline against it found in the last 24 hours",
+    "Not picked: META (many target raises but it is the earnings reaction day), TSLA (earnings reaction), PLTR (Citi target raise, but AI software into an AI selloff), V (Axios: in talks to buy Fireblocks for ~$2.5B; acquirer, direction unclear), GOOGL (Citizens target cut), any chip put (already -2% to -5%, chasing)",
+    "Releases: none in config/macro_events.json; web search did not show a dated US release calendar for today. WDC reports today (earnings window for storage)"
+  ],
+  "events": ["META and TSLA earnings reaction", "WDC earnings"],
+  "inputs": {"es_futures_pct": -1.0, "vix": null, "wti_pct": 1.9, "us10y": null, "us10y_change_bp": null, "us2y_change_bp": null, "dxy_pct": 0.1,
+             "overnight": "SPY -0.9% / QQQ -1.6% / SMH -3.5% pre-market (Webull extended hours, 08:53 ET); S&P futures about -1.1%, Nasdaq-100 -1.6% to -1.9% (CNBC, Stocktwits); TLT +1.0%, USO +1.9%"},
+  "rotation": {
+    "heating": ["health care (UNH +5.4% 1w / +11.8% 1m, LLY +5.1% 1w)", "energy (XOM +12.2% 1m, oil > $112)", "consumer (WMT +7% 1m)", "disk storage bounce (WDC +4% 1w after -18.5% 1m; reports today)"],
+    "cooling": ["internet (META -5.4% 1w, GOOGL -3.7% 1w)", "CPU (AMD -3.2% 1w, -11.4% 1m)", "memory (MU -16.6% 1m)", "optical (LITE -5.1% 1w)", "industrials (CAT -8.4% 1m)"],
+    "note": "Through 10-21 close. AI capex worry spreads from buyers (GOOGL Tuesday, META today) to the whole chain this morning. Money keeps going to health care and energy."
+  },
+  "sniper": {"symbol": "UNH", "direction": "call",
+             "catalyst": "Mizuho target raised to $500 (08:12 ET); health care is where money goes on AI risk-off days; UNH +0.9% pre-market",
+             "confidence": 0.35},
+  "generated_at": "2026-10-22T08:54:17-04:00"
+}
