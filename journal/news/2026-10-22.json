@@ -1,7 +1,27 @@
 {
- "as_of": "2026-10-22T11:33-04:00",
+ "as_of": "2026-10-22T12:03-04:00",
  "since": "2026-10-21T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-22 11:59",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "\u2018If You\u2019re Not in a Body Anymore, There\u2019s Definitely Gonna Be Some Difference\u2019 \u2014 Elon Musk Says We Could Upload Ourselves Into Humanoids to Live Forever",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/space/26/10/62534815/if-youre-not-in-a-body-anymore-theres-definitely-gonna-be-some-difference-elon-musk-says-we-could-upload-ourselves-into-humanoids-to-live-forever"
+  },
+  {
+   "time": "10-22 11:33",
+   "symbols": [
+    "META"
+   ],
+   "rating": "target down",
+   "headline": "Wells Fargo Maintains Overweight on Meta Platforms, Lowers Price Target to $995",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62533431/wells-fargo-maintains-overweight-meta-platforms-lowers-price-target-995"
+  },
   {
    "time": "10-22 11:30",
    "symbols": [
