@@ -1,7 +1,37 @@
 {
- "as_of": "2026-10-22T13:15-04:00",
+ "as_of": "2026-10-22T13:37-04:00",
  "since": "2026-10-21T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-22 13:32",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "SpaceX Analyst Sees an Empire Taking Shape in Orbit",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62539273/spacex-analyst-sees-an-empire-taking-shape-in-orbit"
+  },
+  {
+   "time": "10-22 13:28",
+   "symbols": [
+    "META"
+   ],
+   "rating": "target up",
+   "headline": "BMO Capital Maintains Market Perform on Meta Platforms, Raises Price Target to $685",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62539113/bmo-capital-maintains-market-perform-meta-platforms-raises-price-target-685"
+  },
+  {
+   "time": "10-22 13:17",
+   "symbols": [
+    "META"
+   ],
+   "rating": "target up",
+   "headline": "Evercore ISI Group Maintains Outperform on Meta Platforms, Raises Price Target to $870",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62538593/evercore-isi-group-maintains-outperform-meta-platforms-raises-price-target-870"
+  },
   {
    "time": "10-22 13:07",
    "symbols": [
