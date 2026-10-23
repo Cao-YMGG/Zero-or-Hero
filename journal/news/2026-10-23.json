@@ -1,7 +1,47 @@
 {
- "as_of": "2026-10-23T11:33-04:00",
+ "as_of": "2026-10-23T12:03-04:00",
  "since": "2026-10-22T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-23 11:58",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Republican Senator Blackburn Raises Concerns About Facebook-parent Meta Plan To Update Commercial Terms, Saying It Could 'Exploit American Creators And Businesses'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62565688/republican-senator-blackburn-raises-concerns-about-facebook-parent-meta-plan-update-commercial-terms"
+  },
+  {
+   "time": "10-23 11:58",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk's Tesla-SpaceX Merger Could Face Antitrust Hurdles Over Starlink Access, \u2018Vertical Foreclosure\u2019, Former DOJ Official Warns",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62565681/elon-musks-tesla-spacex-merger-could-face-antitrust-hurdles-over-starlink-access-vertical-foreclosure-former-doj-official-warns"
+  },
+  {
+   "time": "10-23 11:49",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta's Q3 FCF Turns Negative On AI Spend\u2014Q4 Capex Implied At $49B-59B",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/opinion/26/10/62565283/metas-q3-fcf-turns-negative-on-ai-spend-q4-capex-implied-at-49b-59b"
+  },
+  {
+   "time": "10-23 11:45",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "'TikTok U.S. hunts for multiple gigawatts of computing capacity' - CNBC",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62565117/tiktok-u-s-hunts-multiple-gigawatts-computing-capacity-cnbc"
+  },
   {
    "time": "10-23 11:01",
    "symbols": [

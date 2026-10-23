@@ -1,4 +1,4 @@
-# Headlines since 2026-10-22 16:00 ET (as of 2026-10-23 11:33 ET)
+# Headlines since 2026-10-22 16:00 ET (as of 2026-10-23 12:03 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -10,6 +10,10 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-23 07:58 | WDC | target up | Morgan Stanley Maintains Overweight on Western Digital, Raises Price Target to $668 |
 | 10-23 07:08 | WDC | target down | Cantor Fitzgerald Maintains Overweight on Western Digital, Lowers Price Target to $625 |
 | 10-22 17:31 | MU | rating | RBC Capital Markets Maintains Outperform Rating on Micron |
+| 10-23 11:58 | META |  | Republican Senator Blackburn Raises Concerns About Facebook-parent Meta Plan To Update Commercial Terms, Saying It Could 'Exploit American Creators And Businesses' |
+| 10-23 11:58 | TSLA |  | Elon Musk's Tesla-SpaceX Merger Could Face Antitrust Hurdles Over Starlink Access, ‘Vertical Foreclosure’, Former DOJ Official Warns |
+| 10-23 11:49 | META |  | Meta's Q3 FCF Turns Negative On AI Spend—Q4 Capex Implied At $49B-59B |
+| 10-23 11:45 | ORCL |  | 'TikTok U.S. hunts for multiple gigawatts of computing capacity' - CNBC |
 | 10-23 11:01 | META |  | Meta Platforms to Implement New Commercial Terms |
 | 10-23 11:01 | ORCL |  | Oracle Announces Enhancements to Oracle Marketplace |
 | 10-23 11:01 | AMZN |  | Amazon Delivery Drivers at OIL9 Facility Join Teamsters |
