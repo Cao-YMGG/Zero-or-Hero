@@ -91,3 +91,7 @@ date,variant,mode,contract,direction,pnl_pct,thesis,entry,exit,discipline,score,
 2026-10-22,catalyst_open,real,UNH261023C00430000,call,0.9808,2,2,2,2,8,,,"auto; UNH 418.07->425.04, best 426.40 vs strike 430; call on a put day; peak 1.71"
 2026-10-22,leader_follow,shadow,NFLX261023C00068000,call,-0.5517,1,1,0,2,4,,,"auto; NFLX 66.52->66.61, best 67.49 vs strike 68; call on a put day; peak 0.47"
 2026-10-22,leader_follow,real,NFLX261023C00068000,call,-0.4444,1,1,1,2,5,,,"auto; NFLX 66.52->66.61, best 67.49 vs strike 68; call on a put day; peak 0.47"
+2026-10-22,premarket_spy,put,,put,,,,,,,,right,"SPY -0.30% open to close, -1.17% close to close; QQQ -1.3% from the open. AI-capex selloff after META/TSLA earnings; yields fell (TLT +0.9%). claude_bias shadow SPY 763P +106% at take_profit."
+2026-10-22,premarket_sniper,call,UNH,call,,,,,,,,right,"Mizuho target $500 in the sector money was moving into; UNH +1.7% open to close. Real 430C x2 at 0.52: half at 1.69 (3x), rest trailed out at 1.03, +$168."
+2026-10-22,premarket_rotation,call,,,,,,,,,,right,"health care heating (XLV +0.9% from the open, LLY new high) while chips/internet cooled (SMH -2.5%, META -4.1%)."
+2026-10-22,intraday_pick,put,MSFT,put,,,,,,,,open,"10:27 MSFT put on capex selloff spreading to hyperscalers; MSFT -2.2% open to close, put 1.02 -> 1.18 at 15:45, carried overnight (catalyst_intraday holds news picks), expires 10-23."
