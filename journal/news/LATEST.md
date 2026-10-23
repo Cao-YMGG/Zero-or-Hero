@@ -1,9 +1,10 @@
-# Headlines since 2026-10-22 16:00 ET (as of 2026-10-23 15:16 ET)
+# Headlines since 2026-10-22 16:00 ET (as of 2026-10-23 17:18 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-23 15:39 | WDC | target down | UBS Maintains Neutral on Western Digital, Lowers Price Target to $435 |
 | 10-23 14:26 | WDC | target down | Citigroup Maintains Buy on Western Digital, Lowers Price Target to $660 |
 | 10-23 14:05 | ORCL | target down | Goldman Sachs Maintains Buy on Oracle, Lowers Price Target to $206 |
 | 10-23 13:58 | V | target up | Truist Securities Maintains Buy on Visa, Raises Price Target to $443 |
@@ -15,6 +16,11 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-23 07:58 | WDC | target up | Morgan Stanley Maintains Overweight on Western Digital, Raises Price Target to $668 |
 | 10-23 07:08 | WDC | target down | Cantor Fitzgerald Maintains Overweight on Western Digital, Lowers Price Target to $625 |
 | 10-22 17:31 | MU | rating | RBC Capital Markets Maintains Outperform Rating on Micron |
+| 10-23 16:59 | META |  | 'Meta acquires AI data platform Sundial'- Axios |
+| 10-23 16:31 | GS |  | Goldman Sachs Prime Brokerage Reports Significant Hedge Fund Losses Amid Market Volatility |
+| 10-23 16:31 | XOM |  | ExxonMobil's Joliet Refinery Expected to Resume Operations Next Week |
+| 10-23 15:41 | META PLTR |  | Palmer Luckey's New Defense Startup Is Cloning War Dogs |
+| 10-23 15:23 | MSFT |  | Texas Attorney General Paxton Sues OpenAI, CEO Altman Over Alleged Imposition Of Negative Side Effects On Clients |
 | 10-23 15:14 | MSFT |  | OpenAI Says It Expects That Future Models Will Be Able To Identify & Exploit Vulnerabilities Of Which It Is Not Yet Aware |
 | 10-23 15:02 | AAPL MSFT NVDA |  | The AI Boom Isn't 1999—and Big Tech Could Cushion a Market Crash, This CEO Says |
 | 10-23 15:01 | CVX |  | Chevron to Increase Drilling Rigs at Argentina's El Trapial Block |
