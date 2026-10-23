@@ -1,7 +1,39 @@
 {
- "as_of": "2026-10-23T10:02-04:00",
+ "as_of": "2026-10-23T10:32-04:00",
  "since": "2026-10-22T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-23 10:05",
+   "symbols": [
+    "META",
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Bill Ackman Lost $400 Million on Netflix. Now He Sees 20%-Plus Annual Returns",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62560416/bill-ackman-netflix-20-percent-returns"
+  },
+  {
+   "time": "10-23 10:03",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Dan Ives Says Palantir and Snowflake Are Nearing the 'End of That Gap' Between AI CapEx and True Monetization, Warns Wall Street Is Underestimating Tech Earnings by Up to 25%",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62560288/dan-ives-says-palantir-and-snowflake-are-nearing-the-end-of-that-gap-between-ai-capex-and-true-monetization-warns-wall-street-is-underestimating-tech-earnings-by-up-to-25"
+  },
+  {
+   "time": "10-23 10:00",
+   "symbols": [
+    "GOOGL",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Wants To Learn the Roads With AI \u2014 Google Maps, Take Note",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62560153/tesla-ai-mapping-navigation"
+  },
   {
    "time": "10-23 09:52",
    "symbols": [

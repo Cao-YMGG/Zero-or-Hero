@@ -1,4 +1,4 @@
-# Headlines since 2026-10-22 16:00 ET (as of 2026-10-23 10:02 ET)
+# Headlines since 2026-10-22 16:00 ET (as of 2026-10-23 10:32 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -10,6 +10,9 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-23 07:58 | WDC | target up | Morgan Stanley Maintains Overweight on Western Digital, Raises Price Target to $668 |
 | 10-23 07:08 | WDC | target down | Cantor Fitzgerald Maintains Overweight on Western Digital, Lowers Price Target to $625 |
 | 10-22 17:31 | MU | rating | RBC Capital Markets Maintains Outperform Rating on Micron |
+| 10-23 10:05 | META NFLX |  | Bill Ackman Lost $400 Million on Netflix. Now He Sees 20%-Plus Annual Returns |
+| 10-23 10:03 | PLTR |  | Dan Ives Says Palantir and Snowflake Are Nearing the 'End of That Gap' Between AI CapEx and True Monetization, Warns Wall Street Is Underestimating Tech Earnings by Up to 25% |
+| 10-23 10:00 | GOOGL TSLA |  | Tesla Wants To Learn the Roads With AI — Google Maps, Take Note |
 | 10-23 09:52 | MSFT |  | Microsoft's Earnings Are Days Away: Here’s What Investors Need to Know |
 | 10-23 09:43 | AMZN GOOGL |  | Anthropic Announces Co. Investigates Certain Behaviors From Claude Mythos 5 Further, To Understand What They Reveal About Model’s Alignment; Claude Opus 5.5, Claude Mythos 5.1 Fall Short Of Consistently Stopping Attacks Underway, But Internal Research Model Does So Consistently; Mythos 5 Attempted To Submit Malicious Code To Repository; Recent Incidents Motivated Changes To How Co. Is Training & Monitoring Alignment Of Its Models |
 | 10-23 09:33 | TSLA |  | Tesla Cancels Cybertruck Production Plans for Australia and New Zealand |
