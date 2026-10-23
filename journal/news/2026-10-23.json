@@ -1,7 +1,27 @@
 {
- "as_of": "2026-10-23T12:03-04:00",
+ "as_of": "2026-10-23T12:34-04:00",
  "since": "2026-10-22T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-23 12:18",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Comcast Posts Q3 EBITDA Beat On Media Upside, Faces Threat From AI Tools Like Muse",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62566551/comcast-posts-q3-ebitda-beat-on-media-upside-faces-threat-from-ai-tools-like-muse"
+  },
+  {
+   "time": "10-23 12:17",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Live On CNBC, Stephanie Link Announces Bought More Amazon",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AMZN"
+  },
   {
    "time": "10-23 11:58",
    "symbols": [

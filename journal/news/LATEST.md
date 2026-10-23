@@ -1,4 +1,4 @@
-# Headlines since 2026-10-22 16:00 ET (as of 2026-10-23 12:03 ET)
+# Headlines since 2026-10-22 16:00 ET (as of 2026-10-23 12:34 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -10,6 +10,8 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-23 07:58 | WDC | target up | Morgan Stanley Maintains Overweight on Western Digital, Raises Price Target to $668 |
 | 10-23 07:08 | WDC | target down | Cantor Fitzgerald Maintains Overweight on Western Digital, Lowers Price Target to $625 |
 | 10-22 17:31 | MU | rating | RBC Capital Markets Maintains Outperform Rating on Micron |
+| 10-23 12:18 | META |  | Comcast Posts Q3 EBITDA Beat On Media Upside, Faces Threat From AI Tools Like Muse |
+| 10-23 12:17 | AMZN |  | Live On CNBC, Stephanie Link Announces Bought More Amazon |
 | 10-23 11:58 | META |  | Republican Senator Blackburn Raises Concerns About Facebook-parent Meta Plan To Update Commercial Terms, Saying It Could 'Exploit American Creators And Businesses' |
 | 10-23 11:58 | TSLA |  | Elon Musk's Tesla-SpaceX Merger Could Face Antitrust Hurdles Over Starlink Access, ‘Vertical Foreclosure’, Former DOJ Official Warns |
 | 10-23 11:49 | META |  | Meta's Q3 FCF Turns Negative On AI Spend—Q4 Capex Implied At $49B-59B |
