@@ -1,7 +1,48 @@
 {
- "as_of": "2026-10-23T10:32-04:00",
+ "as_of": "2026-10-23T11:02-04:00",
  "since": "2026-10-22T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-23 11:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platforms to Implement New Commercial Terms",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/meta-platforms-to-implement-new-commercial-terms-nov-20-ce785cdfda8af127"
+  },
+  {
+   "time": "10-23 11:01",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Announces Enhancements to Oracle Marketplace",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/oracle-expands-marketplace-to-unlock-new-partner-growth-opportunities-302917660.html"
+  },
+  {
+   "time": "10-23 11:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Delivery Drivers at OIL9 Facility Join Teamsters",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/amazon-tom-team-drivers-at-oil9-facility-join-teamsters-302918209.html"
+  },
+  {
+   "time": "10-23 10:46",
+   "symbols": [
+    "META",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "EXCLUSIVE: Paul Kedrosky Warns AI Data Center Boom Could Fail Even as AI Adoption Soars",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62562607/ai-data-center-boom-paul-kedrosky"
+  },
   {
    "time": "10-23 10:05",
    "symbols": [

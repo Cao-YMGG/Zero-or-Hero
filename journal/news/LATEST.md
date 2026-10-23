@@ -1,4 +1,4 @@
-# Headlines since 2026-10-22 16:00 ET (as of 2026-10-23 10:32 ET)
+# Headlines since 2026-10-22 16:00 ET (as of 2026-10-23 11:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -10,6 +10,10 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-23 07:58 | WDC | target up | Morgan Stanley Maintains Overweight on Western Digital, Raises Price Target to $668 |
 | 10-23 07:08 | WDC | target down | Cantor Fitzgerald Maintains Overweight on Western Digital, Lowers Price Target to $625 |
 | 10-22 17:31 | MU | rating | RBC Capital Markets Maintains Outperform Rating on Micron |
+| 10-23 11:01 | META |  | Meta Platforms to Implement New Commercial Terms |
+| 10-23 11:01 | ORCL |  | Oracle Announces Enhancements to Oracle Marketplace |
+| 10-23 11:01 | AMZN |  | Amazon Delivery Drivers at OIL9 Facility Join Teamsters |
+| 10-23 10:46 | META NVDA |  | EXCLUSIVE: Paul Kedrosky Warns AI Data Center Boom Could Fail Even as AI Adoption Soars |
 | 10-23 10:05 | META NFLX |  | Bill Ackman Lost $400 Million on Netflix. Now He Sees 20%-Plus Annual Returns |
 | 10-23 10:03 | PLTR |  | Dan Ives Says Palantir and Snowflake Are Nearing the 'End of That Gap' Between AI CapEx and True Monetization, Warns Wall Street Is Underestimating Tech Earnings by Up to 25% |
 | 10-23 10:00 | GOOGL TSLA |  | Tesla Wants To Learn the Roads With AI — Google Maps, Take Note |

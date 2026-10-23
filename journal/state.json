@@ -13,8 +13,8 @@
         "entry_price": 1.05,
         "peak": 1.96,
         "qty": 1,
-        "last": 0.15,
-        "last_time": "2026-10-23T10:32:04-04:00"
+        "last": 0.03,
+        "last_time": "2026-10-23T11:02:34-04:00"
       },
       "real": {
         "contract": "MSFT261023P00515000",
@@ -36,8 +36,8 @@
         "entry_price": 1.24,
         "peak": 1.8,
         "qty": 1,
-        "last": 0.69,
-        "last_time": "2026-10-23T10:32:04-04:00"
+        "last": 0.59,
+        "last_time": "2026-10-23T11:02:34-04:00"
       },
       "real": {
         "contract": "MU261023C00910000",
@@ -57,8 +57,8 @@
         "entry_price": 1.06,
         "peak": 1.19,
         "qty": 1,
-        "last": 0.42,
-        "last_time": "2026-10-23T10:32:04-04:00"
+        "last": 0.6,
+        "last_time": "2026-10-23T11:02:34-04:00"
       },
       "real": {
         "contract": "META261023C00657500",
@@ -71,23 +71,7 @@
     "rebound_scanner": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "CRDO261023C00155000",
-        "direction": "call",
-        "entry_time": "2026-10-23T09:46:18-04:00",
-        "entry_price": 1.02,
-        "peak": 1.13,
-        "qty": 1,
-        "last": 0.83,
-        "last_time": "2026-10-23T10:32:04-04:00"
-      },
-      "real": {
-        "contract": "CRDO261023C00155000",
-        "qty": 1,
-        "underlying": "CRDO",
-        "entry_price": 1.0,
-        "entry_time": "2026-10-23T09:47:12-04:00"
-      }
+      "closed": true
     },
     "rebound_scanner_wide": {
       "attempts": 1,
@@ -97,10 +81,10 @@
         "direction": "call",
         "entry_time": "2026-10-23T09:46:18-04:00",
         "entry_price": 1.13,
-        "peak": 1.13,
+        "peak": 2.48,
         "qty": 1,
-        "last": 0.83,
-        "last_time": "2026-10-23T10:32:04-04:00"
+        "last": 0.78,
+        "last_time": "2026-10-23T11:02:34-04:00"
       }
     },
     "nvda_gapdown_put": {},

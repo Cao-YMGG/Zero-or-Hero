@@ -23,8 +23,8 @@
   "rebound_scanner": {
     "generation": 1,
     "history": [],
-    "real_trades": 0,
-    "realized": 0.0,
+    "real_trades": 1,
+    "realized": 40.0,
     "started": "2026-10-19"
   },
   "spy_open_drive": {
