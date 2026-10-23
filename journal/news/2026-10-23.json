@@ -1,0 +1,731 @@
+{
+ "as_of": "2026-10-23T08:51-04:00",
+ "since": "2026-10-22T16:00-04:00",
+ "headlines": [
+  {
+   "time": "10-23 08:04",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Announces $1B Investment In Its Partner Ecosystem To Facilitate Customer Demand For AI-Powered Solutions And Services",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62555614/oracle-announces-1b-investment-its-partner-ecosystem-facilitate-customer-demand-ai-powered-solutions"
+  },
+  {
+   "time": "10-23 08:02",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Needs 20,000 Robots to 'Self-Play' in Order to Improve: Musk",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62555524/tesla-optimus-robot-training"
+  },
+  {
+   "time": "10-23 08:02",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "target down",
+   "headline": "Rosenblatt Maintains Buy on Western Digital, Lowers Price Target to $650",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62555513/rosenblatt-maintains-buy-western-digital-lowers-price-target-650"
+  },
+  {
+   "time": "10-23 08:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs International Executes Share Repurchase Program",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/23/3387165/0/en/transaction-in-own-shares.html"
+  },
+  {
+   "time": "10-23 08:01",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Class Action Lawsuit Filed Against Bank of America Corporation",
+   "source": "fiscal.ai",
+   "url": "https://stockhouse.com/news/press-releases/2026/10/23/bac-deadline-news-bank-of-america-investors-are-notified-of-the-imminent"
+  },
+  {
+   "time": "10-23 08:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Files TR-1 Notification for Bodycote Plc",
+   "source": "fiscal.ai",
+   "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69917797-bodycote-plc-holding-s-in-company-008.htm"
+  },
+  {
+   "time": "10-23 08:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Reports Change in Major Holding of Intertek Group PLC",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/rns/intertek-group--itrk/holding-s-in-company/9839377"
+  },
+  {
+   "time": "10-23 07:58",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "target up",
+   "headline": "Morgan Stanley Maintains Overweight on Western Digital, Raises Price Target to $668",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62555317/morgan-stanley-maintains-overweight-western-digital-raises-price-target-668"
+  },
+  {
+   "time": "10-23 07:53",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Gary Black Says Tesla Investors Are Taking Elon Musk's Earnings Call Projections as 'Gospel' Despite Stock's 'Extreme Valuation Metrics'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62555207/gary-black-says-tesla-investors-are-taking-elon-musks-earnings-call-projections-as-gospel-despite-stocks-extreme-valuation-metrics"
+  },
+  {
+   "time": "10-23 07:51",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Pony AI, NVIDIA Take Their Robotaxi Ambitions to a New Market",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62555195/pony-ai-nvidia-take-their-robotaxi-ambitions-to-a-new-market"
+  },
+  {
+   "time": "10-23 07:31",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Insider Sells Shares Worth $814,748",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/apple-insider-sold-shares-worth-814-748-according-to-a-recent-sec-filing-ce785cded08ff12d"
+  },
+  {
+   "time": "10-23 07:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Analyst Adjusts Price Target for Oracle Corporation",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/ja/news/post/1002172624/goldman-sachs-maintains-oracle-orclus-with-buy-rating-cuts-target"
+  },
+  {
+   "time": "10-23 07:31",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Rocket Lab Successfully Launches 'We're Not Hawking Around' Mission",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/23/3387094/0/en/mission-success-rocket-lab-launches-98th-electron-mission.html"
+  },
+  {
+   "time": "10-23 07:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Pony AI, NVIDIA, and inDrive Collaborate on Autonomous Vehicles in Kazakhstan",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/pony-ai-unveils-collaboration-with-nvidia-indrive-to-explore-launch-of-autonomous-vehicles-in-kazak-ce785cdfd98af727"
+  },
+  {
+   "time": "10-23 07:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Presents Quantum Computing Research at IEEE Conference",
+   "source": "fiscal.ai",
+   "url": "https://www.financexmagazine.com/post/quantum-hits-the-credit-desk-tokenised-stocks-pile-up-on-base-and-regulators-finally-open-the-ai-h"
+  },
+  {
+   "time": "10-23 07:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Justin Breton Announces Departure from Walmart",
+   "source": "fiscal.ai",
+   "url": "https://retailtechinnovationhub.com/category/on-the-move"
+  },
+  {
+   "time": "10-23 07:18",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Recused Himself From SpaceX-Tesla Merger Talks Over Conflicts of Interest \u2014 But Rocket Giant Says His Word Will Be Final",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m-a/26/10/62554557/elon-musk-recused-himself-from-spacex-tesla-merger-talks-over-conflicts-of-interest-but-rocket-giant-says-his-word-will-be-final"
+  },
+  {
+   "time": "10-23 07:08",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "target down",
+   "headline": "Cantor Fitzgerald Maintains Overweight on Western Digital, Lowers Price Target to $625",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62554307/cantor-fitzgerald-maintains-overweight-western-digital-lowers-price-target-625"
+  },
+  {
+   "time": "10-23 07:01",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "More Americans Now Take GLP-1 Drugs for Weight Loss Than Diabetes as Food, Alcohol and Apparel Habits Shift, Survey Finds",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/10/62554133/more-americans-now-take-glp-1-drugs-for-weight-loss-than-diabetes-as-food-alcohol-and-apparel-habits-shift-survey-finds"
+  },
+  {
+   "time": "10-23 06:44",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Why Is Western Digital Stock Falling Friday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62553890/why-is-western-digital-stock-falling-friday"
+  },
+  {
+   "time": "10-23 06:38",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Stellantis, Nvidia And AI Mobility Company Wayve Partner With French Government To Advance Deployment Of Autonomous Vehicles In France And Accelerating Their Development Across The EU",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62553743/stellantis-nvidia-and-ai-mobility-company-wayve-partner-french-government-advance-deployment-autonom"
+  },
+  {
+   "time": "10-23 06:31",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Phillip Securities Adjusts Tesla Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/phillip-securities-adjusts-price-target-on-tesla-to-230-from-220-ce785cdfd98bff2c"
+  },
+  {
+   "time": "10-23 06:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Cambridge Health Group Partners with Oracle to Enhance Healthcare Efficiency",
+   "source": "fiscal.ai",
+   "url": "https://gecnewswire.com/cambridge-health-group-and-oracle-team-up-to-boost-healthcare-efficiency/"
+  },
+  {
+   "time": "10-23 06:31",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "China Renaissance Adjusts Price Target for Meta Platforms",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/china-renaissance-adjusts-price-target-on-meta-platforms-to-816-from-700-ce785cdfd988fe22"
+  },
+  {
+   "time": "10-23 06:31",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "GE Aerospace Joins NATICA Project for ATS Platform Development",
+   "source": "fiscal.ai",
+   "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69917918-pta-news-frequentis-ag-frequentis-leitet-europaeisches-sesar-projekt-zur-weiterentwicklung-der-naechsten-generation-von-flugsicherungssystemen-015.htm"
+  },
+  {
+   "time": "10-23 06:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA and Vertiv Launch Accelerated AI Factory Deployment Model",
+   "source": "fiscal.ai",
+   "url": "https://datacentremagazine.com/news/how-vertiv-and-nvidia-cut-ai-factory-deployment-time-in-half"
+  },
+  {
+   "time": "10-23 06:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Web Services Announces AWS Interconnect",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswirechina.com/en/news/64402.html"
+  },
+  {
+   "time": "10-23 06:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Issues Buy Recommendation for Safran",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.at/nachrichten/aktien/aktien-im-fokus-safran-weiter-unter-druck-jpmorgan-schwache-kaufen-1036658706"
+  },
+  {
+   "time": "10-23 06:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Researchers Develop AI Tool for Sequential Medical Diagnosis",
+   "source": "fiscal.ai",
+   "url": "https://www.chinadailyasia.com/article/641601"
+  },
+  {
+   "time": "10-23 06:17",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "SK Hynix Shelves Solidigm IPO Plans Amid Chip-Stock Correction and Market Volatility: Says Does Not Reflect Any Change in 'Growth Prospects or Investment Needs'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/ipos/26/10/62553421/sk-hynix-shelves-solidigm-ipo-plans-amid-chip-stock-correction-and-market-volatility-says-does-not-reflect-any-change-in-growth-prospects-or-investment-needs"
+  },
+  {
+   "time": "10-23 05:58",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Assessing Apple's Performance Against Competitors In Technology Hardware, Storage &amp; Peripherals Industry",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62552839/assessing-apple-s-performance-against-competitors-technology-hardware-storage-amp-peripherals-indust"
+  },
+  {
+   "time": "10-23 05:49",
+   "symbols": [
+    "BAC",
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "Bernie Sanders and Adam Schiff Sound Alarm As Rogue AI Agents Enter Bank Accounts, Warn of Financial Chaos: \u2018Pause AI NOW!\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62552760/sanders-schiff-rogue-ai-agents-bank"
+  },
+  {
+   "time": "10-23 05:41",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta's AI Revolution Has Wall Street Excited \u2014 And Worried About The Bill",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62552623/metas-ai-revolution-has-wall-street-excited-and-worried-about-the-bill"
+  },
+  {
+   "time": "10-23 04:44",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Spotify Embraces AI Agents From ChatGPT to Muse as New Growth Engine: \u2018We Are Simply Everywhere\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62552283/spotify-chatgpt-meta-muse-ai-agent"
+  },
+  {
+   "time": "10-23 04:30",
+   "symbols": [
+    "NVDA",
+    "STX",
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Western Digital Warns HDD Price Growth Will Eventually Slow \u2014 But AI, Inference and Robotics Are Keeping Demand Strong",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62552114/western-digital-price-growth-to-cool-storage-demand-ai-inference-robotic"
+  },
+  {
+   "time": "10-23 04:25",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Elizabeth Warren Says \u2018Healthcare Conglomerates Are Jacking Up Prices,\u2019 as US Workers Pay 9% More For Family Health Coverage",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/10/62552099/elizabeth-warren-says-healthcare-conglomerates-are-jacking-up-prices-as-us-workers-pay-9-more-for-family-health-coverage"
+  },
+  {
+   "time": "10-23 03:26",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Drops Plans To Produce Cybertruck For Australia And New Zealand Markets",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62551752/tesla-drops-plans-produce-cybertruck-australia-and-new-zealand-markets"
+  },
+  {
+   "time": "10-23 03:18",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Western Digital (WDC) Stock Is Trending After Hours: Here\u2019s What You Need to Know",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62551721/western-digital-shares-fall-insider-sale-earnings"
+  },
+  {
+   "time": "10-23 03:14",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Pony.ai And inDrive Plan Astana Launch Of Gen-7 Robotaxis, Pending Kazakhstan Government Agreement, Under MOU With NVIDIA To Explore Autonomous Mobility",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/NVDA"
+  },
+  {
+   "time": "10-23 03:11",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "OpenAI Signs Agreement With Poland\u2019s NASK To Explore Collaboration On AI Safety, Security And Technical Research, Strengthening Safeguards Against Emerging Risks",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/MSFT"
+  },
+  {
+   "time": "10-23 02:08",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Trump Asked Google\u2019s Sundar Pichai to Rename Atlantic Ocean After America, But the CEO Wasn\u2019t Having It: \u2018Please Don\u2019t Ask Us to Do That\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62551058/trump-asked-googles-sundar-pichai-to-rename-atlantic-ocean-after-america-but-the-ceo-wasnt-having-it-please-dont-ask-us-to-do-that"
+  },
+  {
+   "time": "10-22 23:27",
+   "symbols": [
+    "GOOGL",
+    "META"
+   ],
+   "rating": "",
+   "headline": "Ro Khanna Says Zuckerberg\u2019s California Deal Undercuts Billionaire Tax Exodus Warnings: \u2018Gavin, Can You and Sergey Brin Stop...\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62550501/khanna-zuckerberg-california-billionaire-tax"
+  },
+  {
+   "time": "10-22 22:32",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Peter Schiff Warns Stock Market Crash Before Midterms 'Is Not Outside the Realm of Possibility' \u2014 'This Is October'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/economic-data/26/10/62550388/peter-schiff-october-stock-market-crash-warning-midterms"
+  },
+  {
+   "time": "10-22 22:01",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Updates Long-Term Production Targets and Facility Plans",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/20261022104/teslas-stock-falls-as-elon-musk-leaves-investors-wanting-more"
+  },
+  {
+   "time": "10-22 19:01",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Western Digital Declares Quarterly Cash Dividend",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/western-digital-1q-profit-grows-on-data-storage-demand-higher-pricing-update-ce785cdede89f420"
+  },
+  {
+   "time": "10-22 19:01",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Releases 'My Sad Dead' Community Project",
+   "source": "fiscal.ai",
+   "url": "https://about.netflix.com/newsroom"
+  },
+  {
+   "time": "10-22 19:01",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "ExxonMobil Joliet Refinery Experiences Operational Disruption",
+   "source": "fiscal.ai",
+   "url": "https://dailycallernewsfoundation.org/2026/10/22/exxonmobil-joliet-refinery-gas-prices-michigan-ohio-indiana-tom-kloza/"
+  },
+  {
+   "time": "10-22 17:36",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Western Digital Q1 2027 Earnings Call Transcript",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62548876/western-digital-q1-2027-earnings-call-transcript"
+  },
+  {
+   "time": "10-22 17:31",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Former Salesforce Global Head of Brand and Creative Scott Larson Joins OpenArt AI",
+   "source": "fiscal.ai",
+   "url": "https://martechseries.com/video/openart-ai-hires-former-salesforce-global-head-of-brand-and-creative-scott-larson-as-company-nears-200m-arr/"
+  },
+  {
+   "time": "10-22 17:31",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "rating",
+   "headline": "RBC Capital Markets Maintains Outperform Rating on Micron",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1002046064/micron-s-long-term-memory-strategy-supports-growth-outlook-rbc"
+  },
+  {
+   "time": "10-22 17:31",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Wedbush Reports Micron Has No Plans for Denser DRAM Layout",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/micron-technology-has-no-plans-to-move-to-denser-layout-of-dram-memory-cells-wedbush-says-ce785cdedc89f126"
+  },
+  {
+   "time": "10-22 17:31",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Urban Remedy Launches Chocolate Protein Collagen Shake at Select Costco Warehouses",
+   "source": "fiscal.ai",
+   "url": "https://www.bevnet.com/pr/2026/10/22/urban-remedy-now-available-at-select-costco-warehouses-in-the-la-area"
+  },
+  {
+   "time": "10-22 17:31",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "Wall Street Analysts Update Ratings and Price Targets for GE Aerospace",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1002028551/a-quick-look-at-today-s-ratings-for-ge-aerospace"
+  },
+  {
+   "time": "10-22 17:31",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "SOAR AI, Inc. Announces Contracted GPU Deployments Featuring AMD Instinct\u2122 Accelerators",
+   "source": "fiscal.ai",
+   "url": "https://natlawreview.com/press-releases/soar-ai-releases-investor-presentation-outlining-its-planned-path-initial"
+  },
+  {
+   "time": "10-22 17:27",
+   "symbols": [
+    "CAT",
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "AI Sell-Off Spreads to Industrials: Caterpillar, GE Vernova, Vertiv Trapped in Bear Market",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62548779/ai-sell-off-spreads-to-industrials-caterpillar-ge-vernova-vertiv-trapped-in-bear-market"
+  },
+  {
+   "time": "10-22 17:15",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Bill Ackman Says Meta Can Finance 'Whatever They Want,' Points to $82 Billion Cash",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62548583/meta-ai-spending-bill-ackman-cash"
+  },
+  {
+   "time": "10-22 17:03",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "The Federal Communications Commission Said On Thursday It Has Granted A Waiver To Intel From Its Ban On Some Foreign-Made Advanced Robotics; FCC Said It Would Grant A One-Year Waiver Of Its Rules In Order To Prevent \"Potential Disruptions In The Availability Of Domestic Semiconductor Manufacturing Services For Intel\u2019s Customers.\"",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62548308/federal-communications-commission-said-thursday-it-has-granted-waiver-intel-its-ban-some-foreign-mad"
+  },
+  {
+   "time": "10-22 16:51",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Western Digital Exec Says Customer Demand Remains Healthy And Our Visibility Is Extending Further Out",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62548071/western-digital-exec-says-customer-demand-remains-healthy-and-our-visibility-extending-further-out"
+  },
+  {
+   "time": "10-22 16:45",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "SpaceX Says Any Potential Tesla Combination Would Be Subject To Further Approval By Our Special Committee, Board & Controlling Shareholder",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62547949/spacex-says-any-potential-tesla-combination-would-be-subject-further-approval-our-special-committee-"
+  },
+  {
+   "time": "10-22 16:31",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Western Digital Reports Fiscal Q1 2027 Earnings Beat and Sets Q2 Guidance",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/western-digital-fiscal-q1-adjusted-earnings-revenue-rise-q2-guidance-set-ce785cdedf88f720"
+  },
+  {
+   "time": "10-22 16:31",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood CEO Participates in Dataline Investment",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1001986084/robinhood-hoodus-ceo-participates-in-dataline-investment-a-new-paradigm"
+  },
+  {
+   "time": "10-22 16:31",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova Prepares for Q3 2026 Earnings Release",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8314748/gev-stock-earnings-preview-what-to-expect-from-ge-vernovas-q3-2026-report"
+  },
+  {
+   "time": "10-22 16:31",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova Shares Experience Significant Intraday Decline",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/dow-jones/202610228359/ge-vernova-down-over-10-on-track-for-largest-percent-decrease-since-january-2025-data-talk"
+  },
+  {
+   "time": "10-22 16:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorganChase Announces $10 Million Loan to Support Atlanta Small Businesses",
+   "source": "fiscal.ai",
+   "url": "https://metroatlantaceo.com/news/2026/10/jpmorganchase-expands-support-atlanta-small-businesses-through-hiring-coaching-and-10m-loan-access-capital-entrepreneurs/"
+  },
+  {
+   "time": "10-22 16:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Merck Collaborates with NVIDIA, Microsoft, and Dawn Health on Patient Support Model",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswirechina.com/en/news/64377.html"
+  },
+  {
+   "time": "10-22 16:31",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "SpaceX Says During Three & Nine Months Ended September 30, Purchased $151M And $480M, Respectively, Of Megapack Products From Tesla",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62547233/spacex-says-during-three-nine-months-ended-september-30-purchased-151m-and-480m-respectively-megapac"
+  },
+  {
+   "time": "10-22 16:21",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "'OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors'- CNBC",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62546901/openai-nears-30-billion-funding-round-1-25-trillion-valuation-led-uae-investors-cnbc"
+  },
+  {
+   "time": "10-22 16:19",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta\u2019s Muse Downloads Top 10 Million, Join Elite Company: Here\u2019s the 2 Non-Game Apps to Hit Same Milestone",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/social-media/26/10/62546804/metas-muse-downloads-top-10-million-join-elite-company-heres-the-2-non-game-apps-to-hit-same-milestone"
+  },
+  {
+   "time": "10-22 16:17",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Western Digital Stock Climbs on Solid Q1 EPS, Revenue Beats",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62546686/western-digital-stock-climbs-on-solid-q1-eps-revenue-beats"
+  },
+  {
+   "time": "10-22 16:04",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Western Digital Raises Quarterly Dividend From $0.15 To $0.175 Per Share",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/dividends/26/10/62545435/western-digital-raises-quarterly-dividend-0-15-0-175-share"
+  },
+  {
+   "time": "10-22 16:02",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Western Digital Sees Q2 Adj EPS $5.60-$6.00 vs $4.79 Est; Sees Sales $5.000B-$5.200B vs $4.566B Est",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62545217/western-digital-sees-q2-adj-eps-5-60-6-00-vs-4-79-est-sees-sales-5-000b-5-200b-vs-4-566b-est"
+  },
+  {
+   "time": "10-22 16:01",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Western Digital Q1 Adj. EPS $4.64 Beats $4.07 Estimate, Sales $4.381B Beat $4.131B Estimate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/10/62545154/western-digital-q1-adj-eps-4-64-beats-4-07-estimate-sales-4-381b-beat-4-131b-estimate"
+  }
+ ]
+}
