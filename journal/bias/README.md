@@ -8,7 +8,9 @@ appears; the `claude_bias` / `claude_confirm` variants trade it in shadow mode.
 {
   "date": "2026-10-05",
   "bias": "call",                 // "call", "put" or "none" (no trade)
-  "confidence": 0.6,              // 0-1, how strongly the evidence points one way
+  "confidence": 0.6,              // 0-1, how strongly the evidence points one way (legacy)
+  "p_up": 0.55,                   // since 2026-10-23: probability SPY closes above its OPEN today;
+                                  // a call only at >= 0.60, a put only at <= 0.40, else "none"
   "summary": "one sentence",
   "reasons": ["...", "..."],
   "events": ["CPI 08:30"],        // scheduled releases / speakers today

@@ -100,7 +100,11 @@ scored against purely mechanical variants.
    (2024-02+): the night move barely predicts open->close (SPY corr -0.11, QQQ -0.07, mega caps
    -0.04). One weak lean, SPY only: night down >= 0.3% then the pre-market recovers >= 0.2%,
    day +0.66% avg (32 days, 59% up); not true for QQQ or single stocks. 8:30 data overrides it.
-3. Decide `call`, `put` or `none`. Prefer `none` when evidence is mixed: a skipped day costs
+3. Write `p_up`, the probability that SPY closes above its OPEN today (open to close, not the
+   gap: pre-market news is mostly priced at the open, OVERNIGHT.md). Honest values sit near
+   0.50-0.58 most days; a call needs >= 0.60, a put <= 0.40 (since 2026-10-23, owner talk).
+   Calibration is scored weekly (buckets of p_up vs how often SPY closed above its open).
+   Decide `call`, `put` or `none`. Prefer `none` when evidence is mixed: a skipped day costs
    nothing, a coin flip costs the spread and theta.
 2b. Rotation map: with Webull daily bars, compute 1-week and 1-month returns for theme
    baskets — GPU (NVDA), CPU (AMD, INTC, ARM), memory (MU, SNDK), disk storage (WDC, STX) — keep these two apart, they split on 2026-10-07, optical
