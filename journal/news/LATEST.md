@@ -1,15 +1,21 @@
-# Headlines since 2026-10-22 16:00 ET (as of 2026-10-23 12:34 ET)
+# Headlines since 2026-10-22 16:00 ET (as of 2026-10-23 13:15 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-23 12:43 | PLTR | target up | Piper Sandler Maintains Overweight on Palantir Technologies, Raises Price Target to $231 |
+| 10-23 12:39 | WDC | target up | JP Morgan Maintains Overweight on Western Digital, Raises Price Target to $650 |
 | 10-23 09:32 | CRM | rating | DBS Bank Adjusts Salesforce Price Target to $300 From $240 |
 | 10-23 09:00 | WDC | target down | TD Cowen Maintains Buy on Western Digital, Lowers Price Target to $430 |
 | 10-23 08:02 | WDC | target down | Rosenblatt Maintains Buy on Western Digital, Lowers Price Target to $650 |
 | 10-23 07:58 | WDC | target up | Morgan Stanley Maintains Overweight on Western Digital, Raises Price Target to $668 |
 | 10-23 07:08 | WDC | target down | Cantor Fitzgerald Maintains Overweight on Western Digital, Lowers Price Target to $625 |
 | 10-22 17:31 | MU | rating | RBC Capital Markets Maintains Outperform Rating on Micron |
+| 10-23 13:12 | META |  | 'Meta's Muse AI To Counter China Models With Subscribers, Not Ads; Meta Plans To Offer Paid Enterprise Services, Will Take Commissions From Sellers On Purchases Made Using Agents, Alexandr Wang Says' - Nikkei Asia |
+| 10-23 13:00 | GS |  | CNBC Halftime Report Final Trades: IBM, Devon Energy, Goldman Sachs Group, Lockheed Martin |
+| 10-23 12:58 | AAPL |  | Michael Burry Warns Washington Has Little Room Left to Fight the Next Crisis |
+| 10-23 12:49 | NVDA |  | Stellantis Stock Drops to New 52-Week Low: What's Happening? |
 | 10-23 12:18 | META |  | Comcast Posts Q3 EBITDA Beat On Media Upside, Faces Threat From AI Tools Like Muse |
 | 10-23 12:17 | AMZN |  | Live On CNBC, Stephanie Link Announces Bought More Amazon |
 | 10-23 11:58 | META |  | Republican Senator Blackburn Raises Concerns About Facebook-parent Meta Plan To Update Commercial Terms, Saying It Could 'Exploit American Creators And Businesses' |

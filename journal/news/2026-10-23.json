@@ -1,7 +1,67 @@
 {
- "as_of": "2026-10-23T12:34-04:00",
+ "as_of": "2026-10-23T13:15-04:00",
  "since": "2026-10-22T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-23 13:12",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "'Meta's Muse AI To Counter China Models With Subscribers, Not Ads; Meta Plans To Offer Paid Enterprise Services, Will Take Commissions From Sellers On Purchases Made Using Agents, Alexandr Wang Says' - Nikkei Asia",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62568521/meta-s-muse-ai-counter-china-models-subscribers-not-ads-meta-plans-offer-paid-enterprise-services-wi"
+  },
+  {
+   "time": "10-23 13:00",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "CNBC Halftime Report Final Trades: IBM, Devon Energy, Goldman Sachs Group, Lockheed Martin",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/DVN"
+  },
+  {
+   "time": "10-23 12:58",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Michael Burry Warns Washington Has Little Room Left to Fight the Next Crisis",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62568034/michael-burry-warns-washington-has-little-room-left-to-fight-the-next-crisis"
+  },
+  {
+   "time": "10-23 12:49",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Stellantis Stock Drops to New 52-Week Low: What's Happening?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62567672/stellantis-stock-drops-to-new-52-week-low-whats-happening"
+  },
+  {
+   "time": "10-23 12:43",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "target up",
+   "headline": "Piper Sandler Maintains Overweight on Palantir Technologies, Raises Price Target to $231",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62567399/piper-sandler-maintains-overweight-palantir-technologies-raises-price-target-231"
+  },
+  {
+   "time": "10-23 12:39",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "target up",
+   "headline": "JP Morgan Maintains Overweight on Western Digital, Raises Price Target to $650",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62567267/jp-morgan-maintains-overweight-western-digital-raises-price-target-650"
+  },
   {
    "time": "10-23 12:18",
    "symbols": [
