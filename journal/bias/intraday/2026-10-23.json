@@ -1,0 +1,12 @@
+{
+ "date": "2026-10-23",
+ "picks": [
+  {
+   "time": "13:17",
+   "symbol": "ORCL",
+   "direction": "call",
+   "confidence": 0.3,
+   "catalyst": "In-session news: CNBC 11:45, TikTok U.S. is hunting for multiple gigawatts of computing capacity; Oracle is TikTok U.S.'s cloud host. ORCL +2.0% from its 124.84 open (127.37), near the day high, plus Thursday's $1B partner-ecosystem commitment. Risk: AI build-out names are cooling and it is Friday (same-day expiry)."
+  }
+ ]
+}
