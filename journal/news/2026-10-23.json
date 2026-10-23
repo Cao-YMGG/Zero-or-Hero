@@ -1,7 +1,138 @@
 {
- "as_of": "2026-10-23T13:50-04:00",
+ "as_of": "2026-10-23T14:16-04:00",
  "since": "2026-10-22T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-23 14:12",
+   "symbols": [
+    "COST",
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Gas Prices to Remain High Through Election, Expert Says 'It's Still Not Over'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/commodities/26/10/62570934/gas-prices-to-remain-high-through-election-expert-says-its-still-not-over"
+  },
+  {
+   "time": "10-23 14:05",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "target down",
+   "headline": "Goldman Sachs Maintains Buy on Oracle, Lowers Price Target to $206",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62570670/goldman-sachs-maintains-buy-oracle-lowers-price-target-206"
+  },
+  {
+   "time": "10-23 14:02",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Reports Growing Demand for Financial Prediction Markets",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1002198900/robinhood-sees-surge-in-bitcoin-gold-prediction-markets-as-traders"
+  },
+  {
+   "time": "10-23 14:02",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "The Goldman Sachs Group, Inc. Notifies ASOS PLC of Change in Major Holdings",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/rns/asos--asc/holding-s-in-company/9839628"
+  },
+  {
+   "time": "10-23 14:01",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Costco Launches New 'Beauty Table' Program",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/rejuran-cosmetics-expands-us-retail-presence-through-costcos-first-ever-beauty-table-program-302918195.html"
+  },
+  {
+   "time": "10-23 14:01",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel and SambaNova Systems Expand Strategic Partnership",
+   "source": "fiscal.ai",
+   "url": "https://aimagazine.com/news/sambanova-systems-fast-ai-inference-chips-at-us-11bn-value"
+  },
+  {
+   "time": "10-23 14:01",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "SanDisk Showcases New Automotive and Enterprise NAND Flash Solutions",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/gmif2026-exhibition-recap-innovation-across-the-ai-memory--storage-chain-on-show-302918077.html"
+  },
+  {
+   "time": "10-23 14:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Cybersecurity Warning Issued Regarding Fraudulent iPhone Duo Sales",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.lk/2026/10/23/fake-iphone-duo-sales-buyers-warned-of-online-scams/"
+  },
+  {
+   "time": "10-23 14:01",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa and Singapore Tourism Board Sign Three-Year Partnership MOU",
+   "source": "fiscal.ai",
+   "url": "https://digiconasia.net/pr-newswire/visa-partners-singapore-tourism-board-to-strengthen-singapores-global-destination-appeal"
+  },
+  {
+   "time": "10-23 14:01",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Plans Cybercab Sales to Fleet Customers in 2026",
+   "source": "fiscal.ai",
+   "url": "https://www.techdogs.com/tech-news/td-newsdesk/tesla-plans-cybercab-sales-by-end-of-2026-as-robotaxi-expansion-faces-safety-probe"
+  },
+  {
+   "time": "10-23 14:01",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Micron Taiwan Workers Reject Bonus Proposal",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/2026/10/24/business/foreign-business/micron-taiwan-workers-reject-bonus-proposal/2452756"
+  },
+  {
+   "time": "10-23 14:00",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Outlook is 'Grim,' Former Hedge Fund Manager Won\u2019t Touch Stock 'With 10-Foot Pole'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/large-cap/26/10/62570491/tesla-outlook-grim-former-hedge-fund-manager-touch-stock-10-foot-pole"
+  },
+  {
+   "time": "10-23 13:58",
+   "symbols": [
+    "V"
+   ],
+   "rating": "target up",
+   "headline": "Truist Securities Maintains Buy on Visa, Raises Price Target to $443",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62570439/truist-securities-maintains-buy-visa-raises-price-target-443"
+  },
   {
    "time": "10-23 13:30",
    "symbols": [

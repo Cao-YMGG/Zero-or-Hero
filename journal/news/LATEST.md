@@ -1,9 +1,11 @@
-# Headlines since 2026-10-22 16:00 ET (as of 2026-10-23 13:50 ET)
+# Headlines since 2026-10-22 16:00 ET (as of 2026-10-23 14:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-23 14:05 | ORCL | target down | Goldman Sachs Maintains Buy on Oracle, Lowers Price Target to $206 |
+| 10-23 13:58 | V | target up | Truist Securities Maintains Buy on Visa, Raises Price Target to $443 |
 | 10-23 12:43 | PLTR | target up | Piper Sandler Maintains Overweight on Palantir Technologies, Raises Price Target to $231 |
 | 10-23 12:39 | WDC | target up | JP Morgan Maintains Overweight on Western Digital, Raises Price Target to $650 |
 | 10-23 09:32 | CRM | rating | DBS Bank Adjusts Salesforce Price Target to $300 From $240 |
@@ -12,6 +14,17 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-23 07:58 | WDC | target up | Morgan Stanley Maintains Overweight on Western Digital, Raises Price Target to $668 |
 | 10-23 07:08 | WDC | target down | Cantor Fitzgerald Maintains Overweight on Western Digital, Lowers Price Target to $625 |
 | 10-22 17:31 | MU | rating | RBC Capital Markets Maintains Outperform Rating on Micron |
+| 10-23 14:12 | COST WMT |  | Gas Prices to Remain High Through Election, Expert Says 'It's Still Not Over' |
+| 10-23 14:02 | HOOD |  | Robinhood Reports Growing Demand for Financial Prediction Markets |
+| 10-23 14:02 | GS |  | The Goldman Sachs Group, Inc. Notifies ASOS PLC of Change in Major Holdings |
+| 10-23 14:01 | COST |  | Costco Launches New 'Beauty Table' Program |
+| 10-23 14:01 | INTC |  | Intel and SambaNova Systems Expand Strategic Partnership |
+| 10-23 14:01 | SNDK |  | SanDisk Showcases New Automotive and Enterprise NAND Flash Solutions |
+| 10-23 14:01 | AAPL |  | Cybersecurity Warning Issued Regarding Fraudulent iPhone Duo Sales |
+| 10-23 14:01 | V |  | Visa and Singapore Tourism Board Sign Three-Year Partnership MOU |
+| 10-23 14:01 | TSLA |  | Tesla Plans Cybercab Sales to Fleet Customers in 2026 |
+| 10-23 14:01 | MU |  | Micron Taiwan Workers Reject Bonus Proposal |
+| 10-23 14:00 | TSLA |  | Tesla Outlook is 'Grim,' Former Hedge Fund Manager Won’t Touch Stock 'With 10-Foot Pole' |
 | 10-23 13:30 | MSFT NVDA |  | Nvidia Growth Could Slow to 20% But Its Stock Can Still Double, Expert Says |
 | 10-23 13:27 | HOOD |  | Bitcoin, Gold, Oil Fuel Robinhood’s Prediction Boom: Are Sports Losing the Spotlight? |
 | 10-23 13:26 | GOOGL META |  | Hims & Hers Defends Subscription Practices And Privacy Disclosures Against Lawsuit |
