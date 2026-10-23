@@ -1,7 +1,39 @@
 {
- "as_of": "2026-10-23T13:26-04:00",
+ "as_of": "2026-10-23T13:45-04:00",
  "since": "2026-10-22T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-23 13:30",
+   "symbols": [
+    "MSFT",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia Growth Could Slow to 20% But Its Stock Can Still Double, Expert Says",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62569298/nvidia-stock-slower-growth-stock-outlook"
+  },
+  {
+   "time": "10-23 13:27",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Bitcoin, Gold, Oil Fuel Robinhood\u2019s Prediction Boom: Are Sports Losing the Spotlight?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62569166/bitcoin-gold-oil-fuel-robinhoods-prediction-boom-are-sports-losing-the-spotlight"
+  },
+  {
+   "time": "10-23 13:26",
+   "symbols": [
+    "GOOGL",
+    "META"
+   ],
+   "rating": "",
+   "headline": "Hims & Hers Defends Subscription Practices And Privacy Disclosures Against Lawsuit",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/10/62569106/hims-hers-defends-subscription-practices-and-privacy-disclosures-against-lawsuit"
+  },
   {
    "time": "10-23 13:12",
    "symbols": [

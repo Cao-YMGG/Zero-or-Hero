@@ -1,4 +1,4 @@
-# Headlines since 2026-10-22 16:00 ET (as of 2026-10-23 13:26 ET)
+# Headlines since 2026-10-22 16:00 ET (as of 2026-10-23 13:45 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -12,6 +12,9 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-23 07:58 | WDC | target up | Morgan Stanley Maintains Overweight on Western Digital, Raises Price Target to $668 |
 | 10-23 07:08 | WDC | target down | Cantor Fitzgerald Maintains Overweight on Western Digital, Lowers Price Target to $625 |
 | 10-22 17:31 | MU | rating | RBC Capital Markets Maintains Outperform Rating on Micron |
+| 10-23 13:30 | MSFT NVDA |  | Nvidia Growth Could Slow to 20% But Its Stock Can Still Double, Expert Says |
+| 10-23 13:27 | HOOD |  | Bitcoin, Gold, Oil Fuel Robinhood’s Prediction Boom: Are Sports Losing the Spotlight? |
+| 10-23 13:26 | GOOGL META |  | Hims & Hers Defends Subscription Practices And Privacy Disclosures Against Lawsuit |
 | 10-23 13:12 | META |  | 'Meta's Muse AI To Counter China Models With Subscribers, Not Ads; Meta Plans To Offer Paid Enterprise Services, Will Take Commissions From Sellers On Purchases Made Using Agents, Alexandr Wang Says' - Nikkei Asia |
 | 10-23 13:00 | GS |  | CNBC Halftime Report Final Trades: IBM, Devon Energy, Goldman Sachs Group, Lockheed Martin |
 | 10-23 12:58 | AAPL |  | Michael Burry Warns Washington Has Little Room Left to Fight the Next Crisis |
