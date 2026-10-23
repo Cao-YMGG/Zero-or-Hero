@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-23",
+  "bias": "none",
+  "confidence": 0.2,
+  "p_up": 0.52,
+  "summary": "SPY -0.46% pre-market after Thursday's -1.2% AI-capex selloff, oil +1.9% again, yields flat: no edge for the open-to-close direction (p_up 0.52); no sniper, nothing with a fresh catalyst of its own.",
+  "reasons": [
+    "SPY 760.46 pre-market vs 763.96 close (-0.46%); QQQ -0.29%; SMH flat (+0.1%) after -6% Thursday; IWM -0.6%",
+    "Chips stabilize pre-market after the rout (AMD +0.1%, INTC +0.3%, MU +0.9%, NVDA -0.2%); hyperscalers keep slipping (AMZN -0.6%, GOOGL -0.8%, MSFT -0.5%, META -0.9%)",
+    "Oil up again: USO +1.9% (above its 52-week high); TLT +0.1% after +1.9% Thursday; dollar flat",
+    "p_up 0.52: two down days and a weak pre-market argue both ways (gap-down Fridays after a selloff are often bought; the AI-capex worry is not resolved). Pre-market news is mostly priced at the open (OVERNIGHT.md), so no call",
+    "Sniper null: no mega cap has heavy news of its own. Looked at ORCL ($1B partner-ecosystem investment: more AI spending into a capex scare, direction unclear), NVDA (Vertiv / Stellantis / Pony AI partnerships: routine), AAPL (near its 52-week high, insider sale, no catalyst), WDC (earnings reaction, -2.5%), MU (RBC reiterate only), LLY (GLP-1 survey, not company news)",
+    "Friday: spy_open_drive and spy_open_drive_wide skip Fridays; stock_open_drive is Mon/Wed only. Single stocks have same-day expiries. Not an opex week (10-16 was). No >= 2% gap-down in the rebound_scanner universe besides WDC (earnings)",
+    "Open position: MSFT 515P (catalyst_intraday, carried from Thursday) expires today; MSFT 518.69 pre-market"
+  ],
+  "events": ["WDC earnings reaction"],
+  "inputs": {"es_futures_pct": -0.46, "vix": null, "wti_pct": 1.9, "us10y": null, "us10y_change_bp": null, "us2y_change_bp": null, "dxy_pct": 0.1,
+             "overnight": "SPY -0.46% / QQQ -0.29% pre-market (Webull extended hours, 08:51 ET); USO +1.9%, TLT +0.1%, UUP +0.1%; futures/VIX/yield levels not looked up separately"},
+  "rotation": {
+    "heating": ["consumer staples (XLP +3.3% Thursday to a 52-week high, WMT +2.8%)", "health care (XLV +1.3% Thursday, LLY new high, UNH +1.9%)", "energy via oil (USO 52-week high)"],
+    "cooling": ["AI hardware (SMH -6% Thursday; AMD -8%, INTC -8%, MU -6%)", "hyperscalers / internet (META -7%, AMZN -4.6%, GOOGL -3.1% Thursday)", "storage (WDC -6% Thursday, -2.5% pre-market after earnings)"],
+    "note": "From Thursday's moves and the 10-21 1-week numbers (not recomputed this morning). Money left AI for staples and health care; this morning chips stop falling while hyperscalers keep sliding."
+  },
+  "sniper": null,
+  "generated_at": "2026-10-23T08:52:25-04:00"
+}
