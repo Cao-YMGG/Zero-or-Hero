@@ -66,6 +66,23 @@ def same_day_expiry(symbol, weekday):
     return weekday == 4
 
 
+def reported_recently(symbol, day, earnings, days):
+    """True if `symbol` reported within the last `days` trading days (weekdays) up to `day`.
+    Post-earnings opening bounces looked like leaders and failed: NFLX 2026-10-21/22 for
+    leader_follow, -88% and -55%."""
+    for date_text, symbols in (earnings or {}).items():
+        if symbol not in symbols:
+            continue
+        report = datetime.fromisoformat(date_text).date()
+        if report > day:
+            continue
+        weekdays = sum(1 for i in range((day - report).days)
+                       if (report + timedelta(days=i + 1)).weekday() < 5)
+        if weekdays <= days:
+            return True
+    return False
+
+
 def with_gap(ctx, prev_close, open_price):
     """The day context re-based on another stock's own overnight gap."""
     gap = (open_price / prev_close - 1) * 100 if prev_close and open_price else None

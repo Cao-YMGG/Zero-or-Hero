@@ -6,6 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = ROOT / "config" / "strategy.json"
 EVENTS_PATH = ROOT / "config" / "macro_events.json"
+EARNINGS_PATH = ROOT / "config" / "earnings.json"
 JOURNAL_DIR = ROOT / "journal"
 TRADES_PATH = JOURNAL_DIR / "trades.csv"
 EQUITY_PATH = JOURNAL_DIR / "equity.csv"
@@ -38,6 +39,15 @@ def load_events():
         for day in dates:
             by_date.setdefault(day, []).append(kind)
     return by_date
+
+
+def load_earnings():
+    """{"2026-10-21": ["TSLA", "META"], ...} from config/earnings.json (hand-kept)."""
+    try:
+        raw = json.loads(EARNINGS_PATH.read_text())
+    except (OSError, ValueError):
+        return {}
+    return {day: syms for day, syms in raw.items() if not day.startswith("_")}
 
 
 def bias_path(day):
