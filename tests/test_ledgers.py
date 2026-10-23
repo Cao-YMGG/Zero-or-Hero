@@ -146,3 +146,17 @@ class AlreadySoldTest(unittest.TestCase):
     def test_still_held_is_not_sold(self):
         b = self._bot([{"symbol": "TSLA261019C00365000"}], [])
         self.assertIsNone(b._already_sold({"contract": "TSLA261019C00365000"}))
+
+
+class ReportedRecentlyTest(unittest.TestCase):
+    """leader_follow skips names that just reported (NFLX 2026-10-21/22)."""
+
+    def test_window(self):
+        from zoh.strategy import reported_recently
+        cal = {"2026-10-20": ["NFLX"], "2026-10-21": ["TSLA", "META"], "2026-10-28": ["MSFT"]}
+        self.assertTrue(reported_recently("NFLX", date(2026, 10, 22), cal, 3))
+        self.assertTrue(reported_recently("NFLX", date(2026, 10, 23), cal, 3))
+        self.assertFalse(reported_recently("NFLX", date(2026, 10, 26), cal, 3))  # 4 weekdays later
+        self.assertTrue(reported_recently("META", date(2026, 10, 21), cal, 3))   # report day itself
+        self.assertFalse(reported_recently("MSFT", date(2026, 10, 22), cal, 3))  # reports later
+        self.assertFalse(reported_recently("AAPL", date(2026, 10, 22), cal, 3))

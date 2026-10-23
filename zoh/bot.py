@@ -19,7 +19,7 @@ from . import journal, ledgers
 from .alpaca import Alpaca, AlpacaError
 from .strategy import (ET, MARKET_OPEN, bs_delta, contracts_for, current_phase, check_exit,
                        cross_assets, day_context, evaluate_signal, hhmm, same_day_expiry,
-                       rank_by_move, sniper_pick, with_gap, parse_bar, parse_occ,
+                       rank_by_move, reported_recently, sniper_pick, with_gap, parse_bar, parse_occ,
                        regular_session, round_limit, select_contract, years_to_close)
 
 MAX_ENTRY_ATTEMPTS = 3
@@ -223,6 +223,7 @@ class Bot:
         self.underlying = config["underlying"]
         self.today = datetime.fromisoformat(state["date"]).date()
         self.events = journal.load_events()
+        self.earnings = journal.load_earnings()
         try:
             self.prev_close = previous_close(api, self.underlying, self.today)
         except AlpacaError as e:
@@ -537,6 +538,10 @@ class Bot:
                     for sym in symbols:
                         if (variant.get("universe") and not variant.get("any_expiry")
                                 and not same_day_expiry(sym, self.today.weekday())):
+                            continue
+                        if variant.get("skip_after_report_days") is not None and reported_recently(
+                                sym, self.today, getattr(self, "earnings", {}),
+                                variant["skip_after_report_days"]):
                             continue
                         if sym not in own_bars:
                             try:

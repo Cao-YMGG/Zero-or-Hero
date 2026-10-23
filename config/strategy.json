@@ -95,7 +95,8 @@
       "trail_after": 1.0,
       "trail_giveback": 0.4,
       "entry_cutoff": "14:00",
-      "days": "non_event"
+      "days": "non_event",
+      "skip_after_report_days": 3
     },
     {
       "id": "megacap_reclaim",
