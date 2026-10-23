@@ -36,3 +36,4 @@ date,variant,mode,contract,entry_price,exit_price,peak,exit_reason
 2026-10-22,leader_follow,real,NFLX261023C00068000,0.27,0.15,0.47,time
 2026-10-23,rebound_scanner,shadow,CRDO261023C00155000,1.02,1.38,2.48,trail
 2026-10-23,rebound_scanner,real,CRDO261023C00155000,1.0,1.4,2.48,trail
+2026-10-23,catalyst_intraday,shadow,ORCL261023C00128000,0.24,0.31,0.55,trail

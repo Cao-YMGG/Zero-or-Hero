@@ -14,7 +14,7 @@
         "peak": 1.96,
         "qty": 1,
         "last": 0.03,
-        "last_time": "2026-10-23T14:16:18-04:00"
+        "last_time": "2026-10-23T14:46:38-04:00"
       },
       "real": {
         "contract": "MSFT261023P00515000",
@@ -36,8 +36,8 @@
         "entry_price": 1.24,
         "peak": 1.8,
         "qty": 1,
-        "last": 0.04,
-        "last_time": "2026-10-23T14:16:18-04:00"
+        "last": 0.01,
+        "last_time": "2026-10-23T14:46:38-04:00"
       },
       "real": {
         "contract": "MU261023C00910000",
@@ -58,7 +58,7 @@
         "peak": 1.19,
         "qty": 1,
         "last": 0.03,
-        "last_time": "2026-10-23T14:16:18-04:00"
+        "last_time": "2026-10-23T14:46:38-04:00"
       },
       "real": {
         "contract": "META261023C00657500",
@@ -84,7 +84,7 @@
         "peak": 2.48,
         "qty": 1,
         "last": 0,
-        "last_time": "2026-10-23T14:16:18-04:00"
+        "last_time": "2026-10-23T14:46:38-04:00"
       }
     },
     "nvda_gapdown_put": {},
@@ -92,16 +92,7 @@
     "catalyst_intraday": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "ORCL261023C00128000",
-        "direction": "call",
-        "entry_time": "2026-10-23T13:18:08-04:00",
-        "entry_price": 0.24,
-        "peak": 0.35,
-        "qty": 5,
-        "last": 0.29,
-        "last_time": "2026-10-23T14:16:18-04:00"
-      }
+      "closed": true
     },
     "spy_open_drive": {},
     "spy_open_drive_wide": {},

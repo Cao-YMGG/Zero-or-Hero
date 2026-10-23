@@ -1,7 +1,28 @@
 {
- "as_of": "2026-10-23T14:16-04:00",
+ "as_of": "2026-10-23T14:46-04:00",
  "since": "2026-10-22T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-23 14:28",
+   "symbols": [
+    "AMZN",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Amazon CEO Andy Jassy Says AI Inference Is Still 10 Times Too Expensive, Claims Amazon Chips Offer Answer",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62571409/amazon-ai-inference-cost-trainium-jassy"
+  },
+  {
+   "time": "10-23 14:26",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "target down",
+   "headline": "Citigroup Maintains Buy on Western Digital, Lowers Price Target to $660",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62571349/citigroup-maintains-buy-western-digital-lowers-price-target-660"
+  },
   {
    "time": "10-23 14:12",
    "symbols": [

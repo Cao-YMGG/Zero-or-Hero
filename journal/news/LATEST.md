@@ -1,9 +1,10 @@
-# Headlines since 2026-10-22 16:00 ET (as of 2026-10-23 14:16 ET)
+# Headlines since 2026-10-22 16:00 ET (as of 2026-10-23 14:46 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-23 14:26 | WDC | target down | Citigroup Maintains Buy on Western Digital, Lowers Price Target to $660 |
 | 10-23 14:05 | ORCL | target down | Goldman Sachs Maintains Buy on Oracle, Lowers Price Target to $206 |
 | 10-23 13:58 | V | target up | Truist Securities Maintains Buy on Visa, Raises Price Target to $443 |
 | 10-23 12:43 | PLTR | target up | Piper Sandler Maintains Overweight on Palantir Technologies, Raises Price Target to $231 |
@@ -14,6 +15,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-23 07:58 | WDC | target up | Morgan Stanley Maintains Overweight on Western Digital, Raises Price Target to $668 |
 | 10-23 07:08 | WDC | target down | Cantor Fitzgerald Maintains Overweight on Western Digital, Lowers Price Target to $625 |
 | 10-22 17:31 | MU | rating | RBC Capital Markets Maintains Outperform Rating on Micron |
+| 10-23 14:28 | AMZN NVDA |  | Amazon CEO Andy Jassy Says AI Inference Is Still 10 Times Too Expensive, Claims Amazon Chips Offer Answer |
 | 10-23 14:12 | COST WMT |  | Gas Prices to Remain High Through Election, Expert Says 'It's Still Not Over' |
 | 10-23 14:02 | HOOD |  | Robinhood Reports Growing Demand for Financial Prediction Markets |
 | 10-23 14:02 | GS |  | The Goldman Sachs Group, Inc. Notifies ASOS PLC of Change in Major Holdings |
