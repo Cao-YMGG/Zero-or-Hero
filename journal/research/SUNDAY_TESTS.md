@@ -88,6 +88,16 @@ in EVOLUTION.md.
    spy_open_drive / stock_open_drive, and the one-contract case. 10-20 SPY 770C 0.52: trail +169%,
    hold +58%, one contract held -85%; 10-19 TSLA 365C: hold beat the 3x sale.
 
+23. **Fridays and overnight carries for the new real ledgers (2026-10-23).** On Friday 10-23
+   leader_follow (MU 910C), megacap_reclaim (META 657.5C) and rebound_scanner_wide (CRDO 155C) all
+   bought same-day calls at 09:46 and went to 0 (-$228 real); spy_open_drive already skips Fridays
+   because follow-the-open calls lost 45-76% a trade there (REGIME.md). Test on real prices whether
+   leader_follow / megacap_reclaim / rebound_scanner(_wide) are worse on Fridays (and Tue/Thu) and
+   whether they should skip Fridays or buy the next expiry instead. Also: catalyst_intraday carries
+   picks overnight (carries() for catalyst signals): MSFT 515P was 1.18 at Thursday's 15:45, peaked
+   1.96 at Friday's open, below the 2x trail start, and expired worthless. Test a carry exit at
+   the next open (or a trail that starts at 1.5x) for carried intraday picks.
+
 ## Done
 
 - **Items 12 and 15 (2026-10-18, journal/research/SCANNERS.md + scanners.json, real option prices, 10% costs).**

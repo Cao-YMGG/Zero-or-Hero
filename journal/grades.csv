@@ -105,3 +105,7 @@ date,variant,mode,contract,direction,pnl_pct,thesis,entry,exit,discipline,score,
 2026-10-23,rebound_scanner_wide,shadow,CRDO261023C00155000,call,-1.0,3,2,0,3,8,unlucky,,"auto; CRDO 149.30->147.32, best 155.60 vs strike 155; peak 2.48"
 2026-10-23,catalyst_intraday,shadow,MSFT261023P00515000,put,-0.9905,1,1,0,3,5,,,"auto; MSFT 523.31->523.50, best 515.79 vs strike 515; peak 1.96"
 2026-10-23,catalyst_intraday,real,MSFT261023P00515000,put,-1.0,1,1,0,3,5,,,"auto; MSFT 523.32->523.82, best 515.79 vs strike 515; peak 1.96"
+2026-10-23,premarket_spy,none,,none,,,,,,,,right,"p_up 0.52 (first day with a probability); SPY +0.01% open to close. The three checkable predictions came true (10:00 move +0.14%, SMH closed above 523.35, XLP below 89.99)."
+2026-10-23,premarket_sniper,none,,,,,,,,,,missed,"No sniper; the other side's T put (SpaceX tower-lease talks hitting carriers) worked. Our bar looks for company-own news and misses 'a peer's plan hits the whole group' catalysts."
+2026-10-23,premarket_rotation,call,,,,,,,,,,right,"haven bid unwound (XLP -1.5%, XLV -0.7% from the open) while chips bounced (SMH +0.9%, MU +2.0%)."
+2026-10-23,intraday_pick,call,ORCL,call,,,,,,,,right,"13:17 ORCL call on CNBC's TikTok-compute report: shadow +29% (0.24 -> 0.31 trail, peak 0.55); the real limit order for 5 was not filled and was cancelled."
