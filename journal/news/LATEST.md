@@ -1,4 +1,4 @@
-# Headlines since 2026-10-22 16:00 ET (as of 2026-10-23 14:46 ET)
+# Headlines since 2026-10-22 16:00 ET (as of 2026-10-23 15:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -15,6 +15,17 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-23 07:58 | WDC | target up | Morgan Stanley Maintains Overweight on Western Digital, Raises Price Target to $668 |
 | 10-23 07:08 | WDC | target down | Cantor Fitzgerald Maintains Overweight on Western Digital, Lowers Price Target to $625 |
 | 10-22 17:31 | MU | rating | RBC Capital Markets Maintains Outperform Rating on Micron |
+| 10-23 15:14 | MSFT |  | OpenAI Says It Expects That Future Models Will Be Able To Identify & Exploit Vulnerabilities Of Which It Is Not Yet Aware |
+| 10-23 15:02 | AAPL MSFT NVDA |  | The AI Boom Isn't 1999—and Big Tech Could Cushion a Market Crash, This CEO Says |
+| 10-23 15:01 | CVX |  | Chevron to Increase Drilling Rigs at Argentina's El Trapial Block |
+| 10-23 15:01 | GE |  | GE Aerospace F404 Engine Deliveries and Production Impact on India's Tejas Fighter Program |
+| 10-23 15:01 | GEV |  | GE Vernova Hitachi Nuclear Energy Partners for BWRX-300 Project in Poland |
+| 10-23 15:01 | JPM |  | JPMorgan Chase & Co. Decreases Holding in Spire Healthcare Group PLC |
+| 10-23 15:01 | SNDK |  | SanDisk Storage Malaysia Recognized with BrandLaureate Award |
+| 10-23 15:01 | NFLX |  | Netflix Announces Record Share Buybacks and Revised 2026 Financial Guidance |
+| 10-23 15:01 | META |  | Rhode Island Files Lawsuit Against Meta Over Scam Ads |
+| 10-23 15:01 | AAPL |  | Apple Launches First Foldable Smartphone, the iPhone Duo |
+| 10-23 14:45 | MU |  | Micron's Next AI Memory Breakthrough Has a Cooling Problem |
 | 10-23 14:28 | AMZN NVDA |  | Amazon CEO Andy Jassy Says AI Inference Is Still 10 Times Too Expensive, Claims Amazon Chips Offer Answer |
 | 10-23 14:12 | COST WMT |  | Gas Prices to Remain High Through Election, Expert Says 'It's Still Not Over' |
 | 10-23 14:02 | HOOD |  | Robinhood Reports Growing Demand for Financial Prediction Markets |

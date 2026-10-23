@@ -1,7 +1,119 @@
 {
- "as_of": "2026-10-23T14:46-04:00",
+ "as_of": "2026-10-23T15:16-04:00",
  "since": "2026-10-22T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-23 15:14",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "OpenAI Says It Expects That Future Models Will Be Able To Identify & Exploit Vulnerabilities Of Which It Is Not Yet Aware",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62572623/openai-says-it-expects-future-models-will-be-able-identify-exploit-vulnerabilities-which-it-not-yet-"
+  },
+  {
+   "time": "10-23 15:02",
+   "symbols": [
+    "AAPL",
+    "MSFT",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "The AI Boom Isn't 1999\u2014and Big Tech Could Cushion a Market Crash, This CEO Says",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62572321/ai-boom-big-tech-market-crash"
+  },
+  {
+   "time": "10-23 15:01",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Chevron to Increase Drilling Rigs at Argentina's El Trapial Block",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/chevron-plans-to-up-drilling-rigs-in-argentina-s-el-trapial-block-to-3-from-1-ce785cdfdd8ff522"
+  },
+  {
+   "time": "10-23 15:01",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "GE Aerospace F404 Engine Deliveries and Production Impact on India's Tejas Fighter Program",
+   "source": "fiscal.ai",
+   "url": "https://world.storm.mg/articles/1174694"
+  },
+  {
+   "time": "10-23 15:01",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova Hitachi Nuclear Energy Partners for BWRX-300 Project in Poland",
+   "source": "fiscal.ai",
+   "url": "https://www.ans.org/news/article-8514/new-nuclear-developments-in-europe-asia/"
+  },
+  {
+   "time": "10-23 15:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase & Co. Decreases Holding in Spire Healthcare Group PLC",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/rns/spire-healthcare-group--spi/holding-s-in-company/9839525"
+  },
+  {
+   "time": "10-23 15:01",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "SanDisk Storage Malaysia Recognized with BrandLaureate Award",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/apac/news-releases/the-world-brands-foundation-twbf-celebrates-brand-excellence-at-the-brandlaureate-awards-2026-and-introduces-the-brandlaureate-accreditation-council-tbac-302918149.html"
+  },
+  {
+   "time": "10-23 15:01",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Announces Record Share Buybacks and Revised 2026 Financial Guidance",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8361782/netflix-stock-tanks-5-as-revenue-growth-slows-in-q3-how-to-play-nflx-here"
+  },
+  {
+   "time": "10-23 15:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Rhode Island Files Lawsuit Against Meta Over Scam Ads",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/legal/2026/rhode-island-lawsuit-claims-meta-knowingly-profits-from-financial-scam-ads/"
+  },
+  {
+   "time": "10-23 15:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Launches First Foldable Smartphone, the iPhone Duo",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/x67u7h8/"
+  },
+  {
+   "time": "10-23 14:45",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Micron's Next AI Memory Breakthrough Has a Cooling Problem",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62571897/micron-ai-memory-cooling-problem"
+  },
   {
    "time": "10-23 14:28",
    "symbols": [
