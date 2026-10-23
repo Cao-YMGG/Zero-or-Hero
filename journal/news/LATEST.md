@@ -1,13 +1,28 @@
-# Headlines since 2026-10-22 16:00 ET (as of 2026-10-23 08:51 ET)
+# Headlines since 2026-10-22 16:00 ET (as of 2026-10-23 10:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-23 09:32 | CRM | rating | DBS Bank Adjusts Salesforce Price Target to $300 From $240 |
+| 10-23 09:00 | WDC | target down | TD Cowen Maintains Buy on Western Digital, Lowers Price Target to $430 |
 | 10-23 08:02 | WDC | target down | Rosenblatt Maintains Buy on Western Digital, Lowers Price Target to $650 |
 | 10-23 07:58 | WDC | target up | Morgan Stanley Maintains Overweight on Western Digital, Raises Price Target to $668 |
 | 10-23 07:08 | WDC | target down | Cantor Fitzgerald Maintains Overweight on Western Digital, Lowers Price Target to $625 |
 | 10-22 17:31 | MU | rating | RBC Capital Markets Maintains Outperform Rating on Micron |
+| 10-23 09:52 | MSFT |  | Microsoft's Earnings Are Days Away: Here’s What Investors Need to Know |
+| 10-23 09:43 | AMZN GOOGL |  | Anthropic Announces Co. Investigates Certain Behaviors From Claude Mythos 5 Further, To Understand What They Reveal About Model’s Alignment; Claude Opus 5.5, Claude Mythos 5.1 Fall Short Of Consistently Stopping Attacks Underway, But Internal Research Model Does So Consistently; Mythos 5 Attempted To Submit Malicious Code To Repository; Recent Incidents Motivated Changes To How Co. Is Training & Monitoring Alignment Of Its Models |
+| 10-23 09:33 | TSLA |  | Tesla Cancels Cybertruck Production Plans for Australia and New Zealand |
+| 10-23 09:32 | WDC |  | Analysts Adjust Price Targets for Western Digital Corporation Following Earnings |
+| 10-23 09:32 | UNH |  | White River Health to Exit UnitedHealthcare Medicare Advantage Network |
+| 10-23 09:31 | COIN |  | Autonomous Research Adjusts Price Target on Coinbase Global |
+| 10-23 09:31 | SNDK |  | SanDisk Showcases iNAND AT EU752 Automotive Embedded Flash |
+| 10-23 09:31 | ORCL |  | Oracle Commits $1 Billion to Partner Ecosystem for AI |
+| 10-23 09:31 | HOOD |  | Robinhood Ventures Fund I Invests in Cognition |
+| 10-23 09:30 | META |  | Meta Platforms To Expand Implementation Date Of Updated Commercial Terms To Nov. 20 |
+| 10-23 09:11 | AAPL NVDA |  | Can Apple Top Nvidia? iPhone Duo and Nov. 2 Earnings Hold the Key |
+| 10-23 09:07 | WDC |  | These Analysts Revise Their Forecasts On Western Digital After Q1 Results |
+| 10-23 09:02 | NVDA |  | Newegg Announces Availability OF Nvidia RTX Spark Laptops In U.S., Canada |
 | 10-23 08:04 | ORCL |  | Oracle Announces $1B Investment In Its Partner Ecosystem To Facilitate Customer Demand For AI-Powered Solutions And Services |
 | 10-23 08:02 | TSLA |  | Tesla Needs 20,000 Robots to 'Self-Play' in Order to Improve: Musk |
 | 10-23 08:01 | GS |  | Goldman Sachs International Executes Share Repurchase Program |

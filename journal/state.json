@@ -1,39 +1,20 @@
 {
-  "date": "2026-10-22",
-  "done": true,
+  "date": "2026-10-23",
+  "done": false,
   "variants": {
-    "claude_bias": {
-      "attempts": 1,
+    "catalyst_intraday@2026-10-22": {
       "entered": true,
-      "closed": true
-    },
-    "meta_follow2": {},
-    "leader_follow": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "megacap_reclaim": {},
-    "rebound_scanner": {},
-    "rebound_scanner_wide": {},
-    "nvda_gapdown_put": {},
-    "catalyst_open": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "catalyst_intraday": {
-      "attempts": 1,
-      "entered": true,
+      "carried": true,
+      "of": "catalyst_intraday",
       "shadow": {
         "contract": "MSFT261023P00515000",
         "direction": "put",
         "entry_time": "2026-10-22T10:29:00-04:00",
         "entry_price": 1.05,
-        "peak": 1.42,
+        "peak": 1.96,
         "qty": 1,
-        "last": 1.18,
-        "last_time": "2026-10-22T15:45:22-04:00"
+        "last": 0.42,
+        "last_time": "2026-10-23T10:02:03-04:00"
       },
       "real": {
         "contract": "MSFT261023P00515000",
@@ -41,15 +22,99 @@
         "underlying": "MSFT",
         "entry_price": 1.02,
         "entry_time": "2026-10-22T10:29:43-04:00"
-      },
-      "hold": true
+      }
     },
+    "claude_bias": {},
+    "meta_follow2": {},
+    "leader_follow": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "MU261023C00910000",
+        "direction": "call",
+        "entry_time": "2026-10-23T09:46:18-04:00",
+        "entry_price": 1.24,
+        "peak": 1.8,
+        "qty": 1,
+        "last": 1.8,
+        "last_time": "2026-10-23T10:02:03-04:00"
+      },
+      "real": {
+        "contract": "MU261023C00910000",
+        "qty": 1,
+        "underlying": "MU",
+        "entry_price": 1.23,
+        "entry_time": "2026-10-23T09:47:05-04:00"
+      }
+    },
+    "megacap_reclaim": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "META261023C00657500",
+        "direction": "call",
+        "entry_time": "2026-10-23T09:46:18-04:00",
+        "entry_price": 1.06,
+        "peak": 1.19,
+        "qty": 1,
+        "last": 1.16,
+        "last_time": "2026-10-23T10:02:03-04:00"
+      },
+      "real": {
+        "contract": "META261023C00657500",
+        "qty": 1,
+        "underlying": "META",
+        "entry_price": 1.06,
+        "entry_time": "2026-10-23T09:47:09-04:00"
+      }
+    },
+    "rebound_scanner": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "CRDO261023C00155000",
+        "direction": "call",
+        "entry_time": "2026-10-23T09:46:18-04:00",
+        "entry_price": 1.02,
+        "peak": 1.13,
+        "qty": 1,
+        "last": 0.43,
+        "last_time": "2026-10-23T10:02:03-04:00"
+      },
+      "real": {
+        "contract": "CRDO261023C00155000",
+        "qty": 1,
+        "underlying": "CRDO",
+        "entry_price": 1.0,
+        "entry_time": "2026-10-23T09:47:12-04:00"
+      }
+    },
+    "rebound_scanner_wide": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "CRDO261023C00155000",
+        "direction": "call",
+        "entry_time": "2026-10-23T09:46:18-04:00",
+        "entry_price": 1.13,
+        "peak": 1.13,
+        "qty": 1,
+        "last": 0.43,
+        "last_time": "2026-10-23T10:02:03-04:00"
+      }
+    },
+    "nvda_gapdown_put": {},
+    "catalyst_open": {},
+    "catalyst_intraday": {},
     "spy_open_drive": {},
     "spy_open_drive_wide": {},
     "stock_open_drive": {}
   },
+  "real_underlyings": [
+    "MSFT"
+  ],
   "generation": 1,
-  "equity_start": 601.2099999999991,
+  "equity_start": 691.6999999999971,
   "phase": "zero-or-hero",
   "risk_per_trade": 0.2,
   "champion": "rebound_scanner",
@@ -75,7 +140,7 @@
       "paused": false
     },
     "leader_follow": {
-      "equity": 500.0,
+      "equity": 464.0,
       "generation": 1,
       "paused": false
     },
@@ -89,9 +154,5 @@
       "generation": 1,
       "paused": false
     }
-  },
-  "real_underlyings": [
-    "UNH",
-    "MSFT"
-  ]
+  }
 }

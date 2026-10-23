@@ -1,7 +1,159 @@
 {
- "as_of": "2026-10-23T08:51-04:00",
+ "as_of": "2026-10-23T10:02-04:00",
  "since": "2026-10-22T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-23 09:52",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft's Earnings Are Days Away: Here\u2019s What Investors Need to Know",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62559686/microsofts-earnings-are-days-away-heres-what-investors-need-to-know"
+  },
+  {
+   "time": "10-23 09:43",
+   "symbols": [
+    "AMZN",
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Anthropic Announces Co. Investigates Certain Behaviors From Claude Mythos 5 Further, To Understand What They Reveal About Model\u2019s Alignment; Claude Opus 5.5, Claude Mythos 5.1 Fall Short Of Consistently Stopping Attacks Underway, But Internal Research Model Does So Consistently; Mythos 5 Attempted To Submit Malicious Code To Repository; Recent Incidents Motivated Changes To How Co. Is Training & Monitoring Alignment Of Its Models",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62558931/anthropic-announces-we-investigate-certain-behaviors-from-claude-mythos-5-further-to-understand-what-they-reveal-about-models-alignment-claude-opus-5-5-claude-mythos-5-1-fall-short-of-cons"
+  },
+  {
+   "time": "10-23 09:33",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Cancels Cybertruck Production Plans for Australia and New Zealand",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/TSLZ-US?chain_id=Name1K9-3FXPhg.1ldm8gg&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A64%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Fjosh-spence-ao-73464826%22%7D"
+  },
+  {
+   "time": "10-23 09:32",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Analysts Adjust Price Targets for Western Digital Corporation Following Earnings",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/susquehanna-adjusts-price-target-on-western-digital-to-405-from-460-ce785cdfd88af427"
+  },
+  {
+   "time": "10-23 09:32",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "rating",
+   "headline": "DBS Bank Adjusts Salesforce Price Target to $300 From $240",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/dbs-bank-adjusts-salesforce-price-target-to-300-from-240-ce785cdfdb8df32d"
+  },
+  {
+   "time": "10-23 09:32",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "White River Health to Exit UnitedHealthcare Medicare Advantage Network",
+   "source": "fiscal.ai",
+   "url": "https://insurancenewsnet.com/oarticle/wrh-leaves-unitedhealthcare-medicare-advantage-network"
+  },
+  {
+   "time": "10-23 09:31",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Autonomous Research Adjusts Price Target on Coinbase Global",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/autonomous-research-adjusts-price-target-on-coinbase-global-to-130-from-135-ce785cdfdb8df324"
+  },
+  {
+   "time": "10-23 09:31",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "SanDisk Showcases iNAND AT EU752 Automotive Embedded Flash",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/gmif2026-exhibition-recap-innovation-across-the-ai-memory--storage-chain-on-show-302918077.html"
+  },
+  {
+   "time": "10-23 09:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Commits $1 Billion to Partner Ecosystem for AI",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/oracle-announces-1-billion-investment-to-accelerate-partner-growth-and-ai-driven-modernization-for-customers-302917621.html"
+  },
+  {
+   "time": "10-23 09:31",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Ventures Fund I Invests in Cognition",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/flash/1002183658/robinhood-robinhood-ventures-fund-i-invests-10-million-in-cognition"
+  },
+  {
+   "time": "10-23 09:30",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platforms To Expand Implementation Date Of Updated Commercial Terms To Nov. 20",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62558185/meta-platforms-expand-implementation-date-updated-commercial-terms-nov-20"
+  },
+  {
+   "time": "10-23 09:11",
+   "symbols": [
+    "AAPL",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Can Apple Top Nvidia? iPhone Duo and Nov. 2 Earnings Hold the Key",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62557439/can-apple-top-nvidia-iphone-duo-and-nov-2-earnings-hold-the-key"
+  },
+  {
+   "time": "10-23 09:07",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "These Analysts Revise Their Forecasts On Western Digital After Q1 Results",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62557311/these-analysts-revise-their-forecasts-on-western-digital-after-q1-results"
+  },
+  {
+   "time": "10-23 09:02",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Newegg Announces Availability OF Nvidia RTX Spark Laptops In U.S., Canada",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62557119/newegg-announces-availability-nvidia-rtx-spark-laptops-u-s-canada"
+  },
+  {
+   "time": "10-23 09:00",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "target down",
+   "headline": "TD Cowen Maintains Buy on Western Digital, Lowers Price Target to $430",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62557033/td-cowen-maintains-buy-western-digital-lowers-price-target-430"
+  },
   {
    "time": "10-23 08:04",
    "symbols": [
