@@ -37,3 +37,10 @@ date,variant,mode,contract,entry_price,exit_price,peak,exit_reason
 2026-10-23,rebound_scanner,shadow,CRDO261023C00155000,1.02,1.38,2.48,trail
 2026-10-23,rebound_scanner,real,CRDO261023C00155000,1.0,1.4,2.48,trail
 2026-10-23,catalyst_intraday,shadow,ORCL261023C00128000,0.24,0.31,0.55,trail
+2026-10-23,leader_follow,shadow,MU261023C00910000,1.24,0.03,1.8,time
+2026-10-23,leader_follow,real,MU261023C00910000,1.23,0.01,1.8,time
+2026-10-23,megacap_reclaim,shadow,META261023C00657500,1.06,0,1.19,time
+2026-10-23,megacap_reclaim,real,META261023C00657500,1.06,0.0,1.19,expired
+2026-10-23,rebound_scanner_wide,shadow,CRDO261023C00155000,1.13,0,2.48,time
+2026-10-23,catalyst_intraday,shadow,MSFT261023P00515000,1.05,0.01,1.96,time
+2026-10-23,catalyst_intraday,real,MSFT261023P00515000,1.02,0.0,1.96,expired
