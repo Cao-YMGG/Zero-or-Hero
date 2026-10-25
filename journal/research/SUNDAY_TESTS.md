@@ -76,29 +76,28 @@ in EVOLUTION.md.
    Gates from REGIME.md section 5: skip macro release days, monthly options-expiry week and
    Fridays; each ledger goes shadow-only after 5 straight losses, live again after a shadow win.
 
-22. **Sector rotation follow (2026-10-20).** On rotation days the move is in a sector, not in
-   a single stock with news: 10-20 XLV +2.2% (LLY +4.6%, UNH +3.5%, no stock-specific catalyst),
-   IWM +1.7%, XLF +1.2%, while QQQ +0.1%. Test: at 10:00 (and 10:30) a sector ETF (XLV, XLF,
-   XLE, XLY, XLI, XLP, IWM) >= +0.8% beyond SPY from the open, and its 1-week basket return was
-   heating -> ~0.2-delta call on the ETF, nearest expiry, real option prices, half at 3x / hold
-   to 15:45. Report last 3 months first, without the best one and two. Also: SPY follow-the-open
-   in the 0.3-0.5% bucket (10-20 SPY was +0.30% at 10:00 and closed +0.45% from the open; the
-   other side's no-gate rule made ~+$4,900 on two calls, but lost $2,854 on 10-19 puts).
-   (c) Exit: add half-at-3x-then-trail (the other side's rule) next to half-at-3x-then-hold for
-   spy_open_drive / stock_open_drive, and the one-contract case. 10-20 SPY 770C 0.52: trail +169%,
-   hold +58%, one contract held -85%; 10-19 TSLA 365C: hold beat the 3x sale.
-
-23. **Fridays and overnight carries for the new real ledgers (2026-10-23).** On Friday 10-23
-   leader_follow (MU 910C), megacap_reclaim (META 657.5C) and rebound_scanner_wide (CRDO 155C) all
-   bought same-day calls at 09:46 and went to 0 (-$228 real); spy_open_drive already skips Fridays
-   because follow-the-open calls lost 45-76% a trade there (REGIME.md). Test on real prices whether
-   leader_follow / megacap_reclaim / rebound_scanner(_wide) are worse on Fridays (and Tue/Thu) and
-   whether they should skip Fridays or buy the next expiry instead. Also: catalyst_intraday carries
-   picks overnight (carries() for catalyst signals): MSFT 515P was 1.18 at Thursday's 15:45, peaked
-   1.96 at Friday's open, below the 2x trail start, and expired worthless. Test a carry exit at
-   the next open (or a trail that starts at 1.5x) for carried intraday picks.
+24. **Dip-buy with 30-60 day calls, live shadow log (owner idea 2026-10-21).** DIPS.md: positive
+   in the last 3 months only (call, +50%/-50% exit: +22% / +18% / +14%, n=26, 3% costs), negative
+   over the last year (-8%, n=117), and random entries did as well over 2.7 years. Debit spreads
+   were worse than single calls; at 10% costs everything loses. Track the daily signals and their
+   real option outcomes for a month before building a bot variant (needs multi-day holding and
+   $500-2,500 a contract, more than the main ledger).
 
 ## Done
+- **Item 22 (2026-10-25), WEEK43_EXITS.md / SECTORS.md:** (a) sector ETF follow at 10:00 (lead >= 0.8% beyond SPY):
+  negative everywhere, 0.20 delta trail2x -24% / -29% / -33% last 3 months (24), -30% all (157); heating filter
+  and bigger leads do not fix it. Rejected. (b) SPY follow-the-open 0.3-0.5% bucket (Mon-Thu, no release/opex):
+  take3 -31% / -47% / -64% last year (16), -33% all (23); the >= 0.5% days carry the rule. (c) spy_open_drive
+  (>= 0.5%) exits since 2024 (15): take3 +101% / +78% / +54%, half3_trail +97% / +71% / +50%, half3_hold (live)
+  +77% / +50% / +27%, hold (live one-contract rule) +53% / +8% / -23%. stock_open_drive (NVDA/TSLA >= 0.8%,
+  Mon/Wed) last year (29): hold +85% / +56% / +29% beats take3 +31% / +24% / +16% (last 3 months all negative
+  without the best trade). Exit changes for spy_open_drive go to the owner.
+- **Item 23 (2026-10-25):** leader_follow by weekday (0.20 delta, trail2x, all): Mon +12% / -2% / -16% (90),
+  Tue -5%, Wed -17%, Thu -18%, Fri -27% / -30% / -33% (68); last 3 months Fri -29% / -43% / -54% (9) -> skips
+  Fridays from 2026-10-26. Rebound calls are mostly Friday trades and the last 3 months were good (Fri +97% /
+  +77% / +55%, 22): no change. megacap_reclaim has no real-price study yet. Carried intraday picks: no
+  history to test; upgrade picks carried to expiry stay better than sold the first day (exits.json: +41% / +19%
+  / +2% vs -4%, 46-60 trades).
 
 - **Items 12 and 15 (2026-10-18, journal/research/SCANNERS.md + scanners.json, real option prices, 10% costs).**
   - Leader follow (biggest move beyond SPY, ~0.2 delta call, trail2x), last 3 months / all: 5 min >= 1.0%: -21% / -20% (51 / 413); 10 min >= 1.5%: -7% / -11%; **15 min >= 1.5% (live rule): +15% / -14% / -21%** (43), all -10% (363); 30 min >= 2.0%: -6% / -18%. The live entry time is the best one, but it is positive only because of one trade: leader_follow stays shadow, no ledger. 0.30 delta at 15 minutes: +13% / -6% / -12%.
