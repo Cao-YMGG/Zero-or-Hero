@@ -1,4 +1,4 @@
-# Headlines since 2026-10-23 16:00 ET (as of 2026-10-26 15:16 ET)
+# Headlines since 2026-10-23 16:00 ET (as of 2026-10-26 19:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -28,6 +28,23 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-26 06:31 | LLY | target up | Bernstein Raises Price Target for Eli Lilly |
 | 10-24 21:01 | GS | upgrade | Goldman Sachs Upgrades CoreWeave to 'Buy' |
 | 10-23 17:31 | GE | rating | Bernstein Maintains Buy Rating on GE Aerospace, Adjusts Price Target |
+| 10-26 19:01 | JPM |  | JPMorgan Chase Reports Change in Major Holding in Vonovia SE |
+| 10-26 19:01 | MSFT |  | Verosoft Launches AI Orchestration Platform Built on Microsoft Dynamics 365 |
+| 10-26 19:01 | MSFT |  | Semperis Expands Security Collaboration with Microsoft |
+| 10-26 19:01 | AMZN |  | Amazon Business to Host Annual 'Reshape 2026' Conference |
+| 10-26 18:15 | MU |  | $100 Invested In Micron Technology 10 Years Ago Would Be Worth This Much Today |
+| 10-26 17:31 | GS |  | Goldman Sachs Expands Wealth Management Advisory Teams in Asia |
+| 10-26 17:31 | AVGO |  | Financial Institutions Form $63 Billion Financing Vehicle for Broadcom AI Infrastructure |
+| 10-26 16:48 | TSLA |  | Tesla Cancels Cybertruck in Two Countries: An Omen for the Vehicle's Future? |
+| 10-26 16:38 | TSLA |  | SpaceX Merger Could Accelerate Tesla's Push Into AI and Autonomous Driving: Barclays |
+| 10-26 16:31 | GEV |  | Elementl Power Announces Nuclear Development Partnership Featuring GE Vernova Hitachi Nuclear Energy Technology |
+| 10-26 16:31 | NFLX |  | Netflix Debuts at Texas Book Festival |
+| 10-26 16:31 | ORCL |  | Oracle Unveils Claw-Powered Agentic Applications for Customer Experience |
+| 10-26 16:31 | MSFT |  | Microsoft Announces Voluntary Buyout Program for 60,000 Employees |
+| 10-26 16:25 | INTC |  | 'Intel to Buy Israeli Startup Classiq in Quantum Computing Push' - Bloomberg Exclusive |
+| 10-26 15:59 | LLY |  | U.S. Judge Lets Eli Lilly Continue Weight-Loss Drug Ads, Ruling Against Novo Nordisk |
+| 10-26 15:49 | NVDA |  | If This Sector Breaks, ‘So Does the Market’: Jay Woods Says This Chart is 'Most Important in the World' |
+| 10-26 15:36 | HOOD |  | Robinhood Q3 Preview: Could Record Revenue Help Turn Shares Around? |
 | 10-26 14:41 | AAPL |  | Siri AI Is Available In More Languages Starting Today; Expanding To More People Around World, With Availability In French, Japanese, Korean, Portuguese, And Spanish Languages; Siri AI Currently Unavailable In EU; Working With EU On Path Forward |
 | 10-26 14:30 | V |  | Visa Analyst Sees AI Agents Strengthening its Digital Payments Business |
 | 10-26 14:11 | MSFT |  | OpenAI Rolls Out GPT-6.1 Terra To All Plus, Pro, Enterprise, And Edu Users In ChatGPT Work, Codex |

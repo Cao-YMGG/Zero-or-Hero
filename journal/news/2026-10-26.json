@@ -1,7 +1,177 @@
 {
- "as_of": "2026-10-26T15:16-04:00",
+ "as_of": "2026-10-26T19:16-04:00",
  "since": "2026-10-23T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-26 19:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Reports Change in Major Holding in Vonovia SE",
+   "source": "fiscal.ai",
+   "url": "https://www.eqs-news.com/news/voting-rights/jpmorgan-chase-co-wilmington-delaware-united-states-of-america-usa/3e391544-2ac4-42a9-8fe2-0ef3f86155b2_en"
+  },
+  {
+   "time": "10-26 19:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Verosoft Launches AI Orchestration Platform Built on Microsoft Dynamics 365",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/in/news-releases/verosoft-launches-verovia-to-turn-ai-into-industrial-value-302918490.html"
+  },
+  {
+   "time": "10-26 19:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Semperis Expands Security Collaboration with Microsoft",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/semperis-deepens-microsoft-security-collaboration-integrating-the-lightning-platform-with-microsoft-sentinel-and-security-copilot-302919004.html"
+  },
+  {
+   "time": "10-26 19:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Business to Host Annual 'Reshape 2026' Conference",
+   "source": "fiscal.ai",
+   "url": "https://procurementmag.com/news/amazon-business-reshape-2026-what-cpos-need-to-know"
+  },
+  {
+   "time": "10-26 18:15",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "$100 Invested In Micron Technology 10 Years Ago Would Be Worth This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62607507/100-invested-micron-technology-10-years-ago-would-be-worth-much-today"
+  },
+  {
+   "time": "10-26 17:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Expands Wealth Management Advisory Teams in Asia",
+   "source": "fiscal.ai",
+   "url": "https://hr.asia/asia-2/goldman-sachs-steps-up-asia-hiring/"
+  },
+  {
+   "time": "10-26 17:31",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "",
+   "headline": "Financial Institutions Form $63 Billion Financing Vehicle for Broadcom AI Infrastructure",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/dow-jones/202610269207/banks-blackstone-form-63-billion-financing-vehicle-for-broadcom-ai-tech"
+  },
+  {
+   "time": "10-26 16:48",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Cancels Cybertruck in Two Countries: An Omen for the Vehicle's Future?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/large-cap/26/10/62606038/tesla-cybertruck-in-two-countries-is-this-an-ominous-sign-for-vehicles-future"
+  },
+  {
+   "time": "10-26 16:38",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "SpaceX Merger Could Accelerate Tesla's Push Into AI and Autonomous Driving: Barclays",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62605726/tesla-spacex-merger"
+  },
+  {
+   "time": "10-26 16:31",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "Elementl Power Announces Nuclear Development Partnership Featuring GE Vernova Hitachi Nuclear Energy Technology",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/elementl-power-ds-investment-partners-and-samsung-ct-to-advance-new-us-nuclear-development-302919526.html"
+  },
+  {
+   "time": "10-26 16:31",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Debuts at Texas Book Festival",
+   "source": "fiscal.ai",
+   "url": "https://about.netflix.com/newsroom"
+  },
+  {
+   "time": "10-26 16:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Unveils Claw-Powered Agentic Applications for Customer Experience",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261026sf80514/oracle-introduces-claw-powered-fusion-agentic-applications-for-customer-experience"
+  },
+  {
+   "time": "10-26 16:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Announces Voluntary Buyout Program for 60,000 Employees",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8459083/microsoft-offers-a-quarter-of-its-global-workforce-voluntary-buyouts-as-ai-spending-accelerates"
+  },
+  {
+   "time": "10-26 16:25",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "'Intel to Buy Israeli Startup Classiq in Quantum Computing Push' - Bloomberg Exclusive",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m/26/10/62605180/intel-buy-israeli-startup-classiq-quantum-computing-push-bloomberg-exclusive"
+  },
+  {
+   "time": "10-26 15:59",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "U.S. Judge Lets Eli Lilly Continue Weight-Loss Drug Ads, Ruling Against Novo Nordisk",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62603513/u-s-judge-lets-eli-lilly-continue-weight-loss-drug-ads-ruling-against-novo-nordisk"
+  },
+  {
+   "time": "10-26 15:49",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "If This Sector Breaks, \u2018So Does the Market\u2019: Jay Woods Says This Chart is 'Most Important in the World'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62603174/if-this-sector-breaks-so-does-the-market-jay-woods-says-this-chart-is-most-important-in-the-world"
+  },
+  {
+   "time": "10-26 15:36",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Q3 Preview: Could Record Revenue Help Turn Shares Around?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/previews/26/10/62602822/robinhood-q3-preview-could-record-revenue-help-turn-shares-around"
+  },
   {
    "time": "10-26 14:54",
    "symbols": [
