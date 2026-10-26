@@ -1,7 +1,77 @@
 {
- "as_of": "2026-10-26T10:32-04:00",
+ "as_of": "2026-10-26T11:02-04:00",
  "since": "2026-10-23T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-26 11:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "initiate",
+   "headline": "Goldman Sachs Initiates Coverage on Accelevation Holdings Corp.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-initiates-accelevation-at-buy-with-22-price-target-ce785cdcdb81f622"
+  },
+  {
+   "time": "10-26 11:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Adjusts Price Target on Fair Isaac Corporation",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-price-target-on-fair-isaac-to-961-from-1-129-ce785cdcd88ef420"
+  },
+  {
+   "time": "10-26 11:01",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa to Support Upcoming Prepaid Card Services for WORPT in Thailand",
+   "source": "fiscal.ai",
+   "url": "https://www.taiwannews.com.tw/en/news/6465506"
+  },
+  {
+   "time": "10-26 11:01",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "UBS Adjusts Price Target on Caterpillar to $750 From $925",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/ubs-adjusts-price-target-on-caterpillar-to-750-from-925-maintains-neutral-rating-ce785cdcdd8af122"
+  },
+  {
+   "time": "10-26 11:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Expresses Interest in Meta Platforms Equity Offering",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/2026102637/nvidia-amd-and-broadcom-could-buy-meta-shares-as-part-of-35-billion-stock-offering"
+  },
+  {
+   "time": "10-26 11:00",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "$1000 Invested In Advanced Micro Devices 15 Years Ago Would Be Worth This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62593014/1000-invested-advanced-micro-devices-15-years-ago-would-be-worth-much-today"
+  },
+  {
+   "time": "10-26 10:46",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "target up",
+   "headline": "Truist Securities Reiterates Buy on Microsoft, Raises Price Target to $600",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62592437/truist-securities-reiterates-buy-microsoft-raises-price-target-600"
+  },
   {
    "time": "10-26 10:28",
    "symbols": [

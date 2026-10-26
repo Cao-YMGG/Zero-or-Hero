@@ -1,9 +1,11 @@
-# Headlines since 2026-10-23 16:00 ET (as of 2026-10-26 10:32 ET)
+# Headlines since 2026-10-23 16:00 ET (as of 2026-10-26 11:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-26 11:01 | GS | initiate | Goldman Sachs Initiates Coverage on Accelevation Holdings Corp. |
+| 10-26 10:46 | MSFT | target up | Truist Securities Reiterates Buy on Microsoft, Raises Price Target to $600 |
 | 10-26 10:16 | ORCL | target down | Wells Fargo Maintains Overweight on Oracle, Lowers Price Target to $250 |
 | 10-26 10:09 | V | target up | Susquehanna Maintains Positive on Visa, Raises Price Target to $480 |
 | 10-26 09:36 | LITE | initiate | StoneX Initiates Coverage On Lumentum Holdings with Buy Rating, Announces Price Target of $1200 |
@@ -19,6 +21,11 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-26 06:31 | LLY | target up | Bernstein Raises Price Target for Eli Lilly |
 | 10-24 21:01 | GS | upgrade | Goldman Sachs Upgrades CoreWeave to 'Buy' |
 | 10-23 17:31 | GE | rating | Bernstein Maintains Buy Rating on GE Aerospace, Adjusts Price Target |
+| 10-26 11:01 | GS |  | Goldman Sachs Adjusts Price Target on Fair Isaac Corporation |
+| 10-26 11:01 | V |  | Visa to Support Upcoming Prepaid Card Services for WORPT in Thailand |
+| 10-26 11:01 | CAT |  | UBS Adjusts Price Target on Caterpillar to $750 From $925 |
+| 10-26 11:01 | NVDA |  | NVIDIA Expresses Interest in Meta Platforms Equity Offering |
+| 10-26 11:00 | AMD |  | $1000 Invested In Advanced Micro Devices 15 Years Ago Would Be Worth This Much Today |
 | 10-26 10:28 | MSFT |  | ‘Hire the Robot, Fire the Human And Don't Look Back’: Bill Gates’s Chilling Warning of a Jobs Crisis Governments Aren't Ready For |
 | 10-26 10:28 | SNDK |  | Sandisk Earnings Are Days Away: Here’s What Investors Need to Know |
 | 10-26 10:01 | STX |  | Seagate Technology Declares Dividend Increase |

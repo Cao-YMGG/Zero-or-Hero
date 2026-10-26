@@ -4,7 +4,20 @@
   "variants": {
     "claude_bias": {},
     "meta_follow2": {},
-    "leader_follow": {},
+    "leader_follow": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "MU261026C00925000",
+        "direction": "call",
+        "entry_time": "2026-10-26T11:01:03-04:00",
+        "entry_price": 1.11,
+        "peak": 1.22,
+        "qty": 1,
+        "last": 1.18,
+        "last_time": "2026-10-26T11:02:40-04:00"
+      }
+    },
     "megacap_reclaim": {
       "attempts": 1,
       "entered": true,
@@ -15,8 +28,8 @@
         "entry_price": 0.23,
         "peak": 0.34,
         "qty": 5,
-        "last": 0.15,
-        "last_time": "2026-10-26T10:32:11-04:00"
+        "last": 0.14,
+        "last_time": "2026-10-26T11:02:40-04:00"
       },
       "real": {
         "contract": "AMZN261026C00252500",
@@ -47,8 +60,8 @@
         "entry_price": 0.75,
         "peak": 0.96,
         "qty": 1,
-        "last": 0.5,
-        "last_time": "2026-10-26T10:32:11-04:00"
+        "last": 0.45,
+        "last_time": "2026-10-26T11:02:40-04:00"
       },
       "real": {
         "contract": "TSLA261026C00400000",
