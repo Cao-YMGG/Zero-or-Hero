@@ -86,6 +86,21 @@ in EVOLUTION.md.
    journal/dipwatch.csv (signal, contract, close; outcomes filled 20 sessions later). Review the
    rows on 2026-11-29.
 
+25. **catalyst_open trail on 0.10-delta same-day options (2026-10-26).** TSLA 395C peaked at 2.34
+   (from 0.88) when TSLA hit 393.75 around 09:40, then the 40% giveback sold it at 1.06 at 09:47
+   on a dip to 391.8; TSLA later made 397.27 but closed 391.62 (395C ~0 at 15:45). Test on real
+   minute prices for news picks: giveback 0.4 / 0.5 / 0.6, a 10-minute grace after entry, and
+   half at 2x vs 3x. Lead with the last 3 months; report without the best one and two trades.
+26. **Open-to-10:00 move under 0.1% vs Fridays (the other Claude's question, 2026-10-23).** Split
+   leader_follow, megacap_reclaim and the catalyst picks by the SPY open-to-10:00 bucket and by
+   weekday on real option prices.
+27. **Same name in two variants (2026-10-26).** catalyst_open and stock_open_drive both bought TSLA
+   calls; the second (400C at 10:01, needed +4.2% from the open) lost 100%. Measure overlap days
+   and whether the later, further-OTM entry ever pays.
+28. **catalyst_intraday unaffordable picks (2026-10-26).** INTC's 0.2-delta 10-30 call cost more
+   than the $133 budget, so the pick was skipped. Count how often picks are skipped and whether a
+   lower-delta fallback (0.10-0.15) would have done better on those days.
+
 ## Done
 - **Item 22 (2026-10-25), WEEK43_EXITS.md / SECTORS.md:** (a) sector ETF follow at 10:00 (lead >= 0.8% beyond SPY):
   negative everywhere, 0.20 delta trail2x -24% / -29% / -33% last 3 months (24), -30% all (157); heating filter
