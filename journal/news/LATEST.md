@@ -1,4 +1,4 @@
-# Headlines since 2026-10-23 16:00 ET (as of 2026-10-26 14:15 ET)
+# Headlines since 2026-10-23 16:00 ET (as of 2026-10-26 14:46 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -26,6 +26,8 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-26 06:31 | LLY | target up | Bernstein Raises Price Target for Eli Lilly |
 | 10-24 21:01 | GS | upgrade | Goldman Sachs Upgrades CoreWeave to 'Buy' |
 | 10-23 17:31 | GE | rating | Bernstein Maintains Buy Rating on GE Aerospace, Adjusts Price Target |
+| 10-26 14:41 | AAPL |  | Siri AI Is Available In More Languages Starting Today; Expanding To More People Around World, With Availability In French, Japanese, Korean, Portuguese, And Spanish Languages; Siri AI Currently Unavailable In EU; Working With EU On Path Forward |
+| 10-26 14:30 | V |  | Visa Analyst Sees AI Agents Strengthening its Digital Payments Business |
 | 10-26 14:11 | MSFT |  | OpenAI Rolls Out GPT-6.1 Terra To All Plus, Pro, Enterprise, And Edu Users In ChatGPT Work, Codex |
 | 10-26 14:08 | AMZN GOOGL |  | 'FTC is demanding Anthropic execs testify in expanding AI safety probe' - Axios |
 | 10-26 14:03 | V |  | 'Stripe’s AI Shopping Lead Puts Card Giants On Edge; Stripe Is Emerging As A Powerful Middleman In AI Shopping, Raising Concerns At Visa And MasterCard. Its Virtual Card Technology Could Give Stripe Greater Control Over Payments And More Insight Into Consumers’ Purchases.' - The Information |
