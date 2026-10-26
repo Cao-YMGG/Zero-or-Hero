@@ -66,6 +66,19 @@ def same_day_expiry(symbol, weekday):
     return weekday == 4
 
 
+def reports_soon(symbol, day, earnings):
+    """True if `symbol` reports on `day` or the next weekday (config/earnings.json). A carried
+    news pick must not be held into the print: reaction days averaged -1.6% (RUNUP.md), and on
+    2026-10-26 the INTC intraday pick's nearest expiry (10-30) came after its 10-29 report."""
+    nxt = day + timedelta(days=1)
+    while nxt.weekday() >= 5:
+        nxt += timedelta(days=1)
+    for date_text, symbols in (earnings or {}).items():
+        if symbol in symbols and datetime.fromisoformat(date_text).date() in (day, nxt):
+            return True
+    return False
+
+
 def reported_recently(symbol, day, earnings, days):
     """True if `symbol` reported within the last `days` trading days (weekdays) up to `day`.
     Post-earnings opening bounces looked like leaders and failed: NFLX 2026-10-21/22 for

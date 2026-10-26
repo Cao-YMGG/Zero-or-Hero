@@ -55,12 +55,14 @@ def roll(ledgers, cfg, today):
 
 def losing_streak(trades, vid):
     """Losses in a row at the end of the variant's closed trades (one per entry: the real row
-    when there is one, else the shadow)."""
+    when there is one, else the shadow). Keyed by contract and entry date: the real fill comes
+    seconds after the shadow entry, and keying on the timestamp counted every live trade twice
+    (leader_follow showed 7 in a row and was paused on 2026-10-26 when the true streak was 4)."""
     by_entry = {}
     for t in trades:
         if t["variant"] != vid or t["mode"] not in ("shadow", "real"):
             continue
-        key = (t["contract"], t["entry_time"])
+        key = (t["contract"], t["entry_time"][:10])
         if t["mode"] == "real" or key not in by_entry:
             by_entry[key] = t
     streak = 0
