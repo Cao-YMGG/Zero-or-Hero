@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-26",
+  "bias": "none",
+  "confidence": 0.2,
+  "p_up": 0.53,
+  "summary": "SPY +0.3% pre-market as oil gives back part of Friday's Houthi-attack spike; FOMC and MSFT/GOOGL earnings on Wednesday, no open-to-close edge today (p_up 0.53). Sniper: TSLA call on the Barclays upgrade to Overweight (PT $370 -> $450), gap +2.5%.",
+  "reasons": [
+    "SPY 762.08 pre-market vs 759.97 close (+0.28%, was +0.40% at 08:16); QQQ +0.54%; SMH +1.2%; IWM +0.3%; overnight session SPY +0.13% (no night-down/pre-market-recovery pattern)",
+    "Oil retreats after Friday's spike on Houthi attacks on Saudi Arabia: USO -2.2% pre-market after +4.3% Friday (52-week high); WTI ~$101, Brent ~$114.5 (CNBC). XLE -1.2%. TLT +0.3%, UUP +0.1%: yields slightly lower, dollar flat. 2Y/10Y bp changes, VIX and DXY level not found this morning",
+    "Schedule: Chicago Fed NAI 08:30, Dallas Fed manufacturing 10:30, 2-year note auction 13:00 ET (can move the afternoon). FOMC starts Tuesday, decision Wednesday; MSFT and GOOGL report Wednesday after the close, AMZN/INTC Thursday, AAPL 11-02",
+    "Last week: S&P lowest since 10-01, Nasdaq 100 -7.5% from its high, Fear & Greed 'extreme fear' on Thursday. A gap-up Monday before a heavy event week: the gap is priced at the open (OVERNIGHT.md), so no call",
+    "META announced common-stock and depositary-share offerings pre-market, with NVDA, AMD and AVGO each indicating interest in up to $5B (Benzinga 07:17); META traded 610-662 pre-market, now -0.7%. Equity raise to fund AI capex: capex headlines cut both ways, no pick on META or its cornerstone buyers (AMD +1.2%, NVDA +1.0%, AVGO +1.0%)",
+    "Anthropic S-1 due at 09:00 ET (AMZN and GOOGL hold stakes): unknown content, GOOGL reports Wednesday, not a sniper",
+    "AAPL -1.2% pre-market with no company headline found (iPhone Duo sold out, MacBook launch Wednesday, reports 11-02): no pick",
+    "No >= 2% pre-market down gap among the rebound_scanner large caps",
+    "Dossiers: META small gaps (within 1%) mostly fill, big gaps continue; META news also moves the CPU chain (today AMD is a cornerstone buyer of META's offering). AMD up gaps >= 2% continue but calls bought at 09:45 lost; today's AMD gap is +1.2%",
+    "Sniper TSLA: Barclays (Dan Levy) upgraded Equal Weight -> Overweight, PT $370 -> $450, citing the SpaceX combination as part of the bull case, energy storage nearly sold out for 2027 and a recovering auto business (Benzinga 06:31; MarketScreener/Investing.com). Mizuho PT $460. Also FSD (Supervised) approved in Latvia. Pre-market 381.41 vs 372.22 close (+2.5%, inside the ~3% bar for a heavy catalyst); Webull median target 425. TSLA 1-week +4.9% while the market fell. Against it: ANALYST.md shows TSLA rating changes have not carried (12 events, open->close median -0.5%, 50% up); an independent analyst's note (08:47) says Q3 free cash flow was flattered by $1.9B of stretched supplier payments; TSLA reported 10-21 (not today or tomorrow)"
+  ],
+  "events": ["2Y note auction 13:00", "Anthropic S-1 09:00", "META share offering"],
+  "inputs": {"es_futures_pct": 0.3, "vix": null, "wti_pct": -2.2, "us10y": null, "us10y_change_bp": null, "us2y_change_bp": null, "dxy_pct": 0.1,
+             "overnight": "Webull extended hours 08:55 ET: SPY +0.28%, QQQ +0.54%, USO -2.2%, TLT +0.3%, UUP +0.1%; Reuters 05:19 ET: S&P e-minis +0.3%, Nasdaq e-minis +0.25%, Dow e-minis +0.49%"},
+  "rotation": {
+    "heating": ["energy (XLE +11% 1 month, XOM +13.6%, CVX +13.5%; oil retreat today)", "health care (UNH +12.6%, LLY +10.6% 1 month; XLV +6.2%)", "consumer staples and retail (COST +10.9%, WMT +8.5%, HD +7.8% 1 month; XLP +7.1%)", "TSLA (+4.9% 1 week)"],
+    "cooling": ["AI hardware (SMH -12% 1 month; ARM -37%, SNDK -32%, STX -32%, INTC -29%, WDC -27%, LITE -19%, MU -18%, AMD -16%)", "power (GEV -11.5% 1 week)", "industrials (CAT -15%, GE -10.5% 1 month)", "banks (BAC -9.7% 1 month, XLF +2.5% only)", "internet platforms (META -9.4%, GOOGL -6.0% 1 week)"],
+    "note": "Webull daily bars to 10-23 (1 week from 10-16, 1 month from 09-23). Money has sat in energy, health care and staples for a month while AI hardware fell 15-35%. This morning the chips bounce pre-market (MU +2.3%, INTC +1.8%, AMD +1.2%) as oil eases; one morning is not a rotation back"
+  },
+  "sniper": {
+    "symbol": "TSLA",
+    "direction": "call",
+    "catalyst": "Barclays upgrades to Overweight from Equal Weight, PT $370 -> $450 (06:31 ET); Mizuho PT $460; FSD approved in Latvia",
+    "catalyst_type": "analyst_rating",
+    "confidence": 0.4
+  },
+  "generated_at": "2026-10-26T08:56:21-04:00"
+}
