@@ -42,6 +42,11 @@ class LosingStreakTest(unittest.TestCase):
         self.assertEqual(ledgers.losing_streak(rows, "meta_follow2"), 1)
         self.assertEqual(ledgers.losing_streak(rows, "other"), 0)
 
+    def test_real_fill_seconds_after_the_shadow_is_one_entry(self):
+        shadow = trade("meta_follow2", "shadow", -20, 1)
+        real = dict(trade("meta_follow2", "real", -15, 1), entry_time="2026-10-01T10:00:05")
+        self.assertEqual(ledgers.losing_streak([shadow, real], "meta_follow2"), 1)
+
 
 class LedgerOrderTest(unittest.TestCase):
     """A ledger variant sizes its real order on its own ledger and ignores the main theme rule."""
@@ -160,3 +165,17 @@ class ReportedRecentlyTest(unittest.TestCase):
         self.assertTrue(reported_recently("META", date(2026, 10, 21), cal, 3))   # report day itself
         self.assertFalse(reported_recently("MSFT", date(2026, 10, 22), cal, 3))  # reports later
         self.assertFalse(reported_recently("AAPL", date(2026, 10, 22), cal, 3))
+
+
+class ReportsSoonTest(unittest.TestCase):
+    """Carried news picks are sold before the underlying's report (INTC 2026-10-26)."""
+
+    def test_today_or_next_weekday(self):
+        from zoh.strategy import reports_soon
+        cal = {"2026-10-29": ["INTC", "AMZN"], "2026-11-02": ["AAPL"]}
+        self.assertFalse(reports_soon("INTC", date(2026, 10, 27), cal))
+        self.assertTrue(reports_soon("INTC", date(2026, 10, 28), cal))   # day before
+        self.assertTrue(reports_soon("INTC", date(2026, 10, 29), cal))   # report day
+        self.assertTrue(reports_soon("AAPL", date(2026, 10, 30), cal))   # Friday before a Monday report
+        self.assertFalse(reports_soon("AAPL", date(2026, 10, 29), cal))
+        self.assertFalse(reports_soon("MSFT", date(2026, 10, 28), cal))

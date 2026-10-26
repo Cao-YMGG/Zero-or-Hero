@@ -19,7 +19,7 @@ from . import journal, ledgers
 from .alpaca import Alpaca, AlpacaError
 from .strategy import (ET, MARKET_OPEN, bs_delta, contracts_for, current_phase, check_exit,
                        cross_assets, day_context, evaluate_signal, hhmm, same_day_expiry,
-                       rank_by_move, reported_recently, sniper_pick, with_gap, parse_bar, parse_occ,
+                       rank_by_move, reported_recently, reports_soon, sniper_pick, with_gap, parse_bar, parse_occ,
                        regular_session, round_limit, select_contract, years_to_close)
 
 MAX_ENTRY_ATTEMPTS = 3
@@ -510,8 +510,11 @@ class Bot:
                 # A news pick that does not expire today is held overnight (trail still applies)
                 # and closes at the exit time of its expiry day; every other variant sells at the
                 # exit time anyway (journal/research/EXITS.md: carried rebounds -42% vs -13%).
-                expires_today = parse_occ(shadow["contract"])[1] <= f"{self.today:%y%m%d}"
-                closes_today = expires_today or not carries(variant)
+                # Nothing is carried into the underlying's report (today or next trading day).
+                root, expiry = parse_occ(shadow["contract"])[:2]
+                expires_today = expiry <= f"{self.today:%y%m%d}"
+                closes_today = (expires_today or not carries(variant)
+                                or reports_soon(root, self.today, self.earnings))
                 if at_exit and not closes_today:
                     vstate["hold"] = True
                 quote = (snaps.get(shadow["contract"]) or {}).get("latestQuote") or {}
