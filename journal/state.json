@@ -14,8 +14,8 @@
         "entry_price": 1.11,
         "peak": 1.22,
         "qty": 1,
-        "last": 0.66,
-        "last_time": "2026-10-26T13:15:39-04:00"
+        "last": 0.12,
+        "last_time": "2026-10-26T13:45:49-04:00"
       }
     },
     "megacap_reclaim": {
@@ -29,7 +29,7 @@
         "peak": 0.34,
         "qty": 5,
         "last": 0.01,
-        "last_time": "2026-10-26T13:15:39-04:00"
+        "last_time": "2026-10-26T13:45:49-04:00"
       },
       "real": {
         "contract": "AMZN261026C00252500",
@@ -47,7 +47,9 @@
       "entered": true,
       "closed": true
     },
-    "catalyst_intraday": {},
+    "catalyst_intraday": {
+      "attempts": 3
+    },
     "spy_open_drive": {},
     "spy_open_drive_wide": {},
     "stock_open_drive": {
@@ -60,8 +62,8 @@
         "entry_price": 0.75,
         "peak": 0.96,
         "qty": 1,
-        "last": 0.31,
-        "last_time": "2026-10-26T13:15:39-04:00"
+        "last": 0.12,
+        "last_time": "2026-10-26T13:45:49-04:00"
       },
       "real": {
         "contract": "TSLA261026C00400000",

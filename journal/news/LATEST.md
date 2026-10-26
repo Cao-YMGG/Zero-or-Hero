@@ -1,4 +1,4 @@
-# Headlines since 2026-10-23 16:00 ET (as of 2026-10-26 13:15 ET)
+# Headlines since 2026-10-23 16:00 ET (as of 2026-10-26 13:45 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -25,6 +25,8 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-26 06:31 | LLY | target up | Bernstein Raises Price Target for Eli Lilly |
 | 10-24 21:01 | GS | upgrade | Goldman Sachs Upgrades CoreWeave to 'Buy' |
 | 10-23 17:31 | GE | rating | Bernstein Maintains Buy Rating on GE Aerospace, Adjusts Price Target |
+| 10-26 13:33 | AAPL |  | 'Apple Responds to iPhone Duo Display Cracking Reports' - MacRumors |
+| 10-26 13:33 | AAPL |  | Apple’s iPhone Duo Buyers Face a Wait That Could Stretch Into January |
 | 10-26 13:01 | ORCL |  | Oracle Expands AI Software Offerings Ahead of Investor Day |
 | 10-26 13:00 | XOM |  | CNBC Halftime Report Final Trades: eBay, ExxonMobil, Leidos Holdings, Global X Data Center & Digital Infrastructure ETF |
 | 10-26 13:00 | MSFT TSLA |  | Elon Musk Says Happiness Peaks Fast Once You're a Billionaire — 'You Hit That Saturation Point Pretty Fast' |
