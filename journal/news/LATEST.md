@@ -1,9 +1,14 @@
-# Headlines since 2026-10-23 16:00 ET (as of 2026-10-26 08:55 ET)
+# Headlines since 2026-10-23 16:00 ET (as of 2026-10-26 10:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-26 09:36 | LITE | initiate | StoneX Initiates Coverage On Lumentum Holdings with Buy Rating, Announces Price Target of $1200 |
+| 10-26 09:31 | CIEN | rating | AllianceBernstein Maintains Buy Rating on Ciena Corporation |
+| 10-26 09:31 | WDC | target down | Argus Research Maintains Buy on Western Digital, Lowers Price Target to $500 |
+| 10-26 09:23 | MSFT | target up | Scotiabank Maintains Sector Outperform on Microsoft, Raises Price Target to $625 |
+| 10-26 09:07 | TSLA | upgrade | Barclays Upgrades Tesla to Overweight, Raises Price Target to $450 |
 | 10-26 08:01 | PLTR | rating | Deutsche Bank Adjusts Palantir Technologies Price Target to $225 |
 | 10-26 07:31 | LITE | initiate | StoneX Initiates Coverage of Lumentum Holdings Inc. with Buy Rating |
 | 10-26 07:03 | STX | target down | Cantor Fitzgerald Maintains Overweight on Seagate Technology Hldgs, Lowers Price Target to $1000 |
@@ -12,6 +17,29 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-26 06:31 | LLY | target up | Bernstein Raises Price Target for Eli Lilly |
 | 10-24 21:01 | GS | upgrade | Goldman Sachs Upgrades CoreWeave to 'Buy' |
 | 10-23 17:31 | GE | rating | Bernstein Maintains Buy Rating on GE Aerospace, Adjusts Price Target |
+| 10-26 10:01 | STX |  | Seagate Technology Declares Dividend Increase |
+| 10-26 09:59 | AMZN GOOGL |  | Anthropic Says Expect Our Revenue Growth Rate To Decline Over Time And To Fluctuate From Period To Period; Class T Stock Will Not Vote On Election Or Removal Of Directors Elected By Holders Of Our Class A Stock And Class F Stock; On Sept 17, Effected 10-for-1 Stock Split Of Authorized, Issued, & Outstanding Shares Of Class A Stock & Class N Stock |
+| 10-26 09:58 | AMZN GOOGL |  | Anthropic Says As Of June 30, 2026, Our Total Indebtedness Was $6.2B; For The Three Months Ended Sept 30, Revenue From Each Of Our Top Five Customers Reached A Record High; Model Versions Released In Six Months Ended Sept 30 Accounted For Over 80% Of Revenue For Three Months Ended Sept 30 |
+| 10-26 09:57 | AMZN GOOGL |  | Anthropic Says Top Five Customers Represented About 25% Of Revenue For The Nine Months Ended September 30; No Single Customer Represented More Than 10% Of Our Revenue For The Nine Months Ended September 30; Anticipate That We Will Continue To Derive Significant Portion Of Revenue From Limited Number Of Customers For Foreseeable Future |
+| 10-26 09:43 | NVDA |  | SpaceX Signs $40 Billion Apollo AI Chip Deal as Debt Market Concerns Mount |
+| 10-26 09:34 | TSLA |  | Tesla’s FSD Reaches 10th EU Country With Latvia Approval. Here’s the Road Ahead for Tesla |
+| 10-26 09:31 | ORCL |  | Oracle Introduces Fusion Setup and Configuration Registry to Automate AI Deployments |
+| 10-26 09:31 | ORCL |  | Oracle Launches AI Success Navigator to Accelerate Fusion Cloud Implementation |
+| 10-26 09:31 | ORCL |  | Oracle Launches Fusion Companion and Fusion Agentic Home for AI-Powered Workflows |
+| 10-26 09:31 | ORCL |  | Oracle Expands Autonomous AI Lakehouse with New Business Semantic Layer |
+| 10-26 09:31 | WDC |  | Argus Adjusts Price Target on Western Digital to $500 From $600 |
+| 10-26 09:31 | WMT |  | Walmart Announces Three Major Holiday Shopping Events |
+| 10-26 09:31 | TSLA |  | Turo and Tesla Launch Verified FSD Rental Experience |
+| 10-26 09:31 | AMZN |  | Verizon Signs $2 Billion AI Infrastructure Agreement with AWS |
+| 10-26 09:31 | AAPL |  | Apple Unveils Redesigned iPad mini With OLED Display |
+| 10-26 09:29 | AMZN GOOGL |  | Anthropic Says As Of Sept 30, About 250 Customers With $10M Or More Of Revenue On A TTM Basis; In Q3, Recognized $2B Within Other Operating And Administrative Expense |
+| 10-26 09:28 | AMZN GOOGL |  | Anthropic Says Dario Amodei Owns 240.6M Class A Shares Before Offering; Total 245.3M Including 4.6M Shares Subject To Voting Proxies; Daniela Amodei Beneficially Owned 241.4M Class A Shares Before Offering |
+| 10-26 09:27 | AMZN AVGO GOOGL |  | Anthropic Says For Year Ended December 31, 2025, Expenses Related To Our Donation Matching Program Were $541M; Our Rent Payments Over The Life Of Leases Under Broadcom Lease Arrangements Equal To Aggregate Of About $161.2B Excluding Interest |
+| 10-26 09:24 | NVDA |  | CrowdStrike Stock Rose Friday Amid Cyber Rally. Here's a Look at the Week |
+| 10-26 09:23 | AMZN GOOGL MSFT |  | 'Anthropic Targets IPO Week Of November 16' - WSJ Live |
+| 10-26 09:06 | AAPL |  | Apple Unveils All-New iPad mini With 8.5-Inch OLED Display, A20 Pro Chip, Apple Intelligence |
+| 10-26 09:05 | AMZN GOOGL MSFT |  | Anthropic Files For Initial Public Offering On NASDAQ Under Ticker "ANT" |
+| 10-26 09:00 | AMD AVGO META NVDA |  | Zuckerberg Is Raising the Stakes: Meta Plans $95 Billion Funding Push to Fuel AI Dreams |
 | 10-26 08:47 | TSLA |  | Tesla's Cash Windfall Has a Catch: $1.9 Billion in Unpaid Bills |
 | 10-26 08:37 | COIN |  | Bitmine Immersion Technologies Announces Bitmine Crypto + Total Cash & Marketable Securities + "Moonshots" Holdings Totaling $15B |
 | 10-26 08:19 | AMZN GOOGL |  | ‘Best Midterm Strategy’ for Stocks? Turn Off the TV and Buy on Election Day, Says Analyst —What 75 Years of S&P 500 History Reveals |

@@ -1,7 +1,301 @@
 {
- "as_of": "2026-10-26T08:55-04:00",
+ "as_of": "2026-10-26T10:02-04:00",
  "since": "2026-10-23T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-26 10:01",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "",
+   "headline": "Seagate Technology Declares Dividend Increase",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.ch/nachrichten/aktien/s-p-500-wert-seagate-technology-aktie-mit-dieser-dividende-bereitet-seagate-technology-aktionaeren-eine-freude-1036664431"
+  },
+  {
+   "time": "10-26 09:59",
+   "symbols": [
+    "AMZN",
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Anthropic Says Expect Our Revenue Growth Rate To Decline Over Time And To Fluctuate From Period To Period; Class T Stock Will Not Vote On Election Or Removal Of Directors Elected By Holders Of Our Class A Stock And Class F Stock; On Sept 17, Effected 10-for-1 Stock Split Of Authorized, Issued, & Outstanding Shares Of Class A Stock & Class N Stock",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AMZN"
+  },
+  {
+   "time": "10-26 09:58",
+   "symbols": [
+    "AMZN",
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Anthropic Says As Of June 30, 2026, Our Total Indebtedness Was $6.2B; For The Three Months Ended Sept 30, Revenue From Each Of Our Top Five Customers Reached A Record High; Model Versions Released In Six Months Ended Sept 30 Accounted For Over 80% Of Revenue For Three Months Ended Sept 30",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AMZN"
+  },
+  {
+   "time": "10-26 09:57",
+   "symbols": [
+    "AMZN",
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Anthropic Says Top Five Customers Represented About 25% Of Revenue For The Nine Months Ended September 30; No Single Customer Represented More Than 10% Of Our Revenue For The Nine Months Ended September 30; Anticipate That We Will Continue To Derive Significant Portion Of Revenue From Limited Number Of Customers For Foreseeable Future",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AMZN"
+  },
+  {
+   "time": "10-26 09:43",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "SpaceX Signs $40 Billion Apollo AI Chip Deal as Debt Market Concerns Mount",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62589765/spacex-apollo-40-billion-ai-chip-financing"
+  },
+  {
+   "time": "10-26 09:36",
+   "symbols": [
+    "LITE"
+   ],
+   "rating": "initiate",
+   "headline": "StoneX Initiates Coverage On Lumentum Holdings with Buy Rating, Announces Price Target of $1200",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62589449/stonex-initiates-coverage-lumentum-holdings-buy-rating-announces-price-target-1200"
+  },
+  {
+   "time": "10-26 09:34",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla\u2019s FSD Reaches 10th EU Country With Latvia Approval. Here\u2019s the Road Ahead for Tesla",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62589336/teslas-fsd-reaches-a-10th-eu-country-with-latvia-approval-heres-the-road-ahead-for-tesla"
+  },
+  {
+   "time": "10-26 09:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Introduces Fusion Setup and Configuration Registry to Automate AI Deployments",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/prnewswire:2be428ef245c0:0-oracle-introduces-ai-agent-ready-fusion-applications-setup-and-configuration-to-speed-implementations/"
+  },
+  {
+   "time": "10-26 09:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Launches AI Success Navigator to Accelerate Fusion Cloud Implementation",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:db3519c6a57e9:0-oracle-corporation-orcl-launches-agentic-ai-platform-for-fusion-apps/"
+  },
+  {
+   "time": "10-26 09:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Launches Fusion Companion and Fusion Agentic Home for AI-Powered Workflows",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261026sf80521/oracle-introduces-new-ai-powered-ways-to-execute-work-across-oracle-fusion-applications"
+  },
+  {
+   "time": "10-26 09:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Expands Autonomous AI Lakehouse with New Business Semantic Layer",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261026sf80516/oracle-advances-autonomous-ai-lakehouse-with-business-semantic-layer-and-expanded-support-for-iceberg-data"
+  },
+  {
+   "time": "10-26 09:31",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Argus Adjusts Price Target on Western Digital to $500 From $600",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/argus-adjusts-price-target-on-western-digital-to-500-from-600-ce785cdcda8af427"
+  },
+  {
+   "time": "10-26 09:31",
+   "symbols": [
+    "CIEN"
+   ],
+   "rating": "rating",
+   "headline": "AllianceBernstein Maintains Buy Rating on Ciena Corporation",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/ja/news/post/1002349453/bernstein-maintains-ciena-cienus-with-buy-rating-maintains-target-price"
+  },
+  {
+   "time": "10-26 09:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart Announces Three Major Holiday Shopping Events",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom"
+  },
+  {
+   "time": "10-26 09:31",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Turo and Tesla Launch Verified FSD Rental Experience",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261026sf80209/turo-and-tesla-debut-industry-first-self-driving-rental-experience"
+  },
+  {
+   "time": "10-26 09:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Verizon Signs $2 Billion AI Infrastructure Agreement with AWS",
+   "source": "fiscal.ai",
+   "url": "https://telcomagazine.com/news/verizon-inks-us-2bn-aws-ai-deal-and-posts-406k-q3-adds"
+  },
+  {
+   "time": "10-26 09:31",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Unveils Redesigned iPad mini With OLED Display",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/her2oh9/"
+  },
+  {
+   "time": "10-26 09:31",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "target down",
+   "headline": "Argus Research Maintains Buy on Western Digital, Lowers Price Target to $500",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62589276/argus-research-maintains-buy-western-digital-lowers-price-target-500"
+  },
+  {
+   "time": "10-26 09:29",
+   "symbols": [
+    "AMZN",
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Anthropic Says As Of Sept 30, About 250 Customers With $10M Or More Of Revenue On A TTM Basis; In Q3, Recognized $2B Within Other Operating And Administrative Expense",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AMZN"
+  },
+  {
+   "time": "10-26 09:28",
+   "symbols": [
+    "AMZN",
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Anthropic Says Dario Amodei Owns 240.6M Class A Shares Before Offering; Total 245.3M Including 4.6M Shares Subject To Voting Proxies; Daniela Amodei Beneficially Owned 241.4M Class A Shares Before Offering",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AMZN"
+  },
+  {
+   "time": "10-26 09:27",
+   "symbols": [
+    "AMZN",
+    "AVGO",
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Anthropic Says For Year Ended December 31, 2025, Expenses Related To Our Donation Matching Program Were $541M; Our Rent Payments Over The Life Of Leases Under Broadcom Lease Arrangements Equal To Aggregate Of About $161.2B Excluding Interest",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62589172/anthropic-says-year-ended-december-31-2025-expenses-related-our-donation-matching-program-were-541m-"
+  },
+  {
+   "time": "10-26 09:24",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "CrowdStrike Stock Rose Friday Amid Cyber Rally. Here's a Look at the Week",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62589099/crowdstrike-stock-rose-friday-amid-cyber-rally-heres-a-look-at-the-week"
+  },
+  {
+   "time": "10-26 09:23",
+   "symbols": [
+    "AMZN",
+    "GOOGL",
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "'Anthropic Targets IPO Week Of November 16' - WSJ Live",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62589060/anthropic-targets-ipo-week-november-16-wsj-live"
+  },
+  {
+   "time": "10-26 09:23",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "target up",
+   "headline": "Scotiabank Maintains Sector Outperform on Microsoft, Raises Price Target to $625",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62589048/scotiabank-maintains-sector-outperform-microsoft-raises-price-target-625"
+  },
+  {
+   "time": "10-26 09:07",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "upgrade",
+   "headline": "Barclays Upgrades Tesla to Overweight, Raises Price Target to $450",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62588440/barclays-upgrades-tesla-overweight-raises-price-target-450"
+  },
+  {
+   "time": "10-26 09:06",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Unveils All-New iPad mini With 8.5-Inch OLED Display, A20 Pro Chip, Apple Intelligence",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62588414/apple-unveils-all-new-ipad-mini-8-5-inch-oled-display-a20-pro-chip-apple-intelligence"
+  },
+  {
+   "time": "10-26 09:05",
+   "symbols": [
+    "AMZN",
+    "GOOGL",
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Anthropic Files For Initial Public Offering On NASDAQ Under Ticker \"ANT\"",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62588338/anthropic-files-initial-public-offering-nasdaq-under-ticker-ant"
+  },
+  {
+   "time": "10-26 09:00",
+   "symbols": [
+    "AMD",
+    "AVGO",
+    "META",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Zuckerberg Is Raising the Stakes: Meta Plans $95 Billion Funding Push to Fuel AI Dreams",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62588078/zuckerberg-is-raising-the-stakes-meta-plans-95-billion-funding-push-to-fuel-ai-dreams"
+  },
   {
    "time": "10-26 08:47",
    "symbols": [

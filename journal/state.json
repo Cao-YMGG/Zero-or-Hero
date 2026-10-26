@@ -1,57 +1,72 @@
 {
-  "date": "2026-10-23",
-  "done": true,
+  "date": "2026-10-26",
+  "done": false,
   "variants": {
-    "catalyst_intraday@2026-10-22": {
-      "entered": true,
-      "carried": true,
-      "of": "catalyst_intraday",
-      "closed": true
-    },
     "claude_bias": {},
     "meta_follow2": {},
-    "leader_follow": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
+    "leader_follow": {},
     "megacap_reclaim": {
       "attempts": 1,
       "entered": true,
-      "closed": true
+      "shadow": {
+        "contract": "AMZN261026C00252500",
+        "direction": "call",
+        "entry_time": "2026-10-26T09:55:12-04:00",
+        "entry_price": 0.23,
+        "peak": 0.23,
+        "qty": 5,
+        "last": 0.11,
+        "last_time": "2026-10-26T10:02:05-04:00"
+      },
+      "real": {
+        "contract": "AMZN261026C00252500",
+        "qty": 3,
+        "underlying": "AMZN",
+        "entry_price": 0.21,
+        "entry_time": "2026-10-26T09:55:17-04:00"
+      }
     },
-    "rebound_scanner": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "rebound_scanner_wide": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
+    "rebound_scanner": {},
+    "rebound_scanner_wide": {},
     "nvda_gapdown_put": {},
-    "catalyst_open": {},
-    "catalyst_intraday": {
+    "catalyst_open": {
       "attempts": 1,
       "entered": true,
       "closed": true
     },
+    "catalyst_intraday": {},
     "spy_open_drive": {},
     "spy_open_drive_wide": {},
-    "stock_open_drive": {}
+    "stock_open_drive": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "TSLA261026C00400000",
+        "direction": "call",
+        "entry_time": "2026-10-26T10:01:26-04:00",
+        "entry_price": 0.75,
+        "peak": 0.75,
+        "qty": 1,
+        "last": 0.66,
+        "last_time": "2026-10-26T10:02:05-04:00"
+      },
+      "real": {
+        "contract": "TSLA261026C00400000",
+        "qty": 2,
+        "underlying": "TSLA",
+        "entry_price": 0.75,
+        "entry_time": "2026-10-26T10:01:35-04:00"
+      }
+    }
   },
-  "real_underlyings": [
-    "MSFT"
-  ],
   "generation": 1,
-  "equity_start": 691.6999999999971,
+  "equity_start": 666.4400000000023,
   "phase": "zero-or-hero",
   "risk_per_trade": 0.2,
   "champion": "rebound_scanner",
   "ledgers": {
     "rebound_scanner": {
-      "equity": 500.0,
+      "equity": 540.0,
       "generation": 1,
       "paused": false
     },
@@ -71,19 +86,17 @@
       "paused": false
     },
     "leader_follow": {
-      "equity": 464.0,
+      "equity": 342.0,
       "generation": 1,
-      "paused": false
+      "paused": true
     },
     "megacap_reclaim": {
-      "equity": 500.0,
-      "generation": 1,
-      "paused": false
-    },
-    "spy_open_drive_wide": {
-      "equity": 500.0,
+      "equity": 394.0,
       "generation": 1,
       "paused": false
     }
-  }
+  },
+  "real_underlyings": [
+    "TSLA"
+  ]
 }

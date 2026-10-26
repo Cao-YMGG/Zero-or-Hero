@@ -44,3 +44,5 @@ date,variant,mode,contract,entry_price,exit_price,peak,exit_reason
 2026-10-23,rebound_scanner_wide,shadow,CRDO261023C00155000,1.13,0,2.48,time
 2026-10-23,catalyst_intraday,shadow,MSFT261023P00515000,1.05,0.01,1.96,time
 2026-10-23,catalyst_intraday,real,MSFT261023P00515000,1.02,0.0,1.96,expired
+2026-10-26,catalyst_open,shadow,TSLA261026C00395000,0.95,1.03,2.34,trail
+2026-10-26,catalyst_open,real,TSLA261026C00395000,0.88,1.06,2.34,trail
