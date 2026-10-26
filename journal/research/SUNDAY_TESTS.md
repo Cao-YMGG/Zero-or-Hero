@@ -82,6 +82,9 @@ in EVOLUTION.md.
    were worse than single calls; at 10% costs everything loses. Track the daily signals and their
    real option outcomes for a month before building a bot variant (needs multi-day holding and
    $500-2,500 a contract, more than the main ledger).
+   Started 2026-10-26: zoh/research/dipwatch.py runs after each Trade afternoon job and writes
+   journal/dipwatch.csv (signal, contract, close; outcomes filled 20 sessions later). Review the
+   rows on 2026-11-29.
 
 ## Done
 - **Item 22 (2026-10-25), WEEK43_EXITS.md / SECTORS.md:** (a) sector ETF follow at 10:00 (lead >= 0.8% beyond SPY):

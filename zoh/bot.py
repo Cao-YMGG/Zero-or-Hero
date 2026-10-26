@@ -362,13 +362,21 @@ class Bot:
     def sell_half(self, variant, vstate, bid, now):
         """Take half off at the variant's half_at multiple; the rest keeps trailing. The shadow
         banks half the price (its final row records the blended exit); the real position sells
-        half its contracts when it has two or more."""
+        half its contracts when it has two or more, or its only one when the variant sets
+        single_take."""
         shadow = vstate["shadow"]
         shadow["banked"] = round(0.5 * bid, 4)
         log(f"{variant['id']}: half out of {shadow['contract']} @ {bid} "
             f"({bid / shadow['entry_price']:.1f}x)")
         real = vstate.get("real")
-        if real and real["qty"] >= 2 and not self.dry_run:
+        if real and real["qty"] == 1 and variant.get("single_take") and not self.dry_run:
+            # One contract cannot split: sell it all at the half_at multiple (spy_open_drive, owner
+            # 2026-10-26: all out at 3x +101% / +78% / +54% vs held to the close +53% / +8% / -23%).
+            filled, price, _ = self._sell_out(real["contract"], 1, "take")
+            if filled:
+                self._record(variant, "real", real, price, now_et(), "take", filled, shadow.get("peak"))
+                vstate.pop("real")
+        elif real and real["qty"] >= 2 and not self.dry_run:
             half = real["qty"] // 2
             filled, price, _ = self._sell_out(real["contract"], half, "half")
             if filled:
@@ -519,7 +527,8 @@ class Bot:
                 if at_exit:
                     reason = "time" if closes_today else None
                 else:
-                    reason = check_exit(shadow["entry_price"], shadow["peak"], bid, variant)
+                    reason = check_exit(shadow["entry_price"], shadow["peak"], bid, variant,
+                                        banked="banked" in shadow)
                 if reason:
                     self.close(variant, vstate, bid, reason, now)
             elif (not vstate.get("entered") and not at_exit and bars

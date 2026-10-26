@@ -269,7 +269,9 @@
         2,
         3
       ],
-      "half_at": 3.0
+      "half_at": 3.0,
+      "single_take": true,
+      "trail_after_half": 0.4
     },
     {
       "id": "spy_open_drive_wide",
@@ -292,7 +294,9 @@
         2,
         3
       ],
-      "half_at": 3.0
+      "half_at": 3.0,
+      "single_take": true,
+      "trail_after_half": 0.4
     },
     {
       "id": "stock_open_drive",
@@ -333,8 +337,7 @@
       "spy_open_drive",
       "stock_open_drive",
       "leader_follow",
-      "megacap_reclaim",
-      "spy_open_drive_wide"
+      "megacap_reclaim"
     ]
   }
 }
