@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-26",
+  "picks": [
+    {
+      "time": "13:20",
+      "symbol": "INTC",
+      "direction": "call",
+      "confidence": 0.35,
+      "catalyst": "New Street Research upgrades Intel to Buy, PT $125 (11:32 ET, in session). INTC 92.0 at the day high, +5.8% on the day, +4.8% from the 87.78 open (87.4 at 10:17), on a chip rebound day (AMD +3.1%, MU +4.2%, AVGO +2.8%). ANALYST.md: INTC upgrades carried best of 25 large caps (7 events, open->close median +2.7%). Reports Thursday 10-29: the nearest expiry (10-30) is after the print, so this must not be held into the report",
+      "catalyst_type": "analyst_rating"
+    }
+  ]
+}
