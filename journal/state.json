@@ -1,43 +1,18 @@
 {
   "date": "2026-10-26",
-  "done": false,
+  "done": true,
   "variants": {
     "claude_bias": {},
     "meta_follow2": {},
     "leader_follow": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "MU261026C00925000",
-        "direction": "call",
-        "entry_time": "2026-10-26T11:01:03-04:00",
-        "entry_price": 1.11,
-        "peak": 1.22,
-        "qty": 1,
-        "last": 0.02,
-        "last_time": "2026-10-26T15:16:23-04:00"
-      }
+      "closed": true
     },
     "megacap_reclaim": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "AMZN261026C00252500",
-        "direction": "call",
-        "entry_time": "2026-10-26T09:55:12-04:00",
-        "entry_price": 0.23,
-        "peak": 0.34,
-        "qty": 5,
-        "last": 0,
-        "last_time": "2026-10-26T15:16:23-04:00"
-      },
-      "real": {
-        "contract": "AMZN261026C00252500",
-        "qty": 3,
-        "underlying": "AMZN",
-        "entry_price": 0.21,
-        "entry_time": "2026-10-26T09:55:17-04:00"
-      }
+      "closed": true
     },
     "rebound_scanner": {},
     "rebound_scanner_wide": {},
@@ -55,23 +30,7 @@
     "stock_open_drive": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "TSLA261026C00400000",
-        "direction": "call",
-        "entry_time": "2026-10-26T10:01:26-04:00",
-        "entry_price": 0.75,
-        "peak": 0.96,
-        "qty": 1,
-        "last": 0.01,
-        "last_time": "2026-10-26T15:16:23-04:00"
-      },
-      "real": {
-        "contract": "TSLA261026C00400000",
-        "qty": 2,
-        "underlying": "TSLA",
-        "entry_price": 0.75,
-        "entry_time": "2026-10-26T10:01:35-04:00"
-      }
+      "closed": true
     }
   },
   "generation": 1,

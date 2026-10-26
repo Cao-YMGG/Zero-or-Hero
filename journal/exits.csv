@@ -46,3 +46,8 @@ date,variant,mode,contract,entry_price,exit_price,peak,exit_reason
 2026-10-23,catalyst_intraday,real,MSFT261023P00515000,1.02,0.0,1.96,expired
 2026-10-26,catalyst_open,shadow,TSLA261026C00395000,0.95,1.03,2.34,trail
 2026-10-26,catalyst_open,real,TSLA261026C00395000,0.88,1.06,2.34,trail
+2026-10-26,leader_follow,shadow,MU261026C00925000,1.11,0.03,1.22,time
+2026-10-26,megacap_reclaim,shadow,AMZN261026C00252500,0.23,0,0.34,time
+2026-10-26,megacap_reclaim,real,AMZN261026C00252500,0.21,0.0,0.34,expired
+2026-10-26,stock_open_drive,shadow,TSLA261026C00400000,0.75,0,0.96,time
+2026-10-26,stock_open_drive,real,TSLA261026C00400000,0.75,0.0,0.96,expired
