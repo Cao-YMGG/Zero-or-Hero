@@ -1,7 +1,181 @@
 {
- "as_of": "2026-10-26T13:45-04:00",
+ "as_of": "2026-10-26T14:15-04:00",
  "since": "2026-10-23T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-26 14:11",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "OpenAI Rolls Out GPT-6.1 Terra To All Plus, Pro, Enterprise, And Edu Users In ChatGPT Work, Codex",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62600498/openai-rolls-out-gpt-6-1-terra-all-plus-pro-enterprise-and-edu-users-chatgpt-work-codex"
+  },
+  {
+   "time": "10-26 14:08",
+   "symbols": [
+    "AMZN",
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "'FTC is demanding Anthropic execs testify in expanding AI safety probe' - Axios",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/government/26/10/62600381/ftc-demanding-anthropic-execs-testify-expanding-ai-safety-probe-axios"
+  },
+  {
+   "time": "10-26 14:03",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "'Stripe\u2019s AI Shopping Lead Puts Card Giants On Edge; Stripe Is Emerging As A Powerful Middleman In AI Shopping, Raising Concerns At Visa And MasterCard. Its Virtual Card Technology Could Give Stripe Greater Control Over Payments And More Insight Into Consumers\u2019 Purchases.' - The Information",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62600252/stripe-s-ai-shopping-lead-puts-card-giants-edge-stripe-emerging-powerful-middleman-ai-shopping-raisi"
+  },
+  {
+   "time": "10-26 14:02",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "",
+   "headline": "Jefferies Adjusts Vistra Corp. Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/flash/1002370194/vistra-corp-jefferies-cuts-target-price-to-164-from-176"
+  },
+  {
+   "time": "10-26 14:02",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Coinbase Reports Service Disruption for BRL Conversions",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/flash/1002368566/coinbase-global-inc-some-users-may-currently-be-unable-to"
+  },
+  {
+   "time": "10-26 14:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Lowers Kospi Index Forecast by 25%",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/2026102626/the-kospi-index-is-the-leading-indicator-for-the-global-ai-trade-and-goldman-just-slashed-its-forecast-by-25"
+  },
+  {
+   "time": "10-26 14:01",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "Wells Fargo Adjusts Price Target on UnitedHealth Group",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/wells-fargo-adjusts-price-target-on-unitedhealth-to-487-from-526-ce785cdcdc8df025"
+  },
+  {
+   "time": "10-26 14:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase reports change in major holding in Rotork PLC",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/rns/rotork--ror/holding-s-in-company/9842187"
+  },
+  {
+   "time": "10-26 14:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase and other banks reportedly nearing $10 billion loan deal for Saudi Aramco",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1002365561/market-chatter-saudi-aramco-nears-10-billion-loan-with-global"
+  },
+  {
+   "time": "10-26 14:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Announces $95 Billion Capital Raise Plan for AI Infrastructure",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/dow-jones/202610262815/meta-plans-35-billion-stock-offering-to-power-ai-buildout-eyes-95-billion-total-plan"
+  },
+  {
+   "time": "10-26 14:01",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart Expands Better Care Services Platform",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/press-releases/8452329/walmart-expands-better-care-services-powered-by-general-medicines-healthcare-store"
+  },
+  {
+   "time": "10-26 14:01",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly and Company Declares Fourth-Quarter 2026 Dividend",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/lilly-declares-fourth-quarter-2026-dividend-302919496.html"
+  },
+  {
+   "time": "10-26 14:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Releases Public Software Updates",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/13b2e2j/"
+  },
+  {
+   "time": "10-26 13:58",
+   "symbols": [
+    "AMZN",
+    "GOOGL",
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft\u2019s Copilot, Azure Demand Signals Stronger AI Monetization: Analyst",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62600012/microsofts-copilot-azure-demand-signals-stronger-ai-monetization-analyst"
+  },
+  {
+   "time": "10-26 13:51",
+   "symbols": [
+    "COIN",
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Coinbase Target Cut to $250, Robinhood to Benefit From Prediction Markets: Bernstein",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62599624/coinbase-target-cut-to-250-robinhood-to-benefit-from-prediction-markets-bernstein"
+  },
+  {
+   "time": "10-26 13:47",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta's $95 Billion AI Push Could Accelerate New Product Launches, Analyst Says",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62599504/metas-95-billion-ai-push-could-accelerate-new-product-launches-analyst-says"
+  },
+  {
+   "time": "10-26 13:45",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "target up",
+   "headline": "Oppenheimer Maintains Outperform on Microsoft, Raises Price Target to $625",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62599445/oppenheimer-maintains-outperform-microsoft-raises-price-target-625"
+  },
   {
    "time": "10-26 13:33",
    "symbols": [

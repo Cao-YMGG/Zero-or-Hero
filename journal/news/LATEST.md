@@ -1,9 +1,10 @@
-# Headlines since 2026-10-23 16:00 ET (as of 2026-10-26 13:45 ET)
+# Headlines since 2026-10-23 16:00 ET (as of 2026-10-26 14:15 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-26 13:45 | MSFT | target up | Oppenheimer Maintains Outperform on Microsoft, Raises Price Target to $625 |
 | 10-26 12:28 | HD | target down | Stifel Maintains Hold on Home Depot, Lowers Price Target to $322 |
 | 10-26 12:06 | INTC | rating | RBC Capital Reiterates Sector Perform on Intel, Maintains $100 Price Target |
 | 10-26 11:32 | INTC | upgrade | New Street Research Upgrades Intel to Buy, Announces $125 Price Target |
@@ -25,6 +26,22 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-26 06:31 | LLY | target up | Bernstein Raises Price Target for Eli Lilly |
 | 10-24 21:01 | GS | upgrade | Goldman Sachs Upgrades CoreWeave to 'Buy' |
 | 10-23 17:31 | GE | rating | Bernstein Maintains Buy Rating on GE Aerospace, Adjusts Price Target |
+| 10-26 14:11 | MSFT |  | OpenAI Rolls Out GPT-6.1 Terra To All Plus, Pro, Enterprise, And Edu Users In ChatGPT Work, Codex |
+| 10-26 14:08 | AMZN GOOGL |  | 'FTC is demanding Anthropic execs testify in expanding AI safety probe' - Axios |
+| 10-26 14:03 | V |  | 'Stripe’s AI Shopping Lead Puts Card Giants On Edge; Stripe Is Emerging As A Powerful Middleman In AI Shopping, Raising Concerns At Visa And MasterCard. Its Virtual Card Technology Could Give Stripe Greater Control Over Payments And More Insight Into Consumers’ Purchases.' - The Information |
+| 10-26 14:02 | VST |  | Jefferies Adjusts Vistra Corp. Price Target |
+| 10-26 14:02 | COIN |  | Coinbase Reports Service Disruption for BRL Conversions |
+| 10-26 14:01 | GS |  | Goldman Sachs Lowers Kospi Index Forecast by 25% |
+| 10-26 14:01 | UNH |  | Wells Fargo Adjusts Price Target on UnitedHealth Group |
+| 10-26 14:01 | JPM |  | JPMorgan Chase reports change in major holding in Rotork PLC |
+| 10-26 14:01 | JPM |  | JPMorgan Chase and other banks reportedly nearing $10 billion loan deal for Saudi Aramco |
+| 10-26 14:01 | META |  | Meta Announces $95 Billion Capital Raise Plan for AI Infrastructure |
+| 10-26 14:01 | WMT |  | Walmart Expands Better Care Services Platform |
+| 10-26 14:01 | LLY |  | Eli Lilly and Company Declares Fourth-Quarter 2026 Dividend |
+| 10-26 14:01 | AAPL |  | Apple Releases Public Software Updates |
+| 10-26 13:58 | AMZN GOOGL MSFT |  | Microsoft’s Copilot, Azure Demand Signals Stronger AI Monetization: Analyst |
+| 10-26 13:51 | COIN HOOD |  | Coinbase Target Cut to $250, Robinhood to Benefit From Prediction Markets: Bernstein |
+| 10-26 13:47 | META |  | Meta's $95 Billion AI Push Could Accelerate New Product Launches, Analyst Says |
 | 10-26 13:33 | AAPL |  | 'Apple Responds to iPhone Duo Display Cracking Reports' - MacRumors |
 | 10-26 13:33 | AAPL |  | Apple’s iPhone Duo Buyers Face a Wait That Could Stretch Into January |
 | 10-26 13:01 | ORCL |  | Oracle Expands AI Software Offerings Ahead of Investor Day |
