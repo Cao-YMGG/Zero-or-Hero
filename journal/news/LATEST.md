@@ -1,9 +1,10 @@
-# Headlines since 2026-10-23 16:00 ET (as of 2026-10-26 11:32 ET)
+# Headlines since 2026-10-23 16:00 ET (as of 2026-10-26 12:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-26 11:32 | INTC | upgrade | New Street Research Upgrades Intel to Buy, Announces $125 Price Target |
 | 10-26 11:26 | COIN | target up | JP Morgan Maintains Overweight on Coinbase Global, Raises Price Target to $189 |
 | 10-26 11:01 | GS | initiate | Goldman Sachs Initiates Coverage on Accelevation Holdings Corp. |
 | 10-26 10:46 | MSFT | target up | Truist Securities Reiterates Buy on Microsoft, Raises Price Target to $600 |
@@ -22,6 +23,12 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-26 06:31 | LLY | target up | Bernstein Raises Price Target for Eli Lilly |
 | 10-24 21:01 | GS | upgrade | Goldman Sachs Upgrades CoreWeave to 'Buy' |
 | 10-23 17:31 | GE | rating | Bernstein Maintains Buy Rating on GE Aerospace, Adjusts Price Target |
+| 10-26 12:00 | JPM |  | Mark Cuban Warns CEOs If Your Health Benefits Do Not Actually Help Employees You Are Legally Liable - 'It’s All On You’ |
+| 10-26 11:54 | MU |  | Micron Suffers a 99.8% Snub From Its Union, Exposing AI's Human Fault Line |
+| 10-26 11:45 | NVDA TSLA |  | EXCLUSIVE: SpaceX–Tesla Merger Can Put XOVR ETF’s 20% SPCX Bet at Risk, 'Could Sacrifice Long-Term Value' Says CIO |
+| 10-26 11:43 | MSFT |  | Microsoft 365 Status Posts On X "We're investigating a potential issue for Microsoft Teams, affecting some users in the United States..." |
+| 10-26 11:41 | AMD AVGO META NVDA |  | Meta Seeks About $95 Billion for AI Buildout as Nvidia, AMD and Broadcom Consider Investing in Their Own Customer |
+| 10-26 11:33 | MSFT |  | 'Microsoft is offering buyouts to around 60,000 employees' - Business Insider |
 | 10-26 11:04 | AMZN |  | 'SpaceX Is the New Neocloud' — So Why Pay $63 for Every $1 of Sales? |
 | 10-26 11:01 | GS |  | Goldman Sachs Adjusts Price Target on Fair Isaac Corporation |
 | 10-26 11:01 | V |  | Visa to Support Upcoming Prepaid Card Services for WORPT in Thailand |

@@ -1,7 +1,81 @@
 {
- "as_of": "2026-10-26T11:32-04:00",
+ "as_of": "2026-10-26T12:02-04:00",
  "since": "2026-10-23T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-26 12:00",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "Mark Cuban Warns CEOs If Your Health Benefits Do Not Actually Help Employees You Are Legally Liable - 'It\u2019s All On You\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/10/62595670/mark-cuban-warns-ceos-if-your-health-benefits-do-not-actually-help-employees-you-are-legally-liable-its-all-on-you"
+  },
+  {
+   "time": "10-26 11:54",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Micron Suffers a 99.8% Snub From Its Union, Exposing AI's Human Fault Line",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62595456/micron-suffers-99-percent-snub-from-union"
+  },
+  {
+   "time": "10-26 11:45",
+   "symbols": [
+    "NVDA",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "EXCLUSIVE: SpaceX\u2013Tesla Merger Can Put XOVR ETF\u2019s 20% SPCX Bet at Risk, 'Could Sacrifice Long-Term Value' Says CIO",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62594941/exclusive-spacex-tesla-merger-can-put-xovr-etfs-20-spcx-bet-at-risk-could-sacrifice-long-term-value-says-cio"
+  },
+  {
+   "time": "10-26 11:43",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft 365 Status Posts On X \"We're investigating a potential issue for Microsoft Teams, affecting some users in the United States...\"",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62594835/microsoft-365-status-posts-x-we-re-investigating-potential-issue-microsoft-teams-affecting-some-user"
+  },
+  {
+   "time": "10-26 11:41",
+   "symbols": [
+    "AMD",
+    "AVGO",
+    "META",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Meta Seeks About $95 Billion for AI Buildout as Nvidia, AMD and Broadcom Consider Investing in Their Own Customer",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62594709/meta-95-billion-ai-expansion-chipmaker-investments"
+  },
+  {
+   "time": "10-26 11:33",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "'Microsoft is offering buyouts to around 60,000 employees' - Business Insider",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62594428/microsoft-offering-buyouts-around-60-000-employees-business-insider"
+  },
+  {
+   "time": "10-26 11:32",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "upgrade",
+   "headline": "New Street Research Upgrades Intel to Buy, Announces $125 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62594363/new-street-research-upgrades-intel-buy-announces-125-price-target"
+  },
   {
    "time": "10-26 11:26",
    "symbols": [
