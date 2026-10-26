@@ -1,9 +1,11 @@
-# Headlines since 2026-10-23 16:00 ET (as of 2026-10-26 12:02 ET)
+# Headlines since 2026-10-23 16:00 ET (as of 2026-10-26 12:33 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-26 12:28 | HD | target down | Stifel Maintains Hold on Home Depot, Lowers Price Target to $322 |
+| 10-26 12:06 | INTC | rating | RBC Capital Reiterates Sector Perform on Intel, Maintains $100 Price Target |
 | 10-26 11:32 | INTC | upgrade | New Street Research Upgrades Intel to Buy, Announces $125 Price Target |
 | 10-26 11:26 | COIN | target up | JP Morgan Maintains Overweight on Coinbase Global, Raises Price Target to $189 |
 | 10-26 11:01 | GS | initiate | Goldman Sachs Initiates Coverage on Accelevation Holdings Corp. |
@@ -23,6 +25,10 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-26 06:31 | LLY | target up | Bernstein Raises Price Target for Eli Lilly |
 | 10-24 21:01 | GS | upgrade | Goldman Sachs Upgrades CoreWeave to 'Buy' |
 | 10-23 17:31 | GE | rating | Bernstein Maintains Buy Rating on GE Aerospace, Adjusts Price Target |
+| 10-26 12:21 | NFLX |  | Reed Hastings Could Get Richer From Anthropic IPO: Here's How Many Shares Netflix Co-Founder Owns |
+| 10-26 12:19 | MSFT NVDA |  | Microsoft's AI Data Center Misfire Exposes a Brutal Reality: Billions Can't Buy Time |
+| 10-26 12:15 | TSLA |  | Tesla-SpaceX Merger Stands at 80%-90% Chance, Dan Ives' $500 Price Tag Explains Why |
+| 10-26 12:09 | AMZN |  | Amazon Q3 Preview: Analyst Expects AWS Growth To Outperform, Drive Upside |
 | 10-26 12:00 | JPM |  | Mark Cuban Warns CEOs If Your Health Benefits Do Not Actually Help Employees You Are Legally Liable - 'It’s All On You’ |
 | 10-26 11:54 | MU |  | Micron Suffers a 99.8% Snub From Its Union, Exposing AI's Human Fault Line |
 | 10-26 11:45 | NVDA TSLA |  | EXCLUSIVE: SpaceX–Tesla Merger Can Put XOVR ETF’s 20% SPCX Bet at Risk, 'Could Sacrifice Long-Term Value' Says CIO |

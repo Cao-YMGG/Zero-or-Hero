@@ -1,7 +1,68 @@
 {
- "as_of": "2026-10-26T12:02-04:00",
+ "as_of": "2026-10-26T12:33-04:00",
  "since": "2026-10-23T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-26 12:28",
+   "symbols": [
+    "HD"
+   ],
+   "rating": "target down",
+   "headline": "Stifel Maintains Hold on Home Depot, Lowers Price Target to $322",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62596762/stifel-maintains-hold-home-depot-lowers-price-target-322"
+  },
+  {
+   "time": "10-26 12:21",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Reed Hastings Could Get Richer From Anthropic IPO: Here's How Many Shares Netflix Co-Founder Owns",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/ipos/26/10/62596463/reed-hastings-could-get-richer-from-anthropic-ipo-heres-how-many-shares-netflix-co-founder-owns"
+  },
+  {
+   "time": "10-26 12:19",
+   "symbols": [
+    "MSFT",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Microsoft's AI Data Center Misfire Exposes a Brutal Reality: Billions Can't Buy Time",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62596402/microsoft-ai-data-center-misfire-exposes-brutal-reality"
+  },
+  {
+   "time": "10-26 12:15",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla-SpaceX Merger Stands at 80%-90% Chance, Dan Ives' $500 Price Tag Explains Why",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m-a/26/10/62596270/tesla-spacex-merger-500"
+  },
+  {
+   "time": "10-26 12:09",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Q3 Preview: Analyst Expects AWS Growth To Outperform, Drive Upside",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62596000/amazon-q3-preview-analyst-expects-aws-growth-to-outperform-drive-upside"
+  },
+  {
+   "time": "10-26 12:06",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "rating",
+   "headline": "RBC Capital Reiterates Sector Perform on Intel, Maintains $100 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62595926/rbc-capital-reiterates-sector-perform-intel-maintains-100-price-target"
+  },
   {
    "time": "10-26 12:00",
    "symbols": [
