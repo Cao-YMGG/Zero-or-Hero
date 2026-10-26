@@ -1,7 +1,58 @@
 {
- "as_of": "2026-10-26T12:33-04:00",
+ "as_of": "2026-10-26T13:15-04:00",
  "since": "2026-10-23T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-26 13:01",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Expands AI Software Offerings Ahead of Investor Day",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/large-cap/26/10/62598026/oracle-expands-ai-software-offerings-ahead-of-investor-day"
+  },
+  {
+   "time": "10-26 13:00",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "CNBC Halftime Report Final Trades: eBay, ExxonMobil, Leidos Holdings, Global X Data Center & Digital Infrastructure ETF",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/DTCR"
+  },
+  {
+   "time": "10-26 13:00",
+   "symbols": [
+    "MSFT",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Says Happiness Peaks Fast Once You're a Billionaire \u2014 'You Hit That Saturation Point Pretty Fast'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/space/26/10/62597959/elon-musk-says-happiness-peaks-fast-once-youre-a-billionaire-you-hit-that-saturation-point-pretty-fast"
+  },
+  {
+   "time": "10-26 12:54",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "'Apple\u2019s Foldable iPhone Duo Draws Early Complaints of the Screen Cracking' - Bloomberg",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62597788/apple-s-foldable-iphone-duo-draws-early-complaints-screen-cracking-bloomberg"
+  },
+  {
+   "time": "10-26 12:48",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "What Is Going on with Intel Stock on Monday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62597472/what-is-going-on-with-intel-stock-on-monday"
+  },
   {
    "time": "10-26 12:28",
    "symbols": [

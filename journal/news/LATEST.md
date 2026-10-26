@@ -1,4 +1,4 @@
-# Headlines since 2026-10-23 16:00 ET (as of 2026-10-26 12:33 ET)
+# Headlines since 2026-10-23 16:00 ET (as of 2026-10-26 13:15 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -25,6 +25,11 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-26 06:31 | LLY | target up | Bernstein Raises Price Target for Eli Lilly |
 | 10-24 21:01 | GS | upgrade | Goldman Sachs Upgrades CoreWeave to 'Buy' |
 | 10-23 17:31 | GE | rating | Bernstein Maintains Buy Rating on GE Aerospace, Adjusts Price Target |
+| 10-26 13:01 | ORCL |  | Oracle Expands AI Software Offerings Ahead of Investor Day |
+| 10-26 13:00 | XOM |  | CNBC Halftime Report Final Trades: eBay, ExxonMobil, Leidos Holdings, Global X Data Center & Digital Infrastructure ETF |
+| 10-26 13:00 | MSFT TSLA |  | Elon Musk Says Happiness Peaks Fast Once You're a Billionaire — 'You Hit That Saturation Point Pretty Fast' |
+| 10-26 12:54 | AAPL |  | 'Apple’s Foldable iPhone Duo Draws Early Complaints of the Screen Cracking' - Bloomberg |
+| 10-26 12:48 | INTC |  | What Is Going on with Intel Stock on Monday? |
 | 10-26 12:21 | NFLX |  | Reed Hastings Could Get Richer From Anthropic IPO: Here's How Many Shares Netflix Co-Founder Owns |
 | 10-26 12:19 | MSFT NVDA |  | Microsoft's AI Data Center Misfire Exposes a Brutal Reality: Billions Can't Buy Time |
 | 10-26 12:15 | TSLA |  | Tesla-SpaceX Merger Stands at 80%-90% Chance, Dan Ives' $500 Price Tag Explains Why |
