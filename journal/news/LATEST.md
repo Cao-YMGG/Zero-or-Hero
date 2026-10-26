@@ -1,9 +1,11 @@
-# Headlines since 2026-10-23 16:00 ET (as of 2026-10-26 10:02 ET)
+# Headlines since 2026-10-23 16:00 ET (as of 2026-10-26 10:32 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-26 10:16 | ORCL | target down | Wells Fargo Maintains Overweight on Oracle, Lowers Price Target to $250 |
+| 10-26 10:09 | V | target up | Susquehanna Maintains Positive on Visa, Raises Price Target to $480 |
 | 10-26 09:36 | LITE | initiate | StoneX Initiates Coverage On Lumentum Holdings with Buy Rating, Announces Price Target of $1200 |
 | 10-26 09:31 | CIEN | rating | AllianceBernstein Maintains Buy Rating on Ciena Corporation |
 | 10-26 09:31 | WDC | target down | Argus Research Maintains Buy on Western Digital, Lowers Price Target to $500 |
@@ -17,6 +19,8 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-26 06:31 | LLY | target up | Bernstein Raises Price Target for Eli Lilly |
 | 10-24 21:01 | GS | upgrade | Goldman Sachs Upgrades CoreWeave to 'Buy' |
 | 10-23 17:31 | GE | rating | Bernstein Maintains Buy Rating on GE Aerospace, Adjusts Price Target |
+| 10-26 10:28 | MSFT |  | ‘Hire the Robot, Fire the Human And Don't Look Back’: Bill Gates’s Chilling Warning of a Jobs Crisis Governments Aren't Ready For |
+| 10-26 10:28 | SNDK |  | Sandisk Earnings Are Days Away: Here’s What Investors Need to Know |
 | 10-26 10:01 | STX |  | Seagate Technology Declares Dividend Increase |
 | 10-26 09:59 | AMZN GOOGL |  | Anthropic Says Expect Our Revenue Growth Rate To Decline Over Time And To Fluctuate From Period To Period; Class T Stock Will Not Vote On Election Or Removal Of Directors Elected By Holders Of Our Class A Stock And Class F Stock; On Sept 17, Effected 10-for-1 Stock Split Of Authorized, Issued, & Outstanding Shares Of Class A Stock & Class N Stock |
 | 10-26 09:58 | AMZN GOOGL |  | Anthropic Says As Of June 30, 2026, Our Total Indebtedness Was $6.2B; For The Three Months Ended Sept 30, Revenue From Each Of Our Top Five Customers Reached A Record High; Model Versions Released In Six Months Ended Sept 30 Accounted For Over 80% Of Revenue For Three Months Ended Sept 30 |

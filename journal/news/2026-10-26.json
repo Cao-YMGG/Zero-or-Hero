@@ -1,7 +1,47 @@
 {
- "as_of": "2026-10-26T10:02-04:00",
+ "as_of": "2026-10-26T10:32-04:00",
  "since": "2026-10-23T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-26 10:28",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "\u2018Hire the Robot, Fire the Human And Don't Look Back\u2019: Bill Gates\u2019s Chilling Warning of a Jobs Crisis Governments Aren't Ready For",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62591712/bill-gates-ai-warning-job-crisis"
+  },
+  {
+   "time": "10-26 10:28",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "Sandisk Earnings Are Days Away: Here\u2019s What Investors Need to Know",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62591707/sandisk-earnings-are-days-away-heres-what-investors-need-to-know"
+  },
+  {
+   "time": "10-26 10:16",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "target down",
+   "headline": "Wells Fargo Maintains Overweight on Oracle, Lowers Price Target to $250",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62591195/wells-fargo-maintains-overweight-oracle-lowers-price-target-250"
+  },
+  {
+   "time": "10-26 10:09",
+   "symbols": [
+    "V"
+   ],
+   "rating": "target up",
+   "headline": "Susquehanna Maintains Positive on Visa, Raises Price Target to $480",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62590884/susquehanna-maintains-positive-visa-raises-price-target-480"
+  },
   {
    "time": "10-26 10:01",
    "symbols": [

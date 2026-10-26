@@ -13,10 +13,10 @@
         "direction": "call",
         "entry_time": "2026-10-26T09:55:12-04:00",
         "entry_price": 0.23,
-        "peak": 0.23,
+        "peak": 0.34,
         "qty": 5,
-        "last": 0.11,
-        "last_time": "2026-10-26T10:02:05-04:00"
+        "last": 0.15,
+        "last_time": "2026-10-26T10:32:11-04:00"
       },
       "real": {
         "contract": "AMZN261026C00252500",
@@ -45,10 +45,10 @@
         "direction": "call",
         "entry_time": "2026-10-26T10:01:26-04:00",
         "entry_price": 0.75,
-        "peak": 0.75,
+        "peak": 0.96,
         "qty": 1,
-        "last": 0.66,
-        "last_time": "2026-10-26T10:02:05-04:00"
+        "last": 0.5,
+        "last_time": "2026-10-26T10:32:11-04:00"
       },
       "real": {
         "contract": "TSLA261026C00400000",
