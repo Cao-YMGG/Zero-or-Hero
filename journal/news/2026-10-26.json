@@ -1,7 +1,27 @@
 {
- "as_of": "2026-10-26T11:02-04:00",
+ "as_of": "2026-10-26T11:32-04:00",
  "since": "2026-10-23T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-26 11:26",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "target up",
+   "headline": "JP Morgan Maintains Overweight on Coinbase Global, Raises Price Target to $189",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62594164/jp-morgan-maintains-overweight-coinbase-global-raises-price-target-189"
+  },
+  {
+   "time": "10-26 11:04",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "'SpaceX Is the New Neocloud' \u2014 So Why Pay $63 for Every $1 of Sales?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62593281/spacex-stock-neocloud-valuation"
+  },
   {
    "time": "10-26 11:01",
    "symbols": [

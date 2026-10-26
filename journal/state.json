@@ -14,8 +14,8 @@
         "entry_price": 1.11,
         "peak": 1.22,
         "qty": 1,
-        "last": 1.18,
-        "last_time": "2026-10-26T11:02:40-04:00"
+        "last": 0.9,
+        "last_time": "2026-10-26T11:32:46-04:00"
       }
     },
     "megacap_reclaim": {
@@ -28,8 +28,8 @@
         "entry_price": 0.23,
         "peak": 0.34,
         "qty": 5,
-        "last": 0.14,
-        "last_time": "2026-10-26T11:02:40-04:00"
+        "last": 0.06,
+        "last_time": "2026-10-26T11:32:46-04:00"
       },
       "real": {
         "contract": "AMZN261026C00252500",
@@ -60,8 +60,8 @@
         "entry_price": 0.75,
         "peak": 0.96,
         "qty": 1,
-        "last": 0.45,
-        "last_time": "2026-10-26T11:02:40-04:00"
+        "last": 0.38,
+        "last_time": "2026-10-26T11:32:46-04:00"
       },
       "real": {
         "contract": "TSLA261026C00400000",
