@@ -68,6 +68,10 @@ jobs:
         if: always()
         continue-on-error: true
         run: python -m zoh.grade
+      - name: Dip-buy shadow log (no orders)
+        if: always()
+        continue-on-error: true
+        run: python -m zoh.research.dipwatch
       - name: Commit journal
         if: always()
         run: .github/commit-journal.sh "afternoon"

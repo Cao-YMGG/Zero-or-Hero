@@ -684,3 +684,41 @@ class CarryAndHalfOutTest(unittest.TestCase):
         vs.pop("real")
         b.close(v, vs, 2.0, "trail", datetime(2026, 10, 19, 11, 0, tzinfo=ET))
         self.assertEqual(rows[-1], ("shadow", 2.5, "trail", 2))   # 0.5 x 3.0 + 0.5 x 2.0
+
+    def test_trail_after_half(self):
+        v = {"half_at": 3.0, "trail_after_half": 0.4}
+        self.assertIsNone(check_exit(1.0, 4.0, 2.5, v))               # nothing banked: hold
+        self.assertIsNone(check_exit(1.0, 4.0, 2.5, v, banked=True))  # floor 2.4
+        self.assertEqual(check_exit(1.0, 4.0, 2.4, v, banked=True), "trail")
+        self.assertEqual(check_exit(1.0, 1.5, 1.0, v, banked=True), "trail")  # floored at entry
+        self.assertIsNone(check_exit(1.0, 4.0, 1.0, {"half_at": 3.0}, banked=True))
+
+    def test_single_take_sells_the_one_contract(self):
+        from datetime import date
+        from zoh import bot as botmod
+        rows, orders = [], []
+
+        class FakeBot(botmod.Bot):
+            def __init__(self):
+                self.today, self.dry_run, self.config = date(2026, 10, 26), False, {}
+
+            def _sell_out(self, contract, qty, tag):
+                orders.append((contract, qty, tag))
+                return qty, 3.2, "market"
+
+            def _record(self, variant, mode, pos, exit_price, now, reason, qty, peak=None):
+                rows.append((mode, exit_price, reason, qty))
+
+        v = {"id": "spy_open_drive", "half_at": 3.0, "single_take": True}
+        vs = {"shadow": {"contract": "SPY261026C00690000", "entry_price": 1.0, "peak": 3.0, "qty": 1},
+              "real": {"contract": "SPY261026C00690000", "qty": 1, "entry_price": 1.0}}
+        FakeBot().sell_half(v, vs, 3.0, datetime(2026, 10, 26, 10, 0, tzinfo=ET))
+        self.assertEqual(orders, [("SPY261026C00690000", 1, "take")])
+        self.assertEqual(rows, [("real", 3.2, "take", 1)])
+        self.assertNotIn("real", vs)
+        self.assertIn("banked", vs["shadow"])
+        # without single_take one contract keeps riding
+        vs = {"shadow": {"contract": "X", "entry_price": 1.0, "peak": 3.0, "qty": 1},
+              "real": {"contract": "X", "qty": 1, "entry_price": 1.0}}
+        FakeBot().sell_half({"id": "x", "half_at": 3.0}, vs, 3.0, datetime(2026, 10, 26, 10, 0, tzinfo=ET))
+        self.assertEqual(vs["real"]["qty"], 1)

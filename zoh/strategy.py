@@ -297,14 +297,20 @@ def evaluate_signal(bars, variant, ctx=None):
 
 # --- exits -----------------------------------------------------------------
 
-def check_exit(entry, peak, price, variant):
-    """Exit reason for an open long option, or None. Time exits are the caller's job."""
+def check_exit(entry, peak, price, variant, banked=False):
+    """Exit reason for an open long option, or None. Time exits are the caller's job.
+    banked: half was already sold at half_at; with "trail_after_half" (a giveback) the rest then
+    trails from its peak, floored at the entry (spy_open_drive since 2026-10-26: half at 3x then
+    trail +97% / +71% / +50% vs half then hold +77% / +50% / +27%, WEEK43_EXITS.md)."""
     tp = variant.get("take_profit")
     if tp is not None and price >= entry * (1 + tp):
         return "take_profit"
     sl = variant.get("stop_loss")
     if sl is not None and price <= entry * (1 - sl):
         return "stop_loss"
+    give = variant.get("trail_after_half")
+    if banked and give is not None and price <= max(entry, peak * (1 - give)):
+        return "trail"
     trail_after = variant.get("trail_after")
     if trail_after is not None and peak >= entry * (1 + trail_after):
         floor = max(entry, peak * (1 - variant.get("trail_giveback", 0.4)))
