@@ -1,9 +1,10 @@
-# Headlines since 2026-10-23 16:00 ET (as of 2026-10-26 14:46 ET)
+# Headlines since 2026-10-23 16:00 ET (as of 2026-10-26 14:51 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-26 14:45 | CAT | target down | UBS Maintains Neutral on Caterpillar, Lowers Price Target to $750 |
 | 10-26 13:45 | MSFT | target up | Oppenheimer Maintains Outperform on Microsoft, Raises Price Target to $625 |
 | 10-26 12:28 | HD | target down | Stifel Maintains Hold on Home Depot, Lowers Price Target to $322 |
 | 10-26 12:06 | INTC | rating | RBC Capital Reiterates Sector Perform on Intel, Maintains $100 Price Target |

@@ -1,7 +1,17 @@
 {
- "as_of": "2026-10-26T14:46-04:00",
+ "as_of": "2026-10-26T14:51-04:00",
  "since": "2026-10-23T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-26 14:45",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "target down",
+   "headline": "UBS Maintains Neutral on Caterpillar, Lowers Price Target to $750",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62601457/ubs-maintains-neutral-caterpillar-lowers-price-target-750"
+  },
   {
    "time": "10-26 14:41",
    "symbols": [
