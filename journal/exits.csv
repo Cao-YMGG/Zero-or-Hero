@@ -51,3 +51,5 @@ date,variant,mode,contract,entry_price,exit_price,peak,exit_reason
 2026-10-26,megacap_reclaim,real,AMZN261026C00252500,0.21,0.0,0.34,expired
 2026-10-26,stock_open_drive,shadow,TSLA261026C00400000,0.75,0,0.96,time
 2026-10-26,stock_open_drive,real,TSLA261026C00400000,0.75,0.0,0.96,expired
+2026-10-27,catalyst_open,shadow,AVGO261028C00355000,0.5,0.69,1.15,trail
+2026-10-27,catalyst_open,real,AVGO261028C00355000,0.48,0.7,1.15,trail

@@ -1,7 +1,238 @@
 {
- "as_of": "2026-10-27T08:53-04:00",
+ "as_of": "2026-10-27T10:02-04:00",
  "since": "2026-10-26T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-27 09:55",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Bitcoin Profit-Taking Cools but Analysts Remain Cautious Ahead of FOMC",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62620741/bitcoin-profit-taking-cools-but-analysts-remain-cautious-ahead-of-fomc"
+  },
+  {
+   "time": "10-27 09:42",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "Trump Administration Approving 3 More Wind Projects Stalled By Pentagon In Bid To Win Dem Support For Bipartisan Permitting Reform Bill, Punchbowl Correspondent Says On Social Media",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/government/26/10/62620077/trump-administration-approving-3-more-wind-projects-stalled-pentagon-bid-win-dem-support-bipartisan-"
+  },
+  {
+   "time": "10-27 09:37",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "United Parcel Service CEO, On Amazon, Says We Haven't Seen Any Meaningful Impact To Our Business Since The Announcement They Made In The Summer",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62619791/united-parcel-service-ceo-amazon-says-we-haven-t-seen-any-meaningful-impact-our-business-announcemen"
+  },
+  {
+   "time": "10-27 09:31",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Earnings Prediction Market Preview: What Will Vlad Tenev Say?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62619379/robinhood-earnings-preview"
+  },
+  {
+   "time": "10-27 09:31",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "IXS Integrates with Robinhood Chain to Launch $10M Pre-IPO Vault",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/accesswire/1241575msn/ixs-moves-to-robinhood-chain-to-enable-its-next-phase-launching-a-10m-pre-ipo-vault-for-institutional-investors"
+  },
+  {
+   "time": "10-27 09:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Alliance Announces Official Partnership with Oracle NetSuite",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/alliance-announces-official-oracle-netsuite-partnership--appoints-stephen-rafferty-as-director-in-the-netsuite-practice-302920257.html"
+  },
+  {
+   "time": "10-27 09:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Omniverse DSX Blueprint Used in Digital Twin Pilot by Schneider Electric and Partners",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/27/3388947/0/en/schneider-electric-nscale-and-start-campus-bring-the-nvidia-omniverse-dsx-blueprint-into-a-live-ai-factory-environment.html"
+  },
+  {
+   "time": "10-27 09:31",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Symbolic Mind Collaborates With Intel to Bring AI Training to CPU-Based Server Infrastructure",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/symbolic-mind-collaborates-with-intel-to-bring-ai-training-not-just-inference-to-cpu-based-server-infrastructure-302919727.html"
+  },
+  {
+   "time": "10-27 09:31",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Caltex Singapore Launches 90th Anniversary Fuel Giveaway",
+   "source": "fiscal.ai",
+   "url": "https://iharare.com/media-outreach/2026/10/27/493306/caltex-singapore-celebrates-90-years-with-free-fuel-and-reward-giveaways/"
+  },
+  {
+   "time": "10-27 09:31",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Updates iMac and 14-inch MacBook Pro with M6 and N1 Chips",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/fslgb0p/"
+  },
+  {
+   "time": "10-27 09:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "PEDIGREE Brand Launches 'Pawliday Portrait Studio' at Walmart Locations",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/the-pedigree-brand-and-walmart-invite-dogs-to-take-the-center-stage-this-holiday-season-with-the-pedigree-pawliday-portrait-studio-302920543.html"
+  },
+  {
+   "time": "10-27 09:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Business Announces New AI-Powered Capabilities for Procurement Assistant",
+   "source": "fiscal.ai",
+   "url": "https://procurementmag.com/news/amazon-business-assistant-gets-ai-upgrade-for-procurement"
+  },
+  {
+   "time": "10-27 09:31",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Micron Announces 2026 Supplier Award Winners",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/27/3389081/0/en/nutanix-receives-micron-global-supplier-award-for-it-professional-services.html"
+  },
+  {
+   "time": "10-27 09:31",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Launches 'A Moment to Savour' Dining Programme in Singapore",
+   "source": "fiscal.ai",
+   "url": "https://kyodonewsprwire.jp/release/202610278790"
+  },
+  {
+   "time": "10-27 09:27",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Ripple And Robinhood Partner To Expand RLUSD Adoption Across Retail, Institutional And Settlement Platforms",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62619224/ripple-and-robinhood-partner-expand-rlusd-adoption-across-retail-institutional-and-settlement-platfo"
+  },
+  {
+   "time": "10-27 09:25",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "upgrade",
+   "headline": "This Broadcom Analyst Turns Bullish; Here Are Top 4 Upgrades For Tuesday",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/upgrades/26/10/62619153/this-broadcom-analyst-turns-bullish-here-are-top-4-upgrades-for-tuesday"
+  },
+  {
+   "time": "10-27 09:23",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "rating",
+   "headline": "Wedbush Reiterates Neutral on Intel, Maintains $98 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62619064/wedbush-reiterates-neutral-intel-maintains-98-price-target"
+  },
+  {
+   "time": "10-27 09:22",
+   "symbols": [
+    "AMD",
+    "META"
+   ],
+   "rating": "",
+   "headline": "AMD Expands Strategic Partnership With Meta To Deploy Its Helios Rackscale Solutions, EPYC Processors And Technologies Providing Day-0 Support For Meta Models; AMD To Invest $1B In The META Equity Offering",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62619038/amd-expands-strategic-partnership-meta-deploy-its-helios-rackscale-solutions-epyc-processors-and-tec"
+  },
+  {
+   "time": "10-27 09:07",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Rolls Out New 14-Inch MacBook Pro, iMac With M6,",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m/26/10/62618447/apple-rolls-out-new-14-inch-macbook-pro-imac-m6"
+  },
+  {
+   "time": "10-27 09:01",
+   "symbols": [
+    "ASML"
+   ],
+   "rating": "rating",
+   "headline": "UBS Maintains Buy Rating on ASML Holding N.V.",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.ch/analyse/asml-nv-buy-1114506"
+  },
+  {
+   "time": "10-27 08:59",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Chevron's Australian Business Signs Long-Term Natural Gas Deal Starting in 2028",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/large-cap/26/10/62617814/chevrons-australian-business-signs-long-term-natural-gas-deal-starting-in-2028"
+  },
+  {
+   "time": "10-27 08:55",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "upgrade",
+   "headline": "DA Davidson Upgrades Broadcom to Buy, Raises Price Target to $400",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62617713/da-davidson-upgrades-broadcom-buy-raises-price-target-400"
+  },
+  {
+   "time": "10-27 08:53",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir Stock Within 7% of Its 52-Week High as Earnings and Target Hikes Fuel Buzz",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62617607/palantir-stock-within-7-of-its-52-week-high-as-earnings-and-target-hikes-fuel-buzz"
+  },
   {
    "time": "10-27 08:41",
    "symbols": [

@@ -1,12 +1,35 @@
-# Headlines since 2026-10-26 16:00 ET (as of 2026-10-27 08:53 ET)
+# Headlines since 2026-10-26 16:00 ET (as of 2026-10-27 10:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-27 09:25 | AVGO | upgrade | This Broadcom Analyst Turns Bullish; Here Are Top 4 Upgrades For Tuesday |
+| 10-27 09:23 | INTC | rating | Wedbush Reiterates Neutral on Intel, Maintains $98 Price Target |
+| 10-27 09:01 | ASML | rating | UBS Maintains Buy Rating on ASML Holding N.V. |
+| 10-27 08:55 | AVGO | upgrade | DA Davidson Upgrades Broadcom to Buy, Raises Price Target to $400 |
 | 10-27 07:31 | UNH | target up | Morgan Stanley Maintains Overweight on UnitedHealth Group, Raises Price Target to $531 |
 | 10-27 06:31 | AAPL | initiate | Apple Initiates Replacement Program for iPhone Duo Units with Display Issues |
 | 10-27 05:55 | VST | target down | B of A Securities Maintains Buy on Vistra, Lowers Price Target to $194 |
+| 10-27 09:55 | META |  | Bitcoin Profit-Taking Cools but Analysts Remain Cautious Ahead of FOMC |
+| 10-27 09:42 | GEV |  | Trump Administration Approving 3 More Wind Projects Stalled By Pentagon In Bid To Win Dem Support For Bipartisan Permitting Reform Bill, Punchbowl Correspondent Says On Social Media |
+| 10-27 09:37 | AMZN |  | United Parcel Service CEO, On Amazon, Says We Haven't Seen Any Meaningful Impact To Our Business Since The Announcement They Made In The Summer |
+| 10-27 09:31 | HOOD |  | Robinhood Earnings Prediction Market Preview: What Will Vlad Tenev Say? |
+| 10-27 09:31 | HOOD |  | IXS Integrates with Robinhood Chain to Launch $10M Pre-IPO Vault |
+| 10-27 09:31 | ORCL |  | Alliance Announces Official Partnership with Oracle NetSuite |
+| 10-27 09:31 | NVDA |  | NVIDIA Omniverse DSX Blueprint Used in Digital Twin Pilot by Schneider Electric and Partners |
+| 10-27 09:31 | INTC |  | Symbolic Mind Collaborates With Intel to Bring AI Training to CPU-Based Server Infrastructure |
+| 10-27 09:31 | CVX |  | Caltex Singapore Launches 90th Anniversary Fuel Giveaway |
+| 10-27 09:31 | AAPL |  | Apple Updates iMac and 14-inch MacBook Pro with M6 and N1 Chips |
+| 10-27 09:31 | WMT |  | PEDIGREE Brand Launches 'Pawliday Portrait Studio' at Walmart Locations |
+| 10-27 09:31 | AMZN |  | Amazon Business Announces New AI-Powered Capabilities for Procurement Assistant |
+| 10-27 09:31 | MU |  | Micron Announces 2026 Supplier Award Winners |
+| 10-27 09:31 | V |  | Visa Launches 'A Moment to Savour' Dining Programme in Singapore |
+| 10-27 09:27 | HOOD |  | Ripple And Robinhood Partner To Expand RLUSD Adoption Across Retail, Institutional And Settlement Platforms |
+| 10-27 09:22 | AMD META |  | AMD Expands Strategic Partnership With Meta To Deploy Its Helios Rackscale Solutions, EPYC Processors And Technologies Providing Day-0 Support For Meta Models; AMD To Invest $1B In The META Equity Offering |
+| 10-27 09:07 | AAPL |  | Apple Rolls Out New 14-Inch MacBook Pro, iMac With M6, |
+| 10-27 08:59 | CVX |  | Chevron's Australian Business Signs Long-Term Natural Gas Deal Starting in 2028 |
+| 10-27 08:53 | PLTR |  | Palantir Stock Within 7% of Its 52-Week High as Earnings and Target Hikes Fuel Buzz |
 | 10-27 08:41 | NVDA |  | Jim Cramer Says In Social Media Post 'If Jensen thinks that CoreWeave is money good he should buy up their their 15% debt' |
 | 10-27 08:41 | AAPL |  | PayPal Cuts Thousands of Jobs, Bets on AI and Lifts Profit Outlook |
 | 10-27 08:40 | XOM |  | ExxonMobil, Leidos, eBay and More: CNBC’s ‘Final Trades’ |
