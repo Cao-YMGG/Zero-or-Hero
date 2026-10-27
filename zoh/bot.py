@@ -180,6 +180,9 @@ def fetch_bias(day, path=None, refresh=False):
 PENNY = 0.01  # limit price for selling an expiring option that has no bid
 
 
+STOCK_WIDTH = 0.15  # strike band for single-stock chains (fraction of spot)
+
+
 def chain_candidates(api, underlying, expiry, kind, spot, now, width=0.03):
     snaps = api.option_chain(underlying, expiry, kind, round(spot * (1 - width), 2),
                              round(spot * (1 + width), 2))
@@ -315,7 +318,10 @@ class Bot:
         if underlying == self.underlying:
             candidates = chain_candidates(self.api, underlying, self.today, direction, spot, now)
         else:
-            candidates = self.nearest_chain(underlying, direction, spot, now, width=0.08)
+            # Single stocks look 15% either side: on high-IV names with a 3-4 day expiry the
+            # whole +-8% band cost more than the budget, so the ORCL (10-27) and INTC (10-26)
+            # intraday picks were skipped while cheaper, further-OTM strikes were listed.
+            candidates = self.nearest_chain(underlying, direction, spot, now, width=STOCK_WIDTH)
         pick = select_contract(candidates, variant.get("target_delta", 0.3), budget)
         if not pick:
             log(f"{variant['id']}: {direction} signal but nothing affordable within ${budget:.0f}")
