@@ -1,7 +1,451 @@
 {
- "as_of": "2026-10-27T15:16-04:00",
+ "as_of": "2026-10-27T18:54-04:00",
  "since": "2026-10-26T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-27 18:38",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Markets Q3 2026 Earnings Call Transcript",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62641803/robinhood-markets-q3-2026-earnings-call-transcript"
+  },
+  {
+   "time": "10-27 18:15",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "$1000 Invested In Meta Platforms 10 Years Ago Would Be Worth This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62641590/1000-invested-meta-platforms-10-years-ago-would-be-worth-much-today"
+  },
+  {
+   "time": "10-27 18:13",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "",
+   "headline": "Seagate Tech Hldgs Q1 2027 Earnings Call Transcript",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62641567/seagate-tech-hldgs-q1-2027-earnings-call-transcript"
+  },
+  {
+   "time": "10-27 18:13",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Q4 2026 Earnings Call Transcript",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62641564/visa-q4-2026-earnings-call-transcript"
+  },
+  {
+   "time": "10-27 18:02",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Rocket Lab Announces Expanded Suite of Space-Grade Radio Frequency Products",
+   "source": "fiscal.ai",
+   "url": "https://www.rfglobalnet.com/doc/anysignal-to-deliver-space-to-earth-communications-three-reflect-orbital-missions-0001"
+  },
+  {
+   "time": "10-27 17:57",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Jim Cramer Dares Nvidia's Jensen Huang to Buy CoreWeave\u2019s 15% Debt",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62641316/jim-cramer-dares-nvidias-jensen-huang-to-buy-coreweaves-15-debt"
+  },
+  {
+   "time": "10-27 17:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Plans FedRAMP Class D Certification for Multicloud AI Database Services",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/prnewswire:c4f9b9877e0b4:0-oracle-plans-to-expand-multicloud-ai-database-services-to-us-government-and-public-sector-workloads/"
+  },
+  {
+   "time": "10-27 17:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Unveils New Networking Innovations for AI Workloads",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/oracle-unveils-new-cloud-networking-innovations-for-ai-302920240.html"
+  },
+  {
+   "time": "10-27 17:31",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Analysts Adjust Price Targets for Palantir Technologies",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/rosenblatt-adjusts-price-target-on-palantir-technologies-to-260-from-225-ce785cddd881f22c"
+  },
+  {
+   "time": "10-27 17:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs to Host 16th Annual Private Innovative Company Conference",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/27/3389525/0/en/pattern-computer-to-participate-in-goldman-sachs-private-innovative-company-conference.html"
+  },
+  {
+   "time": "10-27 17:31",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Payouts Network Integrates Visa Direct for Employee Reimbursements",
+   "source": "fiscal.ai",
+   "url": "https://natlawreview.com/press-releases/payouts-network-enables-visa-deliver-relocation-reimbursements-employees"
+  },
+  {
+   "time": "10-27 17:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Updates 2027 Earnings Release Schedule",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/professional-services/banking"
+  },
+  {
+   "time": "10-27 17:07",
+   "symbols": [
+    "STX",
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Western Digital Stock Slides After Hours: Here's Why",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62639995/western-digital-stock-slides-after-hours-heres-why"
+  },
+  {
+   "time": "10-27 16:46",
+   "symbols": [
+    "AMZN",
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Anthropic Acquires Mithril Medicine; Financial Terms Not Disclosed",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m/26/10/62639109/anthropic-acquires-mithril-medicine-financial-terms-not-disclosed"
+  },
+  {
+   "time": "10-27 16:44",
+   "symbols": [
+    "AMZN",
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Anthropic Announces Plan To Continue Extending Claude\u2019s Role Into Clinical Trials As Drug Programs Advance",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62639077/anthropic-announces-plan-continue-extending-claude-s-role-clinical-trials-drug-programs-advance"
+  },
+  {
+   "time": "10-27 16:43",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Markets Says Market Share Gains Drove Active Trader Engagement In Q3, With Record Volumes For Equities, Options, Prediction Markets; Lowering Top End Of Prior 2026 Adjusted Operating Expenses Outlook By $25M To A Range Of $2.675B To $2.75B",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62639001/robinhood-markets-says-market-share-gains-drove-active-trader-engagement-q3-record-volumes-equities-"
+  },
+  {
+   "time": "10-27 16:41",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Markets Says Not Providing 2026 Outlook For Total Operating Expenses; Q3 Other Revenues Up 61% To $142M , Primarily Driven By Trump Account Service Revenue, Increased Robinhood Gold Subscription Revenue",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/HOOD"
+  },
+  {
+   "time": "10-27 16:41",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Raises Quarterly Dividend From $0.67 To $0.78 Per Share",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/dividends/26/10/62638924/visa-raises-quarterly-dividend-0-67-0-78-share"
+  },
+  {
+   "time": "10-27 16:37",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Dayforce Expands Collaboration With Microsoft Across HR, Finance, Operations; Dayforce Build And Dayforce Marketplace To Be Be Available Next Year",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62638705/dayforce-expands-collaboration-microsoft-across-hr-finance-operations-dayforce-build-and-dayforce-ma"
+  },
+  {
+   "time": "10-27 16:31",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Analysts Adjust Price Targets for Tesla",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/options/TSLA261028C310000-US"
+  },
+  {
+   "time": "10-27 16:31",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce Expands Agent Fabric with New Evaluation and Guardrail Tools",
+   "source": "fiscal.ai",
+   "url": "https://technologymagazine.com/news/salesforce-stopping-ai-cost-overruns-with-agent-fabric"
+  },
+  {
+   "time": "10-27 16:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Adjusts Price Target on SLB",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-price-target-on-slb-to-63-from-59-ce785cddd880f126"
+  },
+  {
+   "time": "10-27 16:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Research Highlights Semiconductor Sector's Dominant Influence on Market Volatility",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1002471596/ai-drives-global-sentiment-goldman-sachs-semiconductors-influence-on-financial"
+  },
+  {
+   "time": "10-27 16:31",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Reports Fiscal Fourth Quarter 2026 Financial Results",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/earnings-flash-v-visa-posts-fiscal-q4-revenue-12-14b-vs-factset-est-of-12-09b-ce785cddd189f127"
+  },
+  {
+   "time": "10-27 16:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Announces Collaboration with OpenAI",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/oracle-reinvents-enterprise-computing-for-the-ai-era-with-openai-302920226.html"
+  },
+  {
+   "time": "10-27 16:31",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Markets, Inc. Reports Third Quarter 2026 Financial Results",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/27/3389611/0/en/robinhood-reports-third-quarter-2026-results.html"
+  },
+  {
+   "time": "10-27 16:31",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel and Oracle Announce Multiyear Collaboration for AI on Oracle Cloud",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/press-releases/8480593/intel-and-oracle-plan-expanded-collaboration-to-support-enterprise-and-agentic-ai-on-oracle-cloud-infrastructure"
+  },
+  {
+   "time": "10-27 16:30",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Reports Strong Q4 Earnings: 'A Milestone Year' CEO Says",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62638176/visa-reports-strong-q4-earnings-a-milestone-year-ceo-says"
+  },
+  {
+   "time": "10-27 16:29",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Q3 Highlights: Trump Accounts, Prediction Markets Help Offset Crypto Weakness",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62638088/robinhood-q3-highlights-trump-accounts-prediction-markets-help-offset-crypto-weakness"
+  },
+  {
+   "time": "10-27 16:21",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa CEO Says Visa Achieved Record 2026 Net Revenue Of $46B, Up 15%, Strongest Growth In Over 15 Years Excluding The Post-Pandemic Recovery And Acquisitions",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62637697/visa-ceo-says-visa-achieved-record-2026-net-revenue-46b-15-strongest-growth-over-15-years-excluding-"
+  },
+  {
+   "time": "10-27 16:20",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "",
+   "headline": "Seagate Stock Tumbles Despite Beating Q1 Expectations: Details",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62637617/seagate-stock-tumbles-despite-beating-q1-expectations-details"
+  },
+  {
+   "time": "10-27 16:13",
+   "symbols": [
+    "META",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Mark Cuban Warns of AI Debt Bubble Despite Optimism: 'I\u2019m Not a Naysayer'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62636904/mark-cuban-ai-debt-bubble-optimism-not-a-naysayer"
+  },
+  {
+   "time": "10-27 16:11",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "",
+   "headline": "Seagate Technology Raises Quarterly Cash Dividend From $0.74 To $0.76 Per Share",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/dividends/26/10/62636734/seagate-technology-raises-quarterly-cash-dividend-0-74-0-76-share"
+  },
+  {
+   "time": "10-27 16:10",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly President Of Lilly International Patrik Jonsson Retiring At 2026 End, Ilya Yuffa Appointed President Of Lilly Global Markets, Laura Steele Promoted To President Lilly USA, Elias Khalil Promoted To Lilly Europe And Canada",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62636563/eli-lilly-president-lilly-international-patrik-jonsson-retiring-2026-end-ilya-yuffa-appointed-presid"
+  },
+  {
+   "time": "10-27 16:07",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "",
+   "headline": "Seagate Raises Quarterly Dividend By 3% To $0.76/Share From $0.74 Prior",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/dividends/26/10/62636095/seagate-raises-quarterly-dividend-3-0-76-share-0-74-prior"
+  },
+  {
+   "time": "10-27 16:06",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Q4 Adj. EPS $3.48 Beats $3.44 Estimate, Sales $12.139B Beat $12.084B Estimate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/10/62636001/visa-q4-adj-eps-3-48-beats-3-44-estimate-sales-12-139b-beat-12-084b-estimate"
+  },
+  {
+   "time": "10-27 16:06",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Markets Q3 Adj. EPS $0.60 Beats $0.56 Estimate, Sales $1.424B Beat $1.422B Estimate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/10/62635903/robinhood-markets-q3-adj-eps-0-60-beats-0-56-estimate-sales-1-424b-beat-1-422b-estimate"
+  },
+  {
+   "time": "10-27 16:05",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "",
+   "headline": "Seagate Technology Hldgs Sees Q2 Adj EPS $9.00-$9.40 vs $8.58 Est; Sees Sales $4.700B-$4.900B vs $4.527B Est",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62635874/seagate-technology-hldgs-sees-q2-adj-eps-9-00-9-40-vs-8-58-est-sees-sales-4-700b-4-900b-vs-4-527b-es"
+  },
+  {
+   "time": "10-27 16:05",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "",
+   "headline": "Seagate Tech Hldgs Q1 Adj. EPS $7.68 Beats $7.42 Estimate, Sales $4.233B Beat $4.138B Estimate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/10/62635821/seagate-tech-hldgs-q1-adj-eps-7-68-beats-7-42-estimate-sales-4-233b-beat-4-138b-estimate"
+  },
+  {
+   "time": "10-27 16:00",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova Earnings Prediction Market Preview: What Will Scott Strazik Say?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62635380/ge-vernova-earnings"
+  },
+  {
+   "time": "10-27 15:59",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "target down",
+   "headline": "Rosenblatt Maintains Buy on Seagate Technology Hldgs, Lowers Price Target to $1100",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62635319/rosenblatt-maintains-buy-seagate-technology-hldgs-lowers-price-target-1100"
+  },
+  {
+   "time": "10-27 15:51",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "target up",
+   "headline": "Rosenblatt Maintains Buy on Palantir Technologies, Raises Price Target to $260",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62635033/rosenblatt-maintains-buy-palantir-technologies-raises-price-target-260"
+  },
+  {
+   "time": "10-27 15:40",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Google Rolls Out Gemini Robotics Embodied Reasoning 2 For Public Review On Gemini Platform",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62634738/google-rolls-out-gemini-robotics-embodied-reasoning-2-public-review-gemini-platform"
+  },
+  {
+   "time": "10-27 15:34",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Intends To Achieve FedRAMP Class D Certification For Oracle AI Database AWS, Oracle AI Database Azure, Oracle AI Database@Google Cloud",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62634491/oracle-intends-achieve-fedramp-class-d-certification-oracle-ai-database-aws-oracle-ai-database-azure"
+  },
   {
    "time": "10-27 15:01",
    "symbols": [

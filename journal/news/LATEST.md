@@ -1,9 +1,11 @@
-# Headlines since 2026-10-26 16:00 ET (as of 2026-10-27 15:16 ET)
+# Headlines since 2026-10-26 16:00 ET (as of 2026-10-27 18:54 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-27 15:59 | STX | target down | Rosenblatt Maintains Buy on Seagate Technology Hldgs, Lowers Price Target to $1100 |
+| 10-27 15:51 | PLTR | target up | Rosenblatt Maintains Buy on Palantir Technologies, Raises Price Target to $260 |
 | 10-27 10:25 | UNH | target down | Wells Fargo Maintains Overweight on UnitedHealth Group, Lowers Price Target to $487 |
 | 10-27 09:25 | AVGO | upgrade | This Broadcom Analyst Turns Bullish; Here Are Top 4 Upgrades For Tuesday |
 | 10-27 09:23 | INTC | rating | Wedbush Reiterates Neutral on Intel, Maintains $98 Price Target |
@@ -12,6 +14,48 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-27 07:31 | UNH | target up | Morgan Stanley Maintains Overweight on UnitedHealth Group, Raises Price Target to $531 |
 | 10-27 06:31 | AAPL | initiate | Apple Initiates Replacement Program for iPhone Duo Units with Display Issues |
 | 10-27 05:55 | VST | target down | B of A Securities Maintains Buy on Vistra, Lowers Price Target to $194 |
+| 10-27 18:38 | HOOD |  | Robinhood Markets Q3 2026 Earnings Call Transcript |
+| 10-27 18:15 | META |  | $1000 Invested In Meta Platforms 10 Years Ago Would Be Worth This Much Today |
+| 10-27 18:13 | STX |  | Seagate Tech Hldgs Q1 2027 Earnings Call Transcript |
+| 10-27 18:13 | V |  | Visa Q4 2026 Earnings Call Transcript |
+| 10-27 18:02 | RKLB |  | Rocket Lab Announces Expanded Suite of Space-Grade Radio Frequency Products |
+| 10-27 17:57 | NVDA |  | Jim Cramer Dares Nvidia's Jensen Huang to Buy CoreWeave’s 15% Debt |
+| 10-27 17:31 | ORCL |  | Oracle Plans FedRAMP Class D Certification for Multicloud AI Database Services |
+| 10-27 17:31 | ORCL |  | Oracle Unveils New Networking Innovations for AI Workloads |
+| 10-27 17:31 | PLTR |  | Analysts Adjust Price Targets for Palantir Technologies |
+| 10-27 17:31 | GS |  | Goldman Sachs to Host 16th Annual Private Innovative Company Conference |
+| 10-27 17:31 | V |  | Payouts Network Integrates Visa Direct for Employee Reimbursements |
+| 10-27 17:31 | JPM |  | JPMorgan Chase Updates 2027 Earnings Release Schedule |
+| 10-27 17:07 | STX WDC |  | Western Digital Stock Slides After Hours: Here's Why |
+| 10-27 16:46 | AMZN GOOGL |  | Anthropic Acquires Mithril Medicine; Financial Terms Not Disclosed |
+| 10-27 16:44 | AMZN GOOGL |  | Anthropic Announces Plan To Continue Extending Claude’s Role Into Clinical Trials As Drug Programs Advance |
+| 10-27 16:43 | HOOD |  | Robinhood Markets Says Market Share Gains Drove Active Trader Engagement In Q3, With Record Volumes For Equities, Options, Prediction Markets; Lowering Top End Of Prior 2026 Adjusted Operating Expenses Outlook By $25M To A Range Of $2.675B To $2.75B |
+| 10-27 16:41 | HOOD |  | Robinhood Markets Says Not Providing 2026 Outlook For Total Operating Expenses; Q3 Other Revenues Up 61% To $142M , Primarily Driven By Trump Account Service Revenue, Increased Robinhood Gold Subscription Revenue |
+| 10-27 16:41 | V |  | Visa Raises Quarterly Dividend From $0.67 To $0.78 Per Share |
+| 10-27 16:37 | MSFT |  | Dayforce Expands Collaboration With Microsoft Across HR, Finance, Operations; Dayforce Build And Dayforce Marketplace To Be Be Available Next Year |
+| 10-27 16:31 | TSLA |  | Analysts Adjust Price Targets for Tesla |
+| 10-27 16:31 | CRM |  | Salesforce Expands Agent Fabric with New Evaluation and Guardrail Tools |
+| 10-27 16:31 | GS |  | Goldman Sachs Adjusts Price Target on SLB |
+| 10-27 16:31 | GS |  | Goldman Sachs Research Highlights Semiconductor Sector's Dominant Influence on Market Volatility |
+| 10-27 16:31 | V |  | Visa Reports Fiscal Fourth Quarter 2026 Financial Results |
+| 10-27 16:31 | ORCL |  | Oracle Announces Collaboration with OpenAI |
+| 10-27 16:31 | HOOD |  | Robinhood Markets, Inc. Reports Third Quarter 2026 Financial Results |
+| 10-27 16:31 | INTC |  | Intel and Oracle Announce Multiyear Collaboration for AI on Oracle Cloud |
+| 10-27 16:30 | V |  | Visa Reports Strong Q4 Earnings: 'A Milestone Year' CEO Says |
+| 10-27 16:29 | HOOD |  | Robinhood Q3 Highlights: Trump Accounts, Prediction Markets Help Offset Crypto Weakness |
+| 10-27 16:21 | V |  | Visa CEO Says Visa Achieved Record 2026 Net Revenue Of $46B, Up 15%, Strongest Growth In Over 15 Years Excluding The Post-Pandemic Recovery And Acquisitions |
+| 10-27 16:20 | STX |  | Seagate Stock Tumbles Despite Beating Q1 Expectations: Details |
+| 10-27 16:13 | META NVDA |  | Mark Cuban Warns of AI Debt Bubble Despite Optimism: 'I’m Not a Naysayer' |
+| 10-27 16:11 | STX |  | Seagate Technology Raises Quarterly Cash Dividend From $0.74 To $0.76 Per Share |
+| 10-27 16:10 | LLY |  | Eli Lilly President Of Lilly International Patrik Jonsson Retiring At 2026 End, Ilya Yuffa Appointed President Of Lilly Global Markets, Laura Steele Promoted To President Lilly USA, Elias Khalil Promoted To Lilly Europe And Canada |
+| 10-27 16:07 | STX |  | Seagate Raises Quarterly Dividend By 3% To $0.76/Share From $0.74 Prior |
+| 10-27 16:06 | V |  | Visa Q4 Adj. EPS $3.48 Beats $3.44 Estimate, Sales $12.139B Beat $12.084B Estimate |
+| 10-27 16:06 | HOOD |  | Robinhood Markets Q3 Adj. EPS $0.60 Beats $0.56 Estimate, Sales $1.424B Beat $1.422B Estimate |
+| 10-27 16:05 | STX |  | Seagate Technology Hldgs Sees Q2 Adj EPS $9.00-$9.40 vs $8.58 Est; Sees Sales $4.700B-$4.900B vs $4.527B Est |
+| 10-27 16:05 | STX |  | Seagate Tech Hldgs Q1 Adj. EPS $7.68 Beats $7.42 Estimate, Sales $4.233B Beat $4.138B Estimate |
+| 10-27 16:00 | GEV |  | GE Vernova Earnings Prediction Market Preview: What Will Scott Strazik Say? |
+| 10-27 15:40 | GOOGL |  | Google Rolls Out Gemini Robotics Embodied Reasoning 2 For Public Review On Gemini Platform |
+| 10-27 15:34 | ORCL |  | Oracle Intends To Achieve FedRAMP Class D Certification For Oracle AI Database AWS, Oracle AI Database Azure, Oracle AI Database@Google Cloud |
 | 10-27 15:01 | ORCL |  | Oracle Launches Oracle Media Fabric for Content Production and Streaming |
 | 10-27 15:01 | ORCL |  | Oracle to Integrate Cerebras Fast Inference into OCI |
 | 10-27 15:01 | ORCL |  | Snowflake AI Data Cloud to Launch as Native Service on Oracle Cloud Infrastructure |
