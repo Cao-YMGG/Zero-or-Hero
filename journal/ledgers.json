@@ -9,8 +9,8 @@
   "megacap_reclaim": {
     "generation": 1,
     "history": [],
-    "real_trades": 2,
-    "realized": -169.0,
+    "real_trades": 3,
+    "realized": -181.0,
     "started": "2026-10-22"
   },
   "nvda_gapdown_put": {

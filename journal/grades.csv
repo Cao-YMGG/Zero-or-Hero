@@ -120,3 +120,8 @@ date,variant,mode,contract,direction,pnl_pct,thesis,entry,exit,discipline,score,
 2026-10-26,premarket_sniper,call,,call,,,,,,,,right,"TSLA call on the Barclays upgrade: open 383.83, high 397.27 (+3.5%), close 391.62 (+2.0% open to close). catalyst_open real 395C +20% (0.88 -> 1.06 trail at 09:47 after a 2.34 peak); held to 15:45 it would have expired at ~0."
 2026-10-26,premarket_rotation,call,,,,,,,,,,wrong,"We kept AI hardware as cooling (""one morning is not a rotation back""); it led all day: SMH +2.7%, INTC +4.0%, MU +3.0%, AMD +2.8%, NVDA +2.4%, while XLP -0.3%, XLV flat, UNH -1.8%, META -1.9% on its share offering."
 2026-10-26,intraday_pick,call,INTC,call,,,,,,,,wrong,"13:20 INTC call on the in-session New Street upgrade (PT $125) at 92.0, the day high; INTC closed 90.47 (-1.7% after the pick). Not traded: the 0.2-delta 10-30 call cost more than the $133 budget. Late pick (1h48m after the headline) at the high."
+2026-10-27,catalyst_open,shadow,AVGO261028C00355000,call,0.38,1,2,2,3,8,,,"auto; AVGO 341.13->341.11, best 345.67 vs strike 355; peak 1.15"
+2026-10-27,catalyst_open,real,AVGO261028C00355000,call,0.4583,2,2,2,3,9,,,"auto; AVGO 339.97->341.11, best 345.67 vs strike 355; peak 1.15"
+2026-10-27,leader_follow,shadow,AMD261028C00577500,call,0.7537,2,1,2,3,8,,,"auto; AMD 550.13->562.38, best 562.90 vs strike 577.5; peak 2.64"
+2026-10-27,megacap_reclaim,shadow,TSLA261028C00417500,call,-0.1333,2,0,1,3,6,unlucky,,"auto; TSLA 403.51->407.93, best 408.41 vs strike 417.5; peak 0.9"
+2026-10-27,megacap_reclaim,real,TSLA261028C00417500,call,-0.1348,2,0,1,3,6,unlucky,,"auto; TSLA 403.51->407.93, best 408.41 vs strike 417.5; peak 0.9"
