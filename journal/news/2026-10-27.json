@@ -1,7 +1,70 @@
 {
- "as_of": "2026-10-27T12:33-04:00",
+ "as_of": "2026-10-27T13:15-04:00",
  "since": "2026-10-26T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-27 13:07",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "CFTC Sues Utah To Block State Crackdown On Federally Regulated Prediction Markets, Citing Exclusive Federal Jurisdiction Over Commodity Derivatives Exchanges",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62629490/cftc-sues-utah-block-state-crackdown-federally-regulated-prediction-markets-citing-exclusive-federal"
+  },
+  {
+   "time": "10-27 13:01",
+   "symbols": [
+    "AAPL",
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "CNBC Halftime Report Final Trades: Apple, UnitedHealth Group, Delta Air Lines, American Tower",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AAPL"
+  },
+  {
+   "time": "10-27 13:00",
+   "symbols": [
+    "AMZN",
+    "GOOGL",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Paul Kedrosky Says AI Bubble May Be Hiding in Private Markets as Anthropic IPO Nears",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62629201/ai-bubble-private-markets"
+  },
+  {
+   "time": "10-27 12:57",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "What Is Going On With Apple Stock on Tuesday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62629051/what-is-going-on-with-apple-stock-on-tuesday"
+  },
+  {
+   "time": "10-27 12:49",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart And Care Access Plan Three Additional Clinical Trial Centers To Expand Access To Medical Research",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/general/biotech/26/10/62628716/walmart-and-care-access-plan-three-additional-clinical-trial-centers-expand-access-medical-research"
+  },
+  {
+   "time": "10-27 12:40",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Live On CNBC, Josh Brown Hosts Segment Titled \"Josh's Best Stocks Update: Meta Platforms; Cloudlare\"",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/NET"
+  },
   {
    "time": "10-27 12:31",
    "symbols": [

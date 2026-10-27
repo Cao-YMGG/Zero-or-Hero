@@ -1,4 +1,4 @@
-# Headlines since 2026-10-26 16:00 ET (as of 2026-10-27 12:33 ET)
+# Headlines since 2026-10-26 16:00 ET (as of 2026-10-27 13:15 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -12,6 +12,12 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-27 07:31 | UNH | target up | Morgan Stanley Maintains Overweight on UnitedHealth Group, Raises Price Target to $531 |
 | 10-27 06:31 | AAPL | initiate | Apple Initiates Replacement Program for iPhone Duo Units with Display Issues |
 | 10-27 05:55 | VST | target down | B of A Securities Maintains Buy on Vistra, Lowers Price Target to $194 |
+| 10-27 13:07 | HOOD |  | CFTC Sues Utah To Block State Crackdown On Federally Regulated Prediction Markets, Citing Exclusive Federal Jurisdiction Over Commodity Derivatives Exchanges |
+| 10-27 13:01 | AAPL UNH |  | CNBC Halftime Report Final Trades: Apple, UnitedHealth Group, Delta Air Lines, American Tower |
+| 10-27 13:00 | AMZN GOOGL NVDA |  | Paul Kedrosky Says AI Bubble May Be Hiding in Private Markets as Anthropic IPO Nears |
+| 10-27 12:57 | AAPL |  | What Is Going On With Apple Stock on Tuesday? |
+| 10-27 12:49 | WMT |  | Walmart And Care Access Plan Three Additional Clinical Trial Centers To Expand Access To Medical Research |
+| 10-27 12:40 | META |  | Live On CNBC, Josh Brown Hosts Segment Titled "Josh's Best Stocks Update: Meta Platforms; Cloudlare" |
 | 10-27 12:31 | ORCL |  | SambaNova Collaborates With Oracle To Bring Its AI Chips To Oracle Cloud Infrastructure Data Centers |
 | 10-27 12:16 | GOOGL |  | Google DeepMind Announces Genie 4: A New World Model, Which Unlocks Unprecedented Realism And Improves Real-Time Interactive Simulation |
 | 10-27 12:12 | MSFT ORCL |  | Oracle Partners With OpenAI To Integrate ChatGPT, Codex Into Its Operations |
