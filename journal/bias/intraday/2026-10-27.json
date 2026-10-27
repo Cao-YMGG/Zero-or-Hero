@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-27",
+  "picks": [
+    {
+      "time": "13:19",
+      "symbol": "ORCL",
+      "direction": "call",
+      "confidence": 0.35,
+      "catalyst": "In-session partnership batch at Oracle AI World (12:04-12:31 ET): Google TPUs on Oracle Cloud Infrastructure, OpenAI ChatGPT/Codex integration and an OpenAI-powered AI Security Mesh, Snowflake AI Data Cloud as a native OCI service, SambaNova chips in OCI data centers. ORCL 131.33 at 13:19, +4.2% on the day and +3.1% from the 127.38 open, near the 132.34 high, on an AI-hardware rally day (SMH +2.8%). No report until December",
+      "catalyst_type": "company_news"
+    }
+  ]
+}
