@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-27",
+  "bias": "none",
+  "confidence": 0.2,
+  "p_up": 0.54,
+  "summary": "SPY +0.4% pre-market as chips gain a second day and oil eases (Iran's supreme leader talks peace after the Ras Tanura attack); FOMC decision and MSFT/GOOGL earnings tomorrow, so no open-to-close edge today (p_up 0.54). Sniper: AVGO call on the $63B Anthropic financing vehicle for Broadcom XPUs plus a DA Davidson upgrade, gap +3.3% at the edge of the bar.",
+  "reasons": [
+    "SPY 768.24 pre-market vs 765.37 close (+0.37%); QQQ +0.55%; SMH +1.6%; IWM +0.45%. Night session SPY -0.14% (764.27), then the pre-market rose +0.5% from the night price: the OVERNIGHT.md lean needs the night down >= 0.3%, not met",
+    "Monday: SPY +0.41% open to close (+0.71% day), SMH +2.7%, defensives flat or down (XLP -0.3%, UNH -1.8%), META -1.9% on its share offering",
+    "Oil: USO -0.6% pre-market after -1.9% Monday; futures up after Trump ruled out an Iran strike and Iran's supreme leader talked peace (Benzinga/ZeroHedge headlines, not checked further). TLT +0.1%, UUP +0.3%: yields flat, dollar slightly firmer. VIX, 2Y/10Y bp and DXY level not looked up this morning",
+    "Schedule: durable goods 08:30 (consensus about +1.7%; the actual print not confirmed when this was written), Case-Shiller 09:00, consumer confidence and Richmond Fed 10:00, 5-year note auction 13:00 (can move the afternoon). FOMC starts today, decision tomorrow 14:00; MSFT and GOOGL report tomorrow after the close (no sniper on them today or tomorrow), AMZN/INTC Thursday, AAPL Monday",
+    "Movers: CLS +15.8% (Q3 beat, AI racks), CDNS +3.1% (beat and raise), HSBC -6%; mega caps: AVGO +3.3%, LITE +3.0%, MU +2.6%, GEV +2.4%, CAT +2.0%, AMD +1.8%, ORCL +1.8%, GS +1.7%, TSLA +1.1%, NVDA +1.1%; MSFT -0.6% (voluntary buyout for 60,000 staff announced after the close), META -0.6%, AAPL -0.3% (iPhone Duo display replacement program 06:31), NFLX -0.5%",
+    "No >= 2% pre-market down gap among the rebound_scanner large caps",
+    "Dossiers: AMD up gaps >= 2% continue but calls bought at 09:45 lost; today AMD +1.8%. META news moves the CPU chain; META -0.6% with no new catalyst",
+    "Sniper AVGO: after Monday's close BofA, Blackstone, Citi and Morgan Stanley announced a $63B SPV that buys Broadcom XPU accelerators and networking for lease to Anthropic (deliveries from 2027; Broadcom gives residual value support equal to the first lien, a vendor-financing risk); Anthropic's S-1 lists about $161B of Broadcom lease payments. DA Davidson upgraded AVGO to Buy (Daily Trade Alert list; not yet in the Benzinga rating feed, so not independently confirmed). Pre-market 340.00 vs 329.17 close (+3.3%, about 1.7% beyond SMH): at the edge of the ~3% bar for a heavy catalyst. AI hardware has been the cooling theme for a month (SMH -10% 1 month) but rebounded Monday. ANALYST.md: AVGO's 2 rating events did not carry (median -0.7%). catalyst_open buys only while AVGO is at or above its open; a carried position would sit through tomorrow's FOMC (owner 10-23: sniper continues on FOMC days)"
+  ],
+  "events": ["FOMC day 1", "durable goods 08:30", "consumer confidence 10:00", "5Y note auction 13:00"],
+  "inputs": {"es_futures_pct": 0.3, "vix": null, "wti_pct": -0.6, "us10y": null, "us10y_change_bp": null, "us2y_change_bp": null, "dxy_pct": 0.3,
+             "overnight": "Webull extended hours 08:53 ET: SPY +0.37%, QQQ +0.55%, SMH +1.6%, USO -0.6%, TLT +0.1%, UUP +0.3%; night session SPY -0.14%, QQQ -0.43%; S&P futures about +0.23% early (Yahoo/Benzinga)"},
+  "rotation": {
+    "heating": ["AI hardware rebound, day 2 (SMH +2.7% Monday, +1.6% pre-market; MU, AMD, AVGO, INTC, LITE all up)", "energy over the month (XLE +11% 1 month) but oil is easing this week", "health care and staples over the month (UNH, LLY, COST, WMT +8-13%) but they lagged Monday"],
+    "cooling": ["staples and health care this week (XLP -0.3%, UNH -1.8% Monday)", "META (share offering, -1.9% Monday)", "AI hardware is still -10% to -35% over a month: two up days are a rebound, not yet a trend (the other side's test: SMH back above ~564, the 10-21 close)"],
+    "note": "1-week/1-month numbers from the 10-26 Webull bar computation (to 10-23) plus Monday's closes; not recomputed this morning for time"
+  },
+  "sniper": {
+    "symbol": "AVGO",
+    "direction": "call",
+    "catalyst": "$63B BofA/Blackstone/Citi/Morgan Stanley SPV buys Broadcom XPUs and networking for Anthropic (announced after Monday's close); Anthropic S-1 lists ~$161B of Broadcom lease payments; DA Davidson upgrade to Buy (unconfirmed in the Benzinga feed)",
+    "catalyst_type": "company_news",
+    "confidence": 0.35
+  },
+  "generated_at": "2026-10-27T08:54:42-04:00"
+}
