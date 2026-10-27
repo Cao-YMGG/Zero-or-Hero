@@ -1,0 +1,732 @@
+{
+ "as_of": "2026-10-27T08:53-04:00",
+ "since": "2026-10-26T16:00-04:00",
+ "headlines": [
+  {
+   "time": "10-27 08:41",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Jim Cramer Says In Social Media Post 'If Jensen thinks that CoreWeave is money good he should buy up their their 15% debt'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62617136/jim-cramer-says-social-media-post-if-jensen-thinks-coreweave-money-good-he-should-buy-their-their-15"
+  },
+  {
+   "time": "10-27 08:41",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "PayPal Cuts Thousands of Jobs, Bets on AI and Lifts Profit Outlook",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62617121/paypal-cuts-thousands-of-jobs-bets-on-ai-and-lifts-profit-outlook"
+  },
+  {
+   "time": "10-27 08:40",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "ExxonMobil, Leidos, eBay and More: CNBC\u2019s \u2018Final Trades\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62617099/exxonmobil-leidos-ebay-and-more-cnbcs-final-trades"
+  },
+  {
+   "time": "10-27 08:25",
+   "symbols": [
+    "COIN",
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Circle\u2019s AI Opportunity Turns Into a \u2018Marked Risk,\u2019 Mizuho Warns",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62616300/circles-ai-opportunity-turns-into-a-marked-risk-mizuho-warns"
+  },
+  {
+   "time": "10-27 08:24",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "How to Earn $500 a Month From Phillips 66 Stock Ahead of Q3 Earnings",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/dividends/26/10/62616285/how-to-earn-500-a-month-from-phillips-66-stock-ahead-of-q3-earnings-2"
+  },
+  {
+   "time": "10-27 08:02",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "Caterpillar Challenges UK Anti-Dumping Tariffs on Chinese Excavators",
+   "source": "fiscal.ai",
+   "url": "https://www.ft.com/content/71e415ce-87e9-4c29-bce2-b7f3803ac6b9?syn-25a6b1a6=1"
+  },
+  {
+   "time": "10-27 08:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "New Street Research Adjusts Meta Platforms Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/new-street-adjusts-price-target-on-meta-platforms-to-775-from-700-ce785cddd88ef720"
+  },
+  {
+   "time": "10-27 08:01",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "",
+   "headline": "Rosenblatt Securities Adjusts Seagate Technology Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/flash/1002487539/seagate-technology-holdings-plc-rosenblatt-securities-cuts-target-price-to"
+  },
+  {
+   "time": "10-27 08:01",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Daiwa Securities Adjusts Tesla Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/daiwa-securities-adjusts-price-target-on-tesla-to-390-from-345-ce785cddd88ef124"
+  },
+  {
+   "time": "10-27 08:01",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "NationsBenefits Expands Member Access to Health Benefits Across Costco Stores Nationwide",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/health"
+  },
+  {
+   "time": "10-27 08:01",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle NetSuite Launches New AI Agents for Industry-Specific Operations",
+   "source": "fiscal.ai",
+   "url": "https://ai-techpark.com/netsuite-launches-new-ai-agents-to-deliver-industry-specific-expertise/"
+  },
+  {
+   "time": "10-27 08:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "MT Newswires Integrates Real-Time Financial News into Microsoft Copilot",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/27/3388818/0/en/global-financial-news-from-mt-newswires-now-live-in-microsoft-copilot.html"
+  },
+  {
+   "time": "10-27 07:49",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Trump Administration Finalizes Health IT Rule Projected to Save $1.5 Billion, Eases Electronic Health Record Certification Requirements",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/10/62614846/trump-administration-finalizes-health-it-rule-projected-to-save-1-5-billion-eases-electronic-health-record-certification-requirements"
+  },
+  {
+   "time": "10-27 07:32",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel and SAP Collaborate on Autonomous Robot Integration",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/sap-empowers-ai-developers-to-build-what-matters-and-turn-intent-into-autonomous-execution-302920376.html"
+  },
+  {
+   "time": "10-27 07:32",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Naver Forms Semiconductor Manufacturing Joint Venture with Intel",
+   "source": "fiscal.ai",
+   "url": "https://www.koreaherald.com/article/10916658"
+  },
+  {
+   "time": "10-27 07:32",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Adjusts Price Target on Apple",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/apple-iphone-18-pro-sales-rise-3-1-in-mixed-start-counterpoint-says-ce785cddd88ef624"
+  },
+  {
+   "time": "10-27 07:31",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Citic Securities Adjusts Price Target on Western Digital to $615 From $660",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/citic-securities-adjusts-price-target-on-western-digital-to-615-from-660-ce785cdddb8afe26"
+  },
+  {
+   "time": "10-27 07:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Oishii Expands Retail Distribution to Walmart Locations",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261027ny81234/oishii-doubles-its-grocery-distribution-in-2026-expanding-to-500-us-retail-locations-across-25-states"
+  },
+  {
+   "time": "10-27 07:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "TRUBAR Launches 'Drizzle' Product Line at Walmart",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/trubar-launches-new-drizzle-mini-rice-cakes---its-first-ever-innovation-beyond-protein-bars-302919988.html"
+  },
+  {
+   "time": "10-27 07:31",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "target up",
+   "headline": "Morgan Stanley Maintains Overweight on UnitedHealth Group, Raises Price Target to $531",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62614277/morgan-stanley-maintains-overweight-unitedhealth-group-raises-price-target-531"
+  },
+  {
+   "time": "10-27 07:10",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet Likely To Report Higher Q3 Earnings; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62613780/alphabet-likely-to-report-higher-q3-earnings-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call"
+  },
+  {
+   "time": "10-27 06:58",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "",
+   "headline": "Why Is Broadcom Stock Gaining Tuesday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62613053/why-is-broadcom-stock-gaining-tuesday-2"
+  },
+  {
+   "time": "10-27 06:51",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Novo Nordisk Loses Court Bid Against Eli Lilly\u2019s Weight-Loss Drug Ads \u2014 Judge Says Sales Impact Was Negligible",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/10/62612844/novo-nordisk-loses-court-bid-against-eli-lillys-weight-loss-drug-ads-judge-says-sales-impact-was-negligible"
+  },
+  {
+   "time": "10-27 06:40",
+   "symbols": [
+    "META",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Commits $3 Billion to Meta, Expands Muse Partnership",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62612678/nvidia-commits-3-billion-to-meta-expands-muse-partnership"
+  },
+  {
+   "time": "10-27 06:37",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Scott Galloway Warns Tesla Is the \u2018Patient\u2019 and SpaceX Its \u2018Organ Donor\u2019 in Elon Musk\u2019s $3.5 Trillion Merger Plan: 'Real Merger With a Fake Premise'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62612476/scott-galloway-warns-tesla-is-the-patient-and-spacex-its-organ-donor-in-elon-musks-3-5-trillion-merger-plan-real-merger-with-a-fake-premise"
+  },
+  {
+   "time": "10-27 06:31",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "Morgan Stanley Adjusts Price Target on UnitedHealth Group",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/morgan-stanley-adjusts-price-target-on-unitedhealth-group-to-531-from-529-ce785cddd88ef120"
+  },
+  {
+   "time": "10-27 06:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Introduces Claw-Powered Fusion Agentic Applications for Supply Chain",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/consumer-technology-latest-news/supply-chain-logistics-list/"
+  },
+  {
+   "time": "10-27 06:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA and Meta Expand AI Partnership and Announce $3 Billion Investment",
+   "source": "fiscal.ai",
+   "url": "https://www.tmcnet.com/usubmit/-nvidia-meta-expand-collaboration-muse-muse-family-models-/2026/10/27/10469964.htm"
+  },
+  {
+   "time": "10-27 06:31",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Rosenblatt Securities Adjusts Price Target on Palantir Technologies",
+   "source": "fiscal.ai",
+   "url": "https://news.futunn.com/post/1002411169/rosenblatt-adjusts-price-target-on-palantir-technologies-to-260-from"
+  },
+  {
+   "time": "10-27 06:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Asset Management Targets $600 Billion in Asia-Pacific Assets by 2030",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/dow-jones/202610271671/jpmorgan-asset-management-on-fast-track-toward-doubling-asia-assets-to-600-billion"
+  },
+  {
+   "time": "10-27 06:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Discloses Increased Holding in Yellow Cake PLC",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/rns/yellow-cake--yca/tr-1-notification-of-major-holdings/9842357"
+  },
+  {
+   "time": "10-27 06:31",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "initiate",
+   "headline": "Apple Initiates Replacement Program for iPhone Duo Units with Display Issues",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/apple-to-replace-iphone-duo-units-with-display-issues-ce785cddd88afe2c"
+  },
+  {
+   "time": "10-27 06:31",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Prices Upsized $25 Billion Common Stock Offering and Depositary Shares",
+   "source": "fiscal.ai",
+   "url": "https://investingnews.com/meta-announces-pricing-of-offering-of-depositary-shares-representing-series-a-mandatory-convertible-preferred-stock-and-offering-of-class-a-common-stock-in-connection-with-forward-sale-agreements/"
+  },
+  {
+   "time": "10-27 06:31",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "US Court Denies Novo Nordisk's Bid to Block Eli Lilly's Ads Targeting Wegovy, Ozempic",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/us-court-denies-novo-nordisk-s-bid-to-block-eli-lilly-s-ads-targeting-wegovy-ozempic-ce785cdddb8bf525"
+  },
+  {
+   "time": "10-27 06:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart Launches Veterans Day Donation Matching Initiative",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/operation-homefront-calls-on-americans-to-honor-military-families-and-meet-growing-needs-this-veterans-day-season-302919447.html"
+  },
+  {
+   "time": "10-27 06:20",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62612074/microsoft-earnings-are-imminent-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call-4"
+  },
+  {
+   "time": "10-27 06:00",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Bill Gates Says 'None of the Things That Human Labor Provides Will Be Necessary' \u2014 Robots Will Build Houses, Grow Food, Do Surgery If We Don't Slow Down",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/gaming/26/10/62611123/bill-gates-says-none-of-the-things-that-human-labor-provides-will-be-necessary-robots-will-build-houses-grow-food-do-surgery-if-we-dont-slow-down"
+  },
+  {
+   "time": "10-27 05:55",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "target down",
+   "headline": "B of A Securities Maintains Buy on Vistra, Lowers Price Target to $194",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62611015/b-securities-maintains-buy-vistra-lowers-price-target-194"
+  },
+  {
+   "time": "10-27 05:45",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "'I No Longer Believe That': Satya Nadella Says He Was Wrong About AI Alignment \u2014 Microsoft CEO Warns Keeping Future AI Systems Safe May Be a \u2018Harder, Different Problem\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62610933/i-no-longer-believe-that-satya-nadella-says-he-was-wrong-about-ai-alignment-microsoft-ceo-warns-keeping-future-ai-systems-safe-may-be-a-harder-different-problem"
+  },
+  {
+   "time": "10-27 05:23",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Cathie Wood Says \u2018Genius\u2019 Elon Musk is Pushing the World Towards 9% GDP Growth With TSLA, SPCX: \u2018We\u2019ve Never Been Here Before\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62610712/cathie-wood-says-genius-elon-musk-is-pushing-the-world-towards-9-gdp-growth-with-tsla-spcx-weve-never-been-here-before"
+  },
+  {
+   "time": "10-27 05:21",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Dan Ives Says Anthropic Could Eventually Be Worth $3 Trillion Despite Its $80.7 Billion Loss \u2014 Insists AI Revolution Is Only in Its \u2018Third Inning\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62610699/dan-ives-says-anthropic-could-eventually-be-worth-3-trillion-despite-its-80-7-billion-loss-insists-ai-revolution-is-only-in-its-third-inning"
+  },
+  {
+   "time": "10-27 04:01",
+   "symbols": [
+    "AMZN",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "\u2018Where Are The Cybercabs?\u2019 Tesla Investor Ross Gerber Takes Aim at Elon Musk as Amazon\u2019s Zoox Eyes Expansion With Santa Monica Deal for 150 Robotaxis",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62610060/where-are-the-cybercabs-tesla-ross-gerber-takes-aim-elon-musk-amazon-zoox-deal"
+  },
+  {
+   "time": "10-27 02:53",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Chevron Inks Long-Term Gas Supply Deal With South32 For 55 Petajoules Over Five Years From 2028, Following Horizon Power, Alinta Energy Deals",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/CVX"
+  },
+  {
+   "time": "10-27 02:30",
+   "symbols": [
+    "MU",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Says Robots Will Need More Memory Than 'Everything Else on Earth' \u2014 This Analyst Sees 'Much Bigger Volume Story' for Micron, SK Hynix",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62609333/elon-musk-says-robots-to-top-memory-demand-micron-sk-hynix-boloor"
+  },
+  {
+   "time": "10-27 01:59",
+   "symbols": [
+    "CVX",
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "Trump's Oil Holdings Could Top $81 Million, New Report Says \u2014 Gavin Newsom Says President Swore \u2018Oath\u2019 to Big Oil",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62609122/trumps-oil-investments-top-81-million-new-report-says-gavin-newsom-warns-president-swore-oath-to-big-oil-stocks-have-gone-up-43"
+  },
+  {
+   "time": "10-27 01:56",
+   "symbols": [
+    "META",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA And Meta To Expand Muse Model Collaboration On Inference And Training Performance; NVIDIA To Invest $3B In Meta\u2019s Equity Offering",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62609103/nvidia-and-meta-expand-muse-model-collaboration-inference-and-training-performance-nvidia-invest-3b-"
+  },
+  {
+   "time": "10-27 01:54",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Creating 'Net-New' Gold With Alchemy Becoming Real: Coinbase CEO Says You Can't 'Invent Anything' That Raises Bitcoin Supply",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62609081/coinbase-ceo-brian-armstrong-bitcoin-gold-diamond"
+  },
+  {
+   "time": "10-27 01:19",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Prices 250M Depositary Shares At $50 Of 6.50% Series A Mandatory Convertible Preferred And 40M Class A Shares At $625 Under Forward Sale Agreements; Common Offering Upsized To $25B From $22.5B",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62608952/meta-prices-250m-depositary-shares-50-6-50-series-mandatory-convertible-preferred-and-40m-class-shar"
+  },
+  {
+   "time": "10-27 00:32",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Could Go Beyond Robotaxis Into Underground Travel And Electric Aviation \u2014 TSLA Could \u2018Own\u2019 Transportation, ARK Says",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62608823/tesla-could-go-beyond-robotaxis-into-underground-travel-and-electric-aviation-tsla-could-own-transportation-ark-says"
+  },
+  {
+   "time": "10-27 00:12",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "\u2018Aware of an Issue\u2019: Apple Offers Replacements for iPhone Duo Display Defects After Users Report Cracks Near Hinge",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62608801/apple-iphone-duo-display-defects-hinge-cracks-replacements"
+  },
+  {
+   "time": "10-26 22:01",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "YYForce Announces Commencement of Optimus Humanoid Robot Manufacturing",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/TSLA-US/news?chain_id=Name1K9-3FXPhg.1l9k2g0&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A64,%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2F5-%E7%A9%B7-6-%E7%BB%9D-7-%E7%BF%BB%E8%BA%AB-102927248%2Fpost%2Fall%22%7D"
+  },
+  {
+   "time": "10-26 22:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Narmi Expands Model Context Protocol Capabilities to Microsoft 365 Copilot",
+   "source": "fiscal.ai",
+   "url": "https://www.newscom.com/accesswire?p_p_id=listenersearchresults_WAR_searchportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_pos=1&p_p_col_count=2&_listenersearchresults_WAR_searchportlet_pageNumber=1&_listenersearchresults_WAR_searchportlet_photoSets=true&_listenersearchresults_WAR_searchportlet_excludeRestricted=true&_listenersearchresults_WAR_searchportlet_struts.portlet.action=%2Fview%2FshowDetail&_listenersearchresults_WAR_searchportlet_tagId=awire236975"
+  },
+  {
+   "time": "10-26 22:01",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "",
+   "headline": "Broadcom Expands Host Bus Adapter Support for Seagate SMR Technology",
+   "source": "fiscal.ai",
+   "url": "https://datacentremagazine.com/news/how-seagate-broadcom-and-azure-are-scaling-storage"
+  },
+  {
+   "time": "10-26 22:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Business Expands Business Prime Benefits for SMBs",
+   "source": "fiscal.ai",
+   "url": "https://procurementmag.com/news/amazon-business-leaders-on-ai-esg-and-smarter-buying"
+  },
+  {
+   "time": "10-26 22:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Reports of Potential NVIDIA Interest in Ambarella Acquisition",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8459384/nvidia-just-gave-a-huge-catalyst-to-this-ai-stock-how-to-play-amba-stock-here"
+  },
+  {
+   "time": "10-26 20:01",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla and Nvidia Reportedly Funding Samsung AI Chip Substrate Production",
+   "source": "fiscal.ai",
+   "url": "https://finimize.com/content/tesla-and-nvidia-are-reportedly-funding-samsungs-ai-chip-substrate-push"
+  },
+  {
+   "time": "10-26 20:01",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel to Acquire Classiq to Create a Full-stack Quantum Computing Platform",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom"
+  },
+  {
+   "time": "10-26 20:01",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Heavenly Hunks Expands Dupe Loops Mini Donuts to Costco",
+   "source": "fiscal.ai",
+   "url": "https://www.cpgmedia.com/newswire/2026/10/26/heavenly-hunks-dupe-loops-mini-donuts-expand-to-sprouts-and-costco-following-target-launch"
+  },
+  {
+   "time": "10-26 19:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Reports Change in Major Holding in Vonovia SE",
+   "source": "fiscal.ai",
+   "url": "https://www.eqs-news.com/news/voting-rights/jpmorgan-chase-co-wilmington-delaware-united-states-of-america-usa/3e391544-2ac4-42a9-8fe2-0ef3f86155b2_en"
+  },
+  {
+   "time": "10-26 19:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Verosoft Launches AI Orchestration Platform Built on Microsoft Dynamics 365",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/in/news-releases/verosoft-launches-verovia-to-turn-ai-into-industrial-value-302918490.html"
+  },
+  {
+   "time": "10-26 19:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Semperis Expands Security Collaboration with Microsoft",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/semperis-deepens-microsoft-security-collaboration-integrating-the-lightning-platform-with-microsoft-sentinel-and-security-copilot-302919004.html"
+  },
+  {
+   "time": "10-26 19:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Business to Host Annual 'Reshape 2026' Conference",
+   "source": "fiscal.ai",
+   "url": "https://procurementmag.com/news/amazon-business-reshape-2026-what-cpos-need-to-know"
+  },
+  {
+   "time": "10-26 18:15",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "$100 Invested In Micron Technology 10 Years Ago Would Be Worth This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62607507/100-invested-micron-technology-10-years-ago-would-be-worth-much-today"
+  },
+  {
+   "time": "10-26 17:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Expands Wealth Management Advisory Teams in Asia",
+   "source": "fiscal.ai",
+   "url": "https://hr.asia/asia-2/goldman-sachs-steps-up-asia-hiring/"
+  },
+  {
+   "time": "10-26 17:31",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "",
+   "headline": "Financial Institutions Form $63 Billion Financing Vehicle for Broadcom AI Infrastructure",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/dow-jones/202610269207/banks-blackstone-form-63-billion-financing-vehicle-for-broadcom-ai-tech"
+  },
+  {
+   "time": "10-26 16:48",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Cancels Cybertruck in Two Countries: An Omen for the Vehicle's Future?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/large-cap/26/10/62606038/tesla-cybertruck-in-two-countries-is-this-an-ominous-sign-for-vehicles-future"
+  },
+  {
+   "time": "10-26 16:38",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "SpaceX Merger Could Accelerate Tesla's Push Into AI and Autonomous Driving: Barclays",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62605726/tesla-spacex-merger"
+  },
+  {
+   "time": "10-26 16:31",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "Elementl Power Announces Nuclear Development Partnership Featuring GE Vernova Hitachi Nuclear Energy Technology",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/elementl-power-ds-investment-partners-and-samsung-ct-to-advance-new-us-nuclear-development-302919526.html"
+  },
+  {
+   "time": "10-26 16:31",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Debuts at Texas Book Festival",
+   "source": "fiscal.ai",
+   "url": "https://about.netflix.com/newsroom"
+  },
+  {
+   "time": "10-26 16:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Unveils Claw-Powered Agentic Applications for Customer Experience",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261026sf80514/oracle-introduces-claw-powered-fusion-agentic-applications-for-customer-experience"
+  },
+  {
+   "time": "10-26 16:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Announces Voluntary Buyout Program for 60,000 Employees",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8459083/microsoft-offers-a-quarter-of-its-global-workforce-voluntary-buyouts-as-ai-spending-accelerates"
+  },
+  {
+   "time": "10-26 16:25",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "'Intel to Buy Israeli Startup Classiq in Quantum Computing Push' - Bloomberg Exclusive",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m/26/10/62605180/intel-buy-israeli-startup-classiq-quantum-computing-push-bloomberg-exclusive"
+  }
+ ]
+}
