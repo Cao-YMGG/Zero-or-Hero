@@ -1,7 +1,69 @@
 {
- "as_of": "2026-10-27T11:33-04:00",
+ "as_of": "2026-10-27T12:03-04:00",
  "since": "2026-10-26T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-27 12:01",
+   "symbols": [
+    "INTC",
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Intel And Oracle Announce Multiyear Collaboration To Expand Xeon-Based Computing On Oracle Cloud Infrastructure",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62626621/intel-and-oracle-announce-multiyear-collaboration-expand-xeon-based-computing-oracle-cloud-infrastru"
+  },
+  {
+   "time": "10-27 12:01",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Cerebras Systems And Oracle Partner To Bring High-Speed AI Inference To Oracle Cloud Infrastructure, Targeting AI Labs, Enterprises And Developers Building Interactive AI Applications",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62626592/cerebras-systems-and-oracle-partner-bring-high-speed-ai-inference-oracle-cloud-infrastructure-target"
+  },
+  {
+   "time": "10-27 12:00",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia CEO Jensen Huang Says AI Thinks a Ball That Rolled Off the Table Disappeared \u2014 But Even 'Your Dog' Knows Better",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62626545/nvidia-ceo-jensen-huang-says-ai-thinks-a-ball-that-rolled-off-the-table-disappeared-but-even-your-dog-knows-better"
+  },
+  {
+   "time": "10-27 12:00",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "What Is Going on With Super Micro Stock on Tuesday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62626519/what-is-going-on-with-super-micro-stock-on-tuesday-3"
+  },
+  {
+   "time": "10-27 11:53",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Stock Trends Higher: What's Happening?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62626273/robinhood-stock-trends-higher-whats-happening"
+  },
+  {
+   "time": "10-27 11:50",
+   "symbols": [
+    "INTC",
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "'Oracle, Intel, IBM Push Back Against Efforts To Tokenize Their Stocks' - WSJ",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62626177/oracle-intel-ibm-push-back-against-efforts-tokenize-their-stocks-wsj"
+  },
   {
    "time": "10-27 11:23",
    "symbols": [

@@ -1,4 +1,4 @@
-# Headlines since 2026-10-26 16:00 ET (as of 2026-10-27 11:33 ET)
+# Headlines since 2026-10-26 16:00 ET (as of 2026-10-27 12:03 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -12,6 +12,12 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-27 07:31 | UNH | target up | Morgan Stanley Maintains Overweight on UnitedHealth Group, Raises Price Target to $531 |
 | 10-27 06:31 | AAPL | initiate | Apple Initiates Replacement Program for iPhone Duo Units with Display Issues |
 | 10-27 05:55 | VST | target down | B of A Securities Maintains Buy on Vistra, Lowers Price Target to $194 |
+| 10-27 12:01 | INTC ORCL |  | Intel And Oracle Announce Multiyear Collaboration To Expand Xeon-Based Computing On Oracle Cloud Infrastructure |
+| 10-27 12:01 | ORCL |  | Cerebras Systems And Oracle Partner To Bring High-Speed AI Inference To Oracle Cloud Infrastructure, Targeting AI Labs, Enterprises And Developers Building Interactive AI Applications |
+| 10-27 12:00 | NVDA |  | Nvidia CEO Jensen Huang Says AI Thinks a Ball That Rolled Off the Table Disappeared — But Even 'Your Dog' Knows Better |
+| 10-27 12:00 | SMCI |  | What Is Going on With Super Micro Stock on Tuesday? |
+| 10-27 11:53 | HOOD |  | Robinhood Stock Trends Higher: What's Happening? |
+| 10-27 11:50 | INTC ORCL |  | 'Oracle, Intel, IBM Push Back Against Efforts To Tokenize Their Stocks' - WSJ |
 | 10-27 11:23 | META |  | 'Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace' - TechCrunch |
 | 10-27 11:15 | GOOGL |  | If You Invested $1000 In Alphabet Stock 15 Years Ago, You Would Have This Much Today |
 | 10-27 11:13 | MSFT |  | Microsoft Q1 Preview: AI, Cloud Key As Company Eyes 15th Straight Double Beat |
