@@ -1,7 +1,50 @@
 {
- "as_of": "2026-10-27T10:02-04:00",
+ "as_of": "2026-10-27T10:32-04:00",
  "since": "2026-10-26T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-27 10:26",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "'Zuckerberg Stock Deal, Meta Restructuring Challenged in Court' - Bloomberg Law",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62622392/zuckerberg-stock-deal-meta-restructuring-challenged-court-bloomberg-law"
+  },
+  {
+   "time": "10-27 10:25",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "target down",
+   "headline": "Wells Fargo Maintains Overweight on UnitedHealth Group, Lowers Price Target to $487",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62622315/wells-fargo-maintains-overweight-unitedhealth-group-lowers-price-target-487"
+  },
+  {
+   "time": "10-27 10:03",
+   "symbols": [
+    "AMZN",
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "LAZR ETF Raises Anthropic Allocation To 10.5%",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m/26/10/62621261/lazr-etf-raises-anthropic-allocation-10-5"
+  },
+  {
+   "time": "10-27 09:59",
+   "symbols": [
+    "AVGO",
+    "GOOGL",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "\u200bJim Cramer Calls Broadcom-Anthropic Pact 'Excellent for All Involved,' Warns Press Would 'Never Stop Hectoring Nvidia' Over Similar Move",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62620907/jim-cramer-calls-broadcom-anthropic-pact-excellent-for-all-involved-warns-press-would-never-stop-hectoring-nvidia-over-similar-move"
+  },
   {
    "time": "10-27 09:55",
    "symbols": [

@@ -1,9 +1,10 @@
-# Headlines since 2026-10-26 16:00 ET (as of 2026-10-27 10:02 ET)
+# Headlines since 2026-10-26 16:00 ET (as of 2026-10-27 10:32 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-27 10:25 | UNH | target down | Wells Fargo Maintains Overweight on UnitedHealth Group, Lowers Price Target to $487 |
 | 10-27 09:25 | AVGO | upgrade | This Broadcom Analyst Turns Bullish; Here Are Top 4 Upgrades For Tuesday |
 | 10-27 09:23 | INTC | rating | Wedbush Reiterates Neutral on Intel, Maintains $98 Price Target |
 | 10-27 09:01 | ASML | rating | UBS Maintains Buy Rating on ASML Holding N.V. |
@@ -11,6 +12,9 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-27 07:31 | UNH | target up | Morgan Stanley Maintains Overweight on UnitedHealth Group, Raises Price Target to $531 |
 | 10-27 06:31 | AAPL | initiate | Apple Initiates Replacement Program for iPhone Duo Units with Display Issues |
 | 10-27 05:55 | VST | target down | B of A Securities Maintains Buy on Vistra, Lowers Price Target to $194 |
+| 10-27 10:26 | META |  | 'Zuckerberg Stock Deal, Meta Restructuring Challenged in Court' - Bloomberg Law |
+| 10-27 10:03 | AMZN GOOGL |  | LAZR ETF Raises Anthropic Allocation To 10.5% |
+| 10-27 09:59 | AVGO GOOGL NVDA |  | ​Jim Cramer Calls Broadcom-Anthropic Pact 'Excellent for All Involved,' Warns Press Would 'Never Stop Hectoring Nvidia' Over Similar Move |
 | 10-27 09:55 | META |  | Bitcoin Profit-Taking Cools but Analysts Remain Cautious Ahead of FOMC |
 | 10-27 09:42 | GEV |  | Trump Administration Approving 3 More Wind Projects Stalled By Pentagon In Bid To Win Dem Support For Bipartisan Permitting Reform Bill, Punchbowl Correspondent Says On Social Media |
 | 10-27 09:37 | AMZN |  | United Parcel Service CEO, On Amazon, Says We Haven't Seen Any Meaningful Impact To Our Business Since The Announcement They Made In The Summer |
