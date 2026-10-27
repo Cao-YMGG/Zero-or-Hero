@@ -1,7 +1,27 @@
 {
- "as_of": "2026-10-27T14:39-04:00",
+ "as_of": "2026-10-27T14:46-04:00",
  "since": "2026-10-26T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-27 14:41",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Reported Earlier: FCC Approves Amazon Leo's Acquisition Of Globalstar",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62632726/reported-earlier-fcc-approves-amazon-leo-s-acquisition-globalstar"
+  },
+  {
+   "time": "10-27 14:38",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "\"A Rivian Commercial Van Wrapped In Walmart+ Branding Was Spotted On A Car Hauler On Tuesday, The Latest In A String Of Sightings Of The Vans In Other Companies\u2019 Colors That Neither Rivian Nor The Brands Involved Have Confirmed\" - EV",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62632618/rivian-commercial-van-wrapped-walmart-branding-was-spotted-car-hauler-tuesday-latest-string-sighting"
+  },
   {
    "time": "10-27 14:23",
    "symbols": [

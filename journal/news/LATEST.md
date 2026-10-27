@@ -1,4 +1,4 @@
-# Headlines since 2026-10-26 16:00 ET (as of 2026-10-27 14:39 ET)
+# Headlines since 2026-10-26 16:00 ET (as of 2026-10-27 14:46 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -12,6 +12,8 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-27 07:31 | UNH | target up | Morgan Stanley Maintains Overweight on UnitedHealth Group, Raises Price Target to $531 |
 | 10-27 06:31 | AAPL | initiate | Apple Initiates Replacement Program for iPhone Duo Units with Display Issues |
 | 10-27 05:55 | VST | target down | B of A Securities Maintains Buy on Vistra, Lowers Price Target to $194 |
+| 10-27 14:41 | AMZN |  | Reported Earlier: FCC Approves Amazon Leo's Acquisition Of Globalstar |
+| 10-27 14:38 | WMT |  | "A Rivian Commercial Van Wrapped In Walmart+ Branding Was Spotted On A Car Hauler On Tuesday, The Latest In A String Of Sightings Of The Vans In Other Companies’ Colors That Neither Rivian Nor The Brands Involved Have Confirmed" - EV |
 | 10-27 14:23 | AMZN |  | Xylem Stock Plunges to 52-Week Low After Slashing 2026 Profit Outlook |
 | 10-27 14:04 | NVDA |  | Nate Silver: Iran War Looms Over Senate Fight That Could Mark 'End of the Trump Era' |
 | 10-27 14:02 | CRDO |  | ams OSRAM Joins Credo-Led OCP Standardization Workstream |
