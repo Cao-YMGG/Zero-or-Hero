@@ -1,4 +1,4 @@
-# Headlines since 2026-10-26 16:00 ET (as of 2026-10-27 10:32 ET)
+# Headlines since 2026-10-26 16:00 ET (as of 2026-10-27 11:03 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -12,6 +12,18 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-27 07:31 | UNH | target up | Morgan Stanley Maintains Overweight on UnitedHealth Group, Raises Price Target to $531 |
 | 10-27 06:31 | AAPL | initiate | Apple Initiates Replacement Program for iPhone Duo Units with Display Issues |
 | 10-27 05:55 | VST | target down | B of A Securities Maintains Buy on Vistra, Lowers Price Target to $194 |
+| 10-27 11:01 | HOOD |  | IXS Migrates Token to Robinhood Chain |
+| 10-27 11:01 | GS |  | Goldman Sachs Asset Management Joins Envestnet's Custom Model Solutions Program |
+| 10-27 11:01 | AMD |  | AMD and Meta Expand Strategic Partnership and Announce $1 Billion Investment |
+| 10-27 11:01 | UNH |  | Codoxo and UnitedHealth Group to Present at NHCAA 2026 |
+| 10-27 11:01 | WMT |  | The Vita Coco Company Launches 'Vita Coco Kids' Exclusively at Walmart |
+| 10-27 11:01 | AVGO |  | Broadcom Releases Security Fixes for TrueSource Spring Enterprise |
+| 10-27 11:00 | MSFT |  | ‘I Hate Being the Bearer of Concerning News’ — Bill Gates Warns Even the Best Case for AI Means a 20-Year Transition With Winners and Losers |
+| 10-27 10:45 | META NVDA ORCL |  | Nvidia's Credit Risk Has Tripled This Year — and Just Passed Meta's |
+| 10-27 10:37 | V |  | Visa Earnings Prediction Market Preview: What Will Ryan McInerney Say? |
+| 10-27 10:36 | META |  | 'Meta’s $25 Billion Stock Sale Ended Five Times Oversubscribed' - Bloomberg |
+| 10-27 10:31 | AMZN |  | UPS Is Making More Money by Shipping Less for Amazon. Can It Keep It Up? |
+| 10-27 10:30 | NVDA |  | Here's How Much $1000 Invested In NVIDIA 10 Years Ago Would Be Worth Today |
 | 10-27 10:26 | META |  | 'Zuckerberg Stock Deal, Meta Restructuring Challenged in Court' - Bloomberg Law |
 | 10-27 10:03 | AMZN GOOGL |  | LAZR ETF Raises Anthropic Allocation To 10.5% |
 | 10-27 09:59 | AVGO GOOGL NVDA |  | ​Jim Cramer Calls Broadcom-Anthropic Pact 'Excellent for All Involved,' Warns Press Would 'Never Stop Hectoring Nvidia' Over Similar Move |

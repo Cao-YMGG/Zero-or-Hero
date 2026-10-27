@@ -1,7 +1,129 @@
 {
- "as_of": "2026-10-27T10:32-04:00",
+ "as_of": "2026-10-27T11:03-04:00",
  "since": "2026-10-26T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-27 11:01",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "IXS Migrates Token to Robinhood Chain",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/accesswire/1241575msn/ixs-moves-to-robinhood-chain-to-enable-its-next-phase-launching-a-10m-pre-ipo-vault-for-institutional-investors"
+  },
+  {
+   "time": "10-27 11:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Asset Management Joins Envestnet's Custom Model Solutions Program",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/envestnet-custom-model-solutions-gives-rias-a-white-labeled-path-to-outsourced-model-management-302920206.html"
+  },
+  {
+   "time": "10-27 11:01",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD and Meta Expand Strategic Partnership and Announce $1 Billion Investment",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/27/3389140/0/en/amd-and-meta-advance-strategic-partnership-to-power-meta-s-superintelligence-infrastructure.html"
+  },
+  {
+   "time": "10-27 11:01",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "Codoxo and UnitedHealth Group to Present at NHCAA 2026",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/health"
+  },
+  {
+   "time": "10-27 11:01",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "The Vita Coco Company Launches 'Vita Coco Kids' Exclusively at Walmart",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/27/3389113/0/en/vita-coco-introduces-vita-coco-kids-designed-for-the-next-generation-of-coconut-water-drinkers-and-available-exclusively-at-select-walmart-locations.html"
+  },
+  {
+   "time": "10-27 11:01",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "",
+   "headline": "Broadcom Releases Security Fixes for TrueSource Spring Enterprise",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/27/3389095/19933/en/new-broadcom-enhancements-to-truesource-spring-enterprise-with-hub-and-app-advisor-help-customers-assess-their-open-source-security-posture-prioritize-fixes-and-automate-patching.html"
+  },
+  {
+   "time": "10-27 11:00",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "\u2018I Hate Being the Bearer of Concerning News\u2019 \u2014 Bill Gates Warns Even the Best Case for AI Means a 20-Year Transition With Winners and Losers",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/gaming/26/10/62623939/i-hate-being-the-bearer-of-concerning-news-bill-gates-warns-even-the-best-case-for-ai-means-a-20-year-transition-with-winners-and-losers"
+  },
+  {
+   "time": "10-27 10:45",
+   "symbols": [
+    "META",
+    "NVDA",
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Nvidia's Credit Risk Has Tripled This Year \u2014 and Just Passed Meta's",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/bonds/26/10/62623350/nvidia-credit-risk-cds-tripled-passes-meta-coreweave"
+  },
+  {
+   "time": "10-27 10:37",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Earnings Prediction Market Preview: What Will Ryan McInerney Say?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62622891/visa-earnings-preview"
+  },
+  {
+   "time": "10-27 10:36",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "'Meta\u2019s $25 Billion Stock Sale Ended Five Times Oversubscribed' - Bloomberg",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62622805/meta-s-25-billion-stock-sale-ended-five-times-oversubscribed-bloomberg"
+  },
+  {
+   "time": "10-27 10:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "UPS Is Making More Money by Shipping Less for Amazon. Can It Keep It Up?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62622636/ups-amazon-shipping-strategy"
+  },
+  {
+   "time": "10-27 10:30",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Here's How Much $1000 Invested In NVIDIA 10 Years Ago Would Be Worth Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62622540/here-s-how-much-1000-invested-nvidia-10-years-ago-would-be-worth-today"
+  },
   {
    "time": "10-27 10:26",
    "symbols": [
