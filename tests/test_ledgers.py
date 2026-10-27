@@ -179,3 +179,27 @@ class ReportsSoonTest(unittest.TestCase):
         self.assertTrue(reports_soon("AAPL", date(2026, 10, 30), cal))   # Friday before a Monday report
         self.assertFalse(reports_soon("AAPL", date(2026, 10, 29), cal))
         self.assertFalse(reports_soon("MSFT", date(2026, 10, 28), cal))
+
+
+class StockChainWidthTest(unittest.TestCase):
+    """Single-stock entries search a strike band wide enough to reach affordable OTM strikes."""
+
+    def test_try_enter_uses_the_wide_band(self):
+        seen = []
+
+        class FakeBot(botmod.Bot):
+            def __init__(self):
+                self.today, self.dry_run, self.underlying = date(2026, 10, 27), True, "SPY"
+                self.config = {"backtest": {"start_equity": 500}}
+                self.state = {"equity_start": 685.0, "risk_per_trade": 0.2}
+
+            def nearest_chain(self, underlying, direction, spot, now, width):
+                seen.append(width)
+                return []
+
+        b = FakeBot()
+        b.try_enter({"id": "catalyst_intraday", "target_delta": 0.2}, {}, "call", 131.3,
+                    datetime(2026, 10, 27, 13, 21, tzinfo=ET), underlying="ORCL")
+        self.assertEqual(seen, [botmod.STOCK_WIDTH])
+        self.assertGreaterEqual(botmod.STOCK_WIDTH, 0.15)
+
