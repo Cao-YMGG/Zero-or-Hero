@@ -1,4 +1,4 @@
-# Headlines since 2026-10-26 16:00 ET (as of 2026-10-27 11:03 ET)
+# Headlines since 2026-10-26 16:00 ET (as of 2026-10-27 11:33 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -12,6 +12,10 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-27 07:31 | UNH | target up | Morgan Stanley Maintains Overweight on UnitedHealth Group, Raises Price Target to $531 |
 | 10-27 06:31 | AAPL | initiate | Apple Initiates Replacement Program for iPhone Duo Units with Display Issues |
 | 10-27 05:55 | VST | target down | B of A Securities Maintains Buy on Vistra, Lowers Price Target to $194 |
+| 10-27 11:23 | META |  | 'Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace' - TechCrunch |
+| 10-27 11:15 | GOOGL |  | If You Invested $1000 In Alphabet Stock 15 Years Ago, You Would Have This Much Today |
+| 10-27 11:13 | MSFT |  | Microsoft Q1 Preview: AI, Cloud Key As Company Eyes 15th Straight Double Beat |
+| 10-27 11:12 | ORCL |  | Reported Earlier: New Mexico Hearing Officer Rejects Bid To Dismiss Project Jupiter Data Center Air Permit Amid Emissions Concerns; Revised Fuel Cell Design Targets 35% Emissions Reduction - Searchlight NewMexico |
 | 10-27 11:01 | HOOD |  | IXS Migrates Token to Robinhood Chain |
 | 10-27 11:01 | GS |  | Goldman Sachs Asset Management Joins Envestnet's Custom Model Solutions Program |
 | 10-27 11:01 | AMD |  | AMD and Meta Expand Strategic Partnership and Announce $1 Billion Investment |

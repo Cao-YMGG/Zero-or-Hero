@@ -1,7 +1,47 @@
 {
- "as_of": "2026-10-27T11:03-04:00",
+ "as_of": "2026-10-27T11:33-04:00",
  "since": "2026-10-26T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-27 11:23",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "'Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace' - TechCrunch",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62625078/meta-ai-director-rohit-patel-leaves-take-microsoft-office-and-google-workspace-techcrunch"
+  },
+  {
+   "time": "10-27 11:15",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "If You Invested $1000 In Alphabet Stock 15 Years Ago, You Would Have This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62624660/if-you-invested-1000-alphabet-stock-15-years-ago-you-would-have-much-today"
+  },
+  {
+   "time": "10-27 11:13",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Q1 Preview: AI, Cloud Key As Company Eyes 15th Straight Double Beat",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/previews/26/10/62624589/microsoft-q1-preview-ai-cloud-key-as-company-eyes-15th-straight-double-beat"
+  },
+  {
+   "time": "10-27 11:12",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Reported Earlier: New Mexico Hearing Officer Rejects Bid To Dismiss Project Jupiter Data Center Air Permit Amid Emissions Concerns; Revised Fuel Cell Design Targets 35% Emissions Reduction - Searchlight NewMexico",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62624545/reported-earlier-new-mexico-hearing-officer-rejects-bid-dismiss-project-jupiter-data-center-air-perm"
+  },
   {
    "time": "10-27 11:01",
    "symbols": [
