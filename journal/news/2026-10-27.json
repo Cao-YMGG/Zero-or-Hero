@@ -1,7 +1,147 @@
 {
- "as_of": "2026-10-27T13:46-04:00",
+ "as_of": "2026-10-27T14:15-04:00",
  "since": "2026-10-26T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-27 14:04",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nate Silver: Iran War Looms Over Senate Fight That Could Mark 'End of the Trump Era'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62631669/nate-silver-iran-war"
+  },
+  {
+   "time": "10-27 14:02",
+   "symbols": [
+    "CRDO"
+   ],
+   "rating": "",
+   "headline": "ams OSRAM Joins Credo-Led OCP Standardization Workstream",
+   "source": "fiscal.ai",
+   "url": "https://www.newswiretoday.com/news/187145/"
+  },
+  {
+   "time": "10-27 14:02",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Announces Strategic Partnership with Ripple",
+   "source": "fiscal.ai",
+   "url": "https://investingnews.com/ripple-and-robinhood-partner-to-power-the-next-generation-of-finance/"
+  },
+  {
+   "time": "10-27 14:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase's Strategic Investment Group Leads $2.1 Billion Funding for Re:Build",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/27/3389070/0/en/re-build-announces-2-1-billion-to-accelerate-america-s-reindustrialization.html"
+  },
+  {
+   "time": "10-27 14:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "J.P. Morgan Asset Management Integrates 55ip Tax Technology into Anthropic's Claude for Financial Advisors",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/jp-morgan-asset-managements-55ip-working-with-anthropic-to-deliver-tax-smart-technology-within-claude-for-financial-advisors-302921009.html"
+  },
+  {
+   "time": "10-27 14:01",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Collaborates with SambaNova to Deploy AI Inference Chips in OCI",
+   "source": "fiscal.ai",
+   "url": "https://www.fidelity.com/news/article/default/202610271230BIZWIRE_USPR_____20261027_BW598375"
+  },
+  {
+   "time": "10-27 14:01",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Expands Fusion Data Intelligence Capabilities",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/oracle-expands-fusion-data-intelligence-with-new-deep-insight-agents-operational-analytics-and-ai-capabilities-302920229.html"
+  },
+  {
+   "time": "10-27 14:01",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Launches AI Security Mesh Powered by OpenAI",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/oracle-advances-enterprise-security-for-the-ai-era-302920207.html"
+  },
+  {
+   "time": "10-27 14:01",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Introduces AI Data Platform Innovation Service",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/oracle-ai-data-platform-brings-ai-assisted-business-context-to-enterprise-ai-302920227.html"
+  },
+  {
+   "time": "10-27 14:01",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel IPU8 Support Merged into Linux 7.4 Kernel",
+   "source": "fiscal.ai",
+   "url": "https://lxer.com/module/newswire/view/368510/index.html"
+  },
+  {
+   "time": "10-27 14:01",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "ExxonMobil Exits Venezuela Operations",
+   "source": "fiscal.ai",
+   "url": "https://energynow.ca/2026/02/whats-the-status-of-international-oil-companies-in-venezuela/"
+  },
+  {
+   "time": "10-27 14:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Releases Emergency .NET Patches for Critical Vulnerabilities",
+   "source": "fiscal.ai",
+   "url": "https://www.securitymagazine.com/articles/102699-microsoft-releases-emergency-net-patches"
+  },
+  {
+   "time": "10-27 14:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Creator Studio Update Adds MotionVFX and AI Assistants",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/x2n4dvt/"
+  },
+  {
+   "time": "10-27 14:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Vera Rubin NVL72 and Vera CPUs Generally Available on Oracle Cloud Infrastructure",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/27/3389428/0/en/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure.html"
+  },
   {
    "time": "10-27 13:24",
    "symbols": [

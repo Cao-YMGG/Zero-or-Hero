@@ -1,4 +1,4 @@
-# Headlines since 2026-10-26 16:00 ET (as of 2026-10-27 13:46 ET)
+# Headlines since 2026-10-26 16:00 ET (as of 2026-10-27 14:15 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -12,6 +12,20 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-27 07:31 | UNH | target up | Morgan Stanley Maintains Overweight on UnitedHealth Group, Raises Price Target to $531 |
 | 10-27 06:31 | AAPL | initiate | Apple Initiates Replacement Program for iPhone Duo Units with Display Issues |
 | 10-27 05:55 | VST | target down | B of A Securities Maintains Buy on Vistra, Lowers Price Target to $194 |
+| 10-27 14:04 | NVDA |  | Nate Silver: Iran War Looms Over Senate Fight That Could Mark 'End of the Trump Era' |
+| 10-27 14:02 | CRDO |  | ams OSRAM Joins Credo-Led OCP Standardization Workstream |
+| 10-27 14:02 | HOOD |  | Robinhood Announces Strategic Partnership with Ripple |
+| 10-27 14:01 | JPM |  | JPMorgan Chase's Strategic Investment Group Leads $2.1 Billion Funding for Re:Build |
+| 10-27 14:01 | JPM |  | J.P. Morgan Asset Management Integrates 55ip Tax Technology into Anthropic's Claude for Financial Advisors |
+| 10-27 14:01 | ORCL |  | Oracle Collaborates with SambaNova to Deploy AI Inference Chips in OCI |
+| 10-27 14:01 | ORCL |  | Oracle Expands Fusion Data Intelligence Capabilities |
+| 10-27 14:01 | ORCL |  | Oracle Launches AI Security Mesh Powered by OpenAI |
+| 10-27 14:01 | ORCL |  | Oracle Introduces AI Data Platform Innovation Service |
+| 10-27 14:01 | INTC |  | Intel IPU8 Support Merged into Linux 7.4 Kernel |
+| 10-27 14:01 | XOM |  | ExxonMobil Exits Venezuela Operations |
+| 10-27 14:01 | MSFT |  | Microsoft Releases Emergency .NET Patches for Critical Vulnerabilities |
+| 10-27 14:01 | AAPL |  | Apple Creator Studio Update Adds MotionVFX and AI Assistants |
+| 10-27 14:01 | NVDA |  | NVIDIA Vera Rubin NVL72 and Vera CPUs Generally Available on Oracle Cloud Infrastructure |
 | 10-27 13:24 | ORCL |  | Cerebras Stock Surges on Oracle Cloud Partnership |
 | 10-27 13:07 | HOOD |  | CFTC Sues Utah To Block State Crackdown On Federally Regulated Prediction Markets, Citing Exclusive Federal Jurisdiction Over Commodity Derivatives Exchanges |
 | 10-27 13:01 | AAPL UNH |  | CNBC Halftime Report Final Trades: Apple, UnitedHealth Group, Delta Air Lines, American Tower |
