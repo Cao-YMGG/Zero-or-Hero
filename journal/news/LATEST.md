@@ -1,4 +1,4 @@
-# Headlines since 2026-10-26 16:00 ET (as of 2026-10-27 13:15 ET)
+# Headlines since 2026-10-26 16:00 ET (as of 2026-10-27 13:46 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -12,6 +12,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-27 07:31 | UNH | target up | Morgan Stanley Maintains Overweight on UnitedHealth Group, Raises Price Target to $531 |
 | 10-27 06:31 | AAPL | initiate | Apple Initiates Replacement Program for iPhone Duo Units with Display Issues |
 | 10-27 05:55 | VST | target down | B of A Securities Maintains Buy on Vistra, Lowers Price Target to $194 |
+| 10-27 13:24 | ORCL |  | Cerebras Stock Surges on Oracle Cloud Partnership |
 | 10-27 13:07 | HOOD |  | CFTC Sues Utah To Block State Crackdown On Federally Regulated Prediction Markets, Citing Exclusive Federal Jurisdiction Over Commodity Derivatives Exchanges |
 | 10-27 13:01 | AAPL UNH |  | CNBC Halftime Report Final Trades: Apple, UnitedHealth Group, Delta Air Lines, American Tower |
 | 10-27 13:00 | AMZN GOOGL NVDA |  | Paul Kedrosky Says AI Bubble May Be Hiding in Private Markets as Anthropic IPO Nears |
