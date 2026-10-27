@@ -1,4 +1,4 @@
-# Headlines since 2026-10-26 16:00 ET (as of 2026-10-27 14:46 ET)
+# Headlines since 2026-10-26 16:00 ET (as of 2026-10-27 15:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -12,8 +12,16 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-27 07:31 | UNH | target up | Morgan Stanley Maintains Overweight on UnitedHealth Group, Raises Price Target to $531 |
 | 10-27 06:31 | AAPL | initiate | Apple Initiates Replacement Program for iPhone Duo Units with Display Issues |
 | 10-27 05:55 | VST | target down | B of A Securities Maintains Buy on Vistra, Lowers Price Target to $194 |
+| 10-27 15:01 | ORCL |  | Oracle Launches Oracle Media Fabric for Content Production and Streaming |
+| 10-27 15:01 | ORCL |  | Oracle to Integrate Cerebras Fast Inference into OCI |
+| 10-27 15:01 | ORCL |  | Snowflake AI Data Cloud to Launch as Native Service on Oracle Cloud Infrastructure |
+| 10-27 15:01 | MU |  | Micron Technology Announces Over $67 Million in New Community Investments in Idaho |
+| 10-27 15:01 | AMZN |  | Amazon Business Launches Value Intelligence and Enhanced AI Assistant |
+| 10-27 15:01 | META |  | Meta Expands AI Infrastructure Partnerships with NVIDIA and AMD |
+| 10-27 15:00 | COIN |  | Coinbase, Ripple Pour Millions Into Elections: Could Crypto Voters Swing Tight Congressional Races? |
+| 10-27 14:48 | TSLA |  | Tesla’s New Robotaxi Problem Would Make Most Rivals Jealous |
 | 10-27 14:41 | AMZN |  | Reported Earlier: FCC Approves Amazon Leo's Acquisition Of Globalstar |
-| 10-27 14:38 | WMT |  | "A Rivian Commercial Van Wrapped In Walmart+ Branding Was Spotted On A Car Hauler On Tuesday, The Latest In A String Of Sightings Of The Vans In Other Companies’ Colors That Neither Rivian Nor The Brands Involved Have Confirmed" - EV |
+| 10-27 14:38 | WMT |  | 'A Rivian Commercial Van Wrapped In Walmart+ Branding Was Spotted On A Car Hauler On Tuesday, The Latest In A String Of Sightings Of The Vans In Other Companies’ Colors That Neither Rivian Nor The Brands Involved Have Confirmed' - EV |
 | 10-27 14:23 | AMZN |  | Xylem Stock Plunges to 52-Week Low After Slashing 2026 Profit Outlook |
 | 10-27 14:04 | NVDA |  | Nate Silver: Iran War Looms Over Senate Fight That Could Mark 'End of the Trump Era' |
 | 10-27 14:02 | CRDO |  | ams OSRAM Joins Credo-Led OCP Standardization Workstream |
