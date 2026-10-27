@@ -100,6 +100,9 @@ in EVOLUTION.md.
 28. **catalyst_intraday unaffordable picks (2026-10-26).** INTC's 0.2-delta 10-30 call cost more
    than the $133 budget, so the pick was skipped. Count how often picks are skipped and whether a
    lower-delta fallback (0.10-0.15) would have done better on those days.
+   2026-10-27: ORCL was skipped the same way. Root cause: single-stock chains only searched +-8%
+   of spot, so the cheaper further-OTM strikes were never candidates. PR #83 widens the band to
+   +-15%; keep counting skips.
 
 ## Done
 - **Item 22 (2026-10-25), WEEK43_EXITS.md / SECTORS.md:** (a) sector ETF follow at 10:00 (lead >= 0.8% beyond SPY):
