@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "done": false,
+  "done": true,
   "variants": {
     "claude_bias": {},
     "meta_follow2": {},
@@ -20,9 +20,10 @@
         "entry_price": 1.32,
         "peak": 1.85,
         "qty": 1,
-        "last": 1.01,
-        "last_time": "2026-10-28T15:16:38-04:00"
-      }
+        "last": 1.28,
+        "last_time": "2026-10-28T15:45:26-04:00"
+      },
+      "hold": true
     },
     "spy_open_drive": {},
     "spy_open_drive_wide": {},
