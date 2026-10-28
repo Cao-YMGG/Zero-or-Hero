@@ -1,36 +1,22 @@
 {
-  "date": "2026-10-27",
-  "done": true,
+  "date": "2026-10-28",
+  "done": false,
   "variants": {
     "claude_bias": {},
     "meta_follow2": {},
-    "leader_follow": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "megacap_reclaim": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
+    "leader_follow": {},
+    "megacap_reclaim": {},
     "rebound_scanner": {},
     "rebound_scanner_wide": {},
     "nvda_gapdown_put": {},
-    "catalyst_open": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "catalyst_intraday": {
-      "attempts": 3
-    },
+    "catalyst_open": {},
+    "catalyst_intraday": {},
     "spy_open_drive": {},
     "spy_open_drive_wide": {},
     "stock_open_drive": {}
   },
   "generation": 1,
-  "equity_start": 684.1100000000006,
+  "equity_start": 727.8300000000017,
   "phase": "zero-or-hero",
   "risk_per_trade": 0.2,
   "champion": "rebound_scanner",
@@ -58,15 +44,12 @@
     "leader_follow": {
       "equity": 342.0,
       "generation": 1,
-      "paused": true
+      "paused": false
     },
     "megacap_reclaim": {
-      "equity": 331.0,
+      "equity": 319.0,
       "generation": 1,
-      "paused": false
+      "paused": true
     }
-  },
-  "real_underlyings": [
-    "AVGO"
-  ]
+  }
 }

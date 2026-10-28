@@ -1,7 +1,217 @@
 {
- "as_of": "2026-10-28T08:55-04:00",
+ "as_of": "2026-10-28T10:02-04:00",
  "since": "2026-10-27T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-28 09:53",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Eyes Another Big Year After Record Revenue, Wall Street Turns More Bullish",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/large-cap/26/10/62656399/visa-eyes-another-big-year-after-record-revenue-wall-street-turns-more-bullish"
+  },
+  {
+   "time": "10-28 09:32",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "",
+   "headline": "Wells Fargo Adjusts Price Target on Vistra to $198 From $212",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/wells-fargo-adjusts-price-target-on-vistra-to-198-from-212-ce785cd2dc81f022"
+  },
+  {
+   "time": "10-28 09:32",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "",
+   "headline": "Scotiabank Adjusts Price Target on Vistra to $189 From $207",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/scotiabank-adjusts-price-target-on-vistra-to-189-from-207-ce785cd2dc80f72c"
+  },
+  {
+   "time": "10-28 09:32",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Analysts Adjust Robinhood Markets Price Targets Following Q3 Results",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/keefe-bruyette-woods-adjusts-robinhood-markets-pt-to-105-from-115-ce785cd2dc8ff426"
+  },
+  {
+   "time": "10-28 09:31",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Coinbase Adds Support for Ripple's RLUSD Stablecoin",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/flash/1002652670/coinbase-global-starting-today-retail-institutional-clients-can-trade-manage"
+  },
+  {
+   "time": "10-28 09:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Joins Equilend's 1Source DLT Platform",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/equilends-1source-dlt-adds-goldman-sachs-302922167.html"
+  },
+  {
+   "time": "10-28 09:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase's New York Headquarters Valued at Estimated $6 Billion",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/jpmorgan-chase-s-new-york-headquarters-carries-estimated-6-billion-price-tag-ce785cd2da80f525"
+  },
+  {
+   "time": "10-28 09:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft and Dayforce Expand Strategic Collaboration",
+   "source": "fiscal.ai",
+   "url": "https://techrseries.com/human-capital-management/dayforce-expands-ai-collaboration-with-microsoft-across-hr-finance-and-operations/"
+  },
+  {
+   "time": "10-28 09:31",
+   "symbols": [
+    "HD"
+   ],
+   "rating": "",
+   "headline": "Kreate Launches New Waste and Recycling Collection for Home Depot's HDX and Husky Brands",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/kreate-expands-the-home-depots-hdx-and-husky-lines-with-new-waste-and-recycling-solutions-302921175.html"
+  },
+  {
+   "time": "10-28 09:31",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "Caterpillar Inc. Reports Third Quarter 2026 Financial Results",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.net/nachricht/aktien/tagesvorschau-donnerstag-29-oktober-vorlaeufige-fassung-16014613"
+  },
+  {
+   "time": "10-28 09:31",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "Susquehanna Adjusts Price Target on Advanced Micro Devices to $650 From $620",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/susquehanna-adjusts-price-target-on-advanced-micro-devices-to-650-from-620-ce785cd2dc8cf020"
+  },
+  {
+   "time": "10-28 09:31",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly Announces Positive Phase 3 Results for Retatrutide in Type 2 Diabetes",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/lillys-retatrutide-delivered-greater-a1c-reduction-and-more-than-double-the-weight-loss-of-ozempics-highest-approved-dose-in-head-to-head-trial-302921328.html"
+  },
+  {
+   "time": "10-28 09:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Verisk Integrates Insurance Intelligence into Amazon AI Platforms",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/28/3390153/0/en/verisk-brings-its-proprietary-insurance-intelligence-to-amazon-and-microsoft-ai-platforms-expands-offerings-within-claude.html"
+  },
+  {
+   "time": "10-28 09:31",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Teases Redesigned MacBook Pro Launch",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/3canuxq/"
+  },
+  {
+   "time": "10-28 09:25",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly Says Retatrutide Delivers More Than Double Ozempic\u2019s Weight Loss in Late-Stage Diabetes Trial",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/10/62654661/eli-lilly-says-retatrutide-delivers-more-than-double-ozempics-weight-loss-in-late-stage-diabetes-trial"
+  },
+  {
+   "time": "10-28 09:22",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "target down",
+   "headline": "Wells Fargo Maintains Equal-Weight on Robinhood Markets, Lowers Price Target to $100",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62654479/wells-fargo-maintains-equal-weight-robinhood-markets-lowers-price-target-100"
+  },
+  {
+   "time": "10-28 09:14",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "'Top Treasury trade official leaving for Netflix' - Axios",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62653904/top-treasury-trade-official-leaving-netflix-axios"
+  },
+  {
+   "time": "10-28 09:10",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank Of America Opens First Financial Centers In Wisconsin, Sets 2027 Entry Into Alabama & Louisiana; Plans 19 Financial Centers Across Wisconsin Through 2030, Creating Nearly 130 New Jobs; To Open 10 Financial Centers Across Alabama Beginning In Q1 2027 & 8 In Greater New Orleans In H2 2027; Plans To Open About 50 New Financial Centers A Year",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62653700/bank-america-opens-first-financial-centers-wisconsin-sets-2027-entry-alabama-louisiana-plans-19-fina"
+  },
+  {
+   "time": "10-28 09:06",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "F5 And Oracle Collaborate To Bring Next-Gen Web Application And API Protection To Customers Running Applications On Oracle Cloud Infrastructure",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62653283/f5-and-oracle-collaborate-bring-next-gen-web-application-and-api-protection-customers-running-applic"
+  },
+  {
+   "time": "10-28 08:57",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Analysts Increase Their Forecasts Following Upbeat Q3 Earnings",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62652659/visa-analysts-increase-their-forecasts-following-upbeat-q3-earnings"
+  },
+  {
+   "time": "10-28 08:53",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova Q3 2026 Earnings Call Transcript",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62652519/ge-vernova-q3-2026-earnings-call-transcript"
+  },
   {
    "time": "10-28 08:53",
    "symbols": [

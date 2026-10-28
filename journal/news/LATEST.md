@@ -1,9 +1,10 @@
-# Headlines since 2026-10-27 16:00 ET (as of 2026-10-28 08:55 ET)
+# Headlines since 2026-10-27 16:00 ET (as of 2026-10-28 10:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-28 09:22 | HOOD | target down | Wells Fargo Maintains Equal-Weight on Robinhood Markets, Lowers Price Target to $100 |
 | 10-28 08:53 | STX | target down | TD Cowen Maintains Buy on Seagate Technology Hldgs, Lowers Price Target to $900 |
 | 10-28 08:43 | HOOD | target down | Scotiabank Maintains Sector Outperform on Robinhood Markets, Lowers Price Target to $124 |
 | 10-28 08:40 | V | target up | Oppenheimer Maintains Outperform on Visa, Raises Price Target to $440 |
@@ -23,6 +24,26 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-28 06:31 | JPM | rating | JPMorgan Chase Maintains Overweight Rating on Symrise |
 | 10-28 06:31 | HOOD | target down | Needham Maintains Buy on Robinhood Markets, Lowers Price Target to $116 |
 | 10-27 19:01 | AVGO | upgrade | D.A. Davidson Upgrades Broadcom to Buy |
+| 10-28 09:53 | V |  | Visa Eyes Another Big Year After Record Revenue, Wall Street Turns More Bullish |
+| 10-28 09:32 | VST |  | Wells Fargo Adjusts Price Target on Vistra to $198 From $212 |
+| 10-28 09:32 | VST |  | Scotiabank Adjusts Price Target on Vistra to $189 From $207 |
+| 10-28 09:32 | HOOD |  | Analysts Adjust Robinhood Markets Price Targets Following Q3 Results |
+| 10-28 09:31 | COIN |  | Coinbase Adds Support for Ripple's RLUSD Stablecoin |
+| 10-28 09:31 | GS |  | Goldman Sachs Joins Equilend's 1Source DLT Platform |
+| 10-28 09:31 | JPM |  | JPMorgan Chase's New York Headquarters Valued at Estimated $6 Billion |
+| 10-28 09:31 | MSFT |  | Microsoft and Dayforce Expand Strategic Collaboration |
+| 10-28 09:31 | HD |  | Kreate Launches New Waste and Recycling Collection for Home Depot's HDX and Husky Brands |
+| 10-28 09:31 | CAT |  | Caterpillar Inc. Reports Third Quarter 2026 Financial Results |
+| 10-28 09:31 | AMD |  | Susquehanna Adjusts Price Target on Advanced Micro Devices to $650 From $620 |
+| 10-28 09:31 | LLY |  | Eli Lilly Announces Positive Phase 3 Results for Retatrutide in Type 2 Diabetes |
+| 10-28 09:31 | AMZN |  | Verisk Integrates Insurance Intelligence into Amazon AI Platforms |
+| 10-28 09:31 | AAPL |  | Apple Teases Redesigned MacBook Pro Launch |
+| 10-28 09:25 | LLY |  | Eli Lilly Says Retatrutide Delivers More Than Double Ozempic’s Weight Loss in Late-Stage Diabetes Trial |
+| 10-28 09:14 | NFLX |  | 'Top Treasury trade official leaving for Netflix' - Axios |
+| 10-28 09:10 | BAC |  | Bank Of America Opens First Financial Centers In Wisconsin, Sets 2027 Entry Into Alabama & Louisiana; Plans 19 Financial Centers Across Wisconsin Through 2030, Creating Nearly 130 New Jobs; To Open 10 Financial Centers Across Alabama Beginning In Q1 2027 & 8 In Greater New Orleans In H2 2027; Plans To Open About 50 New Financial Centers A Year |
+| 10-28 09:06 | ORCL |  | F5 And Oracle Collaborate To Bring Next-Gen Web Application And API Protection To Customers Running Applications On Oracle Cloud Infrastructure |
+| 10-28 08:57 | V |  | Visa Analysts Increase Their Forecasts Following Upbeat Q3 Earnings |
+| 10-28 08:53 | GEV |  | GE Vernova Q3 2026 Earnings Call Transcript |
 | 10-28 08:49 | PLTR TSLA |  | ‘Evil Is Better Than Bad’ — Peter Thiel's Unsettling Defense of Elon Musk |
 | 10-28 08:46 | STX |  | These Analysts Revise Their Forecasts On Seagate After Q1 Results |
 | 10-28 08:31 | HOOD |  | Robinhood Stock Tumbles Over 6%: What's Happening? |
