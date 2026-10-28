@@ -1,7 +1,39 @@
 {
- "as_of": "2026-10-28T12:32-04:00",
+ "as_of": "2026-10-28T13:15-04:00",
  "since": "2026-10-27T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-28 13:04",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "target down",
+   "headline": "Scotiabank Maintains Sector Outperform on Vistra, Lowers Price Target to $189",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62666106/scotiabank-maintains-sector-outperform-vistra-lowers-price-target-189"
+  },
+  {
+   "time": "10-28 13:01",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "CNBC Halftime Report Final Trades: Tesla, Nutrien, RTX",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/RTX"
+  },
+  {
+   "time": "10-28 12:40",
+   "symbols": [
+    "AVGO",
+    "MU",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Live On CNBC, Bill Baruch Announces Trimmed Nvidia Position; Trimmed Micron Technology; Trimmed Broadcom",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/NVDA"
+  },
   {
    "time": "10-28 12:23",
    "symbols": [

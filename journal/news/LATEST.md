@@ -1,9 +1,10 @@
-# Headlines since 2026-10-27 16:00 ET (as of 2026-10-28 12:32 ET)
+# Headlines since 2026-10-27 16:00 ET (as of 2026-10-28 13:15 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-28 13:04 | VST | target down | Scotiabank Maintains Sector Outperform on Vistra, Lowers Price Target to $189 |
 | 10-28 12:08 | V | target up | Barclays Maintains Overweight on Visa, Raises Price Target to $440 |
 | 10-28 11:49 | HOOD | target down | Barclays Maintains Overweight on Robinhood Markets, Lowers Price Target to $115 |
 | 10-28 11:21 | VST | target down | Wells Fargo Maintains Overweight on Vistra, Lowers Price Target to $198 |
@@ -30,6 +31,8 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-28 06:31 | JPM | rating | JPMorgan Chase Maintains Overweight Rating on Symrise |
 | 10-28 06:31 | HOOD | target down | Needham Maintains Buy on Robinhood Markets, Lowers Price Target to $116 |
 | 10-27 19:01 | AVGO | upgrade | D.A. Davidson Upgrades Broadcom to Buy |
+| 10-28 13:01 | TSLA |  | CNBC Halftime Report Final Trades: Tesla, Nutrien, RTX |
+| 10-28 12:40 | AVGO MU NVDA |  | Live On CNBC, Bill Baruch Announces Trimmed Nvidia Position; Trimmed Micron Technology; Trimmed Broadcom |
 | 10-28 12:23 | STX WDC |  | Seagate Technology’s Solid Q1 Results Fall Short Of High Expectations; Guidance Reflects ‘Steep Slowdown’ |
 | 10-28 12:15 | HD |  | Here's How Much $100 Invested In Home Depot 15 Years Ago Would Be Worth Today |
 | 10-28 12:07 | AMZN |  | Amazon Q3 Earnings Preview: All Eyes on AWS After Posting Best Growth in Years in Q2 |
