@@ -1,9 +1,11 @@
-# Headlines since 2026-10-27 16:00 ET (as of 2026-10-28 11:02 ET)
+# Headlines since 2026-10-27 16:00 ET (as of 2026-10-28 11:32 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-28 11:21 | VST | target down | Wells Fargo Maintains Overweight on Vistra, Lowers Price Target to $198 |
+| 10-28 10:58 | STX | target down | Wells Fargo Maintains Overweight on Seagate Technology Hldgs, Lowers Price Target to $820 |
 | 10-28 10:32 | V | target up | Piper Sandler Maintains Overweight on Visa, Raises Price Target to $479 |
 | 10-28 10:07 | V | target up | Evercore ISI Group Maintains In-Line on Visa, Raises Price Target to $405 |
 | 10-28 09:22 | HOOD | target down | Wells Fargo Maintains Equal-Weight on Robinhood Markets, Lowers Price Target to $100 |
@@ -26,12 +28,21 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-28 06:31 | JPM | rating | JPMorgan Chase Maintains Overweight Rating on Symrise |
 | 10-28 06:31 | HOOD | target down | Needham Maintains Buy on Robinhood Markets, Lowers Price Target to $116 |
 | 10-27 19:01 | AVGO | upgrade | D.A. Davidson Upgrades Broadcom to Buy |
+| 10-28 11:25 | GEV |  | 'Venezuela Grid Repairs Stalled by Payment Delay, GE Vernova Says' - Bloomberg Exclusive |
+| 10-28 11:20 | AMZN |  | 'Amazon cuts more jobs, in devices unit, after flurry of product rollouts' - Reuters |
+| 10-28 11:14 | NVDA |  | NVIDIA Launches Nemotron 3.5 Transcribe And Granary v2 On Hugging Face, Delivering Open-Weight AI For 40-Language Transcription, Translation And Speaker Identification |
+| 10-28 11:13 | NVDA |  | NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools And Games |
+| 10-28 11:12 | AMZN |  | Amazon Rolls Out Alexa+ In Japan |
+| 10-28 11:10 | AMZN |  | United Launch Alliance To Send 40 Amazon Leo Satellites To Low Earth Orbit With Liftoff Targeted For Nov. 13 |
+| 10-28 11:07 | CVX |  | TotalEnergies Expands US Exploration Footprint With 26 Offshore Leases |
+| 10-28 11:05 | MSFT |  | Microsoft Earnings Top Item to Watch for AI Stocks: Dan Ives Says 'Most Important Print of the Week' |
 | 10-28 11:01 | MSFT |  | Verisk Integrates Insurance Intelligence with Microsoft Copilot |
 | 10-28 11:01 | AMZN |  | iBusiness Funding Expands SBA Financing Access for Amazon Sellers |
 | 10-28 11:01 | AMZN |  | Amazon Unveils Three New Echo Devices Including 'Echo Time' |
 | 10-28 11:01 | META |  | Meta and Snap Face Trial Over Teen Mental Health Claims |
 | 10-28 11:01 | AAPL |  | Apple Increases Education Store Pricing for MacBook Neo |
 | 10-28 11:01 | PLTR |  | BMO Asset Management Launches BMO Autocallable Income Palantir ETF |
+| 10-28 11:00 | GOOGL |  | Alphabet Has a Strange AI Problem: Success Threatens Its Biggest Money Machine |
 | 10-28 10:53 | GEV |  | GE Vernova Stock Slides After A Blowout Quarter—Is Trench Deal The Real Story? |
 | 10-28 10:45 | SMCI |  | Super Micro Earnings Due Next Week: Here's What to Watch |
 | 10-28 10:31 | AMD MSFT |  | Microsoft Earnings Prediction Market Preview: What Will Satya Nadella Say? |

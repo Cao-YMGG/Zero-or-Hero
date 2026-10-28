@@ -1,7 +1,97 @@
 {
- "as_of": "2026-10-28T11:02-04:00",
+ "as_of": "2026-10-28T11:32-04:00",
  "since": "2026-10-27T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-28 11:25",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "'Venezuela Grid Repairs Stalled by Payment Delay, GE Vernova Says' - Bloomberg Exclusive",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62661708/venezuela-grid-repairs-stalled-payment-delay-ge-vernova-says-bloomberg-exclusive"
+  },
+  {
+   "time": "10-28 11:21",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "target down",
+   "headline": "Wells Fargo Maintains Overweight on Vistra, Lowers Price Target to $198",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62661542/wells-fargo-maintains-overweight-vistra-lowers-price-target-198"
+  },
+  {
+   "time": "10-28 11:20",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "'Amazon cuts more jobs, in devices unit, after flurry of product rollouts' - Reuters",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62661467/amazon-cuts-more-jobs-devices-unit-after-flurry-product-rollouts-reuters"
+  },
+  {
+   "time": "10-28 11:14",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Launches Nemotron 3.5 Transcribe And Granary v2 On Hugging Face, Delivering Open-Weight AI For 40-Language Transcription, Translation And Speaker Identification",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62661219/nvidia-launches-nemotron-3-5-transcribe-and-granary-v2-hugging-face-delivering-open-weight-ai-40-lan"
+  },
+  {
+   "time": "10-28 11:13",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools And Games",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62661188/nvidia-rtx-spark-windows-laptops-gain-new-models-agent-tools-and-games"
+  },
+  {
+   "time": "10-28 11:12",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Rolls Out Alexa+ In Japan",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62661143/amazon-rolls-out-alexa-japan"
+  },
+  {
+   "time": "10-28 11:10",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "United Launch Alliance To Send 40 Amazon Leo Satellites To Low Earth Orbit With Liftoff Targeted For Nov. 13",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62661036/united-launch-alliance-send-40-amazon-leo-satellites-low-earth-orbit-liftoff-targeted-nov-13"
+  },
+  {
+   "time": "10-28 11:07",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "TotalEnergies Expands US Exploration Footprint With 26 Offshore Leases",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/large-cap/26/10/62660864/totalenergies-expands-us-exploration-footprint-with-26-offshore-leases"
+  },
+  {
+   "time": "10-28 11:05",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Earnings Top Item to Watch for AI Stocks: Dan Ives Says 'Most Important Print of the Week'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62660730/microsoft-earnings-top-item-to-watch-for-ai-stocks-dan-ives-says-most-important-print-of-the-week"
+  },
   {
    "time": "10-28 11:01",
    "symbols": [
@@ -61,6 +151,26 @@
    "headline": "BMO Asset Management Launches BMO Autocallable Income Palantir ETF",
    "source": "fiscal.ai",
    "url": "https://www.newswire.ca/fr/news-releases/bmo-launches-canada-s-first-single-stock-autocallable-income-etfs-880304531.html"
+  },
+  {
+   "time": "10-28 11:00",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet Has a Strange AI Problem: Success Threatens Its Biggest Money Machine",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/gaming/26/10/62660431/alphabet-has-a-strange-ai-problem-success-threatens-its-biggest-money-machine"
+  },
+  {
+   "time": "10-28 10:58",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "target down",
+   "headline": "Wells Fargo Maintains Overweight on Seagate Technology Hldgs, Lowers Price Target to $820",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62660316/wells-fargo-maintains-overweight-seagate-technology-hldgs-lowers-price-target-820"
   },
   {
    "time": "10-28 10:53",
