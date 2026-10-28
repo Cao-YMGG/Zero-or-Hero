@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-28",
+  "picks": [
+    {
+      "time": "13:18",
+      "symbol": "AMAT",
+      "direction": "call",
+      "confidence": 0.3,
+      "catalyst": "Same-day sector catalyst for chip equipment: SK Hynix's record quarter (80% operating margin, demand above supply through 2030, long-term deals for over half of 2027-28 capacity) came with a plan to raise capital spending significantly from 2026 levels. AMAT is the strongest large-cap chip-equipment name today: 414.4 at 13:18, +4.7% on the day and +2.7% from the 403.35 open, near the 415.99 high (ASML +1.5%). No AMAT headline of its own; FOMC decision at 14:00 is the risk. Reports in November",
+      "catalyst_type": "sector_move"
+    }
+  ]
+}
