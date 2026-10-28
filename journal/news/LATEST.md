@@ -1,4 +1,4 @@
-# Headlines since 2026-10-27 16:00 ET (as of 2026-10-28 13:45 ET)
+# Headlines since 2026-10-27 16:00 ET (as of 2026-10-28 14:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -32,6 +32,17 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-28 06:31 | JPM | rating | JPMorgan Chase Maintains Overweight Rating on Symrise |
 | 10-28 06:31 | HOOD | target down | Needham Maintains Buy on Robinhood Markets, Lowers Price Target to $116 |
 | 10-27 19:01 | AVGO | upgrade | D.A. Davidson Upgrades Broadcom to Buy |
+| 10-28 14:03 | AMZN GOOGL |  | American Electric Power CEO Sees Once-In-A-Generation Opportunity in Electricity Demand |
+| 10-28 14:02 | VST |  | Analyst Price Target Adjustments for Vistra Corp. |
+| 10-28 14:01 | GS |  | Goldman Sachs Beverage Bytes Survey Indicates C-Store Retailer Optimism |
+| 10-28 14:01 | CRM |  | Salesforce Enters Carbon Credit Offtake Agreement with Mitti Labs |
+| 10-28 14:01 | V |  | Visa Increases Quarterly Cash Dividend by 16% |
+| 10-28 14:01 | BAC |  | Bank of America Expands Financial Center Network |
+| 10-28 14:01 | MU |  | Micron Biomedical Appoints Anand Subramony as Executive Vice President |
+| 10-28 14:01 | AAPL |  | Apple Announces Redesigned MacBook Pro with Touchscreen and OLED Display |
+| 10-28 14:01 | CAT |  | Engine Technology Forum Announces Webinar Featuring Caterpillar and Other Industry Leaders |
+| 10-28 14:01 | WMT |  | Walmart Announces 2026 Holiday Meal Basket |
+| 10-28 14:01 | TSLA |  | CFTC Approves Rothera to List KPI Swaps Tied to Tesla Performance |
 | 10-28 13:42 | PLTR |  | Why Is Palantir Stock Falling on Wednesday? |
 | 10-28 13:41 | INTC |  | Intel Q3 Earnings Preview: Stock Down 34% From Highs, Could a Rally Get President Trump to Highlight Shares? |
 | 10-28 13:36 | AMZN AVGO GOOGL |  | Steve Eisman Says Anthropic Left Q3 Figures Out of IPO Filing on Purpose: 'Very Intentional' |

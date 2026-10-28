@@ -1,7 +1,118 @@
 {
- "as_of": "2026-10-28T13:45-04:00",
+ "as_of": "2026-10-28T14:16-04:00",
  "since": "2026-10-27T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-28 14:03",
+   "symbols": [
+    "AMZN",
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "American Electric Power CEO Sees Once-In-A-Generation Opportunity in Electricity Demand",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62668264/american-electric-power-ceo-sees-once-in-a-generation-opportunity-in-electricity-demand"
+  },
+  {
+   "time": "10-28 14:02",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "",
+   "headline": "Analyst Price Target Adjustments for Vistra Corp.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/jpmorgan-adjusts-vistra-price-target-to-228-from-231-ce785cd2d089f023"
+  },
+  {
+   "time": "10-28 14:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Beverage Bytes Survey Indicates C-Store Retailer Optimism",
+   "source": "fiscal.ai",
+   "url": "https://www.brewbound.com/news/c-store-retailers-feeling-optimistic-about-beer-to-close-2026-craft-to-lose-shelf-space-to-rtds-in-2027-per-goldman-sachs"
+  },
+  {
+   "time": "10-28 14:01",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce Enters Carbon Credit Offtake Agreement with Mitti Labs",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/mitti-labs--salesforce-partner-to-scale-water-saving-rice-farming-practices-that-reduce-methane-emissions-302919088.html"
+  },
+  {
+   "time": "10-28 14:01",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Increases Quarterly Cash Dividend by 16%",
+   "source": "fiscal.ai",
+   "url": "https://www.baystreet.ca/stockstowatch/24291/Mid-Week-Hot-Stocks-Include-Visa-NXP-and-Robinhood"
+  },
+  {
+   "time": "10-28 14:01",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank of America Expands Financial Center Network",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/bank-of-america-opens-first-financial-centers-in-wisconsin-sets-2027-entry-into-alabama-and-louisiana-302922113.html"
+  },
+  {
+   "time": "10-28 14:01",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Micron Biomedical Appoints Anand Subramony as Executive Vice President",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/28/3390046/0/en/micron-biomedical-appoints-anand-subramony-ph-d-as-executive-vice-president-global-product-development-and-combination-product-commercialization.html"
+  },
+  {
+   "time": "10-28 14:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Announces Redesigned MacBook Pro with Touchscreen and OLED Display",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/zod8kwv/"
+  },
+  {
+   "time": "10-28 14:01",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "Engine Technology Forum Announces Webinar Featuring Caterpillar and Other Industry Leaders",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/28/3390283/0/en/webinar-to-explore-how-gas-and-diesel-engines-have-powered-america-s-past-and-what-lies-ahead.html"
+  },
+  {
+   "time": "10-28 14:01",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart Announces 2026 Holiday Meal Basket",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/press-releases/8497095/walmart-meal-basket-serves-10-for-35-3-50-per-person1-helping-families-celebrate-all-season-long"
+  },
+  {
+   "time": "10-28 14:01",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "CFTC Approves Rothera to List KPI Swaps Tied to Tesla Performance",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/rothera-receives-cftc-approval-for-first-kpi-swap-302922230.html"
+  },
   {
    "time": "10-28 13:42",
    "symbols": [
