@@ -1,7 +1,27 @@
 {
- "as_of": "2026-10-28T14:16-04:00",
+ "as_of": "2026-10-28T14:29-04:00",
  "since": "2026-10-27T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-28 14:18",
+   "symbols": [
+    "V"
+   ],
+   "rating": "target up",
+   "headline": "BMO Capital Maintains Outperform on Visa, Raises Price Target to $438",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62668862/bmo-capital-maintains-outperform-visa-raises-price-target-438"
+  },
+  {
+   "time": "10-28 14:16",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Gets $160 Bernstein Target as \u2018Infrastructure Business\u2019 Shift Offsets Q4 Concerns",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62668791/robinhood-gets-160-bernstein-target-as-infrastructure-business-shift-offsets-q4-concerns"
+  },
   {
    "time": "10-28 14:03",
    "symbols": [

@@ -1,9 +1,10 @@
-# Headlines since 2026-10-27 16:00 ET (as of 2026-10-28 14:16 ET)
+# Headlines since 2026-10-27 16:00 ET (as of 2026-10-28 14:29 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-28 14:18 | V | target up | BMO Capital Maintains Outperform on Visa, Raises Price Target to $438 |
 | 10-28 13:29 | HOOD | target down | Goldman Sachs Maintains Buy on Robinhood Markets, Lowers Price Target to $128 |
 | 10-28 13:04 | VST | target down | Scotiabank Maintains Sector Outperform on Vistra, Lowers Price Target to $189 |
 | 10-28 12:08 | V | target up | Barclays Maintains Overweight on Visa, Raises Price Target to $440 |
@@ -32,6 +33,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-28 06:31 | JPM | rating | JPMorgan Chase Maintains Overweight Rating on Symrise |
 | 10-28 06:31 | HOOD | target down | Needham Maintains Buy on Robinhood Markets, Lowers Price Target to $116 |
 | 10-27 19:01 | AVGO | upgrade | D.A. Davidson Upgrades Broadcom to Buy |
+| 10-28 14:16 | HOOD |  | Robinhood Gets $160 Bernstein Target as ‘Infrastructure Business’ Shift Offsets Q4 Concerns |
 | 10-28 14:03 | AMZN GOOGL |  | American Electric Power CEO Sees Once-In-A-Generation Opportunity in Electricity Demand |
 | 10-28 14:02 | VST |  | Analyst Price Target Adjustments for Vistra Corp. |
 | 10-28 14:01 | GS |  | Goldman Sachs Beverage Bytes Survey Indicates C-Store Retailer Optimism |
