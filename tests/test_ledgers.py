@@ -203,3 +203,34 @@ class StockChainWidthTest(unittest.TestCase):
         self.assertEqual(seen, [botmod.STOCK_WIDTH])
         self.assertGreaterEqual(botmod.STOCK_WIDTH, 0.15)
 
+
+
+class EntryRetryTest(unittest.TestCase):
+    """An entry unfilled at the ask is retried once at a fresh ask within ENTRY_RETRY_SLACK."""
+
+    def _buy(self, fresh_ask):
+        orders = []
+
+        class Api:
+            def option_snapshots(self, symbols):
+                return {symbols[0]: {"latestQuote": {"ap": fresh_ask, "bp": 1.0}}}
+
+        class FakeBot(botmod.Bot):
+            def __init__(self):
+                self.api = Api()
+
+            def _order(self, symbol, qty, side, kind, tag, limit=None):
+                orders.append((tag, limit))
+                return (0, None) if tag == "in" else (qty, limit)
+
+        return FakeBot()._buy_entry("AMAT261030C00445000", 1, 1.32), orders
+
+    def test_retries_at_the_fresh_ask(self):
+        result, orders = self._buy(1.38)
+        self.assertEqual(orders, [("in", 1.32), ("in2", 1.38)])
+        self.assertEqual(result, (1, 1.38))
+
+    def test_no_retry_when_the_ask_ran_away(self):
+        result, orders = self._buy(1.60)
+        self.assertEqual(orders, [("in", 1.32)])
+        self.assertEqual(result, (0, None))
