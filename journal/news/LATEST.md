@@ -1,4 +1,4 @@
-# Headlines since 2026-10-27 16:00 ET (as of 2026-10-28 14:46 ET)
+# Headlines since 2026-10-27 16:00 ET (as of 2026-10-28 15:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -33,6 +33,16 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-28 06:31 | JPM | rating | JPMorgan Chase Maintains Overweight Rating on Symrise |
 | 10-28 06:31 | HOOD | target down | Needham Maintains Buy on Robinhood Markets, Lowers Price Target to $116 |
 | 10-27 19:01 | AVGO | upgrade | D.A. Davidson Upgrades Broadcom to Buy |
+| 10-28 15:01 | V |  | Analysts Adjust Price Targets for Visa Following Earnings Report |
+| 10-28 15:01 | ORCL |  | Oracle Hosts 2026 Investor Day to Outline Strategic Growth |
+| 10-28 15:01 | GS |  | The Goldman Sachs Group, Inc. Discloses New Position in ASOS PLC |
+| 10-28 15:01 | MSFT |  | Reindeer Joins Microsoft for Startups Pegasus Program |
+| 10-28 15:01 | TSLA |  | BMO Asset Management Launches Autocallable Income Tesla ETF |
+| 10-28 15:01 | PLTR |  | Reports Detail Palantir's Integration into Healthcare Systems |
+| 10-28 15:01 | META |  | Meta Increases Equity Offering to $97.5 Billion for AI Infrastructure |
+| 10-28 14:51 | CRM |  | OpenAI Jumps 32%, Airtable Crashes 56% As Private Market Returns Diverge |
+| 10-28 14:48 | ORCL |  | Oracle CFO Says Capital Needs To Complete Current Investment Cycle Have Been Set At $20 Bln, Split Evenly Between Debt And Equity; Says Company May Begin Executing $20B Financing Plan As Early As Calendar 2026 |
+| 10-28 14:48 | V |  | Analyst Signals Favorable Earnings Setup for Mastercard After Visa's Results |
 | 10-28 14:36 | META |  | Meta Platforms Delaying Indefinitely Rollout Of Its New Commercial Terms; Consultation With Publishers' On This Topic Could Extend Beyond November 20, In Which Case Meta Would Delay Implementation Of Updated Terms; Until Then, Meta's Existing Terms Remain In Place |
 | 10-28 14:32 | NVDA |  | 'U.S. DOJ Examining NVIDIA Acquisition Of AI Platform Hugging Face, Two People Say' - Reuters Exclusive |
 | 10-28 14:30 | ORCL |  | Oracle Targets $30B+ Free Cash Flow In FY29; Reaffirms FY27 Outlook: $90 B+ Revenue, $8.1 Non-Gaap EPS; To Limit Additional Capital Raises To $20B Through FY30; Expects Capital Expenses To Decrease In FY29 Supporting $30B+ Free Cash Flow; To Self-fund Growth Beginning FY29; Net Debt To Adj EBITDA Below 3.5x In FY29 |

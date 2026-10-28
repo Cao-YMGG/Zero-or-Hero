@@ -1,7 +1,107 @@
 {
- "as_of": "2026-10-28T14:46-04:00",
+ "as_of": "2026-10-28T15:16-04:00",
  "since": "2026-10-27T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-28 15:01",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Analysts Adjust Price Targets for Visa Following Earnings Report",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/oppenheimer-adjusts-price-target-on-visa-to-440-from-403-maintains-outperform-rating-ce785cd2df8ef123"
+  },
+  {
+   "time": "10-28 15:01",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Hosts 2026 Investor Day to Outline Strategic Growth",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/oracle-investor-day-2026-accelerating-value-creation-302922564.html"
+  },
+  {
+   "time": "10-28 15:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "The Goldman Sachs Group, Inc. Discloses New Position in ASOS PLC",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/rns/asos--asc/holding-s-in-company/9846113"
+  },
+  {
+   "time": "10-28 15:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Reindeer Joins Microsoft for Startups Pegasus Program",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/reindeer-joins-the-microsoft-for-startups-pegasus-program-and-launches-on-microsoft-marketplace-302922502.html"
+  },
+  {
+   "time": "10-28 15:01",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "BMO Asset Management Launches Autocallable Income Tesla ETF",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.ca/news-releases/bmo-launches-canada-s-first-single-stock-autocallable-income-etfs-880304531.html"
+  },
+  {
+   "time": "10-28 15:01",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Reports Detail Palantir's Integration into Healthcare Systems",
+   "source": "fiscal.ai",
+   "url": "https://www.commondreams.org/news/palantir-medicare-ai-experiment"
+  },
+  {
+   "time": "10-28 15:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Increases Equity Offering to $97.5 Billion for AI Infrastructure",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/2026/10/29/business/foreign-business/meta-increases-equity-offerings-to-975-billion/2456518"
+  },
+  {
+   "time": "10-28 14:51",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "OpenAI Jumps 32%, Airtable Crashes 56% As Private Market Returns Diverge",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/private-markets/26/10/62670039/openai-jumps-32-airtable-crashes-56-as-private-market-returns-diverge"
+  },
+  {
+   "time": "10-28 14:48",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle CFO Says Capital Needs To Complete Current Investment Cycle Have Been Set At $20 Bln, Split Evenly Between Debt And Equity; Says Company May Begin Executing $20B Financing Plan As Early As Calendar 2026",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62669908/oracle-cfo-says-capital-needs-complete-current-investment-cycle-have-been-set-20-bln-split-evenly-be"
+  },
+  {
+   "time": "10-28 14:48",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Analyst Signals Favorable Earnings Setup for Mastercard After Visa's Results",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62669907/analyst-signals-favorable-earnings-setup-for-mastercard-after-visas-results"
+  },
   {
    "time": "10-28 14:36",
    "symbols": [
