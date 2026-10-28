@@ -1,9 +1,10 @@
-# Headlines since 2026-10-27 16:00 ET (as of 2026-10-28 13:15 ET)
+# Headlines since 2026-10-27 16:00 ET (as of 2026-10-28 13:45 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-28 13:29 | HOOD | target down | Goldman Sachs Maintains Buy on Robinhood Markets, Lowers Price Target to $128 |
 | 10-28 13:04 | VST | target down | Scotiabank Maintains Sector Outperform on Vistra, Lowers Price Target to $189 |
 | 10-28 12:08 | V | target up | Barclays Maintains Overweight on Visa, Raises Price Target to $440 |
 | 10-28 11:49 | HOOD | target down | Barclays Maintains Overweight on Robinhood Markets, Lowers Price Target to $115 |
@@ -31,6 +32,13 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-28 06:31 | JPM | rating | JPMorgan Chase Maintains Overweight Rating on Symrise |
 | 10-28 06:31 | HOOD | target down | Needham Maintains Buy on Robinhood Markets, Lowers Price Target to $116 |
 | 10-27 19:01 | AVGO | upgrade | D.A. Davidson Upgrades Broadcom to Buy |
+| 10-28 13:42 | PLTR |  | Why Is Palantir Stock Falling on Wednesday? |
+| 10-28 13:41 | INTC |  | Intel Q3 Earnings Preview: Stock Down 34% From Highs, Could a Rally Get President Trump to Highlight Shares? |
+| 10-28 13:36 | AMZN AVGO GOOGL |  | Steve Eisman Says Anthropic Left Q3 Figures Out of IPO Filing on Purpose: 'Very Intentional' |
+| 10-28 13:35 | GOOGL |  | Alphabet’s $514 Billion Google Cloud Backlog, AI Spending Put 2027 Growth in Focus, Says Analyst |
+| 10-28 13:28 | GOOGL |  | Google Introduces Gemini 4 Carbon: Gemini 4 Carbon Is Our Strongest Model With State-Of-The-Art Cybersecurity And Long Horizon Capabilities. |
+| 10-28 13:25 | AAPL |  | Apple New 14-Inch,  16-Inch MacBook Pro With PROLED XDR Display, Tandem OLED Technology, M5 Pro Chip, Starting At $2,899, $3,399, Respectively |
+| 10-28 13:22 | AAPL |  | Apple Introduced New 14-Inch, 16-Inch MacBook Pro With PROLED XDR Display Featuring Breakthrough Tandem OLED Technology |
 | 10-28 13:01 | TSLA |  | CNBC Halftime Report Final Trades: Tesla, Nutrien, RTX |
 | 10-28 12:40 | AVGO MU NVDA |  | Live On CNBC, Bill Baruch Announces Trimmed Nvidia Position; Trimmed Micron Technology; Trimmed Broadcom |
 | 10-28 12:23 | STX WDC |  | Seagate Technology’s Solid Q1 Results Fall Short Of High Expectations; Guidance Reflects ‘Steep Slowdown’ |

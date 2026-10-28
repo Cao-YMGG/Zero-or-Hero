@@ -1,7 +1,89 @@
 {
- "as_of": "2026-10-28T13:15-04:00",
+ "as_of": "2026-10-28T13:45-04:00",
  "since": "2026-10-27T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-28 13:42",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Why Is Palantir Stock Falling on Wednesday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62667544/why-is-palantir-stock-falling-on-wednesday-3"
+  },
+  {
+   "time": "10-28 13:41",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel Q3 Earnings Preview: Stock Down 34% From Highs, Could a Rally Get President Trump to Highlight Shares?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/previews/26/10/62667492/intel-q3-earnings-preview-stock-down-34-from-highs-could-a-rally-get-president-trump-to-highlight-shares"
+  },
+  {
+   "time": "10-28 13:36",
+   "symbols": [
+    "AMZN",
+    "AVGO",
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Steve Eisman Says Anthropic Left Q3 Figures Out of IPO Filing on Purpose: 'Very Intentional'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62667278/eisman-anthropic-ipo"
+  },
+  {
+   "time": "10-28 13:35",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet\u2019s $514 Billion Google Cloud Backlog, AI Spending Put 2027 Growth in Focus, Says Analyst",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62667232/alphabets-514-billion-google-cloud-backlog-ai-spending-put-2027-growth-in-focus-says-analyst"
+  },
+  {
+   "time": "10-28 13:29",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "target down",
+   "headline": "Goldman Sachs Maintains Buy on Robinhood Markets, Lowers Price Target to $128",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62667062/goldman-sachs-maintains-buy-robinhood-markets-lowers-price-target-128"
+  },
+  {
+   "time": "10-28 13:28",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Google Introduces Gemini 4 Carbon: Gemini 4 Carbon Is Our Strongest Model With State-Of-The-Art Cybersecurity And Long Horizon Capabilities.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62667030/google-introduces-gemini-4-carbon-gemini-4-carbon-our-strongest-model-state-art-cybersecurity-and-lo"
+  },
+  {
+   "time": "10-28 13:25",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple New 14-Inch,  16-Inch MacBook Pro With PROLED XDR Display, Tandem OLED Technology, M5 Pro Chip, Starting At $2,899, $3,399, Respectively",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AAPL"
+  },
+  {
+   "time": "10-28 13:22",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Introduced New 14-Inch, 16-Inch MacBook Pro With PROLED XDR Display Featuring Breakthrough Tandem OLED Technology",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AAPL"
+  },
   {
    "time": "10-28 13:04",
    "symbols": [
