@@ -1,7 +1,108 @@
 {
- "as_of": "2026-10-28T10:32-04:00",
+ "as_of": "2026-10-28T11:02-04:00",
  "since": "2026-10-27T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-28 11:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Verisk Integrates Insurance Intelligence with Microsoft Copilot",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/28/3390153/0/en/verisk-brings-its-proprietary-insurance-intelligence-to-amazon-and-microsoft-ai-platforms-expands-offerings-within-claude.html"
+  },
+  {
+   "time": "10-28 11:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "iBusiness Funding Expands SBA Financing Access for Amazon Sellers",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/ibusiness-funding-expands-access-to-sba-financing-for-amazon-sellers--offered-through-amazon-seller-central-302921220.html"
+  },
+  {
+   "time": "10-28 11:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Unveils Three New Echo Devices Including 'Echo Time'",
+   "source": "fiscal.ai",
+   "url": "https://www.cgmagonline.com/news/amazon-echo-reveals-3-new-devices-including-the-brands-first-echo-time/"
+  },
+  {
+   "time": "10-28 11:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta and Snap Face Trial Over Teen Mental Health Claims",
+   "source": "fiscal.ai",
+   "url": "https://ucapital.com/en/news/breaking/17706070"
+  },
+  {
+   "time": "10-28 11:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Increases Education Store Pricing for MacBook Neo",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/gnibw4u/"
+  },
+  {
+   "time": "10-28 11:01",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "BMO Asset Management Launches BMO Autocallable Income Palantir ETF",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.ca/fr/news-releases/bmo-launches-canada-s-first-single-stock-autocallable-income-etfs-880304531.html"
+  },
+  {
+   "time": "10-28 10:53",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova Stock Slides After A Blowout Quarter\u2014Is Trench Deal The Real Story?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62659948/ge-vernova-stock-slides-after-a-blowout-quarter-is-trench-deal-the-real-story"
+  },
+  {
+   "time": "10-28 10:45",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Super Micro Earnings Due Next Week: Here's What to Watch",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62659550/super-micro-earnings-due-next-week-heres-what-to-watch"
+  },
+  {
+   "time": "10-28 10:32",
+   "symbols": [
+    "V"
+   ],
+   "rating": "target up",
+   "headline": "Piper Sandler Maintains Overweight on Visa, Raises Price Target to $479",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62658844/piper-sandler-maintains-overweight-visa-raises-price-target-479"
+  },
+  {
+   "time": "10-28 10:31",
+   "symbols": [
+    "AMD",
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Earnings Prediction Market Preview: What Will Satya Nadella Say?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62658800/microsoft-earnings-preview"
+  },
   {
    "time": "10-28 10:28",
    "symbols": [
