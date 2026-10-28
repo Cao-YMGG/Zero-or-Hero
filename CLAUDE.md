@@ -155,6 +155,11 @@ scored against purely mechanical variants.
    the most visible: on 2026-10-21 GOOGL was picked on "OpenAI models on Google Cloud" while a
    06:53 headline (Google Cloud to scale to 960K Rubin GPUs) read as another capex jump; GOOGL
    fell 2-3% and NVDA, the seller on the other side, rose. Capex headlines cut both ways.
+   A mega cap moving >= 2% pre-market with no visible headline is a question, not a non-event:
+   search its own news and its peers' overnight results (SK Hynix/Samsung/TSMC for memory and
+   chips, ASML for equipment) before writing "no headline". On 2026-10-28 MU gapped +3.5% on
+   SK Hynix's record quarter and ran another +2.2% from the open while the bias called it
+   headline-less and named no sniper.
    When Webull is unavailable, use Alpaca snapshots (zoh.alpaca, feed iex) and say so in the file.
    Bearish days: when the SPY call is `put` with aligned macro evidence (hot data, yields and
    dollar up, futures red), the sniper may be a put. Look for a mega cap with no good news of

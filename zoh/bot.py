@@ -181,6 +181,7 @@ PENNY = 0.01  # limit price for selling an expiring option that has no bid
 
 
 STOCK_WIDTH = 0.15  # strike band for single-stock chains (fraction of spot)
+ENTRY_RETRY_SLACK = 0.10  # an unfilled entry is retried once at a fresh ask up to 10% higher
 
 
 def chain_candidates(api, underlying, expiry, kind, spot, now, width=0.03):
@@ -356,14 +357,31 @@ class Bot:
                 f"already today, or account needs a reset)")
             real_qty = 0
         if real_qty and not self.dry_run:
-            filled, price = self._order(pick["symbol"], real_qty, "buy", "limit", "in",
-                                        round_limit(pick["ask"]))
+            filled, price = self._buy_entry(pick["symbol"], real_qty, pick["ask"])
             if filled:
                 if own is None:
                     self.state.setdefault("real_underlyings", []).append(underlying)
                 vstate["real"] = {"contract": pick["symbol"], "qty": filled, "underlying": underlying,
                                   "entry_price": price,
                                   "entry_time": now_et().isoformat(timespec="seconds")}
+
+    def _buy_entry(self, symbol, qty, ask):
+        """Limit buy at the ask; when that is unfilled after 90 s, re-quote once and pay the fresh
+        ask if it is at most ENTRY_RETRY_SLACK above the first. The AMAT 445C (10-28) and ORCL
+        128C (10-23) intraday picks went unfilled at the ask, 2 of 18 entries, with no retry."""
+        filled, price = self._order(symbol, qty, "buy", "limit", "in", round_limit(ask))
+        if filled:
+            return filled, price
+        try:
+            snap = self.api.option_snapshots([symbol]).get(symbol) or {}
+        except AlpacaError as e:
+            log(f"  re-quote of {symbol} failed: {e}")
+            return 0, None
+        fresh = (snap.get("latestQuote") or {}).get("ap") or 0
+        if not fresh or fresh > ask * (1 + ENTRY_RETRY_SLACK):
+            log(f"  {symbol}: no retry, fresh ask {fresh} vs {ask}")
+            return 0, None
+        return self._order(symbol, qty, "buy", "limit", "in2", round_limit(fresh))
 
     def sell_half(self, variant, vstate, bid, now):
         """Take half off at the variant's half_at multiple; the rest keeps trailing. The shadow
