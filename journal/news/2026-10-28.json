@@ -1,7 +1,47 @@
 {
- "as_of": "2026-10-28T14:29-04:00",
+ "as_of": "2026-10-28T14:45-04:00",
  "since": "2026-10-27T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-28 14:36",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platforms Delaying Indefinitely Rollout Of Its New Commercial Terms; Consultation With Publishers' On This Topic Could Extend Beyond November 20, In Which Case Meta Would Delay Implementation Of Updated Terms; Until Then, Meta's Existing Terms Remain In Place",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62669436/meta-platforms-delaying-indefinitely-rollout-its-new-commercial-terms-consultation-publishers-topic-"
+  },
+  {
+   "time": "10-28 14:32",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "'U.S. DOJ Examining NVIDIA Acquisition Of AI Platform Hugging Face, Two People Say' - Reuters Exclusive",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m/26/10/62669281/u-s-doj-examining-nvidia-acquisition-ai-platform-hugging-face-two-people-say-reuters-exclusive"
+  },
+  {
+   "time": "10-28 14:30",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Targets $30B+ Free Cash Flow In FY29; Reaffirms FY27 Outlook: $90 B+ Revenue, $8.1 Non-Gaap EPS; To Limit Additional Capital Raises To $20B Through FY30; Expects Capital Expenses To Decrease In FY29 Supporting $30B+ Free Cash Flow; To Self-fund Growth Beginning FY29; Net Debt To Adj EBITDA Below 3.5x In FY29",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62669191/oracle-targets-30b-free-cash-flow-fy29-reaffirms-fy27-outlook-90-b-revenue-8-1-non-gaap-eps-limit-ad"
+  },
+  {
+   "time": "10-28 14:29",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Sets FY30 Outlook: $225B+ Revenue, 40%+ Non-Gaap Operating Margin, $21+ Non-Gaap EPS",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62669142/oracle-sets-fy30-outlook-225b-revenue-40-non-gaap-operating-margin-21-non-gaap-eps"
+  },
   {
    "time": "10-28 14:18",
    "symbols": [

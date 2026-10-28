@@ -1,4 +1,4 @@
-# Headlines since 2026-10-27 16:00 ET (as of 2026-10-28 14:29 ET)
+# Headlines since 2026-10-27 16:00 ET (as of 2026-10-28 14:45 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -33,6 +33,10 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-28 06:31 | JPM | rating | JPMorgan Chase Maintains Overweight Rating on Symrise |
 | 10-28 06:31 | HOOD | target down | Needham Maintains Buy on Robinhood Markets, Lowers Price Target to $116 |
 | 10-27 19:01 | AVGO | upgrade | D.A. Davidson Upgrades Broadcom to Buy |
+| 10-28 14:36 | META |  | Meta Platforms Delaying Indefinitely Rollout Of Its New Commercial Terms; Consultation With Publishers' On This Topic Could Extend Beyond November 20, In Which Case Meta Would Delay Implementation Of Updated Terms; Until Then, Meta's Existing Terms Remain In Place |
+| 10-28 14:32 | NVDA |  | 'U.S. DOJ Examining NVIDIA Acquisition Of AI Platform Hugging Face, Two People Say' - Reuters Exclusive |
+| 10-28 14:30 | ORCL |  | Oracle Targets $30B+ Free Cash Flow In FY29; Reaffirms FY27 Outlook: $90 B+ Revenue, $8.1 Non-Gaap EPS; To Limit Additional Capital Raises To $20B Through FY30; Expects Capital Expenses To Decrease In FY29 Supporting $30B+ Free Cash Flow; To Self-fund Growth Beginning FY29; Net Debt To Adj EBITDA Below 3.5x In FY29 |
+| 10-28 14:29 | ORCL |  | Oracle Sets FY30 Outlook: $225B+ Revenue, 40%+ Non-Gaap Operating Margin, $21+ Non-Gaap EPS |
 | 10-28 14:16 | HOOD |  | Robinhood Gets $160 Bernstein Target as ‘Infrastructure Business’ Shift Offsets Q4 Concerns |
 | 10-28 14:03 | AMZN GOOGL |  | American Electric Power CEO Sees Once-In-A-Generation Opportunity in Electricity Demand |
 | 10-28 14:02 | VST |  | Analyst Price Target Adjustments for Vistra Corp. |
