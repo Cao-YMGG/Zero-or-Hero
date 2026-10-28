@@ -1,7 +1,78 @@
 {
- "as_of": "2026-10-28T10:02-04:00",
+ "as_of": "2026-10-28T10:32-04:00",
  "since": "2026-10-27T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-28 10:28",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "Sky News' Mark Kleinman Posts On X \"Exclusive: JPMorgan Chase faces paying an additional sum in the region of \u00a3100m-\u00a3150m as a result of chancellor John Healey's decision to double the corporation tax surcharge on banks, a possible obstacle to the firm proceeding with its new London headquarters...\"",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62658603/sky-news-mark-kleinman-posts-x-exclusive-jpmorgan-chase-faces-paying-additional-sum-region-100m-150m"
+  },
+  {
+   "time": "10-28 10:08",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "Jim Cramer Says People Selling This Stock Don't Have Brains",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62657484/jim-cramer-says-people-selling-this-stock-dont-have-brains"
+  },
+  {
+   "time": "10-28 10:07",
+   "symbols": [
+    "MU",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Micron Stock Gains as SK Hynix Reports Record Revenue Above 100 Trillion Won",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62657416/micron-stock-gains-as-sk-hynix-reports-record-revenue-above-100-trillion-won"
+  },
+  {
+   "time": "10-28 10:07",
+   "symbols": [
+    "V"
+   ],
+   "rating": "target up",
+   "headline": "Evercore ISI Group Maintains In-Line on Visa, Raises Price Target to $405",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62657387/evercore-isi-group-maintains-line-visa-raises-price-target-405"
+  },
+  {
+   "time": "10-28 10:07",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce To Purchase 500,000 Methane-Reduction Carbon Credits From Mitti Labs By 2030",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62657370/salesforce-purchase-500-000-methane-reduction-carbon-credits-mitti-labs-2030"
+  },
+  {
+   "time": "10-28 10:06",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Novo Nordisk Loses Court Bid Against Eli Lilly\u2019s Weight-Loss Drug Ads \u2014 Judge Says Sales Impact Was Negligible (UPDATED)",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/10/62612844/novo-nordisk-loses-court-bid-against-eli-lillys-weight-loss-drug-ads-judge-says-sales-impact-was-negligible"
+  },
+  {
+   "time": "10-28 10:01",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "",
+   "headline": "Analysts Adjust Price Targets for Seagate Technology",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/morgan-stanley-adjusts-price-target-on-seagate-technology-to-1-148-from-1-200-ce785cd2da8ef525"
+  },
   {
    "time": "10-28 09:53",
    "symbols": [

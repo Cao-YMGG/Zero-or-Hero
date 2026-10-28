@@ -1,9 +1,10 @@
-# Headlines since 2026-10-27 16:00 ET (as of 2026-10-28 10:02 ET)
+# Headlines since 2026-10-27 16:00 ET (as of 2026-10-28 10:32 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-28 10:07 | V | target up | Evercore ISI Group Maintains In-Line on Visa, Raises Price Target to $405 |
 | 10-28 09:22 | HOOD | target down | Wells Fargo Maintains Equal-Weight on Robinhood Markets, Lowers Price Target to $100 |
 | 10-28 08:53 | STX | target down | TD Cowen Maintains Buy on Seagate Technology Hldgs, Lowers Price Target to $900 |
 | 10-28 08:43 | HOOD | target down | Scotiabank Maintains Sector Outperform on Robinhood Markets, Lowers Price Target to $124 |
@@ -24,6 +25,12 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-28 06:31 | JPM | rating | JPMorgan Chase Maintains Overweight Rating on Symrise |
 | 10-28 06:31 | HOOD | target down | Needham Maintains Buy on Robinhood Markets, Lowers Price Target to $116 |
 | 10-27 19:01 | AVGO | upgrade | D.A. Davidson Upgrades Broadcom to Buy |
+| 10-28 10:28 | JPM |  | Sky News' Mark Kleinman Posts On X "Exclusive: JPMorgan Chase faces paying an additional sum in the region of £100m-£150m as a result of chancellor John Healey's decision to double the corporation tax surcharge on banks, a possible obstacle to the firm proceeding with its new London headquarters..." |
+| 10-28 10:08 | GEV |  | Jim Cramer Says People Selling This Stock Don't Have Brains |
+| 10-28 10:07 | MU NVDA |  | Micron Stock Gains as SK Hynix Reports Record Revenue Above 100 Trillion Won |
+| 10-28 10:07 | CRM |  | Salesforce To Purchase 500,000 Methane-Reduction Carbon Credits From Mitti Labs By 2030 |
+| 10-28 10:06 | LLY |  | Novo Nordisk Loses Court Bid Against Eli Lilly’s Weight-Loss Drug Ads — Judge Says Sales Impact Was Negligible (UPDATED) |
+| 10-28 10:01 | STX |  | Analysts Adjust Price Targets for Seagate Technology |
 | 10-28 09:53 | V |  | Visa Eyes Another Big Year After Record Revenue, Wall Street Turns More Bullish |
 | 10-28 09:32 | VST |  | Wells Fargo Adjusts Price Target on Vistra to $198 From $212 |
 | 10-28 09:32 | VST |  | Scotiabank Adjusts Price Target on Vistra to $189 From $207 |
