@@ -1,7 +1,570 @@
 {
- "as_of": "2026-10-28T15:16-04:00",
+ "as_of": "2026-10-28T19:05-04:00",
  "since": "2026-10-27T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-28 19:01",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce Updates AI Service Products for California Customer Handoff Compliance",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/news/artificial-intelligence/2026/california-puts-15-minute-clock-ai-customer-service-handoffs/"
+  },
+  {
+   "time": "10-28 19:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Schedules Third-Quarter Fiscal 2027 Earnings Conference Call",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/28/3390809/0/en/nvidia-sets-conference-call-for-third-quarter-financial-results.html"
+  },
+  {
+   "time": "10-28 19:01",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Increases Quarterly Dividend and Authorizes New Share Buyback",
+   "source": "fiscal.ai",
+   "url": "https://www.baystreet.ca/stockstowatch/24291/Mid-Week-Hot-Stocks-Include-Visa-NXP-and-Robinhood"
+  },
+  {
+   "time": "10-28 19:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Expands 'Shop Direct' Catalog to Retain Site Traffic",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/commerce/ecommerce/2026/amazon-expands-shop-direct-catalog-keep-shoppers-off-ai-shopping-agents/"
+  },
+  {
+   "time": "10-28 18:48",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "target down",
+   "headline": "CIBC Maintains Outperformer on Vistra, Lowers Price Target to $181",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62681051/cibc-maintains-outperformer-vistra-lowers-price-target-181"
+  },
+  {
+   "time": "10-28 18:30",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "",
+   "headline": "Here's How Much $100 Invested In Vistra 5 Years Ago Would Be Worth Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62680807/here-s-how-much-100-invested-vistra-5-years-ago-would-be-worth-today"
+  },
+  {
+   "time": "10-28 18:14",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "QUICK SPARK: Elon Musk Has One-Word Verdict on Google's Gemini 4 Carbon",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62680620/elon-musk-has-a-one-word-verdict"
+  },
+  {
+   "time": "10-28 18:12",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Q1 2027 Earnings Call Transcript",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62680566/microsoft-q1-2027-earnings-call-transcript"
+  },
+  {
+   "time": "10-28 18:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Sees Q2 Sales $96.000B-$97.100B vs $95.616B Est",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62680302/microsoft-sees-q2-sales-96-000b-97-100b-vs-95-616b-est"
+  },
+  {
+   "time": "10-28 18:00",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft CFO Says Q2 Agents And Infra Revenue Expected To Be $80.1B To $80.7B; Q2 Azure Growth Expected To Be 49%",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62680277/microsoft-cfo-says-q2-agents-and-infra-revenue-expected-be-80-1b-80-7b-q2-azure-growth-expected-be-4"
+  },
+  {
+   "time": "10-28 17:57",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft CFO Says Paid M365 Commercial Seats Grew 5%, With Some Impact From Weaker Sales Execution",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62680237/microsoft-cfo-says-paid-m365-commercial-seats-grew-5-some-impact-weaker-sales-execution"
+  },
+  {
+   "time": "10-28 17:54",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft CFO Says Roughly 30% Of Cloud Business RPO Will Be Recognized In Revenue In The Next 12 Months",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62680174/microsoft-cfo-says-roughly-30-cloud-business-rpo-will-be-recognized-revenue-next-12-months"
+  },
+  {
+   "time": "10-28 17:53",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft CFO Says Roughly Three Quarters Of Capex Was For Short-Lived Assets, Primarily CPUs And GPUs, Including Higher Memory And Storage Costs",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62680161/microsoft-cfo-says-roughly-three-quarters-capex-was-short-lived-assets-primarily-cpus-and-gpus-inclu"
+  },
+  {
+   "time": "10-28 17:51",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft CFO Says Capital Expenditures Were Lower Than Guidance In Q1 As Some Third-Party Capacity Deliveries We Expected In Q1 Were Delayed",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62680131/microsoft-cfo-says-capital-expenditures-were-lower-guidance-q1-some-third-party-capacity-deliveries-"
+  },
+  {
+   "time": "10-28 17:49",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft CEO Says Accelerating Demand Led to Us Adding 24 New Data Centers Across Five Continents This Quarter",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62680068/microsoft-ceo-says-accelerating-demand-led-us-adding-24-new-data-centers-across-five-continents-quar"
+  },
+  {
+   "time": "10-28 17:32",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "US Department of Justice Investigating NVIDIA's Acquisition of Hugging Face",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/doj-probes-nvidia-s-hugging-face-deal-over-ai-competition-ce785cd3d98bf223"
+  },
+  {
+   "time": "10-28 17:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Executive Comments on AI Market Sentiment",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/news/artificial-intelligence/2026/goldman-exec-says-investors-growing-more-judicious-on-ai/"
+  },
+  {
+   "time": "10-28 17:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "The Goldman Sachs Group, Inc. Discloses Change in Voting Rights in ThyssenKrupp AG",
+   "source": "fiscal.ai",
+   "url": "https://www.eqs-news.com/news/voting-rights/the-goldman-sachs-group-inc-wilmington-de-united-states-of-america-usa/c334bada-16f1-4400-b9dd-9577ac2efb12_en"
+  },
+  {
+   "time": "10-28 17:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Expands AI Capabilities with New Fusion Cloud Tools and Infrastructure Partnerships",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8502308/oracles-next-ai-push-targets-the-daily-office-workload"
+  },
+  {
+   "time": "10-28 17:31",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Mercado Libre Announces Partnership with Netflix",
+   "source": "fiscal.ai",
+   "url": "https://natlawreview.com/press-releases/mercado-libre-sr-vice-president-advertising-jesus-moreno-sosa-discusses"
+  },
+  {
+   "time": "10-28 17:31",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova Reports Q3 2026 Results and Increases Share Repurchase Authorization",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1002637485/ge-vernova-orders-soar-earnings-reveal-that-ai-power-demand"
+  },
+  {
+   "time": "10-28 17:30",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "If You Invested $1000 In Walmart Stock 20 Years Ago, You Would Have This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62679475/if-you-invested-1000-walmart-stock-20-years-ago-you-would-have-much-today"
+  },
+  {
+   "time": "10-28 17:21",
+   "symbols": [
+    "LITE"
+   ],
+   "rating": "",
+   "headline": "'Marvell Said to Near Megadeal for Lumentum In AI Push'- Bloomberg",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62679200/marvell-said-near-megadeal-lumentum-ai-push-bloomberg"
+  },
+  {
+   "time": "10-28 17:15",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet CEO Says We Are Working On Distilled Versions Of Gemini 4 Carbon For More Than 1B Users; Gemini 4 Carbon Will Be Available To Consumers Later This Year",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62679001/alphabet-ceo-says-we-are-working-distilled-versions-gemini-4-carbon-more-1b-users-gemini-4-carbon-wi"
+  },
+  {
+   "time": "10-28 17:13",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "target down",
+   "headline": "UBS Maintains Neutral on Seagate Technology Hldgs, Lowers Price Target to $750",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62678894/ubs-maintains-neutral-seagate-technology-hldgs-lowers-price-target-750"
+  },
+  {
+   "time": "10-28 17:08",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet Exec Says Nearly 100 Clients Currently Using TPUs, With Strong Demand From Many Others",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62678582/alphabet-exec-says-nearly-100-clients-currently-using-tpus-strong-demand-many-others"
+  },
+  {
+   "time": "10-28 17:06",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet Google Cloud CEO Kurian Says Growing Cybersecurity Risks Driving Demand For AI-Powered Security Platform",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62678471/alphabet-google-cloud-ceo-kurian-says-growing-cybersecurity-risks-driving-demand-ai-powered-security"
+  },
+  {
+   "time": "10-28 17:05",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet Exec Says TPU System Sales Were A Meaningful Contributor To Google Cloud Growth; Expect To Recognize Just Over 55% Of The Total Backlog As Revenues Over The Next 24 Months; 2026 CAPEX Forecast Remain Unchanged",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62678378/alphabet-exec-says-tpu-system-sales-were-meaningful-contributor-google-cloud-growth-expect-recognize"
+  },
+  {
+   "time": "10-28 17:03",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet CFO Says Operating Loss This Quarter Was Due To Shared AI R&D Costs; Expecting TPU System Sales To Rise For Google Cloud; Margin Headwinds Anticipated In Near Future; Technical Infrastructure Expenses To Continue To Weigh On Profit & Loss",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62678321/alphabet-cfo-says-operating-loss-quarter-was-due-shared-ai-r-d-costs-expecting-tpu-system-sales-rise"
+  },
+  {
+   "time": "10-28 17:00",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet CFO Says Network Advertising Revenue Rose 1% This Quarter",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62678108/alphabet-cfo-says-network-advertising-revenue-rose-1-quarter"
+  },
+  {
+   "time": "10-28 16:58",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet CFO Says Technical Infrastructure Spending Resulted In Higher Capital Expenses",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62678052/alphabet-cfo-says-technical-infrastructure-spending-resulted-higher-capital-expenses"
+  },
+  {
+   "time": "10-28 16:56",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet CFO Says This Was Consecutive Quarter Of Double-Digit Revenue Growth; Total Operating Expenses Jumped 20%",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62677952/alphabet-cfo-says-was-consecutive-quarter-double-digit-revenue-growth-total-operating-expenses-jumpe"
+  },
+  {
+   "time": "10-28 16:49",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet Exec Says Gemini Customers Quadrupled This Quarter In Terms Of YoY",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62677813/alphabet-exec-says-gemini-customers-quadrupled-quarter-terms-yoy"
+  },
+  {
+   "time": "10-28 16:47",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet Exec Says AI Investments Are Driving Overall Search Query Growth, Including Commercial Queries",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62677765/alphabet-exec-says-ai-investments-are-driving-overall-search-query-growth-including-commercial-queri"
+  },
+  {
+   "time": "10-28 16:46",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet Exec Says YouTube Premium Has Over 150M Subscribers",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62677696/alphabet-exec-says-youtube-premium-has-over-150m-subscribers"
+  },
+  {
+   "time": "10-28 16:44",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet Exec Says 20M Videos Being Uploaded On YouTube Daily",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62677628/alphabet-exec-says-20m-videos-being-uploaded-youtube-daily"
+  },
+  {
+   "time": "10-28 16:43",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet Exec Says Seeing Enhanced AI Models In Future; Integrated AI Creative Tools Directly Into AI MAX",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62677494/alphabet-exec-says-seeing-enhanced-ai-models-future-integrated-ai-creative-tools-directly-ai-max"
+  },
+  {
+   "time": "10-28 16:39",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet CEO Says Clients Using Gemini For Complex Multi-Step Agentic Queries; Rolled Out 30 New Products On YouTube This Quarter",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62677247/alphabet-ceo-says-clients-using-gemini-complex-multi-step-agentic-queries-rolled-out-30-new-products"
+  },
+  {
+   "time": "10-28 16:31",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Launches 'Muse' Personal AI Agent in Singapore",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/META-US/news?chain_id=Name1K9-3FXPhg.1ldvqc0&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A64,%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Fwhalehead-151181600%2Fpost%2Fall%22%7D"
+  },
+  {
+   "time": "10-28 16:31",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Releases 'The One About Matthew Perry' Docuseries",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/2026/10/28/entertainment-lifestyle/what-to-stream-minions-monsters-matthew-perry-daddy-yankee-and-the-gilded-age/2456406"
+  },
+  {
+   "time": "10-28 16:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Expands RTX Spark Laptop Ecosystem",
+   "source": "fiscal.ai",
+   "url": "https://www.cgmagonline.com/news/nvidia-rtx-spark-laptops-expand-tools/"
+  },
+  {
+   "time": "10-28 16:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Reports Fiscal Year 2027 First-Quarter Financial Results",
+   "source": "fiscal.ai",
+   "url": "https://finviz.com/news/410572/microsoft-earnings-press-release-available-on-investor-relations-website"
+  },
+  {
+   "time": "10-28 16:29",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet Says First-Party Model APIs Now Processing Nearly 32B Tokens Per Minute, More Than Four Times Processed A Year Ago; Google Cloud Revenues Grew 103%",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62676360/alphabet-says-first-party-model-apis-now-processing-nearly-32b-tokens-minute-more-four-times-process"
+  },
+  {
+   "time": "10-28 16:28",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet Says At Quarter End, Gemini App Has Reached One Billion Users; Seeing Strong Demand For Our TPU Systems Across A Wide Range Of Customers; Surpassed 150M YouTube Music And Premium Subscribers Globally, Including Trials",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62676245/alphabet-says-quarter-end-gemini-app-has-reached-one-billion-users-seeing-strong-demand-our-tpu-syst"
+  },
+  {
+   "time": "10-28 16:25",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet Stock Tumbles on Q3 Miss, Google Cloud Revenues Surge",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62676053/alphabet-stock-tumbles-on-q3-miss-google-cloud-revenues-surge"
+  },
+  {
+   "time": "10-28 16:20",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Q1 Highlights: Double Beat, Cloud Revenue Up 30%, Azure Growth Up 48%",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62675569/microsoft-q1-highlights-double-beat-cloud-revenue-up-30-azure-growth-up-48"
+  },
+  {
+   "time": "10-28 16:17",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Google and Alphabet CEO Sundar Pichai Says First-Party Model APIs Now Processing Nearly 32 Billion Tokens Per Minute",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62675075/google-and-alphabet-ceo-sundar-pichai-says-first-party-model-apis-now-processing-nearly-32-billion-t"
+  },
+  {
+   "time": "10-28 16:16",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Recorded $10B Revenue From OpenAI Commercial Arrangements, Including Revenue Sharing, In Quarter Ended September 30",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/10/62674905/microsoft-recorded-10b-revenue-openai-commercial-arrangements-including-revenue-sharing-quarter-ende"
+  },
+  {
+   "time": "10-28 16:05",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft CFO Amy Hood Said, \u201cWe delivered a strong start to the fiscal year with Microsoft Cloud revenue of $63.9 billion, with growth accelerating to 30% (up 31% in constant currency) year-over-year.\u201d",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/MSFT"
+  },
+  {
+   "time": "10-28 16:03",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Q1 Adj. EPS $4.89 Beats $4.72 Estimate, Sales $92.279B Beat $90.663B Estimate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/10/62672891/microsoft-q1-adj-eps-4-89-beats-4-72-estimate-sales-92-279b-beat-90-663b-estimate"
+  },
+  {
+   "time": "10-28 16:03",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "target down",
+   "headline": "Citigroup Maintains Buy on Seagate Technology Hldgs, Lowers Price Target to $1050",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62672886/citigroup-maintains-buy-seagate-technology-hldgs-lowers-price-target-1050"
+  },
+  {
+   "time": "10-28 16:02",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet Q3 EPS $2.12 Misses $3.02 Estimate, Sales $127.577B Miss $128.175B Estimate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/10/62672822/alphabet-q3-eps-2-12-misses-3-02-estimate-sales-127-577b-miss-128-175b-estimate"
+  },
+  {
+   "time": "10-28 15:47",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "target down",
+   "headline": "JP Morgan Maintains Neutral on Robinhood Markets, Lowers Price Target to $114",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62672133/jp-morgan-maintains-neutral-robinhood-markets-lowers-price-target-114"
+  },
+  {
+   "time": "10-28 15:30",
+   "symbols": [
+    "GOOGL",
+    "META",
+    "MSFT",
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "'Wall Street Cares About Free Cash Flow Now': Bloomberg's Ed Ludlow on Buyouts and AI Spending",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62671525/big-tech-free-cash-flow"
+  },
+  {
+   "time": "10-28 15:25",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Stock Surges as 2030 Revenue Target Exceeds $225 Billion",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62671282/oracle-stock-surges-as-2030-revenue-target-exceeds-225-billion"
+  },
+  {
+   "time": "10-28 15:19",
+   "symbols": [
+    "V"
+   ],
+   "rating": "target up",
+   "headline": "JP Morgan Maintains Overweight on Visa, Raises Price Target to $455",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62671108/jp-morgan-maintains-overweight-visa-raises-price-target-455"
+  },
   {
    "time": "10-28 15:01",
    "symbols": [

@@ -1,9 +1,14 @@
-# Headlines since 2026-10-27 16:00 ET (as of 2026-10-28 15:16 ET)
+# Headlines since 2026-10-27 16:00 ET (as of 2026-10-28 19:05 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-28 18:48 | VST | target down | CIBC Maintains Outperformer on Vistra, Lowers Price Target to $181 |
+| 10-28 17:13 | STX | target down | UBS Maintains Neutral on Seagate Technology Hldgs, Lowers Price Target to $750 |
+| 10-28 16:03 | STX | target down | Citigroup Maintains Buy on Seagate Technology Hldgs, Lowers Price Target to $1050 |
+| 10-28 15:47 | HOOD | target down | JP Morgan Maintains Neutral on Robinhood Markets, Lowers Price Target to $114 |
+| 10-28 15:19 | V | target up | JP Morgan Maintains Overweight on Visa, Raises Price Target to $455 |
 | 10-28 14:18 | V | target up | BMO Capital Maintains Outperform on Visa, Raises Price Target to $438 |
 | 10-28 13:29 | HOOD | target down | Goldman Sachs Maintains Buy on Robinhood Markets, Lowers Price Target to $128 |
 | 10-28 13:04 | VST | target down | Scotiabank Maintains Sector Outperform on Vistra, Lowers Price Target to $189 |
@@ -33,6 +38,57 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-28 06:31 | JPM | rating | JPMorgan Chase Maintains Overweight Rating on Symrise |
 | 10-28 06:31 | HOOD | target down | Needham Maintains Buy on Robinhood Markets, Lowers Price Target to $116 |
 | 10-27 19:01 | AVGO | upgrade | D.A. Davidson Upgrades Broadcom to Buy |
+| 10-28 19:01 | CRM |  | Salesforce Updates AI Service Products for California Customer Handoff Compliance |
+| 10-28 19:01 | NVDA |  | NVIDIA Schedules Third-Quarter Fiscal 2027 Earnings Conference Call |
+| 10-28 19:01 | V |  | Visa Increases Quarterly Dividend and Authorizes New Share Buyback |
+| 10-28 19:01 | AMZN |  | Amazon Expands 'Shop Direct' Catalog to Retain Site Traffic |
+| 10-28 18:30 | VST |  | Here's How Much $100 Invested In Vistra 5 Years Ago Would Be Worth Today |
+| 10-28 18:14 | GOOGL |  | QUICK SPARK: Elon Musk Has One-Word Verdict on Google's Gemini 4 Carbon |
+| 10-28 18:12 | MSFT |  | Microsoft Q1 2027 Earnings Call Transcript |
+| 10-28 18:01 | MSFT |  | Microsoft Sees Q2 Sales $96.000B-$97.100B vs $95.616B Est |
+| 10-28 18:00 | MSFT |  | Microsoft CFO Says Q2 Agents And Infra Revenue Expected To Be $80.1B To $80.7B; Q2 Azure Growth Expected To Be 49% |
+| 10-28 17:57 | MSFT |  | Microsoft CFO Says Paid M365 Commercial Seats Grew 5%, With Some Impact From Weaker Sales Execution |
+| 10-28 17:54 | MSFT |  | Microsoft CFO Says Roughly 30% Of Cloud Business RPO Will Be Recognized In Revenue In The Next 12 Months |
+| 10-28 17:53 | MSFT |  | Microsoft CFO Says Roughly Three Quarters Of Capex Was For Short-Lived Assets, Primarily CPUs And GPUs, Including Higher Memory And Storage Costs |
+| 10-28 17:51 | MSFT |  | Microsoft CFO Says Capital Expenditures Were Lower Than Guidance In Q1 As Some Third-Party Capacity Deliveries We Expected In Q1 Were Delayed |
+| 10-28 17:49 | MSFT |  | Microsoft CEO Says Accelerating Demand Led to Us Adding 24 New Data Centers Across Five Continents This Quarter |
+| 10-28 17:32 | NVDA |  | US Department of Justice Investigating NVIDIA's Acquisition of Hugging Face |
+| 10-28 17:31 | GS |  | Goldman Sachs Executive Comments on AI Market Sentiment |
+| 10-28 17:31 | GS |  | The Goldman Sachs Group, Inc. Discloses Change in Voting Rights in ThyssenKrupp AG |
+| 10-28 17:31 | ORCL |  | Oracle Expands AI Capabilities with New Fusion Cloud Tools and Infrastructure Partnerships |
+| 10-28 17:31 | NFLX |  | Mercado Libre Announces Partnership with Netflix |
+| 10-28 17:31 | GEV |  | GE Vernova Reports Q3 2026 Results and Increases Share Repurchase Authorization |
+| 10-28 17:30 | WMT |  | If You Invested $1000 In Walmart Stock 20 Years Ago, You Would Have This Much Today |
+| 10-28 17:21 | LITE |  | 'Marvell Said to Near Megadeal for Lumentum In AI Push'- Bloomberg |
+| 10-28 17:15 | GOOGL |  | Alphabet CEO Says We Are Working On Distilled Versions Of Gemini 4 Carbon For More Than 1B Users; Gemini 4 Carbon Will Be Available To Consumers Later This Year |
+| 10-28 17:08 | GOOGL |  | Alphabet Exec Says Nearly 100 Clients Currently Using TPUs, With Strong Demand From Many Others |
+| 10-28 17:06 | GOOGL |  | Alphabet Google Cloud CEO Kurian Says Growing Cybersecurity Risks Driving Demand For AI-Powered Security Platform |
+| 10-28 17:05 | GOOGL |  | Alphabet Exec Says TPU System Sales Were A Meaningful Contributor To Google Cloud Growth; Expect To Recognize Just Over 55% Of The Total Backlog As Revenues Over The Next 24 Months; 2026 CAPEX Forecast Remain Unchanged |
+| 10-28 17:03 | GOOGL |  | Alphabet CFO Says Operating Loss This Quarter Was Due To Shared AI R&D Costs; Expecting TPU System Sales To Rise For Google Cloud; Margin Headwinds Anticipated In Near Future; Technical Infrastructure Expenses To Continue To Weigh On Profit & Loss |
+| 10-28 17:00 | GOOGL |  | Alphabet CFO Says Network Advertising Revenue Rose 1% This Quarter |
+| 10-28 16:58 | GOOGL |  | Alphabet CFO Says Technical Infrastructure Spending Resulted In Higher Capital Expenses |
+| 10-28 16:56 | GOOGL |  | Alphabet CFO Says This Was Consecutive Quarter Of Double-Digit Revenue Growth; Total Operating Expenses Jumped 20% |
+| 10-28 16:49 | GOOGL |  | Alphabet Exec Says Gemini Customers Quadrupled This Quarter In Terms Of YoY |
+| 10-28 16:47 | GOOGL |  | Alphabet Exec Says AI Investments Are Driving Overall Search Query Growth, Including Commercial Queries |
+| 10-28 16:46 | GOOGL |  | Alphabet Exec Says YouTube Premium Has Over 150M Subscribers |
+| 10-28 16:44 | GOOGL |  | Alphabet Exec Says 20M Videos Being Uploaded On YouTube Daily |
+| 10-28 16:43 | GOOGL |  | Alphabet Exec Says Seeing Enhanced AI Models In Future; Integrated AI Creative Tools Directly Into AI MAX |
+| 10-28 16:39 | GOOGL |  | Alphabet CEO Says Clients Using Gemini For Complex Multi-Step Agentic Queries; Rolled Out 30 New Products On YouTube This Quarter |
+| 10-28 16:31 | META |  | Meta Launches 'Muse' Personal AI Agent in Singapore |
+| 10-28 16:31 | NFLX |  | Netflix Releases 'The One About Matthew Perry' Docuseries |
+| 10-28 16:31 | NVDA |  | NVIDIA Expands RTX Spark Laptop Ecosystem |
+| 10-28 16:31 | MSFT |  | Microsoft Reports Fiscal Year 2027 First-Quarter Financial Results |
+| 10-28 16:29 | GOOGL |  | Alphabet Says First-Party Model APIs Now Processing Nearly 32B Tokens Per Minute, More Than Four Times Processed A Year Ago; Google Cloud Revenues Grew 103% |
+| 10-28 16:28 | GOOGL |  | Alphabet Says At Quarter End, Gemini App Has Reached One Billion Users; Seeing Strong Demand For Our TPU Systems Across A Wide Range Of Customers; Surpassed 150M YouTube Music And Premium Subscribers Globally, Including Trials |
+| 10-28 16:25 | GOOGL |  | Alphabet Stock Tumbles on Q3 Miss, Google Cloud Revenues Surge |
+| 10-28 16:20 | MSFT |  | Microsoft Q1 Highlights: Double Beat, Cloud Revenue Up 30%, Azure Growth Up 48% |
+| 10-28 16:17 | GOOGL |  | Google and Alphabet CEO Sundar Pichai Says First-Party Model APIs Now Processing Nearly 32 Billion Tokens Per Minute |
+| 10-28 16:16 | MSFT |  | Microsoft Recorded $10B Revenue From OpenAI Commercial Arrangements, Including Revenue Sharing, In Quarter Ended September 30 |
+| 10-28 16:05 | MSFT |  | Microsoft CFO Amy Hood Said, “We delivered a strong start to the fiscal year with Microsoft Cloud revenue of $63.9 billion, with growth accelerating to 30% (up 31% in constant currency) year-over-year.” |
+| 10-28 16:03 | MSFT |  | Microsoft Q1 Adj. EPS $4.89 Beats $4.72 Estimate, Sales $92.279B Beat $90.663B Estimate |
+| 10-28 16:02 | GOOGL |  | Alphabet Q3 EPS $2.12 Misses $3.02 Estimate, Sales $127.577B Miss $128.175B Estimate |
+| 10-28 15:30 | GOOGL META MSFT ORCL |  | 'Wall Street Cares About Free Cash Flow Now': Bloomberg's Ed Ludlow on Buyouts and AI Spending |
+| 10-28 15:25 | ORCL |  | Oracle Stock Surges as 2030 Revenue Target Exceeds $225 Billion |
 | 10-28 15:01 | V |  | Analysts Adjust Price Targets for Visa Following Earnings Report |
 | 10-28 15:01 | ORCL |  | Oracle Hosts 2026 Investor Day to Outline Strategic Growth |
 | 10-28 15:01 | GS |  | The Goldman Sachs Group, Inc. Discloses New Position in ASOS PLC |
