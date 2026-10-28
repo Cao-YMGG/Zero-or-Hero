@@ -1,4 +1,4 @@
-# Backtest — SPY 0DTE, 2025-10-27 → 2026-10-23 (250 days)
+# Backtest — SPY 0DTE, 2025-10-29 → 2026-10-28 (251 days)
 
 Model: Black-Scholes at IV 11%, slippage 1% + $0.01 each side, start $500, phase sizing from config. Option prices are modelled, not real quotes — use this to rank ideas.
 
@@ -29,7 +29,7 @@ If a variant only works in the old part of the sample, the market has moved on.
 
 | variant | full: trades | full: avg | full: odds (100%) | recent: trades | recent: avg | recent: odds (100%) | verdict |
 |---|---|---|---|---|---|---|---|
-| spy_open_drive_wide | 23 | +31.7% | 15.7% | 5 | +131.9% | 20.8% | holding up |
+| spy_open_drive_wide | 23 | +31.7% | 15.7% | 4 | +189.9% | 27.7% | holding up |
 | spy_open_drive | 7 | +44.3% | 17.1% | 1 | -73.6% | 0.0% | broken |
 
 ## Macro days (CPI / NFP / FOMC) vs other days — expectancy per trade
