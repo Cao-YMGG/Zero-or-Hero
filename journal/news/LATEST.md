@@ -1,9 +1,10 @@
-# Headlines since 2026-10-27 16:00 ET (as of 2026-10-28 12:02 ET)
+# Headlines since 2026-10-27 16:00 ET (as of 2026-10-28 12:32 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-28 12:08 | V | target up | Barclays Maintains Overweight on Visa, Raises Price Target to $440 |
 | 10-28 11:49 | HOOD | target down | Barclays Maintains Overweight on Robinhood Markets, Lowers Price Target to $115 |
 | 10-28 11:21 | VST | target down | Wells Fargo Maintains Overweight on Vistra, Lowers Price Target to $198 |
 | 10-28 10:58 | STX | target down | Wells Fargo Maintains Overweight on Seagate Technology Hldgs, Lowers Price Target to $820 |
@@ -29,6 +30,11 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-28 06:31 | JPM | rating | JPMorgan Chase Maintains Overweight Rating on Symrise |
 | 10-28 06:31 | HOOD | target down | Needham Maintains Buy on Robinhood Markets, Lowers Price Target to $116 |
 | 10-27 19:01 | AVGO | upgrade | D.A. Davidson Upgrades Broadcom to Buy |
+| 10-28 12:23 | STX WDC |  | Seagate Technology’s Solid Q1 Results Fall Short Of High Expectations; Guidance Reflects ‘Steep Slowdown’ |
+| 10-28 12:15 | HD |  | Here's How Much $100 Invested In Home Depot 15 Years Ago Would Be Worth Today |
+| 10-28 12:07 | AMZN |  | Amazon Q3 Earnings Preview: All Eyes on AWS After Posting Best Growth in Years in Q2 |
+| 10-28 12:05 | GEV |  | GE Vernova CEO Says Gas Turbine Prices Are Up 50% — And Customers Are Booking into 2032 |
+| 10-28 12:00 | RKLB |  | SpaceX Could Keep Starship Cost Savings Instead of Cutting Launch Prices, Varda Executive Says |
 | 10-28 11:40 | HOOD |  | Robinhood Markets Posts Record Q3 Revenues, Shares Drop on Soft Start to Q4 |
 | 10-28 11:30 | CAT |  | Here's How Much $100 Invested In Caterpillar 15 Years Ago Would Be Worth Today |
 | 10-28 11:25 | GEV |  | 'Venezuela Grid Repairs Stalled by Payment Delay, GE Vernova Says' - Bloomberg Exclusive |

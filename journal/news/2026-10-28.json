@@ -1,7 +1,68 @@
 {
- "as_of": "2026-10-28T12:02-04:00",
+ "as_of": "2026-10-28T12:32-04:00",
  "since": "2026-10-27T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-28 12:23",
+   "symbols": [
+    "STX",
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Seagate Technology\u2019s Solid Q1 Results Fall Short Of High Expectations; Guidance Reflects \u2018Steep Slowdown\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62664420/seagate-technologys-solid-q1-results-fall-short-of-high-expectations-guidance-reflects-steep-slowdown"
+  },
+  {
+   "time": "10-28 12:15",
+   "symbols": [
+    "HD"
+   ],
+   "rating": "",
+   "headline": "Here's How Much $100 Invested In Home Depot 15 Years Ago Would Be Worth Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62664176/here-s-how-much-100-invested-home-depot-15-years-ago-would-be-worth-today"
+  },
+  {
+   "time": "10-28 12:08",
+   "symbols": [
+    "V"
+   ],
+   "rating": "target up",
+   "headline": "Barclays Maintains Overweight on Visa, Raises Price Target to $440",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62663858/barclays-maintains-overweight-visa-raises-price-target-440"
+  },
+  {
+   "time": "10-28 12:07",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Q3 Earnings Preview: All Eyes on AWS After Posting Best Growth in Years in Q2",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/previews/26/10/62663775/amazon-q3-earnings-preview-all-eyes-aws-after-posting-best-growth-years-q2"
+  },
+  {
+   "time": "10-28 12:05",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova CEO Says Gas Turbine Prices Are Up 50% \u2014 And Customers Are Booking into 2032",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62663687/ge-vernova-gas-turbine-prices-50-percent-up-customers-2032"
+  },
+  {
+   "time": "10-28 12:00",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "SpaceX Could Keep Starship Cost Savings Instead of Cutting Launch Prices, Varda Executive Says",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62663410/spacex-starship-prices"
+  },
   {
    "time": "10-28 11:49",
    "symbols": [
