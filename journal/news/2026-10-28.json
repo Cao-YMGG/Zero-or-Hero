@@ -1,0 +1,1415 @@
+{
+ "as_of": "2026-10-28T08:55-04:00",
+ "since": "2026-10-27T16:00-04:00",
+ "headlines": [
+  {
+   "time": "10-28 08:53",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "target down",
+   "headline": "TD Cowen Maintains Buy on Seagate Technology Hldgs, Lowers Price Target to $900",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62652503/td-cowen-maintains-buy-seagate-technology-hldgs-lowers-price-target-900"
+  },
+  {
+   "time": "10-28 08:49",
+   "symbols": [
+    "PLTR",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "\u2018Evil Is Better Than Bad\u2019 \u2014 Peter Thiel's Unsettling Defense of Elon Musk",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/movers-shakers/26/10/62652379/elon-musk-peter-thiel-evil-better-than-bad"
+  },
+  {
+   "time": "10-28 08:46",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "",
+   "headline": "These Analysts Revise Their Forecasts On Seagate After Q1 Results",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62652284/these-analysts-revise-their-forecasts-on-seagate-after-q1-results"
+  },
+  {
+   "time": "10-28 08:43",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "target down",
+   "headline": "Scotiabank Maintains Sector Outperform on Robinhood Markets, Lowers Price Target to $124",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62652218/scotiabank-maintains-sector-outperform-robinhood-markets-lowers-price-target-124"
+  },
+  {
+   "time": "10-28 08:40",
+   "symbols": [
+    "V"
+   ],
+   "rating": "target up",
+   "headline": "Oppenheimer Maintains Outperform on Visa, Raises Price Target to $440",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62652137/oppenheimer-maintains-outperform-visa-raises-price-target-440"
+  },
+  {
+   "time": "10-28 08:36",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "rating",
+   "headline": "Wedbush Reiterates Outperform on Seagate Technology Hldgs, Maintains $1000 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62651951/wedbush-reiterates-outperform-seagate-technology-hldgs-maintains-1000-price-target"
+  },
+  {
+   "time": "10-28 08:31",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Stock Tumbles Over 6%: What's Happening?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62651670/robinhood-stock-tumbles-over-6-whats-happening"
+  },
+  {
+   "time": "10-28 08:27",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "rating",
+   "headline": "Citizens Reiterates Market Outperform on Robinhood Markets, Maintains $165 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62651513/citizens-reiterates-market-outperform-robinhood-markets-maintains-165-price-target"
+  },
+  {
+   "time": "10-28 08:27",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "US Consumers Keep Spending, But They\u2019re Watching Value: Visa and Coca-Cola Offer a Split Read on the Economy",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62651506/us-consumers-keep-spending-but-theyre-watching-value-visa-and-coca-cola-offer-a-split-read-on-the-economy"
+  },
+  {
+   "time": "10-28 08:25",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "target down",
+   "headline": "Susquehanna Maintains Neutral on Seagate Technology Hldgs, Lowers Price Target to $765",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62651432/susquehanna-maintains-neutral-seagate-technology-hldgs-lowers-price-target-765"
+  },
+  {
+   "time": "10-28 08:22",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "target down",
+   "headline": "Keybanc Maintains Overweight on Robinhood Markets, Lowers Price Target to $135",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62651363/keybanc-maintains-overweight-robinhood-markets-lowers-price-target-135"
+  },
+  {
+   "time": "10-28 08:20",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Ripple CEO Opens Conference 'With a Bang:' The 4 Announcements He Made",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62651294/ripple-ceo-opens-conference-with-a-bang-the-4-announcements-he-made"
+  },
+  {
+   "time": "10-28 08:19",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "target up",
+   "headline": "Susquehanna Maintains Positive on Advanced Micro Devices, Raises Price Target to $650",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62651278/susquehanna-maintains-positive-advanced-micro-devices-raises-price-target-650"
+  },
+  {
+   "time": "10-28 08:19",
+   "symbols": [
+    "V"
+   ],
+   "rating": "rating",
+   "headline": "RBC Capital Reiterates Outperform on Visa, Maintains $466 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62651268/rbc-capital-reiterates-outperform-visa-maintains-466-price-target"
+  },
+  {
+   "time": "10-28 08:11",
+   "symbols": [
+    "V"
+   ],
+   "rating": "target up",
+   "headline": "TD Cowen Maintains Buy on Visa, Raises Price Target to $450",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62651133/td-cowen-maintains-buy-visa-raises-price-target-450"
+  },
+  {
+   "time": "10-28 08:06",
+   "symbols": [
+    "AAPL",
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "Delta Air, American Tower, Apple And A Health Care: CNBC\u2019s \u2018Final Trades\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62650810/delta-air-american-tower-apple-and-a-health-care-cnbcs-final-trades"
+  },
+  {
+   "time": "10-28 08:05",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "These Analysts Slash Their Forecasts On Robinhood After Q3 Results",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62650738/these-analysts-slash-their-forecasts-on-robinhood-after-q3-results"
+  },
+  {
+   "time": "10-28 08:03",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Ripple And Coinbase Partner To Bring Ripple USD To Coinbase, Expanding Market Access And Utility For Enterprise-Grade Stablecoin In US",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62650626/ripple-and-coinbase-partner-bring-ripple-usd-coinbase-expanding-market-access-and-utility-enterprise"
+  },
+  {
+   "time": "10-28 08:02",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Analysts Adjust Price Targets for Robinhood Markets Following Q3 Results",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/keybanc-adjusts-price-target-on-robinhood-markets-to-135-from-140-ce785cd2dd89f527"
+  },
+  {
+   "time": "10-28 08:02",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Adjusts Price Target on Pentair",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-price-target-on-pentair-to-66-from-60-ce785cd2dd8dff2c"
+  },
+  {
+   "time": "10-28 08:01",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Formally Objects to Proposed Trading of Tokenized Shares",
+   "source": "fiscal.ai",
+   "url": "https://thearabianpost.com/intel-oracle-and-ibm-reject-proposed-tokenised-share-trading/"
+  },
+  {
+   "time": "10-28 08:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Selected to Lead US Retail Sales for Anthropic IPO",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/anthropic-picks-jpmorgan-chase-to-lead-us-retail-sales-in-potential-ipo-ce785cd2da8bf521"
+  },
+  {
+   "time": "10-28 08:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "President Capital Adjusts Price Target on Meta Platforms",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/president-capital-adjusts-price-target-on-meta-platforms-to-871-from-897-ce785cd2da8af423"
+  },
+  {
+   "time": "10-28 08:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "HIVE Digital Technologies Secures Financing for NVIDIA GB200 GPU Cluster",
+   "source": "fiscal.ai",
+   "url": "https://www.newsfilecorp.com/release/321376/RETRANSMISSION-HIVEs-BUZZ-HPC-Secures-Approximately-129-Million-at-9.0-FixedRate-Financing-at-80-LoantoCost-to-Expand-Sovereign-AI-Infrastructure"
+  },
+  {
+   "time": "10-28 08:00",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "target down",
+   "headline": "Truist Securities Maintains Buy on Robinhood Markets, Lowers Price Target to $125",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62650353/truist-securities-maintains-buy-robinhood-markets-lowers-price-target-125"
+  },
+  {
+   "time": "10-28 07:58",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova Exec Says Seeing $130B Global High-Voltage Market By 2030; Expects Trench To Generate Mid-Teens Annual Revenue Growth Through 2028; Expects $50 - $100M Annual Cost Synergies From Trench By 2030",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62650143/ge-vernova-exec-says-seeing-130b-global-high-voltage-market-2030-expects-trench-generate-mid-teens-a"
+  },
+  {
+   "time": "10-28 07:56",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "How To Earn $500 A Month From Caterpillar Stock Ahead Of Q3 Earnings",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/dividends/26/10/62650102/how-to-earn-500-a-month-from-caterpillar-stock-ahead-of-q3-earnings"
+  },
+  {
+   "time": "10-28 07:34",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "rating",
+   "headline": "Bernstein Reiterates Outperform on GE Vernova, Maintains $1298 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62649416/bernstein-reiterates-outperform-ge-vernova-maintains-1298-price-target"
+  },
+  {
+   "time": "10-28 07:33",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Lilly Launches RE:SUMMIT Public Health Platform in Dubai",
+   "source": "fiscal.ai",
+   "url": "https://www.einnews.com/pr_news/952821974/dubai-gets-ready-to-rethink-weight-and-health-at-inaugural-re-summit-2026"
+  },
+  {
+   "time": "10-28 07:32",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Stand With Crypto UK Report on Bank Restrictions",
+   "source": "fiscal.ai",
+   "url": "https://glenbrook.com/payments-news/all-payments-news/"
+  },
+  {
+   "time": "10-28 07:32",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Reports of Coinbase User Data Leak",
+   "source": "fiscal.ai",
+   "url": "https://cobak.co/en/news/9/post/2196215"
+  },
+  {
+   "time": "10-28 07:31",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Aramas AI Announces Agent Launchpad Program on Supermicro Infrastructure",
+   "source": "fiscal.ai",
+   "url": "https://www.prlog.org/news/2026/20261028/"
+  },
+  {
+   "time": "10-28 07:31",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel Objects to Proposed Blockchain-Based Share Trading Venture",
+   "source": "fiscal.ai",
+   "url": "https://thearabianpost.com/intel-oracle-and-ibm-reject-proposed-tokenised-share-trading/"
+  },
+  {
+   "time": "10-28 07:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs International Discloses Change in Major Holdings in Irish Residential Properties REIT",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/eqs/irish-residential-properties-reit-p-irish-residential-properties-ord-shs--0qt8/holding-s-in-company/9845898"
+  },
+  {
+   "time": "10-28 07:31",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce Investments Enters Agreement with Solomei AI",
+   "source": "fiscal.ai",
+   "url": "https://www.monitorimmobiliare.it/monitorlegale/notizia/orrick-e-bird--bird-negli-accordi-tra-salesforce-investments-e-solomei-ai_2026-10-28111626/"
+  },
+  {
+   "time": "10-28 07:31",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank of America Participates in $63 Billion Financing for Anthropic",
+   "source": "fiscal.ai",
+   "url": "https://datacentremagazine.com/news/wall-street-funds-63-bn-broadcom-compute-deal-for-anthropic"
+  },
+  {
+   "time": "10-28 07:31",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Adjusts Price Target on Visa to $455 From $450",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/jpmorgan-adjusts-price-target-on-visa-to-455-from-450-ce785cd2da8df224"
+  },
+  {
+   "time": "10-28 07:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "AWS Partners with Fortune for 2026-27 Cyber 60 List",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/noma-named-to-fourth-annual-fortune-cyber-60-list-of-venture-backed-cybersecurity-companies-302922012.html"
+  },
+  {
+   "time": "10-28 07:20",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "rating",
+   "headline": "Cantor Fitzgerald Reiterates Overweight on Seagate Technology Hldgs, Maintains $1000 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62649060/cantor-fitzgerald-reiterates-overweight-seagate-technology-hldgs-maintains-1000-price-target"
+  },
+  {
+   "time": "10-28 07:00",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "target down",
+   "headline": "Morgan Stanley Maintains Overweight on Seagate Technology Hldgs, Lowers Price Target to $1148",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62647935/morgan-stanley-maintains-overweight-seagate-technology-hldgs-lowers-price-target-1148"
+  },
+  {
+   "time": "10-28 06:56",
+   "symbols": [
+    "V"
+   ],
+   "rating": "target up",
+   "headline": "Morgan Stanley Maintains Overweight on Visa, Raises Price Target to $471",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62647678/morgan-stanley-maintains-overweight-visa-raises-price-target-471"
+  },
+  {
+   "time": "10-28 06:51",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "rating",
+   "headline": "BTIG Reiterates Buy on Robinhood Markets, Maintains $135 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62647539/btig-reiterates-buy-robinhood-markets-maintains-135-price-target"
+  },
+  {
+   "time": "10-28 06:49",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly Reports Phase 3 TRANSCEND-T2D-2 Results, With Retatrutide Achieving Greater A1C Reduction And Weight Loss Than Ozempic In Adults With Type 2 Diabetes",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62647486/eli-lilly-reports-phase-3-transcend-t2d-2-results-retatrutide-achieving-greater-a1c-reduction-and-we"
+  },
+  {
+   "time": "10-28 06:45",
+   "symbols": [
+    "GOOGL",
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "YouTube Is Beating Netflix in the Living Room, but Crypto Bettors Doubt a $12 Billion Ad Quarter for the Alphabet Platform",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62647323/youtube-ad-revenue-netflix-earnings-alphabet"
+  },
+  {
+   "time": "10-28 06:40",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova Sees FY26 Total Cost Impact From Global Tariffs Under $100M",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/GEV"
+  },
+  {
+   "time": "10-28 06:32",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Plans Robotaxi Service Expansion to Florida Beaches",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/TSLA-US/news?chain_id=Name1K9-3FXPhg.1ldl8s0&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A64,%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Fizhixiang-101832173%2Fpost%2Fall%22%7D"
+  },
+  {
+   "time": "10-28 06:31",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "KeyBanc Adjusts Price Target on Robinhood Markets",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1002636678/keybanc-adjusts-price-target-on-robinhood-markets-to-135-from"
+  },
+  {
+   "time": "10-28 06:31",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood\u2019s Trump Accounts Push to Cost $100 Million in 2026, CFO Signals \u2018Even More\u2019 Spending Ahead",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62646902/robinhoods-trump-accounts-push-to-cost-100-million-in-2026-cfo-signals-even-more-spending-ahead"
+  },
+  {
+   "time": "10-28 06:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Adjusts Price Target on Robinhood Markets",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1002636712/goldman-sachs-adjusts-price-target-on-robinhood-markets-to-128"
+  },
+  {
+   "time": "10-28 06:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Adjusts Price Target on Boeing",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-price-target-on-boeing-to-238-from-253-ce785cd2da8af122"
+  },
+  {
+   "time": "10-28 06:31",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "Exxon Mobil and Citgo Petroleum Acquire Venezuelan Crude Oil Shipment",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/exxon-mobil-citgo-petroleum-acquires-shipload-of-venezuelan-crude-oil-to-refine-ce785cd2da8bf122"
+  },
+  {
+   "time": "10-28 06:31",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova Reports Third Quarter 2026 Financial Results",
+   "source": "fiscal.ai",
+   "url": "https://news.futunn.com/post/1002567205/ge-vernova-orders-soar-earnings-reveal-that-ai-power-demand"
+  },
+  {
+   "time": "10-28 06:31",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova to Acquire Trench Group",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom"
+  },
+  {
+   "time": "10-28 06:31",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Quebec Government Mandates Negotiation for French Content Quotas on Streaming Platforms",
+   "source": "fiscal.ai",
+   "url": "https://unpublished.ca/news-feed-item/2026-10-28/quebec-is-bracing-for-a-big-battle-with-us-streamers-on-%E2%80%98discoverability%E2%80%99"
+  },
+  {
+   "time": "10-28 06:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "rating",
+   "headline": "JPMorgan Chase Maintains Overweight Rating on Symrise",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.ch/nachrichten/aktien/symrise-aktie-jp-morgan-chase-co-vergibt-bewertung-mit-overweight-1036675742"
+  },
+  {
+   "time": "10-28 06:31",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Chevron and TotalEnergies Announce Offshore Exploration Asset Swap",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/bzw/totalenergies-se--tte/united-states-totalenergies-enters-26-chevro-/9845386"
+  },
+  {
+   "time": "10-28 06:31",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "South Korea Fines Apple Over App Store Payment Policies",
+   "source": "fiscal.ai",
+   "url": "https://www.koreaherald.com/article/10918101"
+  },
+  {
+   "time": "10-28 06:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Otto Group and Sereact Deploy NVIDIA-Powered AI for Returns Processing",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/28/3389884/0/en/otto-group-and-sereact-bring-nvidia-powered-physical-ai-to-returns-processing.html"
+  },
+  {
+   "time": "10-28 06:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Cloudera Launches Cloudera Blueprints Integrating NVIDIA AI Stack",
+   "source": "fiscal.ai",
+   "url": "https://antaranusa.com/antaranusa-business/Cloudera-Launches-Cloudera-Blueprints--Bringing-NVIDIA-Agent-Toolkit-to-Enterprise-Data-Anywhere"
+  },
+  {
+   "time": "10-28 06:31",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "target down",
+   "headline": "Needham Maintains Buy on Robinhood Markets, Lowers Price Target to $116",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62646877/needham-maintains-buy-robinhood-markets-lowers-price-target-116"
+  },
+  {
+   "time": "10-28 06:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Affirm Named Exclusive Buy Now, Pay Later Partner for Sam's Club",
+   "source": "fiscal.ai",
+   "url": "https://glenbrook.com/payments-news/all-payments-news/"
+  },
+  {
+   "time": "10-28 06:21",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Why Is Micron Technology Stock Surging Wednesday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62646640/why-is-micron-technology-stock-surging-wednesday-2"
+  },
+  {
+   "time": "10-28 06:18",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova Raises FY2026 Sales Guidance from $45.500B-$46.500B to $46.500B-$47.500B vs $46.244B Est",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62646572/ge-vernova-raises-fy2026-sales-guidance-45-500b-46-500b-46-500b-47-500b-vs-46-244b-est"
+  },
+  {
+   "time": "10-28 06:18",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernov Q3 EPS $4.81 Beats $4.01 Estimate, Sales $12.642B Beat $11.991B Estimate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/10/62646549/ge-vernov-q3-eps-4-81-beats-4-01-estimate-sales-12-642b-beat-11-991b-estimate"
+  },
+  {
+   "time": "10-28 06:17",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Discloses Receipt Of Ohio Casino Control Commission Cease And Desist Letter Demanding Stop To Sports-Related Event Contracts; Company Agreed To Cease Offering New Sports-Related Event Contracts In Ohio By November 2",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62646525/robinhood-discloses-receipt-ohio-casino-control-commission-cease-and-desist-letter-demanding-stop-sp"
+  },
+  {
+   "time": "10-28 06:12",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova To Acquire Trench Group For $9B; Transaction To Be Funded With Cash & Debt",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/GEV"
+  },
+  {
+   "time": "10-28 06:04",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Top Wall Street Forecasters Revamp Eli Lilly Expectations Ahead Of Q3 Earnings",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62645956/top-wall-street-forecasters-revamp-eli-lilly-expectations-ahead-of-q3-earnings"
+  },
+  {
+   "time": "10-28 05:55",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "SK Hynix's AI Gold Rush Sends Profits Soaring 632% \u2014 but One Analyst Says Buy Micron or Samsung Instead",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62645532/sk-hynixs-ai-gold-rush-sends-profits-soaring-632-but-one-analyst-says-buy-micron-or-samsung-instead"
+  },
+  {
+   "time": "10-28 05:52",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Will Coinbase Break Its Losing Streak in Q3? Crypto Bettors Weigh Odds as COIN Sends Mixed Signals Before Key Earnings",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62645484/coinbase-q3-earnings-preview-analyst-estimates-price"
+  },
+  {
+   "time": "10-28 05:39",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Cathie Wood Predicts Oil Crashing to $30-$35 a Barrel as EVs Take Over Transportation: Says Demand Is 'Peaking\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62645400/cathie-wood-predicts-oil-crashing-to-30-35-a-barrel-as-evs-take-over-transportation-says-demand-is-peaking"
+  },
+  {
+   "time": "10-28 04:57",
+   "symbols": [
+    "GOOGL",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Gary Black Has a Warning for Tesla Bulls Betting on Robotaxi Dominance: Same \u2018Delusional Thinking\u2019 That Underestimated Chinese EV Rivals",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62644925/gary-black-warning-tesla-bulls-betting-robotaxi-delusional-thinking-chinese-ev-rivals"
+  },
+  {
+   "time": "10-28 04:53",
+   "symbols": [
+    "AMZN",
+    "GOOGL",
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Bernie Sanders Slams Microsoft Over 60,000 Workers Facing Buyouts and Trump-Era Tax Breaks Amid Billions in Profits: \u2018A Total Scam\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62644909/bernie-sanders-slams-microsoft-over-60000-workers-facing-buyouts-and-trump-era-tax-breaks-amid-billions-in-profits-a-total-scam"
+  },
+  {
+   "time": "10-28 04:27",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Google 'Putting Profits Over People' With AI Push In Classrooms, Says Richard Blumenthal: Warns Children\u2019s Academic and Emotional Well-Being at Risk",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62644686/google-putting-profits-over-people-with-ai-push-in-classrooms-says-richard-blumenthal-warns-childrens-academic-and-emotional-well-being-at-risk"
+  },
+  {
+   "time": "10-28 04:13",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "SK Hynix (SKHY) Stock Climbs In Pre-Market: Here\u2019s What You Should Know",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62644641/sk-hynix-shares-rise-q3-2026-earnings"
+  },
+  {
+   "time": "10-28 04:06",
+   "symbols": [
+    "AAPL",
+    "MSFT",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Kevin O'Leary Warns Investors Could Get 'Slaughtered' by Ignoring Diversification, Shares His 5% Stock and 20% Sector Rule",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62644518/kevin-oleary-warns-investors-could-get-slaughtered-by-ignoring-diversification-shares-his-5-stock-and-20-sector-rule"
+  },
+  {
+   "time": "10-28 04:03",
+   "symbols": [
+    "AAPL",
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Korea Media And Communications Commission Orders Google And Apple To Allow External Payments, Improve Commission Structures; Imposes KRW 42.9B (~$32M) Penalty On Google, KRW 20.81B On Apple",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/GOOGL"
+  },
+  {
+   "time": "10-28 04:03",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Coinsilium Group Limited: Portfolio Ventures Strategic and Commercial Update",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/eqs/coinsilium-group-limited--coin/coinsilium-group-limited-portfolio-ventures-/9844871"
+  },
+  {
+   "time": "10-28 03:51",
+   "symbols": [
+    "GOOGL",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "'OpenAI, a Longtime Nvidia Customer, Plans to Buy Google\u2019s AI Chips' - The Information",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62644395/openai-longtime-nvidia-customer-plans-buy-google-s-ai-chips-information"
+  },
+  {
+   "time": "10-28 03:50",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "",
+   "headline": "Seagate Warns Storage Crunch Is Worsening, Expects Billions of AI Agents to Drive a New Data Boom: CEO Says 'Absolutely Everything' We Can Make Is Being Spoken For",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62644384/seagate-warns-storage-crunch-worsening-billions-ai-agents-data-boom"
+  },
+  {
+   "time": "10-28 03:50",
+   "symbols": [
+    "AAPL",
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Jeff Bezos Just Got a New Boost in His Rivalry With Elon Musk \u2014 Amazon Wins FCC Approval for $11.5 Billion Globalstar Deal to Expand Satellite Connectivity",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62644373/jeff-bezos-rivalry-elon-musk-amazon-fcc-approval-11-5-billion-globalstar-deal"
+  },
+  {
+   "time": "10-28 03:49",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Reported Earlier, Meta Launches Muse Personal AI Agent In Singapore With Connectors To Shopee, Grab, Singapore Airlines, Agoda, ShopBack, Klook, Trip.com And Lazada",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62644362/reported-earlier-meta-launches-muse-personal-ai-agent-singapore-connectors-shopee-grab-singapore-air"
+  },
+  {
+   "time": "10-28 03:37",
+   "symbols": [
+    "CVX",
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "Trump Says Iran Wants a Deal as 1 Million Barrels of Venezuelan Oil Arrive in Texas Ahead of Midterms: 'It's a Question of When Do I Want to End It'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62644224/trump-says-iran-wants-a-deal-as-1-million-barrels-of-venezuelan-oil-arrive-in-texas-ahead-of-midterms-its-a-question-of-when-do-i-want-to-end-it"
+  },
+  {
+   "time": "10-28 03:22",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "TotalEnergies Acquires 25% Working Interest In 26 Chevron-Operated Offshore U.S. Exploration Leases; Chevron Gains 75% Operated Interest In Two Adjacent Leases",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/CVX"
+  },
+  {
+   "time": "10-28 03:07",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Stock Gained Nearly 22% in July Earnings Week; Will It Rally Again This Time? Polymarket Traders Weigh In",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62643954/microsoft-earnings-preview-polymarket-traders-say-july-size-jump-unlikely"
+  },
+  {
+   "time": "10-28 03:01",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "Caterpillar Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62643903/caterpillar-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts-2"
+  },
+  {
+   "time": "10-28 02:46",
+   "symbols": [
+    "AAPL",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Apple Is Breaking Away From Big Tech in a Way Wall Street Has Rarely Seen: \u2018Unprecedented\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62643849/apple-is-breaking-away-from-big-tech-in-a-way-wall-street-has-rarely-seen-unprecedented"
+  },
+  {
+   "time": "10-28 02:16",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "'The Best Prediction Markets Experience': Vlad Tenev Wants Robinhood Users to Have 'Choices' Too",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62643670/robinhood-third-quarter-earnings-prediction-market-vlad-tenev"
+  },
+  {
+   "time": "10-28 01:48",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Rocket Lab Stock Is Trending As Military Satellite Production Comes Into Focus: \u2018Eight Of 18 Spacecraft Are On The Floor Right Now\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62643452/rocket-lab-shares-after-hours-neutron-rocket-virginia"
+  },
+  {
+   "time": "10-28 01:35",
+   "symbols": [
+    "AMZN",
+    "GOOGL",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Says Tesla Robotaxi Expansion to Miami, Tampa Beaches Is \u2018Coming Soon\u2019 After Ron DeSantis\u2019 Call for Expansion",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62643287/elon-musk-says-tesla-robotaxi-expansion-to-miami-tampa-beaches-is-coming-soon-after-ron-desantis-call-for-expansion"
+  },
+  {
+   "time": "10-28 00:49",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Michael Burry Says Anthropic\u2019s IPO Filing Has a Lot, but \u2018Nothing That Changes\u2019 His View: Big Short Investor Calls Out \u2018Slowing\u2019 Revenue Growth",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/ipos/26/10/62643124/michael-burry-anthropic-s1-nothing-that-changes-my-view-slowing-growth"
+  },
+  {
+   "time": "10-28 00:30",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Steve Jobs Thought They Were \u2018Ergonomically Terrible,\u2019 but Apple Is Reportedly Betting You\u2019ll Pay a Premium for the Touchscreen MacBook Pro",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62643060/steve-jobs-touchscreen-macbook-pro-apple-premium-pricing"
+  },
+  {
+   "time": "10-27 20:02",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Analyst Rating and Price Target Adjustments for Western Digital",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/WDC-US/news?chain_id=Name1K9-3FXPhg.1ldanc0&global_content=%7B%22promote_id%22%3A13643,%22sub_promote_id%22%3A47,%22f%22%3A%22www.moomoo.com%2Fsg%2Fhans%2Flearn%2Fethereum-trading-singapore%22%7D"
+  },
+  {
+   "time": "10-27 20:01",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle and NVIDIA Expand OCI Superclusters with Vera Rubin Systems",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/27/3389428/0/en/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure.html"
+  },
+  {
+   "time": "10-27 19:02",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart and Care Access Announce Expansion of Clinical Trial Centers",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/press-releases/8481767/walmart-and-care-access-plan-three-additional-clinical-trial-centers-to-expand-access-to-medical-research"
+  },
+  {
+   "time": "10-27 19:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Group Insider Sells Shares Worth Approximately $10.9 Million",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-group-insider-sold-shares-worth-10-928-695-according-to-a-recent-sec-filing-ce785cddd181f222"
+  },
+  {
+   "time": "10-27 19:01",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Western Digital Shares Rise Amid Broader AI Sector Rally",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8482406/western-digital-allegro-microsystems-amtech-and-teradyne-shares-skyrocket-what-you-need-to-know"
+  },
+  {
+   "time": "10-27 19:01",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "upgrade",
+   "headline": "D.A. Davidson Upgrades Broadcom to Buy",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/20261027148/how-broadcoms-stock-can-surge-and-overcome-the-biggest-dislocation-in-the-market"
+  },
+  {
+   "time": "10-27 19:01",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly and Company Announces Executive Leadership Changes",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/patrik-jonsson-to-retire-after-36-years-ilya-yuffa-named-president-lilly-global-markets-302921191.html"
+  },
+  {
+   "time": "10-27 19:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Class Action Lawsuit Filed Against Meta Over AI Smart Glasses Privacy",
+   "source": "fiscal.ai",
+   "url": "https://www.classaction.org/news/meta-ai-glasses-secretly-record-conversations-class-action-lawsuit-alleges"
+  },
+  {
+   "time": "10-27 18:38",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Markets Q3 2026 Earnings Call Transcript",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62641803/robinhood-markets-q3-2026-earnings-call-transcript"
+  },
+  {
+   "time": "10-27 18:15",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "$1000 Invested In Meta Platforms 10 Years Ago Would Be Worth This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62641590/1000-invested-meta-platforms-10-years-ago-would-be-worth-much-today"
+  },
+  {
+   "time": "10-27 18:13",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "",
+   "headline": "Seagate Tech Hldgs Q1 2027 Earnings Call Transcript",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62641567/seagate-tech-hldgs-q1-2027-earnings-call-transcript"
+  },
+  {
+   "time": "10-27 18:13",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Q4 2026 Earnings Call Transcript",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62641564/visa-q4-2026-earnings-call-transcript"
+  },
+  {
+   "time": "10-27 18:02",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Rocket Lab Announces Expanded Suite of Space-Grade Radio Frequency Products",
+   "source": "fiscal.ai",
+   "url": "https://www.rfglobalnet.com/doc/anysignal-to-deliver-space-to-earth-communications-three-reflect-orbital-missions-0001"
+  },
+  {
+   "time": "10-27 17:57",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Jim Cramer Dares Nvidia's Jensen Huang to Buy CoreWeave\u2019s 15% Debt",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62641316/jim-cramer-dares-nvidias-jensen-huang-to-buy-coreweaves-15-debt"
+  },
+  {
+   "time": "10-27 17:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Plans FedRAMP Class D Certification for Multicloud AI Database Services",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/prnewswire:c4f9b9877e0b4:0-oracle-plans-to-expand-multicloud-ai-database-services-to-us-government-and-public-sector-workloads/"
+  },
+  {
+   "time": "10-27 17:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Unveils New Networking Innovations for AI Workloads",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/oracle-unveils-new-cloud-networking-innovations-for-ai-302920240.html"
+  },
+  {
+   "time": "10-27 17:31",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Analysts Adjust Price Targets for Palantir Technologies",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/rosenblatt-adjusts-price-target-on-palantir-technologies-to-260-from-225-ce785cddd881f22c"
+  },
+  {
+   "time": "10-27 17:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs to Host 16th Annual Private Innovative Company Conference",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/27/3389525/0/en/pattern-computer-to-participate-in-goldman-sachs-private-innovative-company-conference.html"
+  },
+  {
+   "time": "10-27 17:31",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Payouts Network Integrates Visa Direct for Employee Reimbursements",
+   "source": "fiscal.ai",
+   "url": "https://natlawreview.com/press-releases/payouts-network-enables-visa-deliver-relocation-reimbursements-employees"
+  },
+  {
+   "time": "10-27 17:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Updates 2027 Earnings Release Schedule",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/professional-services/banking"
+  },
+  {
+   "time": "10-27 17:07",
+   "symbols": [
+    "STX",
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Western Digital Stock Slides After Hours: Here's Why",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62639995/western-digital-stock-slides-after-hours-heres-why"
+  },
+  {
+   "time": "10-27 16:46",
+   "symbols": [
+    "AMZN",
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Anthropic Acquires Mithril Medicine; Financial Terms Not Disclosed",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m/26/10/62639109/anthropic-acquires-mithril-medicine-financial-terms-not-disclosed"
+  },
+  {
+   "time": "10-27 16:44",
+   "symbols": [
+    "AMZN",
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Anthropic Announces Plan To Continue Extending Claude\u2019s Role Into Clinical Trials As Drug Programs Advance",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62639077/anthropic-announces-plan-continue-extending-claude-s-role-clinical-trials-drug-programs-advance"
+  },
+  {
+   "time": "10-27 16:43",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Markets Says Market Share Gains Drove Active Trader Engagement In Q3, With Record Volumes For Equities, Options, Prediction Markets; Lowering Top End Of Prior 2026 Adjusted Operating Expenses Outlook By $25M To A Range Of $2.675B To $2.75B",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62639001/robinhood-markets-says-market-share-gains-drove-active-trader-engagement-q3-record-volumes-equities-"
+  },
+  {
+   "time": "10-27 16:41",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Markets Says Not Providing 2026 Outlook For Total Operating Expenses; Q3 Other Revenues Up 61% To $142M , Primarily Driven By Trump Account Service Revenue, Increased Robinhood Gold Subscription Revenue",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/HOOD"
+  },
+  {
+   "time": "10-27 16:41",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Raises Quarterly Dividend From $0.67 To $0.78 Per Share",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/dividends/26/10/62638924/visa-raises-quarterly-dividend-0-67-0-78-share"
+  },
+  {
+   "time": "10-27 16:37",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Dayforce Expands Collaboration With Microsoft Across HR, Finance, Operations; Dayforce Build And Dayforce Marketplace To Be Be Available Next Year",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62638705/dayforce-expands-collaboration-microsoft-across-hr-finance-operations-dayforce-build-and-dayforce-ma"
+  },
+  {
+   "time": "10-27 16:31",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Analysts Adjust Price Targets for Tesla",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/options/TSLA261028C310000-US"
+  },
+  {
+   "time": "10-27 16:31",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce Expands Agent Fabric with New Evaluation and Guardrail Tools",
+   "source": "fiscal.ai",
+   "url": "https://technologymagazine.com/news/salesforce-stopping-ai-cost-overruns-with-agent-fabric"
+  },
+  {
+   "time": "10-27 16:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Adjusts Price Target on SLB",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-price-target-on-slb-to-63-from-59-ce785cddd880f126"
+  },
+  {
+   "time": "10-27 16:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Research Highlights Semiconductor Sector's Dominant Influence on Market Volatility",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1002471596/ai-drives-global-sentiment-goldman-sachs-semiconductors-influence-on-financial"
+  },
+  {
+   "time": "10-27 16:31",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Reports Fiscal Fourth Quarter 2026 Financial Results",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/earnings-flash-v-visa-posts-fiscal-q4-revenue-12-14b-vs-factset-est-of-12-09b-ce785cddd189f127"
+  },
+  {
+   "time": "10-27 16:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Announces Collaboration with OpenAI",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/oracle-reinvents-enterprise-computing-for-the-ai-era-with-openai-302920226.html"
+  },
+  {
+   "time": "10-27 16:31",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Markets, Inc. Reports Third Quarter 2026 Financial Results",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/27/3389611/0/en/robinhood-reports-third-quarter-2026-results.html"
+  },
+  {
+   "time": "10-27 16:31",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel and Oracle Announce Multiyear Collaboration for AI on Oracle Cloud",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/press-releases/8480593/intel-and-oracle-plan-expanded-collaboration-to-support-enterprise-and-agentic-ai-on-oracle-cloud-infrastructure"
+  },
+  {
+   "time": "10-27 16:30",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Reports Strong Q4 Earnings: 'A Milestone Year' CEO Says",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62638176/visa-reports-strong-q4-earnings-a-milestone-year-ceo-says"
+  },
+  {
+   "time": "10-27 16:29",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Q3 Highlights: Trump Accounts, Prediction Markets Help Offset Crypto Weakness",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62638088/robinhood-q3-highlights-trump-accounts-prediction-markets-help-offset-crypto-weakness"
+  },
+  {
+   "time": "10-27 16:21",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa CEO Says Visa Achieved Record 2026 Net Revenue Of $46B, Up 15%, Strongest Growth In Over 15 Years Excluding The Post-Pandemic Recovery And Acquisitions",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62637697/visa-ceo-says-visa-achieved-record-2026-net-revenue-46b-15-strongest-growth-over-15-years-excluding-"
+  },
+  {
+   "time": "10-27 16:20",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "",
+   "headline": "Seagate Stock Tumbles Despite Beating Q1 Expectations: Details",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62637617/seagate-stock-tumbles-despite-beating-q1-expectations-details"
+  },
+  {
+   "time": "10-27 16:13",
+   "symbols": [
+    "META",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Mark Cuban Warns of AI Debt Bubble Despite Optimism: 'I\u2019m Not a Naysayer'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62636904/mark-cuban-ai-debt-bubble-optimism-not-a-naysayer"
+  },
+  {
+   "time": "10-27 16:11",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "",
+   "headline": "Seagate Technology Raises Quarterly Cash Dividend From $0.74 To $0.76 Per Share",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/dividends/26/10/62636734/seagate-technology-raises-quarterly-cash-dividend-0-74-0-76-share"
+  },
+  {
+   "time": "10-27 16:10",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly President Of Lilly International Patrik Jonsson Retiring At 2026 End, Ilya Yuffa Appointed President Of Lilly Global Markets, Laura Steele Promoted To President Lilly USA, Elias Khalil Promoted To Lilly Europe And Canada",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62636563/eli-lilly-president-lilly-international-patrik-jonsson-retiring-2026-end-ilya-yuffa-appointed-presid"
+  },
+  {
+   "time": "10-27 16:07",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "",
+   "headline": "Seagate Raises Quarterly Dividend By 3% To $0.76/Share From $0.74 Prior",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/dividends/26/10/62636095/seagate-raises-quarterly-dividend-3-0-76-share-0-74-prior"
+  },
+  {
+   "time": "10-27 16:06",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Q4 Adj. EPS $3.48 Beats $3.44 Estimate, Sales $12.139B Beat $12.084B Estimate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/10/62636001/visa-q4-adj-eps-3-48-beats-3-44-estimate-sales-12-139b-beat-12-084b-estimate"
+  },
+  {
+   "time": "10-27 16:06",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Markets Q3 Adj. EPS $0.60 Beats $0.56 Estimate, Sales $1.424B Beat $1.422B Estimate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/10/62635903/robinhood-markets-q3-adj-eps-0-60-beats-0-56-estimate-sales-1-424b-beat-1-422b-estimate"
+  },
+  {
+   "time": "10-27 16:05",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "",
+   "headline": "Seagate Technology Hldgs Sees Q2 Adj EPS $9.00-$9.40 vs $8.58 Est; Sees Sales $4.700B-$4.900B vs $4.527B Est",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62635874/seagate-technology-hldgs-sees-q2-adj-eps-9-00-9-40-vs-8-58-est-sees-sales-4-700b-4-900b-vs-4-527b-es"
+  },
+  {
+   "time": "10-27 16:05",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "",
+   "headline": "Seagate Tech Hldgs Q1 Adj. EPS $7.68 Beats $7.42 Estimate, Sales $4.233B Beat $4.138B Estimate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/10/62635821/seagate-tech-hldgs-q1-adj-eps-7-68-beats-7-42-estimate-sales-4-233b-beat-4-138b-estimate"
+  },
+  {
+   "time": "10-27 16:00",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova Earnings Prediction Market Preview: What Will Scott Strazik Say?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62635380/ge-vernova-earnings"
+  }
+ ]
+}
