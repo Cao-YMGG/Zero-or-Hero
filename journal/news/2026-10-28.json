@@ -1,7 +1,37 @@
 {
- "as_of": "2026-10-28T11:32-04:00",
+ "as_of": "2026-10-28T12:02-04:00",
  "since": "2026-10-27T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-28 11:49",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "target down",
+   "headline": "Barclays Maintains Overweight on Robinhood Markets, Lowers Price Target to $115",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62662878/barclays-maintains-overweight-robinhood-markets-lowers-price-target-115"
+  },
+  {
+   "time": "10-28 11:40",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Markets Posts Record Q3 Revenues, Shares Drop on Soft Start to Q4",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62662416/robinhood-markets-posts-record-q3-revenues-shares-drop-on-soft-start-to-q4"
+  },
+  {
+   "time": "10-28 11:30",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "Here's How Much $100 Invested In Caterpillar 15 Years Ago Would Be Worth Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62661945/here-s-how-much-100-invested-caterpillar-15-years-ago-would-be-worth-today"
+  },
   {
    "time": "10-28 11:25",
    "symbols": [

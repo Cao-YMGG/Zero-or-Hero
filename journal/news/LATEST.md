@@ -1,9 +1,10 @@
-# Headlines since 2026-10-27 16:00 ET (as of 2026-10-28 11:32 ET)
+# Headlines since 2026-10-27 16:00 ET (as of 2026-10-28 12:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-28 11:49 | HOOD | target down | Barclays Maintains Overweight on Robinhood Markets, Lowers Price Target to $115 |
 | 10-28 11:21 | VST | target down | Wells Fargo Maintains Overweight on Vistra, Lowers Price Target to $198 |
 | 10-28 10:58 | STX | target down | Wells Fargo Maintains Overweight on Seagate Technology Hldgs, Lowers Price Target to $820 |
 | 10-28 10:32 | V | target up | Piper Sandler Maintains Overweight on Visa, Raises Price Target to $479 |
@@ -28,6 +29,8 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-28 06:31 | JPM | rating | JPMorgan Chase Maintains Overweight Rating on Symrise |
 | 10-28 06:31 | HOOD | target down | Needham Maintains Buy on Robinhood Markets, Lowers Price Target to $116 |
 | 10-27 19:01 | AVGO | upgrade | D.A. Davidson Upgrades Broadcom to Buy |
+| 10-28 11:40 | HOOD |  | Robinhood Markets Posts Record Q3 Revenues, Shares Drop on Soft Start to Q4 |
+| 10-28 11:30 | CAT |  | Here's How Much $100 Invested In Caterpillar 15 Years Ago Would Be Worth Today |
 | 10-28 11:25 | GEV |  | 'Venezuela Grid Repairs Stalled by Payment Delay, GE Vernova Says' - Bloomberg Exclusive |
 | 10-28 11:20 | AMZN |  | 'Amazon cuts more jobs, in devices unit, after flurry of product rollouts' - Reuters |
 | 10-28 11:14 | NVDA |  | NVIDIA Launches Nemotron 3.5 Transcribe And Granary v2 On Hugging Face, Delivering Open-Weight AI For 40-Language Transcription, Translation And Speaker Identification |
