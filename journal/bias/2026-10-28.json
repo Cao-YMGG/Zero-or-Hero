@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-28",
+  "bias": "none",
+  "confidence": 0.2,
+  "p_up": 0.52,
+  "summary": "FOMC decision at 14:00 and MSFT/GOOGL/KLAC/NOW earnings after the close: SPY +0.2% pre-market with chips up a third day; no open-to-close edge on a Fed day (p_up 0.52). No sniper: the only mega-cap item is a Susquehanna price-target raise on AMD (weak catalyst) with a 1.6% gap after a +5.5% day.",
+  "reasons": [
+    "SPY 771.29 pre-market vs 769.66 close (+0.21%); QQQ +0.34%; SMH +0.9% to 563.22, right at the 564 gap top (the 10-21 close) the other side uses as its 'warming' line; IWM flat. Night session SPY +0.16%",
+    "Tuesday: SPY +0.30% open to close, SMH +3.0%, XLP -0.9%, XLE -2.1%; consumer confidence 91.7 vs 84.2 (Benzinga); 10-year near 4.99%",
+    "Oil rebounds: USO +1.8% pre-market after -1.4% Tuesday; TLT flat, UUP flat. VIX, 2Y/10Y bp and DXY level not looked up this morning",
+    "FOMC decision 14:00, press conference 14:30: a release day, so spy_open_drive and the other non_event variants skip. The sniper and intraday picks continue (owner, 10-23)",
+    "Earnings tonight: MSFT, GOOGL (no sniper on either today), KLAC, NOW (-2.1% pre-market), TMUS; this morning GEV (traded as high as 944.5 pre-market, now 903, +0.9%). Last night: STX -2.8% and V -1.4% pre-market on their reports, HOOD -6%",
+    "Mega-cap moves without a headline of their own: MU +3.0% (957), CAT +2.4%, AVGO +1.5%, INTC +1.5%, AMD +1.6%; COST -0.8%, UNH -0.8%, LLY -0.7%, WMT -0.7%: the AI-hardware-over-defensives rotation continues pre-market",
+    "No >= 2% pre-market down gap in the rebound_scanner large caps outside earnings (STX, NOW and HOOD are earnings-driven)",
+    "Dossiers: AMD up gaps >= 2% continue but calls bought at 09:45 lost; today AMD +1.6% with only a Susquehanna PT raise to $650 (08:19), AMD reports 11-03 (inside the 10-day drift window). META: no catalyst, flat pre-market",
+    "Sniper null: no mega-cap upgrade this morning (Daily Trade Alert list: Boeing upgraded by Langenberg after Tuesday's -9.9% on its own report, TXN to Hold, nothing else large). AMD is the closest miss: a target raise is a weak catalyst and its 1.6% gap is above the 1.5% line for weak catalysts, after +5.5% yesterday"
+  ],
+  "events": ["FOMC decision 14:00", "MSFT/GOOGL/KLAC/NOW earnings after the close", "GEV earnings pre-market"],
+  "inputs": {"es_futures_pct": 0.2, "vix": null, "wti_pct": 1.8, "us10y": 4.99, "us10y_change_bp": null, "us2y_change_bp": null, "dxy_pct": 0.0,
+             "overnight": "Webull extended hours 08:55 ET: SPY +0.21%, QQQ +0.34%, SMH +0.9%, USO +1.8%, TLT +0.0%, UUP +0.0%; night session SPY +0.16%, QQQ +0.56%"},
+  "rotation": {
+    "heating": ["AI hardware, day 3 (SMH +2.7% Mon, +3.0% Tue, +0.9% pre-market; MU, AMD, AVGO, INTC, LITE, CRDO)", "industrials and power (CAT +3.1% Tue and +2.4% pre-market, GEV +4.7% Tue)"],
+    "cooling": ["consumer staples (XLP -0.9% Tue, -0.5% pre-market; COST, WMT)", "health care (XLV flat Tue, -0.6% pre-market; UNH, LLY)", "energy vs the month (XLE -2.1% Tue) though oil bounces today", "META (offering, -1.6% Tue)"],
+    "note": "1-month numbers from the 10-26 bar computation plus this week's closes, not recomputed for time. Money keeps moving from the defensive leaders of the past month back into AI hardware; SMH at the 564 gap top is the test"
+  },
+  "sniper": null,
+  "generated_at": "2026-10-28T08:57:06-04:00"
+}
