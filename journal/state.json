@@ -18,10 +18,10 @@
         "direction": "call",
         "entry_time": "2026-10-28T13:19:27-04:00",
         "entry_price": 1.32,
-        "peak": 1.32,
+        "peak": 1.85,
         "qty": 1,
-        "last": 0.38,
-        "last_time": "2026-10-28T14:16:08-04:00"
+        "last": 1.59,
+        "last_time": "2026-10-28T14:46:08-04:00"
       }
     },
     "spy_open_drive": {},
