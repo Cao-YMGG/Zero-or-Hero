@@ -1,7 +1,127 @@
 {
- "as_of": "2026-10-29T14:55-04:00",
+ "as_of": "2026-10-29T15:17-04:00",
  "since": "2026-10-28T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-29 15:09",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "target down",
+   "headline": "Citigroup Maintains Neutral on GE Vernova, Lowers Price Target to $1000",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62713721/citigroup-maintains-neutral-ge-vernova-lowers-price-target-1000"
+  },
+  {
+   "time": "10-29 15:04",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "target down",
+   "headline": "RBC Capital Maintains Outperform on Alphabet, Lowers Price Target to $400",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62713548/rbc-capital-maintains-outperform-alphabet-lowers-price-target-400"
+  },
+  {
+   "time": "10-29 15:02",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Chevron Executives Cancel Trips to UAE Event Over Security Concerns",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/exxon-chevron-executives-cancel-trips-to-uae-event-over-security-concerns-ce785fdadd89f025"
+  },
+  {
+   "time": "10-29 15:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Concurrence Health World Model and AI Agents Now Available on Microsoft Marketplace",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/concurrence-now-available-in-the-microsoft-marketplace-302923947.html"
+  },
+  {
+   "time": "10-29 15:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Reportedly Planning $25 Billion Bond Issuance",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/MSFT-US/news?chain_id=Name1K9-3FXPhg.1le2eo0&global_content=%7B%22promote_id%22%3A14282,%22sub_promote_id%22%3A29,%22f%22%3A%22www.moomoo.com%2Fca%2Fhant%2Flearn%2Fdetail-gamma-exposure-gex-understanding-dealer-hedging-flows-and-key-levels-107906-260473079%22%7D"
+  },
+  {
+   "time": "10-29 15:01",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "ExxonMobil and Chevron Executives Cancel Trips to UAE Event Over Security Concerns",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/exxon-chevron-executives-cancel-trips-to-uae-event-over-security-concerns-reuters-reports-ce785fdadd89f12d"
+  },
+  {
+   "time": "10-29 15:01",
+   "symbols": [
+    "HD"
+   ],
+   "rating": "",
+   "headline": "Home Depot Establishes Policy for AI Shopping Agents",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/commerce/ecommerce/2026/walmart-and-home-depot-set-the-rules-for-ai-shoppers/"
+  },
+  {
+   "time": "10-29 15:01",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank of America 2026 Holiday Spending Survey Indicates Shift in Shopping Patterns",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/bank-of-america-study-early-december-could-overtake-black-friday-as-the-peak-holiday-shopping-window-this-year-302923629.html"
+  },
+  {
+   "time": "10-29 15:01",
+   "symbols": [
+    "V"
+   ],
+   "rating": "target up",
+   "headline": "Wells Fargo Raises Visa Price Target to $463",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:e79d9bf7bc0b0:0"
+  },
+  {
+   "time": "10-29 15:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Launches AI-Powered Virtual Pet App \"Waddle World\"",
+   "source": "fiscal.ai",
+   "url": "https://www.techdogs.com/tech-news/td-newsdesk/meta-launches-waddle-world-an-ai-virtual-pet-app-that-remembers-your-day"
+  },
+  {
+   "time": "10-29 15:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Participates in Cohere's Series E Funding Round",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/seekingalpha:cfc3ffc5f094b:0-nvidia-backed-cohere-closes-in-on-5b-funding-round/"
+  },
+  {
+   "time": "10-29 15:00",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "\"Nvidia CEO Says Ties to Company Under Spying Probe Were \u2018Normal\u2019\" - Bloomberg News",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62713396/nvidia-ceo-says-ties-company-under-spying-probe-were-normal-bloomberg-news"
+  },
   {
    "time": "10-29 14:39",
    "symbols": [
