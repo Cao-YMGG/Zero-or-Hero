@@ -72,6 +72,16 @@ jobs:
         if: always()
         continue-on-error: true
         run: python -m zoh.research.dipwatch
+      - name: Score the opportunity list (no orders)
+        if: always()
+        continue-on-error: true
+        run: python -m zoh.research.opportunities
       - name: Commit journal
         if: always()
         run: .github/commit-journal.sh "afternoon"
+      - name: Post the day to Discord (skipped without the secret)
+        if: always()
+        continue-on-error: true
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python -m zoh.notify day

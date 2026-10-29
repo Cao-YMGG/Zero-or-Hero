@@ -27,6 +27,8 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
   DAY_1 rankings, read-only) and breaking news; if one has a fresh catalyst still unfolding,
   append one pick to `journal/bias/intraday/<today>.json` (schema in journal/bias/README.md)
   and push to main. Read journal/news/LATEST.md for headlines since the open. Never touch the pre-market file after 09:30.
+  Ideas that do not clear the pick bar still go into an `opportunities` list in the same file
+  (no orders; scored at the close).
   Bolder since 2026-10-21 (owner: "we need samples"): a sector catalyst from the same day also
   qualifies (e.g. chips on Musk's SpaceX compute comment), so the strongest mega cap in that
   sector can be picked without in-session news of its own; still never on a name reporting that
@@ -169,5 +171,8 @@ scored against purely mechanical variants.
    META fell 2%, while ORCL fell 7.6% and AMD 3.5%. Puts are still rarer than calls: the market
    has trended up and the 10-07 put day lost.
 4. Write `journal/bias/<today>.json` in the schema from `journal/bias/README.md`, commit
-   ("bias: <date> <call|put|none>") and push to `main` before 09:30 ET. Retry the push on
+   ("bias: <date> <call|put|none>") and push to `main` before 09:30 ET. Fill `opportunities` with
+   every idea of the morning by type (journal/research/OPPORTUNITIES.md: rotation laggard,
+   financing fade, sell the news in a cooling theme, pre-earnings drift, M&A target/acquirer...),
+   traded or not; the close scores them in journal/opportunities.csv (owner, 2026-10-29). Retry the push on
    conflict (`git pull --rebase`). Do not touch any other file. Never place trades.

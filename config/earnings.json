@@ -1,5 +1,5 @@
 {
-  "_note": "Expected report dates (Webull earnings calendar, read 2026-10-13; dates can move, recheck each pre-market). Used by the pre-market checklist: names reporting within 10 trading days are pre-earnings drift candidates; never name a sniper on the day before or the day of its report. AMZN 10-29 added 2026-10-23 from Benzinga 'earnings a week away' (10-22); confirm on the Webull calendar.",
+  "_note": "Expected report dates (Webull earnings calendar, read 2026-10-13; dates can move, recheck each pre-market). Used by the pre-market checklist: names reporting within 10 trading days are pre-earnings drift candidates; never name a sniper on the day before or the day of its report. AMZN 10-29 added 2026-10-23 from Benzinga 'earnings a week away' (10-22); confirm on the Webull calendar. 2026-10-29: added the scanner universes' dates from the Webull calendar (COIN reported 10-29 and leader_follow bought its call that day), plus V/MA/LLY/CAT/HOOD.",
   "2026-10-20": [
     "NFLX"
   ],
@@ -7,21 +7,37 @@
     "TSLA",
     "META"
   ],
+  "2026-10-27": [
+    "HOOD",
+    "V"
+  ],
   "2026-10-28": [
     "MSFT",
     "GOOGL"
   ],
   "2026-10-29": [
     "AMZN",
-    "INTC"
+    "INTC",
+    "COIN",
+    "MA",
+    "LLY",
+    "CAT"
   ],
   "2026-11-02": [
-    "AAPL"
+    "AAPL",
+    "PLTR"
   ],
   "2026-11-03": [
-    "AMD"
+    "AMD",
+    "SMCI"
   ],
   "2026-11-05": [
     "LITE"
+  ],
+  "2026-11-09": [
+    "RKLB"
+  ],
+  "2026-11-17": [
+    "NVDA"
   ]
 }

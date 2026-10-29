@@ -26,9 +26,23 @@ appears; the `claude_bias` / `claude_confirm` variants trade it in shadow mode.
     "catalyst": "Muse hit #1 on the US App Store over the weekend; Wells Fargo PT raise",
     "confidence": 0.6
   },                              // or null when nothing qualifies (most days)
+  "opportunities": [              // since 2026-10-29: every opportunity spotted, traded or not
+    {"type": "rotation_laggard", "symbol": "META", "direction": "call", "time": "10:00",
+     "why": "-12% in a week after its offering, green pre-market while GOOGL -11%",
+     "action": "none"}            // "real" (sniper / pick), "shadow" or "none"
+  ],
   "generated_at": "2026-10-05T09:05:00-04:00"
 }
 ```
+
+`opportunities` (owner, 2026-10-29: "list every kind of opportunity"): one entry per idea, with a
+`type` key from journal/research/OPPORTUNITIES.md. The sniper and intraday picks are added
+automatically. The intraday file may carry its own `opportunities` list, and
+`journal/opportunities/<date>.json` (`{"date", "opportunities": [...]}`) holds ideas added later in
+the day or at the review. `zoh/research/opportunities.py` scores all of them after the close
+(stock move from `time`, default 10:00, to the close, signed by direction; open to close; best move
+after entry) into journal/opportunities.csv, and the Notify workflow posts them to Discord. No
+orders: a type that keeps scoring well becomes a variant.
 
 The `catalyst_sniper` variant buys a ~0.2-delta nearest-expiry option on `sniper.symbol` only
 if the stock has moved >= 1% from its open in the stated direction after 09:45 (price
