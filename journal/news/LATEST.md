@@ -1,9 +1,10 @@
-# Headlines since 2026-10-28 16:00 ET (as of 2026-10-29 14:38 ET)
+# Headlines since 2026-10-28 16:00 ET (as of 2026-10-29 14:47 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-29 14:38 | GOOGL | target down | UBS Maintains Neutral on Alphabet, Lowers Price Target to $332 |
 | 10-29 13:25 | GOOGL | target down | Morgan Stanley Maintains Overweight on Alphabet, Lowers Price Target to $375 |
 | 10-29 12:53 | GEV | target down | TD Cowen Maintains Buy on GE Vernova, Lowers Price Target to $1125 |
 | 10-29 11:54 | GOOGL | target down | DA Davidson Maintains Neutral on Alphabet, Lowers Price Target to $300 |
@@ -46,6 +47,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-28 18:48 | VST | target down | CIBC Maintains Outperformer on Vistra, Lowers Price Target to $181 |
 | 10-28 17:13 | STX | target down | UBS Maintains Neutral on Seagate Technology Hldgs, Lowers Price Target to $750 |
 | 10-28 16:03 | STX | target down | Citigroup Maintains Buy on Seagate Technology Hldgs, Lowers Price Target to $1050 |
+| 10-29 14:39 | LITE |  | Marvell Stock Tumbles Amid Lumentum Bid Talks |
 | 10-29 14:14 | GOOGL NFLX |  | YouTube's Living-Room Business Just Made More in One Quarter Than Netflix's Full-Year Ad Forecast |
 | 10-29 14:02 | HOOD |  | Robinhood Reports Q3 2026 Financial Results and Withdraws 2026 Operating Expense Outlook |
 | 10-29 14:01 | NFLX |  | Netflix Renews 'The Diplomat' for Season Five |
