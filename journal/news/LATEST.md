@@ -1,9 +1,19 @@
-# Headlines since 2026-10-28 16:00 ET (as of 2026-10-29 08:53 ET)
+# Headlines since 2026-10-28 16:00 ET (as of 2026-10-29 10:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-29 09:37 | GOOGL | target down | Piper Sandler Maintains Overweight on Alphabet, Lowers Price Target to $345 |
+| 10-29 09:35 | CAT | rating | Oppenheimer Maintains Outperform on Caterpillar, Maintains $1009 Price Target |
+| 10-29 09:32 | ORCL | rating | Oppenheimer Reiterates Outperform on Oracle, Maintains $275 Price Target |
+| 10-29 09:31 | MSFT | target up | Keybanc Maintains Overweight on Microsoft, Raises Price Target to $630 |
+| 10-29 09:25 | GOOGL | target down | Keybanc Maintains Overweight on Alphabet, Lowers Price Target to $385 |
+| 10-29 09:20 | PLTR | target up | Oppenheimer Reiterates Outperform on Palantir Technologies, Raises Price Target to $235 |
+| 10-29 09:19 | MSFT | rating | Oppenheimer Reiterates Outperform on Microsoft, Maintains $625 Price Target |
+| 10-29 09:03 | GOOGL | target down | Susquehanna Maintains Positive on Alphabet, Lowers Price Target to $400 |
+| 10-29 09:02 | GEV | target down | Susquehanna Maintains Positive on GE Vernova, Lowers Price Target to $1250 |
+| 10-29 08:52 | MSFT | target up | Stifel Maintains Buy on Microsoft, Raises Price Target to $650 |
 | 10-29 08:42 | GOOGL | rating | Needham Reiterates Buy on Alphabet, Maintains $450 Price Target |
 | 10-29 08:13 | GOOGL | target down | Rosenblatt Maintains Buy on Alphabet, Lowers Price Target to $380 |
 | 10-29 08:04 | MSFT | target up | Cantor Fitzgerald Maintains Overweight on Microsoft, Raises Price Target to $630 |
@@ -16,6 +26,23 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-28 18:48 | VST | target down | CIBC Maintains Outperformer on Vistra, Lowers Price Target to $181 |
 | 10-28 17:13 | STX | target down | UBS Maintains Neutral on Seagate Technology Hldgs, Lowers Price Target to $750 |
 | 10-28 16:03 | STX | target down | Citigroup Maintains Buy on Seagate Technology Hldgs, Lowers Price Target to $1050 |
+| 10-29 09:53 | LLY |  | Eli Lilly Mounjaro Clocks 65% Jump in Sales to Massive $10.7 billion |
+| 10-29 09:52 | MSFT |  | Watching Microsoft; Hearing Investor Business Daily SwingTrader Buys Stock |
+| 10-29 09:52 | META |  | Mark Cuban Says Gen Z Texans Have ‘No Idea’ Who James Talarico or Ken Paxton Are as AI-Powered Social Media Algorithms Shape How Americans Think |
+| 10-29 09:44 | CAT |  | Caterpillar Q3 2026 Earnings Call Transcript |
+| 10-29 09:39 | CAT |  | AI's Power Hunger Sends Caterpillar Orders Soaring — Tariffs Spoil the Party |
+| 10-29 09:32 | GS |  | Goldman Sachs Adjusts Price Target on Flex Ltd. |
+| 10-29 09:32 | AAPL |  | Apple Increases Production Targets for iPhone Duo Following Strong Demand |
+| 10-29 09:31 | AMD |  | Hinduja Global Solutions Selects Rackspace Technology for AI Infrastructure Powered by AMD |
+| 10-29 09:31 | JPM |  | JPMorgan Chase & Co. Reports Change in Major Holding in Pennon Group PLC |
+| 10-29 09:31 | MSFT |  | IANS Launches Practitioner-Validated Cybersecurity Intelligence in Microsoft Copilot |
+| 10-29 09:29 | GOOGL |  | Alphabet Blames Even the World Cup for Google Search’s Slowdown |
+| 10-29 09:14 | CAT |  | Caterpillar CEO Says Seeing Demand From Cloud Compute, Back Up Power Remain Strong; Have A Line Of Sight On Demand Past The Order Backlog |
+| 10-29 09:10 | CAT |  | Caterpillar CFO Says Co. Continues To Expect About 50% Of Tariffs To Be Incurred In Construction Industries Segment; Expects 25% Of Tariffs Each To Be Incurred In Both Power And Energy, Resource Units |
+| 10-29 09:05 | CAT |  | Caterpillar CEO Says Middle East Continues To Face Challenges, Currently Anticipate Limited Sales Impact To Users In EMEA Region; Expect Moderate Q4 Sales Growth YoY For Power & Energy Segment; Sees Q4 Construction Segment Sales To Be Similar YoY |
+| 10-29 08:57 | CVX XOM |  | Top 3 Energy Stocks You May Want To Dump In Q4 |
+| 10-29 08:56 | SNDK |  | Sandisk Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call |
+| 10-29 08:52 | NVDA SMCI |  | Nvidia CEO Jensen Huang Was Target of Suspected Chinese Intelligence Asset, Raising Questions Over Potential AI Chip Diversion: Report |
 | 10-29 08:41 | MSFT |  | 'Microsoft Looks to Raise at Least $25 Billion From US Bond Sale' - Bloomberg Exclusive |
 | 10-29 08:32 | AAPL NVDA TSLA |  | STMicroelectronics Lifts Forecast Thanks To Data Center Revenue Growth |
 | 10-29 08:19 | TSLA |  | Tesla, Nutrien and an Industrial Stock on CNBC’s ‘Final Trades’ |
