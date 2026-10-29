@@ -1,4 +1,4 @@
-# Backtest — SPY 0DTE, 2025-10-29 → 2026-10-28 (251 days)
+# Backtest — SPY 0DTE, 2025-10-30 → 2026-10-29 (251 days)
 
 Model: Black-Scholes at IV 11%, slippage 1% + $0.01 each side, start $500, phase sizing from config. Option prices are modelled, not real quotes — use this to rank ideas.
 
