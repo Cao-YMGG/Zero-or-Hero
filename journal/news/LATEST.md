@@ -1,9 +1,10 @@
-# Headlines since 2026-10-28 16:00 ET (as of 2026-10-29 12:33 ET)
+# Headlines since 2026-10-28 16:00 ET (as of 2026-10-29 13:15 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-29 12:53 | GEV | target down | TD Cowen Maintains Buy on GE Vernova, Lowers Price Target to $1125 |
 | 10-29 11:54 | GOOGL | target down | DA Davidson Maintains Neutral on Alphabet, Lowers Price Target to $300 |
 | 10-29 11:49 | MSFT | target up | DA Davidson Maintains Buy on Microsoft, Raises Price Target to $650 |
 | 10-29 11:47 | MSFT | target up | TD Cowen Maintains Buy on Microsoft, Raises Price Target to $650 |
@@ -44,6 +45,10 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-28 18:48 | VST | target down | CIBC Maintains Outperformer on Vistra, Lowers Price Target to $181 |
 | 10-28 17:13 | STX | target down | UBS Maintains Neutral on Seagate Technology Hldgs, Lowers Price Target to $750 |
 | 10-28 16:03 | STX | target down | Citigroup Maintains Buy on Seagate Technology Hldgs, Lowers Price Target to $1050 |
+| 10-29 13:01 | MSFT |  | Microsoft Stock Slips Despite Strong Azure Growth: Analysts Debate AI Spending |
+| 10-29 12:53 | GOOGL |  | Blame SpaceX for Most of Google’s Shocking Earnings Miss — And Brace for More |
+| 10-29 12:45 | MSFT |  | Microsoft Stock Has More Upside: Analyst Says Q1 Validation of ‘AI-Led Growth Opportunity’ |
+| 10-29 12:43 | GOOGL |  | Why Is DocuSign Stock Falling on Thursday? |
 | 10-29 12:13 | ORCL |  | Oracle's AI Spending Spree May Finally Have an End in Sight |
 | 10-29 12:12 | GOOGL |  | Live On CNBC, Jim Lebenthal Announces Trimmed Alphabet Class A Position |
 | 10-29 12:05 | WMT |  | Walmart+ Launches In Mexico With Shopping, Entertainment, Connectivity, Rewards, And Healthcare Benefits;  Walmart+ Membership In Mexico Priced At MXN$89 Monthly Or MXN$890 Annually; Walmart+ Mexico Offers Free Shipping And Delivery With No Minimum Through November 30, 2026 |

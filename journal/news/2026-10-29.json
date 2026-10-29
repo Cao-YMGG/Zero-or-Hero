@@ -1,7 +1,57 @@
 {
- "as_of": "2026-10-29T12:33-04:00",
+ "as_of": "2026-10-29T13:15-04:00",
  "since": "2026-10-28T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-29 13:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Stock Slips Despite Strong Azure Growth: Analysts Debate AI Spending",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62708494/microsoft-stock-slips-despite-strong-azure-growth-analysts-debate-ai-spending"
+  },
+  {
+   "time": "10-29 12:53",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "target down",
+   "headline": "TD Cowen Maintains Buy on GE Vernova, Lowers Price Target to $1125",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62708144/td-cowen-maintains-buy-ge-vernova-lowers-price-target-1125"
+  },
+  {
+   "time": "10-29 12:53",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Blame SpaceX for Most of Google\u2019s Shocking Earnings Miss \u2014 And Brace for More",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62708126/alphabet-google-spacex-investment-loss"
+  },
+  {
+   "time": "10-29 12:45",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Stock Has More Upside: Analyst Says Q1 Validation of \u2018AI-Led Growth Opportunity\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62707735/microsoft-stock-has-more-upside-analyst-says-q1-validation-of-ai-led-growth-opportunity"
+  },
+  {
+   "time": "10-29 12:43",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Why Is DocuSign Stock Falling on Thursday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62707674/why-is-docusign-stock-falling-on-thursday"
+  },
   {
    "time": "10-29 12:13",
    "symbols": [
