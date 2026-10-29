@@ -1,7 +1,701 @@
 {
- "as_of": "2026-10-29T15:17-04:00",
+ "as_of": "2026-10-29T19:12-04:00",
  "since": "2026-10-28T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-29 19:01",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "SanDisk Reports Fiscal First Quarter 2027 Financial Results and Announces Stock Split",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1002878936/press-release-sandisk-reports-fiscal-first-quarter-2027-financial-results"
+  },
+  {
+   "time": "10-29 19:01",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "",
+   "headline": "Broadcom Discloses Residual-Value Support Details for $63 Billion Anthropic AI Financing Deal",
+   "source": "fiscal.ai",
+   "url": "https://in.tradingview.com/news/gurufocus:27f80a58e094b:0-broadcom-stocks-decline-2-73-with-equipment-value-support-in-a-63-billion-ai-deal/"
+  },
+  {
+   "time": "10-29 19:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Introduces New Capabilities for Alexa for Shopping",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/news/artificial-intelligence/2026/amazon-adds-100-plus-capabilities-to-ai-shopping-assistant/"
+  },
+  {
+   "time": "10-29 18:43",
+   "symbols": [
+    "V"
+   ],
+   "rating": "target up",
+   "headline": "Macquarie Maintains Outperform on Visa, Raises Price Target to $465",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62725553/macquarie-maintains-outperform-visa-raises-price-target-465"
+  },
+  {
+   "time": "10-29 18:30",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "$1000 Invested In Tesla 15 Years Ago Would Be Worth This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62725327/1000-invested-tesla-15-years-ago-would-be-worth-much-today"
+  },
+  {
+   "time": "10-29 18:14",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel Q3 2026 Earnings Call Transcript",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62725076/intel-q3-2026-earnings-call-transcript"
+  },
+  {
+   "time": "10-29 18:06",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon.com Q3 2026 Earnings Call Transcript",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62724825/amazoncom-q3-2026-earnings-call-transcript"
+  },
+  {
+   "time": "10-29 18:04",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel CFO Says We Have A Significant Ramp In Equipment Spend This Quarter, And It's Expected To Be Even More Significant Next Quarter",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62724776/intel-cfo-says-we-have-significant-ramp-equipment-spend-quarter-and-it-s-expected-be-even-more-signi"
+  },
+  {
+   "time": "10-29 18:02",
+   "symbols": [
+    "CRDO"
+   ],
+   "rating": "",
+   "headline": "Credo Technology Group Holding Director Chi Fung Cheng Sells Shares",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/credo-technology-group-holding-insider-sold-shares-worth-4-513-369-according-to-a-recent-sec-filin-ce785fdadc8bf121"
+  },
+  {
+   "time": "10-29 18:02",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Coinbase Global, Inc. Reports Third Quarter 2026 Financial Results",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/press-releases/8538104/coinbase-q3-2026-earnings-show-all-time-high-coinbase-one-subscribers-and-prediction-markets-surpassing-200-million-in-annualized-revenue"
+  },
+  {
+   "time": "10-29 18:01",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "",
+   "headline": "Vistra Corp. Declares Quarterly Dividends on Common and Preferred Stock",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/vistra-declares-dividend-on-common-stock-series-b-preferred-stock-and-series-c-preferred-stock-302924208.html"
+  },
+  {
+   "time": "10-29 18:00",
+   "symbols": [
+    "AMZN",
+    "GOOGL",
+    "META",
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "El-Sayed Leads Michigan Senate Poll by 7 Points, Wants 50% Public Ownership of OpenAI, Anthropic",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62724648/el-sayed-ai-ownership"
+  },
+  {
+   "time": "10-29 17:48",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "target down",
+   "headline": "Bernstein Maintains Market Perform on Alphabet, Lowers Price Target to $325",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62724275/bernstein-maintains-market-perform-alphabet-lowers-price-target-325"
+  },
+  {
+   "time": "10-29 17:48",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "SanDisk Q1 2027 Earnings Call Transcript",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62724272/sandisk-q1-2027-earnings-call-transcript"
+  },
+  {
+   "time": "10-29 17:46",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "Sandisk Repurchased $5.0B Of Stock In Q1, ~3.2M Shares; 6.0M Over Two Quarters, ~4% Of Outstanding",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/SNDK"
+  },
+  {
+   "time": "10-29 17:45",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel Q3 Data Center & AI Rev $7.3B, Up 78% Y/Y; Foundry Rev $6.7B, Up 58%",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/INTC"
+  },
+  {
+   "time": "10-29 17:44",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel CFO Says Expect The 2026 PC Unit TAM To Decline ~12%, With Second-Half Units Down More Than 20%;  Says I Don't Think That This Will Be A Year In Which We See Positive Cash Flow\"",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62724084/intel-cfo-says-expect-2026-pc-unit-tam-decline-12-second-half-units-down-more-20-says-i-don-t-think-"
+  },
+  {
+   "time": "10-29 17:42",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel CFO Says Expect Non-Controlling Interest To Be ~$250M In Q4; 2026 Gross Capital Expenditures Remains On Track To Be $20B, And We Expect 2027 Gross Capital Spending To Be Up Strongly",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62723999/intel-cfo-says-expect-non-controlling-interest-be-250m-q4-2026-gross-capital-expenditures-remains-tr"
+  },
+  {
+   "time": "10-29 17:40",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel CFO Says Expect Non-GAAP Operating Expenses Of  ~$4.4B In Q4 And ~$16.3B For The Full Year",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62723789/intel-cfo-says-expect-non-gaap-operating-expenses-4-4b-q4-and-16-3b-full-year"
+  },
+  {
+   "time": "10-29 17:39",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel CEO Says By Our Estimates, Server CPU TAM Could Increase As Much As Five Times From Where It Is Today, From $40B To More Than $200B Over 5 Years",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62723730/intel-ceo-says-our-estimates-server-cpu-tam-could-increase-much-five-times-where-it-today-40b-more-2"
+  },
+  {
+   "time": "10-29 17:38",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel CEO Says Co Is Engaged With 'A Couple' Of 'Highly Strategic' External Customers For 18a-p Chipmaking Technology",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62723697/intel-ceo-says-co-engaged-couple-highly-strategic-external-customers-18a-p-chipmaking-technology"
+  },
+  {
+   "time": "10-29 17:38",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "target up",
+   "headline": "Bernstein Maintains Outperform on Microsoft, Raises Price Target to $722",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62723680/bernstein-maintains-outperform-microsoft-raises-price-target-722"
+  },
+  {
+   "time": "10-29 17:38",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel CEO Says Industry-Wide Shortage Of Advanced Organic Substrates For Our Emib Packaging Is Also Impacting Our Ability To Scale Output",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62723664/intel-ceo-says-industry-wide-shortage-advanced-organic-substrates-our-emib-packaging-also-impacting-"
+  },
+  {
+   "time": "10-29 17:37",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon CEO Andy Jassy Says \"We Have Very Good Visibility Into Compute Capacity Demand In 2027 And 2028, And Some Of 2029 Too\"",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62723628/amazon-ceo-andy-jassy-says-we-have-very-good-visibility-compute-capacity-demand-2027-and-2028-and-so"
+  },
+  {
+   "time": "10-29 17:37",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel CEO Says Diamond Rapids, Our First Intel 18AP Server Product, Is Sampling And On Track To Ramp In 2027; Says The Pace Of This PC Correction Has Accelerated Over The Last Two Months, As Our OEM Partners Are Aggressively Managing Inventory To Match The Softer Sell-through",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62723625/intel-ceo-says-diamond-rapids-our-first-intel-18ap-server-product-sampling-and-track-ramp-2027-says-"
+  },
+  {
+   "time": "10-29 17:37",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Coinbase Global Q3 2026 Earnings Call Transcript",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62723609/coinbase-global-q3-2026-earnings-call-transcript"
+  },
+  {
+   "time": "10-29 17:36",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "target down",
+   "headline": "JP Morgan Maintains Overweight on GE Vernova, Lowers Price Target to $1035",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62723592/jp-morgan-maintains-overweight-ge-vernova-lowers-price-target-1035"
+  },
+  {
+   "time": "10-29 17:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Reports Fiscal Third-Quarter 2026 Financial Results",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8538865/amazon-s-3q-results-miss-analysts-estimates-but-posts-solid-sales-gains-in-cloud-computing-unit"
+  },
+  {
+   "time": "10-29 17:31",
+   "symbols": [
+    "META"
+   ],
+   "rating": "upgrade",
+   "headline": "Quantryon Capital Upgrades Meta to Buy",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/seekingalpha:86b88b9f6094b:0-sa-analyst-upgrades-downgrades-meta-nflx-intu-gnrc/"
+  },
+  {
+   "time": "10-29 17:31",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "UnitedHealthcare Insurance Company Approved to Sell 2027 Small Business Plans in Washington",
+   "source": "fiscal.ai",
+   "url": "https://www.einnews.com/pr_news/953157974/nine-insurers-approved-to-sell-2027-health-insurance-plans-to-small-businesses"
+  },
+  {
+   "time": "10-29 17:30",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon CEO Says AWS Backlog Is $578B, Growing Triple Digits YoY; Expect To Spend Meaningfully More On CAPEX In 2027; With Trainium Chip Demand So Strong, Customers Are Encouraging Us To Make It Available Outside Of AWS And We Intend To Do So Late In 2027; Expects Ad Sales To Return To High Teens Growth In Q4",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62723393/amazon-ceo-says-aws-backlog-578b-growing-triple-digits-yoy-expect-spend-meaningfully-more-capex-2027"
+  },
+  {
+   "time": "10-29 17:27",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Coinbase Q3 GAAP EPS $2.51 Includes $715.0M Gain On Crypto Assets Held For Investment; Operating Income $61.7M vs $480.5M Y/Y",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/COIN"
+  },
+  {
+   "time": "10-29 17:23",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "'Greek PM calls Turkey-Libya maritime deal 'void;' calls for global truce after Black Sea attacks' - Reuters Exclusive",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62722973/greek-pm-calls-turkey-libya-maritime-deal-void-calls-global-truce-after-black-sea-attacks-reuters-ex"
+  },
+  {
+   "time": "10-29 16:44",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Coinbase Q3 Highlights: Mixed Earnings, Prediction Markets Hit $200 Million Annualized Revenue",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62721640/coinbase-q3-highlights-mixed-earnings-prediction-markets-hit-200-million-annualized-revenue"
+  },
+  {
+   "time": "10-29 16:39",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Announces AWS Investment In Functionality And Infrastructure Is Working, Projected Rev Growth Rates Of Over 40% Both In 2027 And In 2028; AWS Investment In Functionality & Infrastructure Is Working, With Over 39% YoY Rev Growth In Q3 , $184B Revenue Run Rate; Expect YoY Advertising Revenue To Grow In High Teens In Q4",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AMZN"
+  },
+  {
+   "time": "10-29 16:37",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel CFO Tells Reuters Kiryat Gat Fab Did Not Operate For Two Weeks After Explosion; Expects To Begin Ramping Production By End Of This Week, Still Assessing Which Wafers Are Salvageable",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/INTC"
+  },
+  {
+   "time": "10-29 16:37",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel CFO Tells Reuters Company Expects Similar Revenue Impact From Israel Fab Explosion In Q1; Still Assessing Whether Impact Extends Beyond Current Estimates",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/INTC"
+  },
+  {
+   "time": "10-29 16:37",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel CFO David Zinsner Tells Reuters Israel Fab Explosion Cut Q4 Revenue Outlook By About $300M, Gross Margin By About 200 Basis Points",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/INTC"
+  },
+  {
+   "time": "10-29 16:32",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Reaffirms ~$220B 2026 Capex; Trailing 12-Month Free Cash Flow Turns To $42.4B Outflow On AI Spending",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AMZN"
+  },
+  {
+   "time": "10-29 16:32",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Q3 Operating Income Rises To Record $28.1B, AWS Sales Up 39% To $46.0B; EPS Decline Reflects $9.5B Anthropic Gain In Year-Ago Quarter",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AMZN"
+  },
+  {
+   "time": "10-29 16:32",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "",
+   "headline": "Broadcom and Powertech Technology Form Singapore Joint Venture",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/symbols/MUN-1YD/news/?section=top_news"
+  },
+  {
+   "time": "10-29 16:32",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Shifts Theatrical Strategy with Broad Release for 'KPop Demon Hunters 2'",
+   "source": "fiscal.ai",
+   "url": "https://www.mediabistro.com/media-news?page=2"
+  },
+  {
+   "time": "10-29 16:32",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "SanDisk Corporation Reports Fiscal Q1 2027 Earnings Results",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/earnings-flash-sndk-sandisk-corporation-reports-q1-revenue-11-03b-vs-factset-est-of-10-72b-ce785fdadc89ff23"
+  },
+  {
+   "time": "10-29 16:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "The Goldman Sachs Group, Inc. Discloses Change in Major Holdings of ASOS PLC",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/rns/asos--asc/holding-s-in-company/9849011"
+  },
+  {
+   "time": "10-29 16:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart and Symbotic Expand Supply Chain Automation Partnership",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/29/3391812/0/en/walmart-and-symbotic-expand-commercial-agreement-to-support-supply-chain-transformation.html"
+  },
+  {
+   "time": "10-29 16:31",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Loses Appeal in French Media Payment Dispute",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/gurufocus:7ddc2b011094b:0-meta-suffers-french-court-setback-in-media-payment-fight/"
+  },
+  {
+   "time": "10-29 16:31",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Faces Long-Term Chip Supply Constraints Through 2030",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/2026/10/29/why-apple-products-prices-may-keep-rising-until-2030/"
+  },
+  {
+   "time": "10-29 16:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Refutes Allegations Regarding CEO and Chinese Intelligence",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/seekingalpha:9a1701a5d094b:0-nvidia-refutes-nyt-article-claiming-chinese-spy-targeted-ceo-and-us-failed-to-act/"
+  },
+  {
+   "time": "10-29 16:31",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "target down",
+   "headline": "JP Morgan Maintains Overweight on Alphabet, Lowers Price Target to $375",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62720490/jp-morgan-maintains-overweight-alphabet-lowers-price-target-375"
+  },
+  {
+   "time": "10-29 16:30",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "SanDisk Posts Q1 Double Beat, Announces Stock Split",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62720386/sandisk-posts-q1-double-beat-announces-stock-split"
+  },
+  {
+   "time": "10-29 16:28",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "initiate",
+   "headline": "JP Morgan Initiates Coverage On Palantir Technologies with Overweight Rating, Announces Price Target of $262",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62720190/jp-morgan-initiates-coverage-palantir-technologies-overweight-rating-announces-price-target-262"
+  },
+  {
+   "time": "10-29 16:22",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Coinbase Glb Q3 Adj. EPS $0.27 Beats $(0.06) Estimate, Sales $1.216B Miss $1.230B Estimate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/10/62719659/coinbase-glb-q3-adj-eps-0-27-beats-0-06-estimate-sales-1-216b-miss-1-230b-estimate"
+  },
+  {
+   "time": "10-29 16:21",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "rating",
+   "headline": "RBC Capital Reiterates Outperform on Microsoft, Maintains $640 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62719574/rbc-capital-reiterates-outperform-microsoft-maintains-640-price-target"
+  },
+  {
+   "time": "10-29 16:21",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "Sandisk Announces An Eight-For-One Forward Stock Split, Effective November 19, 2026",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62719487/sandisk-announces-eight-one-forward-stock-split-effective-november-19-2026"
+  },
+  {
+   "time": "10-29 16:20",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Delivers Q3 Double Miss, AWS Growth Accelerates, Shares Drop",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62719400/amazon-delivers-q3-double-miss-aws-growth-accelerates-shares-drop"
+  },
+  {
+   "time": "10-29 16:15",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel Stock Crashes After Q3 Earnings: What You Need to Know",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62718733/intel-stock-crashes-after-q3-earnings-what-you-need-to-know"
+  },
+  {
+   "time": "10-29 16:14",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "SanDisk Sees Q2 Sales $12.200B-$12.600B",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62718477/sandisk-sees-q2-sales-12-200b-12-600b"
+  },
+  {
+   "time": "10-29 16:14",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "SanDisk Sees Q2 Adj EPS $55.00-$57.00 vs $53.19 Est; Sees Sales $12.200B-$12.600B vs $12.176B Est",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62718438/sandisk-sees-q2-adj-eps-55-00-57-00-vs-53-19-est-sees-sales-12-200b-12-600b-vs-12-176b-est"
+  },
+  {
+   "time": "10-29 16:11",
+   "symbols": [
+    "CVX",
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "Oil Stocks in Spotlight Friday: Chevron, ExxonMobil, BP Could Show Impact of Higher Gas Prices",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/previews/26/10/62718149/oil-stocks-in-spotlight-friday-chevron-exxonmobil-bp-could-show-impact-of-higher-gas-prices"
+  },
+  {
+   "time": "10-29 16:10",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Symbotic Inks ~$6B Commercial Deal With Walmart To Roll Out Additional Automation Tools To 25 U.S. Regional Distribution Centers",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62718020/symbotic-inks-6b-commercial-deal-walmart-roll-out-additional-automation-tools-25-u-s-regional-distri"
+  },
+  {
+   "time": "10-29 16:07",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "SanDisk Q1 Adj. EPS $49.51 Beats $46.22 Estimate, Sales $11.031B Beat $10.639B Estimate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/10/62717335/sandisk-q1-adj-eps-49-51-beats-46-22-estimate-sales-11-031b-beat-10-639b-estimate"
+  },
+  {
+   "time": "10-29 16:06",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel CEO Says Despite Near-Term Headwinds In The PC Industry, Demand For Our CPUs Remains Robust, Reinforcing Confidence In Long-Term Growth Opportunities",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62717201/intel-ceo-says-despite-near-term-headwinds-pc-industry-demand-our-cpus-remains-robust-reinforcing-co"
+  },
+  {
+   "time": "10-29 16:02",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel Sees Q4 Adj EPS $0.25 vs $0.43 Est; Sees Sales $15.000B-$16.000B vs $17.045B Est",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62716447/intel-sees-q4-adj-eps-0-25-vs-0-43-est-sees-sales-15-000b-16-000b-vs-17-045b-est"
+  },
+  {
+   "time": "10-29 16:02",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel Q3 Adj. EPS $0.52 Beats $0.40 Estimate, Sales $16.513B Beat $16.467B Estimate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/10/62716420/intel-q3-adj-eps-0-52-beats-0-40-estimate-sales-16-513b-beat-16-467b-estimate"
+  },
+  {
+   "time": "10-29 16:01",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel Sees Q4 GAAP EPS $0.10 vs $0.15 Est",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62716345/intel-sees-q4-gaap-eps-0-10-vs-0-15-est"
+  },
+  {
+   "time": "10-29 16:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon.com Sees Q4 Sales $240.000B-$247.000B vs $244.513B Est",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62716343/amazon-com-sees-q4-sales-240-000b-247-000b-vs-244-513b-est"
+  },
+  {
+   "time": "10-29 16:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon.com Q3 EPS $1.89 Misses $1.97 Estimate, Sales $201.944B Miss $202.308B Estimate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/10/62716265/amazon-com-q3-eps-1-89-misses-1-97-estimate-sales-201-944b-miss-202-308b-estimate"
+  },
+  {
+   "time": "10-29 15:59",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "target up",
+   "headline": "RBC Capital Maintains Outperform on GE Vernova, Raises Price Target to $1230",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62716044/rbc-capital-maintains-outperform-ge-vernova-raises-price-target-1230"
+  },
+  {
+   "time": "10-29 15:17",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "target up",
+   "headline": "Citigroup Maintains Buy on Microsoft, Raises Price Target to $680",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62714097/citigroup-maintains-buy-microsoft-raises-price-target-680"
+  },
   {
    "time": "10-29 15:09",
    "symbols": [

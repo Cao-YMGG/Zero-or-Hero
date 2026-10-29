@@ -1,9 +1,19 @@
-# Headlines since 2026-10-28 16:00 ET (as of 2026-10-29 15:17 ET)
+# Headlines since 2026-10-28 16:00 ET (as of 2026-10-29 19:12 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-29 18:43 | V | target up | Macquarie Maintains Outperform on Visa, Raises Price Target to $465 |
+| 10-29 17:48 | GOOGL | target down | Bernstein Maintains Market Perform on Alphabet, Lowers Price Target to $325 |
+| 10-29 17:38 | MSFT | target up | Bernstein Maintains Outperform on Microsoft, Raises Price Target to $722 |
+| 10-29 17:36 | GEV | target down | JP Morgan Maintains Overweight on GE Vernova, Lowers Price Target to $1035 |
+| 10-29 17:31 | META | upgrade | Quantryon Capital Upgrades Meta to Buy |
+| 10-29 16:31 | GOOGL | target down | JP Morgan Maintains Overweight on Alphabet, Lowers Price Target to $375 |
+| 10-29 16:28 | PLTR | initiate | JP Morgan Initiates Coverage On Palantir Technologies with Overweight Rating, Announces Price Target of $262 |
+| 10-29 16:21 | MSFT | rating | RBC Capital Reiterates Outperform on Microsoft, Maintains $640 Price Target |
+| 10-29 15:59 | GEV | target up | RBC Capital Maintains Outperform on GE Vernova, Raises Price Target to $1230 |
+| 10-29 15:17 | MSFT | target up | Citigroup Maintains Buy on Microsoft, Raises Price Target to $680 |
 | 10-29 15:09 | GEV | target down | Citigroup Maintains Neutral on GE Vernova, Lowers Price Target to $1000 |
 | 10-29 15:04 | GOOGL | target down | RBC Capital Maintains Outperform on Alphabet, Lowers Price Target to $400 |
 | 10-29 15:01 | V | target up | Wells Fargo Raises Visa Price Target to $463 |
@@ -50,6 +60,65 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-28 18:48 | VST | target down | CIBC Maintains Outperformer on Vistra, Lowers Price Target to $181 |
 | 10-28 17:13 | STX | target down | UBS Maintains Neutral on Seagate Technology Hldgs, Lowers Price Target to $750 |
 | 10-28 16:03 | STX | target down | Citigroup Maintains Buy on Seagate Technology Hldgs, Lowers Price Target to $1050 |
+| 10-29 19:01 | SNDK |  | SanDisk Reports Fiscal First Quarter 2027 Financial Results and Announces Stock Split |
+| 10-29 19:01 | AVGO |  | Broadcom Discloses Residual-Value Support Details for $63 Billion Anthropic AI Financing Deal |
+| 10-29 19:01 | AMZN |  | Amazon Introduces New Capabilities for Alexa for Shopping |
+| 10-29 18:30 | TSLA |  | $1000 Invested In Tesla 15 Years Ago Would Be Worth This Much Today |
+| 10-29 18:14 | INTC |  | Intel Q3 2026 Earnings Call Transcript |
+| 10-29 18:06 | AMZN |  | Amazon.com Q3 2026 Earnings Call Transcript |
+| 10-29 18:04 | INTC |  | Intel CFO Says We Have A Significant Ramp In Equipment Spend This Quarter, And It's Expected To Be Even More Significant Next Quarter |
+| 10-29 18:02 | CRDO |  | Credo Technology Group Holding Director Chi Fung Cheng Sells Shares |
+| 10-29 18:02 | COIN |  | Coinbase Global, Inc. Reports Third Quarter 2026 Financial Results |
+| 10-29 18:01 | VST |  | Vistra Corp. Declares Quarterly Dividends on Common and Preferred Stock |
+| 10-29 18:00 | AMZN GOOGL META MSFT |  | El-Sayed Leads Michigan Senate Poll by 7 Points, Wants 50% Public Ownership of OpenAI, Anthropic |
+| 10-29 17:48 | SNDK |  | SanDisk Q1 2027 Earnings Call Transcript |
+| 10-29 17:46 | SNDK |  | Sandisk Repurchased $5.0B Of Stock In Q1, ~3.2M Shares; 6.0M Over Two Quarters, ~4% Of Outstanding |
+| 10-29 17:45 | INTC |  | Intel Q3 Data Center & AI Rev $7.3B, Up 78% Y/Y; Foundry Rev $6.7B, Up 58% |
+| 10-29 17:44 | INTC |  | Intel CFO Says Expect The 2026 PC Unit TAM To Decline ~12%, With Second-Half Units Down More Than 20%;  Says I Don't Think That This Will Be A Year In Which We See Positive Cash Flow" |
+| 10-29 17:42 | INTC |  | Intel CFO Says Expect Non-Controlling Interest To Be ~$250M In Q4; 2026 Gross Capital Expenditures Remains On Track To Be $20B, And We Expect 2027 Gross Capital Spending To Be Up Strongly |
+| 10-29 17:40 | INTC |  | Intel CFO Says Expect Non-GAAP Operating Expenses Of  ~$4.4B In Q4 And ~$16.3B For The Full Year |
+| 10-29 17:39 | INTC |  | Intel CEO Says By Our Estimates, Server CPU TAM Could Increase As Much As Five Times From Where It Is Today, From $40B To More Than $200B Over 5 Years |
+| 10-29 17:38 | INTC |  | Intel CEO Says Co Is Engaged With 'A Couple' Of 'Highly Strategic' External Customers For 18a-p Chipmaking Technology |
+| 10-29 17:38 | INTC |  | Intel CEO Says Industry-Wide Shortage Of Advanced Organic Substrates For Our Emib Packaging Is Also Impacting Our Ability To Scale Output |
+| 10-29 17:37 | AMZN |  | Amazon CEO Andy Jassy Says "We Have Very Good Visibility Into Compute Capacity Demand In 2027 And 2028, And Some Of 2029 Too" |
+| 10-29 17:37 | INTC |  | Intel CEO Says Diamond Rapids, Our First Intel 18AP Server Product, Is Sampling And On Track To Ramp In 2027; Says The Pace Of This PC Correction Has Accelerated Over The Last Two Months, As Our OEM Partners Are Aggressively Managing Inventory To Match The Softer Sell-through |
+| 10-29 17:37 | COIN |  | Coinbase Global Q3 2026 Earnings Call Transcript |
+| 10-29 17:31 | AMZN |  | Amazon Reports Fiscal Third-Quarter 2026 Financial Results |
+| 10-29 17:31 | UNH |  | UnitedHealthcare Insurance Company Approved to Sell 2027 Small Business Plans in Washington |
+| 10-29 17:30 | AMZN |  | Amazon CEO Says AWS Backlog Is $578B, Growing Triple Digits YoY; Expect To Spend Meaningfully More On CAPEX In 2027; With Trainium Chip Demand So Strong, Customers Are Encouraging Us To Make It Available Outside Of AWS And We Intend To Do So Late In 2027; Expects Ad Sales To Return To High Teens Growth In Q4 |
+| 10-29 17:27 | COIN |  | Coinbase Q3 GAAP EPS $2.51 Includes $715.0M Gain On Crypto Assets Held For Investment; Operating Income $61.7M vs $480.5M Y/Y |
+| 10-29 17:23 | CVX |  | 'Greek PM calls Turkey-Libya maritime deal 'void;' calls for global truce after Black Sea attacks' - Reuters Exclusive |
+| 10-29 16:44 | COIN |  | Coinbase Q3 Highlights: Mixed Earnings, Prediction Markets Hit $200 Million Annualized Revenue |
+| 10-29 16:39 | AMZN |  | Amazon Announces AWS Investment In Functionality And Infrastructure Is Working, Projected Rev Growth Rates Of Over 40% Both In 2027 And In 2028; AWS Investment In Functionality & Infrastructure Is Working, With Over 39% YoY Rev Growth In Q3 , $184B Revenue Run Rate; Expect YoY Advertising Revenue To Grow In High Teens In Q4 |
+| 10-29 16:37 | INTC |  | Intel CFO Tells Reuters Kiryat Gat Fab Did Not Operate For Two Weeks After Explosion; Expects To Begin Ramping Production By End Of This Week, Still Assessing Which Wafers Are Salvageable |
+| 10-29 16:37 | INTC |  | Intel CFO Tells Reuters Company Expects Similar Revenue Impact From Israel Fab Explosion In Q1; Still Assessing Whether Impact Extends Beyond Current Estimates |
+| 10-29 16:37 | INTC |  | Intel CFO David Zinsner Tells Reuters Israel Fab Explosion Cut Q4 Revenue Outlook By About $300M, Gross Margin By About 200 Basis Points |
+| 10-29 16:32 | AMZN |  | Amazon Reaffirms ~$220B 2026 Capex; Trailing 12-Month Free Cash Flow Turns To $42.4B Outflow On AI Spending |
+| 10-29 16:32 | AMZN |  | Amazon Q3 Operating Income Rises To Record $28.1B, AWS Sales Up 39% To $46.0B; EPS Decline Reflects $9.5B Anthropic Gain In Year-Ago Quarter |
+| 10-29 16:32 | AVGO |  | Broadcom and Powertech Technology Form Singapore Joint Venture |
+| 10-29 16:32 | NFLX |  | Netflix Shifts Theatrical Strategy with Broad Release for 'KPop Demon Hunters 2' |
+| 10-29 16:32 | SNDK |  | SanDisk Corporation Reports Fiscal Q1 2027 Earnings Results |
+| 10-29 16:31 | GS |  | The Goldman Sachs Group, Inc. Discloses Change in Major Holdings of ASOS PLC |
+| 10-29 16:31 | WMT |  | Walmart and Symbotic Expand Supply Chain Automation Partnership |
+| 10-29 16:31 | META |  | Meta Loses Appeal in French Media Payment Dispute |
+| 10-29 16:31 | AAPL |  | Apple Faces Long-Term Chip Supply Constraints Through 2030 |
+| 10-29 16:31 | NVDA |  | NVIDIA Refutes Allegations Regarding CEO and Chinese Intelligence |
+| 10-29 16:30 | SNDK |  | SanDisk Posts Q1 Double Beat, Announces Stock Split |
+| 10-29 16:22 | COIN |  | Coinbase Glb Q3 Adj. EPS $0.27 Beats $(0.06) Estimate, Sales $1.216B Miss $1.230B Estimate |
+| 10-29 16:21 | SNDK |  | Sandisk Announces An Eight-For-One Forward Stock Split, Effective November 19, 2026 |
+| 10-29 16:20 | AMZN |  | Amazon Delivers Q3 Double Miss, AWS Growth Accelerates, Shares Drop |
+| 10-29 16:15 | INTC |  | Intel Stock Crashes After Q3 Earnings: What You Need to Know |
+| 10-29 16:14 | SNDK |  | SanDisk Sees Q2 Sales $12.200B-$12.600B |
+| 10-29 16:14 | SNDK |  | SanDisk Sees Q2 Adj EPS $55.00-$57.00 vs $53.19 Est; Sees Sales $12.200B-$12.600B vs $12.176B Est |
+| 10-29 16:11 | CVX XOM |  | Oil Stocks in Spotlight Friday: Chevron, ExxonMobil, BP Could Show Impact of Higher Gas Prices |
+| 10-29 16:10 | WMT |  | Symbotic Inks ~$6B Commercial Deal With Walmart To Roll Out Additional Automation Tools To 25 U.S. Regional Distribution Centers |
+| 10-29 16:07 | SNDK |  | SanDisk Q1 Adj. EPS $49.51 Beats $46.22 Estimate, Sales $11.031B Beat $10.639B Estimate |
+| 10-29 16:06 | INTC |  | Intel CEO Says Despite Near-Term Headwinds In The PC Industry, Demand For Our CPUs Remains Robust, Reinforcing Confidence In Long-Term Growth Opportunities |
+| 10-29 16:02 | INTC |  | Intel Sees Q4 Adj EPS $0.25 vs $0.43 Est; Sees Sales $15.000B-$16.000B vs $17.045B Est |
+| 10-29 16:02 | INTC |  | Intel Q3 Adj. EPS $0.52 Beats $0.40 Estimate, Sales $16.513B Beat $16.467B Estimate |
+| 10-29 16:01 | INTC |  | Intel Sees Q4 GAAP EPS $0.10 vs $0.15 Est |
+| 10-29 16:01 | AMZN |  | Amazon.com Sees Q4 Sales $240.000B-$247.000B vs $244.513B Est |
+| 10-29 16:01 | AMZN |  | Amazon.com Q3 EPS $1.89 Misses $1.97 Estimate, Sales $201.944B Miss $202.308B Estimate |
 | 10-29 15:02 | CVX |  | Chevron Executives Cancel Trips to UAE Event Over Security Concerns |
 | 10-29 15:01 | MSFT |  | Concurrence Health World Model and AI Agents Now Available on Microsoft Marketplace |
 | 10-29 15:01 | MSFT |  | Microsoft Reportedly Planning $25 Billion Bond Issuance |
