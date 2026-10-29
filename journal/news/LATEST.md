@@ -1,9 +1,12 @@
-# Headlines since 2026-10-28 16:00 ET (as of 2026-10-29 11:02 ET)
+# Headlines since 2026-10-28 16:00 ET (as of 2026-10-29 11:32 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-29 11:26 | MSFT | target up | Truist Securities Reiterates Buy on Microsoft, Raises Price Target to $630 |
+| 10-29 11:24 | GOOGL | downgrade | Citizens Downgrades Alphabet to Market Perform |
+| 10-29 11:17 | MSFT | target up | Barclays Maintains Overweight on Microsoft, Raises Price Target to $610 |
 | 10-29 10:51 | GOOGL | target down | Wedbush Maintains Outperform on Alphabet, Lowers Price Target to $387 |
 | 10-29 10:51 | GOOGL | target down | Barclays Maintains Overweight on Alphabet, Lowers Price Target to $405 |
 | 10-29 10:45 | MSFT | target up | Wells Fargo Maintains Overweight on Microsoft, Raises Price Target to $750 |
@@ -34,9 +37,16 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-28 18:48 | VST | target down | CIBC Maintains Outperformer on Vistra, Lowers Price Target to $181 |
 | 10-28 17:13 | STX | target down | UBS Maintains Neutral on Seagate Technology Hldgs, Lowers Price Target to $750 |
 | 10-28 16:03 | STX | target down | Citigroup Maintains Buy on Seagate Technology Hldgs, Lowers Price Target to $1050 |
+| 10-29 11:17 | LLY |  | Eli Lilly Q3 2026 Earnings Call Transcript |
+| 10-29 11:10 | AMZN WMT |  | Rivian Working on Vans for Walmart? Investors Could Get Their Answer Thursday |
+| 10-29 11:06 | GOOGL |  | Alphabet’s Jaw-Dropping Number: Up to $1.08 Trillion Commitments Vs. $561 Billion Orders |
+| 10-29 11:03 | PLTR |  | Oppenheimer Adjusts Price Target on Palantir Technologies to $235 From $200 |
+| 10-29 11:02 | V |  | Multiple Analysts Adjust Visa Price Targets |
 | 10-29 11:01 | NVDA |  | Eclypsium Partners with NVIDIA to Advance Infrastructure Assurance |
 | 10-29 11:01 | COST |  | Bibb County School Board Approves Revenue Bond Agreement for New Costco Location |
 | 10-29 11:01 | GS |  | Goldman Sachs Serves as Financial Advisor to ADT in $15.3 Billion Acquisition |
+| 10-29 11:00 | ASML |  | Rep. Kevin Hern Has Sold Up to $150K Worth Of ASML Holding Stock: Here’s What You Should Know |
+| 10-29 10:59 | AMZN NVDA |  | Amazon Earnings Prediction Market Preview: What Will Andy Jassy Say? |
 | 10-29 10:49 | CRM |  | ServiceNow Stock Plunges on Worst Day in Company’s History: AI Wins Can’t Hide a Bookings Slowdown |
 | 10-29 10:35 | GOOGL NVDA |  | QUICK SPARK: Alphabet Stock Eyes Worst Day in Company's History, Wipes Out $500 Billion in Value |
 | 10-29 10:34 | AMZN GOOGL MSFT NVDA |  | Steve Eisman Says AI Giants Have 'No Moats.' Morningstar's $57 Billion Math Says Otherwise |

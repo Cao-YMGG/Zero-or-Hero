@@ -1,7 +1,88 @@
 {
- "as_of": "2026-10-29T11:02-04:00",
+ "as_of": "2026-10-29T11:32-04:00",
  "since": "2026-10-28T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-29 11:26",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "target up",
+   "headline": "Truist Securities Reiterates Buy on Microsoft, Raises Price Target to $630",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62704196/truist-securities-reiterates-buy-microsoft-raises-price-target-630"
+  },
+  {
+   "time": "10-29 11:24",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "downgrade",
+   "headline": "Citizens Downgrades Alphabet to Market Perform",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62704109/citizens-downgrades-alphabet-market-perform"
+  },
+  {
+   "time": "10-29 11:17",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "target up",
+   "headline": "Barclays Maintains Overweight on Microsoft, Raises Price Target to $610",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62703837/barclays-maintains-overweight-microsoft-raises-price-target-610"
+  },
+  {
+   "time": "10-29 11:17",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly Q3 2026 Earnings Call Transcript",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62703817/eli-lilly-q3-2026-earnings-call-transcript"
+  },
+  {
+   "time": "10-29 11:10",
+   "symbols": [
+    "AMZN",
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Rivian Working on Vans for Walmart? Investors Could Get Their Answer Thursday",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/previews/26/10/62703305/rivian-working-on-vans-for-walmart-investors-could-get-their-answer-thursday"
+  },
+  {
+   "time": "10-29 11:06",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet\u2019s Jaw-Dropping Number: Up to $1.08 Trillion Commitments Vs. $561 Billion Orders",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62703018/alphabets-jaw-dropping-number-up-to-1-08-trillion-commitments"
+  },
+  {
+   "time": "10-29 11:03",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Oppenheimer Adjusts Price Target on Palantir Technologies to $235 From $200",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/oppenheimer-adjusts-price-target-on-palantir-technologies-to-235-from-200-maintains-outperform-ra-ce785fdad88df225"
+  },
+  {
+   "time": "10-29 11:02",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Multiple Analysts Adjust Visa Price Targets",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/autonomous-research-adjusts-visa-price-target-to-454-from-441-ce785fdad88bf024"
+  },
   {
    "time": "10-29 11:01",
    "symbols": [
@@ -31,6 +112,27 @@
    "headline": "Goldman Sachs Serves as Financial Advisor to ADT in $15.3 Billion Acquisition",
    "source": "fiscal.ai",
    "url": "https://www.globenewswire.com/news-release/2026/10/29/3391374/0/en/adt-to-be-acquired-by-thrive-holdings-in-15-3-billion-transaction.html"
+  },
+  {
+   "time": "10-29 11:00",
+   "symbols": [
+    "ASML"
+   ],
+   "rating": "",
+   "headline": "Rep. Kevin Hern Has Sold Up to $150K Worth Of ASML Holding Stock: Here\u2019s What You Should Know",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/government/26/10/62702605/rep-kevin-hern-has-sold-150k-worth-asml-holding-stock-here-s-what-you-should-know"
+  },
+  {
+   "time": "10-29 10:59",
+   "symbols": [
+    "AMZN",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Amazon Earnings Prediction Market Preview: What Will Andy Jassy Say?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62702577/amazon-earnings-preview"
   },
   {
    "time": "10-29 10:51",
