@@ -104,6 +104,31 @@ in EVOLUTION.md.
    of spot, so the cheaper further-OTM strikes were never candidates. PR #83 widens the band to
    +-15%; keep counting skips.
 
+29. **catalyst_open entry time on single names (2026-10-29).** V gapped +1.2%, ran 405.2 -> 411.7
+    in the first 5 minutes; the 09:32 entry (420C 0.70 at V 409.28) paid opening implied vol and the
+    option bled to 0.05 with V flat. Real minute option prices: 09:31 vs 09:40 vs 10:00 entries, and a
+    rule "skip if the stock already moved > 1.5x its gap in the first 2 minutes", by expiry type
+    (same-day vs Friday-only names). The entry log now records the bid.
+30. **Sell the news by theme state (2026-10-29, OPPORTUNITY_TESTS.md).** Gap-ups >= 2% in a cooling
+    sector: last 3 months 113 events, -0.72% open to close, 37% up (heating +0.62%, 54%). Price it with
+    0.2-delta puts on real option bars: does -0.7% pay the spread and theta? Split earnings vs
+    non-earnings gaps (the daily test mixes them).
+31. **Rotation laggard and financing fade (owner, 2026-10-29).** Laggard after a group shock: 32
+    events +0.40% (no edge without the best trade); chip-selloff days -> internet laggard: 3 months
+    8 events +1.29%, 75% up. Better laggard choice (exclude names that reported in the last 5 days;
+    10-29 would have picked NFLX, not META). Financing fade: list mega-cap debt/equity raise dates
+    from the Alpaca news feed (2 years), open->close and +5 days vs SPY, split "with a FCF plan"
+    (ORCL 10-28 +10%) vs without (MSFT 10-29 -1.9% open to close, META offering week -12%).
+32. **Buy the expectation (owner, 2026-10-29).** RUNUP.md: +1.6% vs SPY in the 10 days before a
+    report, reaction day -1.6%. Options version: buy a ~0.3-delta call expiring after the report 8-10
+    trading days before, sell the day before; real option prices for the 201 reports (IV ramps into
+    the print). If positive over the last 3 months and without the best two, it replaces a weak
+    variant (population is at 12).
+33. **Post-earnings filter for rebound_scanner / megacap_reclaim (other Claude, 2026-10-28/29).**
+    Their 1,986 reports: no bounce edge after a move beyond the implied one. Our 5 live rebound
+    shadows were not earnings gaps. Test the AMZN 10-30 case and the 2-year scanner backtest with and
+    without skip_after_report_days 3 before changing the champion.
+
 ## Done
 - **Item 22 (2026-10-25), WEEK43_EXITS.md / SECTORS.md:** (a) sector ETF follow at 10:00 (lead >= 0.8% beyond SPY):
   negative everywhere, 0.20 delta trail2x -24% / -29% / -33% last 3 months (24), -30% all (157); heating filter

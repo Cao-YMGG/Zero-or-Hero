@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-29",
+  "note": "Added at the review from ideas named during the day (bias reasons 08:56, chat 11:25); the sniper V and the ORCL pick are collected automatically.",
+  "opportunities": [
+    {
+      "type": "rotation_laggard",
+      "symbol": "META",
+      "direction": "call",
+      "time": "10:00",
+      "action": "shadow",
+      "why": "-12% in a week after its offering, green pre-market while GOOGL -11% (bias reasons); megacap_reclaim shadow 645C"
+    },
+    {
+      "type": "gapdown_rebound",
+      "symbol": "AMD",
+      "direction": "call",
+      "time": "10:00",
+      "action": "none",
+      "why": "-2.6% pre-market gap with the sector, no news of its own; AMD dossier: 2%+ down gaps bounced 58%"
+    },
+    {
+      "type": "gapdown_rebound",
+      "symbol": "AVGO",
+      "direction": "call",
+      "time": "10:00",
+      "action": "none",
+      "why": "-2.7% pre-market gap with the sector"
+    },
+    {
+      "type": "gapdown_rebound",
+      "symbol": "MU",
+      "direction": "call",
+      "time": "10:00",
+      "action": "none",
+      "why": "-2.5% pre-market gap after a three-day SK Hynix rally"
+    },
+    {
+      "type": "ma_acquirer",
+      "symbol": "MRVL",
+      "direction": "put",
+      "time": "10:00",
+      "action": "none",
+      "why": "in advanced talks to buy LITE (Bloomberg 10-28); the other Claude's sniper"
+    },
+    {
+      "type": "financing_fade",
+      "symbol": "MSFT",
+      "direction": "put",
+      "time": "11:25",
+      "action": "none",
+      "why": "$25B bond sale (first since 2017) on its reaction day; reversed from +2% pre-market"
+    }
+  ]
+}
