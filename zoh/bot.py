@@ -20,7 +20,8 @@ from .alpaca import Alpaca, AlpacaError
 from .strategy import (ET, MARKET_OPEN, bs_delta, contracts_for, current_phase, check_exit,
                        cross_assets, day_context, evaluate_signal, hhmm, same_day_expiry,
                        rank_by_move, reported_recently, reports_soon, sniper_pick, with_gap, parse_bar, parse_occ,
-                       regular_session, round_limit, select_contract, years_to_close)
+                       regular_session, round_limit, select_contract, years_to_close,
+                       years_to_expiry, implied_vol)
 
 MAX_ENTRY_ATTEMPTS = 3
 BIAS_RECHECK_SECONDS = 120
@@ -187,14 +188,20 @@ ENTRY_RETRY_SLACK = 0.10  # an unfilled entry is retried once at a fresh ask up 
 def chain_candidates(api, underlying, expiry, kind, spot, now, width=0.03):
     snaps = api.option_chain(underlying, expiry, kind, round(spot * (1 - width), 2),
                              round(spot * (1 + width), 2))
-    years = years_to_close(now)
+    # Time to the contract's own expiry: with years-to-today's-close a Friday COIN 185C read on
+    # Thursday (10-29) got delta 0.00 when the feed had no greeks, and leader_follow bought it.
+    years = years_to_expiry(now, expiry)
     candidates = []
     for symbol, snap in snaps.items():
         quote = snap.get("latestQuote") or {}
         strike = parse_occ(symbol)[3]
         delta = (snap.get("greeks") or {}).get("delta")
         if delta is None:
-            delta = bs_delta(spot, strike, years, snap.get("impliedVolatility") or 0.16, kind)
+            iv = snap.get("impliedVolatility")
+            if not iv:
+                bid, ask = quote.get("bp") or 0, quote.get("ap") or 0
+                iv = implied_vol((bid + ask) / 2 if bid else ask, spot, strike, years, kind) or 0.16
+            delta = bs_delta(spot, strike, years, iv, kind)
         candidates.append({"symbol": symbol, "strike": strike, "ask": quote.get("ap") or 0,
                            "bid": quote.get("bp") or 0, "delta": delta,
                            "quote_time": quote.get("t")})
@@ -316,6 +323,10 @@ class Bot:
                  else self.state["equity_start"])
         budget = stake * self.state["risk_per_trade"]
         underlying = underlying or self.underlying
+        if underlying != self.underlying and reports_soon(underlying, self.today,
+                                                           getattr(self, "earnings", {})):
+            log(f"{variant['id']}: no entry on {underlying}, it reports today or the next trading day")
+            return
         if underlying == self.underlying:
             candidates = chain_candidates(self.api, underlying, self.today, direction, spot, now)
         else:
@@ -329,7 +340,7 @@ class Bot:
             return
         qty = contracts_for(budget, pick["ask"])
         log(f"{variant['id']}: {direction} signal @ {spot:.2f} -> {pick['symbol']} "
-            f"ask={pick['ask']} delta={pick['delta']:.2f} qty={qty}")
+            f"bid={pick['bid']} ask={pick['ask']} delta={pick['delta']:.2f} qty={qty}")
         vstate["entered"] = True
         vstate["shadow"] = {"contract": pick["symbol"], "direction": direction,
                             "entry_time": now.isoformat(timespec="seconds"),
@@ -578,6 +589,10 @@ class Bot:
                         if variant.get("skip_after_report_days") is not None and reported_recently(
                                 sym, self.today, getattr(self, "earnings", {}),
                                 variant["skip_after_report_days"]):
+                            continue
+                        # No new position into a print (COIN 10-29: leader_follow bought a call on
+                        # its report day at earnings-inflated prices).
+                        if reports_soon(sym, self.today, getattr(self, "earnings", {})):
                             continue
                         if sym not in own_bars:
                             try:

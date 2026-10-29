@@ -343,6 +343,33 @@ def years_to_close(now, close=MARKET_CLOSE):
     return max(minutes, 0) / TRADING_MINUTES_PER_YEAR
 
 
+def years_to_expiry(now, expiry, close=MARKET_CLOSE):
+    """Trading-time years from now to the close of the expiry day (weekdays only). A Friday
+    option read on Thursday has a day and a half left, not the hours to today's close."""
+    years = years_to_close(now, close)
+    day = now.date()
+    while day < expiry:
+        day += timedelta(days=1)
+        if day.weekday() < 5:
+            years += 390 / TRADING_MINUTES_PER_YEAR
+    return years
+
+
+def implied_vol(price, spot, strike, years, kind, lo=0.01, hi=5.0):
+    """Bisection on bs_price; None when the price is outside what the model can produce."""
+    if price <= 0 or years <= 0:
+        return None
+    if not bs_price(spot, strike, years, lo, kind) <= price <= bs_price(spot, strike, years, hi, kind):
+        return None
+    for _ in range(60):
+        mid = (lo + hi) / 2
+        if bs_price(spot, strike, years, mid, kind) < price:
+            lo = mid
+        else:
+            hi = mid
+    return (lo + hi) / 2
+
+
 def bs_price(spot, strike, years, iv, kind):
     if years <= 0 or iv <= 0:
         return max(spot - strike, 0.0) if kind == "call" else max(strike - spot, 0.0)
