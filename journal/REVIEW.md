@@ -1,8 +1,8 @@
-# Review — 2026-10-28
+# Review — 2026-10-29
 
 - Champion: **rebound_scanner**
-- Equity: **$727.83** (phase zero-or-hero)
-- Real trades: 21, realised P&L $-65.00
+- Equity: **$553.68** (phase zero-or-hero)
+- Real trades: 22, realised P&L $-106.00
 
 ## Shadow leaderboard (last 20 trades / all)
 
@@ -17,8 +17,8 @@
 | spy_open_drive | 0 | 0% | +0.0% | +0% | +0% | +0% | 0 | +0.0% |
 | spy_open_drive_wide | 0 | 0% | +0.0% | +0% | +0% | +0% | 0 | +0.0% |
 | rebound_scanner 👑 | 5 | 40% | -13.8% | -69% | +188% | -100% | 5 | -13.8% |
-| megacap_reclaim | 9 | 11% | -47.0% | -423% | +227% | -100% | 9 | -47.0% |
-| leader_follow | 11 | 18% | -52.6% | -579% | +75% | -100% | 11 | -52.6% |
+| megacap_reclaim | 10 | 20% | -38.2% | -382% | +227% | -100% | 10 | -38.2% |
+| leader_follow | 12 | 17% | -53.3% | -640% | +75% | -100% | 12 | -53.3% |
 | rebound_scanner_wide | 5 | 20% | -64.1% | -321% | +72% | -100% | 5 | -64.1% |
 
 ## Ledgers (one $500 virtual account per variant, real paper orders)
@@ -29,14 +29,13 @@
 | nvda_gapdown_put | 1 | $500.00 | 0 | 0 | - |
 | spy_open_drive | 1 | $500.00 | 0 | 0 | - |
 | stock_open_drive | 1 | $617.00 | 2 | 1 | - |
-| leader_follow | 1 | $342.00 | 2 | 0 | - |
-| megacap_reclaim | 1 | $319.00 | 3 | 5 | - |
+| leader_follow | 1 | $301.00 | 3 | 1 | - |
+| megacap_reclaim | 1 | $319.00 | 3 | 0 | - |
 
 ## Last real trades
 
 | date | variant | contract | entry | exit | qty | P&L | reason |
 |---|---|---|---|---|---|---|---|
-| 2026-10-22 | leader_follow | NFLX261023C00068000 | 0.27 | 0.15 | 3 | -36.00 | time |
 | 2026-10-23 | rebound_scanner | CRDO261023C00155000 | 1.0 | 1.4 | 1 | +40.00 | trail |
 | 2026-10-23 | leader_follow | MU261023C00910000 | 1.23 | 0.01 | 1 | -122.00 | time |
 | 2026-10-23 | megacap_reclaim | META261023C00657500 | 1.06 | 0.0 | 1 | -106.00 | expired |
@@ -46,3 +45,4 @@
 | 2026-10-26 | stock_open_drive | TSLA261026C00400000 | 0.75 | 0.0 | 2 | -150.00 | expired |
 | 2026-10-27 | catalyst_open | AVGO261028C00355000 | 0.48 | 0.7 | 2 | +44.00 | trail |
 | 2026-10-27 | megacap_reclaim | TSLA261028C00417500 | 0.89 | 0.77 | 1 | -12.00 | time |
+| 2026-10-29 | leader_follow | COIN261030C00185000 | 0.7 | 0.29 | 1 | -41.00 | time |

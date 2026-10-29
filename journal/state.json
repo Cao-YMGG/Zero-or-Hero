@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "done": false,
+  "done": true,
   "variants": {
     "catalyst_intraday@2026-10-28": {
       "entered": true,
@@ -13,32 +13,17 @@
         "entry_price": 1.32,
         "peak": 1.85,
         "qty": 1,
-        "last": 0.52,
-        "last_time": "2026-10-29T15:17:24-04:00"
-      }
+        "last": 0.38,
+        "last_time": "2026-10-29T15:45:00-04:00"
+      },
+      "hold": true
     },
     "claude_bias": {},
     "meta_follow2": {},
     "leader_follow": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "COIN261030C00185000",
-        "direction": "call",
-        "entry_time": "2026-10-29T09:46:05-04:00",
-        "entry_price": 0.7,
-        "peak": 0.74,
-        "qty": 2,
-        "last": 0.27,
-        "last_time": "2026-10-29T15:17:24-04:00"
-      },
-      "real": {
-        "contract": "COIN261030C00185000",
-        "qty": 1,
-        "underlying": "COIN",
-        "entry_price": 0.7,
-        "entry_time": "2026-10-29T09:46:13-04:00"
-      }
+      "closed": true
     },
     "megacap_reclaim": {
       "attempts": 1,
@@ -58,8 +43,8 @@
         "entry_price": 0.72,
         "peak": 0.72,
         "qty": 2,
-        "last": 0.06,
-        "last_time": "2026-10-29T15:17:24-04:00"
+        "last": 0.05,
+        "last_time": "2026-10-29T15:45:00-04:00"
       },
       "real": {
         "contract": "V261030C00420000",
@@ -67,7 +52,8 @@
         "underlying": "V",
         "entry_price": 0.7,
         "entry_time": "2026-10-29T09:32:09-04:00"
-      }
+      },
+      "hold": true
     },
     "catalyst_intraday": {
       "attempts": 1,
@@ -79,8 +65,8 @@
         "entry_price": 0.66,
         "peak": 0.82,
         "qty": 2,
-        "last": 0.48,
-        "last_time": "2026-10-29T15:17:24-04:00"
+        "last": 0.38,
+        "last_time": "2026-10-29T15:45:00-04:00"
       },
       "real": {
         "contract": "ORCL261030P00134000",
@@ -88,7 +74,8 @@
         "underlying": "ORCL",
         "entry_price": 0.64,
         "entry_time": "2026-10-29T13:17:28-04:00"
-      }
+      },
+      "hold": true
     },
     "spy_open_drive": {},
     "spy_open_drive_wide": {},
