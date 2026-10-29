@@ -1,0 +1,1138 @@
+{
+ "as_of": "2026-10-29T08:53-04:00",
+ "since": "2026-10-28T16:00-04:00",
+ "headlines": [
+  {
+   "time": "10-29 08:42",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "rating",
+   "headline": "Needham Reiterates Buy on Alphabet, Maintains $450 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62693326/needham-reiterates-buy-alphabet-maintains-450-price-target"
+  },
+  {
+   "time": "10-29 08:41",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "'Microsoft Looks to Raise at Least $25 Billion From US Bond Sale' - Bloomberg Exclusive",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62693295/microsoft-looks-raise-least-25-billion-us-bond-sale-bloomberg-exclusive"
+  },
+  {
+   "time": "10-29 08:32",
+   "symbols": [
+    "AAPL",
+    "NVDA",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "STMicroelectronics Lifts Forecast Thanks To Data Center Revenue Growth",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62692828/stmicroelectronics-lifts-forecast-thanks-to-data-center-revenue-growth"
+  },
+  {
+   "time": "10-29 08:19",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla, Nutrien and an Industrial Stock on CNBC\u2019s \u2018Final Trades\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62692242/tesla-nutrien-and-an-industrial-stock-on-cnbcs-final-trades"
+  },
+  {
+   "time": "10-29 08:14",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "How to Earn $500 a Month From Chevron Stock Ahead of Q3 Earnings",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/dividends/26/10/62692056/how-to-earn-500-a-month-from-chevron-stock-ahead-of-q3-earnings"
+  },
+  {
+   "time": "10-29 08:13",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "target down",
+   "headline": "Rosenblatt Maintains Buy on Alphabet, Lowers Price Target to $380",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62692026/rosenblatt-maintains-buy-alphabet-lowers-price-target-380"
+  },
+  {
+   "time": "10-29 08:12",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62691948/amazon-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts"
+  },
+  {
+   "time": "10-29 08:09",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Dan Ives Says Microsoft Is the \u2018Barometer\u2019 for AI Spending as Azure Reaches 48% Growth",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62691694/microsoft-azure-ai-spending"
+  },
+  {
+   "time": "10-29 08:04",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "target up",
+   "headline": "Cantor Fitzgerald Maintains Overweight on Microsoft, Raises Price Target to $630",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62691374/cantor-fitzgerald-maintains-overweight-microsoft-raises-price-target-630"
+  },
+  {
+   "time": "10-29 08:03",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "target down",
+   "headline": "Cantor Fitzgerald Maintains Overweight on Alphabet, Lowers Price Target to $350",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62691271/cantor-fitzgerald-maintains-overweight-alphabet-lowers-price-target-350"
+  },
+  {
+   "time": "10-29 08:02",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "Analysts Adjust Price Targets for GE Vernova",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/jpmorgan-raises-price-target-on-ge-vernova-to-1-035-from-1-150-ce785cd3de80f423"
+  },
+  {
+   "time": "10-29 08:01",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Houston Texans Partner with Chevron for First Responders Appreciation Month",
+   "source": "fiscal.ai",
+   "url": "https://wire.report/teams/nfl/houston-texans"
+  },
+  {
+   "time": "10-29 07:31",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly Reports Strong Third-Quarter 2026 Financial Results",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/eli-lilly-3q-revenue-climbs-on-demand-for-mounjaro-zepbound-ce785cd3d18cf625"
+  },
+  {
+   "time": "10-29 07:31",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa and Mastercard Face Potential \u00a35bn UK Lawsuit",
+   "source": "fiscal.ai",
+   "url": "https://glenbrook.com/payments-news/all-payments-news/"
+  },
+  {
+   "time": "10-29 07:31",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "initiate",
+   "headline": "William Blair Initiates Coverage of ExxonMobil",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/flash/1002818002/exxonmobil-william-blair-initiates-coverage-with-market-perform-rating"
+  },
+  {
+   "time": "10-29 07:31",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "initiate",
+   "headline": "William Blair Initiates Coverage of Chevron Corporation with Outperform Rating",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/flash/1002817818/chevron-corporation-william-blair-initiates-coverage-with-outperform-rating"
+  },
+  {
+   "time": "10-29 07:30",
+   "symbols": [
+    "AAPL",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Takes a Jab at Apple's $29,799 Mac Studio: 'Makes a Tesla Seem Quite Affordable!'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62689510/elon-musk-takes-a-jab-at-apples-29799-mac-studio-makes-a-tesla-seem-quite-affordable"
+  },
+  {
+   "time": "10-29 07:01",
+   "symbols": [
+    "TSM"
+   ],
+   "rating": "",
+   "headline": "TSMC to Acquire Property from AUO for NT$38.8 Billion",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/tsmc-to-buy-property-from-auo-worth-nt-38-8-billion-ce785cd3de88f521"
+  },
+  {
+   "time": "10-29 06:50",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Lilly Reports Q3 Mounjaro Sales Of $10.723B, Up 65% YoY",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/LLY"
+  },
+  {
+   "time": "10-29 06:49",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly Lowers FY2026 Adj EPS Guidance from $35.50-$36.50 to $35.00-$36.00 vs $34.04 Est; Raises FY2026 Sales Guidance from $85.000B-$87.000B to $91.000B-$92.000B vs $88.848B Est",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62687410/eli-lilly-lowers-fy2026-adj-eps-guidance-35-50-36-50-35-00-36-00-vs-34-04-est-raises-fy2026-sales-gu"
+  },
+  {
+   "time": "10-29 06:48",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Jim Farley's Ford Takes a Leaf Out of Elon Musk-Led Tesla's Book, Produces Over 5,000 Massive Aluminum Parts for Upcoming $28,350 Fathom Electric Truck",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62687359/jim-farleys-ford-takes-a-leaf-out-of-elon-musk-led-teslas-book-produces-over-5000-massive-aluminum-parts-for-upcoming-28350-fathom-electric-truck"
+  },
+  {
+   "time": "10-29 06:48",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly Q3 Adj. EPS $7.48 Beats $6.50 Estimate, Sales $24.397B Beat $22.610B Estimate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/10/62687346/eli-lilly-q3-adj-eps-7-48-beats-6-50-estimate-sales-24-397b-beat-22-610b-estimate"
+  },
+  {
+   "time": "10-29 06:47",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "Caterpillar Reports Q3 IEEPA Tariff Recoveries $128M; Excluding IEEPA Tariff Recoveries, Q3 Tariff Costs Were ~$600M, In-Line With Expectations; Backlog At End Of Q3 $78B, Up 96% YoY",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62687270/caterpillar-reports-q3-ieepa-tariff-recoveries-128m-excluding-ieepa-tariff-recoveries-q3-tariff-cost"
+  },
+  {
+   "time": "10-29 06:32",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "initiate",
+   "headline": "JPMorgan Initiates Palantir Technologies at Overweight With $262 Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/jpmorgan-initiates-palantir-technologies-at-overweight-with-262-price-target-ce785cd3de88f426"
+  },
+  {
+   "time": "10-29 06:32",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "Fubon Securities Adjusts GE Vernova Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1002803527"
+  },
+  {
+   "time": "10-29 06:32",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Rothschild & Co Redburn Adjusts Price Target on Visa to $467",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/rothschild-co-redburn-adjusts-price-target-on-visa-to-467-from-444-ce785cd3de89fe21"
+  },
+  {
+   "time": "10-29 06:32",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa and Tencent Sign Global Payments Partnership",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/visa-tencent-sign-global-payments-partnership-ce785cd3df8cfe23"
+  },
+  {
+   "time": "10-29 06:32",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "Caterpillar Q3 Adj. EPS $7.20 Beats $7.08 Estimate, Sales $20.682B Beat $20.545B Estimate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/CAT"
+  },
+  {
+   "time": "10-29 06:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Adjusts Alphabet Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-price-target-on-alphabet-to-385-from-435-ce785cd3df81ff20"
+  },
+  {
+   "time": "10-29 06:31",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Prevails in South Korean Court in Full Self-Driving Refund Suit",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/tesla-prevails-in-south-korea-court-in-full-self-driving-suit-ce785cd3df8df521"
+  },
+  {
+   "time": "10-29 06:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Releases Nemotron 3.5 Bolt E4B 4GB Model for On-Device AI",
+   "source": "fiscal.ai",
+   "url": "https://www.tech-critter.com/nvidia-rtx-neural-rendering-ai-characters-phantom-blade-zero/"
+  },
+  {
+   "time": "10-29 06:31",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank of America Issues Security Warning Regarding AI Agents",
+   "source": "fiscal.ai",
+   "url": "https://glenbrook.com/payments-news/all-payments-news/"
+  },
+  {
+   "time": "10-29 06:31",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platforms COO Javier Olivan Sells $1.008 Million in Shares",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1002780344/meta-platforms-insider-sold-shares-worth-1008000-according-to-a"
+  },
+  {
+   "time": "10-29 06:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Outlines Capital Expenditure and Financing Outlook",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1002784031/sharp-divergence-in-stock-prices-of-major-ai-cloud-providers"
+  },
+  {
+   "time": "10-29 06:27",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Why Is Alphabet Stock Sinking Thursday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62686246/why-is-alphabet-stock-sinking-thursday"
+  },
+  {
+   "time": "10-29 06:21",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Top Wall Street Forecasters Revamp Intel Expectations Ahead Of Q3 Earnings",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62686151/top-wall-street-forecasters-revamp-intel-expectations-ahead-of-q3-earnings"
+  },
+  {
+   "time": "10-29 06:18",
+   "symbols": [
+    "GOOGL",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Former Tesla Autopilot Chief Slams Elon Musk's Vision-Only Strategy as a 'Weird Religious Stance That Ignores Physics'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62686112/former-tesla-autopilot-chief-slams-elon-musks-vision-only-strategy-as-a-weird-religious-stance-that-ignores-physics"
+  },
+  {
+   "time": "10-29 06:05",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Top 3 Tech And Telecom Stocks Which Could Rescue Your Portfolio This Month",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62685446/top-3-tech-and-telecom-stocks-which-could-rescue-your-portfolio-this-month-4"
+  },
+  {
+   "time": "10-29 05:50",
+   "symbols": [
+    "AMZN",
+    "GOOGL",
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Why Is Microsoft Stock Gaining Thursday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62684857/why-is-microsoft-stock-gaining-thursday"
+  },
+  {
+   "time": "10-29 05:39",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia Faces DOJ Scrutiny Over $12.9 Billion Hugging Face Deal Amid Concerns About Unfair AI Advantage: Report",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62684670/nvidia-faces-doj-scrutiny-over-12-9-billion-hugging-face-deal-amid-concerns-about-unfair-ai-advantage-report"
+  },
+  {
+   "time": "10-29 05:20",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "target up",
+   "headline": "Piper Sandler Reiterates Overweight on Microsoft, Raises Price Target to $650",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62684472/piper-sandler-reiterates-overweight-microsoft-raises-price-target-650"
+  },
+  {
+   "time": "10-29 05:11",
+   "symbols": [
+    "CVX",
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "Kevin Warsh Admits Rising Oil Prices Are Fueling Inflation Expectations as Trump's Energy Holdings Reportedly Soar 3X Amid Iran War",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62684420/kevin-warsh-admits-rising-oil-prices-are-fueling-inflation-expectations-as-trumps-energy-holdings-reportedly-soar-3x-amid-iran-war"
+  },
+  {
+   "time": "10-29 05:04",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "rating",
+   "headline": "Piper Sandler Maintains Overweight on Oracle, Maintains $225 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62684249/piper-sandler-maintains-overweight-oracle-maintains-225-price-target"
+  },
+  {
+   "time": "10-29 04:58",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "How High Can Amazon\u2019s AI Spending Go? Crypto Prediction Market Is Taking Bets After Andy Jassy\u2019s $220 Billion Warning",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62684211/amazon-capex-ai-polymarket-jassy"
+  },
+  {
+   "time": "10-29 04:13",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "MSFT Stock Eyes Best Day In Over 3 Months After Earnings Beat \u2014 Gene Munster Says 'Software Is Alive And Well, At Least For Now'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62683953/msft-stock-eyes-best-day-in-over-3-months-after-earnings-beat-gene-munster-says-software-is-alive-and-well-at-least-for-now"
+  },
+  {
+   "time": "10-29 04:03",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Coinsilium Group Limited Appoints Wayne Almeida as COO and Executive Director",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/eqs/coinsilium-group-limited--coin/coinsilium-group-limited-appointment-of-chie-/9847169"
+  },
+  {
+   "time": "10-29 03:51",
+   "symbols": [
+    "GOOGL",
+    "META"
+   ],
+   "rating": "",
+   "headline": "Anthropic's 'Deviously Self-Serving' Voting Structure \u2018Would Put Kim Jong Un to Shame,\u2019 says Aswath Damodaran",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/ipos/26/10/62683687/anthropics-deviously-self-serving-voting-structure-would-put-kim-jong-un-to-shame-says-aswath-damodaran"
+  },
+  {
+   "time": "10-29 03:50",
+   "symbols": [
+    "GOOGL",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "GOOGL Stock Headed for Worst Single-Day Decline in Over Six Years as Waymo, Other Bets Widens Q3 Loss to Over $2 Billion",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62683676/googl-stock-headed-for-worst-single-day-decline-in-over-six-years-as-waymo-other-bets-widens-q3-loss-to-over-2-billion"
+  },
+  {
+   "time": "10-29 03:13",
+   "symbols": [
+    "META",
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Has a Tool That 'Governs and Contains Agents,' Says Satya Nadella \u2014 Meta's Muse, OpenAI, Anthropic Are Lining Up",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62683384/microsoft-ai-agents-gatekeeper-mxc-openai-anthropic-meta"
+  },
+  {
+   "time": "10-29 03:08",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Google Search Revenue Growth Slows Despite 5-Year High in Queries as AI Search Struggles to Match Traditional Ads: \u2018We Feel Very Good\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62683257/google-search-ad-monetization-sundar-pichai"
+  },
+  {
+   "time": "10-29 00:51",
+   "symbols": [
+    "AMZN",
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Gene Munster 'More Concerned' About Amazon and Alphabet \u2014 Says AI Bots Mean Shopping Edge 'Will Increasingly Be Under Attack'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62682494/gene-munster-warns-ai-bots-threaten-amazon-alphabet-shopping-search"
+  },
+  {
+   "time": "10-28 23:15",
+   "symbols": [
+    "ASML"
+   ],
+   "rating": "",
+   "headline": "Samsung Stock Drops 6% in Seoul as Record Profit Narrowly Misses Analyst Estimates, Memory Supply Seen Tightening in 2027",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62682254/samsung-profit-jumps-nearly-ninefold-misses-estimates-stock-falls"
+  },
+  {
+   "time": "10-28 23:07",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly Shares Trending On Retatrutide Win Ahead Of Earnings: What You Should Know",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62682206/eli-lilly-shares-rise-after-hours-retatrutide-trial-results"
+  },
+  {
+   "time": "10-28 22:01",
+   "symbols": [
+    "LITE"
+   ],
+   "rating": "",
+   "headline": "Marvell Technology in Advanced Talks to Acquire Lumentum Holdings",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/dow-jones/2026102817108/marvell-shares-fall-on-report-of-talks-to-acquire-lumentum"
+  },
+  {
+   "time": "10-28 22:01",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Evercore ISI Raises Visa Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1002671863/visa-price-target-raised-to-405-00-share-from-370"
+  },
+  {
+   "time": "10-28 22:01",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly Licenses SpeechDx Dataset for Alzheimer's Research",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/alzheimers-drug-discovery-foundations-diagnostics-accelerator-licenses-speechdx-dataset-to-eli-lilly-and-company-advancing-speech-based-markers-as-a-critical-alzheimers-research-tool-302922366.html"
+  },
+  {
+   "time": "10-28 22:00",
+   "symbols": [
+    "META",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia Stock Has Dropped Nearly 6% in a Month; Now Jim Cramer Is Asking Why \u2018Anything Negative in Tech\u2019 Immediately Crushes NVDA",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62681998/nvidia-stock-drops-6-percent-jim-cramer-tech-weakness-nvda"
+  },
+  {
+   "time": "10-28 21:04",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk vs. Tesla? His Midterm Money Could Work Against His Own Cars",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62681813/elon-musk-vs-tesla-his-midterm-money-could-work-against-his-own-cars"
+  },
+  {
+   "time": "10-28 20:01",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "FTC Orders Walmart to Provide Information on Pricing Data Practices",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8513082/ftc-orders-walmart-delta-and-others-to-share-how-they-use-personal-data-to-set-prices-and-pay"
+  },
+  {
+   "time": "10-28 20:01",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Full Self-Driving V14 Software Update",
+   "source": "fiscal.ai",
+   "url": "https://cleantechnica.com/2026/10/28/teslas-full-self-driving-has-now-dramatically-reduced-the-number-of-reasons-to-intervene-or-complain/"
+  },
+  {
+   "time": "10-28 19:01",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce Updates AI Service Products for California Customer Handoff Compliance",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/news/artificial-intelligence/2026/california-puts-15-minute-clock-ai-customer-service-handoffs/"
+  },
+  {
+   "time": "10-28 19:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Schedules Third-Quarter Fiscal 2027 Earnings Conference Call",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/28/3390809/0/en/nvidia-sets-conference-call-for-third-quarter-financial-results.html"
+  },
+  {
+   "time": "10-28 19:01",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Increases Quarterly Dividend and Authorizes New Share Buyback",
+   "source": "fiscal.ai",
+   "url": "https://www.baystreet.ca/stockstowatch/24291/Mid-Week-Hot-Stocks-Include-Visa-NXP-and-Robinhood"
+  },
+  {
+   "time": "10-28 19:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Expands 'Shop Direct' Catalog to Retain Site Traffic",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/commerce/ecommerce/2026/amazon-expands-shop-direct-catalog-keep-shoppers-off-ai-shopping-agents/"
+  },
+  {
+   "time": "10-28 18:48",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "target down",
+   "headline": "CIBC Maintains Outperformer on Vistra, Lowers Price Target to $181",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62681051/cibc-maintains-outperformer-vistra-lowers-price-target-181"
+  },
+  {
+   "time": "10-28 18:30",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "",
+   "headline": "Here's How Much $100 Invested In Vistra 5 Years Ago Would Be Worth Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62680807/here-s-how-much-100-invested-vistra-5-years-ago-would-be-worth-today"
+  },
+  {
+   "time": "10-28 18:14",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "QUICK SPARK: Elon Musk Has One-Word Verdict on Google's Gemini 4 Carbon",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62680620/elon-musk-has-a-one-word-verdict"
+  },
+  {
+   "time": "10-28 18:12",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Q1 2027 Earnings Call Transcript",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62680566/microsoft-q1-2027-earnings-call-transcript"
+  },
+  {
+   "time": "10-28 18:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Sees Q2 Sales $96.000B-$97.100B vs $95.616B Est",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62680302/microsoft-sees-q2-sales-96-000b-97-100b-vs-95-616b-est"
+  },
+  {
+   "time": "10-28 18:00",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft CFO Says Q2 Agents And Infra Revenue Expected To Be $80.1B To $80.7B; Q2 Azure Growth Expected To Be 49%",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62680277/microsoft-cfo-says-q2-agents-and-infra-revenue-expected-be-80-1b-80-7b-q2-azure-growth-expected-be-4"
+  },
+  {
+   "time": "10-28 17:57",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft CFO Says Paid M365 Commercial Seats Grew 5%, With Some Impact From Weaker Sales Execution",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62680237/microsoft-cfo-says-paid-m365-commercial-seats-grew-5-some-impact-weaker-sales-execution"
+  },
+  {
+   "time": "10-28 17:54",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft CFO Says Roughly 30% Of Cloud Business RPO Will Be Recognized In Revenue In The Next 12 Months",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62680174/microsoft-cfo-says-roughly-30-cloud-business-rpo-will-be-recognized-revenue-next-12-months"
+  },
+  {
+   "time": "10-28 17:53",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft CFO Says Roughly Three Quarters Of Capex Was For Short-Lived Assets, Primarily CPUs And GPUs, Including Higher Memory And Storage Costs",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62680161/microsoft-cfo-says-roughly-three-quarters-capex-was-short-lived-assets-primarily-cpus-and-gpus-inclu"
+  },
+  {
+   "time": "10-28 17:51",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft CFO Says Capital Expenditures Were Lower Than Guidance In Q1 As Some Third-Party Capacity Deliveries We Expected In Q1 Were Delayed",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62680131/microsoft-cfo-says-capital-expenditures-were-lower-guidance-q1-some-third-party-capacity-deliveries-"
+  },
+  {
+   "time": "10-28 17:49",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft CEO Says Accelerating Demand Led to Us Adding 24 New Data Centers Across Five Continents This Quarter",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62680068/microsoft-ceo-says-accelerating-demand-led-us-adding-24-new-data-centers-across-five-continents-quar"
+  },
+  {
+   "time": "10-28 17:32",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "US Department of Justice Investigating NVIDIA's Acquisition of Hugging Face",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/doj-probes-nvidia-s-hugging-face-deal-over-ai-competition-ce785cd3d98bf223"
+  },
+  {
+   "time": "10-28 17:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Executive Comments on AI Market Sentiment",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/news/artificial-intelligence/2026/goldman-exec-says-investors-growing-more-judicious-on-ai/"
+  },
+  {
+   "time": "10-28 17:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "The Goldman Sachs Group, Inc. Discloses Change in Voting Rights in ThyssenKrupp AG",
+   "source": "fiscal.ai",
+   "url": "https://www.eqs-news.com/news/voting-rights/the-goldman-sachs-group-inc-wilmington-de-united-states-of-america-usa/c334bada-16f1-4400-b9dd-9577ac2efb12_en"
+  },
+  {
+   "time": "10-28 17:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Expands AI Capabilities with New Fusion Cloud Tools and Infrastructure Partnerships",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8502308/oracles-next-ai-push-targets-the-daily-office-workload"
+  },
+  {
+   "time": "10-28 17:31",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Mercado Libre Announces Partnership with Netflix",
+   "source": "fiscal.ai",
+   "url": "https://natlawreview.com/press-releases/mercado-libre-sr-vice-president-advertising-jesus-moreno-sosa-discusses"
+  },
+  {
+   "time": "10-28 17:31",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova Reports Q3 2026 Results and Increases Share Repurchase Authorization",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1002637485/ge-vernova-orders-soar-earnings-reveal-that-ai-power-demand"
+  },
+  {
+   "time": "10-28 17:30",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "If You Invested $1000 In Walmart Stock 20 Years Ago, You Would Have This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62679475/if-you-invested-1000-walmart-stock-20-years-ago-you-would-have-much-today"
+  },
+  {
+   "time": "10-28 17:21",
+   "symbols": [
+    "LITE"
+   ],
+   "rating": "",
+   "headline": "'Marvell Said to Near Megadeal for Lumentum In AI Push'- Bloomberg",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62679200/marvell-said-near-megadeal-lumentum-ai-push-bloomberg"
+  },
+  {
+   "time": "10-28 17:15",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet CEO Says We Are Working On Distilled Versions Of Gemini 4 Carbon For More Than 1B Users; Gemini 4 Carbon Will Be Available To Consumers Later This Year",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62679001/alphabet-ceo-says-we-are-working-distilled-versions-gemini-4-carbon-more-1b-users-gemini-4-carbon-wi"
+  },
+  {
+   "time": "10-28 17:13",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "target down",
+   "headline": "UBS Maintains Neutral on Seagate Technology Hldgs, Lowers Price Target to $750",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62678894/ubs-maintains-neutral-seagate-technology-hldgs-lowers-price-target-750"
+  },
+  {
+   "time": "10-28 17:08",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet Exec Says Nearly 100 Clients Currently Using TPUs, With Strong Demand From Many Others",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62678582/alphabet-exec-says-nearly-100-clients-currently-using-tpus-strong-demand-many-others"
+  },
+  {
+   "time": "10-28 17:06",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet Google Cloud CEO Kurian Says Growing Cybersecurity Risks Driving Demand For AI-Powered Security Platform",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62678471/alphabet-google-cloud-ceo-kurian-says-growing-cybersecurity-risks-driving-demand-ai-powered-security"
+  },
+  {
+   "time": "10-28 17:05",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet Exec Says TPU System Sales Were A Meaningful Contributor To Google Cloud Growth; Expect To Recognize Just Over 55% Of The Total Backlog As Revenues Over The Next 24 Months; 2026 CAPEX Forecast Remain Unchanged",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62678378/alphabet-exec-says-tpu-system-sales-were-meaningful-contributor-google-cloud-growth-expect-recognize"
+  },
+  {
+   "time": "10-28 17:03",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet CFO Says Operating Loss This Quarter Was Due To Shared AI R&D Costs; Expecting TPU System Sales To Rise For Google Cloud; Margin Headwinds Anticipated In Near Future; Technical Infrastructure Expenses To Continue To Weigh On Profit & Loss",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62678321/alphabet-cfo-says-operating-loss-quarter-was-due-shared-ai-r-d-costs-expecting-tpu-system-sales-rise"
+  },
+  {
+   "time": "10-28 17:00",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet CFO Says Network Advertising Revenue Rose 1% This Quarter",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62678108/alphabet-cfo-says-network-advertising-revenue-rose-1-quarter"
+  },
+  {
+   "time": "10-28 16:58",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet CFO Says Technical Infrastructure Spending Resulted In Higher Capital Expenses",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62678052/alphabet-cfo-says-technical-infrastructure-spending-resulted-higher-capital-expenses"
+  },
+  {
+   "time": "10-28 16:56",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet CFO Says This Was Consecutive Quarter Of Double-Digit Revenue Growth; Total Operating Expenses Jumped 20%",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62677952/alphabet-cfo-says-was-consecutive-quarter-double-digit-revenue-growth-total-operating-expenses-jumpe"
+  },
+  {
+   "time": "10-28 16:49",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet Exec Says Gemini Customers Quadrupled This Quarter In Terms Of YoY",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62677813/alphabet-exec-says-gemini-customers-quadrupled-quarter-terms-yoy"
+  },
+  {
+   "time": "10-28 16:47",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet Exec Says AI Investments Are Driving Overall Search Query Growth, Including Commercial Queries",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62677765/alphabet-exec-says-ai-investments-are-driving-overall-search-query-growth-including-commercial-queri"
+  },
+  {
+   "time": "10-28 16:46",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet Exec Says YouTube Premium Has Over 150M Subscribers",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62677696/alphabet-exec-says-youtube-premium-has-over-150m-subscribers"
+  },
+  {
+   "time": "10-28 16:44",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet Exec Says 20M Videos Being Uploaded On YouTube Daily",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62677628/alphabet-exec-says-20m-videos-being-uploaded-youtube-daily"
+  },
+  {
+   "time": "10-28 16:43",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet Exec Says Seeing Enhanced AI Models In Future; Integrated AI Creative Tools Directly Into AI MAX",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62677494/alphabet-exec-says-seeing-enhanced-ai-models-future-integrated-ai-creative-tools-directly-ai-max"
+  },
+  {
+   "time": "10-28 16:39",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet CEO Says Clients Using Gemini For Complex Multi-Step Agentic Queries; Rolled Out 30 New Products On YouTube This Quarter",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62677247/alphabet-ceo-says-clients-using-gemini-complex-multi-step-agentic-queries-rolled-out-30-new-products"
+  },
+  {
+   "time": "10-28 16:31",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Launches 'Muse' Personal AI Agent in Singapore",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/META-US/news?chain_id=Name1K9-3FXPhg.1ldvqc0&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A64,%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Fwhalehead-151181600%2Fpost%2Fall%22%7D"
+  },
+  {
+   "time": "10-28 16:31",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Releases 'The One About Matthew Perry' Docuseries",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/2026/10/28/entertainment-lifestyle/what-to-stream-minions-monsters-matthew-perry-daddy-yankee-and-the-gilded-age/2456406"
+  },
+  {
+   "time": "10-28 16:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Expands RTX Spark Laptop Ecosystem",
+   "source": "fiscal.ai",
+   "url": "https://www.cgmagonline.com/news/nvidia-rtx-spark-laptops-expand-tools/"
+  },
+  {
+   "time": "10-28 16:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Reports Fiscal Year 2027 First-Quarter Financial Results",
+   "source": "fiscal.ai",
+   "url": "https://finviz.com/news/410572/microsoft-earnings-press-release-available-on-investor-relations-website"
+  },
+  {
+   "time": "10-28 16:29",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet Says First-Party Model APIs Now Processing Nearly 32B Tokens Per Minute, More Than Four Times Processed A Year Ago; Google Cloud Revenues Grew 103%",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62676360/alphabet-says-first-party-model-apis-now-processing-nearly-32b-tokens-minute-more-four-times-process"
+  },
+  {
+   "time": "10-28 16:28",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet Says At Quarter End, Gemini App Has Reached One Billion Users; Seeing Strong Demand For Our TPU Systems Across A Wide Range Of Customers; Surpassed 150M YouTube Music And Premium Subscribers Globally, Including Trials",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62676245/alphabet-says-quarter-end-gemini-app-has-reached-one-billion-users-seeing-strong-demand-our-tpu-syst"
+  },
+  {
+   "time": "10-28 16:25",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet Stock Tumbles on Q3 Miss, Google Cloud Revenues Surge",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62676053/alphabet-stock-tumbles-on-q3-miss-google-cloud-revenues-surge"
+  },
+  {
+   "time": "10-28 16:20",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Q1 Highlights: Double Beat, Cloud Revenue Up 30%, Azure Growth Up 48%",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62675569/microsoft-q1-highlights-double-beat-cloud-revenue-up-30-azure-growth-up-48"
+  },
+  {
+   "time": "10-28 16:17",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Google and Alphabet CEO Sundar Pichai Says First-Party Model APIs Now Processing Nearly 32 Billion Tokens Per Minute",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62675075/google-and-alphabet-ceo-sundar-pichai-says-first-party-model-apis-now-processing-nearly-32-billion-t"
+  },
+  {
+   "time": "10-28 16:16",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Recorded $10B Revenue From OpenAI Commercial Arrangements, Including Revenue Sharing, In Quarter Ended September 30",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/10/62674905/microsoft-recorded-10b-revenue-openai-commercial-arrangements-including-revenue-sharing-quarter-ende"
+  },
+  {
+   "time": "10-28 16:05",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft CFO Amy Hood Said, \u201cWe delivered a strong start to the fiscal year with Microsoft Cloud revenue of $63.9 billion, with growth accelerating to 30% (up 31% in constant currency) year-over-year.\u201d",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/MSFT"
+  },
+  {
+   "time": "10-28 16:03",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Q1 Adj. EPS $4.89 Beats $4.72 Estimate, Sales $92.279B Beat $90.663B Estimate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/10/62672891/microsoft-q1-adj-eps-4-89-beats-4-72-estimate-sales-92-279b-beat-90-663b-estimate"
+  },
+  {
+   "time": "10-28 16:03",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "target down",
+   "headline": "Citigroup Maintains Buy on Seagate Technology Hldgs, Lowers Price Target to $1050",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62672886/citigroup-maintains-buy-seagate-technology-hldgs-lowers-price-target-1050"
+  },
+  {
+   "time": "10-28 16:02",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet Q3 EPS $2.12 Misses $3.02 Estimate, Sales $127.577B Miss $128.175B Estimate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/10/62672822/alphabet-q3-eps-2-12-misses-3-02-estimate-sales-127-577b-miss-128-175b-estimate"
+  }
+ ]
+}
