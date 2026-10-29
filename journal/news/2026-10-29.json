@@ -1,7 +1,128 @@
 {
- "as_of": "2026-10-29T11:32-04:00",
+ "as_of": "2026-10-29T12:03-04:00",
  "since": "2026-10-28T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-29 11:54",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "target down",
+   "headline": "DA Davidson Maintains Neutral on Alphabet, Lowers Price Target to $300",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62705477/da-davidson-maintains-neutral-alphabet-lowers-price-target-300"
+  },
+  {
+   "time": "10-29 11:51",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "'Canada, Nvidia Back Cohere in Round at Over $20 Billion Value' - Bloomberg News",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62705389/canada-nvidia-back-cohere-round-over-20-billion-value-bloomberg-news"
+  },
+  {
+   "time": "10-29 11:49",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "target up",
+   "headline": "DA Davidson Maintains Buy on Microsoft, Raises Price Target to $650",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62705315/da-davidson-maintains-buy-microsoft-raises-price-target-650"
+  },
+  {
+   "time": "10-29 11:47",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "target up",
+   "headline": "TD Cowen Maintains Buy on Microsoft, Raises Price Target to $650",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62705235/td-cowen-maintains-buy-microsoft-raises-price-target-650"
+  },
+  {
+   "time": "10-29 11:45",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "target down",
+   "headline": "Scotiabank Maintains Sector Outperform on Alphabet, Lowers Price Target to $375",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62705193/scotiabank-maintains-sector-outperform-alphabet-lowers-price-target-375"
+  },
+  {
+   "time": "10-29 11:45",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "$1000 Invested In Microsoft 10 Years Ago Would Be Worth This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62705158/1000-invested-microsoft-10-years-ago-would-be-worth-much-today"
+  },
+  {
+   "time": "10-29 11:45",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "rating",
+   "headline": "TD Cowen Reiterates Buy on Oracle, Maintains $240 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62705146/td-cowen-reiterates-buy-oracle-maintains-240-price-target"
+  },
+  {
+   "time": "10-29 11:44",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "target up",
+   "headline": "Scotiabank Maintains Sector Outperform on Microsoft, Raises Price Target to $650",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62705126/scotiabank-maintains-sector-outperform-microsoft-raises-price-target-650"
+  },
+  {
+   "time": "10-29 11:43",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly and Company Reports $303M In Q3 2026 Special Charges, Bringing 9-Month Total To $1.3B, Primarily Driven By Intangible Asset Impairment, Acquisition Costs And Litigation",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62705087/eli-lilly-and-company-reports-303m-q3-2026-special-charges-bringing-9-month-total-1-3b-primarily-dri"
+  },
+  {
+   "time": "10-29 11:30",
+   "symbols": [
+    "GOOGL",
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft's $28 Billion Cash Flow Edge Over Google Gives It an AI Advantage, Analyst Says",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62704431/microsoft-google-cash-flow"
+  },
+  {
+   "time": "10-29 11:30",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "target up",
+   "headline": "Citizens Maintains Market Outperform on Microsoft, Raises Price Target to $625",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62704418/citizens-maintains-market-outperform-microsoft-raises-price-target-625"
+  },
+  {
+   "time": "10-29 11:30",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "$1000 Invested In Palantir Technologies 5 Years Ago Would Be Worth This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62704412/1000-invested-palantir-technologies-5-years-ago-would-be-worth-much-today"
+  },
   {
    "time": "10-29 11:26",
    "symbols": [

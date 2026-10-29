@@ -1,9 +1,16 @@
-# Headlines since 2026-10-28 16:00 ET (as of 2026-10-29 11:32 ET)
+# Headlines since 2026-10-28 16:00 ET (as of 2026-10-29 12:03 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-29 11:54 | GOOGL | target down | DA Davidson Maintains Neutral on Alphabet, Lowers Price Target to $300 |
+| 10-29 11:49 | MSFT | target up | DA Davidson Maintains Buy on Microsoft, Raises Price Target to $650 |
+| 10-29 11:47 | MSFT | target up | TD Cowen Maintains Buy on Microsoft, Raises Price Target to $650 |
+| 10-29 11:45 | GOOGL | target down | Scotiabank Maintains Sector Outperform on Alphabet, Lowers Price Target to $375 |
+| 10-29 11:45 | ORCL | rating | TD Cowen Reiterates Buy on Oracle, Maintains $240 Price Target |
+| 10-29 11:44 | MSFT | target up | Scotiabank Maintains Sector Outperform on Microsoft, Raises Price Target to $650 |
+| 10-29 11:30 | MSFT | target up | Citizens Maintains Market Outperform on Microsoft, Raises Price Target to $625 |
 | 10-29 11:26 | MSFT | target up | Truist Securities Reiterates Buy on Microsoft, Raises Price Target to $630 |
 | 10-29 11:24 | GOOGL | downgrade | Citizens Downgrades Alphabet to Market Perform |
 | 10-29 11:17 | MSFT | target up | Barclays Maintains Overweight on Microsoft, Raises Price Target to $610 |
@@ -37,6 +44,11 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-28 18:48 | VST | target down | CIBC Maintains Outperformer on Vistra, Lowers Price Target to $181 |
 | 10-28 17:13 | STX | target down | UBS Maintains Neutral on Seagate Technology Hldgs, Lowers Price Target to $750 |
 | 10-28 16:03 | STX | target down | Citigroup Maintains Buy on Seagate Technology Hldgs, Lowers Price Target to $1050 |
+| 10-29 11:51 | NVDA |  | 'Canada, Nvidia Back Cohere in Round at Over $20 Billion Value' - Bloomberg News |
+| 10-29 11:45 | MSFT |  | $1000 Invested In Microsoft 10 Years Ago Would Be Worth This Much Today |
+| 10-29 11:43 | LLY |  | Eli Lilly and Company Reports $303M In Q3 2026 Special Charges, Bringing 9-Month Total To $1.3B, Primarily Driven By Intangible Asset Impairment, Acquisition Costs And Litigation |
+| 10-29 11:30 | GOOGL MSFT |  | Microsoft's $28 Billion Cash Flow Edge Over Google Gives It an AI Advantage, Analyst Says |
+| 10-29 11:30 | PLTR |  | $1000 Invested In Palantir Technologies 5 Years Ago Would Be Worth This Much Today |
 | 10-29 11:17 | LLY |  | Eli Lilly Q3 2026 Earnings Call Transcript |
 | 10-29 11:10 | AMZN WMT |  | Rivian Working on Vans for Walmart? Investors Could Get Their Answer Thursday |
 | 10-29 11:06 | GOOGL |  | Alphabet’s Jaw-Dropping Number: Up to $1.08 Trillion Commitments Vs. $561 Billion Orders |
