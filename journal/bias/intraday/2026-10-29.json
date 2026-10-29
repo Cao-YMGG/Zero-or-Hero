@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-29",
+  "picks": [
+    {
+      "time": "13:16",
+      "symbol": "ORCL",
+      "direction": "put",
+      "confidence": 0.3,
+      "catalyst": "Same-day sector catalyst: the market is punishing debt-funded AI capex today (GOOGL -12.5% on capex $51B and a second negative FCF quarter; MSFT -3% from its open on a \\$25B bond sale, its first since 2017; neocloud debt at record yields, CoreWeave 2031 bonds 15.8%). ORCL is the most levered AI build-out mega cap (negative FCF until late FY28, a \\$20B debt-plus-equity raise planned from calendar 2026): 137.61 at 13:17, -4.8% on the day and -4.5% from the 144.14 open, at the low, giving back yesterday's investor-day pop (+10.7%). No ORCL headline of its own after the open (TD Cowen reiterated Buy at 11:45). Reports in December",
+      "catalyst_type": "sector_move"
+    }
+  ]
+}
