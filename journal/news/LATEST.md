@@ -1,9 +1,10 @@
-# Headlines since 2026-10-28 16:00 ET (as of 2026-10-29 13:15 ET)
+# Headlines since 2026-10-28 16:00 ET (as of 2026-10-29 13:46 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-29 13:25 | GOOGL | target down | Morgan Stanley Maintains Overweight on Alphabet, Lowers Price Target to $375 |
 | 10-29 12:53 | GEV | target down | TD Cowen Maintains Buy on GE Vernova, Lowers Price Target to $1125 |
 | 10-29 11:54 | GOOGL | target down | DA Davidson Maintains Neutral on Alphabet, Lowers Price Target to $300 |
 | 10-29 11:49 | MSFT | target up | DA Davidson Maintains Buy on Microsoft, Raises Price Target to $650 |
@@ -45,6 +46,11 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-28 18:48 | VST | target down | CIBC Maintains Outperformer on Vistra, Lowers Price Target to $181 |
 | 10-28 17:13 | STX | target down | UBS Maintains Neutral on Seagate Technology Hldgs, Lowers Price Target to $750 |
 | 10-28 16:03 | STX | target down | Citigroup Maintains Buy on Seagate Technology Hldgs, Lowers Price Target to $1050 |
+| 10-29 13:39 | GOOGL |  | Alphabet's AI Spending Avalanche Sparks Fresh Fears As Analyst Warns of Profit Squeeze |
+| 10-29 13:35 | META |  | Bank of America Signals Shift to Dividend And Quality ETFs As Stock Selling Intensifies: 3 ETFs to Watch |
+| 10-29 13:28 | MSFT |  | Microsoft And Alphabet's Two Different Market Stories—AI Keeps Building |
+| 10-29 13:23 | AAPL |  | Apple Cuts Taiwan App Store Commission Rate In Taiwan From 30% To 26%, Effective Oct. 31 |
+| 10-29 13:19 | CVX |  | Reported Earlier, 'Venezuelan Leader Commits to Elections Ahead of Machado Speech' - Bloomberg |
 | 10-29 13:01 | MSFT |  | Microsoft Stock Slips Despite Strong Azure Growth: Analysts Debate AI Spending |
 | 10-29 12:53 | GOOGL |  | Blame SpaceX for Most of Google’s Shocking Earnings Miss — And Brace for More |
 | 10-29 12:45 | MSFT |  | Microsoft Stock Has More Upside: Analyst Says Q1 Validation of ‘AI-Led Growth Opportunity’ |

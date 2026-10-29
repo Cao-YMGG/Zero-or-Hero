@@ -1,7 +1,67 @@
 {
- "as_of": "2026-10-29T13:15-04:00",
+ "as_of": "2026-10-29T13:46-04:00",
  "since": "2026-10-28T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-29 13:39",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Alphabet's AI Spending Avalanche Sparks Fresh Fears As Analyst Warns of Profit Squeeze",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62709967/alphabets-ai-spending-avalanche-sparks-fresh-fears-as-analyst-warns-of-profit-squeeze"
+  },
+  {
+   "time": "10-29 13:35",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Bank of America Signals Shift to Dividend And Quality ETFs As Stock Selling Intensifies: 3 ETFs to Watch",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/specialty-etfs/26/10/62709807/bank-of-america-signals-shift-dividend-quality-etfs-stock-selling-intensifies-3-funds"
+  },
+  {
+   "time": "10-29 13:28",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft And Alphabet's Two Different Market Stories\u2014AI Keeps Building",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/opinion/26/10/62709569/microsoft-and-alphabet-two-different-market-stories-ai-keeps-building"
+  },
+  {
+   "time": "10-29 13:25",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "target down",
+   "headline": "Morgan Stanley Maintains Overweight on Alphabet, Lowers Price Target to $375",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62709429/morgan-stanley-maintains-overweight-alphabet-lowers-price-target-375"
+  },
+  {
+   "time": "10-29 13:23",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Cuts Taiwan App Store Commission Rate In Taiwan From 30% To 26%, Effective Oct. 31",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62709327/apple-cuts-taiwan-app-store-commission-rate-taiwan-30-26-effective-oct-31"
+  },
+  {
+   "time": "10-29 13:19",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Reported Earlier, 'Venezuelan Leader Commits to Elections Ahead of Machado Speech' - Bloomberg",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62709189/reported-earlier-venezuelan-leader-commits-elections-ahead-machado-speech-bloomberg"
+  },
   {
    "time": "10-29 13:01",
    "symbols": [
