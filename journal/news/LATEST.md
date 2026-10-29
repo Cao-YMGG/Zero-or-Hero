@@ -1,9 +1,11 @@
-# Headlines since 2026-10-28 16:00 ET (as of 2026-10-29 10:02 ET)
+# Headlines since 2026-10-28 16:00 ET (as of 2026-10-29 10:32 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-29 10:24 | GOOGL | rating | Guggenheim Reiterates Buy on Alphabet, Maintains $450 Price Target |
+| 10-29 10:19 | MSFT | target up | Guggenheim Maintains Buy on Microsoft, Raises Price Target to $595 |
 | 10-29 09:37 | GOOGL | target down | Piper Sandler Maintains Overweight on Alphabet, Lowers Price Target to $345 |
 | 10-29 09:35 | CAT | rating | Oppenheimer Maintains Outperform on Caterpillar, Maintains $1009 Price Target |
 | 10-29 09:32 | ORCL | rating | Oppenheimer Reiterates Outperform on Oracle, Maintains $275 Price Target |
@@ -26,6 +28,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-28 18:48 | VST | target down | CIBC Maintains Outperformer on Vistra, Lowers Price Target to $181 |
 | 10-28 17:13 | STX | target down | UBS Maintains Neutral on Seagate Technology Hldgs, Lowers Price Target to $750 |
 | 10-28 16:03 | STX | target down | Citigroup Maintains Buy on Seagate Technology Hldgs, Lowers Price Target to $1050 |
+| 10-29 10:28 | ORCL |  | Stock of the Day: Why Did Oracle Rally? |
 | 10-29 09:53 | LLY |  | Eli Lilly Mounjaro Clocks 65% Jump in Sales to Massive $10.7 billion |
 | 10-29 09:52 | MSFT |  | Watching Microsoft; Hearing Investor Business Daily SwingTrader Buys Stock |
 | 10-29 09:52 | META |  | Mark Cuban Says Gen Z Texans Have ‘No Idea’ Who James Talarico or Ken Paxton Are as AI-Powered Social Media Algorithms Shape How Americans Think |

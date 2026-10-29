@@ -1,7 +1,37 @@
 {
- "as_of": "2026-10-29T10:02-04:00",
+ "as_of": "2026-10-29T10:32-04:00",
  "since": "2026-10-28T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-29 10:28",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Stock of the Day: Why Did Oracle Rally?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/technicals/26/10/62700767/stock-of-the-day-why-did-oracle-rally"
+  },
+  {
+   "time": "10-29 10:24",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "rating",
+   "headline": "Guggenheim Reiterates Buy on Alphabet, Maintains $450 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62700505/guggenheim-reiterates-buy-alphabet-maintains-450-price-target"
+  },
+  {
+   "time": "10-29 10:19",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "target up",
+   "headline": "Guggenheim Maintains Buy on Microsoft, Raises Price Target to $595",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62700169/guggenheim-maintains-buy-microsoft-raises-price-target-595"
+  },
   {
    "time": "10-29 09:53",
    "symbols": [
