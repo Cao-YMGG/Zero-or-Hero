@@ -1,7 +1,131 @@
 {
- "as_of": "2026-10-29T10:32-04:00",
+ "as_of": "2026-10-29T11:02-04:00",
  "since": "2026-10-28T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-29 11:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Eclypsium Partners with NVIDIA to Advance Infrastructure Assurance",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/NVDA-US/news?chain_id=Name1K9-3FXPhg.1le2eo0&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A59,%22f%22%3A%22www.moomoo.com%2Foptions%2FMSFT260821C502500-US%22%7D"
+  },
+  {
+   "time": "10-29 11:01",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Bibb County School Board Approves Revenue Bond Agreement for New Costco Location",
+   "source": "fiscal.ai",
+   "url": "https://middlegeorgiaceo.com/news/2026/10/no-brainer-bibb-county-schools-anticipate-tax-revenue-jobs-possible-future-business-new-costco/"
+  },
+  {
+   "time": "10-29 11:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Serves as Financial Advisor to ADT in $15.3 Billion Acquisition",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/29/3391374/0/en/adt-to-be-acquired-by-thrive-holdings-in-15-3-billion-transaction.html"
+  },
+  {
+   "time": "10-29 10:51",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "target down",
+   "headline": "Wedbush Maintains Outperform on Alphabet, Lowers Price Target to $387",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62702081/wedbush-maintains-outperform-alphabet-lowers-price-target-387"
+  },
+  {
+   "time": "10-29 10:51",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "target down",
+   "headline": "Barclays Maintains Overweight on Alphabet, Lowers Price Target to $405",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62702078/barclays-maintains-overweight-alphabet-lowers-price-target-405"
+  },
+  {
+   "time": "10-29 10:49",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "ServiceNow Stock Plunges on Worst Day in Company\u2019s History: AI Wins Can\u2019t Hide a Bookings Slowdown",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62702000/servicenow-stock-worst-day-history-bookings-slowdown"
+  },
+  {
+   "time": "10-29 10:45",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "target up",
+   "headline": "Wells Fargo Maintains Overweight on Microsoft, Raises Price Target to $750",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62701797/wells-fargo-maintains-overweight-microsoft-raises-price-target-750"
+  },
+  {
+   "time": "10-29 10:39",
+   "symbols": [
+    "V"
+   ],
+   "rating": "target up",
+   "headline": "Wells Fargo Maintains Overweight on Visa, Raises Price Target to $463",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62701389/wells-fargo-maintains-overweight-visa-raises-price-target-463"
+  },
+  {
+   "time": "10-29 10:35",
+   "symbols": [
+    "GOOGL",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "QUICK SPARK: Alphabet Stock Eyes Worst Day in Company's History, Wipes Out $500 Billion in Value",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62701188/alphabet-stock-worst-day-history-500-billion"
+  },
+  {
+   "time": "10-29 10:34",
+   "symbols": [
+    "AMZN",
+    "GOOGL",
+    "MSFT",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Steve Eisman Says AI Giants Have 'No Moats.' Morningstar's $57 Billion Math Says Otherwise",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62701119/eisman-ai-moats"
+  },
+  {
+   "time": "10-29 10:30",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "target up",
+   "headline": "StoneX Maintains Buy on Microsoft, Raises Price Target to $630",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62700950/stonex-maintains-buy-microsoft-raises-price-target-630"
+  },
+  {
+   "time": "10-29 10:30",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "target down",
+   "headline": "Truist Securities Maintains Buy on Alphabet, Lowers Price Target to $410",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62700906/truist-securities-maintains-buy-alphabet-lowers-price-target-410"
+  },
   {
    "time": "10-29 10:28",
    "symbols": [

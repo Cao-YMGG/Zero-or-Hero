@@ -1,9 +1,15 @@
-# Headlines since 2026-10-28 16:00 ET (as of 2026-10-29 10:32 ET)
+# Headlines since 2026-10-28 16:00 ET (as of 2026-10-29 11:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-29 10:51 | GOOGL | target down | Wedbush Maintains Outperform on Alphabet, Lowers Price Target to $387 |
+| 10-29 10:51 | GOOGL | target down | Barclays Maintains Overweight on Alphabet, Lowers Price Target to $405 |
+| 10-29 10:45 | MSFT | target up | Wells Fargo Maintains Overweight on Microsoft, Raises Price Target to $750 |
+| 10-29 10:39 | V | target up | Wells Fargo Maintains Overweight on Visa, Raises Price Target to $463 |
+| 10-29 10:30 | MSFT | target up | StoneX Maintains Buy on Microsoft, Raises Price Target to $630 |
+| 10-29 10:30 | GOOGL | target down | Truist Securities Maintains Buy on Alphabet, Lowers Price Target to $410 |
 | 10-29 10:24 | GOOGL | rating | Guggenheim Reiterates Buy on Alphabet, Maintains $450 Price Target |
 | 10-29 10:19 | MSFT | target up | Guggenheim Maintains Buy on Microsoft, Raises Price Target to $595 |
 | 10-29 09:37 | GOOGL | target down | Piper Sandler Maintains Overweight on Alphabet, Lowers Price Target to $345 |
@@ -28,6 +34,12 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-28 18:48 | VST | target down | CIBC Maintains Outperformer on Vistra, Lowers Price Target to $181 |
 | 10-28 17:13 | STX | target down | UBS Maintains Neutral on Seagate Technology Hldgs, Lowers Price Target to $750 |
 | 10-28 16:03 | STX | target down | Citigroup Maintains Buy on Seagate Technology Hldgs, Lowers Price Target to $1050 |
+| 10-29 11:01 | NVDA |  | Eclypsium Partners with NVIDIA to Advance Infrastructure Assurance |
+| 10-29 11:01 | COST |  | Bibb County School Board Approves Revenue Bond Agreement for New Costco Location |
+| 10-29 11:01 | GS |  | Goldman Sachs Serves as Financial Advisor to ADT in $15.3 Billion Acquisition |
+| 10-29 10:49 | CRM |  | ServiceNow Stock Plunges on Worst Day in Company’s History: AI Wins Can’t Hide a Bookings Slowdown |
+| 10-29 10:35 | GOOGL NVDA |  | QUICK SPARK: Alphabet Stock Eyes Worst Day in Company's History, Wipes Out $500 Billion in Value |
+| 10-29 10:34 | AMZN GOOGL MSFT NVDA |  | Steve Eisman Says AI Giants Have 'No Moats.' Morningstar's $57 Billion Math Says Otherwise |
 | 10-29 10:28 | ORCL |  | Stock of the Day: Why Did Oracle Rally? |
 | 10-29 09:53 | LLY |  | Eli Lilly Mounjaro Clocks 65% Jump in Sales to Massive $10.7 billion |
 | 10-29 09:52 | MSFT |  | Watching Microsoft; Hearing Investor Business Daily SwingTrader Buys Stock |
