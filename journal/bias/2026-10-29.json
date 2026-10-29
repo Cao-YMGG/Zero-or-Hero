@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-29",
+  "bias": "none",
+  "confidence": 0.2,
+  "p_up": 0.5,
+  "summary": "Rotation day out of AI capex and software (GOOGL -11% on its EPS miss, NOW -18%, chips -2-3%) into health care, staples, payments and banks; SPY -0.4% and QQQ -1.2% pre-market, small caps up. The gap is priced at the open and the open-to-close direction is a coin flip (p_up 0.50): no SPY trade. Sniper V call: Visa-Tencent global payments partnership (06:32) plus Mastercard's beat this morning, +1.8% pre-market in a heating sector, 8% below the median target.",
+  "reasons": [
+    "Webull extended hours 08:53 ET: SPY 769.49 (-0.37%), QQQ -1.17%, IWM +0.29%, SMH -1.87%, TLT +0.27%, USO -0.39%, UUP +0.14%; XLV +2.38%, XLP +1.64%, XLF +1.28%, XLE +1.10%, XLI -0.43%",
+    "After the close: GOOGL Q3 EPS $2.12 vs $3.02 (Waymo/Other Bets loss over $2B, search growth slowing), -11.3% pre-market, its worst day in six years if it holds; GOOGL is ~4% of SPY, so about -0.45% of the gap. MSFT +2.0% (gave back most of a +4% after-hours spike; Cantor $630, Piper $650 targets; a $25B bond sale headline at 08:41). NOW -18.6% and FTNT -26% hit software",
+    "Overnight: Fed held at 3.75-4% yesterday (Warsh: take stock, a split committee); oil down on Iranian diplomacy signals (Brent -1.4% to ~$110, WTI -1.5% to ~$101 per Benzinga 06:04)",
+    "08:30 today: Q3 GDP advance, September PCE and jobless claims were scheduled (calendar pages, Benzinga 06:04). I could not find the printed numbers before writing; SPY barely moved through 08:30 (769.65 at 08:29, 769.49 at 08:53). config/macro_events.json has no entry for today, so the bot treats it as a normal day. VIX and 2Y/10Y bp not looked up (TLT +0.3% suggests yields a little lower)",
+    "Earnings: this morning LLY (beat, sales guide raised, +4.0%), CAT (-11.5%), MA (+3.0%), MRK, SHEL; tonight AMZN (-2.5% pre-market), INTC (-3.0%), GILD, SNDK, SBUX. No sniper on any of them, nor on GOOGL/MSFT (reaction day)",
+    "M&A: Marvell in advanced talks to buy Lumentum (Bloomberg, 10-28 17:21 ET): LITE +7.2% pre-market to 979 (it reports 11-05), MRVL -11.9% (the buyer)",
+    "Down gaps >= 2% outside earnings (rebound_scanner runs Tue/Thu): AVGO -2.7%, AMD -2.6%, MU -2.5%, LRCX -1.8%. AMD dossier: down gaps of 2%+ bounced 58% of the time (amd_gap_rebound +24%/trade, shadow only); AMD reports 11-03, inside its run-up window, and today's drop is sector-wide (no AMD news of its own)",
+    "META dossier: +0.7% pre-market with no news of its own, after -12% in a week (offering); a rotation-day laggard like 10-12, but nothing to name it on",
+    "Sniper V call: 'Visa and Tencent Sign Global Payments Partnership' (Benzinga 06:32) and Mastercard's results this morning (MA +3.0% to 628.49, near its 633 high) carry V +1.8% to 407.85; Webull median target $440 (mean 437), so ~8% room. Risks: part of the gap is the MA read-through, a 'potential £5bn UK lawsuit' headline (07:31) on Visa and Mastercard, and V's own report was 10-27 (two days ago). Financials are heating (XLF +1.3%, JPM +1.4%, GS +1.5%). Nearest expiry is Friday 10-30",
+    "Considered and not named: PLTR (JPMorgan initiates Overweight, $262 target, +1.1% pre-market; but software is being sold today and PLTR reports 11-02), CVX (William Blair initiates Outperform; Chevron reports soon, date not confirmed), LLY/MA/CAT (report today), WMT +2.3% / COST +1.8% / UNH +2.0% / JNJ +2.1% (rotation, no news of their own), XOM (initiation is a weak catalyst)"
+  ],
+  "events": ["Q3 GDP advance, September PCE, jobless claims 08:30 (not confirmed)", "Earnings pre-market: LLY, CAT, MA, MRK, SHEL", "Earnings after the close: AMZN, INTC, GILD, SNDK, SBUX"],
+  "inputs": {"es_futures_pct": -0.32, "vix": null, "wti_pct": -1.5, "us10y": null, "us10y_change_bp": null, "us2y_change_bp": null, "dxy_pct": 0.1,
+             "overnight": "Webull extended hours 08:53 ET: SPY -0.37%, QQQ -1.17%, SMH -1.87%, TLT +0.27%, USO -0.39%, UUP +0.14%; night session at 00:08 ET SPY -0.50%, QQQ -1.47%. ES -0.32% and NQ -1.14% per Benzinga 06:04"},
+  "rotation": {
+    "heating": ["health care (XLV +2.4% pre-market; LLY beat +4.0%, JNJ +2.1%, UNH +2.0%; 1-month LLY +8.8%, UNH +8.6%)", "consumer staples (XLP +1.6%; WMT +2.3%, COST +1.8%, PG +1.6%; WMT +11.2% in a month)", "payments and banks (MA +3.0%, V +1.8%, GS +1.5%, BAC +1.5%, JPM +1.4%)", "energy (XLE +1.1%, XOM +1.2%, CVX +1.4%; XOM +12.8% in a month)"],
+    "cooling": ["internet / AI capex (GOOGL -11.3%, AMZN -2.5%; META -12% in a week, -17% in a month)", "software (NOW -18.6%, FTNT -26%)", "chips after a three-day bounce (SMH -1.9%, AVGO -2.7%, AMD -2.6%, MU -2.5%; 1-week MU +7.6%, AMD +4.7%, but 1-month MU -7.7%, NVDA -5.2%, INTC -17.6%)", "industrials (CAT -11.5% on its report; GEV -8.7% in a month)"],
+    "note": "Bars to the 10-28 close plus this morning's pre-market. Same shape as 10-14/15: money leaves AI hardware and internet for health care, staples and banks. Optical is the exception today (LITE +7% on the Marvell bid)"
+  },
+  "sniper": {
+    "symbol": "V",
+    "direction": "call",
+    "catalyst": "Visa and Tencent sign a global payments partnership (Benzinga 06:32) and Mastercard beat this morning (MA +3.0% pre-market); V +1.8% to 407.85, median target $440; financials heating on a rotation day",
+    "catalyst_type": "company_news",
+    "confidence": 0.3
+  },
+  "generated_at": "2026-10-29T08:56:30-04:00"
+}
