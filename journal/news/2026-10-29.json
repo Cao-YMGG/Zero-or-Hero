@@ -1,7 +1,69 @@
 {
- "as_of": "2026-10-29T12:03-04:00",
+ "as_of": "2026-10-29T12:33-04:00",
  "since": "2026-10-28T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-29 12:13",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle's AI Spending Spree May Finally Have an End in Sight",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62706415/oracles-ai-spending-spree-may-finally-have-an-end-in-sight"
+  },
+  {
+   "time": "10-29 12:12",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Live On CNBC, Jim Lebenthal Announces Trimmed Alphabet Class A Position",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/GOOGL"
+  },
+  {
+   "time": "10-29 12:05",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart+ Launches In Mexico With Shopping, Entertainment, Connectivity, Rewards, And Healthcare Benefits;  Walmart+ Membership In Mexico Priced At MXN$89 Monthly Or MXN$890 Annually; Walmart+ Mexico Offers Free Shipping And Delivery With No Minimum Through November 30, 2026",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62705990/walmart-launches-mexico-shopping-entertainment-connectivity-rewards-and-healthcare-benefits-walmart-"
+  },
+  {
+   "time": "10-29 12:04",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Why Is HubSpot Stock Falling on Thursday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62705948/why-is-hubspot-stock-falling-on-thursday"
+  },
+  {
+   "time": "10-29 12:00",
+   "symbols": [
+    "CRM",
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Why Is Salesforce Stock Falling on Thursday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62705757/why-is-salesforce-stock-falling-on-thursday"
+  },
+  {
+   "time": "10-29 12:00",
+   "symbols": [
+    "GOOGL",
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Alphabet Bulls Dig in After Messy Q3: 'AI Stack Keeps Us Bullish' Cantor Says",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62705724/alphabet-bulls-dig-in-after-messy-q3-ai-stack-keeps-us-bullish-cantor-says"
+  },
   {
    "time": "10-29 11:54",
    "symbols": [

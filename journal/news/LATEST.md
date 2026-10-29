@@ -1,4 +1,4 @@
-# Headlines since 2026-10-28 16:00 ET (as of 2026-10-29 12:03 ET)
+# Headlines since 2026-10-28 16:00 ET (as of 2026-10-29 12:33 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -44,6 +44,12 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-28 18:48 | VST | target down | CIBC Maintains Outperformer on Vistra, Lowers Price Target to $181 |
 | 10-28 17:13 | STX | target down | UBS Maintains Neutral on Seagate Technology Hldgs, Lowers Price Target to $750 |
 | 10-28 16:03 | STX | target down | Citigroup Maintains Buy on Seagate Technology Hldgs, Lowers Price Target to $1050 |
+| 10-29 12:13 | ORCL |  | Oracle's AI Spending Spree May Finally Have an End in Sight |
+| 10-29 12:12 | GOOGL |  | Live On CNBC, Jim Lebenthal Announces Trimmed Alphabet Class A Position |
+| 10-29 12:05 | WMT |  | Walmart+ Launches In Mexico With Shopping, Entertainment, Connectivity, Rewards, And Healthcare Benefits;  Walmart+ Membership In Mexico Priced At MXN$89 Monthly Or MXN$890 Annually; Walmart+ Mexico Offers Free Shipping And Delivery With No Minimum Through November 30, 2026 |
+| 10-29 12:04 | GOOGL |  | Why Is HubSpot Stock Falling on Thursday? |
+| 10-29 12:00 | CRM GOOGL |  | Why Is Salesforce Stock Falling on Thursday? |
+| 10-29 12:00 | GOOGL MSFT |  | Alphabet Bulls Dig in After Messy Q3: 'AI Stack Keeps Us Bullish' Cantor Says |
 | 10-29 11:51 | NVDA |  | 'Canada, Nvidia Back Cohere in Round at Over $20 Billion Value' - Bloomberg News |
 | 10-29 11:45 | MSFT |  | $1000 Invested In Microsoft 10 Years Ago Would Be Worth This Much Today |
 | 10-29 11:43 | LLY |  | Eli Lilly and Company Reports $303M In Q3 2026 Special Charges, Bringing 9-Month Total To $1.3B, Primarily Driven By Intangible Asset Impairment, Acquisition Costs And Litigation |
