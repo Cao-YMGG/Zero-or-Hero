@@ -1,0 +1,9 @@
+date,time,type,symbol,direction,action,source,open,entry,close,open_close_pct,entry_close_pct,best_after_entry_pct,why
+2026-10-29,09:31,company_news,V,call,real,sniper,405.28,406.21,410.56,1.3,1.07,1.41,"Visa and Tencent sign a global payments partnership (Benzinga 06:32) and Mastercard beat this morning (MA +3.0% pre-market); V +1.8% to 407.85, median target $440; financials heating on a rotation day"
+2026-10-29,13:16,sector_move,ORCL,put,real,intraday,144.41,137.61,139.57,3.35,-1.43,0.66,"Same-day sector catalyst: the market is punishing debt-funded AI capex today (GOOGL -12.5% on capex $51B and a second negative FCF quarter; MSFT -3% from its open on a \$25B bond sale, its first since"
+2026-10-29,10:00,rotation_laggard,META,call,shadow,review,621.25,623.5,624.5,0.52,0.16,1.79,"-12% in a week after its offering, green pre-market while GOOGL -11% (bias reasons); megacap_reclaim shadow 645C"
+2026-10-29,10:00,gapdown_rebound,AMD,call,none,review,562.42,566.39,566.52,0.73,0.02,1.48,"-2.6% pre-market gap with the sector, no news of its own; AMD dossier: 2%+ down gaps bounced 58%"
+2026-10-29,10:00,gapdown_rebound,AVGO,call,none,review,342.4,341.29,345.06,0.78,1.11,1.42,-2.7% pre-market gap with the sector
+2026-10-29,10:00,gapdown_rebound,MU,call,none,review,967.95,950.12,934.49,-3.46,-1.65,0.7,-2.5% pre-market gap after a three-day SK Hynix rally
+2026-10-29,10:00,ma_acquirer,MRVL,put,none,review,222.68,219.82,218.31,1.96,0.68,2.37,in advanced talks to buy LITE (Bloomberg 10-28); the other Claude's sniper
+2026-10-29,11:25,financing_fade,MSFT,put,none,review,540.31,523.63,530.39,1.84,-1.29,0.34,$25B bond sale (first since 2017) on its reaction day; reversed from +2% pre-market
