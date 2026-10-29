@@ -1,7 +1,98 @@
 {
- "as_of": "2026-10-29T13:46-04:00",
+ "as_of": "2026-10-29T14:16-04:00",
  "since": "2026-10-28T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-29 14:14",
+   "symbols": [
+    "GOOGL",
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "YouTube's Living-Room Business Just Made More in One Quarter Than Netflix's Full-Year Ad Forecast",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62711510/youtubes-living-room-business-just-made-more-in-one-quarter-than-netflixs-full-year-ad-forecast"
+  },
+  {
+   "time": "10-29 14:02",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Reports Q3 2026 Financial Results and Withdraws 2026 Operating Expense Outlook",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:e79c326318007:0-key-facts-hood-q3-1-42b-rev-txn-rev-867m-crypto-55-28-7m-accts/"
+  },
+  {
+   "time": "10-29 14:01",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Renews 'The Diplomat' for Season Five",
+   "source": "fiscal.ai",
+   "url": "https://www.avclub.com/article-type/news"
+  },
+  {
+   "time": "10-29 14:01",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "SanDisk Expands Data Center Portfolio and Secures Long-Term Customer Agreements",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/zacks:21cb448ee094b:0-will-data-center-growth-remain-sandisk-s-biggest-opportunity/"
+  },
+  {
+   "time": "10-29 14:01",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "ADES Secures Contract Extension for Rig Operating for Chevron Subsidiary",
+   "source": "fiscal.ai",
+   "url": "https://splash247.com/ades-adds-52m-to-backlog-with-angola-jackup-extension/"
+  },
+  {
+   "time": "10-29 14:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Serves as Financial Advisor to Perrigo in Divestiture",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/perrigo-announces-agreement-to-divest-infant-formula-business-to-meridianmade-302923597.html"
+  },
+  {
+   "time": "10-29 14:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Bank Provides Bridge Financing for DoorDash Acquisition of Instacart",
+   "source": "fiscal.ai",
+   "url": "https://www.fidelity.com/news/article/mergers-and-acquisitions/202610290715BIZWIRE_USPR_____20261029_BW560802"
+  },
+  {
+   "time": "10-29 14:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "FCC Approves Amazon Leo's Acquisition of Globalstar",
+   "source": "fiscal.ai",
+   "url": "https://telcomagazine.com/news/fcc-clears-amazon-leos-us-11-5bn-globalstar-buyout"
+  },
+  {
+   "time": "10-29 13:57",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "Caterpillar\u2014The Earnings Rundown",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/opinion/26/10/62710801/caterpillar-the-earnings-rundown"
+  },
   {
    "time": "10-29 13:39",
    "symbols": [

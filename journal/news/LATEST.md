@@ -1,4 +1,4 @@
-# Headlines since 2026-10-28 16:00 ET (as of 2026-10-29 13:46 ET)
+# Headlines since 2026-10-28 16:00 ET (as of 2026-10-29 14:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -46,6 +46,15 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-28 18:48 | VST | target down | CIBC Maintains Outperformer on Vistra, Lowers Price Target to $181 |
 | 10-28 17:13 | STX | target down | UBS Maintains Neutral on Seagate Technology Hldgs, Lowers Price Target to $750 |
 | 10-28 16:03 | STX | target down | Citigroup Maintains Buy on Seagate Technology Hldgs, Lowers Price Target to $1050 |
+| 10-29 14:14 | GOOGL NFLX |  | YouTube's Living-Room Business Just Made More in One Quarter Than Netflix's Full-Year Ad Forecast |
+| 10-29 14:02 | HOOD |  | Robinhood Reports Q3 2026 Financial Results and Withdraws 2026 Operating Expense Outlook |
+| 10-29 14:01 | NFLX |  | Netflix Renews 'The Diplomat' for Season Five |
+| 10-29 14:01 | SNDK |  | SanDisk Expands Data Center Portfolio and Secures Long-Term Customer Agreements |
+| 10-29 14:01 | CVX |  | ADES Secures Contract Extension for Rig Operating for Chevron Subsidiary |
+| 10-29 14:01 | GS |  | Goldman Sachs Serves as Financial Advisor to Perrigo in Divestiture |
+| 10-29 14:01 | JPM |  | JPMorgan Chase Bank Provides Bridge Financing for DoorDash Acquisition of Instacart |
+| 10-29 14:01 | AMZN |  | FCC Approves Amazon Leo's Acquisition of Globalstar |
+| 10-29 13:57 | CAT |  | Caterpillar—The Earnings Rundown |
 | 10-29 13:39 | GOOGL |  | Alphabet's AI Spending Avalanche Sparks Fresh Fears As Analyst Warns of Profit Squeeze |
 | 10-29 13:35 | META |  | Bank of America Signals Shift to Dividend And Quality ETFs As Stock Selling Intensifies: 3 ETFs to Watch |
 | 10-29 13:28 | MSFT |  | Microsoft And Alphabet's Two Different Market Stories—AI Keeps Building |
