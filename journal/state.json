@@ -13,8 +13,8 @@
         "entry_price": 1.32,
         "peak": 1.85,
         "qty": 1,
-        "last": 0.81,
-        "last_time": "2026-10-29T12:33:16-04:00"
+        "last": 0.72,
+        "last_time": "2026-10-29T12:45:29-04:00"
       }
     },
     "claude_bias": {},
@@ -29,8 +29,8 @@
         "entry_price": 0.7,
         "peak": 0.74,
         "qty": 2,
-        "last": 0.46,
-        "last_time": "2026-10-29T12:33:16-04:00"
+        "last": 0.4,
+        "last_time": "2026-10-29T12:45:29-04:00"
       },
       "real": {
         "contract": "COIN261030C00185000",
@@ -48,10 +48,10 @@
         "direction": "call",
         "entry_time": "2026-10-29T09:46:05-04:00",
         "entry_price": 1.25,
-        "peak": 2.23,
+        "peak": 2.81,
         "qty": 1,
-        "last": 2.23,
-        "last_time": "2026-10-29T12:33:16-04:00"
+        "last": 2.53,
+        "last_time": "2026-10-29T12:45:29-04:00"
       }
     },
     "rebound_scanner": {},
@@ -67,8 +67,8 @@
         "entry_price": 0.72,
         "peak": 0.72,
         "qty": 2,
-        "last": 0.1,
-        "last_time": "2026-10-29T12:33:16-04:00"
+        "last": 0.06,
+        "last_time": "2026-10-29T12:45:29-04:00"
       },
       "real": {
         "contract": "V261030C00420000",
