@@ -37,6 +37,11 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
   flat or red (META 2026-10-12/13 while chips sold off). Search that company's own news
   (product launches, model releases, analyst target changes) before calling a move "no news":
   on 2026-10-12 the Muse Wonder launch was missed and META ran +3.4%, then +4.5% the next day.
+  The tape must already agree: pick only when the stock is moving the pick's way from its open
+  (or since the headline). On 2026-10-30 the AMZN put on an in-session $80B supplier-loan
+  headline was bought while AMZN was +2.5% from its open and had not reacted in 40 minutes; it
+  closed higher and the 235P went to zero (-$198). The winning ORCL put of 10-29 was already
+  -4.5% from its open, at the low.
 - Weekdays 16:35 ET: daily post-market review and light evolution. Grade every closed trade
   (real and shadow) and the day's pre-market calls in `journal/grades.csv` with the rubric in
   `journal/GRADING.md` (process score out of 10, separate from the result; peaks from
