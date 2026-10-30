@@ -9,6 +9,12 @@ on:
       - "journal/bias/intraday/*.json"
       - "journal/opportunities/*.json"
   workflow_dispatch:
+    inputs:
+      mode:
+        description: "changed = post the files the last push changed; test = one test message per configured channel"
+        default: test
+        type: choice
+        options: [test, changed]
 
 jobs:
   post:
@@ -20,11 +26,19 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Post what changed
+      - name: Post what changed (or a test message per channel)
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_WEBHOOK_PREMARKET: ${{ secrets.DISCORD_WEBHOOK_PREMARKET }}
+          DISCORD_WEBHOOK_INTRADAY: ${{ secrets.DISCORD_WEBHOOK_INTRADAY }}
+          DISCORD_WEBHOOK_TRADES: ${{ secrets.DISCORD_WEBHOOK_TRADES }}
+          DISCORD_WEBHOOK_REVIEW: ${{ secrets.DISCORD_WEBHOOK_REVIEW }}
+          DISCORD_WEBHOOK_ALERTS: ${{ secrets.DISCORD_WEBHOOK_ALERTS }}
+          DISCORD_WEBHOOK_RESEARCH: ${{ secrets.DISCORD_WEBHOOK_RESEARCH }}
           BEFORE: ${{ github.event.before }}
+          MODE: ${{ inputs.mode }}
         run: |
+          if [ "$MODE" = "test" ]; then python -m zoh.notify test; exit 0; fi
           if [ -z "$BEFORE" ] || ! git cat-file -e "$BEFORE" 2>/dev/null; then BEFORE=HEAD~1; fi
           for f in $(git diff --name-only "$BEFORE" HEAD -- journal/bias journal/opportunities); do
             [ -f "$f" ] || continue

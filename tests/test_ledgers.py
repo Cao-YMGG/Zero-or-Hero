@@ -328,12 +328,19 @@ class NotifyTest(unittest.TestCase):
     def test_no_webhook_is_a_quiet_no_op(self):
         import os
         from zoh import notify
-        saved = os.environ.pop("DISCORD_WEBHOOK_URL", None)
+        names = list(notify.CHANNELS.values()) + [notify.FALLBACK]
+        saved = {n: os.environ.pop(n) for n in names if n in os.environ}
         try:
-            self.assertFalse(notify.post("hello"))
+            self.assertFalse(notify.post("hello", "premarket"))
+            os.environ["DISCORD_WEBHOOK_URL"] = "https://example.invalid/fallback"
+            self.assertEqual(notify.webhook("premarket"), "https://example.invalid/fallback")
+            os.environ["DISCORD_WEBHOOK_PREMARKET"] = "https://example.invalid/premarket"
+            self.assertEqual(notify.webhook("premarket"), "https://example.invalid/premarket")
+            self.assertEqual(notify.webhook("trades"), "https://example.invalid/fallback")
         finally:
-            if saved is not None:
-                os.environ["DISCORD_WEBHOOK_URL"] = saved
+            for n in names:
+                os.environ.pop(n, None)
+            os.environ.update(saved)
 
     def test_long_text_is_split_under_the_limit(self):
         from zoh import notify
