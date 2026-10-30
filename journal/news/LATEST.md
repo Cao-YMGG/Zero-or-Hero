@@ -1,9 +1,10 @@
-# Headlines since 2026-10-29 16:00 ET (as of 2026-10-30 12:05 ET)
+# Headlines since 2026-10-29 16:00 ET (as of 2026-10-30 12:35 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-30 12:20 | INTC | target down | RBC Capital Maintains Sector Perform on Intel, Lowers Price Target to $75 |
 | 10-30 11:48 | LLY | target up | RBC Capital Maintains Outperform on Eli Lilly, Raises Price Target to $1600 |
 | 10-30 11:48 | LLY | target up | Truist Securities Reiterates Buy on Eli Lilly, Raises Price Target to $1612 |
 | 10-30 11:38 | CAT | target down | Truist Securities Reiterates Buy on Caterpillar, Lowers Price Target to $1027 |
@@ -47,6 +48,8 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-29 16:31 | GOOGL | target down | JP Morgan Maintains Overweight on Alphabet, Lowers Price Target to $375 |
 | 10-29 16:28 | PLTR | initiate | JP Morgan Initiates Coverage On Palantir Technologies with Overweight Rating, Announces Price Target of $262 |
 | 10-29 16:21 | MSFT | rating | RBC Capital Reiterates Outperform on Microsoft, Maintains $640 Price Target |
+| 10-30 12:09 | CVX |  | Chevron Q3 2026 Earnings Call Transcript |
+| 10-30 12:08 | NVDA |  | Live On CNBC, Steve Weiss Announces Sold Most Of His Nvidia |
 | 10-30 12:01 | ASML STX |  | Congressman Ditches Semiconductors, Data Storage: Here’s Three Stocks He Sold |
 | 10-30 11:56 | CVX |  | Chevron CFO Says Project Kilby Is On Track To Achieve First Power In 2028; Chevron Vice Chairman Says Refining Margins Will Eventually Moderate As Sector Recovers, But Will Take Time; Co Expects Logistics Advantage From Pre-conflict Shipping Contracts To Persist Until Conflicts Are Resolved |
 | 10-30 11:56 | SNDK |  | Sandisk Has More Demand Than It Can Supply Through 2030, Analyst Says |

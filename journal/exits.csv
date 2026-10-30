@@ -62,3 +62,5 @@ date,variant,mode,contract,entry_price,exit_price,peak,exit_reason
 2026-10-30,catalyst_intraday,real,ORCL261030P00134000,0.64,3.15,3.31,half
 2026-10-30,catalyst_intraday,shadow,ORCL261030P00134000,0.66,2.635,3.31,trail
 2026-10-30,catalyst_intraday,real,ORCL261030P00134000,0.64,1.82,3.31,trail
+2026-10-30,nvda_gapdown_put,shadow,NVDA261030P00207500,0.94,2.85,2.85,take_profit
+2026-10-30,nvda_gapdown_put,real,NVDA261030P00207500,0.92,2.83,2.85,take_profit

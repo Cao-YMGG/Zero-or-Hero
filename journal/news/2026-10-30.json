@@ -1,7 +1,37 @@
 {
- "as_of": "2026-10-30T12:05-04:00",
+ "as_of": "2026-10-30T12:35-04:00",
  "since": "2026-10-29T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-30 12:20",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "target down",
+   "headline": "RBC Capital Maintains Sector Perform on Intel, Lowers Price Target to $75",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62748191/rbc-capital-maintains-sector-perform-intel-lowers-price-target-75"
+  },
+  {
+   "time": "10-30 12:09",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Chevron Q3 2026 Earnings Call Transcript",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62747667/chevron-q3-2026-earnings-call-transcript"
+  },
+  {
+   "time": "10-30 12:08",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Live On CNBC, Steve Weiss Announces Sold Most Of His Nvidia",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/NVDA"
+  },
   {
    "time": "10-30 12:01",
    "symbols": [

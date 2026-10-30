@@ -14,7 +14,7 @@
         "peak": 1.85,
         "qty": 1,
         "last": 0,
-        "last_time": "2026-10-30T12:05:25-04:00"
+        "last_time": "2026-10-30T12:35:47-04:00"
       }
     },
     "catalyst_open@2026-10-29": {
@@ -28,8 +28,8 @@
         "entry_price": 0.72,
         "peak": 0.72,
         "qty": 2,
-        "last": 0.03,
-        "last_time": "2026-10-30T12:05:25-04:00"
+        "last": 0.01,
+        "last_time": "2026-10-30T12:35:47-04:00"
       },
       "real": {
         "contract": "V261030C00420000",
@@ -59,7 +59,7 @@
         "peak": 0.64,
         "qty": 4,
         "last": 0.1,
-        "last_time": "2026-10-30T12:05:25-04:00"
+        "last_time": "2026-10-30T12:35:47-04:00"
       },
       "real": {
         "contract": "AMZN261030C00245000",
@@ -79,8 +79,8 @@
         "entry_price": 0.08,
         "peak": 0.1,
         "qty": 29,
-        "last": 0.01,
-        "last_time": "2026-10-30T12:05:25-04:00"
+        "last": 0.03,
+        "last_time": "2026-10-30T12:35:47-04:00"
       },
       "real": {
         "contract": "NVDA261030C00212500",
@@ -100,30 +100,14 @@
         "entry_price": 0.08,
         "peak": 0.1,
         "qty": 29,
-        "last": 0.01,
-        "last_time": "2026-10-30T12:05:25-04:00"
+        "last": 0.03,
+        "last_time": "2026-10-30T12:35:47-04:00"
       }
     },
     "nvda_gapdown_put": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "NVDA261030P00207500",
-        "direction": "put",
-        "entry_time": "2026-10-30T10:01:27-04:00",
-        "entry_price": 0.94,
-        "peak": 2.29,
-        "qty": 2,
-        "last": 2.14,
-        "last_time": "2026-10-30T12:05:25-04:00"
-      },
-      "real": {
-        "contract": "NVDA261030P00207500",
-        "qty": 1,
-        "underlying": "NVDA",
-        "entry_price": 0.92,
-        "entry_time": "2026-10-30T10:01:32-04:00"
-      }
+      "closed": true
     },
     "catalyst_open": {
       "attempts": 1,
@@ -136,7 +120,7 @@
         "peak": 2.19,
         "qty": 1,
         "last": 0,
-        "last_time": "2026-10-30T12:05:25-04:00"
+        "last_time": "2026-10-30T12:35:47-04:00"
       },
       "real": {
         "contract": "GEV261030C00935000",
