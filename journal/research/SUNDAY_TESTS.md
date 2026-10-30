@@ -129,6 +129,15 @@ in EVOLUTION.md.
     shadows were not earnings gaps. Test the AMZN 10-30 case and the 2-year scanner backtest with and
     without skip_after_report_days 3 before changing the champion.
 
+34. **catalyst_open delta (2026-10-30).** Two days running the sniper stock went our way and the
+    ~0.10-delta call died: V 10-29 (+1.4% open to close, 420C 0.70 -> 0) and GEV 10-30 (+4.2% open
+    to high, 935C 2.15 -> 0, bid 0 at entry; zero-bid quotes are now skipped, PR #89). On real
+    minute prices for every sniper since 10-01: 0.10 vs 0.20 vs 0.30 delta, same half-at-3x and
+    trail, with and without the best two. 12 shadow trades so far (+5.2% avg), so no change yet.
+35. **Exits at market in the first 15 minutes (2026-10-30).** The ORCL 134P trail exit at 09:39
+    filled 1.82 against the shadow's 2.635 (-31%, -$81). Count every real exit before 09:45 since
+    10-01: fill vs shadow price; test a limit at the bid-ask mid with one 30-second step to the bid.
+
 ## Done
 - **Item 22 (2026-10-25), WEEK43_EXITS.md / SECTORS.md:** (a) sector ETF follow at 10:00 (lead >= 0.8% beyond SPY):
   negative everywhere, 0.20 delta trail2x -24% / -29% / -33% last 3 months (24), -30% all (157); heating filter
