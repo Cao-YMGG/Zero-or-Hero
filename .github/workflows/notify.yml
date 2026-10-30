@@ -35,7 +35,7 @@ jobs:
           DISCORD_WEBHOOK_REVIEW: ${{ secrets.DISCORD_WEBHOOK_REVIEW }}
           DISCORD_WEBHOOK_ALERTS: ${{ secrets.DISCORD_WEBHOOK_ALERTS }}
           DISCORD_WEBHOOK_RESEARCH: ${{ secrets.DISCORD_WEBHOOK_RESEARCH }}
-          DISCORD_WEBHOOK_OPPORTUNITIES: ${{ secrets.DISCORD_WEBHOOK_OPPORTUNITIES }}
+          DISCORD_WEBHOOK_OPPORTUNITIES: ${{ secrets.DISCORD_WEBHOOK_OPPORTUNITIES || secrets.ZOHOPPORTUNITIES }}
           BEFORE: ${{ github.event.before }}
           MODE: ${{ inputs.mode }}
         run: |
