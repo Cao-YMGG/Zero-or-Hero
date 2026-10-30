@@ -1,9 +1,11 @@
-# Headlines since 2026-10-29 16:00 ET (as of 2026-10-30 14:32 ET)
+# Headlines since 2026-10-29 16:00 ET (as of 2026-10-30 14:46 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-30 14:43 | SNDK | target down | Wells Fargo Maintains Equal-Weight on SanDisk, Lowers Price Target to $1300 |
+| 10-30 14:41 | INTC | target down | Wells Fargo Maintains Equal-Weight on Intel, Lowers Price Target to $80 |
 | 10-30 14:26 | AMZN | target down | Wells Fargo Maintains Overweight on Amazon.com, Lowers Price Target to $326 |
 | 10-30 14:25 | GOOGL | target down | Wells Fargo Maintains Overweight on Alphabet, Lowers Price Target to $371 |
 | 10-30 14:11 | AMZN | target down | TD Cowen Maintains Buy on Amazon.com, Lowers Price Target to $340 |
@@ -62,6 +64,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-29 16:31 | GOOGL | target down | JP Morgan Maintains Overweight on Alphabet, Lowers Price Target to $375 |
 | 10-29 16:28 | PLTR | initiate | JP Morgan Initiates Coverage On Palantir Technologies with Overweight Rating, Announces Price Target of $262 |
 | 10-29 16:21 | MSFT | rating | RBC Capital Reiterates Outperform on Microsoft, Maintains $640 Price Target |
+| 10-30 14:31 | TSLA |  | Elon Musk Wants People to Sleep in Robotaxis, Police Department Says You Can Also Sober Up |
 | 10-30 14:03 | CAT |  | JPMorgan Adjusts Price Target on Caterpillar to $1,000 From $1,100 |
 | 10-30 14:02 | SNDK |  | Analysts Adjust Price Targets for SanDisk Following Q1 Earnings Report |
 | 10-30 14:02 | LLY |  | Analysts Raise Price Targets for Eli Lilly Following Q3 Results |

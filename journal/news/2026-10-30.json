@@ -1,7 +1,37 @@
 {
- "as_of": "2026-10-30T14:32-04:00",
+ "as_of": "2026-10-30T14:46-04:00",
  "since": "2026-10-29T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-30 14:43",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "target down",
+   "headline": "Wells Fargo Maintains Equal-Weight on SanDisk, Lowers Price Target to $1300",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62755452/wells-fargo-maintains-equal-weight-sandisk-lowers-price-target-1300"
+  },
+  {
+   "time": "10-30 14:41",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "target down",
+   "headline": "Wells Fargo Maintains Equal-Weight on Intel, Lowers Price Target to $80",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62755372/wells-fargo-maintains-equal-weight-intel-lowers-price-target-80"
+  },
+  {
+   "time": "10-30 14:31",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Wants People to Sleep in Robotaxis, Police Department Says You Can Also Sober Up",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/large-cap/26/10/62754838/elon-musk-wants-people-to-sleep-in-robotaxis-police-department-says-you-can-also-sober-up"
+  },
   {
    "time": "10-30 14:26",
    "symbols": [
