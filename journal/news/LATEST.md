@@ -1,9 +1,14 @@
-# Headlines since 2026-10-29 16:00 ET (as of 2026-10-30 13:46 ET)
+# Headlines since 2026-10-29 16:00 ET (as of 2026-10-30 14:12 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-30 14:08 | CAT | target down | Wells Fargo Maintains Overweight on Caterpillar, Lowers Price Target to $805 |
+| 10-30 14:02 | VST | rating | Morgan Stanley Maintains Buy Rating on Vistra Corp. |
+| 10-30 14:01 | LLY | target up | Morgan Stanley Maintains Overweight on Eli Lilly, Raises Price Target to $1596 |
+| 10-30 13:53 | CAT | target down | Morgan Stanley Maintains Equal-Weight on Caterpillar, Lowers Price Target to $675 |
+| 10-30 13:42 | AMZN | target down | Morgan Stanley Maintains Overweight on Amazon.com, Lowers Price Target to $335 |
 | 10-30 13:33 | COIN | target down | Goldman Sachs Maintains Buy on Coinbase Global, Lowers Price Target to $210 |
 | 10-30 13:14 | SNDK | target down | RBC Capital Maintains Sector Perform on SanDisk, Lowers Price Target to $1400 |
 | 10-30 12:55 | HOOD | target down | Truist Securities Maintains Buy on Robinhood Markets, Lowers Price Target to $123 |
@@ -54,6 +59,15 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-29 16:31 | GOOGL | target down | JP Morgan Maintains Overweight on Alphabet, Lowers Price Target to $375 |
 | 10-29 16:28 | PLTR | initiate | JP Morgan Initiates Coverage On Palantir Technologies with Overweight Rating, Announces Price Target of $262 |
 | 10-29 16:21 | MSFT | rating | RBC Capital Reiterates Outperform on Microsoft, Maintains $640 Price Target |
+| 10-30 14:03 | CAT |  | JPMorgan Adjusts Price Target on Caterpillar to $1,000 From $1,100 |
+| 10-30 14:02 | SNDK |  | Analysts Adjust Price Targets for SanDisk Following Q1 Earnings Report |
+| 10-30 14:02 | LLY |  | Analysts Raise Price Targets for Eli Lilly Following Q3 Results |
+| 10-30 14:02 | VST |  | Vistra Corp. Completes Acquisition of Cogentrix Energy |
+| 10-30 14:01 | AMD |  | AMD Shares Decline Amid Market Reaction to Intel Earnings |
+| 10-30 14:01 | META |  | Meta Launches AI Fashion App 'Style Sketch' in Southeast Asia |
+| 10-30 14:01 | AAPL |  | Apple Acquires Data-Management Startup Ascend.io |
+| 10-30 14:01 | AAPL |  | Trial Date Set for Apple's Trade Secret Lawsuit Against OpenAI |
+| 10-30 13:45 | LLY |  | Eli Lilly 'Deserves' Stock Upside: Analyst |
 | 10-30 13:31 | AMZN |  | Amazon Is Spending Billions to Win the AI Race — Will the Gamble Pay Off? |
 | 10-30 13:15 | INTC |  | Deadly Blast Hit Intel’s Factory — And It Has a Hidden Bill That Nobody Can Yet Calculate |
 | 10-30 13:13 | XOM |  | ExxonMobil CEO Sees No Quick Fix for Global Refining Disruptions |

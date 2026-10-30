@@ -1,7 +1,147 @@
 {
- "as_of": "2026-10-30T13:46-04:00",
+ "as_of": "2026-10-30T14:12-04:00",
  "since": "2026-10-29T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-30 14:08",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "target down",
+   "headline": "Wells Fargo Maintains Overweight on Caterpillar, Lowers Price Target to $805",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62753745/wells-fargo-maintains-overweight-caterpillar-lowers-price-target-805"
+  },
+  {
+   "time": "10-30 14:03",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Adjusts Price Target on Caterpillar to $1,000 From $1,100",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/jpmorgan-adjusts-price-target-on-caterpillar-to-1-000-from-1-100-ce785fdbdb8ff024"
+  },
+  {
+   "time": "10-30 14:02",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "Analysts Adjust Price Targets for SanDisk Following Q1 Earnings Report",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/mizuho-adjusts-price-target-on-sandisk-corporation-to-1-900-from-2-050-ce785fdbdc8ff120"
+  },
+  {
+   "time": "10-30 14:02",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Analysts Raise Price Targets for Eli Lilly Following Q3 Results",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/eli-lilly-seen-sustaining-obesity-growth-ubs-says-ce785fdbde81f421"
+  },
+  {
+   "time": "10-30 14:02",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "",
+   "headline": "Vistra Corp. Completes Acquisition of Cogentrix Energy",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/vistra-completes-acquisition-of-cogentrix-energy-expanding-diverse-generation-fleet-302925088.html"
+  },
+  {
+   "time": "10-30 14:02",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "rating",
+   "headline": "Morgan Stanley Maintains Buy Rating on Vistra Corp.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1003021920/morgan-stanley-maintains-vistra-energy-vstus-with-buy-rating-cuts"
+  },
+  {
+   "time": "10-30 14:01",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD Shares Decline Amid Market Reaction to Intel Earnings",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/20261030107/amds-stock-slides-after-intel-earnings-reveal-two-big-issues"
+  },
+  {
+   "time": "10-30 14:01",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "target up",
+   "headline": "Morgan Stanley Maintains Overweight on Eli Lilly, Raises Price Target to $1596",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62753294/morgan-stanley-maintains-overweight-eli-lilly-raises-price-target-1596"
+  },
+  {
+   "time": "10-30 14:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Launches AI Fashion App 'Style Sketch' in Southeast Asia",
+   "source": "fiscal.ai",
+   "url": "https://www.techdogs.com/tech-news/td-newsdesk/meta-launches-style-sketch-ai-app-to-turn-instagram-photos-into-virtual-wardrobes"
+  },
+  {
+   "time": "10-30 14:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Acquires Data-Management Startup Ascend.io",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/seekingalpha:dbd81b23a094b:0-apple-acquires-agentic-platform-ascension-labs/"
+  },
+  {
+   "time": "10-30 14:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Trial Date Set for Apple's Trade Secret Lawsuit Against OpenAI",
+   "source": "fiscal.ai",
+   "url": "https://www.techdogs.com/tech-news/td-newsdesk/apple-and-openai-trade-secrets-lawsuit-heads-to-trial-on-july-19-2027"
+  },
+  {
+   "time": "10-30 13:53",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "target down",
+   "headline": "Morgan Stanley Maintains Equal-Weight on Caterpillar, Lowers Price Target to $675",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62752874/morgan-stanley-maintains-equal-weight-caterpillar-lowers-price-target-675"
+  },
+  {
+   "time": "10-30 13:45",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly 'Deserves' Stock Upside: Analyst",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62752512/eli-lilly-deserves-stock-upside-analyst"
+  },
+  {
+   "time": "10-30 13:42",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "target down",
+   "headline": "Morgan Stanley Maintains Overweight on Amazon.com, Lowers Price Target to $335",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62752376/morgan-stanley-maintains-overweight-amazon-com-lowers-price-target-335"
+  },
   {
    "time": "10-30 13:33",
    "symbols": [
