@@ -1,7 +1,77 @@
 {
- "as_of": "2026-10-30T12:35-04:00",
+ "as_of": "2026-10-30T13:16-04:00",
  "since": "2026-10-29T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-30 13:03",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart And Base Power Announce A Strategic Agreement To Bring Affordable Home Backup Power And Energy Savings To Customers",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62750451/walmart-and-base-power-announce-strategic-agreement-bring-affordable-home-backup-power-and-energy-sa"
+  },
+  {
+   "time": "10-30 12:55",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "target down",
+   "headline": "Truist Securities Maintains Buy on Robinhood Markets, Lowers Price Target to $123",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62750067/truist-securities-maintains-buy-robinhood-markets-lowers-price-target-123"
+  },
+  {
+   "time": "10-30 12:47",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "target up",
+   "headline": "Wells Fargo Maintains Overweight on Eli Lilly, Raises Price Target to $1500",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62749560/wells-fargo-maintains-overweight-eli-lilly-raises-price-target-1500"
+  },
+  {
+   "time": "10-30 12:45",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "\"Meta Settles With Social Media Addiction Plaintiff Ahead Of Trial; After This Development, The Only Defendant Remaining In The Trial Is Snap Inc.\" - Bloomberg Law",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62749477/meta-settles-social-media-addiction-plaintiff-ahead-trial-after-development-only-defendant-remaining"
+  },
+  {
+   "time": "10-30 12:42",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "target down",
+   "headline": "Truist Securities Maintains Hold on Intel, Lowers Price Target to $72",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62749289/truist-securities-maintains-hold-intel-lowers-price-target-72"
+  },
+  {
+   "time": "10-30 12:39",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "'Amazon Taps $80 Billion Supplier Loan Facility To Help Fund AI' - Bloomberg News",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62749150/amazon-taps-80-billion-supplier-loan-facility-to-help-fund-ai"
+  },
+  {
+   "time": "10-30 12:31",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "target down",
+   "headline": "Wells Fargo Maintains Equal-Weight on Coinbase Global, Lowers Price Target to $174",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62748666/wells-fargo-maintains-equal-weight-coinbase-global-lowers-price-target-174"
+  },
   {
    "time": "10-30 12:20",
    "symbols": [

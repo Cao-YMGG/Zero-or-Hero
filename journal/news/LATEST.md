@@ -1,9 +1,13 @@
-# Headlines since 2026-10-29 16:00 ET (as of 2026-10-30 12:35 ET)
+# Headlines since 2026-10-29 16:00 ET (as of 2026-10-30 13:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-30 12:55 | HOOD | target down | Truist Securities Maintains Buy on Robinhood Markets, Lowers Price Target to $123 |
+| 10-30 12:47 | LLY | target up | Wells Fargo Maintains Overweight on Eli Lilly, Raises Price Target to $1500 |
+| 10-30 12:42 | INTC | target down | Truist Securities Maintains Hold on Intel, Lowers Price Target to $72 |
+| 10-30 12:31 | COIN | target down | Wells Fargo Maintains Equal-Weight on Coinbase Global, Lowers Price Target to $174 |
 | 10-30 12:20 | INTC | target down | RBC Capital Maintains Sector Perform on Intel, Lowers Price Target to $75 |
 | 10-30 11:48 | LLY | target up | RBC Capital Maintains Outperform on Eli Lilly, Raises Price Target to $1600 |
 | 10-30 11:48 | LLY | target up | Truist Securities Reiterates Buy on Eli Lilly, Raises Price Target to $1612 |
@@ -48,6 +52,9 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-29 16:31 | GOOGL | target down | JP Morgan Maintains Overweight on Alphabet, Lowers Price Target to $375 |
 | 10-29 16:28 | PLTR | initiate | JP Morgan Initiates Coverage On Palantir Technologies with Overweight Rating, Announces Price Target of $262 |
 | 10-29 16:21 | MSFT | rating | RBC Capital Reiterates Outperform on Microsoft, Maintains $640 Price Target |
+| 10-30 13:03 | WMT |  | Walmart And Base Power Announce A Strategic Agreement To Bring Affordable Home Backup Power And Energy Savings To Customers |
+| 10-30 12:45 | META |  | "Meta Settles With Social Media Addiction Plaintiff Ahead Of Trial; After This Development, The Only Defendant Remaining In The Trial Is Snap Inc." - Bloomberg Law |
+| 10-30 12:39 | AMZN |  | 'Amazon Taps $80 Billion Supplier Loan Facility To Help Fund AI' - Bloomberg News |
 | 10-30 12:09 | CVX |  | Chevron Q3 2026 Earnings Call Transcript |
 | 10-30 12:08 | NVDA |  | Live On CNBC, Steve Weiss Announces Sold Most Of His Nvidia |
 | 10-30 12:01 | ASML STX |  | Congressman Ditches Semiconductors, Data Storage: Here’s Three Stocks He Sold |
