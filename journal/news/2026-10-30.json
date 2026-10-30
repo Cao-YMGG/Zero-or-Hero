@@ -1,7 +1,287 @@
 {
- "as_of": "2026-10-30T15:16-04:00",
+ "as_of": "2026-10-30T18:36-04:00",
  "since": "2026-10-29T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-30 18:16",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "target down",
+   "headline": "JP Morgan Maintains Overweight on Coinbase Global, Lowers Price Target to $187",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62761521/jp-morgan-maintains-overweight-coinbase-global-lowers-price-target-187"
+  },
+  {
+   "time": "10-30 18:14",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "target up",
+   "headline": "JP Morgan Maintains Overweight on Eli Lilly, Raises Price Target to $1650",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62761483/jp-morgan-maintains-overweight-eli-lilly-raises-price-target-1650"
+  },
+  {
+   "time": "10-30 17:48",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "$100 Invested In Costco Wholesale 5 Years Ago Would Be Worth This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62761262/100-invested-costco-wholesale-5-years-ago-would-be-worth-much-today"
+  },
+  {
+   "time": "10-30 17:32",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Adjusts Price Target on Intercontinental Exchange",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-price-target-on-intercontinental-exchange-to-200-from-195-ce785fdbdc8af722"
+  },
+  {
+   "time": "10-30 17:32",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "target down",
+   "headline": "Goldman Sachs Lowers Price Target on Coinbase Global",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:2182d09941fcc:0-goldman-sachs-maintains-coinbase-global-at-buy-lowers-price-target-to-210-from-244/"
+  },
+  {
+   "time": "10-30 17:32",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "target up",
+   "headline": "Goldman Sachs Raises Price Target on Altria Group",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/gurufocus:06ecbb779094b:0-goldman-sees-more-upside-in-altria-after-strong-quarter/"
+  },
+  {
+   "time": "10-30 17:32",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "Multiple Analysts Adjust Price Targets for Caterpillar Inc.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/president-capital-adjusts-price-target-on-caterpillar-to-761-from-999-ce785fdbdb8ff225"
+  },
+  {
+   "time": "10-30 17:31",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "rating",
+   "headline": "Truist Securities Maintains Buy Rating on Robinhood Markets, Adjusts Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:c3b3d65072e99:0-truist-securities-maintains-robinhood-markets-at-buy-lowers-price-target-to-123-from-125/"
+  },
+  {
+   "time": "10-30 17:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Sets $20 Billion Ceiling on Additional Capital Raises Through Fiscal 2030",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/gurufocus:06747f6ad094b:0-oracle-stocks-decline-6-17-with-funding-ceiling-excluding-debt-refinancing/"
+  },
+  {
+   "time": "10-30 17:31",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Bank of America Highlights Regulatory Challenges for Potential Tesla-SpaceX Merger",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/stocktwits:dbbea1551094b:0-tesla-spacex-merger-could-face-the-biggest-regulatory-risk-in-china-bofa-warns/"
+  },
+  {
+   "time": "10-30 17:31",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Former Financial Adviser Sues Bank of America Over Mandatory Arbitration Policy",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/seekingalpha:068a62338094b:0-bank-of-america-sued-over-mandatory-arbitration-policy-for-employees/"
+  },
+  {
+   "time": "10-30 17:31",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Releases 2026 Holiday Spending Shift Survey Findings",
+   "source": "fiscal.ai",
+   "url": "https://investingnews.com/secret-santai-visa-survey-finds-americans-quietly-turning-to-ai-for-holiday-shopping-help/"
+  },
+  {
+   "time": "10-30 17:31",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Signs Memorandum of Understanding with Senegal for Digital Transformation",
+   "source": "fiscal.ai",
+   "url": "https://africa.com/apo/visa-and-senegal-join-forces-to-accelerate-digital-transformation-and-the-development-of-digital-payments"
+  },
+  {
+   "time": "10-30 17:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Pharmacy Reports Significant Growth in Customers and Delivery Reach",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/news/artificial-intelligence/2026/amazon-fills-prescription-chatgpt-cannot/"
+  },
+  {
+   "time": "10-30 17:31",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "downgrade",
+   "headline": "William Blair Downgrades Broadcom to Market Perform",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/invezz:faa101be1094b:0-why-intel-amd-and-broadcom-are-falling-on-friday/"
+  },
+  {
+   "time": "10-30 17:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Plans $25 Billion Investment-Grade Bond Sale",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/2026/10/31/business/foreign-business/microsoft-looking-to-raise-25b-for-ai-push/2458225"
+  },
+  {
+   "time": "10-30 17:21",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "'Alphabet Is in Talks to Join Trump\u2019s Golden Dome Defense Program'- Bloomberg",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62760869/alphabet-talks-join-trump-s-golden-dome-defense-program-bloomberg"
+  },
+  {
+   "time": "10-30 17:09",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "",
+   "headline": "Anthropic Could Join Public Markets With a Junk Rating Despite $112B Cash Pile, Blackstone Warns",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/private-markets/26/10/62760671/anthropic-could-join-public-markets-with-a-junk-rating-despite-112b-cash-pile-blackstone-warns"
+  },
+  {
+   "time": "10-30 17:08",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "target down",
+   "headline": "Citigroup Maintains Buy on Alphabet, Lowers Price Target to $375",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62760647/citigroup-maintains-buy-alphabet-lowers-price-target-375"
+  },
+  {
+   "time": "10-30 17:07",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platforms Outlook Revised To Negative On Significant Uncertainty Around Capex And Free Operating Cash Flow",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62760617/meta-platforms-outlook-revised-negative-significant-uncertainty-around-capex-and-free-operating-cash"
+  },
+  {
+   "time": "10-30 16:32",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Reaches Settlement in Social Media Addiction Trial",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/meta-settles-with-plaintiffs-set-for-social-media-addiction-trial-in-los-angeles-next-week-ce785fdbd18af12c"
+  },
+  {
+   "time": "10-30 16:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Faces Potential Additional Regulatory Costs",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/symbols/BVL-JPMUS/news/?section=top_news"
+  },
+  {
+   "time": "10-30 16:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Discloses Prime Video Profitability and Revenue Scale",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/gurufocus:917e0e8bc094b:0-amazon-says-prime-video-is-now-a-tens-of-billions-business/"
+  },
+  {
+   "time": "10-30 16:31",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel Announces Agreement to Acquire Classiq Technologies",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8560818/intel-agreed-to-buy-israeli-startup-classiq-technologies-how-investors-should-view-the-deal"
+  },
+  {
+   "time": "10-30 16:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Customer AM Intelligence Seeks $3 Billion Financing for Processor Order",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1002985226/market-chatter-nvidia-chip-buyer-am-intelligence-plans-up-to"
+  },
+  {
+   "time": "10-30 15:43",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "target down",
+   "headline": "Scotiabank Maintains Sector Outperform on Amazon.com, Lowers Price Target to $300",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62757690/scotiabank-maintains-sector-outperform-amazon-com-lowers-price-target-300"
+  },
+  {
+   "time": "10-30 15:37",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "target down",
+   "headline": "TD Cowen Maintains Hold on Intel, Lowers Price Target to $75",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62757474/td-cowen-maintains-hold-intel-lowers-price-target-75"
+  },
+  {
+   "time": "10-30 15:31",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Strikes MoU With Senegal To Enhance Its Digital Transformation",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62757151/visa-strikes-mou-senegal-enhance-its-digital-transformation"
+  },
   {
    "time": "10-30 15:02",
    "symbols": [

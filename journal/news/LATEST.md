@@ -1,9 +1,18 @@
-# Headlines since 2026-10-29 16:00 ET (as of 2026-10-30 15:16 ET)
+# Headlines since 2026-10-29 16:00 ET (as of 2026-10-30 18:36 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-30 18:16 | COIN | target down | JP Morgan Maintains Overweight on Coinbase Global, Lowers Price Target to $187 |
+| 10-30 18:14 | LLY | target up | JP Morgan Maintains Overweight on Eli Lilly, Raises Price Target to $1650 |
+| 10-30 17:32 | GS | target down | Goldman Sachs Lowers Price Target on Coinbase Global |
+| 10-30 17:32 | GS | target up | Goldman Sachs Raises Price Target on Altria Group |
+| 10-30 17:31 | HOOD | rating | Truist Securities Maintains Buy Rating on Robinhood Markets, Adjusts Price Target |
+| 10-30 17:31 | AVGO | downgrade | William Blair Downgrades Broadcom to Market Perform |
+| 10-30 17:08 | GOOGL | target down | Citigroup Maintains Buy on Alphabet, Lowers Price Target to $375 |
+| 10-30 15:43 | AMZN | target down | Scotiabank Maintains Sector Outperform on Amazon.com, Lowers Price Target to $300 |
+| 10-30 15:37 | INTC | target down | TD Cowen Maintains Hold on Intel, Lowers Price Target to $75 |
 | 10-30 15:02 | INTC | target down | DA Davidson Maintains Neutral on Intel, Lowers Price Target to $70 |
 | 10-30 15:01 | GEV | target up | GLJ Research Maintains Sell Rating on GE Vernova, Raises Price Target |
 | 10-30 14:58 | INTC | target down | Rosenblatt Maintains Sell on Intel, Lowers Price Target to $70 |
@@ -68,6 +77,25 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-29 16:31 | GOOGL | target down | JP Morgan Maintains Overweight on Alphabet, Lowers Price Target to $375 |
 | 10-29 16:28 | PLTR | initiate | JP Morgan Initiates Coverage On Palantir Technologies with Overweight Rating, Announces Price Target of $262 |
 | 10-29 16:21 | MSFT | rating | RBC Capital Reiterates Outperform on Microsoft, Maintains $640 Price Target |
+| 10-30 17:48 | COST |  | $100 Invested In Costco Wholesale 5 Years Ago Would Be Worth This Much Today |
+| 10-30 17:32 | GS |  | Goldman Sachs Adjusts Price Target on Intercontinental Exchange |
+| 10-30 17:32 | CAT |  | Multiple Analysts Adjust Price Targets for Caterpillar Inc. |
+| 10-30 17:31 | ORCL |  | Oracle Sets $20 Billion Ceiling on Additional Capital Raises Through Fiscal 2030 |
+| 10-30 17:31 | TSLA |  | Bank of America Highlights Regulatory Challenges for Potential Tesla-SpaceX Merger |
+| 10-30 17:31 | BAC |  | Former Financial Adviser Sues Bank of America Over Mandatory Arbitration Policy |
+| 10-30 17:31 | V |  | Visa Releases 2026 Holiday Spending Shift Survey Findings |
+| 10-30 17:31 | V |  | Visa Signs Memorandum of Understanding with Senegal for Digital Transformation |
+| 10-30 17:31 | AMZN |  | Amazon Pharmacy Reports Significant Growth in Customers and Delivery Reach |
+| 10-30 17:31 | MSFT |  | Microsoft Plans $25 Billion Investment-Grade Bond Sale |
+| 10-30 17:21 | GOOGL |  | 'Alphabet Is in Talks to Join Trump’s Golden Dome Defense Program'- Bloomberg |
+| 10-30 17:09 | AVGO |  | Anthropic Could Join Public Markets With a Junk Rating Despite $112B Cash Pile, Blackstone Warns |
+| 10-30 17:07 | META |  | Meta Platforms Outlook Revised To Negative On Significant Uncertainty Around Capex And Free Operating Cash Flow |
+| 10-30 16:32 | META |  | Meta Reaches Settlement in Social Media Addiction Trial |
+| 10-30 16:31 | JPM |  | JPMorgan Chase Faces Potential Additional Regulatory Costs |
+| 10-30 16:31 | AMZN |  | Amazon Discloses Prime Video Profitability and Revenue Scale |
+| 10-30 16:31 | INTC |  | Intel Announces Agreement to Acquire Classiq Technologies |
+| 10-30 16:31 | NVDA |  | NVIDIA Customer AM Intelligence Seeks $3 Billion Financing for Processor Order |
+| 10-30 15:31 | V |  | Visa Strikes MoU With Senegal To Enhance Its Digital Transformation |
 | 10-30 15:02 | MSFT |  | Microsoft and The Estée Lauder Companies Announce Strategic AI Partnership |
 | 10-30 15:01 | CAT |  | Caterpillar Expands Role in Off-Grid Data Center Power Solutions |
 | 10-30 15:01 | META |  | Meta Loses Legal Challenge Against UK Ofcom Information Requests |
