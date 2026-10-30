@@ -1,43 +1,18 @@
 {
   "date": "2026-10-30",
-  "done": false,
+  "done": true,
   "variants": {
     "catalyst_intraday@2026-10-28": {
       "entered": true,
       "carried": true,
       "of": "catalyst_intraday",
-      "shadow": {
-        "contract": "AMAT261030C00445000",
-        "direction": "call",
-        "entry_time": "2026-10-28T13:19:27-04:00",
-        "entry_price": 1.32,
-        "peak": 1.85,
-        "qty": 1,
-        "last": 0,
-        "last_time": "2026-10-30T15:16:56-04:00"
-      }
+      "closed": true
     },
     "catalyst_open@2026-10-29": {
       "entered": true,
       "carried": true,
       "of": "catalyst_open",
-      "shadow": {
-        "contract": "V261030C00420000",
-        "direction": "call",
-        "entry_time": "2026-10-29T09:32:00-04:00",
-        "entry_price": 0.72,
-        "peak": 0.72,
-        "qty": 2,
-        "last": 0.01,
-        "last_time": "2026-10-30T15:16:56-04:00"
-      },
-      "real": {
-        "contract": "V261030C00420000",
-        "qty": 2,
-        "underlying": "V",
-        "entry_price": 0.7,
-        "entry_time": "2026-10-29T09:32:09-04:00"
-      }
+      "closed": true
     },
     "catalyst_intraday@2026-10-29": {
       "entered": true,
@@ -51,58 +26,17 @@
     "megacap_reclaim": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "AMZN261030C00245000",
-        "direction": "call",
-        "entry_time": "2026-10-30T09:46:20-04:00",
-        "entry_price": 0.57,
-        "peak": 0.64,
-        "qty": 4,
-        "last": 0.01,
-        "last_time": "2026-10-30T15:16:56-04:00"
-      },
-      "real": {
-        "contract": "AMZN261030C00245000",
-        "qty": 1,
-        "underlying": "AMZN",
-        "entry_price": 0.57,
-        "entry_time": "2026-10-30T09:46:25-04:00"
-      }
+      "closed": true
     },
     "rebound_scanner": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "NVDA261030C00212500",
-        "direction": "call",
-        "entry_time": "2026-10-30T09:46:20-04:00",
-        "entry_price": 0.08,
-        "peak": 0.1,
-        "qty": 29,
-        "last": 0,
-        "last_time": "2026-10-30T15:16:56-04:00"
-      },
-      "real": {
-        "contract": "NVDA261030C00212500",
-        "qty": 13,
-        "underlying": "NVDA",
-        "entry_price": 0.06,
-        "entry_time": "2026-10-30T09:46:28-04:00"
-      }
+      "closed": true
     },
     "rebound_scanner_wide": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "NVDA261030C00212500",
-        "direction": "call",
-        "entry_time": "2026-10-30T09:46:20-04:00",
-        "entry_price": 0.08,
-        "peak": 0.1,
-        "qty": 29,
-        "last": 0,
-        "last_time": "2026-10-30T15:16:56-04:00"
-      }
+      "closed": true
     },
     "nvda_gapdown_put": {
       "attempts": 1,
@@ -112,44 +46,12 @@
     "catalyst_open": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "GEV261030C00935000",
-        "direction": "call",
-        "entry_time": "2026-10-30T09:38:30-04:00",
-        "entry_price": 2.19,
-        "peak": 2.19,
-        "qty": 1,
-        "last": 0,
-        "last_time": "2026-10-30T15:16:56-04:00"
-      },
-      "real": {
-        "contract": "GEV261030C00935000",
-        "qty": 1,
-        "underlying": "GEV",
-        "entry_price": 2.15,
-        "entry_time": "2026-10-30T09:38:37-04:00"
-      }
+      "closed": true
     },
     "catalyst_intraday": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "AMZN261030P00235000",
-        "direction": "put",
-        "entry_time": "2026-10-30T13:20:59-04:00",
-        "entry_price": 0.2,
-        "peak": 0.26,
-        "qty": 11,
-        "last": 0.03,
-        "last_time": "2026-10-30T15:16:56-04:00"
-      },
-      "real": {
-        "contract": "AMZN261030P00235000",
-        "qty": 11,
-        "underlying": "AMZN",
-        "entry_price": 0.18,
-        "entry_time": "2026-10-30T13:21:07-04:00"
-      }
+      "closed": true
     },
     "spy_open_drive": {},
     "spy_open_drive_wide": {},
