@@ -1,9 +1,11 @@
-# Headlines since 2026-10-29 16:00 ET (as of 2026-10-30 09:34 ET)
+# Headlines since 2026-10-29 16:00 ET (as of 2026-10-30 10:04 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-30 09:53 | LLY | target up | Argus Research Maintains Buy on Eli Lilly, Raises Price Target to $1550 |
+| 10-30 09:47 | INTC | target down | StoneX Maintains Buy on Intel, Lowers Price Target to $100 |
 | 10-30 09:22 | AMZN | target down | StoneX Maintains Buy on Amazon.com, Lowers Price Target to $380 |
 | 10-30 09:18 | AMZN | rating | Guggenheim Reiterates Buy on Amazon.com, Maintains $320 Price Target |
 | 10-30 09:07 | SNDK | target down | Susquehanna Maintains Positive on SanDisk, Lowers Price Target to $2720 |
@@ -39,6 +41,15 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-29 16:31 | GOOGL | target down | JP Morgan Maintains Overweight on Alphabet, Lowers Price Target to $375 |
 | 10-29 16:28 | PLTR | initiate | JP Morgan Initiates Coverage On Palantir Technologies with Overweight Rating, Announces Price Target of $262 |
 | 10-29 16:21 | MSFT | rating | RBC Capital Reiterates Outperform on Microsoft, Maintains $640 Price Target |
+| 10-30 10:01 | STX |  | Seagate Technology Holdings Reports Statutory Profit |
+| 10-30 10:00 | CIEN |  | $100 Invested In Ciena 5 Years Ago Would Be Worth This Much Today |
+| 10-30 09:57 | XOM |  | ExxonMobil CEO Says Company Intends To Grow Natural Gas Portfolio, Look For More Opportuntiies |
+| 10-30 09:50 | CVX |  | Live On CNBC, Chevron CEO Wirth Says Optimistic Co. Will Successfully Conclude Iraq Negotiations And Establish Operations As Early As Next Year; Sees Elevated Prices For Both Crude Oil And For Refined Products Around The World; We're Looking To Meet Europe's Need For Imports With LNG And Other Types Of Energy Supply |
+| 10-30 09:48 | META |  | California GOP Candidate Steve Hilton Slams Mark Zuckerberg for $1 Million Donation to Democrat Xavier Becerra: ‘Protection Money’ |
+| 10-30 09:45 | AMZN |  | Amazon Stock Could Have Nearly 50% Upside, JPMorgan Says, as AWS Eyes a $1 Trillion Future |
+| 10-30 09:44 | INTC |  | Intel Stock Could Fall Another 13%, JPMorgan Warns as AI Boom Fails to Fix Its Problems |
+| 10-30 09:37 | XOM |  | Live On CNBC, ExxonMobil CEO Says Co. Plans Over $100B Capital Expenses Through 2030; Big Part Of Our Strategy Is To Buyback Stock And Provide Dividend; ~10% Financing Goes To Refining; We Are Producing Record Volumes Of Diesel In North America |
+| 10-30 09:36 | CVX |  | Chevron Stock Hits 52-Week High As Refining Windfall Nearly Triples Profit |
 | 10-30 09:32 | XOM |  | ExxonMobil Increases Stake in Mozambique LNG Project to 50% |
 | 10-30 09:32 | CAT |  | Citigroup Adjusts Price Target on Caterpillar to $800 From $950 |
 | 10-30 09:31 | HOOD |  | Robinhood Crypto Joins Arbitrum Mentorship Program |

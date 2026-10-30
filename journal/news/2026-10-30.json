@@ -1,7 +1,117 @@
 {
- "as_of": "2026-10-30T09:34-04:00",
+ "as_of": "2026-10-30T10:04-04:00",
  "since": "2026-10-29T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-30 10:01",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "",
+   "headline": "Seagate Technology Holdings Reports Statutory Profit",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1003013370/earnings-beat-seagate-technology-holdings-plc-just-beat-analyst-forecasts"
+  },
+  {
+   "time": "10-30 10:00",
+   "symbols": [
+    "CIEN"
+   ],
+   "rating": "",
+   "headline": "$100 Invested In Ciena 5 Years Ago Would Be Worth This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62740516/100-invested-ciena-5-years-ago-would-be-worth-much-today"
+  },
+  {
+   "time": "10-30 09:57",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "ExxonMobil CEO Says Company Intends To Grow Natural Gas Portfolio, Look For More Opportuntiies",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62740253/exxonmobil-ceo-says-company-intends-grow-natural-gas-portfolio-look-more-opportuntiies"
+  },
+  {
+   "time": "10-30 09:53",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "target up",
+   "headline": "Argus Research Maintains Buy on Eli Lilly, Raises Price Target to $1550",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62739974/argus-research-maintains-buy-eli-lilly-raises-price-target-1550"
+  },
+  {
+   "time": "10-30 09:50",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Live On CNBC, Chevron CEO Wirth Says Optimistic Co. Will Successfully Conclude Iraq Negotiations And Establish Operations As Early As Next Year; Sees Elevated Prices For Both Crude Oil And For Refined Products Around The World; We're Looking To Meet Europe's Need For Imports With LNG And Other Types Of Energy Supply",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62739742/chevron-ceo-wirth-says-optimistic-co-will-successfully-conclude-iraq-negotiations-and-establish-operations-as-early-as-next-year"
+  },
+  {
+   "time": "10-30 09:48",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "California GOP Candidate Steve Hilton Slams Mark Zuckerberg for $1 Million Donation to Democrat Xavier Becerra: \u2018Protection Money\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62739676/california-gop-candidate-steve-hilton-slams-mark-zuckerberg-for-1-million-donation-to-democrat-xavier-becerra-protection-money"
+  },
+  {
+   "time": "10-30 09:47",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "target down",
+   "headline": "StoneX Maintains Buy on Intel, Lowers Price Target to $100",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62739579/stonex-maintains-buy-intel-lowers-price-target-100"
+  },
+  {
+   "time": "10-30 09:45",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Stock Could Have Nearly 50% Upside, JPMorgan Says, as AWS Eyes a $1 Trillion Future",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62739383/amazon-stock-jpmorgan-upside"
+  },
+  {
+   "time": "10-30 09:44",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel Stock Could Fall Another 13%, JPMorgan Warns as AI Boom Fails to Fix Its Problems",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62739264/intel-stock-jpmorgan-downside"
+  },
+  {
+   "time": "10-30 09:37",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "Live On CNBC, ExxonMobil CEO Says Co. Plans Over $100B Capital Expenses Through 2030; Big Part Of Our Strategy Is To Buyback Stock And Provide Dividend; ~10% Financing Goes To Refining; We Are Producing Record Volumes Of Diesel In North America",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62738741/live-cnbc-exxonmobil-ceo-says-co-plans-over-100b-capital-expenses-through-2030-big-part-our-strategy"
+  },
+  {
+   "time": "10-30 09:36",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Chevron Stock Hits 52-Week High As Refining Windfall Nearly Triples Profit",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62738585/chevron-stock-hits-52-week-high-as-refining-windfall-nearly-triples-profit"
+  },
   {
    "time": "10-30 09:32",
    "symbols": [

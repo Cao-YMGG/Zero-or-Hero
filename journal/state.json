@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-29",
-  "done": true,
+  "date": "2026-10-30",
+  "done": false,
   "variants": {
     "catalyst_intraday@2026-10-28": {
       "entered": true,
@@ -13,29 +13,14 @@
         "entry_price": 1.32,
         "peak": 1.85,
         "qty": 1,
-        "last": 0.38,
-        "last_time": "2026-10-29T15:45:00-04:00"
-      },
-      "hold": true
+        "last": 0,
+        "last_time": "2026-10-30T10:04:18-04:00"
+      }
     },
-    "claude_bias": {},
-    "meta_follow2": {},
-    "leader_follow": {
-      "attempts": 1,
+    "catalyst_open@2026-10-29": {
       "entered": true,
-      "closed": true
-    },
-    "megacap_reclaim": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "rebound_scanner": {},
-    "rebound_scanner_wide": {},
-    "nvda_gapdown_put": {},
-    "catalyst_open": {
-      "attempts": 1,
-      "entered": true,
+      "carried": true,
+      "of": "catalyst_open",
       "shadow": {
         "contract": "V261030C00420000",
         "direction": "call",
@@ -43,8 +28,8 @@
         "entry_price": 0.72,
         "peak": 0.72,
         "qty": 2,
-        "last": 0.05,
-        "last_time": "2026-10-29T15:45:00-04:00"
+        "last": 0.07,
+        "last_time": "2026-10-30T10:04:18-04:00"
       },
       "real": {
         "contract": "V261030C00420000",
@@ -52,37 +37,127 @@
         "underlying": "V",
         "entry_price": 0.7,
         "entry_time": "2026-10-29T09:32:09-04:00"
-      },
-      "hold": true
+      }
     },
-    "catalyst_intraday": {
+    "catalyst_intraday@2026-10-29": {
+      "entered": true,
+      "carried": true,
+      "of": "catalyst_intraday",
+      "closed": true
+    },
+    "claude_bias": {},
+    "meta_follow2": {},
+    "leader_follow": {},
+    "megacap_reclaim": {
       "attempts": 1,
       "entered": true,
       "shadow": {
-        "contract": "ORCL261030P00134000",
-        "direction": "put",
-        "entry_time": "2026-10-29T13:17:24-04:00",
-        "entry_price": 0.66,
-        "peak": 0.82,
-        "qty": 2,
-        "last": 0.38,
-        "last_time": "2026-10-29T15:45:00-04:00"
+        "contract": "AMZN261030C00245000",
+        "direction": "call",
+        "entry_time": "2026-10-30T09:46:20-04:00",
+        "entry_price": 0.57,
+        "peak": 0.64,
+        "qty": 4,
+        "last": 0.23,
+        "last_time": "2026-10-30T10:04:18-04:00"
       },
       "real": {
-        "contract": "ORCL261030P00134000",
-        "qty": 2,
-        "underlying": "ORCL",
-        "entry_price": 0.64,
-        "entry_time": "2026-10-29T13:17:28-04:00"
-      },
-      "hold": true
+        "contract": "AMZN261030C00245000",
+        "qty": 1,
+        "underlying": "AMZN",
+        "entry_price": 0.57,
+        "entry_time": "2026-10-30T09:46:25-04:00"
+      }
     },
+    "rebound_scanner": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "NVDA261030C00212500",
+        "direction": "call",
+        "entry_time": "2026-10-30T09:46:20-04:00",
+        "entry_price": 0.08,
+        "peak": 0.1,
+        "qty": 29,
+        "last": 0.09,
+        "last_time": "2026-10-30T10:04:18-04:00"
+      },
+      "real": {
+        "contract": "NVDA261030C00212500",
+        "qty": 13,
+        "underlying": "NVDA",
+        "entry_price": 0.06,
+        "entry_time": "2026-10-30T09:46:28-04:00"
+      }
+    },
+    "rebound_scanner_wide": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "NVDA261030C00212500",
+        "direction": "call",
+        "entry_time": "2026-10-30T09:46:20-04:00",
+        "entry_price": 0.08,
+        "peak": 0.1,
+        "qty": 29,
+        "last": 0.09,
+        "last_time": "2026-10-30T10:04:18-04:00"
+      }
+    },
+    "nvda_gapdown_put": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "NVDA261030P00207500",
+        "direction": "put",
+        "entry_time": "2026-10-30T10:01:27-04:00",
+        "entry_price": 0.94,
+        "peak": 1.15,
+        "qty": 2,
+        "last": 1.04,
+        "last_time": "2026-10-30T10:04:18-04:00"
+      },
+      "real": {
+        "contract": "NVDA261030P00207500",
+        "qty": 1,
+        "underlying": "NVDA",
+        "entry_price": 0.92,
+        "entry_time": "2026-10-30T10:01:32-04:00"
+      }
+    },
+    "catalyst_open": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "GEV261030C00935000",
+        "direction": "call",
+        "entry_time": "2026-10-30T09:38:30-04:00",
+        "entry_price": 2.19,
+        "peak": 2.19,
+        "qty": 1,
+        "last": 0,
+        "last_time": "2026-10-30T10:04:18-04:00"
+      },
+      "real": {
+        "contract": "GEV261030C00935000",
+        "qty": 1,
+        "underlying": "GEV",
+        "entry_price": 2.15,
+        "entry_time": "2026-10-30T09:38:37-04:00"
+      }
+    },
+    "catalyst_intraday": {},
     "spy_open_drive": {},
     "spy_open_drive_wide": {},
     "stock_open_drive": {}
   },
+  "real_underlyings": [
+    "V",
+    "ORCL",
+    "GEV"
+  ],
   "generation": 1,
-  "equity_start": 727.8300000000017,
+  "equity_start": 1167.550000000003,
   "phase": "zero-or-hero",
   "risk_per_trade": 0.2,
   "champion": "rebound_scanner",
@@ -108,18 +183,14 @@
       "paused": false
     },
     "leader_follow": {
-      "equity": 342.0,
+      "equity": 301.0,
       "generation": 1,
       "paused": false
     },
     "megacap_reclaim": {
       "equity": 319.0,
       "generation": 1,
-      "paused": true
+      "paused": false
     }
-  },
-  "real_underlyings": [
-    "V",
-    "ORCL"
-  ]
+  }
 }
