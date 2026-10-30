@@ -1,9 +1,10 @@
-# Headlines since 2026-10-29 16:00 ET (as of 2026-10-30 14:12 ET)
+# Headlines since 2026-10-29 16:00 ET (as of 2026-10-30 14:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-30 14:11 | AMZN | target down | TD Cowen Maintains Buy on Amazon.com, Lowers Price Target to $340 |
 | 10-30 14:08 | CAT | target down | Wells Fargo Maintains Overweight on Caterpillar, Lowers Price Target to $805 |
 | 10-30 14:02 | VST | rating | Morgan Stanley Maintains Buy Rating on Vistra Corp. |
 | 10-30 14:01 | LLY | target up | Morgan Stanley Maintains Overweight on Eli Lilly, Raises Price Target to $1596 |

@@ -1,7 +1,17 @@
 {
- "as_of": "2026-10-30T14:12-04:00",
+ "as_of": "2026-10-30T14:16-04:00",
  "since": "2026-10-29T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-30 14:11",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "target down",
+   "headline": "TD Cowen Maintains Buy on Amazon.com, Lowers Price Target to $340",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62753897/td-cowen-maintains-buy-amazon-com-lowers-price-target-340"
+  },
   {
    "time": "10-30 14:08",
    "symbols": [
