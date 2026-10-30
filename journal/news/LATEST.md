@@ -1,9 +1,10 @@
-# Headlines since 2026-10-29 16:00 ET (as of 2026-10-30 10:04 ET)
+# Headlines since 2026-10-29 16:00 ET (as of 2026-10-30 10:34 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-30 10:12 | COIN | target down | Barclays Maintains Underweight on Coinbase Global, Lowers Price Target to $120 |
 | 10-30 09:53 | LLY | target up | Argus Research Maintains Buy on Eli Lilly, Raises Price Target to $1550 |
 | 10-30 09:47 | INTC | target down | StoneX Maintains Buy on Intel, Lowers Price Target to $100 |
 | 10-30 09:22 | AMZN | target down | StoneX Maintains Buy on Amazon.com, Lowers Price Target to $380 |
@@ -41,6 +42,12 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-29 16:31 | GOOGL | target down | JP Morgan Maintains Overweight on Alphabet, Lowers Price Target to $375 |
 | 10-29 16:28 | PLTR | initiate | JP Morgan Initiates Coverage On Palantir Technologies with Overweight Rating, Announces Price Target of $262 |
 | 10-29 16:21 | MSFT | rating | RBC Capital Reiterates Outperform on Microsoft, Maintains $640 Price Target |
+| 10-30 10:29 | AMD INTC |  | QUICK SPARK: Intel Stock Drops 28%, Eyes Worst Day Since July 1974 |
+| 10-30 10:22 | XOM |  | ExxonMobil Says It Is Not In A Rush To Commit To New Investments In Venezuela And Expects The Process To Take Time |
+| 10-30 10:20 | INTC |  | Intel 5-Year Credit Default Swap Widens To Record High Of 123.5 BPS, On Track For Biggest One-Day Move Since October 2022 |
+| 10-30 10:16 | XOM |  | ExxonMobil CEO Says Co. Expects Global Refining Capacity Could Begin To Recover Next Year But May Take Longer |
+| 10-30 10:14 | AAPL |  | 'Apple Acquires Ascend.io' - MacRumors |
+| 10-30 10:05 | GOOGL MSFT |  | Google Stock Plunges 12% on AI Fears, but Joseph Carlson Isn't Selling, Says Shares Look Cheap |
 | 10-30 10:01 | STX |  | Seagate Technology Holdings Reports Statutory Profit |
 | 10-30 10:00 | CIEN |  | $100 Invested In Ciena 5 Years Ago Would Be Worth This Much Today |
 | 10-30 09:57 | XOM |  | ExxonMobil CEO Says Company Intends To Grow Natural Gas Portfolio, Look For More Opportuntiies |

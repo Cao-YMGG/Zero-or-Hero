@@ -1,7 +1,79 @@
 {
- "as_of": "2026-10-30T10:04-04:00",
+ "as_of": "2026-10-30T10:34-04:00",
  "since": "2026-10-29T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-30 10:29",
+   "symbols": [
+    "AMD",
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "QUICK SPARK: Intel Stock Drops 28%, Eyes Worst Day Since July 1974",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/downgrades/26/10/62742459/intel-stock-worst-day-since-1974-bank-of-america-downgrade"
+  },
+  {
+   "time": "10-30 10:22",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "ExxonMobil Says It Is Not In A Rush To Commit To New Investments In Venezuela And Expects The Process To Take Time",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62742066/exxonmobil-says-it-not-rush-commit-new-investments-venezuela-and-expects-process-take-time"
+  },
+  {
+   "time": "10-30 10:20",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel 5-Year Credit Default Swap Widens To Record High Of 123.5 BPS, On Track For Biggest One-Day Move Since October 2022",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62741898/intel-5-year-credit-default-swap-widens-record-high-123-5-bps-track-biggest-one-day-move-october-202"
+  },
+  {
+   "time": "10-30 10:16",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "ExxonMobil CEO Says Co. Expects Global Refining Capacity Could Begin To Recover Next Year But May Take Longer",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62741692/exxonmobil-ceo-says-co-expects-global-refining-capacity-could-begin-recover-next-year-may-take-longe"
+  },
+  {
+   "time": "10-30 10:14",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "'Apple Acquires Ascend.io' - MacRumors",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m/26/10/62741531/apple-acquires-ascend-io-macrumors"
+  },
+  {
+   "time": "10-30 10:12",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "target down",
+   "headline": "Barclays Maintains Underweight on Coinbase Global, Lowers Price Target to $120",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62741433/barclays-maintains-underweight-coinbase-global-lowers-price-target-120"
+  },
+  {
+   "time": "10-30 10:05",
+   "symbols": [
+    "GOOGL",
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Google Stock Plunges 12% on AI Fears, but Joseph Carlson Isn't Selling, Says Shares Look Cheap",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62740971/google-stock-selloff"
+  },
   {
    "time": "10-30 10:01",
    "symbols": [
