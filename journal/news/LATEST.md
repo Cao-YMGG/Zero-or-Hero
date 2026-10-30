@@ -1,9 +1,11 @@
-# Headlines since 2026-10-29 16:00 ET (as of 2026-10-30 14:16 ET)
+# Headlines since 2026-10-29 16:00 ET (as of 2026-10-30 14:32 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-30 14:26 | AMZN | target down | Wells Fargo Maintains Overweight on Amazon.com, Lowers Price Target to $326 |
+| 10-30 14:25 | GOOGL | target down | Wells Fargo Maintains Overweight on Alphabet, Lowers Price Target to $371 |
 | 10-30 14:11 | AMZN | target down | TD Cowen Maintains Buy on Amazon.com, Lowers Price Target to $340 |
 | 10-30 14:08 | CAT | target down | Wells Fargo Maintains Overweight on Caterpillar, Lowers Price Target to $805 |
 | 10-30 14:02 | VST | rating | Morgan Stanley Maintains Buy Rating on Vistra Corp. |
