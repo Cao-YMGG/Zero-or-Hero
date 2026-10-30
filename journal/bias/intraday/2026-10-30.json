@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-30",
+  "picks": [],
+  "opportunities": [
+    {"type": "rotation_laggard", "symbol": "AMZN", "direction": "call", "time": "10:56", "why": "Chip selloff -> internet laggard (the one rotation pattern positive over 3 months, 8 events +1.29%): SMH -5.8% while AMZN reclaims, 239.2 at 10:55, +2.9% from its 232.53 open and +4.3% off the 229.36 low, -1.9% on the day. In-session note 09:45: JPMorgan \\$365 target ('nearly 50% upside', AWS +39%). Not a pick: a price-target note is a weak catalyst and the bounce is an hour old", "action": "none"},
+    {"type": "rotation_laggard", "symbol": "META", "direction": "call", "time": "10:56", "why": "Flat on the day (623.9, -0.1%) and +1.4% from its 615.23 open while QQQ -2.6% and SMH -5.8%; no news after 09:30 (UK CMA probe at 07:07 is negative). Below the leader bar: +1.2% beyond SPY, needs 2%", "action": "none"},
+    {"type": "open_drive", "symbol": "TSLA", "direction": "call", "time": "10:56", "why": "+2.3% from its 393.04 open to 402.1, flat on the day while QQQ -2.6%; no TSLA news after 09:30 (Musk politics, a Semi fire at 07:31), so relative strength only, never a pick", "action": "none"}
+  ]
+}
