@@ -1,9 +1,13 @@
-# Headlines since 2026-10-29 16:00 ET (as of 2026-10-30 14:46 ET)
+# Headlines since 2026-10-29 16:00 ET (as of 2026-10-30 15:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-30 15:02 | INTC | target down | DA Davidson Maintains Neutral on Intel, Lowers Price Target to $70 |
+| 10-30 15:01 | GEV | target up | GLJ Research Maintains Sell Rating on GE Vernova, Raises Price Target |
+| 10-30 14:58 | INTC | target down | Rosenblatt Maintains Sell on Intel, Lowers Price Target to $70 |
+| 10-30 14:56 | LLY | target up | Scotiabank Maintains Sector Outperform on Eli Lilly, Raises Price Target to $1605 |
 | 10-30 14:43 | SNDK | target down | Wells Fargo Maintains Equal-Weight on SanDisk, Lowers Price Target to $1300 |
 | 10-30 14:41 | INTC | target down | Wells Fargo Maintains Equal-Weight on Intel, Lowers Price Target to $80 |
 | 10-30 14:26 | AMZN | target down | Wells Fargo Maintains Overweight on Amazon.com, Lowers Price Target to $326 |
@@ -64,6 +68,13 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-29 16:31 | GOOGL | target down | JP Morgan Maintains Overweight on Alphabet, Lowers Price Target to $375 |
 | 10-29 16:28 | PLTR | initiate | JP Morgan Initiates Coverage On Palantir Technologies with Overweight Rating, Announces Price Target of $262 |
 | 10-29 16:21 | MSFT | rating | RBC Capital Reiterates Outperform on Microsoft, Maintains $640 Price Target |
+| 10-30 15:02 | MSFT |  | Microsoft and The Estée Lauder Companies Announce Strategic AI Partnership |
+| 10-30 15:01 | CAT |  | Caterpillar Expands Role in Off-Grid Data Center Power Solutions |
+| 10-30 15:01 | META |  | Meta Loses Legal Challenge Against UK Ofcom Information Requests |
+| 10-30 15:01 | WMT |  | Walmart Announces Strategic Investment in Base Power |
+| 10-30 15:01 | MU |  | Intel Earnings Commentary Highlights Memory Chip Shortage Impact on Micron |
+| 10-30 15:01 | INTC |  | Schall, Brown & Schwartz LLP Announces Investigation into Intel Corporation |
+| 10-30 15:00 | TSLA |  | Elon Musk Sees Midterm Elections as A 'Crusade,' Is All In on Republicans, Biographer Says |
 | 10-30 14:31 | TSLA |  | Elon Musk Wants People to Sleep in Robotaxis, Police Department Says You Can Also Sober Up |
 | 10-30 14:03 | CAT |  | JPMorgan Adjusts Price Target on Caterpillar to $1,000 From $1,100 |
 | 10-30 14:02 | SNDK |  | Analysts Adjust Price Targets for SanDisk Following Q1 Earnings Report |

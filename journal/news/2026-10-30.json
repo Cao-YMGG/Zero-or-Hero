@@ -1,7 +1,117 @@
 {
- "as_of": "2026-10-30T14:46-04:00",
+ "as_of": "2026-10-30T15:16-04:00",
  "since": "2026-10-29T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-30 15:02",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "target down",
+   "headline": "DA Davidson Maintains Neutral on Intel, Lowers Price Target to $70",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62756175/da-davidson-maintains-neutral-intel-lowers-price-target-70"
+  },
+  {
+   "time": "10-30 15:02",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft and The Est\u00e9e Lauder Companies Announce Strategic AI Partnership",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/press-releases/8554184/the-estee-lauder-companies-and-microsoft-announce-a-new-strategic-partnership-to-power-enterprise-efficiency-and-consumer-centric-growth"
+  },
+  {
+   "time": "10-30 15:01",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "Caterpillar Expands Role in Off-Grid Data Center Power Solutions",
+   "source": "fiscal.ai",
+   "url": "https://datacentremagazine.com/news/modern-microgrid-solutions-for-faster-data-centre-expansion"
+  },
+  {
+   "time": "10-30 15:01",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "target up",
+   "headline": "GLJ Research Maintains Sell Rating on GE Vernova, Raises Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:633ee2eadc54a:0-glj-research-maintains-ge-vernova-at-sell-raises-price-target-to-540-from-470/"
+  },
+  {
+   "time": "10-30 15:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Loses Legal Challenge Against UK Ofcom Information Requests",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/seekingalpha:f6ef062c1094b:0-meta-tiktok-and-x-lose-legal-challenge-to-uk-s-ofcom-information-request-reuters/"
+  },
+  {
+   "time": "10-30 15:01",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart Announces Strategic Investment in Base Power",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/energy"
+  },
+  {
+   "time": "10-30 15:01",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Intel Earnings Commentary Highlights Memory Chip Shortage Impact on Micron",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1003033756/micron-stock-drops-again-surging-memory-prices-aren-t-all"
+  },
+  {
+   "time": "10-30 15:01",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Schall, Brown & Schwartz LLP Announces Investigation into Intel Corporation",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/press-releases/8553327/intc-investors-with-100-000-in-losses-have-opportunity-to-join-intel-corporation-fraud-investigation-with-sbs-law"
+  },
+  {
+   "time": "10-30 15:00",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Sees Midterm Elections as A 'Crusade,' Is All In on Republicans, Biographer Says",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62756091/musk-midterm-spending"
+  },
+  {
+   "time": "10-30 14:58",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "target down",
+   "headline": "Rosenblatt Maintains Sell on Intel, Lowers Price Target to $70",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62756029/rosenblatt-maintains-sell-intel-lowers-price-target-70"
+  },
+  {
+   "time": "10-30 14:56",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "target up",
+   "headline": "Scotiabank Maintains Sector Outperform on Eli Lilly, Raises Price Target to $1605",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62755932/scotiabank-maintains-sector-outperform-eli-lilly-raises-price-target-1605"
+  },
   {
    "time": "10-30 14:43",
    "symbols": [
