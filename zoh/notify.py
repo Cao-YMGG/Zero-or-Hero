@@ -20,6 +20,17 @@ from . import journal
 from .strategy import ET
 
 LIMIT = 1900  # Discord caps a message at 2000 characters
+# One webhook per channel (journal/research: Discord channel plan, 2026-10-30); a channel without
+# its own secret falls back to DISCORD_WEBHOOK_URL, and with neither nothing is sent.
+CHANNELS = {"premarket": "DISCORD_WEBHOOK_PREMARKET", "intraday": "DISCORD_WEBHOOK_INTRADAY",
+            "trades": "DISCORD_WEBHOOK_TRADES", "review": "DISCORD_WEBHOOK_REVIEW",
+            "alerts": "DISCORD_WEBHOOK_ALERTS", "research": "DISCORD_WEBHOOK_RESEARCH"}
+FALLBACK = "DISCORD_WEBHOOK_URL"
+USERNAME = "Zero-or-Hero"
+
+
+def webhook(channel):
+    return os.environ.get(CHANNELS.get(channel, FALLBACK)) or os.environ.get(FALLBACK)
 
 
 def chunks(text, limit=LIMIT):
@@ -40,21 +51,34 @@ def chunks(text, limit=LIMIT):
     return out
 
 
-def post(text):
-    url = os.environ.get("DISCORD_WEBHOOK_URL")
+def post(text, channel="review"):
+    url = webhook(channel)
     if not url:
-        print("notify: DISCORD_WEBHOOK_URL not set, skipped")
+        print(f"notify: no webhook for {channel} ({CHANNELS.get(channel, FALLBACK)} or {FALLBACK}), skipped")
         return False
     for part in chunks(text):
-        req = urllib.request.Request(url, data=json.dumps({"content": part}).encode(),
+        req = urllib.request.Request(url, data=json.dumps({"content": part, "username": USERNAME}).encode(),
                                      headers={"Content-Type": "application/json",
                                               "User-Agent": "zero-or-hero"})
         try:
             urllib.request.urlopen(req, timeout=15).read()
-        except Exception as e:  # never fail a workflow over a chat message
-            print(f"notify: post failed: {e}")
+        except Exception as e:  # never fail a workflow over a chat message (the URL is never printed)
+            print(f"notify: post to {channel} failed: {type(e).__name__} {getattr(e, 'code', '')}")
             return False
+    print(f"notify: posted to {channel}")
     return True
+
+
+def test_all():
+    """One test message per configured channel; reports which secrets exist, never their values."""
+    found = {c: bool(os.environ.get(s)) for c, s in CHANNELS.items()}
+    print("notify: secrets present: " + ", ".join(f"{CHANNELS[c]}={'yes' if v else 'no'}" for c, v in found.items())
+          + f", {FALLBACK}={'yes' if os.environ.get(FALLBACK) else 'no'}")
+    for channel, present in found.items():
+        if present:
+            post(f"测试：Zero-or-Hero 的 #{channel} 频道已接通（{datetime.now(ET):%Y-%m-%d %H:%M} ET）。", channel)
+    if os.environ.get(FALLBACK):
+        post(f"测试：备用频道已接通，没配专用 webhook 的消息会发到这里（{datetime.now(ET):%H:%M} ET）。", "fallback")
 
 
 def _short(text, n=160):
@@ -137,13 +161,16 @@ def day_message(day, root=None):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("kind", choices=["bias", "intraday", "opportunities", "day"])
+    ap.add_argument("kind", choices=["bias", "intraday", "opportunities", "day", "test"])
     ap.add_argument("--file")
     ap.add_argument("--date")
     args = ap.parse_args()
     day = args.date or datetime.now(ET).date().isoformat()
+    if args.kind == "test":
+        test_all()
+        return
     if args.kind == "day":
-        text = day_message(day)
+        text, channel = day_message(day), "review"
     else:
         path = Path(args.file) if args.file else (
             journal.JOURNAL_DIR / "bias" / (f"intraday/{day}.json" if args.kind == "intraday" else f"{day}.json"))
@@ -153,7 +180,8 @@ def main():
         data = json.loads(path.read_text())
         text = (bias_message(data) if args.kind == "bias" else
                 intraday_message(data) if args.kind == "intraday" else opportunities_message(data))
-    post(text)
+        channel = {"bias": "premarket", "intraday": "intraday", "opportunities": "review"}[args.kind]
+    post(text, channel)
 
 
 if __name__ == "__main__":
