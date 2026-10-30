@@ -1,9 +1,10 @@
-# Headlines since 2026-10-29 16:00 ET (as of 2026-10-30 11:05 ET)
+# Headlines since 2026-10-29 16:00 ET (as of 2026-10-30 11:35 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-30 11:06 | AMZN | rating | RBC Capital Reiterates Outperform on Amazon.com, Maintains $330 Price Target |
 | 10-30 10:12 | COIN | target down | Barclays Maintains Underweight on Coinbase Global, Lowers Price Target to $120 |
 | 10-30 09:53 | LLY | target up | Argus Research Maintains Buy on Eli Lilly, Raises Price Target to $1550 |
 | 10-30 09:47 | INTC | target down | StoneX Maintains Buy on Intel, Lowers Price Target to $100 |
@@ -42,6 +43,11 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-29 16:31 | GOOGL | target down | JP Morgan Maintains Overweight on Alphabet, Lowers Price Target to $375 |
 | 10-29 16:28 | PLTR | initiate | JP Morgan Initiates Coverage On Palantir Technologies with Overweight Rating, Announces Price Target of $262 |
 | 10-29 16:21 | MSFT | rating | RBC Capital Reiterates Outperform on Microsoft, Maintains $640 Price Target |
+| 10-30 11:24 | CVX |  | Chevron CEO Says Negotiations To Extend TCO Contract In Kazakhstan Has Narrowed To The "Fundamental Core Issues" |
+| 10-30 11:19 | AMZN |  | Amazon Sees Best NFL Start Ever, Prime Video Hits Profitability: Are Investors Undervaluing Streaming? |
+| 10-30 11:15 | TSM |  | $1000 Invested In Taiwan Semiconductor 5 Years Ago Would Be Worth This Much Today |
+| 10-30 11:15 | GOOGL MSFT |  | Why Is CoreWeave Stock Falling on Friday? |
+| 10-30 11:11 | SNDK |  | Sandisk Stock Split Makes Shares Cheaper Just as JPMorgan Sees 69% Upside |
 | 10-30 11:01 | CRM |  | Salesforce Investigating Potential Data Leak at AU Small Finance Bank |
 | 10-30 11:01 | WMT |  | Walmart Releases 2026 Sustainable Commodities Report |
 | 10-30 11:01 | INTC |  | Intel’s Bizarre Math: Worst Stock Collapse in 52 Years Could Add Billions to Its Profit |

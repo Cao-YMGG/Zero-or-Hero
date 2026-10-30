@@ -1,7 +1,68 @@
 {
- "as_of": "2026-10-30T11:05-04:00",
+ "as_of": "2026-10-30T11:35-04:00",
  "since": "2026-10-29T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-30 11:24",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Chevron CEO Says Negotiations To Extend TCO Contract In Kazakhstan Has Narrowed To The \"Fundamental Core Issues\"",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62745349/chevron-ceo-says-negotiations-extend-tco-contract-kazakhstan-has-narrowed-fundamental-core-issues"
+  },
+  {
+   "time": "10-30 11:19",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Sees Best NFL Start Ever, Prime Video Hits Profitability: Are Investors Undervaluing Streaming?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62745136/amazon-sees-best-nfl-start-ever-prime-video-hits-profitability-are-investors-undervaluing-streaming"
+  },
+  {
+   "time": "10-30 11:15",
+   "symbols": [
+    "TSM"
+   ],
+   "rating": "",
+   "headline": "$1000 Invested In Taiwan Semiconductor 5 Years Ago Would Be Worth This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62744890/1000-invested-taiwan-semiconductor-5-years-ago-would-be-worth-much-today"
+  },
+  {
+   "time": "10-30 11:15",
+   "symbols": [
+    "GOOGL",
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Why Is CoreWeave Stock Falling on Friday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62744871/why-is-coreweave-stock-falling-on-friday"
+  },
+  {
+   "time": "10-30 11:11",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "Sandisk Stock Split Makes Shares Cheaper Just as JPMorgan Sees 69% Upside",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/stock-split/26/10/62744649/sandisk-stock-split-jpmorgan-upside"
+  },
+  {
+   "time": "10-30 11:06",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "rating",
+   "headline": "RBC Capital Reiterates Outperform on Amazon.com, Maintains $330 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62744430/rbc-capital-reiterates-outperform-amazon-com-maintains-330-price-target"
+  },
   {
    "time": "10-30 11:01",
    "symbols": [
