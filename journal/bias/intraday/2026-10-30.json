@@ -1,9 +1,39 @@
 {
   "date": "2026-10-30",
-  "picks": [],
+  "picks": [
+    {
+      "time": "13:19",
+      "symbol": "AMZN",
+      "direction": "put",
+      "confidence": 0.3,
+      "catalyst": "In-session financing news of its own: 'Amazon Taps $80 Billion Supplier Loan Facility To Help Fund AI' (Bloomberg via Benzinga 12:39 ET), after a July pledge not to borrow again in 2026 and a Q3 miss that came almost entirely from interest cost (long-term debt \\$65.6B in Dec -> \\$173.1B in Sep, trailing FCF -\\$42.4B). Not in the price yet: AMZN 238.4 at 13:20 vs ~238.8 before the headline, still +2.5% from its 232.53 open after sell-side defense (JPM \\$365, RBC \\$330). Same theme as the 10-29 ORCL put (debt-funded AI capex punished) on a day the market is selling AI spending: Barclays strategist 'AI financing problems are already here' (12:28), SMH -7.7%, QQQ -3.6%, SPY -0.8% from its open. Reported 10-29, so no print today or Monday",
+      "catalyst_type": "financing_fade"
+    }
+  ],
   "opportunities": [
-    {"type": "rotation_laggard", "symbol": "AMZN", "direction": "call", "time": "10:56", "why": "Chip selloff -> internet laggard (the one rotation pattern positive over 3 months, 8 events +1.29%): SMH -5.8% while AMZN reclaims, 239.2 at 10:55, +2.9% from its 232.53 open and +4.3% off the 229.36 low, -1.9% on the day. In-session note 09:45: JPMorgan \\$365 target ('nearly 50% upside', AWS +39%). Not a pick: a price-target note is a weak catalyst and the bounce is an hour old", "action": "none"},
-    {"type": "rotation_laggard", "symbol": "META", "direction": "call", "time": "10:56", "why": "Flat on the day (623.9, -0.1%) and +1.4% from its 615.23 open while QQQ -2.6% and SMH -5.8%; no news after 09:30 (UK CMA probe at 07:07 is negative). Below the leader bar: +1.2% beyond SPY, needs 2%", "action": "none"},
-    {"type": "open_drive", "symbol": "TSLA", "direction": "call", "time": "10:56", "why": "+2.3% from its 393.04 open to 402.1, flat on the day while QQQ -2.6%; no TSLA news after 09:30 (Musk politics, a Semi fire at 07:31), so relative strength only, never a pick", "action": "none"}
+    {
+      "type": "rotation_laggard",
+      "symbol": "AMZN",
+      "direction": "call",
+      "time": "10:56",
+      "why": "Chip selloff -> internet laggard (the one rotation pattern positive over 3 months, 8 events +1.29%): SMH -5.8% while AMZN reclaims, 239.2 at 10:55, +2.9% from its 232.53 open and +4.3% off the 229.36 low, -1.9% on the day. In-session note 09:45: JPMorgan \\$365 target ('nearly 50% upside', AWS +39%). Not a pick: a price-target note is a weak catalyst and the bounce is an hour old",
+      "action": "none"
+    },
+    {
+      "type": "rotation_laggard",
+      "symbol": "META",
+      "direction": "call",
+      "time": "10:56",
+      "why": "Flat on the day (623.9, -0.1%) and +1.4% from its 615.23 open while QQQ -2.6% and SMH -5.8%; no news after 09:30 (UK CMA probe at 07:07 is negative). Below the leader bar: +1.2% beyond SPY, needs 2%",
+      "action": "none"
+    },
+    {
+      "type": "open_drive",
+      "symbol": "TSLA",
+      "direction": "call",
+      "time": "10:56",
+      "why": "+2.3% from its 393.04 open to 402.1, flat on the day while QQQ -2.6%; no TSLA news after 09:30 (Musk politics, a Semi fire at 07:31), so relative strength only, never a pick",
+      "action": "none"
+    }
   ]
 }
