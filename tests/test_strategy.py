@@ -198,6 +198,13 @@ class SizingTests(unittest.TestCase):
         self.assertEqual(select_contract(cands, 0.3, 150)["symbol"], "B")
         self.assertIsNone(select_contract(cands, 0.3, 30))
 
+    def test_selection_skips_a_zero_bid(self):
+        # GEV 935C on 10-30: bid 0, ask 2.19, the 0.10-delta target; skip it for a two-sided quote.
+        cands = [{"symbol": "GEV935", "strike": 935, "ask": 2.19, "bid": 0, "delta": 0.10},
+                 {"symbol": "GEV925", "strike": 925, "ask": 2.25, "bid": 1.9, "delta": 0.13}]
+        self.assertEqual(select_contract(cands, 0.1, 233)["symbol"], "GEV925")
+        self.assertIsNone(select_contract(cands[:1], 0.1, 233))
+
 
 class BacktestTests(unittest.TestCase):
     def test_breakout_day_wins(self):
