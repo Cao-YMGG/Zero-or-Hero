@@ -1,7 +1,57 @@
 {
- "as_of": "2026-10-30T13:16-04:00",
+ "as_of": "2026-10-30T13:46-04:00",
  "since": "2026-10-29T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-30 13:33",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "target down",
+   "headline": "Goldman Sachs Maintains Buy on Coinbase Global, Lowers Price Target to $210",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62751873/goldman-sachs-maintains-buy-coinbase-global-lowers-price-target-210"
+  },
+  {
+   "time": "10-30 13:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Is Spending Billions to Win the AI Race \u2014 Will the Gamble Pay Off?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62751807/amazon-is-spending-billions-to-win-the-ai-race-will-the-gamble-pay-off"
+  },
+  {
+   "time": "10-30 13:15",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Deadly Blast Hit Intel\u2019s Factory \u2014 And It Has a Hidden Bill That Nobody Can Yet Calculate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62750982/intel-israel-factory-blast-cost"
+  },
+  {
+   "time": "10-30 13:14",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "target down",
+   "headline": "RBC Capital Maintains Sector Perform on SanDisk, Lowers Price Target to $1400",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62750945/rbc-capital-maintains-sector-perform-sandisk-lowers-price-target-1400"
+  },
+  {
+   "time": "10-30 13:13",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "ExxonMobil CEO Sees No Quick Fix for Global Refining Disruptions",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/large-cap/26/10/62750891/exxonmobil-ceo-sees-no-quick-fix-for-global-refining-disruptions"
+  },
   {
    "time": "10-30 13:03",
    "symbols": [

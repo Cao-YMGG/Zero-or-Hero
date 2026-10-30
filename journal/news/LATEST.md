@@ -1,9 +1,11 @@
-# Headlines since 2026-10-29 16:00 ET (as of 2026-10-30 13:16 ET)
+# Headlines since 2026-10-29 16:00 ET (as of 2026-10-30 13:46 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-30 13:33 | COIN | target down | Goldman Sachs Maintains Buy on Coinbase Global, Lowers Price Target to $210 |
+| 10-30 13:14 | SNDK | target down | RBC Capital Maintains Sector Perform on SanDisk, Lowers Price Target to $1400 |
 | 10-30 12:55 | HOOD | target down | Truist Securities Maintains Buy on Robinhood Markets, Lowers Price Target to $123 |
 | 10-30 12:47 | LLY | target up | Wells Fargo Maintains Overweight on Eli Lilly, Raises Price Target to $1500 |
 | 10-30 12:42 | INTC | target down | Truist Securities Maintains Hold on Intel, Lowers Price Target to $72 |
@@ -52,6 +54,9 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-29 16:31 | GOOGL | target down | JP Morgan Maintains Overweight on Alphabet, Lowers Price Target to $375 |
 | 10-29 16:28 | PLTR | initiate | JP Morgan Initiates Coverage On Palantir Technologies with Overweight Rating, Announces Price Target of $262 |
 | 10-29 16:21 | MSFT | rating | RBC Capital Reiterates Outperform on Microsoft, Maintains $640 Price Target |
+| 10-30 13:31 | AMZN |  | Amazon Is Spending Billions to Win the AI Race — Will the Gamble Pay Off? |
+| 10-30 13:15 | INTC |  | Deadly Blast Hit Intel’s Factory — And It Has a Hidden Bill That Nobody Can Yet Calculate |
+| 10-30 13:13 | XOM |  | ExxonMobil CEO Sees No Quick Fix for Global Refining Disruptions |
 | 10-30 13:03 | WMT |  | Walmart And Base Power Announce A Strategic Agreement To Bring Affordable Home Backup Power And Energy Savings To Customers |
 | 10-30 12:45 | META |  | "Meta Settles With Social Media Addiction Plaintiff Ahead Of Trial; After This Development, The Only Defendant Remaining In The Trial Is Snap Inc." - Bloomberg Law |
 | 10-30 12:39 | AMZN |  | 'Amazon Taps $80 Billion Supplier Loan Facility To Help Fund AI' - Bloomberg News |
