@@ -1,7 +1,88 @@
 {
- "as_of": "2026-10-30T11:35-04:00",
+ "as_of": "2026-10-30T12:05-04:00",
  "since": "2026-10-29T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-30 12:01",
+   "symbols": [
+    "ASML",
+    "STX"
+   ],
+   "rating": "",
+   "headline": "Congressman Ditches Semiconductors, Data Storage: Here\u2019s Three Stocks He Sold",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62747178/congressman-ditches-semiconductors-data-storage-heres-three-stocks-he-sold"
+  },
+  {
+   "time": "10-30 11:56",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Chevron CFO Says Project Kilby Is On Track To Achieve First Power In 2028; Chevron Vice Chairman Says Refining Margins Will Eventually Moderate As Sector Recovers, But Will Take Time; Co Expects Logistics Advantage From Pre-conflict Shipping Contracts To Persist Until Conflicts Are Resolved",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62746934/chevron-cfo-says-project-kilby-track-achieve-first-power-2028-chevron-vice-chairman-says-refining-ma"
+  },
+  {
+   "time": "10-30 11:56",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "Sandisk Has More Demand Than It Can Supply Through 2030, Analyst Says",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62746928/sandisk-has-more-demand-than-it-can-supply-through-2030-analyst-says"
+  },
+  {
+   "time": "10-30 11:48",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "target up",
+   "headline": "RBC Capital Maintains Outperform on Eli Lilly, Raises Price Target to $1600",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62746542/rbc-capital-maintains-outperform-eli-lilly-raises-price-target-1600"
+  },
+  {
+   "time": "10-30 11:48",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "target up",
+   "headline": "Truist Securities Reiterates Buy on Eli Lilly, Raises Price Target to $1612",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62746522/truist-securities-reiterates-buy-eli-lilly-raises-price-target-1612"
+  },
+  {
+   "time": "10-30 11:45",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel Analysts Cut Price Targets Due to Q3 Misallocation Of Manufacturing Capacity",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/downgrades/26/10/62746332/intel-analysts-cut-price-targets-after-q3-print"
+  },
+  {
+   "time": "10-30 11:38",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "target down",
+   "headline": "Truist Securities Reiterates Buy on Caterpillar, Lowers Price Target to $1027",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62746076/truist-securities-reiterates-buy-caterpillar-lowers-price-target-1027"
+  },
+  {
+   "time": "10-30 11:34",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "target down",
+   "headline": "RBC Capital Maintains Sector Perform on Caterpillar, Lowers Price Target to $722",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62745767/rbc-capital-maintains-sector-perform-caterpillar-lowers-price-target-722"
+  },
   {
    "time": "10-30 11:24",
    "symbols": [

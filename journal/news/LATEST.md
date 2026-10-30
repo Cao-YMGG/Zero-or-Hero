@@ -1,9 +1,13 @@
-# Headlines since 2026-10-29 16:00 ET (as of 2026-10-30 11:35 ET)
+# Headlines since 2026-10-29 16:00 ET (as of 2026-10-30 12:05 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 10-30 11:48 | LLY | target up | RBC Capital Maintains Outperform on Eli Lilly, Raises Price Target to $1600 |
+| 10-30 11:48 | LLY | target up | Truist Securities Reiterates Buy on Eli Lilly, Raises Price Target to $1612 |
+| 10-30 11:38 | CAT | target down | Truist Securities Reiterates Buy on Caterpillar, Lowers Price Target to $1027 |
+| 10-30 11:34 | CAT | target down | RBC Capital Maintains Sector Perform on Caterpillar, Lowers Price Target to $722 |
 | 10-30 11:06 | AMZN | rating | RBC Capital Reiterates Outperform on Amazon.com, Maintains $330 Price Target |
 | 10-30 10:12 | COIN | target down | Barclays Maintains Underweight on Coinbase Global, Lowers Price Target to $120 |
 | 10-30 09:53 | LLY | target up | Argus Research Maintains Buy on Eli Lilly, Raises Price Target to $1550 |
@@ -43,6 +47,10 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-29 16:31 | GOOGL | target down | JP Morgan Maintains Overweight on Alphabet, Lowers Price Target to $375 |
 | 10-29 16:28 | PLTR | initiate | JP Morgan Initiates Coverage On Palantir Technologies with Overweight Rating, Announces Price Target of $262 |
 | 10-29 16:21 | MSFT | rating | RBC Capital Reiterates Outperform on Microsoft, Maintains $640 Price Target |
+| 10-30 12:01 | ASML STX |  | Congressman Ditches Semiconductors, Data Storage: Here’s Three Stocks He Sold |
+| 10-30 11:56 | CVX |  | Chevron CFO Says Project Kilby Is On Track To Achieve First Power In 2028; Chevron Vice Chairman Says Refining Margins Will Eventually Moderate As Sector Recovers, But Will Take Time; Co Expects Logistics Advantage From Pre-conflict Shipping Contracts To Persist Until Conflicts Are Resolved |
+| 10-30 11:56 | SNDK |  | Sandisk Has More Demand Than It Can Supply Through 2030, Analyst Says |
+| 10-30 11:45 | INTC |  | Intel Analysts Cut Price Targets Due to Q3 Misallocation Of Manufacturing Capacity |
 | 10-30 11:24 | CVX |  | Chevron CEO Says Negotiations To Extend TCO Contract In Kazakhstan Has Narrowed To The "Fundamental Core Issues" |
 | 10-30 11:19 | AMZN |  | Amazon Sees Best NFL Start Ever, Prime Video Hits Profitability: Are Investors Undervaluing Streaming? |
 | 10-30 11:15 | TSM |  | $1000 Invested In Taiwan Semiconductor 5 Years Ago Would Be Worth This Much Today |
