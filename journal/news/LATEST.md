@@ -1,4 +1,4 @@
-# Headlines since 2026-10-29 16:00 ET (as of 2026-10-30 10:34 ET)
+# Headlines since 2026-10-29 16:00 ET (as of 2026-10-30 11:05 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -42,6 +42,13 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-29 16:31 | GOOGL | target down | JP Morgan Maintains Overweight on Alphabet, Lowers Price Target to $375 |
 | 10-29 16:28 | PLTR | initiate | JP Morgan Initiates Coverage On Palantir Technologies with Overweight Rating, Announces Price Target of $262 |
 | 10-29 16:21 | MSFT | rating | RBC Capital Reiterates Outperform on Microsoft, Maintains $640 Price Target |
+| 10-30 11:01 | CRM |  | Salesforce Investigating Potential Data Leak at AU Small Finance Bank |
+| 10-30 11:01 | WMT |  | Walmart Releases 2026 Sustainable Commodities Report |
+| 10-30 11:01 | INTC |  | Intel’s Bizarre Math: Worst Stock Collapse in 52 Years Could Add Billions to Its Profit |
+| 10-30 11:00 | MSFT |  | This House of Representative Just Bought Up To $75K In AT&T Stock |
+| 10-30 10:56 | SNDK |  | Sandisk Just Revealed Where Almost 90% of Its New Revenue Came From |
+| 10-30 10:42 | XOM |  | Exxon Mobil Q3 2026 Earnings Call Transcript |
+| 10-30 10:35 | XOM |  | ExxonMobil Says Says UAE Production Has Returned To Levels Consistent With Historical Output; Says UAE Production Is Being Booked, But Sales Realization Is Delayed By Constraints |
 | 10-30 10:29 | AMD INTC |  | QUICK SPARK: Intel Stock Drops 28%, Eyes Worst Day Since July 1974 |
 | 10-30 10:22 | XOM |  | ExxonMobil Says It Is Not In A Rush To Commit To New Investments In Venezuela And Expects The Process To Take Time |
 | 10-30 10:20 | INTC |  | Intel 5-Year Credit Default Swap Widens To Record High Of 123.5 BPS, On Track For Biggest One-Day Move Since October 2022 |

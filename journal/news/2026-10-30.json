@@ -1,7 +1,77 @@
 {
- "as_of": "2026-10-30T10:34-04:00",
+ "as_of": "2026-10-30T11:05-04:00",
  "since": "2026-10-29T16:00-04:00",
  "headlines": [
+  {
+   "time": "10-30 11:01",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce Investigating Potential Data Leak at AU Small Finance Bank",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/moodys:76cc030ec1d63:0-au-sfb-probes-potential-vehicle-loan-data-leak-says-core-systems-unaffected/"
+  },
+  {
+   "time": "10-30 11:01",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart Releases 2026 Sustainable Commodities Report",
+   "source": "fiscal.ai",
+   "url": "https://sustainabilitymag.com/news/walmarts-lessons-from-10-years-of-sustainable-supply-chains"
+  },
+  {
+   "time": "10-30 11:01",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel\u2019s Bizarre Math: Worst Stock Collapse in 52 Years Could Add Billions to Its Profit",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62744112/intel-intc-stock-plunge-could-boost-profit"
+  },
+  {
+   "time": "10-30 11:00",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "This House of Representative Just Bought Up To $75K In AT&T Stock",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/government/26/10/62744010/house-representative-just-bought-75k-t-stock"
+  },
+  {
+   "time": "10-30 10:56",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "Sandisk Just Revealed Where Almost 90% of Its New Revenue Came From",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62743806/sandisk-data-center-revenue-growth"
+  },
+  {
+   "time": "10-30 10:42",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "Exxon Mobil Q3 2026 Earnings Call Transcript",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62743217/exxon-mobil-q3-2026-earnings-call-transcript"
+  },
+  {
+   "time": "10-30 10:35",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "ExxonMobil Says Says UAE Production Has Returned To Levels Consistent With Historical Output; Says UAE Production Is Being Booked, But Sales Realization Is Delayed By Constraints",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62742887/exxonmobil-says-says-uae-production-has-returned-levels-consistent-historical-output-says-uae-produc"
+  },
   {
    "time": "10-30 10:29",
    "symbols": [
