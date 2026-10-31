@@ -22,7 +22,8 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
   Diagnostics & backtest; read the run logs).
 
 ## Cadence
-- Weekdays 08:50 ET: pre-market bias (below).
+- Weekdays 08:20 ET: pre-market bias (below). Moved from 08:50 on 2026-10-31 (owner) after the
+  routine fired 41 minutes late on 10-30; on 08:30 release days read the print before the SPY call.
 - Weekdays ~10:30 and ~13:00 ET: intraday check-in. Scan big intraday movers (Webull MIN_5 /
   DAY_1 rankings, read-only) and breaking news; if one has a fresh catalyst still unfolding,
   append one pick to `journal/bias/intraday/<today>.json` (schema in journal/bias/README.md)
