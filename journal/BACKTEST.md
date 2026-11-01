@@ -1,4 +1,4 @@
-# Backtest — SPY 0DTE, 2025-10-31 → 2026-10-30 (251 days)
+# Backtest — SPY 0DTE, 2025-11-03 → 2026-10-30 (250 days)
 
 Model: Black-Scholes at IV 11%, slippage 1% + $0.01 each side, start $500, phase sizing from config. Option prices are modelled, not real quotes — use this to rank ideas.
 
@@ -39,7 +39,7 @@ If a variant only works in the old part of the sample, the market has moved on.
 | spy_open_drive | 0 | +0.0% | 7 | +44.3% |
 | spy_open_drive_wide | 0 | +0.0% | 23 | +31.7% |
 
-Live-only variants (no history to backtest): claude_bias, catalyst_open, catalyst_intraday
+Live-only variants (no history to backtest): claude_bias, catalyst_open, catalyst_intraday, catalyst_intraday_arm2
 
 Exit reasons:
 

@@ -201,7 +201,7 @@
       "target_delta": 0.1,
       "take_profit": null,
       "stop_loss": null,
-      "trail_after": 1.0,
+      "trail_after": 0.5,
       "trail_giveback": 0.4,
       "entry_cutoff": "10:00",
       "half_at": 3.0
@@ -216,13 +216,13 @@
       "target_delta": 0.2,
       "take_profit": null,
       "stop_loss": null,
-      "trail_after": 1.0,
+      "trail_after": 0.5,
       "trail_giveback": 0.4,
       "entry_cutoff": "14:30",
       "half_at": 3.0
     },
     {
-      "id": "catalyst_intraday_arm15",
+      "id": "catalyst_intraday_arm2",
       "source": "intraday",
       "signal": "catalyst",
       "after_minutes": 1,
@@ -230,7 +230,7 @@
       "target_delta": 0.2,
       "take_profit": null,
       "stop_loss": null,
-      "trail_after": 0.5,
+      "trail_after": 1.0,
       "trail_giveback": 0.4,
       "entry_cutoff": "14:30",
       "half_at": 3.0
@@ -319,11 +319,9 @@
     "one_contract_cap": 0.3,
     "pause_after": 5,
     "variants": [
-      "rebound_scanner",
       "nvda_gapdown_put",
       "spy_open_drive",
-      "stock_open_drive",
-      "leader_follow"
+      "stock_open_drive"
     ]
   }
 }

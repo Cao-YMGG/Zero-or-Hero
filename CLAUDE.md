@@ -33,7 +33,9 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
   Bolder since 2026-10-21 (owner: "we need samples"): a sector catalyst from the same day also
   qualifies (e.g. chips on Musk's SpaceX compute comment), so the strongest mega cap in that
   sector can be picked without in-session news of its own; still never on a name reporting that
-  day or the next, and never on relative strength with no news anywhere behind it.
+  day or the next, or on the first trading day after its report (owner, 2026-11-01: on 10-30 the
+  sell side defended AMZN after its miss and both sides' AMZN puts went to zero; the bot also
+  refuses these entries), and never on relative strength with no news anywhere behind it.
   Look for the day's leader: a large cap up >= 2% beyond SPY while its sector or the index is
   flat or red (META 2026-10-12/13 while chips sold off). Search that company's own news
   (product launches, model releases, analyst target changes) before calling a move "no news":
@@ -133,8 +135,8 @@ scored against purely mechanical variants.
    move dates) for large caps reporting within 10 trading days. journal/research/RUNUP.md (201
    reports, 2 years): median 10-day run-up +1.6% vs SPY (60% up), but the reaction day is -1.6%
    (43% up) and options are pricey into the print. So these names are pre-earnings drift
-   candidates for the sniper (META 2026-10-13 was two weeks out), never on the day before or
-   the day of their report. Note peers' reports as read-through catalysts (TSMC/ASML for
+   candidates for the sniper (META 2026-10-13 was two weeks out), never on the day before, the
+   day of their report or the first trading day after it. Note peers' reports as read-through catalysts (TSMC/ASML for
    chips, big banks for financials) and record the window in `reasons`.
 3b. Sniper (name one whenever a fresh catalyst with a small gap exists; null only when nothing
    qualifies; prefer upgrades over downgrades): prefer names in themes that are heating up; good news

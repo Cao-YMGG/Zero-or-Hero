@@ -291,6 +291,29 @@ class NoEntryIntoPrintTest(unittest.TestCase):
                     datetime(2026, 10, 29, 9, 46, tzinfo=ET), underlying="META")
         self.assertEqual(seen, ["AAPL", "META"])  # AAPL reports Monday, not the next weekday
 
+    def test_news_picks_skip_the_day_after_a_report(self):
+        seen = []
+
+        class FakeBot(botmod.Bot):
+            def __init__(self):
+                self.today, self.dry_run, self.underlying = date(2026, 10, 30), True, "SPY"
+                self.config = {"backtest": {"start_equity": 500}}
+                self.state = {"equity_start": 1167.0, "risk_per_trade": 0.2}
+                self.earnings = {"2026-10-29": ["AMZN"], "2026-10-27": ["V"]}
+
+            def nearest_chain(self, underlying, direction, spot, now, width):
+                seen.append(underlying)
+                return []
+
+        b = FakeBot()
+        now = datetime(2026, 10, 30, 13, 21, tzinfo=ET)
+        news = {"id": "catalyst_intraday", "signal": "catalyst", "target_delta": 0.2}
+        b.try_enter(news, {}, "put", 238.5, now, underlying="AMZN")
+        b.try_enter(news, {}, "call", 413.0, now, underlying="V")
+        b.try_enter({"id": "rebound_scanner", "signal": "gap", "target_delta": 0.08}, {}, "call", 232.5,
+                    now, underlying="AMZN")
+        self.assertEqual(seen, ["V", "AMZN"])  # the scanner is not a news pick
+
 
 class OpportunityScoreTest(unittest.TestCase):
     def test_score_signs_by_direction(self):
