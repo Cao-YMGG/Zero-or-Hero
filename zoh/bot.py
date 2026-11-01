@@ -327,6 +327,12 @@ class Bot:
                                                            getattr(self, "earnings", {})):
             log(f"{variant['id']}: no entry on {underlying}, it reports today or the next trading day")
             return
+        # News picks skip the first trading day after a report too (owner, 2026-11-01): on 10-30
+        # the sell side defended AMZN after its miss and both sides' AMZN puts went to zero.
+        if (variant.get("signal") == "catalyst" and underlying != self.underlying
+                and reported_recently(underlying, self.today, getattr(self, "earnings", {}), 1)):
+            log(f"{variant['id']}: no entry on {underlying}, it reported in the last trading day")
+            return
         if underlying == self.underlying:
             candidates = chain_candidates(self.api, underlying, self.today, direction, spot, now)
         else:
