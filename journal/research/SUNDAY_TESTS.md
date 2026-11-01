@@ -86,29 +86,9 @@ in EVOLUTION.md.
    journal/dipwatch.csv (signal, contract, close; outcomes filled 20 sessions later). Review the
    rows on 2026-11-29.
 
-25. **catalyst_open trail on 0.10-delta same-day options (2026-10-26).** TSLA 395C peaked at 2.34
-   (from 0.88) when TSLA hit 393.75 around 09:40, then the 40% giveback sold it at 1.06 at 09:47
-   on a dip to 391.8; TSLA later made 397.27 but closed 391.62 (395C ~0 at 15:45). Test on real
-   minute prices for news picks: giveback 0.4 / 0.5 / 0.6, a 10-minute grace after entry, and
-   half at 2x vs 3x. Lead with the last 3 months; report without the best one and two trades.
 26. **Open-to-10:00 move under 0.1% vs Fridays (the other Claude's question, 2026-10-23).** Split
    leader_follow, megacap_reclaim and the catalyst picks by the SPY open-to-10:00 bucket and by
    weekday on real option prices.
-27. **Same name in two variants (2026-10-26).** catalyst_open and stock_open_drive both bought TSLA
-   calls; the second (400C at 10:01, needed +4.2% from the open) lost 100%. Measure overlap days
-   and whether the later, further-OTM entry ever pays.
-28. **catalyst_intraday unaffordable picks (2026-10-26).** INTC's 0.2-delta 10-30 call cost more
-   than the $133 budget, so the pick was skipped. Count how often picks are skipped and whether a
-   lower-delta fallback (0.10-0.15) would have done better on those days.
-   2026-10-27: ORCL was skipped the same way. Root cause: single-stock chains only searched +-8%
-   of spot, so the cheaper further-OTM strikes were never candidates. PR #83 widens the band to
-   +-15%; keep counting skips.
-
-29. **catalyst_open entry time on single names (2026-10-29).** V gapped +1.2%, ran 405.2 -> 411.7
-    in the first 5 minutes; the 09:32 entry (420C 0.70 at V 409.28) paid opening implied vol and the
-    option bled to 0.05 with V flat. Real minute option prices: 09:31 vs 09:40 vs 10:00 entries, and a
-    rule "skip if the stock already moved > 1.5x its gap in the first 2 minutes", by expiry type
-    (same-day vs Friday-only names). The entry log now records the bid.
 30. **Sell the news by theme state (2026-10-29, OPPORTUNITY_TESTS.md).** Gap-ups >= 2% in a cooling
     sector: last 3 months 113 events, -0.72% open to close, 37% up (heating +0.62%, 54%). Price it with
     0.2-delta puts on real option bars: does -0.7% pay the spread and theta? Split earnings vs
@@ -128,17 +108,38 @@ in EVOLUTION.md.
     Their 1,986 reports: no bounce edge after a move beyond the implied one. Our 5 live rebound
     shadows were not earnings gaps. Test the AMZN 10-30 case and the 2-year scanner backtest with and
     without skip_after_report_days 3 before changing the champion.
+36. **Go with the day's driver, generalized (2026-11-01).** nvda_gapdown_put (NVDA gap down, still
+    0.1% under its open at 10:00, ~0.40-delta put, take profit at 3x) is the only ledger up this month
+    (+$191) and won both days it met the rebound call on the other side (10-16, 10-30). Real option
+    prices, 2 years, last 3 months first: the same rule on AMD, AVGO, MU, TSLA, META, AMZN, and "the
+    weakest mega cap of the sector that gaps down most". If positive without the best two, it is the
+    first candidate when a slot opens.
+33b. **Post-earnings day one (2026-11-01, partial).** Live: megacap_reclaim bought AMZN 245C on 10-30
+    (day one after its report, -$56) and the intraday AMZN put lost -$198 the same day; rebound_scanner
+    picked NVDA, not the post-report gaps. A report calendar for 2 years is still missing, so the
+    scanner backtest with/without skip_after_report_days is not done. The owner was asked (10-30/31)
+    whether to keep day-one names out of the sniper and intraday picks; no answer yet.
 
-34. **catalyst_open delta (2026-10-30).** Two days running the sniper stock went our way and the
-    ~0.10-delta call died: V 10-29 (+1.4% open to close, 420C 0.70 -> 0) and GEV 10-30 (+4.2% open
-    to high, 935C 2.15 -> 0, bid 0 at entry; zero-bid quotes are now skipped, PR #89). On real
-    minute prices for every sniper since 10-01: 0.10 vs 0.20 vs 0.30 delta, same half-at-3x and
-    trail, with and without the best two. 12 shadow trades so far (+5.2% avg), so no change yet.
-35. **Exits at market in the first 15 minutes (2026-10-30).** The ORCL 134P trail exit at 09:39
-    filled 1.82 against the shadow's 2.635 (-31%, -$81). Count every real exit before 09:45 since
-    10-01: fill vs shadow price; test a limit at the bid-ask mid with one 30-second step to the bid.
 
 ## Done
+- **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
+  live entry) and intraday pick (10) since 10-01 on real option minute bars, 10% costs each way. Snipers,
+  live entry, sold 15:45: d0.10 -14% / -38% / -57% (avg / without best / without best two), d0.20 -31%,
+  d0.30 -24%, d0.45 -23%. A wider delta does not fix it. Entry at 09:40 or 10:00 is no better. The lever is
+  the trail arm: half at 3x with the trail armed at 1.5x instead of 2x improves every delta (snipers
+  d0.10 -14% -> -7%; intraday carried d0.20 -6% -> +21% / +1% / -21%). The trail arm is an exit rule, so it
+  goes to the owner as a proposal. The stock moved our way on 8 of 13 sniper days, but the median move
+  (~+1% open to close) seldom pays for a same-day option. GEV 10-30 at a 09:31 entry would have made +166%
+  (d0.10); the bias landed at 09:37 and the real entry was 09:38 at a higher price with a zero-bid
+  contract (both fixed: routine at 08:20, zero-bid filter PR #89).
+- **Item 35 (2026-11-01):** three real exits before 09:45 since 10-01: LITE +16% and ORCL half +20% better
+  than the shadow, ORCL trail -31% worse; net -$18. All 30 real entries filled a median 2% under the shadow
+  ask and exits a median 1.4% over the shadow price. No change.
+- **Item 27 (2026-11-01):** same name in two variants on 7 days. NVDA gap-down days (10-16, 10-30): the
+  rebound call lost 100% both times while nvda_gapdown_put won (+48%, +203%). TSLA 10-19 both won, TSLA
+  10-26 the later 400C lost. No rule change; see item 36.
+- **Item 28 (2026-11-01):** 2 of 10 intraday picks went untraded (INTC 10-26, ORCL 10-27), both before the
+  +-15% strike band (PR #83); none since.
 - **Item 22 (2026-10-25), WEEK43_EXITS.md / SECTORS.md:** (a) sector ETF follow at 10:00 (lead >= 0.8% beyond SPY):
   negative everywhere, 0.20 delta trail2x -24% / -29% / -33% last 3 months (24), -30% all (157); heating filter
   and bigger leads do not fix it. Rejected. (b) SPY follow-the-open 0.3-0.5% bucket (Mon-Thu, no release/opex):
