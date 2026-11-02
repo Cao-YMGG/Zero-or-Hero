@@ -365,6 +365,22 @@ class NotifyTest(unittest.TestCase):
                 os.environ.pop(n, None)
             os.environ.update(saved)
 
+    def test_messages_are_plain_chinese(self):
+        from zoh import notify
+        bias = {"date": "2026-11-02", "bias": "none", "p_up": 0.53, "summary": "English summary",
+                "zh": {"summary": "反弹日，不做。", "heating": "医疗", "cooling": "芯片"},
+                "sniper": {"symbol": "GEV", "direction": "call", "catalyst": "HSBC upgrade"},
+                "opportunities": [{"type": "financing_fade", "symbol": "ORCL", "direction": "put",
+                                   "why": "offering", "why_zh": "增发 $200 亿", "action": "none"}]}
+        text = notify.bias_message(bias)
+        self.assertIn("大盘 SPY：**不做**（收盘高于开盘的概率 53%）", text)
+        self.assertIn("理由：反弹日，不做。", text)
+        self.assertIn("狙击：**GEV 看涨**", text)
+        self.assertIn("1. ORCL 看跌｜借钱搞 AI 被抛：增发 $200 亿（只记录）", text)
+        self.assertNotIn("English summary", text)
+        self.assertEqual(notify._contract("ORCL261030P00134000"), "ORCL 10-30 134 看跌")
+        self.assertEqual(notify._usd(-215.0), "-$215")
+
     def test_long_text_is_split_under_the_limit(self):
         from zoh import notify
         parts = notify.chunks("x" * 50 + "\n" + "y" * 4000)
