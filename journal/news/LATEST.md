@@ -1,4 +1,4 @@
-# Headlines since 2026-10-30 16:00 ET (as of 2026-11-02 10:32 ET)
+# Headlines since 2026-10-30 16:00 ET (as of 2026-11-02 11:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -34,6 +34,14 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-30 17:31 | HOOD | rating | Truist Securities Maintains Buy Rating on Robinhood Markets, Adjusts Price Target |
 | 10-30 17:31 | AVGO | downgrade | William Blair Downgrades Broadcom to Market Perform |
 | 10-30 17:08 | GOOGL | target down | Citigroup Maintains Buy on Alphabet, Lowers Price Target to $375 |
+| 11-02 11:01 | AMZN |  | Wrongful Death Lawsuit Filed Against Amazon |
+| 11-02 11:01 | AMZN |  | Amazon Partners with CarbiCrete for Cement-Free Concrete |
+| 11-02 11:01 | MSFT |  | Syndigo Announces Multi-Year Strategic Partnership with Microsoft |
+| 11-02 11:01 | GS |  | Goldman Sachs Increases Stake in Brazilian Retailer C&A Modas |
+| 11-02 11:01 | CAT |  | Caterpillar Inc. Acquires John Fabick Tractor Company |
+| 11-02 11:01 | META |  | Change Agents Corporation Joins Meta's Muse Developer Program |
+| 11-02 10:34 | META |  | What Is Going On With Meta Platforms Stock on Monday? |
+| 11-02 10:32 | PLTR |  | Palantir Stock Trends Higher Ahead of Earnings: What's Happening? |
 | 11-02 10:15 | GOOGL TSLA |  | Tesla's 128% Robotaxi Surge Puts It Just 15 Cars Behind Waymo |
 | 11-02 10:09 | MSFT |  | OpenAI Rolls Out Grid Protectors Program |
 | 11-02 09:48 | LITE |  | Marvell Buys Lumentum for $115 Billion: How Could This Deal Affect the Stock? |

@@ -1,7 +1,87 @@
 {
- "as_of": "2026-11-02T10:32-05:00",
+ "as_of": "2026-11-02T11:02-05:00",
  "since": "2026-10-30T16:00-04:00",
  "headlines": [
+  {
+   "time": "11-02 11:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Wrongful Death Lawsuit Filed Against Amazon",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/02/3393286/0/en/lawsuit-claims-amazon-ignored-trucking-safety-warning-signs-before-fatal-crash-that-killed-u-s-air-force-airman-and-seriously-injured-his-wife.html"
+  },
+  {
+   "time": "11-02 11:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Partners with CarbiCrete for Cement-Free Concrete",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/carbicrete-supplies-amazon-with-cement-free-concrete-in-first-large-scale-paver-deployment-302926503.html"
+  },
+  {
+   "time": "11-02 11:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Syndigo Announces Multi-Year Strategic Partnership with Microsoft",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/02/3393208/0/en/syndigo-signs-multi-year-strategic-partnership-agreement-with-microsoft-to-develop-and-co-sell-ai-powered-commerce-solutions.html"
+  },
+  {
+   "time": "11-02 11:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Increases Stake in Brazilian Retailer C&A Modas",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:d8e6baca13b13:0-weekly-recap-cramer-favors-goldman-sachs-and-gs-raises-c-a-modas-stake/"
+  },
+  {
+   "time": "11-02 11:01",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "Caterpillar Inc. Acquires John Fabick Tractor Company",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/caterpillar-inc-acquires-fabick-cat-dealership-302924153.html"
+  },
+  {
+   "time": "11-02 11:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Change Agents Corporation Joins Meta's Muse Developer Program",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/02/3393201/0/en/change-agents-joins-meta-s-muse-developer-program-to-expand-distribution-of-its-ai-powered-applications-catch-up-and-beacon.html"
+  },
+  {
+   "time": "11-02 10:34",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "What Is Going On With Meta Platforms Stock on Monday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62782844/what-is-going-on-with-meta-platforms-stock-on-monday"
+  },
+  {
+   "time": "11-02 10:32",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir Stock Trends Higher Ahead of Earnings: What's Happening?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62782762/palantir-stock-trends-higher-ahead-of-earnings-whats-happening"
+  },
   {
    "time": "11-02 10:15",
    "symbols": [
