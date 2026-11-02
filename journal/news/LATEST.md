@@ -1,9 +1,12 @@
-# Headlines since 2026-10-30 16:00 ET (as of 2026-11-02 09:02 ET)
+# Headlines since 2026-10-30 16:00 ET (as of 2026-11-02 10:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-02 09:41 | GOOGL | target down | Wells Fargo Maintains Overweight on Alphabet, Lowers Price Target to $365 |
+| 11-02 09:32 | GEV | rating | Guggenheim Adjusts GE Vernova Price Target to $1,400 From $1,450 |
+| 11-02 09:09 | GEV | target down | Guggenheim Maintains Buy on GE Vernova, Lowers Price Target to $1400 |
 | 11-02 08:45 | XOM | target up | Evercore ISI Group Maintains Outperform on ExxonMobil Holdings, Raises Price Target to $200 |
 | 11-02 08:35 | CVX | target up | Evercore ISI Group Maintains Outperform on Chevron, Raises Price Target to $250 |
 | 11-02 08:31 | XOM | target up | Wells Fargo Maintains Equal-Weight on ExxonMobil Holdings, Raises Price Target to $189 |
@@ -31,6 +34,24 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-30 17:31 | HOOD | rating | Truist Securities Maintains Buy Rating on Robinhood Markets, Adjusts Price Target |
 | 10-30 17:31 | AVGO | downgrade | William Blair Downgrades Broadcom to Market Perform |
 | 10-30 17:08 | GOOGL | target down | Citigroup Maintains Buy on Alphabet, Lowers Price Target to $375 |
+| 11-02 09:48 | LITE |  | Marvell Buys Lumentum for $115 Billion: How Could This Deal Affect the Stock? |
+| 11-02 09:38 | LITE NVDA |  | Live On CNBC, Marvell CEO Matt Murphy On Deal With Lumentum, Says 'This Is A Double Down On Supporting NVIDIA' |
+| 11-02 09:33 | CVX |  | Chevron Appoints Siva Barnwell Adams as Corporate Secretary and Chief Governance Officer |
+| 11-02 09:33 | CVX |  | Multiple Financial Institutions Adjust Chevron Price Targets |
+| 11-02 09:32 | RKLB |  | Rocket Lab Conducts 'The Sea God Surveys' Launch Mission |
+| 11-02 09:32 | VST |  | Seaport Global Adjusts Price Target on Vistra to $202 From $226 |
+| 11-02 09:31 | CRM |  | Salesforce Reports Fiscal 2027 Second-Quarter Results and Announces M&A Activity |
+| 11-02 09:31 | LLY |  | Ark Invest Trims Eli Lilly Holdings |
+| 11-02 09:31 | HOOD |  | Trading Technologies Integrates Bitstamp by Robinhood for Institutional Clients |
+| 11-02 09:31 | HD |  | Wahlburgers Announces Expansion of Restaurant Outlets Within Home Depot Stores |
+| 11-02 09:31 | MSFT |  | Clarivate Integrates CompuMark Trademark Data into Microsoft Copilot |
+| 11-02 09:31 | MSFT |  | Lumen Technologies and Microsoft Expand Collaboration on Cloud and AI Infrastructure |
+| 11-02 09:31 | NVDA |  | Uber Partners with NVIDIA for Robotaxi Deployment |
+| 11-02 09:19 | AAPL |  | 'Apple’s J595 Home Robot Project Faces Internal Disagreements And Slow Software Progress; Apple’s J595 Home Robot Robot Launch, Priced Around $1,000, May Slip From 2025 To 2028' - The Information |
+| 11-02 09:15 | ORCL |  | Oracle Shares Dip Monday: What's Happening? |
+| 11-02 09:04 | CAT |  | Caterpillar Acquires John Fabick Tractor; Financial Terms Not Disclosed |
+| 11-02 09:04 | V |  | Verdera Energy Corp. Receives TSX Venture Exchange Approval for New Normal Course Issuer Bid |
+| 11-02 09:01 | ARM |  | Arm and ECARX Sign Memorandum of Understanding for AI Computing Platforms |
 | 11-02 08:54 | AAPL AVGO GOOGL NVDA |  | Apple Earnings Prediction Market Preview: What Will John Ternus Say? |
 | 11-02 08:54 | GS |  | 'Goldman Restricts Traders and Bankers From Using Some AI Tools' - Bloomberg Exclusive |
 | 11-02 08:52 | LITE |  | Marvell to Buy Lumentum in $115 Billion All-Stock Deal |

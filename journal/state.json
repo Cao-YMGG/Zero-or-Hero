@@ -1,81 +1,28 @@
 {
-  "date": "2026-10-30",
-  "done": true,
+  "date": "2026-11-02",
+  "done": false,
   "variants": {
-    "catalyst_intraday@2026-10-28": {
-      "entered": true,
-      "carried": true,
-      "of": "catalyst_intraday",
-      "closed": true
-    },
-    "catalyst_open@2026-10-29": {
-      "entered": true,
-      "carried": true,
-      "of": "catalyst_open",
-      "closed": true
-    },
-    "catalyst_intraday@2026-10-29": {
-      "entered": true,
-      "carried": true,
-      "of": "catalyst_intraday",
-      "closed": true
-    },
     "claude_bias": {},
     "meta_follow2": {},
     "leader_follow": {},
-    "megacap_reclaim": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "rebound_scanner": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "rebound_scanner_wide": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "nvda_gapdown_put": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "catalyst_open": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "catalyst_intraday": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
+    "rebound_scanner": {},
+    "rebound_scanner_wide": {},
+    "nvda_gapdown_put": {},
+    "catalyst_open": {},
+    "catalyst_intraday": {},
+    "catalyst_intraday_arm2": {},
     "spy_open_drive": {},
     "spy_open_drive_wide": {},
     "stock_open_drive": {}
   },
-  "real_underlyings": [
-    "V",
-    "ORCL",
-    "GEV",
-    "AMZN"
-  ],
   "generation": 1,
-  "equity_start": 1167.550000000003,
+  "equity_start": 542.2099999999991,
   "phase": "zero-or-hero",
   "risk_per_trade": 0.2,
   "champion": "rebound_scanner",
   "ledgers": {
-    "rebound_scanner": {
-      "equity": 540.0,
-      "generation": 1,
-      "paused": false
-    },
     "nvda_gapdown_put": {
-      "equity": 500.0,
+      "equity": 691.0,
       "generation": 1,
       "paused": false
     },
@@ -86,16 +33,6 @@
     },
     "stock_open_drive": {
       "equity": 617.0,
-      "generation": 1,
-      "paused": false
-    },
-    "leader_follow": {
-      "equity": 301.0,
-      "generation": 1,
-      "paused": false
-    },
-    "megacap_reclaim": {
-      "equity": 319.0,
       "generation": 1,
       "paused": false
     }

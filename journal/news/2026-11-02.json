@@ -1,7 +1,218 @@
 {
- "as_of": "2026-11-02T09:02-05:00",
+ "as_of": "2026-11-02T10:02-05:00",
  "since": "2026-10-30T16:00-04:00",
  "headlines": [
+  {
+   "time": "11-02 09:48",
+   "symbols": [
+    "LITE"
+   ],
+   "rating": "",
+   "headline": "Marvell Buys Lumentum for $115 Billion: How Could This Deal Affect the Stock?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m-a/26/11/62780578/marvell-lumentum-deal-115-billion-stock-analyst-ratings"
+  },
+  {
+   "time": "11-02 09:41",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "target down",
+   "headline": "Wells Fargo Maintains Overweight on Alphabet, Lowers Price Target to $365",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62780194/wells-fargo-maintains-overweight-alphabet-lowers-price-target-365"
+  },
+  {
+   "time": "11-02 09:38",
+   "symbols": [
+    "LITE",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Live On CNBC, Marvell CEO Matt Murphy On Deal With Lumentum, Says 'This Is A Double Down On Supporting NVIDIA'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/NVDA"
+  },
+  {
+   "time": "11-02 09:33",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Chevron Appoints Siva Barnwell Adams as Corporate Secretary and Chief Governance Officer",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/press-releases/8590051/siva-barnwell-adams-named-corporate-secretary-and-chief-governance-officer"
+  },
+  {
+   "time": "11-02 09:33",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Multiple Financial Institutions Adjust Chevron Price Targets",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-chevron-price-target-to-256-from-241-ce785fd8d081fe2c"
+  },
+  {
+   "time": "11-02 09:32",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Rocket Lab Conducts 'The Sea God Surveys' Launch Mission",
+   "source": "fiscal.ai",
+   "url": "https://www.spacetoday.net/olderlinks.php?sid=497624"
+  },
+  {
+   "time": "11-02 09:32",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "",
+   "headline": "Seaport Global Adjusts Price Target on Vistra to $202 From $226",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/seaport-global-adjusts-price-target-on-vistra-to-202-from-226-ce785fd8d081fe22"
+  },
+  {
+   "time": "11-02 09:32",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "rating",
+   "headline": "Guggenheim Adjusts GE Vernova Price Target to $1,400 From $1,450",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/guggenheim-adjusts-ge-vernova-price-target-to-1-400-from-1-450-ce785fd8d08af726"
+  },
+  {
+   "time": "11-02 09:31",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce Reports Fiscal 2027 Second-Quarter Results and Announces M&A Activity",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/fnw/financewire-news--fnews/businesses-are-starting-to-pay-for-ai-agents-/9853610"
+  },
+  {
+   "time": "11-02 09:31",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Ark Invest Trims Eli Lilly Holdings",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/seekingalpha:998e4e62f094b:0-cathie-wood-s-weekly-recap-loads-ter-avav-after-strong-results-books-gain-in-amd-tsm-lly/"
+  },
+  {
+   "time": "11-02 09:31",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Trading Technologies Integrates Bitstamp by Robinhood for Institutional Clients",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/trading-technologies-expands-institutional-digital-asset-access-through-bitstamp-by-robinhood-302925842.html"
+  },
+  {
+   "time": "11-02 09:31",
+   "symbols": [
+    "HD"
+   ],
+   "rating": "",
+   "headline": "Wahlburgers Announces Expansion of Restaurant Outlets Within Home Depot Stores",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/wahlburgers-announces-2027-growth-plans-welcoming-new-partnerships-continued-growth-of-existing-relationships-302926440.html"
+  },
+  {
+   "time": "11-02 09:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Clarivate Integrates CompuMark Trademark Data into Microsoft Copilot",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/in/news-releases/clarivate-to-bring-trusted-trademark-data-into-microsoft-copilot-through-ipone-302926414.html"
+  },
+  {
+   "time": "11-02 09:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Lumen Technologies and Microsoft Expand Collaboration on Cloud and AI Infrastructure",
+   "source": "fiscal.ai",
+   "url": "https://natlawreview.com/press-releases/lumen-and-microsoft-expand-collaboration-co-sell-enterprise-ai-ready"
+  },
+  {
+   "time": "11-02 09:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Uber Partners with NVIDIA for Robotaxi Deployment",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:741272e4963f2:0-weekly-recap-autonomous-fleet-expansion-and-nvidia-robotaxi-rollout/"
+  },
+  {
+   "time": "11-02 09:19",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "'Apple\u2019s J595 Home Robot Project Faces Internal Disagreements And Slow Software Progress; Apple\u2019s J595 Home Robot Robot Launch, Priced Around $1,000, May Slip From 2025 To 2028' - The Information",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62779242/apple-s-j595-home-robot-project-faces-internal-disagreements-and-slow-software-progress-apple-s-j595"
+  },
+  {
+   "time": "11-02 09:15",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Shares Dip Monday: What's Happening?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62779087/oracle-shares-dip-monday-whats-happening"
+  },
+  {
+   "time": "11-02 09:09",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "target down",
+   "headline": "Guggenheim Maintains Buy on GE Vernova, Lowers Price Target to $1400",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62778828/guggenheim-maintains-buy-ge-vernova-lowers-price-target-1400"
+  },
+  {
+   "time": "11-02 09:04",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "Caterpillar Acquires John Fabick Tractor; Financial Terms Not Disclosed",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m/26/11/62778484/caterpillar-acquires-john-fabick-tractor-financial-terms-not-disclosed"
+  },
+  {
+   "time": "11-02 09:04",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Verdera Energy Corp. Receives TSX Venture Exchange Approval for New Normal Course Issuer Bid",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.ca/news-releases/verdera-energy-corp-receives-tsx-venture-exchange-approval-for-new-normal-course-issuer-bid-858824041.html"
+  },
+  {
+   "time": "11-02 09:01",
+   "symbols": [
+    "ARM"
+   ],
+   "rating": "",
+   "headline": "Arm and ECARX Sign Memorandum of Understanding for AI Computing Platforms",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/ecarx-signs-mou-with-arm-to-advance-next-generation-high-performance-ai-computing-across-industry-applications-302925944.html"
+  },
   {
    "time": "11-02 08:54",
    "symbols": [
