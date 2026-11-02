@@ -29,6 +29,24 @@
       "why": "Partnership with NVIDIA for robotaxi deployment (09:31, in session). UBER 67.23, +3.0% on the day, +1.8% from its 66.05 open, flat since 10:15. Not a pick: not a mega cap (Friday expiries only) and the move stalled an hour ago",
       "why_zh": "Uber 盘中宣布和英伟达合作部署无人出租车，比开盘高1.8%，但10:15以后就横盘了，而且不是超大盘股（只有周五到期的期权）",
       "action": "none"
+    },
+    {
+      "type": "financing_fade",
+      "symbol": "META",
+      "direction": "put",
+      "time": "13:20",
+      "why": "Bloomberg 11:37: Meta readies a cross-border investment bond offering, the same debt-funded AI build-out theme that sank ORCL today (-6.2%, $10B stock + $10B notes) and MRVL (-9.4%). META 611.74 at 13:20, -0.4% from its 614.15 open and -1.2% since ~619 before the headline, while QQQ -0.5% and SMH -1.6% from their opens. Not a pick: catalyst_intraday already traded today (AMZN, one entry per day) and the move since the headline is small",
+      "why_zh": "彭博 11:37 报道 Meta 准备发跨境债券筹钱，和今天甲骨文（-6%）、迈威尔（-9%）一样是借钱搞 AI 的题材。Meta 比开盘跌 0.4%，消息后跌 1.2%。没选：今天盘中策略已经用掉了一次（亚马逊），而且跌得还不多",
+      "action": "none"
+    },
+    {
+      "type": "sector_intraday",
+      "symbol": "MU",
+      "direction": "put",
+      "time": "13:20",
+      "why": "Chips fading all day: MU 853.68, -4.2% from its 890.66 open (-3.5% on the day), SMH -1.6% from its open, AMD -5.2% into its report tomorrow, MRVL worst 3-day drop since 2001 after the Lumentum deal. No MU headline of its own after 09:30 (Morgan Stanley AMD target $510 at 12:27 is AMD's), so relative weakness inside a sector move, not a pick",
+      "why_zh": "芯片股一整天往下走：美光比开盘跌 4.2%，半导体 ETF 跌 1.6%，AMD 明天财报前跌 5%，迈威尔三天跌幅创 2001 年以来最大。美光自己没有新消息，只是跟着板块跌，不够选股标准",
+      "action": "none"
     }
   ]
 }
