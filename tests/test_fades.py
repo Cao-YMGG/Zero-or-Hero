@@ -34,3 +34,11 @@ class Classifier(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class Subject(unittest.TestCase):
+    def test_a_buyer_named_after_the_verb_is_not_the_issuer(self):
+        h = "UPDATE: Meta Announces That Nvidia, Advanced Micro Devices And Broadcom Have Each Indicated An Interest In Purchasing Depositary Shares"
+        self.assertEqual(classify("META", h), "equity")
+        self.assertIsNone(classify("NVDA", h))
+        self.assertIsNone(classify("AMD", h))

@@ -37,6 +37,7 @@ OUT = journal.ROOT / "journal" / "research"
 exits.DELTAS["fade"] = (0.15, 0.25, 0.40)
 EXITS.setdefault("half3_arm1.5", (1.5, 0.4, None, 3.0))
 RULES = ("half3_arm1.5", "trail1.5x", "half3_trail", "trail2x", "hold")
+PRIORITY = ("equity", "acquirer", "acquirer_cash", "debt")
 
 NAMES = {
     "AAPL": "Apple", "AMZN": "Amazon", "MSFT": "Microsoft", "GOOGL": "Alphabet|Google", "META": "Meta",
@@ -81,6 +82,9 @@ def classify(sym, headline):
         return None
     m = re.search(NAMES[sym], h, re.I)
     if not m or m.start() > 45:
+        return None
+    v = VERB.search(h)
+    if v and v.start() < m.start():  # "Meta announces that Nvidia ... will buy shares": Nvidia is not the issuer
         return None
     a = ACQ.search(h)
     if a and m.start() < a.start():
@@ -154,11 +158,15 @@ def events(api, start, end, trading_days):
             if not day:
                 continue
             key = (sym, day)
-            if key in found:
-                continue
-            found[key] = {"sym": sym, "day": day, "kind": kind, "headline": h,
-                          "at": ts.strftime("%Y-%m-%d %H:%M"), "entry": entry}
-            n += 1
+            ev = {"sym": sym, "day": day, "kind": kind, "headline": h, "at": ts.strftime("%Y-%m-%d %H:%M"),
+                  "entry": entry}
+            # one event per company-day: the strongest kind (ORCL 11-02 had the bond headline at 08:02
+            # and the $10B stock offering at 08:20), the earliest headline of that kind
+            if key not in found:
+                found[key] = ev
+                n += 1
+            elif PRIORITY.index(kind) < PRIORITY.index(found[key]["kind"]):
+                found[key] = ev
         print(f"[{i + 1}/{len(NAMES)}] {sym}: {len(heads)} headlines, {n} events", flush=True)
     return sorted(found.values(), key=lambda e: (e["day"], e["sym"]))
 
