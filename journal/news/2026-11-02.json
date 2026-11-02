@@ -1,7 +1,18 @@
 {
- "as_of": "2026-11-02T14:16-05:00",
+ "as_of": "2026-11-02T14:46-05:00",
  "since": "2026-10-30T16:00-04:00",
  "headlines": [
+  {
+   "time": "11-02 14:27",
+   "symbols": [
+    "AAPL",
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Apple\u2019s Hidden Google Problem Could Cost It Billions",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/large-cap/26/11/62792865/apples-hidden-google-problem-could-cost-it-billions"
+  },
   {
    "time": "11-02 14:04",
    "symbols": [

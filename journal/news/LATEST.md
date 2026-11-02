@@ -1,4 +1,4 @@
-# Headlines since 2026-10-30 16:00 ET (as of 2026-11-02 14:16 ET)
+# Headlines since 2026-10-30 16:00 ET (as of 2026-11-02 14:46 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -40,6 +40,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-30 17:31 | HOOD | rating | Truist Securities Maintains Buy Rating on Robinhood Markets, Adjusts Price Target |
 | 10-30 17:31 | AVGO | downgrade | William Blair Downgrades Broadcom to Market Perform |
 | 10-30 17:08 | GOOGL | target down | Citigroup Maintains Buy on Alphabet, Lowers Price Target to $375 |
+| 11-02 14:27 | AAPL GOOGL |  | Apple’s Hidden Google Problem Could Cost It Billions |
 | 11-02 14:02 | COIN |  | Keefe Bruyette & Woods and Rothschild & Co Redburn Adjust Coinbase Price Targets |
 | 11-02 14:02 | RKLB |  | Rocket Lab Updates Space Development Agency Program Value and Neutron Timeline |
 | 11-02 14:02 | META |  | Meta Plans Cross-Border Bond Offering Targeting at Least $20 Billion |
