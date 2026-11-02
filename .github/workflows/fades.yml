@@ -1,0 +1,48 @@
+name: Research - financing and acquirer fades
+
+# Sunday tests 31 and 38 on real option prices (zoh/research/fades.py). Runs on a push of the
+# script to a claude/** branch or by hand; writes journal/research/FADES.md back to the branch.
+# Do not run during market hours: it shares the API key with the live bot.
+
+on:
+  workflow_dispatch:
+    inputs:
+      years:
+        description: "Years of history"
+        default: "2"
+      limit:
+        description: "Only the last N events (0 = all)"
+        default: "0"
+  push:
+    branches: ["claude/**"]
+    paths: ["zoh/research/fades.py", ".github/workflows/fades.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fades-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  fades:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      APCA_API_KEY_ID: ${{ secrets.APCA_API_KEY_ID }}
+      APCA_API_SECRET_KEY: ${{ secrets.APCA_API_SECRET_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fade study
+        run: python -m zoh.research.fades --years "${{ inputs.years || '2' }}" --limit "${{ inputs.limit || '0' }}"
+      - name: Commit results
+        run: |
+          git config user.name "zoh-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add journal/research
+          git diff --cached --quiet && exit 0
+          git commit -m "research: fades $(date -u +%F)"
+          for i in 1 2 3 4 5; do git pull --rebase && git push && break; sleep $((RANDOM % 10 + 5)); done
