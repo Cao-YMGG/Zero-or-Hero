@@ -302,7 +302,7 @@ def main():
     rows, dailies = [], {}
     for i, ev in enumerate(evs):
         if ev["sym"] not in dailies:
-            dailies[ev["sym"]] = closes_by_day(daily_raw(api, ev["sym"], start - timedelta(days=40), end + timedelta(days=5)))
+            dailies[ev["sym"]] = closes_by_day(daily_raw(api, ev["sym"], start - timedelta(days=40), end))  # not past yesterday: the free tier refuses "recent" SIP
         try:
             r = study(api, ev, spy, dailies[ev["sym"]])
         except AlpacaError as e:
