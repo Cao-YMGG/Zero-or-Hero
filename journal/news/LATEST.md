@@ -1,9 +1,13 @@
-# Headlines since 2026-10-30 16:00 ET (as of 2026-11-02 15:16 ET)
+# Headlines since 2026-10-30 16:00 ET (as of 2026-11-02 16:55 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-02 16:41 | CVX | target up | UBS Maintains Buy on Chevron, Raises Price Target to $265 |
+| 11-02 16:31 | INTC | downgrade | GF Securities Downgrades Intel Price Target Following Q4 Outlook |
+| 11-02 16:31 | AMZN | upgrade | Phillip Securities Upgrades Amazon to Buy |
+| 11-02 15:32 | CVX | target up | Barclays Maintains Equal-Weight on Chevron, Raises Price Target to $244 |
 | 11-02 15:01 | XOM | target up | Evercore ISI Group Maintains Outperform Rating and Raises ExxonMobil Price Target |
 | 11-02 15:01 | V | target up | Cantor Fitzgerald Raises Visa Price Target to $500 |
 | 11-02 14:04 | SNDK | downgrade | Fox Advisors Downgrades SanDisk to Equal-Weight |
@@ -42,6 +46,35 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-30 17:31 | HOOD | rating | Truist Securities Maintains Buy Rating on Robinhood Markets, Adjusts Price Target |
 | 10-30 17:31 | AVGO | downgrade | William Blair Downgrades Broadcom to Market Perform |
 | 10-30 17:08 | GOOGL | target down | Citigroup Maintains Buy on Alphabet, Lowers Price Target to $375 |
+| 11-02 16:49 | AAPL |  | Apple Tops Expectations in Q4 as Active Installed Base Hits All-Time High |
+| 11-02 16:44 | AAPL |  | Apple CFO Says Our Installed Base Of Active Devices Reached A New All-Time High Across All Major Product Categories And Geographic Segments |
+| 11-02 16:35 | AAPL |  | CORRECTION: Apple Reports FY2026 Regional Revenue Growth Across Americas $48.680B; Europe $32.008B; Greater China $17.539B; Japan $6.540B; Rest Of Asia Pacific $9.71B |
+| 11-02 16:35 | AAPL |  | Apple CFO Says We Generated $28B In Operating Cash Flow During The Quarter, Allowing Us To Return $28B To Shareholders |
+| 11-02 16:34 | AAPL |  | Apple Q4 Included $0.05 From Tariff Refunds |
+| 11-02 16:33 | AAPL |  | Apple CEO Says We’re Closing The Year With Our Most Ambitious Lineup Yet; That Includes The iPhone Duo, The Most Transformational iPhone Since The Original, Alongside iPhone 18 Pro And iPhone 18 Pro Max |
+| 11-02 16:32 | AAPL |  | Apple Reports FY2026 Regional Revenue Growth Across Americas $48.680M; Europe $32.008M; Greater China $17.539M; Japan $6.540M; Rest Of Asia Pacific $9.71M |
+| 11-02 16:32 | CVX |  | UBS and Morgan Stanley Adjust Price Targets for Chevron |
+| 11-02 16:31 | PLTR |  | Palantir Technologies Inc. Reports Q3 2026 Financial Results |
+| 11-02 16:31 | GS |  | Goldman Sachs Analysts Forecast Potential $130 Crude Oil Price Scenario |
+| 11-02 16:31 | JPM |  | JPMorgan Chase Announces $2.4 Million Philanthropic Support for Semiconductor Suppliers |
+| 11-02 16:31 | GEV |  | Jefferies Removes GE Vernova from Franchise Pick List |
+| 11-02 16:31 | XOM |  | Analyst Actions: Morgan Stanley, UBS, and JPMorgan Adjust ExxonMobil Price Targets |
+| 11-02 16:31 | AMZN |  | Amazon Launches $25 Thanksgiving Meal Deal |
+| 11-02 16:31 | NVDA |  | NVIDIA Vera Rubin NVL72 Specification Discrepancies Highlighted |
+| 11-02 16:31 | AAPL |  | Apple Q4 2026 Wearables, Home And Accessories Sales $8.3B Vs $9.013B Prior |
+| 11-02 16:30 | AAPL |  | Apple Q4 2026 iPad Sales $6.229B Vs $6.952B Prior |
+| 11-02 16:30 | AAPL |  | Apple Q4 2026 Mac Sales $10.792B Vs $8.726B Prior |
+| 11-02 16:30 | AAPL |  | Apple Q4 2026 iPhone Sales $57.5183B Vs $49.025B Prior |
+| 11-02 16:30 | AAPL |  | Apple Q4 EPS $2.10 Beats $1.98 Estimate, Sales $114.477B Beat $113.392B Estimate |
+| 11-02 16:30 | AAPL |  | Apple Q4 2026 Services Revenue $31.573B Vs $28.75B Prior |
+| 11-02 16:25 | CRM |  | Salesforce Signs Definitive Agreement To Acquire Cresta; Financial Terms Undisclosed; Transaction Anticipated To Close In Q1 2028 |
+| 11-02 16:22 | PLTR |  | Palantir Posts Q3 Double Beat, Lifts Guidance — 'Extraordinary' Is an 'Understatement' |
+| 11-02 16:17 | SNDK |  | Stock of the Day: Is This the Bottom for SanDisk? |
+| 11-02 16:14 | PLTR |  | Palantir Technologies CEO Says Sovereign AI Movement Is Imposing the Most Dramatic Dichotomy Between Haves and Have Nots That I Have Witnessed in 30 Years of Business; Every Institution, Government And Commercial, Is Rapidly Being Forced, Voluntarily or Not, Into One of These Two Categories |
+| 11-02 16:06 | PLTR |  | Palantir Technologies Raises FY2026 Sales Guidance from $8.150B-$8.158B to $8.530B-$8.534B vs $8.200B Est |
+| 11-02 16:05 | PLTR |  | Palantir Technologies Sees Q4 Sales $2.649B-$2.653B vs $2.456B Est |
+| 11-02 16:05 | PLTR |  | Palantir Technologies Q3 Adj. EPS $0.44 Beats $0.41 Estimate, Sales $2.313B Beat $2.183B Estimate |
+| 11-02 15:22 | SNDK |  | Watching Sandisk; Zacks Technical Analysis & Zacks Rank Newsletter Mentions Stock As A Buy |
 | 11-02 15:04 | HOOD |  | 'Robinhood in ‘Food Fight’ for Anthropic IPO Retail Allocation' - Bloomberg Exclusive |
 | 11-02 15:01 | COST |  | Jackery Launches Exclusive Explorer 100D Power Station Bundle at Costco |
 | 11-02 15:01 | GE |  | GE Aerospace Continues Negotiations with India for F414-INS6 Engine Production |
