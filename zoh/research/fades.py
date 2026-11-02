@@ -233,9 +233,10 @@ def report(rows, start, end):
             if not sel:
                 continue
             g = lambda lab, cond=lambda e: True: [-(r["entries"][lab]["ec"]) for r in sel if lab in r["entries"] and cond(r["entries"][lab])]
-            L.append(f"| {k} | {name} | {pct([-(r['gap']) for r in sel])} | {pct([-(r['oc']) for r in sel])} | "
+            L.append(f"| {k} | {name} | {pct([-r['gap'] for r in sel if r['gap'] is not None])} | "
+                     f"{pct([-r['oc'] for r in sel])} | "
                      f"{pct(g('09:31'))} | {pct(g('10:00'))} | {pct(g('10:00', lambda e: not e['against']))} | "
-                     f"{pct(g('news'))} | {pct([-(r['next']) for r in sel])} |")
+                     f"{pct(g('news'))} | {pct([-r['next'] for r in sel if r['next'] is not None])} |")
     L += ["", "## Puts, entry 10:00 (pre-market events) or 2 minutes after the headline, sold 15:45 day one", "",
           "| type | period | delta | " + " | ".join(RULES) + " |", "|---|---|---|" + "---|" * len(RULES)]
     for k in kinds:
@@ -273,13 +274,14 @@ def report(rows, start, end):
                     L.append(f"| {k} | {name} | {lab} | " + " | ".join(cells) + " |")
     L += ["", "## Events", "", "| day | sym | type | headline time | entry | gap | open->close | entry->close | below open at entry | d0.25 live rule | headline |",
           "|---|---|---|---|---|---|---|---|---|---|---|"]
+    def f(x, fmt="{:+.1%}"):
+        return fmt.format(x) if x is not None else "-"
     for r in rows:
         e = r["entries"].get("10:00") or r["entries"].get("news") or {}
         p = e.get("picks", {}).get("d0.25")
-        L.append(f"| {r['day']} | {r['sym']} | {r['kind']} | {r['at']} | {e.get('t', '-')} | "
-                 f"{r['gap']:+.1%} | {r['oc']:+.1%} | {e['ec']:+.1%} | {'yes' if e and not e['against'] else 'no'} | "
-                 f"{p['exits_10']['half3_arm1.5']:+.0%} | {r['headline'][:90]} |" if e and r['gap'] is not None else
-                 f"| {r['day']} | {r['sym']} | {r['kind']} | {r['at']} | - | - | {r['oc']:+.1%} | - | - | - | {r['headline'][:90]} |")
+        L.append(f"| {r['day']} | {r['sym']} | {r['kind']} | {r['at']} | {e.get('t', '-')} | {f(r['gap'])} | "
+                 f"{f(r['oc'])} | {f(e.get('ec'))} | {('yes' if not e['against'] else 'no') if e else '-'} | "
+                 f"{f(p['exits_10']['half3_arm1.5'] if p else None, '{:+.0%}')} | {r['headline'][:90]} |")
     return "\n".join(L) + "\n"
 
 
@@ -287,10 +289,16 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--years", type=float, default=2)
     ap.add_argument("--limit", type=int, default=0, help="study only the last N events (smoke test)")
+    ap.add_argument("--from-json", action="store_true", help="rebuild FADES.md from fades.json, no API calls")
     a = ap.parse_args()
-    api = Alpaca()
     end = datetime.now(ET).date() - timedelta(days=1)
     start = end - timedelta(days=int(365 * a.years))
+    if a.from_json:
+        rows = json.loads((OUT / "fades.json").read_text())
+        (OUT / "FADES.md").write_text(report(rows, start, end))
+        print(report(rows, start, end)[:5000])
+        return
+    api = Alpaca()
     spy = closes_by_day(daily_raw(api, "SPY", start - timedelta(days=40), end))
     trading_days = set(spy)
     evs = events(api, datetime.combine(start, dtime(0), ET), datetime.combine(end, dtime(23, 59), ET), trading_days)
