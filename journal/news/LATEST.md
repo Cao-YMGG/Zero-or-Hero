@@ -1,4 +1,4 @@
-# Headlines since 2026-10-30 16:00 ET (as of 2026-11-02 13:15 ET)
+# Headlines since 2026-10-30 16:00 ET (as of 2026-11-02 13:46 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -38,6 +38,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-30 17:31 | HOOD | rating | Truist Securities Maintains Buy Rating on Robinhood Markets, Adjusts Price Target |
 | 10-30 17:31 | AVGO | downgrade | William Blair Downgrades Broadcom to Market Perform |
 | 10-30 17:08 | GOOGL | target down | Citigroup Maintains Buy on Alphabet, Lowers Price Target to $375 |
+| 11-02 13:24 | AMZN GOOGL MSFT |  | Amazon's $2 Billion Data Center Faces Election Day Threat as Voters Weigh 41 AI Infrastructure Measures |
 | 11-02 13:11 | GOOGL |  | Google Says Demand Will Swallow Every Data Center It Builds |
 | 11-02 13:04 | PLTR |  | Palantir Just Became Worth Four ServiceNows — That Raises a $333 Billion Question |
 | 11-02 13:01 | UNH |  | CNBC Halftime Report Final Trades: Invesco S&P 500 Equal Weight Industrials Portfolio, Cleveland-Cliffs, UnitedHealth Group, Regeneron Pharmaceuticals |
