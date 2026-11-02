@@ -128,13 +128,20 @@ in EVOLUTION.md.
     catalyst timing (in session vs pre-market); then on real option prices, the live exit vs a -50%
     stop vs "sell if the stock loses half its move since the pick". Last 3 months first, without the
     best one and two.
-38. **Put sniper on a "none" day for a fresh negative of the stock's own (2026-11-02).** The rules
-    allow a put sniper only on a put day for SPY. Opportunities so far: financing_fade 3 of 5, +0.65%
-    from 10:00 to the close (ORCL 11-02 +3.0%, NVDA 10-30 +1.6%); ma_acquirer 2 of 2, +3.8% (MRVL
-    10-29, 11-02 +7.0%). Two years of mega-cap equity/convert offerings >= $5B and all-stock
-    acquisitions >= $10B: 10:00 -> close on daily and minute bars, then 0.20-delta puts on real
-    prices. Candidate only while n < 20.
-
+38. **Put sniper on a "none" day for a fresh negative of the stock's own (2026-11-02).** Tested the
+    same night on real option prices (journal/research/FADES.md, zoh/research/fades.py; 100 events in
+    two years over 61 large caps: 44 equity offerings, 46 debt offerings, 10 acquirers). Equity
+    offerings gap down (11 of the last 12, -2% average) and the day from 10:00 is a coin flip: last 3
+    months 12 events, the stock fell after 10:00 in 4, the 0.25-delta put with the live exit rule
+    -39% (-45% without the best); entered at the 09:31 close with the below-open gate, 6 events,
+    -21% / -37% / -51%; two years 14 gated events +2% / -16% / -25%. Offerings >= $5B (ORCL 02-04,
+    INTC 08-10/11, META 10-26/27, NBIS, MSTR): 7 events, put -34%, 1 win. Debt offerings: puts -30%
+    to -36% in every period. Stock-financed acquirers: the classifier found 2 (AMD/World Labs 09-29
+    +58%, RKLB/Iridium 0%); cash acquirers 8, mixed (NFLX/WBD +173%, GOOGL/Wiz -60%). Verdict:
+    rejected as a real-money rule; today's ORCL (+3.0% after 10:00) and MRVL (+7.0%) are the tail,
+    the median offering day drifts about 1% after the open. Stays an opportunity type. Open: the
+    acquirer sample (needs headlines that carry size and stock component; score them live), and a
+    size x theme filter (mega-cap AI capex raises in a cooling theme) once there are 20 of them.
 
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
