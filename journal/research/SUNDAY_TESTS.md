@@ -120,6 +120,21 @@ in EVOLUTION.md.
     scanner backtest with/without skip_after_report_days is not done. The owner was asked (10-30/31)
     whether to keep day-one names out of the sniper and intraday picks; no answer yet.
 
+37. **Intraday picks far from the open, and a stop on same-day picks (2026-11-02).** AMZN 11-02
+    was picked at +4.0% from its open on a pre-market upgrade and went 0.43 -> 0.61 -> 0.01 while the
+    stock gave back 2.5%; leader_follow (buy the strongest after +1.5%) is -16% over 3 months without
+    its best trade. On minute bars for every pick and opportunity since 10-01, and the scanner
+    universe for 3 months: entry->close by distance from the open at entry (< 1%, 1-3%, >= 3%) and by
+    catalyst timing (in session vs pre-market); then on real option prices, the live exit vs a -50%
+    stop vs "sell if the stock loses half its move since the pick". Last 3 months first, without the
+    best one and two.
+38. **Put sniper on a "none" day for a fresh negative of the stock's own (2026-11-02).** The rules
+    allow a put sniper only on a put day for SPY. Opportunities so far: financing_fade 3 of 5, +0.65%
+    from 10:00 to the close (ORCL 11-02 +3.0%, NVDA 10-30 +1.6%); ma_acquirer 2 of 2, +3.8% (MRVL
+    10-29, 11-02 +7.0%). Two years of mega-cap equity/convert offerings >= $5B and all-stock
+    acquisitions >= $10B: 10:00 -> close on daily and minute bars, then 0.20-delta puts on real
+    prices. Candidate only while n < 20.
+
 
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
