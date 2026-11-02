@@ -1,0 +1,802 @@
+[
+{
+"sym": "TSLA",
+"day": "2024-11-04",
+"kind": "debt",
+"headline": "'Tesla Sells $499M Of Debt Backed by Solar Equipment Loans' - Bloomberg News",
+"at": "2024-11-01 17:16",
+"entry": "pre"
+},
+{
+"sym": "BA",
+"day": "2024-11-08",
+"kind": "debt",
+"headline": "'Boeing Is Exploring Possible $6B Sale For Jeppesen Unit; Planemaker Working With Adviser On Potential Sale To Trim Debt; Provider Of Interactive Flight Plans Attracting Buyer Interest' - Bloomberg News",
+"at": "2024-11-08 12:09",
+"entry": "12:11:00"
+},
+{
+"sym": "MSTR",
+"day": "2024-11-19",
+"kind": "equity",
+"headline": "MicroStrategy Intends To Offer $1.75B Of Its 0% Convertible Senior Notes Due 2029 In Private Offering",
+"at": "2024-11-18 16:02",
+"entry": "pre"
+},
+{
+"sym": "VST",
+"day": "2024-11-19",
+"kind": "debt",
+"headline": "Vistra Announces The Launch Of Senior Secured Notes Due 2026 And Senior Secured Notes Due 2034 In A Private Offering To Qualified Institutional Buyers",
+"at": "2024-11-19 09:36",
+"entry": "09:38:00"
+},
+{
+"sym": "VST",
+"day": "2024-11-20",
+"kind": "debt",
+"headline": "Vistra Reveals Pricing Of Private Offering Of $1.25B Of Senior Secured Notes",
+"at": "2024-11-19 17:25",
+"entry": "pre"
+},
+{
+"sym": "CAT",
+"day": "2025-01-17",
+"kind": "equity",
+"headline": "Caterpillar CFO Andrew R J Bonfield Reports Open Market Sale Of 10,000 Common Shares At An Average Price Of $380.09/share",
+"at": "2025-01-17 10:47",
+"entry": "10:49:00"
+},
+{
+"sym": "ORCL",
+"day": "2025-01-30",
+"kind": "debt",
+"headline": "Oracle Files For Six-Part Notes Offering; Size Not Disclosed",
+"at": "2025-01-30 08:09",
+"entry": "pre"
+},
+{
+"sym": "LLY",
+"day": "2025-02-10",
+"kind": "debt",
+"headline": "Eli Lilly Files for Six-Part Notes Offering; Size Not Disclosed",
+"at": "2025-02-10 08:18",
+"entry": "pre"
+},
+{
+"sym": "SMCI",
+"day": "2025-02-12",
+"kind": "equity",
+"headline": "Supermicro Announces Private Placement of $700M Of New 2.25% Convertible Senior Notes Due 2028; Announces Amendments to Existing 0.00% Convertible Senior Notes Due 2029",
+"at": "2025-02-11 16:08",
+"entry": "pre"
+},
+{
+"sym": "SMCI",
+"day": "2025-02-13",
+"kind": "equity",
+"headline": "Reported Earlier, Supermicro Prices $700M Private Placement Of 2.25% Convertible Senior Notes Due 2028, Amends Terms Of $1.725B 2029 Notes",
+"at": "2025-02-13 03:17",
+"entry": "pre"
+},
+{
+"sym": "MSTR",
+"day": "2025-02-18",
+"kind": "equity",
+"headline": "MicroStrategy Says Between Feb 10-17, Did Not Sell Any Class A Common Stock Under Its ATM Equity Offering Program, Did Not Purchase Any Bitcoin",
+"at": "2025-02-18 08:20",
+"entry": "pre"
+},
+{
+"sym": "MSTR",
+"day": "2025-02-19",
+"kind": "equity",
+"headline": "Strategy Reveals Proposed Private Offering Of $2B Of Convertible Senior Notes",
+"at": "2025-02-18 16:03",
+"entry": "pre"
+},
+{
+"sym": "GS",
+"day": "2025-03-03",
+"kind": "equity",
+"headline": "Goldman Sachs Form 4 Filing Shows CEO David M Solomon Reports Open Market Sale Of 2,415 Shares Of Co's Common Stock At Average Price Of $622.15/share On Feb 26",
+"at": "2025-02-28 16:35",
+"entry": "pre"
+},
+{
+"sym": "MSTR",
+"day": "2025-03-03",
+"kind": "equity",
+"headline": "MicroStrategy Announces That, During The Period Between February 24, 2025 And March 2, 2025, The Company Did Not Sell Any Shares Of Class A Common Stock Under Its At-The-Market Equity Offering Program, And Did Not Purchase Any Bitcoin",
+"at": "2025-03-03 08:14",
+"entry": "pre"
+},
+{
+"sym": "MSTR",
+"day": "2025-03-10",
+"kind": "equity",
+"headline": "Strategy Announces $21B STRK At-The-Market Program",
+"at": "2025-03-10 08:09",
+"entry": "pre"
+},
+{
+"sym": "RKLB",
+"day": "2025-03-12",
+"kind": "equity",
+"headline": "Rocket Lab Plans Offering Of Its Common Stock Having Aggregate Price Of Up To $500M Pursuant To \"At The Market\" Program",
+"at": "2025-03-11 17:26",
+"entry": "pre"
+},
+{
+"sym": "GOOGL",
+"day": "2025-03-18",
+"kind": "acquirer_cash",
+"headline": "\"Alphabet And Wiz Held Deal Talks Last Year, Before Discussions Collapsed; Alphabet In Fresh Talks To Buy Cybersecurity Startup Wiz For $30B, Sources Say\" - WSJ",
+"at": "2025-03-17 16:05",
+"entry": "pre"
+},
+{
+"sym": "PFE",
+"day": "2025-03-18",
+"kind": "equity",
+"headline": "Pfizer Proposes Offering In Haleon; Pfizer Intends To Sell 662M Ordinary Shares In Haleon; Haleon To Buy Back Shares From Pfizer For $220M; Pfizer To Fully Dispose Of 7.3% Stake",
+"at": "2025-03-18 12:48",
+"entry": "12:50:00"
+},
+{
+"sym": "AMZN",
+"day": "2025-03-25",
+"kind": "debt",
+"headline": "Amazon MGM Studios Announces New Joint Venture With Michael G. Wilson And Barbara Broccoli For James Bond Franchise Rights; Says Amazon MGM Studios James Bond Franchise Rights Deal Closed On Mar 24, 2025",
+"at": "2025-03-25 12:55",
+"entry": "12:57:00"
+},
+{
+"sym": "CRWV",
+"day": "2025-03-28",
+"kind": "equity",
+"headline": "Reported Earlier, CoreWeave Prices Initial Public Offering Of 37.5M Class A Shares At $40 Each, Including 36.59M Offered By The Company And 910K By Existing Stockholders",
+"at": "2025-03-28 01:10",
+"entry": "pre"
+},
+{
+"sym": "TSLA",
+"day": "2025-04-03",
+"kind": "debt",
+"headline": "Tesla Rival Lucid Raises $1 Billion Via Convertible Debt To Refinance 2026 Notes And Boost Financial Flexibility",
+"at": "2025-04-03 08:32",
+"entry": "pre"
+},
+{
+"sym": "AAPL",
+"day": "2025-05-05",
+"kind": "debt",
+"headline": "\"Apple Plans To Sell Corporate Bonds In As Many As Four Parts; Apple Is Planning To Sell Investment-Grade Bonds On Monday For The First Time In Two Years\" - Bloomberg News",
+"at": "2025-05-05 08:38",
+"entry": "pre"
+},
+{
+"sym": "UBER",
+"day": "2025-05-14",
+"kind": "equity",
+"headline": "Aurora Innovation Shares Fall As Uber Announces $1B Note Offering: What's Going On?",
+"at": "2025-05-14 12:17",
+"entry": "12:19:00"
+},
+{
+"sym": "QCOM",
+"day": "2025-05-19",
+"kind": "debt",
+"headline": "Qualcomm Files For Three-Part Notes Offering; Size Not Disclosed",
+"at": "2025-05-19 09:33",
+"entry": "09:35:00"
+},
+{
+"sym": "ORCL",
+"day": "2025-05-23",
+"kind": "acquirer_cash",
+"headline": "'Oracle to buy $40B of Nvidia chips for OpenAI's new US data centre'- Financial Times",
+"at": "2025-05-23 14:05",
+"entry": "14:07:00"
+},
+{
+"sym": "NBIS",
+"day": "2025-06-02",
+"kind": "equity",
+"headline": "Nebius Group Raises $1B Through Convertible Notes to Fuel AI Infrastructure Growth",
+"at": "2025-06-02 07:44",
+"entry": "pre"
+},
+{
+"sym": "SNDK",
+"day": "2025-06-05",
+"kind": "equity",
+"headline": "Sandisk Announces Secondary Public Offering Of 17M Shares Owned By Former Parent Western Digital",
+"at": "2025-06-04 16:52",
+"entry": "pre"
+},
+{
+"sym": "SNDK",
+"day": "2025-06-06",
+"kind": "equity",
+"headline": "Sandisk Announces Pricing For Expanded Secondary Offering; WDC to Sell 18.5M Shares, Priced at $38.50/Shr",
+"at": "2025-06-06 07:12",
+"entry": "pre"
+},
+{
+"sym": "JPM",
+"day": "2025-06-16",
+"kind": "debt",
+"headline": "'JPMorgan Readies $6.5 Billion Skechers Debt Sale for Next Week'- Bloomberg",
+"at": "2025-06-13 17:44",
+"entry": "pre"
+},
+{
+"sym": "SMCI",
+"day": "2025-06-24",
+"kind": "debt",
+"headline": "Supermicro Raises $2 Billion Via Private Convertible Debt With 35% Conversion Premium",
+"at": "2025-06-24 09:39",
+"entry": "09:41:00"
+},
+{
+"sym": "AAPL",
+"day": "2025-07-10",
+"kind": "acquirer_cash",
+"headline": "Apple Acquisition Buzz: Its $60 Billion War Chest Is Enough To Buy Datadog And Tempus",
+"at": "2025-07-10 12:15",
+"entry": "12:17:00"
+},
+{
+"sym": "CRWV",
+"day": "2025-07-23",
+"kind": "debt",
+"headline": "CoreWeave Announces Today That It Priced A Private Offering Of $1,.75B Aggregate Principal Amount Of 9.000% Senior Notes Due 2031",
+"at": "2025-07-22 16:32",
+"entry": "pre"
+},
+{
+"sym": "COIN",
+"day": "2025-08-06",
+"kind": "equity",
+"headline": "Reported Earlier, Coinbase Prices Upsized $2.6B Convertible Senior Notes Offering With $1.3B Tranches Due 2029 And 2032",
+"at": "2025-08-06 01:34",
+"entry": "pre"
+},
+{
+"sym": "LLY",
+"day": "2025-08-18",
+"kind": "debt",
+"headline": "'Eli Lilly Taps High-Grade Bond Market With Rare 40-Year Paper'- Bloomberg",
+"at": "2025-08-18 09:44",
+"entry": "09:46:00"
+},
+{
+"sym": "LLY",
+"day": "2025-08-19",
+"kind": "debt",
+"headline": "Eli Lilly Files For Six-Part Notes Offering Of Up To $6.75B",
+"at": "2025-08-18 17:34",
+"entry": "pre"
+},
+{
+"sym": "LITE",
+"day": "2025-09-03",
+"kind": "equity",
+"headline": "Lumentum Plans $1.1B Convertible Senior Notes Offering Due 2032",
+"at": "2025-09-02 16:35",
+"entry": "pre"
+},
+{
+"sym": "UBER",
+"day": "2025-09-08",
+"kind": "debt",
+"headline": "'Uber Taps Investment-Grade Bond Market for First Time This Year'- Bloomberg",
+"at": "2025-09-08 09:41",
+"entry": "09:43:00"
+},
+{
+"sym": "NBIS",
+"day": "2025-09-10",
+"kind": "equity",
+"headline": "Nebius Group Launches $1B Class A Share Offering; Plus $2B Convertible Notes Offering In Two Tranches",
+"at": "2025-09-10 09:17",
+"entry": "pre"
+},
+{
+"sym": "NBIS",
+"day": "2025-09-11",
+"kind": "equity",
+"headline": "Nebius Group Prices $1B Public Offering Of Class A Ordinary Shares At $92.50 Per Share; Prices $1.375B 1.00% Convertible Notes Due 2030 And $1.375B 2.75% Convertible Notes Due 203",
+"at": "2025-09-11 02:50",
+"entry": "pre"
+},
+{
+"sym": "GS",
+"day": "2025-09-17",
+"kind": "debt",
+"headline": "'Goldman Sachs Readies $5.5 Billion Debt Deal for Dayforce Buyout'- Bloomberg",
+"at": "2025-09-17 11:47",
+"entry": "11:49:00"
+},
+{
+"sym": "JPM",
+"day": "2025-09-18",
+"kind": "debt",
+"headline": "'JPMorgan Said to Help Sell \u20ac200 Million of ECB's Worldline Bonds'- Bloomberg News",
+"at": "2025-09-18 10:09",
+"entry": "10:11:00"
+},
+{
+"sym": "GOOGL",
+"day": "2025-09-25",
+"kind": "equity",
+"headline": "Google Supports Cipher Mining's $3 Billion Data Center Pact As Company Launches $800 Million Convertible Notes Offering",
+"at": "2025-09-25 09:50",
+"entry": "09:52:00"
+},
+{
+"sym": "AVGO",
+"day": "2025-09-30",
+"kind": "debt",
+"headline": "Broadcom Announces $5B Senior Notes Offering Across Multiple Maturities",
+"at": "2025-09-29 16:17",
+"entry": "pre"
+},
+{
+"sym": "VST",
+"day": "2025-10-02",
+"kind": "debt",
+"headline": "Reported Earlier, Vistra Prices $2B Senior Secured Notes Offering With $750M 2028 Notes At 99.974%, $500M 2030 At 99.933%, $750M 2035 At 99.691%",
+"at": "2025-10-02 02:28",
+"entry": "pre"
+},
+{
+"sym": "AMD",
+"day": "2025-10-06",
+"kind": "acquirer_cash",
+"headline": "AMD To Supply OpenAi Hundreds Of Thousands Of AI Chips; AMD Expects $100B+ Revenue From OpenAi, Others As Result Of Deal; OpenAi Recieves Warrant For  To Buy Up To 10% AMD Stake At 1 Cent/Share",
+"at": "2025-10-06 06:59",
+"entry": "pre"
+},
+{
+"sym": "GS",
+"day": "2025-10-16",
+"kind": "debt",
+"headline": "'Deutsche Bank, Goldman to Sell $1.2 Billion Finastra Unit Debt'- Bloomberg",
+"at": "2025-10-16 11:00",
+"entry": "11:02:00"
+},
+{
+"sym": "MSFT",
+"day": "2025-10-28",
+"kind": "acquirer_cash",
+"headline": "Watching Microsoft; Shares Spike Higher, Traders Circulate 'OpenAI Contracted To Buy Incremental $250B Of Azure Services'",
+"at": "2025-10-28 09:06",
+"entry": "pre"
+},
+{
+"sym": "AMZN",
+"day": "2025-11-18",
+"kind": "debt",
+"headline": "Amazon Raises $15 Billion In Oversubscribed Bond Sale Amid Surging AI Cost",
+"at": "2025-11-17 21:48",
+"entry": "pre"
+},
+{
+"sym": "NFLX",
+"day": "2025-12-05",
+"kind": "acquirer_cash",
+"headline": "Netflix To Acquire Warner Bros In A Deal For $72B, $27.75/Share In Cash, Stock",
+"at": "2025-12-05 07:08",
+"entry": "pre"
+},
+{
+"sym": "CRWV",
+"day": "2025-12-08",
+"kind": "equity",
+"headline": "CoreWeave Intends To Offer $2B Aggregate Principal Amount Of Its Convertible Senior Notes Due 2031",
+"at": "2025-12-08 06:54",
+"entry": "pre"
+},
+{
+"sym": "VST",
+"day": "2026-01-13",
+"kind": "debt",
+"headline": "Reported Earlier, Vistra Prices $2.25B Senior Secured Notes Offering, Including $1B Due 2031 At 4.70% And $1.25B Due 2036 At 5.35%",
+"at": "2026-01-13 01:59",
+"entry": "pre"
+},
+{
+"sym": "ORCL",
+"day": "2026-02-04",
+"kind": "equity",
+"headline": "Oracle Files For Offering Of Up To $20B Of Common Stock",
+"at": "2026-02-03 16:30",
+"entry": "pre"
+},
+{
+"sym": "GS",
+"day": "2026-02-05",
+"kind": "debt",
+"headline": "'Goldman Readies $3.75 Billion Debt Offering for DuPont Unit Deal'- Bloomberg",
+"at": "2026-02-05 09:58",
+"entry": "10:00:00"
+},
+{
+"sym": "GOOGL",
+"day": "2026-02-09",
+"kind": "debt",
+"headline": "Alphabet Files Prospectus For Notes Offering; Terms Not Disclosed",
+"at": "2026-02-09 07:50",
+"entry": "pre"
+},
+{
+"sym": "MSTR",
+"day": "2026-02-11",
+"kind": "debt",
+"headline": "Michael Saylor Says Strategy Won't Sell Bitcoin Even At $8,000: 'We'll Refinance The Debt'",
+"at": "2026-02-10 14:43",
+"entry": "pre"
+},
+{
+"sym": "SNDK",
+"day": "2026-02-18",
+"kind": "equity",
+"headline": "Sandisk Launches $3.086M Offering Of Common Shares",
+"at": "2026-02-17 16:50",
+"entry": "pre"
+},
+{
+"sym": "XOM",
+"day": "2026-02-19",
+"kind": "debt",
+"headline": "Exxon Mobil Files For Debt Shelf Offering; Size Not Disclosed",
+"at": "2026-02-18 17:31",
+"entry": "pre"
+},
+{
+"sym": "JPM",
+"day": "2026-03-11",
+"kind": "debt",
+"headline": "'JPMorgan Tees Up EA Debt Sale as Iran War Shakes Credit Markets' - Bloomberg",
+"at": "2026-03-11 13:56",
+"entry": "13:58:00"
+},
+{
+"sym": "AMZN",
+"day": "2026-03-12",
+"kind": "debt",
+"headline": "Amazon Files Pricing Term Sheet For Eight-Part, Euro Denominated Notes Offering Of Up To \u20ac14.5B - Sec Filing",
+"at": "2026-03-11 16:20",
+"entry": "pre"
+},
+{
+"sym": "NBIS",
+"day": "2026-03-23",
+"kind": "equity",
+"headline": "Nebius Group Announces Closing Of Private Offering Of Convertible Senior Notes, With Aggregate Gross Proceeds Of ~$4.3B",
+"at": "2026-03-20 16:06",
+"entry": "pre"
+},
+{
+"sym": "GS",
+"day": "2026-04-06",
+"kind": "acquirer_cash",
+"headline": "Goldman Sachs Buys Innovator, Adds $31 Billion In Defined Outcome ETFs",
+"at": "2026-04-03 13:16",
+"entry": "pre"
+},
+{
+"sym": "CRWV",
+"day": "2026-04-09",
+"kind": "equity",
+"headline": "CoreWeave Intends To Offer $3B Aggregate Principal Amount Of Its Convertible Senior Notes Due 2032",
+"at": "2026-04-09 07:38",
+"entry": "pre"
+},
+{
+"sym": "CRWV",
+"day": "2026-04-10",
+"kind": "equity",
+"headline": "CoreWeave Prices Upsized $3.5B Private Offering of 1.75% Convertible Senior Notes Due 2032",
+"at": "2026-04-10 08:03",
+"entry": "pre"
+},
+{
+"sym": "CRWV",
+"day": "2026-04-16",
+"kind": "debt",
+"headline": "CoreWeave Announces Intended Private Offering Of $1B Of 9.750% Senior Unsecured Notes Due 2031, Subject To Market And Other Conditions",
+"at": "2026-04-16 07:18",
+"entry": "pre"
+},
+{
+"sym": "WMT",
+"day": "2026-04-27",
+"kind": "debt",
+"headline": "'Walmart Plans to Sell Investment-Grade Bonds on Monday' - Bloomberg",
+"at": "2026-04-27 09:18",
+"entry": "pre"
+},
+{
+"sym": "GOOGL",
+"day": "2026-05-12",
+"kind": "debt",
+"headline": "Alphabet Announces Proposed Yen-Denominated Senior Notes Offering Across Five Maturities To Support Corporate And Debt Refinancing Plans",
+"at": "2026-05-12 04:56",
+"entry": "pre"
+},
+{
+"sym": "NOW",
+"day": "2026-05-12",
+"kind": "debt",
+"headline": "'Software Firm ServiceNow Plans to Raise $4 Billion in Bond Sale' - Bloomberg",
+"at": "2026-05-11 16:58",
+"entry": "pre"
+},
+{
+"sym": "NKE",
+"day": "2026-05-21",
+"kind": "debt",
+"headline": "Nike Stock Soars As Energy Prices And Bond Yields Drop",
+"at": "2026-05-20 15:07",
+"entry": "pre"
+},
+{
+"sym": "JPM",
+"day": "2026-06-03",
+"kind": "debt",
+"headline": "'JPMorgan To Sell $1.85 Billion Debt For Belden's Ruckus Buyout' - Bloomberg News",
+"at": "2026-06-03 12:29",
+"entry": "12:31:00"
+},
+{
+"sym": "CIEN",
+"day": "2026-06-08",
+"kind": "equity",
+"headline": "Ciena To Sell $2B Of Convertible Senior Notes Due 2031 In Private Offering",
+"at": "2026-06-08 07:05",
+"entry": "pre"
+},
+{
+"sym": "CIEN",
+"day": "2026-06-09",
+"kind": "equity",
+"headline": "Reported Earlier, Ciena Prices Upsized $2.5B Convertible Senior Notes Offering Due 2031 At 60% Conversion Premium Over $466.67 Share Price",
+"at": "2026-06-09 03:37",
+"entry": "pre"
+},
+{
+"sym": "SMCI",
+"day": "2026-06-10",
+"kind": "equity",
+"headline": "Super Micro Files For Common Stock Offering Of Up To $1.25B",
+"at": "2026-06-10 08:08",
+"entry": "pre"
+},
+{
+"sym": "CRWV",
+"day": "2026-06-12",
+"kind": "debt",
+"headline": "CoreWeave Prices $1.25B, \u20ac2B Senior Notes Due 2032",
+"at": "2026-06-11 14:46",
+"entry": "pre"
+},
+{
+"sym": "NVDA",
+"day": "2026-06-15",
+"kind": "debt",
+"headline": "Nvidia Files Prospectus To Sell US$ Notes Across 2028, 2029, 2031, 2033, 2036, 2046 And 2056 Tenors; Size Not Disclosed",
+"at": "2026-06-15 07:47",
+"entry": "pre"
+},
+{
+"sym": "HOOD",
+"day": "2026-06-22",
+"kind": "equity",
+"headline": "Robinhood Intends To Offer $2B In Aggregate Principal Amount Of Convertible Senior Notes Due 2029 In Private Placement",
+"at": "2026-06-22 07:12",
+"entry": "pre"
+},
+{
+"sym": "HOOD",
+"day": "2026-06-23",
+"kind": "equity",
+"headline": "Reported Earlier, Robinhood Markets Prices $2B Private Offering Of 0.00% Convertible Senior Notes Due 2029 To Boost Strategic Flexibility",
+"at": "2026-06-23 03:53",
+"entry": "pre"
+},
+{
+"sym": "RKLB",
+"day": "2026-06-29",
+"kind": "acquirer",
+"headline": "Rocket Lab To Acquire Iridium For ~$54 Per In Cash And Stock At EV Of ~$8B; IRDM Holders To Receive $27 Per Share In Cash Plus Calculated Ratio Of RKLB Stock",
+"at": "2026-06-29 07:05",
+"entry": "pre"
+},
+{
+"sym": "HOOD",
+"day": "2026-07-13",
+"kind": "debt",
+"headline": "'Robinhood Eyes Its First Bond Sale Backed by Credit Card Bills' - Bloomberg",
+"at": "2026-07-13 14:26",
+"entry": "14:28:00"
+},
+{
+"sym": "GS",
+"day": "2026-07-15",
+"kind": "debt",
+"headline": "'Goldman Raises $10 Billion From Latest High-Grade Bond Sale' - Bloomberg",
+"at": "2026-07-14 16:33",
+"entry": "pre"
+},
+{
+"sym": "BAC",
+"day": "2026-07-16",
+"kind": "debt",
+"headline": "'Bank of America Exits Chicago Plan to Sell Overdue Parking Debt' - Bloomberg",
+"at": "2026-07-16 11:35",
+"entry": "11:37:00"
+},
+{
+"sym": "BA",
+"day": "2026-08-05",
+"kind": "debt",
+"headline": "'Boeing-Lockheed Rocket Joint Venture Taps Private Bond Market' - Bloomberg",
+"at": "2026-08-05 14:09",
+"entry": "14:11:00"
+},
+{
+"sym": "INTC",
+"day": "2026-08-10",
+"kind": "equity",
+"headline": "Intel Announces $15B Offering Of Common Stock",
+"at": "2026-08-10 07:46",
+"entry": "pre"
+},
+{
+"sym": "INTC",
+"day": "2026-08-11",
+"kind": "equity",
+"headline": "Intel Prices Upsized $20B Offering Of 210,526,315 Shares At $95 Per Share, Increased From $15B",
+"at": "2026-08-11 02:43",
+"entry": "pre"
+},
+{
+"sym": "AMD",
+"day": "2026-08-13",
+"kind": "debt",
+"headline": "Advanced Micro Devices Files Automatic Shelf Registration Prospectus For Debt Offering Of Indeterminate Size",
+"at": "2026-08-13 08:55",
+"entry": "pre"
+},
+{
+"sym": "RKLB",
+"day": "2026-08-13",
+"kind": "equity",
+"headline": "Rocket Lab Announces $1.94B At-The-Market Common Stock Offering Program",
+"at": "2026-08-13 07:04",
+"entry": "pre"
+},
+{
+"sym": "GOOGL",
+"day": "2026-08-19",
+"kind": "debt",
+"headline": "Alphabet Raises $3.9B in First Australian Bond Sale as AI Spending Surges",
+"at": "2026-08-19 11:00",
+"entry": "11:02:00"
+},
+{
+"sym": "NBIS",
+"day": "2026-08-19",
+"kind": "equity",
+"headline": "Nebius Announces Proposed Private Offering Of $4.5B Of Convertible Senior Notes In Two Series; $2.75B Of Convertible Notes Due 2030 And $1.75B Of Convertible Notes Due 2034",
+"at": "2026-08-19 07:39",
+"entry": "pre"
+},
+{
+"sym": "NBIS",
+"day": "2026-08-20",
+"kind": "equity",
+"headline": "Reported Earlier, Nebius Group Prices Upsized $5.0B Convertible Senior Notes Offering $3.0B 0.50% Notes Due 2030 And $2.0B 4.50% Notes Due 2034",
+"at": "2026-08-20 01:25",
+"entry": "pre"
+},
+{
+"sym": "MRNA",
+"day": "2026-08-28",
+"kind": "equity",
+"headline": "Moderna Announces Pricing Of Upsized $2.6B 0.00% Convertible Senior Notes Due 2032; Initial Conversion Price $210.58/Share, A 47.5% Premium, With Capped Call Cap At 175% Premium",
+"at": "2026-08-28 07:03",
+"entry": "pre"
+},
+{
+"sym": "VST",
+"day": "2026-09-11",
+"kind": "debt",
+"headline": "Reported Earlier, Vistra Prices $1.5B Registered Offering Of Junior Subordinated Notes, Split Between $850M Series A And $650M Series B",
+"at": "2026-09-11 02:57",
+"entry": "pre"
+},
+{
+"sym": "ORCL",
+"day": "2026-09-14",
+"kind": "equity",
+"headline": "Reported Saturday, Oracle's Larry Ellison Terminates Stock Sale Plan, Confirms No Other Plans To Sell Any Of His Oracle Shares",
+"at": "2026-09-14 01:49",
+"entry": "pre"
+},
+{
+"sym": "CRWV",
+"day": "2026-09-17",
+"kind": "equity",
+"headline": "CoreWeave Announces Private Offering Of $3B Of Convertible Senior Notes Due 2033",
+"at": "2026-09-17 07:08",
+"entry": "pre"
+},
+{
+"sym": "CRWV",
+"day": "2026-09-18",
+"kind": "equity",
+"headline": "CoreWeave Announces Pricing Of Upsized $3.7B Convertible Notes Due 2033 At 2.875%, Conversion Price Of $97.85/Share",
+"at": "2026-09-18 07:06",
+"entry": "pre"
+},
+{
+"sym": "GS",
+"day": "2026-09-22",
+"kind": "acquirer_cash",
+"headline": "'Goldman in Talks to Buy $37 Billion Credit Firm Palmer Square' - Bloomberg",
+"at": "2026-09-22 09:06",
+"entry": "pre"
+},
+{
+"sym": "AMD",
+"day": "2026-09-29",
+"kind": "acquirer",
+"headline": "AMD Announces $8.2B All-Stock Deal To Acquire AI Lab World Labs, With Founder Fei-Fei Li Joining As Chief Scientist",
+"at": "2026-09-28 16:05",
+"entry": "pre"
+},
+{
+"sym": "QCOM",
+"day": "2026-10-05",
+"kind": "equity",
+"headline": "Qualcomm Files Prospectus For Offering 25M Common Shares",
+"at": "2026-10-02 16:33",
+"entry": "pre"
+},
+{
+"sym": "JPM",
+"day": "2026-10-15",
+"kind": "debt",
+"headline": "'JPMorgan Mulls Revival of Software Debt Deal Lenders Had Shunned' - Bloomberg Exclusive",
+"at": "2026-10-15 11:27",
+"entry": "11:29:00"
+},
+{
+"sym": "WMT",
+"day": "2026-10-19",
+"kind": "debt",
+"headline": "'Walmart Sells US Debt, Eyes Canadian Market as Spending Grows' - Bloomberg",
+"at": "2026-10-19 11:40",
+"entry": "11:42:00"
+},
+{
+"sym": "META",
+"day": "2026-10-26",
+"kind": "equity",
+"headline": "Meta Launches Offering Of 250M Depositary Shares And $22.5B Offering Of Class A Common Stock In Connection With Forward Sale Agreements; Total Value Of Offering Seen At $95B",
+"at": "2026-10-26 07:01",
+"entry": "pre"
+},
+{
+"sym": "META",
+"day": "2026-10-27",
+"kind": "equity",
+"headline": "Meta Prices Upsized $25 Billion Common Stock Offering and Depositary Shares",
+"at": "2026-10-27 06:31",
+"entry": "pre"
+}
+]
