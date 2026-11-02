@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-02",
+  "bias": "none",
+  "confidence": 0.2,
+  "p_up": 0.53,
+  "summary": "Relief bounce after Friday's chip washout: SPY +0.5% and QQQ +0.8% pre-market, SMH +1.5%, oil -5% (USO). A heavy week ahead (AAPL and PLTR report tonight, AMD tomorrow, jobs report Friday) and no clean macro lean, so no SPY trade (p_up 0.53). No sniper: the morning's own-news names are either excluded (report today / tomorrow / just reported), carry a financing headline that outweighs an upgrade (ORCL), or have only a sector-sized gap on an unconfirmed report (TSM).",
+  "reasons": [
+    "Late again: the routine was scheduled for 08:20 ET but fired at 09:01; written 09:08. Trade workflow dispatched at 09:03 (no scheduled run today), news feed refreshed at 09:02.",
+    "Webull pre-market 09:03 ET: SPY 759.76 (+0.53% vs 755.72), QQQ +0.84%, IWM +0.76%, SMH +1.48%, TLT +0.32%, UUP -0.31%, USO -5.28%, XLE -2.06%, XLF +0.53%, XLV -0.06%. Chips bounce after Friday (SMH -7.0%): NVDA +1.3%, AMD +1.9%, MU +1.6%, TSM +1.8%, AVGO +1.0%; INTC +0.3%",
+    "Oil -5% overnight: cause not found in the news file or a web search (searches only returned older US-Iran de-escalation stories); treat as unconfirmed. XOM -2.1% / CVX lower despite Evercore and Wells Fargo target raises. Lower oil is a tailwind for the index, a headwind for energy, which led the last month (XOM +14% in a month)",
+    "Not looked up because of the late start: ES futures level, VIX, 2Y/10Y bp, DXY level; TLT and UUP say yields and the dollar are a little lower. Data today: ISM manufacturing at 10:00 (not in config/macro_events.json, not confirmed); jobs report Friday 11-06 is in the file",
+    "Earnings: AAPL and PLTR report tonight (no sniper today), AMD and SMCI tomorrow (no sniper today on AMD either, the day before), LITE reported this morning with the Marvell deal. Reported last week and allowed again today (day two after): AMZN, INTC, COIN, MA, LLY, CAT, MSFT, GOOGL",
+    "Down gaps >= 2% in the scanner universe: COIN -2.0% (Morgan Stanley downgrade to Underweight, 20). rebound_scanner and leader_follow are shadow-only since 11-01",
+    "AMD dossier: AMD reports tomorrow; pre-earnings run-up window but no sniper the day before the print. META dossier: -0.4% pre-market, no news of its own; S&P put META's outlook on negative on capex (10-31)",
+    "Considered and not named: ORCL (Stephens upgrade to Overweight 13 at 07:32, but a $10B common stock plus $10B notes offering at 08:20 put it -3.0% at 126.75: the financing fade outweighs the upgrade, and a put sniper needs a put day); TSM (+1.8% on a report that Tesla may lean on TSMC for Terafab, unconfirmed; SMH is +1.5%, so the name's own part is small; INTC, the other side, +0.3%); MRVL (-2.3%, acquirer in a $115B all-stock deal for Lumentum; acquirers fall, but no put day); LITE (target, -5.6%, and it reported this morning); COIN (downgrade, and downgrades do not carry); LLY (Cantor $1,600 target, -0.9%); MSFT (Lumen co-selling, minor)"
+  ],
+  "events": ["ISM manufacturing 10:00 (not confirmed)", "Earnings after the close: AAPL, PLTR", "Tomorrow: AMD, SMCI", "Marvell to buy Lumentum, $115B all stock", "Oracle $10B stock + $10B notes offering"],
+  "inputs": {"es_futures_pct": null, "vix": null, "wti_pct": -5.3, "us10y": null, "us10y_change_bp": null, "us2y_change_bp": null, "dxy_pct": -0.3,
+             "overnight": "Webull extended hours 09:03 ET: SPY +0.53%, QQQ +0.84%, SMH +1.48%, TLT +0.32%, USO -5.28% (wti_pct is USO), UUP -0.31% (dxy_pct is UUP). Night session not checked"},
+  "rotation": {
+    "heating": ["health care (XLV 1-week +3.1%, 1-month +11.2%; LLY +11.3% in a week, +23% in a month)", "staples and retail (XLP 1-month +11.3%, WMT +18.5%)", "banks, mildly (XLF 1-month +5.7%, JPM 1-week +1.6%)", "energy over the month (XLE +11.7%, XOM +14.3%) but oil -5% this morning"],
+    "cooling": ["CPU (INTC 1-month -45%, AMD -18%)", "memory (SNDK -36%, MU -19%) and disk storage (WDC -21%)", "optical (LITE -20%, CIEN -15%; Marvell buying Lumentum today)", "internet / AI capex (GOOGL -17%, META -15%, AMZN -3%)", "GPU (NVDA -11%)", "industrials (CAT -24.5%, GEV -13%)"],
+    "note": "Bars to the 10-30 close. Money keeps leaving AI hardware and internet for health care, staples and banks; this morning's chip bounce (+1.5%) comes after a -7% day with no sell-side pushback yet, so it is a relief move, not a turn"
+  },
+  "sniper": null,
+  "opportunities": [
+    {"type": "financing_fade", "symbol": "ORCL", "direction": "put", "time": "10:00", "why": "$10B common stock + $10B notes (08:20) on top of an upgrade; -3.0% pre-market", "action": "none"},
+    {"type": "ma_acquirer", "symbol": "MRVL", "direction": "put", "time": "10:00", "why": "acquirer in a $115B all-stock deal for Lumentum, -2.3% pre-market", "action": "none"},
+    {"type": "peer_readthrough", "symbol": "TSM", "direction": "call", "time": "10:00", "why": "report: Tesla may lean on TSMC for Terafab after all (00:13, unconfirmed); +1.8% vs SMH +1.5%", "action": "none"},
+    {"type": "gapdown_rebound", "symbol": "COIN", "direction": "call", "time": "10:00", "why": "-2.0% gap on a Morgan Stanley downgrade; downgrades do not carry (ANALYST.md)", "action": "none"},
+    {"type": "rotation_laggard", "symbol": "NVDA", "direction": "call", "time": "10:00", "why": "chip relief bounce after -7% Friday, NVDA +1.3% pre-market; Melius cut its target to $315 (Buy kept)", "action": "none"}
+  ],
+  "generated_at": "2026-11-02T09:04:47-05:00"
+}
