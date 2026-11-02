@@ -29,8 +29,16 @@ appears; the `claude_bias` / `claude_confirm` variants trade it in shadow mode.
   "opportunities": [              // since 2026-10-29: every opportunity spotted, traded or not
     {"type": "rotation_laggard", "symbol": "META", "direction": "call", "time": "10:00",
      "why": "-12% in a week after its offering, green pre-market while GOOGL -11%",
+     "why_zh": "发债后一周跌 12%，谷歌跌 11% 时它盘前反而是红的",   // plain Chinese for Discord
      "action": "none"}            // "real" (sniper / pick), "shadow" or "none"
   ],
+  "zh": {                         // since 2026-11-02: plain Chinese for the Discord posts (the owner
+                                  // reads Chinese; no jargon, no tickers without a word of context)
+    "summary": "一两句话：今天大盘怎么判断、为什么",
+    "sniper": "选了谁、看涨还是看跌、因为什么消息；或者为什么今天不选",
+    "heating": "医疗、必需消费、银行",
+    "cooling": "CPU、存储、光模块、互联网"
+  },
   "generated_at": "2026-10-05T09:05:00-04:00"
 }
 ```
@@ -82,8 +90,10 @@ Weekday check-ins at about 10:30 and 13:00 ET may add a pick to
 ```json
 {"date": "2026-10-06",
  "picks": [{"time": "10:32", "symbol": "AMD", "direction": "call", "confidence": 0.6,
-            "catalyst": "news that broke after the open and is not yet in the price"}]}
+            "catalyst": "news that broke after the open and is not yet in the price",
+            "catalyst_zh": "开盘后才出的消息，股价还没反映（Discord 用的中文）"}]}
 ```
+Opportunities in this file also carry `why_zh` (plain Chinese for Discord), as in the pre-market file.
 
 Append, never rewrite earlier picks. The bot re-reads main every 2 minutes and
 `catalyst_intraday` buys a ~0.2-delta same-day/nearest option on the latest pick right away
