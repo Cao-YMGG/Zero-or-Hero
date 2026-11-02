@@ -51,7 +51,11 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
 - Weekdays 16:35 ET: daily post-market review and light evolution. Grade every closed trade
   (real and shadow) and the day's pre-market calls in `journal/grades.csv` with the rubric in
   `journal/GRADING.md` (process score out of 10, separate from the result; peaks from
-  `journal/exits.csv`). A win with a low score is luck, not evidence.
+  `journal/exits.csv`). A win with a low score is luck, not evidence. Then write the post-market
+  check `journal/checks/<today>.json` (`{"date", "text"}`, plain Chinese, a few short lines): the
+  SPY call vs the open-to-close move, the sniper and intraday picks (stock move and option result),
+  the morning predictions right/wrong, real fills vs the broker, one lesson. Push it to main; the
+  Notify workflow posts it to Discord (owner, 2026-11-02: "you have to check after the close too").
 - Sundays 09:52 ET: weekly deep review (full protocol below, population cleanup, backtests).
 
 ## Noise gate (applies to the daily review)
