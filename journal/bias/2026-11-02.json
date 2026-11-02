@@ -14,21 +14,93 @@
     "AMD dossier: AMD reports tomorrow; pre-earnings run-up window but no sniper the day before the print. META dossier: -0.4% pre-market, no news of its own; S&P put META's outlook on negative on capex (10-31)",
     "Considered and not named: ORCL (Stephens upgrade to Overweight 13 at 07:32, but a $10B common stock plus $10B notes offering at 08:20 put it -3.0% at 126.75: the financing fade outweighs the upgrade, and a put sniper needs a put day); TSM (+1.8% on a report that Tesla may lean on TSMC for Terafab, unconfirmed; SMH is +1.5%, so the name's own part is small; INTC, the other side, +0.3%); MRVL (-2.3%, acquirer in a $115B all-stock deal for Lumentum; acquirers fall, but no put day); LITE (target, -5.6%, and it reported this morning); COIN (downgrade, and downgrades do not carry); LLY (Cantor $1,600 target, -0.9%); MSFT (Lumen co-selling, minor)"
   ],
-  "events": ["ISM manufacturing 10:00 (not confirmed)", "Earnings after the close: AAPL, PLTR", "Tomorrow: AMD, SMCI", "Marvell to buy Lumentum, $115B all stock", "Oracle $10B stock + $10B notes offering"],
-  "inputs": {"es_futures_pct": null, "vix": null, "wti_pct": -5.3, "us10y": null, "us10y_change_bp": null, "us2y_change_bp": null, "dxy_pct": -0.3,
-             "overnight": "Webull extended hours 09:03 ET: SPY +0.53%, QQQ +0.84%, SMH +1.48%, TLT +0.32%, USO -5.28% (wti_pct is USO), UUP -0.31% (dxy_pct is UUP). Night session not checked"},
+  "events": [
+    "ISM manufacturing 10:00 (not confirmed)",
+    "Earnings after the close: AAPL, PLTR",
+    "Tomorrow: AMD, SMCI",
+    "Marvell to buy Lumentum, $115B all stock",
+    "Oracle $10B stock + $10B notes offering"
+  ],
+  "inputs": {
+    "es_futures_pct": null,
+    "vix": null,
+    "wti_pct": -5.3,
+    "us10y": null,
+    "us10y_change_bp": null,
+    "us2y_change_bp": null,
+    "dxy_pct": -0.3,
+    "overnight": "Webull extended hours 09:03 ET: SPY +0.53%, QQQ +0.84%, SMH +1.48%, TLT +0.32%, USO -5.28% (wti_pct is USO), UUP -0.31% (dxy_pct is UUP). Night session not checked"
+  },
   "rotation": {
-    "heating": ["health care (XLV 1-week +3.1%, 1-month +11.2%; LLY +11.3% in a week, +23% in a month)", "staples and retail (XLP 1-month +11.3%, WMT +18.5%)", "banks, mildly (XLF 1-month +5.7%, JPM 1-week +1.6%)", "energy over the month (XLE +11.7%, XOM +14.3%) but oil -5% this morning"],
-    "cooling": ["CPU (INTC 1-month -45%, AMD -18%)", "memory (SNDK -36%, MU -19%) and disk storage (WDC -21%)", "optical (LITE -20%, CIEN -15%; Marvell buying Lumentum today)", "internet / AI capex (GOOGL -17%, META -15%, AMZN -3%)", "GPU (NVDA -11%)", "industrials (CAT -24.5%, GEV -13%)"],
+    "heating": [
+      "health care (XLV 1-week +3.1%, 1-month +11.2%; LLY +11.3% in a week, +23% in a month)",
+      "staples and retail (XLP 1-month +11.3%, WMT +18.5%)",
+      "banks, mildly (XLF 1-month +5.7%, JPM 1-week +1.6%)",
+      "energy over the month (XLE +11.7%, XOM +14.3%) but oil -5% this morning"
+    ],
+    "cooling": [
+      "CPU (INTC 1-month -45%, AMD -18%)",
+      "memory (SNDK -36%, MU -19%) and disk storage (WDC -21%)",
+      "optical (LITE -20%, CIEN -15%; Marvell buying Lumentum today)",
+      "internet / AI capex (GOOGL -17%, META -15%, AMZN -3%)",
+      "GPU (NVDA -11%)",
+      "industrials (CAT -24.5%, GEV -13%)"
+    ],
     "note": "Bars to the 10-30 close. Money keeps leaving AI hardware and internet for health care, staples and banks; this morning's chip bounce (+1.5%) comes after a -7% day with no sell-side pushback yet, so it is a relief move, not a turn"
   },
   "sniper": null,
   "opportunities": [
-    {"type": "financing_fade", "symbol": "ORCL", "direction": "put", "time": "10:00", "why": "$10B common stock + $10B notes (08:20) on top of an upgrade; -3.0% pre-market", "action": "none"},
-    {"type": "ma_acquirer", "symbol": "MRVL", "direction": "put", "time": "10:00", "why": "acquirer in a $115B all-stock deal for Lumentum, -2.3% pre-market", "action": "none"},
-    {"type": "peer_readthrough", "symbol": "TSM", "direction": "call", "time": "10:00", "why": "report: Tesla may lean on TSMC for Terafab after all (00:13, unconfirmed); +1.8% vs SMH +1.5%", "action": "none"},
-    {"type": "gapdown_rebound", "symbol": "COIN", "direction": "call", "time": "10:00", "why": "-2.0% gap on a Morgan Stanley downgrade; downgrades do not carry (ANALYST.md)", "action": "none"},
-    {"type": "rotation_laggard", "symbol": "NVDA", "direction": "call", "time": "10:00", "why": "chip relief bounce after -7% Friday, NVDA +1.3% pre-market; Melius cut its target to $315 (Buy kept)", "action": "none"}
+    {
+      "type": "financing_fade",
+      "symbol": "ORCL",
+      "direction": "put",
+      "time": "10:00",
+      "why": "$10B common stock + $10B notes (08:20) on top of an upgrade; -3.0% pre-market",
+      "action": "none",
+      "why_zh": "甲骨文宣布发 $100 亿股票加 $100 亿债，盘前跌 3%，借钱搞 AI 的股票最近都被抛"
+    },
+    {
+      "type": "ma_acquirer",
+      "symbol": "MRVL",
+      "direction": "put",
+      "time": "10:00",
+      "why": "acquirer in a $115B all-stock deal for Lumentum, -2.3% pre-market",
+      "action": "none",
+      "why_zh": "Marvell 用股票 $1,150 亿收购 Lumentum，收购方通常会跌，盘前 -2.3%"
+    },
+    {
+      "type": "peer_readthrough",
+      "symbol": "TSM",
+      "direction": "call",
+      "time": "10:00",
+      "why": "report: Tesla may lean on TSMC for Terafab after all (00:13, unconfirmed); +1.8% vs SMH +1.5%",
+      "action": "none",
+      "why_zh": "报道说特斯拉的 Terafab 芯片厂可能还是找台积电建（未确认），盘前 +1.8%"
+    },
+    {
+      "type": "gapdown_rebound",
+      "symbol": "COIN",
+      "direction": "call",
+      "time": "10:00",
+      "why": "-2.0% gap on a Morgan Stanley downgrade; downgrades do not carry (ANALYST.md)",
+      "action": "none",
+      "why_zh": "被摩根士丹利降到减持，盘前 -2%；降级的消息历史上不太持续"
+    },
+    {
+      "type": "rotation_laggard",
+      "symbol": "NVDA",
+      "direction": "call",
+      "time": "10:00",
+      "why": "chip relief bounce after -7% Friday, NVDA +1.3% pre-market; Melius cut its target to $315 (Buy kept)",
+      "action": "none",
+      "why_zh": "周五芯片跌 7% 后的反弹，英伟达盘前 +1.3%；Melius 下调了目标价但仍是买入"
+    }
   ],
-  "generated_at": "2026-11-02T09:04:47-05:00"
+  "generated_at": "2026-11-02T09:04:47-05:00",
+  "zh": {
+    "summary": "上周五芯片大跌后，今天盘前在反弹（SPY +0.5%，芯片 +1.5%），原油跌了 5%。今晚苹果发财报、明天 AMD、周五非农，方向看不清，今天不做 SPY。",
+    "sniper": "今天不选。有消息的几只都不够格：甲骨文虽被上调评级，但同时宣布发 $200 亿股票和债，盘前跌 3%；台积电涨 1.8% 靠的是一条未确认的报道，涨幅跟整个芯片板块差不多；Marvell 收购 Lumentum 两只都在跌，且 Lumentum 今早刚发财报。",
+    "heating": "医疗、必需消费、银行（能源过去一个月最强，但今早油价大跌）",
+    "cooling": "CPU、内存和硬盘、光模块、互联网大厂、英伟达、工业股"
+  }
 }
