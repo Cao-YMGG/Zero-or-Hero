@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-02",
+  "picks": [
+    {
+      "time": "11:03",
+      "symbol": "AMZN",
+      "direction": "call",
+      "confidence": 0.4,
+      "catalyst": "Day's leader with a rating change of its own: Phillip Securities upgraded AMZN to Buy (target $330 from $320) before the open and Citi raised its AI cloud revenue estimates through 2028, the sell side pushing back on the 10-29 miss (stock had fallen to $229 on 10-30). AMZN 252.9 at 11:03, +5.2% on the day and +4.0% from its 243.09 open, 4.5 points beyond SPY (+0.7%) while GOOGL +1.6%, MSFT +1.0%, META +0.2%. Tape agrees: higher 15-minute closes all morning, new high 253.81 at 10:45, holding there. Second trading day after the report (10-29), so the day-one exclusion does not apply; median target $330. Risk: the move is 90 minutes old and the upgrade is from a small broker",
+      "catalyst_zh": "亚马逊上周财报不及预期被砸到229，今天盘前 Phillip 证券把它上调到买入（目标价330），花旗也上调了AWS的AI收入预期。现在涨5.2%，比开盘高4%，比大盘多涨4.5个点，一路新高还没回落。财报后第二个交易日，不在禁区。风险：已经涨了一个半小时，上调的券商不大",
+      "catalyst_type": "selloff_pushback"
+    }
+  ],
+  "opportunities": [
+    {
+      "type": "sector_intraday",
+      "symbol": "TSLA",
+      "direction": "call",
+      "time": "11:03",
+      "why": "Robotaxi day: Uber partners with NVIDIA for robotaxi deployment (09:31) and Tesla's Texas robotaxi fleet is up 128% to 1,244, 15 cars behind Waymo (Benzinga 10:15); October registrations +248% Sweden, +131% Norway, +271% Spain overnight. TSLA 413.3, +3.4% on the day, +2.1% from its 404.74 open and +1.6% since the 10:15 headline. Not the pick: it turned up from 397.61 at 09:50, before the headline, and a registration count is a soft catalyst; AMZN is the one pick",
+      "why_zh": "无人出租车题材日：Uber 和英伟达合作无人出租车（9:31），特斯拉德州无人出租车数量一个月涨128%，只比 Waymo 少15辆（10:15）。特斯拉比开盘高2.1%。没选：股价9:50就开始涨了，比消息早，而且注册车辆数算软消息",
+      "action": "none"
+    },
+    {
+      "type": "contract_customer",
+      "symbol": "UBER",
+      "direction": "call",
+      "time": "11:03",
+      "why": "Partnership with NVIDIA for robotaxi deployment (09:31, in session). UBER 67.23, +3.0% on the day, +1.8% from its 66.05 open, flat since 10:15. Not a pick: not a mega cap (Friday expiries only) and the move stalled an hour ago",
+      "why_zh": "Uber 盘中宣布和英伟达合作部署无人出租车，比开盘高1.8%，但10:15以后就横盘了，而且不是超大盘股（只有周五到期的期权）",
+      "action": "none"
+    }
+  ]
+}
