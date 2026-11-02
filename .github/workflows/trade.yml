@@ -84,6 +84,7 @@ jobs:
         continue-on-error: true
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_WEBHOOK_PREMARKET: ${{ secrets.DISCORD_WEBHOOK_PREMARKET }}
           DISCORD_WEBHOOK_REVIEW: ${{ secrets.DISCORD_WEBHOOK_REVIEW }}
           DISCORD_WEBHOOK_OPPORTUNITIES: ${{ secrets.DISCORD_WEBHOOK_OPPORTUNITIES || secrets.ZOHOPPORTUNITIES }}
         run: python -m zoh.notify day

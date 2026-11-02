@@ -7,6 +7,7 @@ account numbers or order IDs.
     python -m zoh.notify bias --file journal/bias/2026-10-29.json
     python -m zoh.notify intraday --file journal/bias/intraday/2026-10-29.json
     python -m zoh.notify day [--date 2026-10-29]
+    python -m zoh.notify check --file journal/checks/2026-11-02.json
 """
 import argparse
 import csv
@@ -30,8 +31,15 @@ FALLBACK = "DISCORD_WEBHOOK_URL"
 USERNAME = "Zero-or-Hero"
 
 
+# The owner's own channel: anything without a webhook of its own (and no DISCORD_WEBHOOK_URL) is
+# posted to #盘前判断 rather than dropped; until 2026-11-02 the close and the intraday picks were
+# silently skipped because only the pre-market and opportunities webhooks existed.
+HOME = "premarket"
+
+
 def webhook(channel):
-    return os.environ.get(CHANNELS.get(channel, FALLBACK)) or os.environ.get(FALLBACK)
+    return (os.environ.get(CHANNELS.get(channel, FALLBACK)) or os.environ.get(FALLBACK)
+            or os.environ.get(CHANNELS[HOME]))
 
 
 def has_own(channel):
@@ -243,9 +251,16 @@ def day_message(day, root=None, with_opportunities=True):
     return "\n".join(lines)
 
 
+def check_message(data):
+    """The post-market check the daily review writes (journal/checks/<date>.json, plain Chinese):
+    were the morning calls right, did the real fills match the broker, what was learned."""
+    text = (data.get("text") or "").strip()
+    return f"**🔎 盘后核对 {data.get('date')}**\n{text}" if text else ""
+
+
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("kind", choices=["bias", "intraday", "opportunities", "day", "test"])
+    ap.add_argument("kind", choices=["bias", "intraday", "opportunities", "day", "check", "test"])
     ap.add_argument("--file")
     ap.add_argument("--date")
     args = ap.parse_args()
@@ -261,6 +276,12 @@ def main():
         scored = scored_lines(day)
         if split and scored:
             post("\n".join([f"**💡 机会打分 {day}**（从记录时间到收盘，按方向算）"] + scored), "opportunities")
+        return
+    if args.kind == "check":
+        path = Path(args.file) if args.file else journal.JOURNAL_DIR / "checks" / f"{day}.json"
+        if path.exists():
+            text = check_message(json.loads(path.read_text()))
+            text and post(text, "review")
         return
     path = Path(args.file) if args.file else (
         journal.JOURNAL_DIR / "bias" / (f"intraday/{day}.json" if args.kind == "intraday" else f"{day}.json"))

@@ -365,6 +365,24 @@ class NotifyTest(unittest.TestCase):
                 os.environ.pop(n, None)
             os.environ.update(saved)
 
+    def test_channels_without_a_webhook_fall_back_to_the_owners_channel(self):
+        import os
+        from zoh import notify
+        names = list(notify.CHANNELS.values()) + [notify.FALLBACK]
+        saved = {n: os.environ.pop(n) for n in names if n in os.environ}
+        try:
+            os.environ["DISCORD_WEBHOOK_PREMARKET"] = "https://example.invalid/premarket"
+            self.assertEqual(notify.webhook("review"), "https://example.invalid/premarket")
+            self.assertEqual(notify.webhook("intraday"), "https://example.invalid/premarket")
+            self.assertFalse(notify.has_own("review"))
+        finally:
+            for n in names:
+                os.environ.pop(n, None)
+            os.environ.update(saved)
+        msg = notify.check_message({"date": "2026-11-02", "text": "大盘：不做，对。"})
+        self.assertEqual(msg, "**🔎 盘后核对 2026-11-02**\n大盘：不做，对。")
+        self.assertEqual(notify.check_message({"date": "2026-11-02"}), "")
+
     def test_messages_are_plain_chinese(self):
         from zoh import notify
         bias = {"date": "2026-11-02", "bias": "none", "p_up": 0.53, "summary": "English summary",
