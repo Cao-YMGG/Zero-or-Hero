@@ -1,9 +1,11 @@
-# Headlines since 2026-10-30 16:00 ET (as of 2026-11-02 12:03 ET)
+# Headlines since 2026-10-30 16:00 ET (as of 2026-11-02 12:33 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-02 12:29 | CVX | target up | Morgan Stanley Maintains Overweight on Chevron, Raises Price Target to $230 |
+| 11-02 12:27 | AMD | target up | Morgan Stanley Maintains Equal-Weight on Advanced Micro Devices, Raises Price Target to $510 |
 | 11-02 11:02 | JPM | rating | UBS Adjusts JPMorgan Chase Price Target to $400 |
 | 11-02 09:41 | GOOGL | target down | Wells Fargo Maintains Overweight on Alphabet, Lowers Price Target to $365 |
 | 11-02 09:32 | GEV | rating | Guggenheim Adjusts GE Vernova Price Target to $1,400 From $1,450 |
@@ -35,6 +37,10 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-30 17:31 | HOOD | rating | Truist Securities Maintains Buy Rating on Robinhood Markets, Adjusts Price Target |
 | 10-30 17:31 | AVGO | downgrade | William Blair Downgrades Broadcom to Market Perform |
 | 10-30 17:08 | GOOGL | target down | Citigroup Maintains Buy on Alphabet, Lowers Price Target to $375 |
+| 11-02 12:10 | NVDA |  | CrowdStrike, Dell Introduce Integrated Security Tool For Dell AI Factory For Clients To Use CrowdStrike Falcon Platform Alongside Dell AI Infrastructure, Nvidia Accelerated Computing |
+| 11-02 12:06 | GOOGL |  | Google Reaches An Agreement With Prospect Union, Granting The Union The Right To Represent And Speak To Google Employees In The UK |
+| 11-02 12:04 | TSLA |  | Italy Transport Ministry Says Tesla New Car Registrations In Italy Up 94.14% YoY In October |
+| 11-02 12:00 | TSLA |  | Mark Cuban Says Elon Musk Is Amazing and the ‘Best Entrepreneur of Our Lifetime,’ But He’s a Salesman — ‘He’s Gotta Sell What He’s Got to Sell’ |
 | 11-02 11:47 | TSLA |  | Portugal's New Registrations Of Tesla Cars Rise 186.1% In October YoY, Up 62.5% In January-October |
 | 11-02 11:37 | META |  | 'Meta Readies Cross-Border Investment Bond Offering' - Bloomberg |
 | 11-02 11:36 | XOM |  | These Analysts Boost Their Forecasts On ExxonMobil After Upbeat Q3 Results |

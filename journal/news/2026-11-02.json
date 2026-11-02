@@ -1,7 +1,67 @@
 {
- "as_of": "2026-11-02T12:03-05:00",
+ "as_of": "2026-11-02T12:33-05:00",
  "since": "2026-10-30T16:00-04:00",
  "headlines": [
+  {
+   "time": "11-02 12:29",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "target up",
+   "headline": "Morgan Stanley Maintains Overweight on Chevron, Raises Price Target to $230",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62788201/morgan-stanley-maintains-overweight-chevron-raises-price-target-230"
+  },
+  {
+   "time": "11-02 12:27",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "target up",
+   "headline": "Morgan Stanley Maintains Equal-Weight on Advanced Micro Devices, Raises Price Target to $510",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62788094/morgan-stanley-maintains-equal-weight-advanced-micro-devices-raises-price-target-510"
+  },
+  {
+   "time": "11-02 12:10",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "CrowdStrike, Dell Introduce Integrated Security Tool For Dell AI Factory For Clients To Use CrowdStrike Falcon Platform Alongside Dell AI Infrastructure, Nvidia Accelerated Computing",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62787441/crowdstrike-dell-introduce-integrated-security-tool-dell-ai-factory-clients-use-crowdstrike-falcon-p"
+  },
+  {
+   "time": "11-02 12:06",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Google Reaches An Agreement With Prospect Union, Granting The Union The Right To Represent And Speak To Google Employees In The UK",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62787109/google-reaches-agreement-prospect-union-granting-union-right-represent-and-speak-google-employees-uk"
+  },
+  {
+   "time": "11-02 12:04",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Italy Transport Ministry Says Tesla New Car Registrations In Italy Up 94.14% YoY In October",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62786997/italy-transport-ministry-says-tesla-new-car-registrations-italy-94-14-yoy-october"
+  },
+  {
+   "time": "11-02 12:00",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Mark Cuban Says Elon Musk Is Amazing and the \u2018Best Entrepreneur of Our Lifetime,\u2019 But He\u2019s a Salesman \u2014 \u2018He\u2019s Gotta Sell What He\u2019s Got to Sell\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/space/26/11/62786735/mark-cuban-says-elon-musk-is-amazing-and-the-best-entrepreneur-of-our-lifetime-but-hes-a-salesman-hes-gotta-sell-what-hes-got-to-sell"
+  },
   {
    "time": "11-02 11:47",
    "symbols": [
