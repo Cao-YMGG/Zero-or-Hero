@@ -76,3 +76,7 @@ date,variant,mode,contract,entry_price,exit_price,peak,exit_reason
 2026-10-30,catalyst_intraday,shadow,AMAT261030C00445000,1.32,0,1.85,time
 2026-10-30,catalyst_open,shadow,V261030C00420000,0.72,0,0.72,time
 2026-10-30,catalyst_open,real,V261030C00420000,0.7,0.0,0.72,expired
+2026-11-02,leader_follow,shadow,TSLA261102C00420000,0.58,0,0.68,time
+2026-11-02,catalyst_intraday,shadow,AMZN261102C00255000,0.45,0.03,0.61,time
+2026-11-02,catalyst_intraday,real,AMZN261102C00255000,0.43,0.01,0.61,time
+2026-11-02,catalyst_intraday_arm2,shadow,AMZN261102C00255000,0.45,0.03,0.61,time

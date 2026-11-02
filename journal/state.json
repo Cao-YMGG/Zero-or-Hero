@@ -1,22 +1,13 @@
 {
   "date": "2026-11-02",
-  "done": false,
+  "done": true,
   "variants": {
     "claude_bias": {},
     "meta_follow2": {},
     "leader_follow": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "TSLA261102C00420000",
-        "direction": "call",
-        "entry_time": "2026-11-02T10:43:25-05:00",
-        "entry_price": 0.58,
-        "peak": 0.68,
-        "qty": 1,
-        "last": 0,
-        "last_time": "2026-11-02T15:16:17-05:00"
-      }
+      "closed": true
     },
     "rebound_scanner": {},
     "rebound_scanner_wide": {},
@@ -25,37 +16,12 @@
     "catalyst_intraday": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "AMZN261102C00255000",
-        "direction": "call",
-        "entry_time": "2026-11-02T11:03:25-05:00",
-        "entry_price": 0.45,
-        "peak": 0.61,
-        "qty": 2,
-        "last": 0.01,
-        "last_time": "2026-11-02T15:16:17-05:00"
-      },
-      "real": {
-        "contract": "AMZN261102C00255000",
-        "qty": 2,
-        "underlying": "AMZN",
-        "entry_price": 0.43,
-        "entry_time": "2026-11-02T11:03:27-05:00"
-      }
+      "closed": true
     },
     "catalyst_intraday_arm2": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "AMZN261102C00255000",
-        "direction": "call",
-        "entry_time": "2026-11-02T11:03:25-05:00",
-        "entry_price": 0.45,
-        "peak": 0.61,
-        "qty": 2,
-        "last": 0.01,
-        "last_time": "2026-11-02T15:16:17-05:00"
-      }
+      "closed": true
     },
     "spy_open_drive": {},
     "spy_open_drive_wide": {},
