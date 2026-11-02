@@ -47,7 +47,11 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
   (or since the headline). On 2026-10-30 the AMZN put on an in-session $80B supplier-loan
   headline was bought while AMZN was +2.5% from its open and had not reacted in 40 minutes; it
   closed higher and the 235P went to zero (-$198). The winning ORCL put of 10-29 was already
-  -4.5% from its open, at the low.
+  -4.5% from its open, at the low. A pre-market catalyst is mostly priced once the stock is >= 3%
+  from its open by the check-in: on 2026-11-02 AMZN (small-broker upgrade before the open, day's
+  leader +4.0% from its open) was picked at 11:03, topped minutes later and closed 2.5% lower; the
+  0.25-delta 255C went 0.43 -> 0.01 (-$84). Without in-session news of its own, an extended leader
+  goes into `opportunities`, not `picks`.
 - Weekdays 16:35 ET: daily post-market review and light evolution. Grade every closed trade
   (real and shadow) and the day's pre-market calls in `journal/grades.csv` with the rubric in
   `journal/GRADING.md` (process score out of 10, separate from the result; peaks from
