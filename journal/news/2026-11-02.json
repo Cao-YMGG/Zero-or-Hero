@@ -1,7 +1,28 @@
 {
- "as_of": "2026-11-02T10:02-05:00",
+ "as_of": "2026-11-02T10:32-05:00",
  "since": "2026-10-30T16:00-04:00",
  "headlines": [
+  {
+   "time": "11-02 10:15",
+   "symbols": [
+    "GOOGL",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla's 128% Robotaxi Surge Puts It Just 15 Cars Behind Waymo",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/62781991/tesla-robotaxi-waymo-texas"
+  },
+  {
+   "time": "11-02 10:09",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "OpenAI Rolls Out Grid Protectors Program",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62781742/openai-rolls-out-grid-protectors-program"
+  },
   {
    "time": "11-02 09:48",
    "symbols": [
