@@ -1,7 +1,97 @@
 {
- "as_of": "2026-11-02T11:02-05:00",
+ "as_of": "2026-11-02T11:32-05:00",
  "since": "2026-10-30T16:00-04:00",
  "headlines": [
+  {
+   "time": "11-02 11:20",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk's SpaceX Plan Swallows Nvidia's Entire $300 Billion Growth Forecast \u2014 And Then Some",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62785016/elon-musk-spacex-plan-swallows-nvidia-growth-forecast"
+  },
+  {
+   "time": "11-02 11:08",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Chevron Analysts Raise Their Forecasts After Better-Than-Expected Q3 Earnings",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62784505/chevron-analysts-raise-their-forecasts-after-better-than-expected-q3-earnings"
+  },
+  {
+   "time": "11-02 11:02",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "rating",
+   "headline": "UBS Adjusts JPMorgan Chase Price Target to $400",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/ubs-adjusts-jpmorgan-chase-price-target-to-400-from-395-maintains-buy-rating-ce785fd9d981f421"
+  },
+  {
+   "time": "11-02 11:02",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "UBS Cuts Price Target on Bank of America to $62 From $67",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/ubs-cuts-price-target-on-bank-of-america-to-62-from-67-keeps-buy-rating-ce785fd9d98ff42c"
+  },
+  {
+   "time": "11-02 11:02",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank of America Discloses Holding in Intertek Group Plc",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-11-02:newsml_RSB4765Ba:0-reg-intertek-group-plc-bank-of-america-corp-holding-s-in-company/"
+  },
+  {
+   "time": "11-02 11:01",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Ancient Crunch Expands MASA Tortilla Chips into Costco",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/masa-expands-into-costco-as-ancient-crunch-accelerates-national-retail-expansion-302924604.html"
+  },
+  {
+   "time": "11-02 11:01",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Costco Declines Participation in New Blockchain-Based Stock Marketplace",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1003205914/nvidia-costco-and-nike-join-pushback-against-okx-ice-tokenized"
+  },
+  {
+   "time": "11-02 11:01",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Korean Skincare Brand re:nk Launches Cell to Cell Cream at Costco",
+   "source": "fiscal.ai",
+   "url": "https://www.einnews.com/pr_news/953328717/korean-prestige-skincare-brand-re-nk-brings-cell-to-cell-cream-to-u-s-costco-stores-this-november"
+  },
+  {
+   "time": "11-02 11:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Q4 Preview: All Eyes on iPhone 18, Dan Ives Says Company \u2018Has the Demand Backdrop to Deliver\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/62784142/apple-q4-preview-all-eyes-on-iphone-18-dan-ives-says-company-has-the-demand-backdrop-to-deliver"
+  },
   {
    "time": "11-02 11:01",
    "symbols": [
@@ -61,6 +151,16 @@
    "headline": "Change Agents Corporation Joins Meta's Muse Developer Program",
    "source": "fiscal.ai",
    "url": "https://www.globenewswire.com/news-release/2026/11/02/3393201/0/en/change-agents-joins-meta-s-muse-developer-program-to-expand-distribution-of-its-ai-powered-applications-catch-up-and-beacon.html"
+  },
+  {
+   "time": "11-02 11:00",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Bitcoin Bulls Say \u2018Bottom's in\u2019 but Bears Eye $73,000 Ahead of Midterms",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62784007/bitcoin-bulls-say-bottoms-in-but-bears-eye-73000-ahead-of-midterms"
   },
   {
    "time": "11-02 10:34",

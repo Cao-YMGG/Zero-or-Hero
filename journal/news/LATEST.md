@@ -1,9 +1,10 @@
-# Headlines since 2026-10-30 16:00 ET (as of 2026-11-02 11:02 ET)
+# Headlines since 2026-10-30 16:00 ET (as of 2026-11-02 11:32 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-02 11:02 | JPM | rating | UBS Adjusts JPMorgan Chase Price Target to $400 |
 | 11-02 09:41 | GOOGL | target down | Wells Fargo Maintains Overweight on Alphabet, Lowers Price Target to $365 |
 | 11-02 09:32 | GEV | rating | Guggenheim Adjusts GE Vernova Price Target to $1,400 From $1,450 |
 | 11-02 09:09 | GEV | target down | Guggenheim Maintains Buy on GE Vernova, Lowers Price Target to $1400 |
@@ -34,12 +35,21 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-30 17:31 | HOOD | rating | Truist Securities Maintains Buy Rating on Robinhood Markets, Adjusts Price Target |
 | 10-30 17:31 | AVGO | downgrade | William Blair Downgrades Broadcom to Market Perform |
 | 10-30 17:08 | GOOGL | target down | Citigroup Maintains Buy on Alphabet, Lowers Price Target to $375 |
+| 11-02 11:20 | NVDA |  | Elon Musk's SpaceX Plan Swallows Nvidia's Entire $300 Billion Growth Forecast — And Then Some |
+| 11-02 11:08 | CVX |  | Chevron Analysts Raise Their Forecasts After Better-Than-Expected Q3 Earnings |
+| 11-02 11:02 | BAC |  | UBS Cuts Price Target on Bank of America to $62 From $67 |
+| 11-02 11:02 | BAC |  | Bank of America Discloses Holding in Intertek Group Plc |
+| 11-02 11:01 | COST |  | Ancient Crunch Expands MASA Tortilla Chips into Costco |
+| 11-02 11:01 | COST |  | Costco Declines Participation in New Blockchain-Based Stock Marketplace |
+| 11-02 11:01 | COST |  | Korean Skincare Brand re:nk Launches Cell to Cell Cream at Costco |
+| 11-02 11:01 | AAPL |  | Apple Q4 Preview: All Eyes on iPhone 18, Dan Ives Says Company ‘Has the Demand Backdrop to Deliver’ |
 | 11-02 11:01 | AMZN |  | Wrongful Death Lawsuit Filed Against Amazon |
 | 11-02 11:01 | AMZN |  | Amazon Partners with CarbiCrete for Cement-Free Concrete |
 | 11-02 11:01 | MSFT |  | Syndigo Announces Multi-Year Strategic Partnership with Microsoft |
 | 11-02 11:01 | GS |  | Goldman Sachs Increases Stake in Brazilian Retailer C&A Modas |
 | 11-02 11:01 | CAT |  | Caterpillar Inc. Acquires John Fabick Tractor Company |
 | 11-02 11:01 | META |  | Change Agents Corporation Joins Meta's Muse Developer Program |
+| 11-02 11:00 | COIN |  | Bitcoin Bulls Say ‘Bottom's in’ but Bears Eye $73,000 Ahead of Midterms |
 | 11-02 10:34 | META |  | What Is Going On With Meta Platforms Stock on Monday? |
 | 11-02 10:32 | PLTR |  | Palantir Stock Trends Higher Ahead of Earnings: What's Happening? |
 | 11-02 10:15 | GOOGL TSLA |  | Tesla's 128% Robotaxi Surge Puts It Just 15 Cars Behind Waymo |
