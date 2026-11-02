@@ -32,13 +32,13 @@ class Classifier(unittest.TestCase):
         self.assertEqual(schedule(datetime(2026, 11, 2, 15, 10, tzinfo=ET), days), (date(2026, 11, 3), "pre"))
 
 
-if __name__ == "__main__":
-    unittest.main()
-
-
 class Subject(unittest.TestCase):
     def test_a_buyer_named_after_the_verb_is_not_the_issuer(self):
-        h = "UPDATE: Meta Announces That Nvidia, Advanced Micro Devices And Broadcom Have Each Indicated An Interest In Purchasing Depositary Shares"
+        h = "UPDATE: Meta Announces That Nvidia, Advanced Micro Devices And Broadcom Have Each Indicated An Interest In Purchasing Depositary Shares In The Offering"
         self.assertEqual(classify("META", h), "equity")
         self.assertIsNone(classify("NVDA", h))
         self.assertIsNone(classify("AMD", h))
+
+
+if __name__ == "__main__":
+    unittest.main()
