@@ -1,9 +1,11 @@
-# Headlines since 2026-10-30 16:00 ET (as of 2026-11-02 13:46 ET)
+# Headlines since 2026-10-30 16:00 ET (as of 2026-11-02 14:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-02 14:04 | SNDK | downgrade | Fox Advisors Downgrades SanDisk to Equal-Weight |
+| 11-02 14:01 | CVX | target up | Wells Fargo Raises Chevron Price Target to $268 |
 | 11-02 12:35 | XOM | target up | Morgan Stanley Maintains Overweight on ExxonMobil Holdings, Raises Price Target to $187 |
 | 11-02 12:29 | CVX | target up | Morgan Stanley Maintains Overweight on Chevron, Raises Price Target to $230 |
 | 11-02 12:27 | AMD | target up | Morgan Stanley Maintains Equal-Weight on Advanced Micro Devices, Raises Price Target to $510 |
@@ -38,6 +40,18 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-30 17:31 | HOOD | rating | Truist Securities Maintains Buy Rating on Robinhood Markets, Adjusts Price Target |
 | 10-30 17:31 | AVGO | downgrade | William Blair Downgrades Broadcom to Market Perform |
 | 10-30 17:08 | GOOGL | target down | Citigroup Maintains Buy on Alphabet, Lowers Price Target to $375 |
+| 11-02 14:02 | COIN |  | Keefe Bruyette & Woods and Rothschild & Co Redburn Adjust Coinbase Price Targets |
+| 11-02 14:02 | RKLB |  | Rocket Lab Updates Space Development Agency Program Value and Neutron Timeline |
+| 11-02 14:02 | META |  | Meta Plans Cross-Border Bond Offering Targeting at Least $20 Billion |
+| 11-02 14:02 | PLTR |  | Palantir Technologies and HD Hyundai Robotics Announce AI Collaboration |
+| 11-02 14:01 | CRDO |  | William Blair Analyst Highlights Risk/Reward Profile for Credo Technology |
+| 11-02 14:01 | BAC |  | Bank of America Files Major-Holdings Notification for Gerresheimer AG |
+| 11-02 14:01 | ORCL |  | Oracle Announces $20 Billion Fundraising Plan for AI Cloud Expansion |
+| 11-02 14:01 | GS |  | Goldman Sachs Limits AI Tool Access to Engineering Staff |
+| 11-02 14:01 | GS |  | Goldman Sachs Engaged by Cerberus for Potential Sale of French Banking Business CCF |
+| 11-02 14:01 | CVX |  | Chevron Increases Exploration Budget to $1.5 Billion |
+| 11-02 14:01 | JPM |  | JPMorgan Chase Discloses Increased Voting Rights in Gamma Communications |
+| 11-02 14:01 | NVDA |  | NVIDIA Networking Supports Eco Wave Power's Digital Twin Research Project |
 | 11-02 13:24 | AMZN GOOGL MSFT |  | Amazon's $2 Billion Data Center Faces Election Day Threat as Voters Weigh 41 AI Infrastructure Measures |
 | 11-02 13:11 | GOOGL |  | Google Says Demand Will Swallow Every Data Center It Builds |
 | 11-02 13:04 | PLTR |  | Palantir Just Became Worth Four ServiceNows — That Raises a $333 Billion Question |

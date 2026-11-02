@@ -1,7 +1,147 @@
 {
- "as_of": "2026-11-02T13:46-05:00",
+ "as_of": "2026-11-02T14:16-05:00",
  "since": "2026-10-30T16:00-04:00",
  "headlines": [
+  {
+   "time": "11-02 14:04",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "downgrade",
+   "headline": "Fox Advisors Downgrades SanDisk to Equal-Weight",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62791977/fox-advisors-downgrades-sandisk-equal-weight"
+  },
+  {
+   "time": "11-02 14:02",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Keefe Bruyette & Woods and Rothschild & Co Redburn Adjust Coinbase Price Targets",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/coinbase-global-s-softer-revenue-outlook-crypto-uncertainty-challenge-recovery-morgan-stanley-sa-ce785fd9d88bf525"
+  },
+  {
+   "time": "11-02 14:02",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Rocket Lab Updates Space Development Agency Program Value and Neutron Timeline",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:48b2681677e5c:0-weekly-recap-sda-value-exceeds-1-3b-and-neutron-flight-expected-in-2027/"
+  },
+  {
+   "time": "11-02 14:02",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Plans Cross-Border Bond Offering Targeting at Least $20 Billion",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/meta-targets-at-least-20-billion-from-potential-cross-border-bond-offering-bloomberg-reports-ce785fd9db89f125"
+  },
+  {
+   "time": "11-02 14:02",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir Technologies and HD Hyundai Robotics Announce AI Collaboration",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/PLTR-US/news?chain_id=Name1K9-3FXPhg.1lefkk0&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A59,%22f%22%3A%22www.moomoo.com%2Fhans%2Foptions%2FTQQQ260522C56500-US%22%7D"
+  },
+  {
+   "time": "11-02 14:01",
+   "symbols": [
+    "CRDO"
+   ],
+   "rating": "",
+   "headline": "William Blair Analyst Highlights Risk/Reward Profile for Credo Technology",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/2026110278/these-tech-stocks-got-unfairly-swept-up-in-last-weeks-selloff-analysts-say"
+  },
+  {
+   "time": "11-02 14:01",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank of America Files Major-Holdings Notification for Gerresheimer AG",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:b40aa1370e57f:0-gerresheimer-ag-gxi-reports-bank-of-america-voting-rights-filing/"
+  },
+  {
+   "time": "11-02 14:01",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Announces $20 Billion Fundraising Plan for AI Cloud Expansion",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/2026110284/oracle-wants-20-billion-to-fund-its-ai-future-and-its-stock-is-paying-the-price"
+  },
+  {
+   "time": "11-02 14:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Limits AI Tool Access to Engineering Staff",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/news/artificial-intelligence/2026/goldman-sachs-bars-bankers-from-employing-some-ai-tools/"
+  },
+  {
+   "time": "11-02 14:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Engaged by Cerberus for Potential Sale of French Banking Business CCF",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/seekingalpha:c8474f10b094b:0-goldman-sachs-said-to-be-working-on-sale-of-french-banking-business-ccf/"
+  },
+  {
+   "time": "11-02 14:01",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "target up",
+   "headline": "Wells Fargo Raises Chevron Price Target to $268",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:fa114ac1fb342:0-wells-fargo-maintains-chevron-at-overweight-raises-price-target-to-268-from-230/"
+  },
+  {
+   "time": "11-02 14:01",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Chevron Increases Exploration Budget to $1.5 Billion",
+   "source": "fiscal.ai",
+   "url": "https://www.baystreet.ca/commodities/9067/Chevron-Raises-Exploration-Spending-By-50"
+  },
+  {
+   "time": "11-02 14:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Discloses Increased Voting Rights in Gamma Communications",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/rns/gamma-communications--gama/holding-s-in-company/9854183"
+  },
+  {
+   "time": "11-02 14:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Networking Supports Eco Wave Power's Digital Twin Research Project",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/eco-wave-power-completes-first-phase-of-ai-powered-digital-twin-advancing-intelligent-wave-energy-and-future-ai-data-center-applications-302926362.html"
+  },
   {
    "time": "11-02 13:24",
    "symbols": [
