@@ -1,7 +1,68 @@
 {
- "as_of": "2026-11-02T12:33-05:00",
+ "as_of": "2026-11-02T13:15-05:00",
  "since": "2026-10-30T16:00-04:00",
  "headlines": [
+  {
+   "time": "11-02 13:11",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Google Says Demand Will Swallow Every Data Center It Builds",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62790125/google-says-demand-will-swallow-every-data-center-it-builds"
+  },
+  {
+   "time": "11-02 13:04",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir Just Became Worth Four ServiceNows \u2014 That Raises a $333 Billion Question",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/62789772/palantir-servicenow-valuation-gap"
+  },
+  {
+   "time": "11-02 13:01",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "CNBC Halftime Report Final Trades: Invesco S&P 500 Equal Weight Industrials Portfolio, Cleveland-Cliffs, UnitedHealth Group, Regeneron Pharmaceuticals",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/REGN"
+  },
+  {
+   "time": "11-02 12:54",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "'Freight Surge Pushes Venezuelan Oil Exports to Eight-Month Low' - Bloomberg",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62789325/freight-surge-pushes-venezuelan-oil-exports-eight-month-low-bloomberg"
+  },
+  {
+   "time": "11-02 12:48",
+   "symbols": [
+    "AMD",
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "AMD Q3 Preview: Expert Says \u2018Growth Story Remains Impressive,\u2019 Can Earnings Send Stock Back to Highs?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62789109/amd-q3-preview-expert-says-growth-story-remains-impressive-can-earnings-send-stock-back-to-highs"
+  },
+  {
+   "time": "11-02 12:35",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "target up",
+   "headline": "Morgan Stanley Maintains Overweight on ExxonMobil Holdings, Raises Price Target to $187",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62788438/morgan-stanley-maintains-overweight-exxonmobil-holdings-raises-price-target-187"
+  },
   {
    "time": "11-02 12:29",
    "symbols": [

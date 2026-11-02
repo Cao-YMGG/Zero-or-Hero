@@ -1,9 +1,10 @@
-# Headlines since 2026-10-30 16:00 ET (as of 2026-11-02 12:33 ET)
+# Headlines since 2026-10-30 16:00 ET (as of 2026-11-02 13:15 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-02 12:35 | XOM | target up | Morgan Stanley Maintains Overweight on ExxonMobil Holdings, Raises Price Target to $187 |
 | 11-02 12:29 | CVX | target up | Morgan Stanley Maintains Overweight on Chevron, Raises Price Target to $230 |
 | 11-02 12:27 | AMD | target up | Morgan Stanley Maintains Equal-Weight on Advanced Micro Devices, Raises Price Target to $510 |
 | 11-02 11:02 | JPM | rating | UBS Adjusts JPMorgan Chase Price Target to $400 |
@@ -37,6 +38,11 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-30 17:31 | HOOD | rating | Truist Securities Maintains Buy Rating on Robinhood Markets, Adjusts Price Target |
 | 10-30 17:31 | AVGO | downgrade | William Blair Downgrades Broadcom to Market Perform |
 | 10-30 17:08 | GOOGL | target down | Citigroup Maintains Buy on Alphabet, Lowers Price Target to $375 |
+| 11-02 13:11 | GOOGL |  | Google Says Demand Will Swallow Every Data Center It Builds |
+| 11-02 13:04 | PLTR |  | Palantir Just Became Worth Four ServiceNows — That Raises a $333 Billion Question |
+| 11-02 13:01 | UNH |  | CNBC Halftime Report Final Trades: Invesco S&P 500 Equal Weight Industrials Portfolio, Cleveland-Cliffs, UnitedHealth Group, Regeneron Pharmaceuticals |
+| 11-02 12:54 | CVX |  | 'Freight Surge Pushes Venezuelan Oil Exports to Eight-Month Low' - Bloomberg |
+| 11-02 12:48 | AMD INTC |  | AMD Q3 Preview: Expert Says ‘Growth Story Remains Impressive,’ Can Earnings Send Stock Back to Highs? |
 | 11-02 12:10 | NVDA |  | CrowdStrike, Dell Introduce Integrated Security Tool For Dell AI Factory For Clients To Use CrowdStrike Falcon Platform Alongside Dell AI Infrastructure, Nvidia Accelerated Computing |
 | 11-02 12:06 | GOOGL |  | Google Reaches An Agreement With Prospect Union, Granting The Union The Right To Represent And Speak To Google Employees In The UK |
 | 11-02 12:04 | TSLA |  | Italy Transport Ministry Says Tesla New Car Registrations In Italy Up 94.14% YoY In October |
