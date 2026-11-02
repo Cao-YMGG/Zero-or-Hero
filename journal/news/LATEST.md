@@ -1,9 +1,12 @@
-# Headlines since 2026-10-30 16:00 ET (as of 2026-11-02 16:55 ET)
+# Headlines since 2026-10-30 16:00 ET (as of 2026-11-02 17:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-02 17:07 | BAC | target down | UBS Maintains Buy on Bank of America, Lowers Price Target to $62 |
+| 11-02 16:58 | JPM | target up | UBS Maintains Buy on JPMorgan Chase, Raises Price Target to $400 |
+| 11-02 16:54 | XOM | target up | UBS Maintains Buy on ExxonMobil Holdings, Raises Price Target to $213 |
 | 11-02 16:41 | CVX | target up | UBS Maintains Buy on Chevron, Raises Price Target to $265 |
 | 11-02 16:31 | INTC | downgrade | GF Securities Downgrades Intel Price Target Following Q4 Outlook |
 | 11-02 16:31 | AMZN | upgrade | Phillip Securities Upgrades Amazon to Buy |
@@ -46,6 +49,11 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-30 17:31 | HOOD | rating | Truist Securities Maintains Buy Rating on Robinhood Markets, Adjusts Price Target |
 | 10-30 17:31 | AVGO | downgrade | William Blair Downgrades Broadcom to Market Perform |
 | 10-30 17:08 | GOOGL | target down | Citigroup Maintains Buy on Alphabet, Lowers Price Target to $375 |
+| 11-02 17:12 | AAPL |  | Apple CEO Says Apple Grew In Most Markets During 4q; iPhone Remains At Center Of Opportunity |
+| 11-02 17:11 | AAPL |  | Apple CEO Says Siri AI Marks New Chapter In AI At Apple |
+| 11-02 17:05 | PLTR |  | Palantir Exec Says Q3 Average Trailing 12-month Revenue From Our Top 20 Customers Increased 76% YoY To $146M Per Customer |
+| 11-02 17:02 | AAPL |  | Apple CEO John Ternus Says In Reuters Interview iPhone, Mac And iPad Price Increases, Carried Inventory And Lower Non-Memory Costs Helped Offset Rising Memory-Chip Prices |
+| 11-02 17:02 | AAPL |  | Apple CEO John Ternus Says In Reuters Interview iPhone Duo Is Supply-Constrained, No Estimate For When Supply Will Meet Demand |
 | 11-02 16:49 | AAPL |  | Apple Tops Expectations in Q4 as Active Installed Base Hits All-Time High |
 | 11-02 16:44 | AAPL |  | Apple CFO Says Our Installed Base Of Active Devices Reached A New All-Time High Across All Major Product Categories And Geographic Segments |
 | 11-02 16:35 | AAPL |  | CORRECTION: Apple Reports FY2026 Regional Revenue Growth Across Americas $48.680B; Europe $32.008B; Greater China $17.539B; Japan $6.540B; Rest Of Asia Pacific $9.71B |

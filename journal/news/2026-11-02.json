@@ -1,7 +1,87 @@
 {
- "as_of": "2026-11-02T16:55-05:00",
+ "as_of": "2026-11-02T17:16-05:00",
  "since": "2026-10-30T16:00-04:00",
  "headlines": [
+  {
+   "time": "11-02 17:12",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple CEO Says Apple Grew In Most Markets During 4q; iPhone Remains At Center Of Opportunity",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62803238/apple-ceo-says-apple-grew-most-markets-during-4q-iphone-remains-center-opportunity"
+  },
+  {
+   "time": "11-02 17:11",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple CEO Says Siri AI Marks New Chapter In AI At Apple",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62803189/apple-ceo-says-siri-ai-marks-new-chapter-ai-apple"
+  },
+  {
+   "time": "11-02 17:07",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "target down",
+   "headline": "UBS Maintains Buy on Bank of America, Lowers Price Target to $62",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62803079/ubs-maintains-buy-bank-america-lowers-price-target-62"
+  },
+  {
+   "time": "11-02 17:05",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir Exec Says Q3 Average Trailing 12-month Revenue From Our Top 20 Customers Increased 76% YoY To $146M Per Customer",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62802896/palantir-exec-says-q3-average-trailing-12-month-revenue-our-top-20-customers-increased-76-yoy-146m-c"
+  },
+  {
+   "time": "11-02 17:02",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple CEO John Ternus Says In Reuters Interview iPhone, Mac And iPad Price Increases, Carried Inventory And Lower Non-Memory Costs Helped Offset Rising Memory-Chip Prices",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AAPL"
+  },
+  {
+   "time": "11-02 17:02",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple CEO John Ternus Says In Reuters Interview iPhone Duo Is Supply-Constrained, No Estimate For When Supply Will Meet Demand",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AAPL"
+  },
+  {
+   "time": "11-02 16:58",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "target up",
+   "headline": "UBS Maintains Buy on JPMorgan Chase, Raises Price Target to $400",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62802352/ubs-maintains-buy-jpmorgan-chase-raises-price-target-400"
+  },
+  {
+   "time": "11-02 16:54",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "target up",
+   "headline": "UBS Maintains Buy on ExxonMobil Holdings, Raises Price Target to $213",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62802188/ubs-maintains-buy-exxonmobil-holdings-raises-price-target-213"
+  },
   {
    "time": "11-02 16:49",
    "symbols": [
