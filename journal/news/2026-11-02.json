@@ -1,7 +1,58 @@
 {
- "as_of": "2026-11-02T11:32-05:00",
+ "as_of": "2026-11-02T12:03-05:00",
  "since": "2026-10-30T16:00-04:00",
  "headlines": [
+  {
+   "time": "11-02 11:47",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Portugal's New Registrations Of Tesla Cars Rise 186.1% In October YoY, Up 62.5% In January-October",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62786129/portugal-s-new-registrations-tesla-cars-rise-186-1-october-yoy-62-5-january-october"
+  },
+  {
+   "time": "11-02 11:37",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "'Meta Readies Cross-Border Investment Bond Offering' - Bloomberg",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62785788/meta-readies-cross-border-investment-bond-offering-bloomberg"
+  },
+  {
+   "time": "11-02 11:36",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "These Analysts Boost Their Forecasts On ExxonMobil After Upbeat Q3 Results",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62785682/these-analysts-boost-their-forecasts-on-exxonmobil-after-upbeat-q3-results"
+  },
+  {
+   "time": "11-02 11:35",
+   "symbols": [
+    "LITE"
+   ],
+   "rating": "",
+   "headline": "QUICK SPARK: Marvell Stock Eyes Worst 3-Day Drop Since September 2001",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62785648/marvell-stock-worst-3-day-drop-since-september-2001-lumentum"
+  },
+  {
+   "time": "11-02 11:30",
+   "symbols": [
+    "COIN",
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "'Big Short' Investor Steve Eisman Faces Viewer Backlash Over Kalshi Ad: 'You're Better Than That'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62785366/eisman-kalshi-backlash"
+  },
   {
    "time": "11-02 11:20",
    "symbols": [

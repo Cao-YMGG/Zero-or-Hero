@@ -14,8 +14,8 @@
         "entry_price": 0.58,
         "peak": 0.68,
         "qty": 1,
-        "last": 0.16,
-        "last_time": "2026-11-02T11:32:47-05:00"
+        "last": 0.13,
+        "last_time": "2026-11-02T12:03:12-05:00"
       }
     },
     "rebound_scanner": {},
@@ -32,8 +32,8 @@
         "entry_price": 0.45,
         "peak": 0.61,
         "qty": 2,
-        "last": 0.17,
-        "last_time": "2026-11-02T11:32:47-05:00"
+        "last": 0.08,
+        "last_time": "2026-11-02T12:03:12-05:00"
       },
       "real": {
         "contract": "AMZN261102C00255000",
@@ -53,8 +53,8 @@
         "entry_price": 0.45,
         "peak": 0.61,
         "qty": 2,
-        "last": 0.17,
-        "last_time": "2026-11-02T11:32:47-05:00"
+        "last": 0.08,
+        "last_time": "2026-11-02T12:03:12-05:00"
       }
     },
     "spy_open_drive": {},

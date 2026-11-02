@@ -1,4 +1,4 @@
-# Headlines since 2026-10-30 16:00 ET (as of 2026-11-02 11:32 ET)
+# Headlines since 2026-10-30 16:00 ET (as of 2026-11-02 12:03 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -35,6 +35,11 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-30 17:31 | HOOD | rating | Truist Securities Maintains Buy Rating on Robinhood Markets, Adjusts Price Target |
 | 10-30 17:31 | AVGO | downgrade | William Blair Downgrades Broadcom to Market Perform |
 | 10-30 17:08 | GOOGL | target down | Citigroup Maintains Buy on Alphabet, Lowers Price Target to $375 |
+| 11-02 11:47 | TSLA |  | Portugal's New Registrations Of Tesla Cars Rise 186.1% In October YoY, Up 62.5% In January-October |
+| 11-02 11:37 | META |  | 'Meta Readies Cross-Border Investment Bond Offering' - Bloomberg |
+| 11-02 11:36 | XOM |  | These Analysts Boost Their Forecasts On ExxonMobil After Upbeat Q3 Results |
+| 11-02 11:35 | LITE |  | QUICK SPARK: Marvell Stock Eyes Worst 3-Day Drop Since September 2001 |
+| 11-02 11:30 | COIN HOOD |  | 'Big Short' Investor Steve Eisman Faces Viewer Backlash Over Kalshi Ad: 'You're Better Than That' |
 | 11-02 11:20 | NVDA |  | Elon Musk's SpaceX Plan Swallows Nvidia's Entire $300 Billion Growth Forecast — And Then Some |
 | 11-02 11:08 | CVX |  | Chevron Analysts Raise Their Forecasts After Better-Than-Expected Q3 Earnings |
 | 11-02 11:02 | BAC |  | UBS Cuts Price Target on Bank of America to $62 From $67 |
