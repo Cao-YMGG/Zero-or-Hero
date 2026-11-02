@@ -1,7 +1,67 @@
 {
- "as_of": "2026-11-02T14:46-05:00",
+ "as_of": "2026-11-02T15:16-05:00",
  "since": "2026-10-30T16:00-04:00",
  "headlines": [
+  {
+   "time": "11-02 15:04",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "'Robinhood in \u2018Food Fight\u2019 for Anthropic IPO Retail Allocation' - Bloomberg Exclusive",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62794198/robinhood-food-fight-anthropic-ipo-retail-allocation-bloomberg-exclusive"
+  },
+  {
+   "time": "11-02 15:01",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "target up",
+   "headline": "Evercore ISI Group Maintains Outperform Rating and Raises ExxonMobil Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:504b3783c874f:0-evercore-isi-group-maintains-exxonmobil-holdings-at-outperform-raises-price-target-to-200-from-185/"
+  },
+  {
+   "time": "11-02 15:01",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Jackery Launches Exclusive Explorer 100D Power Station Bundle at Costco",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/02/3393569/0/en/introducing-jackery-explorer-100d-the-long-term-mobile-productivity-partner-redefining-portable-power-stations-on-the-ground-over-the-road-and-in-the-air.html"
+  },
+  {
+   "time": "11-02 15:01",
+   "symbols": [
+    "V"
+   ],
+   "rating": "target up",
+   "headline": "Cantor Fitzgerald Raises Visa Price Target to $500",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/gurufocus:4ab5d784c094b:0-visa-stocks-rise-2-4-with-higher-cantor-target-facing-a-payments-mix-test/"
+  },
+  {
+   "time": "11-02 15:01",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "GE Aerospace Continues Negotiations with India for F414-INS6 Engine Production",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:7e5e429054ddb:0-weekly-recap-shares-gain-orders-grow-and-india-engine-talks-continue/"
+  },
+  {
+   "time": "11-02 15:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Jensen Huang Addresses CoreWeave Financial Position",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:70bca6fb36e66:0-weekly-recap-danish-data-center-expansion-and-nvidia-capacity-purchase/"
+  },
   {
    "time": "11-02 14:27",
    "symbols": [

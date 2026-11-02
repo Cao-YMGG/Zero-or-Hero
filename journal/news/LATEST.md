@@ -1,9 +1,11 @@
-# Headlines since 2026-10-30 16:00 ET (as of 2026-11-02 14:46 ET)
+# Headlines since 2026-10-30 16:00 ET (as of 2026-11-02 15:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-02 15:01 | XOM | target up | Evercore ISI Group Maintains Outperform Rating and Raises ExxonMobil Price Target |
+| 11-02 15:01 | V | target up | Cantor Fitzgerald Raises Visa Price Target to $500 |
 | 11-02 14:04 | SNDK | downgrade | Fox Advisors Downgrades SanDisk to Equal-Weight |
 | 11-02 14:01 | CVX | target up | Wells Fargo Raises Chevron Price Target to $268 |
 | 11-02 12:35 | XOM | target up | Morgan Stanley Maintains Overweight on ExxonMobil Holdings, Raises Price Target to $187 |
@@ -40,6 +42,10 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 10-30 17:31 | HOOD | rating | Truist Securities Maintains Buy Rating on Robinhood Markets, Adjusts Price Target |
 | 10-30 17:31 | AVGO | downgrade | William Blair Downgrades Broadcom to Market Perform |
 | 10-30 17:08 | GOOGL | target down | Citigroup Maintains Buy on Alphabet, Lowers Price Target to $375 |
+| 11-02 15:04 | HOOD |  | 'Robinhood in ‘Food Fight’ for Anthropic IPO Retail Allocation' - Bloomberg Exclusive |
+| 11-02 15:01 | COST |  | Jackery Launches Exclusive Explorer 100D Power Station Bundle at Costco |
+| 11-02 15:01 | GE |  | GE Aerospace Continues Negotiations with India for F414-INS6 Engine Production |
+| 11-02 15:01 | NVDA |  | Jensen Huang Addresses CoreWeave Financial Position |
 | 11-02 14:27 | AAPL GOOGL |  | Apple’s Hidden Google Problem Could Cost It Billions |
 | 11-02 14:02 | COIN |  | Keefe Bruyette & Woods and Rothschild & Co Redburn Adjust Coinbase Price Targets |
 | 11-02 14:02 | RKLB |  | Rocket Lab Updates Space Development Agency Program Value and Neutron Timeline |
