@@ -1,34 +1,35 @@
 {
-  "date": "2026-11-02",
-  "done": true,
+  "date": "2026-11-03",
+  "done": false,
   "variants": {
     "claude_bias": {},
     "meta_follow2": {},
     "leader_follow": {
       "attempts": 1,
       "entered": true,
-      "closed": true
+      "shadow": {
+        "contract": "ORCL261106C00134000",
+        "direction": "call",
+        "entry_time": "2026-11-03T09:48:12-05:00",
+        "entry_price": 0.86,
+        "peak": 0.89,
+        "qty": 1,
+        "last": 0.89,
+        "last_time": "2026-11-03T10:02:24-05:00"
+      }
     },
     "rebound_scanner": {},
-    "rebound_scanner_wide": {},
     "nvda_gapdown_put": {},
     "catalyst_open": {},
-    "catalyst_intraday": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "catalyst_intraday_arm2": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
+    "catalyst_open_hero": {},
+    "catalyst_intraday": {},
+    "catalyst_intraday_hero": {},
     "spy_open_drive": {},
     "spy_open_drive_wide": {},
     "stock_open_drive": {}
   },
   "generation": 1,
-  "equity_start": 542.2099999999991,
+  "equity_start": 458.0199999999968,
   "phase": "zero-or-hero",
   "risk_per_trade": 0.2,
   "champion": "rebound_scanner",
@@ -48,8 +49,5 @@
       "generation": 1,
       "paused": false
     }
-  },
-  "real_underlyings": [
-    "AMZN"
-  ]
+  }
 }

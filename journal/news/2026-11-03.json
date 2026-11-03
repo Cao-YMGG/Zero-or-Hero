@@ -1,7 +1,398 @@
 {
- "as_of": "2026-11-03T07:43-05:00",
+ "as_of": "2026-11-03T10:02-05:00",
  "since": "2026-11-02T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-03 09:58",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Venezuela's Oil Exports Almost Unchanged At 1.08M Barrels/Day In Oct; Venezuela's Oil Exports To U.S. Fell To 449,000 Barrels/Day In Oct; Venezuela's Oil Exports To Europe Increased To Some 235,000 Barrels/Day In Oct; Chevron's Exports Of Venezuelan Crude Up To Some 303,000 Barrels/Day, Traders Exported 506,000 Barrels/Day",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62824494/venezuela-s-oil-exports-almost-unchanged-1-08m-barrels-day-oct-venezuela-s-oil-exports-u-s-fell-449-"
+  },
+  {
+   "time": "11-03 09:54",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Sees 66% Chance of Blue Sweep: What Does It Mean for Crypto?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62824244/jpmorgan-sees-66-chance-of-blue-sweep-what-does-it-mean-for-crypto"
+  },
+  {
+   "time": "11-03 09:36",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Has 40% Upside, Joseph Carlson Says: 'One of the Best Opportunities'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62822769/amazon-40-upside"
+  },
+  {
+   "time": "11-03 09:32",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Reportedly Launches 5-Part US Dollar Bond Offering",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/meta-launches-5-part-us-dollar-bond-offering-bloomberg-reports-ce785fded88aff2c"
+  },
+  {
+   "time": "11-03 09:32",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "The Goldman Sachs Group, Inc. Files Major Holdings Notification for ASOS PLC",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-11-03:newsml_RSC6350Ba:0-reg-asos-plc-goldman-sachs-group-holding-s-in-company/"
+  },
+  {
+   "time": "11-03 09:32",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Iraq Reaches Agreement with Chevron on West Qurna-2 Oilfield",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/flash/1003330518/iraqi-oil-minister-says-agreements-with-us-chevron-reached-over"
+  },
+  {
+   "time": "11-03 09:32",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Evercore ISI Adjusts Price Target on Chevron to $250 From $225",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/evercore-isi-adjusts-price-target-on-chevron-to-250-from-225-ce785fded989f72d"
+  },
+  {
+   "time": "11-03 09:32",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "ARK Invest Purchases Coinbase Shares",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/cointelegraph:51dc1194a094b:0-ark-buys-17m-in-coinbase-circle-shares-while-trimming-bullish/"
+  },
+  {
+   "time": "11-03 09:32",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "upgrade",
+   "headline": "HSBC Upgrades GE Vernova to Buy; Argus Research Adjusts Price Target",
+   "source": "fiscal.ai",
+   "url": "https://traderzeitung.de/newsticker/mtnewswires/research-alert-hsbc-stuft-ge-vernova-von-halten-auf-kaufen-hoch-kursziel-1100-us-dollar-145562.html"
+  },
+  {
+   "time": "11-03 09:31",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "rating",
+   "headline": "Cantor Fitzgerald Maintains Buy Rating on Robinhood Markets",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8613358/robinhood-markets-stock-is-wall-street-bullish-or-bearish"
+  },
+  {
+   "time": "11-03 09:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Releases Analysis of 383,000 Security Vulnerabilities",
+   "source": "fiscal.ai",
+   "url": "https://gbhackers.com/383000-vulnerabilities-analyzed/"
+  },
+  {
+   "time": "11-03 09:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Research Solutions Integrates Scite and Article Galaxy with Microsoft Copilot",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261103la87367/research-solutions-brings-scite-article-galaxy-to-microsoft-copilot"
+  },
+  {
+   "time": "11-03 09:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Kenmore Floor Care Expands Retail Presence to Walmart Stores",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/kenmore-floor-care-expands-nationwide-retail-presence-with-launch-in-more-than-1-500-walmart-stores-302927841.html"
+  },
+  {
+   "time": "11-03 09:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Hostess Launches Stuffed Coffee Cakes Exclusively at Walmart",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/hostess-kicks-off-the-holidays-with-a-fresh-lineup-of-baked-snacks-to-enjoy-all-season-long-302927347.html"
+  },
+  {
+   "time": "11-03 09:31",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank of America Names Josh Barnes as Knoxville Market President",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/bank-of-america-names-josh-barnes-as-knoxville-market-president-302927377.html"
+  },
+  {
+   "time": "11-03 09:31",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "Samsung Reportedly Secures AMD Orders for New Texas Chip Plant",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/stocktwits:5da196291094b:0-amd-nvidia-could-join-tesla-on-samsung-s-texas-chip-plant-customer-list-report/"
+  },
+  {
+   "time": "11-03 09:31",
+   "symbols": [
+    "HD"
+   ],
+   "rating": "",
+   "headline": "The Home Depot Announces Third Quarter 2026 Earnings Conference Call",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261103cl86981/the-home-depot-to-host-third-quarter-earnings-conference-call-on-november-17"
+  },
+  {
+   "time": "11-03 09:31",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Bio-K+ Expands Professional-Grade Pro Line to Costco.ca",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.ca/news-releases/bio-k-expands-north-american-retail-footprint-strengthening-growth-and-category-leadership-842831989.html"
+  },
+  {
+   "time": "11-03 09:31",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Beam Therapeutics Reports Milestone Payment from Eli Lilly",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/urn:summary_document_report:quartr.com:3960141:0-beam-clinical-progress-in-beam-302-and-beam-301-amid-widening-losses-and-a-1-0b-liquidity-base/"
+  },
+  {
+   "time": "11-03 09:24",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "'Meta Seeks $15 Billion From US Dollar Portion of Bond Offering' - Bloomberg",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62821810/meta-seeks-15-billion-us-dollar-portion-bond-offering-bloomberg"
+  },
+  {
+   "time": "11-03 09:22",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "target down",
+   "headline": "Argus Research Maintains Buy on GE Vernova, Lowers Price Target to $1100",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62821566/argus-research-maintains-buy-ge-vernova-lowers-price-target-1100"
+  },
+  {
+   "time": "11-03 09:18",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "target up",
+   "headline": "Argus Research Maintains Buy on Apple, Raises Price Target to $400",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62821162/argus-research-maintains-buy-apple-raises-price-target-400"
+  },
+  {
+   "time": "11-03 09:14",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "target up",
+   "headline": "Barclays Maintains Underweight on Apple, Raises Price Target to $261",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62820887/barclays-maintains-underweight-apple-raises-price-target-261"
+  },
+  {
+   "time": "11-03 09:11",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Deloitte Expands Oracle Alliance With New Business Group Focused On AI, Cloud Infrastructure, Data, Cybersecurity And Managed Services",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62820727/deloitte-expands-oracle-alliance-new-business-group-focused-ai-cloud-infrastructure-data-cybersecuri"
+  },
+  {
+   "time": "11-03 09:09",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "target down",
+   "headline": "TD Cowen Maintains Buy on Apple, Lowers Price Target to $390",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62820652/td-cowen-maintains-buy-apple-lowers-price-target-390"
+  },
+  {
+   "time": "11-03 09:05",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "SambaNova Signing Partnership With Supermicro For 10K SN50 RDU Chips",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62820219/sambanova-signing-partnership-supermicro-10k-sn50-rdu-chips"
+  },
+  {
+   "time": "11-03 09:01",
+   "symbols": [
+    "TSM"
+   ],
+   "rating": "",
+   "headline": "ARK Invest Reduces Position in TSMC",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/gurufocus:a6bd1e2b0094b:0-cathie-wood-just-sold-24-6-million-of-surging-chip-stock/"
+  },
+  {
+   "time": "11-03 09:00",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "target up",
+   "headline": "DA Davidson Maintains Neutral on Apple, Raises Price Target to $295",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62819832/da-davidson-maintains-neutral-apple-raises-price-target-295"
+  },
+  {
+   "time": "11-03 08:58",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "target up",
+   "headline": "RBC Capital Maintains Underperform on Palantir Technologies, Raises Price Target to $130",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62819533/rbc-capital-maintains-underperform-palantir-technologies-raises-price-target-130"
+  },
+  {
+   "time": "11-03 08:55",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Dan Ives Says Palantir Is Answering AI's Biggest Question: Where's the Money?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/62819370/palantir-ai-monetization"
+  },
+  {
+   "time": "11-03 08:51",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia Tightens the Screws on China's AI Access \u2014 Cloud Partners Worldwide Must Restrict Chinese Customers Under New Revenue Rule: Report (UPDATED)",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62808888/nvidia-tightens-the-screws-on-chinas-ai-access-cloud-partners-worldwide-must-restrict-chinese-customers-under-new-revenue-rule-report"
+  },
+  {
+   "time": "11-03 08:49",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD Stock Reports Earnings Today: Here\u2019s What Investors Need to Know",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62818959/amd-stock-reports-earnings-today-heres-what-investors-need-to-know"
+  },
+  {
+   "time": "11-03 08:49",
+   "symbols": [
+    "LITE"
+   ],
+   "rating": "target down",
+   "headline": "Susquehanna Maintains Positive on Lumentum Holdings, Lowers Price Target to $950",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62818938/susquehanna-maintains-positive-lumentum-holdings-lowers-price-target-950"
+  },
+  {
+   "time": "11-03 08:47",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "rating",
+   "headline": "Keybanc Reiterates Underweight on Apple, Maintains $250 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62818841/keybanc-reiterates-underweight-apple-maintains-250-price-target"
+  },
+  {
+   "time": "11-03 08:39",
+   "symbols": [
+    "AMD",
+    "META"
+   ],
+   "rating": "",
+   "headline": "AMD Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62818555/amd-earnings-are-imminent-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call-2"
+  },
+  {
+   "time": "11-03 08:11",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Owns a $6.2 Billion Piece of Anthropic's AI Boom \u2014 Here's What's at Stake",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/ipos/26/11/62817121/amazon-anthropic-investment-ipo"
+  },
+  {
+   "time": "11-03 08:02",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Adjusts Price Target on Exelon Corporation",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-price-target-on-exelon-to-45-from-44-ce785fded98bff2d"
+  },
+  {
+   "time": "11-03 08:01",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "ARK Invest Increases Stake in Robinhood Markets",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/cointelegraph:2a3f7eed2b858:0/"
+  },
+  {
+   "time": "11-03 07:44",
+   "symbols": [
+    "LITE"
+   ],
+   "rating": "target down",
+   "headline": "Rosenblatt Maintains Buy on Lumentum Holdings, Lowers Price Target to $900",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62815853/rosenblatt-maintains-buy-lumentum-holdings-lowers-price-target-900"
+  },
   {
    "time": "11-03 07:34",
    "symbols": [
@@ -261,16 +652,6 @@
    "headline": "Apple Is the 'Mack Daddy' of Tech, Says Longtime Bull Who Defends Its Steep Valuation",
    "source": "benzinga",
    "url": "https://www.benzinga.com/markets/tech/26/11/62809108/apple-is-the-mack-daddy-of-tech-says-longtime-bull-who-defends-its-steep-valuation"
-  },
-  {
-   "time": "11-03 05:41",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "Nvidia Tightens the Screws on China's AI Access \u2014 Cloud Partners Worldwide Must Restrict Chinese Customers Under New Revenue Rule: Report",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/62808888/nvidia-tightens-the-screws-on-chinas-ai-access-cloud-partners-worldwide-must-restrict-chinese-customers-under-new-revenue-rule-report"
   },
   {
    "time": "11-03 05:40",

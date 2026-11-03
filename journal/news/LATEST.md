@@ -1,9 +1,20 @@
-# Headlines since 2026-11-02 16:00 ET (as of 2026-11-03 07:43 ET)
+# Headlines since 2026-11-02 16:00 ET (as of 2026-11-03 10:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-03 09:32 | GEV | upgrade | HSBC Upgrades GE Vernova to Buy; Argus Research Adjusts Price Target |
+| 11-03 09:31 | HOOD | rating | Cantor Fitzgerald Maintains Buy Rating on Robinhood Markets |
+| 11-03 09:22 | GEV | target down | Argus Research Maintains Buy on GE Vernova, Lowers Price Target to $1100 |
+| 11-03 09:18 | AAPL | target up | Argus Research Maintains Buy on Apple, Raises Price Target to $400 |
+| 11-03 09:14 | AAPL | target up | Barclays Maintains Underweight on Apple, Raises Price Target to $261 |
+| 11-03 09:09 | AAPL | target down | TD Cowen Maintains Buy on Apple, Lowers Price Target to $390 |
+| 11-03 09:00 | AAPL | target up | DA Davidson Maintains Neutral on Apple, Raises Price Target to $295 |
+| 11-03 08:58 | PLTR | target up | RBC Capital Maintains Underperform on Palantir Technologies, Raises Price Target to $130 |
+| 11-03 08:49 | LITE | target down | Susquehanna Maintains Positive on Lumentum Holdings, Lowers Price Target to $950 |
+| 11-03 08:47 | AAPL | rating | Keybanc Reiterates Underweight on Apple, Maintains $250 Price Target |
+| 11-03 07:44 | LITE | target down | Rosenblatt Maintains Buy on Lumentum Holdings, Lowers Price Target to $900 |
 | 11-03 07:34 | COIN | target down | Keefe, Bruyette & Woods Maintains Outperform on Coinbase Global, Lowers Price Target to $221 |
 | 11-03 07:31 | ORCL | rating | Morgan Stanley Maintains Hold Rating on Oracle |
 | 11-03 07:00 | AAPL | upgrade | Apple’s Siri AI Could Become a Paid Upgrade — CEO John Ternus Reveals Plans to Charge for More Server-Side Apple Intelligence Usage |
@@ -21,6 +32,34 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-02 16:41 | CVX | target up | UBS Maintains Buy on Chevron, Raises Price Target to $265 |
 | 11-02 16:31 | INTC | downgrade | GF Securities Downgrades Intel Price Target Following Q4 Outlook |
 | 11-02 16:31 | AMZN | upgrade | Phillip Securities Upgrades Amazon to Buy |
+| 11-03 09:58 | CVX |  | Venezuela's Oil Exports Almost Unchanged At 1.08M Barrels/Day In Oct; Venezuela's Oil Exports To U.S. Fell To 449,000 Barrels/Day In Oct; Venezuela's Oil Exports To Europe Increased To Some 235,000 Barrels/Day In Oct; Chevron's Exports Of Venezuelan Crude Up To Some 303,000 Barrels/Day, Traders Exported 506,000 Barrels/Day |
+| 11-03 09:54 | JPM |  | JPMorgan Sees 66% Chance of Blue Sweep: What Does It Mean for Crypto? |
+| 11-03 09:36 | AMZN |  | Amazon Has 40% Upside, Joseph Carlson Says: 'One of the Best Opportunities' |
+| 11-03 09:32 | META |  | Meta Reportedly Launches 5-Part US Dollar Bond Offering |
+| 11-03 09:32 | GS |  | The Goldman Sachs Group, Inc. Files Major Holdings Notification for ASOS PLC |
+| 11-03 09:32 | CVX |  | Iraq Reaches Agreement with Chevron on West Qurna-2 Oilfield |
+| 11-03 09:32 | CVX |  | Evercore ISI Adjusts Price Target on Chevron to $250 From $225 |
+| 11-03 09:32 | COIN |  | ARK Invest Purchases Coinbase Shares |
+| 11-03 09:31 | MSFT |  | Microsoft Releases Analysis of 383,000 Security Vulnerabilities |
+| 11-03 09:31 | MSFT |  | Research Solutions Integrates Scite and Article Galaxy with Microsoft Copilot |
+| 11-03 09:31 | WMT |  | Kenmore Floor Care Expands Retail Presence to Walmart Stores |
+| 11-03 09:31 | WMT |  | Hostess Launches Stuffed Coffee Cakes Exclusively at Walmart |
+| 11-03 09:31 | BAC |  | Bank of America Names Josh Barnes as Knoxville Market President |
+| 11-03 09:31 | AMD |  | Samsung Reportedly Secures AMD Orders for New Texas Chip Plant |
+| 11-03 09:31 | HD |  | The Home Depot Announces Third Quarter 2026 Earnings Conference Call |
+| 11-03 09:31 | COST |  | Bio-K+ Expands Professional-Grade Pro Line to Costco.ca |
+| 11-03 09:31 | LLY |  | Beam Therapeutics Reports Milestone Payment from Eli Lilly |
+| 11-03 09:24 | META |  | 'Meta Seeks $15 Billion From US Dollar Portion of Bond Offering' - Bloomberg |
+| 11-03 09:11 | ORCL |  | Deloitte Expands Oracle Alliance With New Business Group Focused On AI, Cloud Infrastructure, Data, Cybersecurity And Managed Services |
+| 11-03 09:05 | SMCI |  | SambaNova Signing Partnership With Supermicro For 10K SN50 RDU Chips |
+| 11-03 09:01 | TSM |  | ARK Invest Reduces Position in TSMC |
+| 11-03 08:55 | PLTR |  | Dan Ives Says Palantir Is Answering AI's Biggest Question: Where's the Money? |
+| 11-03 08:51 | NVDA |  | Nvidia Tightens the Screws on China's AI Access — Cloud Partners Worldwide Must Restrict Chinese Customers Under New Revenue Rule: Report (UPDATED) |
+| 11-03 08:49 | AMD |  | AMD Stock Reports Earnings Today: Here’s What Investors Need to Know |
+| 11-03 08:39 | AMD META |  | AMD Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call |
+| 11-03 08:11 | AMZN |  | Amazon Owns a $6.2 Billion Piece of Anthropic's AI Boom — Here's What's at Stake |
+| 11-03 08:02 | GS |  | Goldman Sachs Adjusts Price Target on Exelon Corporation |
+| 11-03 08:01 | HOOD |  | ARK Invest Increases Stake in Robinhood Markets |
 | 11-03 07:31 | BAC |  | Bank of America Corporation Publishes Supplementary Prospectus |
 | 11-03 07:20 | PLTR |  | These Analysts Revise Their Forecasts On Palantir After Q3 Results |
 | 11-03 07:10 | NFLX |  | Disney Targets Thousands of Jobs in Fresh Cost-Cutting Blitz: Report |
@@ -40,7 +79,6 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-03 06:24 | PLTR |  | Why Is Palantir Technologies Stock Falling Tuesday? |
 | 11-03 06:01 | ORCL |  | Oracle Turns to Wall Street for $20 Billion to Bankroll Its AI Boom |
 | 11-03 05:48 | AAPL |  | Apple Is the 'Mack Daddy' of Tech, Says Longtime Bull Who Defends Its Steep Valuation |
-| 11-03 05:41 | NVDA |  | Nvidia Tightens the Screws on China's AI Access — Cloud Partners Worldwide Must Restrict Chinese Customers Under New Revenue Rule: Report |
 | 11-03 05:32 | TSLA |  | 'Paid Far More in Taxes': Elon Musk Fires Back at Democrat Nominee James Talarico Over Tesla's $465 Million Government Loan |
 | 11-03 05:25 | AAPL META |  | 'Throwback to 1984:' Apple's Mac Business Just Surged 24% — Top Analyst Says the Real Boom Is Only Getting Started |
 | 11-03 05:16 | NVDA |  | SPCX CEO Elon Musk Says Cooling AI Data Centers in Space Is 'Much Easier' — Here's How His Plan Could Work |
