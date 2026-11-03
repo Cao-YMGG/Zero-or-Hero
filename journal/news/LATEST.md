@@ -1,4 +1,4 @@
-# Headlines since 2026-11-02 16:00 ET (as of 2026-11-03 12:33 ET)
+# Headlines since 2026-11-02 16:00 ET (as of 2026-11-03 13:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -38,6 +38,10 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-02 16:41 | CVX | target up | UBS Maintains Buy on Chevron, Raises Price Target to $265 |
 | 11-02 16:31 | INTC | downgrade | GF Securities Downgrades Intel Price Target Following Q4 Outlook |
 | 11-02 16:31 | AMZN | upgrade | Phillip Securities Upgrades Amazon to Buy |
+| 11-03 13:00 | AMZN |  | CNBC Halftime Report Final Trades: BlackRock, Eaton, Pfizer, Amazon |
+| 11-03 12:58 | MSFT ORCL |  | 'Hollywood backs NYT in AI copyright battle versus OpenAI, Microsoft' - Axios |
+| 11-03 12:35 | META |  | 3 Communication Services Stocks With Whale Alerts In Today’s Session |
+| 11-03 12:32 | AAPL TSLA |  | Chinese Tape Maker Soars 787% in Market Debut as Beijing Moves to Halt New IPO Filings |
 | 11-03 12:05 | AVGO LITE |  | Marvell Stock Takes Two Hits in One Morning: Both Blame the Lumentum Deal |
 | 11-03 12:05 | PLTR |  | Palantir Stock Splits Wall Street as Bookings Cool and Revenue Soars |
 | 11-03 12:03 | GOOGL |  | Reported Earlier: 'Google Will Turn Off Search For Schools That Reject A.I.; Google Is Making It Easier To Restrict Its A.I. Tools For Students. But Schools That Block A.I. Entirely Will Lose Student Access To Google’s Search Engine' - NY Times |

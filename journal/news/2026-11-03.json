@@ -1,7 +1,49 @@
 {
- "as_of": "2026-11-03T12:33-05:00",
+ "as_of": "2026-11-03T13:16-05:00",
  "since": "2026-11-02T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-03 13:00",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "CNBC Halftime Report Final Trades: BlackRock, Eaton, Pfizer, Amazon",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/BLK"
+  },
+  {
+   "time": "11-03 12:58",
+   "symbols": [
+    "MSFT",
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "'Hollywood backs NYT in AI copyright battle versus OpenAI, Microsoft' - Axios",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62834212/hollywood-backs-nyt-ai-copyright-battle-versus-openai-microsoft-axios"
+  },
+  {
+   "time": "11-03 12:35",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "3 Communication Services Stocks With Whale Alerts In Today\u2019s Session",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/options/26/11/62832967/3-communication-services-stocks-whale-alerts-today-s-session"
+  },
+  {
+   "time": "11-03 12:32",
+   "symbols": [
+    "AAPL",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Chinese Tape Maker Soars 787% in Market Debut as Beijing Moves to Halt New IPO Filings",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62832844/china-ipo-surge"
+  },
   {
    "time": "11-03 12:05",
    "symbols": [
