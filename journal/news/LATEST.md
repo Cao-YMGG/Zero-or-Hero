@@ -1,9 +1,11 @@
-# Headlines since 2026-11-02 16:00 ET (as of 2026-11-03 10:32 ET)
+# Headlines since 2026-11-02 16:00 ET (as of 2026-11-03 11:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-03 10:51 | LITE | target down | TD Cowen Maintains Hold on Lumentum Holdings, Lowers Price Target to $685 |
+| 11-03 10:49 | AAPL | target up | UBS Maintains Neutral on Apple, Raises Price Target to $340 |
 | 11-03 10:07 | AAPL AMZN | initiate | CNMC Initiates Sanction Proceedings Against Apple, Amazon; Companies Failed To Comply With Cease-And-Desist Order Imposed On Them In Sanctioning Resolution Of July 2023; Imposed Fines On Both Companies For Including Anti-Competitive Clauses In Contracts Governing The Terms And Conditions Of Amazon’s Role As An Apple Distributor |
 | 11-03 09:32 | GEV | upgrade | HSBC Upgrades GE Vernova to Buy; Argus Research Adjusts Price Target |
 | 11-03 09:31 | HOOD | rating | Cantor Fitzgerald Maintains Buy Rating on Robinhood Markets |
@@ -33,6 +35,15 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-02 16:41 | CVX | target up | UBS Maintains Buy on Chevron, Raises Price Target to $265 |
 | 11-02 16:31 | INTC | downgrade | GF Securities Downgrades Intel Price Target Following Q4 Outlook |
 | 11-02 16:31 | AMZN | upgrade | Phillip Securities Upgrades Amazon to Buy |
+| 11-03 11:01 | ORCL |  | Deloitte and Oracle Form Dedicated Business Group |
+| 11-03 11:01 | MSFT |  | HiBob Announces New Integrations with Microsoft Entra |
+| 11-03 11:01 | MSFT |  | Ontinue Launches MXDR Essentials for Microsoft Integrated Security Operations Center |
+| 11-03 11:01 | MSFT |  | Hyland Launches Integration for Microsoft Teams |
+| 11-03 11:01 | WMT |  | Bio-K+ Expands Pro Line Distribution to Walmart |
+| 11-03 11:01 | COST |  | Goodal Skincare Brand to Launch at Costco |
+| 11-03 11:01 | LLY |  | Eli Lilly Provides Update on Foundayo Development |
+| 11-03 10:53 | TSLA |  | QUICK SPARK: Elon Musk Says 'Vote Red' — SpaceX And Tesla Have Much To Gain |
+| 11-03 10:34 | AMZN GOOGL MSFT |  | Amazon, Google and Microsoft Are 'Absolute Jokes' Compared With SpaceX, Says Sequoia's Shaun Maguire |
 | 11-03 10:01 | AMZN |  | Amazon Web Services Signs Strategic Collaboration Agreement With Great Ormond Street Hospital To Advance AI, Cloud Computing And Digital Healthcare Innovation |
 | 11-03 09:58 | CVX |  | Venezuela's Oil Exports Almost Unchanged At 1.08M Barrels/Day In Oct; Venezuela's Oil Exports To U.S. Fell To 449,000 Barrels/Day In Oct; Venezuela's Oil Exports To Europe Increased To Some 235,000 Barrels/Day In Oct; Chevron's Exports Of Venezuelan Crude Up To Some 303,000 Barrels/Day, Traders Exported 506,000 Barrels/Day |
 | 11-03 09:54 | JPM |  | JPMorgan Sees 66% Chance of Blue Sweep: What Does It Mean for Crypto? |

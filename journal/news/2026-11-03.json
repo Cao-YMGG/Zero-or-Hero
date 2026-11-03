@@ -1,7 +1,119 @@
 {
- "as_of": "2026-11-03T10:32-05:00",
+ "as_of": "2026-11-03T11:02-05:00",
  "since": "2026-11-02T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-03 11:01",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Deloitte and Oracle Form Dedicated Business Group",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/deloitte-forms-us-oracle-business-group-to-power-end-to-end-enterprise-transformation-302927402.html"
+  },
+  {
+   "time": "11-03 11:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "HiBob Announces New Integrations with Microsoft Entra",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/03/3394138/0/en/hibob-delivers-trusted-organizational-intelligence-to-microsoft-entra-for-smarter-it-workflows.html"
+  },
+  {
+   "time": "11-03 11:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Ontinue Launches MXDR Essentials for Microsoft Integrated Security Operations Center",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/ontinue-extends-microsoft-isoc-with-247-managed-security-operations-through-new-mxdr-essentials-service-302927874.html"
+  },
+  {
+   "time": "11-03 11:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Hyland Launches Integration for Microsoft Teams",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/hyland-for-microsoft-teams-keeps-business-content-governed-where-work-happens-302925915.html"
+  },
+  {
+   "time": "11-03 11:01",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Bio-K+ Expands Pro Line Distribution to Walmart",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.ca/news-releases/bio-k-expands-north-american-retail-footprint-strengthening-growth-and-category-leadership-842831989.html"
+  },
+  {
+   "time": "11-03 11:01",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Goodal Skincare Brand to Launch at Costco",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/korean-skincare-brand-goodal-launches-at-growing-k-beauty-destination-costco-302927937.html"
+  },
+  {
+   "time": "11-03 11:01",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly Provides Update on Foundayo Development",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/zacks:87ed6e8f1094b:0-lly-stock-up-almost-10-after-a-robust-q3-time-to-buy-sell-or-hold/"
+  },
+  {
+   "time": "11-03 10:53",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "QUICK SPARK: Elon Musk Says 'Vote Red' \u2014 SpaceX And Tesla Have Much To Gain",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/62827756/spacex-tesla-ceo-elon-musk-says-vote-red"
+  },
+  {
+   "time": "11-03 10:51",
+   "symbols": [
+    "LITE"
+   ],
+   "rating": "target down",
+   "headline": "TD Cowen Maintains Hold on Lumentum Holdings, Lowers Price Target to $685",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62827626/td-cowen-maintains-hold-lumentum-holdings-lowers-price-target-685"
+  },
+  {
+   "time": "11-03 10:49",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "target up",
+   "headline": "UBS Maintains Neutral on Apple, Raises Price Target to $340",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62827529/ubs-maintains-neutral-apple-raises-price-target-340"
+  },
+  {
+   "time": "11-03 10:34",
+   "symbols": [
+    "AMZN",
+    "GOOGL",
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Amazon, Google and Microsoft Are 'Absolute Jokes' Compared With SpaceX, Says Sequoia's Shaun Maguire",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62826642/spacex-ai-infrastructure"
+  },
   {
    "time": "11-03 10:07",
    "symbols": [
