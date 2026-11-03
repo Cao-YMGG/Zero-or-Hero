@@ -1,0 +1,1036 @@
+[
+{
+"day": "2025-03-12",
+"theme_month": -0.1256,
+"gap": 0.0285,
+"theme_1100": -0.0044,
+"theme_close": 0.0011,
+"failed": true,
+"chips": {
+"NVDA": {
+"from_open": -0.0002,
+"close": 0.0142,
+"report": false
+},
+"AMD": {
+"from_open": -0.0038,
+"close": 0.018,
+"report": false
+},
+"MU": {
+"from_open": 0.0132,
+"close": 0.0337,
+"report": false
+},
+"AVGO": {
+"from_open": -0.0057,
+"close": -0.0105,
+"report": false
+},
+"INTC": {
+"from_open": -0.0245,
+"close": -0.0065,
+"report": false
+},
+"MRVL": {
+"from_open": -0.0115,
+"close": 0.0016,
+"report": false
+}
+},
+"pick": "INTC",
+"put": {
+"expiry": "2025-03-14",
+"d0.10": {
+"contract": "INTC250314P00018500",
+"strike": 18.5,
+"delta": 0.079,
+"px": 0.05,
+"peak": 0.667,
+"half3_arm1.5": -0.6667,
+"half3_hold": -0.6667,
+"hold": -0.6667,
+"trail2x": -0.6667,
+"stock_stop": -0.6667
+},
+"d0.20": {
+"contract": "INTC250314P00019500",
+"strike": 19.5,
+"delta": 0.244,
+"px": 0.18,
+"peak": 0.909,
+"half3_arm1.5": -0.596,
+"half3_hold": -0.596,
+"hold": -0.596,
+"trail2x": -0.596,
+"stock_stop": -0.596
+},
+"d0.30": {
+"contract": "INTC250314P00019500",
+"strike": 19.5,
+"delta": 0.244,
+"px": 0.18,
+"peak": 0.909,
+"half3_arm1.5": -0.596,
+"half3_hold": -0.596,
+"hold": -0.596,
+"trail2x": -0.596,
+"stock_stop": -0.596
+}
+},
+"theme_put": {
+"expiry": "2025-03-14",
+"d0.10": {
+"contract": "SMH250314P00210000",
+"strike": 210.0,
+"delta": 0.193,
+"px": 1.19,
+"peak": 0.763,
+"half3_arm1.5": -0.5806,
+"half3_hold": -0.5806,
+"hold": -0.5806,
+"trail2x": -0.5806,
+"stock_stop": -0.6356
+},
+"d0.20": {
+"contract": "SMH250314P00210000",
+"strike": 210.0,
+"delta": 0.193,
+"px": 1.19,
+"peak": 0.763,
+"half3_arm1.5": -0.5806,
+"half3_hold": -0.5806,
+"hold": -0.5806,
+"trail2x": -0.5806,
+"stock_stop": -0.6356
+},
+"d0.30": {
+"contract": "SMH250314P00215000",
+"strike": 215.0,
+"delta": 0.337,
+"px": 2.35,
+"peak": 0.832,
+"half3_arm1.5": -0.4882,
+"half3_hold": -0.4882,
+"hold": -0.4882,
+"trail2x": -0.4882,
+"stock_stop": -0.4046
+}
+}
+},
+{
+"day": "2025-03-14",
+"theme_month": -0.1214,
+"gap": 0.0173,
+"theme_1100": 0.0094,
+"theme_close": 0.0144,
+"failed": false,
+"chips": {
+"NVDA": {
+"from_open": 0.0148,
+"close": 0.0242,
+"report": false
+},
+"AMD": {
+"from_open": 0.0099,
+"close": 0.0135,
+"report": false
+},
+"MU": {
+"from_open": 0.0097,
+"close": 0.0206,
+"report": false
+},
+"AVGO": {
+"from_open": -0.0,
+"close": -0.0028,
+"report": false
+},
+"INTC": {
+"from_open": 0.0122,
+"close": 0.0152,
+"report": false
+},
+"MRVL": {
+"from_open": -0.0113,
+"close": -0.0205,
+"report": false
+}
+}
+},
+{
+"day": "2025-03-24",
+"theme_month": -0.1281,
+"gap": 0.0197,
+"theme_1100": 0.0091,
+"theme_close": 0.0063,
+"failed": false,
+"chips": {
+"NVDA": {
+"from_open": 0.0141,
+"close": 0.0113,
+"report": false
+},
+"AMD": {
+"from_open": 0.0242,
+"close": 0.0375,
+"report": false
+},
+"MU": {
+"from_open": 0.0017,
+"close": 0.0081,
+"report": false
+},
+"AVGO": {
+"from_open": 0.0004,
+"close": -0.0185,
+"report": false
+},
+"INTC": {
+"from_open": -0.0112,
+"close": -0.0214,
+"report": false
+},
+"MRVL": {
+"from_open": 0.0099,
+"close": 0.0208,
+"report": false
+}
+}
+},
+{
+"day": "2025-04-08",
+"theme_month": -0.1785,
+"gap": 0.0437,
+"theme_1100": -0.0026,
+"theme_close": -0.0675,
+"failed": true,
+"chips": {
+"NVDA": {
+"from_open": -0.0033,
+"close": -0.0683,
+"report": false
+},
+"AMD": {
+"from_open": 0.0089,
+"close": -0.0918,
+"report": false
+},
+"MU": {
+"from_open": -0.0091,
+"close": -0.084,
+"report": false
+},
+"AVGO": {
+"from_open": -0.0116,
+"close": -0.067,
+"report": false
+},
+"INTC": {
+"from_open": -0.008,
+"close": -0.0948,
+"report": false
+},
+"MRVL": {
+"from_open": 0.008,
+"close": -0.0777,
+"report": false
+}
+},
+"pick": "AVGO",
+"put": {
+"expiry": "2025-04-11",
+"d0.10": {
+"contract": "AVGO250411P00147000",
+"strike": 147.0,
+"delta": 0.106,
+"px": 0.93,
+"peak": 3.959,
+"half3_arm1.5": 2.5191,
+"half3_hold": 2.5191,
+"hold": 2.9589,
+"trail2x": 2.9589,
+"stock_stop": 2.9589
+},
+"d0.20": {
+"contract": "AVGO250411P00155000",
+"strike": 155.0,
+"delta": 0.21,
+"px": 1.98,
+"peak": 3.202,
+"half3_arm1.5": 2.0475,
+"half3_hold": 2.0475,
+"hold": 2.0165,
+"trail2x": 2.0165,
+"stock_stop": 2.0165
+},
+"d0.30": {
+"contract": "AVGO250411P00160000",
+"strike": 160.0,
+"delta": 0.307,
+"px": 3.06,
+"peak": 2.783,
+"half3_arm1.5": 1.7139,
+"half3_hold": 1.7139,
+"hold": 1.7139,
+"trail2x": 1.7139,
+"stock_stop": 1.7139
+}
+},
+"theme_put": {
+"expiry": "2025-04-11",
+"d0.10": {
+"contract": "SMH250411P00172000",
+"strike": 172.0,
+"delta": 0.094,
+"px": 0.82,
+"peak": 5.089,
+"half3_arm1.5": 3.0061,
+"half3_hold": 3.0061,
+"hold": 3.9889,
+"trail2x": 3.9889,
+"stock_stop": 3.9889
+},
+"d0.20": {
+"contract": "SMH250411P00180000",
+"strike": 180.0,
+"delta": 0.188,
+"px": 1.78,
+"peak": 4.348,
+"half3_arm1.5": 2.7117,
+"half3_hold": 2.7117,
+"hold": 3.2978,
+"trail2x": 3.2978,
+"stock_stop": 3.2978
+},
+"d0.30": {
+"contract": "SMH250411P00189000",
+"strike": 189.0,
+"delta": 0.372,
+"px": 4.25,
+"peak": 2.618,
+"half3_arm1.5": 1.6182,
+"half3_hold": 1.6182,
+"hold": 1.6182,
+"trail2x": 1.6182,
+"stock_stop": 1.6182
+}
+}
+},
+{
+"day": "2025-04-09",
+"theme_month": -0.1612,
+"gap": 0.0101,
+"theme_1100": -0.005,
+"theme_close": 0.1603,
+"failed": true,
+"chips": {
+"NVDA": {
+"from_open": -0.0076,
+"close": 0.1547,
+"report": false
+},
+"AMD": {
+"from_open": 0.0313,
+"close": 0.2209,
+"report": false
+},
+"MU": {
+"from_open": -0.0342,
+"close": 0.1757,
+"report": false
+},
+"AVGO": {
+"from_open": -0.0151,
+"close": 0.1521,
+"report": false
+},
+"INTC": {
+"from_open": 0.0245,
+"close": 0.1893,
+"report": false
+},
+"MRVL": {
+"from_open": -0.0072,
+"close": 0.2118,
+"report": false
+}
+},
+"pick": "MU",
+"put": {
+"expiry": "2025-04-11",
+"d0.10": {
+"contract": "MU250411P00058000",
+"strike": 58.0,
+"delta": 0.187,
+"px": 0.81,
+"peak": 0.828,
+"half3_arm1.5": -0.9327,
+"half3_hold": -0.9327,
+"hold": -0.9327,
+"trail2x": -0.9327,
+"stock_stop": -0.8889
+},
+"d0.20": {
+"contract": "MU250411P00058000",
+"strike": 58.0,
+"delta": 0.187,
+"px": 0.81,
+"peak": 0.828,
+"half3_arm1.5": -0.9327,
+"half3_hold": -0.9327,
+"hold": -0.9327,
+"trail2x": -0.9327,
+"stock_stop": -0.8889
+},
+"d0.30": {
+"contract": "MU250411P00061000",
+"strike": 61.0,
+"delta": 0.311,
+"px": 1.45,
+"peak": 0.903,
+"half3_arm1.5": -0.9436,
+"half3_hold": -0.9436,
+"hold": -0.9436,
+"trail2x": -0.9436,
+"stock_stop": -0.5486
+}
+},
+"theme_put": {
+"expiry": "2025-04-11",
+"d0.10": {
+"contract": "SMH250411P00164000",
+"strike": 164.0,
+"delta": 0.148,
+"px": 1.44,
+"peak": 0.744,
+"half3_arm1.5": -0.9937,
+"half3_hold": -0.9937,
+"hold": -0.9937,
+"trail2x": -0.9937,
+"stock_stop": -0.2557
+},
+"d0.20": {
+"contract": "SMH250411P00167000",
+"strike": 167.0,
+"delta": 0.188,
+"px": 1.89,
+"peak": 0.753,
+"half3_arm1.5": -0.9524,
+"half3_hold": -0.9524,
+"hold": -0.9524,
+"trail2x": -0.9524,
+"stock_stop": -0.2468
+},
+"d0.30": {
+"contract": "SMH250411P00172000",
+"strike": 172.0,
+"delta": 0.27,
+"px": 2.82,
+"peak": 0.818,
+"half3_arm1.5": -0.9839,
+"half3_hold": -0.9839,
+"hold": -0.9839,
+"trail2x": -0.9839,
+"stock_stop": -0.3617
+}
+}
+},
+{
+"day": "2025-04-22",
+"theme_month": -0.1727,
+"gap": 0.0134,
+"theme_1100": 0.0072,
+"theme_close": 0.0084,
+"failed": false,
+"chips": {
+"NVDA": {
+"from_open": -0.0002,
+"close": 0.0012,
+"report": false
+},
+"AMD": {
+"from_open": -0.001,
+"close": 0.001,
+"report": false
+},
+"MU": {
+"from_open": 0.0225,
+"close": 0.0397,
+"report": false
+},
+"AVGO": {
+"from_open": 0.0075,
+"close": 0.0115,
+"report": false
+},
+"INTC": {
+"from_open": 0.0307,
+"close": 0.0228,
+"report": true
+},
+"MRVL": {
+"from_open": 0.0131,
+"close": 0.0102,
+"report": false
+}
+}
+},
+{
+"day": "2025-04-23",
+"theme_month": -0.1462,
+"gap": 0.0504,
+"theme_1100": 0.0017,
+"theme_close": -0.0129,
+"failed": false,
+"chips": {
+"NVDA": {
+"from_open": -0.0059,
+"close": -0.019,
+"report": false
+},
+"AMD": {
+"from_open": 0.0052,
+"close": -0.017,
+"report": false
+},
+"MU": {
+"from_open": 0.0003,
+"close": -0.0117,
+"report": false
+},
+"AVGO": {
+"from_open": 0.0108,
+"close": -0.005,
+"report": false
+},
+"INTC": {
+"from_open": 0.0063,
+"close": -0.0077,
+"report": true
+},
+"MRVL": {
+"from_open": -0.0033,
+"close": -0.0198,
+"report": false
+}
+}
+},
+{
+"day": "2025-04-24",
+"theme_month": -0.1375,
+"gap": 0.0217,
+"theme_1100": 0.0154,
+"theme_close": 0.0284,
+"failed": false,
+"chips": {
+"NVDA": {
+"from_open": 0.0135,
+"close": 0.0279,
+"report": false
+},
+"AMD": {
+"from_open": 0.015,
+"close": 0.031,
+"report": false
+},
+"MU": {
+"from_open": 0.0137,
+"close": 0.0377,
+"report": false
+},
+"AVGO": {
+"from_open": 0.0253,
+"close": 0.0457,
+"report": false
+},
+"INTC": {
+"from_open": 0.0067,
+"close": 0.0214,
+"report": true
+},
+"MRVL": {
+"from_open": 0.0413,
+"close": 0.0464,
+"report": false
+}
+}
+},
+{
+"day": "2026-03-31",
+"theme_month": -0.1079,
+"gap": 0.0171,
+"theme_1100": 0.0072,
+"theme_close": 0.0385,
+"failed": false,
+"chips": {
+"NVDA": {
+"from_open": 0.0188,
+"close": 0.0439,
+"report": false
+},
+"AMD": {
+"from_open": 0.0061,
+"close": 0.0265,
+"report": false
+},
+"MU": {
+"from_open": 0.0065,
+"close": 0.0496,
+"report": false
+},
+"AVGO": {
+"from_open": 0.0042,
+"close": 0.0324,
+"report": false
+},
+"INTC": {
+"from_open": 0.0116,
+"close": 0.051,
+"report": false
+},
+"MRVL": {
+"from_open": -0.0224,
+"close": 0.0318,
+"report": false
+}
+}
+},
+{
+"day": "2026-07-21",
+"theme_month": -0.1044,
+"gap": 0.0396,
+"theme_1100": -0.0025,
+"theme_close": 0.0057,
+"failed": true,
+"chips": {
+"NVDA": {
+"from_open": -0.0058,
+"close": -0.0018,
+"report": false
+},
+"AMD": {
+"from_open": 0.0044,
+"close": 0.0365,
+"report": false
+},
+"MU": {
+"from_open": 0.0241,
+"close": 0.0477,
+"report": false
+},
+"AVGO": {
+"from_open": -0.0161,
+"close": -0.0095,
+"report": false
+},
+"INTC": {
+"from_open": 0.0036,
+"close": 0.0219,
+"report": true
+},
+"MRVL": {
+"from_open": 0.0083,
+"close": 0.0122,
+"report": false
+}
+},
+"pick": "AVGO",
+"put": {
+"expiry": "2026-07-22",
+"d0.10": {
+"contract": "AVGO260722P00365000",
+"strike": 365.0,
+"delta": 0.098,
+"px": 0.7,
+"peak": 0.783,
+"half3_arm1.5": -0.5792,
+"half3_hold": -0.5792,
+"hold": -0.5792,
+"trail2x": -0.5792,
+"stock_stop": -0.5792
+},
+"d0.20": {
+"contract": "AVGO260722P00372500",
+"strike": 372.5,
+"delta": 0.216,
+"px": 1.81,
+"peak": 0.845,
+"half3_arm1.5": -0.5977,
+"half3_hold": -0.5977,
+"hold": -0.5977,
+"trail2x": -0.5977,
+"stock_stop": -0.5977
+},
+"d0.30": {
+"contract": "AVGO260722P00377500",
+"strike": 377.5,
+"delta": 0.328,
+"px": 3.09,
+"peak": 0.784,
+"half3_arm1.5": -0.534,
+"half3_hold": -0.534,
+"hold": -0.534,
+"trail2x": -0.534,
+"stock_stop": -0.534
+}
+},
+"theme_put": {
+"expiry": "2026-07-24",
+"d0.10": {
+"contract": "SMH260724P00530000",
+"strike": 530.0,
+"delta": 0.1,
+"px": 2,
+"peak": 0.839,
+"half3_arm1.5": -0.3577,
+"half3_hold": -0.3577,
+"hold": -0.3577,
+"trail2x": -0.3577,
+"stock_stop": -0.2677
+},
+"d0.20": {
+"contract": "SMH260724P00550000",
+"strike": 550.0,
+"delta": 0.201,
+"px": 4.26,
+"peak": 0.803,
+"half3_arm1.5": -0.3278,
+"half3_hold": -0.3278,
+"hold": -0.3278,
+"trail2x": -0.3278,
+"stock_stop": -0.2318
+},
+"d0.30": {
+"contract": "SMH260724P00560000",
+"strike": 560.0,
+"delta": 0.276,
+"px": 6,
+"peak": 0.859,
+"half3_arm1.5": -0.2923,
+"half3_hold": -0.2923,
+"hold": -0.2923,
+"trail2x": -0.2923,
+"stock_stop": -0.2255
+}
+}
+},
+{
+"day": "2026-07-30",
+"theme_month": -0.2022,
+"gap": 0.0508,
+"theme_1100": 0.01,
+"theme_close": 0.0165,
+"failed": false,
+"chips": {
+"NVDA": {
+"from_open": 0.006,
+"close": 0.0095,
+"report": false
+},
+"AMD": {
+"from_open": 0.052,
+"close": 0.0552,
+"report": false
+},
+"MU": {
+"from_open": 0.0574,
+"close": 0.1037,
+"report": false
+},
+"AVGO": {
+"from_open": 0.0045,
+"close": 0.0197,
+"report": false
+},
+"INTC": {
+"from_open": 0.0652,
+"close": 0.0553,
+"report": false
+},
+"MRVL": {
+"from_open": 0.0119,
+"close": 0.0271,
+"report": false
+}
+}
+},
+{
+"day": "2026-07-31",
+"theme_month": -0.1784,
+"gap": 0.0345,
+"theme_1100": -0.0241,
+"theme_close": -0.0311,
+"failed": true,
+"chips": {
+"NVDA": {
+"from_open": -0.0032,
+"close": 0.0117,
+"report": false
+},
+"AMD": {
+"from_open": -0.0386,
+"close": -0.0667,
+"report": false
+},
+"MU": {
+"from_open": -0.0843,
+"close": -0.1055,
+"report": false
+},
+"AVGO": {
+"from_open": -0.0189,
+"close": -0.0141,
+"report": false
+},
+"INTC": {
+"from_open": -0.0398,
+"close": -0.0681,
+"report": false
+},
+"MRVL": {
+"from_open": -0.0376,
+"close": -0.0593,
+"report": false
+}
+},
+"pick": "MU",
+"put": {
+"expiry": "2026-07-31",
+"d0.10": {
+"contract": "MU260731P00810000",
+"strike": 810.0,
+"delta": 0.106,
+"px": 1.55,
+"peak": 4.402,
+"half3_arm1.5": 1.7581,
+"half3_hold": 0.6496,
+"hold": -0.9472,
+"trail2x": 1.2698,
+"stock_stop": -0.9472
+},
+"d0.20": {
+"contract": "MU260731P00825000",
+"strike": 825.0,
+"delta": 0.219,
+"px": 3.62,
+"peak": 3.503,
+"half3_arm1.5": -0.0055,
+"half3_hold": 0.8692,
+"hold": -0.7649,
+"trail2x": 0.8985,
+"stock_stop": -0.7649
+},
+"d0.30": {
+"contract": "MU260731P00830000",
+"strike": 830.0,
+"delta": 0.278,
+"px": 4.97,
+"peak": 3.011,
+"half3_arm1.5": 1.3574,
+"half3_hold": 0.6866,
+"hold": -0.6378,
+"trail2x": 0.7039,
+"stock_stop": -0.6378
+}
+},
+"theme_put": {
+"expiry": "2026-07-31",
+"d0.10": {
+"contract": "SMH260731P00530000",
+"strike": 530.0,
+"delta": 0.078,
+"px": 0.37,
+"peak": 2.897,
+"half3_arm1.5": 0.5258,
+"half3_hold": -0.9754,
+"hold": -0.9754,
+"trail2x": 0.5258,
+"stock_stop": -0.9754
+},
+"d0.20": {
+"contract": "SMH260731P00537500",
+"strike": 537.5,
+"delta": 0.224,
+"px": 1.23,
+"peak": 2.761,
+"half3_arm1.5": 0.4501,
+"half3_hold": -0.867,
+"hold": -0.867,
+"trail2x": 0.4501,
+"stock_stop": -0.867
+},
+"d0.30": {
+"contract": "SMH260731P00540000",
+"strike": 540.0,
+"delta": 0.303,
+"px": 1.74,
+"peak": 2.563,
+"half3_arm1.5": 0.232,
+"half3_hold": -0.8589,
+"hold": -0.8589,
+"trail2x": 0.232,
+"stock_stop": -0.8589
+}
+}
+},
+{
+"day": "2026-10-27",
+"theme_month": -0.1071,
+"gap": 0.0139,
+"theme_1100": 0.0057,
+"theme_close": 0.0158,
+"failed": false,
+"chips": {
+"NVDA": {
+"from_open": -0.0029,
+"close": -0.002,
+"report": false
+},
+"AMD": {
+"from_open": 0.0239,
+"close": 0.0389,
+"report": false
+},
+"MU": {
+"from_open": 0.0066,
+"close": 0.0092,
+"report": false
+},
+"AVGO": {
+"from_open": 0.0026,
+"close": 0.0092,
+"report": false
+},
+"INTC": {
+"from_open": 0.0037,
+"close": 0.0136,
+"report": true
+},
+"MRVL": {
+"from_open": 0.0171,
+"close": 0.0277,
+"report": false
+}
+}
+},
+{
+"day": "2026-11-02",
+"theme_month": -0.1543,
+"gap": 0.0126,
+"theme_1100": -0.0059,
+"theme_close": -0.0397,
+"failed": true,
+"chips": {
+"NVDA": {
+"from_open": -0.0021,
+"close": -0.0258,
+"report": false
+},
+"AMD": {
+"from_open": -0.0324,
+"close": -0.0856,
+"report": false
+},
+"MU": {
+"from_open": -0.0218,
+"close": -0.0645,
+"report": false
+},
+"AVGO": {
+"from_open": 0.0097,
+"close": -0.0182,
+"report": false
+},
+"INTC": {
+"from_open": -0.0288,
+"close": -0.0832,
+"report": false
+},
+"MRVL": {
+"from_open": -0.0392,
+"close": -0.1055,
+"report": false
+}
+},
+"pick": "MRVL",
+"put": {
+"expiry": "2026-11-06",
+"d0.10": {
+"contract": "MRVL261106P00165000",
+"strike": 165.0,
+"delta": 0.142,
+"px": 1.5,
+"peak": 3.3,
+"half3_arm1.5": 1.9236,
+"half3_hold": 1.9236,
+"hold": 1.8091,
+"trail2x": 1.8091,
+"stock_stop": 1.8091
+},
+"d0.20": {
+"contract": "MRVL261106P00170000",
+"strike": 170.0,
+"delta": 0.205,
+"px": 2.3,
+"peak": 3.006,
+"half3_arm1.5": 1.7836,
+"half3_hold": 1.7836,
+"hold": 1.5613,
+"trail2x": 1.5613,
+"stock_stop": 1.5613
+},
+"d0.30": {
+"contract": "MRVL261106P00175000",
+"strike": 175.0,
+"delta": 0.291,
+"px": 3.6,
+"peak": 2.527,
+"half3_arm1.5": 1.2614,
+"half3_hold": 1.2614,
+"hold": 1.2614,
+"trail2x": 1.2614,
+"stock_stop": 1.2614
+}
+},
+"theme_put": {
+"expiry": "2026-11-06",
+"d0.10": {
+"contract": "SMH261106P00480000",
+"strike": 480.0,
+"delta": 0.077,
+"px": 1.27,
+"peak": 3.105,
+"half3_arm1.5": 1.7928,
+"half3_hold": 1.7928,
+"hold": 1.577,
+"trail2x": 1.577,
+"stock_stop": 1.577
+},
+"d0.20": {
+"contract": "SMH261106P00500000",
+"strike": 500.0,
+"delta": 0.187,
+"px": 3.4,
+"peak": 2.551,
+"half3_arm1.5": 1.3703,
+"half3_hold": 1.3703,
+"hold": 1.3703,
+"trail2x": 1.3703,
+"stock_stop": 1.3703
+},
+"d0.30": {
+"contract": "SMH261106P00515000",
+"strike": 515.0,
+"delta": 0.334,
+"px": 6.83,
+"peak": 2.048,
+"half3_arm1.5": 0.9287,
+"half3_hold": 0.9287,
+"hold": 0.9287,
+"trail2x": 0.9287,
+"stock_stop": 0.9287
+}
+}
+}
+]
