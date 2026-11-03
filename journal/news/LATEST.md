@@ -1,4 +1,4 @@
-# Headlines since 2026-11-02 16:00 ET (as of 2026-11-03 14:16 ET)
+# Headlines since 2026-11-02 16:00 ET (as of 2026-11-03 14:47 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -41,6 +41,9 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-02 16:41 | CVX | target up | UBS Maintains Buy on Chevron, Raises Price Target to $265 |
 | 11-02 16:31 | INTC | downgrade | GF Securities Downgrades Intel Price Target Following Q4 Outlook |
 | 11-02 16:31 | AMZN | upgrade | Phillip Securities Upgrades Amazon to Buy |
+| 11-03 14:43 | NVDA |  | Nvidia Stock Climbs Amid Oil Price Drop |
+| 11-03 14:22 | MSFT |  | 'Jill Hazelbaker Jumps To OpenAI As Chief Corporate Affairs Officer' - Axios |
+| 11-03 14:16 | META |  | 'Meta Draws $58 Billion Demand for US Leg of Cross-Border Bond' - Bloomberg News |
 | 11-03 14:13 | PLTR |  | Palantir CEO Alex Karp Wants ‘The Whole Thing’ After First $2 Billion Quarter |
 | 11-03 14:02 | SMCI |  | Supermicro to Build AI Inference Racks with SambaNova Chips |
 | 11-03 14:01 | CAT |  | Caterpillar Director Purchases $620,390 in Company Stock |

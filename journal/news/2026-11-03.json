@@ -1,7 +1,37 @@
 {
- "as_of": "2026-11-03T14:16-05:00",
+ "as_of": "2026-11-03T14:47-05:00",
  "since": "2026-11-02T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-03 14:43",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia Stock Climbs Amid Oil Price Drop",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62838137/nvidia-stock-climbs-amid-oil-price-drop"
+  },
+  {
+   "time": "11-03 14:22",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "'Jill Hazelbaker Jumps To OpenAI As Chief Corporate Affairs Officer' - Axios",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62837416/jill-hazelbaker-jumps-openai-chief-corporate-affairs-officer-axios"
+  },
+  {
+   "time": "11-03 14:16",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "'Meta Draws $58 Billion Demand for US Leg of Cross-Border Bond' - Bloomberg News",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62837242/meta-draws-58-billion-demand-us-leg-cross-border-bond-bloomberg-news"
+  },
   {
    "time": "11-03 14:13",
    "symbols": [
