@@ -28,6 +28,24 @@
       "why": "Money leaving last week's winners as chips bounce: WMT 125.23 -1.9% (-1.2% from its open), COST -1.9%, XLP -1.7%, XLY -0.9% from its open; XLF -0.6%. No headline on either name after the open (Walmart items are product PR), so relative weakness with no news, not a pick; recorded to score whether the rotation out of defensives holds to the close",
       "why_zh": "芯片反弹的同时，上周涨的消费股在回吐：沃尔玛 -1.9%，好市多 -1.9%，必需消费 ETF -1.7%。两家都没有新消息，只是轮动回流，不够选股标准，记下来看这波轮动到收盘是否成立",
       "action": "none"
+    },
+    {
+      "type": "financing_fade",
+      "symbol": "ORCL",
+      "direction": "call",
+      "time": "13:20",
+      "why": "Day's leader at the second check: ORCL 127.6, +7.0% on the day and +4.4% from its 122.21 open, new highs all session (128.14 at 13:10), 10% above the $116 offering price; the 11:05 headline that 65% of the $10B stock sale went to ten investors explains the demand. Not a pick: already in the 08:31 opportunities, and at +4.4% from its open it is past the 3% line (AMZN 11-02: picked at +4.0% from the open at 11:03, topped minutes later). leader_follow's shadow already holds the 11-06 134C from 09:48 (0.86 -> 1.47 at 13:16)",
+      "why_zh": "甲骨文是今天的领涨股：+7%，比开盘高 4.4%，全天新高，比 $116 的发行价高 10%；11:05 的消息说 $100 亿发股里 65% 给了十家投资人，解释了买盘。没选：早上 8:31 已经记过这条机会，而且比开盘高 4.4% 已过了 3% 的线（11-02 亚马逊在 +4% 时选入，几分钟后见顶）。leader_follow 的影子单 9:48 就买了它的 134 看涨，0.86 → 1.47",
+      "action": "none"
+    },
+    {
+      "type": "sector_intraday",
+      "symbol": "MSFT",
+      "direction": "call",
+      "time": "13:20",
+      "why": "Software/internet leading the afternoon with no headlines: MSFT 520.5, +2.6% on the day and +2.4% from its 508.50 open; META +3.0% (+2.3% from open) on a day it launched a $15B bond deal; AMZN +2.1%. SPY +0.54% from its open, SMH +0.2%, memory fading (MU -1.0% from open, SNDK gave back a +4% gap). Relative strength with no news anywhere behind it is not a pick (AAPL 10-15); recorded to score whether a no-news software lead holds to the close",
+      "why_zh": "下午软件和互联网领涨但没有消息：微软 +2.6%（比开盘高 2.4%），Meta 发 $150 亿债券当天反而 +3%，亚马逊 +2.1%。大盘比开盘高 0.5%，芯片只高 0.2%，内存在回吐（美光比开盘 -1%）。没有消息的相对强势不选（10-15 苹果的教训），记下来看这种领涨能不能撑到收盘",
+      "action": "none"
     }
   ]
 }
