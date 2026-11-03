@@ -1,0 +1,112 @@
+{
+  "date": "2026-11-03",
+  "bias": "none",
+  "confidence": 0.2,
+  "p_up": 0.52,
+  "summary": "Election Day with nothing to lean on: SPY +0.2% pre-market at 08:30 (flat at 07:43) because AAPL is -4% on its margin guide (memory costs) and PLTR -6% on slower bookings, while chips bounce again, harder than at 07:43 (SMH +3.3% at 08:30, NVDA +2.5%, AMD +4.5% into its report tonight, MU +4.6%). Yesterday the same chip bounce faded by noon and SMH closed 3.9% below its open; the theme is still cooling (SMH -19% in a month) and item 30 says gap-ups in a cooling theme fade. JOLTS and factory orders at 10:00, election results tonight, AMD and SMCI after the close, jobs report Friday. p_up 0.52, no SPY trade. No sniper: the names with news of their own are excluded (AAPL/PLTR reported last night, AMD reports tonight), negative (MRVL downgraded by B of A on day two of the Lumentum selloff, ORCL priced $20B of stock and notes at $116), or a read-through in a cooling theme with a 4.6% gap (MU on Apple's memory-cost comment).",
+  "reasons": [
+    "Routine fired on time at 07:41 ET (new 07:40 slot); research 07:42-08:00, live numbers re-read at 08:30 before the call. Trade workflow dispatched 07:44 but the bot exits before 08:30 ET ('the later scheduled run handles today'); re-dispatched at 08:30 because the 08:45 cron fired eight hours late on 11-02.",
+    "Webull extended hours 07:43 ET: SPY 751.81 (-0.04% vs 752.10), QQQ +0.35%, IWM +0.06%, SMH +2.3%, XLF -0.4%, XLV -0.3%, XLE +0.8%, XLP -0.5%, TLT -0.4%, UUP +0.13%, USO +1.5% (WTI about 97.5 after -7% on 11-02). Futures per CNBC/TipRanks ~05:40 ET: S&P -0.05% to -0.1%, Nasdaq-100 +0.4%, Dow -0.5% to -0.7%. Yields: 10Y 4.91% (+1 bp), 2Y 4.59% (flat). VIX not read (19.7 at the 11-02 close); DXY proxied by UUP.",
+    "Earnings reactions: AAPL 324.76 (-4.0%) after a beat (EPS 2.10, revenue $114.5B) with a December-quarter gross margin guide of 45-46% vs 47% expected, memory costs 'unprecedented'; PLTR 167.45 (-6.1%) after +96% revenue but total contract value only +6%. Both are first-trading-day-after-report names: no sniper, no intraday pick (rule since 11-01). AMD +3.0% pre-market reports tonight (excluded today and tomorrow), SMCI +2.3% reports tonight.",
+    "Chips: NVDA +1.7%, AMD +3.0%, MU +3.5%, INTC +3.3%, AVGO +2.0%, MRVL +2.5%, LITE +1.8% after Monday's second leg down (SMH -2.7% on the day, -3.9% from its open). Own news: NVDA negative (FT: cloud partners must keep Chinese customers under 49% of revenue), MRVL negative (B of A downgrade to Neutral $225, Cantor $225, Needham keeps Buy $300), MU positive read-through (Benzinga 06:31: shares rise on Apple's memory-cost commentary). No upgrade on a mega cap this morning in the news file; the 'Chevron upgrade' on a third-party list could not be confirmed (only UBS/MS target raises from 11-02).",
+    "ORCL 117.59 (-1.4%) after pricing $20B: 86.2M shares at $116 (about $9.9B net) plus $10B of notes; the overhang is now priced, Morgan Stanley Hold. 11-02 study (journal/research/FADES.md): equity offerings gap down and the day from 10:00 is a coin flip; puts lose; day two is not in the study.",
+    "Oil: USO +1.5% pre-market after -7.1% on 11-02 (WTI 96.7 -> about 97.5, Brent about 105.8); the 11-02 drop was read as a positioning unwind plus Iran-talk hopes, not a confirmed supply event. XLE +0.8% pre after -4.0%. Energy led October (+10% in a month) and is now -2% on the week.",
+    "Macro today: JOLTS (September, consensus about 7.1M) and factory orders (+1.2%) at 10:00, midterm elections (results overnight), no Fed speakers found, no coupon auction found (refunding announcement Wednesday). ISM services shows on Wednesday on most calendars (one lists Tuesday 15:00). Jobs report Friday 11-06 (in config/macro_events.json). Market prices a 73% chance of a December hike (Benzinga 11-02).",
+    "Down gaps >= 2% in the rebound_scanner universe: PLTR -6.1% and AAPL -4.0% (both post-report), none else. rebound_scanner and leader_follow are shadow-only; leader_follow's 09:45 pick is likely a chip name (AMD/MU/INTC), AMD reports tonight.",
+    "Dossiers: AMD reports tonight, so nothing today; the AMD dossier's lesson (mechanical rules rarely find its big days) applies tomorrow's reaction, which we do not trade. META -0.4% pre-market, no news of its own (publisher-terms pause is minor); S&P negative outlook from 10-31 still the overhang.",
+    "Why none and not put: AAPL's -4% is one stock (about -0.3% of SPY at the open, already in the pre-market price), the rest of the tape is bid, and election days have no base rate worth using. Why not call: the chip bounce is the second attempt in two days in a theme that is -19% in a month, and Monday's attempt failed by noon.",
+    "08:30 re-read (Webull extended hours): SPY 753.45 (+0.18%), QQQ +0.82%, IWM +0.5%, SMH +3.3%; defensives red (XLP -0.9%, XLV -0.4%, XLF -0.6%); TLT -0.2%, UUP +0.17%, USO -0.1% (the overnight oil bounce is gone), VIXY -0.4% (VIX about 18-19 by proxy). Chips firmer than at 07:43: MU +4.6%, AMD +4.5%, INTC +4.4%, MRVL +3.8%, SNDK +5.8%, AVGO +2.6%, NVDA +2.5%; AAPL -4.0% and PLTR -5.7% unchanged; ORCL turned to +0.7% (120.1) from -1.4%, the offering overhang is being bought. The second bounce is stronger than Monday's open, so p_up moves from 0.50 to 0.52, still none: Monday's bounce also looked fine at 10:30 (SMH +0.6% from its open) before it failed, and AAPL alone is about -0.3% of SPY at the open."
+  ],
+  "events": [
+    "Midterm elections today; results overnight",
+    "JOLTS and factory orders 10:00 ET",
+    "AMD and SMCI report after the close; QCOM tomorrow; jobs report Friday",
+    "Oracle priced $20B of stock ($116) and notes",
+    "Apple: margin guide 45-46% on memory costs; Palantir: total contract value +6%",
+    "Nvidia: cloud partners must cap Chinese customers at 49% of revenue (FT)"
+  ],
+  "inputs": {
+    "es_futures_pct": -0.1,
+    "vix": null,
+    "wti_pct": 1.1,
+    "us10y": 4.91,
+    "us10y_change_bp": 1,
+    "us2y_change_bp": 0,
+    "dxy_pct": 0.13,
+    "overnight": "Webull extended hours 07:43 ET: SPY -0.04%, QQQ +0.35%, SMH +2.3%, TLT -0.4%, USO +1.5% (wti_pct is WTI per press, about 97.5), UUP +0.13% (dxy_pct is UUP). Re-read at 08:30: see the last reason. Night session not checked. 08:30 re-read: SPY +0.18%, QQQ +0.82%, SMH +3.3%, TLT -0.2%, USO -0.1%, UUP +0.17%, VIXY -0.4%.",
+    "vixy_pct": -0.4
+  },
+  "rotation": {
+    "heating": [
+      "consumer (XLY 1-week +3.4%, 1-month +7.4%; WMT +22% in a month, HD +21%, COST +13%; XLP +3%/+13%)",
+      "health care (XLV +3.0%/+11.1%; LLY +10%/+23%; UNH -2% on the week)",
+      "banks, mildly (XLF +2.7%/+7.6%; JPM +2%/+3%)",
+      "TSLA (+3%/+9%, robotaxi fleet headlines)"
+    ],
+    "cooling": [
+      "CPU (AMD -12% in a week/-26% in a month, INTC -34%/-50%, ARM -12%/-36%)",
+      "optical (LITE -16%/-37%, CIEN -15%/-27%) and custom/optical chips (MRVL -27%/-37%, AVGO -2%/-9%)",
+      "memory (MU -8%/-22%, SNDK -14%/-37%) and disk storage (WDC -5%/-18%, STX -8%/-30%)",
+      "GPU (NVDA -6%/-14%)",
+      "internet / AI capex (GOOGL -12%/-19%, META -4%/-17%, MSFT -5%/-2%, AMZN -1%/-2%)",
+      "energy on the week (XLE -3.4% in a week after +7% in a month; oil -7% on 11-02)",
+      "industrials split (CAT -11%/-27%, GE +9%/+2%)"
+    ],
+    "note": "Bars to the 11-02 close. Money keeps leaving AI hardware for staples, retail, health care and banks; this morning's chip bounce (SMH +2.3%) is the second in two days inside a -19% month, and Monday's faded by noon. Not a turn until the sell side defends a chip name with an upgrade."
+  },
+  "sniper": null,
+  "opportunities": [
+    {
+      "type": "peer_readthrough",
+      "symbol": "MU",
+      "direction": "call",
+      "time": "10:00",
+      "why": "The other side of Apple's headline: Apple guided gross margin down on 'unprecedented' memory prices, which is pricing power for memory makers; Benzinga 06:31 'Micron shares rise following Apple's commentary'. MU +4.6% at 08:30 (871.9 vs 833.59 close, +3.5% at 07:43; median target $1,550). Not a sniper: the gap is over the 3% line for a heavy catalyst, memory is a cooling theme (-22% in a month), and on 11-02 MU opened +0.7% and closed 6.4% below its open",
+      "why_zh": "苹果说内存价格高到压利润，反过来就是美光这种内存厂有定价权，盘前涨 4.6%。没选：跳空超过 3%，内存板块一个月跌了 22%，昨天美光开盘后也是一路跌 6%",
+      "action": "none"
+    },
+    {
+      "type": "sell_the_news",
+      "symbol": "NVDA",
+      "direction": "put",
+      "time": "10:00",
+      "why": "Gap-up in a cooling theme (item 30: >= 2% gap-ups in cooling themes fade, 3 months -0.7%, 37% up): NVDA +2.5% and SMH +3.3% at 08:30 (the >= 2% bucket) after Monday's bounce failed, plus a negative of its own (FT: cloud partners must cap Chinese customers). Not a pick: not a put day, and NVDA puts on tape alone lost in every test",
+      "why_zh": "芯片在降温板块里第二天反弹（半导体 ETF 盘前 +3.3%），昨天同样的反弹到中午就没了；英伟达自己还有条利空（FT 说它要求云客户限制中国客户）。只记录：大盘不是看跌日",
+      "action": "none"
+    },
+    {
+      "type": "ma_acquirer",
+      "symbol": "MRVL",
+      "direction": "put",
+      "time": "10:00",
+      "why": "Day two of the all-stock Lumentum deal: -27% in three sessions, B of A downgrade to Neutral this morning, Cantor $225; +2.5% pre-market bounce. Scored to learn whether the acquirer fade continues on day two (the FADES study covers day one only). Downgrades do not carry (ANALYST.md), so no pick either way",
+      "why_zh": "迈威尔全股票收购 Lumentum 的第二天：三天跌了 27%，今早美银下调评级，盘前反弹 2.5%。只记录，看看收购方第二天还跌不跌",
+      "action": "none"
+    },
+    {
+      "type": "financing_fade",
+      "symbol": "ORCL",
+      "direction": "call",
+      "time": "10:00",
+      "why": "The $20B offering priced overnight at $116 (117.6 at 07:43, 120.1 at 08:30, +0.7%): the supply is now placed, which is where offering-day sellers stop. Scored as a day-two rebound test; in FADES.md the day after an equity offering was up 61% of the time over two years (+2% average) but about even over the last 3 months. Not a pick: no own positive, Morgan Stanley Hold",
+      "why_zh": "甲骨文 200 亿美元增发昨晚按 116 美元定价，卖压落地，08:30 盘前已经转涨 0.7%，今天看能不能守住。只记录：没有自己的利好，摩根士丹利维持中性",
+      "action": "none"
+    },
+    {
+      "type": "earnings_reaction",
+      "symbol": "AAPL",
+      "direction": "put",
+      "time": "10:00",
+      "why": "Reaction day after a beat with a weak margin guide: -4.0% pre-market, Baird $340, MS $350 (lowered), Goldman adjusted. Excluded from picks by the first-day-after-report rule; scored to keep building the reaction-day sample (RUNUP.md: reaction days 43% up)",
+      "why_zh": "苹果财报超预期但利润率指引差，盘前跌 4%。财报后第一天按规则不做，只记录",
+      "action": "none"
+    }
+  ],
+  "generated_at": "2026-11-03T08:31:32-05:00",
+  "zh": {
+    "summary": "今天是中期选举日，没什么可押的：苹果因为利润率指引差盘前跌 4%、Palantir 跌 6%，把大盘压住（SPY 盘前只 +0.2%）；芯片又在反弹、而且比 7 点多更强（08:30 半导体 ETF +3.3%、AMD +4.5%、美光 +4.6%），但昨天同样的反弹到中午就没了。10 点有职位空缺和工厂订单数据，今晚 AMD 财报，周五非农。看涨看跌各一半，今天不做 SPY。",
+    "sniper": "今天不选。有消息的几只都不够格：苹果和 Palantir 昨晚刚发财报（财报后第一天不做）；AMD 今晚发财报；迈威尔被美银下调评级；甲骨文增发定价了但没有自己的利好；美光靠苹果「内存太贵」的话反过来涨 4.6%，但跳空超过 4%、内存板块还在降温，昨天开盘后就跌了 6%。",
+    "heating": "消费零售（沃尔玛一个月 +22%）、医疗（礼来 +23%）、银行，还有特斯拉",
+    "cooling": "AI 硬件全线：CPU（AMD、英特尔）、光模块（Lumentum、Ciena、迈威尔）、内存（美光、闪迪）、硬盘、英伟达；互联网巨头的 AI 开支股；能源这一周（油价周一跌 7%）"
+  }
+}
