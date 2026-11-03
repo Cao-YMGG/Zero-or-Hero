@@ -1,7 +1,47 @@
 {
- "as_of": "2026-11-03T11:02-05:00",
+ "as_of": "2026-11-03T11:32-05:00",
  "since": "2026-11-02T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-03 11:16",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "'Google Parent Plans $1.5 Billion Prepaid Energy Deal Via Goldman' - Bloomberg News",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62829185/google-parent-plans-1-5-billion-prepaid-energy-deal-goldman-bloomberg-news"
+  },
+  {
+   "time": "11-03 11:09",
+   "symbols": [
+    "TSM"
+   ],
+   "rating": "",
+   "headline": "Pinnacle West Expects To File 25-Year Taiwan Semiconductor Manufacturing Company Power Deal For 1.88 GW With Arizona Regulator In Coming Days",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62828833/pinnacle-west-expects-file-25-year-taiwan-semiconductor-manufacturing-company-power-deal-1-88-gw-ari"
+  },
+  {
+   "time": "11-03 11:05",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Will Devote 65% Of Its $10B Stock Sale To Ten Investors",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62828563/oracle-will-devote-65-its-10b-stock-sale-ten-investors"
+  },
+  {
+   "time": "11-03 11:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "rating",
+   "headline": "Goldman Sachs Adjusts Palantir Technologies Price Target to $235 From $230",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-palantir-technologies-price-target-to-235-from-230-ce785fded88bf620"
+  },
   {
    "time": "11-03 11:01",
    "symbols": [
@@ -71,6 +111,16 @@
    "headline": "Eli Lilly Provides Update on Foundayo Development",
    "source": "fiscal.ai",
    "url": "https://www.tradingview.com/news/zacks:87ed6e8f1094b:0-lly-stock-up-almost-10-after-a-robust-q3-time-to-buy-sell-or-hold/"
+  },
+  {
+   "time": "11-03 11:01",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "Here\u2019s How Much You Would Have Made Owning UnitedHealth Group Stock In The Last 20 Years",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62828285/here-s-how-much-you-would-have-made-owning-unitedhealth-group-stock-last-20-years"
   },
   {
    "time": "11-03 10:53",

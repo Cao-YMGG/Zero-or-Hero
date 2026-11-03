@@ -1,9 +1,10 @@
-# Headlines since 2026-11-02 16:00 ET (as of 2026-11-03 11:02 ET)
+# Headlines since 2026-11-02 16:00 ET (as of 2026-11-03 11:32 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-03 11:01 | GS | rating | Goldman Sachs Adjusts Palantir Technologies Price Target to $235 From $230 |
 | 11-03 10:51 | LITE | target down | TD Cowen Maintains Hold on Lumentum Holdings, Lowers Price Target to $685 |
 | 11-03 10:49 | AAPL | target up | UBS Maintains Neutral on Apple, Raises Price Target to $340 |
 | 11-03 10:07 | AAPL AMZN | initiate | CNMC Initiates Sanction Proceedings Against Apple, Amazon; Companies Failed To Comply With Cease-And-Desist Order Imposed On Them In Sanctioning Resolution Of July 2023; Imposed Fines On Both Companies For Including Anti-Competitive Clauses In Contracts Governing The Terms And Conditions Of Amazon’s Role As An Apple Distributor |
@@ -35,6 +36,9 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-02 16:41 | CVX | target up | UBS Maintains Buy on Chevron, Raises Price Target to $265 |
 | 11-02 16:31 | INTC | downgrade | GF Securities Downgrades Intel Price Target Following Q4 Outlook |
 | 11-02 16:31 | AMZN | upgrade | Phillip Securities Upgrades Amazon to Buy |
+| 11-03 11:16 | GOOGL |  | 'Google Parent Plans $1.5 Billion Prepaid Energy Deal Via Goldman' - Bloomberg News |
+| 11-03 11:09 | TSM |  | Pinnacle West Expects To File 25-Year Taiwan Semiconductor Manufacturing Company Power Deal For 1.88 GW With Arizona Regulator In Coming Days |
+| 11-03 11:05 | ORCL |  | Oracle Will Devote 65% Of Its $10B Stock Sale To Ten Investors |
 | 11-03 11:01 | ORCL |  | Deloitte and Oracle Form Dedicated Business Group |
 | 11-03 11:01 | MSFT |  | HiBob Announces New Integrations with Microsoft Entra |
 | 11-03 11:01 | MSFT |  | Ontinue Launches MXDR Essentials for Microsoft Integrated Security Operations Center |
@@ -42,6 +46,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-03 11:01 | WMT |  | Bio-K+ Expands Pro Line Distribution to Walmart |
 | 11-03 11:01 | COST |  | Goodal Skincare Brand to Launch at Costco |
 | 11-03 11:01 | LLY |  | Eli Lilly Provides Update on Foundayo Development |
+| 11-03 11:01 | UNH |  | Here’s How Much You Would Have Made Owning UnitedHealth Group Stock In The Last 20 Years |
 | 11-03 10:53 | TSLA |  | QUICK SPARK: Elon Musk Says 'Vote Red' — SpaceX And Tesla Have Much To Gain |
 | 11-03 10:34 | AMZN GOOGL MSFT |  | Amazon, Google and Microsoft Are 'Absolute Jokes' Compared With SpaceX, Says Sequoia's Shaun Maguire |
 | 11-03 10:01 | AMZN |  | Amazon Web Services Signs Strategic Collaboration Agreement With Great Ormond Street Hospital To Advance AI, Cloud Computing And Digital Healthcare Innovation |
