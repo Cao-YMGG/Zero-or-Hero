@@ -12,10 +12,10 @@
         "direction": "call",
         "entry_time": "2026-11-03T09:48:12-05:00",
         "entry_price": 0.86,
-        "peak": 1.13,
+        "peak": 1.17,
         "qty": 1,
-        "last": 0.92,
-        "last_time": "2026-11-03T12:02:57-05:00"
+        "last": 1.1,
+        "last_time": "2026-11-03T12:33:04-05:00"
       }
     },
     "rebound_scanner": {},

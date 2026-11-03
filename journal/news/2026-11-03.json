@@ -1,7 +1,48 @@
 {
- "as_of": "2026-11-03T12:02-05:00",
+ "as_of": "2026-11-03T12:33-05:00",
  "since": "2026-11-02T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-03 12:05",
+   "symbols": [
+    "AVGO",
+    "LITE"
+   ],
+   "rating": "",
+   "headline": "Marvell Stock Takes Two Hits in One Morning: Both Blame the Lumentum Deal",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/downgrades/26/11/62831593/marvell-stock-bank-of-america-cantor-lumentum-deal"
+  },
+  {
+   "time": "11-03 12:05",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir Stock Splits Wall Street as Bookings Cool and Revenue Soars",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62831573/palantir-stock-splits-wall-street-as-bookings-cool-and-revenue-soars"
+  },
+  {
+   "time": "11-03 12:03",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Reported Earlier: 'Google Will Turn Off Search For Schools That Reject A.I.; Google Is Making It Easier To Restrict Its A.I. Tools For Students. But Schools That Block A.I. Entirely Will Lose Student Access To Google\u2019s Search Engine' - NY Times",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62831471/reported-earlier-google-will-turn-search-schools-reject-i-google-making-it-easier-restrict-its-i-too"
+  },
+  {
+   "time": "11-03 12:00",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "target up",
+   "headline": "Truist Securities Reiterates Buy on Palantir Technologies, Raises Price Target to $250",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62831339/truist-securities-reiterates-buy-palantir-technologies-raises-price-target-250"
+  },
   {
    "time": "11-03 11:32",
    "symbols": [
