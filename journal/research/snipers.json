@@ -5601,5 +5601,90 @@
 }
 }
 }
+},
+{
+"day": "2026-11-02",
+"sym": "AMZN",
+"kind": "call",
+"source": "intraday",
+"expiry": "2026-11-02",
+"open": 243.01,
+"close": 245.81,
+"entries": {
+"live": {
+"t": "11:04",
+"spot": 253.29,
+"picks": {
+"d0.10": {
+"contract": "AMZN261102C00257500",
+"strike": 257.5,
+"delta": 0.091,
+"px": 0.13,
+"peak": 0.881,
+"day1": {
+"half3_trail": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry": null
+},
+"d0.20": {
+"contract": "AMZN261102C00255000",
+"strike": 255.0,
+"delta": 0.28,
+"px": 0.5,
+"peak": 0.916,
+"day1": {
+"half3_trail": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry": null
+},
+"d0.30": {
+"contract": "AMZN261102C00255000",
+"strike": 255.0,
+"delta": 0.28,
+"px": 0.5,
+"peak": 0.916,
+"day1": {
+"half3_trail": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry": null
+},
+"d0.45": {
+"contract": "AMZN261102C00252500",
+"strike": 252.5,
+"delta": 0.609,
+"px": 1.6,
+"peak": 0.885,
+"day1": {
+"half3_trail": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry": null
+}
+}
+}
+}
 }
 ]

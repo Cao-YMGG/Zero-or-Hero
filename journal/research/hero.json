@@ -1,0 +1,2882 @@
+{
+"legs": [
+{
+"day": "2026-10-06",
+"t": "10:21",
+"source": "intraday",
+"sym": "AVGO",
+"kind": "call",
+"contract": "AVGO261007C00385000",
+"entry": 1.21,
+"peak": 1.525,
+"live": 0.9446,
+"hold": 0.8553999999999999,
+"live_carry": 0.9446,
+"hold_carry": 0.0,
+"stock": 0.024556430732332046
+},
+{
+"day": "2026-10-07",
+"t": "09:35",
+"source": "sniper",
+"sym": "MRVL",
+"kind": "call",
+"contract": "MRVL261009C00302500",
+"entry": 0.85,
+"peak": 1.392,
+"live": 1.0519,
+"hold": 1.0519,
+"live_carry": 0.0,
+"hold_carry": 0.0,
+"stock": 0.013274021352313259
+},
+{
+"day": "2026-10-08",
+"t": "09:31",
+"source": "sniper",
+"sym": "PLTR",
+"kind": "call",
+"contract": "PLTR261009C00212500",
+"entry": 0.61,
+"peak": 1.071,
+"live": 0.06610000000000005,
+"hold": 0.06610000000000005,
+"live_carry": 0.0,
+"hold_carry": 0.0,
+"stock": -0.001607717041800627
+},
+{
+"day": "2026-10-09",
+"t": "09:31",
+"source": "sniper",
+"sym": "LITE",
+"kind": "call",
+"contract": "LITE261009C01180000",
+"entry": 2.35,
+"peak": 0.879,
+"live": 0.012700000000000045,
+"hold": 0.012700000000000045,
+"live_carry": 0.012700000000000045,
+"hold_carry": 0.012700000000000045,
+"stock": -0.010112430123735971
+},
+{
+"day": "2026-10-12",
+"t": "09:31",
+"source": "sniper",
+"sym": "CRM",
+"kind": "call",
+"contract": "CRM261016C00255000",
+"entry": 0.53,
+"peak": 2.131,
+"live": 0.27270000000000005,
+"hold": 0.27270000000000005,
+"live_carry": 1.0739,
+"hold_carry": 0.0,
+"stock": -0.011628398663791284
+},
+{
+"day": "2026-10-13",
+"t": "09:31",
+"source": "sniper",
+"sym": "META",
+"kind": "call",
+"contract": "META261014C00770000",
+"entry": 1.19,
+"peak": 7.477,
+"live": 3.7273,
+"hold": 3.2803,
+"live_carry": 3.7273,
+"hold_carry": 0.0,
+"stock": 0.03597874971127335
+},
+{
+"day": "2026-10-15",
+"t": "09:33",
+"source": "sniper",
+"sym": "AAPL",
+"kind": "call",
+"contract": "AAPL261016C00355000",
+"entry": 0.4,
+"peak": 0.773,
+"live": 0.05049999999999999,
+"hold": 0.05049999999999999,
+"live_carry": 0.0,
+"hold_carry": 0.0,
+"stock": -0.014324830667242994
+},
+{
+"day": "2026-10-16",
+"t": "09:31",
+"source": "sniper",
+"sym": "AAPL",
+"kind": "call",
+"contract": "AAPL261016C00352500",
+"entry": 0.2,
+"peak": 0.545,
+"live": 0.0,
+"hold": 0.0,
+"live_carry": 0.0,
+"hold_carry": 0.0,
+"stock": -0.007657631624573669
+},
+{
+"day": "2026-10-19",
+"t": "09:31",
+"source": "sniper",
+"sym": "MSFT",
+"kind": "call",
+"contract": "MSFT261019C00540000",
+"entry": 0.23,
+"peak": 1.013,
+"live": 0.0,
+"hold": 0.0,
+"live_carry": 0.0,
+"hold_carry": 0.0,
+"stock": 0.009390781335703702
+},
+{
+"day": "2026-10-19",
+"t": "10:21",
+"source": "intraday",
+"sym": "AMZN",
+"kind": "call",
+"contract": "AMZN261019C00262500",
+"entry": 0.29,
+"peak": 4.563,
+"live": 2.7062999999999997,
+"hold": 2.549,
+"live_carry": 2.7062999999999997,
+"hold_carry": 2.549,
+"stock": 0.027085208814435102
+},
+{
+"day": "2026-10-21",
+"t": "14:08",
+"source": "intraday",
+"sym": "AMD",
+"kind": "call",
+"contract": "AMD261021C00560000",
+"entry": 1.3,
+"peak": 1.137,
+"live": 1.0262,
+"hold": 1.0262,
+"live_carry": 1.0262,
+"hold_carry": 1.0262,
+"stock": 0.01227106227106245
+},
+{
+"day": "2026-10-22",
+"t": "09:31",
+"source": "sniper",
+"sym": "UNH",
+"kind": "call",
+"contract": "UNH261023C00430000",
+"entry": 0.48,
+"peak": 3.068,
+"live": 2.4267000000000003,
+"hold": 1.5806,
+"live_carry": 2.4267000000000003,
+"hold_carry": 0.0,
+"stock": 0.015966346383670338
+},
+{
+"day": "2026-10-22",
+"t": "10:28",
+"source": "intraday",
+"sym": "MSFT",
+"kind": "put",
+"contract": "MSFT261023P00515000",
+"entry": 1.11,
+"peak": 1.588,
+"live": 1.0126,
+"hold": 1.0126,
+"live_carry": 0.8506,
+"hold_carry": 0.0,
+"stock": -0.02263528706340867
+},
+{
+"day": "2026-10-23",
+"t": "13:18",
+"source": "intraday",
+"sym": "ORCL",
+"kind": "call",
+"contract": "ORCL261023C00129000",
+"entry": 0.11,
+"peak": 1.309,
+"live": 0.0,
+"hold": 0.0,
+"live_carry": 0.0,
+"hold_carry": 0.0,
+"stock": 0.009930327540642159
+},
+{
+"day": "2026-10-26",
+"t": "09:31",
+"source": "sniper",
+"sym": "TSLA",
+"kind": "call",
+"contract": "TSLA261026C00400000",
+"entry": 0.59,
+"peak": 1.561,
+"live": 0.7576,
+"hold": 0.0,
+"live_carry": 0.7576,
+"hold_carry": 0.0,
+"stock": 0.02049110922946662
+},
+{
+"day": "2026-10-26",
+"t": "13:21",
+"source": "intraday",
+"sym": "INTC",
+"kind": "call",
+"contract": "INTC261030C00102000",
+"entry": 1.49,
+"peak": 1.273,
+"live": 0.7212000000000001,
+"hold": 0.7212000000000001,
+"live_carry": 0.0,
+"hold_carry": 0.0,
+"stock": 0.029100829828350605
+},
+{
+"day": "2026-10-27",
+"t": "09:33",
+"source": "sniper",
+"sym": "AVGO",
+"kind": "call",
+"contract": "AVGO261028C00355000",
+"entry": 0.64,
+"peak": 1.89,
+"live": 0.9875,
+"hold": 0.7618,
+"live_carry": 0.9875,
+"hold_carry": 0.6771,
+"stock": 0.009194318382742983
+},
+{
+"day": "2026-10-27",
+"t": "13:20",
+"source": "intraday",
+"sym": "ORCL",
+"kind": "call",
+"contract": "ORCL261030C00143000",
+"entry": 1.38,
+"peak": 4.68,
+"live": 0.8182,
+"hold": 0.8182,
+"live_carry": 2.5887000000000002,
+"hold_carry": 0.0,
+"stock": 0.028767339218158883
+},
+{
+"day": "2026-10-28",
+"t": "13:19",
+"source": "intraday",
+"sym": "AMAT",
+"kind": "call",
+"contract": "AMAT261030C00440000",
+"entry": 1.69,
+"peak": 1.594,
+"live": 0.9298,
+"hold": 1.0573,
+"live_carry": 0.9298,
+"hold_carry": 0.0,
+"stock": 0.03180860295029131
+},
+{
+"day": "2026-10-29",
+"t": "09:31",
+"source": "sniper",
+"sym": "V",
+"kind": "call",
+"contract": "V261030C00422500",
+"entry": 0.32,
+"peak": 1.072,
+"live": 0.09399999999999997,
+"hold": 0.09399999999999997,
+"live_carry": 0.031299999999999994,
+"hold_carry": 0.031299999999999994,
+"stock": 0.0140413707934548
+},
+{
+"day": "2026-10-29",
+"t": "13:17",
+"source": "intraday",
+"sym": "ORCL",
+"kind": "put",
+"contract": "ORCL261030P00134000",
+"entry": 0.67,
+"peak": 6.143,
+"live": 0.5365,
+"hold": 0.5365,
+"live_carry": 3.0313,
+"hold_carry": 6.0224,
+"stock": -0.031741076074513375
+},
+{
+"day": "2026-10-30",
+"t": "09:31",
+"source": "sniper",
+"sym": "GEV",
+"kind": "call",
+"contract": "GEV261030C00895000",
+"entry": 1.16,
+"peak": 3.779,
+"live": 2.6649000000000003,
+"hold": 0.15580000000000005,
+"live_carry": 2.6649000000000003,
+"hold_carry": 0.15580000000000005,
+"stock": 0.009105882352941297
+},
+{
+"day": "2026-10-30",
+"t": "13:20",
+"source": "intraday",
+"sym": "AMZN",
+"kind": "put",
+"contract": "AMZN261030P00235000",
+"entry": 0.18,
+"peak": 1.278,
+"live": 0.0,
+"hold": 0.0,
+"live_carry": 0.0,
+"hold_carry": 0.0,
+"stock": 0.033929646512428135
+},
+{
+"day": "2026-11-02",
+"t": "11:04",
+"source": "intraday",
+"sym": "AMZN",
+"kind": "call",
+"contract": "AMZN261102C00255000",
+"entry": 0.55,
+"peak": 0.916,
+"live": 0.0,
+"hold": 0.0,
+"live_carry": 0.0,
+"hold_carry": 0.0,
+"stock": 0.011522159581910163
+}
+],
+"real": [
+{
+"day": "2026-10-09",
+"source": "sniper",
+"sym": "LITE",
+"kind": "call",
+"contract": "LITE261009C01200000",
+"qty": 1,
+"entry": 0.4,
+"cost": 40.0,
+"pnl": 45.0,
+"exit": "trail",
+"live": 2.125,
+"hold": 0.0,
+"hold_carry": 0.0
+},
+{
+"day": "2026-10-13",
+"source": "sniper",
+"sym": "META",
+"kind": "call",
+"contract": "META261014C00775000",
+"qty": 1,
+"entry": 0.93,
+"cost": 93.0,
+"pnl": 322.0,
+"exit": "trail",
+"live": 4.46236559139785,
+"hold": 2.5591397849462365,
+"hold_carry": 0.0
+},
+{
+"day": "2026-10-15",
+"source": "sniper",
+"sym": "AAPL",
+"kind": "call",
+"contract": "AAPL261016C00355000",
+"qty": 4,
+"entry": 0.36,
+"cost": 144.0,
+"pnl": -144.0,
+"exit": "expired",
+"live": 0.0,
+"hold": 0.05555555555555555,
+"hold_carry": 0.0
+},
+{
+"day": "2026-10-19",
+"source": "sniper",
+"sym": "MSFT",
+"kind": "call",
+"contract": "MSFT261019C00537500",
+"qty": 3,
+"entry": 0.34,
+"cost": 102.0,
+"pnl": -99.0,
+"exit": "time",
+"live": 0.029411764705882353,
+"hold": 0.029411764705882353,
+"hold_carry": 0.029411764705882353
+},
+{
+"day": "2026-10-21",
+"source": "intraday",
+"sym": "AMD",
+"kind": "call",
+"contract": "AMD261021C00562500",
+"qty": 1,
+"entry": 0.71,
+"cost": 71.0,
+"pnl": 23.0,
+"exit": "time",
+"live": 1.323943661971831,
+"hold": 1.323943661971831,
+"hold_carry": 1.323943661971831
+},
+{
+"day": "2026-10-22",
+"source": "intraday",
+"sym": "MSFT",
+"kind": "put",
+"contract": "MSFT261023P00515000",
+"qty": 1,
+"entry": 1.02,
+"cost": 102.0,
+"pnl": -102.0,
+"exit": "expired",
+"live": 0.0,
+"hold": 1.196078431372549,
+"hold_carry": 0.0
+},
+{
+"day": "2026-10-22",
+"source": "sniper",
+"sym": "UNH",
+"kind": "call",
+"contract": "UNH261023C00430000",
+"qty": 2,
+"entry": 0.52,
+"cost": 104.0,
+"pnl": 168.0,
+"exit": "half+trail",
+"live": 2.6153846153846154,
+"hold": 1.4807692307692308,
+"hold_carry": 0.0
+},
+{
+"day": "2026-10-26",
+"source": "sniper",
+"sym": "TSLA",
+"kind": "call",
+"contract": "TSLA261026C00395000",
+"qty": 1,
+"entry": 0.88,
+"cost": 88.0,
+"pnl": 18.0,
+"exit": "trail",
+"live": 1.2045454545454546,
+"hold": 0.11363636363636363,
+"hold_carry": 0.11363636363636363
+},
+{
+"day": "2026-10-27",
+"source": "sniper",
+"sym": "AVGO",
+"kind": "call",
+"contract": "AVGO261028C00355000",
+"qty": 2,
+"entry": 0.48,
+"cost": 96.0,
+"pnl": 44.0,
+"exit": "trail",
+"live": 1.4583333333333333,
+"hold": 1.0,
+"hold_carry": 0.9583333333333334
+},
+{
+"day": "2026-10-29",
+"source": "intraday",
+"sym": "ORCL",
+"kind": "put",
+"contract": "ORCL261030P00134000",
+"qty": 2,
+"entry": 0.64,
+"cost": 128.0,
+"pnl": 369.0,
+"exit": "half+trail",
+"live": 3.8828125,
+"hold": 0.5625,
+"hold_carry": 6.3125
+},
+{
+"day": "2026-10-29",
+"source": "sniper",
+"sym": "V",
+"kind": "call",
+"contract": "V261030C00420000",
+"qty": 2,
+"entry": 0.7,
+"cost": 140.0,
+"pnl": -140.0,
+"exit": "expired",
+"live": 0.0,
+"hold": 0.12857142857142856,
+"hold_carry": 0.0
+},
+{
+"day": "2026-10-30",
+"source": "intraday",
+"sym": "AMZN",
+"kind": "put",
+"contract": "AMZN261030P00235000",
+"qty": 11,
+"entry": 0.18,
+"cost": 198.0,
+"pnl": -198.0,
+"exit": "expired",
+"live": 0.0,
+"hold": 0.0,
+"hold_carry": 0.0
+},
+{
+"day": "2026-10-30",
+"source": "sniper",
+"sym": "GEV",
+"kind": "call",
+"contract": "GEV261030C00935000",
+"qty": 1,
+"entry": 2.15,
+"cost": 215.0,
+"pnl": -215.0,
+"exit": "expired",
+"live": 0.0,
+"hold": 0.0,
+"hold_carry": 0.0
+},
+{
+"day": "2026-11-02",
+"source": "intraday",
+"sym": "AMZN",
+"kind": "call",
+"contract": "AMZN261102C00255000",
+"qty": 2,
+"entry": 0.43,
+"cost": 86.0,
+"pnl": -84.0,
+"exit": "time",
+"live": 0.023255813953488372,
+"hold": 0.023255813953488372,
+"hold_carry": 0.023255813953488372
+}
+],
+"shadow": [],
+"sims": {
+"sniper 0.10": [
+{
+"frac": 0.2,
+"exit": "live",
+"taken": 7,
+"skipped": 6,
+"rounds_closed": 0,
+"zeros": 0,
+"heroes": 0,
+"open_ledger": 197.94,
+"peak_ledger": 504.41,
+"net": -302.06,
+"rounds": [],
+"trail": [
+{
+"day": "2026-10-07",
+"sym": "MRVL",
+"qty": 1,
+"ledger": 504.41
+},
+{
+"day": "2026-10-08",
+"sym": "PLTR",
+"qty": 1,
+"ledger": 447.44
+},
+{
+"day": "2026-10-09",
+"sym": "LITE",
+"qty": 0,
+"ledger": 447.44
+},
+{
+"day": "2026-10-12",
+"sym": "CRM",
+"qty": 1,
+"ledger": 408.9
+},
+{
+"day": "2026-10-13",
+"sym": "META",
+"qty": 0,
+"ledger": 408.9
+},
+{
+"day": "2026-10-15",
+"sym": "AAPL",
+"qty": 2,
+"ledger": 332.94
+},
+{
+"day": "2026-10-16",
+"sym": "AAPL",
+"qty": 3,
+"ledger": 272.94
+},
+{
+"day": "2026-10-19",
+"sym": "MSFT",
+"qty": 2,
+"ledger": 226.94
+},
+{
+"day": "2026-10-22",
+"sym": "UNH",
+"qty": 0,
+"ledger": 226.94
+},
+{
+"day": "2026-10-26",
+"sym": "TSLA",
+"qty": 0,
+"ledger": 226.94
+},
+{
+"day": "2026-10-27",
+"sym": "AVGO",
+"qty": 0,
+"ledger": 226.94
+},
+{
+"day": "2026-10-29",
+"sym": "V",
+"qty": 1,
+"ledger": 197.94
+},
+{
+"day": "2026-10-30",
+"sym": "GEV",
+"qty": 0,
+"ledger": 197.94
+}
+]
+},
+{
+"frac": 0.2,
+"exit": "hold",
+"taken": 7,
+"skipped": 6,
+"rounds_closed": 0,
+"zeros": 0,
+"heroes": 0,
+"open_ledger": 197.94,
+"peak_ledger": 504.41,
+"net": -302.06,
+"rounds": [],
+"trail": [
+{
+"day": "2026-10-07",
+"sym": "MRVL",
+"qty": 1,
+"ledger": 504.41
+},
+{
+"day": "2026-10-08",
+"sym": "PLTR",
+"qty": 1,
+"ledger": 447.44
+},
+{
+"day": "2026-10-09",
+"sym": "LITE",
+"qty": 0,
+"ledger": 447.44
+},
+{
+"day": "2026-10-12",
+"sym": "CRM",
+"qty": 1,
+"ledger": 408.9
+},
+{
+"day": "2026-10-13",
+"sym": "META",
+"qty": 0,
+"ledger": 408.9
+},
+{
+"day": "2026-10-15",
+"sym": "AAPL",
+"qty": 2,
+"ledger": 332.94
+},
+{
+"day": "2026-10-16",
+"sym": "AAPL",
+"qty": 3,
+"ledger": 272.94
+},
+{
+"day": "2026-10-19",
+"sym": "MSFT",
+"qty": 2,
+"ledger": 226.94
+},
+{
+"day": "2026-10-22",
+"sym": "UNH",
+"qty": 0,
+"ledger": 226.94
+},
+{
+"day": "2026-10-26",
+"sym": "TSLA",
+"qty": 0,
+"ledger": 226.94
+},
+{
+"day": "2026-10-27",
+"sym": "AVGO",
+"qty": 0,
+"ledger": 226.94
+},
+{
+"day": "2026-10-29",
+"sym": "V",
+"qty": 1,
+"ledger": 197.94
+},
+{
+"day": "2026-10-30",
+"sym": "GEV",
+"qty": 0,
+"ledger": 197.94
+}
+]
+},
+{
+"frac": 0.2,
+"exit": "hold_carry",
+"taken": 7,
+"skipped": 6,
+"rounds_closed": 0,
+"zeros": 0,
+"heroes": 0,
+"open_ledger": 167.0,
+"peak_ledger": 500.0,
+"net": -333.0,
+"rounds": [],
+"trail": [
+{
+"day": "2026-10-07",
+"sym": "MRVL",
+"qty": 1,
+"ledger": 415.0
+},
+{
+"day": "2026-10-08",
+"sym": "PLTR",
+"qty": 1,
+"ledger": 354.0
+},
+{
+"day": "2026-10-09",
+"sym": "LITE",
+"qty": 0,
+"ledger": 354.0
+},
+{
+"day": "2026-10-12",
+"sym": "CRM",
+"qty": 1,
+"ledger": 301.0
+},
+{
+"day": "2026-10-13",
+"sym": "META",
+"qty": 0,
+"ledger": 301.0
+},
+{
+"day": "2026-10-15",
+"sym": "AAPL",
+"qty": 1,
+"ledger": 261.0
+},
+{
+"day": "2026-10-16",
+"sym": "AAPL",
+"qty": 2,
+"ledger": 221.0
+},
+{
+"day": "2026-10-19",
+"sym": "MSFT",
+"qty": 1,
+"ledger": 198.0
+},
+{
+"day": "2026-10-22",
+"sym": "UNH",
+"qty": 0,
+"ledger": 198.0
+},
+{
+"day": "2026-10-26",
+"sym": "TSLA",
+"qty": 0,
+"ledger": 198.0
+},
+{
+"day": "2026-10-27",
+"sym": "AVGO",
+"qty": 0,
+"ledger": 198.0
+},
+{
+"day": "2026-10-29",
+"sym": "V",
+"qty": 1,
+"ledger": 167.0
+},
+{
+"day": "2026-10-30",
+"sym": "GEV",
+"qty": 0,
+"ledger": 167.0
+}
+]
+},
+{
+"frac": 1.0,
+"exit": "live",
+"taken": 11,
+"skipped": 2,
+"rounds_closed": 3,
+"zeros": 3,
+"heroes": 0,
+"open_ledger": 104.8,
+"peak_ledger": 1798.19,
+"net": -1843.36,
+"rounds": [
+{
+"end": 27.77,
+"kind": "zero",
+"closed": "2026-10-12"
+},
+{
+"end": 7.07,
+"kind": "zero",
+"closed": "2026-10-16"
+},
+{
+"end": 17.0,
+"kind": "zero",
+"closed": "2026-10-19"
+}
+],
+"trail": [
+{
+"day": "2026-10-07",
+"sym": "MRVL",
+"qty": 5,
+"ledger": 522.06
+},
+{
+"day": "2026-10-08",
+"sym": "PLTR",
+"qty": 8,
+"ledger": 66.31
+},
+{
+"day": "2026-10-09",
+"sym": "LITE",
+"qty": 0,
+"ledger": 66.31
+},
+{
+"day": "2026-10-12",
+"sym": "CRM",
+"qty": 1,
+"ledger": 27.77
+},
+{
+"day": "2026-10-13",
+"sym": "META",
+"qty": 4,
+"ledger": 1798.19
+},
+{
+"day": "2026-10-15",
+"sym": "AAPL",
+"qty": 44,
+"ledger": 127.07
+},
+{
+"day": "2026-10-16",
+"sym": "AAPL",
+"qty": 6,
+"ledger": 7.07
+},
+{
+"day": "2026-10-19",
+"sym": "MSFT",
+"qty": 21,
+"ledger": 17.0
+},
+{
+"day": "2026-10-22",
+"sym": "UNH",
+"qty": 10,
+"ledger": 1184.82
+},
+{
+"day": "2026-10-26",
+"sym": "TSLA",
+"qty": 20,
+"ledger": 898.78
+},
+{
+"day": "2026-10-27",
+"sym": "AVGO",
+"qty": 14,
+"ledger": 887.58
+},
+{
+"day": "2026-10-29",
+"sym": "V",
+"qty": 27,
+"ledger": 104.8
+},
+{
+"day": "2026-10-30",
+"sym": "GEV",
+"qty": 0,
+"ledger": 104.8
+}
+]
+},
+{
+"frac": 1.0,
+"exit": "hold",
+"taken": 12,
+"skipped": 1,
+"rounds_closed": 5,
+"zeros": 5,
+"heroes": 0,
+"open_ledger": 108.29,
+"peak_ledger": 1585.42,
+"net": -2785.67,
+"rounds": [
+{
+"end": 27.77,
+"kind": "zero",
+"closed": "2026-10-12"
+},
+{
+"end": 4.2,
+"kind": "zero",
+"closed": "2026-10-16"
+},
+{
+"end": 17.0,
+"kind": "zero",
+"closed": "2026-10-19"
+},
+{
+"end": 11.69,
+"kind": "zero",
+"closed": "2026-10-26"
+},
+{
+"end": 45.38,
+"kind": "zero",
+"closed": "2026-10-29"
+}
+],
+"trail": [
+{
+"day": "2026-10-07",
+"sym": "MRVL",
+"qty": 5,
+"ledger": 522.06
+},
+{
+"day": "2026-10-08",
+"sym": "PLTR",
+"qty": 8,
+"ledger": 66.31
+},
+{
+"day": "2026-10-09",
+"sym": "LITE",
+"qty": 0,
+"ledger": 66.31
+},
+{
+"day": "2026-10-12",
+"sym": "CRM",
+"qty": 1,
+"ledger": 27.77
+},
+{
+"day": "2026-10-13",
+"sym": "META",
+"qty": 4,
+"ledger": 1585.42
+},
+{
+"day": "2026-10-15",
+"sym": "AAPL",
+"qty": 39,
+"ledger": 104.2
+},
+{
+"day": "2026-10-16",
+"sym": "AAPL",
+"qty": 5,
+"ledger": 4.2
+},
+{
+"day": "2026-10-19",
+"sym": "MSFT",
+"qty": 21,
+"ledger": 17.0
+},
+{
+"day": "2026-10-22",
+"sym": "UNH",
+"qty": 10,
+"ledger": 778.69
+},
+{
+"day": "2026-10-26",
+"sym": "TSLA",
+"qty": 13,
+"ledger": 11.69
+},
+{
+"day": "2026-10-27",
+"sym": "AVGO",
+"qty": 7,
+"ledger": 393.29
+},
+{
+"day": "2026-10-29",
+"sym": "V",
+"qty": 12,
+"ledger": 45.38
+},
+{
+"day": "2026-10-30",
+"sym": "GEV",
+"qty": 4,
+"ledger": 108.29
+}
+]
+},
+{
+"frac": 1.0,
+"exit": "hold_carry",
+"taken": 13,
+"skipped": 0,
+"rounds_closed": 10,
+"zeros": 10,
+"heroes": 0,
+"open_ledger": 108.29,
+"peak_ledger": 500.0,
+"net": -5195.38,
+"rounds": [
+{
+"end": 14.0,
+"kind": "zero",
+"closed": "2026-10-08"
+},
+{
+"end": 35.97,
+"kind": "zero",
+"closed": "2026-10-09"
+},
+{
+"end": 23.0,
+"kind": "zero",
+"closed": "2026-10-12"
+},
+{
+"end": 24.0,
+"kind": "zero",
+"closed": "2026-10-13"
+},
+{
+"end": 20.0,
+"kind": "zero",
+"closed": "2026-10-15"
+},
+{
+"end": 0.0,
+"kind": "zero",
+"closed": "2026-10-16"
+},
+{
+"end": 17.0,
+"kind": "zero",
+"closed": "2026-10-19"
+},
+{
+"end": 20.0,
+"kind": "zero",
+"closed": "2026-10-22"
+},
+{
+"end": 28.0,
+"kind": "zero",
+"closed": "2026-10-26"
+},
+{
+"end": 14.36,
+"kind": "zero",
+"closed": "2026-10-29"
+}
+],
+"trail": [
+{
+"day": "2026-10-07",
+"sym": "MRVL",
+"qty": 5,
+"ledger": 75.0
+},
+{
+"day": "2026-10-08",
+"sym": "PLTR",
+"qty": 1,
+"ledger": 14.0
+},
+{
+"day": "2026-10-09",
+"sym": "LITE",
+"qty": 2,
+"ledger": 35.97
+},
+{
+"day": "2026-10-12",
+"sym": "CRM",
+"qty": 9,
+"ledger": 23.0
+},
+{
+"day": "2026-10-13",
+"sym": "META",
+"qty": 4,
+"ledger": 24.0
+},
+{
+"day": "2026-10-15",
+"sym": "AAPL",
+"qty": 12,
+"ledger": 20.0
+},
+{
+"day": "2026-10-16",
+"sym": "AAPL",
+"qty": 25,
+"ledger": 0.0
+},
+{
+"day": "2026-10-19",
+"sym": "MSFT",
+"qty": 21,
+"ledger": 17.0
+},
+{
+"day": "2026-10-22",
+"sym": "UNH",
+"qty": 10,
+"ledger": 20.0
+},
+{
+"day": "2026-10-26",
+"sym": "TSLA",
+"qty": 8,
+"ledger": 28.0
+},
+{
+"day": "2026-10-27",
+"sym": "AVGO",
+"qty": 7,
+"ledger": 355.34
+},
+{
+"day": "2026-10-29",
+"sym": "V",
+"qty": 11,
+"ledger": 14.36
+},
+{
+"day": "2026-10-30",
+"sym": "GEV",
+"qty": 4,
+"ledger": 108.29
+}
+]
+}
+],
+"intraday 0.20": [
+{
+"frac": 0.2,
+"exit": "live",
+"taken": 6,
+"skipped": 5,
+"rounds_closed": 0,
+"zeros": 0,
+"heroes": 0,
+"open_ledger": 352.79,
+"peak_ledger": 649.85,
+"net": -147.21,
+"rounds": [],
+"trail": [
+{
+"day": "2026-10-06",
+"sym": "AVGO",
+"qty": 0,
+"ledger": 500.0
+},
+{
+"day": "2026-10-19",
+"sym": "AMZN",
+"qty": 3,
+"ledger": 648.45
+},
+{
+"day": "2026-10-21",
+"sym": "AMD",
+"qty": 0,
+"ledger": 648.45
+},
+{
+"day": "2026-10-22",
+"sym": "MSFT",
+"qty": 1,
+"ledger": 649.85
+},
+{
+"day": "2026-10-23",
+"sym": "ORCL",
+"qty": 11,
+"ledger": 528.85
+},
+{
+"day": "2026-10-26",
+"sym": "INTC",
+"qty": 0,
+"ledger": 528.85
+},
+{
+"day": "2026-10-27",
+"sym": "ORCL",
+"qty": 0,
+"ledger": 528.85
+},
+{
+"day": "2026-10-28",
+"sym": "AMAT",
+"qty": 0,
+"ledger": 528.85
+},
+{
+"day": "2026-10-29",
+"sym": "ORCL",
+"qty": 1,
+"ledger": 497.79
+},
+{
+"day": "2026-10-30",
+"sym": "AMZN",
+"qty": 5,
+"ledger": 407.79
+},
+{
+"day": "2026-11-02",
+"sym": "AMZN",
+"qty": 1,
+"ledger": 352.79
+}
+]
+},
+{
+"frac": 0.2,
+"exit": "hold",
+"taken": 6,
+"skipped": 5,
+"rounds_closed": 0,
+"zeros": 0,
+"heroes": 0,
+"open_ledger": 339.11,
+"peak_ledger": 636.16,
+"net": -160.89,
+"rounds": [],
+"trail": [
+{
+"day": "2026-10-06",
+"sym": "AVGO",
+"qty": 0,
+"ledger": 500.0
+},
+{
+"day": "2026-10-19",
+"sym": "AMZN",
+"qty": 3,
+"ledger": 634.76
+},
+{
+"day": "2026-10-21",
+"sym": "AMD",
+"qty": 0,
+"ledger": 634.76
+},
+{
+"day": "2026-10-22",
+"sym": "MSFT",
+"qty": 1,
+"ledger": 636.16
+},
+{
+"day": "2026-10-23",
+"sym": "ORCL",
+"qty": 11,
+"ledger": 515.16
+},
+{
+"day": "2026-10-26",
+"sym": "INTC",
+"qty": 0,
+"ledger": 515.16
+},
+{
+"day": "2026-10-27",
+"sym": "ORCL",
+"qty": 0,
+"ledger": 515.16
+},
+{
+"day": "2026-10-28",
+"sym": "AMAT",
+"qty": 0,
+"ledger": 515.16
+},
+{
+"day": "2026-10-29",
+"sym": "ORCL",
+"qty": 1,
+"ledger": 484.11
+},
+{
+"day": "2026-10-30",
+"sym": "AMZN",
+"qty": 5,
+"ledger": 394.11
+},
+{
+"day": "2026-11-02",
+"sym": "AMZN",
+"qty": 1,
+"ledger": 339.11
+}
+]
+},
+{
+"frac": 0.2,
+"exit": "hold_carry",
+"taken": 6,
+"skipped": 5,
+"rounds_closed": 0,
+"zeros": 0,
+"heroes": 0,
+"open_ledger": 507.26,
+"peak_ledger": 761.26,
+"net": 7.26,
+"rounds": [],
+"trail": [
+{
+"day": "2026-10-06",
+"sym": "AVGO",
+"qty": 0,
+"ledger": 500.0
+},
+{
+"day": "2026-10-19",
+"sym": "AMZN",
+"qty": 3,
+"ledger": 634.76
+},
+{
+"day": "2026-10-21",
+"sym": "AMD",
+"qty": 0,
+"ledger": 634.76
+},
+{
+"day": "2026-10-22",
+"sym": "MSFT",
+"qty": 1,
+"ledger": 523.76
+},
+{
+"day": "2026-10-23",
+"sym": "ORCL",
+"qty": 9,
+"ledger": 424.76
+},
+{
+"day": "2026-10-26",
+"sym": "INTC",
+"qty": 0,
+"ledger": 424.76
+},
+{
+"day": "2026-10-27",
+"sym": "ORCL",
+"qty": 0,
+"ledger": 424.76
+},
+{
+"day": "2026-10-28",
+"sym": "AMAT",
+"qty": 0,
+"ledger": 424.76
+},
+{
+"day": "2026-10-29",
+"sym": "ORCL",
+"qty": 1,
+"ledger": 761.26
+},
+{
+"day": "2026-10-30",
+"sym": "AMZN",
+"qty": 8,
+"ledger": 617.26
+},
+{
+"day": "2026-11-02",
+"sym": "AMZN",
+"qty": 2,
+"ledger": 507.26
+}
+]
+},
+{
+"frac": 1.0,
+"exit": "live",
+"taken": 11,
+"skipped": 0,
+"rounds_closed": 3,
+"zeros": 3,
+"heroes": 0,
+"open_ledger": 500.0,
+"peak_ledger": 1310.95,
+"net": -1483.93,
+"rounds": [
+{
+"end": 1.95,
+"kind": "zero",
+"closed": "2026-10-23"
+},
+{
+"end": 9.12,
+"kind": "zero",
+"closed": "2026-10-30"
+},
+{
+"end": 5.0,
+"kind": "zero",
+"closed": "2026-11-02"
+}
+],
+"trail": [
+{
+"day": "2026-10-06",
+"sym": "AVGO",
+"qty": 4,
+"ledger": 473.19
+},
+{
+"day": "2026-10-19",
+"sym": "AMZN",
+"qty": 16,
+"ledger": 1264.91
+},
+{
+"day": "2026-10-21",
+"sym": "AMD",
+"qty": 9,
+"ledger": 1295.56
+},
+{
+"day": "2026-10-22",
+"sym": "MSFT",
+"qty": 11,
+"ledger": 1310.95
+},
+{
+"day": "2026-10-23",
+"sym": "ORCL",
+"qty": 119,
+"ledger": 1.95
+},
+{
+"day": "2026-10-26",
+"sym": "INTC",
+"qty": 3,
+"ledger": 375.38
+},
+{
+"day": "2026-10-27",
+"sym": "ORCL",
+"qty": 2,
+"ledger": 325.2
+},
+{
+"day": "2026-10-28",
+"sym": "AMAT",
+"qty": 1,
+"ledger": 313.34
+},
+{
+"day": "2026-10-29",
+"sym": "ORCL",
+"qty": 4,
+"ledger": 189.12
+},
+{
+"day": "2026-10-30",
+"sym": "AMZN",
+"qty": 10,
+"ledger": 9.12
+},
+{
+"day": "2026-11-02",
+"sym": "AMZN",
+"qty": 9,
+"ledger": 5.0
+}
+]
+},
+{
+"frac": 1.0,
+"exit": "hold",
+"taken": 11,
+"skipped": 0,
+"rounds_closed": 3,
+"zeros": 3,
+"heroes": 0,
+"open_ledger": 500.0,
+"peak_ledger": 1098.74,
+"net": -1472.59,
+"rounds": [
+{
+"end": 9.74,
+"kind": "zero",
+"closed": "2026-10-23"
+},
+{
+"end": 12.67,
+"kind": "zero",
+"closed": "2026-10-30"
+},
+{
+"end": 5.0,
+"kind": "zero",
+"closed": "2026-11-02"
+}
+],
+"trail": [
+{
+"day": "2026-10-06",
+"sym": "AVGO",
+"qty": 4,
+"ledger": 430.01
+},
+{
+"day": "2026-10-19",
+"sym": "AMZN",
+"qty": 14,
+"ledger": 1058.91
+},
+{
+"day": "2026-10-21",
+"sym": "AMD",
+"qty": 8,
+"ledger": 1086.16
+},
+{
+"day": "2026-10-22",
+"sym": "MSFT",
+"qty": 9,
+"ledger": 1098.74
+},
+{
+"day": "2026-10-23",
+"sym": "ORCL",
+"qty": 99,
+"ledger": 9.74
+},
+{
+"day": "2026-10-26",
+"sym": "INTC",
+"qty": 3,
+"ledger": 375.38
+},
+{
+"day": "2026-10-27",
+"sym": "ORCL",
+"qty": 2,
+"ledger": 325.2
+},
+{
+"day": "2026-10-28",
+"sym": "AMAT",
+"qty": 1,
+"ledger": 334.88
+},
+{
+"day": "2026-10-29",
+"sym": "ORCL",
+"qty": 4,
+"ledger": 210.67
+},
+{
+"day": "2026-10-30",
+"sym": "AMZN",
+"qty": 11,
+"ledger": 12.67
+},
+{
+"day": "2026-11-02",
+"sym": "AMZN",
+"qty": 9,
+"ledger": 5.0
+}
+]
+},
+{
+"frac": 1.0,
+"exit": "hold_carry",
+"taken": 8,
+"skipped": 3,
+"rounds_closed": 4,
+"zeros": 4,
+"heroes": 0,
+"open_ledger": 500.0,
+"peak_ledger": 1294.31,
+"net": -1954.69,
+"rounds": [
+{
+"end": 16.0,
+"kind": "zero",
+"closed": "2026-10-06"
+},
+{
+"end": 7.31,
+"kind": "zero",
+"closed": "2026-10-23"
+},
+{
+"end": 17.0,
+"kind": "zero",
+"closed": "2026-10-30"
+},
+{
+"end": 5.0,
+"kind": "zero",
+"closed": "2026-11-02"
+}
+],
+"trail": [
+{
+"day": "2026-10-06",
+"sym": "AVGO",
+"qty": 4,
+"ledger": 16.0
+},
+{
+"day": "2026-10-19",
+"sym": "AMZN",
+"qty": 17,
+"ledger": 1263.66
+},
+{
+"day": "2026-10-21",
+"sym": "AMD",
+"qty": 9,
+"ledger": 1294.31
+},
+{
+"day": "2026-10-22",
+"sym": "MSFT",
+"qty": 11,
+"ledger": 73.31
+},
+{
+"day": "2026-10-23",
+"sym": "ORCL",
+"qty": 6,
+"ledger": 7.31
+},
+{
+"day": "2026-10-26",
+"sym": "INTC",
+"qty": 3,
+"ledger": 53.0
+},
+{
+"day": "2026-10-27",
+"sym": "ORCL",
+"qty": 0,
+"ledger": 53.0
+},
+{
+"day": "2026-10-28",
+"sym": "AMAT",
+"qty": 0,
+"ledger": 53.0
+},
+{
+"day": "2026-10-29",
+"sym": "ORCL",
+"qty": 0,
+"ledger": 53.0
+},
+{
+"day": "2026-10-30",
+"sym": "AMZN",
+"qty": 2,
+"ledger": 17.0
+},
+{
+"day": "2026-11-02",
+"sym": "AMZN",
+"qty": 9,
+"ledger": 5.0
+}
+]
+}
+],
+"all picks": [
+{
+"frac": 0.2,
+"exit": "live",
+"taken": 11,
+"skipped": 13,
+"rounds_closed": 0,
+"zeros": 0,
+"heroes": 0,
+"open_ledger": 213.91,
+"peak_ledger": 504.41,
+"net": -286.09,
+"rounds": [],
+"trail": [
+{
+"day": "2026-10-06",
+"sym": "AVGO",
+"qty": 0,
+"ledger": 500.0
+},
+{
+"day": "2026-10-07",
+"sym": "MRVL",
+"qty": 1,
+"ledger": 504.41
+},
+{
+"day": "2026-10-08",
+"sym": "PLTR",
+"qty": 1,
+"ledger": 447.44
+},
+{
+"day": "2026-10-09",
+"sym": "LITE",
+"qty": 0,
+"ledger": 447.44
+},
+{
+"day": "2026-10-12",
+"sym": "CRM",
+"qty": 1,
+"ledger": 408.9
+},
+{
+"day": "2026-10-13",
+"sym": "META",
+"qty": 0,
+"ledger": 408.9
+},
+{
+"day": "2026-10-15",
+"sym": "AAPL",
+"qty": 2,
+"ledger": 332.94
+},
+{
+"day": "2026-10-16",
+"sym": "AAPL",
+"qty": 3,
+"ledger": 272.94
+},
+{
+"day": "2026-10-19",
+"sym": "MSFT",
+"qty": 2,
+"ledger": 226.94
+},
+{
+"day": "2026-10-19",
+"sym": "AMZN",
+"qty": 1,
+"ledger": 276.42
+},
+{
+"day": "2026-10-21",
+"sym": "AMD",
+"qty": 0,
+"ledger": 276.42
+},
+{
+"day": "2026-10-22",
+"sym": "UNH",
+"qty": 1,
+"ledger": 344.9
+},
+{
+"day": "2026-10-22",
+"sym": "MSFT",
+"qty": 0,
+"ledger": 344.9
+},
+{
+"day": "2026-10-23",
+"sym": "ORCL",
+"qty": 6,
+"ledger": 278.9
+},
+{
+"day": "2026-10-26",
+"sym": "TSLA",
+"qty": 0,
+"ledger": 278.9
+},
+{
+"day": "2026-10-26",
+"sym": "INTC",
+"qty": 0,
+"ledger": 278.9
+},
+{
+"day": "2026-10-27",
+"sym": "AVGO",
+"qty": 0,
+"ledger": 278.9
+},
+{
+"day": "2026-10-27",
+"sym": "ORCL",
+"qty": 0,
+"ledger": 278.9
+},
+{
+"day": "2026-10-28",
+"sym": "AMAT",
+"qty": 0,
+"ledger": 278.9
+},
+{
+"day": "2026-10-29",
+"sym": "V",
+"qty": 1,
+"ledger": 249.91
+},
+{
+"day": "2026-10-29",
+"sym": "ORCL",
+"qty": 0,
+"ledger": 249.91
+},
+{
+"day": "2026-10-30",
+"sym": "GEV",
+"qty": 0,
+"ledger": 249.91
+},
+{
+"day": "2026-10-30",
+"sym": "AMZN",
+"qty": 2,
+"ledger": 213.91
+},
+{
+"day": "2026-11-02",
+"sym": "AMZN",
+"qty": 0,
+"ledger": 213.91
+}
+]
+},
+{
+"frac": 0.2,
+"exit": "hold",
+"taken": 11,
+"skipped": 13,
+"rounds_closed": 0,
+"zeros": 0,
+"heroes": 0,
+"open_ledger": 179.73,
+"peak_ledger": 504.41,
+"net": -320.27,
+"rounds": [],
+"trail": [
+{
+"day": "2026-10-06",
+"sym": "AVGO",
+"qty": 0,
+"ledger": 500.0
+},
+{
+"day": "2026-10-07",
+"sym": "MRVL",
+"qty": 1,
+"ledger": 504.41
+},
+{
+"day": "2026-10-08",
+"sym": "PLTR",
+"qty": 1,
+"ledger": 447.44
+},
+{
+"day": "2026-10-09",
+"sym": "LITE",
+"qty": 0,
+"ledger": 447.44
+},
+{
+"day": "2026-10-12",
+"sym": "CRM",
+"qty": 1,
+"ledger": 408.9
+},
+{
+"day": "2026-10-13",
+"sym": "META",
+"qty": 0,
+"ledger": 408.9
+},
+{
+"day": "2026-10-15",
+"sym": "AAPL",
+"qty": 2,
+"ledger": 332.94
+},
+{
+"day": "2026-10-16",
+"sym": "AAPL",
+"qty": 3,
+"ledger": 272.94
+},
+{
+"day": "2026-10-19",
+"sym": "MSFT",
+"qty": 2,
+"ledger": 226.94
+},
+{
+"day": "2026-10-19",
+"sym": "AMZN",
+"qty": 1,
+"ledger": 271.86
+},
+{
+"day": "2026-10-21",
+"sym": "AMD",
+"qty": 0,
+"ledger": 271.86
+},
+{
+"day": "2026-10-22",
+"sym": "UNH",
+"qty": 1,
+"ledger": 299.73
+},
+{
+"day": "2026-10-22",
+"sym": "MSFT",
+"qty": 0,
+"ledger": 299.73
+},
+{
+"day": "2026-10-23",
+"sym": "ORCL",
+"qty": 5,
+"ledger": 244.73
+},
+{
+"day": "2026-10-26",
+"sym": "TSLA",
+"qty": 0,
+"ledger": 244.73
+},
+{
+"day": "2026-10-26",
+"sym": "INTC",
+"qty": 0,
+"ledger": 244.73
+},
+{
+"day": "2026-10-27",
+"sym": "AVGO",
+"qty": 0,
+"ledger": 244.73
+},
+{
+"day": "2026-10-27",
+"sym": "ORCL",
+"qty": 0,
+"ledger": 244.73
+},
+{
+"day": "2026-10-28",
+"sym": "AMAT",
+"qty": 0,
+"ledger": 244.73
+},
+{
+"day": "2026-10-29",
+"sym": "V",
+"qty": 1,
+"ledger": 215.73
+},
+{
+"day": "2026-10-29",
+"sym": "ORCL",
+"qty": 0,
+"ledger": 215.73
+},
+{
+"day": "2026-10-30",
+"sym": "GEV",
+"qty": 0,
+"ledger": 215.73
+},
+{
+"day": "2026-10-30",
+"sym": "AMZN",
+"qty": 2,
+"ledger": 179.73
+},
+{
+"day": "2026-11-02",
+"sym": "AMZN",
+"qty": 0,
+"ledger": 179.73
+}
+]
+},
+{
+"frac": 0.2,
+"exit": "hold_carry",
+"taken": 11,
+"skipped": 13,
+"rounds_closed": 0,
+"zeros": 0,
+"heroes": 0,
+"open_ledger": 112.92,
+"peak_ledger": 500.0,
+"net": -387.08,
+"rounds": [],
+"trail": [
+{
+"day": "2026-10-06",
+"sym": "AVGO",
+"qty": 0,
+"ledger": 500.0
+},
+{
+"day": "2026-10-07",
+"sym": "MRVL",
+"qty": 1,
+"ledger": 415.0
+},
+{
+"day": "2026-10-08",
+"sym": "PLTR",
+"qty": 1,
+"ledger": 354.0
+},
+{
+"day": "2026-10-09",
+"sym": "LITE",
+"qty": 0,
+"ledger": 354.0
+},
+{
+"day": "2026-10-12",
+"sym": "CRM",
+"qty": 1,
+"ledger": 301.0
+},
+{
+"day": "2026-10-13",
+"sym": "META",
+"qty": 0,
+"ledger": 301.0
+},
+{
+"day": "2026-10-15",
+"sym": "AAPL",
+"qty": 1,
+"ledger": 261.0
+},
+{
+"day": "2026-10-16",
+"sym": "AAPL",
+"qty": 2,
+"ledger": 221.0
+},
+{
+"day": "2026-10-19",
+"sym": "MSFT",
+"qty": 1,
+"ledger": 198.0
+},
+{
+"day": "2026-10-19",
+"sym": "AMZN",
+"qty": 1,
+"ledger": 242.92
+},
+{
+"day": "2026-10-21",
+"sym": "AMD",
+"qty": 0,
+"ledger": 242.92
+},
+{
+"day": "2026-10-22",
+"sym": "UNH",
+"qty": 1,
+"ledger": 194.92
+},
+{
+"day": "2026-10-22",
+"sym": "MSFT",
+"qty": 0,
+"ledger": 194.92
+},
+{
+"day": "2026-10-23",
+"sym": "ORCL",
+"qty": 3,
+"ledger": 161.92
+},
+{
+"day": "2026-10-26",
+"sym": "TSLA",
+"qty": 0,
+"ledger": 161.92
+},
+{
+"day": "2026-10-26",
+"sym": "INTC",
+"qty": 0,
+"ledger": 161.92
+},
+{
+"day": "2026-10-27",
+"sym": "AVGO",
+"qty": 0,
+"ledger": 161.92
+},
+{
+"day": "2026-10-27",
+"sym": "ORCL",
+"qty": 0,
+"ledger": 161.92
+},
+{
+"day": "2026-10-28",
+"sym": "AMAT",
+"qty": 0,
+"ledger": 161.92
+},
+{
+"day": "2026-10-29",
+"sym": "V",
+"qty": 1,
+"ledger": 130.92
+},
+{
+"day": "2026-10-29",
+"sym": "ORCL",
+"qty": 0,
+"ledger": 130.92
+},
+{
+"day": "2026-10-30",
+"sym": "GEV",
+"qty": 0,
+"ledger": 130.92
+},
+{
+"day": "2026-10-30",
+"sym": "AMZN",
+"qty": 1,
+"ledger": 112.92
+},
+{
+"day": "2026-11-02",
+"sym": "AMZN",
+"qty": 0,
+"ledger": 112.92
+}
+]
+},
+{
+"frac": 1.0,
+"exit": "live",
+"taken": 24,
+"skipped": 0,
+"rounds_closed": 8,
+"zeros": 8,
+"heroes": 0,
+"open_ledger": 500.0,
+"peak_ledger": 3333.31,
+"net": -3845.17,
+"rounds": [
+{
+"end": 39.5,
+"kind": "zero",
+"closed": "2026-10-08"
+},
+{
+"end": 35.97,
+"kind": "zero",
+"closed": "2026-10-09"
+},
+{
+"end": 19.85,
+"kind": "zero",
+"closed": "2026-10-16"
+},
+{
+"end": 17.0,
+"kind": "zero",
+"closed": "2026-10-19"
+},
+{
+"end": 0.31,
+"kind": "zero",
+"closed": "2026-10-23"
+},
+{
+"end": 34.32,
+"kind": "zero",
+"closed": "2026-10-29"
+},
+{
+"end": 2.88,
+"kind": "zero",
+"closed": "2026-10-30"
+},
+{
+"end": 5.0,
+"kind": "zero",
+"closed": "2026-11-02"
+}
+],
+"trail": [
+{
+"day": "2026-10-06",
+"sym": "AVGO",
+"qty": 4,
+"ledger": 473.19
+},
+{
+"day": "2026-10-07",
+"sym": "MRVL",
+"qty": 5,
+"ledger": 495.24
+},
+{
+"day": "2026-10-08",
+"sym": "PLTR",
+"qty": 8,
+"ledger": 39.5
+},
+{
+"day": "2026-10-09",
+"sym": "LITE",
+"qty": 2,
+"ledger": 35.97
+},
+{
+"day": "2026-10-12",
+"sym": "CRM",
+"qty": 9,
+"ledger": 153.08
+},
+{
+"day": "2026-10-13",
+"sym": "META",
+"qty": 1,
+"ledger": 477.63
+},
+{
+"day": "2026-10-15",
+"sym": "AAPL",
+"qty": 11,
+"ledger": 59.85
+},
+{
+"day": "2026-10-16",
+"sym": "AAPL",
+"qty": 2,
+"ledger": 19.85
+},
+{
+"day": "2026-10-19",
+"sym": "MSFT",
+"qty": 21,
+"ledger": 17.0
+},
+{
+"day": "2026-10-19",
+"sym": "AMZN",
+"qty": 17,
+"ledger": 1341.21
+},
+{
+"day": "2026-10-21",
+"sym": "AMD",
+"qty": 10,
+"ledger": 1375.27
+},
+{
+"day": "2026-10-22",
+"sym": "UNH",
+"qty": 28,
+"ledger": 3292.75
+},
+{
+"day": "2026-10-22",
+"sym": "MSFT",
+"qty": 29,
+"ledger": 3333.31
+},
+{
+"day": "2026-10-23",
+"sym": "ORCL",
+"qty": 303,
+"ledger": 0.31
+},
+{
+"day": "2026-10-26",
+"sym": "TSLA",
+"qty": 8,
+"ledger": 385.59
+},
+{
+"day": "2026-10-26",
+"sym": "INTC",
+"qty": 2,
+"ledger": 302.5
+},
+{
+"day": "2026-10-27",
+"sym": "AVGO",
+"qty": 4,
+"ledger": 299.3
+},
+{
+"day": "2026-10-27",
+"sym": "ORCL",
+"qty": 2,
+"ledger": 249.13
+},
+{
+"day": "2026-10-28",
+"sym": "AMAT",
+"qty": 1,
+"ledger": 237.26
+},
+{
+"day": "2026-10-29",
+"sym": "V",
+"qty": 7,
+"ledger": 34.32
+},
+{
+"day": "2026-10-29",
+"sym": "ORCL",
+"qty": 7,
+"ledger": 282.62
+},
+{
+"day": "2026-10-30",
+"sym": "GEV",
+"qty": 2,
+"ledger": 668.88
+},
+{
+"day": "2026-10-30",
+"sym": "AMZN",
+"qty": 37,
+"ledger": 2.88
+},
+{
+"day": "2026-11-02",
+"sym": "AMZN",
+"qty": 9,
+"ledger": 5.0
+}
+]
+},
+{
+"frac": 1.0,
+"exit": "hold",
+"taken": 23,
+"skipped": 1,
+"rounds_closed": 8,
+"zeros": 8,
+"heroes": 0,
+"open_ledger": 500.0,
+"peak_ledger": 2044.07,
+"net": -3880.5,
+"rounds": [
+{
+"end": 14.75,
+"kind": "zero",
+"closed": "2026-10-12"
+},
+{
+"end": 4.2,
+"kind": "zero",
+"closed": "2026-10-16"
+},
+{
+"end": 17.0,
+"kind": "zero",
+"closed": "2026-10-19"
+},
+{
+"end": 9.07,
+"kind": "zero",
+"closed": "2026-10-23"
+},
+{
+"end": 28.0,
+"kind": "zero",
+"closed": "2026-10-26"
+},
+{
+"end": 26.72,
+"kind": "zero",
+"closed": "2026-10-29"
+},
+{
+"end": 14.76,
+"kind": "zero",
+"closed": "2026-10-30"
+},
+{
+"end": 5.0,
+"kind": "zero",
+"closed": "2026-11-02"
+}
+],
+"trail": [
+{
+"day": "2026-10-06",
+"sym": "AVGO",
+"qty": 4,
+"ledger": 430.01
+},
+{
+"day": "2026-10-07",
+"sym": "MRVL",
+"qty": 5,
+"ledger": 452.07
+},
+{
+"day": "2026-10-08",
+"sym": "PLTR",
+"qty": 7,
+"ledger": 53.3
+},
+{
+"day": "2026-10-09",
+"sym": "LITE",
+"qty": 0,
+"ledger": 53.3
+},
+{
+"day": "2026-10-12",
+"sym": "CRM",
+"qty": 1,
+"ledger": 14.75
+},
+{
+"day": "2026-10-13",
+"sym": "META",
+"qty": 4,
+"ledger": 1585.42
+},
+{
+"day": "2026-10-15",
+"sym": "AAPL",
+"qty": 39,
+"ledger": 104.2
+},
+{
+"day": "2026-10-16",
+"sym": "AAPL",
+"qty": 5,
+"ledger": 4.2
+},
+{
+"day": "2026-10-19",
+"sym": "MSFT",
+"qty": 21,
+"ledger": 17.0
+},
+{
+"day": "2026-10-19",
+"sym": "AMZN",
+"qty": 17,
+"ledger": 1263.66
+},
+{
+"day": "2026-10-21",
+"sym": "AMD",
+"qty": 9,
+"ledger": 1294.31
+},
+{
+"day": "2026-10-22",
+"sym": "UNH",
+"qty": 26,
+"ledger": 2018.9
+},
+{
+"day": "2026-10-22",
+"sym": "MSFT",
+"qty": 18,
+"ledger": 2044.07
+},
+{
+"day": "2026-10-23",
+"sym": "ORCL",
+"qty": 185,
+"ledger": 9.07
+},
+{
+"day": "2026-10-26",
+"sym": "TSLA",
+"qty": 8,
+"ledger": 28.0
+},
+{
+"day": "2026-10-26",
+"sym": "INTC",
+"qty": 3,
+"ledger": 375.38
+},
+{
+"day": "2026-10-27",
+"sym": "AVGO",
+"qty": 5,
+"ledger": 299.15
+},
+{
+"day": "2026-10-27",
+"sym": "ORCL",
+"qty": 2,
+"ledger": 248.98
+},
+{
+"day": "2026-10-28",
+"sym": "AMAT",
+"qty": 1,
+"ledger": 258.66
+},
+{
+"day": "2026-10-29",
+"sym": "V",
+"qty": 8,
+"ledger": 26.72
+},
+{
+"day": "2026-10-29",
+"sym": "ORCL",
+"qty": 7,
+"ledger": 282.62
+},
+{
+"day": "2026-10-30",
+"sym": "GEV",
+"qty": 2,
+"ledger": 86.76
+},
+{
+"day": "2026-10-30",
+"sym": "AMZN",
+"qty": 4,
+"ledger": 14.76
+},
+{
+"day": "2026-11-02",
+"sym": "AMZN",
+"qty": 9,
+"ledger": 5.0
+}
+]
+},
+{
+"frac": 1.0,
+"exit": "hold_carry",
+"taken": 21,
+"skipped": 3,
+"rounds_closed": 14,
+"zeros": 14,
+"heroes": 0,
+"open_ledger": 500.0,
+"peak_ledger": 2855.51,
+"net": -6746.47,
+"rounds": [
+{
+"end": 16.0,
+"kind": "zero",
+"closed": "2026-10-06"
+},
+{
+"end": 14.0,
+"kind": "zero",
+"closed": "2026-10-08"
+},
+{
+"end": 35.97,
+"kind": "zero",
+"closed": "2026-10-09"
+},
+{
+"end": 23.0,
+"kind": "zero",
+"closed": "2026-10-12"
+},
+{
+"end": 24.0,
+"kind": "zero",
+"closed": "2026-10-13"
+},
+{
+"end": 20.0,
+"kind": "zero",
+"closed": "2026-10-15"
+},
+{
+"end": 0.0,
+"kind": "zero",
+"closed": "2026-10-16"
+},
+{
+"end": 17.0,
+"kind": "zero",
+"closed": "2026-10-19"
+},
+{
+"end": 46.31,
+"kind": "zero",
+"closed": "2026-10-22"
+},
+{
+"end": 1.0,
+"kind": "zero",
+"closed": "2026-10-23"
+},
+{
+"end": 28.0,
+"kind": "zero",
+"closed": "2026-10-26"
+},
+{
+"end": 22.0,
+"kind": "zero",
+"closed": "2026-10-29"
+},
+{
+"end": 1.25,
+"kind": "zero",
+"closed": "2026-10-30"
+},
+{
+"end": 5.0,
+"kind": "zero",
+"closed": "2026-11-02"
+}
+],
+"trail": [
+{
+"day": "2026-10-06",
+"sym": "AVGO",
+"qty": 4,
+"ledger": 16.0
+},
+{
+"day": "2026-10-07",
+"sym": "MRVL",
+"qty": 5,
+"ledger": 75.0
+},
+{
+"day": "2026-10-08",
+"sym": "PLTR",
+"qty": 1,
+"ledger": 14.0
+},
+{
+"day": "2026-10-09",
+"sym": "LITE",
+"qty": 2,
+"ledger": 35.97
+},
+{
+"day": "2026-10-12",
+"sym": "CRM",
+"qty": 9,
+"ledger": 23.0
+},
+{
+"day": "2026-10-13",
+"sym": "META",
+"qty": 4,
+"ledger": 24.0
+},
+{
+"day": "2026-10-15",
+"sym": "AAPL",
+"qty": 12,
+"ledger": 20.0
+},
+{
+"day": "2026-10-16",
+"sym": "AAPL",
+"qty": 25,
+"ledger": 0.0
+},
+{
+"day": "2026-10-19",
+"sym": "MSFT",
+"qty": 21,
+"ledger": 17.0
+},
+{
+"day": "2026-10-19",
+"sym": "AMZN",
+"qty": 17,
+"ledger": 1263.66
+},
+{
+"day": "2026-10-21",
+"sym": "AMD",
+"qty": 9,
+"ledger": 1294.31
+},
+{
+"day": "2026-10-22",
+"sym": "UNH",
+"qty": 26,
+"ledger": 46.31
+},
+{
+"day": "2026-10-22",
+"sym": "MSFT",
+"qty": 4,
+"ledger": 56.0
+},
+{
+"day": "2026-10-23",
+"sym": "ORCL",
+"qty": 5,
+"ledger": 1.0
+},
+{
+"day": "2026-10-26",
+"sym": "TSLA",
+"qty": 8,
+"ledger": 28.0
+},
+{
+"day": "2026-10-26",
+"sym": "INTC",
+"qty": 3,
+"ledger": 53.0
+},
+{
+"day": "2026-10-27",
+"sym": "AVGO",
+"qty": 0,
+"ledger": 53.0
+},
+{
+"day": "2026-10-27",
+"sym": "ORCL",
+"qty": 0,
+"ledger": 53.0
+},
+{
+"day": "2026-10-28",
+"sym": "AMAT",
+"qty": 0,
+"ledger": 53.0
+},
+{
+"day": "2026-10-29",
+"sym": "V",
+"qty": 1,
+"ledger": 22.0
+},
+{
+"day": "2026-10-29",
+"sym": "ORCL",
+"qty": 7,
+"ledger": 2855.51
+},
+{
+"day": "2026-10-30",
+"sym": "GEV",
+"qty": 24,
+"ledger": 505.25
+},
+{
+"day": "2026-10-30",
+"sym": "AMZN",
+"qty": 28,
+"ledger": 1.25
+},
+{
+"day": "2026-11-02",
+"sym": "AMZN",
+"qty": 9,
+"ledger": 5.0
+}
+]
+}
+]
+}
+}
