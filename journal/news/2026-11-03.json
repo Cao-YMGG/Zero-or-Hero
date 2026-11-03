@@ -1,0 +1,1121 @@
+{
+ "as_of": "2026-11-03T07:43-05:00",
+ "since": "2026-11-02T16:00-05:00",
+ "headlines": [
+  {
+   "time": "11-03 07:34",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "target down",
+   "headline": "Keefe, Bruyette & Woods Maintains Outperform on Coinbase Global, Lowers Price Target to $221",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62815585/keefe-bruyette-woods-maintains-outperform-coinbase-global-lowers-price-target-221"
+  },
+  {
+   "time": "11-03 07:31",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank of America Corporation Publishes Supplementary Prospectus",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-11-03:newsml_RSC6202Ba:0-reg-bank-of-america-corp-publication-of-a-supplementary-prospectus/"
+  },
+  {
+   "time": "11-03 07:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "rating",
+   "headline": "Morgan Stanley Maintains Hold Rating on Oracle",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1003327697/morgan-stanley-maintains-oracle-orclus-with-hold-rating-maintains-target"
+  },
+  {
+   "time": "11-03 07:20",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "These Analysts Revise Their Forecasts On Palantir After Q3 Results",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62814908/these-analysts-revise-their-forecasts-on-palantir-after-q3-results"
+  },
+  {
+   "time": "11-03 07:10",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Disney Targets Thousands of Jobs in Fresh Cost-Cutting Blitz: Report",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/large-cap/26/11/62814353/disney-targets-thousands-of-jobs-in-fresh-cost-cutting-blitz-report"
+  },
+  {
+   "time": "11-03 07:05",
+   "symbols": [
+    "LITE"
+   ],
+   "rating": "",
+   "headline": "MRVL Stock Hits Nearly 6-Month Low \u2014 Top Analyst Says Selloff Is \u2018Aimed at the Wrong Thing\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/62813659/mrvl-stock-hits-nearly-6-month-low-top-analyst-says-selloff-is-aimed-at-the-wrong-thing"
+  },
+  {
+   "time": "11-03 07:00",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "upgrade",
+   "headline": "Apple\u2019s Siri AI Could Become a Paid Upgrade \u2014 CEO John Ternus Reveals Plans to Charge for More Server-Side Apple Intelligence Usage",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/11/62812949/apples-siri-ai-could-become-a-paid-upgrade-ceo-john-ternus-reveals-plans-to-charge-for-more-server-side-apple-intelligence-usage"
+  },
+  {
+   "time": "11-03 06:58",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "target up",
+   "headline": "Baird Maintains Outperform on Apple, Raises Price Target to $340",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62812726/baird-maintains-outperform-apple-raises-price-target-340"
+  },
+  {
+   "time": "11-03 06:48",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Super Micro Computer Likely To Report Higher Q1 Earnings; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62812159/super-micro-computer-likely-to-report-higher-q1-earnings-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call"
+  },
+  {
+   "time": "11-03 06:43",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "rating",
+   "headline": "Cantor Fitzgerald Reiterates Neutral on Palantir Technologies, Maintains $207 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62811779/cantor-fitzgerald-reiterates-neutral-palantir-technologies-maintains-207-price-target"
+  },
+  {
+   "time": "11-03 06:32",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Convoso Announces 'Convoso for Salesforce' on Salesforce AgentExchange",
+   "source": "fiscal.ai",
+   "url": "https://www.einpresswire.com/article/954041709/convoso-launches-voice-ai-agent-to-scale-lead-qualification-and-call-handling"
+  },
+  {
+   "time": "11-03 06:32",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Adjusts Apple Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-price-target-on-apple-to-380-from-390-ce785fd9d18af627"
+  },
+  {
+   "time": "11-03 06:32",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Files Major Holdings Notification for AIXTRON SE",
+   "source": "fiscal.ai",
+   "url": "https://www.placera.se/pressmeddelanden/aixtron-aixtron-se-release-according-to-article-40-section-1-of-the-wphg-the-german-securities-trading-act-with-the-objective-of-europe-wide-distribution-20261103"
+  },
+  {
+   "time": "11-03 06:32",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "W\u00e4rtsil\u00e4 Completes Engine Conversions for Chevron Transport-Operated LNG Carriers",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/wartsila-completes-engine-conversions-for-chevron-transport-operated-lng-carriers-ce785fd9d18bf024"
+  },
+  {
+   "time": "11-03 06:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Requires Cloud Clients to Limit Business With Chinese Customers",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/nvidia-requires-cloud-clients-to-limit-business-with-chinese-customers-ce785fd9de81ff21"
+  },
+  {
+   "time": "11-03 06:31",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Micron Technology Shares Rise Following Apple's Commentary on Rising Memory Costs",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/stocktwits:c8ad61540094b:0-aapl-stock-tumbles-overnight-on-margin-pressure-from-surging-memory-prices-mu-sndk-inch-higher/"
+  },
+  {
+   "time": "11-03 06:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart Canada Launches AI Shopping Assistant 'Sparky'",
+   "source": "fiscal.ai",
+   "url": "https://www.finanznachrichten.de/nachrichten-medien/bnn-bloomberg.htm"
+  },
+  {
+   "time": "11-03 06:31",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "target up",
+   "headline": "Piper Sandler Maintains Palantir Technologies at Overweight, Raises Price Target to $235",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:bc2fd2cf082e0:0-piper-sandler-maintains-palantir-technologies-at-overweight-raises-price-target-to-235-from-231/"
+  },
+  {
+   "time": "11-03 06:31",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Pauses Proposed Business Terms Following Publisher Backlash",
+   "source": "fiscal.ai",
+   "url": "https://www.varindia.com/news/meta-pauses-business-terms-amid-publisher-backlash-over-content-access"
+  },
+  {
+   "time": "11-03 06:31",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Reports October 2026 China Wholesale Sales",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1003323705/tesla-s-china-wholesale-sales-sink-sequentially-in-october-to"
+  },
+  {
+   "time": "11-03 06:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Files Regulatory Disclosure Regarding Mitie Group PLC",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:7b290e018cf5a:0-key-facts-jpmorgan-reports-threshold-disclosures-cite-no-agreements/"
+  },
+  {
+   "time": "11-03 06:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Announces Pricing of $20 Billion Common Stock and Senior Notes Offerings",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/consumer-technology-latest-news/computer-software-list/"
+  },
+  {
+   "time": "11-03 06:24",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Why Is Palantir Technologies Stock Falling Tuesday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62810911/why-is-palantir-technologies-stock-falling-tuesday"
+  },
+  {
+   "time": "11-03 06:22",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "target up",
+   "headline": "Morgan Stanley Maintains Equal-Weight on Palantir Technologies, Raises Price Target to $233",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62810899/morgan-stanley-maintains-equal-weight-palantir-technologies-raises-price-target-233"
+  },
+  {
+   "time": "11-03 06:01",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Turns to Wall Street for $20 Billion to Bankroll Its AI Boom",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/offerings/26/11/62809460/oracle-turns-to-wall-street-for-20-billion-to-bankroll-its-ai-boom"
+  },
+  {
+   "time": "11-03 05:48",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Is the 'Mack Daddy' of Tech, Says Longtime Bull Who Defends Its Steep Valuation",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62809108/apple-is-the-mack-daddy-of-tech-says-longtime-bull-who-defends-its-steep-valuation"
+  },
+  {
+   "time": "11-03 05:41",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia Tightens the Screws on China's AI Access \u2014 Cloud Partners Worldwide Must Restrict Chinese Customers Under New Revenue Rule: Report",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62808888/nvidia-tightens-the-screws-on-chinas-ai-access-cloud-partners-worldwide-must-restrict-chinese-customers-under-new-revenue-rule-report"
+  },
+  {
+   "time": "11-03 05:40",
+   "symbols": [
+    "LITE"
+   ],
+   "rating": "target down",
+   "headline": "Needham Maintains Buy on Lumentum Holdings, Lowers Price Target to $800",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62808874/needham-maintains-buy-lumentum-holdings-lowers-price-target-800"
+  },
+  {
+   "time": "11-03 05:38",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "target down",
+   "headline": "Morgan Stanley Maintains Overweight on Apple, Lowers Price Target to $350",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62808848/morgan-stanley-maintains-overweight-apple-lowers-price-target-350"
+  },
+  {
+   "time": "11-03 05:32",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "'Paid Far More in Taxes': Elon Musk Fires Back at Democrat Nominee James Talarico Over Tesla's $465 Million Government Loan",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62808513/elon-musk-fires-back-democrat-nominee-james-talarico-over-tesla-465-million-loan"
+  },
+  {
+   "time": "11-03 05:25",
+   "symbols": [
+    "AAPL",
+    "META"
+   ],
+   "rating": "",
+   "headline": "'Throwback to 1984:' Apple's Mac Business Just Surged 24% \u2014 Top Analyst Says the Real Boom Is Only Getting Started",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62808316/throwback-to-1984-apples-mac-business-just-surged-24-top-analyst-says-the-real-boom-is-only-getting-started"
+  },
+  {
+   "time": "11-03 05:16",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "SPCX CEO Elon Musk Says Cooling AI Data Centers in Space Is 'Much Easier' \u2014 Here's How His Plan Could Work",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62808265/spcx-ceo-elon-musk-says-cooling-ai-data-centers-in-space-is-much-easier-heres-how-his-plan-could-work"
+  },
+  {
+   "time": "11-03 04:48",
+   "symbols": [
+    "AMD",
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "AMD Stock Just Got Crushed 26% in a Month \u2014 Here's What Investors Need From Lisa Su on Tuesday As Q3 Earnings Loom",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/11/62807873/amd-q3-earnings-preview-jean-hu-data-center-sales-accelerate"
+  },
+  {
+   "time": "11-03 04:30",
+   "symbols": [
+    "LITE",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Bulls Are Betting on a SpaceX Merger \u2014 Top Analyst Says Marvell's $115 Billion Lumentum Deal Shows What Could Go Wrong",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62807684/tesla-bulls-are-betting-on-a-spacex-merger-top-analyst-says-marvells-115-billion-lumentum-deal-shows-what-could-go-wrong"
+  },
+  {
+   "time": "11-03 04:23",
+   "symbols": [
+    "GOOGL",
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "'The First Victim': Chamath Palihapitiya Warns AI Startups are In the Crosshairs as OpenAI, Google Move Into Software",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62807654/the-first-victim-chamath-palihapitiya-warns-ai-startups-are-in-the-crosshairs-as-openai-google-move-into-software"
+  },
+  {
+   "time": "11-03 04:06",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "target up",
+   "headline": "Piper Sandler Reiterates Overweight on Palantir Technologies, Raises Price Target to $235",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62807534/piper-sandler-reiterates-overweight-palantir-technologies-raises-price-target-235"
+  },
+  {
+   "time": "11-03 04:02",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "",
+   "headline": "Shield Therapeutics Reports Q3 2026 Trading Update",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/rns/shield-therapeutics--stx/q3-2026-trading-update-/9854489"
+  },
+  {
+   "time": "11-03 03:52",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "'Nvidia Orders Data Centre Clients to Reduce China Exposure' - FT",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62807428/nvidia-orders-data-centre-clients-reduce-china-exposure-ft"
+  },
+  {
+   "time": "11-03 03:30",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Kevin O'Leary Calls for Energy Security, CLARITY Act as US Faces Rising Power Demand and Crypto Competition: 'You Can't Have...'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62807148/kevin-oleary-calls-for-energy-security-clarity-act-as-us-faces-rising-power-demand-and-crypto-competition-you-cant-have"
+  },
+  {
+   "time": "11-03 03:18",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Shopify Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62807084/shopify-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts-2"
+  },
+  {
+   "time": "11-03 02:58",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple CEO Says Memory Prices Are \u2018Unprecedented\u2019 and Could Keep Climbing \u2014 iPhone, Mac and iPad Costs Face Fresh Pressure After Recent Price Hikes",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62806799/apple-ceo-says-memory-prices-are-unprecedented-and-could-keep-climbing-iphone-mac-and-ipad-costs-face-fresh-pressure-after-recent-price-hikes"
+  },
+  {
+   "time": "11-03 02:34",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Reported Earlier, Oracle Prices $20B Offerings, 86,206,897 Shares At $116.00 Per Share, About $9.9B Net, And Five Senior Notes Tranches Due 2029-2046, About $10.0B Net; Closing Nov. 4, Proceeds For General Corporate Purposes",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62806619/reported-earlier-oracle-prices-20b-offerings-86-206-897-shares-116-00-share-about-9-9b-net-and-five-"
+  },
+  {
+   "time": "11-03 02:33",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "'It's Us or Them': Palantir CEO Alex Karp Says China Is 'Doing Exceedingly Well at AI,' Warns America Must Lead",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62806608/palantir-alex-karp-china-ai"
+  },
+  {
+   "time": "11-03 02:01",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir Shares Slide in Extended Trading \u2014 Alex Karp Says Wall Street Can\u2019t See AI\u2019s Reality: \u2018When It Gets Real, You Need Us\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/11/62806423/palantir-alex-karp-ai-investors-getting-rich-not-working"
+  },
+  {
+   "time": "11-03 01:11",
+   "symbols": [
+    "AAPL",
+    "META"
+   ],
+   "rating": "",
+   "headline": "'They Don't Want to Talk About It': Top Analyst Says Apple Has a Siri Problem in an Era of Personalized Agents",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62806242/apple-ai-agents-siri-earnings"
+  },
+  {
+   "time": "11-03 00:44",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Trump Vows to Protect Elon Musk Amid Talk of Arrest\u2014Adam Schiff Warns 'Cronies' Will Be Held Accountable",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/62806095/trump-vows-to-protect-elon-musk-amid-talk-of-arrest-adam-schiff-warns-cronies-will-be-held-accountable"
+  },
+  {
+   "time": "11-02 23:37",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta, TikTok and X Lose UK Court Fight Over Requests for Social Media Safety Data (Updated)",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62763138/meta-tiktok-and-x-lose-uk-court-fight-over-requests-for-social-media-safety-data"
+  },
+  {
+   "time": "11-02 22:02",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Insider Executes Share Sale",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/visa-insider-sold-shares-worth-251-244-according-to-a-recent-sec-filing-ce785fd9da8df622"
+  },
+  {
+   "time": "11-02 21:49",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "iPhone Owners Can Get Up to $95 From Apple Over Siri Promises: Here\u2019s How to Claim",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62805659/apple-iphone-siri-settlement-95-claim-how-to"
+  },
+  {
+   "time": "11-02 20:01",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Powerwall 3 Updated to Integrate with Heat Pumps",
+   "source": "fiscal.ai",
+   "url": "https://www.newsnow.co.uk/h/Industry+Sectors/Automotive/US+Manufacturers/Tesla"
+  },
+  {
+   "time": "11-02 20:01",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Western Digital Provides Update on HAMR Product Qualifications",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/zacks:a0d2201e1094b:0-western-digital-s-88-cloud-revenue-share-strength-or-weakness/"
+  },
+  {
+   "time": "11-02 19:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Begins Shipping Vera Rubin Platform",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8597937/nvidia-stock-looks-surprisingly-cheap-why-nvda-could-rise-61"
+  },
+  {
+   "time": "11-02 19:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "XMax Signs Five-Year AI Infrastructure Agreement Involving NVIDIA GPUs",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/seekingalpha:4f9c10c46094b:0-xmax-signs-nvidia-gpu-deal-sees-100m-revenue/"
+  },
+  {
+   "time": "11-02 19:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Reports Record Fiscal Fourth-Quarter Results",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/4etili1/"
+  },
+  {
+   "time": "11-02 18:31",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "If You Invested $1000 In GE Aerospace Stock 5 Years Ago, You Would Have This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62804922/if-you-invested-1000-ge-aerospace-stock-5-years-ago-you-would-have-much-today"
+  },
+  {
+   "time": "11-02 18:06",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Q4 2026 Earnings Call Transcript",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62804611/apple-q4-2026-earnings-call-transcript"
+  },
+  {
+   "time": "11-02 18:04",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "'OpenAI hires former US Army secretary as military seeks to expand AI use'- Financial Times",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62804542/openai-hires-former-us-army-secretary-military-seeks-expand-ai-use-financial-times"
+  },
+  {
+   "time": "11-02 17:55",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir Technologies Q3 2026 Earnings Call Transcript",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62804374/palantir-technologies-q3-2026-earnings-call-transcript"
+  },
+  {
+   "time": "11-02 17:46",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "$100 Invested In Salesforce 20 Years Ago Would Be Worth This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62804250/100-invested-salesforce-20-years-ago-would-be-worth-much-today"
+  },
+  {
+   "time": "11-02 17:45",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple CFO Says Co.'s Manufacturing Purchase Obligations Increased By $33B Between June And September Quarters",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62804210/apple-cfo-says-co-s-manufacturing-purchase-obligations-increased-33b-between-june-and-september-quar"
+  },
+  {
+   "time": "11-02 17:40",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple CFO Says\u00a0We See Pricing For Memory Purchases Continuing To Increase",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62804162/apple-cfo-says-we-see-pricing-memory-purchases-continuing-increase"
+  },
+  {
+   "time": "11-02 17:33",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple CFO Says Higher Memory Costs, Siri AI Development Expenses Will Affect Gross Margin",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62803924/apple-cfo-says-higher-memory-costs-siri-ai-development-expenses-will-affect-gross-margin"
+  },
+  {
+   "time": "11-02 17:32",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Sees Q1 Sales $153.819B-$158.132B vs $152.558B Est",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62803913/apple-sees-q1-sales-153-819b-158-132b-vs-152-558b-est"
+  },
+  {
+   "time": "11-02 17:31",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "Analysts Adjust Price Targets for Caterpillar Following Third-Quarter Results",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:c7fa828dc0beb:0-weekly-recap-q3-revenue-growth-and-analysts-cut-price-targets/"
+  },
+  {
+   "time": "11-02 17:31",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce to Acquire Voice-First AI Platform Cresta",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/seekingalpha:bff98630f094b:0-salesforce-agrees-to-buy-cresta/"
+  },
+  {
+   "time": "11-02 17:30",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple CFO Says Apple Expects 45% To 46% Gross Margin In Fiscal First Quarter",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62803842/apple-cfo-says-apple-expects-45-46-gross-margin-fiscal-first-quarter"
+  },
+  {
+   "time": "11-02 17:28",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple CFO Says iPad Revenue Fell 10% Due To Supply Constraints",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62803780/apple-cfo-says-ipad-revenue-fell-10-due-supply-constraints"
+  },
+  {
+   "time": "11-02 17:25",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple CFO Says Apple Operating Expenses Climbed 21% Due To R&D Investments",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62803653/apple-cfo-says-apple-operating-expenses-climbed-21-due-r-d-investments"
+  },
+  {
+   "time": "11-02 17:24",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple CFO Says Gross Margins Would Have Been Down Without Tariff Refunds Due To High Memory Costs",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62803607/apple-cfo-says-gross-margins-would-have-been-down-without-tariff-refunds-due-high-memory-costs"
+  },
+  {
+   "time": "11-02 17:22",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple CFO Says Apple Has Received Vast Majority Of Tariff Refunds",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62803529/apple-cfo-says-apple-has-received-vast-majority-tariff-refunds"
+  },
+  {
+   "time": "11-02 17:17",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "target down",
+   "headline": "UBS Maintains Neutral on Goldman Sachs Group, Lowers Price Target to $1000",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62803397/ubs-maintains-neutral-goldman-sachs-group-lowers-price-target-1000"
+  },
+  {
+   "time": "11-02 17:14",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple CEO Says Apple's India Business Hit Record Revenue In 4Q",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62803282/apple-ceo-says-apple-s-india-business-hit-record-revenue-4q"
+  },
+  {
+   "time": "11-02 17:12",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple CEO Says Apple Grew In Most Markets During 4q; iPhone Remains At Center Of Opportunity",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62803238/apple-ceo-says-apple-grew-most-markets-during-4q-iphone-remains-center-opportunity"
+  },
+  {
+   "time": "11-02 17:11",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple CEO Says Siri AI Marks New Chapter In AI At Apple",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62803189/apple-ceo-says-siri-ai-marks-new-chapter-ai-apple"
+  },
+  {
+   "time": "11-02 17:07",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "target down",
+   "headline": "UBS Maintains Buy on Bank of America, Lowers Price Target to $62",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62803079/ubs-maintains-buy-bank-america-lowers-price-target-62"
+  },
+  {
+   "time": "11-02 17:05",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir Exec Says Q3 Average Trailing 12-month Revenue From Our Top 20 Customers Increased 76% YoY To $146M Per Customer",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62802896/palantir-exec-says-q3-average-trailing-12-month-revenue-our-top-20-customers-increased-76-yoy-146m-c"
+  },
+  {
+   "time": "11-02 17:02",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple CEO John Ternus Says In Reuters Interview iPhone, Mac And iPad Price Increases, Carried Inventory And Lower Non-Memory Costs Helped Offset Rising Memory-Chip Prices",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AAPL"
+  },
+  {
+   "time": "11-02 17:02",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple CEO John Ternus Says In Reuters Interview iPhone Duo Is Supply-Constrained, No Estimate For When Supply Will Meet Demand",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AAPL"
+  },
+  {
+   "time": "11-02 16:58",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "target up",
+   "headline": "UBS Maintains Buy on JPMorgan Chase, Raises Price Target to $400",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62802352/ubs-maintains-buy-jpmorgan-chase-raises-price-target-400"
+  },
+  {
+   "time": "11-02 16:54",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "target up",
+   "headline": "UBS Maintains Buy on ExxonMobil Holdings, Raises Price Target to $213",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62802188/ubs-maintains-buy-exxonmobil-holdings-raises-price-target-213"
+  },
+  {
+   "time": "11-02 16:49",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Tops Expectations in Q4 as Active Installed Base Hits All-Time High",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/11/62801967/apple-tops-expectations-in-q4-as-active-installed-base-hits-all-time-high"
+  },
+  {
+   "time": "11-02 16:44",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple CFO Says Our Installed Base Of Active Devices Reached A New All-Time High Across All Major Product Categories And Geographic Segments",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62801667/apple-cfo-says-our-installed-base-active-devices-reached-new-all-time-high-across-all-major-product-"
+  },
+  {
+   "time": "11-02 16:41",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "target up",
+   "headline": "UBS Maintains Buy on Chevron, Raises Price Target to $265",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62801210/ubs-maintains-buy-chevron-raises-price-target-265"
+  },
+  {
+   "time": "11-02 16:35",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "CORRECTION: Apple Reports FY2026 Regional Revenue Growth Across Americas $48.680B; Europe $32.008B; Greater China $17.539B; Japan $6.540B; Rest Of Asia Pacific $9.71B",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AAPL"
+  },
+  {
+   "time": "11-02 16:35",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple CFO Says We Generated $28B In Operating Cash Flow During The Quarter, Allowing Us To Return $28B To Shareholders",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62800501/apple-cfo-says-we-generated-28b-operating-cash-flow-during-quarter-allowing-us-return-28b-shareholde"
+  },
+  {
+   "time": "11-02 16:34",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Q4 Included $0.05 From Tariff Refunds",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AAPL"
+  },
+  {
+   "time": "11-02 16:33",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple CEO Says We\u2019re Closing The Year With Our Most Ambitious Lineup Yet; That Includes The iPhone Duo, The Most Transformational iPhone Since The Original, Alongside iPhone 18 Pro And iPhone 18 Pro Max",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62800335/apple-ceo-says-we-re-closing-year-our-most-ambitious-lineup-yet-includes-iphone-duo-most-transformat"
+  },
+  {
+   "time": "11-02 16:32",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Reports FY2026 Regional Revenue Growth Across Americas $48.680M; Europe $32.008M; Greater China $17.539M; Japan $6.540M; Rest Of Asia Pacific $9.71M",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AAPL"
+  },
+  {
+   "time": "11-02 16:32",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "UBS and Morgan Stanley Adjust Price Targets for Chevron",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/ubs-adjusts-chevron-price-target-to-265-from-235-maintains-buy-rating-ce785fd9d981f62d"
+  },
+  {
+   "time": "11-02 16:31",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir Technologies Inc. Reports Q3 2026 Financial Results",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/palantir-technologies-q3-us-government-revenue-at-953-million-vs-factset-analyst-consensus-of-854-ce785fd9da8bf423"
+  },
+  {
+   "time": "11-02 16:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Analysts Forecast Potential $130 Crude Oil Price Scenario",
+   "source": "fiscal.ai",
+   "url": "http://www.baystreet.ca/articles/commodities.aspx?articleid=125022"
+  },
+  {
+   "time": "11-02 16:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Announces $2.4 Million Philanthropic Support for Semiconductor Suppliers",
+   "source": "fiscal.ai",
+   "url": "https://www.einnews.com/pr_news/953397629/next-street-announces-research-series-and-supplier-accelerator-programs-in-arizona-and-new-york-for-small-businesses"
+  },
+  {
+   "time": "11-02 16:31",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "downgrade",
+   "headline": "GF Securities Downgrades Intel Price Target Following Q4 Outlook",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/gurufocus:2ce5ef5c9094b:0-intel-gets-price-target-revamp-but-keeps-one-major-catalyst/"
+  },
+  {
+   "time": "11-02 16:31",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "Jefferies Removes GE Vernova from Franchise Pick List",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/gurufocus:7dfc3180b094b:0-ge-vernova-stocks-rise-with-jefferies-removal-testing-backlog-confidence/"
+  },
+  {
+   "time": "11-02 16:31",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "Analyst Actions: Morgan Stanley, UBS, and JPMorgan Adjust ExxonMobil Price Targets",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:933b991dfc0bb:0-morgan-stanley-maintains-exxonmobil-holdings-at-overweight-raises-price-target-to-187-from-185/"
+  },
+  {
+   "time": "11-02 16:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Launches $25 Thanksgiving Meal Deal",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/benzinga:4c9f4e0e9094b:0-amazon-stock-rises-what-s-going-on/"
+  },
+  {
+   "time": "11-02 16:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "upgrade",
+   "headline": "Phillip Securities Upgrades Amazon to Buy",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/gurufocus:48db88985094b:0-aws-growth-wins-amazon-stock-a-330-upgrade/"
+  },
+  {
+   "time": "11-02 16:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Vera Rubin NVL72 Specification Discrepancies Highlighted",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/gurufocus:fbc22b595094b:0-nvidia-stocks-rise-1-7-with-rubin-specification-gap-shifting-focus-to-workload-tests/"
+  },
+  {
+   "time": "11-02 16:31",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Q4 2026 Wearables, Home And Accessories Sales $8.3B Vs $9.013B Prior",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AAPL"
+  },
+  {
+   "time": "11-02 16:30",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Q4 2026 iPad Sales $6.229B Vs $6.952B Prior",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AAPL"
+  },
+  {
+   "time": "11-02 16:30",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Q4 2026 Mac Sales $10.792B Vs $8.726B Prior",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AAPL"
+  },
+  {
+   "time": "11-02 16:30",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Q4 2026 iPhone Sales $57.5183B Vs $49.025B Prior",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AAPL"
+  },
+  {
+   "time": "11-02 16:30",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Q4 EPS $2.10 Beats $1.98 Estimate, Sales $114.477B Beat $113.392B Estimate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/11/62799908/apple-q4-eps-2-10-beats-1-98-estimate-sales-114-477b-beat-113-392b-estimate"
+  },
+  {
+   "time": "11-02 16:30",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Q4 2026 Services Revenue $31.573B Vs $28.75B Prior",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AAPL"
+  },
+  {
+   "time": "11-02 16:25",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce Signs Definitive Agreement To Acquire Cresta; Financial Terms Undisclosed; Transaction Anticipated To Close In Q1 2028",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m/26/11/62799526/salesforce-signs-definitive-agreement-acquire-cresta-financial-terms-undisclosed-transaction-anticip"
+  },
+  {
+   "time": "11-02 16:22",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir Posts Q3 Double Beat, Lifts Guidance \u2014 'Extraordinary' Is an 'Understatement'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/11/62799346/palantir-posts-q3-double-beat-lifts-guidance-extraordinary-is-an-understatement"
+  },
+  {
+   "time": "11-02 16:17",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "Stock of the Day: Is This the Bottom for SanDisk?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/technicals/26/11/62798862/stock-of-the-day-is-this-the-bottom-for-sandisk"
+  },
+  {
+   "time": "11-02 16:14",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir Technologies CEO Says Sovereign AI Movement Is Imposing the Most Dramatic Dichotomy Between Haves and Have Nots That I Have Witnessed in 30 Years of Business; Every Institution, Government And Commercial, Is Rapidly Being Forced, Voluntarily or Not, Into One of These Two Categories",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62798466/palantir-technologies-ceo-says-sovereign-ai-movement-imposing-most-dramatic-dichotomy-between-haves-"
+  },
+  {
+   "time": "11-02 16:06",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir Technologies Raises FY2026 Sales Guidance from $8.150B-$8.158B to $8.530B-$8.534B vs $8.200B Est",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62797210/palantir-technologies-raises-fy2026-sales-guidance-8-150b-8-158b-8-530b-8-534b-vs-8-200b-est"
+  },
+  {
+   "time": "11-02 16:05",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir Technologies Sees Q4 Sales $2.649B-$2.653B vs $2.456B Est",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62797166/palantir-technologies-sees-q4-sales-2-649b-2-653b-vs-2-456b-est"
+  },
+  {
+   "time": "11-02 16:05",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir Technologies Q3 Adj. EPS $0.44 Beats $0.41 Estimate, Sales $2.313B Beat $2.183B Estimate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/11/62797109/palantir-technologies-q3-adj-eps-0-44-beats-0-41-estimate-sales-2-313b-beat-2-183b-estimate"
+  }
+ ]
+}
