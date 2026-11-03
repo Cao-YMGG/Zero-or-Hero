@@ -1,9 +1,10 @@
-# Headlines since 2026-11-02 16:00 ET (as of 2026-11-03 13:16 ET)
+# Headlines since 2026-11-02 16:00 ET (as of 2026-11-03 13:46 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-03 13:17 | AAPL | target down | JP Morgan Maintains Overweight on Apple, Lowers Price Target to $355 |
 | 11-03 12:00 | PLTR | target up | Truist Securities Reiterates Buy on Palantir Technologies, Raises Price Target to $250 |
 | 11-03 11:32 | LITE | downgrade | B. Riley Securities Downgrades Lumentum Holdings to Neutral, Lowers Price Target to $770 |
 | 11-03 11:01 | GS | rating | Goldman Sachs Adjusts Palantir Technologies Price Target to $235 From $230 |
@@ -38,6 +39,9 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-02 16:41 | CVX | target up | UBS Maintains Buy on Chevron, Raises Price Target to $265 |
 | 11-02 16:31 | INTC | downgrade | GF Securities Downgrades Intel Price Target Following Q4 Outlook |
 | 11-02 16:31 | AMZN | upgrade | Phillip Securities Upgrades Amazon to Buy |
+| 11-03 13:31 | AAPL |  | Apple Announces Redesigned Health App Expands Language Support |
+| 11-03 13:18 | AMZN NFLX TSLA |  | 'Amazon, Tesla and SpaceX join OKX–ICE tokenized stock objections as deadline looms' - CoinDesk |
+| 11-03 13:15 | JPM |  | 'HSBC, JPMorgan Offer to Help Development Banks Get Capital Relief' - Bloomberg |
 | 11-03 13:00 | AMZN |  | CNBC Halftime Report Final Trades: BlackRock, Eaton, Pfizer, Amazon |
 | 11-03 12:58 | MSFT ORCL |  | 'Hollywood backs NYT in AI copyright battle versus OpenAI, Microsoft' - Axios |
 | 11-03 12:35 | META |  | 3 Communication Services Stocks With Whale Alerts In Today’s Session |

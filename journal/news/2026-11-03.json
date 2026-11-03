@@ -1,7 +1,49 @@
 {
- "as_of": "2026-11-03T13:16-05:00",
+ "as_of": "2026-11-03T13:46-05:00",
  "since": "2026-11-02T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-03 13:31",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Announces Redesigned Health App Expands Language Support",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62835644/apple-announces-redesigned-health-app-expands-language-support"
+  },
+  {
+   "time": "11-03 13:18",
+   "symbols": [
+    "AMZN",
+    "NFLX",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "'Amazon, Tesla and SpaceX join OKX\u2013ICE tokenized stock objections as deadline looms' - CoinDesk",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62835094/amazon-tesla-and-spacex-join-okx-ice-tokenized-stock-objections-deadline-looms-coindesk"
+  },
+  {
+   "time": "11-03 13:17",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "target down",
+   "headline": "JP Morgan Maintains Overweight on Apple, Lowers Price Target to $355",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62835059/jp-morgan-maintains-overweight-apple-lowers-price-target-355"
+  },
+  {
+   "time": "11-03 13:15",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "'HSBC, JPMorgan Offer to Help Development Banks Get Capital Relief' - Bloomberg",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62834980/hsbc-jpmorgan-offer-help-development-banks-get-capital-relief-bloomberg"
+  },
   {
    "time": "11-03 13:00",
    "symbols": [
