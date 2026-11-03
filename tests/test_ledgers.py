@@ -416,7 +416,7 @@ class ShadowRiskTest(unittest.TestCase):
             def __init__(self):
                 self.today, self.dry_run, self.underlying = date(2026, 11, 3), True, "SPY"
                 self.config = {"backtest": {"start_equity": 500}}
-                self.state = {"equity_start": 500.0, "risk_per_trade": 0.2}
+                self.state = {"equity_start": 500.0, "risk_per_trade": 0.2, "champion": "rebound_scanner"}
 
             def nearest_chain(self, underlying, direction, spot, now, width):
                 return [{"symbol": "MU261103P00860000", "strike": 860.0, "ask": 0.5, "bid": 0.45,
