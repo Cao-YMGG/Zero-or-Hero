@@ -1,7 +1,7 @@
 # Review — 2026-11-03
 
 - Champion: **rebound_scanner**
-- Equity: **$458.11** (phase zero-or-hero)
+- Equity: **$458.02** (phase zero-or-hero)
 - Real trades: 31, realised P&L $-317.00
 
 ## Shadow leaderboard (last 20 trades / all)
@@ -14,12 +14,12 @@
 | stock_open_drive | 2 | 50% | +65.1% | +130% | +230% | -100% | 2 | +65.1% |
 | catalyst_intraday | 9 | 56% | +13.3% | +120% | +299% | -100% | 9 | +13.3% |
 | catalyst_open | 12 | 50% | +5.2% | +63% | +339% | -100% | 12 | +5.2% |
+| catalyst_open_hero | 0 | 0% | +0.0% | +0% | +0% | +0% | 0 | +0.0% |
+| catalyst_intraday_hero | 0 | 0% | +0.0% | +0% | +0% | +0% | 0 | +0.0% |
 | spy_open_drive | 0 | 0% | +0.0% | +0% | +0% | +0% | 0 | +0.0% |
 | spy_open_drive_wide | 0 | 0% | +0.0% | +0% | +0% | +0% | 0 | +0.0% |
 | rebound_scanner 👑 | 6 | 33% | -28.2% | -169% | +188% | -100% | 6 | -28.2% |
-| leader_follow | 13 | 15% | -56.9% | -740% | +75% | -100% | 13 | -56.9% |
-| rebound_scanner_wide | 6 | 17% | -70.1% | -421% | +72% | -100% | 6 | -70.1% |
-| catalyst_intraday_arm2 | 1 | 0% | -93.3% | -93% | -93% | -93% | 1 | -93.3% |
+| leader_follow | 14 | 21% | -52.0% | -727% | +75% | -100% | 14 | -52.0% |
 
 ## Ledgers (one $500 virtual account per variant, real paper orders)
 

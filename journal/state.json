@@ -1,22 +1,13 @@
 {
   "date": "2026-11-03",
-  "done": false,
+  "done": true,
   "variants": {
     "claude_bias": {},
     "meta_follow2": {},
     "leader_follow": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "ORCL261106C00134000",
-        "direction": "call",
-        "entry_time": "2026-11-03T09:48:12-05:00",
-        "entry_price": 0.86,
-        "peak": 1.59,
-        "qty": 1,
-        "last": 0.82,
-        "last_time": "2026-11-03T15:17:27-05:00"
-      }
+      "closed": true
     },
     "rebound_scanner": {},
     "nvda_gapdown_put": {},

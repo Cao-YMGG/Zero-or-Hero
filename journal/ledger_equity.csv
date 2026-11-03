@@ -58,3 +58,6 @@ date,variant,generation,equity,real_trades,paused
 2026-11-02,nvda_gapdown_put,1,691.0,1,0
 2026-11-02,spy_open_drive,1,500.0,0,0
 2026-11-02,stock_open_drive,1,617.0,2,0
+2026-11-03,nvda_gapdown_put,1,691.0,1,0
+2026-11-03,spy_open_drive,1,500.0,0,0
+2026-11-03,stock_open_drive,1,617.0,2,0
