@@ -1,7 +1,27 @@
 {
- "as_of": "2026-11-03T11:32-05:00",
+ "as_of": "2026-11-03T12:02-05:00",
  "since": "2026-11-02T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-03 11:32",
+   "symbols": [
+    "LITE"
+   ],
+   "rating": "",
+   "headline": "Stock of the Day: Is this the Bottom for Marvel Technology?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/technicals/26/11/62829945/stock-of-the-day-is-this-the-bottom-for-marvell-technology"
+  },
+  {
+   "time": "11-03 11:32",
+   "symbols": [
+    "LITE"
+   ],
+   "rating": "downgrade",
+   "headline": "B. Riley Securities Downgrades Lumentum Holdings to Neutral, Lowers Price Target to $770",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62829943/b-riley-securities-downgrades-lumentum-holdings-neutral-lowers-price-target-770"
+  },
   {
    "time": "11-03 11:16",
    "symbols": [

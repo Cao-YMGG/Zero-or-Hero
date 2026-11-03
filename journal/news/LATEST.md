@@ -1,9 +1,10 @@
-# Headlines since 2026-11-02 16:00 ET (as of 2026-11-03 11:32 ET)
+# Headlines since 2026-11-02 16:00 ET (as of 2026-11-03 12:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-03 11:32 | LITE | downgrade | B. Riley Securities Downgrades Lumentum Holdings to Neutral, Lowers Price Target to $770 |
 | 11-03 11:01 | GS | rating | Goldman Sachs Adjusts Palantir Technologies Price Target to $235 From $230 |
 | 11-03 10:51 | LITE | target down | TD Cowen Maintains Hold on Lumentum Holdings, Lowers Price Target to $685 |
 | 11-03 10:49 | AAPL | target up | UBS Maintains Neutral on Apple, Raises Price Target to $340 |
@@ -36,6 +37,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-02 16:41 | CVX | target up | UBS Maintains Buy on Chevron, Raises Price Target to $265 |
 | 11-02 16:31 | INTC | downgrade | GF Securities Downgrades Intel Price Target Following Q4 Outlook |
 | 11-02 16:31 | AMZN | upgrade | Phillip Securities Upgrades Amazon to Buy |
+| 11-03 11:32 | LITE |  | Stock of the Day: Is this the Bottom for Marvel Technology? |
 | 11-03 11:16 | GOOGL |  | 'Google Parent Plans $1.5 Billion Prepaid Energy Deal Via Goldman' - Bloomberg News |
 | 11-03 11:09 | TSM |  | Pinnacle West Expects To File 25-Year Taiwan Semiconductor Manufacturing Company Power Deal For 1.88 GW With Arizona Regulator In Coming Days |
 | 11-03 11:05 | ORCL |  | Oracle Will Devote 65% Of Its $10B Stock Sale To Ten Investors |
