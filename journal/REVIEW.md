@@ -1,4 +1,4 @@
-# Review — 2026-11-02
+# Review — 2026-11-03
 
 - Champion: **rebound_scanner**
 - Equity: **$458.11** (phase zero-or-hero)
