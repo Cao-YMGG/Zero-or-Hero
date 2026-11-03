@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-03",
+  "picks": [],
+  "opportunities": [
+    {
+      "type": "upgrade",
+      "symbol": "GEV",
+      "direction": "call",
+      "time": "10:20",
+      "why": "HSBC upgraded GE Vernova to Buy (Benzinga 09:32; Argus trimmed its target to $1100 at 09:22, Jefferies dropped it from its franchise list last night). Power is the day's strongest theme: GEV 910.5, +5.6% on the day, VST +5.0%. Not a pick: the whole move came in the first five minutes (open 882.27, 916 by 09:35) and it has gone sideways 903-911 since; +3.2% from its open at the check-in is past the 3% line where a morning catalyst is priced (AMZN 11-02). Reported 10-28, so outside the report window",
+      "why_zh": "汇丰把 GE Vernova 上调到买入（9:32），电力股是今天最强的板块（GEV +5.6%，VST +5%）。没选：涨幅全在开盘后 5 分钟里（882 开盘，9:35 就到 916），之后横盘，到检查时已经比开盘高 3.2%，按 11-02 亚马逊的教训算已经反映完了",
+      "action": "none"
+    },
+    {
+      "type": "sector_intraday",
+      "symbol": "MRVL",
+      "direction": "put",
+      "time": "10:20",
+      "why": "Weakest chip of the bounce: MRVL 170.67, -1.8% from its 173.82 open (-0.4% on the day) while SMH is +2.4% and still +0.1% above its own open; B of A downgrade to Neutral this morning on the all-stock Lumentum deal (fourth session). The put mirror needs SMH back below its open first: the bounce has held so far (dipped below the open 09:55-10:05, recovered). Re-check at 13:00",
+      "why_zh": "芯片反弹里最弱的一只：迈威尔比开盘跌 1.8%，半导体 ETF 还在开盘价上方 0.1%。美银今早因为全股票收购 Lumentum 把它下调到中性。新规则要等 SMH 跌回开盘价之下才做 put，目前反弹还撑着（9:55-10:05 跌破过又收回来了），13:00 再看",
+      "action": "none"
+    },
+    {
+      "type": "rotation_reversal",
+      "symbol": "WMT",
+      "direction": "put",
+      "time": "10:20",
+      "why": "Money leaving last week's winners as chips bounce: WMT 125.23 -1.9% (-1.2% from its open), COST -1.9%, XLP -1.7%, XLY -0.9% from its open; XLF -0.6%. No headline on either name after the open (Walmart items are product PR), so relative weakness with no news, not a pick; recorded to score whether the rotation out of defensives holds to the close",
+      "why_zh": "芯片反弹的同时，上周涨的消费股在回吐：沃尔玛 -1.9%，好市多 -1.9%，必需消费 ETF -1.7%。两家都没有新消息，只是轮动回流，不够选股标准，记下来看这波轮动到收盘是否成立",
+      "action": "none"
+    }
+  ]
+}
