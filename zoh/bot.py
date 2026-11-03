@@ -321,7 +321,9 @@ class Bot:
         # A spent account keeps scoring shadows at the start stake until it is reset.
         stake = (self.config["backtest"]["start_equity"] if self.state.get("reset_needed")
                  else self.state["equity_start"])
-        budget = stake * self.state["risk_per_trade"]
+        # "shadow_risk" sizes a shadow-only variant off the phase stake: the hero shadows
+        # (2026-11-03) put the whole ledger on one pick, like the other Claude's rounds.
+        budget = stake * variant.get("shadow_risk", self.state["risk_per_trade"])
         underlying = underlying or self.underlying
         if underlying != self.underlying and reports_soon(underlying, self.today,
                                                            getattr(self, "earnings", {})):

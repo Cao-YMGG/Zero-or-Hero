@@ -1,3 +1,4 @@
+import json
 import tempfile
 import unittest
 from datetime import date, datetime
@@ -404,3 +405,40 @@ class NotifyTest(unittest.TestCase):
         parts = notify.chunks("x" * 50 + "\n" + "y" * 4000)
         self.assertTrue(all(len(p) <= 2000 for p in parts))
         self.assertEqual("".join(parts).replace("\n", ""), "x" * 50 + "y" * 4000)
+
+
+class ShadowRiskTest(unittest.TestCase):
+    """A shadow-only variant can size off its own fraction of the stake ("shadow_risk"): the hero
+    shadows (2026-11-03) put the whole ledger on one pick; the default is the phase risk."""
+
+    def _enter(self, variant):
+        class FakeBot(botmod.Bot):
+            def __init__(self):
+                self.today, self.dry_run, self.underlying = date(2026, 11, 3), True, "SPY"
+                self.config = {"backtest": {"start_equity": 500}}
+                self.state = {"equity_start": 500.0, "risk_per_trade": 0.2, "champion": "rebound_scanner"}
+
+            def nearest_chain(self, underlying, direction, spot, now, width):
+                return [{"symbol": "MU261103P00860000", "strike": 860.0, "ask": 0.5, "bid": 0.45,
+                         "delta": -0.2}]
+
+        vstate = {}
+        FakeBot().try_enter(variant, vstate, "put", 870.0, datetime(2026, 11, 3, 11, 3, tzinfo=ET),
+                            underlying="MU")
+        return vstate["shadow"]["qty"]
+
+    def test_hero_shadow_takes_the_whole_stake(self):
+        self.assertEqual(self._enter({"id": "catalyst_intraday_hero", "target_delta": 0.2, "shadow_risk": 1.0}), 10)
+        self.assertEqual(self._enter({"id": "catalyst_intraday", "target_delta": 0.2}), 2)
+
+    def test_hero_shadows_hold_to_the_close(self):
+        config = json.loads((journal.ROOT / "config" / "strategy.json").read_text())
+        heroes = [v for v in config["variants"] if v["id"].endswith("_hero")]
+        self.assertEqual(len(heroes), 2)
+        for v in heroes:
+            self.assertEqual(v["shadow_risk"], 1.0)
+            self.assertNotIn("real_risk", v)
+            for k in ("take_profit", "stop_loss", "trail_after"):
+                self.assertIsNone(v.get(k), k)
+            self.assertNotIn("half_at", v)
+        self.assertLessEqual(len(config["variants"]), 12)
