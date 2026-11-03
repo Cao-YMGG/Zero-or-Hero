@@ -1,9 +1,11 @@
-# Headlines since 2026-11-02 16:00 ET (as of 2026-11-03 13:46 ET)
+# Headlines since 2026-11-02 16:00 ET (as of 2026-11-03 14:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-03 14:01 | CVX | rating | Chevron Maintains Commitment to Project Kilby Data Center Power Supply |
+| 11-03 13:55 | PLTR | target up | Citigroup Maintains Buy on Palantir Technologies, Raises Price Target to $265 |
 | 11-03 13:17 | AAPL | target down | JP Morgan Maintains Overweight on Apple, Lowers Price Target to $355 |
 | 11-03 12:00 | PLTR | target up | Truist Securities Reiterates Buy on Palantir Technologies, Raises Price Target to $250 |
 | 11-03 11:32 | LITE | downgrade | B. Riley Securities Downgrades Lumentum Holdings to Neutral, Lowers Price Target to $770 |
@@ -39,6 +41,13 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-02 16:41 | CVX | target up | UBS Maintains Buy on Chevron, Raises Price Target to $265 |
 | 11-02 16:31 | INTC | downgrade | GF Securities Downgrades Intel Price Target Following Q4 Outlook |
 | 11-02 16:31 | AMZN | upgrade | Phillip Securities Upgrades Amazon to Buy |
+| 11-03 14:13 | PLTR |  | Palantir CEO Alex Karp Wants ‘The Whole Thing’ After First $2 Billion Quarter |
+| 11-03 14:02 | SMCI |  | Supermicro to Build AI Inference Racks with SambaNova Chips |
+| 11-03 14:01 | CAT |  | Caterpillar Director Purchases $620,390 in Company Stock |
+| 11-03 14:01 | V |  | Expensify Enters Referral Agreement with Visa |
+| 11-03 14:01 | AMZN |  | SUNGBOON EDITOR Receives 2026 Amazon Innovator Award |
+| 11-03 14:01 | AAPL |  | Apple Releases First Betas of iOS 27.3 and macOS Golden Gate 27.3 |
+| 11-03 13:58 | AAPL |  | Apple Stock at ‘Extreme Overvaluation’: Analysts See Slowing Revenue Growth |
 | 11-03 13:31 | AAPL |  | Apple Announces Redesigned Health App Expands Language Support |
 | 11-03 13:18 | AMZN NFLX TSLA |  | 'Amazon, Tesla and SpaceX join OKX–ICE tokenized stock objections as deadline looms' - CoinDesk |
 | 11-03 13:15 | JPM |  | 'HSBC, JPMorgan Offer to Help Development Banks Get Capital Relief' - Bloomberg |

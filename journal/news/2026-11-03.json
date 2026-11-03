@@ -1,7 +1,97 @@
 {
- "as_of": "2026-11-03T13:46-05:00",
+ "as_of": "2026-11-03T14:16-05:00",
  "since": "2026-11-02T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-03 14:13",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir CEO Alex Karp Wants \u2018The Whole Thing\u2019 After First $2 Billion Quarter",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62837097/palantir-ceo-alex-karp-wants-the-whole-thing-after-first-2-billion-quarter"
+  },
+  {
+   "time": "11-03 14:02",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Supermicro to Build AI Inference Racks with SambaNova Chips",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/supermicro-to-build-ai-inference-racks-with-sambanova-chips-ce785fdedb8cf627"
+  },
+  {
+   "time": "11-03 14:01",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "Caterpillar Director Purchases $620,390 in Company Stock",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:5435c31105d0c:0-caterpillar-director-purchased-shares-worth-over-620k/"
+  },
+  {
+   "time": "11-03 14:01",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "rating",
+   "headline": "Chevron Maintains Commitment to Project Kilby Data Center Power Supply",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/zacks:d6743eadd094b:0-chevron-maintains-2028-data-center-power-target-despite-texas-pause/"
+  },
+  {
+   "time": "11-03 14:01",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Expensify Enters Referral Agreement with Visa",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/seekingalpha:1293ec2d6094b:0-expensify-enters-referral-agreement-with-visa/"
+  },
+  {
+   "time": "11-03 14:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "SUNGBOON EDITOR Receives 2026 Amazon Innovator Award",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1003346633/from-tiktok-virality-to-amazon-recognition-sungboon-editor-is-emerging"
+  },
+  {
+   "time": "11-03 14:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Releases First Betas of iOS 27.3 and macOS Golden Gate 27.3",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/kkp59lh/"
+  },
+  {
+   "time": "11-03 13:58",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Stock at \u2018Extreme Overvaluation\u2019: Analysts See Slowing Revenue Growth",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/62836578/apple-stock-at-extreme-overvaluation-analysts-see-slowing-revenue-growth"
+  },
+  {
+   "time": "11-03 13:55",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "target up",
+   "headline": "Citigroup Maintains Buy on Palantir Technologies, Raises Price Target to $265",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62836487/citigroup-maintains-buy-palantir-technologies-raises-price-target-265"
+  },
   {
    "time": "11-03 13:31",
    "symbols": [
