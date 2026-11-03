@@ -190,6 +190,12 @@ scored against purely mechanical variants.
    chips, ASML for equipment) before writing "no headline". On 2026-10-28 MU gapped +3.5% on
    SK Hynix's record quarter and ran another +2.2% from the open while the bias called it
    headline-less and named no sniper.
+   A priced offering counts as news of the company's own: once the shares and notes are placed
+   overnight (size, price and buyers known), the day-two name with a small gap is a low-confidence
+   sniper candidate, not only a financing_fade opportunity. On 2026-11-03 ORCL priced $20B at $116,
+   was +0.7% at 08:30 and ran +3.4% from its open (11:05: 65% of the stock went to ten anchor
+   investors) while the morning logged it as an opportunity and named no sniper. FADES.md day-two
+   base rate: 61% up, +2% over two years, flat in the last 3 months, so confidence stays low.
    When Webull is unavailable, use Alpaca snapshots (zoh.alpaca, feed iex) and say so in the file.
    Bearish days: when the SPY call is `put` with aligned macro evidence (hot data, yields and
    dollar up, futures red), the sniper may be a put. Look for a mega cap with no good news of
