@@ -153,6 +153,19 @@ in EVOLUTION.md.
     is whether 'yesterday's worst mega cap in a cooling theme' has an open-to-close edge on day two
     (the 11-03 ORCL/memory bounce) and whether that beats the gap-up fade of item 30. Prior: no.
 
+40. **Failed bounce in a cooling theme, the put mirror (2026-11-03, BOUNCE.md, zoh/research/bounce.py).**
+    Two years of real option prices: 14 days where SMH was down >= 10% over the prior month and gapped up
+    >= 1%; 6 of them (43%) were back below the open at 11:00 and had a chip below its own open outside a
+    report window. The 11:03 0.20-delta put on that weakest chip: live exit +28% per $1 (33% win), -7%
+    without the best, -53% without the best two; half at 3x then hold +43% / +11% / -31%; pure hold +11%
+    / -27% / -72%; a stock stop (sell when the stock reclaims its open) adds nothing. The SMH put is
+    similar (+45% / -1% / -35% live). Two trades carry it (AVGO 2025-04-08 +205%, MRVL 2026-11-02 +178%),
+    one is a disaster (MU 2025-04-09, the tariff-pause day, -93%), three small losers. Held bounces
+    (above the open at 11:00) closed higher 7 of 8 times, +1.4% open to close. Verdict: candidate at most;
+    stays a checklist item for the intraday check (the 2026-11-03 put mirror), not a mechanical rule;
+    re-run when the sample reaches 15 failed days. Note the rule picks the weakest chip, which on 11-02
+    was MRVL (not MU): its put did +178% live.
+
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
   live entry) and intraday pick (10) since 10-01 on real option minute bars, 10% costs each way. Snipers,
