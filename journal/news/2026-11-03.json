@@ -1,7 +1,28 @@
 {
- "as_of": "2026-11-03T10:02-05:00",
+ "as_of": "2026-11-03T10:32-05:00",
  "since": "2026-11-02T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-03 10:07",
+   "symbols": [
+    "AAPL",
+    "AMZN"
+   ],
+   "rating": "initiate",
+   "headline": "CNMC Initiates Sanction Proceedings Against Apple, Amazon; Companies Failed To Comply With Cease-And-Desist Order Imposed On Them In Sanctioning Resolution Of July 2023; Imposed Fines On Both Companies For Including Anti-Competitive Clauses In Contracts Governing The Terms And Conditions Of Amazon\u2019s Role As An Apple Distributor",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/government/26/11/62825264/cnmc-initiates-sanction-proceedings-against-apple-amazon-companies-failed-comply-cease-and-desist-or"
+  },
+  {
+   "time": "11-03 10:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Web Services Signs Strategic Collaboration Agreement With Great Ormond Street Hospital To Advance AI, Cloud Computing And Digital Healthcare Innovation",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/general/biotech/26/11/62824777/amazon-web-services-signs-strategic-collaboration-agreement-great-ormond-street-hospital-advance-ai-"
+  },
   {
    "time": "11-03 09:58",
    "symbols": [

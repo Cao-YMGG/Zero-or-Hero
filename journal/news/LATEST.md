@@ -1,9 +1,10 @@
-# Headlines since 2026-11-02 16:00 ET (as of 2026-11-03 10:02 ET)
+# Headlines since 2026-11-02 16:00 ET (as of 2026-11-03 10:32 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-03 10:07 | AAPL AMZN | initiate | CNMC Initiates Sanction Proceedings Against Apple, Amazon; Companies Failed To Comply With Cease-And-Desist Order Imposed On Them In Sanctioning Resolution Of July 2023; Imposed Fines On Both Companies For Including Anti-Competitive Clauses In Contracts Governing The Terms And Conditions Of Amazon’s Role As An Apple Distributor |
 | 11-03 09:32 | GEV | upgrade | HSBC Upgrades GE Vernova to Buy; Argus Research Adjusts Price Target |
 | 11-03 09:31 | HOOD | rating | Cantor Fitzgerald Maintains Buy Rating on Robinhood Markets |
 | 11-03 09:22 | GEV | target down | Argus Research Maintains Buy on GE Vernova, Lowers Price Target to $1100 |
@@ -32,6 +33,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-02 16:41 | CVX | target up | UBS Maintains Buy on Chevron, Raises Price Target to $265 |
 | 11-02 16:31 | INTC | downgrade | GF Securities Downgrades Intel Price Target Following Q4 Outlook |
 | 11-02 16:31 | AMZN | upgrade | Phillip Securities Upgrades Amazon to Buy |
+| 11-03 10:01 | AMZN |  | Amazon Web Services Signs Strategic Collaboration Agreement With Great Ormond Street Hospital To Advance AI, Cloud Computing And Digital Healthcare Innovation |
 | 11-03 09:58 | CVX |  | Venezuela's Oil Exports Almost Unchanged At 1.08M Barrels/Day In Oct; Venezuela's Oil Exports To U.S. Fell To 449,000 Barrels/Day In Oct; Venezuela's Oil Exports To Europe Increased To Some 235,000 Barrels/Day In Oct; Chevron's Exports Of Venezuelan Crude Up To Some 303,000 Barrels/Day, Traders Exported 506,000 Barrels/Day |
 | 11-03 09:54 | JPM |  | JPMorgan Sees 66% Chance of Blue Sweep: What Does It Mean for Crypto? |
 | 11-03 09:36 | AMZN |  | Amazon Has 40% Upside, Joseph Carlson Says: 'One of the Best Opportunities' |
