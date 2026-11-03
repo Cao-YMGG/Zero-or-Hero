@@ -143,6 +143,16 @@ in EVOLUTION.md.
     acquirer sample (needs headlines that carry size and stock component; score them live), and a
     size x theme filter (mega-cap AI capex raises in a cooling theme) once there are 20 of them.
 
+39. **Day-two cross-sectional reversal (other Claude's question, 2026-11-03).** They measured a -0.60
+    rank correlation between 11-02 and 11-03 returns across 100 stocks (below the 1st percentile since
+    2010; long-run mean -0.01, and the day after a high-dispersion day reverses only 51% of the time).
+    Today fit it: ORCL -8.9% then +5.8%, WDC/STX/SNDK sold hardest then +3-5% at the open, XLP/WMT/COST
+    gave back the week's rotation; MRVL (own fresh negative) was the exception. Not measured here. Test
+    on our 61-name daily file: rank correlation day t vs t+1 by month, conditional on dispersion deciles
+    and on the theme state (cooling vs heating), last 3 months first, then 2 years; what matters for us
+    is whether 'yesterday's worst mega cap in a cooling theme' has an open-to-close edge on day two
+    (the 11-03 ORCL/memory bounce) and whether that beats the gap-up fade of item 30. Prior: no.
+
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
   live entry) and intraday pick (10) since 10-01 on real option minute bars, 10% costs each way. Snipers,
