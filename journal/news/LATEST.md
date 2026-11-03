@@ -1,9 +1,10 @@
-# Headlines since 2026-11-02 16:00 ET (as of 2026-11-03 15:01 ET)
+# Headlines since 2026-11-02 16:00 ET (as of 2026-11-03 15:17 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-03 15:04 | XOM | target up | Citigroup Raises ExxonMobil Price Target to $175 |
 | 11-03 14:01 | CVX | rating | Chevron Maintains Commitment to Project Kilby Data Center Power Supply |
 | 11-03 13:55 | PLTR | target up | Citigroup Maintains Buy on Palantir Technologies, Raises Price Target to $265 |
 | 11-03 13:17 | AAPL | target down | JP Morgan Maintains Overweight on Apple, Lowers Price Target to $355 |
@@ -41,6 +42,8 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-02 16:41 | CVX | target up | UBS Maintains Buy on Chevron, Raises Price Target to $265 |
 | 11-02 16:31 | INTC | downgrade | GF Securities Downgrades Intel Price Target Following Q4 Outlook |
 | 11-02 16:31 | AMZN | upgrade | Phillip Securities Upgrades Amazon to Buy |
+| 11-03 15:11 | MSFT |  | Cisco Partners With OpenAI To Integrate Frontier AI Reasoning Into Networking And Security Infrastructure, Strengthening Enterprise Cybersecurity And Threat Detection |
+| 11-03 15:03 | LLY |  | Beam Therapeutics Receives Milestone Payment from Eli Lilly and Company |
 | 11-03 14:43 | NVDA |  | Nvidia Stock Climbs Amid Oil Price Drop |
 | 11-03 14:22 | MSFT |  | 'Jill Hazelbaker Jumps To OpenAI As Chief Corporate Affairs Officer' - Axios |
 | 11-03 14:16 | META |  | 'Meta Draws $58 Billion Demand for US Leg of Cross-Border Bond' - Bloomberg News |

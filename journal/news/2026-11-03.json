@@ -1,7 +1,37 @@
 {
- "as_of": "2026-11-03T15:01-05:00",
+ "as_of": "2026-11-03T15:17-05:00",
  "since": "2026-11-02T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-03 15:11",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Cisco Partners With OpenAI To Integrate Frontier AI Reasoning Into Networking And Security Infrastructure, Strengthening Enterprise Cybersecurity And Threat Detection",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62839068/cisco-partners-openai-integrate-frontier-ai-reasoning-networking-and-security-infrastructure-strengt"
+  },
+  {
+   "time": "11-03 15:04",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "target up",
+   "headline": "Citigroup Raises ExxonMobil Price Target to $175",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/citigroup-adjusts-exxon-mobil-price-target-to-175-from-155-ce785fdeda89f127"
+  },
+  {
+   "time": "11-03 15:03",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Beam Therapeutics Receives Milestone Payment from Eli Lilly and Company",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/urn:summary_document_report:quartr.com:3960141:0-beam-clinical-progress-in-beam-302-and-beam-301-amid-widening-losses-and-a-1-0b-liquidity-base/"
+  },
   {
    "time": "11-03 14:43",
    "symbols": [
