@@ -52,6 +52,15 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
   leader +4.0% from its open) was picked at 11:03, topped minutes later and closed 2.5% lower; the
   0.25-delta 255C went 0.43 -> 0.01 (-$84). Without in-session news of its own, an extended leader
   goes into `opportunities`, not `picks`.
+  Look at both sides (owner, 2026-11-03). The leader rule above has a put mirror: when the morning
+  called a theme's bounce "relief, not a turn" and by the check-in the theme ETF is back below its
+  open, the weakest mega cap of that theme that is already below its open (and not in a report
+  window) is a put candidate, strongest when a sector negative broke the same morning (target cuts
+  across the group, a raise of capital, dilution). On 2026-11-02 SMH gapped +1.3% in a -19% month,
+  was below its open by 11:00 with Melius cutting AI targets on "Big Tech lines up to raise cash";
+  the 11:03 check picked the leader (AMZN call, -98%) while MU (-2.3% from its open) was the pick:
+  its same-day 860P went 1.51 -> 27 (+262% on the live exit, +1315% held to the close). Intraday
+  picks may be puts on any day; only the pre-market sniper needs a put day.
 - Weekdays 16:35 ET: daily post-market review and light evolution. Grade every closed trade
   (real and shadow) and the day's pre-market calls in `journal/grades.csv` with the rubric in
   `journal/GRADING.md` (process score out of 10, separate from the result; peaks from

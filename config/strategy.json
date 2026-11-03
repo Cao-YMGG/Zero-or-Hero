@@ -140,41 +140,6 @@
       "days": "non_event"
     },
     {
-      "id": "rebound_scanner_wide",
-      "universe": [
-        "META",
-        "NVDA",
-        "TSLA",
-        "AMZN",
-        "AMD",
-        "RKLB",
-        "CRDO",
-        "HOOD",
-        "INTC",
-        "GOOGL",
-        "AAPL",
-        "COIN",
-        "SMCI",
-        "PLTR",
-        "AVGO",
-        "MU"
-      ],
-      "signal": "gap",
-      "sides": [
-        "down"
-      ],
-      "fade": true,
-      "after_minutes": 15,
-      "min_gap_pct": 2.0,
-      "target_delta": 0.08,
-      "take_profit": null,
-      "stop_loss": null,
-      "trail_after": 3.0,
-      "trail_giveback": 0.6,
-      "entry_cutoff": "10:30",
-      "days": "non_event"
-    },
-    {
       "id": "nvda_gapdown_put",
       "universe": [
         "NVDA"
@@ -207,6 +172,18 @@
       "half_at": 3.0
     },
     {
+      "id": "catalyst_open_hero",
+      "signal": "catalyst",
+      "after_minutes": 1,
+      "move_pct": 0.0,
+      "target_delta": 0.1,
+      "take_profit": null,
+      "stop_loss": null,
+      "trail_after": null,
+      "entry_cutoff": "10:00",
+      "shadow_risk": 1.0
+    },
+    {
       "id": "catalyst_intraday",
       "source": "intraday",
       "real_risk": 0.2,
@@ -222,7 +199,7 @@
       "half_at": 3.0
     },
     {
-      "id": "catalyst_intraday_arm2",
+      "id": "catalyst_intraday_hero",
       "source": "intraday",
       "signal": "catalyst",
       "after_minutes": 1,
@@ -230,10 +207,9 @@
       "target_delta": 0.2,
       "take_profit": null,
       "stop_loss": null,
-      "trail_after": 1.0,
-      "trail_giveback": 0.4,
+      "trail_after": null,
       "entry_cutoff": "14:30",
-      "half_at": 3.0
+      "shadow_risk": 1.0
     },
     {
       "id": "spy_open_drive",

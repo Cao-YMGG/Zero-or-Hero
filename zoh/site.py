@@ -50,7 +50,7 @@ svg text { fill:var(--muted); font-size:11px; }
 # Plain-language names for the dashboard; unknown ids fall back to the id itself.
 NAMES = {
     "rebound_scanner": ("低开反弹", "大盘股低开 ≥2%，15 分钟后买看涨，赌当天收复"),
-    "rebound_scanner_wide": ("低开反弹·宽追踪", "同上，追踪止盈放得更宽（对照组）"),
+    "rebound_scanner_wide": ("低开反弹·宽追踪", "已退役（2026-11-03：低开反弹近 3 个月真实期权价 -38%，宽追踪没有独立证据）"),
     "rebound_scanner_any": ("低开反弹·每天", "已退役（真实期权价重测为负，2026-10-18）"),
     "gapup_fade": ("高开回落", "已退役（真实期权价重测为负，2026-10-18）"),
     "nvda_gapdown_put": ("NVDA 低开走弱", "NVDA 低开、10:00 仍在开盘价下方，买当天到期看跌（约 0.4 delta），3 倍止盈"),
@@ -58,7 +58,9 @@ NAMES = {
     "catalyst_open_near": ("开盘狙击·近价", "已退役（真实期权价重测为负，2026-10-18）"),
     "catalyst_intraday": ("盘中狙击", "盘中检查发现的新消息股票，立刻买"),
     "catalyst_intraday_arm15": ("盘中狙击·早锁利", "同盘中狙击，只记影子：涨到 1.5 倍就开始跟踪止盈（原规则 2 倍）"),
-    "catalyst_intraday_arm2": ("盘中狙击·旧规则", "同盘中狙击，只记影子：保留旧规则，涨到 2 倍才开始跟踪止盈，用来对照 1.5 倍"),
+    "catalyst_intraday_arm2": ("盘中狙击·旧规则", "已退役（2026-11-03：1.5 倍对 2 倍的问题真实期权价回测已回答）"),
+    "catalyst_intraday_hero": ("盘中狙击·hero 影子", "同盘中狙击的票，只记影子：全仓、不止盈不追踪、拿到收盘，按轮次数 hero / 归零（2026-11-03）"),
+    "catalyst_open_hero": ("开盘狙击·hero 影子", "同开盘狙击的票，只记影子：全仓、不止盈不追踪、拿到收盘（新闻票可过夜），按轮次数 hero / 归零（2026-11-03）"),
     "catalyst_sniper": ("确认后狙击", "盘前选的股票，等它先涨 1% 再买（已停）"),
     "claude_bias": ("盘前判断 SPY", "按 Claude 盘前对 SPY 的看涨/看跌判断买"),
     "claude_confirm": ("盘前判断·确认", "盘前判断 + 开盘走势确认（已退役）"),
