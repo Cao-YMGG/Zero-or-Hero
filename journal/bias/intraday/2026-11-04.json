@@ -37,6 +37,42 @@
       "why": "Weakest chip again: MRVL 164.3, -4.4% on the day but only -0.7% from its 165.44 open; SMH is +1.1% above its open (505.78 low at 09:32, 522 high at 09:47), so the put mirror did not arm. AMD +2.5% from its open on its reaction day (excluded), NVDA +1.2%, MU +1.5%, INTC +1.6% from their opens: the chip gap-down is being bought, not sold",
       "why_zh": "迈威尔还是最弱的芯片股（-4.4%），但比开盘只低 0.7%；半导体 ETF 比开盘高 1.1%，看跌镜像没触发。AMD（反应日不碰）、英伟达、美光、英特尔都比开盘高，芯片的低开在被买回来，不是被卖",
       "action": "none"
+    },
+    {
+      "type": "sector_intraday",
+      "symbol": "MU",
+      "direction": "put",
+      "time": "13:20",
+      "why": "The put mirror armed between the check-ins: SMH 505.99, -1.1% from its 511.70 open (high 522.18 at 09:47, low 497.33 at 11:30, -2.4% on the day), the morning had filed the chip bounce under cooling themes and the AI build-out took two more hits in the session (KeyBanc cut VST 10:44, VST -14.6%; GEV -11% on the Texas data-center moratorium talk). Weakest eligible chip below its own open: MRVL -4.7% (past the 3% line), then MU 806.1, -2.05% from its 823.04 open (-5.7% on the day), INTC -0.9%, NVDA and AVGO back above their opens, AMD excluded (reaction day). Not a pick: MU has no news of its own today (its only headline is a positive free-cash-flow piece), the sector has been bouncing for 1h45m (SMH +1.7% and MU +1.9% off the 11:30 lows, so the move is not unfolding the put's way at 13:20), only 2h40m remain, and an $806 stock's nearest-expiry put near the money costs more than the $92 budget (20% of $458), so the bot would log 'nothing affordable'. Recorded as the 13:00 sample of the mirror (BOUNCE.md: 14 events, 33% win, negative without the best two)",
+      "why_zh": "看跌镜像在两次检查之间触发了：半导体 ETF 比开盘低 1.1%（09:47 冲高后 11:30 见低点），早上就把芯片反弹归在降温板块里，盘中 AI 基建又挨了两下（KeyBanc 下调 VST，VST -14.6%；GE Vernova 因德州数据中心暂停传闻 -11%）。比开盘低的芯片股里最弱的是迈威尔（-4.7%，过线了），其次美光（比开盘低 2.05%，当天 -5.7%）。没选：美光今天没有自己的消息，板块从 11:30 的低点已经反弹了快两小时（美光离低点 +1.9%，此刻并不在往看跌的方向走），只剩 2 小时 40 分钟，而且 806 美元的股票一张平值附近的看跌期权要 800 美元以上，账本 92 美元的预算买不起。记下来当镜像规则的第三个样本",
+      "action": "none"
+    },
+    {
+      "type": "sector_intraday",
+      "symbol": "MRVL",
+      "direction": "put",
+      "time": "13:20",
+      "why": "Weakest chip for the third day: 157.65, -8.3% on the day and -4.7% from its 165.44 open, but the catalyst is the Lumentum deal from 10-28 and yesterday's downgrades (B of A, TD Cowen), nothing new today; past the 3% line and 1.9% off its 154.78 low. Would have been the mirror pick at 11:00 (-3% then), which the 10:16/13:16 cadence misses: the case for the 11:30 check-in",
+      "why_zh": "迈威尔连续第三天是最弱的芯片股（-8.3%，比开盘低 4.7%），但原因还是 10-28 的 Lumentum 收购和昨天的降级，今天没有新消息；已经过了 3% 的线，而且从低点反弹了 1.9%。如果 11:00 有一次检查，它当时正好在 -3% 的线上，是镜像的候选：这就是加 11:30 检查的理由",
+      "action": "none"
+    },
+    {
+      "type": "sector_move",
+      "symbol": "VST",
+      "direction": "put",
+      "time": "13:20",
+      "why": "Day's biggest large-cap loser with an in-session catalyst: KeyBanc downgraded Vistra to Sector Weight at 10:44 on top of the Texas data-center moratorium talk; 119.21, -14.6% on the day, -5.2% from its 125.82 open, low 117.28. Fits 'sector negative the same morning, weakest name below its open' better than any chip, but it is past the 3% line, 1.6% off its low, and outside the universe (no same-day options, not a mega cap). The power/data-center build-out is where the selling is concentrated today, not chips",
+      "why_zh": "今天有盘中催化剂的大盘股里跌最多的：KeyBanc 10:44 把 Vistra 降级，叠加德州数据中心暂停的传闻，-14.6%、比开盘低 5.2%。比任何芯片股都更符合「当天板块利空 + 最弱的那只在开盘价下」，但过了 3% 的线、离低点也反弹了 1.6%，而且不在我们的范围里（没有当日到期期权）。今天卖压集中在电力和数据中心基建，不在芯片",
+      "action": "none"
+    },
+    {
+      "type": "company_news",
+      "symbol": "GOOGL",
+      "direction": "call",
+      "time": "13:20",
+      "why": "The one in-session company headline on a mega cap: 'Google's latest AI model nearly matches Anthropic at one-third the cost' (11:30). GOOGL 291.94, +4.3% on the day and +2.8% from its 283.88 open, but the high was 296.49 and it has given back 1.5% since, so the headline is not carrying it further; AAPL (+3.7% from its open) and MSFT (+2.1%) are still the no-news election rebound. Not a pick: move not unfolding, headline 110 minutes old",
+      "why_zh": "今天大盘股里唯一的盘中公司消息：11:30「谷歌新模型以三分之一成本接近 Anthropic」。谷歌 +4.3%、比开盘高 2.8%，但高点 296.49 之后已经回吐 1.5%，消息没有继续推着它走；苹果、微软还是没消息的选举后反弹。没选：走势没有在延续，消息已经快两小时",
+      "action": "none"
     }
   ]
 }
