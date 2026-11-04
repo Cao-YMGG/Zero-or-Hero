@@ -1,35 +1,17 @@
 {
   "date": "2026-11-04",
-  "done": false,
+  "done": true,
   "variants": {
     "claude_bias": {},
     "meta_follow2": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "META261104P00617500",
-        "direction": "put",
-        "entry_time": "2026-11-04T11:28:10-05:00",
-        "entry_price": 0.83,
-        "peak": 1.01,
-        "qty": 1,
-        "last": 0.03,
-        "last_time": "2026-11-04T15:16:27-05:00"
-      }
+      "closed": true
     },
     "leader_follow": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "ORCL261106C00136000",
-        "direction": "call",
-        "entry_time": "2026-11-04T09:46:14-05:00",
-        "entry_price": 0.86,
-        "peak": 0.86,
-        "qty": 1,
-        "last": 0.23,
-        "last_time": "2026-11-04T15:16:27-05:00"
-      }
+      "closed": true
     },
     "rebound_scanner": {
       "attempts": 1,
@@ -44,59 +26,17 @@
     "spy_open_drive": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "SPY261104C00773000",
-        "direction": "call",
-        "entry_time": "2026-11-04T10:01:30-05:00",
-        "entry_price": 0.3,
-        "peak": 0.3,
-        "qty": 3,
-        "last": 0.03,
-        "last_time": "2026-11-04T15:16:27-05:00"
-      },
-      "real": {
-        "contract": "SPY261104C00773000",
-        "qty": 3,
-        "underlying": "SPY",
-        "entry_price": 0.3,
-        "entry_time": "2026-11-04T10:02:00-05:00"
-      }
+      "closed": true
     },
     "spy_open_drive_wide": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "SPY261104C00773000",
-        "direction": "call",
-        "entry_time": "2026-11-04T10:01:30-05:00",
-        "entry_price": 0.27,
-        "peak": 0.3,
-        "qty": 3,
-        "last": 0.03,
-        "last_time": "2026-11-04T15:16:27-05:00"
-      }
+      "closed": true
     },
     "stock_open_drive": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "TSLA261104C00392500",
-        "direction": "call",
-        "entry_time": "2026-11-04T10:01:30-05:00",
-        "entry_price": 0.72,
-        "peak": 2.39,
-        "qty": 1,
-        "last": 0.05,
-        "last_time": "2026-11-04T15:16:27-05:00",
-        "banked": 1.125
-      },
-      "real": {
-        "contract": "TSLA261104C00392500",
-        "qty": 1,
-        "underlying": "TSLA",
-        "entry_price": 0.72,
-        "entry_time": "2026-11-04T10:02:02-05:00"
-      }
+      "closed": true
     }
   },
   "generation": 1,
