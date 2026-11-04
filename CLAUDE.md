@@ -61,6 +61,13 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
   the 11:03 check picked the leader (AMZN call, -98%) while MU (-2.3% from its open) was the pick:
   its same-day 860P went 1.51 -> 27 (+262% on the live exit, +1315% held to the close). Intraday
   picks may be puts on any day; only the pre-market sniper needs a put day.
+  The mirror arms around 11:00, between the check-ins: on 11-02, 11-03 and 11-04 SMH crossed below
+  its open between 10:45 and 11:30, after the 10:16 check and long before 13:16 (11-04: MRVL -0.7%
+  from its open at 10:20 with SMH still above its open; MU -2 to -3% at 11:00 and -3.4% at the
+  close while the 13:20 check found the sector already bouncing off its 11:30 low). Until an 11:30
+  check-in exists, the 10:16 file writes a conditional line (what would arm the mirror and which
+  name is weakest) and the 13:16 check scores it. Theme state (next paragraph of 2b) is a filter on
+  our own picks: no call pick on a `turning` theme's names, whatever the headline.
 - Weekdays 16:35 ET: daily post-market review and light evolution. Grade every closed trade
   (real and shadow) and the day's pre-market calls in `journal/grades.csv` with the rubric in
   `journal/GRADING.md` (process score out of 10, separate from the result; peaks from
@@ -141,6 +148,15 @@ scored against purely mechanical variants.
    (LITE, CIEN), power (GEV, VST), internet (META, GOOGL, MSFT, AMZN, AAPL), plus SPY/QQQ —
    and record which themes are heating up (money flowing in) and cooling (flowing out).
    Add newly hot themes (e.g. a new AI supply-chain link) as they appear.
+   Also run `python -m zoh.research.themes --today` (Alpaca daily bars, keys in the workflows and
+   usually in this container; five turn flags and five heat flags per theme, journal/research/
+   THEMES.md 2026-11-04) and record each theme's state in `rotation`. `turning` (>= 3 turn flags;
+   chips fired 10-13, two to three weeks before the 10-28 to 11-03 leg) is a filter on us, not a
+   forecast: the theme's own next 1-4 weeks are a coin flip (87 episodes: 34 continued, 25
+   recovered, 28 neither) and its gap-ups still closed up 56-60% of the time, but our calls on a
+   turning theme's names won 21% (28 trades, -68% avg) vs 57% in heating themes. So on a turning
+   theme: no call sniper or call pick on its names on good news, no bounce-buying, and the put
+   mirror only with the 11:00 confirmation. Sniper scans start with the heating themes.
    Outside tech, also track sector baskets every day: banks (JPM, GS, BAC), health care (UNH,
    LLY), energy (XOM, CVX), consumer (WMT, COST, HD), industrials (CAT, GE), with XLF/XLV/
    XLE/XLY/XLI and IWM as checks. Every universe and theme here was tech, so on 2026-10-14/15,
