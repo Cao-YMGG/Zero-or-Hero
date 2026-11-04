@@ -1,4 +1,4 @@
-# Headlines since 2026-11-03 16:00 ET (as of 2026-11-04 14:46 ET)
+# Headlines since 2026-11-03 16:00 ET (as of 2026-11-04 15:01 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -28,6 +28,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-04 06:29 | AMD | target down | B of A Securities Maintains Buy on Advanced Micro Devices, Lowers Price Target to $650 |
 | 11-03 16:32 | GS | target up | Goldman Sachs Maintains Tyler Technologies at Neutral, Raises Price Target |
 | 11-03 16:32 | GS | upgrade | Goldman Sachs Upgrades Sirius XM Holdings to Buy |
+| 11-04 14:50 | AAPL |  | 'Apple Cuts Internal AI Usage Budgets in Move to Reduce Spending' - Bloomberg Exclusive |
 | 11-04 14:02 | CRDO |  | Credo and Oracle Secure OCP Approval for New Optical Transceiver Telemetry Specifications |
 | 11-04 14:02 | INTC |  | Intel Joins Semiconductor Pathways Fund to Strengthen U.S. Engineering Talent Pipeline |
 | 11-04 14:02 | INTC |  | Atsign Announces EdgeAI Solution Utilizing Intel Hardware |
