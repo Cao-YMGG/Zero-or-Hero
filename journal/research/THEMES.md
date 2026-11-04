@@ -313,3 +313,36 @@ pnl % per trade on the contract; $ = summed real-paper P&L of the real fills amo
 | put | heating | 1 (0) | +114% | +114% | 100% | +0 |
 | put | neutral | 6 (2) | +157% | +222% | 67% | +369 |
 | put | turning | 7 (3) | +8% | -99% | 43% | -109 |
+
+## Longer horizons (added 2026-11-04 14:10 ET)
+
+Same flags, forward windows out to 120 sessions (themes.py constants FWD; the "3-month flags" row uses LOOK 60 /
+MONTH 63 / WEEK 21). Theme return minus SPY, mean (% positive, n).
+
+| flags | window | state | 20d | 40d | 60d | 120d |
+|---|---|---|---|---|---|---|
+| 20-day | all, 2 years | turning | +1.4% (55%, 407) | +1.9% (49%, 372) | +4.0% (49%, 350) | +9.3% (54%, 267) |
+| 20-day | all, 2 years | neutral | +1.1% (53%) | +2.3% (55%) | +4.0% (56%) | +9.8% (59%) |
+| 20-day | all, 2 years | heating | +1.7% (57%, 731) | +4.0% (60%) | +5.5% (57%) | **+17.8% (62%, 608)** |
+| 20-day | all, last 6 months | turning | +2.1% (56%, 153) | +0.7% (42%) | +4.1% (57%, 96) | +1.5% (46%, 13) |
+| 20-day | all, last 6 months | heating | -1.1% (48%, 133) | -1.5% (51%) | **-3.0% (43%, 92)** | -12.5% (30%, 10) |
+| 20-day | chips, 2 years | turning | +1.6% (56%, 54) | +5.4% (51%) | +9.8% (69%) | +28.5% (82%, 28) |
+| 20-day | chips, 2 years | heating | +5.5% (71%, 120) | +9.7% (76%) | +13.7% (82%) | +45.5% (98%, 96) |
+| 20-day | chips, last 6 months | turning | +0.2% (50%, 26) | -0.5% (32%) | -2.0% (45%, 20) | - |
+| 20-day | chips, last 6 months | heating | +1.2% (46%, 28) | -2.3% (43%) | -6.3% (30%, 20) | - |
+| 3-month | all, 2 years | turning | +0.3% (52%, 788) | +0.3% (46%) | +1.2% (49%) | +4.4% (55%, 493) |
+| 3-month | all, 2 years | heating | +2.0% (56%, 598) | +4.4% (57%) | +6.2% (54%) | +19.9% (61%, 519) |
+| 3-month | all, last 6 months | heating | -1.5% (39%, 93) | -2.4% (46%) | -6.0% (33%, 61) | -14.4% (14%, 14) |
+
+From the fire day of a 20-day-flag episode (n 86 -> 66 as the window lengthens): 20d +1.7% (median +0.4%),
+60d +7.3% (median +2.6%), 120d +16.7% (median +7.8%), 54-56% positive at every horizon. With 3-month flags:
+73 episodes, 37 continued / 28 recovered / 8 neither; 60d median 0.0%.
+
+Reading: pulling the horizon out does not turn the turn flag into a short signal at any horizon; after a turn
+fires, the theme is back ahead of SPY four to six months later more often than not. The long-horizon pattern in
+the two-year data is momentum on the heat side (heating themes +18% vs SPY over six months, 62% positive), and
+that is exactly what reversed in the last six months (heating -3% at 60 days, -12.5% at 120 days on a small n),
+which is the regime change: chasing the hot theme stopped paying around May 2026. Chips underperformed SPY over
+40-60 days in every state in the last six months. By the house rule (positive over two years, negative recently
+-> reject for now) theme momentum is not a trade; mean reversion into turning themes (positive recently, flat over
+two years) is a candidate at most.
