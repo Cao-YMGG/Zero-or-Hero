@@ -1,9 +1,10 @@
-# Headlines since 2026-11-03 16:00 ET (as of 2026-11-04 13:45 ET)
+# Headlines since 2026-11-03 16:00 ET (as of 2026-11-04 14:15 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-04 14:01 | SNDK | initiate | Bernstein Initiates Coverage on SanDisk with Buy Rating |
 | 11-04 13:42 | PLTR | target up | Barclays Maintains Overweight on Palantir Technologies, Raises Price Target to $273 |
 | 11-04 12:30 | AMD | target up | Morgan Stanley Maintains Equal-Weight on Advanced Micro Devices, Raises Price Target to $550 |
 | 11-04 12:07 | AMD | target up | Piper Sandler Maintains Overweight on Advanced Micro Devices, Raises Price Target to $650 |
@@ -25,6 +26,19 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-04 06:29 | AMD | target down | B of A Securities Maintains Buy on Advanced Micro Devices, Lowers Price Target to $650 |
 | 11-03 16:32 | GS | target up | Goldman Sachs Maintains Tyler Technologies at Neutral, Raises Price Target |
 | 11-03 16:32 | GS | upgrade | Goldman Sachs Upgrades Sirius XM Holdings to Buy |
+| 11-04 14:02 | CRDO |  | Credo and Oracle Secure OCP Approval for New Optical Transceiver Telemetry Specifications |
+| 11-04 14:02 | INTC |  | Intel Joins Semiconductor Pathways Fund to Strengthen U.S. Engineering Talent Pipeline |
+| 11-04 14:02 | INTC |  | Atsign Announces EdgeAI Solution Utilizing Intel Hardware |
+| 11-04 14:01 | UNH |  | UnitedHealth Group Board Authorizes Quarterly Dividend |
+| 11-04 14:01 | JPM |  | JPMorgan Chase Updates Digital Services Agreement Regarding Third-Party AI Agents |
+| 11-04 14:01 | HOOD |  | SkyFi's 'Satellite Intelligence' App Launches for Robinhood Agents |
+| 11-04 14:01 | AMZN |  | Amazon Launches Shop Direct Merchant Workspace |
+| 11-04 14:01 | NFLX |  | Netflix Launches AI-Powered 'AI Discover' Feature in Limited US Test |
+| 11-04 14:01 | MSFT |  | Above Security Joins Microsoft for Startups Pegasus Program |
+| 11-04 14:01 | MSFT |  | PowerDMARC Launches on Microsoft Marketplace |
+| 11-04 14:01 | AAPL |  | Apple Updates App Store Age-Rating Requirements for Dating and AI Companion Apps |
+| 11-04 14:01 | LLY |  | NAD Recommends Good Life Meds Discontinue Claims for Compounded Tirzepatide |
+| 11-04 13:59 | MSFT |  | QUICK SPARK: Microsoft Stock Hits Record High as Midterm Results Boost AI Infrastructure Bets |
 | 11-04 13:20 | TSLA |  | Elon Musk ‘Needs to be Held Accountable’: Tesla Takedown Says ‘Voters Have Done Their Part, Now Its Congress’ Turn’ |
 | 11-04 13:17 | META |  | 'Meta Acquires AI Coding Startup Conductor' - Axios Exclusive |
 | 11-04 13:00 | AAPL AMZN |  | CNBC Halftime Report Final Trades: Coeur Mining, Amazon, FTAI Aviation, Apple |

@@ -1,7 +1,147 @@
 {
- "as_of": "2026-11-04T13:45-05:00",
+ "as_of": "2026-11-04T14:15-05:00",
  "since": "2026-11-03T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-04 14:02",
+   "symbols": [
+    "CRDO"
+   ],
+   "rating": "",
+   "headline": "Credo and Oracle Secure OCP Approval for New Optical Transceiver Telemetry Specifications",
+   "source": "fiscal.ai",
+   "url": "https://natlawreview.com/press-releases/credo-and-oracle-advance-optical-transceiver-telemetry-standardization-ocp"
+  },
+  {
+   "time": "11-04 14:02",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel Joins Semiconductor Pathways Fund to Strengthen U.S. Engineering Talent Pipeline",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/intel-joins-semiconductor-pathways-fund-to-strengthen-the-us-engineering-talent-pipeline-302927404.html"
+  },
+  {
+   "time": "11-04 14:02",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Atsign Announces EdgeAI Solution Utilizing Intel Hardware",
+   "source": "fiscal.ai",
+   "url": "https://ai-techpark.com/atsign-announced-the-launch-of-edgeai/"
+  },
+  {
+   "time": "11-04 14:01",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "initiate",
+   "headline": "Bernstein Initiates Coverage on SanDisk with Buy Rating",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1003528399/bernstein-initiates-sandisk-sndkus-with-buy-rating-announces-target-price"
+  },
+  {
+   "time": "11-04 14:01",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "UnitedHealth Group Board Authorizes Quarterly Dividend",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1003499410/press-release-unitedhealth-group-board-authorizes-payment-of-quarterly-dividend"
+  },
+  {
+   "time": "11-04 14:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Updates Digital Services Agreement Regarding Third-Party AI Agents",
+   "source": "fiscal.ai",
+   "url": "https://natlawreview.com/article/major-banks-move-block-or-limit-customer-directed-ai-agents"
+  },
+  {
+   "time": "11-04 14:01",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "SkyFi's 'Satellite Intelligence' App Launches for Robinhood Agents",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/skyfis-satellite-intelligence-now-available-as-a-robinhood-agent-app-302929477.html"
+  },
+  {
+   "time": "11-04 14:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Launches Shop Direct Merchant Workspace",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/04/3395414/0/en/feedonomics-now-available-in-amazon-s-shop-direct-merchant-workspace-making-it-easier-for-brands-to-get-their-products-in-front-of-amazon-customers.html"
+  },
+  {
+   "time": "11-04 14:01",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Launches AI-Powered 'AI Discover' Feature in Limited US Test",
+   "source": "fiscal.ai",
+   "url": "https://www.techdogs.com/tech-news/td-newsdesk/netflix-launches-ai-discover-to-recommend-shows-and-movies-based-on-your-mood"
+  },
+  {
+   "time": "11-04 14:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Above Security Joins Microsoft for Startups Pegasus Program",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/above-security-joins-microsoft-for-startups-pegasus-program-to-add-human-context-to-microsoft-purview-302928788.html"
+  },
+  {
+   "time": "11-04 14:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "PowerDMARC Launches on Microsoft Marketplace",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/2026/11/04/tmt-newswire/plentisoft/powerdmarc-is-now-available-on-microsoft-marketplace/2462010/amp"
+  },
+  {
+   "time": "11-04 14:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Updates App Store Age-Rating Requirements for Dating and AI Companion Apps",
+   "source": "fiscal.ai",
+   "url": "https://www.techdogs.com/tech-news/td-newsdesk/apple-to-require-18-ratings-for-dating-apps-and-romantic-ai-chatbots-from-november-16"
+  },
+  {
+   "time": "11-04 14:01",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "NAD Recommends Good Life Meds Discontinue Claims for Compounded Tirzepatide",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/04/3395623/0/en/national-advertising-division-recommends-good-life-discontinue-health-benefit-and-personalization-claims-for-compounded-tirzepatide-products.html"
+  },
+  {
+   "time": "11-04 13:59",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "QUICK SPARK: Microsoft Stock Hits Record High as Midterm Results Boost AI Infrastructure Bets",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62881873/microsoft-stock-record-high-blue-wave-midterms-hyperscalers"
+  },
   {
    "time": "11-04 13:42",
    "symbols": [
