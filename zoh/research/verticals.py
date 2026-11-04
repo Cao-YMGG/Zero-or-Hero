@@ -8,14 +8,16 @@ Entry rules, on each theme's instruments (its ETF where one exists plus its two 
 Structure: call debit vertical on the monthly expiry nearest 60 calendar days out (45-75 days); long strike =
 the first strike at or above the close, short strike = the listed strike nearest close * (1 + 0.67 * sigma *
 sqrt(T)) (about 0.25 delta; sigma = 20-day realized volatility). Priced at the legs' daily closes with 5% of
-each leg's price each way. Exit: the first close where the spread is worth >= 50% of its width, else after 30
-sessions, else the last close at least 7 calendar days before expiry. Returns are on the debit paid.
+each leg's price each way; spreads costing more than 60% of their width are skipped. Exit: the first close where
+the spread has earned half of its maximum profit (value >= debit + 0.5 * (width - debit)), else after 30 sessions,
+else the last close at least 7 calendar days before expiry. Returns are on the debit paid.
 
     python -m zoh.research.verticals [--years 2] [--from-json]
 """
 import argparse
 import json
 import math
+import pickle
 import statistics as st
 import time
 from datetime import date, datetime, timedelta, timezone
@@ -36,7 +38,7 @@ INSTR = {"chips": ["SMH", "NVDA", "AVGO"], "internet": ["QQQ", "AAPL", "MSFT"], 
 ETFS = {"SMH", "QQQ", "IGV", "XLF", "XLV", "XLE", "XLY", "XLI"}
 TARGET, LO, HI = 60, 45, 75
 DIP_AFTER, HEAT_QUIET, BASE_EVERY = 20, 10, 25
-HOLD, TAKE, COST, BEFORE_EXPIRY = 30, 0.5, 0.05, 7
+HOLD, TAKE, COST, BEFORE_EXPIRY, MAX_DEBIT = 30, 0.5, 0.05, 7, 0.6
 RULES = ("dip", "fire", "heat", "base")
 
 
@@ -75,15 +77,16 @@ def run(long_path, short_path, width, entry_day, expiry, hold=HOLD, take=TAKE, c
     if entry_day not in long_path or entry_day not in short_path:
         return None
     debit = long_path[entry_day] * (1 + cost) - short_path[entry_day] * (1 - cost)
-    if debit <= 0.05:
+    if debit <= 0.05 or debit > MAX_DEBIT * width:
         return None
+    target = debit + take * (width - debit)
     last_ok = expiry - timedelta(days=BEFORE_EXPIRY)
     peak, exit_v, exit_d, reason = 0.0, None, None, None
     later = sorted(d for d in long_path if d in short_path and d > entry_day)
     for n, d in enumerate(later, 1):
         v = long_path[d] * (1 - cost) - short_path[d] * (1 + cost)
         peak = max(peak, v)
-        if v >= take * width:
+        if v >= target:
             exit_v, exit_d, reason = v, d, "target"
             break
         if n >= hold:
@@ -97,8 +100,9 @@ def run(long_path, short_path, width, entry_day, expiry, hold=HOLD, take=TAKE, c
             return None
         d = later[-1]
         exit_v, exit_d, reason = long_path[d] * (1 - cost) - short_path[d] * (1 + cost), d, "open"
-    return {"ret": exit_v / debit - 1, "debit": round(debit, 3), "exit": exit_d.isoformat(), "reason": reason,
-            "peak": round(peak / debit, 3), "width_pct": round(exit_v / width, 3), "held": len([d for d in later if d <= exit_d])}
+    return {"ret": exit_v / debit - 1, "debit": round(debit, 3), "debit_pct": round(debit / width, 3), "exit": exit_d.isoformat(),
+            "reason": reason, "peak": round(peak / debit, 3), "width_pct": round(exit_v / width, 3),
+            "held": len([d for d in later if d <= exit_d])}
 
 
 def option_daily(api, symbols, start, end):
@@ -184,7 +188,7 @@ def price_entry(api, sym, day, closes, i, cache):
     return r
 
 
-def study(api, years):
+def study(api, years, cache_path=None):
     data = themes.study(api, years)
     days = [date.fromisoformat(d) for d in data["days"]]
     syms = sorted({s for v in INSTR.values() for s in v})
@@ -197,7 +201,10 @@ def study(api, years):
         for k in range(1, len(days)):  # carry a missing close forward
             if closes[s][k] == 0.0:
                 closes[s][k] = closes[s][k - 1]
-    rows, cache, seen = [], {}, set()
+    cache = {}
+    if cache_path and cache_path.exists():
+        cache = pickle.loads(cache_path.read_bytes())
+    rows, seen = [], set()
     todo = entries(data)
     print(f"{len(todo)} entries", flush=True)
     for n, (rule, t, i) in enumerate(todo):
@@ -213,7 +220,11 @@ def study(api, years):
                 rows.append(r)
         if n % 50 == 0:
             print(f"{n}/{len(todo)} {rule} {t} {days[i]} rows={len(rows)}", flush=True)
+            if cache_path:
+                cache_path.write_bytes(pickle.dumps(cache))
             time.sleep(0.2)
+    if cache_path:
+        cache_path.write_bytes(pickle.dumps(cache))
     return rows
 
 
@@ -222,7 +233,7 @@ def window(rows, days, end):
 
 
 def table(L, rows, title):
-    L += ["", f"## {title}", "", "| rule | n | win% | avg | -best | -best2 | median | avg % of width | target / time / expiry | days held |",
+    L += ["", f"## {title}", "", "| rule | n | win% | avg | -best | -best2 | median | debit % of width | target / time / expiry | days held |",
           "|---|---|---|---|---|---|---|---|---|---|"]
     for rule in RULES:
         xs = [r for r in rows if r["rule"] == rule and r["reason"] != "open"]
@@ -230,7 +241,7 @@ def table(L, rows, title):
             continue
         rets = [r["ret"] for r in xs]
         reasons = {k: sum(r["reason"] == k for r in xs) for k in ("target", "time", "expiry")}
-        L.append(f"| {rule} | {stats(rets)} | {st.median(rets):+.0%} | {st.mean(r['width_pct'] for r in xs):.0%} | "
+        L.append(f"| {rule} | {stats(rets)} | {st.median(rets):+.0%} | {st.mean(r['debit_pct'] for r in xs):.0%} | "
                  f"{reasons['target']} / {reasons['time']} / {reasons['expiry']} | {st.mean(r['held'] for r in xs):.0f} |")
 
 
@@ -240,8 +251,8 @@ def report(rows, years):
     L = [f"# Two-month call debit verticals by theme state", "",
          f"{len(rows)} spreads ({len(closed)} closed) on {sum(len(v) for v in INSTR.values())} instruments, {years} years of Alpaca "
          f"option daily bars, costs 5% of each leg's price each way. Rules, structure and exits in zoh/research/verticals.py. "
-         f"Columns: n | win% | avg return on debit | without the best | without the best two | median | average spread value at "
-         f"exit as % of width | exit reasons | sessions held.", ""]
+         f"Columns: n | win% | avg return on debit | without the best | without the best two | median | average debit as % of "
+         f"width | exit reasons | sessions held.", ""]
     table(L, closed, "All instruments, all entries")
     table(L, window(closed, 365, end), "All instruments, entries in the last year")
     table(L, window(closed, 183, end), "All instruments, entries in the last 6 months")
@@ -266,11 +277,13 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--years", type=int, default=2)
     ap.add_argument("--from-json", action="store_true")
+    ap.add_argument("--cache", help="pickle file for the fetched option paths (outside the repo)")
     a = ap.parse_args()
     if a.from_json:
         rows = json.loads((OUT / "verticals.json").read_text())
     else:
-        rows = study(Alpaca(), a.years)
+        from pathlib import Path
+        rows = study(Alpaca(), a.years, Path(a.cache) if a.cache else None)
         (OUT / "verticals.json").write_text(json.dumps(rows, indent=0) + "\n")
     text = report(rows, a.years)
     (OUT / "VERTICALS.md").write_text(text)

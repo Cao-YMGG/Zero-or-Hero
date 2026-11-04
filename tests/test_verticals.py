@@ -29,14 +29,20 @@ class Run(unittest.TestCase):
         self.d0 = date(2026, 1, 5)
         self.days = [self.d0 + timedelta(days=k) for k in range(40)]
 
-    def test_target_exit_at_half_the_width(self):
+    def test_target_exit_at_half_the_maximum_profit(self):
         long = {d: 5.0 + 0.5 * k for k, d in enumerate(self.days)}    # rises 0.5 a day
         short = {d: 2.0 + 0.1 * k for k, d in enumerate(self.days)}
         r = run(long, short, 10.0, self.d0, self.d0 + timedelta(days=60))
-        # debit 5*1.05 - 2*0.95 = 3.35; value day k = 2.65 + 0.37k >= 5 from k = 7
+        # debit 5*1.05 - 2*0.95 = 3.35 (34% of width); target = 3.35 + 0.5 * 6.65 = 6.675;
+        # value day k = 2.65 + 0.37k >= 6.675 from k = 11
         self.assertEqual(r["reason"], "target")
-        self.assertEqual(r["exit"], (self.d0 + timedelta(days=7)).isoformat())
-        self.assertGreater(r["ret"], 0.4)
+        self.assertEqual(r["exit"], (self.d0 + timedelta(days=11)).isoformat())
+        self.assertGreater(r["ret"], 0.9)
+
+    def test_spreads_priced_above_sixty_percent_of_width_are_skipped(self):
+        long = {d: 7.0 for d in self.days}
+        short = {d: 0.5 for d in self.days}
+        self.assertIsNone(run(long, short, 10.0, self.d0, self.d0 + timedelta(days=60)))
 
     def test_time_stop_after_thirty_sessions(self):
         long = {d: 5.0 for d in self.days}
