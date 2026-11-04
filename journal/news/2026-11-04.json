@@ -1,7 +1,37 @@
 {
- "as_of": "2026-11-04T11:02-05:00",
+ "as_of": "2026-11-04T11:32-05:00",
  "since": "2026-11-03T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-04 11:30",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Google's Latest AI Model Nearly Matches Anthropic at One-Third the Cost: Report",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62873862/google-ai-cost"
+  },
+  {
+   "time": "11-04 11:12",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "SkyFi Launches Satellite Intelligence On Robinhood Agents, Providing Access To BlackSky Imagery Across 24 Monitored Sites",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62872940/skyfi-launches-satellite-intelligence-robinhood-agents-providing-access-blacksky-imagery-across-24-m"
+  },
+  {
+   "time": "11-04 11:06",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "rating",
+   "headline": "RBC Capital Reiterates Sector Perform on Advanced Micro Devices, Maintains $540 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62872492/rbc-capital-reiterates-sector-perform-advanced-micro-devices-maintains-540-price-target"
+  },
   {
    "time": "11-04 11:01",
    "symbols": [
