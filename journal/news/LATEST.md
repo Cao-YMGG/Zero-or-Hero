@@ -1,9 +1,10 @@
-# Headlines since 2026-11-03 16:00 ET (as of 2026-11-04 13:15 ET)
+# Headlines since 2026-11-03 16:00 ET (as of 2026-11-04 13:45 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-04 13:42 | PLTR | target up | Barclays Maintains Overweight on Palantir Technologies, Raises Price Target to $273 |
 | 11-04 12:30 | AMD | target up | Morgan Stanley Maintains Equal-Weight on Advanced Micro Devices, Raises Price Target to $550 |
 | 11-04 12:07 | AMD | target up | Piper Sandler Maintains Overweight on Advanced Micro Devices, Raises Price Target to $650 |
 | 11-04 11:46 | AMD | target down | Wells Fargo Maintains Overweight on Advanced Micro Devices, Lowers Price Target to $650 |
@@ -24,6 +25,8 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-04 06:29 | AMD | target down | B of A Securities Maintains Buy on Advanced Micro Devices, Lowers Price Target to $650 |
 | 11-03 16:32 | GS | target up | Goldman Sachs Maintains Tyler Technologies at Neutral, Raises Price Target |
 | 11-03 16:32 | GS | upgrade | Goldman Sachs Upgrades Sirius XM Holdings to Buy |
+| 11-04 13:20 | TSLA |  | Elon Musk ‘Needs to be Held Accountable’: Tesla Takedown Says ‘Voters Have Done Their Part, Now Its Congress’ Turn’ |
+| 11-04 13:17 | META |  | 'Meta Acquires AI Coding Startup Conductor' - Axios Exclusive |
 | 11-04 13:00 | AAPL AMZN |  | CNBC Halftime Report Final Trades: Coeur Mining, Amazon, FTAI Aviation, Apple |
 | 11-04 12:54 | AMD NVDA |  | AMD's AI Data Center Guarantees Reach $8.5 Billion as It Challenges Nvidia |
 | 11-04 12:22 | INTC |  | Intel Form4 Filing Shows CEO Lip-Bu Tan Purchases 150,000 Shares Of Intel Common Stock At Weighted Average Price Of $64.73/Share |

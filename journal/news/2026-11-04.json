@@ -1,7 +1,37 @@
 {
- "as_of": "2026-11-04T13:15-05:00",
+ "as_of": "2026-11-04T13:45-05:00",
  "since": "2026-11-03T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-04 13:42",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "target up",
+   "headline": "Barclays Maintains Overweight on Palantir Technologies, Raises Price Target to $273",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62881269/barclays-maintains-overweight-palantir-technologies-raises-price-target-273"
+  },
+  {
+   "time": "11-04 13:20",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk \u2018Needs to be Held Accountable\u2019: Tesla Takedown Says \u2018Voters Have Done Their Part, Now Its Congress\u2019 Turn\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/62880177/elon-musk-needs-to-be-held-accountable-tesla-takedown-says-voters-have-done-their-part-now-its-congress-turn"
+  },
+  {
+   "time": "11-04 13:17",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "'Meta Acquires AI Coding Startup Conductor' - Axios Exclusive",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m/26/11/62880047/meta-acquires-ai-coding-startup-conductor-axios-exclusive"
+  },
   {
    "time": "11-04 13:00",
    "symbols": [
