@@ -1,202 +1,105 @@
-# Headlines since 2026-11-02 16:00 ET (as of 2026-11-03 15:17 ET)
+# Headlines since 2026-11-03 16:00 ET (as of 2026-11-04 07:42 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
-| 11-03 15:04 | XOM | target up | Citigroup Raises ExxonMobil Price Target to $175 |
-| 11-03 14:01 | CVX | rating | Chevron Maintains Commitment to Project Kilby Data Center Power Supply |
-| 11-03 13:55 | PLTR | target up | Citigroup Maintains Buy on Palantir Technologies, Raises Price Target to $265 |
-| 11-03 13:17 | AAPL | target down | JP Morgan Maintains Overweight on Apple, Lowers Price Target to $355 |
-| 11-03 12:00 | PLTR | target up | Truist Securities Reiterates Buy on Palantir Technologies, Raises Price Target to $250 |
-| 11-03 11:32 | LITE | downgrade | B. Riley Securities Downgrades Lumentum Holdings to Neutral, Lowers Price Target to $770 |
-| 11-03 11:01 | GS | rating | Goldman Sachs Adjusts Palantir Technologies Price Target to $235 From $230 |
-| 11-03 10:51 | LITE | target down | TD Cowen Maintains Hold on Lumentum Holdings, Lowers Price Target to $685 |
-| 11-03 10:49 | AAPL | target up | UBS Maintains Neutral on Apple, Raises Price Target to $340 |
-| 11-03 10:07 | AAPL AMZN | initiate | CNMC Initiates Sanction Proceedings Against Apple, Amazon; Companies Failed To Comply With Cease-And-Desist Order Imposed On Them In Sanctioning Resolution Of July 2023; Imposed Fines On Both Companies For Including Anti-Competitive Clauses In Contracts Governing The Terms And Conditions Of Amazon’s Role As An Apple Distributor |
-| 11-03 09:32 | GEV | upgrade | HSBC Upgrades GE Vernova to Buy; Argus Research Adjusts Price Target |
-| 11-03 09:31 | HOOD | rating | Cantor Fitzgerald Maintains Buy Rating on Robinhood Markets |
-| 11-03 09:22 | GEV | target down | Argus Research Maintains Buy on GE Vernova, Lowers Price Target to $1100 |
-| 11-03 09:18 | AAPL | target up | Argus Research Maintains Buy on Apple, Raises Price Target to $400 |
-| 11-03 09:14 | AAPL | target up | Barclays Maintains Underweight on Apple, Raises Price Target to $261 |
-| 11-03 09:09 | AAPL | target down | TD Cowen Maintains Buy on Apple, Lowers Price Target to $390 |
-| 11-03 09:00 | AAPL | target up | DA Davidson Maintains Neutral on Apple, Raises Price Target to $295 |
-| 11-03 08:58 | PLTR | target up | RBC Capital Maintains Underperform on Palantir Technologies, Raises Price Target to $130 |
-| 11-03 08:49 | LITE | target down | Susquehanna Maintains Positive on Lumentum Holdings, Lowers Price Target to $950 |
-| 11-03 08:47 | AAPL | rating | Keybanc Reiterates Underweight on Apple, Maintains $250 Price Target |
-| 11-03 07:44 | LITE | target down | Rosenblatt Maintains Buy on Lumentum Holdings, Lowers Price Target to $900 |
-| 11-03 07:34 | COIN | target down | Keefe, Bruyette & Woods Maintains Outperform on Coinbase Global, Lowers Price Target to $221 |
-| 11-03 07:31 | ORCL | rating | Morgan Stanley Maintains Hold Rating on Oracle |
-| 11-03 07:00 | AAPL | upgrade | Apple’s Siri AI Could Become a Paid Upgrade — CEO John Ternus Reveals Plans to Charge for More Server-Side Apple Intelligence Usage |
-| 11-03 06:58 | AAPL | target up | Baird Maintains Outperform on Apple, Raises Price Target to $340 |
-| 11-03 06:43 | PLTR | rating | Cantor Fitzgerald Reiterates Neutral on Palantir Technologies, Maintains $207 Price Target |
-| 11-03 06:31 | PLTR | target up | Piper Sandler Maintains Palantir Technologies at Overweight, Raises Price Target to $235 |
-| 11-03 06:22 | PLTR | target up | Morgan Stanley Maintains Equal-Weight on Palantir Technologies, Raises Price Target to $233 |
-| 11-03 05:40 | LITE | target down | Needham Maintains Buy on Lumentum Holdings, Lowers Price Target to $800 |
-| 11-03 05:38 | AAPL | target down | Morgan Stanley Maintains Overweight on Apple, Lowers Price Target to $350 |
-| 11-03 04:06 | PLTR | target up | Piper Sandler Reiterates Overweight on Palantir Technologies, Raises Price Target to $235 |
-| 11-02 17:17 | GS | target down | UBS Maintains Neutral on Goldman Sachs Group, Lowers Price Target to $1000 |
-| 11-02 17:07 | BAC | target down | UBS Maintains Buy on Bank of America, Lowers Price Target to $62 |
-| 11-02 16:58 | JPM | target up | UBS Maintains Buy on JPMorgan Chase, Raises Price Target to $400 |
-| 11-02 16:54 | XOM | target up | UBS Maintains Buy on ExxonMobil Holdings, Raises Price Target to $213 |
-| 11-02 16:41 | CVX | target up | UBS Maintains Buy on Chevron, Raises Price Target to $265 |
-| 11-02 16:31 | INTC | downgrade | GF Securities Downgrades Intel Price Target Following Q4 Outlook |
-| 11-02 16:31 | AMZN | upgrade | Phillip Securities Upgrades Amazon to Buy |
-| 11-03 15:11 | MSFT |  | Cisco Partners With OpenAI To Integrate Frontier AI Reasoning Into Networking And Security Infrastructure, Strengthening Enterprise Cybersecurity And Threat Detection |
-| 11-03 15:03 | LLY |  | Beam Therapeutics Receives Milestone Payment from Eli Lilly and Company |
-| 11-03 14:43 | NVDA |  | Nvidia Stock Climbs Amid Oil Price Drop |
-| 11-03 14:22 | MSFT |  | 'Jill Hazelbaker Jumps To OpenAI As Chief Corporate Affairs Officer' - Axios |
-| 11-03 14:16 | META |  | 'Meta Draws $58 Billion Demand for US Leg of Cross-Border Bond' - Bloomberg News |
-| 11-03 14:13 | PLTR |  | Palantir CEO Alex Karp Wants ‘The Whole Thing’ After First $2 Billion Quarter |
-| 11-03 14:02 | SMCI |  | Supermicro to Build AI Inference Racks with SambaNova Chips |
-| 11-03 14:01 | CAT |  | Caterpillar Director Purchases $620,390 in Company Stock |
-| 11-03 14:01 | V |  | Expensify Enters Referral Agreement with Visa |
-| 11-03 14:01 | AMZN |  | SUNGBOON EDITOR Receives 2026 Amazon Innovator Award |
-| 11-03 14:01 | AAPL |  | Apple Releases First Betas of iOS 27.3 and macOS Golden Gate 27.3 |
-| 11-03 13:58 | AAPL |  | Apple Stock at ‘Extreme Overvaluation’: Analysts See Slowing Revenue Growth |
-| 11-03 13:31 | AAPL |  | Apple Announces Redesigned Health App Expands Language Support |
-| 11-03 13:18 | AMZN NFLX TSLA |  | 'Amazon, Tesla and SpaceX join OKX–ICE tokenized stock objections as deadline looms' - CoinDesk |
-| 11-03 13:15 | JPM |  | 'HSBC, JPMorgan Offer to Help Development Banks Get Capital Relief' - Bloomberg |
-| 11-03 13:00 | AMZN |  | CNBC Halftime Report Final Trades: BlackRock, Eaton, Pfizer, Amazon |
-| 11-03 12:58 | MSFT ORCL |  | 'Hollywood backs NYT in AI copyright battle versus OpenAI, Microsoft' - Axios |
-| 11-03 12:35 | META |  | 3 Communication Services Stocks With Whale Alerts In Today’s Session |
-| 11-03 12:32 | AAPL TSLA |  | Chinese Tape Maker Soars 787% in Market Debut as Beijing Moves to Halt New IPO Filings |
-| 11-03 12:05 | AVGO LITE |  | Marvell Stock Takes Two Hits in One Morning: Both Blame the Lumentum Deal |
-| 11-03 12:05 | PLTR |  | Palantir Stock Splits Wall Street as Bookings Cool and Revenue Soars |
-| 11-03 12:03 | GOOGL |  | Reported Earlier: 'Google Will Turn Off Search For Schools That Reject A.I.; Google Is Making It Easier To Restrict Its A.I. Tools For Students. But Schools That Block A.I. Entirely Will Lose Student Access To Google’s Search Engine' - NY Times |
-| 11-03 11:32 | LITE |  | Stock of the Day: Is this the Bottom for Marvel Technology? |
-| 11-03 11:16 | GOOGL |  | 'Google Parent Plans $1.5 Billion Prepaid Energy Deal Via Goldman' - Bloomberg News |
-| 11-03 11:09 | TSM |  | Pinnacle West Expects To File 25-Year Taiwan Semiconductor Manufacturing Company Power Deal For 1.88 GW With Arizona Regulator In Coming Days |
-| 11-03 11:05 | ORCL |  | Oracle Will Devote 65% Of Its $10B Stock Sale To Ten Investors |
-| 11-03 11:01 | ORCL |  | Deloitte and Oracle Form Dedicated Business Group |
-| 11-03 11:01 | MSFT |  | HiBob Announces New Integrations with Microsoft Entra |
-| 11-03 11:01 | MSFT |  | Ontinue Launches MXDR Essentials for Microsoft Integrated Security Operations Center |
-| 11-03 11:01 | MSFT |  | Hyland Launches Integration for Microsoft Teams |
-| 11-03 11:01 | WMT |  | Bio-K+ Expands Pro Line Distribution to Walmart |
-| 11-03 11:01 | COST |  | Goodal Skincare Brand to Launch at Costco |
-| 11-03 11:01 | LLY |  | Eli Lilly Provides Update on Foundayo Development |
-| 11-03 11:01 | UNH |  | Here’s How Much You Would Have Made Owning UnitedHealth Group Stock In The Last 20 Years |
-| 11-03 10:53 | TSLA |  | QUICK SPARK: Elon Musk Says 'Vote Red' — SpaceX And Tesla Have Much To Gain |
-| 11-03 10:34 | AMZN GOOGL MSFT |  | Amazon, Google and Microsoft Are 'Absolute Jokes' Compared With SpaceX, Says Sequoia's Shaun Maguire |
-| 11-03 10:01 | AMZN |  | Amazon Web Services Signs Strategic Collaboration Agreement With Great Ormond Street Hospital To Advance AI, Cloud Computing And Digital Healthcare Innovation |
-| 11-03 09:58 | CVX |  | Venezuela's Oil Exports Almost Unchanged At 1.08M Barrels/Day In Oct; Venezuela's Oil Exports To U.S. Fell To 449,000 Barrels/Day In Oct; Venezuela's Oil Exports To Europe Increased To Some 235,000 Barrels/Day In Oct; Chevron's Exports Of Venezuelan Crude Up To Some 303,000 Barrels/Day, Traders Exported 506,000 Barrels/Day |
-| 11-03 09:54 | JPM |  | JPMorgan Sees 66% Chance of Blue Sweep: What Does It Mean for Crypto? |
-| 11-03 09:36 | AMZN |  | Amazon Has 40% Upside, Joseph Carlson Says: 'One of the Best Opportunities' |
-| 11-03 09:32 | META |  | Meta Reportedly Launches 5-Part US Dollar Bond Offering |
-| 11-03 09:32 | GS |  | The Goldman Sachs Group, Inc. Files Major Holdings Notification for ASOS PLC |
-| 11-03 09:32 | CVX |  | Iraq Reaches Agreement with Chevron on West Qurna-2 Oilfield |
-| 11-03 09:32 | CVX |  | Evercore ISI Adjusts Price Target on Chevron to $250 From $225 |
-| 11-03 09:32 | COIN |  | ARK Invest Purchases Coinbase Shares |
-| 11-03 09:31 | MSFT |  | Microsoft Releases Analysis of 383,000 Security Vulnerabilities |
-| 11-03 09:31 | MSFT |  | Research Solutions Integrates Scite and Article Galaxy with Microsoft Copilot |
-| 11-03 09:31 | WMT |  | Kenmore Floor Care Expands Retail Presence to Walmart Stores |
-| 11-03 09:31 | WMT |  | Hostess Launches Stuffed Coffee Cakes Exclusively at Walmart |
-| 11-03 09:31 | BAC |  | Bank of America Names Josh Barnes as Knoxville Market President |
-| 11-03 09:31 | AMD |  | Samsung Reportedly Secures AMD Orders for New Texas Chip Plant |
-| 11-03 09:31 | HD |  | The Home Depot Announces Third Quarter 2026 Earnings Conference Call |
-| 11-03 09:31 | COST |  | Bio-K+ Expands Professional-Grade Pro Line to Costco.ca |
-| 11-03 09:31 | LLY |  | Beam Therapeutics Reports Milestone Payment from Eli Lilly |
-| 11-03 09:24 | META |  | 'Meta Seeks $15 Billion From US Dollar Portion of Bond Offering' - Bloomberg |
-| 11-03 09:11 | ORCL |  | Deloitte Expands Oracle Alliance With New Business Group Focused On AI, Cloud Infrastructure, Data, Cybersecurity And Managed Services |
-| 11-03 09:05 | SMCI |  | SambaNova Signing Partnership With Supermicro For 10K SN50 RDU Chips |
-| 11-03 09:01 | TSM |  | ARK Invest Reduces Position in TSMC |
-| 11-03 08:55 | PLTR |  | Dan Ives Says Palantir Is Answering AI's Biggest Question: Where's the Money? |
-| 11-03 08:51 | NVDA |  | Nvidia Tightens the Screws on China's AI Access — Cloud Partners Worldwide Must Restrict Chinese Customers Under New Revenue Rule: Report (UPDATED) |
-| 11-03 08:49 | AMD |  | AMD Stock Reports Earnings Today: Here’s What Investors Need to Know |
-| 11-03 08:39 | AMD META |  | AMD Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call |
-| 11-03 08:11 | AMZN |  | Amazon Owns a $6.2 Billion Piece of Anthropic's AI Boom — Here's What's at Stake |
-| 11-03 08:02 | GS |  | Goldman Sachs Adjusts Price Target on Exelon Corporation |
-| 11-03 08:01 | HOOD |  | ARK Invest Increases Stake in Robinhood Markets |
-| 11-03 07:31 | BAC |  | Bank of America Corporation Publishes Supplementary Prospectus |
-| 11-03 07:20 | PLTR |  | These Analysts Revise Their Forecasts On Palantir After Q3 Results |
-| 11-03 07:10 | NFLX |  | Disney Targets Thousands of Jobs in Fresh Cost-Cutting Blitz: Report |
-| 11-03 07:05 | LITE |  | MRVL Stock Hits Nearly 6-Month Low — Top Analyst Says Selloff Is ‘Aimed at the Wrong Thing’ |
-| 11-03 06:48 | SMCI |  | Super Micro Computer Likely To Report Higher Q1 Earnings; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call |
-| 11-03 06:32 | CRM |  | Convoso Announces 'Convoso for Salesforce' on Salesforce AgentExchange |
-| 11-03 06:32 | GS |  | Goldman Sachs Adjusts Apple Price Target |
-| 11-03 06:32 | GS |  | Goldman Sachs Files Major Holdings Notification for AIXTRON SE |
-| 11-03 06:32 | CVX |  | Wärtsilä Completes Engine Conversions for Chevron Transport-Operated LNG Carriers |
-| 11-03 06:31 | NVDA |  | NVIDIA Requires Cloud Clients to Limit Business With Chinese Customers |
-| 11-03 06:31 | MU |  | Micron Technology Shares Rise Following Apple's Commentary on Rising Memory Costs |
-| 11-03 06:31 | WMT |  | Walmart Canada Launches AI Shopping Assistant 'Sparky' |
-| 11-03 06:31 | META |  | Meta Pauses Proposed Business Terms Following Publisher Backlash |
-| 11-03 06:31 | TSLA |  | Tesla Reports October 2026 China Wholesale Sales |
-| 11-03 06:31 | JPM |  | JPMorgan Chase Files Regulatory Disclosure Regarding Mitie Group PLC |
-| 11-03 06:31 | ORCL |  | Oracle Announces Pricing of $20 Billion Common Stock and Senior Notes Offerings |
-| 11-03 06:24 | PLTR |  | Why Is Palantir Technologies Stock Falling Tuesday? |
-| 11-03 06:01 | ORCL |  | Oracle Turns to Wall Street for $20 Billion to Bankroll Its AI Boom |
-| 11-03 05:48 | AAPL |  | Apple Is the 'Mack Daddy' of Tech, Says Longtime Bull Who Defends Its Steep Valuation |
-| 11-03 05:32 | TSLA |  | 'Paid Far More in Taxes': Elon Musk Fires Back at Democrat Nominee James Talarico Over Tesla's $465 Million Government Loan |
-| 11-03 05:25 | AAPL META |  | 'Throwback to 1984:' Apple's Mac Business Just Surged 24% — Top Analyst Says the Real Boom Is Only Getting Started |
-| 11-03 05:16 | NVDA |  | SPCX CEO Elon Musk Says Cooling AI Data Centers in Space Is 'Much Easier' — Here's How His Plan Could Work |
-| 11-03 04:48 | AMD INTC |  | AMD Stock Just Got Crushed 26% in a Month — Here's What Investors Need From Lisa Su on Tuesday As Q3 Earnings Loom |
-| 11-03 04:30 | LITE TSLA |  | Tesla Bulls Are Betting on a SpaceX Merger — Top Analyst Says Marvell's $115 Billion Lumentum Deal Shows What Could Go Wrong |
-| 11-03 04:23 | GOOGL PLTR |  | 'The First Victim': Chamath Palihapitiya Warns AI Startups are In the Crosshairs as OpenAI, Google Move Into Software |
-| 11-03 04:02 | STX |  | Shield Therapeutics Reports Q3 2026 Trading Update |
-| 11-03 03:52 | NVDA |  | 'Nvidia Orders Data Centre Clients to Reduce China Exposure' - FT |
-| 11-03 03:30 | COIN |  | Kevin O'Leary Calls for Energy Security, CLARITY Act as US Faces Rising Power Demand and Crypto Competition: 'You Can't Have...' |
-| 11-03 03:18 | META |  | Shopify Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts |
-| 11-03 02:58 | AAPL |  | Apple CEO Says Memory Prices Are ‘Unprecedented’ and Could Keep Climbing — iPhone, Mac and iPad Costs Face Fresh Pressure After Recent Price Hikes |
-| 11-03 02:34 | ORCL |  | Reported Earlier, Oracle Prices $20B Offerings, 86,206,897 Shares At $116.00 Per Share, About $9.9B Net, And Five Senior Notes Tranches Due 2029-2046, About $10.0B Net; Closing Nov. 4, Proceeds For General Corporate Purposes |
-| 11-03 02:33 | PLTR |  | 'It's Us or Them': Palantir CEO Alex Karp Says China Is 'Doing Exceedingly Well at AI,' Warns America Must Lead |
-| 11-03 02:01 | PLTR |  | Palantir Shares Slide in Extended Trading — Alex Karp Says Wall Street Can’t See AI’s Reality: ‘When It Gets Real, You Need Us’ |
-| 11-03 01:11 | AAPL META |  | 'They Don't Want to Talk About It': Top Analyst Says Apple Has a Siri Problem in an Era of Personalized Agents |
-| 11-03 00:44 | TSLA |  | Trump Vows to Protect Elon Musk Amid Talk of Arrest—Adam Schiff Warns 'Cronies' Will Be Held Accountable |
-| 11-02 23:37 | META |  | Meta, TikTok and X Lose UK Court Fight Over Requests for Social Media Safety Data (Updated) |
-| 11-02 22:02 | V |  | Visa Insider Executes Share Sale |
-| 11-02 21:49 | AAPL |  | iPhone Owners Can Get Up to $95 From Apple Over Siri Promises: Here’s How to Claim |
-| 11-02 20:01 | TSLA |  | Tesla Powerwall 3 Updated to Integrate with Heat Pumps |
-| 11-02 20:01 | WDC |  | Western Digital Provides Update on HAMR Product Qualifications |
-| 11-02 19:01 | NVDA |  | NVIDIA Begins Shipping Vera Rubin Platform |
-| 11-02 19:01 | NVDA |  | XMax Signs Five-Year AI Infrastructure Agreement Involving NVIDIA GPUs |
-| 11-02 19:01 | AAPL |  | Apple Reports Record Fiscal Fourth-Quarter Results |
-| 11-02 18:31 | GE |  | If You Invested $1000 In GE Aerospace Stock 5 Years Ago, You Would Have This Much Today |
-| 11-02 18:06 | AAPL |  | Apple Q4 2026 Earnings Call Transcript |
-| 11-02 18:04 | MSFT |  | 'OpenAI hires former US Army secretary as military seeks to expand AI use'- Financial Times |
-| 11-02 17:55 | PLTR |  | Palantir Technologies Q3 2026 Earnings Call Transcript |
-| 11-02 17:46 | CRM |  | $100 Invested In Salesforce 20 Years Ago Would Be Worth This Much Today |
-| 11-02 17:45 | AAPL |  | Apple CFO Says Co.'s Manufacturing Purchase Obligations Increased By $33B Between June And September Quarters |
-| 11-02 17:40 | AAPL |  | Apple CFO Says We See Pricing For Memory Purchases Continuing To Increase |
-| 11-02 17:33 | AAPL |  | Apple CFO Says Higher Memory Costs, Siri AI Development Expenses Will Affect Gross Margin |
-| 11-02 17:32 | AAPL |  | Apple Sees Q1 Sales $153.819B-$158.132B vs $152.558B Est |
-| 11-02 17:31 | CAT |  | Analysts Adjust Price Targets for Caterpillar Following Third-Quarter Results |
-| 11-02 17:31 | CRM |  | Salesforce to Acquire Voice-First AI Platform Cresta |
-| 11-02 17:30 | AAPL |  | Apple CFO Says Apple Expects 45% To 46% Gross Margin In Fiscal First Quarter |
-| 11-02 17:28 | AAPL |  | Apple CFO Says iPad Revenue Fell 10% Due To Supply Constraints |
-| 11-02 17:25 | AAPL |  | Apple CFO Says Apple Operating Expenses Climbed 21% Due To R&D Investments |
-| 11-02 17:24 | AAPL |  | Apple CFO Says Gross Margins Would Have Been Down Without Tariff Refunds Due To High Memory Costs |
-| 11-02 17:22 | AAPL |  | Apple CFO Says Apple Has Received Vast Majority Of Tariff Refunds |
-| 11-02 17:14 | AAPL |  | Apple CEO Says Apple's India Business Hit Record Revenue In 4Q |
-| 11-02 17:12 | AAPL |  | Apple CEO Says Apple Grew In Most Markets During 4q; iPhone Remains At Center Of Opportunity |
-| 11-02 17:11 | AAPL |  | Apple CEO Says Siri AI Marks New Chapter In AI At Apple |
-| 11-02 17:05 | PLTR |  | Palantir Exec Says Q3 Average Trailing 12-month Revenue From Our Top 20 Customers Increased 76% YoY To $146M Per Customer |
-| 11-02 17:02 | AAPL |  | Apple CEO John Ternus Says In Reuters Interview iPhone, Mac And iPad Price Increases, Carried Inventory And Lower Non-Memory Costs Helped Offset Rising Memory-Chip Prices |
-| 11-02 17:02 | AAPL |  | Apple CEO John Ternus Says In Reuters Interview iPhone Duo Is Supply-Constrained, No Estimate For When Supply Will Meet Demand |
-| 11-02 16:49 | AAPL |  | Apple Tops Expectations in Q4 as Active Installed Base Hits All-Time High |
-| 11-02 16:44 | AAPL |  | Apple CFO Says Our Installed Base Of Active Devices Reached A New All-Time High Across All Major Product Categories And Geographic Segments |
-| 11-02 16:35 | AAPL |  | CORRECTION: Apple Reports FY2026 Regional Revenue Growth Across Americas $48.680B; Europe $32.008B; Greater China $17.539B; Japan $6.540B; Rest Of Asia Pacific $9.71B |
-| 11-02 16:35 | AAPL |  | Apple CFO Says We Generated $28B In Operating Cash Flow During The Quarter, Allowing Us To Return $28B To Shareholders |
-| 11-02 16:34 | AAPL |  | Apple Q4 Included $0.05 From Tariff Refunds |
-| 11-02 16:33 | AAPL |  | Apple CEO Says We’re Closing The Year With Our Most Ambitious Lineup Yet; That Includes The iPhone Duo, The Most Transformational iPhone Since The Original, Alongside iPhone 18 Pro And iPhone 18 Pro Max |
-| 11-02 16:32 | AAPL |  | Apple Reports FY2026 Regional Revenue Growth Across Americas $48.680M; Europe $32.008M; Greater China $17.539M; Japan $6.540M; Rest Of Asia Pacific $9.71M |
-| 11-02 16:32 | CVX |  | UBS and Morgan Stanley Adjust Price Targets for Chevron |
-| 11-02 16:31 | PLTR |  | Palantir Technologies Inc. Reports Q3 2026 Financial Results |
-| 11-02 16:31 | GS |  | Goldman Sachs Analysts Forecast Potential $130 Crude Oil Price Scenario |
-| 11-02 16:31 | JPM |  | JPMorgan Chase Announces $2.4 Million Philanthropic Support for Semiconductor Suppliers |
-| 11-02 16:31 | GEV |  | Jefferies Removes GE Vernova from Franchise Pick List |
-| 11-02 16:31 | XOM |  | Analyst Actions: Morgan Stanley, UBS, and JPMorgan Adjust ExxonMobil Price Targets |
-| 11-02 16:31 | AMZN |  | Amazon Launches $25 Thanksgiving Meal Deal |
-| 11-02 16:31 | NVDA |  | NVIDIA Vera Rubin NVL72 Specification Discrepancies Highlighted |
-| 11-02 16:31 | AAPL |  | Apple Q4 2026 Wearables, Home And Accessories Sales $8.3B Vs $9.013B Prior |
-| 11-02 16:30 | AAPL |  | Apple Q4 2026 iPad Sales $6.229B Vs $6.952B Prior |
-| 11-02 16:30 | AAPL |  | Apple Q4 2026 Mac Sales $10.792B Vs $8.726B Prior |
-| 11-02 16:30 | AAPL |  | Apple Q4 2026 iPhone Sales $57.5183B Vs $49.025B Prior |
-| 11-02 16:30 | AAPL |  | Apple Q4 EPS $2.10 Beats $1.98 Estimate, Sales $114.477B Beat $113.392B Estimate |
-| 11-02 16:30 | AAPL |  | Apple Q4 2026 Services Revenue $31.573B Vs $28.75B Prior |
-| 11-02 16:25 | CRM |  | Salesforce Signs Definitive Agreement To Acquire Cresta; Financial Terms Undisclosed; Transaction Anticipated To Close In Q1 2028 |
-| 11-02 16:22 | PLTR |  | Palantir Posts Q3 Double Beat, Lifts Guidance — 'Extraordinary' Is an 'Understatement' |
-| 11-02 16:17 | SNDK |  | Stock of the Day: Is This the Bottom for SanDisk? |
-| 11-02 16:14 | PLTR |  | Palantir Technologies CEO Says Sovereign AI Movement Is Imposing the Most Dramatic Dichotomy Between Haves and Have Nots That I Have Witnessed in 30 Years of Business; Every Institution, Government And Commercial, Is Rapidly Being Forced, Voluntarily or Not, Into One of These Two Categories |
-| 11-02 16:06 | PLTR |  | Palantir Technologies Raises FY2026 Sales Guidance from $8.150B-$8.158B to $8.530B-$8.534B vs $8.200B Est |
-| 11-02 16:05 | PLTR |  | Palantir Technologies Sees Q4 Sales $2.649B-$2.653B vs $2.456B Est |
-| 11-02 16:05 | PLTR |  | Palantir Technologies Q3 Adj. EPS $0.44 Beats $0.41 Estimate, Sales $2.313B Beat $2.183B Estimate |
+| 11-04 07:27 | AMD | target down | Mizuho Maintains Outperform on Advanced Micro Devices, Lowers Price Target to $610 |
+| 11-04 07:04 | SMCI | target up | B of A Securities Maintains Underperform on Super Micro Computer, Raises Price Target to $39 |
+| 11-04 07:00 | AMD | rating | Cantor Fitzgerald Reiterates Overweight on Advanced Micro Devices, Maintains $700 Price Target |
+| 11-04 06:51 | AMD | target up | Stifel Maintains Buy on Advanced Micro Devices, Raises Price Target to $725 |
+| 11-04 06:32 | SNDK | downgrade | Fox Advisors Downgrades SanDisk to Equal-Weight |
+| 11-04 06:31 | AAPL | downgrade | DZ Bank Downgrades Apple to Sell |
+| 11-04 06:31 | XOM | downgrade | DZ Bank Downgrades Exxon Mobil to Sell |
+| 11-04 06:29 | AMD | target down | B of A Securities Maintains Buy on Advanced Micro Devices, Lowers Price Target to $650 |
+| 11-03 16:32 | GS | target up | Goldman Sachs Maintains Tyler Technologies at Neutral, Raises Price Target |
+| 11-03 16:32 | GS | upgrade | Goldman Sachs Upgrades Sirius XM Holdings to Buy |
+| 11-04 07:32 | COIN |  | Coinbase Resumes Staking Services in New Jersey Following Regulatory Resolution |
+| 11-04 07:31 | ORCL |  | Oracle Cancels $7 Billion Tencent AI Chip-Leasing Deal |
+| 11-04 07:31 | XOM |  | TD Cowen Adjusts Price Target on Exxon Mobil to $193 |
+| 11-04 07:31 | TSLA |  | Tesla Shares Decline Amidst US Midterm Election Results |
+| 11-04 07:31 | AAPL |  | Apple Issues December-Quarter Revenue Guidance and Warns of Margin Pressures |
+| 11-04 07:31 | AMZN |  | Amazon Reports AWS Financials and Strategic AI Updates |
+| 11-04 07:31 | PLTR |  | Palantir Announces Partnership with Changshin |
+| 11-04 07:29 | NVDA |  | Drugmaker CEOs Say AI Alone Can't Cure Diseases, Challenge Silicon Valley's Bold Predictions: 'To Say AI Is Going to Cure Cancer...' |
+| 11-04 07:23 | NVDA |  | Navitas Semiconductor CEO Sees AI Infrastructure Business Tripling in 2027 |
+| 11-04 07:07 | TSLA |  | Uber Expect To Scale Autonomous Deployments Significantly, Deploying 2K+ Fully Driverless Vehicles By The End Of 2027, Roughly Half In The U.S. And Half Internationally |
+| 11-04 06:50 | GOOGL |  | Bernie Sanders Accuses Google of 'Extortion' Over AI Use in Schools, Says Tech Giants Can't Be Trusted to Regulate Themselves |
+| 11-04 06:37 | AMZN |  | Amazon, Pfizer, Eaton And A Financial Stock On CNBC’s ‘Final Trades’ |
+| 11-04 06:32 | TSLA |  | Tesla Faces Allegations of Misleading Marketing for Full Self-Driving in South Korea |
+| 11-04 06:32 | AMD |  | Analysts Adjust Price Targets for Advanced Micro Devices |
+| 11-04 06:31 | META |  | Meta Launches Small Business Growth Academy in Sri Lanka |
+| 11-04 06:31 | META |  | Meta Platforms Launches Debut Euro-Denominated Bond Sale |
+| 11-04 06:31 | GS |  | Goldman Sachs Strategist Discusses AI Trade and Election Impact |
+| 11-04 06:31 | NVDA |  | NVIDIA Faces Supply Constraints for Chinese AI Chip Orders |
+| 11-04 06:31 | V |  | Visa Conducts Agentic Commerce Pilot in Poland |
+| 11-04 06:31 | ORCL |  | Oracle Cancels $7 Billion Chip-Leasing Deal with Tencent |
+| 11-04 06:31 | JPM |  | JPMorgan Chase and HSBC to Facilitate Development Finance Deals |
+| 11-04 06:31 | AMZN |  | AWS Launches 'Semarak AI Malaysia' National Program |
+| 11-04 06:24 | AMD |  | AMD Paid $2.9B To Acquire Specialized Inference Silicon Technology Provider Taalas, Including ~$1.4B In Contingent Payments, In August 2026 Transaction; Lists Unconditional Commitments At $48.8B |
+| 11-04 06:03 | MU WDC |  | Chinese Chipmaker Yangtze Memory Technologies' $4.9B Shanghai IPO Has Been Delayed; YMTC Likely To Go Public In H1 2027 - Reuters Exclusive |
+| 11-04 04:45 | ARM |  | Arm Stock Heads Into Q2 Earnings With a Smartphone Problem and an AI Opportunity |
+| 11-04 04:01 | COST |  | FIL Limited Reduces Stake in Costain Group PLC |
+| 11-04 03:56 | META |  | 'Meta Starts Debut Euro Bond Sale After $15 Billion US Deal' - Bloomberg |
+| 11-04 03:51 | TSLA |  | Elon Musk, Who Voted 'Red,' Reacts to GOP Midterm Losses With 'Election-Interfering' Space Laser Joke: 'Didn't Work This Time' |
+| 11-04 03:49 | PLTR |  | PLTR Stock Could Deliver 423% Upside, Says Tom Nash — Here's Why He's Bullish on Palantir |
+| 11-04 03:37 | GOOGL |  | 'Google Extends Voluntary Buyout Offers To Employees in Several Countries' - Reuters Exclusive |
+| 11-04 03:37 | GOOGL TSLA |  | Elon Musk's SpaceX Could Build More Data Center Capacity in 18 Months Than Google Did in 27 Years, Says SemiAnalysis |
+| 11-04 03:36 | AMD |  | AMD CEO Lisa Su Addresses AI Infrastructure Bottleneck Fears: 'We Have Good Visibility Into 2027' |
+| 11-04 03:02 | GEV |  | GEVORKYAN Successfully Refinances EUR 30 Million in Bonds |
+| 11-04 02:40 | AMD |  | ‘Everyone Needs Compute’: Lisa Su Sees AMD’s AI Data Center Business More Than Doubling in 2027 as Wedbush Backs $600 Target |
+| 11-04 02:11 | TSLA |  | Gene Munster Says Anduril Is Having Its Own Tesla Model 3 Moment—Company President Says 'We've Hired a Lot' of People From That Era |
+| 11-04 01:18 | TSLA |  | Reported Earlier, 'Tesla Misled South Korean Customers About Automated-Driving Tech, Consumer Group Alleges' - Reuters Exclusive |
+| 11-04 01:16 | NVDA |  | 'Nvidia China Clients to Get 1% of $70 Billion RTX Chips Ordered' - Bloomberg Exclusive |
+| 11-04 01:13 | ORCL |  | 'Oracle Cancels $7bn Tencent AI Deal Under Trump Pressure' - FT |
+| 11-04 00:08 | NVDA TSLA |  | Grant Cardone Warns James Talarico's Texas Win Could Spell Trouble for Elon Musk's SPCX, AI Bets—Gina Hinojosa Governor Win Sparks Data Center Moratorium Talk |
+| 11-04 00:07 | AMD |  | AMD Has a PC Problem Just Like Intel: Chip Giant Warns of Weaker Demand as It Plans for a ‘Double-Digit’ Market Decline in 2027 |
+| 11-03 22:16 | AMD SMCI |  | AMD, Super Micro Shares Jump After-Hours as Lisa Su Eyes 80% Growth in 2027; Analyst Calls SMCI Print ‘One of the Best Prints of the Season’ |
+| 11-03 22:09 | SMCI |  | Super Micro Pops Above 7% in After-Hours: Executive Says a Single AI Order Now Big Enough to ‘Exceed’ an Entire Quarter From a Year Ago |
+| 11-03 22:02 | LITE |  | Monteverde & Associates PC Announces Investigation into Lumentum Holdings Inc. Acquisition |
+| 11-03 22:01 | GS |  | Goldman Sachs Files Major Holdings Notification for AUTO1 Group SE |
+| 11-03 22:01 | WMT |  | Walmart-Backed OnePay Enables Stablecoin Deposits |
+| 11-03 22:01 | AAPL |  | Apple Announces AI-Powered Health App and Developer Tools |
+| 11-03 22:01 | JPM |  | JPMorgan Chase Files Quarterly Report on Form 10-Q |
+| 11-03 20:36 | GOOGL |  | Zohran Mamdani Says Google Uses ‘Monopoly Power’ to Push AI Into Schools: Corporations Shouldn’t ‘Dictate’ How We Teach Children |
+| 11-03 20:02 | V |  | Former Visa CEO Joe Saunders Dies at 80 |
+| 11-03 19:01 | V |  | Visa President of Technology Rajat Taneja Sells Shares Worth Over $14 Million |
+| 11-03 19:01 | NVDA |  | DeepInfra Announces New Benefits for NVIDIA Inception Members |
+| 11-03 18:10 | SMCI |  | Super Micro Computer Q1 2027 Earnings Call Transcript |
+| 11-03 18:09 | AMD |  | Advanced Micro Devices Q3 2026 Earnings Call Transcript |
+| 11-03 18:02 | SMCI |  | Super Micro Computer Reports Fiscal Q1 2027 Earnings and Updates Guidance |
+| 11-03 18:01 | COIN |  | Coinbase Participates in Assets on Blockchain Conference |
+| 11-03 17:32 | AMD |  | AMD Provides Fourth Quarter 2026 Revenue Guidance |
+| 11-03 17:31 | WMT |  | SenesTech Products Now Available via Walmart Fulfillment Services |
+| 11-03 17:31 | UNH |  | UnitedHealth Group Authorizes Additional 50 Million Share Buyback |
+| 11-03 17:31 | JPM |  | J.P. Morgan Wealth Management Recruits Advisor from Merrill Lynch |
+| 11-03 17:31 | MSFT |  | Microsoft, Google, and OpenAI Support New Standard for AI Training Opt-Outs |
+| 11-03 17:30 | ORCL |  | If You Invested $1000 In Oracle Stock 20 Years Ago, You Would Have This Much Today |
+| 11-03 17:29 | AMD |  | AMD CFO Says Expect Q4 Non-GAAP Operating Expenses To Be ~$3.75B |
+| 11-03 17:20 | AMD |  | AMD CEO Says Expect Our Embedded Business To Deliver A Strong Double-Digit Annual Revenue Growth; Now Expect Revenue To Grow More Than 80% In 2027 |
+| 11-03 17:17 | AMD |  | AMD CEO Says In 2027, We Are Planning For Pc Market Unit Shipments To Decline By A Double-Digit Percentage |
+| 11-03 17:16 | AMD |  | AMD CEO Says  Expect Data Center To Be More Than 80% Of Our Total Revenue In 2027 And To Drive The Majority Of Our Revenue And Earnings Growth |
+| 11-03 17:16 | AMD |  | AMD CEO Says Now Expect Data Center Segment Revenue Growth To Accelerate In The Fourth Quarter And Full Year Segment Revenue To More Than Double From 2025; Now Expect Server Revenue To Double Year Over Year In 2027 |
+| 11-03 17:12 | AMD |  | AMD CEO Says Began Revenue Shipments Of EPYC Venice Processors In Q3, And The First OEM Systems Are On Track For Availability In Q4 |
+| 11-03 17:01 | NFLX |  | If You Invested $1000 In Netflix Stock 10 Years Ago, You Would Have This Much Today |
+| 11-03 16:45 | XOM |  | Here's How Much $100 Invested In ExxonMobil Holdings 5 Years Ago Would Be Worth Today |
+| 11-03 16:34 | AMD |  | AMD Posts Q3 Double Beat as Data Center Segment Shines, Growth Expected to 'Accelerate' in Q4 |
+| 11-03 16:32 | GS |  | Goldman Sachs Research Note Highlights Risks in Corporate Bond Yield Gaps |
+| 11-03 16:32 | BAC |  | Daiwa Securities Adjusts Price Target on Bank of America |
+| 11-03 16:31 | GEV |  | GE Vernova and Seatrium Support TenneT North Sea Platform Construction |
+| 11-03 16:31 | SNDK |  | SanDisk Shares Rise Following Apple's Warning on Memory Costs |
+| 11-03 16:31 | WMT |  | Walmart Expands AI Shopping Agent 'Sparky' Capabilities |
+| 11-03 16:31 | HOOD |  | Robinhood Chain Reaches $100 Billion Trading Volume Milestone on Uniswap |
+| 11-03 16:31 | AMD |  | AMD Reports Third Quarter 2026 Financial Results |
+| 11-03 16:31 | AVGO |  | Broadcom Shares Rise Following Disclosure of Anthropic AI Equipment Lease Commitments |
+| 11-03 16:31 | TSLA |  | Tesla Expands Robotaxi Service to Fort Worth |
+| 11-03 16:29 | UNH |  | UnitedHealth Group Announces 50M Buyback Plan |
+| 11-03 16:23 | AMD |  | Advanced Micro Devices Sees Q4 Sales $16.490B-$17.510B vs $16.227B Est |
+| 11-03 16:19 | SMCI |  | Super Micro Stock Rips After Q1 Print Tops Its Own Preliminary Figures |
+| 11-03 16:19 | AMD |  | Advanced Micro Devices Anticipates Further Growth In Q4 As It Scales Helios, Venice Production |
+| 11-03 16:15 | AMD |  | Advanced Micro Devices Q3 Adj. EPS $2.09 Beats $1.95 Estimate, Sales $13.377B Beat $13.092B Estimate |
+| 11-03 16:07 | SMCI |  | Super Micro Computer Raises FY2027 Sales Guidance from $65.000B-$72.000B to $72.000B-$82.000B vs $69.168B Est |
+| 11-03 16:06 | SMCI |  | Super Micro Computer Sees Q2 Adj EPS $1.66-$1.90 vs $1.14 Est; Sees Sales $19.500B-$21.500B vs $17.404B Est |
+| 11-03 16:06 | SMCI |  | Super Micro Computer Sees Q2 GAAP EPS $1.59-$1.83 vs $1.08 Est |
+| 11-03 16:05 | SMCI |  | Super Micro Computer Q1 Adj. EPS $1.81 Beats $1.23 Estimate, Sales $19.946B Beat $16.389B Estimate |
+| 11-03 16:00 | NVDA |  | Nate Silver Says Democrats Are Clear Senate Favorites: 'A Really Bad Night for Pollsters' if They Lose |

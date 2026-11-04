@@ -1,0 +1,1000 @@
+{
+ "as_of": "2026-11-04T07:42-05:00",
+ "since": "2026-11-03T16:00-05:00",
+ "headlines": [
+  {
+   "time": "11-04 07:32",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Coinbase Resumes Staking Services in New Jersey Following Regulatory Resolution",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:933cdb67df14a:0/"
+  },
+  {
+   "time": "11-04 07:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Cancels $7 Billion Tencent AI Chip-Leasing Deal",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/oracle-axes-7-billion-tencent-chip-leasing-deal-amid-white-house-pressure-ce785fdfd989f121"
+  },
+  {
+   "time": "11-04 07:31",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "TD Cowen Adjusts Price Target on Exxon Mobil to $193",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/td-cowen-adjusts-price-target-on-exxon-mobil-to-193-from-180-ce785fdfdb89f524"
+  },
+  {
+   "time": "11-04 07:31",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Shares Decline Amidst US Midterm Election Results",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1003472279/market-chatter-tesla-spacex-shares-fall-after-democrats-midterm-gains"
+  },
+  {
+   "time": "11-04 07:31",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Issues December-Quarter Revenue Guidance and Warns of Margin Pressures",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:67f2ef4c1e0a9:0-key-facts-apple-inc-falls-nvidia-leads-costs-rise-iphone-delays/"
+  },
+  {
+   "time": "11-04 07:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Reports AWS Financials and Strategic AI Updates",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:6c3ae0732efe1:0-key-facts-aws-revenue-46b-220b-capex-chip-commitments-up-20x/"
+  },
+  {
+   "time": "11-04 07:31",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir Announces Partnership with Changshin",
+   "source": "fiscal.ai",
+   "url": "https://natlawreview.com/press-releases/changshin-and-palantir-partner-connect-footwear-development-and-factory"
+  },
+  {
+   "time": "11-04 07:29",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Drugmaker CEOs Say AI Alone Can't Cure Diseases, Challenge Silicon Valley's Bold Predictions: 'To Say AI Is Going to Cure Cancer...'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/11/62860238/drugmaker-ceos-say-ai-alone-cant-cure-diseases-challenge-silicon-valleys-bold-predictions-to-say-ai-is-going-to-cure-cancer"
+  },
+  {
+   "time": "11-04 07:27",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "target down",
+   "headline": "Mizuho Maintains Outperform on Advanced Micro Devices, Lowers Price Target to $610",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62860081/mizuho-maintains-outperform-advanced-micro-devices-lowers-price-target-610"
+  },
+  {
+   "time": "11-04 07:23",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Navitas Semiconductor CEO Sees AI Infrastructure Business Tripling in 2027",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62859781/navitas-semiconductor-ceo-sees-ai-infrastructure-business-tripling-in-2027"
+  },
+  {
+   "time": "11-04 07:07",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Uber Expect To Scale Autonomous Deployments Significantly, Deploying 2K+ Fully Driverless Vehicles By The End Of 2027, Roughly Half In The U.S. And Half Internationally",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62859033/uber-expect-scale-autonomous-deployments-significantly-deploying-2k-fully-driverless-vehicles-end-20"
+  },
+  {
+   "time": "11-04 07:04",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "target up",
+   "headline": "B of A Securities Maintains Underperform on Super Micro Computer, Raises Price Target to $39",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62858693/b-securities-maintains-underperform-super-micro-computer-raises-price-target-39"
+  },
+  {
+   "time": "11-04 07:00",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "rating",
+   "headline": "Cantor Fitzgerald Reiterates Overweight on Advanced Micro Devices, Maintains $700 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62857900/cantor-fitzgerald-reiterates-overweight-advanced-micro-devices-maintains-700-price-target"
+  },
+  {
+   "time": "11-04 06:51",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "target up",
+   "headline": "Stifel Maintains Buy on Advanced Micro Devices, Raises Price Target to $725",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62857386/stifel-maintains-buy-advanced-micro-devices-raises-price-target-725"
+  },
+  {
+   "time": "11-04 06:50",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Bernie Sanders Accuses Google of 'Extortion' Over AI Use in Schools, Says Tech Giants Can't Be Trusted to Regulate Themselves",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62857301/bernie-sanders-accuses-google-of-extortion-over-ai-use-in-schools-says-tech-giants-cant-be-trusted-to-regulate-themselves"
+  },
+  {
+   "time": "11-04 06:37",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon, Pfizer, Eaton And A Financial Stock On CNBC\u2019s \u2018Final Trades\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/62856724/amazon-pfizer-eaton-and-a-financial-stock-cnbc-final-trades"
+  },
+  {
+   "time": "11-04 06:32",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Faces Allegations of Misleading Marketing for Full Self-Driving in South Korea",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/tesla-accused-of-misleading-marketing-of-full-self-driving-in-south-korea-ce785fdfd989f424"
+  },
+  {
+   "time": "11-04 06:32",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "downgrade",
+   "headline": "Fox Advisors Downgrades SanDisk to Equal-Weight",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:13399dfa4bfc5:0/"
+  },
+  {
+   "time": "11-04 06:32",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "Analysts Adjust Price Targets for Advanced Micro Devices",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/morgan-stanley-adjusts-price-target-on-advanced-micro-devices-to-550-from-510-ce785fdfd88af220"
+  },
+  {
+   "time": "11-04 06:31",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "downgrade",
+   "headline": "DZ Bank Downgrades Apple to Sell",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/dz-bank-downgrades-apple-to-sell-from-hold-price-target-is-300-ce785fdfd889f724"
+  },
+  {
+   "time": "11-04 06:31",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Launches Small Business Growth Academy in Sri Lanka",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.lk/business/meta-and-roar-adx-launch-growth-academy-for-sri-lankan-smes/"
+  },
+  {
+   "time": "11-04 06:31",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platforms Launches Debut Euro-Denominated Bond Sale",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/meta-platforms-to-sell-euro-denominated-debt-ce785fdfd98ff526"
+  },
+  {
+   "time": "11-04 06:31",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "downgrade",
+   "headline": "DZ Bank Downgrades Exxon Mobil to Sell",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/dz-bank-downgrades-exxon-mobil-to-sell-from-neutral-price-target-is-170-ce785fdfd888f72d"
+  },
+  {
+   "time": "11-04 06:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Strategist Discusses AI Trade and Election Impact",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/20261104106/the-ai-trade-has-been-sold-to-death-but-goldman-strategist-highlights-silver-lining-from-democratic-sweep"
+  },
+  {
+   "time": "11-04 06:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Faces Supply Constraints for Chinese AI Chip Orders",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/seekingalpha:9187a0185094b:0-nvidia-to-ship-1-of-70b-rtx-chips-ordered-by-alibaba-tencent-report/"
+  },
+  {
+   "time": "11-04 06:31",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Conducts Agentic Commerce Pilot in Poland",
+   "source": "fiscal.ai",
+   "url": "https://pap-mediaroom.pl/biznes-i-finanse/visa-rozwija-handel-agentowy-w-polsce-przeprowadzajac-pilotaz-z-udzialem"
+  },
+  {
+   "time": "11-04 06:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Cancels $7 Billion Chip-Leasing Deal with Tencent",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.at/nachrichten/aktien/oracle-reportedly-cancels-$7-bln-chip-leasing-deal-with-tencent-amid-u-s-pressure-1036713741"
+  },
+  {
+   "time": "11-04 06:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase and HSBC to Facilitate Development Finance Deals",
+   "source": "fiscal.ai",
+   "url": "https://news.futunn.com/post/1003394905/market-chatter-hsbc-jpmorgan-aim-to-facilitate-deals-in-development"
+  },
+  {
+   "time": "11-04 06:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "AWS Launches 'Semarak AI Malaysia' National Program",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/2026/11/04/tmt-newswire/pr-newswire/aws-launches-semarak-ai-malaysia-a-national-program-to-bring-ai-tools-to-government-officers-students-and-local-software-companies/2461421/amp"
+  },
+  {
+   "time": "11-04 06:29",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "target down",
+   "headline": "B of A Securities Maintains Buy on Advanced Micro Devices, Lowers Price Target to $650",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62856224/b-securities-maintains-buy-advanced-micro-devices-lowers-price-target-650"
+  },
+  {
+   "time": "11-04 06:24",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD Paid $2.9B To Acquire Specialized Inference Silicon Technology Provider Taalas, Including ~$1.4B In Contingent Payments, In August 2026 Transaction; Lists Unconditional Commitments At $48.8B",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62856168/amd-paid-2-9b-acquire-specialized-inference-silicon-technology-provider-taalas-including-1-4b-contin"
+  },
+  {
+   "time": "11-04 06:03",
+   "symbols": [
+    "MU",
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Chinese Chipmaker Yangtze Memory Technologies' $4.9B Shanghai IPO Has Been Delayed; YMTC Likely To Go Public In H1 2027 - Reuters Exclusive",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/SKHY"
+  },
+  {
+   "time": "11-04 04:45",
+   "symbols": [
+    "ARM"
+   ],
+   "rating": "",
+   "headline": "Arm Stock Heads Into Q2 Earnings With a Smartphone Problem and an AI Opportunity",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/11/62854094/arm-holdings-royalty-growth-smartphone-weakness-ai-demand-data-center-earnings"
+  },
+  {
+   "time": "11-04 04:01",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "FIL Limited Reduces Stake in Costain Group PLC",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/rns/costain-group--cost/holding-s-in-company/9856602"
+  },
+  {
+   "time": "11-04 03:56",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "'Meta Starts Debut Euro Bond Sale After $15 Billion US Deal' - Bloomberg",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62853698/meta-starts-debut-euro-bond-sale-after-15-billion-us-deal-bloomberg"
+  },
+  {
+   "time": "11-04 03:51",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk, Who Voted 'Red,' Reacts to GOP Midterm Losses With 'Election-Interfering' Space Laser Joke: 'Didn't Work This Time'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/62853673/elon-musk-who-voted-red-reacts-to-gop-midterm-losses-with-election-interfering-space-laser-joke-didnt-work-this-time"
+  },
+  {
+   "time": "11-04 03:49",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "PLTR Stock Could Deliver 423% Upside, Says Tom Nash \u2014 Here's Why He's Bullish on Palantir",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/62853659/pltr-stock-to-917-tom-nash-sees-422-8-upside-in-his-base-case-as-palantirs-growth-defies-valuation-bears"
+  },
+  {
+   "time": "11-04 03:37",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "'Google Extends Voluntary Buyout Offers To Employees in Several Countries' - Reuters Exclusive",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62853563/google-extends-voluntary-buyout-offers-employees-several-countries-reuters-exclusive"
+  },
+  {
+   "time": "11-04 03:37",
+   "symbols": [
+    "GOOGL",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk's SpaceX Could Build More Data Center Capacity in 18 Months Than Google Did in 27 Years, Says SemiAnalysis",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62853551/elon-musks-spacex-could-build-more-data-center-capacity-in-18-months-than-google-did-in-27-years-says-semianalysis"
+  },
+  {
+   "time": "11-04 03:36",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD CEO Lisa Su Addresses AI Infrastructure Bottleneck Fears: 'We Have Good Visibility Into 2027'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62853531/amd-lisa-su-data-centers-2027-earnings"
+  },
+  {
+   "time": "11-04 03:02",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GEVORKYAN Successfully Refinances EUR 30 Million in Bonds",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news/industrials-utilities/construction-materials"
+  },
+  {
+   "time": "11-04 02:40",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "\u2018Everyone Needs Compute\u2019: Lisa Su Sees AMD\u2019s AI Data Center Business More Than Doubling in 2027 as Wedbush Backs $600 Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62853111/amd-lisa-su-ai-data-center-doubling-2027-amd-stock-price-target-q3-results"
+  },
+  {
+   "time": "11-04 02:11",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Gene Munster Says Anduril Is Having Its Own Tesla Model 3 Moment\u2014Company President Says 'We've Hired a Lot' of People From That Era",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62852650/gene-munster-says-anduril-is-having-its-own-tesla-model-3-moment-company-president-says-weve-hired-a-lot-of-people-from-that-era"
+  },
+  {
+   "time": "11-04 01:18",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Reported Earlier, 'Tesla Misled South Korean Customers About Automated-Driving Tech, Consumer Group Alleges' - Reuters Exclusive",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62851838/reported-earlier-tesla-misled-south-korean-customers-about-automated-driving-tech-consumer-group-all"
+  },
+  {
+   "time": "11-04 01:16",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "'Nvidia China Clients to Get 1% of $70 Billion RTX Chips Ordered' - Bloomberg Exclusive",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62851824/nvidia-china-clients-get-1-70-billion-rtx-chips-ordered-bloomberg-exclusive"
+  },
+  {
+   "time": "11-04 01:13",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "'Oracle Cancels $7bn Tencent AI Deal Under Trump Pressure' - FT",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62851809/oracle-cancels-7bn-tencent-ai-deal-under-trump-pressure-ft"
+  },
+  {
+   "time": "11-04 00:08",
+   "symbols": [
+    "NVDA",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Grant Cardone Warns James Talarico's Texas Win Could Spell Trouble for Elon Musk's SPCX, AI Bets\u2014Gina Hinojosa Governor Win Sparks Data Center Moratorium Talk",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/62851381/grant-cardone-warns-james-talaricos-texas-win-could-spell-trouble-for-elon-musks-spcx-ai-bets-gina-hinojosa-governor-win-sparks-data-center-moratorium-talk"
+  },
+  {
+   "time": "11-04 00:07",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD Has a PC Problem Just Like Intel: Chip Giant Warns of Weaker Demand as It Plans for a \u2018Double-Digit\u2019 Market Decline in 2027",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/11/62851331/amd-lisa-su-memory-costs-pc-demand-intel-double-digit-decline-2027"
+  },
+  {
+   "time": "11-03 22:16",
+   "symbols": [
+    "AMD",
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "AMD, Super Micro Shares Jump After-Hours as Lisa Su Eyes 80% Growth in 2027; Analyst Calls SMCI Print \u2018One of the Best Prints of the Season\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62850898/amd-super-micro-growth-forecast-revenue"
+  },
+  {
+   "time": "11-03 22:09",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Super Micro Pops Above 7% in After-Hours: Executive Says a Single AI Order Now Big Enough to \u2018Exceed\u2019 an Entire Quarter From a Year Ago",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/11/62850873/super-micro-computer-cfo-mark-long-ai-order-exceed-year-ago-quarter"
+  },
+  {
+   "time": "11-03 22:02",
+   "symbols": [
+    "LITE"
+   ],
+   "rating": "",
+   "headline": "Monteverde & Associates PC Announces Investigation into Lumentum Holdings Inc. Acquisition",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/hareholder-alert-the-ma-class-action-firm-announces-an-investigation-of-lumentum-holdings-inc-nasdaq-lite-302927878.html"
+  },
+  {
+   "time": "11-03 22:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Files Major Holdings Notification for AUTO1 Group SE",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:328ae12ca398e:0-auto1-group-ag1-receives-goldman-sachs-voting-rights-notification/"
+  },
+  {
+   "time": "11-03 22:01",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart-Backed OnePay Enables Stablecoin Deposits",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/cybersecurity/2026/walmart-backed-onepay-lets-customers-turn-stablecoins-into-checking-dollars/"
+  },
+  {
+   "time": "11-03 22:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Announces AI-Powered Health App and Developer Tools",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/fitness/2026/apple-readies-launch-of-ai-powered-health-app/"
+  },
+  {
+   "time": "11-03 22:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Files Quarterly Report on Form 10-Q",
+   "source": "fiscal.ai",
+   "url": "https://investingnews.com/jpmorganchase-files-form-10-q-for-the-quarter-ended-september-30-2026/"
+  },
+  {
+   "time": "11-03 20:36",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Zohran Mamdani Says Google Uses \u2018Monopoly Power\u2019 to Push AI Into Schools: Corporations Shouldn\u2019t \u2018Dictate\u2019 How We Teach Children",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62850458/zohran-mamdani-google-force-ai-public-schools-monopoly-power"
+  },
+  {
+   "time": "11-03 20:02",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Former Visa CEO Joe Saunders Dies at 80",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/former-visa-ceo-joe-saunders-dies-at-80-ce785fdedf8af523"
+  },
+  {
+   "time": "11-03 19:01",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa President of Technology Rajat Taneja Sells Shares Worth Over $14 Million",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:b455a1ecc70e9:0-visa-president-technology-sold-shares-worth-over-14m/"
+  },
+  {
+   "time": "11-03 19:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "DeepInfra Announces New Benefits for NVIDIA Inception Members",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/03/3394716/0/en/deepinfra-expands-startup-support-through-nvidia-inception-offering.html"
+  },
+  {
+   "time": "11-03 18:10",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Super Micro Computer Q1 2027 Earnings Call Transcript",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62849385/super-micro-computer-q1-2027-earnings-call-transcript"
+  },
+  {
+   "time": "11-03 18:09",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "Advanced Micro Devices Q3 2026 Earnings Call Transcript",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62849372/advanced-micro-devices-q3-2026-earnings-call-transcript"
+  },
+  {
+   "time": "11-03 18:02",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Super Micro Computer Reports Fiscal Q1 2027 Earnings and Updates Guidance",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/2026110387/super-micros-stock-pops-as-earnings-show-booming-demand-for-ai-servers"
+  },
+  {
+   "time": "11-03 18:01",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Coinbase Participates in Assets on Blockchain Conference",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/03/3394515/0/en/assets-on-blockchain-2026-marks-a-turning-point-from-tokenization-to-functioning-financial-markets.html"
+  },
+  {
+   "time": "11-03 17:32",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD Provides Fourth Quarter 2026 Revenue Guidance",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/amd-advanced-micro-devices-inc-expects-q4-revenue-range-16-49b-17-51b-ce785fdedc8bf527"
+  },
+  {
+   "time": "11-03 17:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "SenesTech Products Now Available via Walmart Fulfillment Services",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/03/3394704/0/en/senestech-expands-e-commerce-reach-through-walmart-fulfillment-services.html"
+  },
+  {
+   "time": "11-03 17:31",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "UnitedHealth Group Authorizes Additional 50 Million Share Buyback",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/seekingalpha:4dd165dac094b:0-unitedhealth-group-authorizes-additional-50m-shares-for-buyback/"
+  },
+  {
+   "time": "11-03 17:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "J.P. Morgan Wealth Management Recruits Advisor from Merrill Lynch",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1003379802/jp-morgan-recruits-financial-advisor-from-merrill-who-oversaw-940"
+  },
+  {
+   "time": "11-03 17:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft, Google, and OpenAI Support New Standard for AI Training Opt-Outs",
+   "source": "fiscal.ai",
+   "url": "https://newswire.co.nz/2026/11/robots-txt-ai-training-opt-out-google-openai-microsoft-new-zealand/"
+  },
+  {
+   "time": "11-03 17:30",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "If You Invested $1000 In Oracle Stock 20 Years Ago, You Would Have This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62848336/if-you-invested-1000-oracle-stock-20-years-ago-you-would-have-much-today"
+  },
+  {
+   "time": "11-03 17:29",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD CFO Says Expect Q4 Non-GAAP Operating Expenses To Be ~$3.75B",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62848287/amd-cfo-says-expect-q4-non-gaap-operating-expenses-be-3-75b"
+  },
+  {
+   "time": "11-03 17:20",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD CEO Says Expect Our Embedded Business To Deliver A Strong Double-Digit Annual Revenue Growth; Now Expect Revenue To Grow More Than 80% In 2027",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62848042/amd-ceo-says-expect-our-embedded-business-deliver-strong-double-digit-annual-revenue-growth-now-expe"
+  },
+  {
+   "time": "11-03 17:17",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD CEO Says In 2027, We Are Planning For Pc Market Unit Shipments To Decline By A Double-Digit Percentage",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62847925/amd-ceo-says-2027-we-are-planning-pc-market-unit-shipments-decline-double-digit-percentage"
+  },
+  {
+   "time": "11-03 17:16",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD CEO Says  Expect Data Center To Be More Than 80% Of Our Total Revenue In 2027 And To Drive The Majority Of Our Revenue And Earnings Growth",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62847892/amd-ceo-says-expect-data-center-be-more-80-our-total-revenue-2027-and-drive-majority-our-revenue-and"
+  },
+  {
+   "time": "11-03 17:16",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD CEO Says Now Expect Data Center Segment Revenue Growth To Accelerate In The Fourth Quarter And Full Year Segment Revenue To More Than Double From 2025; Now Expect Server Revenue To Double Year Over Year In 2027",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62847867/amd-ceo-says-now-expect-data-center-segment-revenue-growth-accelerate-fourth-quarter-and-full-year-s"
+  },
+  {
+   "time": "11-03 17:12",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD CEO Says Began Revenue Shipments Of EPYC Venice Processors In Q3, And The First OEM Systems Are On Track For Availability In Q4",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62847690/amd-ceo-says-began-revenue-shipments-epyc-venice-processors-q3-and-first-oem-systems-are-track-avail"
+  },
+  {
+   "time": "11-03 17:01",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "If You Invested $1000 In Netflix Stock 10 Years Ago, You Would Have This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62846904/if-you-invested-1000-netflix-stock-10-years-ago-you-would-have-much-today"
+  },
+  {
+   "time": "11-03 16:45",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "Here's How Much $100 Invested In ExxonMobil Holdings 5 Years Ago Would Be Worth Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62846233/here-s-how-much-100-invested-exxonmobil-holdings-5-years-ago-would-be-worth-today"
+  },
+  {
+   "time": "11-03 16:34",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD Posts Q3 Double Beat as Data Center Segment Shines, Growth Expected to 'Accelerate' in Q4",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/11/62845344/amd-posts-q3-double-beat-as-data-center-segment-shines-growth-expected-to-accelerate-in-q4"
+  },
+  {
+   "time": "11-03 16:32",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "target up",
+   "headline": "Goldman Sachs Maintains Tyler Technologies at Neutral, Raises Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:37db51433e766:0-goldman-sachs-maintains-tyler-technologies-at-neutral-raises-price-target-to-385-from-345/"
+  },
+  {
+   "time": "11-03 16:32",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "upgrade",
+   "headline": "Goldman Sachs Upgrades Sirius XM Holdings to Buy",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:54cc66ae2b1c2:0-goldman-sachs-upgrades-sirius-xm-holdings-to-buy-from-neutral-raises-price-target-to-37-from-33/"
+  },
+  {
+   "time": "11-03 16:32",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Research Note Highlights Risks in Corporate Bond Yield Gaps",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/2026110322/this-signal-from-the-corporate-bond-market-has-historically-preceded-big-drawdowns-for-the-sp-500"
+  },
+  {
+   "time": "11-03 16:32",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Daiwa Securities Adjusts Price Target on Bank of America",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/daiwa-securities-adjusts-price-target-on-bank-of-america-to-60-from-63-ce785fd9d080f324"
+  },
+  {
+   "time": "11-03 16:31",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova and Seatrium Support TenneT North Sea Platform Construction",
+   "source": "fiscal.ai",
+   "url": "https://news.europawire.eu/press-releases-tagged-with/seatrium-and-ge-vernova-support-tennet-construction-programme-for-four-north-sea-platforms/"
+  },
+  {
+   "time": "11-03 16:31",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "SanDisk Shares Rise Following Apple's Warning on Memory Costs",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/stocktwits:c8ad61540094b:0-aapl-stock-tumbles-overnight-on-margin-pressure-from-surging-memory-prices-mu-sndk-inch-higher/"
+  },
+  {
+   "time": "11-03 16:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart Expands AI Shopping Agent 'Sparky' Capabilities",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/news/artificial-intelligence/2026/walmarts-updated-ai-agent-turns-pictures-into-shopping-lists/"
+  },
+  {
+   "time": "11-03 16:31",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Chain Reaches $100 Billion Trading Volume Milestone on Uniswap",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/panews:742b11a64e3f9:0/"
+  },
+  {
+   "time": "11-03 16:31",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD Reports Third Quarter 2026 Financial Results",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/03/3394824/0/en/amd-reports-third-quarter-2026-financial-results.html"
+  },
+  {
+   "time": "11-03 16:31",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "",
+   "headline": "Broadcom Shares Rise Following Disclosure of Anthropic AI Equipment Lease Commitments",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/gurufocus:4bb15db84094b:0-broadcom-stocks-gain-3-72-as-anthropic-leases-reveal-161-2-billion-payment-scale/"
+  },
+  {
+   "time": "11-03 16:31",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Expands Robotaxi Service to Fort Worth",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/gurufocus:0623b5e63094b:0-tesla-stocks-move-lower-with-fort-worth-robotaxi-expansion-in-focus/"
+  },
+  {
+   "time": "11-03 16:29",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "UnitedHealth Group Announces 50M Buyback Plan",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62844722/unitedhealth-group-announces-50m-buyback-plan"
+  },
+  {
+   "time": "11-03 16:23",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "Advanced Micro Devices Sees Q4 Sales $16.490B-$17.510B vs $16.227B Est",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62844339/advanced-micro-devices-sees-q4-sales-16-490b-17-510b-vs-16-227b-est"
+  },
+  {
+   "time": "11-03 16:19",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Super Micro Stock Rips After Q1 Print Tops Its Own Preliminary Figures",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/11/62843919/super-micro-stock-rips-after-q1-print-tops-its-own-preliminary-figures"
+  },
+  {
+   "time": "11-03 16:19",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "Advanced Micro Devices Anticipates Further Growth In Q4 As It Scales Helios, Venice Production",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AMD"
+  },
+  {
+   "time": "11-03 16:15",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "Advanced Micro Devices Q3 Adj. EPS $2.09 Beats $1.95 Estimate, Sales $13.377B Beat $13.092B Estimate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/11/62843214/advanced-micro-devices-q3-adj-eps-2-09-beats-1-95-estimate-sales-13-377b-beat-13-092b-estimate"
+  },
+  {
+   "time": "11-03 16:07",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Super Micro Computer Raises FY2027 Sales Guidance from $65.000B-$72.000B to $72.000B-$82.000B vs $69.168B Est",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62841698/super-micro-computer-raises-fy2027-sales-guidance-65-000b-72-000b-72-000b-82-000b-vs-69-168b-est"
+  },
+  {
+   "time": "11-03 16:06",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Super Micro Computer Sees Q2 Adj EPS $1.66-$1.90 vs $1.14 Est; Sees Sales $19.500B-$21.500B vs $17.404B Est",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62841602/super-micro-computer-sees-q2-adj-eps-1-66-1-90-vs-1-14-est-sees-sales-19-500b-21-500b-vs-17-404b-est"
+  },
+  {
+   "time": "11-03 16:06",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Super Micro Computer Sees Q2 GAAP EPS $1.59-$1.83 vs $1.08 Est",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62841500/super-micro-computer-sees-q2-gaap-eps-1-59-1-83-vs-1-08-est"
+  },
+  {
+   "time": "11-03 16:05",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Super Micro Computer Q1 Adj. EPS $1.81 Beats $1.23 Estimate, Sales $19.946B Beat $16.389B Estimate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/11/62841370/super-micro-computer-q1-adj-eps-1-81-beats-1-23-estimate-sales-19-946b-beat-16-389b-estimate"
+  },
+  {
+   "time": "11-03 16:00",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nate Silver Says Democrats Are Clear Senate Favorites: 'A Really Bad Night for Pollsters' if They Lose",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62840524/nate-silver-senate"
+  }
+ ]
+}
