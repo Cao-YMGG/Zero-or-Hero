@@ -1,4 +1,4 @@
-# Headlines since 2026-11-03 16:00 ET (as of 2026-11-04 10:02 ET)
+# Headlines since 2026-11-03 16:00 ET (as of 2026-11-04 10:32 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -18,6 +18,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-04 06:29 | AMD | target down | B of A Securities Maintains Buy on Advanced Micro Devices, Lowers Price Target to $650 |
 | 11-03 16:32 | GS | target up | Goldman Sachs Maintains Tyler Technologies at Neutral, Raises Price Target |
 | 11-03 16:32 | GS | upgrade | Goldman Sachs Upgrades Sirius XM Holdings to Buy |
+| 11-04 10:02 | AAPL |  | What Is Going On With Apple Stock on Wednesday? |
 | 11-04 09:53 | GOOGL |  | Why Is TeraWulf Trending Wednesday? |
 | 11-04 09:50 | AMD INTC |  | AMD Is Growing Twice as Fast as Intel. Here's Where the Gap Is Coming From |
 | 11-04 09:32 | SMCI |  | Analysts Adjust Price Targets for Super Micro Computer Following Q1 Results |

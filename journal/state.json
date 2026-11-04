@@ -14,23 +14,14 @@
         "entry_price": 0.86,
         "peak": 0.86,
         "qty": 1,
-        "last": 0.54,
-        "last_time": "2026-11-04T10:01:30-05:00"
+        "last": 0.46,
+        "last_time": "2026-11-04T10:32:16-05:00"
       }
     },
     "rebound_scanner": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "TSLA261104C00395000",
-        "direction": "call",
-        "entry_time": "2026-11-04T09:46:14-05:00",
-        "entry_price": 0.4,
-        "peak": 0.52,
-        "qty": 2,
-        "last": 0.33,
-        "last_time": "2026-11-04T10:01:30-05:00"
-      }
+      "closed": true
     },
     "nvda_gapdown_put": {},
     "catalyst_open": {},
@@ -46,7 +37,9 @@
         "entry_time": "2026-11-04T10:01:30-05:00",
         "entry_price": 0.3,
         "peak": 0.3,
-        "qty": 3
+        "qty": 3,
+        "last": 0.13,
+        "last_time": "2026-11-04T10:32:16-05:00"
       },
       "real": {
         "contract": "SPY261104C00773000",
@@ -64,8 +57,10 @@
         "direction": "call",
         "entry_time": "2026-11-04T10:01:30-05:00",
         "entry_price": 0.27,
-        "peak": 0.27,
-        "qty": 3
+        "peak": 0.3,
+        "qty": 3,
+        "last": 0.13,
+        "last_time": "2026-11-04T10:32:16-05:00"
       }
     },
     "stock_open_drive": {
@@ -76,8 +71,10 @@
         "direction": "call",
         "entry_time": "2026-11-04T10:01:30-05:00",
         "entry_price": 0.72,
-        "peak": 0.72,
-        "qty": 1
+        "peak": 1.71,
+        "qty": 1,
+        "last": 0.92,
+        "last_time": "2026-11-04T10:32:16-05:00"
       },
       "real": {
         "contract": "TSLA261104C00392500",

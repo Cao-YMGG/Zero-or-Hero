@@ -81,3 +81,4 @@ date,variant,mode,contract,entry_price,exit_price,peak,exit_reason
 2026-11-02,catalyst_intraday,real,AMZN261102C00255000,0.43,0.01,0.61,time
 2026-11-02,catalyst_intraday_arm2,shadow,AMZN261102C00255000,0.45,0.03,0.61,time
 2026-11-03,leader_follow,shadow,ORCL261106C00134000,0.86,0.97,1.59,time
+2026-11-04,rebound_scanner,shadow,TSLA261104C00395000,0.4,0.58,1.04,trail
