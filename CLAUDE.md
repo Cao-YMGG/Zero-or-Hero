@@ -26,7 +26,8 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
   owner) because the routine fired 41 minutes late both times; if it starts before 08:00, research
   first and re-read the live pre-market numbers after 08:30; on 08:30 release days read the print
   before the SPY call.
-- Weekdays ~10:30 and ~13:00 ET: intraday check-in. Scan big intraday movers (Webull MIN_5 /
+- Weekdays ~10:16, ~11:21 and ~13:16 ET: intraday check-ins (the 11:21 one since 2026-11-05, owner:
+  the put mirror armed between 10:45 and 11:30 three sessions running). Scan big intraday movers (Webull MIN_5 /
   DAY_1 rankings, read-only) and breaking news; if one has a fresh catalyst still unfolding,
   append one pick to `journal/bias/intraday/<today>.json` (schema in journal/bias/README.md)
   and push to main. Read journal/news/LATEST.md for headlines since the open. Never touch the pre-market file after 09:30.
@@ -65,8 +66,9 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
   its open between 10:45 and 11:30, after the 10:16 check and long before 13:16 (11-04: MRVL -0.7%
   from its open at 10:20 with SMH still above its open; MU -2 to -3% at 11:00 and -3.4% at the
   close while the 13:20 check found the sector already bouncing off its 11:30 low). Until an 11:30
-  check-in exists, the 10:16 file writes a conditional line (what would arm the mirror and which
-  name is weakest) and the 13:16 check scores it. Theme state (next paragraph of 2b) is a filter on
+  check-in existed the mirror went unjudged; since 2026-11-05 the 11:21 check-in judges it, the 10:16
+  file still writes a conditional line (what would arm it and which name is weakest) and the 13:16
+  check scores both. Theme state (next paragraph of 2b) is a filter on
   our own picks: no call pick on a `turning` theme's names, whatever the headline.
 - Weekdays 16:35 ET: daily post-market review and light evolution. Grade every closed trade
   (real and shadow) and the day's pre-market calls in `journal/grades.csv` with the rubric in
