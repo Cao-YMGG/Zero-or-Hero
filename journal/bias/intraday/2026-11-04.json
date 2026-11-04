@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-04",
+  "picks": [],
+  "opportunities": [
+    {
+      "type": "sector_move",
+      "symbol": "AAPL",
+      "direction": "call",
+      "time": "10:20",
+      "why": "Post-election rebound in mega-cap tech with no headline of its own (Benzinga 10:02: 'investors returned to mega-cap technology stocks'): AAPL 352.7, +6.4% on the day and +3.4% from its 341.99 open, a straight line up every five minutes since 09:30; MSFT +6.3% (+1.8% from open), AMZN +7.8% (+2.0% from open), GOOGL +5.7% (+4.3% from open). QQQ +1.7% from its open after lagging pre-market; VIXY -9%. Not a pick: no news of the stock's own (the election is a flow catalyst, not a sector headline), and AAPL/GOOGL are past the 3% line (AMZN 11-02: picked at +4.0% from the open, topped minutes later). Second day after its report, so eligible on that count. Scored to learn whether a no-news mega-cap leader on an event-day rebound holds",
+      "why_zh": "选举后大盘科技股集体反弹但没有自己的消息：苹果 +6.4%、比开盘高 3.4%，开盘后一路直线上涨；微软 +6.3%、亚马逊 +7.8%、谷歌 +5.7%。没选：没有公司自己的消息（选举是资金面的理由，不是板块新闻），苹果和谷歌已经过了 3% 的线（11-02 亚马逊在 +4% 时选入几分钟后见顶）。只记录，看这种无消息的反弹能不能守住",
+      "action": "none"
+    },
+    {
+      "type": "sector_move",
+      "symbol": "AMZN",
+      "direction": "call",
+      "time": "10:20",
+      "why": "Day's biggest mega-cap mover: 270.1, +7.8% on the day (+3.7% pre-market with no headline after four searches, another +2.0% from its 264.78 open). Below the 3% line from the open, but still no catalyst of its own; relative strength on a day the whole index is +1.9% is not the leader setup (the leader rule needs the index flat or red). Scored as the morning's unexplained leader",
+      "why_zh": "亚马逊今天 +7.8%，是大盘股里涨最多的，但从早上到现在查不到自己的消息；比开盘只高 2%，没过 3% 的线，可整个指数都在涨 1.9%，不是「领涨股」的形态。只记录",
+      "action": "none"
+    },
+    {
+      "type": "sector_move",
+      "symbol": "GEV",
+      "direction": "put",
+      "time": "10:20",
+      "why": "The one sector negative with legs: Texas's governor-elect campaigned on a data-center moratorium (Texas is 27% of planned US data-center gigawatts; Benzinga 09:14), CoreWeave -7%, GEV 827.9, -9.8% on the day and -3.3% from its 855.96 open, still falling while the rest of the market rallies. Fits the put mirror (sector negative the same morning, weakest name below its open, outside a report window) but it is past the 3% line and a $828 stock's 0.2-delta weekly put costs more than the ledger can buy (20% of $458); recorded for the scorer",
+      "why_zh": "今天唯一有后劲的板块利空：德州新州长竞选时就主张暂停数据中心（德州占全美规划数据中心电力的 27%），CoreWeave -7%，GE Vernova -9.8%、比开盘还低 3.3%，大盘涨它还在跌。符合看跌镜像的形态，但已经过了 3% 的线，而且 828 美元的股票一张看跌期权比我们账本能买的还贵。只记录",
+      "action": "none"
+    },
+    {
+      "type": "sector_intraday",
+      "symbol": "MRVL",
+      "direction": "put",
+      "time": "10:20",
+      "why": "Weakest chip again: MRVL 164.3, -4.4% on the day but only -0.7% from its 165.44 open; SMH is +1.1% above its open (505.78 low at 09:32, 522 high at 09:47), so the put mirror did not arm. AMD +2.5% from its open on its reaction day (excluded), NVDA +1.2%, MU +1.5%, INTC +1.6% from their opens: the chip gap-down is being bought, not sold",
+      "why_zh": "迈威尔还是最弱的芯片股（-4.4%），但比开盘只低 0.7%；半导体 ETF 比开盘高 1.1%，看跌镜像没触发。AMD（反应日不碰）、英伟达、美光、英特尔都比开盘高，芯片的低开在被买回来，不是被卖",
+      "action": "none"
+    }
+  ]
+}
