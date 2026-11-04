@@ -692,6 +692,37 @@ class CarryAndHalfOutTest(unittest.TestCase):
         b.close(v, vs, 2.0, "trail", datetime(2026, 10, 19, 11, 0, tzinfo=ET))
         self.assertEqual(rows[-1], ("shadow", 2.5, "trail", 2))   # 0.5 x 3.0 + 0.5 x 2.0
 
+    def test_single_contract_cannot_split(self):
+        from datetime import date
+        from zoh import bot as botmod
+        from zoh.bot import half_out
+        rows, orders = [], []
+
+        class FakeBot(botmod.Bot):
+            def __init__(self):
+                self.today, self.dry_run, self.config = date(2026, 11, 4), False, {}
+
+            def _sell_out(self, contract, qty, tag):
+                orders.append((contract, qty, tag))
+                return qty, 2.2, "market"
+
+            def _record(self, variant, mode, pos, exit_price, now, reason, qty, peak=None):
+                rows.append((mode, exit_price, reason, qty))
+
+        one = {"contract": "TSLA261104C00392500", "entry_price": 0.72, "peak": 2.39, "qty": 1}
+        # stock_open_drive (no single_take): one contract holds like the real one, nothing is banked
+        self.assertFalse(half_out(dict(one), 2.25, {"id": "stock_open_drive", "half_at": 3.0}))
+        # spy_open_drive (single_take): the whole contract goes at the multiple, shadow and real
+        v = {"id": "spy_open_drive", "half_at": 3.0, "single_take": True}
+        vs = {"shadow": dict(one), "real": {"contract": one["contract"], "qty": 1, "entry_price": 0.72}}
+        self.assertTrue(half_out(vs["shadow"], 2.25, v))
+        FakeBot().sell_half(v, vs, 2.25, datetime(2026, 11, 4, 10, 30, tzinfo=ET))
+        self.assertNotIn("shadow", vs)
+        self.assertNotIn("real", vs)
+        self.assertTrue(vs["closed"])
+        self.assertEqual(rows, [("real", 2.2, "take", 1), ("shadow", 2.25, "take", 1)])
+        self.assertEqual(orders, [(one["contract"], 1, "take")])
+
     def test_trail_after_half(self):
         v = {"half_at": 3.0, "trail_after_half": 0.4}
         self.assertIsNone(check_exit(1.0, 4.0, 2.5, v))               # nothing banked: hold
@@ -721,9 +752,12 @@ class CarryAndHalfOutTest(unittest.TestCase):
               "real": {"contract": "SPY261026C00690000", "qty": 1, "entry_price": 1.0}}
         FakeBot().sell_half(v, vs, 3.0, datetime(2026, 10, 26, 10, 0, tzinfo=ET))
         self.assertEqual(orders, [("SPY261026C00690000", 1, "take")])
-        self.assertEqual(rows, [("real", 3.2, "take", 1)])
+        # real and shadow book the same whole-contract exit (2026-11-04: the shadow used to bank
+        # half and report a blended exit the real one-lot could never get)
+        self.assertEqual(rows, [("real", 3.2, "take", 1), ("shadow", 3.0, "take", 1)])
         self.assertNotIn("real", vs)
-        self.assertIn("banked", vs["shadow"])
+        self.assertNotIn("shadow", vs)
+        self.assertTrue(vs["closed"])
         # without single_take one contract keeps riding
         vs = {"shadow": {"contract": "X", "entry_price": 1.0, "peak": 3.0, "qty": 1},
               "real": {"contract": "X", "qty": 1, "entry_price": 1.0}}

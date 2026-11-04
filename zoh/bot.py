@@ -112,9 +112,14 @@ def carries(variant):
 
 
 def half_out(shadow, bid, variant):
-    """True once, when the bid first reaches the variant's half_at multiple of the entry."""
+    """True once, when the bid first reaches the variant's half_at multiple of the entry. One
+    contract cannot split: with a single shadow contract it fires only for variants with
+    single_take, and then the whole contract goes (2026-11-04: stock_open_drive's shadow banked
+    "half" of its one TSLA 392.5C at 3.1x and booked +58% while the real contract held to 0.01)."""
     k = variant.get("half_at")
-    return bool(k) and "banked" not in shadow and bid >= k * shadow["entry_price"]
+    if not k or "banked" in shadow or bid < k * shadow["entry_price"]:
+        return False
+    return shadow.get("qty", 1) >= 2 or bool(variant.get("single_take"))
 
 
 def start_ledgers(config, today):
@@ -405,21 +410,33 @@ class Bot:
     def sell_half(self, variant, vstate, bid, now):
         """Take half off at the variant's half_at multiple; the rest keeps trailing. The shadow
         banks half the price (its final row records the blended exit); the real position sells
-        half its contracts when it has two or more, or its only one when the variant sets
-        single_take."""
+        half its contracts when it has two or more. One contract cannot split: with single_take
+        the whole position goes at the multiple, real first and then the shadow at the same bid,
+        so both books show the same trade (2026-10-26 spy_open_drive: all out at 3x +101% / +78% /
+        +54% vs held to the close +53% / +8% / -23%)."""
         shadow = vstate["shadow"]
+        if shadow.get("qty", 1) == 1 and variant.get("single_take"):
+            real = vstate.get("real")
+            sold = True
+            if real and not self.dry_run:
+                filled, price, _ = self._sell_out(real["contract"], 1, "take")
+                sold = bool(filled)
+                if filled:
+                    self._record(variant, "real", real, price, now_et(), "take", filled, shadow.get("peak"))
+                    vstate.pop("real")
+            if sold:
+                log(f"{variant['id']}: single contract out of {shadow['contract']} @ {bid} "
+                    f"({bid / shadow['entry_price']:.1f}x)")
+                vstate.pop("shadow")
+                self._record(variant, "shadow", shadow, bid, now, "take", shadow["qty"], shadow.get("peak"))
+                vstate["closed"] = True
+                return
+            # the real sell did not fill: keep managing the position, banking half as before
         shadow["banked"] = round(0.5 * bid, 4)
         log(f"{variant['id']}: half out of {shadow['contract']} @ {bid} "
             f"({bid / shadow['entry_price']:.1f}x)")
         real = vstate.get("real")
-        if real and real["qty"] == 1 and variant.get("single_take") and not self.dry_run:
-            # One contract cannot split: sell it all at the half_at multiple (spy_open_drive, owner
-            # 2026-10-26: all out at 3x +101% / +78% / +54% vs held to the close +53% / +8% / -23%).
-            filled, price, _ = self._sell_out(real["contract"], 1, "take")
-            if filled:
-                self._record(variant, "real", real, price, now_et(), "take", filled, shadow.get("peak"))
-                vstate.pop("real")
-        elif real and real["qty"] >= 2 and not self.dry_run:
+        if real and real["qty"] >= 2 and not self.dry_run:
             half = real["qty"] // 2
             filled, price, _ = self._sell_out(real["contract"], half, "half")
             if filled:
@@ -570,6 +587,8 @@ class Bot:
                 shadow["last"], shadow["last_time"] = bid, now.isoformat(timespec="seconds")
                 if not at_exit and half_out(shadow, bid, variant):
                     self.sell_half(variant, vstate, bid, now)
+                    if "shadow" not in vstate:  # a single contract went out whole
+                        continue
                 if at_exit:
                     reason = "time" if closes_today else None
                 else:
