@@ -1,7 +1,39 @@
 {
- "as_of": "2026-11-04T12:33-05:00",
+ "as_of": "2026-11-04T13:15-05:00",
  "since": "2026-11-03T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-04 13:00",
+   "symbols": [
+    "AAPL",
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "CNBC Halftime Report Final Trades: Coeur Mining, Amazon, FTAI Aviation, Apple",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/CDE"
+  },
+  {
+   "time": "11-04 12:54",
+   "symbols": [
+    "AMD",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "AMD's AI Data Center Guarantees Reach $8.5 Billion as It Challenges Nvidia",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62878952/amd-data-center-guarantees"
+  },
+  {
+   "time": "11-04 12:30",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "target up",
+   "headline": "Morgan Stanley Maintains Equal-Weight on Advanced Micro Devices, Raises Price Target to $550",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62877835/morgan-stanley-maintains-equal-weight-advanced-micro-devices-raises-price-target-550"
+  },
   {
    "time": "11-04 12:22",
    "symbols": [
