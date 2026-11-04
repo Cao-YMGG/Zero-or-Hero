@@ -1,7 +1,27 @@
 {
- "as_of": "2026-11-04T12:03-05:00",
+ "as_of": "2026-11-04T12:33-05:00",
  "since": "2026-11-03T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-04 12:22",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel Form4 Filing Shows CEO Lip-Bu Tan Purchases 150,000 Shares Of Intel Common Stock At Weighted Average Price Of $64.73/Share",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/INTC"
+  },
+  {
+   "time": "11-04 12:07",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "target up",
+   "headline": "Piper Sandler Maintains Overweight on Advanced Micro Devices, Raises Price Target to $650",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62876749/piper-sandler-maintains-overweight-advanced-micro-devices-raises-price-target-650"
+  },
   {
    "time": "11-04 11:48",
    "symbols": [
