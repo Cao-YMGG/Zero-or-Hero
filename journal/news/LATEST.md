@@ -1,9 +1,10 @@
-# Headlines since 2026-11-03 16:00 ET (as of 2026-11-04 11:32 ET)
+# Headlines since 2026-11-03 16:00 ET (as of 2026-11-04 12:03 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-04 11:46 | AMD | target down | Wells Fargo Maintains Overweight on Advanced Micro Devices, Lowers Price Target to $650 |
 | 11-04 11:06 | AMD | rating | RBC Capital Reiterates Sector Perform on Advanced Micro Devices, Maintains $540 Price Target |
 | 11-04 10:45 | AMD | target up | Truist Securities Maintains Buy on Advanced Micro Devices, Raises Price Target to $605 |
 | 11-04 10:44 | VST | downgrade | Keybanc Downgrades Vistra to Sector Weight |
@@ -21,6 +22,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-04 06:29 | AMD | target down | B of A Securities Maintains Buy on Advanced Micro Devices, Lowers Price Target to $650 |
 | 11-03 16:32 | GS | target up | Goldman Sachs Maintains Tyler Technologies at Neutral, Raises Price Target |
 | 11-03 16:32 | GS | upgrade | Goldman Sachs Upgrades Sirius XM Holdings to Buy |
+| 11-04 11:48 | TSLA |  | Elon Musk Gets Double Miss From 2026 Midterm Elections: $474 Million Donated, Net Worth Drops by $23 Billion |
 | 11-04 11:30 | GOOGL |  | Google's Latest AI Model Nearly Matches Anthropic at One-Third the Cost: Report |
 | 11-04 11:12 | HOOD |  | SkyFi Launches Satellite Intelligence On Robinhood Agents, Providing Access To BlackSky Imagery Across 24 Monitored Sites |
 | 11-04 11:01 | WMT |  | Fresh Step Fleur de Purr Launches Exclusively at Walmart.com |

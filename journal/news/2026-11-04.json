@@ -1,7 +1,27 @@
 {
- "as_of": "2026-11-04T11:32-05:00",
+ "as_of": "2026-11-04T12:03-05:00",
  "since": "2026-11-03T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-04 11:48",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Gets Double Miss From 2026 Midterm Elections: $474 Million Donated, Net Worth Drops by $23 Billion",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/62875824/elon-musk-gets-double-miss-from-2026-midterm-elections-474-million-donated-net-worth-drops-by-23-billion"
+  },
+  {
+   "time": "11-04 11:46",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "target down",
+   "headline": "Wells Fargo Maintains Overweight on Advanced Micro Devices, Lowers Price Target to $650",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62875724/wells-fargo-maintains-overweight-advanced-micro-devices-lowers-price-target-650"
+  },
   {
    "time": "11-04 11:30",
    "symbols": [
