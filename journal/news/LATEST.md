@@ -1,9 +1,13 @@
-# Headlines since 2026-11-03 16:00 ET (as of 2026-11-04 07:42 ET)
+# Headlines since 2026-11-03 16:00 ET (as of 2026-11-04 10:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-04 09:34 | AMD | rating | Wedbush Reiterates Outperform on Advanced Micro Devices, Maintains $600 Price Target |
+| 11-04 09:19 | AMD | rating | StoneX Reiterates Buy on Advanced Micro Devices, Maintains $685 Price Target |
+| 11-04 08:33 | AMD | target up | DA Davidson Maintains Buy on Advanced Micro Devices, Raises Price Target to $600 |
+| 11-04 08:25 | AMD | rating | Keybanc Reiterates Overweight on Advanced Micro Devices, Maintains $725 Price Target |
 | 11-04 07:27 | AMD | target down | Mizuho Maintains Outperform on Advanced Micro Devices, Lowers Price Target to $610 |
 | 11-04 07:04 | SMCI | target up | B of A Securities Maintains Underperform on Super Micro Computer, Raises Price Target to $39 |
 | 11-04 07:00 | AMD | rating | Cantor Fitzgerald Reiterates Overweight on Advanced Micro Devices, Maintains $700 Price Target |
@@ -14,6 +18,21 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-04 06:29 | AMD | target down | B of A Securities Maintains Buy on Advanced Micro Devices, Lowers Price Target to $650 |
 | 11-03 16:32 | GS | target up | Goldman Sachs Maintains Tyler Technologies at Neutral, Raises Price Target |
 | 11-03 16:32 | GS | upgrade | Goldman Sachs Upgrades Sirius XM Holdings to Buy |
+| 11-04 09:53 | GOOGL |  | Why Is TeraWulf Trending Wednesday? |
+| 11-04 09:50 | AMD INTC |  | AMD Is Growing Twice as Fast as Intel. Here's Where the Gap Is Coming From |
+| 11-04 09:32 | SMCI |  | Analysts Adjust Price Targets for Super Micro Computer Following Q1 Results |
+| 11-04 09:32 | V |  | Verifone Integrates Visa's Featurespace Solution into Anti-Fraud Framework |
+| 11-04 09:32 | V |  | Visa Joins Emirates NBD's NDTI AI Accelerator Program |
+| 11-04 09:31 | LITE |  | Needham Adjusts Price Target for Lumentum Holdings Inc. |
+| 11-04 09:31 | CAT |  | Analyst Adjusts Caterpillar Price Target |
+| 11-04 09:31 | BAC |  | Bank of America Discloses Position in easyJet |
+| 11-04 09:31 | UNH |  | UnitedHealth Group Board Authorizes Payment of Quarterly Dividend |
+| 11-04 09:18 | GOOGL |  | Google Cloud Rolls Out AlloyDB Express Preview, PostgreSQL Service For Developers & AI Coding Agents |
+| 11-04 09:00 | TSLA |  | 'Lmao': Elon Musk's $250M Texas Senate Gamble Was 'Stupid,' Says Polymarket Whale |
+| 11-04 08:35 | LLY |  | Novo Nordisk Raises 2026 Outlook As Wegovy Pill Shines |
+| 11-04 08:16 | GOOGL |  | TeraWulf Executes Credit Support Agreement With Google Regarding Debt Financing Supporting ~$19B Of Contracted Lease Commitments With Anthropic |
+| 11-04 08:02 | TSLA |  | Tesla Accused of Misleading Marketing of Full Self-Driving in South Korea |
+| 11-04 07:44 | AMD |  | These Analysts Revise Their Forecasts On AMD After Q3 Results |
 | 11-04 07:32 | COIN |  | Coinbase Resumes Staking Services in New Jersey Following Regulatory Resolution |
 | 11-04 07:31 | ORCL |  | Oracle Cancels $7 Billion Tencent AI Chip-Leasing Deal |
 | 11-04 07:31 | XOM |  | TD Cowen Adjusts Price Target on Exxon Mobil to $193 |
@@ -23,7 +42,6 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-04 07:31 | PLTR |  | Palantir Announces Partnership with Changshin |
 | 11-04 07:29 | NVDA |  | Drugmaker CEOs Say AI Alone Can't Cure Diseases, Challenge Silicon Valley's Bold Predictions: 'To Say AI Is Going to Cure Cancer...' |
 | 11-04 07:23 | NVDA |  | Navitas Semiconductor CEO Sees AI Infrastructure Business Tripling in 2027 |
-| 11-04 07:07 | TSLA |  | Uber Expect To Scale Autonomous Deployments Significantly, Deploying 2K+ Fully Driverless Vehicles By The End Of 2027, Roughly Half In The U.S. And Half Internationally |
 | 11-04 06:50 | GOOGL |  | Bernie Sanders Accuses Google of 'Extortion' Over AI Use in Schools, Says Tech Giants Can't Be Trusted to Regulate Themselves |
 | 11-04 06:37 | AMZN |  | Amazon, Pfizer, Eaton And A Financial Stock On CNBC’s ‘Final Trades’ |
 | 11-04 06:32 | TSLA |  | Tesla Faces Allegations of Misleading Marketing for Full Self-Driving in South Korea |

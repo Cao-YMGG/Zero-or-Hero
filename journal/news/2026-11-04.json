@@ -1,7 +1,198 @@
 {
- "as_of": "2026-11-04T07:42-05:00",
+ "as_of": "2026-11-04T10:02-05:00",
  "since": "2026-11-03T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-04 09:53",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Why Is TeraWulf Trending Wednesday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62868304/why-is-terawulf-trending-wednesday"
+  },
+  {
+   "time": "11-04 09:50",
+   "symbols": [
+    "AMD",
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "AMD Is Growing Twice as Fast as Intel. Here's Where the Gap Is Coming From",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/space/26/11/62868028/amd-growing-faster-than-intel"
+  },
+  {
+   "time": "11-04 09:34",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "rating",
+   "headline": "Wedbush Reiterates Outperform on Advanced Micro Devices, Maintains $600 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62866291/wedbush-reiterates-outperform-advanced-micro-devices-maintains-600-price-target"
+  },
+  {
+   "time": "11-04 09:32",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Analysts Adjust Price Targets for Super Micro Computer Following Q1 Results",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/social-buzz-wallstreetbets-stocks-mostly-higher-premarket-wednesday-super-micro-computer-amd-to-a-ce785fdfdb89f123"
+  },
+  {
+   "time": "11-04 09:32",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Verifone Integrates Visa's Featurespace Solution into Anti-Fraud Framework",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/04/3395251/0/en/verifone-adds-adaptive-anti-fraud-screening-powered-by-visa.html"
+  },
+  {
+   "time": "11-04 09:32",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Joins Emirates NBD's NDTI AI Accelerator Program",
+   "source": "fiscal.ai",
+   "url": "https://gecnewswire.com/emirates-nbd-evolves-ndti-into-ai-accelerator-for-emirati-smes/"
+  },
+  {
+   "time": "11-04 09:31",
+   "symbols": [
+    "LITE"
+   ],
+   "rating": "",
+   "headline": "Needham Adjusts Price Target for Lumentum Holdings Inc.",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/gelonghui:52e1d9211e3f9:0/"
+  },
+  {
+   "time": "11-04 09:31",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "Analyst Adjusts Caterpillar Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1003503747/bernstein-maintains-caterpillar-catus-with-hold-rating-cuts-target-price"
+  },
+  {
+   "time": "11-04 09:31",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank of America Discloses Position in easyJet",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/rns/easyjet--ezj/20261103_easyjet-plc_8-3_uk_bac/9858266"
+  },
+  {
+   "time": "11-04 09:31",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "UnitedHealth Group Board Authorizes Payment of Quarterly Dividend",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/health"
+  },
+  {
+   "time": "11-04 09:19",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "rating",
+   "headline": "StoneX Reiterates Buy on Advanced Micro Devices, Maintains $685 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62865584/stonex-reiterates-buy-advanced-micro-devices-maintains-685-price-target"
+  },
+  {
+   "time": "11-04 09:18",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Google Cloud Rolls Out AlloyDB Express Preview, PostgreSQL Service For Developers & AI Coding Agents",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62865494/google-cloud-rolls-out-alloydb-express-preview-postgresql-service-developers-ai-coding-agents"
+  },
+  {
+   "time": "11-04 09:00",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "'Lmao': Elon Musk's $250M Texas Senate Gamble Was 'Stupid,' Says Polymarket Whale",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62864448/musk-texas-gamble"
+  },
+  {
+   "time": "11-04 08:35",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Novo Nordisk Raises 2026 Outlook As Wegovy Pill Shines",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/11/62863179/novo-nordisk-raises-2026-outlook-as-wegovy-pill-shines"
+  },
+  {
+   "time": "11-04 08:33",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "target up",
+   "headline": "DA Davidson Maintains Buy on Advanced Micro Devices, Raises Price Target to $600",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62863068/da-davidson-maintains-buy-advanced-micro-devices-raises-price-target-600"
+  },
+  {
+   "time": "11-04 08:25",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "rating",
+   "headline": "Keybanc Reiterates Overweight on Advanced Micro Devices, Maintains $725 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62862666/keybanc-reiterates-overweight-advanced-micro-devices-maintains-725-price-target"
+  },
+  {
+   "time": "11-04 08:16",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "TeraWulf Executes Credit Support Agreement With Google Regarding Debt Financing Supporting ~$19B Of Contracted Lease Commitments With Anthropic",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62862382/terawulf-executes-credit-support-agreement-with-google-regarding-debt-financing-supporting-19b-of-contracted-lease-commitments-with-anthropic"
+  },
+  {
+   "time": "11-04 08:02",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Accused of Misleading Marketing of Full Self-Driving in South Korea",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/tesla-accused-of-misleading-marketing-of-full-self-driving-in-south-korea-ce785fdfd989f424"
+  },
+  {
+   "time": "11-04 07:44",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "These Analysts Revise Their Forecasts On AMD After Q3 Results",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62860971/these-analysts-revise-their-forecasts-on-amd-after-q3-results"
+  },
   {
    "time": "11-04 07:32",
    "symbols": [
@@ -101,16 +292,6 @@
    "headline": "Navitas Semiconductor CEO Sees AI Infrastructure Business Tripling in 2027",
    "source": "benzinga",
    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62859781/navitas-semiconductor-ceo-sees-ai-infrastructure-business-tripling-in-2027"
-  },
-  {
-   "time": "11-04 07:07",
-   "symbols": [
-    "TSLA"
-   ],
-   "rating": "",
-   "headline": "Uber Expect To Scale Autonomous Deployments Significantly, Deploying 2K+ Fully Driverless Vehicles By The End Of 2027, Roughly Half In The U.S. And Half Internationally",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/62859033/uber-expect-scale-autonomous-deployments-significantly-deploying-2k-fully-driverless-vehicles-end-20"
   },
   {
    "time": "11-04 07:04",
