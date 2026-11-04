@@ -1,0 +1,139 @@
+{
+  "date": "2026-11-04",
+  "bias": "none",
+  "confidence": 0.25,
+  "p_up": 0.54,
+  "summary": "Day after the midterms: Democrats took both chambers, futures fell as much as 1.4% overnight and then reversed; at 07:42 ET SPY is +0.9% pre-market, QQQ +0.4%, IWM +1.4%, with the election rotation on top of the month's rotation: banks, health care, staples and small caps bid (XLF +1.5%, XLV +1.8%, XLP +1.5%), AI-capex and Musk-linked names sold (TSLA -5.8%, GEV -6.3%, ORCL -4.2% after cancelling its $7B Tencent deal under White House pressure, PLTR -3.8%). AMD gave back nearly all of its +8.6% after-hours pop (+0.9%) despite a beat and a $17B guide: the chip complex is flat to red (SMH -0.4%, MU -1.7%, INTC -2.6%, SNDK downgraded). ADP 08:15, trade 08:30, ISM services 10:00, ARM reports tonight. The night-down-then-pre-market-recovery lean (OVERNIGHT.md, 59% up) and the broad bid outside tech argue for a small up lean, the size of the gap and the lack of a mechanical edge on event days argue against trading it: p_up 0.54, none (08:31: ADP +86K vs 69K, SPY +0.9% but QQQ only +0.3%, SMH -1.3%, AMD flat after a +9.6% after-hours pop). No sniper: the names moving up have no news of their own (AMZN +3.6% with no headline found, MSFT +2.0%, LLY +2.0%), the names with fresh news are negatives (ORCL, TSLA, GEV) on a none day, and AMD/ANET/SMCI are report-window names.",
+  "reasons": [
+    "Routine fired 07:41 ET; research 07:42-08:00; live numbers re-read after 08:30 (ADP 08:15, trade 08:30) before the call. news.yml dispatched 07:43; trade.yml to be dispatched at 08:30 (the bot exits when started earlier; the 08:45 cron is unreliable).",
+    "Election: CNN called the Senate for Democrats 23:35 ET (at least 51 seats; Ohio and Kansas flipped), NBC projects the House too (Jeffries as speaker). Futures fell as much as 1.4% on the night (ES low about 743.9 on SPY, QQQ low 668.96 = -2.4%) on AI-regulation and tax talk, then reversed: by 07:42 SPY 761.18 (+0.9% vs 754.35), QQQ 687.97 (+0.4%), IWM 283.74 (+1.4%). Reports: 10Y 4.92% (-3 bp from 4.95%), dollar at a five-week low (UUP -0.6%), gold +2%, WTI about 95.8 / Brent 102.8 (USO -1.6%), VIXY -4.4% (VIX about 17 by proxy).",
+    "Webull extended hours 07:42 ET (vs 11-03 close): SPY +0.9%, QQQ +0.4%, IWM +1.4%, XLF +1.5%, XLV +1.8%, XLP +1.5%, XLY +0.6%, XLE 0.0%, SMH -0.4%, TLT +0.4%, UUP -0.6%, USO -1.6%, VIXY -4.4%. Mega caps: AMZN +3.6%, MSFT +2.0%, LLY +2.0%, AAPL +1.5%, JPM +1.3%, META +1.0%, GOOGL +0.9%, AMD +0.9%, NVDA +0.1%, AVGO -0.2%, MU -1.7%, UNH -1.8%, MRVL -1.9%, INTC -2.6%, PLTR -3.8%, ORCL -4.2%, TSLA -5.8%, GEV -6.3%; ANET +7.5% and SMCI +3.4% on their reports.",
+    "AMD (reaction day, excluded today): Q3 revenue $13.38B vs $13.09B, EPS $2.09 vs $1.95, Q4 guide about $17B vs $16.2B, 2027 revenue growth 'more than 80%', but PC units to fall double digits in 2027; after hours it went 483.9 -> 530 (+9.6%) and is 488.3 (+0.9%) at 07:42 after Mizuho and B of A trimmed targets (610, 650) and Stifel raised (725). The dossier says the up gap on AMD continues 64% of the time but buying calls at 09:45 lost (-40%/trade, too much priced); the PC comment is a negative read-through for INTC (-2.6%) and memory (MU -1.7%, SNDK -1.4%, downgraded to Equal-Weight by Fox Advisors).",
+    "ORCL -4.2% (120.9): FT 01:13 'Oracle cancels $7bn Tencent AI deal under Trump pressure' (Benzinga 06:31/07:31): a fresh negative of its own on the day after a +5.8% squeeze; plus the election. Not a sniper: puts need a SPY put day, and the gap is over 4%. TSLA -5.8% (375.6) on the election (Musk's $366M GOP spending; Texas Senate and governor flipped, the governor-elect talks of a data-center moratorium) and a Korean FSD complaint; GEV -6.3% on the moratorium talk; PLTR -3.8% day two after its report. All three are puts on a none day: opportunities, not picks.",
+    "AMZN +3.6% (259.7) with no headline found (Benzinga feed, Webull search, two web searches): the Anthropic IPO (expected the week of 11-16, Amazon's notes marked at $146B) and Josh Brown's 'final trade' are the only threads. A mega cap +2% with no visible headline is a question: searched and still unexplained, so it is not a sniper (no catalyst of its own, gap over 3%, median target $330 leaves room but that is not news). MSFT +2.0% and LLY +2.0% likewise have no own news this morning (LLY's targets were raised 10-30; DZ Bank downgraded AAPL and XOM to Sell, downgrades do not carry per ANALYST.md).",
+    "Rating changes on mega caps this morning: none positive. DZ Bank cut AAPL and XOM to Sell; Fox Advisors cut SNDK; AMD targets mixed; B of A raised SMCI's target while keeping Underperform. Barclays upgraded BE to Overweight ($289) and JPM upgraded NET: outside the sniper universe (no same-day options, not mega caps), BE noted as an opportunity type only if a pre-market price is visible later.",
+    "Oil: WTI about 95.8 (USO -1.6%) after the Iran-talks drop on 11-02 and a bounce on 11-03; XLE flat pre-market, XOM downgraded. Yields: 10Y 4.92% (-3 bp), 2Y not confirmed this morning (4.56% at the 11-03 close per the other Claude's file); TLT +0.4%. Dollar -0.6% (five-week low per press). Lower yields and a weaker dollar with an equity bid is the 'Democratic sweep = less fiscal expansion, more regulation of AI' read; whether it survives the cash open is the question.",
+    "Macro today: ADP 08:15 (consensus 69K vs 90K), trade balance 08:30, S&P services PMI 09:45, ISM services 10:00 (consensus 54.8 vs 54.9; prices paid 74.0 prior), Dallas Fed's Logan 19:00; no coupon auction; jobs report Friday. Not a configured release day for the bot's macro filter (config/macro_events.json has nothing for 11-04).",
+    "Rebound_scanner universe down gaps >= 2% at 07:42: TSLA -5.8%, GEV -6.3%, ORCL -4.2%, PLTR -3.8%, INTC -2.6%; leader_follow at 09:45 will likely take AMZN or ANET (ANET reported, so the bot refuses it). meta_follow2 can fire (Wednesday) if META is >= 2% from its open after 30 minutes. nvda_gapdown_put: no (NVDA flat). stock_open_drive (Mon/Wed): TSLA or NVDA >= +0.8% from the open at 10:00. spy_open_drive: SPY >= +0.5% above its open at 10:00.",
+    "Why none: the gap is the election, which is priced at the open; QQQ lags SPY by half a point and the AI complex is red while value is bid, so the index direction depends on which side has more weight in the first hour; the overnight pattern (night down >= 0.3%, pre-market up >= 0.2%) leans up 59% (32 days) but with an average of +0.66% that the +0.9% gap may already contain. A call needs 0.60; p_up 0.55. Dossiers: AMD reaction day, nothing to trade; META no own catalyst (debut euro bond sale is financing, the type that fades).",
+    "08:31 re-read (Webull extended hours) after ADP +86K vs 69K (prior 90K) and the trade deficit $105.0B vs $108B: SPY 761.02 (+0.88%), QQQ 687.15 (+0.27%, down from +0.4%), IWM +1.6%, XLF +1.7%, XLV +2.2%, XLP +2.1%, XLY +1.6%, XLE -0.4%, SMH -1.3% (from -0.4%), TLT flat (the 07:42 bid is gone after the stronger ADP), UUP -0.7%, USO -2.2%, VIXY -4.7%. Stocks: AMZN +3.7%, LLY +2.3%, MSFT +2.1%, AAPL +1.6%, JPM +1.5%, GOOGL +0.6%, META +0.3% (from +1.0%), AMD 0.0% (all of the after-hours gain gone), NVDA -1.2%, AVGO -1.1%, MU -2.5%, INTC -2.5%, MRVL -3.2%, UNH -1.8%, ORCL -3.8%, PLTR -4.6%, TSLA -4.6%, GEV -6.2%. The split sharpened: value, health care and small caps stronger, the whole AI complex weaker, QQQ's lead over the close down to a quarter point. The index gap is carried by about a third of its weight while the other third is red at the open, so the open-to-close is a tug of war with no base rate: p_up 0.54, none. No rating change on a mega cap appeared between 07:42 and 08:31; sniper stays null."
+  ],
+  "events": [
+    "Democrats win the Senate (CNN 23:35 ET) and the House (NBC projection); futures -1.4% overnight, reversed",
+    "AMD beat and guided $17B; +9.6% after hours, +0.9% pre-market; ARM reports tonight",
+    "Oracle cancels its $7B Tencent chip-leasing deal under White House pressure (FT)",
+    "ADP 08:15, trade 08:30, ISM services 10:00 ET; jobs report Friday",
+    "Tesla -5.8%, GE Vernova -6.3% on the Texas results and data-center moratorium talk",
+    "DZ Bank downgrades Apple and Exxon to Sell; Fox Advisors downgrades SanDisk"
+  ],
+  "inputs": {
+    "es_futures_pct": 0.9,
+    "vix": null,
+    "wti_pct": -2.2,
+    "us10y": 4.92,
+    "us10y_change_bp": -3,
+    "us2y_change_bp": null,
+    "dxy_pct": -0.7,
+    "vixy_pct": -4.7,
+    "overnight": "Night session (Webull overnight, 00:43 ET): SPY -0.4% (low -1.4%), QQQ -0.45% (low -2.4%), SMH -0.2% (low -3.4%), TSLA -3.8%, AMD +6.6%. Webull extended hours 07:42 ET: SPY +0.9%, QQQ +0.4%, IWM +1.4%, SMH -0.4%, TLT +0.4%, USO -1.6% (wti_pct is USO; WTI about 95.8 per press), UUP -0.6% (dxy_pct is UUP), VIXY -4.4%. es_futures_pct is SPY's pre-market change. 08:31 re-read: SPY +0.88%, QQQ +0.27%, IWM +1.6%, SMH -1.3%, XLF +1.7%, XLV +2.2%, TLT 0.0%, UUP -0.7%, USO -2.2%, VIXY -4.7%; ADP +86K vs 69K."
+  },
+  "rotation": {
+    "heating": [
+      "health care (XLV 1-week +2.7%, 1-month +9.9%; LLY +10%/+23%, UNH -1%/+7%) and today +1.8% pre-market",
+      "consumer / staples (XLY +1.6%/+6.3%, XLP +2.1%/+9.8%; WMT +5%/+19%, HD +5%/+19%, COST +3%/+11%)",
+      "banks (XLF +2.3%/+6.1%; JPM +1%/+2%) and small caps today (IWM +1.4% pre-market, -0.1%/-1.3% before)",
+      "industrials split: GE +8%/+5% vs CAT -13%/-26%"
+    ],
+    "cooling": [
+      "CPU (AMD -14% in a week/-23% in a month, INTC -35%/-48%, ARM -11%/-33%); AMD's beat did not hold after hours",
+      "optical (LITE -22%/-38%, CIEN -15%/-23%), memory (MU -8%/-20%, SNDK -14%/-34%), disk (WDC -9%/-21%, STX -9%/-32%)",
+      "GPU (NVDA -5%/-14%) and custom silicon (AVGO -3%/-8%, MRVL -27% in a week)",
+      "internet / AI capex (GOOGL -13%/-19%, META 0%/-16%, MSFT -2%/-1%, AMZN -1%/0%, AAPL -4%/0%)",
+      "power mixed (GEV +3%/-7% before today's -6%; VST -5%/-4%); energy on the week (XLE -2.2%/+5.1%)",
+      "ORCL -3%/-11%, PLTR -12%/-7%, TSLA -2%/+5% before today's -6%"
+    ],
+    "note": "Bars to the 11-03 close (Alpaca daily). The month's rotation out of AI hardware into health care, staples, retail and banks gets an election overlay today: the same winners are bid pre-market and the AI-capex and Musk-linked names are sold. AMD's beat not lifting the group (SMH -0.4%, memory and INTC down on its PC comment) says the theme is still cooling; a chip gap-down day inside a cooling theme is not the gap-up fade of item 30, so no mechanical read."
+  },
+  "sniper": null,
+  "opportunities": [
+    {
+      "type": "sector_move",
+      "symbol": "AMZN",
+      "direction": "call",
+      "time": "10:00",
+      "why": "+3.6% pre-market (259.7) with no headline found after four searches; the only threads are the Anthropic IPO (Amazon's notes marked at $146B) and a CNBC 'final trade'. Day's leader candidate at the open; median target $330. Not a sniper: no catalyst of its own and the gap is over 3%. Scored to learn whether an unexplained +3% pre-market leader holds",
+      "why_zh": "亚马逊盘前 +3.6%，查了四遍没找到自己的消息，只有 Anthropic 上市临近这条线。没有催化、跳空又超过 3%，不做狙击，只记录看它能不能守住",
+      "action": "none"
+    },
+    {
+      "type": "company_news",
+      "symbol": "ORCL",
+      "direction": "put",
+      "time": "10:00",
+      "why": "FT: Oracle cancelled its $7B Tencent AI chip-leasing deal under White House pressure; -4.2% pre-market (120.9) the day after a +5.8% squeeze on the priced offering. A fresh negative of its own, but puts need a SPY put day and the gap is over 4%",
+      "why_zh": "FT 报道甲骨文在白宫压力下取消了 70 亿美元的腾讯 AI 芯片租赁协议，盘前 -4.2%，昨天刚因为增发落地涨了 5.8%。自己的利空是真的，但今天不是看跌日、跳空也超过 4%，只记录",
+      "action": "none"
+    },
+    {
+      "type": "sector_move",
+      "symbol": "TSLA",
+      "direction": "put",
+      "time": "10:00",
+      "why": "-5.8% pre-market (375.6) on the election: Musk spent about $366M for the GOP, Texas flipped its Senate seat and governorship, the governor-elect talks of a data-center moratorium; plus a Korean consumer-group FSD complaint. Political selloff with news behind it; not a put day, gap over 4%",
+      "why_zh": "特斯拉盘前 -5.8%：马斯克押共和党输了，德州参议员和州长都翻蓝，新州长说要暂停数据中心；还有韩国的 FSD 投诉。有消息的政治性下跌，但不是看跌日、跳空超过 4%，只记录",
+      "action": "none"
+    },
+    {
+      "type": "sector_move",
+      "symbol": "GEV",
+      "direction": "put",
+      "time": "10:00",
+      "why": "-6.3% pre-market (860) after +6.5% yesterday on the HSBC upgrade: the Texas governor-elect's data-center moratorium talk hits the power build-out names. Not a put day; scored as the mirror of yesterday's missed call",
+      "why_zh": "GE Vernova 昨天因汇丰上调涨 6.5%，今天盘前 -6.3%：德州新州长的数据中心暂停令说法打在电力建设股上。不是看跌日，只记录",
+      "action": "none"
+    },
+    {
+      "type": "earnings_reaction",
+      "symbol": "AMD",
+      "direction": "put",
+      "time": "10:00",
+      "why": "Reaction day (excluded from picks): beat and $17B guide, +9.6% after hours, +0.9% at 07:42 after target trims; 'PC units down double digits in 2027'. Scored to build the sell-the-news sample on reaction days (RUNUP.md 43% up; AMD dossier median reaction -6.8%)",
+      "why_zh": "AMD 财报反应日，规则不做：超预期、指引 170 亿，盘后一度 +9.6%，盘前只剩 +0.9%。只记录，攒「利好出尽」的样本",
+      "action": "none"
+    },
+    {
+      "type": "peer_readthrough",
+      "symbol": "INTC",
+      "direction": "put",
+      "time": "10:00",
+      "why": "AMD's 'PC market down double digits in 2027' is Intel's problem first (72% of the INTC selloff last week was the PC guide); INTC -2.6% pre-market (59.0) in the most-cooling theme (CPU -35% in a week). Not a put day",
+      "why_zh": "AMD 说 2027 年 PC 出货双位数下滑，这首先是英特尔的问题；英特尔盘前 -2.6%，CPU 板块一周跌 35%。不是看跌日，只记录",
+      "action": "none"
+    },
+    {
+      "type": "peer_readthrough",
+      "symbol": "MU",
+      "direction": "put",
+      "time": "10:00",
+      "why": "Memory down with the PC comment and the SNDK downgrade (Fox Advisors to Equal-Weight): MU -1.7% (840.6), SNDK -1.4%; memory -27% in a month. Yesterday's Apple read-through call faded (-0.6% open to close). Not a put day",
+      "why_zh": "内存跟着 AMD 的 PC 评论和闪迪被下调一起跌：美光盘前 -1.7%，内存板块一个月 -27%。昨天的「苹果内存读穿」看涨也没守住。不是看跌日，只记录",
+      "action": "none"
+    },
+    {
+      "type": "rotation_laggard",
+      "symbol": "JPM",
+      "direction": "call",
+      "time": "10:00",
+      "why": "Banks +1.5% pre-market (XLF) on the election with no own news; JPM +1.3% (342.5), 1-month +2% while the market fell. Rotation flow, not a catalyst: scored to see whether the election bid in financials holds to the close",
+      "why_zh": "银行股盘前 +1.5%，摩根大通 +1.3%，是选举后的轮动买盘，不是自己的消息。只记录看能不能守到收盘",
+      "action": "none"
+    }
+  ],
+  "generated_at": "2026-11-04T08:32:20-05:00",
+  "zh": {
+    "summary": "中期选举民主党拿下参众两院，期货夜里一度跌 1.4%，到早上反过来了：7:42 标普 ETF 盘前 +0.9%，纳指 ETF 只 +0.4%，小盘 +1.4%。钱的流向和这一个月一样再加一层选举：银行、医疗、必需消费、小盘被买，AI 基建和马斯克系被卖（特斯拉 -5.8%，GE Vernova -6.3%，甲骨文取消 70 亿腾讯协议 -4.2%，Palantir -3.8%）。AMD 财报超预期、盘后一度 +9.6%，到盘前只剩 +0.9%，芯片板块整体平到跌。8:15 ADP、8:30 贸易、10:00 ISM 服务业，今晚 ARM 财报。08:31 再看：ADP 新增 8.6 万好于预期的 6.9 万，标普 ETF 盘前 +0.9% 但纳指 ETF 只 +0.3%，半导体 ETF -1.3%，AMD 盘后的涨幅全吐光。上涨概率 54%，不够 60% 的线，今天不做 SPY。",
+    "sniper": "今天不选。涨的几只没有自己的消息（亚马逊 +3.6% 查不到原因、微软 +2%、礼来 +2%）；有消息的都是利空（甲骨文、特斯拉、GE Vernova），而今天不是看跌日；AMD、Arista、Super Micro 在财报窗口里。",
+    "heating": "医疗（礼来一个月 +23%）、必需消费和零售（沃尔玛、家得宝 +19%）、银行、今天的小盘股",
+    "cooling": "AI 硬件全线：CPU（AMD、英特尔、ARM）、光模块、内存、硬盘、英伟达；互联网巨头的 AI 开支股；今天加上电力建设（GE Vernova）和甲骨文、Palantir、特斯拉"
+  }
+}
