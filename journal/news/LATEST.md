@@ -1,9 +1,11 @@
-# Headlines since 2026-11-03 16:00 ET (as of 2026-11-04 10:32 ET)
+# Headlines since 2026-11-03 16:00 ET (as of 2026-11-04 11:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-04 10:45 | AMD | target up | Truist Securities Maintains Buy on Advanced Micro Devices, Raises Price Target to $605 |
+| 11-04 10:44 | VST | downgrade | Keybanc Downgrades Vistra to Sector Weight |
 | 11-04 09:34 | AMD | rating | Wedbush Reiterates Outperform on Advanced Micro Devices, Maintains $600 Price Target |
 | 11-04 09:19 | AMD | rating | StoneX Reiterates Buy on Advanced Micro Devices, Maintains $685 Price Target |
 | 11-04 08:33 | AMD | target up | DA Davidson Maintains Buy on Advanced Micro Devices, Raises Price Target to $600 |
@@ -18,6 +20,14 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-04 06:29 | AMD | target down | B of A Securities Maintains Buy on Advanced Micro Devices, Lowers Price Target to $650 |
 | 11-03 16:32 | GS | target up | Goldman Sachs Maintains Tyler Technologies at Neutral, Raises Price Target |
 | 11-03 16:32 | GS | upgrade | Goldman Sachs Upgrades Sirius XM Holdings to Buy |
+| 11-04 11:01 | WMT |  | Fresh Step Fleur de Purr Launches Exclusively at Walmart.com |
+| 11-04 11:01 | WMT |  | Coaqua Launches Nationwide at Walmart |
+| 11-04 11:01 | XOM |  | ExxonMobil to Participate in Asopos-1 Offshore Drilling in Greece |
+| 11-04 11:01 | NVDA |  | ModelOp Integrates AI Governance with NVIDIA OpenShell |
+| 11-04 11:01 | ORCL |  | Chubu Electric Power Grid Reaches Milestone with Oracle Utilities |
+| 11-04 11:01 | JPM |  | JPMorgan Chase Launches Receivables Matching Solution |
+| 11-04 10:45 | INTC NVDA |  | Intel Stock Implodes, Sheds $434 Billion in 4 Months |
+| 11-04 10:42 | AAPL NVDA |  | Coherent Earnings Prediction Market Preview: What Will Jim Anderson Say? |
 | 11-04 10:02 | AAPL |  | What Is Going On With Apple Stock on Wednesday? |
 | 11-04 09:53 | GOOGL |  | Why Is TeraWulf Trending Wednesday? |
 | 11-04 09:50 | AMD INTC |  | AMD Is Growing Twice as Fast as Intel. Here's Where the Gap Is Coming From |

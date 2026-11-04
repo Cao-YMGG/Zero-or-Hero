@@ -1,7 +1,109 @@
 {
- "as_of": "2026-11-04T10:32-05:00",
+ "as_of": "2026-11-04T11:02-05:00",
  "since": "2026-11-03T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-04 11:01",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Fresh Step Fleur de Purr Launches Exclusively at Walmart.com",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/fresh-step-debuts-fleur-de-purr-bringing-fine-fragrance-inspired-luxury-to-the-litter-box-302928987.html"
+  },
+  {
+   "time": "11-04 11:01",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Coaqua Launches Nationwide at Walmart",
+   "source": "fiscal.ai",
+   "url": "https://www.cpgmedia.com/newswire"
+  },
+  {
+   "time": "11-04 11:01",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "ExxonMobil to Participate in Asopos-1 Offshore Drilling in Greece",
+   "source": "fiscal.ai",
+   "url": "https://www.euro2day.gr/amp/news/enterprises/article/2376706/energean-pontarei-sto-ionio-me-symmaho-thn-exxonmo.html"
+  },
+  {
+   "time": "11-04 11:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "ModelOp Integrates AI Governance with NVIDIA OpenShell",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/04/3395334/0/en/modelop-unveils-industry-first-full-stack-ai-policy-enforcement-with-nvidia-openshell.html"
+  },
+  {
+   "time": "11-04 11:01",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Chubu Electric Power Grid Reaches Milestone with Oracle Utilities",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/chubu-electric-power-grid-launches-10-millionth-smart-meter-with-oracle-302929240.html"
+  },
+  {
+   "time": "11-04 11:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Launches Receivables Matching Solution",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/zacks:d93e37259094b:0-how-will-automation-and-kinexys-drive-jpmorgan-s-payments-growth/"
+  },
+  {
+   "time": "11-04 10:45",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "target up",
+   "headline": "Truist Securities Maintains Buy on Advanced Micro Devices, Raises Price Target to $605",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62871315/truist-securities-maintains-buy-advanced-micro-devices-raises-price-target-605"
+  },
+  {
+   "time": "11-04 10:45",
+   "symbols": [
+    "INTC",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Intel Stock Implodes, Sheds $434 Billion in 4 Months",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62871314/intel-stock-implodes-sheds-434-billion-in-4-months"
+  },
+  {
+   "time": "11-04 10:44",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "downgrade",
+   "headline": "Keybanc Downgrades Vistra to Sector Weight",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62871264/keybanc-downgrades-vistra-sector-weight"
+  },
+  {
+   "time": "11-04 10:42",
+   "symbols": [
+    "AAPL",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Coherent Earnings Prediction Market Preview: What Will Jim Anderson Say?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62871152/coherent-earnings-preview"
+  },
   {
    "time": "11-04 10:02",
    "symbols": [
