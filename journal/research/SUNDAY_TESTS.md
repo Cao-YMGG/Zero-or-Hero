@@ -166,6 +166,25 @@ in EVOLUTION.md.
     re-run when the sample reaches 15 failed days. Note the rule picks the weakest chip, which on 11-02
     was MRVL (not MU): its put did +178% live.
 
+41. **Two-month call verticals, the owner's parameters (2026-11-04, VERTICALS.md, zoh/research/verticals.py).** First pass:
+   `dip` (20 sessions after a turning fire) +10% on debit over two years (127, 56% win, +7% without the best two), `fire` -1%,
+   `heat` -7%, control -3%; chips dip +17% (27). Next: hold 45 and 60 sessions instead of 30 (57 of 127 dips left on the time
+   stop), dip at 10 / 30 sessions after the fire, split entries with an earnings date inside the window from those without,
+   ETF spreads with $5-wide strikes only, and the put-vertical mirror on `heat` (the trend entry lost in every window).
+42. **The 11:30 check-in (2026-11-04).** Three sessions in a row the put mirror armed between 10:45 and 11:30 (11-02 MU,
+   11-03 SMH briefly, 11-04 MU/MRVL) and neither the 10:16 nor the 13:16 check saw it. Extend bounce.py: CHECK at 11:30 and
+   "any day SMH crosses below its open between 10:30 and 11:30" (not only cooling-theme gap-ups), 0.20-delta put from 11:33,
+   live / hold / stock-stop exits, 2 years; count how many picks per month it would add and what the 13:16 check would have
+   found instead. Decide the extra routine on that number.
+43. **Theme-state filter, forward test (2026-11-04, THEMES.md).** From 11-05 every sniper and intraday pick carries the
+   theme state at entry in its file; after 20 trades compare call results in heating / neutral / turning with the
+   backtest's 57% / 34% / 21%. Also the rebound_scanner retirement watch: the variant has 12 trades (42% win, -14% avg,
+   real -$196), the family 20 (rebound_scanner_wide 6, _any 2); the gate is per variant, so it retires at 20.
+44. **Ops: two Trade runs overlapped 15:32-15:48 on 11-04** (the 08:31 dispatch run and the late scheduled run 70) although the
+   workflow's concurrency group is `trade` with cancel-in-progress false; both tried to sell the same contracts and the
+   already-sold guard kept the journal right. Check GitHub's queueing semantics for dispatch vs schedule and add a lease in
+   state.json (a `running` stamp refreshed every loop; a second bot exits when it is fresh).
+
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
   live entry) and intraday pick (10) since 10-01 on real option minute bars, 10% costs each way. Snipers,
