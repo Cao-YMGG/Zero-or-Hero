@@ -1,7 +1,27 @@
 {
- "as_of": "2026-11-04T14:15-05:00",
+ "as_of": "2026-11-04T14:46-05:00",
  "since": "2026-11-03T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-04 14:23",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "target up",
+   "headline": "JP Morgan Maintains Neutral on Advanced Micro Devices, Raises Price Target to $575",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62882826/jp-morgan-maintains-neutral-advanced-micro-devices-raises-price-target-575"
+  },
+  {
+   "time": "11-04 14:20",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "target up",
+   "headline": "TD Cowen Maintains Buy on ExxonMobil Holdings, Raises Price Target to $193",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62882687/td-cowen-maintains-buy-exxonmobil-holdings-raises-price-target-193"
+  },
   {
    "time": "11-04 14:02",
    "symbols": [

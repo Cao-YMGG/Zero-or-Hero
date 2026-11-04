@@ -1,9 +1,11 @@
-# Headlines since 2026-11-03 16:00 ET (as of 2026-11-04 14:15 ET)
+# Headlines since 2026-11-03 16:00 ET (as of 2026-11-04 14:46 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-04 14:23 | AMD | target up | JP Morgan Maintains Neutral on Advanced Micro Devices, Raises Price Target to $575 |
+| 11-04 14:20 | XOM | target up | TD Cowen Maintains Buy on ExxonMobil Holdings, Raises Price Target to $193 |
 | 11-04 14:01 | SNDK | initiate | Bernstein Initiates Coverage on SanDisk with Buy Rating |
 | 11-04 13:42 | PLTR | target up | Barclays Maintains Overweight on Palantir Technologies, Raises Price Target to $273 |
 | 11-04 12:30 | AMD | target up | Morgan Stanley Maintains Equal-Weight on Advanced Micro Devices, Raises Price Target to $550 |

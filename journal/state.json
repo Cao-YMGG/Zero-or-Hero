@@ -13,8 +13,8 @@
         "entry_price": 0.83,
         "peak": 1.01,
         "qty": 1,
-        "last": 0.07,
-        "last_time": "2026-11-04T14:15:45-05:00"
+        "last": 0.01,
+        "last_time": "2026-11-04T14:46:04-05:00"
       }
     },
     "leader_follow": {
@@ -27,8 +27,8 @@
         "entry_price": 0.86,
         "peak": 0.86,
         "qty": 1,
-        "last": 0.25,
-        "last_time": "2026-11-04T14:15:45-05:00"
+        "last": 0.22,
+        "last_time": "2026-11-04T14:46:04-05:00"
       }
     },
     "rebound_scanner": {
@@ -51,8 +51,8 @@
         "entry_price": 0.3,
         "peak": 0.3,
         "qty": 3,
-        "last": 0.01,
-        "last_time": "2026-11-04T14:15:45-05:00"
+        "last": 0.03,
+        "last_time": "2026-11-04T14:46:04-05:00"
       },
       "real": {
         "contract": "SPY261104C00773000",
@@ -72,8 +72,8 @@
         "entry_price": 0.27,
         "peak": 0.3,
         "qty": 3,
-        "last": 0.01,
-        "last_time": "2026-11-04T14:15:45-05:00"
+        "last": 0.03,
+        "last_time": "2026-11-04T14:46:04-05:00"
       }
     },
     "stock_open_drive": {
@@ -86,8 +86,8 @@
         "entry_price": 0.72,
         "peak": 2.39,
         "qty": 1,
-        "last": 0.96,
-        "last_time": "2026-11-04T14:15:45-05:00",
+        "last": 0.29,
+        "last_time": "2026-11-04T14:46:04-05:00",
         "banked": 1.125
       },
       "real": {
