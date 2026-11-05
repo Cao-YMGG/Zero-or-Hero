@@ -1,7 +1,7 @@
-# Review — 2026-11-04
+# Review — 2026-11-05
 
 - Champion: **rebound_scanner**
-- Equity: **$457.89** (phase zero-or-hero)
+- Equity: **$457.77** (phase zero-or-hero)
 - Real trades: 33, realised P&L $-478.00
 
 ## Shadow leaderboard (last 20 trades / all)
@@ -17,7 +17,7 @@
 | catalyst_open_hero | 0 | 0% | +0.0% | +0% | +0% | +0% | 0 | +0.0% |
 | catalyst_intraday_hero | 0 | 0% | +0.0% | +0% | +0% | +0% | 0 | +0.0% |
 | rebound_scanner 👑 | 7 | 43% | -17.7% | -124% | +188% | -100% | 7 | -17.7% |
-| leader_follow | 15 | 20% | -53.6% | -804% | +75% | -100% | 15 | -53.6% |
+| leader_follow | 16 | 19% | -56.0% | -896% | +75% | -100% | 16 | -56.0% |
 | spy_open_drive | 1 | 0% | -100.0% | -100% | -100% | -100% | 1 | -100.0% |
 | spy_open_drive_wide | 1 | 0% | -100.0% | -100% | -100% | -100% | 1 | -100.0% |
 
