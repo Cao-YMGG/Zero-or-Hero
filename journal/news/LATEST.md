@@ -1,4 +1,4 @@
-# Headlines since 2026-11-04 16:00 ET (as of 2026-11-05 10:32 ET)
+# Headlines since 2026-11-04 16:00 ET (as of 2026-11-05 11:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -14,6 +14,17 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-04 17:47 | AMD | target down | UBS Maintains Buy on Advanced Micro Devices, Lowers Price Target to $700 |
 | 11-04 16:32 | GS | upgrade | Goldman Sachs Upgrades Ibotta to Neutral from Sell, Raises Price Target to $58 |
 | 11-04 16:16 | XOM | target up | Citigroup Maintains Neutral on ExxonMobil Holdings, Raises Price Target to $175 |
+| 11-05 11:01 | WDC |  | Western Digital Corporation Provides Fiscal 2027 Financial Outlook |
+| 11-05 11:01 | AMD |  | IBM, AMD, and Oak Ridge National Laboratory Launch Quantum Error Correction Platform |
+| 11-05 11:01 | V |  | Tencent's TenPay Global Expands Partnerships with Global Card Networks |
+| 11-05 11:01 | INTC |  | Intel CEO Lip-Bu Tan Purchases $9.7 Million in Company Stock |
+| 11-05 11:01 | BAC |  | Bank of America Discloses Position in easyJet plc |
+| 11-05 11:01 | GS |  | Goldman Sachs International Discloses Connected-Party Trades for DCC Energy plc |
+| 11-05 11:01 | MSFT |  | Microsoft Announces $30 Billion Investment in U.K. Supercomputing Facility |
+| 11-05 11:01 | MSFT |  | Microsoft Declines Expansion of Data Center Agreement with Nscale |
+| 11-05 11:01 | MSFT |  | Microsoft Director Emma N. Walmsley to Step Down |
+| 11-05 10:59 | MU |  | QUICK SPARK: Micron Stock Drops Below 200-Day Moving Average for First Time Since May 2025 |
+| 11-05 10:56 | MSFT NVDA |  | "Microsoft Sours on Neoclouds Owing to Data Center Delays, Costs; Microsoft Is Tightening Oversight Of Some Data Center Projects From Nebius Group, IREN, And Nscale; IREN & Microsoft Officials Met And Negotiated Revised Timeline That May Push Back Texas Site’s Completion By Several Weeks Or Months" - Bloomberg Exclusive |
 | 11-05 10:14 | GOOGL |  | 'Google AI in School Triggered Teen’s Mental Health Crisis, Lawsuit Says' - Bloomberg |
 | 11-05 10:06 | META |  | Meta Platforms Rolling Out Events Home, Invitations For Non-Users On WhatsApp |
 | 11-05 10:05 | GE |  | Reported November 4, 2026: GE Aerospace Partners With BETA Technologies On World’s First Hybrid Electric Assisted Takeoff Of A Commercial Aircraft |
