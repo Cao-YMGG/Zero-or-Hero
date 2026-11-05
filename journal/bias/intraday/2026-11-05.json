@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-05",
+  "picks": [],
+  "conditional_1121": "Put mirror is armed in principle (SMH 466.9 at 10:17, -3.2% from its 482.51 open, -7.4% on the day; chips turning; QCOM/ARM the sector negative) but every chip except AVGO is already past the 3% line from its own open (NVDA -4.4%, AMD -6.2%, MU -6.3%, INTC -4.8%, MRVL -5.5%). For 11:21: if SMH is still below its open and has not reclaimed half of the 09:30-10:17 drop (above ~474), the weakest chip still within 3% of its own open is the put candidate (now AVGO 305.3, -2.1% from 312.00; outside a report window, nearest expiry 11-06); if the tape has bounced back toward the open, nothing. Call side: the defensive leaders (LLY +2.3%, ABBV +2.3%, CI +2.6%, COST +2.3%) gapped up and are flat from their opens, so no leader pick.",
+  "opportunities": [
+    {
+      "type": "sector_intraday",
+      "symbol": "AVGO",
+      "direction": "put",
+      "time": "10:20",
+      "why": "Mirror candidate for 11:21, not a 10:20 pick: SMH -3.2% from its open after the Qualcomm/Arm night and Kospi -5.3%; AVGO 305.3 is -2.1% from its 312.00 open (-6.2% on the day), the only mega-cap chip still inside the 3% line; nearest expiry 11-06, reports in December. Not picked now: the index is -2.0% from its open 47 minutes in, a broad liquidation rather than a fresh catalyst, and OPENDRIVE.md says puts bought below the open at 10:00 lost in every window (last 3 months -27% all-out at 3x, -47% held). The mirror's edge came from the 11:00 confirmation (11-02 MU), so it waits for 11:21.",
+      "why_zh": "博通是 11:21 的看跌候选，不是现在的：半导体 ETF 比开盘低 3.2%（高通、ARM 财报后，韩国 -5.3%），博通比开盘低 2.1%，是唯一还没过 3% 线的大盘芯片股。现在没选：指数开盘 47 分钟就跌了 2%，是全面清仓不是新消息，而且数据说 10:00 在开盘价下买看跌的历史是亏的。镜像的边来自 11:00 的确认，等 11:21 再看",
+      "action": "none"
+    },
+    {
+      "type": "sector_intraday",
+      "symbol": "NVDA",
+      "direction": "put",
+      "time": "10:20",
+      "why": "Weakest-leader read: NVDA 187.3, -4.4% from its 196.00 open and -6.4% on the day, 8 sessions before its report; past the 3% line, so an opportunity only. nvda_gapdown_put (real ledger) needed a -2% gap at the open and NVDA opened -2.1% (196.00 vs 200.13): check whether it fired at 10:00.",
+      "why_zh": "英伟达比开盘低 4.4%、当天 -6.4%，过了 3% 的线，只记录。英伟达低开看跌的真钱账本要求开盘低 2%，今天开盘正好 -2.1%，收盘后核对它有没有触发",
+      "action": "none"
+    },
+    {
+      "type": "sector_intraday",
+      "symbol": "AMD",
+      "direction": "put",
+      "time": "10:20",
+      "why": "AMD 424.4, -6.2% from its open and -13% on the day, day two after its report (allowed by the letter of the window rule, excluded by the 3% line). The dossier's 'down gap >= 2% bounces 58%' is being tested in a turning theme: open 452.64, low 422.19 so far.",
+      "why_zh": "AMD 比开盘低 6.2%、当天 -13%，过线，只记录。它档案里「低开 2% 以上 58% 会反弹」正在转向主题里被检验：开盘 452.6，目前最低 422.2",
+      "action": "none"
+    },
+    {
+      "type": "sector_move",
+      "symbol": "TSLA",
+      "direction": "put",
+      "time": "10:20",
+      "why": "TSLA 350.6, -6.3% from its 374.02 open and -9% on the day with no fresh headline since the open (the Musk / Democratic-Congress scrutiny stories are from last night); past the 3% line. Scored as the day's biggest mega-cap loser.",
+      "why_zh": "特斯拉比开盘低 6.3%、当天 -9%，开盘后没有新消息（马斯克和民主党国会的报道都是昨晚的），过线，只记录",
+      "action": "none"
+    },
+    {
+      "type": "company_news",
+      "symbol": "AMZN",
+      "direction": "call",
+      "time": "10:20",
+      "why": "The sniper did not fill: AMZN opened 271.64 (+2.1%) and was below its open within minutes, 258.6 at 10:17 (-4.8% from open, -2.8% on the day); the Uber Eats partnership was swallowed by the index. wrong_if (below the open at 10:00) triggered; catalyst_open correctly stayed out.",
+      "why_zh": "狙击没成交：亚马逊高开 2.1% 后几分钟就跌破开盘价，10:17 比开盘低 4.8%，Uber Eats 的消息被指数淹掉。「10:00 在开盘价下」的错误标志触发，机器人按规则没买",
+      "action": "none"
+    },
+    {
+      "type": "rotation_laggard",
+      "symbol": "LLY",
+      "direction": "call",
+      "time": "10:20",
+      "why": "Leader on the other side: LLY 1450.6 (+2.3% on the day, +1.4% from its 1431 open, a new 52-week high) while SPY is -2.1%; health heating; own headlines minor (LifeMD GLP-1 pharmacy deal, Zenith trial collaboration, ACR data). Not a pick: a $1,450 stock's nearest-expiry call costs far more than the $92 budget, and the rest of the defensive leaders (ABBV, CI, CVS, COST, KO) gapped up and are flat from their opens.",
+      "why_zh": "另一边的领涨股：礼来 +2.3%、比开盘高 1.4%、52 周新高，标普 -2.1%；医疗是 heating 主题，自身消息都是小事。没选：1,450 美元的股票一张期权远超 92 美元预算，其他防守股（艾伯维、信诺、CVS、好市多、可口可乐）高开后都在开盘价附近没再走",
+      "action": "none"
+    }
+  ]
+}
