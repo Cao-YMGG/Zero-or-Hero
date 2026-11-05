@@ -192,7 +192,7 @@ in EVOLUTION.md.
     take3 / hold / trail) split by the gate. Also test the weaker gates one at a time (VIXY alone, breadth alone) and
     the macro-day overlap. If lock days are few or half of them close up, "predictable" was hindsight and it is
     written down as such. If the gate holds: a shadow variant that buys the SPY put (and, with a turning theme and a
-    sector negative, the weakest chip's put) at 10:00 on none days when locked. First result in LOCKGATE.md (11-05 evening).
+    sector negative, the weakest chip's put) at 10:00 on none days when locked. Result (11-05 evening, LOCKGATE.md): 694 sessions, 11 lock days, today the 11th. The other ten: SPY +0.1% avg from 10:00 to the close, 36% closed below the 10:00 price, six bounced; SPY 0DTE puts on lock days 20% win, -58% take3 / -88% hold (10), QQQ -83%. Breadth >= 8/10 alone (92 days) leans down (62%, -0.1%) but SPY puts still -26%; NVDA/TSLA puts on breadth days +20% last year (27, +4% w/o best 2, -19% last 3 months) are a candidate at most. VIXY >= 5% at 10:00: n=1 (today). Verdict: hindsight; no shadow variant. Next: extend the index-only replay to 2020-2023 (the 2022 lock days) and test the magnitude gate (VIXY >= 5%, SPY <= -1%).
 46. **Tue/Thu blindness of the universe gap variants (2026-11-05).** `same_day_expiry` skips every universe name on
     days it has no same-day expiry, so nvda_gapdown_put (real ledger) and rebound_scanner (champion) never scan on
     Tuesdays and Thursdays. 11-05: NVDA -2.0% gap, -4% at 10:00, the 11-06 187.5P went 2.50 -> 7.07 (+183%) and the
