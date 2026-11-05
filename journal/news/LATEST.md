@@ -1,4 +1,4 @@
-# Headlines since 2026-11-04 16:00 ET (as of 2026-11-05 13:45 ET)
+# Headlines since 2026-11-04 16:00 ET (as of 2026-11-05 14:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -20,6 +20,24 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-04 17:47 | AMD | target down | UBS Maintains Buy on Advanced Micro Devices, Lowers Price Target to $700 |
 | 11-04 16:32 | GS | upgrade | Goldman Sachs Upgrades Ibotta to Neutral from Sell, Raises Price Target to $58 |
 | 11-04 16:16 | XOM | target up | Citigroup Maintains Neutral on ExxonMobil Holdings, Raises Price Target to $175 |
+| 11-05 14:10 | GOOGL |  | 'Google Plans to Spend $17 Billion on Wyoming Data Center' - Bloomberg News |
+| 11-05 14:09 | HOOD |  | Robinhood Stock Plunges as Bitcoin Dips After Elections |
+| 11-05 14:08 | MSFT |  | 'GTA 6' Preorder Sales Hit $751 Million 2 Weeks Ahead of Release. Are Investors Ignoring Take-Two Stock Opportunity? |
+| 11-05 14:02 | LLY |  | BofA Securities Raises Eli Lilly Price Target |
+| 11-05 14:02 | SMCI |  | Supermicro Partners with Smartbird to Deliver Managed AI Infrastructure |
+| 11-05 14:02 | SMCI |  | Supermicro Launches KV Cache Storage Solution with IBM and NVIDIA |
+| 11-05 14:02 | ORCL |  | Oracle's New Mexico Data Center Project Faces Air Permit Delay |
+| 11-05 14:02 | CIEN |  | Ciena Named a Leader in ABI Research's Open Line Systems for Data Center Interconnect Ranking |
+| 11-05 14:02 | ARM |  | Analysts Adjust Ratings and Price Targets for Arm Holdings plc |
+| 11-05 14:02 | HOOD |  | Robinhood Named as Retail Brokerage Platform for Upcoming Anthropic IPO |
+| 11-05 14:01 | HD |  | MILESEEY Tools Expands U.S. Retail Presence at The Home Depot |
+| 11-05 14:01 | V |  | Visa Launches Agentic Commerce Benchmark for AI Shopping Models |
+| 11-05 14:01 | WMT |  | Walmart and Zipline Expand Drone Delivery Partnership |
+| 11-05 14:01 | NVDA |  | NVIDIA Faces Logistics and Regulatory Challenges for H200 Chips in China |
+| 11-05 14:01 | META |  | Meta, Google, and TikTok Sue to Block California Youth Social Media Law |
+| 11-05 13:53 | PLTR |  | 'UK plans to extend Palantir’s NHS contract as it draws up plans for potential replacement' - Financial Times |
+| 11-05 13:42 | AAPL |  | 'Apple Draws $31 Billion of Orders for High-Grade Bond Sale' - Bloomberg |
+| 11-05 13:42 | NVDA |  | Jim Cramer Says Nvidia Should Buy Shares on Thursday’s 8% Drop: ‘If the Cheapest Asset is Your Stock, You Should Buy It’ |
 | 11-05 13:34 | META |  | Meta Platforms Introduces Voice, Expressive Avatars In Muse |
 | 11-05 13:05 | ARM |  | Smartphone Demand Slump is Impacting Arm, but Wall Street Sees an AI Server Boom |
 | 11-05 12:35 | AMZN |  | 2 Consumer Discretionary Stocks With Whale Alerts In Today’s Session |

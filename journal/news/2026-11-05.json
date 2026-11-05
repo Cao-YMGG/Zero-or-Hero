@@ -1,7 +1,187 @@
 {
- "as_of": "2026-11-05T13:45-05:00",
+ "as_of": "2026-11-05T14:16-05:00",
  "since": "2026-11-04T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-05 14:10",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "'Google Plans to Spend $17 Billion on Wyoming Data Center' - Bloomberg News",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62942972/google-plans-spend-17-billion-wyoming-data-center-bloomberg-news"
+  },
+  {
+   "time": "11-05 14:09",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Stock Plunges as Bitcoin Dips After Elections",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62942835/robinhood-stock-plunges-as-bitcoin-dips-after-elections"
+  },
+  {
+   "time": "11-05 14:08",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "'GTA 6' Preorder Sales Hit $751 Million 2 Weeks Ahead of Release. Are Investors Ignoring Take-Two Stock Opportunity?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/62942816/gta-6-preorder-sales-hit-751-million-2-weeks-ahead-of-release-are-investors-ignoring-take-two-stock-opportunity"
+  },
+  {
+   "time": "11-05 14:02",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "BofA Securities Raises Eli Lilly Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/bofa-securities-adjusts-eli-lilly-price-target-to-1-557-from-1-497-ce785fdcd08ff024"
+  },
+  {
+   "time": "11-05 14:02",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Supermicro Partners with Smartbird to Deliver Managed AI Infrastructure",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/05/3396400/0/en/smartbird-expands-enterprise-ai-infrastructure-partner-network-with-supermicro.html"
+  },
+  {
+   "time": "11-05 14:02",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Supermicro Launches KV Cache Storage Solution with IBM and NVIDIA",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/supermicro-lanceert-samen-met-ibm-en-nvidia-een-kv-cacheoplossing-die-aanzienlijke-prestatievoordelen-bij-ai-inferentie-oplevert-302929867.html"
+  },
+  {
+   "time": "11-05 14:02",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle's New Mexico Data Center Project Faces Air Permit Delay",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/oracle-s-new-mexico-data-center-project-faces-air-permit-delay-ce785fddd889ff23"
+  },
+  {
+   "time": "11-05 14:02",
+   "symbols": [
+    "CIEN"
+   ],
+   "rating": "",
+   "headline": "Ciena Named a Leader in ABI Research's Open Line Systems for Data Center Interconnect Ranking",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/05/3396502/0/en/ciena-nokia-and-cisco-named-leaders-in-abi-research-s-open-line-systems-for-data-center-interconnect-scale-across-ranking.html"
+  },
+  {
+   "time": "11-05 14:02",
+   "symbols": [
+    "ARM"
+   ],
+   "rating": "",
+   "headline": "Analysts Adjust Ratings and Price Targets for Arm Holdings plc",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/rbc-cuts-price-target-on-arm-holdings-to-300-from-340-keeps-outperform-rating-ce785fdcd081f724"
+  },
+  {
+   "time": "11-05 14:02",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Named as Retail Brokerage Platform for Upcoming Anthropic IPO",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/zacks:c93f75d47094b:0-anthropic-ipo-to-fuel-robinhood-s-retail-and-advisor-business-growth/"
+  },
+  {
+   "time": "11-05 14:01",
+   "symbols": [
+    "HD"
+   ],
+   "rating": "",
+   "headline": "MILESEEY Tools Expands U.S. Retail Presence at The Home Depot",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/05/3396747/0/en/mileseey-expands-u-s-retail-presence-with-professional-green-laser-measurement-at-the-home-depot-stores.html"
+  },
+  {
+   "time": "11-05 14:01",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Launches Agentic Commerce Benchmark for AI Shopping Models",
+   "source": "fiscal.ai",
+   "url": "https://investingnews.com/visa-releases-first-of-its-kind-industry-benchmark-for-ai-shopping-almost-half-of-test-runs-fail/"
+  },
+  {
+   "time": "11-05 14:01",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart and Zipline Expand Drone Delivery Partnership",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/05/3396242/0/en/zipline-raises-1-5-billion-to-build-nationwide-drone-delivery-network.html"
+  },
+  {
+   "time": "11-05 14:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Faces Logistics and Regulatory Challenges for H200 Chips in China",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/gurufocus:88ae4b9a6094b:0-nvidia-faces-600-000-chip-china-bottleneck/"
+  },
+  {
+   "time": "11-05 14:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta, Google, and TikTok Sue to Block California Youth Social Media Law",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/seekingalpha:51f9438f3094b:0-meta-google-and-tiktok-sue-california-over-youth-social-media-law/"
+  },
+  {
+   "time": "11-05 13:53",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "'UK plans to extend Palantir\u2019s NHS contract as it draws up plans for potential replacement' - Financial Times",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/government/26/11/62942126/uk-plans-extend-palantir-s-nhs-contract-it-draws-plans-potential-replacement-financial-times"
+  },
+  {
+   "time": "11-05 13:42",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "'Apple Draws $31 Billion of Orders for High-Grade Bond Sale' - Bloomberg",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62941594/apple-draws-31-billion-orders-high-grade-bond-sale-bloomberg"
+  },
+  {
+   "time": "11-05 13:42",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Jim Cramer Says Nvidia Should Buy Shares on Thursday\u2019s 8% Drop: \u2018If the Cheapest Asset is Your Stock, You Should Buy It\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62941579/jim-cramer-says-nvidia-should-buy-shares-on-thursdays-8-drop-if-the-cheapest-asset-is-your-stock-you-should-buy-it"
+  },
   {
    "time": "11-05 13:34",
    "symbols": [
