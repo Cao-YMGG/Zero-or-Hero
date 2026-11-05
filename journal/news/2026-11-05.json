@@ -1,7 +1,47 @@
 {
- "as_of": "2026-11-05T12:33-05:00",
+ "as_of": "2026-11-05T13:15-05:00",
  "since": "2026-11-04T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-05 13:09",
+   "symbols": [
+    "ARM"
+   ],
+   "rating": "target down",
+   "headline": "Barclays Maintains Overweight on ARM Holdings, Lowers Price Target to $325",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62939658/barclays-maintains-overweight-arm-holdings-lowers-price-target-325"
+  },
+  {
+   "time": "11-05 13:05",
+   "symbols": [
+    "ARM"
+   ],
+   "rating": "",
+   "headline": "Smartphone Demand Slump is Impacting Arm, but Wall Street Sees an AI Server Boom",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/62939460/smartphone-demand-slump-is-impacting-arm-but-wall-street-sees-an-ai-server-boom"
+  },
+  {
+   "time": "11-05 12:35",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "2 Consumer Discretionary Stocks With Whale Alerts In Today\u2019s Session",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/options/26/11/62937862/2-consumer-discretionary-stocks-whale-alerts-today-s-session"
+  },
+  {
+   "time": "11-05 12:35",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "3 Health Care Stocks With Whale Alerts In Today\u2019s Session",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/options/26/11/62937861/3-health-care-stocks-whale-alerts-today-s-session"
+  },
   {
    "time": "11-05 12:30",
    "symbols": [
