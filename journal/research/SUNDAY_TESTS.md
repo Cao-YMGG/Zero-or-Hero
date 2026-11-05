@@ -185,6 +185,27 @@ in EVOLUTION.md.
    already-sold guard kept the journal right. Check GitHub's queueing semantics for dispatch vs schedule and add a lease in
    state.json (a `running` stamp refreshed every loop; a second bot exits when it is fresh).
 
+45. **The lock gate (2026-11-05).** Owner: "这是可预测的". Definition registered before the replay: at 10:00 ET
+    LOCK = SPY below its open AND VIXY up >= 3% from its own open AND >= 8 of 10 mega caps (AAPL, MSFT, NVDA, AMZN,
+    META, GOOGL, TSLA, AVGO, AMD, MU) below their opens. Replay since 2024-02 on 30-minute bars: how many lock days,
+    SPY / QQQ / SMH 10:00-to-close on lock vs other below-open days, and the OPENDRIVE put rows (SPY/QQQ/NVDA/TSLA,
+    take3 / hold / trail) split by the gate. Also test the weaker gates one at a time (VIXY alone, breadth alone) and
+    the macro-day overlap. If lock days are few or half of them close up, "predictable" was hindsight and it is
+    written down as such. If the gate holds: a shadow variant that buys the SPY put (and, with a turning theme and a
+    sector negative, the weakest chip's put) at 10:00 on none days when locked. First result in LOCKGATE.md (11-05 evening).
+46. **Tue/Thu blindness of the universe gap variants (2026-11-05).** `same_day_expiry` skips every universe name on
+    days it has no same-day expiry, so nvda_gapdown_put (real ledger) and rebound_scanner (champion) never scan on
+    Tuesdays and Thursdays. 11-05: NVDA -2.0% gap, -4% at 10:00, the 11-06 187.5P went 2.50 -> 7.07 (+183%) and the
+    ledger-affordable 185P 1.74 -> 5.53. Replay both rules on Tue/Thu since 2024-02 with the nearest expiry (1-2 DTE,
+    realopt daily bars) next to their Mon/Wed/Fri record; if the 1-DTE days are not worse, add `nvda_gapdown_put_near`
+    (any_expiry, shadow) and decide which of the 12 gives up its slot.
+47. **Overnight dip-buy (owner, 2026-11-05 talk).** Buy SPY / QQQ / the day's weakest theme ETF at 15:50 on a day that
+    is down >= 1.5% open to close, sell at the next open (and at 10:00); split by lock days (45), by VIXY level and by
+    whether the next day is a macro day. Stock only (no option bleed); OVERNIGHT.md has the night-move base rates.
+48. **The 3% line on liquidation days (2026-11-05).** The intraday put mirror measures "within 3% of its own open";
+    on 11-05 every chip was 4-6% below its open by 10:00 and the four right puts were excluded. Replay the mirror
+    (BOUNCE.md data) with the line measured from the 10:00 price and from the 11:00 bounce high instead of the open.
+
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
   live entry) and intraday pick (10) since 10-01 on real option minute bars, 10% costs each way. Snipers,
