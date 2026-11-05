@@ -1,7 +1,27 @@
 {
- "as_of": "2026-11-05T11:33-05:00",
+ "as_of": "2026-11-05T12:03-05:00",
  "since": "2026-11-04T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-05 11:32",
+   "symbols": [
+    "ARM"
+   ],
+   "rating": "target down",
+   "headline": "Piper Sandler Reiterates Overweight on ARM Holdings, Lowers Price Target to $270",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62933953/piper-sandler-reiterates-overweight-arm-holdings-lowers-price-target-270"
+  },
+  {
+   "time": "11-05 11:32",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Reported Earlier: OpenAI Commits To No NDAs In Data Center Negotiations And Protecting Residents From AI Infrastructure Electricity Costs",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62933942/reported-earlier-openai-commits-no-ndas-data-center-negotiations-and-protecting-residents-ai-infrast"
+  },
   {
    "time": "11-05 11:16",
    "symbols": [
