@@ -1,7 +1,37 @@
 {
- "as_of": "2026-11-05T14:16-05:00",
+ "as_of": "2026-11-05T14:46-05:00",
  "since": "2026-11-04T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-05 14:20",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Google Says Fuel Cells For Wyoming Project Will Be Made In America By Bloom Energy",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62943516/google-says-fuel-cells-wyoming-project-will-be-made-america-bloom-energy"
+  },
+  {
+   "time": "11-05 14:16",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Reported Earlier: Oracle\u2019s $165B New Mexico Data Center Project Faces Potential Delay As Power Developer Extends Air Permit Review Timeline - Bloomberg News",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62943271/reported-earlier-oracle-s-165b-new-mexico-data-center-project-faces-potential-delay-power-developer-"
+  },
+  {
+   "time": "11-05 14:14",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Reported Earlier: AmeriLife And Palantir Announce Enterprise Partnership To Bring AI-Driven Transformation To Insurance And Retirement Distribution",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62943121/reported-earlier-amerilife-and-palantir-announce-enterprise-partnership-bring-ai-driven-transformati"
+  },
   {
    "time": "11-05 14:10",
    "symbols": [

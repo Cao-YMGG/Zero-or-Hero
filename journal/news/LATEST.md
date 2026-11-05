@@ -1,4 +1,4 @@
-# Headlines since 2026-11-04 16:00 ET (as of 2026-11-05 14:16 ET)
+# Headlines since 2026-11-04 16:00 ET (as of 2026-11-05 14:46 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -20,6 +20,9 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-04 17:47 | AMD | target down | UBS Maintains Buy on Advanced Micro Devices, Lowers Price Target to $700 |
 | 11-04 16:32 | GS | upgrade | Goldman Sachs Upgrades Ibotta to Neutral from Sell, Raises Price Target to $58 |
 | 11-04 16:16 | XOM | target up | Citigroup Maintains Neutral on ExxonMobil Holdings, Raises Price Target to $175 |
+| 11-05 14:20 | GOOGL |  | Google Says Fuel Cells For Wyoming Project Will Be Made In America By Bloom Energy |
+| 11-05 14:16 | ORCL |  | Reported Earlier: Oracle’s $165B New Mexico Data Center Project Faces Potential Delay As Power Developer Extends Air Permit Review Timeline - Bloomberg News |
+| 11-05 14:14 | PLTR |  | Reported Earlier: AmeriLife And Palantir Announce Enterprise Partnership To Bring AI-Driven Transformation To Insurance And Retirement Distribution |
 | 11-05 14:10 | GOOGL |  | 'Google Plans to Spend $17 Billion on Wyoming Data Center' - Bloomberg News |
 | 11-05 14:09 | HOOD |  | Robinhood Stock Plunges as Bitcoin Dips After Elections |
 | 11-05 14:08 | MSFT |  | 'GTA 6' Preorder Sales Hit $751 Million 2 Weeks Ahead of Release. Are Investors Ignoring Take-Two Stock Opportunity? |
