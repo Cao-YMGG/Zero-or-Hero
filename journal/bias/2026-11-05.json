@@ -1,0 +1,166 @@
+{
+  "date": "2026-11-05",
+  "bias": "none",
+  "confidence": 0.3,
+  "p_up": 0.49,
+  "summary": "Day two after the Democratic sweep: SPY flat pre-market (766.9, +0.0%) while QQQ -0.9% and SMH -3.3% on Qualcomm (-9.6%, handset miss and supply-cost warning despite a beat) and Arm (-5.8%, royalty miss); Kospi -5.3% with a trading curb, Advantest -9%, Tokyo Electron -8%; AMD -4.3%, MU -4.5% (also halting its Taiwan plant), SNDK -6%, AVGO -2.3%, NVDA -1.5%. The other side keeps bidding: XLF +1.2% (JPM +1.7%, BAC +1.7%), XLV +0.9%, XLP +1.3%, XLY +0.5%, AMZN +1.6%, GOOGL +1.1%, META +1.1%, AAPL +0.8%; oil +1% after -7%, 10Y 4.87% (-3 bp), dollar flat, VIXY +1%. 08:30: claims 189K (strong), unit labor costs -0.7% (benign); payrolls tomorrow. The index is being held up by banks, health care and the platforms while the AI suppliers are liquidated for a third session; open-to-close is a coin flip with a slight downside lean (QQQ weight), so none. Sniper: AMZN call on its own fresh news (Uber Eats Prime partnership 06:24 ET, plus a sell-side note on hyperscaler pricing power), gap +1.6%, median target $330, internet theme neutral (not turning).",
+  "reasons": [
+    "Webull extended hours 07:45 ET (vs the 11-04 close): SPY 766.90 (+0.0%), QQQ 685.92 (-0.9%), IWM +0.2%, XLF +1.2%, XLV +0.9%, XLP +1.3%, XLY +0.5%, XLE +1.1%, SMH -3.3%, TLT +0.1%, UUP +0.1%, USO +0.9%, VIXY +1.0%. Stocks: AMZN +1.6%, JPM +1.7%, BAC +1.7%, NFLX +1.6%, GOOGL +1.1%, META +1.1%, HD +1.1%, WMT +1.1%, GS +1.1%, LLY +1.0%, AAPL +0.8%, UNH +0.7%, MSFT -0.2%, ORCL -1.2%, NVDA -1.5%, TSLA -2.1%, VST -2.2%, AVGO -2.3%, PLTR -2.5%, INTC -2.6%, GEV -3.5%, AMD -4.3%, MU -4.5%, LITE -4.7%, WDC -5.3%, ARM -5.8%, SNDK -6.2%, QCOM -9.6%, CAT -1.8% (second day after its own miss).",
+    "08:30 re-read (Webull extended hours) after the prints: initial claims 189K vs 196K expected (prior 194K; 4-week average 194.75K), continuing 1.718M vs 1.71M, Q3 productivity +3.6% vs +2.8%, unit labor costs -0.7% vs +0.6%: a strong labor market with falling labor costs, friendly for equities and for the Fed. SPY 767.59 (+0.1%), QQQ 686.17 (-0.8%), SMH 486.17 (-3.6%, worse), XLF +1.1%, XLV +0.8%, XLP +1.3%, XLY +0.7%, IWM +0.1%, TLT -0.1%, USO +1.1%, UUP +0.1%, VIXY +0.7%. Stocks: AMZN +2.5% (272.55, up from +1.6%), AAPL +1.6% (355.0, above its 52-week high), JPM +1.3%, GOOGL +1.0%, META +0.8%, MSFT +0.7%, COST +2.2%, HD +0.9%, LLY +0.7%, UBER +2.8%; NVDA -1.8%, AVGO -2.4%, TSLA -2.4%, INTC -2.6%, MU -4.7%, AMD -5.0%, ARM -7.2%, QCOM -11.7%. The split widened both ways; the index is still flat. p_up 0.49, none.",
+    "Why none: the index is flat because two opposite flows cancel. Chips take a third day of liquidation on Qualcomm (beat, but handset revenue -26% and a supply-cost warning; -9.6%) and Arm (royalties missed; -5.8%), with Asia confirming (Kospi -5.3% and a sell-side curb, Advantest -9.4%, Tokyo Electron -7.7%, SK Hynix/Samsung down; Hang Seng +3.6% on Chinese chipmakers). Banks, health care, staples and the platforms are bid for the second day (the 'AI buyers up, AI suppliers down' split of 11-04). QQQ is 50% of the weight that matters for SPY's open-to-close and it opens -0.9%; yesterday the same split still gave +0.50% open to close. Coin flip, slight downside lean: p_up 0.48, a put needs 0.40.",
+    "Macro: 10Y 4.87% (-3 bp), 2Y 4.58%; WTI about $89 (+1% after -7% on the Democratic Congress / Iran-talks read), Brent $96; dollar flat (UUP +0.1%) after yesterday's drop; VIXY +1% after -10%. 08:30 initial claims (consensus 196K, prior 194K) and Q3 productivity (+2.8% expected) / unit labor costs (+0.6%); payrolls tomorrow (consensus +65K vs +29K, unemployment 4.2%): the Cramer/Cembalest line that the jobs data, not the election, decides the next leg. Fed: Barkin 09:10 ET (CFO summit), Logan 19:00 ET; no coupon auction today (4-week bill only).",
+    "Chips, the dossier notes: AMD -4.3% pre-market on day two after its report (UBS 700, DZ Bank 620 target cuts, Arm's CEO conceding AMD's AI-chip head start): the AMD dossier says a >= 2% down gap bounced 58% of the time (open->close median +0.5%) and `amd_gap_rebound` +24%/trade on 20 trades, but that was a heating-theme base rate; chips are `turning` with all five flags lit, the theme filter says no call picks on its names, and AMD is still inside the two sessions after its report for the sniper. The rebound_scanner shadow may buy the strongest of AMD / MU / AVGO / TSLA / PLTR / INTC at 09:46 (all gapping -2% or more); scored, not endorsed.",
+    "Rebound-scanner universe gaps >= 2% down pre-market: AMD -4.3%, MU -4.5%, INTC -2.6%, PLTR -2.5%, AVGO -2.3%, TSLA -2.1%; COIN -1.7%, NVDA -1.5% (nvda_gapdown_put arms only at -2% at the open).",
+    "Sniper: AMZN call (own news: Uber Eats Prime partnership announced 06:24 ET; gap +1.6%; median target $330; internet theme neutral). Considered and not picked: COST (October net sales +12.6% y/y after +13.0% in September, an easy comp against last year's hurricane month; +2.1% pre-market after +2.7% yesterday in the hottest theme, so sell-the-news risk, and a one-day 0.10-delta call on a $1,068 stock costs more than the $92 budget: logged as an opportunity); JPM / GS / BAC +1.1-1.7% with no news of their own (rotation, not a catalyst); HD / WMT +1.1% (no own news; WMT's Zipline drone expansion is minor); LLY +1.0% (ACR data presentations, routine); GOOGL +1.1% and META +1.1% (no fresh own news; META priced a $15B bond last night, a financing headline, not a buy signal); AAPL +0.8% (DBS cut to Sell, Bernstein target to $380: mixed); QCOM / ARM (reaction day), LITE (reports tonight), AMD (two sessions after its report; turning theme); MU put (turning theme, Taiwan plant halt, -4.5%: a put sniper needs a SPY put day and the gap is already over 4%).",
+    "Other side of the chip selloff: Qualcomm's handset miss and price rises are an Apple cost story (AAPL +0.8% anyway); Arm's miss is an AMD/INTC read-through; Micron's Taiwan plant halt is supply-tightening for memory peers in theory but SNDK/WDC are down 5-6% with it. No clean beneficiary trade.",
+    "Theme state (python -m zoh.research.themes --today, bars to 11-04): turning = chips (all five flags), software, energy, power, optical; heating = banks, health, consumer, industrials; neutral = internet. Filter in force: no call sniper or call pick on turning-theme names; sniper scans started with the heating themes (COST, JPM, HD, LLY considered above).",
+    "Exchange predictions for the other Claude (checkable): (1) SMH closes below its open (third failed bounce day: cooling theme, gap down, no sell-side defence yet); (2) AMZN is above its open at 10:00; (3) SPY closes within +-0.8% of its open.",
+    "11-04 scoring note: SPY's 10:00 print of 775.64 on 11-04 was a bad tick (the other Claude checked; real high 769.23 at 13:07); our files used 769.22 and are unaffected."
+  ],
+  "events": [
+    "08:30 ET prints: initial claims 189K vs 196K expected (prior 194K), continuing 1.718M, Q3 productivity +3.6% vs +2.8%, unit labor costs -0.7% vs +0.6%; Challenger October layoffs 43,994 (prior 43,281)",
+    "Fri 11-06 08:30 ET nonfarm payrolls (config/macro_events.json): Cramer and others frame it as the test of the post-midterm rally",
+    "Earnings: LITE after the close today (config/earnings.json; LITE -4.7% pre-market in sympathy, excluded from any pick); ARM and QCOM reported last night (both excluded today: reaction day); NVDA 11-17 (8 sessions; turning theme, so no pre-earnings-drift call)",
+    "No Treasury coupon auction found for today (refunding auctions are next week); Fed speakers not confirmed by 07:50",
+    "No FOMC/CPI today (CPI 11-10, FOMC 12-09)"
+  ],
+  "inputs": {
+    "es_futures_pct": 0.0,
+    "vix": null,
+    "wti_pct": 1.0,
+    "us10y": 4.87,
+    "us10y_change_bp": -3,
+    "us2y_change_bp": null,
+    "dxy_pct": 0.1,
+    "vixy_pct": 1.0,
+    "overnight": "Night session (Webull overnight, to 04:00 ET): SPY -0.11% (low 763.85), QQQ -0.7% (low 682.17), SMH -2.0% (low 488.9), QCOM -9.2%, ARM -4.3%, AMD -2.4%, MU -2.5%, TSLA -1.8%, AMZN +0.6%, META +0.7%, JPM +0.7%, UNH +1.5%: the chip earnings reaction and the rotation, nothing new on the index. Night move is not used as a direction signal (OVERNIGHT.md)."
+  },
+  "rotation": {
+    "heating": [
+      "consumer / staples (XLY 1-week +6.1% / 1-month +9.5%, XLP at a 52-week high; WMT +9%/+20%, HD +12%/+24%, COST +7%/+12%) and today +0.5-1.3% pre-market",
+      "health care (XLV +5.5%/+13.5%; LLY +10%/+23%, UNH +1%/+9%); XLV +0.9% pre-market",
+      "banks (XLF +5.5%/+9.6%; JPM +4%/+6%, BAC +2%/-5%); XLF +1.2% pre-market to a new high",
+      "industrials split: GE +9%/+6% vs CAT -17%/-31% (own miss)",
+      "platforms (internet basket 1-week +0.5%, 1-month -3.6%: MSFT +5%/+5%, AMZN +4%/+4%, AAPL +2%/+5%, META +3%/-15%, GOOGL -11%/-17%) up again pre-market with no own news except AMZN"
+    ],
+    "cooling": [
+      "CPU (AMD -16% in a week / -25% in a month, INTC -39%/-48%, ARM -19%/-37%) with Arm and Qualcomm disappointing last night",
+      "memory (MU -19%/-24%, SNDK -26%/-38%) and disk (WDC -18%/-21%, STX -20%/-31%): MU also halted its $4.5B Taiwan plant over a labor dispute",
+      "optical (LITE -31%/-45%, CIEN -25%/-39%); LITE reports tonight",
+      "GPU (NVDA -7%/-16%); SMH -11%/-20%; QQQ -4.6%/-8.9% vs SPY -0.7%/-1.6%",
+      "power build-out (GEV -5%/-19%, VST -16%/-25%; KeyBanc's second downgrade of VST last night)",
+      "energy after the oil drop (XLE -7.2% on the week; XOM -7%, CVX -5%)"
+    ],
+    "theme_state": {
+      "chips": "turning (REL_WEAK, DIVERGE, BREADTH, RATIO_LOW, PERIPH)",
+      "software": "turning",
+      "energy": "turning",
+      "power": "turning",
+      "optical": "turning",
+      "internet": "neutral",
+      "banks": "heating",
+      "health": "heating",
+      "consumer": "heating",
+      "industrials": "heating"
+    },
+    "events": "LITE reports tonight (optical, turning); NVDA 11-17; payrolls tomorrow"
+  },
+  "sniper": {
+    "symbol": "AMZN",
+    "direction": "call",
+    "confidence": 0.3,
+    "catalyst": "Own news from the last day: 06:24 ET Amazon and Uber Eats announced $0 delivery fees for Prime members on restaurant orders of $25+ (hundreds of thousands of restaurants, Prime-exclusive offers, 5% back on the Prime Visa through 12-05) plus a sell-side note that data-center constraints give Amazon and Microsoft pricing power (Benzinga 06:48). Pre-market +1.6% at 07:45 (270.2) and +2.5% at 08:30 (272.55 vs 266.03 close; the gap grew while the index stayed flat, so confidence is cut to 0.30 and the 3% line is close) after +6.1% yesterday (open-to-close only +0.5%); median target $330 (mean $327, 56 of 59 buy); four sessions after its 10-29 report. Internet theme is neutral in THEMES (not turning), so a call is allowed by the new filter. catalyst_open buys a ~0.10-delta same-day call 09:31-10:00 only while AMZN holds its open; half at 3x, trail from 1.5x; may carry overnight (news pick). Risks: QQQ -0.9% pre-market with chips liquidated; the Uber Eats deal is bigger news for UBER (+3.5%) than for Amazon; AMZN ran 6% yesterday so part of the platform rotation is in the price. Wrong if AMZN is below its open at 10:00 or gives back half the gap (below 268) before 10:30.",
+    "wrong_if": "below its open at 10:00, or below 269.3 (half the 08:30 gap) before 10:30"
+  },
+  "opportunities": [
+    {
+      "type": "company_news",
+      "symbol": "AMZN",
+      "direction": "call",
+      "time": "09:31",
+      "why": "Sniper (see sniper): Uber Eats Prime partnership 06:24 ET, +1.6% pre-market, median target $330, internet theme neutral. 08:30: +2.5% (272.55), confidence cut to 0.30.",
+      "why_zh": "狙击：亚马逊 06:24 宣布和 Uber Eats 合作，Prime 会员 25 美元以上外卖免配送费，盘前 +1.6%，分析师中位目标价 330。网络平台这个主题不在转向状态，允许做看涨。",
+      "action": "real"
+    },
+    {
+      "type": "company_news",
+      "symbol": "COST",
+      "direction": "call",
+      "time": "10:00",
+      "why": "October net sales +12.6% y/y (Sept +13.0%; easy comp vs last year's hurricane/port-strike month), +2.1% pre-market (1,068) after +2.7% yesterday, consumer theme heating (all heat flags). Not the sniper: a routine monthly print in the hottest theme is a sell-the-news candidate (OCP-day rule), and a one-day ~0.10-delta call on a $1,068 stock costs more than the $92 budget. Scored.",
+      "why_zh": "好市多十月销售额同比 +12.6%（九月 +13.0%，去年十月有飓风和罢工的低基数），盘前 +2.1%，昨天已经涨了 2.7%，消费主题是最热的。没选：最热主题里的例行月报容易被卖消息，而且 1,068 美元的股票一张当天看涨期权超过 92 美元的预算。只记录",
+      "action": "none"
+    },
+    {
+      "type": "rotation_laggard",
+      "symbol": "JPM",
+      "direction": "call",
+      "time": "10:00",
+      "why": "Banks heating (XLF at a new high, +1.2% pre-market), JPM +1.7% to 358 with no news of its own; the rotation leader, not a catalyst. Scored as the heating-theme leader on a day the index is split.",
+      "why_zh": "摩根大通盘前 +1.7%，银行板块创新高，但没有自己的消息，是轮动的领头羊不是催化剂。记录，看最热板块的龙头在分化日能不能守住",
+      "action": "none"
+    },
+    {
+      "type": "sector_move",
+      "symbol": "HD",
+      "direction": "call",
+      "time": "10:00",
+      "why": "Consumer theme leader (+12% in a week), +1.1% pre-market with no own news; the other Claude's HD call spread from 11-02 is at 3x. Scored.",
+      "why_zh": "家得宝一周 +12%、盘前 +1.1%，没有自己的消息。只记录",
+      "action": "none"
+    },
+    {
+      "type": "peer_readthrough",
+      "symbol": "MU",
+      "direction": "put",
+      "time": "10:00",
+      "why": "Memory liquidation day three: MU -4.5% pre-market (759) on the QCOM/ARM read-through plus halting its $4.5B Taiwan plant over a labor dispute; SNDK -6.2%, WDC -5.3%; chips turning. A put sniper needs a SPY put day and the gap is past 4%; the intraday mirror may apply if SMH is below its open at 11:21 and MU is the weakest name not yet 3% from its own open.",
+      "why_zh": "美光盘前 -4.5%，存储第三天被卖（高通、ARM 的读穿，加上美光因劳资纠纷暂停台湾 45 亿美元的新厂），芯片主题在转向状态。盘前狙击不能做看跌（SPY 不是看跌日），而且跳空已经超过 4%；11:21 的检查如果半导体 ETF 跌回开盘价下，再看它",
+      "action": "none"
+    },
+    {
+      "type": "earnings_reaction",
+      "symbol": "AMD",
+      "direction": "put",
+      "time": "10:00",
+      "why": "Day two after its report: -4.3% pre-market (468) on UBS/DZ Bank target cuts and the Arm/Qualcomm read-through. Dossier: a >= 2% down gap bounced 58% of the time, but that was in a heating theme; chips turning. Excluded from picks (report window, turning); scored both as a bounce base rate and as the theme filter's test.",
+      "why_zh": "AMD 财报后第二天盘前 -4.3%（目标价下调加上 ARM、高通的读穿）。它的档案说低开 2% 以上有 58% 会反弹，但那是主题热的时候；现在芯片在转向，不碰。记录，看反弹基准率在转向主题里还成不成立",
+      "action": "none"
+    },
+    {
+      "type": "sector_move",
+      "symbol": "UBER",
+      "direction": "call",
+      "time": "10:00",
+      "why": "+3.5% pre-market on the Amazon Prime partnership (the bigger beneficiary of the two). Not in the universe (no same-day options, not a mega cap). Scored.",
+      "why_zh": "Uber 盘前 +3.5%，亚马逊这个合作对它更重要。不在我们的范围里，只记录",
+      "action": "none"
+    },
+    {
+      "type": "financing_fade",
+      "symbol": "META",
+      "direction": "put",
+      "time": "10:00",
+      "why": "META priced a $15B bond last night and its president called the data-center environment challenging; +1.1% pre-market anyway. FADES: debt offerings have no edge (two years -31% for the put); recorded for the base rate, not traded.",
+      "why_zh": "Meta 昨晚发了 150 亿美元债券，公司总裁说数据中心环境很难，股价盘前照样 +1.1%。FADES 的数据说发债后做空没有边，只记录",
+      "action": "none"
+    },
+    {
+      "type": "sell_the_news",
+      "symbol": "NVDA",
+      "direction": "put",
+      "time": "10:00",
+      "why": "NVDA -1.5% pre-market, 8 sessions before its 11-17 report, in a turning theme with the suppliers liquidated: the pre-earnings-drift call is suspended by the filter; nvda_gapdown_put (real ledger) arms only on a -2% gap at the open. Scored as 'what the chip leader does on a supplier-liquidation day'.",
+      "why_zh": "英伟达盘前 -1.5%，距财报 8 个交易日，主题在转向，财报前漂移的看涨按新规则不做；英伟达低开看跌的真钱账本只在开盘低 2% 时触发。只记录",
+      "action": "none"
+    }
+  ],
+  "generated_at": "2026-11-05T08:31:46-05:00",
+  "zh": {
+    "summary": "民主党横扫后的第二天：标普 ETF 盘前持平，纳指 ETF -0.9%，半导体 ETF -3.3%。高通财报超预期但手机业务 -26%、还警告供应链涨价，盘前 -9.6%；ARM 版税收入不及预期 -5.8%；韩国股市 -5.3% 触发熔断，日本设备股跌 8% 到 9%。AMD -4.3%、美光 -4.5%（还暂停了台湾新厂）、闪迪 -6%。另一边继续买：金融 +1.2%、医疗 +0.9%、必需消费 +1.3%，亚马逊 +1.6%、谷歌和 Meta +1.1%。油价跌 7% 后反弹 1%，十年期美债 4.87%。08:30 初请，明天非农。指数被银行、医疗和大平台托着，AI 供应商第三天被清仓，开盘到收盘是五五开、略偏下，上涨概率 48%，不做。 08:30 的数据：初请 18.9 万（预期 19.6 万，就业强），三季度单位劳动成本 -0.7%（预期 +0.6%，通胀友好），生产率 +3.6%。对指数是温和利好，不改「不做」。",
+    "spy": "不做。上涨概率 48%，没到 60% 的看涨线也没到 40% 的看跌线。两股相反的力量在抵消：芯片第三天被卖，银行、医疗、消费和大平台第二天被买。昨天同样的格局标普开到收 +0.5%，今天纳指开盘更弱一点。",
+    "sniper": "亚马逊看涨，信心 0.30。06:24 亚马逊宣布和 Uber Eats 合作，Prime 会员 25 美元以上的外卖免配送费，还有「数据中心产能紧张给亚马逊、微软带来定价权」的卖方观点；盘前 07:45 +1.6%、08:30 +2.5%（272.55，跳空变大、指数没动，信心降到 0.30，离 3% 的线不远），分析师中位目标价 330（现价 270），财报已过四个交易日，网络平台主题不在转向状态。机器人 09:31 到 10:00 之间、只在亚马逊守住开盘价时买一张当天到期约 0.10 delta 的看涨，3 倍卖一半、1.5 倍起追踪。风险：纳指 -0.9%，这个合作对 Uber（+3.5%）比对亚马逊更重要，亚马逊昨天已涨 6%。错的标志：10:00 在开盘价下，或 10:30 前跌破 269.3（回补一半跳空）。",
+    "rotation": "钱继续往消费（沃尔玛、家得宝、好市多一周 +7% 到 +12%）、医疗（礼来一周 +10%）、银行（金融 ETF 创新高）走；芯片、存储、光模块、电力基建、能源全在转向状态。主题状态过滤从今天起生效：转向主题里的名字不做看涨。",
+    "events": "08:30 已出：初请 18.9 万（预期 19.6 万）、三季度生产率 +3.6%、单位劳动成本 -0.7%。明天 08:30 非农（预期 6.5 万，前值 2.9 万）；今晚 Lumentum 财报；英伟达 11-17。美联储 Barkin 09:10 讲话。"
+  }
+}
