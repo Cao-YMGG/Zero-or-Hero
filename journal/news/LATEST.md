@@ -1,4 +1,4 @@
-# Headlines since 2026-11-04 16:00 ET (as of 2026-11-05 14:46 ET)
+# Headlines since 2026-11-04 16:00 ET (as of 2026-11-05 15:15 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -20,6 +20,14 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-04 17:47 | AMD | target down | UBS Maintains Buy on Advanced Micro Devices, Lowers Price Target to $700 |
 | 11-04 16:32 | GS | upgrade | Goldman Sachs Upgrades Ibotta to Neutral from Sell, Raises Price Target to $58 |
 | 11-04 16:16 | XOM | target up | Citigroup Maintains Neutral on ExxonMobil Holdings, Raises Price Target to $175 |
+| 11-05 15:02 | WDC |  | Western Digital Shares Decline Amid Political Rhetoric Regarding AI Data Center Development |
+| 11-05 15:01 | NFLX |  | Netflix Integrates ABCmouse Learning Content for Children |
+| 11-05 15:01 | MSFT |  | Scout Clean Energy's Nimbus Wind Farm Achieves Commercial Operations |
+| 11-05 15:01 | JPM |  | Senate Democrats Reportedly Planning Probe into JPMorgan Chase's Ties to Jeffrey Epstein |
+| 11-05 15:00 | INTC |  | Intel Shares Rise 6% To Intraday High After Key Trading Signal |
+| 11-05 14:55 | MU |  | One ETF Is Making a Killing on Micron's Stock Meltdown — Can It Keep Cashing In? |
+| 11-05 14:50 | NVDA |  | 'NVIDIA Has Approached Apollo About Creating A Network Of Small AI Data Centers Potentially Spanning 20 States Across The U.S.' - The Information |
+| 11-05 14:49 | NVDA |  | 'NVIDIA Explores Retrofitting Old Telecom Buildings For AI Data Centers' - The Information |
 | 11-05 14:20 | GOOGL |  | Google Says Fuel Cells For Wyoming Project Will Be Made In America By Bloom Energy |
 | 11-05 14:16 | ORCL |  | Reported Earlier: Oracle’s $165B New Mexico Data Center Project Faces Potential Delay As Power Developer Extends Air Permit Review Timeline - Bloomberg News |
 | 11-05 14:14 | PLTR |  | Reported Earlier: AmeriLife And Palantir Announce Enterprise Partnership To Bring AI-Driven Transformation To Insurance And Retirement Distribution |

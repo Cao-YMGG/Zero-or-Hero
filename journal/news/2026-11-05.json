@@ -1,7 +1,87 @@
 {
- "as_of": "2026-11-05T14:46-05:00",
+ "as_of": "2026-11-05T15:15-05:00",
  "since": "2026-11-04T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-05 15:02",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Western Digital Shares Decline Amid Political Rhetoric Regarding AI Data Center Development",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8679750/seagate-western-digital-vishay-intertechnology-impinj-and-allegro-microsystems-shares-plummet-what-you-need-to-know"
+  },
+  {
+   "time": "11-05 15:01",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Integrates ABCmouse Learning Content for Children",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/abcmouse-launches-new-mobile-learning-game-expanding-access-for-families-worldwide-302931176.html"
+  },
+  {
+   "time": "11-05 15:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Scout Clean Energy's Nimbus Wind Farm Achieves Commercial Operations",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/05/3396771/0/en/scout-clean-energy-s-nimbus-wind-farm-achieves-commercial-operations-supporting-microsoft-s-clean-energy-portfolio.html"
+  },
+  {
+   "time": "11-05 15:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "Senate Democrats Reportedly Planning Probe into JPMorgan Chase's Ties to Jeffrey Epstein",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/seekingalpha:2ba380dec094b:0-democrats-plan-to-probe-jpmorgan-s-banking-ties-with-epstein-when-in-control-of-congress-cnbc/"
+  },
+  {
+   "time": "11-05 15:00",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel Shares Rise 6% To Intraday High After Key Trading Signal",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/opinion/26/11/62945530/intel-shares-rise-6-percent-to-intraday-high-after-key-trading-signal"
+  },
+  {
+   "time": "11-05 14:55",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "One ETF Is Making a Killing on Micron's Stock Meltdown \u2014 Can It Keep Cashing In?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/specialty-etfs/26/11/62945242/one-etf-is-making-a-killing-on-micron-meltdown"
+  },
+  {
+   "time": "11-05 14:50",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "'NVIDIA Has Approached Apollo About Creating A Network Of Small AI Data Centers Potentially Spanning 20 States Across The U.S.' - The Information",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62945022/nvidia-has-approached-apollo-about-creating-network-small-ai-data-centers-potentially-spanning-20-st"
+  },
+  {
+   "time": "11-05 14:49",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "'NVIDIA Explores Retrofitting Old Telecom Buildings For AI Data Centers' - The Information",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62944990/nvidia-explores-retrofitting-old-telecom-buildings-ai-data-centers-information"
+  },
   {
    "time": "11-05 14:20",
    "symbols": [
