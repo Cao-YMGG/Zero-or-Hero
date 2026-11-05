@@ -56,6 +56,43 @@
       "why": "Leader on the other side: LLY 1450.6 (+2.3% on the day, +1.4% from its 1431 open, a new 52-week high) while SPY is -2.1%; health heating; own headlines minor (LifeMD GLP-1 pharmacy deal, Zenith trial collaboration, ACR data). Not a pick: a $1,450 stock's nearest-expiry call costs far more than the $92 budget, and the rest of the defensive leaders (ABBV, CI, CVS, COST, KO) gapped up and are flat from their opens.",
       "why_zh": "另一边的领涨股：礼来 +2.3%、比开盘高 1.4%、52 周新高，标普 -2.1%；医疗是 heating 主题，自身消息都是小事。没选：1,450 美元的股票一张期权远超 92 美元预算，其他防守股（艾伯维、信诺、CVS、好市多、可口可乐）高开后都在开盘价附近没再走",
       "action": "none"
+    },
+    {
+      "type": "company_news",
+      "symbol": "INTC",
+      "direction": "call",
+      "time": "11:25",
+      "why": "In-session own news: Intel CEO Lip-Bu Tan bought $9.7M of stock (11:01, after the 150K-share Form 4 yesterday); INTC 55.28, +5.6% off its 52.34 low in 20 minutes, still -2.1% from its 56.47 open and -5.1% on the day. Not a pick: chips are turning (our calls on turning-theme names won 21% of 28) and the stock is not yet back to its open; this is the filter's test case.",
+      "why_zh": "盘中自身消息：英特尔 CEO 陈立武 11:01 公告买入 970 万美元股票，股价 20 分钟从 52.34 反弹到 55.28（+5.6%），但还比开盘低 2.1%、当天 -5.1%。没选：芯片在转向状态（我们在转向主题里的看涨单 28 笔只赢 21%），而且股价还没回到开盘价。这是过滤规则的对照样本",
+      "action": "none"
+    },
+    {
+      "type": "sector_intraday",
+      "symbol": "AVGO",
+      "direction": "put",
+      "time": "11:25",
+      "why": "The 10:20 conditional named AVGO for 11:21: at 11:23 it is 305.35, -2.1% from its open, but +4.3% off its 292.80 low since 11:00 with SMH +3.7% off its low: the tape no longer agrees with a put. Not picked; scored as the mirror's 'bounce before confirmation' case.",
+      "why_zh": "10:20 留给 11:21 的博通看跌：现在比开盘低 2.1%，但 11:00 以来已从 292.8 低点反弹 4.3%，半导体 ETF 也从低点弹了 3.7%，走势不再配合看跌。没选，记为镜像「确认前先反弹」的样本",
+      "action": "none"
+    },
+    {
+      "type": "company_news",
+      "symbol": "MSFT",
+      "direction": "call",
+      "time": "11:25",
+      "why": "Two MSFT headlines at 11:01: a $30B U.K. supercomputing investment, and Bloomberg's 'Microsoft sours on neoclouds' (tightening oversight of Nebius, IREN, Nscale projects; declined to expand the Nscale deal). MSFT 544.3, -2.1% from its 555.75 open after a 532.68 low; NBIS -13%. Read as capex discipline (positive for MSFT, negative for the AI builders), but MSFT is below its open and the index is -2.6% from its open: not a pick.",
+      "why_zh": "微软 11:01 两条消息：300 亿美元投英国超算，以及彭博「微软对新云厂商降温」（收紧对 Nebius、IREN、Nscale 项目的监管，拒绝扩大 Nscale 合作）。微软比开盘低 2.1%、从 532.7 的低点反弹中；Nebius -13%。读作资本开支更克制，对微软是好事、对 AI 建设方是坏事，但微软在开盘价下、指数比开盘低 2.6%，没选",
+      "action": "none"
+    },
+    {
+      "type": "sector_move",
+      "symbol": "SPY",
+      "direction": "call",
+      "time": "11:25",
+      "why": "The index put in a low at 737.12 around 11:00 (-3.7% from its open) and bounced 1.1% in 20 minutes with QQQ +2.2% and VIXY off a 20.27 high. No rule of ours buys this (spy_open_drive is calls above the open only; rebound buying after a -3% open-to-low is not a variant). Logged so the close scores whether an 11:00 capitulation low on a liquidation day held.",
+      "why_zh": "标普 11:00 前后在 737.12 见低（比开盘低 3.7%），20 分钟反弹 1.1%，纳指反弹 2.2%，恐慌指数从高点回落。我们没有规则买这个（开盘驱动只做开盘价上方的看涨，-3% 之后抄底不是我们的变体）。记录，收盘看 11:00 的恐慌低点守不守得住",
+      "action": "none"
     }
-  ]
+  ],
+  "check_1121": "Mirror: SMH 464.8 at 11:23, still -3.7% from its 482.51 open (-7.8% on the day) after a low of 448.16 (-7.1% from open) around 11:00; chips turning; sector negative (QCOM/ARM) in place. But the tape turned at 11:00: SPY 737.1 -> 745.5 (+1.1% in 20 minutes), QQQ 647.4 -> 661.6 (+2.2%), AVGO 292.8 -> 305.4 (+4.3%), INTC 52.34 -> 55.28 (+5.6% on the CEO's $9.7M purchase headline 11:01), MU 655.9 -> 710.5 (+8.3%), NVDA 181.6 -> 186.5. Every mirror candidate is 2-6% below its open (AVGO -2.1%, INTC -2.1%, NVDA -4.8%, AMD -5.0%, MU -5.7%) but moving the wrong way for a put since 11:00, so no put; the owner's rule needs the tape to agree now, not an hour ago. No call either: the bounce names are all turning-theme chips (filter) and the only in-session own headline (INTC insider buy) is on one of them. For 13:16: if the bounce fails and SMH takes out 448 after 12:30, the weakest chip still within 3% of its own open is the put candidate; if SMH is back above ~470 (half the open-to-low drop) the day is a failed liquidation and nothing is done."
 }
