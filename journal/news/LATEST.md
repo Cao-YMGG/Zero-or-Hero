@@ -1,9 +1,11 @@
-# Headlines since 2026-11-04 16:00 ET (as of 2026-11-05 11:02 ET)
+# Headlines since 2026-11-04 16:00 ET (as of 2026-11-05 11:33 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-05 11:07 | V | target up | Truist Securities Maintains Buy on Visa, Raises Price Target to $470 |
+| 11-05 11:02 | COST | rating | Deutsche Bank Adjusts Costco Wholesale Price Target to $1,082 From $1,079 |
 | 11-05 10:01 | ARM | target down | Wells Fargo Lowers Price Target for Arm Holdings |
 | 11-05 09:02 | ARM | downgrade | President Capital Downgrades Arm Holdings ADR to Neutral |
 | 11-05 06:31 | JPM | downgrade | JPMorgan Chase Downgrades Expedia Group to Neutral |
@@ -14,6 +16,8 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-04 17:47 | AMD | target down | UBS Maintains Buy on Advanced Micro Devices, Lowers Price Target to $700 |
 | 11-04 16:32 | GS | upgrade | Goldman Sachs Upgrades Ibotta to Neutral from Sell, Raises Price Target to $58 |
 | 11-04 16:16 | XOM | target up | Citigroup Maintains Neutral on ExxonMobil Holdings, Raises Price Target to $175 |
+| 11-05 11:16 | SNDK |  | QUICK SPARK: SanDisk Stock RSI Hits Most Oversold Level Since April 2025 |
+| 11-05 11:02 | COST |  | Gordon Haskett Adjusts Price Target on Costco Wholesale to $1,200 From $1,100 |
 | 11-05 11:01 | WDC |  | Western Digital Corporation Provides Fiscal 2027 Financial Outlook |
 | 11-05 11:01 | AMD |  | IBM, AMD, and Oak Ridge National Laboratory Launch Quantum Error Correction Platform |
 | 11-05 11:01 | V |  | Tencent's TenPay Global Expands Partnerships with Global Card Networks |

@@ -1,7 +1,47 @@
 {
- "as_of": "2026-11-05T11:02-05:00",
+ "as_of": "2026-11-05T11:33-05:00",
  "since": "2026-11-04T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-05 11:16",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "QUICK SPARK: SanDisk Stock RSI Hits Most Oversold Level Since April 2025",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/technicals/26/11/62932850/sandisk-stock-rsi-most-oversold-since-april-2025"
+  },
+  {
+   "time": "11-05 11:07",
+   "symbols": [
+    "V"
+   ],
+   "rating": "target up",
+   "headline": "Truist Securities Maintains Buy on Visa, Raises Price Target to $470",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62931896/truist-securities-maintains-buy-visa-raises-price-target-470"
+  },
+  {
+   "time": "11-05 11:02",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "rating",
+   "headline": "Deutsche Bank Adjusts Costco Wholesale Price Target to $1,082 From $1,079",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/deutsche-bank-adjusts-costco-wholesale-price-target-to-1-082-from-1-079-maintains-buy-rating-ce785fdcd181f52c"
+  },
+  {
+   "time": "11-05 11:02",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Gordon Haskett Adjusts Price Target on Costco Wholesale to $1,200 From $1,100",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/gordon-haskett-adjusts-price-target-on-costco-wholesale-to-1-200-from-1-100-ce785fdcd088f720"
+  },
   {
    "time": "11-05 11:01",
    "symbols": [
