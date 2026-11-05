@@ -1,7 +1,27 @@
 {
- "as_of": "2026-11-05T13:15-05:00",
+ "as_of": "2026-11-05T13:45-05:00",
  "since": "2026-11-04T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-05 13:34",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platforms Introduces Voice, Expressive Avatars In Muse",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62941161/meta-platforms-introduces-voice-expressive-avatars-muse"
+  },
+  {
+   "time": "11-05 13:33",
+   "symbols": [
+    "ARM"
+   ],
+   "rating": "target down",
+   "headline": "RBC Capital Maintains Outperform on ARM Holdings, Lowers Price Target to $300",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62941117/rbc-capital-maintains-outperform-arm-holdings-lowers-price-target-300"
+  },
   {
    "time": "11-05 13:09",
    "symbols": [

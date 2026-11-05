@@ -1,9 +1,10 @@
-# Headlines since 2026-11-04 16:00 ET (as of 2026-11-05 13:15 ET)
+# Headlines since 2026-11-04 16:00 ET (as of 2026-11-05 13:45 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-05 13:33 | ARM | target down | RBC Capital Maintains Outperform on ARM Holdings, Lowers Price Target to $300 |
 | 11-05 13:09 | ARM | target down | Barclays Maintains Overweight on ARM Holdings, Lowers Price Target to $325 |
 | 11-05 12:07 | ARM | target down | Wells Fargo Maintains Overweight on ARM Holdings, Lowers Price Target to $255 |
 | 11-05 11:32 | ARM | target down | Piper Sandler Reiterates Overweight on ARM Holdings, Lowers Price Target to $270 |
@@ -19,6 +20,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-04 17:47 | AMD | target down | UBS Maintains Buy on Advanced Micro Devices, Lowers Price Target to $700 |
 | 11-04 16:32 | GS | upgrade | Goldman Sachs Upgrades Ibotta to Neutral from Sell, Raises Price Target to $58 |
 | 11-04 16:16 | XOM | target up | Citigroup Maintains Neutral on ExxonMobil Holdings, Raises Price Target to $175 |
+| 11-05 13:34 | META |  | Meta Platforms Introduces Voice, Expressive Avatars In Muse |
 | 11-05 13:05 | ARM |  | Smartphone Demand Slump is Impacting Arm, but Wall Street Sees an AI Server Boom |
 | 11-05 12:35 | AMZN |  | 2 Consumer Discretionary Stocks With Whale Alerts In Today’s Session |
 | 11-05 12:35 | UNH |  | 3 Health Care Stocks With Whale Alerts In Today’s Session |
