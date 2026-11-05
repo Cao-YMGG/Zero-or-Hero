@@ -1,98 +1,117 @@
 {
-  "date": "2026-11-05",
-  "picks": [],
-  "conditional_1121": "Put mirror is armed in principle (SMH 466.9 at 10:17, -3.2% from its 482.51 open, -7.4% on the day; chips turning; QCOM/ARM the sector negative) but every chip except AVGO is already past the 3% line from its own open (NVDA -4.4%, AMD -6.2%, MU -6.3%, INTC -4.8%, MRVL -5.5%). For 11:21: if SMH is still below its open and has not reclaimed half of the 09:30-10:17 drop (above ~474), the weakest chip still within 3% of its own open is the put candidate (now AVGO 305.3, -2.1% from 312.00; outside a report window, nearest expiry 11-06); if the tape has bounced back toward the open, nothing. Call side: the defensive leaders (LLY +2.3%, ABBV +2.3%, CI +2.6%, COST +2.3%) gapped up and are flat from their opens, so no leader pick.",
-  "opportunities": [
-    {
-      "type": "sector_intraday",
-      "symbol": "AVGO",
-      "direction": "put",
-      "time": "10:20",
-      "why": "Mirror candidate for 11:21, not a 10:20 pick: SMH -3.2% from its open after the Qualcomm/Arm night and Kospi -5.3%; AVGO 305.3 is -2.1% from its 312.00 open (-6.2% on the day), the only mega-cap chip still inside the 3% line; nearest expiry 11-06, reports in December. Not picked now: the index is -2.0% from its open 47 minutes in, a broad liquidation rather than a fresh catalyst, and OPENDRIVE.md says puts bought below the open at 10:00 lost in every window (last 3 months -27% all-out at 3x, -47% held). The mirror's edge came from the 11:00 confirmation (11-02 MU), so it waits for 11:21.",
-      "why_zh": "博通是 11:21 的看跌候选，不是现在的：半导体 ETF 比开盘低 3.2%（高通、ARM 财报后，韩国 -5.3%），博通比开盘低 2.1%，是唯一还没过 3% 线的大盘芯片股。现在没选：指数开盘 47 分钟就跌了 2%，是全面清仓不是新消息，而且数据说 10:00 在开盘价下买看跌的历史是亏的。镜像的边来自 11:00 的确认，等 11:21 再看",
-      "action": "none"
-    },
-    {
-      "type": "sector_intraday",
-      "symbol": "NVDA",
-      "direction": "put",
-      "time": "10:20",
-      "why": "Weakest-leader read: NVDA 187.3, -4.4% from its 196.00 open and -6.4% on the day, 8 sessions before its report; past the 3% line, so an opportunity only. nvda_gapdown_put (real ledger) needed a -2% gap at the open and NVDA opened -2.1% (196.00 vs 200.13): check whether it fired at 10:00.",
-      "why_zh": "英伟达比开盘低 4.4%、当天 -6.4%，过了 3% 的线，只记录。英伟达低开看跌的真钱账本要求开盘低 2%，今天开盘正好 -2.1%，收盘后核对它有没有触发",
-      "action": "none"
-    },
-    {
-      "type": "sector_intraday",
-      "symbol": "AMD",
-      "direction": "put",
-      "time": "10:20",
-      "why": "AMD 424.4, -6.2% from its open and -13% on the day, day two after its report (allowed by the letter of the window rule, excluded by the 3% line). The dossier's 'down gap >= 2% bounces 58%' is being tested in a turning theme: open 452.64, low 422.19 so far.",
-      "why_zh": "AMD 比开盘低 6.2%、当天 -13%，过线，只记录。它档案里「低开 2% 以上 58% 会反弹」正在转向主题里被检验：开盘 452.6，目前最低 422.2",
-      "action": "none"
-    },
-    {
-      "type": "sector_move",
-      "symbol": "TSLA",
-      "direction": "put",
-      "time": "10:20",
-      "why": "TSLA 350.6, -6.3% from its 374.02 open and -9% on the day with no fresh headline since the open (the Musk / Democratic-Congress scrutiny stories are from last night); past the 3% line. Scored as the day's biggest mega-cap loser.",
-      "why_zh": "特斯拉比开盘低 6.3%、当天 -9%，开盘后没有新消息（马斯克和民主党国会的报道都是昨晚的），过线，只记录",
-      "action": "none"
-    },
-    {
-      "type": "company_news",
-      "symbol": "AMZN",
-      "direction": "call",
-      "time": "10:20",
-      "why": "The sniper did not fill: AMZN opened 271.64 (+2.1%) and was below its open within minutes, 258.6 at 10:17 (-4.8% from open, -2.8% on the day); the Uber Eats partnership was swallowed by the index. wrong_if (below the open at 10:00) triggered; catalyst_open correctly stayed out.",
-      "why_zh": "狙击没成交：亚马逊高开 2.1% 后几分钟就跌破开盘价，10:17 比开盘低 4.8%，Uber Eats 的消息被指数淹掉。「10:00 在开盘价下」的错误标志触发，机器人按规则没买",
-      "action": "none"
-    },
-    {
-      "type": "rotation_laggard",
-      "symbol": "LLY",
-      "direction": "call",
-      "time": "10:20",
-      "why": "Leader on the other side: LLY 1450.6 (+2.3% on the day, +1.4% from its 1431 open, a new 52-week high) while SPY is -2.1%; health heating; own headlines minor (LifeMD GLP-1 pharmacy deal, Zenith trial collaboration, ACR data). Not a pick: a $1,450 stock's nearest-expiry call costs far more than the $92 budget, and the rest of the defensive leaders (ABBV, CI, CVS, COST, KO) gapped up and are flat from their opens.",
-      "why_zh": "另一边的领涨股：礼来 +2.3%、比开盘高 1.4%、52 周新高，标普 -2.1%；医疗是 heating 主题，自身消息都是小事。没选：1,450 美元的股票一张期权远超 92 美元预算，其他防守股（艾伯维、信诺、CVS、好市多、可口可乐）高开后都在开盘价附近没再走",
-      "action": "none"
-    },
-    {
-      "type": "company_news",
-      "symbol": "INTC",
-      "direction": "call",
-      "time": "11:25",
-      "why": "In-session own news: Intel CEO Lip-Bu Tan bought $9.7M of stock (11:01, after the 150K-share Form 4 yesterday); INTC 55.28, +5.6% off its 52.34 low in 20 minutes, still -2.1% from its 56.47 open and -5.1% on the day. Not a pick: chips are turning (our calls on turning-theme names won 21% of 28) and the stock is not yet back to its open; this is the filter's test case.",
-      "why_zh": "盘中自身消息：英特尔 CEO 陈立武 11:01 公告买入 970 万美元股票，股价 20 分钟从 52.34 反弹到 55.28（+5.6%），但还比开盘低 2.1%、当天 -5.1%。没选：芯片在转向状态（我们在转向主题里的看涨单 28 笔只赢 21%），而且股价还没回到开盘价。这是过滤规则的对照样本",
-      "action": "none"
-    },
-    {
-      "type": "sector_intraday",
-      "symbol": "AVGO",
-      "direction": "put",
-      "time": "11:25",
-      "why": "The 10:20 conditional named AVGO for 11:21: at 11:23 it is 305.35, -2.1% from its open, but +4.3% off its 292.80 low since 11:00 with SMH +3.7% off its low: the tape no longer agrees with a put. Not picked; scored as the mirror's 'bounce before confirmation' case.",
-      "why_zh": "10:20 留给 11:21 的博通看跌：现在比开盘低 2.1%，但 11:00 以来已从 292.8 低点反弹 4.3%，半导体 ETF 也从低点弹了 3.7%，走势不再配合看跌。没选，记为镜像「确认前先反弹」的样本",
-      "action": "none"
-    },
-    {
-      "type": "company_news",
-      "symbol": "MSFT",
-      "direction": "call",
-      "time": "11:25",
-      "why": "Two MSFT headlines at 11:01: a $30B U.K. supercomputing investment, and Bloomberg's 'Microsoft sours on neoclouds' (tightening oversight of Nebius, IREN, Nscale projects; declined to expand the Nscale deal). MSFT 544.3, -2.1% from its 555.75 open after a 532.68 low; NBIS -13%. Read as capex discipline (positive for MSFT, negative for the AI builders), but MSFT is below its open and the index is -2.6% from its open: not a pick.",
-      "why_zh": "微软 11:01 两条消息：300 亿美元投英国超算，以及彭博「微软对新云厂商降温」（收紧对 Nebius、IREN、Nscale 项目的监管，拒绝扩大 Nscale 合作）。微软比开盘低 2.1%、从 532.7 的低点反弹中；Nebius -13%。读作资本开支更克制，对微软是好事、对 AI 建设方是坏事，但微软在开盘价下、指数比开盘低 2.6%，没选",
-      "action": "none"
-    },
-    {
-      "type": "sector_move",
-      "symbol": "SPY",
-      "direction": "call",
-      "time": "11:25",
-      "why": "The index put in a low at 737.12 around 11:00 (-3.7% from its open) and bounced 1.1% in 20 minutes with QQQ +2.2% and VIXY off a 20.27 high. No rule of ours buys this (spy_open_drive is calls above the open only; rebound buying after a -3% open-to-low is not a variant). Logged so the close scores whether an 11:00 capitulation low on a liquidation day held.",
-      "why_zh": "标普 11:00 前后在 737.12 见低（比开盘低 3.7%），20 分钟反弹 1.1%，纳指反弹 2.2%，恐慌指数从高点回落。我们没有规则买这个（开盘驱动只做开盘价上方的看涨，-3% 之后抄底不是我们的变体）。记录，收盘看 11:00 的恐慌低点守不守得住",
-      "action": "none"
-    }
-  ],
-  "check_1121": "Mirror: SMH 464.8 at 11:23, still -3.7% from its 482.51 open (-7.8% on the day) after a low of 448.16 (-7.1% from open) around 11:00; chips turning; sector negative (QCOM/ARM) in place. But the tape turned at 11:00: SPY 737.1 -> 745.5 (+1.1% in 20 minutes), QQQ 647.4 -> 661.6 (+2.2%), AVGO 292.8 -> 305.4 (+4.3%), INTC 52.34 -> 55.28 (+5.6% on the CEO's $9.7M purchase headline 11:01), MU 655.9 -> 710.5 (+8.3%), NVDA 181.6 -> 186.5. Every mirror candidate is 2-6% below its open (AVGO -2.1%, INTC -2.1%, NVDA -4.8%, AMD -5.0%, MU -5.7%) but moving the wrong way for a put since 11:00, so no put; the owner's rule needs the tape to agree now, not an hour ago. No call either: the bounce names are all turning-theme chips (filter) and the only in-session own headline (INTC insider buy) is on one of them. For 13:16: if the bounce fails and SMH takes out 448 after 12:30, the weakest chip still within 3% of its own open is the put candidate; if SMH is back above ~470 (half the open-to-low drop) the day is a failed liquidation and nothing is done."
+ "date": "2026-11-05",
+ "picks": [],
+ "conditional_1121": "Put mirror is armed in principle (SMH 466.9 at 10:17, -3.2% from its 482.51 open, -7.4% on the day; chips turning; QCOM/ARM the sector negative) but every chip except AVGO is already past the 3% line from its own open (NVDA -4.4%, AMD -6.2%, MU -6.3%, INTC -4.8%, MRVL -5.5%). For 11:21: if SMH is still below its open and has not reclaimed half of the 09:30-10:17 drop (above ~474), the weakest chip still within 3% of its own open is the put candidate (now AVGO 305.3, -2.1% from 312.00; outside a report window, nearest expiry 11-06); if the tape has bounced back toward the open, nothing. Call side: the defensive leaders (LLY +2.3%, ABBV +2.3%, CI +2.6%, COST +2.3%) gapped up and are flat from their opens, so no leader pick.",
+ "opportunities": [
+  {
+   "type": "sector_intraday",
+   "symbol": "AVGO",
+   "direction": "put",
+   "time": "10:20",
+   "why": "Mirror candidate for 11:21, not a 10:20 pick: SMH -3.2% from its open after the Qualcomm/Arm night and Kospi -5.3%; AVGO 305.3 is -2.1% from its 312.00 open (-6.2% on the day), the only mega-cap chip still inside the 3% line; nearest expiry 11-06, reports in December. Not picked now: the index is -2.0% from its open 47 minutes in, a broad liquidation rather than a fresh catalyst, and OPENDRIVE.md says puts bought below the open at 10:00 lost in every window (last 3 months -27% all-out at 3x, -47% held). The mirror's edge came from the 11:00 confirmation (11-02 MU), so it waits for 11:21.",
+   "why_zh": "博通是 11:21 的看跌候选，不是现在的：半导体 ETF 比开盘低 3.2%（高通、ARM 财报后，韩国 -5.3%），博通比开盘低 2.1%，是唯一还没过 3% 线的大盘芯片股。现在没选：指数开盘 47 分钟就跌了 2%，是全面清仓不是新消息，而且数据说 10:00 在开盘价下买看跌的历史是亏的。镜像的边来自 11:00 的确认，等 11:21 再看",
+   "action": "none"
+  },
+  {
+   "type": "sector_intraday",
+   "symbol": "NVDA",
+   "direction": "put",
+   "time": "10:20",
+   "why": "Weakest-leader read: NVDA 187.3, -4.4% from its 196.00 open and -6.4% on the day, 8 sessions before its report; past the 3% line, so an opportunity only. nvda_gapdown_put (real ledger) needed a -2% gap at the open and NVDA opened -2.1% (196.00 vs 200.13): check whether it fired at 10:00.",
+   "why_zh": "英伟达比开盘低 4.4%、当天 -6.4%，过了 3% 的线，只记录。英伟达低开看跌的真钱账本要求开盘低 2%，今天开盘正好 -2.1%，收盘后核对它有没有触发",
+   "action": "none"
+  },
+  {
+   "type": "sector_intraday",
+   "symbol": "AMD",
+   "direction": "put",
+   "time": "10:20",
+   "why": "AMD 424.4, -6.2% from its open and -13% on the day, day two after its report (allowed by the letter of the window rule, excluded by the 3% line). The dossier's 'down gap >= 2% bounces 58%' is being tested in a turning theme: open 452.64, low 422.19 so far.",
+   "why_zh": "AMD 比开盘低 6.2%、当天 -13%，过线，只记录。它档案里「低开 2% 以上 58% 会反弹」正在转向主题里被检验：开盘 452.6，目前最低 422.2",
+   "action": "none"
+  },
+  {
+   "type": "sector_move",
+   "symbol": "TSLA",
+   "direction": "put",
+   "time": "10:20",
+   "why": "TSLA 350.6, -6.3% from its 374.02 open and -9% on the day with no fresh headline since the open (the Musk / Democratic-Congress scrutiny stories are from last night); past the 3% line. Scored as the day's biggest mega-cap loser.",
+   "why_zh": "特斯拉比开盘低 6.3%、当天 -9%，开盘后没有新消息（马斯克和民主党国会的报道都是昨晚的），过线，只记录",
+   "action": "none"
+  },
+  {
+   "type": "company_news",
+   "symbol": "AMZN",
+   "direction": "call",
+   "time": "10:20",
+   "why": "The sniper did not fill: AMZN opened 271.64 (+2.1%) and was below its open within minutes, 258.6 at 10:17 (-4.8% from open, -2.8% on the day); the Uber Eats partnership was swallowed by the index. wrong_if (below the open at 10:00) triggered; catalyst_open correctly stayed out.",
+   "why_zh": "狙击没成交：亚马逊高开 2.1% 后几分钟就跌破开盘价，10:17 比开盘低 4.8%，Uber Eats 的消息被指数淹掉。「10:00 在开盘价下」的错误标志触发，机器人按规则没买",
+   "action": "none"
+  },
+  {
+   "type": "rotation_laggard",
+   "symbol": "LLY",
+   "direction": "call",
+   "time": "10:20",
+   "why": "Leader on the other side: LLY 1450.6 (+2.3% on the day, +1.4% from its 1431 open, a new 52-week high) while SPY is -2.1%; health heating; own headlines minor (LifeMD GLP-1 pharmacy deal, Zenith trial collaboration, ACR data). Not a pick: a $1,450 stock's nearest-expiry call costs far more than the $92 budget, and the rest of the defensive leaders (ABBV, CI, CVS, COST, KO) gapped up and are flat from their opens.",
+   "why_zh": "另一边的领涨股：礼来 +2.3%、比开盘高 1.4%、52 周新高，标普 -2.1%；医疗是 heating 主题，自身消息都是小事。没选：1,450 美元的股票一张期权远超 92 美元预算，其他防守股（艾伯维、信诺、CVS、好市多、可口可乐）高开后都在开盘价附近没再走",
+   "action": "none"
+  },
+  {
+   "type": "company_news",
+   "symbol": "INTC",
+   "direction": "call",
+   "time": "11:25",
+   "why": "In-session own news: Intel CEO Lip-Bu Tan bought $9.7M of stock (11:01, after the 150K-share Form 4 yesterday); INTC 55.28, +5.6% off its 52.34 low in 20 minutes, still -2.1% from its 56.47 open and -5.1% on the day. Not a pick: chips are turning (our calls on turning-theme names won 21% of 28) and the stock is not yet back to its open; this is the filter's test case.",
+   "why_zh": "盘中自身消息：英特尔 CEO 陈立武 11:01 公告买入 970 万美元股票，股价 20 分钟从 52.34 反弹到 55.28（+5.6%），但还比开盘低 2.1%、当天 -5.1%。没选：芯片在转向状态（我们在转向主题里的看涨单 28 笔只赢 21%），而且股价还没回到开盘价。这是过滤规则的对照样本",
+   "action": "none"
+  },
+  {
+   "type": "sector_intraday",
+   "symbol": "AVGO",
+   "direction": "put",
+   "time": "11:25",
+   "why": "The 10:20 conditional named AVGO for 11:21: at 11:23 it is 305.35, -2.1% from its open, but +4.3% off its 292.80 low since 11:00 with SMH +3.7% off its low: the tape no longer agrees with a put. Not picked; scored as the mirror's 'bounce before confirmation' case.",
+   "why_zh": "10:20 留给 11:21 的博通看跌：现在比开盘低 2.1%，但 11:00 以来已从 292.8 低点反弹 4.3%，半导体 ETF 也从低点弹了 3.7%，走势不再配合看跌。没选，记为镜像「确认前先反弹」的样本",
+   "action": "none"
+  },
+  {
+   "type": "company_news",
+   "symbol": "MSFT",
+   "direction": "call",
+   "time": "11:25",
+   "why": "Two MSFT headlines at 11:01: a $30B U.K. supercomputing investment, and Bloomberg's 'Microsoft sours on neoclouds' (tightening oversight of Nebius, IREN, Nscale projects; declined to expand the Nscale deal). MSFT 544.3, -2.1% from its 555.75 open after a 532.68 low; NBIS -13%. Read as capex discipline (positive for MSFT, negative for the AI builders), but MSFT is below its open and the index is -2.6% from its open: not a pick.",
+   "why_zh": "微软 11:01 两条消息：300 亿美元投英国超算，以及彭博「微软对新云厂商降温」（收紧对 Nebius、IREN、Nscale 项目的监管，拒绝扩大 Nscale 合作）。微软比开盘低 2.1%、从 532.7 的低点反弹中；Nebius -13%。读作资本开支更克制，对微软是好事、对 AI 建设方是坏事，但微软在开盘价下、指数比开盘低 2.6%，没选",
+   "action": "none"
+  },
+  {
+   "type": "sector_move",
+   "symbol": "SPY",
+   "direction": "call",
+   "time": "11:25",
+   "why": "The index put in a low at 737.12 around 11:00 (-3.7% from its open) and bounced 1.1% in 20 minutes with QQQ +2.2% and VIXY off a 20.27 high. No rule of ours buys this (spy_open_drive is calls above the open only; rebound buying after a -3% open-to-low is not a variant). Logged so the close scores whether an 11:00 capitulation low on a liquidation day held.",
+   "why_zh": "标普 11:00 前后在 737.12 见低（比开盘低 3.7%），20 分钟反弹 1.1%，纳指反弹 2.2%，恐慌指数从高点回落。我们没有规则买这个（开盘驱动只做开盘价上方的看涨，-3% 之后抄底不是我们的变体）。记录，收盘看 11:00 的恐慌低点守不守得住",
+   "action": "none"
+  },
+  {
+   "type": "sector_move",
+   "symbol": "SPY",
+   "direction": "call",
+   "time": "13:20",
+   "why": "Failed breakdown: SPY took out the 11:00 capitulation low (737.12) by three points at 13:00 (734.24) and reclaimed it within ten minutes with QQQ holding 647.4 and SMH holding 448. A second test of the low that fails to extend, two and a half hours before the close and the day before NFP. No rule of ours buys it (no rebound variant on a -3.7% open-to-low day; spy_open_drive is calls above the open only). Logged so the close scores whether a reclaimed low on day three of a liquidation holds into the 3x-ETF rebalance.",
+   "why_zh": "假跌破：标普 13:00 把 11:00 的恐慌低点 737 跌破了 3 个点（734.2），十分钟内又收回去，纳指和半导体 ETF 都守住了各自的低点。离收盘两个半小时、明天非农，第二次探底没能延伸。我们没有规则买它（开盘到最低跌 3.7% 的日子没有反弹变体）。记录，收盘看这个收回来的低点在三倍 ETF 尾盘再平衡时守不守得住",
+   "action": "none"
+  },
+  {
+   "type": "post_earnings_reversal",
+   "symbol": "QCOM",
+   "direction": "call",
+   "time": "13:20",
+   "why": "Qualcomm reported last night (-10% on the day, the night's sector negative) yet is +3.4% from its 150.30 open while every other chip is 4-10% below its own open: the first name of the group to reclaim. Excluded by the report-window rule (first trading day after its report; the bot refuses it too), so an opportunity only. Logged to score whether the gap-down name that reclaims its open on a liquidation day keeps going into the close.",
+   "why_zh": "高通昨晚出财报（今天 -10%，是昨晚砸半导体的那条利空），却比自己的开盘价高 3.4%，其他芯片股都比开盘价低 4% 到 10%：全组第一个收回开盘价的。按规则财报后第一天不做（机器人也会拒绝），只记录，看低开收回开盘价的那只在清仓日能不能走到收盘",
+   "action": "none"
+  }
+ ],
+ "check_1121": "Mirror: SMH 464.8 at 11:23, still -3.7% from its 482.51 open (-7.8% on the day) after a low of 448.16 (-7.1% from open) around 11:00; chips turning; sector negative (QCOM/ARM) in place. But the tape turned at 11:00: SPY 737.1 -> 745.5 (+1.1% in 20 minutes), QQQ 647.4 -> 661.6 (+2.2%), AVGO 292.8 -> 305.4 (+4.3%), INTC 52.34 -> 55.28 (+5.6% on the CEO's $9.7M purchase headline 11:01), MU 655.9 -> 710.5 (+8.3%), NVDA 181.6 -> 186.5. Every mirror candidate is 2-6% below its open (AVGO -2.1%, INTC -2.1%, NVDA -4.8%, AMD -5.0%, MU -5.7%) but moving the wrong way for a put since 11:00, so no put; the owner's rule needs the tape to agree now, not an hour ago. No call either: the bounce names are all turning-theme chips (filter) and the only in-session own headline (INTC insider buy) is on one of them. For 13:16: if the bounce fails and SMH takes out 448 after 12:30, the weakest chip still within 3% of its own open is the put candidate; if SMH is back above ~470 (half the open-to-low drop) the day is a failed liquidation and nothing is done.",
+ "check_1316": "Mirror not re-armed: SMH 454.7 at 13:17 (-5.8% from its 482.51 open, -9.8% on the day). The 11:00-11:35 bounce (448.16 -> 466.2) gave back three quarters (451.66 low at 13:05) but 448 held and 470 was never reclaimed, so neither 13:16 trigger fired. SPY did take out its 11:00 low (737.12) at 13:00 by three points (734.24) and was back above 737 within ten minutes; QQQ retested 647.4 and held; VIXY 20.5 (+25%). The index broke while the chips held: the selling broadened (JPM -5.6% from its open, IWM -4.1%, XLF -3.7%, LLY -2.8%, COST -0.4% from its open and the only mega cap still green on the day). Put side: no chip is within 3% of its own open (AVGO -4.4%, INTC -4.1%, NVDA -6.7%, AMD -8.3%, MU -9.6%, MRVL -8.8%; QCOM +3.4% and ARM -1.6% reported last night, excluded), and OPENDRIVE says puts bought this far below the open lose. Call side: no in-session catalyst outside the turning theme (Google $17B Wyoming data center 12:08, ARM target cuts, nothing else), and buying a -3.7% open-to-low index at 13:00 before NFP is not a variant of ours. No pick. Last hour: 3x ETF rebalancing sells again into a weak close; 737 / 448 are the lines; a close above the 13:00 low with SMH still above 448 is a held liquidation low, a break of both is the fourth leg into NFP."
 }
