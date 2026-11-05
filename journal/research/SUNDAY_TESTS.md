@@ -205,6 +205,13 @@ in EVOLUTION.md.
 48. **The 3% line on liquidation days (2026-11-05).** The intraday put mirror measures "within 3% of its own open";
     on 11-05 every chip was 4-6% below its open by 10:00 and the four right puts were excluded. Replay the mirror
     (BOUNCE.md data) with the line measured from the 10:00 price and from the 11:00 bounce high instead of the open.
+49. **Pooled "sell at k x vs hold" table (2026-11-05 evening exchange).** The other Claude sent 49 rows of exits at
+    >= 2x since 10-19 (exchange/claude-b/received/2026-11-05.reply-claude-b.json, `two_x_rows`: 22 filled 3x orders,
+    11 at 2x, 8 trailed 40% after 2x, 8 held to time) and will add the price at the 2x moment and before the close on
+    Saturday. Bring our half_at shadow records and stock_open_drive / spy_open_drive real fills in the same fields and
+    compute k x vs hold on the pooled set; today's 757P (4 of 7 held to 15:30 at 17x, +$9,408) and the follow card
+    (half 3x, half trailed: +2.7 per $1 vs +10.5 held) are the put-side examples. Their follow-card split to carry:
+    VIX >= 24 the day before 15 days +57%, VIX < 24 37 days -5%.
 
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
