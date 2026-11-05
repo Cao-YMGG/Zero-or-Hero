@@ -1,46 +1,22 @@
 {
-  "date": "2026-11-04",
-  "done": true,
+  "date": "2026-11-05",
+  "done": false,
   "variants": {
     "claude_bias": {},
-    "meta_follow2": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "leader_follow": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "rebound_scanner": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
+    "meta_follow2": {},
+    "leader_follow": {},
+    "rebound_scanner": {},
     "nvda_gapdown_put": {},
     "catalyst_open": {},
     "catalyst_open_hero": {},
     "catalyst_intraday": {},
     "catalyst_intraday_hero": {},
-    "spy_open_drive": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "spy_open_drive_wide": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "stock_open_drive": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    }
+    "spy_open_drive": {},
+    "spy_open_drive_wide": {},
+    "stock_open_drive": {}
   },
   "generation": 1,
-  "equity_start": 458.0199999999968,
+  "equity_start": 457.7699999999968,
   "phase": "zero-or-hero",
   "risk_per_trade": 0.2,
   "champion": "rebound_scanner",
@@ -51,12 +27,12 @@
       "paused": false
     },
     "spy_open_drive": {
-      "equity": 500.0,
+      "equity": 410.0,
       "generation": 1,
       "paused": false
     },
     "stock_open_drive": {
-      "equity": 617.0,
+      "equity": 546.0,
       "generation": 1,
       "paused": false
     }

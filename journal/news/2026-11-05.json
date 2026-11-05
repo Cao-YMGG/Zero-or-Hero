@@ -1,7 +1,331 @@
 {
- "as_of": "2026-11-05T07:44-05:00",
+ "as_of": "2026-11-05T10:02-05:00",
  "since": "2026-11-04T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-05 10:01",
+   "symbols": [
+    "ARM"
+   ],
+   "rating": "target down",
+   "headline": "Wells Fargo Lowers Price Target for Arm Holdings",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/flash/1003658388/arm-holdings-plc-wells-fargo-cuts-target-price-to-255"
+  },
+  {
+   "time": "11-05 09:31",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "AMC CEO Adam Aron Rejects Stock Tokenization, Criticizes Robinhood's Practices",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/stocktwits:aac408eca094b:0-amc-won-t-consent-to-tokenized-stocks-under-new-sec-rules-ceo-says-tokens-let-brokers-fool-around-with-our-balance-sheet/"
+  },
+  {
+   "time": "11-05 09:31",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Zenith Epigenetics Announces Clinical Trial Collaboration with Eli Lilly",
+   "source": "fiscal.ai",
+   "url": "https://www.newsfilecorp.com/release/322650/Zenith-Epigenetics-Announces-Clinical-Trial-Collaboration-and-Supply-Agreement-with-Lilly-for-Registration-Enabling-Study-of-ZEN3694-and-VerzenioR-Abemaciclib-in-NUT-Carcinoma"
+  },
+  {
+   "time": "11-05 09:31",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "LifeMD Partners with Eli Lilly to Expand Access to GLP-1 Medications",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/05/3396309/6480/en/lifemd-expands-access-to-lilly-s-self-pay-glp-1-medicines-enabling-option-to-dispense-and-ship-directly-to-patients-nationwide.html"
+  },
+  {
+   "time": "11-05 09:31",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "",
+   "headline": "BMO Capital Adjusts Price Target on Vistra Corp.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/bmo-capital-adjusts-price-target-on-vistra-to-188-from-210-ce785fdcde8df123"
+  },
+  {
+   "time": "11-05 09:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Files Major Holdings Notification for Siltronic AG",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:1454e60f1e2a3:0-siltronic-ag-waf-receives-goldman-sachs-voting-rights-notification/"
+  },
+  {
+   "time": "11-05 09:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Files Major Holdings Notification for CECONOMY AG",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:5a79a91f5c172:0-ceconomy-ag-cec-receives-goldman-sachs-voting-rights-notice/"
+  },
+  {
+   "time": "11-05 09:31",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce Ventures Participates in Zipline's $1.5 Billion Funding Round",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/05/3396242/0/en/zipline-raises-1-5-billion-to-build-nationwide-drone-delivery-network.html"
+  },
+  {
+   "time": "11-05 09:31",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Analysts Update Ratings and Price Targets for Palantir",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1003661708/a-quick-look-at-today-s-ratings-for-palantir-pltrus"
+  },
+  {
+   "time": "11-05 09:31",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "AmeriLife Partners with Palantir to Deploy AI Platforms",
+   "source": "fiscal.ai",
+   "url": "https://insurancenewsnet.com/innarticle/amerilife-partners-with-palantir-on-ai-rollout-across-insurance-distribution"
+  },
+  {
+   "time": "11-05 09:31",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Launches Seven-Part US Dollar High-Grade Bond Offering",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1003663547/apple-launches-seven-part-us-dollar-high-grade-bond-offering"
+  },
+  {
+   "time": "11-05 09:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "J.P. Morgan Advises on DTE Energy's $3 Billion Sale of DTE Vantage",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/dte-energy-to-sell-non-utility-business-for-3-billion-ce785fdcdf80f321"
+  },
+  {
+   "time": "11-05 09:31",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta's New Euro Bonds Trade Higher on Market Debut",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1003641912/market-chatter-meta-s-new-euro-bonds-trade-higher-on"
+  },
+  {
+   "time": "11-05 09:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Recast Software Enhances Right Click Tools for Microsoft Management Platforms",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/05/3396506/0/en/recast-expands-right-click-tools-to-deliver-greater-application-visibility-cloud-first-management-and-stronger-security.html"
+  },
+  {
+   "time": "11-05 09:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Blitzy Announces Collaboration with Microsoft",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/blitzy-announces-collaboration-with-microsoft-to-accelerate-legacy-modernization-and-software-development-at-scale-302930099.html"
+  },
+  {
+   "time": "11-05 09:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Supermicro and IBM Announce New Inference Solution Featuring NVIDIA Technology",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/supermicro-launches-kv-cache-solution-with-ibm-and-nvidia-demonstrating-significant-inference-performance-benefits-302928472.html"
+  },
+  {
+   "time": "11-05 09:31",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "ExxonMobil Alaska Production Inc. Signs 15-Year Gas Sale Agreement",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/stak-energy-signs-long-term-agreement-to-bring-north-slope-natural-gas-to-market-302930119.html"
+  },
+  {
+   "time": "11-05 09:07",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "China's Nvidia H200 Bottleneck Deepens: 600,000 Chips Reportedly Await Approval In Hong Kong as Servers Fetch Nearly $1 Million Each",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62919241/chinas-nvidia-h200-bottleneck-deepens-600000-chips-reportedly-await-approval-in-hong-kong-as-servers-fetch-nearly-1-million-each"
+  },
+  {
+   "time": "11-05 09:05",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Box Unveils Box Context Retrieval Powered By Nvidia Nemotron Models",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62919125/box-unveils-box-context-retrieval-powered-nvidia-nemotron-models"
+  },
+  {
+   "time": "11-05 09:02",
+   "symbols": [
+    "ARM"
+   ],
+   "rating": "downgrade",
+   "headline": "President Capital Downgrades Arm Holdings ADR to Neutral",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/president-capital-downgrades-arm-holdings-adr-to-neutral-from-buy-ce785fdcde80ff2c"
+  },
+  {
+   "time": "11-05 08:45",
+   "symbols": [
+    "AMZN",
+    "MSFT",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Ed Yardeni Says Slowing AI Boom Is Actually Bullish for Big Tech",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62917838/yardeni-ai-spending"
+  },
+  {
+   "time": "11-05 08:43",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Virgin Galactic Enters Three-Year Collaboration With Non-Profit Space For Humanity To Fly Three Dedicated Charters For Up To 18 Astronauts In Total",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62917745/virgin-galactic-enters-three-year-collaboration-non-profit-space-humanity-fly-three-dedicated-charte"
+  },
+  {
+   "time": "11-05 08:41",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "'Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs' - CNBC",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62917662/chinese-ai-lab-moonshot-turned-europe-nvidia-blackwell-access-amid-u-s-china-curbs-cnbc"
+  },
+  {
+   "time": "11-05 08:39",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "STAK Energy Inks 15-Year Gas Sale Agreement With ExxonMobil Alaska Production To Provide Gas To New Power Plant In North State's North Slope",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62917427/stak-energy-inks-15-year-gas-sale-agreement-exxonmobil-alaska-production-provide-gas-new-power-plant"
+  },
+  {
+   "time": "11-05 08:30",
+   "symbols": [
+    "ARM"
+   ],
+   "rating": "",
+   "headline": "Arm Shares Slip Despite Q2 Double-Beat: Details (CORRECTED)",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/11/62891276/arm-shares-slip-despite-q2-double-beat-details"
+  },
+  {
+   "time": "11-05 08:20",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Inc. Files Form 424B2 For Seven-Part U.S. Dollar High-Grade Bond Sale",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62916397/apple-inc-files-form-424b2-seven-part-u-s-dollar-high-grade-bond-sale"
+  },
+  {
+   "time": "11-05 08:11",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "IBM, Oak Ridge National Laboratory And AMD Announce Quantum Error Correction Platform Linking IBM Quantum Computers To AMD-Powered Supercomputer",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AMD"
+  },
+  {
+   "time": "11-05 08:04",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Smartbird Partners With Super Micro Computer To Offer AI Infrastructure Customized To Firms Workloads",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62915539/smartbird-partners-super-micro-computer-offer-ai-infrastructure-customized-firms-workloads"
+  },
+  {
+   "time": "11-05 08:02",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Adjusts Price Target on AppLovin to $445 From $400",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-price-target-on-applovin-to-445-from-400-ce785fdcdc8bf52d"
+  },
+  {
+   "time": "11-05 08:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Bank Provides Debt Financing for ANI Pharmaceuticals Acquisition",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/05/3396204/0/en/repeat-ani-pharmaceuticals-announces-offer-to-acquire-egetis-therapeutics-expanding-the-scope-and-scale-of-its-rare-disease-business.html"
+  },
+  {
+   "time": "11-05 07:57",
+   "symbols": [
+    "GOOGL",
+    "META"
+   ],
+   "rating": "",
+   "headline": "Google Created 5 Billionaires Worth $553B \u2014 Almost All That Wealth Belongs to 2 People",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/62914748/google-billionaires-alphabet-wealth"
+  },
+  {
+   "time": "11-05 07:43",
+   "symbols": [
+    "AMZN",
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Zipline Announces $1.5B Capital Raise At Post-Money Valuation Of $21.5B; Working With Walmart To Launch 300 Additional Sites",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62914231/zipline-announces-1-5b-capital-raise-post-money-valuation-21-5b-working-walmart-launch-300-additiona"
+  },
   {
    "time": "11-05 07:36",
    "symbols": [
@@ -711,16 +1035,6 @@
    "headline": "Costco Wholesale Corporation Reports October 2026 Sales Results",
    "source": "fiscal.ai",
    "url": "https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Reports-October-Sales-Results/default.aspx"
-  },
-  {
-   "time": "11-04 16:20",
-   "symbols": [
-    "ARM"
-   ],
-   "rating": "",
-   "headline": "Arm Shares Slip Despite Q2 Double-Beat: Details",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/11/62891276/arm-shares-slip-despite-q2-double-beat-details"
   },
   {
    "time": "11-04 16:19",

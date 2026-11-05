@@ -1,9 +1,11 @@
-# Headlines since 2026-11-04 16:00 ET (as of 2026-11-05 07:44 ET)
+# Headlines since 2026-11-04 16:00 ET (as of 2026-11-05 10:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-05 10:01 | ARM | target down | Wells Fargo Lowers Price Target for Arm Holdings |
+| 11-05 09:02 | ARM | downgrade | President Capital Downgrades Arm Holdings ADR to Neutral |
 | 11-05 06:31 | JPM | downgrade | JPMorgan Chase Downgrades Expedia Group to Neutral |
 | 11-05 06:31 | JPM | rating | JPMorgan Chase Maintains Overweight Rating on Deutsche Telekom |
 | 11-05 06:31 | AAPL | downgrade | DBS Downgrades Apple to Sell Rating |
@@ -12,6 +14,36 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-04 17:47 | AMD | target down | UBS Maintains Buy on Advanced Micro Devices, Lowers Price Target to $700 |
 | 11-04 16:32 | GS | upgrade | Goldman Sachs Upgrades Ibotta to Neutral from Sell, Raises Price Target to $58 |
 | 11-04 16:16 | XOM | target up | Citigroup Maintains Neutral on ExxonMobil Holdings, Raises Price Target to $175 |
+| 11-05 09:31 | HOOD |  | AMC CEO Adam Aron Rejects Stock Tokenization, Criticizes Robinhood's Practices |
+| 11-05 09:31 | LLY |  | Zenith Epigenetics Announces Clinical Trial Collaboration with Eli Lilly |
+| 11-05 09:31 | LLY |  | LifeMD Partners with Eli Lilly to Expand Access to GLP-1 Medications |
+| 11-05 09:31 | VST |  | BMO Capital Adjusts Price Target on Vistra Corp. |
+| 11-05 09:31 | GS |  | Goldman Sachs Files Major Holdings Notification for Siltronic AG |
+| 11-05 09:31 | GS |  | Goldman Sachs Files Major Holdings Notification for CECONOMY AG |
+| 11-05 09:31 | CRM |  | Salesforce Ventures Participates in Zipline's $1.5 Billion Funding Round |
+| 11-05 09:31 | PLTR |  | Analysts Update Ratings and Price Targets for Palantir |
+| 11-05 09:31 | PLTR |  | AmeriLife Partners with Palantir to Deploy AI Platforms |
+| 11-05 09:31 | AAPL |  | Apple Launches Seven-Part US Dollar High-Grade Bond Offering |
+| 11-05 09:31 | JPM |  | J.P. Morgan Advises on DTE Energy's $3 Billion Sale of DTE Vantage |
+| 11-05 09:31 | META |  | Meta's New Euro Bonds Trade Higher on Market Debut |
+| 11-05 09:31 | MSFT |  | Recast Software Enhances Right Click Tools for Microsoft Management Platforms |
+| 11-05 09:31 | MSFT |  | Blitzy Announces Collaboration with Microsoft |
+| 11-05 09:31 | NVDA |  | Supermicro and IBM Announce New Inference Solution Featuring NVIDIA Technology |
+| 11-05 09:31 | XOM |  | ExxonMobil Alaska Production Inc. Signs 15-Year Gas Sale Agreement |
+| 11-05 09:07 | NVDA |  | China's Nvidia H200 Bottleneck Deepens: 600,000 Chips Reportedly Await Approval In Hong Kong as Servers Fetch Nearly $1 Million Each |
+| 11-05 09:05 | NVDA |  | Box Unveils Box Context Retrieval Powered By Nvidia Nemotron Models |
+| 11-05 08:45 | AMZN MSFT NVDA |  | Ed Yardeni Says Slowing AI Boom Is Actually Bullish for Big Tech |
+| 11-05 08:43 | AMZN |  | Virgin Galactic Enters Three-Year Collaboration With Non-Profit Space For Humanity To Fly Three Dedicated Charters For Up To 18 Astronauts In Total |
+| 11-05 08:41 | NVDA |  | 'Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs' - CNBC |
+| 11-05 08:39 | XOM |  | STAK Energy Inks 15-Year Gas Sale Agreement With ExxonMobil Alaska Production To Provide Gas To New Power Plant In North State's North Slope |
+| 11-05 08:30 | ARM |  | Arm Shares Slip Despite Q2 Double-Beat: Details (CORRECTED) |
+| 11-05 08:20 | AAPL |  | Apple Inc. Files Form 424B2 For Seven-Part U.S. Dollar High-Grade Bond Sale |
+| 11-05 08:11 | AMD |  | IBM, Oak Ridge National Laboratory And AMD Announce Quantum Error Correction Platform Linking IBM Quantum Computers To AMD-Powered Supercomputer |
+| 11-05 08:04 | SMCI |  | Smartbird Partners With Super Micro Computer To Offer AI Infrastructure Customized To Firms Workloads |
+| 11-05 08:02 | GS |  | Goldman Sachs Adjusts Price Target on AppLovin to $445 From $400 |
+| 11-05 08:01 | JPM |  | JPMorgan Chase Bank Provides Debt Financing for ANI Pharmaceuticals Acquisition |
+| 11-05 07:57 | GOOGL META |  | Google Created 5 Billionaires Worth $553B — Almost All That Wealth Belongs to 2 People |
+| 11-05 07:43 | AMZN WMT |  | Zipline Announces $1.5B Capital Raise At Post-Money Valuation Of $21.5B; Working With Walmart To Launch 300 Additional Sites |
 | 11-05 07:36 | LLY |  | LifeMD Announces Agreement For Its Pharmacies To Directly Dispense, Ship Eli Lilly's Self-Pay GLP-1 Medicines |
 | 11-05 07:31 | GS |  | Goldman Sachs and Apollo Marketing $40 Billion SpaceX Financing Deal |
 | 11-05 07:31 | JPM |  | JPMorgan Chase Discloses Stake in Evotec SE |
@@ -75,7 +107,6 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-04 16:31 | GEV |  | GE Vernova Shares Decline Amid Political Developments Affecting Data Center Projects |
 | 11-04 16:31 | NVDA |  | Fermaca Named First NVIDIA Cloud Partner in Mexico |
 | 11-04 16:31 | COST |  | Costco Wholesale Corporation Reports October 2026 Sales Results |
-| 11-04 16:20 | ARM |  | Arm Shares Slip Despite Q2 Double-Beat: Details |
 | 11-04 16:19 | GS |  | 'Goldman, Apollo in Talks to Sell SpaceX’s $40 Billion AI Deal' - Bloomberg Exclusive |
 | 11-04 16:08 | ARM |  | ARM Holdings Sees Q3 Adj EPS $0.52-$0.60 vs $0.56 Est; Sees Sales $1.490B vs $1.528B Est |
 | 11-04 16:05 | ARM |  | ARM Holdings Q2 Adj. EPS $0.52 Beats $0.47 Estimate, Sales $1.443B Beat $1.376B Estimate |
