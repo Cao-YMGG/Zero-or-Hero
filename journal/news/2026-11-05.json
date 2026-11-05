@@ -1,7 +1,37 @@
 {
- "as_of": "2026-11-05T10:02-05:00",
+ "as_of": "2026-11-05T10:32-05:00",
  "since": "2026-11-04T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-05 10:14",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "'Google AI in School Triggered Teen\u2019s Mental Health Crisis, Lawsuit Says' - Bloomberg",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62926303/google-ai-school-triggered-teen-s-mental-health-crisis-lawsuit-says-bloomberg"
+  },
+  {
+   "time": "11-05 10:06",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platforms Rolling Out Events Home, Invitations For Non-Users On WhatsApp",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62925475/meta-platforms-rolling-out-events-home-invitations-non-users-whatsapp"
+  },
+  {
+   "time": "11-05 10:05",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "Reported November 4, 2026: GE Aerospace Partners With BETA Technologies On World\u2019s First Hybrid Electric Assisted Takeoff Of A Commercial Aircraft",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62925377/reported-november-4-2026-ge-aerospace-partners-beta-technologies-world-s-first-hybrid-electric-assis"
+  },
   {
    "time": "11-05 10:01",
    "symbols": [

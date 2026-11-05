@@ -1,4 +1,4 @@
-# Headlines since 2026-11-04 16:00 ET (as of 2026-11-05 10:02 ET)
+# Headlines since 2026-11-04 16:00 ET (as of 2026-11-05 10:32 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -14,6 +14,9 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-04 17:47 | AMD | target down | UBS Maintains Buy on Advanced Micro Devices, Lowers Price Target to $700 |
 | 11-04 16:32 | GS | upgrade | Goldman Sachs Upgrades Ibotta to Neutral from Sell, Raises Price Target to $58 |
 | 11-04 16:16 | XOM | target up | Citigroup Maintains Neutral on ExxonMobil Holdings, Raises Price Target to $175 |
+| 11-05 10:14 | GOOGL |  | 'Google AI in School Triggered Teen’s Mental Health Crisis, Lawsuit Says' - Bloomberg |
+| 11-05 10:06 | META |  | Meta Platforms Rolling Out Events Home, Invitations For Non-Users On WhatsApp |
+| 11-05 10:05 | GE |  | Reported November 4, 2026: GE Aerospace Partners With BETA Technologies On World’s First Hybrid Electric Assisted Takeoff Of A Commercial Aircraft |
 | 11-05 09:31 | HOOD |  | AMC CEO Adam Aron Rejects Stock Tokenization, Criticizes Robinhood's Practices |
 | 11-05 09:31 | LLY |  | Zenith Epigenetics Announces Clinical Trial Collaboration with Eli Lilly |
 | 11-05 09:31 | LLY |  | LifeMD Partners with Eli Lilly to Expand Access to GLP-1 Medications |
