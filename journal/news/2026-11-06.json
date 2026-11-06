@@ -1,7 +1,88 @@
 {
- "as_of": "2026-11-06T13:46-05:00",
+ "as_of": "2026-11-06T14:16-05:00",
  "since": "2026-11-05T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-06 14:02",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Announces 'Stranger Things' Prequel Series 'Other Worlds'",
+   "source": "fiscal.ai",
+   "url": "https://digg.com/entertainment/5dauzu7n"
+  },
+  {
+   "time": "11-06 14:02",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Crusoe Announces Wyoming Data Center Campus Update; Google Has Acquired Crusoe\u2019s Data Center Site In Southeast Wyoming, Completing Crusoe\u2019s Pre-Development Work On Site Selection, Governmental Approvals, And A Hybrid Power Strategy Developed With Tallgrass Energy",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m/26/11/63004829/crusoe-announces-wyoming-data-center-campus-update-google-has-acquired-crusoe-s-data-center-site-sou"
+  },
+  {
+   "time": "11-06 14:02",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Microsoft to Conclude Agreement to Rent AI Compute Capacity from Oracle",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/microsoft-to-conclude-deal-with-oracle-for-renting-ai-compute-ce785fd2dd8cf42d"
+  },
+  {
+   "time": "11-06 14:02",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "rating",
+   "headline": "JPMorgan Chase Reiterates Buy Rating on Axon Enterprise",
+   "source": "fiscal.ai",
+   "url": "https://de.marketscreener.com/boerse-nachrichten/axon-enterprise-inc-jpmorgan-chase-bekraeftigt-seine-kaufempfehlung-ce785fd2d88ff72c"
+  },
+  {
+   "time": "11-06 14:01",
+   "symbols": [
+    "LITE"
+   ],
+   "rating": "upgrade",
+   "headline": "Raymond James Upgrades Lumentum to Strong Buy Following Marvell Acquisition Agreement",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/gurufocus:674e00e37094b:0-raymond-james-sees-massive-upside-in-these-2-stocks/"
+  },
+  {
+   "time": "11-06 14:01",
+   "symbols": [
+    "ARM"
+   ],
+   "rating": "",
+   "headline": "Arm Announces New Total Access Deals and CSS Licenses",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:40fab1d5765bd:0/"
+  },
+  {
+   "time": "11-06 14:01",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce Expands Agentforce Coworker with New AI Capabilities and Integrations",
+   "source": "fiscal.ai",
+   "url": "https://aimagazine.com/news/salesforce-agentforce-coworker-brings-autonomous-ai-to-teams"
+  },
+  {
+   "time": "11-06 13:45",
+   "symbols": [
+    "MSFT",
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Stock Slides as Microsoft Reportedly Pulls Back From AI Computing Deal",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63003689/oracle-stock-slides-as-microsoft-reportedly-pulls-back-from-ai-computing-deal"
+  },
   {
    "time": "11-06 13:32",
    "symbols": [

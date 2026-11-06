@@ -1,9 +1,11 @@
-# Headlines since 2026-11-05 16:00 ET (as of 2026-11-06 13:46 ET)
+# Headlines since 2026-11-05 16:00 ET (as of 2026-11-06 14:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-06 14:02 | JPM | rating | JPMorgan Chase Reiterates Buy Rating on Axon Enterprise |
+| 11-06 14:01 | LITE | upgrade | Raymond James Upgrades Lumentum to Strong Buy Following Marvell Acquisition Agreement |
 | 11-06 09:32 | JPM | downgrade | JPMorgan Chase Downgrades Munich Re and Hannover Rück |
 | 11-06 09:32 | JPM | upgrade | JPMorgan Chase Upgrades Sociedad Química y Minera de Chile S.A. |
 | 11-06 09:31 | PLTR | rating | StoneX Maintains Hold Rating on Palantir Technologies Inc. |
@@ -16,6 +18,12 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-05 17:42 | ARM | target down | JP Morgan Maintains Overweight on ARM Holdings, Lowers Price Target to $245 |
 | 11-05 16:33 | GS | target up | Goldman Sachs Maintains Chime Financial at Buy, Raises Price Target |
 | 11-05 16:27 | TSLA | rating | GLJ Research Reiterates Sell on Tesla, Maintains $24.86 Price Target |
+| 11-06 14:02 | NFLX |  | Netflix Announces 'Stranger Things' Prequel Series 'Other Worlds' |
+| 11-06 14:02 | GOOGL |  | Crusoe Announces Wyoming Data Center Campus Update; Google Has Acquired Crusoe’s Data Center Site In Southeast Wyoming, Completing Crusoe’s Pre-Development Work On Site Selection, Governmental Approvals, And A Hybrid Power Strategy Developed With Tallgrass Energy |
+| 11-06 14:02 | ORCL |  | Microsoft to Conclude Agreement to Rent AI Compute Capacity from Oracle |
+| 11-06 14:01 | ARM |  | Arm Announces New Total Access Deals and CSS Licenses |
+| 11-06 14:01 | CRM |  | Salesforce Expands Agentforce Coworker with New AI Capabilities and Integrations |
+| 11-06 13:45 | MSFT ORCL |  | Oracle Stock Slides as Microsoft Reportedly Pulls Back From AI Computing Deal |
 | 11-06 13:32 | RKLB |  | Reported November 5, 2026: Rocket Lab Posts On X "Electron's 100th mission. It's almost time. "The Mountain God Rises" will carry a QPS-SAR satellite for @QPS_Inc to a 575km LEO from Launch Complex 1 no earlier than Saturday Nov 14. Launch window opens: 12:30am Eastern" |
 | 11-06 13:15 | MSFT |  | OpenAI Announces Partnering With Hacktron To Find Vulnerabilities In OpenAI’s Systems |
 | 11-06 13:12 | META |  | Meta Introduces Spaces Feature In Muse App |
