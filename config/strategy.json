@@ -237,29 +237,27 @@
       "trail_after_half": 0.4
     },
     {
-      "id": "spy_open_drive_wide",
+      "id": "spy_open_drive_put",
       "signal": "momentum",
       "after_minutes": 30,
       "sides": [
-        "up"
+        "down"
       ],
       "target_delta": 0.15,
       "take_profit": null,
       "stop_loss": null,
-      "trail_after": null,
+      "trail_after": 2.0,
+      "trail_giveback": 0.4,
       "entry_cutoff": "10:05",
       "days": "non_event",
       "skip_opex_week": true,
-      "threshold_pct": 0.3,
+      "threshold_pct": 0.5,
       "weekdays": [
         0,
         1,
         2,
         3
-      ],
-      "half_at": 3.0,
-      "single_take": true,
-      "trail_after_half": 0.4
+      ]
     },
     {
       "id": "stock_open_drive",
@@ -297,7 +295,8 @@
     "variants": [
       "nvda_gapdown_put",
       "spy_open_drive",
-      "stock_open_drive"
+      "stock_open_drive",
+      "spy_open_drive_put"
     ]
   }
 }
