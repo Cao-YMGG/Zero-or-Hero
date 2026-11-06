@@ -1,0 +1,696 @@
+{
+ "as_of": "2026-11-06T07:42-05:00",
+ "since": "2026-11-05T16:00-05:00",
+ "headlines": [
+  {
+   "time": "11-06 07:32",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Reaffirms Neutral Rating on Microchip Technology",
+   "source": "fiscal.ai",
+   "url": "https://ch.marketscreener.com/boerse-nachrichten/microchip-technology-incorporated-jpmorgan-chase-bekraeftigt-seine-neutrale-bewertung-ce785fddd080f623"
+  },
+  {
+   "time": "11-06 07:32",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Increases Stake in Bodycote plc",
+   "source": "fiscal.ai",
+   "url": "https://6ix.com/news/holdings-in-company-2528"
+  },
+  {
+   "time": "11-06 07:32",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Discloses Voting Rights Change in LANXESS AG",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/eqs:9ab28f928094b:0-lanxess-ag-release-according-to-article-40-section-1-of-the-wphg-the-german-securities-trading-act-with-the-objective-of-europe-wide-distribution/"
+  },
+  {
+   "time": "11-06 07:32",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Enhances AI Chip Tracking in Southeast Asia",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/nvidia-tightens-ai-chip-tracking-in-southeast-asia-amid-smuggling-concerns-ce785fd2d988f32d"
+  },
+  {
+   "time": "11-06 07:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "initiate",
+   "headline": "Goldman Sachs Initiates Coverage of Keel Infrastructure",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:eb4258e2b4931:0-goldman-sachs-initiates-coverage-of-keel-infrastructure-at-neutral-sets-price-target-at-2/"
+  },
+  {
+   "time": "11-06 07:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Adjusts Price Target on Tapestry",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-price-target-on-tapestry-to-168-from-162-ce785fd2d98af22d"
+  },
+  {
+   "time": "11-06 07:31",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "",
+   "headline": "Vistra Corp. Reports Third Quarter 2026 Results",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/vistra-reports-third-quarter-2026-results-302931798.html"
+  },
+  {
+   "time": "11-06 07:31",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "rating",
+   "headline": "Tesla Maintains Top Position in South Korea's Imported Car Market",
+   "source": "fiscal.ai",
+   "url": "https://www.koreaherald.com/article/10929035"
+  },
+  {
+   "time": "11-06 07:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Iren Delays AI Data Center Infrastructure Deliveries to Microsoft",
+   "source": "fiscal.ai",
+   "url": "https://www.fidelity.com/news/article/company-news/202611060512MIDNIGHTUSEQUITY_A3747849"
+  },
+  {
+   "time": "11-06 07:31",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Deka-ImmobilienGlobal Fund Acquires Property Fully Leased to Apple",
+   "source": "fiscal.ai",
+   "url": "https://news.europawire.eu/deka-immobilien-expands-canadian-real-estate-portfolio-with-apple-flagship-store-acquisition-in-montreal/eu-press-release/2026/11/06/12/35/04/186446/"
+  },
+  {
+   "time": "11-06 07:31",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly Enters Agreement with Hims & Hers to Expand Access to Obesity Medications",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/lilly-and-hims--hers-expand-access-to-fda-approved-lilly-medicines-302931979.html"
+  },
+  {
+   "time": "11-06 07:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Bernstein Research Issues Outperform Rating for Oracle",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.ch/analyse/oracle-outperform-1118596"
+  },
+  {
+   "time": "11-06 07:05",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "",
+   "headline": "Vistra Q3 Sales $6.347B Beat $6.024B Estimate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/11/62971565/vistra-q3-sales-6-347b-beat-6-024b-estimate"
+  },
+  {
+   "time": "11-06 06:58",
+   "symbols": [
+    "TSM"
+   ],
+   "rating": "",
+   "headline": "Reported Earlier, 'Taiwan Imposes Short Selling Limit to Support Stock Market ' - Bloomberg",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62971200/reported-earlier-taiwan-imposes-short-selling-limit-support-stock-market-bloomberg"
+  },
+  {
+   "time": "11-06 06:49",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly And Hims & Hers Partner To Expand Access To Zepbound And Orforglipron At Standard Self-Pay Prices",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62970993/eli-lilly-and-hims-hers-partner-expand-access-zepbound-and-orforglipron-standard-self-pay-prices"
+  },
+  {
+   "time": "11-06 06:48",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia CEO Jensen Huang Faces Congressional Scrutiny Over Alleged Chinese Spy Links as Republicans Warn of \u2018Significant National Security Concerns\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62970670/nvidia-ceo-jensen-huang-faces-congressional-scrutiny-over-alleged-chinese-spy-links-as-republicans-warn-of-significant-national-security-concerns"
+  },
+  {
+   "time": "11-06 06:32",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Phillip Securities Adjusts Price Target on Apple to $310 From $300",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/phillip-securities-adjusts-price-target-on-apple-to-310-from-300-ce785fddd08bf625"
+  },
+  {
+   "time": "11-06 06:31",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce Updates AI Governance and Executive Compensation Metrics",
+   "source": "fiscal.ai",
+   "url": "https://www.einpresswire.com/article/954985580/when-an-algorithm-reads-your-proxy-and-ai-is-on-the-ballot"
+  },
+  {
+   "time": "11-06 06:31",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce Integrates CrowdStrike Falcon Shield into Security Center",
+   "source": "fiscal.ai",
+   "url": "https://aimagazine.com/news/crowdstrikes-ai-kill-switch-one-action-every-agent-stops"
+  },
+  {
+   "time": "11-06 06:31",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce Integrates with Notion for AI Agent Workflows",
+   "source": "fiscal.ai",
+   "url": "https://aimagazine.com/news/notion-ai-agents-for-a-workspace-used-by-100-million-people"
+  },
+  {
+   "time": "11-06 06:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Concludes $1 Billion Investment in Naver for AI Factory Expansion",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/nvidia-concludes-1-billion-investment-in-naver-to-fund-ai-factory-expansion-ce785fddd18ff126"
+  },
+  {
+   "time": "11-06 06:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart Extends Director Tenure to Bolster AI and Cybersecurity Oversight",
+   "source": "fiscal.ai",
+   "url": "https://www.einpresswire.com/article/954985580/when-an-algorithm-reads-your-proxy-and-ai-is-on-the-ballot"
+  },
+  {
+   "time": "11-06 06:31",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla to Wind Down Cybertruck Production",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/dow-jones/202611064612/tesla-winding-down-production-of-cybertruck-musk-says"
+  },
+  {
+   "time": "11-06 06:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Launches Shop Direct Merchant Workspace and Buy for Me AI Feature",
+   "source": "fiscal.ai",
+   "url": "https://glenbrook.com/payments-news/all-payments-news/"
+  },
+  {
+   "time": "11-06 06:31",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank of America Restructures Credit Trading and Lending Businesses",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:4864b109e81e3:0-key-facts-bank-of-america-merges-credit-trading-restructures-lending/"
+  },
+  {
+   "time": "11-06 06:26",
+   "symbols": [
+    "AMD",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Claws Back Losses After $400 Billion Bloodbath, but the AI Scare Isn't Over",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62969899/nvidia-claws-back-losses-after-400-billion-bloodbath-but-the-ai-scare-isnt-over"
+  },
+  {
+   "time": "11-06 06:22",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "Top 3 Industrials Stocks That May Rocket Higher In November",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/62969800/top-3-industrials-stocks-that-may-rocket-higher-in-november"
+  },
+  {
+   "time": "11-06 06:08",
+   "symbols": [
+    "AMD",
+    "MU"
+   ],
+   "rating": "",
+   "headline": "AMD Shares Rebound 7% Premarket After 17% Rout: Here's What's Happening",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/62969487/amd-shares-jump-5-percent-premarket-after-strong-quarterly-results"
+  },
+  {
+   "time": "11-06 05:47",
+   "symbols": [
+    "MSFT",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "IREN Shares Rally Nearly 15% Premarket as Daniel Newman Highlights $40 Million Per MW AI Deals, Calls Share-Price Weakness 'Disconnected' From Fundamentals",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62968845/iren-shares-rally-nearly-15-premarket-as-daniel-newman-highlights-40-million-per-mw-ai-deals-calls-share-price-weakness-disconnected-from-fundamentals"
+  },
+  {
+   "time": "11-06 04:01",
+   "symbols": [
+    "GOOGL",
+    "META",
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Google, Meta and TikTok Sue California Over Gavin Newsom's Law Restricting Addictive Social Media Features for Children",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62967810/google-meta-and-tiktok-sue-california-over-gavin-newsoms-law-restricting-addictive-social-media-features-for-children"
+  },
+  {
+   "time": "11-06 03:36",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Gets an Overseas Offer for His AI, Data Center Ambitions After Texas Democrats' Midterm Sweep",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62967645/elon-musk-gets-an-overseas-offer-for-his-ai-data-center-ambitions-after-texas-democrats-midterm-sweep"
+  },
+  {
+   "time": "11-06 03:28",
+   "symbols": [
+    "META",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "$3 Trillion Wiped Out, But This Strategist Says AI's Biggest Problem Isn't Demand: 'Compute Will Become More Scarce'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62967631/james-thorne-ai-selloff-leverage-slower-spending-compute-scarce"
+  },
+  {
+   "time": "11-06 03:02",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Confirms Cybertruck Production Wind-Down at Texas Factory as Tesla Makes Room for Cybercab",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62967441/elon-musk-confirms-cybertruck-production-wind-down-at-texas-factory-as-tesla-makes-room-for-cybercab"
+  },
+  {
+   "time": "11-06 02:27",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "",
+   "headline": "Top Wall Street Forecasters Revamp Vistra Expectations Ahead Of Q3 Earnings",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62967183/top-wall-street-forecasters-revamp-vistra-expectations-ahead-of-q3-earnings"
+  },
+  {
+   "time": "11-06 02:09",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla To Wind Down Cybertruck Production At Gigafactory Texas Around Mid-Next Year To Make Room For Increased Cybercab Production",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62966983/tesla-wind-down-cybertruck-production-gigafactory-texas-around-mid-next-year-make-room-increased-cyb"
+  },
+  {
+   "time": "11-06 01:59",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "'Campaign Promises Look a Lot Different:' Analyst Mocks Anti-Data Center Politicians as Meta President Reveals Governor's Request",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62966946/meta-data-center-shay-boloor"
+  },
+  {
+   "time": "11-06 00:01",
+   "symbols": [
+    "GS",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Why Is Tesla (TSLA) Stock Trending After Hours?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62966229/tesla-shares-edge-higher-after-hours-after-sharp-selloff"
+  },
+  {
+   "time": "11-05 23:42",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Ross Gerber Says Tesla's 'Good Old Days' Ended When Elon Musk Started Selling Shares to Buy Twitter",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62966184/ross-gerber-says-teslas-good-old-days-ended-when-elon-musk-started-selling-shares-to-buy-twitter"
+  },
+  {
+   "time": "11-05 23:32",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia Stock Loses $1.39 Trillion Since October Peak \u2014 Jim Cramer Says NVDA Can 'Buy and Reload'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62966118/jim-cramer-nvidia-buy-and-reload-stock-selloff-october-high"
+  },
+  {
+   "time": "11-05 23:29",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Relief for SpaceX? Elon Musk's Texas Election Bet Backfires, But Democrats Extend an Olive Branch: 'Please Take It,' Says Anthony Scaramucci",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/space/26/11/62966105/musk-texas-election-spacex-data-centers"
+  },
+  {
+   "time": "11-05 22:23",
+   "symbols": [
+    "ARM",
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Micron Technology (MU) Stock Is Trending After Hours: Here\u2019s Why",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/62965790/micron-technology-shares-jump-4-percent-after-hours"
+  },
+  {
+   "time": "11-05 22:02",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Markets, Inc. Insider Sells Shares",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/robinhood-markets-insider-sold-shares-worth-850-466-according-to-a-recent-sec-filing-ce785fddda80f525"
+  },
+  {
+   "time": "11-05 22:01",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "upgrade",
+   "headline": "Freedom Broker Upgrades Chevron to Hold",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:16dacdec58ffa:0-freedom-broker-upgrades-chevron-to-hold-from-sell-sets-price-target-at-218/"
+  },
+  {
+   "time": "11-05 22:01",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD CEO Lisa Su Addresses AI Spending Concerns",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/benzinga:38e37bfce094b:0-amd-ceo-lisa-su-calls-this-market-moment-short-sighted-on-ai-spending/"
+  },
+  {
+   "time": "11-05 20:32",
+   "symbols": [
+    "ARM"
+   ],
+   "rating": "target down",
+   "headline": "UBS Maintains Buy on ARM Holdings, Lowers Price Target to $270",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62965085/ubs-maintains-buy-arm-holdings-lowers-price-target-270"
+  },
+  {
+   "time": "11-05 20:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Bank Acts as Sole Arranger for $500 Million Debt Financing",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/shield-to-acquire-echodyne-in-a-transaction-valued-at-5-3-billion-and-raise-2-5-billion-at-a-28-8-billion-valuation-302930012.html"
+  },
+  {
+   "time": "11-05 20:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Adjusts AI Infrastructure Strategy and Capital Expenditure Outlook",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/gurufocus:590b2655e094b:0-microsoft-walks-away-from-ai-deal-as-170-billion-question-grows/"
+  },
+  {
+   "time": "11-05 19:01",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Micron Technology Announces Retirement of Board Member Linnie M. Haynesworth",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/05/3397160/14450/en/micron-announces-board-of-directors-retirement.html"
+  },
+  {
+   "time": "11-05 19:01",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank of America Updates 'Global Defenders' Quantitative Equity List",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/seekingalpha:45cf811bc094b:0-bofa-adds-tsla-avgo-ibm-others-to-its-global-defenders-list/"
+  },
+  {
+   "time": "11-05 19:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Plans to Convert Telecom Facilities into AI Data Centers",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/stocktwits:f1672d0bc094b:0-nvidia-eyes-apollo-s-struggling-telecom-sites-to-sidestep-data-center-moratoriums-report/"
+  },
+  {
+   "time": "11-05 19:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Completes $7.5 Billion Bond Offering",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/stocktwits:339036295094b:0-apple-reportedly-set-to-raise-7-5b-from-bond-offering-amid-market-selloff/"
+  },
+  {
+   "time": "11-05 18:28",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "target up",
+   "headline": "JP Morgan Maintains Overweight on Costco Wholesale, Raises Price Target to $1150",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62962020/jp-morgan-maintains-overweight-costco-wholesale-raises-price-target-1150"
+  },
+  {
+   "time": "11-05 17:42",
+   "symbols": [
+    "ARM"
+   ],
+   "rating": "target down",
+   "headline": "JP Morgan Maintains Overweight on ARM Holdings, Lowers Price Target to $245",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62959624/jp-morgan-maintains-overweight-arm-holdings-lowers-price-target-245"
+  },
+  {
+   "time": "11-05 17:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Concentrix Launches New AI Application for Microsoft Dynamics 365",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/05/3396551/0/en/concentrix-brings-agentic-ai-migration-engine-to-microsoft-marketplace.html"
+  },
+  {
+   "time": "11-05 17:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Announces 2027 Fulfillment Fee Adjustments for Marketplace Sellers",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/news/retail/2026/amazon-raises-seller-fees-walmart-expands-drone-delivery/"
+  },
+  {
+   "time": "11-05 17:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Beijing Green Forest Certification Approved for Amazon Climate Pledge Friendly Standard",
+   "source": "fiscal.ai",
+   "url": "https://www.streetinsider.com/ACCESS+Newswire/Beijing+Green+Forest+Certification+Approved+to+Certify+Electronics+Under+Amazon-Recognized+Recycled+Content+Standard/27295968.html"
+  },
+  {
+   "time": "11-05 17:16",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "$1000 Invested In Bank of America 15 Years Ago Would Be Worth This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62957957/1000-invested-bank-america-15-years-ago-would-be-worth-much-today"
+  },
+  {
+   "time": "11-05 17:15",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "IREN Says At Microsoft\u2019s Request, We Are Implementing Network Design Change Across Horizon Deployments; Under Microsoft Agreement, Delivery Dates Are Extended, Without Delay Credits, For Delays Resulting From Microsoft-Requested Change; Expect Making Significant Investments For Foreseeable Future, Including Capital Requirements Related To Microsoft & NVIDIA Agreements; Expect Making Significant Investments For Foreseeable Future, Including GPU Acquisitions, Development Of Additional Data Center Capacity",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62957898/iren-says-microsoft-s-request-we-are-implementing-network-design-change-across-horizon-deployments-u"
+  },
+  {
+   "time": "11-05 17:06",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "OpenAI Could Go Public In 2027 As Greg Brockman Signals IPO Readiness",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/private-markets/26/11/62957030/openai-could-go-public-in-2027-as-greg-brockman-signals-ipo-readiness"
+  },
+  {
+   "time": "11-05 17:00",
+   "symbols": [
+    "AAPL",
+    "AMZN",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia Stock Is Down Nearly 24% Ahead of Earnings: Is It a Buy?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62956559/nvidia-stock-selloff"
+  },
+  {
+   "time": "11-05 16:33",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Reports Institutional Investor De-risking Amid Market Volatility",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/seekingalpha:10b99296b094b:0-goldman-sachs-flags-frozen-institutional-buyers-amid-tech-de-risking/"
+  },
+  {
+   "time": "11-05 16:33",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "target up",
+   "headline": "Goldman Sachs Maintains Chime Financial at Buy, Raises Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:5bfd4939b29e4:0-goldman-sachs-maintains-chime-financial-at-buy-raises-price-target-to-43-from-38/"
+  },
+  {
+   "time": "11-05 16:33",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir Set to Receive NHS Contract Extension",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/palantir-set-to-receive-nhs-contract-extension-from-uk-ce785fdddb8cf320"
+  },
+  {
+   "time": "11-05 16:33",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "Chase Travel Announces Expansion of 'The Edit' Collection",
+   "source": "fiscal.ai",
+   "url": "https://investingnews.com/chase-travel-unveils-27-trips-to-take-in-2027-and-previews-expanded-luxury-vacation-homes-offering/"
+  },
+  {
+   "time": "11-05 16:32",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Faces Potential Regulatory Headwinds in Texas Following Election Results",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/gurufocus:5b2c56cc2094b:0-elon-musk-faces-a-new-28-5-trillion-problem-after-texas-upset/"
+  },
+  {
+   "time": "11-05 16:32",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank of America Reaches $2 Million Settlement in Electronic Fund Transfer Lawsuit",
+   "source": "fiscal.ai",
+   "url": "https://www.classaction.org/news/bank-of-america-settlement-2m-deal-ends-lawsuit-over-allegedly-improper-dispute-denials"
+  },
+  {
+   "time": "11-05 16:27",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "rating",
+   "headline": "GLJ Research Reiterates Sell on Tesla, Maintains $24.86 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62953587/glj-research-reiterates-sell-tesla-maintains-24-86-price-target"
+  },
+  {
+   "time": "11-05 16:00",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk's SpaceX Default Risk Hits Record High as Democratic Sweep Adds to AI Rout",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62948387/elon-musks-spacex-default-risk-hits-record-high-as-democratic-sweep-adds-to-ai-rout"
+  }
+ ]
+}
