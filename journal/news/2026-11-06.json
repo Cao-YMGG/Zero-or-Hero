@@ -1,7 +1,37 @@
 {
- "as_of": "2026-11-06T13:15-05:00",
+ "as_of": "2026-11-06T13:46-05:00",
  "since": "2026-11-05T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-06 13:32",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Reported November 5, 2026: Rocket Lab Posts On X \"Electron's 100th mission. It's almost time. \"The Mountain God Rises\" will carry a QPS-SAR satellite for @QPS_Inc to a 575km LEO from Launch Complex 1 no earlier than Saturday Nov 14. Launch window opens: 12:30am Eastern\"",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63002753/reported-november-5-2026-rocket-lab-posts-x-electron-s-100th-mission-it-s-almost-time-mountain-god-r"
+  },
+  {
+   "time": "11-06 13:15",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "OpenAI Announces Partnering With Hacktron To Find Vulnerabilities In OpenAI\u2019s Systems",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63001596/openai-announces-partnering-hacktron-find-vulnerabilities-openai-s-systems"
+  },
+  {
+   "time": "11-06 13:12",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Introduces Spaces Feature In Muse App",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63001345/meta-introduces-spaces-feature-muse-app"
+  },
   {
    "time": "11-06 13:11",
    "symbols": [

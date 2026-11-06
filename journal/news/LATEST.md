@@ -1,4 +1,4 @@
-# Headlines since 2026-11-05 16:00 ET (as of 2026-11-06 13:15 ET)
+# Headlines since 2026-11-05 16:00 ET (as of 2026-11-06 13:46 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -16,6 +16,9 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-05 17:42 | ARM | target down | JP Morgan Maintains Overweight on ARM Holdings, Lowers Price Target to $245 |
 | 11-05 16:33 | GS | target up | Goldman Sachs Maintains Chime Financial at Buy, Raises Price Target |
 | 11-05 16:27 | TSLA | rating | GLJ Research Reiterates Sell on Tesla, Maintains $24.86 Price Target |
+| 11-06 13:32 | RKLB |  | Reported November 5, 2026: Rocket Lab Posts On X "Electron's 100th mission. It's almost time. "The Mountain God Rises" will carry a QPS-SAR satellite for @QPS_Inc to a 575km LEO from Launch Complex 1 no earlier than Saturday Nov 14. Launch window opens: 12:30am Eastern" |
+| 11-06 13:15 | MSFT |  | OpenAI Announces Partnering With Hacktron To Find Vulnerabilities In OpenAI’s Systems |
+| 11-06 13:12 | META |  | Meta Introduces Spaces Feature In Muse App |
 | 11-06 13:11 | AMD NVDA |  | AI Stocks Could Fall Further Despite Surging GPU Demand, Research Firm Warns |
 | 11-06 13:08 | GOOGL META |  | Unity Software Just Did Something It Hasn't Done Since Its IPO — and Wall Street Wants More |
 | 11-06 13:02 | GE |  | Reported Earlier: 'GE Aerospace Says It Signs Record $12.9 Billion Deals At China Expo' - Reuters News |
