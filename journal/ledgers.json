@@ -34,6 +34,13 @@
     "realized": -90.0,
     "started": "2026-10-19"
   },
+  "spy_open_drive_put": {
+    "generation": 1,
+    "history": [],
+    "real_trades": 0,
+    "realized": 0.0,
+    "started": "2026-11-06"
+  },
   "spy_open_drive_wide": {
     "generation": 1,
     "history": [],

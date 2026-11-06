@@ -1,7 +1,321 @@
 {
- "as_of": "2026-11-06T07:42-05:00",
+ "as_of": "2026-11-06T10:02-05:00",
  "since": "2026-11-05T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-06 10:00",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Rep. Maria Elvira Salazar Has Bought Up to $60K Worth Of NVIDIA Stock: Here\u2019s What You Should Know",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/government/26/11/62982002/rep-maria-elvira-salazar-has-bought-60k-worth-nvidia-stock-here-s-what-you-should-know"
+  },
+  {
+   "time": "11-06 10:00",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Pennsylvania Rep. Daniel Meuser Sold Up to $15K Worth of NVIDIA Stock",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/government/26/11/62982000/pennsylvania-rep-daniel-meuser-sold-15k-worth-nvidia-stock"
+  },
+  {
+   "time": "11-06 09:59",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Watching Nvidia; Hunterbrook Media Issues Report Titled, \u201cThe Comprehensive Guide to the Bank of Nvidia\u201d",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62981848/watching-nvidia-hunterbrook-media-issues-report-titled-comprehensive-guide-bank-nvidia"
+  },
+  {
+   "time": "11-06 09:49",
+   "symbols": [
+    "AVGO",
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Congressman Swaps One Chip Stock for Another: Here Are the Moves",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/62980258/congressman-swaps-one-chip-stock-for-another-here-are-the-moves"
+  },
+  {
+   "time": "11-06 09:45",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "If You Invested $1000 In Alphabet Stock 20 Years Ago, You Would Have This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62979609/if-you-invested-1000-alphabet-stock-20-years-ago-you-would-have-much-today"
+  },
+  {
+   "time": "11-06 09:38",
+   "symbols": [
+    "META",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "'Trump administration scraps meeting of panel that includes Meta's Zuckerberg, Nvidia's Huang' - Reuters",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62978298/trump-administration-scraps-meeting-panel-includes-meta-s-zuckerberg-nvidia-s-huang-reuters"
+  },
+  {
+   "time": "11-06 09:37",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Introduces Text-Based Shopping Through Alexa",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62978103/amazon-introduces-text-based-shopping-through-alexa"
+  },
+  {
+   "time": "11-06 09:32",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "downgrade",
+   "headline": "JPMorgan Chase Downgrades Munich Re and Hannover R\u00fcck",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.at/nachrichten/aktien/aktien-von-munich-re-und-hannover-rueck-im-minus-jpmorgan-sorgt-fuer-abgaben-1036728616"
+  },
+  {
+   "time": "11-06 09:32",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "upgrade",
+   "headline": "JPMorgan Chase Upgrades Sociedad Qu\u00edmica y Minera de Chile S.A.",
+   "source": "fiscal.ai",
+   "url": "https://de.marketscreener.com/boerse-nachrichten/sociedad-qu-mica-y-minera-de-chile-s-a-von-jpmorgan-chase-zum-kauf-angehoben-ce785fd2d88dff27"
+  },
+  {
+   "time": "11-06 09:31",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Leverage Shares Announces Meeting for 3x Long Coinbase ETP Securityholders",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-11-06:newsml_RSF1786Ca:0-reg-leverage-shares-plc-leverage3x-coinbase-leverage3x-coinbase-leverage3x-coinbase-notice-of-original-meeting-3x-coinbase/"
+  },
+  {
+   "time": "11-06 09:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "ENOC Group Launches First Checkout-Free ZOOM Store Powered by Amazon Technology",
+   "source": "fiscal.ai",
+   "url": "https://gecnewswire.com/enoc-group-launches-first-ai-powered-zoom-store-with-amazon-technology/"
+  },
+  {
+   "time": "11-06 09:31",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "GE Aerospace Signs $12.9 Billion in Deals at China International Import Expo",
+   "source": "fiscal.ai",
+   "url": "https://www.fidelity.com/news/article/company-news/202611060854RTRSNEWSCOMBINED_KCN3WH1WZ-OUSBS_1"
+  },
+  {
+   "time": "11-06 09:31",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Chevron Confirms Cause of Richmond Refinery Odor",
+   "source": "fiscal.ai",
+   "url": "https://localnewsmatters.org/2026/11/06/chevron-richmond-refinery-hydrogen-sulfide-release/"
+  },
+  {
+   "time": "11-06 09:31",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "rating",
+   "headline": "StoneX Maintains Hold Rating on Palantir Technologies Inc.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1003812507/stonex-maintains-palantir-pltrus-with-hold-rating"
+  },
+  {
+   "time": "11-06 09:31",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "Caterpillar Group President of Construction Industries to Participate in Bernstein Fireside Chat",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/prnewswire:4e093d5e51afe:0-caterpillar-group-president-of-construction-industries-rod-shurman-to-participate-in-fireside-chat-hosted-by-chad-dillard-of-bernstein/"
+  },
+  {
+   "time": "11-06 09:31",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "J.P. Morgan Updates Rating and Price Target for Costco",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/ja/news/post/1003828032/today-s-analyst-rating-costco-price-target-raised-to-1150"
+  },
+  {
+   "time": "11-06 09:23",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Live On CNBC, Kevin Hassett, When Asked About U.S. Government Selling Intel, Says Has Been Reassuring To See Company Turn Around Sharply",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62977012/live-cnbc-kevin-hassett-when-asked-about-u-s-government-selling-intel-says-has-been-reassuring-see-c"
+  },
+  {
+   "time": "11-06 09:15",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "If You Invested $100 In GE Aerospace Stock 5 Years Ago, You Would Have This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62976664/if-you-invested-100-ge-aerospace-stock-5-years-ago-you-would-have-much-today"
+  },
+  {
+   "time": "11-06 09:04",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Democrats Reportedly Push CLARITY Act Rewrite to Expand SEC Powers",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62975922/democrats-reportedly-push-clarity-act-rewrite-to-expand-sec-powers"
+  },
+  {
+   "time": "11-06 09:01",
+   "symbols": [
+    "TSM"
+   ],
+   "rating": "",
+   "headline": "Taiwan Activates Market-Stabilization Measures Amid Semiconductor Sell-Off",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/taiwan-activates-market-stabilization-measures-to-stem-ai-bleeding-ce785fddd080f320"
+  },
+  {
+   "time": "11-06 08:34",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova Selected By Powergrid Corporation Of India To Deliver A 6 GW High-Voltage Direct Current Transmission Corridor; Terms Not Disclosed",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62974713/ge-vernova-selected-powergrid-corporation-india-deliver-6-gw-high-voltage-direct-current-transmissio"
+  },
+  {
+   "time": "11-06 08:30",
+   "symbols": [
+    "TSM"
+   ],
+   "rating": "",
+   "headline": "TSMC Surges 7% as Taiwan Restricts Short Selling to Halt Brutal Semiconductor Crash",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62974369/tsmc-surges-7-as-taiwan-restricts-short-selling-to-halt-brutal-semiconductor-crash"
+  },
+  {
+   "time": "11-06 08:16",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Reported Earlier: 'Protesters enter Microsoft data centre site in Amsterdam' - Reuters",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62974013/reported-earlier-protesters-enter-microsoft-data-centre-site-amsterdam-reuters"
+  },
+  {
+   "time": "11-06 08:01",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Raises Fiscal 2027 Guidance and Reports Significant AI Cloud Contract Wins",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8694526/oracle-stock-analyst-estimates-ratings"
+  },
+  {
+   "time": "11-06 08:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Researcher Finds Apple Predictive Text Restrictions Include Political Terms",
+   "source": "fiscal.ai",
+   "url": "https://www.fidelity.com/news/article/technology/202611060600PR_NEWS_USPR_____PH89991"
+  },
+  {
+   "time": "11-06 08:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Names Tibor Kossa as New Partner",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:3eed2895f0711:0-key-facts-goldman-beats-estimates-cramer-trust-buys-kossa-partner/"
+  },
+  {
+   "time": "11-06 08:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Lowers Year-End 2026 Gold Price Forecast",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/20261106115/goldmans-new-gold-target-why-the-wall-street-bank-is-saying-its-early-to-buy-the-yellow-metal"
+  },
+  {
+   "time": "11-06 08:01",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart Executive Vice President Suresh Kumar Sells Company Shares",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/ja/news/post/1003811230/have-insiders-sold-walmart-shares-recently"
+  },
+  {
+   "time": "11-06 08:01",
+   "symbols": [
+    "V"
+   ],
+   "rating": "target up",
+   "headline": "Truist Raises Visa Price Target to $470",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/gelonghui:43ffee1efacdf:0/"
+  },
+  {
+   "time": "11-06 07:50",
+   "symbols": [
+    "ARM",
+    "GOOGL",
+    "META"
+   ],
+   "rating": "",
+   "headline": "Former Goldman Sachs CEO Slams 'Current Hysteria' to Block AI Data Centers, Calls it a 'Gift to China'\u2014Patrick Moorhead Warns US Jobs, Tax Revenue Losses",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62973077/former-goldman-sachs-ceo-slams-current-hysteria-to-block-ai-data-centers-calls-it-a-gift-to-china-patrick-moorhead-warns-us-jobs-tax-revenue-losses"
+  },
+  {
+   "time": "11-06 07:42",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "CoreWeave Stock Gains Friday: What's Happening?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62972937/coreweave-stock-gains-friday-whats-happening"
+  },
   {
    "time": "11-06 07:32",
    "symbols": [

@@ -1,9 +1,13 @@
-# Headlines since 2026-11-05 16:00 ET (as of 2026-11-06 07:42 ET)
+# Headlines since 2026-11-05 16:00 ET (as of 2026-11-06 10:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-06 09:32 | JPM | downgrade | JPMorgan Chase Downgrades Munich Re and Hannover Rück |
+| 11-06 09:32 | JPM | upgrade | JPMorgan Chase Upgrades Sociedad Química y Minera de Chile S.A. |
+| 11-06 09:31 | PLTR | rating | StoneX Maintains Hold Rating on Palantir Technologies Inc. |
+| 11-06 08:01 | V | target up | Truist Raises Visa Price Target to $470 |
 | 11-06 07:31 | GS | initiate | Goldman Sachs Initiates Coverage of Keel Infrastructure |
 | 11-06 07:31 | TSLA | rating | Tesla Maintains Top Position in South Korea's Imported Car Market |
 | 11-05 22:01 | CVX | upgrade | Freedom Broker Upgrades Chevron to Hold |
@@ -12,6 +16,33 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-05 17:42 | ARM | target down | JP Morgan Maintains Overweight on ARM Holdings, Lowers Price Target to $245 |
 | 11-05 16:33 | GS | target up | Goldman Sachs Maintains Chime Financial at Buy, Raises Price Target |
 | 11-05 16:27 | TSLA | rating | GLJ Research Reiterates Sell on Tesla, Maintains $24.86 Price Target |
+| 11-06 10:00 | NVDA |  | Rep. Maria Elvira Salazar Has Bought Up to $60K Worth Of NVIDIA Stock: Here’s What You Should Know |
+| 11-06 10:00 | NVDA |  | Pennsylvania Rep. Daniel Meuser Sold Up to $15K Worth of NVIDIA Stock |
+| 11-06 09:59 | NVDA |  | Watching Nvidia; Hunterbrook Media Issues Report Titled, “The Comprehensive Guide to the Bank of Nvidia” |
+| 11-06 09:49 | AVGO MU |  | Congressman Swaps One Chip Stock for Another: Here Are the Moves |
+| 11-06 09:45 | GOOGL |  | If You Invested $1000 In Alphabet Stock 20 Years Ago, You Would Have This Much Today |
+| 11-06 09:38 | META NVDA |  | 'Trump administration scraps meeting of panel that includes Meta's Zuckerberg, Nvidia's Huang' - Reuters |
+| 11-06 09:37 | AMZN |  | Amazon Introduces Text-Based Shopping Through Alexa |
+| 11-06 09:31 | COIN |  | Leverage Shares Announces Meeting for 3x Long Coinbase ETP Securityholders |
+| 11-06 09:31 | AMZN |  | ENOC Group Launches First Checkout-Free ZOOM Store Powered by Amazon Technology |
+| 11-06 09:31 | GE |  | GE Aerospace Signs $12.9 Billion in Deals at China International Import Expo |
+| 11-06 09:31 | CVX |  | Chevron Confirms Cause of Richmond Refinery Odor |
+| 11-06 09:31 | CAT |  | Caterpillar Group President of Construction Industries to Participate in Bernstein Fireside Chat |
+| 11-06 09:31 | COST |  | J.P. Morgan Updates Rating and Price Target for Costco |
+| 11-06 09:23 | INTC |  | Live On CNBC, Kevin Hassett, When Asked About U.S. Government Selling Intel, Says Has Been Reassuring To See Company Turn Around Sharply |
+| 11-06 09:15 | GE |  | If You Invested $100 In GE Aerospace Stock 5 Years Ago, You Would Have This Much Today |
+| 11-06 09:04 | COIN |  | Democrats Reportedly Push CLARITY Act Rewrite to Expand SEC Powers |
+| 11-06 09:01 | TSM |  | Taiwan Activates Market-Stabilization Measures Amid Semiconductor Sell-Off |
+| 11-06 08:34 | GEV |  | GE Vernova Selected By Powergrid Corporation Of India To Deliver A 6 GW High-Voltage Direct Current Transmission Corridor; Terms Not Disclosed |
+| 11-06 08:30 | TSM |  | TSMC Surges 7% as Taiwan Restricts Short Selling to Halt Brutal Semiconductor Crash |
+| 11-06 08:16 | MSFT |  | Reported Earlier: 'Protesters enter Microsoft data centre site in Amsterdam' - Reuters |
+| 11-06 08:01 | ORCL |  | Oracle Raises Fiscal 2027 Guidance and Reports Significant AI Cloud Contract Wins |
+| 11-06 08:01 | AAPL |  | Researcher Finds Apple Predictive Text Restrictions Include Political Terms |
+| 11-06 08:01 | GS |  | Goldman Sachs Names Tibor Kossa as New Partner |
+| 11-06 08:01 | GS |  | Goldman Sachs Lowers Year-End 2026 Gold Price Forecast |
+| 11-06 08:01 | WMT |  | Walmart Executive Vice President Suresh Kumar Sells Company Shares |
+| 11-06 07:50 | ARM GOOGL META |  | Former Goldman Sachs CEO Slams 'Current Hysteria' to Block AI Data Centers, Calls it a 'Gift to China'—Patrick Moorhead Warns US Jobs, Tax Revenue Losses |
+| 11-06 07:42 | AMZN |  | CoreWeave Stock Gains Friday: What's Happening? |
 | 11-06 07:32 | JPM |  | JPMorgan Chase Reaffirms Neutral Rating on Microchip Technology |
 | 11-06 07:32 | JPM |  | JPMorgan Chase Increases Stake in Bodycote plc |
 | 11-06 07:32 | JPM |  | JPMorgan Chase Discloses Voting Rights Change in LANXESS AG |

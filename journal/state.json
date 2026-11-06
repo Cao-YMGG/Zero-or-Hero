@@ -1,22 +1,44 @@
 {
-  "date": "2026-11-05",
-  "done": true,
+  "date": "2026-11-06",
+  "done": false,
   "variants": {
     "claude_bias": {},
     "meta_follow2": {},
-    "leader_follow": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
+    "leader_follow": {},
     "rebound_scanner": {},
     "nvda_gapdown_put": {},
-    "catalyst_open": {},
-    "catalyst_open_hero": {},
+    "catalyst_open": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "LLY261106C01430000",
+        "direction": "call",
+        "entry_time": "2026-11-06T09:32:44-05:00",
+        "entry_price": 0.91,
+        "peak": 0.91,
+        "qty": 1,
+        "last": 0.07,
+        "last_time": "2026-11-06T10:02:16-05:00"
+      }
+    },
+    "catalyst_open_hero": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "LLY261106C01390000",
+        "direction": "call",
+        "entry_time": "2026-11-06T09:32:44-05:00",
+        "entry_price": 2.36,
+        "peak": 3.87,
+        "qty": 1,
+        "last": 2.08,
+        "last_time": "2026-11-06T10:02:16-05:00"
+      }
+    },
     "catalyst_intraday": {},
     "catalyst_intraday_hero": {},
     "spy_open_drive": {},
-    "spy_open_drive_wide": {},
+    "spy_open_drive_put": {},
     "stock_open_drive": {}
   },
   "generation": 1,
@@ -37,6 +59,11 @@
     },
     "stock_open_drive": {
       "equity": 546.0,
+      "generation": 1,
+      "paused": false
+    },
+    "spy_open_drive_put": {
+      "equity": 500.0,
       "generation": 1,
       "paused": false
     }
