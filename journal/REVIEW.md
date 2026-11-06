@@ -1,4 +1,4 @@
-# Review — 2026-11-05
+# Review — 2026-11-06
 
 - Champion: **rebound_scanner**
 - Equity: **$457.77** (phase zero-or-hero)
@@ -11,15 +11,15 @@
 | nvda_gapdown_put | 2 | 100% | +125.4% | +251% | +203% | +48% | 2 | +125.4% |
 | claude_bias | 5 | 80% | +76.1% | +380% | +141% | -97% | 5 | +76.1% |
 | stock_open_drive | 3 | 67% | +62.9% | +189% | +230% | -100% | 3 | +62.9% |
-| meta_follow2 | 5 | 60% | +50.4% | +252% | +259% | -99% | 5 | +50.4% |
-| catalyst_intraday | 9 | 56% | +13.3% | +120% | +299% | -100% | 9 | +13.3% |
-| catalyst_open | 12 | 50% | +5.2% | +63% | +339% | -100% | 12 | +5.2% |
-| catalyst_open_hero | 0 | 0% | +0.0% | +0% | +0% | +0% | 0 | +0.0% |
-| catalyst_intraday_hero | 0 | 0% | +0.0% | +0% | +0% | +0% | 0 | +0.0% |
+| meta_follow2 | 6 | 67% | +45.4% | +272% | +259% | -99% | 6 | +45.4% |
+| catalyst_intraday | 10 | 50% | +2.2% | +22% | +299% | -100% | 10 | +2.2% |
+| spy_open_drive_put | 0 | 0% | +0.0% | +0% | +0% | +0% | 0 | +0.0% |
+| catalyst_open | 13 | 46% | -2.9% | -37% | +339% | -100% | 13 | -2.9% |
 | rebound_scanner 👑 | 7 | 43% | -17.7% | -124% | +188% | -100% | 7 | -17.7% |
 | leader_follow | 16 | 19% | -56.0% | -896% | +75% | -100% | 16 | -56.0% |
+| catalyst_intraday_hero | 1 | 0% | -98.2% | -98% | -98% | -98% | 1 | -98.2% |
+| catalyst_open_hero | 1 | 0% | -100.0% | -100% | -100% | -100% | 1 | -100.0% |
 | spy_open_drive | 1 | 0% | -100.0% | -100% | -100% | -100% | 1 | -100.0% |
-| spy_open_drive_wide | 1 | 0% | -100.0% | -100% | -100% | -100% | 1 | -100.0% |
 
 ## Ledgers (one $500 virtual account per variant, real paper orders)
 
@@ -28,6 +28,7 @@
 | nvda_gapdown_put | 1 | $691.00 | 1 | 0 | - |
 | spy_open_drive | 1 | $410.00 | 1 | 1 | - |
 | stock_open_drive | 1 | $546.00 | 3 | 2 | - |
+| spy_open_drive_put | 1 | $500.00 | 0 | 0 | - |
 
 ## Last real trades
 

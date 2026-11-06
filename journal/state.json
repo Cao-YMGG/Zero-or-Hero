@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "done": false,
+  "done": true,
   "variants": {
     "claude_bias": {},
     "meta_follow2": {
@@ -14,58 +14,22 @@
     "catalyst_open": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "LLY261106C01430000",
-        "direction": "call",
-        "entry_time": "2026-11-06T09:32:44-05:00",
-        "entry_price": 0.91,
-        "peak": 0.91,
-        "qty": 1,
-        "last": 0.01,
-        "last_time": "2026-11-06T15:16:32-05:00"
-      }
+      "closed": true
     },
     "catalyst_open_hero": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "LLY261106C01390000",
-        "direction": "call",
-        "entry_time": "2026-11-06T09:32:44-05:00",
-        "entry_price": 2.36,
-        "peak": 3.87,
-        "qty": 1,
-        "last": 0.01,
-        "last_time": "2026-11-06T15:16:32-05:00"
-      }
+      "closed": true
     },
     "catalyst_intraday": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "GE261106C00330000",
-        "direction": "call",
-        "entry_time": "2026-11-06T10:21:33-05:00",
-        "entry_price": 0.54,
-        "peak": 0.54,
-        "qty": 1,
-        "last": 0.03,
-        "last_time": "2026-11-06T15:16:32-05:00"
-      }
+      "closed": true
     },
     "catalyst_intraday_hero": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "GE261106C00330000",
-        "direction": "call",
-        "entry_time": "2026-11-06T10:21:33-05:00",
-        "entry_price": 0.57,
-        "peak": 0.57,
-        "qty": 8,
-        "last": 0.03,
-        "last_time": "2026-11-06T15:16:32-05:00"
-      }
+      "closed": true
     },
     "spy_open_drive": {},
     "spy_open_drive_put": {},
