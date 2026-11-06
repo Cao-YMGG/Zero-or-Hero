@@ -1,4 +1,4 @@
-# Headlines since 2026-11-05 16:00 ET (as of 2026-11-06 10:32 ET)
+# Headlines since 2026-11-05 16:00 ET (as of 2026-11-06 11:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -16,6 +16,10 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-05 17:42 | ARM | target down | JP Morgan Maintains Overweight on ARM Holdings, Lowers Price Target to $245 |
 | 11-05 16:33 | GS | target up | Goldman Sachs Maintains Chime Financial at Buy, Raises Price Target |
 | 11-05 16:27 | TSLA | rating | GLJ Research Reiterates Sell on Tesla, Maintains $24.86 Price Target |
+| 11-06 11:01 | GS |  | Align Technology Executes Accelerated Share Repurchase with Goldman Sachs |
+| 11-06 11:01 | V |  | Visa Establishes Global Capability Hubs in Singapore |
+| 11-06 11:01 | AAPL |  | Apple Captures Record Share of Global Smartphone Revenue in Q3 |
+| 11-06 10:44 | VST |  | Vistra Says Mid Term Election Results Do Not Change Its Fundamental View Of Growth Opportunities; Expects Cogentrix Deal To Deliver High-Single-Digit Adjusted FCF Accretion In Near Term, Double-Digit Accretion From 2029; Says It Is In Active Talks With Large-Load Customers In PJM And Ercot For Existing And New-Build Assets; Says It Remains Open To Opportunistic, Fleet-Complementary M&A |
 | 11-06 10:30 | TSLA |  | Musk Winds Down Cybertruck After Sales Collapse, Shifts Tesla Focus to Cybercab |
 | 11-06 10:07 | CRM |  | Why Is Salesforce Stock Falling on Friday? |
 | 11-06 10:00 | NVDA |  | Rep. Maria Elvira Salazar Has Bought Up to $60K Worth Of NVIDIA Stock: Here’s What You Should Know |

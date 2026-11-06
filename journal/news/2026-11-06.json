@@ -1,7 +1,47 @@
 {
- "as_of": "2026-11-06T10:32-05:00",
+ "as_of": "2026-11-06T11:02-05:00",
  "since": "2026-11-05T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-06 11:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Align Technology Executes Accelerated Share Repurchase with Goldman Sachs",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:71822b60df787:0-align-technology-launches-270-million-accelerated-share-repurchase-with-goldman-sachs/?mobileapp_new=true"
+  },
+  {
+   "time": "11-06 11:01",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Establishes Global Capability Hubs in Singapore",
+   "source": "fiscal.ai",
+   "url": "https://glenbrook.com/payments_news/visa-establishes-global-capability-hubs-in-singapore-to-build-the-future-of-global-commerce/"
+  },
+  {
+   "time": "11-06 11:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Captures Record Share of Global Smartphone Revenue in Q3",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/0qcu8mu/"
+  },
+  {
+   "time": "11-06 10:44",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "",
+   "headline": "Vistra Says Mid Term Election Results Do Not Change Its Fundamental View Of Growth Opportunities; Expects Cogentrix Deal To Deliver High-Single-Digit Adjusted FCF Accretion In Near Term, Double-Digit Accretion From 2029; Says It Is In Active Talks With Large-Load Customers In PJM And Ercot For Existing And New-Build Assets; Says It Remains Open To Opportunistic, Fleet-Complementary M&A",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62987762/vistra-says-mid-term-election-results-do-not-change-its-fundamental-view-growth-opportunities-expect"
+  },
   {
    "time": "11-06 10:30",
    "symbols": [
