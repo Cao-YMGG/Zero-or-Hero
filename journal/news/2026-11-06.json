@@ -1,7 +1,48 @@
 {
- "as_of": "2026-11-06T12:03-05:00",
+ "as_of": "2026-11-06T12:34-05:00",
  "since": "2026-11-05T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-06 12:27",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Live On CNBC, Jim Lebenthal Announces Bought More Amazon",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AMZN"
+  },
+  {
+   "time": "11-06 12:22",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Live On CNBC, Malcolm Ethridge Announces Trimmed Nvidia Position",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/NVDA"
+  },
+  {
+   "time": "11-06 12:22",
+   "symbols": [
+    "MSFT",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Why Is Nebius Stock Surging on Friday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62996907/why-is-nebius-stock-surging-on-friday-2"
+  },
+  {
+   "time": "11-06 12:16",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Telehealth Giant Hims & Hers Partners with Eli Lilly for Direct Weight Loss Drug Delivery",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/11/62996504/telehealth-giant-hims-hers-partners-with-eli-lilly-for-direct-weight-loss-drug-delivery"
+  },
   {
    "time": "11-06 11:52",
    "symbols": [
