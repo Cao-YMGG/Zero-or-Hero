@@ -8,6 +8,14 @@
    "confidence": 0.35,
    "catalyst": "In-session own news: GE Aerospace signed $12.9B of deals at the China International Import Expo (Benzinga 09:31 ET; Flightglobal: China Eastern GEnx-1B orders for 787s and Xiamen Leap-1A orders for A320s, disclosed 5 November in Shanghai; the $12.9B total is the Benzinga headline, not confirmed from a second source). Small gap (open 317.79, +1.0% vs 314.73) and then the day's industrial leader: 324.7 at 10:19, +2.2% from its open and +3.2% on the day vs SPY +1.0% / XLI +0.7% / CAT -1.8% from its open (HON +2.9% from its open, RTX +1.4%). Industrials theme neutral (PERIPH_UP heat flag), not turning, so a call is allowed; reported 10-21, next report late January. Friday weekly expiry = same-day. catalyst_intraday buys a ~0.2-delta nearest-expiry call now and trails; NFP day, no event filter on the catalyst variants. Risks: part of the move is the day-after bounce (GE -4.5% open to close on 11-05), China order headlines fade, and the index can turn after 11:00 as it did yesterday.",
    "catalyst_zh": "GE 航空今早在上海进博会签了 129 亿美元的订单（东航买 787 的 GEnx 发动机、厦航买 A320 的 Leap，彭博/Benzinga 09:31 标题），开盘只高开 1%，之后一路走到 +3.2%，是今天工业股里的领头羊（工业 ETF 只 +0.7%，卡特彼勒比开盘还低）。消息是今天的、缺口小、股价顺着走，工业主题不在转向名单上，所以买看涨。风险：昨天 GE 跌了 4.5%，今天一部分是反弹；中国订单的标题常常当天就消化完。"
+  },
+  {
+   "time": "11:24",
+   "symbol": "MU",
+   "direction": "put",
+   "confidence": 0.35,
+   "catalyst": "Put mirror, armed with the 11:00 confirmation (CLAUDE.md, turning theme): chips opened +5.7% (SMH 473.41) after the -11% day and faded, SMH 462.95 at 11:22 (-2.2% from its open, low 457.57 at 10:35, never back above ~469 = half of the 09:30-10:17 drop; the 10:45 bounce stopped at 466.6). MU is the weakest mega-cap chip still inside the 3% line: 689.69 vs its 708.00 open (-2.6%; high 724.80 at the open, low 676.00 at 10:35; +5.1% on the day after -17.5% yesterday). Same-day Friday expiry; reports mid-December, outside the window. No sector negative this morning: the case is the failed bounce itself (BOUNCE.md, the 11-02 MU pattern: -2.3% from its open at 11:00, closed -3.4% / low -5%). Note: catalyst_intraday already holds today's first pick (GE 330C from 10:21), so the bot will not take this one; it is recorded for the mirror's score (SUNDAY_TESTS 42) and the hero shadow. Wrong if MU is back above 700 (half the open-to-low drop) by 12:00 or SMH reclaims its open.",
+   "catalyst_zh": "看跌镜像在 11:00 的确认下成立：芯片高开 5.7% 后一路回吐，半导体 ETF 到 11:22 比开盘低 2.2%，10:45 的反弹没收回一半的跌幅。美光是还在 3% 线内最弱的大盘芯片股（比开盘低 2.6%，今天 +5.1%，昨天 -17.5%），和 11-02 那次美光的形状一样。注意：机器人今天已经拿着 10:21 的 GE 看涨，不会再买这张，这条记下来是给镜像打分和 hero 影子的。"
   }
  ],
  "check_1016": "10:17 ET: SPY 740.3 (+0.75% from its 734.79 open, +1.0% on the day), QQQ 659.9 (+0.2% from open, +2.0% day), SMH 465.0 (-1.8% from its 473.41 open, +3.9% day, at its low), IWM +0.5% from open, VIXY 19.71 (-7.1%), TLT flat. The pre-market rotation reversed again at the open: the chips that opened +5-9% faded (AVGO -3.6% from open, LRCX -3.9%, MRVL -3.6%, WDC -7.6%, SNDK -4.3%, TSM -1.5%, MU -1.3%; NVDA +0.2%, AMD +0.4% hold) while the defensives sold pre-market rallied (XLV +1.6% from open, XLP +1.7%, XLF +1.3%, UNH +1.9%, COST +1.5%, JPM +2.0%). Mega caps from the open: META +2.0% (no own news; the Reuters 09:38 item on the scrapped administration panel is not a catalyst), TSLA +3.2% (+4.8% day on the Cybertruck wind-down / Cybercab read, past the 3% line), MSFT +1.6%, AMZN +1.3%, GOOGL +1.1%, AAPL +1.1%, LLY +1.4% (1363; high 1377). Sniper: catalyst_open bought LLY 11-06 1430C at 0.91 (09:32, 1 real contract, 10-delta) -> 0.07 at 10:02 (LLY would need +5%); catalyst_open_hero shadow 1390C 2.36 -> peak 3.87 at the 1377 high -> 2.08. Pick: GE call (own news, leader, tape agrees, neutral theme). Put mirror: SMH is below its open at 10:17, earlier than any day this week, but chips are a turning theme and CLAUDE.md gives the mirror only with the 11:00 confirmation; see conditional_1121.",
@@ -57,6 +65,43 @@
    "action": "none",
    "why": "The defensives sold pre-market (XLV -1.8%, XLP -2.0% at 08:31) rallied +1.6-1.7% from their opens: the third reversal of the rotation in 24 hours. Scored as the 'rotation unwind' put's mirror from the morning file.",
    "why_zh": "盘前被卖的防守股（医疗 -1.8%、必需消费 -2.0%）开盘后反而涨了 1.6% 到 1.7%，24 小时里轮动第三次掉头。记录，和早上那条「防守股被卖」对照打分。"
+  },
+  {
+   "type": "sector_intraday",
+   "symbol": "TSM",
+   "direction": "put",
+   "time": "11:24",
+   "action": "none",
+   "why": "Second mirror candidate: TSM 374.29 vs its 379.90 open (-1.5%, +6.0% day); Friday expiry. MU is weaker and taken instead.",
+   "why_zh": "台积电是第二个镜像候选（比开盘低 1.5%），美光更弱所以选了美光。记录。"
+  },
+  {
+   "type": "sector_intraday",
+   "symbol": "AVGO",
+   "direction": "put",
+   "time": "11:24",
+   "action": "none",
+   "why": "Weakest chip from the open (-5.1%, 295.77 vs 311.52) but past the 3% line; scored to test whether the line should be measured from the 10:00 price on bounce days (SUNDAY_TESTS 48).",
+   "why_zh": "博通是开盘后最弱的芯片股（-5.1%），但过了 3% 的线。记录，用来检验清仓/反弹日这条线该不该从 10 点价量（SUNDAY_TESTS 48）。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "CRM",
+   "direction": "put",
+   "time": "11:24",
+   "action": "none",
+   "why": "CRM -3.3% on the day (-0.8% from its open; low 211) with a 'Why is Salesforce falling' item at 10:07 and no clear catalyst beyond the AI-governance and partner headlines; software neutral with the BREADTH turn flag. Not a pick: no news that explains the move.",
+   "why_zh": "Salesforce 今天 -3.3%，媒体在问为什么跌，但找不到说得通的消息。没有消息就不选，记录。"
+  },
+  {
+   "type": "buyback",
+   "symbol": "LRCX",
+   "direction": "put",
+   "time": "11:24",
+   "action": "none",
+   "why": "The $25B buyback gap (+12.6% at the open, 208.50) is being sold: 203.05 at 11:22, -2.6% from its open, still +9.6% on the day. The 'good news in a turning theme fades' pattern; scored.",
+   "why_zh": "泛林 250 亿回购的高开（+12.6%）在被卖，比开盘低 2.6%，当天还 +9.6%。转向主题里的好消息会被卖掉，记录。"
   }
- ]
+ ],
+ "check_1121": "11:22 ET: SPY 738.5 (+0.5% from open, +0.8% day, off the 742.2 high), QQQ 658.3 (flat from its open, +1.7% day), SMH 462.95 (-2.2% from open, +3.4% day), IWM +0.2% from open, VIXY 20.18 (-4.9%), TLT +0.2% (yields back down after the hot NFP), XLV +1.6% from open, XLP +1.8%, XLF +1.2%, XLI +0.1%. Chips from their opens: AVGO -5.1%, MRVL -4.8%, AMAT -3.6%, LRCX -2.6% (still +9.6% day on the buyback), MU -2.6%, NVDA -1.7%, TSM -1.5%, AMD -0.6%, INTC +0.9%; WDC -8.5%, SNDK -6.2%. Mega caps: TSLA +2.8% from open (+4.4% day), META +1.6%, AAPL +1.6%, MSFT +2.0%, AMZN +1.2%, GOOGL +0.6%, LLY +1.3%, GE +1.0% (faded from +2.2% at 10:17; the 10:21 GE 330C 0.54 -> 0.03), COST +1.3%, JPM +1.6%. Mirror: armed and taken on MU (see picks). Call side: no in-session catalyst (TSLA's Cybercab story is overnight and past the 3% line; META is relative strength with no news). Bot: meta_follow2 shadow META 632.5C 0.83 -> 1.00 trail exit (+20%, +$17); catalyst_open LLY 1430C 0.91 -> 0.02 (real, 1 contract), hero 1390C 2.36 -> 3.87 peak -> 0.16; catalyst_intraday GE 330C 0.54 -> 0.03 (real), hero 8 x 0.57 -> 0.03. For 13:16: if SMH takes out 457.6 the mirror continues (AVGO past the line, MU the name); if SMH is back above its open the bounce held and the MU put is wrong."
 }
