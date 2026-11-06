@@ -1,0 +1,168 @@
+{
+ "date": "2026-11-06",
+ "bias": "none",
+ "confidence": 0.3,
+ "p_up": 0.5,
+ "summary": "Day after the -4.4% liquidation, NFP at 08:30. Pre-market 07:43 ET: SPY +0.3% (735.2 vs 733.00), QQQ +1.7%, SMH +5.4% (AMD +8%, MU +9%, LRCX +12% on a $25B buyback, TSM +7%, AVGO +5%, NVDA +4%) while Asia's chips were crushed overnight (Kospi -6% with a circuit breaker, Nikkei -6%, Taiex -4%, Advantest -12%, Kioxia -14%): the US chain is bouncing against its own overnight. The other side of the rotation is reversing too: COST -1.7%, WMT -2.5%, HD -2.2%, LLY -0.9%, UNH -1.9%, XLP -1.9%, XLV -1.3% pre-market, VIXY -2.8%, TLT -0.3%, dollar +0.4%, WTI ~$89-90 (-0.5%). 08:30: payrolls +165K vs +65K (private +159K vs +64K), unemployment 4.1% vs 4.2%, hourly earnings +0.4% m/m / +3.1% y/y vs +0.3% / +2.9%: a hot print, bonds sold (TLT -0.7%), dollar +0.5%, equities unmoved in the first minute (SPY +0.2%, QQQ +1.6%, SMH +5.0%, VIXY -1.6%). Strong jobs plus hotter wages into a market that just sold AI capex and prices a December hike: the bounce has a yields headwind and a short-covering tailwind. p_up 0.50, none.",
+ "reasons": [
+  "Webull extended hours 07:43 ET (vs the 11-05 close): SPY 735.24 (+0.31%), QQQ 658.15 (+1.72%), SMH 471.70 (+5.35%), IWM +0.34%, VIXY 20.62 (-2.8%), TLT -0.34%, UUP +0.45%, USO -0.51%, XLF -0.75%, XLV -1.28%, XLP -1.92% (thin), XLE +0.08%. Chips: AMD 437.3 (+8.1%), MU 713.8 (+8.8%), LRCX 206.9 (+11.7%, $25B buyback + $0.33 dividend announced after the close), TSM +7.3%, ASML +7.1%, AMAT +8.2%, KLAC +7.4%, MRVL +10.2%, AVGO 305.9 (+4.9%), NVDA 188.6 (+3.8%), INTC 55.2 (+5.7%), SNDK +11.5%, WDC +9.1%, ARM +7.7%, QCOM +3.4%. AI build-out: NBIS +10.7%, CRWV +11.2%, IREN +17.9% (reported), GEV +3.8%, VST +5.2% (reported 07:05, beat). Platforms and defensives: AAPL -1.2%, MSFT -0.6%, GOOGL -0.1%, META flat, AMZN +0.4%, TSLA +1.5%, COST -1.7%, WMT -2.5%, HD -2.2%, LLY -0.9%, UNH -1.9%, JPM -0.7%, V -1.9%.",
+  "Overnight: Asia sold the US rout a day late (Kospi -6% after -8.8% intraday and a 20-minute halt, Nikkei -6%, Taiex -3.8 to -4.5%, TSMC -4 to -5% in Taipei, SK Hynix -11.7%, Advantest -12%, Tokyo Electron -7%, Kioxia -14%; Taiwan imposed a short-selling limit). US futures mixed: S&P +0.3 to +0.4%, Nasdaq-100 +1.7%, Dow -0.9% (Yahoo / CNBC snapshots, not live quotes). Europe lower at the open after the chip rout. The divergence (Asia chips -6 to -12%, US chip ADRs +5 to +12%) is the first sign the chain is loosening; it is also exactly what a short-covering bounce looks like.",
+  "08:31 ET re-read after the print: SPY 734.48 (+0.20%, same as before 08:30), QQQ 657.15 (+1.56%), SMH 470.30 (+5.0%), IWM +0.25%, VIXY 20.89 (-1.6%), TLT 81.39 (-0.66%, was -0.34% before the print: yields up on the number), UUP +0.47%, XLV -1.8%, XLP -2.0%, XLF -1.0%. Mega caps: NVDA 189.2 (+4.2%), AMD 436.0 (+7.8%), MU 705 (+7.4%), AVGO +4.9%, META flat, AAPL -1.1%, MSFT -1.0%, AMZN +0.3%, TSLA +2.0%, LLY 1352.0 (-0.9%), UNH -1.5%, COST -1.6%, JPM -0.7%, ORCL 119.4 (+3.6%), HIMS +8.2%. The print did not move stocks in its first minute; it moved bonds and the dollar. Hot wages (+0.4% m/m, +3.1% y/y) with the market already pricing a December hike (71% on 10-30) is the headwind to the bounce; strong hiring (+165K, U3 4.1%) is the growth-scare relief. Net: no edge, p_up 0.50.",
+  "08:30 ET: October payrolls (consensus +59K Dow Jones / +65K Bloomberg and FactSet, unemployment 4.2%, ADP was +86K, Pantheon 100K, Vanguard 120K; September +29K). The print is read before the final call: a hot number lifts yields into a market that sold AI capex, a weak one feeds the growth scare; neither obviously helps the bounce. 10:00 Michigan sentiment (prelim). Fed speakers: none confirmed. CPI 11-10 (Tuesday) is the next release in config/macro_events.json; today is an NFP event day, so spy_open_drive, spy_open_drive_put, stock_open_drive, rebound_scanner and leader_follow do not trade (days: non_event).",
+  "Day-after base rates: SPY closed up 54% of the time the day after a >= 3% drop (the other Claude's 2005+ table; baseline 55%) and moved >= 1% either way 65% of the time (baseline 25%); with VIX near 28 and payrolls at 08:30 the move will be large, its sign is not knowable from here. OVERNIGHT.md: the night move barely predicts open to close (SPY corr -0.11); the one weak SPY lean (night down >= 0.3% then pre-market recovery >= 0.2%) does not apply, the night was up.",
+  "Why the bounce is not a call: it is concentrated in the turning theme (THEMES: chips turning with REL_WEAK, BREADTH, RATIO_LOW, PERIPH; power and optical turning) while the heating themes (health, consumer) are being sold pre-market, so the index is split again (SPY +0.3% vs QQQ +1.7%). Turning-theme gap-ups closed up 56-60% historically (THEMES.md), a coin flip with fat tails. Yesterday's lesson (LOCKGATE.md): the 10:00 structure does not predict the close either way; p_up near 0.50 is honest, the call needs 0.60.",
+  "Rates, oil, dollar: 10Y about 4.90% (fell as a haven bid came in Thursday; the exact overnight change in bp could not be confirmed from a dated source; TLT -0.3% pre-market says yields are up a touch this morning), 2Y about 4.6%. WTI $89-90 (-0.5%; USO -0.5%) after +1.9% Thursday, Brent ~$98, oil stopped being the story this week. DXY 101.4 (+0.3%, UUP +0.45%). VIX 28 at Thursday's close; VIXY -2.8% pre-market.",
+  "rebound_scanner universe: no >= 2% down gap pre-market (AMD +8%, MU +9%, NVDA +4%, INTC +6%, AVGO +5%, TSLA +1.5%, PLTR +2.9%, HOOD +2.7%, COIN +1.5%, META flat, AAPL -1.2%, GOOGL -0.1%, AMZN +0.4%); and it is an event day anyway. Up gaps >= 2% in the dossiers: AMD +8% (DOSSIER_AMD: up gaps >= 2% continue 64% but buying calls at 09:45 lost -40%/trade, too much priced; day three after its report). META flat (DOSSIER_META: small gaps fill).",
+  "Reports: VST (07:05, beat; power theme turning; reaction day, excluded), IREN (+18%, Microsoft delivery delay headline too), NET (+21%), ABNB (+13%), TEAM (-15%), AXON (-9%), MCHP (flat after -14%), LITE (+10% pre-market after its print and -19% day; optical turning; reaction day) are all reaction-day names and excluded from picks. QCOM and ARM reported 11-04 after the close (two sessions ago, allowed by the rule but no own news today). NVDA reports 11-17 (7 sessions; turning theme, no pre-earnings-drift call).",
+  "Night session (Webull overnight, 20:00-04:00 ET) was not snapshotted separately this morning; the extended-hours quotes above are 07:43 ET pre-market."
+ ],
+ "events": [
+  "08:30 ET October payrolls: +165K vs +65K consensus (September +29K), private +159K vs +64K, manufacturing +19K vs +5K, unemployment 4.1% vs 4.2%, participation 61.9% (+0.1), U6 7.9% (from 7.6%), average hourly earnings +0.4% m/m vs +0.3% and +3.1% y/y vs +2.9%, workweek 34.4 (Webull macro calendar, actual values). Hot on jobs and wages; U6 rising is the one soft spot.",
+  "09:10 ET Fed's Musalem; 12:15 ET Fed's Bowman (supervision); 11:00 ET BoJ's Ueda at the IMF; 10:00 ET Michigan sentiment prelim (consensus 48.0; 1-yr inflation expectations prior 4.7%); 14:00 ET consumer credit; 13:00 ET rig counts",
+  "Pre-market reports: VST (beat), HUM, MRNA, ENB, BAM, PPL, CHTR, WULF; last night: NET, ABNB, TEAM, MCHP, IREN, AXON, LITE",
+  "NFP event day: spy_open_drive, spy_open_drive_put, stock_open_drive, rebound_scanner and leader_follow are off (non_event); meta_follow2 (Friday allowed), nvda_gapdown_put (gap up, no fire), catalyst_open (LLY) and the hero shadows can run",
+  "Next: CPI 2026-11-10; NVDA reports 2026-11-17"
+ ],
+ "inputs": {
+  "es_futures_pct": 0.3,
+  "vix": 28.0,
+  "wti_pct": -0.5,
+  "us10y": 4.9,
+  "us10y_change_bp": null,
+  "us2y_change_bp": null,
+  "dxy_pct": 0.4,
+  "vixy_pct": -1.6,
+  "overnight": "Night session (Webull overnight, 20:00-04:00 ET): SPY 735.25 (+0.31%, range 730.64-737.03), QQQ 655.17 (+1.25%), SMH 464.61 (+3.77%) while Asia's chips were crushed (Kospi -6%, Nikkei -6%, Taiex -4%, SK Hynix -12%, Advantest -12%); the US chain bounced against its own overnight. S&P futures +0.3%, Nasdaq-100 +1.7%, Dow -0.9%; Europe lower at the open. 10Y change in bp not confirmed from a dated source; TLT -0.34% before the print, -0.66% after."
+ },
+ "rotation": {
+  "heating": [
+   "consumer (WMT +5.3% / COST +7.1% / HD +6.4% in a week; basket +6.3% 1w, +17.9% 1m; THEMES heating with REL_STRONG, BREADTH_UP, RATIO_HIGH) but -1.7 to -2.5% pre-market as the rotation unwinds",
+   "health (LLY +14.8% / UNH +5.3% in a month; basket -2.2% 1w after the 11-05 give-back, +10.0% 1m; THEMES heating) with LLY -0.9% / UNH -1.9% pre-market",
+   "staples and utilities ETFs (XLP +3.5% 1w / +11.7% 1m, XLU +0.4% / +5.2%), long bonds (TLT +1.0% 1w / +6.7% 1m)"
+  ],
+  "cooling": [
+   "chips: GPU (NVDA -15% 1w / -23% 1m), CPU (AMD -29% / -37%, INTC -43% / -54%, ARM -27% / -43%), memory (MU -30% / -40%, SNDK -39% / -52%), disk (WDC -32% / -34%, STX -33% / -42%), equipment (LRCX -16% Thursday); SMH -20% 1w / -28% 1m; THEMES turning (REL_WEAK, BREADTH, RATIO_LOW, PERIPH). Bouncing +5-12% pre-market: a relief bounce inside a turning theme, no call picks on its names",
+   "optical (LITE -45% 1w / -54% 1m, CIEN -34% / -48%; turning), power (GEV -13% / -23%, VST -20% / -32%; turning), energy (XOM -9.8% 1w, CVX -8.0%; XLE -10.3% 1w; neutral with REL_WEAK + BREADTH after oil's -8% day), industrials (CAT -14.5% 1w; XLI -4.5%), banks (GS -6.3% 1w, BAC -2.7%, JPM -1.8%; XLF +1.0% 1w / +7.0% 1m, neutral)",
+   "internet neutral (basket +0.6% 1w / -6.4% 1m: AMZN +6.7% 1w, MSFT +1.1%, META -3.1%, GOOGL -0.4%, AAPL -1.4%); SPY -4.7% 1w / -5.7% 1m, QQQ -9.5% / -14.6%, IWM -4.6% / -2.4%"
+  ],
+  "theme_state": {
+   "turning": [
+    "chips",
+    "power",
+    "optical"
+   ],
+   "heating": [
+    "health",
+    "consumer"
+   ],
+   "neutral": [
+    "internet",
+    "software",
+    "banks",
+    "energy",
+    "industrials"
+   ],
+   "source": "python -m zoh.research.themes --today, bars to 2026-11-05",
+   "filter": "no call sniper or call pick on chips / power / optical names today, whatever the bounce; sniper scans start with health and consumer"
+  },
+  "events": "VST reported this morning (power, turning; excluded). NVDA 11-17. The pre-market tape is the mirror of 11-05: chips up, defensives down; whether that holds past 10:00 decides the day more than payrolls. The 08:30 print sold bonds, not stocks: the yields headwind lands on the defensives (XLV -1.8%, XLP -2.0% pre-market), not yet on the chips."
+ },
+ "sniper": {
+  "symbol": "LLY",
+  "direction": "call",
+  "confidence": 0.35,
+  "catalyst": "Own news from the last day: 06:49 ET Eli Lilly and Hims & Hers announced a partnership putting Zepbound ($299/month) and Foundayo / orforglipron ($149/month) on the Hims & Hers platform at Lilly's standard self-pay prices (Benzinga 06:49 and 07:31; the LifeMD dispensing deal was yesterday, so this is the second distribution channel in two days). Pre-market -0.9% at 07:43 (1352.7 vs 1364.7) as defensives give back with the chip bounce, so nothing of the news is in the price. Health theme heating (REL_STRONG, BREADTH_UP, RATIO_HIGH), the only heating theme with a mega cap carrying news today. Median target $1,508 (mean $1,442, high $1,690): room above. Reported 10-29 (six sessions ago, outside the window). Friday weekly expiry = same-day options. catalyst_open buys a ~0.10-delta same-day call 09:31-10:00 only while LLY holds its open; half at 3x, trail from 1.5x; may carry overnight. Risks: the rotation unwind (LLY gave a +2.3% new high back to -4.8% open to close on 11-05) and a payrolls tape; a distribution deal is a weak catalyst (target-raise class), hence 0.35. 08:31 re-read: LLY 1352.0 (-0.9%, unchanged by the print), HIMS +8.2% on the same news; XLV -1.8% pre-market, so the sector is the risk, not the name.",
+  "wrong_if": "below its open at 10:00, or below 1,340 (yesterday's low area) before 10:30"
+ },
+ "opportunities": [
+  {
+   "type": "company_news",
+   "symbol": "LLY",
+   "direction": "call",
+   "time": "09:31",
+   "action": "real",
+   "why": "Sniper (see sniper): Hims & Hers partnership 06:49 ET, -0.9% pre-market, health heating, median target $1,508.",
+   "why_zh": "狙击（见上）：06:49 礼来和 Hims & Hers 合作，把 Zepbound 和口服减肥药放到对方平台按标准自付价卖，盘前 -0.9%，医疗主题在升温，分析师目标价中位 1,508。"
+  },
+  {
+   "type": "analyst",
+   "symbol": "ORCL",
+   "direction": "call",
+   "time": "09:31",
+   "action": "none",
+   "why": "Bernstein issued an Outperform rating on Oracle 07:31 ET (ANALYST.md: upgrades carry). ORCL +4.0% pre-market (119.8 vs 115.16) on day three after the $20B raise (FADES day-two base rate 61% up, flat last 3 months). Not the sniper: the gap is at the ~4% limit for a heavy catalyst, software is neutral with the BREADTH turn flag, and ORCL fell 6.9% yesterday on the New Mexico permit delay. Scored.",
+   "why_zh": "Bernstein 07:31 给甲骨文「跑赢」评级，盘前 +4.0%，是 200 亿融资后的第三天。没选为狙击：缺口已到 4% 的上限，软件主题中性且宽度灯亮着，昨天还因新墨西哥数据中心许可延误跌了 6.9%。记录，收盘打分。"
+  },
+  {
+   "type": "turning_bounce",
+   "symbol": "AMD",
+   "direction": "call",
+   "time": "09:31",
+   "action": "none",
+   "why": "+8.1% pre-market (437) after -17% Thursday, day three after its report. DOSSIER_AMD: up gaps >= 2% continue 64% but 09:45 calls lost -40%/trade. Chips turning: the filter forbids a call pick. Scored as the bounce leader.",
+   "why_zh": "AMD 盘前 +8.1%，昨天 -17%，财报后第三天。档案说 2% 以上的高开六成会延续，但 09:45 买看涨平均亏四成；芯片是转向主题，规则不许买看涨。记录。"
+  },
+  {
+   "type": "turning_bounce",
+   "symbol": "NVDA",
+   "direction": "call",
+   "time": "09:31",
+   "action": "none",
+   "why": "+3.8% pre-market (188.6). Mixed own news: $1B Naver AI-factory investment and a congressional letter on Jensen Huang's alleged China links (06:48), plus The Information's small-data-center network story from 11-05. Seven sessions before its 11-17 report; turning theme. Scored both ways; the morning holds no position.",
+   "why_zh": "英伟达盘前 +3.8%。消息两头：10 亿美元投资 Naver 的 AI 工厂，和国会议员质疑黄仁勋与中国的关系；11-17 财报前第七天，转向主题。两边都记分，不做。"
+  },
+  {
+   "type": "buyback",
+   "symbol": "LRCX",
+   "direction": "call",
+   "time": "09:31",
+   "action": "none",
+   "why": "$25B buyback (the largest in its history) + $0.33 dividend announced after the close; +11.7% pre-market after -16% Thursday. Own news, but the gap is far past the 4% line and equipment is in the turning theme.",
+   "why_zh": "泛林宣布 250 亿美元回购（史上最大）加分红，盘前 +11.7%，昨天 -16%。有自己的消息，但缺口远超 4% 的线，设备属于转向主题。记录。"
+  },
+  {
+   "type": "rotation_unwind",
+   "symbol": "COST",
+   "direction": "put",
+   "time": "09:31",
+   "action": "none",
+   "why": "Defensives are being sold as chips bounce: COST -1.7% (1,047), WMT -2.5%, HD -2.2% pre-market with no news (JPM raised COST's target to $1,150 last night). Consumer theme heating (+6.3% 1w / +17.9% 1m). The put mirror of the 11-05 rotation; no rule of ours trades it. Scored.",
+   "why_zh": "芯片反弹时防守股被卖：好市多盘前 -1.7%、沃尔玛 -2.5%、家得宝 -2.2%，没有消息（摩根大通昨晚还上调了好市多目标价）。消费主题在升温。这是 11-05 轮动的镜像，我们没有规则做它。记录。"
+  },
+  {
+   "type": "headline",
+   "symbol": "JPM",
+   "direction": "put",
+   "time": "09:31",
+   "action": "none",
+   "why": "Senate Democrats planning a probe into JPMorgan's Epstein ties (Benzinga 15:01 on 11-05); JPM -0.7% pre-market (335.1) after -5.9% open to close Thursday; banks neutral. A put sniper needs a SPY put day. Scored.",
+   "why_zh": "参议院民主党计划调查摩根大通与爱泼斯坦的关系（昨天 15:01），盘前 -0.7%，昨天开到收 -5.9%。看跌狙击要大盘看跌日才开放。记录。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "TSLA",
+   "direction": "put",
+   "time": "09:31",
+   "action": "none",
+   "why": "Musk confirmed the Cybertruck wind-down at Giga Texas (~mid-2027) to make room for Cybercab; a GLJ Sell reiteration; TSLA +1.5% pre-market (348.7) after -10.8% Thursday. The news cuts both ways (less a loss-maker, less a product); not a pick either way.",
+   "why_zh": "马斯克确认 Cybertruck 明年中停产腾给 Cybercab；特斯拉盘前 +1.5%，昨天 -10.8%。消息两面，不做。记录。"
+  },
+  {
+   "type": "sector_move",
+   "symbol": "SPY",
+   "direction": "call",
+   "time": "09:31",
+   "action": "none",
+   "why": "Day after a -4.4% close: up 54% of the time (2005+), move >= 1% either way 65%. SPY +0.3% pre-market, QQQ +1.7%: a narrow bounce. p_up 0.53 before payrolls; none.",
+   "why_zh": "大跌 4.4% 的次日：历史上 54% 收涨，65% 的日子波动超过 1%。标普盘前只 +0.3%、纳指 +1.7%，反弹很窄。非农前上涨概率 53%，不做。"
+  }
+ ],
+ "generated_at": "2026-11-06T08:32:42-05:00",
+ "zh": {
+  "summary": "大跌 4.4% 的次日，08:30 非农。盘前 07:43：标普 ETF +0.3%，纳指 ETF +1.7%，半导体 ETF +5.4%（AMD +8%、美光 +9%、泛林 +12% 回购、台积电 +7%、博通 +5%、英伟达 +4%），而亚洲芯片股昨夜被砸（韩国 -6% 熔断、日本 -6%、台湾 -4%）：美国这条链在逆着自己的隔夜反弹。轮动的另一头也在倒：好市多 -1.7%、沃尔玛 -2.5%、家得宝 -2.2%、礼来 -0.9%、联合健康 -1.9%，恐慌指数 ETF -2.8%，美元 +0.4%，油 -0.5%。转向主题里的第二天空头回补，赶上非农早晨，方向是硬币。 08:30 非农偏热（+16.5 万、时薪 +0.4%），债跌美元涨，股票第一分钟没动。",
+  "spy": "不做。上涨概率 50%：08:30 非农 +16.5 万（预期 +6.5 万），失业率 4.1%，时薪环比 +0.4%、同比 +3.1%，都偏热。债券被卖、美元涨，股票第一分钟没动（标普 +0.2%、纳指 +1.6%、半导体 +5%）。就业强是对增长担忧的安慰，工资热在一个本来就在定价 12 月加息的市场里是逆风；大跌次日的回补又只在芯片里。两边抵消，没到 60% 的看涨线也没到 40% 的看跌线。",
+  "sniper": "礼来看涨，信心 0.35。06:49 礼来宣布和 Hims & Hers 合作，Zepbound（每月 299 美元）和口服减肥药 Foundayo（149 美元）上对方平台按标准自付价卖，是两天里第二个分销渠道（昨天是 LifeMD）。盘前 -0.9%，消息还没进价格；医疗主题在升温，是今天唯一有消息的升温主题大盘股；目标价中位 1,508。风险：轮动倒回来的日子防守股被卖（昨天礼来从新高吐回 -4.8%），分销合作是弱催化剂。机器人只在 09:31 到 10:00、股价守住开盘价时买当天到期的看涨，3 倍卖一半。",
+  "rotation": "一周一月看：钱在消费（沃尔玛、好市多、家得宝一周 +5% 到 +7%，一月 +18%）、医疗（礼来一月 +15%）、必需消费和公用事业 ETF、长债；流出芯片（GPU 一周 -15%、CPU -33%、存储 -35%、硬盘 -33%，半导体 ETF 一周 -20%）、光模块 -39%、电力基建 -17%、能源 -9%。主题状态：芯片、电力、光模块转向（不买看涨）；医疗、消费升温；互联网中性。今早盘面是 11-05 的镜像：芯片涨、防守跌，10 点以后守不守比非农更决定今天。",
+  "events": "08:30 已出：十月非农 +16.5 万（预期 +6.5 万，九月 +2.9 万），私营 +15.9 万，失业率 4.1%（预期 4.2%），时薪环比 +0.4%、同比 +3.1%（都高于预期），U6 从 7.6% 升到 7.9% 是唯一软的地方。09:10 美联储 Musalem 讲话，10:00 密歇根信心初值，12:15 Bowman。今天是数据日：开盘跟随（看涨和新上的看跌）、个股开盘跟随、反弹扫描、领涨跟随都不动；META 跟势（周五可以）、礼来狙击和两个 hero 影子可以跑。下周二 CPI，英伟达 11-17 财报。"
+ }
+}
