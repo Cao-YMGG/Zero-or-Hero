@@ -1,4 +1,4 @@
-# Headlines since 2026-11-05 16:00 ET (as of 2026-11-06 10:02 ET)
+# Headlines since 2026-11-05 16:00 ET (as of 2026-11-06 10:32 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -16,6 +16,8 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-05 17:42 | ARM | target down | JP Morgan Maintains Overweight on ARM Holdings, Lowers Price Target to $245 |
 | 11-05 16:33 | GS | target up | Goldman Sachs Maintains Chime Financial at Buy, Raises Price Target |
 | 11-05 16:27 | TSLA | rating | GLJ Research Reiterates Sell on Tesla, Maintains $24.86 Price Target |
+| 11-06 10:30 | TSLA |  | Musk Winds Down Cybertruck After Sales Collapse, Shifts Tesla Focus to Cybercab |
+| 11-06 10:07 | CRM |  | Why Is Salesforce Stock Falling on Friday? |
 | 11-06 10:00 | NVDA |  | Rep. Maria Elvira Salazar Has Bought Up to $60K Worth Of NVIDIA Stock: Here’s What You Should Know |
 | 11-06 10:00 | NVDA |  | Pennsylvania Rep. Daniel Meuser Sold Up to $15K Worth of NVIDIA Stock |
 | 11-06 09:59 | NVDA |  | Watching Nvidia; Hunterbrook Media Issues Report Titled, “The Comprehensive Guide to the Bank of Nvidia” |

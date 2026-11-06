@@ -1,7 +1,27 @@
 {
- "as_of": "2026-11-06T10:02-05:00",
+ "as_of": "2026-11-06T10:32-05:00",
  "since": "2026-11-05T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-06 10:30",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Musk Winds Down Cybertruck After Sales Collapse, Shifts Tesla Focus to Cybercab",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62985680/tesla-cybertruck-cybercab"
+  },
+  {
+   "time": "11-06 10:07",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Why Is Salesforce Stock Falling on Friday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62982985/why-is-salesforce-stock-falling-on-friday"
+  },
   {
    "time": "11-06 10:00",
    "symbols": [
