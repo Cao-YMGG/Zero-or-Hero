@@ -1,4 +1,4 @@
-# Headlines since 2026-11-05 16:00 ET (as of 2026-11-06 14:55 ET)
+# Headlines since 2026-11-05 16:00 ET (as of 2026-11-06 15:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -18,6 +18,8 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-05 17:42 | ARM | target down | JP Morgan Maintains Overweight on ARM Holdings, Lowers Price Target to $245 |
 | 11-05 16:33 | GS | target up | Goldman Sachs Maintains Chime Financial at Buy, Raises Price Target |
 | 11-05 16:27 | TSLA | rating | GLJ Research Reiterates Sell on Tesla, Maintains $24.86 Price Target |
+| 11-06 15:02 | MSFT |  | Protesters Occupy Microsoft Data Center Construction Site in Amsterdam |
+| 11-06 15:01 | JPM |  | JPMorgan Chase & Co. Files Major Holdings Notification for Delivery Hero SE |
 | 11-06 14:35 | TSLA |  | Elon Musk Pardon Request Hits Change.org with Tesla Influencer Sharing: What Investors Should Know |
 | 11-06 14:35 | TSLA |  | Reported Earlier: 'SpaceX, Tesla Merger Less Likely After Midterms. Texas Gov. Requests Pause On Land Talks' - Investor Business Daily |
 | 11-06 14:02 | NFLX |  | Netflix Announces 'Stranger Things' Prequel Series 'Other Worlds' |
