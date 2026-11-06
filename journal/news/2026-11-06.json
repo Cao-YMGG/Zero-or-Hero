@@ -1,7 +1,27 @@
 {
- "as_of": "2026-11-06T14:16-05:00",
+ "as_of": "2026-11-06T14:40-05:00",
  "since": "2026-11-05T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-06 14:35",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Pardon Request Hits Change.org with Tesla Influencer Sharing: What Investors Should Know",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/63006892/elon-musk-pardon-request-hits-change-org-with-tesla-influencer-sharing-what-investors-should-know"
+  },
+  {
+   "time": "11-06 14:35",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Reported Earlier: 'SpaceX, Tesla Merger Less Likely After Midterms. Texas Gov. Requests Pause On Land Talks' - Investor Business Daily",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63006843/reported-earlier-spacex-tesla-merger-less-likely-after-midterms-texas-gov-requests-pause-land-talks-"
+  },
   {
    "time": "11-06 14:02",
    "symbols": [
