@@ -1,4 +1,4 @@
-# Headlines since 2026-11-05 16:00 ET (as of 2026-11-06 11:33 ET)
+# Headlines since 2026-11-05 16:00 ET (as of 2026-11-06 12:03 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -16,6 +16,8 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-05 17:42 | ARM | target down | JP Morgan Maintains Overweight on ARM Holdings, Lowers Price Target to $245 |
 | 11-05 16:33 | GS | target up | Goldman Sachs Maintains Chime Financial at Buy, Raises Price Target |
 | 11-05 16:27 | TSLA | rating | GLJ Research Reiterates Sell on Tesla, Maintains $24.86 Price Target |
+| 11-06 11:52 | VST |  | Vistra Stock Soars After Surprising Q3 Sales Results |
+| 11-06 11:41 | MSFT |  | 'OpenAI CFO Confirms Fundraising Talks At Almost A 50% Lift In Valuation From The Round Closed In March' - CNBC |
 | 11-06 11:31 | GOOGL |  | Google's $900 Million SpaceX Bet Is Now Worth $69 Billion. It Added Millions More Shares |
 | 11-06 11:28 | MSFT |  | 'OpenAI will keep investing in AI data centers despite election results, CFO Says' - CNBC |
 | 11-06 11:11 | VST |  | Vistra Q3 2026 Earnings Call Transcript |

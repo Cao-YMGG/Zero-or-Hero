@@ -1,7 +1,27 @@
 {
- "as_of": "2026-11-06T11:33-05:00",
+ "as_of": "2026-11-06T12:03-05:00",
  "since": "2026-11-05T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-06 11:52",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "",
+   "headline": "Vistra Stock Soars After Surprising Q3 Sales Results",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62994675/vistra-stock-soars-after-surprising-q3-sales-results"
+  },
+  {
+   "time": "11-06 11:41",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "'OpenAI CFO Confirms Fundraising Talks At Almost A 50% Lift In Valuation From The Round Closed In March' - CNBC",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62993876/openai-cfo-confirms-fundraising-talks-almost-50-lift-valuation-round-closed-march-cnbc"
+  },
   {
    "time": "11-06 11:31",
    "symbols": [
