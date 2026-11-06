@@ -212,6 +212,18 @@ in EVOLUTION.md.
     compute k x vs hold on the pooled set; today's 757P (4 of 7 held to 15:30 at 17x, +$9,408) and the follow card
     (half 3x, half trailed: +2.7 per $1 vs +10.5 held) are the put-side examples. Their follow-card split to carry:
     VIX >= 24 the day before 15 days +57%, VIX < 24 37 days -5%.
+50. **Structure layer for the check-ins (owner, 2026-11-06, from the EvaPanda alert at 12:18: "SPY lower high on the 5-min,
+    will chop into the close; chips weak, NVDA near its low").** What the alert does that we do not: it fires on a structural
+    change, not on a clock, and it names levels (day high 742, a mid level 738.2, prior close 733). Quick replay on the cached
+    30-minute bars (2024-02 to 2026-11-05, 693 sessions), SPY from 12:00 to the close: up >0.3% at 10:00 and faded >0.3% by
+    12:00 while still above the open: n=8, 100% closed above the 12:00 price, +1.75% avg; 12:00 at least 0.4% below the
+    morning high and above the open ("lower high"): n=25, 60% up, +0.52%; up at 10:00 and below the open by 12:00: n=11,
+    36% up, -0.23%; day after a >=2.5% SPY drop: n=8, 38% up, -0.18%; all days 52% / 0.00%. So a noon lower high is not a
+    bearish signal on its own (if anything the opposite, small n); losing the open by noon is. To build: (a) a `structure`
+    block in every intraday file: open, prior close, day high/low, VWAP, 10:00 and 12:00 prices, higher-high / lower-high
+    state for SPY, QQQ, SMH and the pick; (b) an event-driven Discord notice (no orders) from the bot when SPY or SMH loses
+    its open, takes out the day's low/high, or makes a lower high after 11:00; (c) replay with 1-minute bars: VWAP cross and
+    lower-high after 11:00 as a put-mirror confirmation vs the current "below its open at 11:21" rule.
 
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
