@@ -1,4 +1,4 @@
-# Headlines since 2026-11-05 16:00 ET (as of 2026-11-06 11:02 ET)
+# Headlines since 2026-11-05 16:00 ET (as of 2026-11-06 11:33 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -16,7 +16,11 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-05 17:42 | ARM | target down | JP Morgan Maintains Overweight on ARM Holdings, Lowers Price Target to $245 |
 | 11-05 16:33 | GS | target up | Goldman Sachs Maintains Chime Financial at Buy, Raises Price Target |
 | 11-05 16:27 | TSLA | rating | GLJ Research Reiterates Sell on Tesla, Maintains $24.86 Price Target |
+| 11-06 11:31 | GOOGL |  | Google's $900 Million SpaceX Bet Is Now Worth $69 Billion. It Added Millions More Shares |
+| 11-06 11:28 | MSFT |  | 'OpenAI will keep investing in AI data centers despite election results, CFO Says' - CNBC |
+| 11-06 11:11 | VST |  | Vistra Q3 2026 Earnings Call Transcript |
 | 11-06 11:01 | GS |  | Align Technology Executes Accelerated Share Repurchase with Goldman Sachs |
+| 11-06 11:01 | HD |  | Home Depot Canada Announces 2026 Innovation Award Winners |
 | 11-06 11:01 | V |  | Visa Establishes Global Capability Hubs in Singapore |
 | 11-06 11:01 | AAPL |  | Apple Captures Record Share of Global Smartphone Revenue in Q3 |
 | 11-06 10:44 | VST |  | Vistra Says Mid Term Election Results Do Not Change Its Fundamental View Of Growth Opportunities; Expects Cogentrix Deal To Deliver High-Single-Digit Adjusted FCF Accretion In Near Term, Double-Digit Accretion From 2029; Says It Is In Active Talks With Large-Load Customers In PJM And Ercot For Existing And New-Build Assets; Says It Remains Open To Opportunistic, Fleet-Complementary M&A |

@@ -1,7 +1,37 @@
 {
- "as_of": "2026-11-06T11:02-05:00",
+ "as_of": "2026-11-06T11:33-05:00",
  "since": "2026-11-05T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-06 11:31",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Google's $900 Million SpaceX Bet Is Now Worth $69 Billion. It Added Millions More Shares",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62992872/google-spacex-stake"
+  },
+  {
+   "time": "11-06 11:28",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "'OpenAI will keep investing in AI data centers despite election results, CFO Says' - CNBC",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62992632/openai-will-keep-investing-ai-data-centers-despite-election-results-cfo-says-cnbc"
+  },
+  {
+   "time": "11-06 11:11",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "",
+   "headline": "Vistra Q3 2026 Earnings Call Transcript",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62991016/vistra-q3-2026-earnings-call-transcript"
+  },
   {
    "time": "11-06 11:01",
    "symbols": [
@@ -11,6 +41,16 @@
    "headline": "Align Technology Executes Accelerated Share Repurchase with Goldman Sachs",
    "source": "fiscal.ai",
    "url": "https://www.tradingview.com/news/tradingview:71822b60df787:0-align-technology-launches-270-million-accelerated-share-repurchase-with-goldman-sachs/?mobileapp_new=true"
+  },
+  {
+   "time": "11-06 11:01",
+   "symbols": [
+    "HD"
+   ],
+   "rating": "",
+   "headline": "Home Depot Canada Announces 2026 Innovation Award Winners",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.ca/fr/news-releases/home-depot-canada-annonce-les-gagnants-des-prix-de-l-innovation-2026-802406687.html"
   },
   {
    "time": "11-06 11:01",
