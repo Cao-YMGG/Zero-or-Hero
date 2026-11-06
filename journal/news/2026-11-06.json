@@ -1,7 +1,82 @@
 {
- "as_of": "2026-11-06T12:34-05:00",
+ "as_of": "2026-11-06T13:15-05:00",
  "since": "2026-11-05T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-06 13:11",
+   "symbols": [
+    "AMD",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "AI Stocks Could Fall Further Despite Surging GPU Demand, Research Firm Warns",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63001253/ai-stocks-gpu-demand"
+  },
+  {
+   "time": "11-06 13:08",
+   "symbols": [
+    "GOOGL",
+    "META"
+   ],
+   "rating": "",
+   "headline": "Unity Software Just Did Something It Hasn't Done Since Its IPO \u2014 and Wall Street Wants More",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63000883/unity-software-just-did-something-it-hasnt-done-since-its-ipo-and-wall-street-wants-more"
+  },
+  {
+   "time": "11-06 13:02",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "Reported Earlier: 'GE Aerospace Says It Signs Record $12.9 Billion Deals At China Expo' - Reuters News",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63000464/reported-earlier-ge-aerospace-says-it-signs-record-12-9-billion-deals-china-expo-reuters-news"
+  },
+  {
+   "time": "11-06 13:01",
+   "symbols": [
+    "AMZN",
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "CNBC Halftime Report Final Trades: Amazon, Clorox, ExxonMobil, Take-Two Interactive Software",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/CLX"
+  },
+  {
+   "time": "11-06 12:43",
+   "symbols": [
+    "MSFT",
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "'In Recent Months, Microsoft Has Been Turning Off Rented Computing Capacity From Oracle After Declining To Renew The Contract' - Bloomberg News",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62998873/recent-months-microsoft-has-been-turning-rented-computing-capacity-oracle-after-declining-renew-cont"
+  },
+  {
+   "time": "11-06 12:37",
+   "symbols": [
+    "MSFT",
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "'Microsoft Is Winding Down Oracle Deal To Rent AI Cloud Capacity' - Bloomberg News",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62998165/microsoft-is-winding-down-oracle-deal-to-rent-ai-cloud-capacity"
+  },
+  {
+   "time": "11-06 12:35",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "4 Financials Stocks Whale Activity In Today\u2019s Session",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/options/26/11/62997869/4-financials-stocks-whale-activity-today-s-session"
+  },
   {
    "time": "11-06 12:27",
    "symbols": [

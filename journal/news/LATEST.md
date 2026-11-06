@@ -1,4 +1,4 @@
-# Headlines since 2026-11-05 16:00 ET (as of 2026-11-06 12:34 ET)
+# Headlines since 2026-11-05 16:00 ET (as of 2026-11-06 13:15 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -16,6 +16,13 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-05 17:42 | ARM | target down | JP Morgan Maintains Overweight on ARM Holdings, Lowers Price Target to $245 |
 | 11-05 16:33 | GS | target up | Goldman Sachs Maintains Chime Financial at Buy, Raises Price Target |
 | 11-05 16:27 | TSLA | rating | GLJ Research Reiterates Sell on Tesla, Maintains $24.86 Price Target |
+| 11-06 13:11 | AMD NVDA |  | AI Stocks Could Fall Further Despite Surging GPU Demand, Research Firm Warns |
+| 11-06 13:08 | GOOGL META |  | Unity Software Just Did Something It Hasn't Done Since Its IPO — and Wall Street Wants More |
+| 11-06 13:02 | GE |  | Reported Earlier: 'GE Aerospace Says It Signs Record $12.9 Billion Deals At China Expo' - Reuters News |
+| 11-06 13:01 | AMZN XOM |  | CNBC Halftime Report Final Trades: Amazon, Clorox, ExxonMobil, Take-Two Interactive Software |
+| 11-06 12:43 | MSFT ORCL |  | 'In Recent Months, Microsoft Has Been Turning Off Rented Computing Capacity From Oracle After Declining To Renew The Contract' - Bloomberg News |
+| 11-06 12:37 | MSFT ORCL |  | 'Microsoft Is Winding Down Oracle Deal To Rent AI Cloud Capacity' - Bloomberg News |
+| 11-06 12:35 | COIN |  | 4 Financials Stocks Whale Activity In Today’s Session |
 | 11-06 12:27 | AMZN |  | Live On CNBC, Jim Lebenthal Announces Bought More Amazon |
 | 11-06 12:22 | NVDA |  | Live On CNBC, Malcolm Ethridge Announces Trimmed Nvidia Position |
 | 11-06 12:22 | MSFT NVDA |  | Why Is Nebius Stock Surging on Friday? |

@@ -22,7 +22,7 @@
         "peak": 0.91,
         "qty": 1,
         "last": 0.03,
-        "last_time": "2026-11-06T12:45:02-05:00"
+        "last_time": "2026-11-06T13:15:29-05:00"
       }
     },
     "catalyst_open_hero": {
@@ -35,8 +35,8 @@
         "entry_price": 2.36,
         "peak": 3.87,
         "qty": 1,
-        "last": 0.54,
-        "last_time": "2026-11-06T12:45:02-05:00"
+        "last": 0.29,
+        "last_time": "2026-11-06T13:15:29-05:00"
       }
     },
     "catalyst_intraday": {
@@ -49,8 +49,8 @@
         "entry_price": 0.54,
         "peak": 0.54,
         "qty": 1,
-        "last": 0.04,
-        "last_time": "2026-11-06T12:45:02-05:00"
+        "last": 0.02,
+        "last_time": "2026-11-06T13:15:29-05:00"
       }
     },
     "catalyst_intraday_hero": {
@@ -63,8 +63,8 @@
         "entry_price": 0.57,
         "peak": 0.57,
         "qty": 8,
-        "last": 0.04,
-        "last_time": "2026-11-06T12:45:02-05:00"
+        "last": 0.02,
+        "last_time": "2026-11-06T13:15:29-05:00"
       }
     },
     "spy_open_drive": {},
