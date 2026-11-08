@@ -163,8 +163,18 @@ def closed_bars(api, symbol, now):
 
 
 def previous_close(api, symbol, today):
+    """Yesterday's official close from the consolidated (SIP) daily bar.
+
+    IEX daily bars end on IEX's last print, which missed the official close by 0.06% on
+    2026-11-05 (SPY 733.43 vs 733.00) and up to 0.1% on NVDA; the gap signals key off this
+    number. SIP history is free once it is older than 15 minutes, so the request ends at
+    today's midnight and never touches today's bar."""
     start = datetime.combine(today - timedelta(days=10), MARKET_OPEN, ET)
-    daily = [parse_bar(b) for b in api.stock_bars(symbol, start, datetime.now(ET), "1Day")]
+    end = datetime.combine(today, hhmm("00:00"), ET)
+    try:
+        daily = [parse_bar(b) for b in api.stock_bars(symbol, start, end, "1Day", feed="sip")]
+    except AlpacaError:
+        daily = [parse_bar(b) for b in api.stock_bars(symbol, start, datetime.now(ET), "1Day")]
     prior = [b for b in daily if b["t"].date() < today]
     return prior[-1]["c"] if prior else None
 

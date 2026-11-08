@@ -42,12 +42,13 @@ BREADTH = 8        # of the 10 mega caps below their opens
 OPEN_T, TEN30_T, CLOSE_T = dtime(9, 30), dtime(10, 30), dtime(16, 0)
 
 
-def fetch(api, sym, cache):
+def fetch(api, sym, cache, start=START, end=None):
     p = Path(cache) / f"bars_{sym}.json"
     if p.exists():
         return json.load(open(p))
-    start = datetime.combine(START, dtime(8, 0), tzinfo=timezone.utc)
-    end = datetime.now(timezone.utc) - timedelta(minutes=20)
+    start = datetime.combine(start, dtime(8, 0), tzinfo=timezone.utc)
+    end = (datetime.combine(end, dtime(23, 0), tzinfo=timezone.utc) if end
+           else datetime.now(timezone.utc) - timedelta(minutes=20))
     bars = api.stock_bars(sym, start, end, timeframe="30Min", feed="sip")
     json.dump(bars, open(p, "w"))
     return bars
@@ -241,16 +242,22 @@ def report(rows, puts, end):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--cache", default=str(OUT / "cache_lockgate"))
+    ap.add_argument("--start", default=None, help="first day (default 2024-02-01)")
+    ap.add_argument("--end", default=None, help="last day (default now); with --start writes LOCKGATE_<suffix>")
+    ap.add_argument("--suffix", default="", help="output name suffix, e.g. 2020_2023")
     args = ap.parse_args()
     Path(args.cache).mkdir(parents=True, exist_ok=True)
     api = Alpaca()
-    points = {s: day_points(fetch(api, s, args.cache)) for s in SYMS}
+    start = date.fromisoformat(args.start) if args.start else START
+    stop = date.fromisoformat(args.end) if args.end else None
+    points = {s: day_points(fetch(api, s, args.cache, start, stop)) for s in SYMS}
     macro = journal.load_events()
     rows = build(points, macro)
     puts = opendrive_puts()
     end = date.fromisoformat(rows[-1]["day"])
-    (OUT / "LOCKGATE.md").write_text(report(rows, puts, end))
-    json.dump(rows, open(OUT / "lockgate.json", "w"))
+    sfx = f"_{args.suffix}" if args.suffix else ""
+    (OUT / f"LOCKGATE{sfx}.md").write_text(report(rows, puts, end))
+    json.dump(rows, open(OUT / f"lockgate{sfx}.json", "w"))
     print(f"{len(rows)} sessions, {sum(1 for r in rows if r['cls'] == 'lock')} lock days; wrote LOCKGATE.md")
 
 

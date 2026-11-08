@@ -1,6 +1,6 @@
 {
   "underlying": "SPY",
-  "champion": "rebound_scanner",
+  "champion": "nvda_gapdown_put",
   "champion_real": false,
   "dead_equity": 50,
   "ledger": {
