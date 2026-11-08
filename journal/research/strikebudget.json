@@ -1,0 +1,1427 @@
+[
+{
+"day": "2026-10-07",
+"sym": "MRVL",
+"kind": "call",
+"source": "sniper",
+"spot": 281.19,
+"stake": 100.0,
+"stock_move": 0.0126,
+"rules": {
+"nobudget": {
+"contract": "MRVL261009C00302500",
+"strike": 302.5,
+"delta": 0.104,
+"px": 0.77,
+"otm": 0.0758,
+"qty": 1,
+"peak": 1.392,
+"exits": {
+"half3_arm1.5": 0.0519,
+"hold": 0.0519
+}
+},
+"old": {
+"contract": "MRVL261009C00302500",
+"strike": 302.5,
+"delta": 0.104,
+"px": 0.77,
+"otm": 0.0758,
+"qty": 1,
+"peak": 1.392,
+"exits": {
+"half3_arm1.5": 0.0519,
+"hold": 0.0519
+}
+},
+"floor": {
+"contract": "MRVL261009C00302500",
+"strike": 302.5,
+"delta": 0.104,
+"px": 0.77,
+"otm": 0.0758,
+"qty": 1,
+"peak": 1.392,
+"exits": {
+"half3_arm1.5": 0.0519,
+"hold": 0.0519
+}
+},
+"pct": null
+}
+},
+{
+"day": "2026-10-08",
+"sym": "PLTR",
+"kind": "call",
+"source": "sniper",
+"spot": 199.41,
+"stake": 72.58,
+"stock_move": -0.0035,
+"rules": {
+"nobudget": {
+"contract": "PLTR261009C00212500",
+"strike": 212.5,
+"delta": 0.113,
+"px": 0.55,
+"otm": 0.0656,
+"qty": 1,
+"peak": 1.071,
+"exits": {
+"half3_arm1.5": -0.9339,
+"hold": -0.9339
+}
+},
+"old": {
+"contract": "PLTR261009C00212500",
+"strike": 212.5,
+"delta": 0.113,
+"px": 0.55,
+"otm": 0.0656,
+"qty": 1,
+"peak": 1.071,
+"exits": {
+"half3_arm1.5": -0.9339,
+"hold": -0.9339
+}
+},
+"floor": {
+"contract": "PLTR261009C00212500",
+"strike": 212.5,
+"delta": 0.113,
+"px": 0.55,
+"otm": 0.0656,
+"qty": 1,
+"peak": 1.071,
+"exits": {
+"half3_arm1.5": -0.9339,
+"hold": -0.9339
+}
+},
+"pct": null
+}
+},
+{
+"day": "2026-10-09",
+"sym": "LITE",
+"kind": "call",
+"source": "sniper",
+"spot": 1126.18,
+"stake": 17.56,
+"stock_move": -0.0204,
+"rules": {
+"nobudget": {
+"contract": "LITE261009C01180000",
+"strike": 1180.0,
+"delta": 0.108,
+"px": 2.14,
+"otm": 0.0478,
+"qty": 1,
+"peak": 0.879,
+"exits": {
+"half3_arm1.5": -0.9873,
+"hold": -0.9873
+}
+},
+"old": {
+"contract": "LITE261009C01220000",
+"strike": 1220.0,
+"delta": 0.008,
+"px": 0.1,
+"otm": 0.0833,
+"qty": 1,
+"peak": 0.364,
+"exits": {
+"half3_arm1.5": -0.6364,
+"hold": -0.6364
+}
+},
+"floor": null,
+"pct": null
+}
+},
+{
+"day": "2026-10-12",
+"sym": "CRM",
+"kind": "call",
+"source": "sniper",
+"spot": 237.5,
+"stake": 33.34,
+"stock_move": -0.0158,
+"rules": {
+"nobudget": {
+"contract": "CRM261016C00255000",
+"strike": 255.0,
+"delta": 0.087,
+"px": 0.48,
+"otm": 0.0737,
+"qty": 1,
+"peak": 1.449,
+"exits": {
+"half3_arm1.5": -0.7273,
+"hold": -0.7273
+}
+},
+"old": {
+"contract": "CRM261016C00262500",
+"strike": 262.5,
+"delta": 0.05,
+"px": 0.29,
+"otm": 0.1053,
+"qty": 1,
+"peak": 0.818,
+"exits": {
+"half3_arm1.5": -0.8433,
+"hold": -0.8433
+}
+},
+"floor": null,
+"pct": null
+}
+},
+{
+"day": "2026-10-13",
+"sym": "META",
+"kind": "call",
+"source": "sniper",
+"spot": 741,
+"stake": 9.3,
+"stock_move": 0.029,
+"rules": {
+"nobudget": {
+"contract": "META261014C00770000",
+"strike": 770.0,
+"delta": 0.103,
+"px": 1.08,
+"otm": 0.0391,
+"qty": 1,
+"peak": 7.477,
+"exits": {
+"half3_arm1.5": 2.7273,
+"hold": 2.2803
+}
+},
+"old": {
+"contract": "META261014C00825000",
+"strike": 825.0,
+"delta": 0.005,
+"px": 0.05,
+"otm": 0.1134,
+"qty": 1,
+"peak": 6.9,
+"exits": {
+"half3_arm1.5": 1.625,
+"hold": -0.3333
+}
+},
+"floor": null,
+"pct": null
+}
+},
+{
+"day": "2026-10-15",
+"sym": "AAPL",
+"kind": "call",
+"source": "sniper",
+"spot": 347.265,
+"stake": 164.38,
+"stock_move": -0.0152,
+"rules": {
+"nobudget": {
+"contract": "AAPL261016C00355000",
+"strike": 355.0,
+"delta": 0.117,
+"px": 0.36,
+"otm": 0.0223,
+"qty": 1,
+"peak": 0.773,
+"exits": {
+"half3_arm1.5": -0.9495,
+"hold": -0.9495
+}
+},
+"old": {
+"contract": "AAPL261016C00355000",
+"strike": 355.0,
+"delta": 0.117,
+"px": 0.36,
+"otm": 0.0223,
+"qty": 4,
+"peak": 0.773,
+"exits": {
+"half3_arm1.5": -0.9495,
+"hold": -0.9495
+}
+},
+"floor": {
+"contract": "AAPL261016C00355000",
+"strike": 355.0,
+"delta": 0.117,
+"px": 0.36,
+"otm": 0.0223,
+"qty": 4,
+"peak": 0.773,
+"exits": {
+"half3_arm1.5": -0.9495,
+"hold": -0.9495
+}
+},
+"pct": {
+"contract": "AAPL261016C00352500",
+"strike": 352.5,
+"delta": 0.206,
+"px": 0.72,
+"otm": 0.0151,
+"qty": 2,
+"peak": 0.795,
+"exits": {
+"half3_arm1.5": -0.9495,
+"hold": -0.9495
+}
+}
+}
+},
+{
+"day": "2026-10-16",
+"sym": "AAPL",
+"kind": "call",
+"source": "sniper",
+"spot": 347.3535,
+"stake": 137.16,
+"stock_move": -0.0114,
+"rules": {
+"nobudget": {
+"contract": "AAPL261016C00352500",
+"strike": 352.5,
+"delta": 0.098,
+"px": 0.18,
+"otm": 0.0148,
+"qty": 1,
+"peak": 0.545,
+"exits": {
+"half3_arm1.5": -1.0,
+"hold": -1.0
+}
+},
+"old": {
+"contract": "AAPL261016C00352500",
+"strike": 352.5,
+"delta": 0.098,
+"px": 0.18,
+"otm": 0.0148,
+"qty": 6,
+"peak": 0.545,
+"exits": {
+"half3_arm1.5": -1.0,
+"hold": -1.0
+}
+},
+"floor": {
+"contract": "AAPL261016C00352500",
+"strike": 352.5,
+"delta": 0.098,
+"px": 0.18,
+"otm": 0.0148,
+"qty": 6,
+"peak": 0.545,
+"exits": {
+"half3_arm1.5": -1.0,
+"hold": -1.0
+}
+},
+"pct": {
+"contract": "AAPL261016C00352500",
+"strike": 352.5,
+"delta": 0.098,
+"px": 0.18,
+"otm": 0.0148,
+"qty": 6,
+"peak": 0.545,
+"exits": {
+"half3_arm1.5": -1.0,
+"hold": -1.0
+}
+}
+}
+},
+{
+"day": "2026-10-19",
+"sym": "MSFT",
+"kind": "call",
+"source": "sniper",
+"spot": 530.22,
+"stake": 135.54,
+"stock_move": 0.0065,
+"rules": {
+"nobudget": {
+"contract": "MSFT261019C00540000",
+"strike": 540.0,
+"delta": 0.072,
+"px": 0.21,
+"otm": 0.0184,
+"qty": 1,
+"peak": 1.013,
+"exits": {
+"half3_arm1.5": -1.0,
+"hold": -1.0
+}
+},
+"old": {
+"contract": "MSFT261019C00540000",
+"strike": 540.0,
+"delta": 0.072,
+"px": 0.21,
+"otm": 0.0184,
+"qty": 5,
+"peak": 1.013,
+"exits": {
+"half3_arm1.5": -1.0,
+"hold": -1.0
+}
+},
+"floor": {
+"contract": "MSFT261019C00540000",
+"strike": 540.0,
+"delta": 0.072,
+"px": 0.21,
+"otm": 0.0184,
+"qty": 5,
+"peak": 1.013,
+"exits": {
+"half3_arm1.5": -1.0,
+"hold": -1.0
+}
+},
+"pct": {
+"contract": "MSFT261019C00540000",
+"strike": 540.0,
+"delta": 0.072,
+"px": 0.21,
+"otm": 0.0184,
+"qty": 5,
+"peak": 1.013,
+"exits": {
+"half3_arm1.5": -1.0,
+"hold": -1.0
+}
+}
+}
+},
+{
+"day": "2026-10-22",
+"sym": "UNH",
+"kind": "call",
+"source": "sniper",
+"spot": 418.985,
+"stake": 120.26,
+"stock_move": 0.0145,
+"rules": {
+"nobudget": {
+"contract": "UNH261023C00430000",
+"strike": 430.0,
+"delta": 0.107,
+"px": 0.44,
+"otm": 0.0263,
+"qty": 1,
+"peak": 3.068,
+"exits": {
+"half3_arm1.5": 1.4267,
+"hold": 0.5806
+}
+},
+"old": {
+"contract": "UNH261023C00430000",
+"strike": 430.0,
+"delta": 0.107,
+"px": 0.44,
+"otm": 0.0263,
+"qty": 2,
+"peak": 3.068,
+"exits": {
+"half3_arm1.5": 1.4267,
+"hold": 0.5806
+}
+},
+"floor": {
+"contract": "UNH261023C00430000",
+"strike": 430.0,
+"delta": 0.107,
+"px": 0.44,
+"otm": 0.0263,
+"qty": 2,
+"peak": 3.068,
+"exits": {
+"half3_arm1.5": 1.4267,
+"hold": 0.5806
+}
+},
+"pct": {
+"contract": "UNH261023C00425000",
+"strike": 425.0,
+"delta": 0.229,
+"px": 1.05,
+"otm": 0.0144,
+"qty": 1,
+"peak": 3.0,
+"exits": {
+"half3_arm1.5": 0.7299,
+"hold": 0.9792
+}
+}
+}
+},
+{
+"day": "2026-10-26",
+"sym": "TSLA",
+"kind": "call",
+"source": "sniper",
+"spot": 385.9101,
+"stake": 133.31,
+"stock_move": 0.015,
+"rules": {
+"nobudget": {
+"contract": "TSLA261026C00400000",
+"strike": 400.0,
+"delta": 0.105,
+"px": 0.54,
+"otm": 0.0365,
+"qty": 1,
+"peak": 1.561,
+"exits": {
+"half3_arm1.5": -0.2424,
+"hold": -1.0
+}
+},
+"old": {
+"contract": "TSLA261026C00400000",
+"strike": 400.0,
+"delta": 0.105,
+"px": 0.54,
+"otm": 0.0365,
+"qty": 2,
+"peak": 1.561,
+"exits": {
+"half3_arm1.5": -0.2424,
+"hold": -1.0
+}
+},
+"floor": {
+"contract": "TSLA261026C00400000",
+"strike": 400.0,
+"delta": 0.105,
+"px": 0.54,
+"otm": 0.0365,
+"qty": 2,
+"peak": 1.561,
+"exits": {
+"half3_arm1.5": -0.2424,
+"hold": -1.0
+}
+},
+"pct": null
+}
+},
+{
+"day": "2026-10-27",
+"sym": "AVGO",
+"kind": "call",
+"source": "sniper",
+"spot": 339.875,
+"stake": 136.85,
+"stock_move": 0.0076,
+"rules": {
+"nobudget": {
+"contract": "AVGO261028C00355000",
+"strike": 355.0,
+"delta": 0.105,
+"px": 0.58,
+"otm": 0.0445,
+"qty": 1,
+"peak": 1.65,
+"exits": {
+"half3_arm1.5": -0.0125,
+"hold": -0.2382
+}
+},
+"old": {
+"contract": "AVGO261028C00355000",
+"strike": 355.0,
+"delta": 0.105,
+"px": 0.58,
+"otm": 0.0445,
+"qty": 2,
+"peak": 1.65,
+"exits": {
+"half3_arm1.5": -0.0125,
+"hold": -0.2382
+}
+},
+"floor": {
+"contract": "AVGO261028C00355000",
+"strike": 355.0,
+"delta": 0.105,
+"px": 0.58,
+"otm": 0.0445,
+"qty": 2,
+"peak": 1.65,
+"exits": {
+"half3_arm1.5": -0.0125,
+"hold": -0.2382
+}
+},
+"pct": null
+}
+},
+{
+"day": "2026-10-29",
+"sym": "V",
+"kind": "call",
+"source": "sniper",
+"spot": 409.28,
+"stake": 145.57,
+"stock_move": 0.0031,
+"rules": {
+"nobudget": {
+"contract": "V261030C00422500",
+"strike": 422.5,
+"delta": 0.074,
+"px": 0.29,
+"otm": 0.0323,
+"qty": 1,
+"peak": 1.072,
+"exits": {
+"half3_arm1.5": -0.906,
+"hold": -0.906
+}
+},
+"old": {
+"contract": "V261030C00422500",
+"strike": 422.5,
+"delta": 0.074,
+"px": 0.29,
+"otm": 0.0323,
+"qty": 4,
+"peak": 1.072,
+"exits": {
+"half3_arm1.5": -0.906,
+"hold": -0.906
+}
+},
+"floor": {
+"contract": "V261030C00422500",
+"strike": 422.5,
+"delta": 0.074,
+"px": 0.29,
+"otm": 0.0323,
+"qty": 4,
+"peak": 1.072,
+"exits": {
+"half3_arm1.5": -0.906,
+"hold": -0.906
+}
+},
+"pct": null
+}
+},
+{
+"day": "2026-10-30",
+"sym": "GEV",
+"kind": "call",
+"source": "sniper",
+"spot": 851.58,
+"stake": 110.74,
+"stock_move": 0.0072,
+"rules": {
+"nobudget": {
+"contract": "GEV261030C00895000",
+"strike": 895.0,
+"delta": 0.079,
+"px": 1.05,
+"otm": 0.051,
+"qty": 1,
+"peak": 3.779,
+"exits": {
+"half3_arm1.5": 1.6649,
+"hold": -0.8442
+}
+},
+"old": {
+"contract": "GEV261030C00900000",
+"strike": 900.0,
+"delta": 0.061,
+"px": 0.78,
+"otm": 0.0569,
+"qty": 1,
+"peak": 4.091,
+"exits": {
+"half3_arm1.5": -0.1608,
+"hold": -0.9534
+}
+},
+"floor": {
+"contract": "GEV261030C00900000",
+"strike": 900.0,
+"delta": 0.061,
+"px": 0.78,
+"otm": 0.0569,
+"qty": 1,
+"peak": 4.091,
+"exits": {
+"half3_arm1.5": -0.1608,
+"hold": -0.9534
+}
+},
+"pct": null
+}
+},
+{
+"day": "2026-11-06",
+"sym": "LLY",
+"kind": "call",
+"source": "sniper",
+"spot": 1354.45,
+"stake": 91.55,
+"stock_move": -0.0004,
+"rules": {
+"nobudget": {
+"contract": "LLY261106C01400000",
+"strike": 1400.0,
+"delta": 0.099,
+"px": 1.6,
+"otm": 0.0336,
+"qty": 1,
+"peak": 0.92,
+"exits": {
+"half3_arm1.5": -0.9886,
+"hold": -0.9886
+}
+},
+"old": {
+"contract": "LLY261106C01415000",
+"strike": 1415.0,
+"delta": 0.04,
+"px": 0.54,
+"otm": 0.0447,
+"qty": 1,
+"peak": 0.758,
+"exits": {
+"half3_arm1.5": -0.8653,
+"hold": -0.8653
+}
+},
+"floor": null,
+"pct": null
+}
+},
+{
+"day": "2026-10-06",
+"sym": "AVGO",
+"kind": "call",
+"source": "intraday",
+"spot": 376.48,
+"stake": 100.0,
+"stock_move": -0.0015,
+"rules": {
+"nobudget": {
+"contract": "AVGO261007C00385000",
+"strike": 385.0,
+"delta": 0.201,
+"px": 1.1,
+"otm": 0.0226,
+"qty": 1,
+"peak": 1.525,
+"exits": {
+"half3_arm1.5": -0.0554,
+"hold": -0.1446
+}
+},
+"old": {
+"contract": "AVGO261007C00387500",
+"strike": 387.5,
+"delta": 0.145,
+"px": 0.75,
+"otm": 0.0293,
+"qty": 1,
+"peak": 1.593,
+"exits": {
+"half3_arm1.5": -0.0073,
+"hold": -0.1709
+}
+},
+"floor": {
+"contract": "AVGO261007C00387500",
+"strike": 387.5,
+"delta": 0.145,
+"px": 0.75,
+"otm": 0.0293,
+"qty": 1,
+"peak": 1.593,
+"exits": {
+"half3_arm1.5": -0.0073,
+"hold": -0.1709
+}
+},
+"pct": null
+}
+},
+{
+"day": "2026-10-19",
+"sym": "AMZN",
+"kind": "call",
+"source": "intraday",
+"spot": 259.6,
+"stake": 135.54,
+"stock_move": 0.0108,
+"rules": {
+"nobudget": {
+"contract": "AMZN261019C00262500",
+"strike": 262.5,
+"delta": 0.166,
+"px": 0.26,
+"otm": 0.0112,
+"qty": 1,
+"peak": 4.563,
+"exits": {
+"half3_arm1.5": 1.7063,
+"hold": 1.549
+}
+},
+"old": {
+"contract": "AMZN261019C00262500",
+"strike": 262.5,
+"delta": 0.166,
+"px": 0.26,
+"otm": 0.0112,
+"qty": 4,
+"peak": 4.563,
+"exits": {
+"half3_arm1.5": 1.7063,
+"hold": 1.549
+}
+},
+"floor": {
+"contract": "AMZN261019C00262500",
+"strike": 262.5,
+"delta": 0.166,
+"px": 0.26,
+"otm": 0.0112,
+"qty": 4,
+"peak": 4.563,
+"exits": {
+"half3_arm1.5": 1.7063,
+"hold": 1.549
+}
+},
+"pct": {
+"contract": "AMZN261019C00262500",
+"strike": 262.5,
+"delta": 0.166,
+"px": 0.26,
+"otm": 0.0112,
+"qty": 4,
+"peak": 4.563,
+"exits": {
+"half3_arm1.5": 1.7063,
+"hold": 1.549
+}
+}
+}
+},
+{
+"day": "2026-10-21",
+"sym": "AMD",
+"kind": "call",
+"source": "intraday",
+"spot": 554.31,
+"stake": 115.67,
+"stock_move": -0.0029,
+"rules": {
+"nobudget": {
+"contract": "AMD261021C00560000",
+"strike": 560.0,
+"delta": 0.246,
+"px": 1.18,
+"otm": 0.0103,
+"qty": 1,
+"peak": 1.137,
+"exits": {
+"half3_arm1.5": 0.0262,
+"hold": 0.0262
+}
+},
+"old": {
+"contract": "AMD261021C00562500",
+"strike": 562.5,
+"delta": 0.151,
+"px": 0.61,
+"otm": 0.0148,
+"qty": 1,
+"peak": 1.341,
+"exits": {
+"half3_arm1.5": 0.1669,
+"hold": 0.1669
+}
+},
+"floor": {
+"contract": "AMD261021C00562500",
+"strike": 562.5,
+"delta": 0.151,
+"px": 0.61,
+"otm": 0.0148,
+"qty": 1,
+"peak": 1.341,
+"exits": {
+"half3_arm1.5": 0.1669,
+"hold": 0.1669
+}
+},
+"pct": {
+"contract": "AMD261021C00562500",
+"strike": 562.5,
+"delta": 0.151,
+"px": 0.61,
+"otm": 0.0148,
+"qty": 1,
+"peak": 1.341,
+"exits": {
+"half3_arm1.5": 0.1669,
+"hold": 0.1669
+}
+}
+}
+},
+{
+"day": "2026-10-22",
+"sym": "MSFT",
+"kind": "put",
+"source": "intraday",
+"spot": 523.295,
+"stake": 120.26,
+"stock_move": -0.0032,
+"rules": {
+"nobudget": {
+"contract": "MSFT261023P00515000",
+"strike": 515.0,
+"delta": 0.19,
+"px": 1.01,
+"otm": 0.0159,
+"qty": 1,
+"peak": 1.167,
+"exits": {
+"half3_arm1.5": 0.0126,
+"hold": 0.0126
+}
+},
+"old": {
+"contract": "MSFT261023P00515000",
+"strike": 515.0,
+"delta": 0.19,
+"px": 1.01,
+"otm": 0.0159,
+"qty": 1,
+"peak": 1.167,
+"exits": {
+"half3_arm1.5": 0.0126,
+"hold": 0.0126
+}
+},
+"floor": {
+"contract": "MSFT261023P00515000",
+"strike": 515.0,
+"delta": 0.19,
+"px": 1.01,
+"otm": 0.0159,
+"qty": 1,
+"peak": 1.167,
+"exits": {
+"half3_arm1.5": 0.0126,
+"hold": 0.0126
+}
+},
+"pct": {
+"contract": "MSFT261023P00515000",
+"strike": 515.0,
+"delta": 0.19,
+"px": 1.01,
+"otm": 0.0159,
+"qty": 1,
+"peak": 1.167,
+"exits": {
+"half3_arm1.5": 0.0126,
+"hold": 0.0126
+}
+}
+}
+},
+{
+"day": "2026-10-23",
+"sym": "ORCL",
+"kind": "call",
+"source": "intraday",
+"spot": 127.42,
+"stake": 157.39,
+"stock_move": -0.0103,
+"rules": {
+"nobudget": {
+"contract": "ORCL261023C00129000",
+"strike": 129.0,
+"delta": 0.138,
+"px": 0.1,
+"otm": 0.0124,
+"qty": 1,
+"peak": 1.309,
+"exits": {
+"half3_arm1.5": -1.0,
+"hold": -1.0
+}
+},
+"old": {
+"contract": "ORCL261023C00129000",
+"strike": 129.0,
+"delta": 0.138,
+"px": 0.1,
+"otm": 0.0124,
+"qty": 14,
+"peak": 1.309,
+"exits": {
+"half3_arm1.5": -1.0,
+"hold": -1.0
+}
+},
+"floor": {
+"contract": "ORCL261023C00129000",
+"strike": 129.0,
+"delta": 0.138,
+"px": 0.1,
+"otm": 0.0124,
+"qty": 14,
+"peak": 1.309,
+"exits": {
+"half3_arm1.5": -1.0,
+"hold": -1.0
+}
+},
+"pct": {
+"contract": "ORCL261023C00129000",
+"strike": 129.0,
+"delta": 0.138,
+"px": 0.1,
+"otm": 0.0124,
+"qty": 14,
+"peak": 1.309,
+"exits": {
+"half3_arm1.5": -1.0,
+"hold": -1.0
+}
+}
+}
+},
+{
+"day": "2026-10-26",
+"sym": "INTC",
+"kind": "call",
+"source": "intraday",
+"spot": 91.9583,
+"stake": 133.31,
+"stock_move": -0.0155,
+"rules": {
+"nobudget": {
+"contract": "INTC261030C00102000",
+"strike": 102.0,
+"delta": 0.219,
+"px": 1.35,
+"otm": 0.1092,
+"qty": 1,
+"peak": 0.861,
+"exits": {
+"half3_arm1.5": -0.2788,
+"hold": -0.2788
+}
+},
+"old": null,
+"floor": null,
+"pct": null
+}
+},
+{
+"day": "2026-10-27",
+"sym": "ORCL",
+"kind": "call",
+"source": "intraday",
+"spot": 131.15,
+"stake": 136.85,
+"stock_move": -0.0047,
+"rules": {
+"nobudget": {
+"contract": "ORCL261030C00143000",
+"strike": 143.0,
+"delta": 0.192,
+"px": 1.25,
+"otm": 0.0904,
+"qty": 1,
+"peak": 0.864,
+"exits": {
+"half3_arm1.5": -0.1818,
+"hold": -0.1818
+}
+},
+"old": {
+"contract": "ORCL261030C00144000",
+"strike": 144.0,
+"delta": 0.169,
+"px": 1.05,
+"otm": 0.098,
+"qty": 1,
+"peak": 0.896,
+"exits": {
+"half3_arm1.5": -0.174,
+"hold": -0.174
+}
+},
+"floor": {
+"contract": "ORCL261030C00144000",
+"strike": 144.0,
+"delta": 0.169,
+"px": 1.05,
+"otm": 0.098,
+"qty": 1,
+"peak": 0.896,
+"exits": {
+"half3_arm1.5": -0.174,
+"hold": -0.174
+}
+},
+"pct": null
+}
+},
+{
+"day": "2026-10-28",
+"sym": "AMAT",
+"kind": "call",
+"source": "intraday",
+"spot": 413.725,
+"stake": 145.59,
+"stock_move": 0.0059,
+"rules": {
+"nobudget": {
+"contract": "AMAT261030C00440000",
+"strike": 440.0,
+"delta": 0.137,
+"px": 1.54,
+"otm": 0.0635,
+"qty": 1,
+"peak": 1.594,
+"exits": {
+"half3_arm1.5": -0.0702,
+"hold": 0.0573
+}
+},
+"old": {
+"contract": "AMAT261030C00450000",
+"strike": 450.0,
+"delta": 0.074,
+"px": 0.76,
+"otm": 0.0877,
+"qty": 1,
+"peak": 1.539,
+"exits": {
+"half3_arm1.5": -0.0849,
+"hold": 0.0012
+}
+},
+"floor": {
+"contract": "AMAT261030C00450000",
+"strike": 450.0,
+"delta": 0.074,
+"px": 0.76,
+"otm": 0.0877,
+"qty": 1,
+"peak": 1.539,
+"exits": {
+"half3_arm1.5": -0.0849,
+"hold": 0.0012
+}
+},
+"pct": null
+}
+},
+{
+"day": "2026-10-29",
+"sym": "ORCL",
+"kind": "put",
+"source": "intraday",
+"spot": 137.715,
+"stake": 145.57,
+"stock_move": 0.0134,
+"rules": {
+"nobudget": {
+"contract": "ORCL261030P00134000",
+"strike": 134.0,
+"delta": 0.215,
+"px": 0.61,
+"otm": 0.027,
+"qty": 1,
+"peak": 1.154,
+"exits": {
+"half3_arm1.5": -0.4635,
+"hold": -0.4635
+}
+},
+"old": {
+"contract": "ORCL261030P00134000",
+"strike": 134.0,
+"delta": 0.215,
+"px": 0.61,
+"otm": 0.027,
+"qty": 2,
+"peak": 1.154,
+"exits": {
+"half3_arm1.5": -0.4635,
+"hold": -0.4635
+}
+},
+"floor": {
+"contract": "ORCL261030P00134000",
+"strike": 134.0,
+"delta": 0.215,
+"px": 0.61,
+"otm": 0.027,
+"qty": 2,
+"peak": 1.154,
+"exits": {
+"half3_arm1.5": -0.4635,
+"hold": -0.4635
+}
+},
+"pct": {
+"contract": "ORCL261030P00135000",
+"strike": 135.0,
+"delta": 0.279,
+"px": 0.85,
+"otm": 0.0197,
+"qty": 1,
+"peak": 1.088,
+"exits": {
+"half3_arm1.5": -0.3743,
+"hold": -0.3743
+}
+}
+}
+},
+{
+"day": "2026-10-30",
+"sym": "AMZN",
+"kind": "put",
+"source": "intraday",
+"spot": 238.41,
+"stake": 110.74,
+"stock_move": 0.0085,
+"rules": {
+"nobudget": {
+"contract": "AMZN261030P00235000",
+"strike": 235.0,
+"delta": 0.114,
+"px": 0.16,
+"otm": 0.0143,
+"qty": 1,
+"peak": 1.278,
+"exits": {
+"half3_arm1.5": -1.0,
+"hold": -1.0
+}
+},
+"old": {
+"contract": "AMZN261030P00235000",
+"strike": 235.0,
+"delta": 0.114,
+"px": 0.16,
+"otm": 0.0143,
+"qty": 6,
+"peak": 1.278,
+"exits": {
+"half3_arm1.5": -1.0,
+"hold": -1.0
+}
+},
+"floor": {
+"contract": "AMZN261030P00235000",
+"strike": 235.0,
+"delta": 0.114,
+"px": 0.16,
+"otm": 0.0143,
+"qty": 6,
+"peak": 1.278,
+"exits": {
+"half3_arm1.5": -1.0,
+"hold": -1.0
+}
+},
+"pct": {
+"contract": "AMZN261030P00235000",
+"strike": 235.0,
+"delta": 0.114,
+"px": 0.16,
+"otm": 0.0143,
+"qty": 6,
+"peak": 1.278,
+"exits": {
+"half3_arm1.5": -1.0,
+"hold": -1.0
+}
+}
+}
+},
+{
+"day": "2026-11-02",
+"sym": "AMZN",
+"kind": "call",
+"source": "intraday",
+"spot": 253.29,
+"stake": 108.55,
+"stock_move": -0.0295,
+"rules": {
+"nobudget": {
+"contract": "AMZN261102C00255000",
+"strike": 255.0,
+"delta": 0.28,
+"px": 0.5,
+"otm": 0.0068,
+"qty": 1,
+"peak": 0.916,
+"exits": {
+"half3_arm1.5": -1.0,
+"hold": -1.0
+}
+},
+"old": {
+"contract": "AMZN261102C00255000",
+"strike": 255.0,
+"delta": 0.28,
+"px": 0.5,
+"otm": 0.0068,
+"qty": 1,
+"peak": 0.916,
+"exits": {
+"half3_arm1.5": -1.0,
+"hold": -1.0
+}
+},
+"floor": {
+"contract": "AMZN261102C00255000",
+"strike": 255.0,
+"delta": 0.28,
+"px": 0.5,
+"otm": 0.0068,
+"qty": 1,
+"peak": 0.916,
+"exits": {
+"half3_arm1.5": -1.0,
+"hold": -1.0
+}
+},
+"pct": {
+"contract": "AMZN261102C00255000",
+"strike": 255.0,
+"delta": 0.28,
+"px": 0.5,
+"otm": 0.0068,
+"qty": 1,
+"peak": 0.916,
+"exits": {
+"half3_arm1.5": -1.0,
+"hold": -1.0
+}
+}
+}
+},
+{
+"day": "2026-11-06",
+"sym": "GE",
+"kind": "call",
+"source": "intraday",
+"spot": 324.29,
+"stake": 91.55,
+"stock_move": -0.0031,
+"rules": {
+"nobudget": {
+"contract": "GE261106C00332500",
+"strike": 332.5,
+"delta": 0.065,
+"px": 0.15,
+"otm": 0.0253,
+"qty": 1,
+"peak": 1.255,
+"exits": {
+"half3_arm1.5": -0.5758,
+"hold": -0.5758
+}
+},
+"old": {
+"contract": "GE261106C00332500",
+"strike": 332.5,
+"delta": 0.065,
+"px": 0.15,
+"otm": 0.0253,
+"qty": 5,
+"peak": 1.255,
+"exits": {
+"half3_arm1.5": -0.5758,
+"hold": -0.5758
+}
+},
+"floor": {
+"contract": "GE261106C00332500",
+"strike": 332.5,
+"delta": 0.065,
+"px": 0.15,
+"otm": 0.0253,
+"qty": 5,
+"peak": 1.255,
+"exits": {
+"half3_arm1.5": -0.5758,
+"hold": -0.5758
+}
+},
+"pct": null
+}
+},
+{
+"day": "2026-11-06",
+"sym": "MU",
+"kind": "put",
+"source": "intraday",
+"spot": 694.84,
+"stake": 91.55,
+"stock_move": -0.0078,
+"rules": {
+"nobudget": {
+"contract": "MU261106P00675000",
+"strike": 675.0,
+"delta": 0.215,
+"px": 3.25,
+"otm": 0.0286,
+"qty": 1,
+"peak": 1.397,
+"exits": {
+"half3_arm1.5": -0.986,
+"hold": -0.986
+}
+},
+"old": {
+"contract": "MU261106P00650000",
+"strike": 650.0,
+"delta": 0.055,
+"px": 0.7,
+"otm": 0.0645,
+"qty": 1,
+"peak": 1.449,
+"exits": {
+"half3_arm1.5": -1.0,
+"hold": -1.0
+}
+},
+"floor": null,
+"pct": null
+}
+}
+]

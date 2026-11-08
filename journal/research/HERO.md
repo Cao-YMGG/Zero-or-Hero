@@ -6,41 +6,41 @@ Every pre-market sniper (0.10 delta, the catalyst_open / catalyst_open_hero cont
 
 | ledger | size | exit | taken | skipped (no whole contract) | rounds closed | zeros | heroes | peak | open ledger | net P&L |
 |---|---|---|---|---|---|---|---|---|---|---|
-| sniper 0.10 | 20% | live | 7 | 6 | 0 | 0 | 0 | $504 | $198 | $-302 |
-| sniper 0.10 | 20% | hold | 7 | 6 | 0 | 0 | 0 | $504 | $198 | $-302 |
-| sniper 0.10 | 20% | hold_carry | 7 | 6 | 0 | 0 | 0 | $500 | $167 | $-333 |
-| sniper 0.10 | 100% | live | 11 | 2 | 3 | 3 | 0 | $1,798 | $105 | $-1,843 |
-| sniper 0.10 | 100% | hold | 12 | 1 | 5 | 5 | 0 | $1,585 | $108 | $-2,786 |
-| sniper 0.10 | 100% | hold_carry | 13 | 0 | 10 | 10 | 0 | $500 | $108 | $-5,195 |
-| intraday 0.20 | 20% | live | 6 | 5 | 0 | 0 | 0 | $650 | $353 | $-147 |
-| intraday 0.20 | 20% | hold | 6 | 5 | 0 | 0 | 0 | $636 | $339 | $-161 |
-| intraday 0.20 | 20% | hold_carry | 6 | 5 | 0 | 0 | 0 | $761 | $507 | $+7 |
-| intraday 0.20 | 100% | live | 11 | 0 | 3 | 3 | 0 | $1,311 | $500 | $-1,484 |
-| intraday 0.20 | 100% | hold | 11 | 0 | 3 | 3 | 0 | $1,099 | $500 | $-1,473 |
-| intraday 0.20 | 100% | hold_carry | 8 | 3 | 4 | 4 | 0 | $1,294 | $500 | $-1,955 |
-| all picks | 20% | live | 11 | 13 | 0 | 0 | 0 | $504 | $214 | $-286 |
-| all picks | 20% | hold | 11 | 13 | 0 | 0 | 0 | $504 | $180 | $-320 |
-| all picks | 20% | hold_carry | 11 | 13 | 0 | 0 | 0 | $500 | $113 | $-387 |
-| all picks | 100% | live | 24 | 0 | 8 | 8 | 0 | $3,333 | $500 | $-3,845 |
-| all picks | 100% | hold | 23 | 1 | 8 | 8 | 0 | $2,044 | $500 | $-3,880 |
-| all picks | 100% | hold_carry | 21 | 3 | 14 | 14 | 0 | $2,856 | $500 | $-6,746 |
+| sniper 0.10 | 20% | live | 7 | 7 | 0 | 0 | 0 | $504 | $198 | $-302 |
+| sniper 0.10 | 20% | hold | 7 | 7 | 0 | 0 | 0 | $504 | $198 | $-302 |
+| sniper 0.10 | 20% | hold_carry | 7 | 7 | 0 | 0 | 0 | $500 | $167 | $-333 |
+| sniper 0.10 | 100% | live | 11 | 3 | 3 | 3 | 0 | $1,798 | $105 | $-1,843 |
+| sniper 0.10 | 100% | hold | 12 | 2 | 5 | 5 | 0 | $1,585 | $108 | $-2,786 |
+| sniper 0.10 | 100% | hold_carry | 13 | 1 | 10 | 10 | 0 | $500 | $108 | $-5,195 |
+| intraday 0.20 | 20% | live | 7 | 6 | 0 | 0 | 0 | $650 | $314 | $-186 |
+| intraday 0.20 | 20% | hold | 7 | 6 | 0 | 0 | 0 | $636 | $310 | $-190 |
+| intraday 0.20 | 20% | hold_carry | 7 | 6 | 0 | 0 | 0 | $761 | $458 | $-42 |
+| intraday 0.20 | 100% | live | 12 | 1 | 3 | 3 | 0 | $1,311 | $216 | $-1,768 |
+| intraday 0.20 | 100% | hold | 12 | 1 | 3 | 3 | 0 | $1,099 | $216 | $-1,756 |
+| intraday 0.20 | 100% | hold_carry | 9 | 4 | 4 | 4 | 0 | $1,294 | $216 | $-2,239 |
+| all picks | 20% | live | 12 | 15 | 0 | 0 | 0 | $504 | $194 | $-306 |
+| all picks | 20% | hold | 12 | 15 | 0 | 0 | 0 | $504 | $160 | $-340 |
+| all picks | 20% | hold_carry | 12 | 15 | 0 | 0 | 0 | $500 | $103 | $-397 |
+| all picks | 100% | live | 26 | 1 | 8 | 8 | 0 | $3,333 | $74 | $-4,271 |
+| all picks | 100% | hold | 25 | 2 | 8 | 8 | 0 | $2,044 | $74 | $-4,307 |
+| all picks | 100% | hold_carry | 23 | 4 | 14 | 14 | 0 | $2,856 | $74 | $-7,173 |
 
 ## Per $1 of option cost
 
 | ledger | exit | n | win% | avg | without the best | without the best two |
 |---|---|---|---|---|---|---|
-| sniper 0.10 | live, day one | 13 | 31% | -7% | -30% | -48% |
-| sniper 0.10 | hold, day one | 13 | 23% | -44% | -66% | -78% |
-| sniper 0.10 | live, carried | 13 | 31% | -10% | -34% | -52% |
-| sniper 0.10 | hold, carried | 13 | 0% | -93% | -98% | -100% |
-| intraday 0.20 | live, day one | 11 | 27% | -21% | -40% | -45% |
-| intraday 0.20 | hold, day one | 11 | 36% | -22% | -40% | -45% |
-| intraday 0.20 | live, carried | 11 | 36% | +10% | -10% | -30% |
-| intraday 0.20 | hold, carried | 11 | 27% | -13% | -64% | -89% |
-| all picks | live, day one | 24 | 29% | -13% | -26% | -35% |
-| all picks | hold, day one | 24 | 29% | -34% | -45% | -54% |
-| all picks | live, carried | 24 | 33% | -1% | -13% | -23% |
-| all picks | hold, carried | 24 | 12% | -56% | -81% | -91% |
+| sniper 0.10 | live, day one | 14 | 29% | -13% | -35% | -52% |
+| sniper 0.10 | hold, day one | 14 | 21% | -48% | -69% | -79% |
+| sniper 0.10 | live, carried | 14 | 29% | -16% | -39% | -56% |
+| sniper 0.10 | hold, carried | 14 | 0% | -94% | -98% | -100% |
+| intraday 0.20 | live, day one | 13 | 23% | -30% | -46% | -51% |
+| intraday 0.20 | hold, day one | 13 | 31% | -31% | -46% | -51% |
+| intraday 0.20 | live, carried | 13 | 31% | -4% | -21% | -38% |
+| intraday 0.20 | hold, carried | 13 | 23% | -23% | -67% | -87% |
+| all picks | live, day one | 27 | 26% | -21% | -33% | -41% |
+| all picks | hold, day one | 27 | 26% | -39% | -50% | -58% |
+| all picks | live, carried | 27 | 30% | -10% | -21% | -30% |
+| all picks | hold, carried | 27 | 11% | -60% | -81% | -91% |
 
 ## Each pick (hero sizing, hold to 15:45 day one: the ledger after each trade)
 
@@ -70,6 +70,9 @@ Every pre-market sniper (0.10 delta, the catalyst_open / catalyst_open_hero cont
 | 2026-10-30 | sniper | GEV | call | +0.9% | 1.16 | 3.8 | +166% | -84% | -84% | 2 | $87 |
 | 2026-10-30 | intraday | AMZN | put | +3.4% | 0.18 | 1.3 | -100% | -100% | -100% | 4 | $15 |
 | 2026-11-02 | intraday | AMZN | call | +1.2% | 0.55 | 0.9 | -100% | -100% | -100% | 9 | $5 |
+| 2026-11-06 | sniper | LLY | call | +0.3% | 1.76 | 0.9 | -99% | -99% | -99% | 2 | $152 |
+| 2026-11-06 | intraday | GE | call | +2.0% | 0.17 | 1.3 | -58% | -58% | -58% | 8 | $74 |
+| 2026-11-06 | intraday | MU | put | -2.8% | 3.58 | 1.4 | -99% | -99% | -99% | 0 | $74 |
 
 ## The real fills (catalyst_open / catalyst_intraday, as traded at 20%)
 
@@ -109,10 +112,15 @@ Every pre-market sniper (0.10 delta, the catalyst_open / catalyst_open_hero cont
 
 ## The hero shadows' own rounds (catalyst_open_hero / catalyst_intraday_hero, live since 2026-11-03)
 
-No trades yet: the hero shadows only follow a named sniper or an intraday pick.
+2 trades, 0 rounds closed: 0 hero, 0 zero; open ledger $52, net $-448.
+
+| day | variant | contract | qty | entry | result | P&L |
+|---|---|---|---|---|---|---|
+| 2026-11-06 | catalyst_intraday_hero | GE261106C00330000 | 8 | 0.57 | -98% | $-448 |
+| 2026-11-06 | catalyst_open_hero | LLY261106C01390000 | 1 | 2.36 | -100% | $-236 |
 
 ## Reading
 
-1. The hero recipe (whole ledger, no exits, hold to 15:45) on every pick named since 10-06: 23 trades, 8 zeros, 0 heroes, net $-3,880, best ledger $2,044. Removing the exits did not make a hero; with the live exits at the same full size: 8 zeros, 0 heroes, net $-3,845, best ledger $3,333.
+1. The hero recipe (whole ledger, no exits, hold to 15:45) on every pick named since 10-06: 25 trades, 8 zeros, 0 heroes, net $-4,307, best ledger $2,044. Removing the exits did not make a hero; with the live exits at the same full size: 8 zeros, 0 heroes, net $-4,271, best ledger $3,333.
 2. On the 14 real fills, full size with the exits the bot actually used: 1 hero (best ledger $8,463) and 6 zeros, net $+5,112; the same fills held to 15:45: 0 hero, 5 zeros, net $-2,410. Where a hero appears it comes from full size on a streak the trailing exits kept alive, not from holding.
 3. The ticket is the root: see the per-$1 tables. A full-size ledger on a negative ticket is a zero machine with an occasional hero, and a hero that rests on one trade is a candidate at most (EVOLUTION 2026-10-07). Nothing in the real ledgers changes on this; the hero shadows stay as the owner asked (pure hold) so their rounds can be compared with the other Claude's, and the 'real fills, 100%, live' row above is the second counter, rebuilt from trades.csv each run.

@@ -359,6 +359,51 @@
 "live_carry": 0.0,
 "hold_carry": 0.0,
 "stock": 0.011522159581910163
+},
+{
+"day": "2026-11-06",
+"t": "09:33",
+"source": "sniper",
+"sym": "LLY",
+"kind": "call",
+"contract": "LLY261106C01400000",
+"entry": 1.76,
+"peak": 0.92,
+"live": 0.011399999999999966,
+"hold": 0.011399999999999966,
+"live_carry": 0.011399999999999966,
+"hold_carry": 0.011399999999999966,
+"stock": 0.00259172868303148
+},
+{
+"day": "2026-11-06",
+"t": "10:20",
+"source": "intraday",
+"sym": "GE",
+"kind": "call",
+"contract": "GE261106C00332500",
+"entry": 0.17,
+"peak": 1.255,
+"live": 0.4242,
+"hold": 0.4242,
+"live_carry": 0.4242,
+"hold_carry": 0.4242,
+"stock": 0.019554041694263002
+},
+{
+"day": "2026-11-06",
+"t": "11:25",
+"source": "intraday",
+"sym": "MU",
+"kind": "put",
+"contract": "MU261106P00675000",
+"entry": 3.58,
+"peak": 1.397,
+"live": 0.014000000000000012,
+"hold": 0.014000000000000012,
+"live_carry": 0.014000000000000012,
+"hold_carry": 0.014000000000000012,
+"stock": -0.02800688011955621
 }
 ],
 "real": [
@@ -573,14 +618,37 @@
 "hold_carry": 0.023255813953488372
 }
 ],
-"shadow": [],
+"shadow": [
+{
+"day": "2026-11-06",
+"source": "intraday",
+"variant": "catalyst_intraday_hero",
+"sym": "GE",
+"contract": "GE261106C00330000",
+"qty": 8,
+"entry": 0.57,
+"mult": 0.01754385964912281,
+"pnl": -448.0
+},
+{
+"day": "2026-11-06",
+"source": "sniper",
+"variant": "catalyst_open_hero",
+"sym": "LLY",
+"contract": "LLY261106C01390000",
+"qty": 1,
+"entry": 2.36,
+"mult": 0.0,
+"pnl": -236.0
+}
+],
 "sims": {
 "sniper 0.10": [
 {
 "frac": 0.2,
 "exit": "live",
 "taken": 7,
-"skipped": 6,
+"skipped": 7,
 "rounds_closed": 0,
 "zeros": 0,
 "heroes": 0,
@@ -664,6 +732,12 @@
 {
 "day": "2026-10-30",
 "sym": "GEV",
+"qty": 0,
+"ledger": 197.94
+},
+{
+"day": "2026-11-06",
+"sym": "LLY",
 "qty": 0,
 "ledger": 197.94
 }
@@ -673,7 +747,7 @@
 "frac": 0.2,
 "exit": "hold",
 "taken": 7,
-"skipped": 6,
+"skipped": 7,
 "rounds_closed": 0,
 "zeros": 0,
 "heroes": 0,
@@ -759,6 +833,12 @@
 "sym": "GEV",
 "qty": 0,
 "ledger": 197.94
+},
+{
+"day": "2026-11-06",
+"sym": "LLY",
+"qty": 0,
+"ledger": 197.94
 }
 ]
 },
@@ -766,7 +846,7 @@
 "frac": 0.2,
 "exit": "hold_carry",
 "taken": 7,
-"skipped": 6,
+"skipped": 7,
 "rounds_closed": 0,
 "zeros": 0,
 "heroes": 0,
@@ -852,6 +932,12 @@
 "sym": "GEV",
 "qty": 0,
 "ledger": 167.0
+},
+{
+"day": "2026-11-06",
+"sym": "LLY",
+"qty": 0,
+"ledger": 167.0
 }
 ]
 },
@@ -859,7 +945,7 @@
 "frac": 1.0,
 "exit": "live",
 "taken": 11,
-"skipped": 2,
+"skipped": 3,
 "rounds_closed": 3,
 "zeros": 3,
 "heroes": 0,
@@ -961,6 +1047,12 @@
 "sym": "GEV",
 "qty": 0,
 "ledger": 104.8
+},
+{
+"day": "2026-11-06",
+"sym": "LLY",
+"qty": 0,
+"ledger": 104.8
 }
 ]
 },
@@ -968,7 +1060,7 @@
 "frac": 1.0,
 "exit": "hold",
 "taken": 12,
-"skipped": 1,
+"skipped": 2,
 "rounds_closed": 5,
 "zeros": 5,
 "heroes": 0,
@@ -1080,6 +1172,12 @@
 "sym": "GEV",
 "qty": 4,
 "ledger": 108.29
+},
+{
+"day": "2026-11-06",
+"sym": "LLY",
+"qty": 0,
+"ledger": 108.29
 }
 ]
 },
@@ -1087,7 +1185,7 @@
 "frac": 1.0,
 "exit": "hold_carry",
 "taken": 13,
-"skipped": 0,
+"skipped": 1,
 "rounds_closed": 10,
 "zeros": 10,
 "heroes": 0,
@@ -1224,6 +1322,12 @@
 "sym": "GEV",
 "qty": 4,
 "ledger": 108.29
+},
+{
+"day": "2026-11-06",
+"sym": "LLY",
+"qty": 0,
+"ledger": 108.29
 }
 ]
 }
@@ -1232,14 +1336,14 @@
 {
 "frac": 0.2,
 "exit": "live",
-"taken": 6,
-"skipped": 5,
+"taken": 7,
+"skipped": 6,
 "rounds_closed": 0,
 "zeros": 0,
 "heroes": 0,
-"open_ledger": 352.79,
+"open_ledger": 313.64,
 "peak_ledger": 649.85,
-"net": -147.21,
+"net": -186.36,
 "rounds": [],
 "trail": [
 {
@@ -1307,20 +1411,32 @@
 "sym": "AMZN",
 "qty": 1,
 "ledger": 352.79
+},
+{
+"day": "2026-11-06",
+"sym": "GE",
+"qty": 4,
+"ledger": 313.64
+},
+{
+"day": "2026-11-06",
+"sym": "MU",
+"qty": 0,
+"ledger": 313.64
 }
 ]
 },
 {
 "frac": 0.2,
 "exit": "hold",
-"taken": 6,
-"skipped": 5,
+"taken": 7,
+"skipped": 6,
 "rounds_closed": 0,
 "zeros": 0,
 "heroes": 0,
-"open_ledger": 339.11,
+"open_ledger": 309.74,
 "peak_ledger": 636.16,
-"net": -160.89,
+"net": -190.26,
 "rounds": [],
 "trail": [
 {
@@ -1388,20 +1504,32 @@
 "sym": "AMZN",
 "qty": 1,
 "ledger": 339.11
+},
+{
+"day": "2026-11-06",
+"sym": "GE",
+"qty": 3,
+"ledger": 309.74
+},
+{
+"day": "2026-11-06",
+"sym": "MU",
+"qty": 0,
+"ledger": 309.74
 }
 ]
 },
 {
 "frac": 0.2,
 "exit": "hold_carry",
-"taken": 6,
-"skipped": 5,
+"taken": 7,
+"skipped": 6,
 "rounds_closed": 0,
 "zeros": 0,
 "heroes": 0,
-"open_ledger": 507.26,
+"open_ledger": 458.32,
 "peak_ledger": 761.26,
-"net": 7.26,
+"net": -41.68,
 "rounds": [],
 "trail": [
 {
@@ -1469,20 +1597,32 @@
 "sym": "AMZN",
 "qty": 2,
 "ledger": 507.26
+},
+{
+"day": "2026-11-06",
+"sym": "GE",
+"qty": 5,
+"ledger": 458.32
+},
+{
+"day": "2026-11-06",
+"sym": "MU",
+"qty": 0,
+"ledger": 458.32
 }
 ]
 },
 {
 "frac": 1.0,
 "exit": "live",
-"taken": 11,
-"skipped": 0,
+"taken": 12,
+"skipped": 1,
 "rounds_closed": 3,
 "zeros": 3,
 "heroes": 0,
-"open_ledger": 500.0,
+"open_ledger": 216.13,
 "peak_ledger": 1310.95,
-"net": -1483.93,
+"net": -1767.8,
 "rounds": [
 {
 "end": 1.95,
@@ -1566,20 +1706,32 @@
 "sym": "AMZN",
 "qty": 9,
 "ledger": 5.0
+},
+{
+"day": "2026-11-06",
+"sym": "GE",
+"qty": 29,
+"ledger": 216.13
+},
+{
+"day": "2026-11-06",
+"sym": "MU",
+"qty": 0,
+"ledger": 216.13
 }
 ]
 },
 {
 "frac": 1.0,
 "exit": "hold",
-"taken": 11,
-"skipped": 0,
+"taken": 12,
+"skipped": 1,
 "rounds_closed": 3,
 "zeros": 3,
 "heroes": 0,
-"open_ledger": 500.0,
+"open_ledger": 216.13,
 "peak_ledger": 1098.74,
-"net": -1472.59,
+"net": -1756.46,
 "rounds": [
 {
 "end": 9.74,
@@ -1663,20 +1815,32 @@
 "sym": "AMZN",
 "qty": 9,
 "ledger": 5.0
+},
+{
+"day": "2026-11-06",
+"sym": "GE",
+"qty": 29,
+"ledger": 216.13
+},
+{
+"day": "2026-11-06",
+"sym": "MU",
+"qty": 0,
+"ledger": 216.13
 }
 ]
 },
 {
 "frac": 1.0,
 "exit": "hold_carry",
-"taken": 8,
-"skipped": 3,
+"taken": 9,
+"skipped": 4,
 "rounds_closed": 4,
 "zeros": 4,
 "heroes": 0,
-"open_ledger": 500.0,
+"open_ledger": 216.13,
 "peak_ledger": 1294.31,
-"net": -1954.69,
+"net": -2238.56,
 "rounds": [
 {
 "end": 16.0,
@@ -1765,6 +1929,18 @@
 "sym": "AMZN",
 "qty": 9,
 "ledger": 5.0
+},
+{
+"day": "2026-11-06",
+"sym": "GE",
+"qty": 29,
+"ledger": 216.13
+},
+{
+"day": "2026-11-06",
+"sym": "MU",
+"qty": 0,
+"ledger": 216.13
 }
 ]
 }
@@ -1773,14 +1949,14 @@
 {
 "frac": 0.2,
 "exit": "live",
-"taken": 11,
-"skipped": 13,
+"taken": 12,
+"skipped": 15,
 "rounds_closed": 0,
 "zeros": 0,
 "heroes": 0,
-"open_ledger": 213.91,
+"open_ledger": 194.33,
 "peak_ledger": 504.41,
-"net": -286.09,
+"net": -305.67,
 "rounds": [],
 "trail": [
 {
@@ -1926,20 +2102,38 @@
 "sym": "AMZN",
 "qty": 0,
 "ledger": 213.91
+},
+{
+"day": "2026-11-06",
+"sym": "LLY",
+"qty": 0,
+"ledger": 213.91
+},
+{
+"day": "2026-11-06",
+"sym": "GE",
+"qty": 2,
+"ledger": 194.33
+},
+{
+"day": "2026-11-06",
+"sym": "MU",
+"qty": 0,
+"ledger": 194.33
 }
 ]
 },
 {
 "frac": 0.2,
 "exit": "hold",
-"taken": 11,
-"skipped": 13,
+"taken": 12,
+"skipped": 15,
 "rounds_closed": 0,
 "zeros": 0,
 "heroes": 0,
-"open_ledger": 179.73,
+"open_ledger": 160.16,
 "peak_ledger": 504.41,
-"net": -320.27,
+"net": -339.84,
 "rounds": [],
 "trail": [
 {
@@ -2085,20 +2279,38 @@
 "sym": "AMZN",
 "qty": 0,
 "ledger": 179.73
+},
+{
+"day": "2026-11-06",
+"sym": "LLY",
+"qty": 0,
+"ledger": 179.73
+},
+{
+"day": "2026-11-06",
+"sym": "GE",
+"qty": 2,
+"ledger": 160.16
+},
+{
+"day": "2026-11-06",
+"sym": "MU",
+"qty": 0,
+"ledger": 160.16
 }
 ]
 },
 {
 "frac": 0.2,
 "exit": "hold_carry",
-"taken": 11,
-"skipped": 13,
+"taken": 12,
+"skipped": 15,
 "rounds_closed": 0,
 "zeros": 0,
 "heroes": 0,
-"open_ledger": 112.92,
+"open_ledger": 103.13,
 "peak_ledger": 500.0,
-"net": -387.08,
+"net": -396.87,
 "rounds": [],
 "trail": [
 {
@@ -2244,20 +2456,38 @@
 "sym": "AMZN",
 "qty": 0,
 "ledger": 112.92
+},
+{
+"day": "2026-11-06",
+"sym": "LLY",
+"qty": 0,
+"ledger": 112.92
+},
+{
+"day": "2026-11-06",
+"sym": "GE",
+"qty": 1,
+"ledger": 103.13
+},
+{
+"day": "2026-11-06",
+"sym": "MU",
+"qty": 0,
+"ledger": 103.13
 }
 ]
 },
 {
 "frac": 1.0,
 "exit": "live",
-"taken": 24,
-"skipped": 0,
+"taken": 26,
+"skipped": 1,
 "rounds_closed": 8,
 "zeros": 8,
 "heroes": 0,
-"open_ledger": 500.0,
+"open_ledger": 73.7,
 "peak_ledger": 3333.31,
-"net": -3845.17,
+"net": -4271.47,
 "rounds": [
 {
 "end": 39.5,
@@ -2444,20 +2674,38 @@
 "sym": "AMZN",
 "qty": 9,
 "ledger": 5.0
+},
+{
+"day": "2026-11-06",
+"sym": "LLY",
+"qty": 2,
+"ledger": 152.01
+},
+{
+"day": "2026-11-06",
+"sym": "GE",
+"qty": 8,
+"ledger": 73.7
+},
+{
+"day": "2026-11-06",
+"sym": "MU",
+"qty": 0,
+"ledger": 73.7
 }
 ]
 },
 {
 "frac": 1.0,
 "exit": "hold",
-"taken": 23,
-"skipped": 1,
+"taken": 25,
+"skipped": 2,
 "rounds_closed": 8,
 "zeros": 8,
 "heroes": 0,
-"open_ledger": 500.0,
+"open_ledger": 73.7,
 "peak_ledger": 2044.07,
-"net": -3880.5,
+"net": -4306.8,
 "rounds": [
 {
 "end": 14.75,
@@ -2644,20 +2892,38 @@
 "sym": "AMZN",
 "qty": 9,
 "ledger": 5.0
+},
+{
+"day": "2026-11-06",
+"sym": "LLY",
+"qty": 2,
+"ledger": 152.01
+},
+{
+"day": "2026-11-06",
+"sym": "GE",
+"qty": 8,
+"ledger": 73.7
+},
+{
+"day": "2026-11-06",
+"sym": "MU",
+"qty": 0,
+"ledger": 73.7
 }
 ]
 },
 {
 "frac": 1.0,
 "exit": "hold_carry",
-"taken": 21,
-"skipped": 3,
+"taken": 23,
+"skipped": 4,
 "rounds_closed": 14,
 "zeros": 14,
 "heroes": 0,
-"open_ledger": 500.0,
+"open_ledger": 73.7,
 "peak_ledger": 2855.51,
-"net": -6746.47,
+"net": -7172.77,
 "rounds": [
 {
 "end": 16.0,
@@ -2874,6 +3140,24 @@
 "sym": "AMZN",
 "qty": 9,
 "ledger": 5.0
+},
+{
+"day": "2026-11-06",
+"sym": "LLY",
+"qty": 2,
+"ledger": 152.01
+},
+{
+"day": "2026-11-06",
+"sym": "GE",
+"qty": 8,
+"ledger": 73.7
+},
+{
+"day": "2026-11-06",
+"sym": "MU",
+"qty": 0,
+"ledger": 73.7
 }
 ]
 }

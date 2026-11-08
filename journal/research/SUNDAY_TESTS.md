@@ -108,12 +108,19 @@ in EVOLUTION.md.
     Their 1,986 reports: no bounce edge after a move beyond the implied one. Our 5 live rebound
     shadows were not earnings gaps. Test the AMZN 10-30 case and the 2-year scanner backtest with and
     without skip_after_report_days 3 before changing the champion.
-36. **Go with the day's driver, generalized (2026-11-01).** nvda_gapdown_put (NVDA gap down, still
-    0.1% under its open at 10:00, ~0.40-delta put, take profit at 3x) is the only ledger up this month
-    (+$191) and won both days it met the rebound call on the other side (10-16, 10-30). Real option
-    prices, 2 years, last 3 months first: the same rule on AMD, AVGO, MU, TSLA, META, AMZN, and "the
-    weakest mega cap of the sector that gaps down most". If positive without the best two, it is the
-    first candidate when a slot opens.
+36. **Go with the day's driver, generalized (2026-11-01).** DONE 11-08 (GAPDOWN.md, zoh/research/gapdown.py): the
+    nvda_gapdown_put rule (gap down, still 0.1% under the open at 10:00, the put the $500 ledger can buy nearest 0.40
+    delta, take3) on ten mega caps since 2024-02, same-day-expiry days, costs 10% each way, last 3 months / last year /
+    since 2024-02 (n, avg / without the best / without the best two): NVDA 9 +112% / +91% / +73%, 26 +22% / +12% / +3%,
+    43 +28% / +22% / +16% -- the only name positive at every horizon. AVGO 11 +54% / +36% / +16%, 30 +17% / +10% / +2%,
+    49 -7% / -12% / -17% (candidate at most: positive recently, negative over two years). AMD 10 +34% / +10% / -20%,
+    then -8% over two years; MU -34% / -1% / +1%; TSLA -57% / -25% / -18%; META +3% / -14% / -15%; AMZN +9% / -17% /
+    +1%; GOOGL +24% / -21% / -3%; MSFT -25% / -18% / -21%; AAPL +20% / -35% / -31%. Pooled 412 same-day trades: -7% over
+    two years, +19% / +15% / +12% in the last 3 months (77). "The biggest gap-down of the group" (one a day, 141 same-day
+    trades): -19% / -21% / -23% over two years, -17% in the last 3 months -- rejected; picking the biggest gap picks MU,
+    TSLA and AMD, the names where the rule loses. Without a budget (0.40 delta regardless of price) the picture is the
+    same. So the edge is NVDA's, not the rule's; no second gap-down ledger, AVGO goes on the watch list for a re-run
+    in a month.
 33b. **Post-earnings day one (2026-11-01, partial).** Live: megacap_reclaim bought AMZN 245C on 10-30
     (day one after its report, -$56) and the intraday AMZN put lost -$198 the same day; rebound_scanner
     picked NVDA, not the post-report gaps. A report calendar for 2 years is still missing, so the
@@ -171,20 +178,25 @@ in EVOLUTION.md.
    `heat` -7%, control -3%; chips dip +17% (27). Next: hold 45 and 60 sessions instead of 30 (57 of 127 dips left on the time
    stop), dip at 10 / 30 sessions after the fire, split entries with an earnings date inside the window from those without,
    ETF spreads with $5-wide strikes only, and the put-vertical mirror on `heat` (the trend entry lost in every window).
-42. **The 11:30 check-in (2026-11-04).** Three sessions in a row the put mirror armed between 10:45 and 11:30 (11-02 MU,
-   11-03 SMH briefly, 11-04 MU/MRVL) and neither the 10:16 nor the 13:16 check saw it. Extend bounce.py: CHECK at 11:30 and
-   "any day SMH crosses below its open between 10:30 and 11:30" (not only cooling-theme gap-ups), 0.20-delta put from 11:33,
-   live / hold / stock-stop exits, 2 years; count how many picks per month it would add and what the 13:16 check would have
-   found instead. Decide the extra routine on that number.
+42. **The 11:30 check-in (2026-11-04).** DONE 11-08, stock only (MIDDAY.md, zoh/research/midday.py, 30-minute bars
+   2024-02 to 2026-11-05): SMH above its open at 10:00 and below it at 11:00 or 11:30 happened on 84 days (2.6 a month,
+   13 in the last 3 months). SMH 11:30 -> close +0.26% average, 63% up; the weakest cached chip (NVDA/AMD/MU/AVGO) below
+   its own open at 11:30: +0.28%, 59% up; chips already <= -2% at 11:30: 48% up, median -0.20%; last 3 months the weakest
+   chip 11:30 -> close 36% up (11 days, median -0.20%). What the 13:16 check sees from 13:30 is the same (+0.18%). So the
+   mirror arming between the check-ins is not a put signal on average; 11-02 (MU -3.4%) and 11-04 were the tail. The
+   11:21 check-in stays as a judgment check (owner), no mechanical rule; the option leg of the failed-bounce put is in
+   BOUNCE.md (-7% without the best). The 1-minute option replay (0.20-delta put from 11:33) was not run.
 43. **Theme-state filter, forward test (2026-11-04, THEMES.md).** From 11-05 every sniper and intraday pick carries the
    theme state at entry in its file; after 20 trades compare call results in heating / neutral / turning with the
    backtest's 57% / 34% / 21%. Also the rebound_scanner retirement watch: the variant has 12 trades (42% win, -14% avg,
    real -$196), the family 20 (rebound_scanner_wide 6, _any 2); the gate is per variant, so it retires at 20.
-44. **Ops: two Trade runs overlapped 15:32-15:48 on 11-04** (again 15:04-15:46 on 11-06: dispatched run 74 and scheduled run 76; 14:42's run 75 was cancelled by the concurrency group, 15:04's was not) (the 08:31 dispatch run and the late scheduled run 70) although the
-   workflow's concurrency group is `trade` with cancel-in-progress false; both tried to sell the same contracts and the
-   already-sold guard kept the journal right. Check GitHub's queueing semantics for dispatch vs schedule and add a lease in
-   state.json (a `running` stamp refreshed every loop; a second bot exits when it is fresh).
-
+44. **Ops: two Trade runs overlapped 15:32-15:48 on 11-04** -- CLOSED 11-08: they did not. The job timestamps show the
+   queued run starting only after the dispatched run ended (11-04 run 70 jobs 20:48:50Z after run 68 ended 20:48:48Z;
+   11-05 run 72 20:45:29Z after run 71; 11-06 run 76 20:45:49Z after run 74), each exiting within a minute because the day
+   was done. The "overlap" came from reading run created_at as the start. The two cron runs arrive 6-7 hours late most
+   days (14:40-15:30 ET) and queue behind the 08:30 dispatch, which is why the dispatch exists; no lease needed. Side
+   finding: the Dashboard workflow's GitHub Pages deploy failed 4 times this week ("Deployment failed, try again later",
+   GitHub side) and the next push healed it.
 45. **The lock gate (2026-11-05).** Owner: "这是可预测的". Definition registered before the replay: at 10:00 ET
     LOCK = SPY below its open AND VIXY up >= 3% from its own open AND >= 8 of 10 mega caps (AAPL, MSFT, NVDA, AMZN,
     META, GOOGL, TSLA, AVGO, AMD, MU) below their opens. Replay since 2024-02 on 30-minute bars: how many lock days,
@@ -192,26 +204,36 @@ in EVOLUTION.md.
     take3 / hold / trail) split by the gate. Also test the weaker gates one at a time (VIXY alone, breadth alone) and
     the macro-day overlap. If lock days are few or half of them close up, "predictable" was hindsight and it is
     written down as such. If the gate holds: a shadow variant that buys the SPY put (and, with a turning theme and a
-    sector negative, the weakest chip's put) at 10:00 on none days when locked. Result (11-05 evening, LOCKGATE.md): 694 sessions, 11 lock days, today the 11th. The other ten: SPY +0.1% avg from 10:00 to the close, 36% closed below the 10:00 price, six bounced; SPY 0DTE puts on lock days 20% win, -58% take3 / -88% hold (10), QQQ -83%. Breadth >= 8/10 alone (92 days) leans down (62%, -0.1%) but SPY puts still -26%; NVDA/TSLA puts on breadth days +20% last year (27, +4% w/o best 2, -19% last 3 months) are a candidate at most. VIXY >= 5% at 10:00: n=1 (today). Verdict: hindsight; no shadow variant. Next: extend the index-only replay to 2020-2023 (the 2022 lock days) and test the magnitude gate (VIXY >= 5%, SPY <= -1%).
-46. **Tue/Thu blindness of the universe gap variants (2026-11-05).** `same_day_expiry` skips every universe name on
-    days it has no same-day expiry, so nvda_gapdown_put (real ledger) and rebound_scanner (champion) never scan on
-    Tuesdays and Thursdays. 11-05: NVDA -2.0% gap, -4% at 10:00, the 11-06 187.5P went 2.50 -> 7.07 (+183%) and the
-    ledger-affordable 185P 1.74 -> 5.53. Replay both rules on Tue/Thu since 2024-02 with the nearest expiry (1-2 DTE,
-    realopt daily bars) next to their Mon/Wed/Fri record; if the 1-DTE days are not worse, add `nvda_gapdown_put_near`
-    (any_expiry, shadow) and decide which of the 12 gives up its slot.
-47. **Overnight dip-buy (owner, 2026-11-05 talk).** Buy SPY / QQQ / the day's weakest theme ETF at 15:50 on a day that
-    is down >= 1.5% open to close, sell at the next open (and at 10:00); split by lock days (45), by VIXY level and by
-    whether the next day is a macro day. Stock only (no option bleed); OVERNIGHT.md has the night-move base rates.
-48. **The 3% line on liquidation days (2026-11-05).** The intraday put mirror measures "within 3% of its own open";
-    on 11-05 every chip was 4-6% below its open by 10:00 and the four right puts were excluded. Replay the mirror
-    (BOUNCE.md data) with the line measured from the 10:00 price and from the 11:00 bounce high instead of the open.
-49. **Pooled "sell at k x vs hold" table (2026-11-05 evening exchange).** The other Claude sent 49 rows of exits at
-    >= 2x since 10-19 (exchange/claude-b/received/2026-11-05.reply-claude-b.json, `two_x_rows`: 22 filled 3x orders,
-    11 at 2x, 8 trailed 40% after 2x, 8 held to time) and will add the price at the 2x moment and before the close on
-    Saturday. Bring our half_at shadow records and stock_open_drive / spy_open_drive real fills in the same fields and
-    compute k x vs hold on the pooled set; today's 757P (4 of 7 held to 15:30 at 17x, +$9,408) and the follow card
-    (half 3x, half trailed: +2.7 per $1 vs +10.5 held) are the put-side examples. Their follow-card split to carry:
-    VIX >= 24 the day before 15 days +57%, VIX < 24 37 days -5%.
+    sector negative, the weakest chip's put) at 10:00 on none days when locked. Result (11-05 evening, LOCKGATE.md): 694 sessions, 11 lock days, today the 11th. The other ten: SPY +0.1% avg from 10:00 to the close, 36% closed below the 10:00 price, six bounced; SPY 0DTE puts on lock days 20% win, -58% take3 / -88% hold (10), QQQ -83%. Breadth >= 8/10 alone (92 days) leans down (62%, -0.1%) but SPY puts still -26%; NVDA/TSLA puts on breadth days +20% last year (27, +4% w/o best 2, -19% last 3 months) are a candidate at most. VIXY >= 5% at 10:00: n=1 (today). Verdict: hindsight; no shadow variant. Next: extend the index-only replay to 2020-2023 (the 2022 lock days) and test the magnitude gate (VIXY >= 5%, SPY <= -1%). DONE 11-08 (LOCKGATE_2020_2023.md, `--start 2020-01-02 --end 2024-01-31 --suffix 2020_2023`): 1027 sessions, 15 lock days (26 with 2024-26). SPY 10:00 -> close on them +1.4% average, median +0.5%, only 4 of 15 (27%) closed below the 10:00 price; lock and SPY <= -1% at 10:00: 4 days, +2.9% (2022-01-24 +2.5%, 01-28 +3.1%, 05-06 +1.2%); VIXY >= 5% alone: 3 days, +4.7%. Breadth >= 8/10 alone: 163 days, 48% down, +0.1%. The macro column is empty there because the release calendar starts in 2024. Verdict unchanged and harder: lock days are mostly reversal days; 11-05 was one of the few that kept falling. Item closed.
+46. **Tue/Thu blindness of the universe gap variants (2026-11-05).** DONE 11-08 (GAPDOWN.md, zoh/research/gapdown.py):
+   the nvda_gapdown_put rule replayed since 2024-02 with the nearest expiry, the ledger's contract (one contract <= $150,
+   |delta| >= 0.06, nearest 0.40), take3 exit, costs 10% each way. Mon/Wed/Fri same-day: last 3 months 9 trades 67% win
+   +112% / +91% / +73% (median +208%), last year 26 trades +22% / +12% / +3%, since 2024-02 43 trades +28% / +22% / +16%.
+   Tue/Thu with the next expiry (1-2 DTE): last 3 months 7 trades 43% +39% / +12% / -26% (median -45%), last year 28
+   trades -19% / -27% / -36%, since 2024-02 56 trades -22% / -27% / -31%. The 11-05 187.5P (+183%) is the best of the
+   seven. Verdict: the blindness protects the ledger; no `nvda_gapdown_put_near`, no any_expiry on the real variant.
+   rebound_scanner on Tue/Thu was not re-run (EXITS.md already has rebound_tt negative).
+47. **Overnight dip-buy (owner, 2026-11-05 talk).** DONE 11-08, stock only (DIPBUY.md, zoh/research/dipbuy.py, 30-minute
+   bars): 16 days since 2024-02 with SPY >= 1.5% down open to close (11-05 has no next day in the data yet). Bought at the
+   close: SPY to the next open -0.08% average (69% up, median +0.18%), QQQ 0.00%, the day's weakest ETF (SMH on 14 of 16)
+   +0.47% (56% up); to the next 10:00 about zero; to the next close SPY +0.93% (62%), QQQ +1.21% (69%), weakest +1.92%
+   (75%). Next-day CPI/NFP/FOMC (3 days): -0.3% to -1.2%. All-days base rate +0.06% to the open. Verdict: the overnight leg
+   alone has no edge worth a rule; the bounce, when it comes, is the next session (OVERNIGHT.md, day-after-crash 54%
+   up). Stays an opportunity type, no shadow variant.
+48. **The 3% line on liquidation days (2026-11-05).** PARTIAL 11-08 (MIDDAY.md): only two days since 2024-02 had SMH
+   <= -3% from its open at 10:00 in the 30-minute data (2025-02-27, 2026-06-25); chips beyond 3% below their open at
+   10:00: 7 legs, 57% up, +0.21% to the close (the 06-25 bounce +2 to +7% vs the 02-27 slide -3 to -5%). Too few to
+   judge. The 11-05 line stays a checklist note (measure from the 10:00 price on a liquidation day), no mechanical
+   change; re-run with 1-minute bars when there are 10 such days.
+49. **Pooled "sell at k x vs hold" table (2026-11-05 evening exchange).** DONE 11-08 on our side (SELLK.md,
+   zoh/research/sellk.py): 79 real and shadow contracts since 10-19 with a 15:45 price. Per $1: the recorded live exits
+   -14% / -19% / -23%, hold to 15:45 -22% / -29% / -36%, sell all at 2x -28%, at 3x -29%, half at 3x then hold -25%; 47%
+   of trades reached 1.5x, 33% 2x, 18% 3x, 5% 5x. Among the 26 that reached 2x: recorded +118%, hold +98%, sell 3x +75%,
+   half 3x + hold +87%; among the 14 that reached 3x: hold +212%, recorded +185%, half 5x + hold +196%. Puts (11): hold
+   +166% vs recorded +81% vs sell 3x +42%; calls (68): hold -52% vs recorded -30%. So a fixed k x take is worse than the
+   trail we run, and holding only pays on the put side (small n, the ORCL 10-30 put at 6.3x). The other Claude's rows with
+   both legs (9, appendix) agree: the k leg 2.9x, the held or trailed leg 5.1x average, 2.7x median, 4 of 9 above 3x,
+   all conditional on winners (757P 17.4x). Their machine-readable two columns had not arrived by Sunday morning.
 50. **Structure layer for the check-ins (owner, 2026-11-06, from the EvaPanda alert at 12:18: "SPY lower high on the 5-min,
     will chop into the close; chips weak, NVDA near its low").** What the alert does that we do not: it fires on a structural
     change, not on a clock, and it names levels (day high 742, a mid level 738.2, prior close 733). Quick replay on the cached
@@ -224,16 +246,31 @@ in EVOLUTION.md.
     state for SPY, QQQ, SMH and the pick; (b) an event-driven Discord notice (no orders) from the bot when SPY or SMH loses
     its open, takes out the day's low/high, or makes a lower high after 11:00; (c) replay with 1-minute bars: VWAP cross and
     lower-high after 11:00 as a put-mirror confirmation vs the current "below its open at 11:21" rule.
-51. **Real orders at the ask do not fill on illiquid same-day contracts (2026-11-06).** DONE 11-08 (PR): spread gate, (ask-bid)/ask > 0.5 -> shadow at the mid, no real order; the fill-rate replay still to do. Three of three real orders canceled unfilled:
-    LLY 1430C limit 0.91 (bid 0.28, spread 69% of the ask; fresh ask 1.11 after 90 s, no retry), GE 330C limit 0.54 twice (bid 0.09,
-    spread 83%). The shadow booked both at the ask and lost -$144; reality $0. Replay journal/trades.csv real rows since 10-19:
-    fill rate and slippage vs the quoted spread; then add a spread gate for real orders ((ask-bid)/ask > 0.5 -> no real order, log
-    it) and book the shadow at the mid when the spread is that wide, so shadow results stop overstating losses on names like GE.
-52. **catalyst_open strike rule on high-priced stocks (2026-11-06).** DONE 11-08 (PR): delta floor 0.06 in select_contract (config / variant `min_delta`); the SNIPERS_REAL replay still to do. The $92 budget (20% of $457) cannot buy a 0.10-delta same-day
-    call on a $1,350 stock: the bot took a 0.03-delta 1430C (6% OTM) that could not pay while LLY rose 2% from its open; the hero
-    shadow's 0.10-delta 1390C went +64% then to zero. Options: choose the strike by percent OTM (<= 2%) with the budget as a cap on
-    quantity, not on delta; or skip real orders when the affordable delta is below 0.06; or size catalyst_open from a bigger
-    stake. Replay SNIPERS_REAL rows with both rules.
+51. **Real orders at the ask do not fill on illiquid same-day contracts (2026-11-06).** DONE 11-08: spread gate live
+   (PR #108: (ask-bid)/ask > 0.5 -> shadow at the mid, no real order). Replay of the broker's orders since 10-19: 30 buy
+   orders, 25 filled (83%); fills 2.0% below the limit (= the shadow ask) at the median, 3.6% on average, 8 of 25 at the
+   ask; the five cancels were all limit-at-ask on thin quotes (ORCL 0.24 10-23, AMAT 1.32 10-28, LLY 0.91, GE 0.54 x2).
+   Exits: real minus shadow median $0.00 a contract (mean -$0.04). One shadow exit was a stale quote: TSLA 392.5C on
+   11-04 booked 1.14 at 15:45 while the real market sell filled at 0.01 (the stock closed 8 points under the strike) --
+   item 54.
+52. **catalyst_open strike rule on high-priced stocks (2026-11-06).** DONE 11-08: delta floor 0.06 live (PR #108).
+   Replay (STRIKEBUDGET.md, zoh/research/strikebudget.py): the 27 picks since 10-01 at their live entry minute under four
+   strike rules with the real stake (20% of the main ledger). `old` (nearest the target among affordable): 26 taken, 5 of
+   them under 0.06 delta, per $1 -30% / -38% / -47%, ledger dollars -$856. `floor`: 21 taken, 6 skipped, -29% / -39% /
+   -49%, -$703. `pct` (strike within 2% of the spot): 11 taken, -34% / -54% / -68%, -$442 (rejected: it mostly skips).
+   `nobudget` (the target delta, no stake): -21% / -33% / -41%, so the small stake costs about 9 points per $1 by forcing
+   strikes. The floor saves ~$150 of 27 picks and nothing else: the catalyst family is negative under every rule
+   (snipers 14 picks live rule -13% / -35% / -52%; intraday 13 picks -30% / -46% / -51%).
+53. **prev_close feed and the overnight carry (2026-11-06).** DONE 11-08, first half: bot.previous_close used IEX daily
+   bars, which end on IEX's last print. SPY IEX vs SIP close since 08-01: mean 0.010%, max 0.059% (11-05, 733.43 vs
+   733.00); NVDA mean 0.031%, max 0.103%. Now SIP with the request ending at today's midnight (free history), IEX as the
+   fallback (PR). Second half not done: the overnight gap distribution of carried catalyst contracts (how often the stock
+   gaps against a carried pick by more than the option is worth).
+54. **Shadow exits at stale quotes (2026-11-08, from item 51).** TSLA 392.5C 11-04: shadow 'time' exit booked at 1.14 while
+   the real market sell filled at 0.01 with the stock 8 points under the strike; the shadow stock_open_drive row shows
+   +58% against a real -99%. The spread gate (PR #108) books wide entries at the mid; exits still take the last quote.
+   Replay exits.csv 'time' rows against the contract's 15:45 minute-bar close (sellk.json has both) and, if the shadow is
+   systematically high, book the shadow exit at the bid (or the mid when the spread is over 50%).
 
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
