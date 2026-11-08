@@ -108,12 +108,19 @@ in EVOLUTION.md.
     Their 1,986 reports: no bounce edge after a move beyond the implied one. Our 5 live rebound
     shadows were not earnings gaps. Test the AMZN 10-30 case and the 2-year scanner backtest with and
     without skip_after_report_days 3 before changing the champion.
-36. **Go with the day's driver, generalized (2026-11-01).** nvda_gapdown_put (NVDA gap down, still
-    0.1% under its open at 10:00, ~0.40-delta put, take profit at 3x) is the only ledger up this month
-    (+$191) and won both days it met the rebound call on the other side (10-16, 10-30). Real option
-    prices, 2 years, last 3 months first: the same rule on AMD, AVGO, MU, TSLA, META, AMZN, and "the
-    weakest mega cap of the sector that gaps down most". If positive without the best two, it is the
-    first candidate when a slot opens.
+36. **Go with the day's driver, generalized (2026-11-01).** DONE 11-08 (GAPDOWN.md, zoh/research/gapdown.py): the
+    nvda_gapdown_put rule (gap down, still 0.1% under the open at 10:00, the put the $500 ledger can buy nearest 0.40
+    delta, take3) on ten mega caps since 2024-02, same-day-expiry days, costs 10% each way, last 3 months / last year /
+    since 2024-02 (n, avg / without the best / without the best two): NVDA 9 +112% / +91% / +73%, 26 +22% / +12% / +3%,
+    43 +28% / +22% / +16% -- the only name positive at every horizon. AVGO 11 +54% / +36% / +16%, 30 +17% / +10% / +2%,
+    49 -7% / -12% / -17% (candidate at most: positive recently, negative over two years). AMD 10 +34% / +10% / -20%,
+    then -8% over two years; MU -34% / -1% / +1%; TSLA -57% / -25% / -18%; META +3% / -14% / -15%; AMZN +9% / -17% /
+    +1%; GOOGL +24% / -21% / -3%; MSFT -25% / -18% / -21%; AAPL +20% / -35% / -31%. Pooled 412 same-day trades: -7% over
+    two years, +19% / +15% / +12% in the last 3 months (77). "The biggest gap-down of the group" (one a day, 141 same-day
+    trades): -19% / -21% / -23% over two years, -17% in the last 3 months -- rejected; picking the biggest gap picks MU,
+    TSLA and AMD, the names where the rule loses. Without a budget (0.40 delta regardless of price) the picture is the
+    same. So the edge is NVDA's, not the rule's; no second gap-down ledger, AVGO goes on the watch list for a re-run
+    in a month.
 33b. **Post-earnings day one (2026-11-01, partial).** Live: megacap_reclaim bought AMZN 245C on 10-30
     (day one after its report, -$56) and the intraday AMZN put lost -$198 the same day; rebound_scanner
     picked NVDA, not the post-report gaps. A report calendar for 2 years is still missing, so the
@@ -197,7 +204,7 @@ in EVOLUTION.md.
     take3 / hold / trail) split by the gate. Also test the weaker gates one at a time (VIXY alone, breadth alone) and
     the macro-day overlap. If lock days are few or half of them close up, "predictable" was hindsight and it is
     written down as such. If the gate holds: a shadow variant that buys the SPY put (and, with a turning theme and a
-    sector negative, the weakest chip's put) at 10:00 on none days when locked. Result (11-05 evening, LOCKGATE.md): 694 sessions, 11 lock days, today the 11th. The other ten: SPY +0.1% avg from 10:00 to the close, 36% closed below the 10:00 price, six bounced; SPY 0DTE puts on lock days 20% win, -58% take3 / -88% hold (10), QQQ -83%. Breadth >= 8/10 alone (92 days) leans down (62%, -0.1%) but SPY puts still -26%; NVDA/TSLA puts on breadth days +20% last year (27, +4% w/o best 2, -19% last 3 months) are a candidate at most. VIXY >= 5% at 10:00: n=1 (today). Verdict: hindsight; no shadow variant. Next: extend the index-only replay to 2020-2023 (the 2022 lock days) and test the magnitude gate (VIXY >= 5%, SPY <= -1%).
+    sector negative, the weakest chip's put) at 10:00 on none days when locked. Result (11-05 evening, LOCKGATE.md): 694 sessions, 11 lock days, today the 11th. The other ten: SPY +0.1% avg from 10:00 to the close, 36% closed below the 10:00 price, six bounced; SPY 0DTE puts on lock days 20% win, -58% take3 / -88% hold (10), QQQ -83%. Breadth >= 8/10 alone (92 days) leans down (62%, -0.1%) but SPY puts still -26%; NVDA/TSLA puts on breadth days +20% last year (27, +4% w/o best 2, -19% last 3 months) are a candidate at most. VIXY >= 5% at 10:00: n=1 (today). Verdict: hindsight; no shadow variant. Next: extend the index-only replay to 2020-2023 (the 2022 lock days) and test the magnitude gate (VIXY >= 5%, SPY <= -1%). DONE 11-08 (LOCKGATE_2020_2023.md, `--start 2020-01-02 --end 2024-01-31 --suffix 2020_2023`): 1027 sessions, 15 lock days (26 with 2024-26). SPY 10:00 -> close on them +1.4% average, median +0.5%, only 4 of 15 (27%) closed below the 10:00 price; lock and SPY <= -1% at 10:00: 4 days, +2.9% (2022-01-24 +2.5%, 01-28 +3.1%, 05-06 +1.2%); VIXY >= 5% alone: 3 days, +4.7%. Breadth >= 8/10 alone: 163 days, 48% down, +0.1%. The macro column is empty there because the release calendar starts in 2024. Verdict unchanged and harder: lock days are mostly reversal days; 11-05 was one of the few that kept falling. Item closed.
 46. **Tue/Thu blindness of the universe gap variants (2026-11-05).** DONE 11-08 (GAPDOWN.md, zoh/research/gapdown.py):
    the nvda_gapdown_put rule replayed since 2024-02 with the nearest expiry, the ledger's contract (one contract <= $150,
    |delta| >= 0.06, nearest 0.40), take3 exit, costs 10% each way. Mon/Wed/Fri same-day: last 3 months 9 trades 67% win

@@ -134,7 +134,7 @@ def opendrive_puts():
 
 
 def periods(end):
-    return [("since 2024-02", START.isoformat()), ("last year", (end - timedelta(days=365)).isoformat()),
+    return [(f"since {START.isoformat()[:7]}", START.isoformat()), ("last year", (end - timedelta(days=365)).isoformat()),
             ("last 3 months", (end - timedelta(days=91)).isoformat())]
 
 
@@ -216,7 +216,7 @@ def report(rows, puts, end):
     lines = ["# The lock gate: was 2026-11-05 knowable at 10:00?", "",
              "Gate (registered before the replay, SUNDAY_TESTS 45): at 10:00 ET SPY >= 0.1% below its open, VIXY >= 3% "
              "above its own open, and >= 8 of 10 mega caps (AAPL MSFT NVDA AMZN META GOOGL TSLA AVGO AMD MU) below "
-             "their opens. 30-minute bars (Alpaca SIP) from 2024-02; the 09:30 bar's close is the 10:00 price. "
+             f"their opens. 30-minute bars (Alpaca SIP) from {START.isoformat()[:7]}; the 09:30 bar's close is the 10:00 price. "
              f"Data through {end}. {len(rows)} sessions, {len(lock)} lock days.", "",
              "## Index from 10:00 to the close, by day class", "", *table_days(rows, end), "",
              "## One flag at a time (days with SPY below its open at 10:00)", "", *table_single_flags(rows, end), "",
@@ -248,7 +248,10 @@ def main():
     args = ap.parse_args()
     Path(args.cache).mkdir(parents=True, exist_ok=True)
     api = Alpaca()
-    start = date.fromisoformat(args.start) if args.start else START
+    global START
+    if args.start:
+        START = date.fromisoformat(args.start)  # the period tables and the row filter follow the run's start
+    start = START
     stop = date.fromisoformat(args.end) if args.end else None
     points = {s: day_points(fetch(api, s, args.cache, start, stop)) for s in SYMS}
     macro = journal.load_events()
