@@ -198,6 +198,14 @@ class SizingTests(unittest.TestCase):
         self.assertEqual(select_contract(cands, 0.3, 150)["symbol"], "B")
         self.assertIsNone(select_contract(cands, 0.3, 30))
 
+    def test_selection_needs_a_minimum_delta(self):
+        # LLY on 11-06: the $92 budget reached only the 0.03-delta 1430C; the 0.10-delta 1390C cost 2.36.
+        cands = [{"symbol": "LLY1430", "strike": 1430, "ask": 0.91, "bid": 0.28, "delta": 0.03},
+                 {"symbol": "LLY1390", "strike": 1390, "ask": 2.36, "bid": 1.66, "delta": 0.10}]
+        self.assertIsNone(select_contract(cands, 0.1, 92, min_delta=0.06))
+        self.assertEqual(select_contract(cands, 0.1, 92)["symbol"], "LLY1430")  # no floor: the old pick
+        self.assertEqual(select_contract(cands, 0.1, 457, min_delta=0.06)["symbol"], "LLY1390")
+
     def test_selection_skips_a_zero_bid(self):
         # GEV 935C on 10-30: bid 0, ask 2.19, the 0.10-delta target; skip it for a two-sided quote.
         cands = [{"symbol": "GEV935", "strike": 935, "ask": 2.19, "bid": 0, "delta": 0.10},

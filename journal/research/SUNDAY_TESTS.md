@@ -224,12 +224,12 @@ in EVOLUTION.md.
     state for SPY, QQQ, SMH and the pick; (b) an event-driven Discord notice (no orders) from the bot when SPY or SMH loses
     its open, takes out the day's low/high, or makes a lower high after 11:00; (c) replay with 1-minute bars: VWAP cross and
     lower-high after 11:00 as a put-mirror confirmation vs the current "below its open at 11:21" rule.
-51. **Real orders at the ask do not fill on illiquid same-day contracts (2026-11-06).** Three of three real orders canceled unfilled:
+51. **Real orders at the ask do not fill on illiquid same-day contracts (2026-11-06).** DONE 11-08 (PR): spread gate, (ask-bid)/ask > 0.5 -> shadow at the mid, no real order; the fill-rate replay still to do. Three of three real orders canceled unfilled:
     LLY 1430C limit 0.91 (bid 0.28, spread 69% of the ask; fresh ask 1.11 after 90 s, no retry), GE 330C limit 0.54 twice (bid 0.09,
     spread 83%). The shadow booked both at the ask and lost -$144; reality $0. Replay journal/trades.csv real rows since 10-19:
     fill rate and slippage vs the quoted spread; then add a spread gate for real orders ((ask-bid)/ask > 0.5 -> no real order, log
     it) and book the shadow at the mid when the spread is that wide, so shadow results stop overstating losses on names like GE.
-52. **catalyst_open strike rule on high-priced stocks (2026-11-06).** The $92 budget (20% of $457) cannot buy a 0.10-delta same-day
+52. **catalyst_open strike rule on high-priced stocks (2026-11-06).** DONE 11-08 (PR): delta floor 0.06 in select_contract (config / variant `min_delta`); the SNIPERS_REAL replay still to do. The $92 budget (20% of $457) cannot buy a 0.10-delta same-day
     call on a $1,350 stock: the bot took a 0.03-delta 1430C (6% OTM) that could not pay while LLY rose 2% from its open; the hero
     shadow's 0.10-delta 1390C went +64% then to zero. Options: choose the strike by percent OTM (<= 2%) with the budget as a cap on
     quantity, not on delta; or skip real orders when the affordable delta is below 0.06; or size catalyst_open from a bigger

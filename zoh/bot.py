@@ -188,6 +188,21 @@ PENNY = 0.01  # limit price for selling an expiring option that has no bid
 
 STOCK_WIDTH = 0.15  # strike band for single-stock chains (fraction of spot)
 ENTRY_RETRY_SLACK = 0.10  # an unfilled entry is retried once at a fresh ask up to 10% higher
+# 2026-11-06: three of three real orders at the ask went unfilled on same-day contracts quoted
+# 0.28/0.91 (LLY) and 0.09/0.54 (GE). A quote that wide has no seller at the ask: no real order,
+# and the shadow books the mid so it stops overstating the loss. Config "max_spread" overrides.
+MAX_SPREAD = 0.5  # (ask - bid) / ask above this: shadow at the mid, no real order
+# The same morning the $92 budget bought a 0.03-delta LLY call. Below this |delta| a contract is
+# not the strategy: the pick is "nothing affordable". Config or variant "min_delta" overrides.
+MIN_DELTA = 0.06
+
+
+def spread_of(quote):
+    """(ask - bid) / ask of a live quote, 0 when there is no usable bid or ask."""
+    ask, bid = quote.get("ask") or 0, quote.get("bid")
+    if ask <= 0 or bid is None or bid < 0:
+        return 0.0
+    return (ask - bid) / ask
 
 
 def chain_candidates(api, underlying, expiry, kind, spot, now, width=0.03):
@@ -347,17 +362,23 @@ class Bot:
             # whole +-8% band cost more than the budget, so the ORCL (10-27) and INTC (10-26)
             # intraday picks were skipped while cheaper, further-OTM strikes were listed.
             candidates = self.nearest_chain(underlying, direction, spot, now, width=STOCK_WIDTH)
-        pick = select_contract(candidates, variant.get("target_delta", 0.3), budget)
+        min_delta = variant.get("min_delta", self.config.get("min_delta", MIN_DELTA))
+        pick = select_contract(candidates, variant.get("target_delta", 0.3), budget, min_delta=min_delta)
         if not pick:
-            log(f"{variant['id']}: {direction} signal but nothing affordable within ${budget:.0f}")
+            log(f"{variant['id']}: {direction} signal but nothing affordable within ${budget:.0f} "
+                f"at delta >= {min_delta:.2f}")
             return
-        qty = contracts_for(budget, pick["ask"])
+        spread = spread_of(pick)
+        wide = spread > self.config.get("max_spread", MAX_SPREAD)
+        entry = round_limit((pick["ask"] + pick["bid"]) / 2) if wide else pick["ask"]
+        qty = contracts_for(budget, entry)
         log(f"{variant['id']}: {direction} signal @ {spot:.2f} -> {pick['symbol']} "
-            f"bid={pick['bid']} ask={pick['ask']} delta={pick['delta']:.2f} qty={qty}")
+            f"bid={pick['bid']} ask={pick['ask']} delta={pick['delta']:.2f} spread={spread:.0%} qty={qty}"
+            + (f" (wide quote: shadow at the mid {entry}, no real order)" if wide else ""))
         vstate["entered"] = True
         vstate["shadow"] = {"contract": pick["symbol"], "direction": direction,
                             "entry_time": now.isoformat(timespec="seconds"),
-                            "entry_price": pick["ask"], "peak": pick["ask"], "qty": qty}
+                            "entry_price": entry, "peak": entry, "qty": qty}
         # The champion trades the phase stake; a variant with real_risk also trades real
         # paper orders at that fraction of equity, to collect real fills sooner.
         champion_real = self.config.get("champion_real", True)
@@ -376,6 +397,8 @@ class Bot:
             real_qty = real_contracts(
                 self.state["equity_start"], variant.get("real_risk", 0), pick["ask"],
                 self.config.get("real_one_contract_cap", REAL_ONE_CONTRACT_CAP))
+        if real_qty and wide:
+            real_qty = 0
         if real_qty and own is None and not may_trade_real(self.state, underlying):
             log(f"{variant['id']}: shadow only (real position in theme {theme_of(underlying)} "
                 f"already today, or account needs a reset)")

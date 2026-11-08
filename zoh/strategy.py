@@ -414,15 +414,21 @@ def contracts_for(budget, price):
     return int(budget // (price * 100))
 
 
-def select_contract(candidates, target_delta, budget):
+def select_contract(candidates, target_delta, budget, min_delta=0.0):
     """Pick the affordable contract whose |delta| is closest to the target.
 
     candidates: dicts with symbol, strike, ask, delta (live quotes also carry bid). Returns one
     or None. A live quote with no bid has no buyer: the GEV 935C (10-30) was bought at its 2.19
     ask with bid 0 and was worth nothing from the first minute.
+
+    min_delta: contracts below it are not the strategy, whatever the budget. On 2026-11-06 the
+    $92 budget could not reach a 0.10-delta same-day LLY call and bought a 0.03-delta 1430C
+    (6% out of the money) that could not pay while LLY rose 2% from its open. With a floor the
+    answer is "nothing affordable", which is the honest one.
     """
     affordable = [c for c in candidates if c["ask"] > 0 and c["ask"] * 100 <= budget
-                  and c["delta"] is not None and c.get("bid", 1) > 0]
+                  and c["delta"] is not None and c.get("bid", 1) > 0
+                  and abs(c["delta"]) >= min_delta]
     if not affordable:
         return None
     return min(affordable, key=lambda c: (abs(abs(c["delta"]) - target_delta), c["ask"]))

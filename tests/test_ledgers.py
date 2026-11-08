@@ -91,6 +91,53 @@ class LedgerOrderTest(unittest.TestCase):
         self.assertEqual(orders, [])
 
 
+class SpreadGateTest(unittest.TestCase):
+    """A quote wider than MAX_SPREAD gets no real order; the shadow books the mid (GE 330C 0.09/0.54, 11-06)."""
+
+    def _enter(self, bid, ask):
+        orders = []
+
+        class FakeBot(botmod.Bot):
+            def __init__(self):
+                self.api, self.dry_run, self.underlying = None, False, "SPY"
+                self.today = date(2026, 11, 6)
+                self.config = {"backtest": {"start_equity": 500}, "ledgers": CFG}
+                self.state = {"equity_start": 457.0, "risk_per_trade": 0.2, "champion": "rebound_scanner",
+                              "real_underlyings": [], "ledgers": {"spy_open_drive": {"equity": 500.0, "paused": False, "generation": 1}}}
+
+            def _order(self, symbol, qty, side, kind, tag, limit=None):
+                orders.append((symbol, qty, limit))
+                return qty, limit
+
+        b = FakeBot()
+        vstate = {}
+        old = botmod.chain_candidates
+        botmod.chain_candidates = lambda *a, **k: [{"symbol": "SPY261106C00740000", "strike": 740, "ask": ask,
+                                                    "bid": bid, "delta": 0.13, "quote_time": None}]
+        try:
+            b.try_enter({"id": "spy_open_drive", "target_delta": 0.15}, vstate, "call", 736.0,
+                        datetime(2026, 11, 6, 10, 21, tzinfo=ET))
+        finally:
+            botmod.chain_candidates = old
+        return orders, vstate
+
+    def test_wide_quote_is_shadow_only_at_the_mid(self):
+        orders, vstate = self._enter(bid=0.09, ask=0.54)
+        self.assertEqual(orders, [])
+        self.assertEqual(vstate["shadow"]["entry_price"], 0.32)  # mid 0.315 rounded up to the tick
+        self.assertEqual(vstate["shadow"]["qty"], 2)  # the shadow budget is 20% of the $457 stake, at $0.32
+
+    def test_normal_quote_still_trades_real_at_the_ask(self):
+        orders, vstate = self._enter(bid=0.50, ask=0.54)
+        self.assertEqual(orders, [("SPY261106C00740000", 1, 0.54)])
+        self.assertEqual(vstate["shadow"]["entry_price"], 0.54)
+
+    def test_spread_of(self):
+        self.assertAlmostEqual(botmod.spread_of({"ask": 0.54, "bid": 0.09}), 0.8333, places=3)
+        self.assertEqual(botmod.spread_of({"ask": 0.54, "bid": None}), 0.0)
+        self.assertEqual(botmod.spread_of({"ask": 0, "bid": 0}), 0.0)
+
+
 class LedgerBookingTest(unittest.TestCase):
     def test_real_exit_books_ledger_and_shifts_main_anchor(self):
         with tempfile.TemporaryDirectory() as tmp:
