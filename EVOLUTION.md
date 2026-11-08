@@ -1009,3 +1009,10 @@ AMD 连续两天开盘 15 分钟急跌再收回：10/5 630.7 → 620 → 631.7�
 **改动（噪声门内）**：grades 7 行（两行 auto 复核：catalyst_open 扣预算强迫行权价 → 4 分；premarket_spy ok、sniper flat、rotation right、intraday_pick ok）；检查文件；SUNDAY_TESTS 51-52；中午已记 50（结构层 + 中午低高点回放：n=25，60% 收涨 +0.5%；丢开盘价才偏空）。盘中文件新增 `structure` 块。没改变体、风险、人口。
 
 **运行**：news 07:42；Trade run 74 08:31 dispatch 跑到 15:45；bias 08:32、morning 08:32、midday 12:13 都按时；MU pick 11:24 机器人读到但 catalyst_intraday 已进 GE（一天一次）。周一 CEG/KKR 盘前，周二 CPI（数据日），11-17 NVDA。
+
+## 2026-11-08（周日）提前改动：价差门和 delta 下限（主人：周日先改这两个）
+
+1. **价差门**（zoh/bot.py `MAX_SPREAD = 0.5`，config `max_spread` 可改）：报价 (ask − bid)/ask 超过一半时不下真钱单，影子按中间价（按 tick 向上取整）入场记账。11-06 的三张真钱单（LLY 1430C 0.28/0.91，GE 330C 0.09/0.54 两次）就是这种报价，全部挂卖价没成交；影子按卖价记了 −$144 的假亏。正常报价（如 0.50/0.54）行为不变。
+2. **delta 下限**（zoh/strategy.select_contract 新参数 `min_delta`，bot 默认 `MIN_DELTA = 0.06`，config 或变体 `min_delta` 可改）：预算内买不到 |delta| ≥ 0.06 的合约就算「没有可买的」，不再退而买 0.03 delta 的彩票。11-06 catalyst_open 的 $92 在 LLY 上只够 1430C（0.03 delta，6% 价外），LLY 从开盘涨 2% 它也归零；有了下限那天 catalyst_open 不下单，hero（$457 预算）照买 1390C。
+3. 测试：select_contract 的下限用例（LLY 三种预算），SpreadGateTest（宽报价只记影子、正常报价照常下真钱、spread_of）。`python -m unittest` 127 通过。
+4. 没改的：影子在正常报价下仍按卖价记；回放（51 的成交率、52 的 SNIPERS_REAL）等周日例程。
