@@ -13,8 +13,8 @@
         "entry_price": 0.78,
         "peak": 0.78,
         "qty": 1,
-        "last": 0.42,
-        "last_time": "2026-11-09T13:15:17-05:00"
+        "last": 0.18,
+        "last_time": "2026-11-09T13:45:28-05:00"
       }
     },
     "leader_follow": {
@@ -28,7 +28,7 @@
         "peak": 0.95,
         "qty": 1,
         "last": 0.01,
-        "last_time": "2026-11-09T13:15:17-05:00"
+        "last_time": "2026-11-09T13:45:28-05:00"
       }
     },
     "rebound_scanner": {
@@ -42,7 +42,7 @@
         "peak": 0.34,
         "qty": 4,
         "last": 0.01,
-        "last_time": "2026-11-09T13:15:17-05:00"
+        "last_time": "2026-11-09T13:45:28-05:00"
       }
     },
     "nvda_gapdown_put": {},
@@ -56,8 +56,8 @@
         "entry_price": 0.26,
         "peak": 0.26,
         "qty": 3,
-        "last": 0.12,
-        "last_time": "2026-11-09T13:15:17-05:00"
+        "last": 0.18,
+        "last_time": "2026-11-09T13:45:28-05:00"
       },
       "real": {
         "contract": "WMT261113C00131000",
@@ -77,12 +77,27 @@
         "entry_price": 0.26,
         "peak": 0.26,
         "qty": 17,
-        "last": 0.12,
-        "last_time": "2026-11-09T13:15:17-05:00"
+        "last": 0.18,
+        "last_time": "2026-11-09T13:45:28-05:00"
       }
     },
-    "catalyst_intraday": {},
-    "catalyst_intraday_hero": {},
+    "catalyst_intraday": {
+      "attempts": 3
+    },
+    "catalyst_intraday_hero": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "LLY261113C01470000",
+        "direction": "call",
+        "entry_time": "2026-11-09T13:19:56-05:00",
+        "entry_price": 4.23,
+        "peak": 4.23,
+        "qty": 1,
+        "last": 2.95,
+        "last_time": "2026-11-09T13:45:28-05:00"
+      }
+    },
     "spy_open_drive": {
       "attempts": 1,
       "entered": true,
@@ -93,8 +108,8 @@
         "entry_price": 0.37,
         "peak": 0.99,
         "qty": 2,
-        "last": 0.78,
-        "last_time": "2026-11-09T13:15:17-05:00"
+        "last": 0.59,
+        "last_time": "2026-11-09T13:45:28-05:00"
       }
     },
     "spy_open_drive_put": {},
@@ -109,7 +124,7 @@
         "peak": 0.65,
         "qty": 1,
         "last": 0.01,
-        "last_time": "2026-11-09T13:15:17-05:00"
+        "last_time": "2026-11-09T13:45:28-05:00"
       },
       "real": {
         "contract": "TSLA261109C00385000",

@@ -1,7 +1,27 @@
 {
- "as_of": "2026-11-09T13:15-05:00",
+ "as_of": "2026-11-09T13:45-05:00",
  "since": "2026-11-06T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-09 13:35",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Rocket Lab Stock Rebounds Into Earnings: Q3 Still Needs to Deliver",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63058066/rocket-lab-stock-rebounds-into-earnings-q3-still-needs-to-deliver"
+  },
+  {
+   "time": "11-09 13:30",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "\u2018Texas Is Not For Sale': Gov.-Elect Gina Hinojosa Asks State to Hold Off on Boca Chica Land Near SpaceX's Starbase",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/63057669/texas-is-not-for-sale-gov-elect-gina-hinojosa-asks-state-to-hold-off-on-boca-chica-land-near-spacexs-starbase"
+  },
   {
    "time": "11-09 12:58",
    "symbols": [
@@ -58,9 +78,9 @@
     "NVDA"
    ],
    "rating": "",
-   "headline": "'Jensen Huang Disappears From An Nyc Conference Lineup After Affair Admission' - Business Insider",
+   "headline": "'Jensen Huang Disappears From Lineup At Anthropic And ElevenLabs Events' - Business Insider",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63052419/jensen-huang-disappears-nyc-conference-lineup-after-affair-admission-business-insider"
+   "url": "https://www.benzinga.com/news/26/11/63052419/jensen-huang-disappears-from-an-nyc-conference-lineup-after-affair-admission-business-insider"
   },
   {
    "time": "11-09 12:25",
