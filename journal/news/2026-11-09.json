@@ -1,7 +1,47 @@
 {
- "as_of": "2026-11-09T12:34-05:00",
+ "as_of": "2026-11-09T13:15-05:00",
  "since": "2026-11-06T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-09 12:58",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platforms Rolling Out Releasing Muse Ember On Meta Model API, Muse Code",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63055168/meta-platforms-rolling-out-releasing-muse-ember-meta-model-api-muse-code"
+  },
+  {
+   "time": "11-09 12:49",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Leo To Launch 40 Satellites On Its First Vulcan Mission",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63054464/amazon-leo-launch-40-satellites-its-first-vulcan-mission"
+  },
+  {
+   "time": "11-09 12:41",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Stock Climbs on Muse Launch Reports in UK",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63053758/meta-stock-climbs-on-muse-launch-reports-in-uk"
+  },
+  {
+   "time": "11-09 12:35",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "4 Financials Stocks Whale Activity In Today\u2019s Session",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/options/26/11/63053236/4-financials-stocks-whale-activity-today-s-session"
+  },
   {
    "time": "11-09 12:33",
    "symbols": [

@@ -1,4 +1,4 @@
-# Headlines since 2026-11-06 16:00 ET (as of 2026-11-09 12:34 ET)
+# Headlines since 2026-11-06 16:00 ET (as of 2026-11-09 13:15 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -16,6 +16,10 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-08 16:57 | NVDA | initiate | NVIDIA Board Initiates Independent Investigation Into Reported Foreign Intelligence Effort Targeting CEO Jensen Huang; Says Board Believes Not Either National Security Or NVIDIA Secrets Were Compromised |
 | 11-08 03:03 | META | target down | Inderes Lowers Price Target for Metacon |
 | 11-06 19:08 | COIN | target down | Freedom Broker Maintains Buy on Coinbase Global, Lowers Price Target to $175 |
+| 11-09 12:58 | META |  | Meta Platforms Rolling Out Releasing Muse Ember On Meta Model API, Muse Code |
+| 11-09 12:49 | AMZN |  | Amazon Leo To Launch 40 Satellites On Its First Vulcan Mission |
+| 11-09 12:41 | META |  | Meta Stock Climbs on Muse Launch Reports in UK |
+| 11-09 12:35 | COIN |  | 4 Financials Stocks Whale Activity In Today’s Session |
 | 11-09 12:33 | NVDA |  | QUICK SPARK: Nvidia Stock Eyes Worst Day Against S&P 500 Since DeepSeek's Shock |
 | 11-09 12:25 | NVDA |  | 'Jensen Huang Disappears From An Nyc Conference Lineup After Affair Admission' - Business Insider |
 | 11-09 12:25 | AAPL |  | Live On CNBC, Karen Firestone Announces Trimmed Apple Position |
