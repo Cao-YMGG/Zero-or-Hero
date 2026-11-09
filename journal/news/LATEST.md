@@ -1,9 +1,10 @@
-# Headlines since 2026-11-06 16:00 ET (as of 2026-11-09 11:33 ET)
+# Headlines since 2026-11-06 16:00 ET (as of 2026-11-09 12:03 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-09 11:52 | VST | target down | Scotiabank Maintains Sector Outperform on Vistra, Lowers Price Target to $169 |
 | 11-09 11:04 | WMT | rating | UBS Adjusts Walmart Price Target to $149 |
 | 11-09 10:12 | LLY | target up | Eli Lilly Gains After Jefferies Raises Price Target to Wall Street-High $1,700 |
 | 11-09 09:32 | INTC | rating | Evercore ISI Adjusts Intel Price Target to $131 From $133 |
@@ -15,6 +16,8 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-08 16:57 | NVDA | initiate | NVIDIA Board Initiates Independent Investigation Into Reported Foreign Intelligence Effort Targeting CEO Jensen Huang; Says Board Believes Not Either National Security Or NVIDIA Secrets Were Compromised |
 | 11-08 03:03 | META | target down | Inderes Lowers Price Target for Metacon |
 | 11-06 19:08 | COIN | target down | Freedom Broker Maintains Buy on Coinbase Global, Lowers Price Target to $175 |
+| 11-09 11:55 | COIN |  | Coinbase Joins Circle, Ripple With Federal Trust Charter |
+| 11-09 11:45 | AMZN META MSFT NVDA |  | Bill Ackman Says Jensen Huang ‘Has Done a Lot of Good for the World’: Hopes Damage From Affair Is ‘Minimal’ |
 | 11-09 11:25 | NVDA |  | QUICK SPARK: Nvidia Stock Eyes a Negative Streak Unseen Since 2012 |
 | 11-09 11:25 | GS |  | Goldman Sachs CEO Solomon Says Optimistic There'll Still Be Significant Amount Of Investment In Data Centers, Compute Capacity In U.S. |
 | 11-09 11:08 | NVDA |  | 'Commerce Dept. Chip Inquiry Was Halted After Nvidia Intervention' - The New York Times |

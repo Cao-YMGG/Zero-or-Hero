@@ -1,7 +1,40 @@
 {
- "as_of": "2026-11-09T11:33-05:00",
+ "as_of": "2026-11-09T12:03-05:00",
  "since": "2026-11-06T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-09 11:55",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Coinbase Joins Circle, Ripple With Federal Trust Charter",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63050080/coinbase-joins-circle-ripple-with-federal-trust-charter"
+  },
+  {
+   "time": "11-09 11:52",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "target down",
+   "headline": "Scotiabank Maintains Sector Outperform on Vistra, Lowers Price Target to $169",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63049811/scotiabank-maintains-sector-outperform-vistra-lowers-price-target-169"
+  },
+  {
+   "time": "11-09 11:45",
+   "symbols": [
+    "AMZN",
+    "META",
+    "MSFT",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Bill Ackman Says Jensen Huang \u2018Has Done a Lot of Good for the World\u2019: Hopes Damage From Affair Is \u2018Minimal\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63049256/bill-ackman-says-jensen-huang-has-done-a-lot-of-good-for-the-world-hopes-damage-from-affair-is-minimal"
+  },
   {
    "time": "11-09 11:25",
    "symbols": [
