@@ -1,4 +1,4 @@
-# Headlines since 2026-11-06 16:00 ET (as of 2026-11-09 13:45 ET)
+# Headlines since 2026-11-06 16:00 ET (as of 2026-11-09 14:15 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -16,6 +16,24 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-08 16:57 | NVDA | initiate | NVIDIA Board Initiates Independent Investigation Into Reported Foreign Intelligence Effort Targeting CEO Jensen Huang; Says Board Believes Not Either National Security Or NVIDIA Secrets Were Compromised |
 | 11-08 03:03 | META | target down | Inderes Lowers Price Target for Metacon |
 | 11-06 19:08 | COIN | target down | Freedom Broker Maintains Buy on Coinbase Global, Lowers Price Target to $175 |
+| 11-09 14:04 | NVDA |  | Short Nvidia, Long Drama: Traders Pile into Leveraged ETFs During Sell-Off |
+| 11-09 14:02 | V |  | Global Payments Integrates Visa API into Authentication Platform |
+| 11-09 14:02 | RKLB |  | Rocket Lab and Iridium Urge FCC to Approve Merger |
+| 11-09 14:02 | VST |  | Raymond James Adjusts Price Target on Vistra |
+| 11-09 14:02 | COIN |  | PNC Bank Partners with Coinbase for USDC Corporate Payments |
+| 11-09 14:01 | UNH |  | Surgery Partners Rejects $28 Per Share Bid from UnitedHealth Group |
+| 11-09 14:01 | GS |  | Goldman Sachs Files Major Holdings Notification for NORMA Group SE |
+| 11-09 14:01 | AMZN |  | Amazon Announces 'Early Haul-iday' Event and Expansion of Haul Marketplace |
+| 11-09 14:01 | META |  | JPMorgan Adds Meta Platforms to Analyst Focus List |
+| 11-09 14:01 | META |  | Meta Expands AI-Powered Age Estimation Technology Globally |
+| 11-09 14:01 | JPM |  | Typeface Inducted into JPMorgan Chase's 2026 Hall of Innovation |
+| 11-09 14:01 | AAPL |  | Apple Announces Multiyear Investment in Türkiye |
+| 11-09 14:01 | AAPL |  | Apple Introduces Paid 'Intelligence Usage Packs' for AI Features |
+| 11-09 14:01 | AAPL |  | Apple Releases iOS 27.2.1 Update |
+| 11-09 14:01 | TSLA |  | Tesla Expands Robotaxi Service to San Antonio |
+| 11-09 14:01 | TSLA |  | Tesla Begins Construction on $10.1 Billion Solar Manufacturing Facility in Texas |
+| 11-09 13:57 | NVDA |  | Jensen Huang Net Worth Takes a Hit: Nvidia CEO Loses Two Spots Among Top 10 Billionaires |
+| 11-09 13:57 | GOOGL |  | NHTSA Opens Recall Query Into Waymo Robotaxis For Continued Reports Of Passing Stopped School Buses After 2025 Software Recall |
 | 11-09 13:35 | RKLB |  | Rocket Lab Stock Rebounds Into Earnings: Q3 Still Needs to Deliver |
 | 11-09 13:30 | TSLA |  | ‘Texas Is Not For Sale': Gov.-Elect Gina Hinojosa Asks State to Hold Off on Boca Chica Land Near SpaceX's Starbase |
 | 11-09 12:58 | META |  | Meta Platforms Rolling Out Releasing Muse Ember On Meta Model API, Muse Code |

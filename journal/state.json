@@ -13,8 +13,8 @@
         "entry_price": 0.78,
         "peak": 0.78,
         "qty": 1,
-        "last": 0.18,
-        "last_time": "2026-11-09T13:45:28-05:00"
+        "last": 0.14,
+        "last_time": "2026-11-09T14:15:44-05:00"
       }
     },
     "leader_follow": {
@@ -28,7 +28,7 @@
         "peak": 0.95,
         "qty": 1,
         "last": 0.01,
-        "last_time": "2026-11-09T13:45:28-05:00"
+        "last_time": "2026-11-09T14:15:44-05:00"
       }
     },
     "rebound_scanner": {
@@ -41,8 +41,8 @@
         "entry_price": 0.2,
         "peak": 0.34,
         "qty": 4,
-        "last": 0.01,
-        "last_time": "2026-11-09T13:45:28-05:00"
+        "last": 0.03,
+        "last_time": "2026-11-09T14:15:44-05:00"
       }
     },
     "nvda_gapdown_put": {},
@@ -56,8 +56,8 @@
         "entry_price": 0.26,
         "peak": 0.26,
         "qty": 3,
-        "last": 0.18,
-        "last_time": "2026-11-09T13:45:28-05:00"
+        "last": 0.14,
+        "last_time": "2026-11-09T14:15:44-05:00"
       },
       "real": {
         "contract": "WMT261113C00131000",
@@ -77,8 +77,8 @@
         "entry_price": 0.26,
         "peak": 0.26,
         "qty": 17,
-        "last": 0.18,
-        "last_time": "2026-11-09T13:45:28-05:00"
+        "last": 0.14,
+        "last_time": "2026-11-09T14:15:44-05:00"
       }
     },
     "catalyst_intraday": {
@@ -94,8 +94,8 @@
         "entry_price": 4.23,
         "peak": 4.23,
         "qty": 1,
-        "last": 2.95,
-        "last_time": "2026-11-09T13:45:28-05:00"
+        "last": 3.36,
+        "last_time": "2026-11-09T14:15:44-05:00"
       }
     },
     "spy_open_drive": {
@@ -108,8 +108,8 @@
         "entry_price": 0.37,
         "peak": 0.99,
         "qty": 2,
-        "last": 0.59,
-        "last_time": "2026-11-09T13:45:28-05:00"
+        "last": 0.5,
+        "last_time": "2026-11-09T14:15:44-05:00"
       }
     },
     "spy_open_drive_put": {},
@@ -124,7 +124,7 @@
         "peak": 0.65,
         "qty": 1,
         "last": 0.01,
-        "last_time": "2026-11-09T13:45:28-05:00"
+        "last_time": "2026-11-09T14:15:44-05:00"
       },
       "real": {
         "contract": "TSLA261109C00385000",

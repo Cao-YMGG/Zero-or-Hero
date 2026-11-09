@@ -1,7 +1,187 @@
 {
- "as_of": "2026-11-09T13:45-05:00",
+ "as_of": "2026-11-09T14:15-05:00",
  "since": "2026-11-06T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-09 14:04",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Short Nvidia, Long Drama: Traders Pile into Leveraged ETFs During Sell-Off",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/specialty-etfs/26/11/63060246/short-nvidia-long-drama-traders-pile-into-leveraged-etfs-during-sell-off"
+  },
+  {
+   "time": "11-09 14:02",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Global Payments Integrates Visa API into Authentication Platform",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/global-payments-adds-visa-api-to-authentication-platform-ce785fd3df89f724"
+  },
+  {
+   "time": "11-09 14:02",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Rocket Lab and Iridium Urge FCC to Approve Merger",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:56927ab441e98:0-weekly-recap-iridium-bid-faces-fcc-review-and-neutron-dome-awaits-checks/"
+  },
+  {
+   "time": "11-09 14:02",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "",
+   "headline": "Raymond James Adjusts Price Target on Vistra",
+   "source": "fiscal.ai",
+   "url": "https://news.futunn.com/post/1003901316/raymond-james-adjusts-price-target-on-vistra-to-178-from"
+  },
+  {
+   "time": "11-09 14:02",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "PNC Bank Partners with Coinbase for USDC Corporate Payments",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/pnc-bank-launches-incoming-stablecoin-payments-for-corporate-and-institutional-banking-clients-302932728.html"
+  },
+  {
+   "time": "11-09 14:01",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "Surgery Partners Rejects $28 Per Share Bid from UnitedHealth Group",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/surgery-partners-said-to-reject-28-share-bid-from-unitedhealth-bloomberg-reports-ce785fd3df8cf220"
+  },
+  {
+   "time": "11-09 14:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Files Major Holdings Notification for NORMA Group SE",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:6a0af61a3d97a:0-norma-group-se-noej-receives-goldman-sachs-voting-rights-notification/"
+  },
+  {
+   "time": "11-09 14:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Announces 'Early Haul-iday' Event and Expansion of Haul Marketplace",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/commerce/2026/amazon-haul-launches-pre-holiday-deals-as-users-jump-350percent/"
+  },
+  {
+   "time": "11-09 14:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Adds Meta Platforms to Analyst Focus List",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/stocktwits:c083f9213094b:0-meta-amzn-stocks-jump-as-jpmorgan-picks-pair-over-alphabet-sees-stronger-ai-returns-cloud-growth/"
+  },
+  {
+   "time": "11-09 14:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Expands AI-Powered Age Estimation Technology Globally",
+   "source": "fiscal.ai",
+   "url": "https://www.techdogs.com/tech-news/td-newsdesk/meta-expands-instagram-ai-age-detection-worldwide-even-for-teens-using-adult-birthdays"
+  },
+  {
+   "time": "11-09 14:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "Typeface Inducted into JPMorgan Chase's 2026 Hall of Innovation",
+   "source": "fiscal.ai",
+   "url": "https://www.digitaljournal.com/pr/news/access-newswire/typeface-inducted-jpmorganchase-s-2026-hall-1680449666.html"
+  },
+  {
+   "time": "11-09 14:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Announces Multiyear Investment in T\u00fcrkiye",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/5nzgplq/"
+  },
+  {
+   "time": "11-09 14:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Introduces Paid 'Intelligence Usage Packs' for AI Features",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/seekingalpha:4683431d2094b:0-apple-adds-ability-to-buy-extra-usage-in-creator-studio-in-ai-monetization-push/"
+  },
+  {
+   "time": "11-09 14:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Releases iOS 27.2.1 Update",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/o6s1yss/"
+  },
+  {
+   "time": "11-09 14:01",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Expands Robotaxi Service to San Antonio",
+   "source": "fiscal.ai",
+   "url": "https://www.techdogs.com/tech-news/td-newsdesk/tesla-expands-robotaxis-to-san-antonio-as-musk-plans-to-refund-some-cybertruck-customers"
+  },
+  {
+   "time": "11-09 14:01",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Begins Construction on $10.1 Billion Solar Manufacturing Facility in Texas",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/stocktwits:60199669d094b:0-tesla-kicks-off-work-on-project-crystal-sun-its-biggest-us-solar-bet-yet/"
+  },
+  {
+   "time": "11-09 13:57",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Jensen Huang Net Worth Takes a Hit: Nvidia CEO Loses Two Spots Among Top 10 Billionaires",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63059675/jensen-huang-net-worth-takes-a-hit-nvidia-ceo-loses-two-spots-among-top-10-billionaires"
+  },
+  {
+   "time": "11-09 13:57",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "NHTSA Opens Recall Query Into Waymo Robotaxis For Continued Reports Of Passing Stopped School Buses After 2025 Software Recall",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63059655/nhtsa-opens-recall-query-waymo-robotaxis-continued-reports-passing-stopped-school-buses-after-2025-s"
+  },
   {
    "time": "11-09 13:35",
    "symbols": [
