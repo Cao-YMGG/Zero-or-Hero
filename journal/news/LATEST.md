@@ -1,9 +1,10 @@
-# Headlines since 2026-11-06 16:00 ET (as of 2026-11-09 11:03 ET)
+# Headlines since 2026-11-06 16:00 ET (as of 2026-11-09 11:33 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-09 11:04 | WMT | rating | UBS Adjusts Walmart Price Target to $149 |
 | 11-09 10:12 | LLY | target up | Eli Lilly Gains After Jefferies Raises Price Target to Wall Street-High $1,700 |
 | 11-09 09:32 | INTC | rating | Evercore ISI Adjusts Intel Price Target to $131 From $133 |
 | 11-09 08:51 | NVDA | rating | RBC Capital Reiterates Outperform on NVIDIA, Maintains $330 Price Target |
@@ -14,6 +15,11 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-08 16:57 | NVDA | initiate | NVIDIA Board Initiates Independent Investigation Into Reported Foreign Intelligence Effort Targeting CEO Jensen Huang; Says Board Believes Not Either National Security Or NVIDIA Secrets Were Compromised |
 | 11-08 03:03 | META | target down | Inderes Lowers Price Target for Metacon |
 | 11-06 19:08 | COIN | target down | Freedom Broker Maintains Buy on Coinbase Global, Lowers Price Target to $175 |
+| 11-09 11:25 | NVDA |  | QUICK SPARK: Nvidia Stock Eyes a Negative Streak Unseen Since 2012 |
+| 11-09 11:25 | GS |  | Goldman Sachs CEO Solomon Says Optimistic There'll Still Be Significant Amount Of Investment In Data Centers, Compute Capacity In U.S. |
+| 11-09 11:08 | NVDA |  | 'Commerce Dept. Chip Inquiry Was Halted After Nvidia Intervention' - The New York Times |
+| 11-09 11:03 | META |  | Meta Reportedly Partnering with Consulting Firms to Expand AI Product Sales |
+| 11-09 11:03 | META |  | Meta Chief Strategy Officer Dave Wehner to Depart for AI Startup Fireworks |
 | 11-09 11:02 | GS |  | Goldman Sachs Strategists Warn of 2027 Equity Supply Shock |
 | 11-09 11:02 | GS |  | Goldman Sachs Reports Minimal Impact of SpaceX on Nasdaq-100 Performance |
 | 11-09 11:02 | GS |  | Goldman Sachs Analyzes European Equity Potential Amid AI Shift |
@@ -23,6 +29,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-09 11:01 | AMZN |  | Deerfield Management Announces Collaboration with AWS for Healthcare AI Development |
 | 11-09 11:01 | JPM |  | Akamai Technologies Amends Credit Agreement with JPMorgan Chase |
 | 11-09 11:01 | AAPL |  | Apple Discloses Tax Savings from Earnings Allocation to Singapore |
+| 11-09 11:00 | UNH |  | UnitedHealth Is Said To Have Bid $28 Per Share For Surgery Partners |
 | 11-09 10:43 | AVGO |  | What Is Going on With Broadcom Stock on Monday? |
 | 11-09 10:36 | NVDA |  | Stock of the Day: Where is the Bottom for NVIDIA? |
 | 11-09 10:13 | LLY |  | FDA Requires Safety Labeling Changes for Glucagon-Like Peptide-1 Receptor Agonists Due to Potential Increased Risk of Rare But Serious Eye Condition |

@@ -1,7 +1,67 @@
 {
- "as_of": "2026-11-09T11:03-05:00",
+ "as_of": "2026-11-09T11:33-05:00",
  "since": "2026-11-06T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-09 11:25",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "QUICK SPARK: Nvidia Stock Eyes a Negative Streak Unseen Since 2012",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63047062/nvidia-stock-six-week-losing-streak-2012-jensen-huang-probe"
+  },
+  {
+   "time": "11-09 11:25",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs CEO Solomon Says Optimistic There'll Still Be Significant Amount Of Investment In Data Centers, Compute Capacity In U.S.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63047044/goldman-sachs-ceo-solomon-says-optimistic-there-ll-still-be-significant-amount-investment-data-cente"
+  },
+  {
+   "time": "11-09 11:08",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "'Commerce Dept. Chip Inquiry Was Halted After Nvidia Intervention' - The New York Times",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/government/26/11/63045335/commerce-dept-chip-inquiry-was-halted-after-nvidia-intervention-new-york-times"
+  },
+  {
+   "time": "11-09 11:04",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "rating",
+   "headline": "UBS Adjusts Walmart Price Target to $149",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/ubs-adjusts-walmart-price-target-to-149-from-130-maintains-buy-rating-ce785fd3dc88f525"
+  },
+  {
+   "time": "11-09 11:03",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Reportedly Partnering with Consulting Firms to Expand AI Product Sales",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/meta-forging-relationships-with-consulting-firms-to-sell-ai-products-to-corporate-customers-ce785fd3dc8ef020"
+  },
+  {
+   "time": "11-09 11:03",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Chief Strategy Officer Dave Wehner to Depart for AI Startup Fireworks",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/personnel/2026/meta-strategy-chief-dave-wehner-departs-ai-startup-fireworks/"
+  },
   {
    "time": "11-09 11:02",
    "symbols": [
@@ -91,6 +151,16 @@
    "headline": "Apple Discloses Tax Savings from Earnings Allocation to Singapore",
    "source": "fiscal.ai",
    "url": "https://www.tradingview.com/news/seekingalpha:05506371d094b:0-apple-cut-tax-bill-by-2-7b-by-moving-some-earnings-to-singapore/"
+  },
+  {
+   "time": "11-09 11:00",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "UnitedHealth Is Said To Have Bid $28 Per Share For Surgery Partners",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63044528/unitedhealth-said-have-bid-28-share-surgery-partners"
   },
   {
    "time": "11-09 10:43",
