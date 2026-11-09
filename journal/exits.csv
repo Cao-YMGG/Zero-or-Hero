@@ -95,3 +95,4 @@ date,variant,mode,contract,entry_price,exit_price,peak,exit_reason
 2026-11-06,catalyst_open_hero,shadow,LLY261106C01390000,2.36,0,3.87,time
 2026-11-06,catalyst_intraday,shadow,GE261106C00330000,0.54,0.01,0.54,time
 2026-11-06,catalyst_intraday_hero,shadow,GE261106C00330000,0.57,0.01,0.57,time
+2026-11-09,spy_open_drive,shadow,SPY261109C00753000,0.37,1.405,2.23,trail

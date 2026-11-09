@@ -1,4 +1,4 @@
-# Headlines since 2026-11-06 16:00 ET (as of 2026-11-09 14:15 ET)
+# Headlines since 2026-11-06 16:00 ET (as of 2026-11-09 14:45 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -16,6 +16,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-08 16:57 | NVDA | initiate | NVIDIA Board Initiates Independent Investigation Into Reported Foreign Intelligence Effort Targeting CEO Jensen Huang; Says Board Believes Not Either National Security Or NVIDIA Secrets Were Compromised |
 | 11-08 03:03 | META | target down | Inderes Lowers Price Target for Metacon |
 | 11-06 19:08 | COIN | target down | Freedom Broker Maintains Buy on Coinbase Global, Lowers Price Target to $175 |
+| 11-09 14:16 | AMD GOOGL NVDA |  | AMD Lands Key Role in Google's New AI Chip System as Nvidia Rivalry Intensifies |
 | 11-09 14:04 | NVDA |  | Short Nvidia, Long Drama: Traders Pile into Leveraged ETFs During Sell-Off |
 | 11-09 14:02 | V |  | Global Payments Integrates Visa API into Authentication Platform |
 | 11-09 14:02 | RKLB |  | Rocket Lab and Iridium Urge FCC to Approve Merger |
