@@ -1,7 +1,117 @@
 {
- "as_of": "2026-11-09T10:33-05:00",
+ "as_of": "2026-11-09T11:03-05:00",
  "since": "2026-11-06T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-09 11:02",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Strategists Warn of 2027 Equity Supply Shock",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1003997008/goldman-sachs-gsus-warns-us-stocks-to-face-largest-supply"
+  },
+  {
+   "time": "11-09 11:02",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Reports Minimal Impact of SpaceX on Nasdaq-100 Performance",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/gurufocus:ca8fbb943094b:0"
+  },
+  {
+   "time": "11-09 11:02",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Analyzes European Equity Potential Amid AI Shift",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/2026110952/as-ai-trade-falters-goldman-sachs-says-this-lagging-region-is-now-positioned-to-outperform"
+  },
+  {
+   "time": "11-09 11:01",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly's Foundayo Meets Primary Endpoint in Phase 3 Sleep Apnea Trial",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/dow-jones/202611097009/eli-lilly-says-foundayo-shows-promise-in-treating-sleep-apnea"
+  },
+  {
+   "time": "11-09 11:01",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "",
+   "headline": "Broadcom Inc. to Announce Fourth Quarter and Fiscal Year 2026 Financial Results",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/press-releases/8733422/broadcom-inc-to-announce-fourth-quarter-and-fiscal-year-2026-financial-results-on-wednesday-december-9-2026"
+  },
+  {
+   "time": "11-09 11:01",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "UnitedHealthcare Provider Network Updates in Florida",
+   "source": "fiscal.ai",
+   "url": "https://www.einpresswire.com/article/954806597/orthopedic-center-of-florida-welcomes-unitedhealthcare-members-for-orthopedic-care-in-southwest-florida"
+  },
+  {
+   "time": "11-09 11:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Deerfield Management Announces Collaboration with AWS for Healthcare AI Development",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/deerfield-management-announces-collaboration-with-aws-to-accelerate-ai-driven-healthcare-innovation-and-care-delivery-302931285.html"
+  },
+  {
+   "time": "11-09 11:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "Akamai Technologies Amends Credit Agreement with JPMorgan Chase",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:6d53922903065:0-akamai-amends-credit-agreement-raising-leverage-limits-through-march-2028/"
+  },
+  {
+   "time": "11-09 11:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Discloses Tax Savings from Earnings Allocation to Singapore",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/seekingalpha:05506371d094b:0-apple-cut-tax-bill-by-2-7b-by-moving-some-earnings-to-singapore/"
+  },
+  {
+   "time": "11-09 10:43",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "",
+   "headline": "What Is Going on With Broadcom Stock on Monday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63042775/what-is-going-on-with-broadcom-stock-on-monday"
+  },
+  {
+   "time": "11-09 10:36",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Stock of the Day: Where is the Bottom for NVIDIA?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/technicals/26/11/63041933/stock-of-the-day-where-is-the-bottom-for-nvidia-2"
+  },
   {
    "time": "11-09 10:13",
    "symbols": [
