@@ -1,7 +1,67 @@
 {
- "as_of": "2026-11-09T12:03-05:00",
+ "as_of": "2026-11-09T12:34-05:00",
  "since": "2026-11-06T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-09 12:33",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "QUICK SPARK: Nvidia Stock Eyes Worst Day Against S&P 500 Since DeepSeek's Shock",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63053048/nvidia-stock-worst-day-vs-sp-500-since-deepseek"
+  },
+  {
+   "time": "11-09 12:25",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "'Jensen Huang Disappears From An Nyc Conference Lineup After Affair Admission' - Business Insider",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63052419/jensen-huang-disappears-nyc-conference-lineup-after-affair-admission-business-insider"
+  },
+  {
+   "time": "11-09 12:25",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Live On CNBC, Karen Firestone Announces Trimmed Apple Position",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AAPL"
+  },
+  {
+   "time": "11-09 12:20",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Jensen Huang\u2019s Scandal Could Hit CoreWeave, Nebius Where It Hurts",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63052004/jensen-huangs-scandal-could-hit-coreweave-nebius-where-it-hurts"
+  },
+  {
+   "time": "11-09 12:14",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "",
+   "headline": "Live On CNBC, Karen Firestone Announces Bought More Broadcom",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AVGO"
+  },
+  {
+   "time": "11-09 12:07",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs CEO, When Asked About Anthropic IPO Says Market Is Open; Transactions Are Occurring, We\u2019ll See; Declines To Comment On IPO",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63050919/goldman-sachs-ceo-when-asked-about-anthropic-ipo-says-market-open-transactions-are-occurring-we-ll-s"
+  },
   {
    "time": "11-09 11:55",
    "symbols": [
