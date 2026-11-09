@@ -1,49 +1,22 @@
 {
   "date": "2026-11-09",
-  "done": false,
+  "done": true,
   "variants": {
     "claude_bias": {},
     "meta_follow2": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "META261109C00647500",
-        "direction": "call",
-        "entry_time": "2026-11-09T13:03:03-05:00",
-        "entry_price": 0.78,
-        "peak": 0.95,
-        "qty": 1,
-        "last": 0.77,
-        "last_time": "2026-11-09T15:16:01-05:00"
-      }
+      "closed": true
     },
     "leader_follow": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "TSLA261109C00385000",
-        "direction": "call",
-        "entry_time": "2026-11-09T09:46:35-05:00",
-        "entry_price": 0.78,
-        "peak": 0.95,
-        "qty": 1,
-        "last": 0.03,
-        "last_time": "2026-11-09T15:16:01-05:00"
-      }
+      "closed": true
     },
     "rebound_scanner": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "NVDA261109C00185000",
-        "direction": "call",
-        "entry_time": "2026-11-09T09:46:35-05:00",
-        "entry_price": 0.2,
-        "peak": 0.34,
-        "qty": 4,
-        "last": 0.03,
-        "last_time": "2026-11-09T15:16:01-05:00"
-      }
+      "closed": true
     },
     "nvda_gapdown_put": {},
     "catalyst_open": {
@@ -57,7 +30,7 @@
         "peak": 0.26,
         "qty": 3,
         "last": 0.16,
-        "last_time": "2026-11-09T15:16:01-05:00"
+        "last_time": "2026-11-09T15:45:14-05:00"
       },
       "real": {
         "contract": "WMT261113C00131000",
@@ -65,7 +38,8 @@
         "underlying": "WMT",
         "entry_price": 0.24,
         "entry_time": "2026-11-09T09:33:20-05:00"
-      }
+      },
+      "hold": true
     },
     "catalyst_open_hero": {
       "attempts": 1,
@@ -78,8 +52,9 @@
         "peak": 0.26,
         "qty": 17,
         "last": 0.16,
-        "last_time": "2026-11-09T15:16:01-05:00"
-      }
+        "last_time": "2026-11-09T15:45:14-05:00"
+      },
+      "hold": true
     },
     "catalyst_intraday": {
       "attempts": 3
@@ -94,9 +69,10 @@
         "entry_price": 4.23,
         "peak": 4.23,
         "qty": 1,
-        "last": 3.99,
-        "last_time": "2026-11-09T15:16:01-05:00"
-      }
+        "last": 3.25,
+        "last_time": "2026-11-09T15:45:14-05:00"
+      },
+      "hold": true
     },
     "spy_open_drive": {
       "attempts": 1,
@@ -107,23 +83,7 @@
     "stock_open_drive": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "TSLA261109C00385000",
-        "direction": "call",
-        "entry_time": "2026-11-09T10:01:19-05:00",
-        "entry_price": 0.58,
-        "peak": 0.65,
-        "qty": 1,
-        "last": 0.03,
-        "last_time": "2026-11-09T15:16:01-05:00"
-      },
-      "real": {
-        "contract": "TSLA261109C00385000",
-        "qty": 1,
-        "underlying": "TSLA",
-        "entry_price": 0.56,
-        "entry_time": "2026-11-09T10:02:58-05:00"
-      }
+      "closed": true
     }
   },
   "generation": 1,
