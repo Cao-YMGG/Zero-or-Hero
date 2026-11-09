@@ -1,6 +1,15 @@
 {
  "date": "2026-11-09",
- "picks": [],
+ "picks": [
+  {
+   "time": "13:18",
+   "symbol": "LLY",
+   "direction": "call",
+   "confidence": 0.35,
+   "catalyst": "In-session own news, still being bought: 09:33 ET Lilly announced Foundayo (orforglipron) met the primary endpoint at week 52 in the ATTAIN-OSA Phase 3 (apnea-hypopnea index down 44% avg, 28 lb weight loss; FDA filing by end-2026), presented at AHA and published in JAMA; 10:12 Jefferies raised its target to a Street-high $1,700 on the international GLP-1 opportunity; Canada's Drug Agency recommended public reimbursement for Kisunla. LLY absorbed the negative 10:13 FDA GLP-1 eye-condition label headline (dip to 1,388 at 11:10), based 1,393-1,400 for two hours and broke to new session highs from 12:20 (1,392) to 1,410 at 13:15: +4.1% on the day, +2.7% from its 1,372.39 open (under the 3% line), outpacing SPY (+2.4%) by 1.7 points. Health theme neutral with BREADTH_UP (not turning); reported 10-29, no report window. Nearest expiry Friday 11-13 (no same-day options). Risks: the news is 3-4 hours old, the stock is +4% already and 11-02 AMZN topped minutes after a +4%-from-open pick; a 20% stake of the main ledger (~$92) cannot buy a >= 0.06-delta LLY weekly, so the real leg may find nothing and the result may come from the hero shadow only; CPI tomorrow 08:30 for any carried contract.",
+   "catalyst_zh": "礼来 09:33 公布口服 GLP-1 药 Foundayo 的睡眠呼吸暂停三期试验达到主要终点（AHI 平均降 44%、减重 28 磅，年底前报 FDA），10:12 Jefferies 把目标价提到华尔街最高的 1,700 美元，加拿大药监也建议公费报销其阿尔茨海默药。股价吸收了 10:13 FDA 给 GLP-1 类加眼病标签的利空后，横盘两小时，12:20 起重新走高，13:15 创日内新高 1,410（全天 +4.1%、离开盘价 +2.7%，还在 3% 线内），医药主题中性偏强，不是转向主题。风险：消息已过 3–4 小时、今天已涨 4%，且 $92 本金可能买不到足够近的周权，真单可能空手、只有影子有结果。"
+  }
+ ],
  "check_1016": "10:17 ET, no pick. SPY 748.78 (+1.8% on the day, +0.9% from its 741.93 open), QQQ +2.7% (+1.7% from open), SMH 481 (+3.7%, +3.5% from open), IWM +2.1%, VIXY -9.7%, XLY +2.7%, XLF +1.0%, XLV +0.7%, USO -2.9%, TLT flat. The NVDA scare reversed at the open: NVDA 178.35 (-4.4% on the day but +3.1% from its 173.04 open), so nvda_gapdown_put did not fire (above its open at 10:00) and rebound_scanner's 09:45 call is the side that is winning; the bot also entered spy_open_drive (SPY +0.9% from open at 10:00), stock_open_drive (TSLA), leader_follow, catalyst_open (WMT sniper) and the hero shadow. Leaders: AMD 490 (+9.2%, +3.4% from open; Oppenheimer upgrade), AVGO +7.5%, MRVL +8.5%, LITE +11%, MU +5.7%, TSM +4.1%, INTC +4.2% (chips: turning theme, no call picks); TSLA 376.8 (+5.2%, +4.6% from open on Musk's Cybertruck deposit-refund / extra-shift posts, a pre-market catalyst past the 3% line, and stock_open_drive already holds it); GEV +6.9% (+2.8% from open), VST +5.8% (power bounce, only a small German wind order of its own); GS +4.2% (+1.9%), META +5.0% (+1.5%; The Information: enterprise sales team), AMZN +4.3% (+0.5%), GOOGL +3.4% (+0.5%), AAPL +2.1% (+1.4%), MSFT +1.9% (-0.8% from open). LLY 1390 (+2.7%, +1.3% from open) has the only fresh in-session catalyst of its own: 09:33 Foundayo met the primary endpoint in the ATTAIN-OSA Phase 3 (JAMA, AHA sessions), Jefferies raised its target to a Street-high $1,700 and Canada recommended Kisunla; not picked because at 10:13 the FDA announced GLP-1 class label changes for a rare eye condition (NAION), a sector negative crossing the trial news, and because the $92 stake cannot buy a 0.06+-delta LLY weekly call (the real order would be skipped; only the hero shadow could trade it). Puts: nothing is below its open among the mega caps except MSFT (-0.8%); the put mirror is not armed (SMH +3.5% from its open). Sniper check: WMT 124.67 (-0.7% on the day, +0.1% from its 124.53 open, low 123.58): flat, the JPM raise is not moving it.",
  "conditional_1121": "The put mirror arms only if SMH falls back below its open (464.93) by 11:21 with a chip below its own open and outside a report window; at 10:17 every chip is 3-9% above its open, so the weakest-chip candidate does not exist yet (MSFT is the only mega cap below its open, not a chip). A call pick at 11:21 needs an in-session catalyst on a non-chip name within 3% of its open: LLY qualifies on news if it absorbs the FDA label headline and stays above 1,372; otherwise nothing.",
  "structure": {
@@ -9,10 +18,11 @@
    "prior_close": 735.29,
    "p1000": 747.75,
    "p1017": 748.78,
-   "high": 751.76,
+   "high": 752.96,
    "low": 741.09,
-   "state": "higher highs through 11:00 (751.76), holding 750; above VWAP; no lower high yet",
-   "p1121": 750.13
+   "state": "still making session highs at 13:15; +1.45% from open; the gap-and-go held, no 10:00 high fade",
+   "p1121": 750.13,
+   "p1318": 752.66
   },
   "QQQ": {
    "open": 662.87,
@@ -21,8 +31,9 @@
    "p1017": 673.94,
    "high": 678.85,
    "low": 662.02,
-   "state": "higher highs through 11:00 (678.85), small pullback",
-   "p1121": 675.89
+   "state": "+2.1% from open, 0.3% under the 678.85 high; platforms fading from their opens while chips and AAPL carry it",
+   "p1121": 675.89,
+   "p1318": 677.01
   },
   "SMH": {
    "open": 464.93,
@@ -31,8 +42,9 @@
    "p1017": 481.0,
    "high": 488.45,
    "low": 462.88,
-   "state": "high 488.45 at 11:00, pulled back 1% since; +3.9% from open, mirror far from arming",
-   "p1121": 483.29
+   "state": "+4.2% from open, 0.9% under the 11:00 high; mirror never armed",
+   "p1121": 483.29,
+   "p1318": 484.3
   },
   "NVDA": {
    "open": 173.04,
@@ -41,17 +53,19 @@
    "p1017": 178.35,
    "high": 179.92,
    "low": 170.24,
-   "state": "lower high after 11:00 (179.92 at 10:55, then 175.3 at 11:15), still +1.9% above its open",
-   "p1121": 176.26
+   "state": "+2.3% from open, lower highs since 10:55 (179.92); -5.2% on the day",
+   "p1121": 176.26,
+   "p1318": 176.94
   },
   "LLY": {
    "open": 1372.39,
    "prior_close": 1354.0,
    "p1017": 1390.32,
-   "high": 1402.26,
+   "high": 1411.0,
    "low": 1364.58,
-   "state": "absorbed the 10:13 FDA label headline, high 1402 at 10:45, +1.5% from open",
-   "p1121": 1393.15
+   "state": "two-hour base 1,393-1,400 then new highs from 12:20; +2.7% from open at the pick",
+   "p1121": 1393.15,
+   "p1318": 1409.71
   },
   "COIN": {
    "open": 131.36,
@@ -61,6 +75,22 @@
    "high": 139.75,
    "low": 131.12,
    "state": "+5.0% from open, high 139.75 at 11:00, fading into the check-in"
+  },
+  "META": {
+   "open": 631.05,
+   "prior_close": 610.15,
+   "p1318": 642.57,
+   "high": 644.54,
+   "low": 630.0,
+   "state": "+1.8% from open, flat 641-643 since 12:05 through the 12:41/12:58 Muse headlines"
+  },
+  "AMZN": {
+   "open": 269.32,
+   "prior_close": 259.3,
+   "p1318": 268.09,
+   "high": 275.31,
+   "low": 267.72,
+   "state": "-0.5% from open, -2.6% from the high; no negative news"
   }
  },
  "opportunities": [
@@ -135,8 +165,27 @@
    "action": "none",
    "why": "Final OCC approval of the national trust-bank charter (pre-market) and PNC Bank accepting USDC payments for corporate clients through Coinbase (10:08 ET, in-session). COIN 137.9: +2.4% on the day, +5.0% from its 131.36 open (Friday's 52-week low), +1.0% since the PNC headline but off the 139.75 high at 11:00. An extended leader fading at the check-in, Friday-only options; not picked. Scored from 11:21.",
    "why_zh": "Coinbase 拿到国民信托银行牌照的最终批准（盘前），10:08 又有 PNC 银行宣布企业客户可通过 Coinbase 收 USDC 稳定币付款。股价从开盘已 +5.0%（周五还是 52 周新低），消息后只再涨 1%，11:00 见高 139.75 后在回落。离开盘价太远、检查时正在回落，不选，从 11:21 起打分。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "META",
+   "direction": "call",
+   "time": "13:18",
+   "action": "none",
+   "why": "12:41 Meta climbs on Muse launch reports in the UK; 12:58 Muse Ember on the Meta Model API and Muse Code. META 642.6 (+5.3% on the day, +1.8% from its 631.05 open) but flat 641-643 since 12:05: the headlines did not move it, so the tape does not agree. Internet theme neutral. Scored from 13:18.",
+   "why_zh": "12:41 报道 Meta 在英国发布 Muse，12:58 Muse Ember 上线 Meta 模型 API、Muse Code 发布。META 全天 +5.3%、离开盘 +1.8%，但 12:05 以来一直横在 641–643，消息没有带来新的买盘，走势不配合，只记录不选。"
+  },
+  {
+   "type": "relative_weakness",
+   "symbol": "AMZN",
+   "direction": "put",
+   "time": "13:18",
+   "action": "none",
+   "why": "AMZN 268.1: +3.4% on the day but -0.5% from its open and -2.6% from the 275.31 high while SPY is +1.45% from its open; the 12:49 Amazon Leo satellite launch is not a negative and there is no negative news anywhere, so relative weakness alone is not a put case (rule). Scored from 13:18.",
+   "why_zh": "亚马逊全天 +3.4% 但已跌回开盘价下方 0.5%、离日高 -2.6%，而 SPY 对开盘 +1.45%：平台股在被卖、资金去了芯片和礼来。但没有任何利空消息（12:49 的 Leo 卫星发射是中性偏好），规则不允许只凭相对弱势做看跌，记录不选。"
   }
  ],
  "check_1121": "11:21 ET, no pick; the put mirror is not armed. SPY 750.13 (+2.0% on the day, +1.1% from open; high 751.76 at 11:00), QQQ 675.9 (+3.0%, +2.0% from open), SMH 483.3 (+4.2%, +3.9% from its 464.93 open; high 488.45 at 11:00, a small pullback since), IWM +2.7%, VIXY -10%, XLY +2.8%, XLF +1.4%, XLV +1.1%, XLE +0.8%, USO -3.0%, TLT flat. Chips are all 4-12% above their opens (AMD 501, +11.6% on the day; AVGO +8.7%, MRVL +10%, LITE +12.5%, MU +6.6%, TSM +3.9%, INTC +3.9%), so there is no weakest chip below its open and the mirror's condition (SMH back under its open) is nowhere near; chips stay a turning theme, so no call pick on them either. NVDA 176.26 (-5.6% on the day, +1.9% from its 173.04 open, fading from a 179.92 high at 10:55): the probe name is the only chip giving ground, a lower high after 11:00 but still above its open; no pick (turning theme, not a mirror case). Leaders outside chips: TSLA 378 (+5.6%, +5.0% from open; pre-market Musk catalyst, held by stock_open_drive), GEV 829 (+7.1%, +3.1% from open) and VST 133 (+6.8%, +4.1% from open) with no fresh news of their own (power bounce), GS 904 (+4.4%, +2.1% from open) with no own news, PLTR +6.0%. LLY 1393 (+2.9%, +1.5% from open): it absorbed the 10:13 FDA GLP-1 label headline (ran to 1402 at 10:45, now 1393); the 09:33 trial result and the Jefferies $1,700 target are the only in-session own-news catalyst, but the move is two hours old and the $92 stake cannot buy a 0.06+-delta LLY weekly call, so it stays an opportunity. COIN 137.9 (+2.4% on the day, +5.0% from its 131.36 open, 52-week low Friday): the trust-bank charter approval (pre-market) plus PNC accepting USDC payments through Coinbase (10:08, in-session); +1.0% since that headline but off its 139.75 high at 11:00, an extended leader fading at the check-in: opportunity, not a pick. AI spenders cooled from their opens: MSFT -0.9%, AMZN -0.5%, GOOGL -0.5% from open; META +1.3%, AAPL +1.5%. Sniper check: WMT 124.18 (-1.1% on the day, -0.3% from open, low 123.58): the JPM raise did not carry.",
- "conditional_1316": "A 13:16 pick needs an in-session catalyst on a non-chip name within 3% of its open and moving its way; LLY (above 1,372) and COIN (above 136) are the two names with news if they resume. The put mirror needs SMH back below 464.93 with a chip below its own open; at +3.9% from open that is a 4% slide away. If SPY loses 741.93 (its open) the day flips from gap-and-go to the 11-05/11-06 pattern; until then no index pick either way."
+ "conditional_1316": "A 13:16 pick needs an in-session catalyst on a non-chip name within 3% of its open and moving its way; LLY (above 1,372) and COIN (above 136) are the two names with news if they resume. The put mirror needs SMH back below 464.93 with a chip below its own open; at +3.9% from open that is a 4% slide away. If SPY loses 741.93 (its open) the day flips from gap-and-go to the 11-05/11-06 pattern; until then no index pick either way.",
+ "check_1316": "13:18 ET: pick LLY call 0.35 (above). Index: SPY 752.66 (+2.4% on the day, +1.45% from open, high 752.96 at 13:1x, still making highs), QQQ 677.0 (+3.2%, +2.1% from open, off the 678.85 high), SMH 484.3 (+4.4%, +4.2% from open; high 488.45 at 11:00; +4.2% from open, the put mirror is nowhere near its 464.93 arm line), VIXY 18.64 (-11.4%). Chips: AMD 503 (+12.1%, +6.2% from open, new high 505.55), AVGO 320 (+9.0%), MU 727 (+5.4%, off the 744.74 high), NVDA 176.9 (-5.2%, +2.3% from open, lower highs since 10:55): turning theme, pre-market catalysts, 6%+ from their opens -> no call picks, no mirror. Platforms fading from their opens while the index rises: AMZN 268.1 (+3.4% on the day but -0.5% from its 269.32 open and -2.6% from the 275.31 high; 12:49 Amazon Leo satellite launch is not a negative), GOOGL 290.2 (-0.9% from open), MSFT 543.8 (-0.2% from open); relative weakness without negative news is not a put case. META 642.6 (+5.3%, +1.8% from open): 12:41 'Meta climbs on Muse launch reports in UK' and 12:58 'Muse Ember on Meta Model API, Muse Code' did not move it, flat 641-643 since 12:05 (meta_follow2 shadow bought a 647.5C at 0.78 near the 12:4x high, 0.42 at 13:15): the tape does not agree, so opportunity only. TSLA 377 (+4.7% from open, below the 380 high; stock_open_drive's 385C 0.08). WMT 125.27 (+0.6% from open at last: UBS $149 at 11:04 after JPM $145; our 131C 0.12). COIN 136.5 fading (+3.9% from open, off 139.75). GEV 824 off its high. LLY 1409.7: see the pick. Gainers DAY_1 and MIN_5 lists are micro caps (OMH, CKX, MF...), nothing large cap on them; IONS -24% is a small cap."
 }
