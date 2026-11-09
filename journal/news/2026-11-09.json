@@ -1,7 +1,237 @@
 {
- "as_of": "2026-11-09T08:30-05:00",
+ "as_of": "2026-11-09T10:02-05:00",
  "since": "2026-11-06T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-09 09:52",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "Jim Cramer Posts On X \"AMD viewed as a winner. It IS a winner. But a data center multi-year roadmap in this country is now suspect...\"",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63036073/jim-cramer-posts-x-amd-viewed-winner-it-winner-data-center-multi-year-roadmap-country-now-suspect"
+  },
+  {
+   "time": "11-09 09:33",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly Announces Foundayo Met Primary Endpoint At Week 52 In ATTAIN-OSA Trial To Reduce Apnea-Hypopnea Index; Lowers Sleep Apnea-Specific Hypoxic Burden By Up To An Average Of 55.9%",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63032985/eli-lilly-announces-foundayo-met-primary-endpoint-week-52-attain-osa-trial-reduce-apnea-hypopnea-ind"
+  },
+  {
+   "time": "11-09 09:33",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "Caterpillar and Phoenix Service Partners Test Ultra-Low Methane Gas Compression System",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/energy"
+  },
+  {
+   "time": "11-09 09:32",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "rating",
+   "headline": "Evercore ISI Adjusts Intel Price Target to $131 From $133",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/evercore-isi-adjusts-intel-price-target-to-131-from-133-ce785fd3dc8af12d"
+  },
+  {
+   "time": "11-09 09:32",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Seed Health Launches Nationwide at Costco",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261109la89446/seed-the-1-gut-health-supplements-brand-in-the-us-launches-nationwide-at-costco"
+  },
+  {
+   "time": "11-09 09:32",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "",
+   "headline": "Broadcom Contributes VM API Project to Cloud Native Computing Foundation",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1004000237/broadcom-contributes-vm-api-open-source-project-to-cloud-native"
+  },
+  {
+   "time": "11-09 09:32",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft to Retire UWP Map Control and Windows Maps APIs",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/09/3398328/0/en/microsoft-uwp-map-control-retires-nov-30-2026-a-replacement-is-ready-today.html"
+  },
+  {
+   "time": "11-09 09:32",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Awards $1.55 Million Grant to Trinity Community Commons in Nashville",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/oracles-1-55-million-grant-helps-trinity-community-commons-bring-its-neighborhood-vision-to-life-in-nashville-302932784.html"
+  },
+  {
+   "time": "11-09 09:32",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Web Services Commits $600,000 Annual Technology Credits to PenFed Foundation",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/aws-announces-600-000-in-cloud-credits-to-the-penfed-foundation-for-military-heroes-veteran-entrepreneur-program-302932893.html"
+  },
+  {
+   "time": "11-09 09:32",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD 5th Gen EPYC Processors Power New Google Cloud TPU 8tx Infrastructure",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/09/3398340/0/en/amd-epyc-expands-its-leadership-at-the-foundation-of-ai.html"
+  },
+  {
+   "time": "11-09 09:32",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart and Sam's Club Announce Annual Holiday Partnership with The Salvation Army",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/walmart-sams-club-and-the-salvation-army-make-it-easy-to-support-families-in-need-this-christmas-302932903.html"
+  },
+  {
+   "time": "11-09 09:32",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly Canada Receives Positive Reimbursement Recommendation for Kisunla",
+   "source": "fiscal.ai",
+   "url": "https://thepharmacanada.ca/lilly-receives-positive-reimbursement-recommendation-for-kisunla-in-canada/"
+  },
+  {
+   "time": "11-09 09:32",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "Chase Enables Cash Deposits Through PayPoint Network Across UK",
+   "source": "fiscal.ai",
+   "url": "https://glenbrook.com/payments-news/all-payments-news/"
+  },
+  {
+   "time": "11-09 09:32",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Rocket Lab Earnings Loom: Here\u2019s What Investors Need to Know",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63032947/rocket-lab-earnings-loom-heres-what-investors-need-to-know"
+  },
+  {
+   "time": "11-09 09:30",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia Rolls Out Groot 2, Isaac Lab 3.0, And New Open Benchmarks",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63032897/nvidia-rolls-out-groot-2-isaac-lab-3-0-and-new-open-benchmarks"
+  },
+  {
+   "time": "11-09 09:25",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Deerfield Management Announces Collaboration With AWS To Accelerate Ai-Driven Healthcare Innovation, Care Delivery",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63032745/deerfield-management-announces-collaboration-aws-accelerate-ai-driven-healthcare-innovation-care-del"
+  },
+  {
+   "time": "11-09 09:25",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "'Meta Plans Sales Team, Consulting Partnerships to Win Over Big Companies' - The Information",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63032720/meta-plans-sales-team-consulting-partnerships-win-over-big-companies-information"
+  },
+  {
+   "time": "11-09 09:15",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Here's How Much $100 Invested In Microsoft 15 Years Ago Would Be Worth Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63032386/here-s-how-much-100-invested-microsoft-15-years-ago-would-be-worth-today"
+  },
+  {
+   "time": "11-09 09:01",
+   "symbols": [
+    "ASML"
+   ],
+   "rating": "",
+   "headline": "ASML Reports Transactions Under Its Current Share Buyback Program",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news/technology-telecom/computer-hardware"
+  },
+  {
+   "time": "11-09 08:58",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "\u2018This Whole Thing\u2019s Crumbling\u2019: Scott Galloway Says AI Capex Now Rests on Just 2 Companies and Feels Exactly Like 1999",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63031360/scott-galloway-ai-boom-openai-anthropic-1999-dot-com-bubble"
+  },
+  {
+   "time": "11-09 08:51",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "rating",
+   "headline": "RBC Capital Reiterates Outperform on NVIDIA, Maintains $330 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63031152/rbc-capital-reiterates-outperform-nvidia-maintains-330-price-target"
+  },
+  {
+   "time": "11-09 08:42",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Will Jensen Huang Survive Nvidia's Spy Scandal? What Prediction Markets Say",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63030834/jensen-huang-nvidia"
+  },
+  {
+   "time": "11-09 08:39",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Bitmine Immersion Technologies Announces Bitmine Crypto + Total Cash & Marketable Securities + \"Moonshots\" Holdings Totaling $14.3B",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63030694/bitmine-immersion-technologies-announces-bitmine-crypto-total-cash-marketable-securities-moonshots-h"
+  },
   {
    "time": "11-09 08:26",
    "symbols": [

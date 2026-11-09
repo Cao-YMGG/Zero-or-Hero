@@ -1,9 +1,11 @@
-# Headlines since 2026-11-06 16:00 ET (as of 2026-11-09 08:30 ET)
+# Headlines since 2026-11-06 16:00 ET (as of 2026-11-09 10:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-09 09:32 | INTC | rating | Evercore ISI Adjusts Intel Price Target to $131 From $133 |
+| 11-09 08:51 | NVDA | rating | RBC Capital Reiterates Outperform on NVIDIA, Maintains $330 Price Target |
 | 11-09 06:32 | AMD | upgrade | Oppenheimer Upgrades AMD to Outperform with $600 Price Target |
 | 11-09 06:03 | NVDA | rating | Goldman Sachs Reiterates Buy on NVIDIA, Maintains $300 Price Target |
 | 11-09 05:18 | AMD | upgrade | Oppenheimer Upgrades Advanced Micro Devices to Outperform, Announces $600 Price Target |
@@ -11,6 +13,27 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-08 16:57 | NVDA | initiate | NVIDIA Board Initiates Independent Investigation Into Reported Foreign Intelligence Effort Targeting CEO Jensen Huang; Says Board Believes Not Either National Security Or NVIDIA Secrets Were Compromised |
 | 11-08 03:03 | META | target down | Inderes Lowers Price Target for Metacon |
 | 11-06 19:08 | COIN | target down | Freedom Broker Maintains Buy on Coinbase Global, Lowers Price Target to $175 |
+| 11-09 09:52 | AMD |  | Jim Cramer Posts On X "AMD viewed as a winner. It IS a winner. But a data center multi-year roadmap in this country is now suspect..." |
+| 11-09 09:33 | LLY |  | Eli Lilly Announces Foundayo Met Primary Endpoint At Week 52 In ATTAIN-OSA Trial To Reduce Apnea-Hypopnea Index; Lowers Sleep Apnea-Specific Hypoxic Burden By Up To An Average Of 55.9% |
+| 11-09 09:33 | CAT |  | Caterpillar and Phoenix Service Partners Test Ultra-Low Methane Gas Compression System |
+| 11-09 09:32 | COST |  | Seed Health Launches Nationwide at Costco |
+| 11-09 09:32 | AVGO |  | Broadcom Contributes VM API Project to Cloud Native Computing Foundation |
+| 11-09 09:32 | MSFT |  | Microsoft to Retire UWP Map Control and Windows Maps APIs |
+| 11-09 09:32 | ORCL |  | Oracle Awards $1.55 Million Grant to Trinity Community Commons in Nashville |
+| 11-09 09:32 | AMZN |  | Amazon Web Services Commits $600,000 Annual Technology Credits to PenFed Foundation |
+| 11-09 09:32 | AMD |  | AMD 5th Gen EPYC Processors Power New Google Cloud TPU 8tx Infrastructure |
+| 11-09 09:32 | WMT |  | Walmart and Sam's Club Announce Annual Holiday Partnership with The Salvation Army |
+| 11-09 09:32 | LLY |  | Eli Lilly Canada Receives Positive Reimbursement Recommendation for Kisunla |
+| 11-09 09:32 | JPM |  | Chase Enables Cash Deposits Through PayPoint Network Across UK |
+| 11-09 09:32 | RKLB |  | Rocket Lab Earnings Loom: Here’s What Investors Need to Know |
+| 11-09 09:30 | NVDA |  | Nvidia Rolls Out Groot 2, Isaac Lab 3.0, And New Open Benchmarks |
+| 11-09 09:25 | AMZN |  | Deerfield Management Announces Collaboration With AWS To Accelerate Ai-Driven Healthcare Innovation, Care Delivery |
+| 11-09 09:25 | META |  | 'Meta Plans Sales Team, Consulting Partnerships to Win Over Big Companies' - The Information |
+| 11-09 09:15 | MSFT |  | Here's How Much $100 Invested In Microsoft 15 Years Ago Would Be Worth Today |
+| 11-09 09:01 | ASML |  | ASML Reports Transactions Under Its Current Share Buyback Program |
+| 11-09 08:58 | META |  | ‘This Whole Thing’s Crumbling’: Scott Galloway Says AI Capex Now Rests on Just 2 Companies and Feels Exactly Like 1999 |
+| 11-09 08:42 | NVDA |  | Will Jensen Huang Survive Nvidia's Spy Scandal? What Prediction Markets Say |
+| 11-09 08:39 | COIN |  | Bitmine Immersion Technologies Announces Bitmine Crypto + Total Cash & Marketable Securities + "Moonshots" Holdings Totaling $14.3B |
 | 11-09 08:26 | NVDA |  | NVIDIA Expands South Korea AI Push With New Startup Investments |
 | 11-09 08:11 | AMD |  | Advanced Micro Devices' 5th Gen AMD EPYC Power Google Cloud TPU 8tx |
 | 11-09 08:02 | HOOD |  | Robinhood Launches IPO Access Service for UK Retail Investors |
