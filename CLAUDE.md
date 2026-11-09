@@ -53,6 +53,9 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
   leader +4.0% from its open) was picked at 11:03, topped minutes later and closed 2.5% lower; the
   0.25-delta 255C went 0.43 -> 0.01 (-$84). Without in-session news of its own, an extended leader
   goes into `opportunities`, not `picks`.
+  A pick on a stock above ~$1,000 is a shadow sample only: the 20% stake (~$92) buys nothing at the 0.06-delta
+  floor (2026-11-09 LLY at 1,410: catalyst_intraday found nothing affordable, only the hero shadow bought the
+  1470C), so say so in the pick and prefer a sub-$700 name when one carries the same news.
   Look at both sides (owner, 2026-11-03). The leader rule above has a put mirror: when the morning
   called a theme's bounce "relief, not a turn" and by the check-in the theme ETF is back below its
   open, the weakest mega cap of that theme that is already below its open (and not in a report
