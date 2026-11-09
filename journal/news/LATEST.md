@@ -1,4 +1,4 @@
-# Headlines since 2026-11-06 16:00 ET (as of 2026-11-09 07:42 ET)
+# Headlines since 2026-11-06 16:00 ET (as of 2026-11-09 08:30 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -11,6 +11,12 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-08 16:57 | NVDA | initiate | NVIDIA Board Initiates Independent Investigation Into Reported Foreign Intelligence Effort Targeting CEO Jensen Huang; Says Board Believes Not Either National Security Or NVIDIA Secrets Were Compromised |
 | 11-08 03:03 | META | target down | Inderes Lowers Price Target for Metacon |
 | 11-06 19:08 | COIN | target down | Freedom Broker Maintains Buy on Coinbase Global, Lowers Price Target to $175 |
+| 11-09 08:26 | NVDA |  | NVIDIA Expands South Korea AI Push With New Startup Investments |
+| 11-09 08:11 | AMD |  | Advanced Micro Devices' 5th Gen AMD EPYC Power Google Cloud TPU 8tx |
+| 11-09 08:02 | HOOD |  | Robinhood Launches IPO Access Service for UK Retail Investors |
+| 11-09 08:01 | GS |  | Goldman Sachs Files Major-Holdings Notification for thyssenkrupp AG |
+| 11-09 08:01 | GS |  | Goldman Sachs Adjusts Price Target on Siemens Healthineers |
+| 11-09 07:55 | GEV |  | GE Vernova Lands Wind Turbine Order With 20-Year Service Deal |
 | 11-09 07:35 | AMZN XOM |  | GTA Owner Take-Two, ExxonMobil, Clorox And A Financial Stock On CNBC’s ‘Final Trades’ |
 | 11-09 07:32 | VST |  | President Capital Adjusts Price Target on Vistra to $180 From $167 |
 | 11-09 07:31 | COIN |  | Coinbase Receives Regulatory Approval for National Trust Bank Charter |

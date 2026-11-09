@@ -1,7 +1,67 @@
 {
- "as_of": "2026-11-09T07:42-05:00",
+ "as_of": "2026-11-09T08:30-05:00",
  "since": "2026-11-06T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-09 08:26",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Expands South Korea AI Push With New Startup Investments",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63030222/nvidia-expands-south-korea-ai-push-with-new-startup-investments"
+  },
+  {
+   "time": "11-09 08:11",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "Advanced Micro Devices' 5th Gen AMD EPYC Power Google Cloud TPU 8tx",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63029624/advanced-micro-devices-5th-gen-amd-epyc-power-google-cloud-tpu-8tx"
+  },
+  {
+   "time": "11-09 08:02",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Launches IPO Access Service for UK Retail Investors",
+   "source": "fiscal.ai",
+   "url": "https://br.tradingview.com/news/cointelegraph:80883f36bbc81:0/"
+  },
+  {
+   "time": "11-09 08:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Files Major-Holdings Notification for thyssenkrupp AG",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:1b66d7a3b732e:0-thyssenkrupp-ag-tka-receives-goldman-sachs-voting-rights-notification/"
+  },
+  {
+   "time": "11-09 08:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Adjusts Price Target on Siemens Healthineers",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.ch/nachrichten/aktien/goldman-sachs-group-inc-neutral-note-fuer-siemens-healthineers-aktie-1036736437"
+  },
+  {
+   "time": "11-09 07:55",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova Lands Wind Turbine Order With 20-Year Service Deal",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63028775/ge-vernova-lands-wind-turbine-order-with-20-year-service-deal"
+  },
   {
    "time": "11-09 07:35",
    "symbols": [
