@@ -159,7 +159,7 @@
     },
     {
       "id": "catalyst_open",
-      "real_risk": 0.2,
+      "real_risk": 0,
       "signal": "catalyst",
       "after_minutes": 1,
       "move_pct": 0.0,
@@ -186,7 +186,7 @@
     {
       "id": "catalyst_intraday",
       "source": "intraday",
-      "real_risk": 0.2,
+      "real_risk": 0,
       "signal": "catalyst",
       "after_minutes": 1,
       "move_pct": -100,
@@ -218,7 +218,7 @@
       "sides": [
         "up"
       ],
-      "target_delta": 0.15,
+      "target_delta": 0.35,
       "take_profit": null,
       "stop_loss": null,
       "trail_after": null,
@@ -243,7 +243,7 @@
       "sides": [
         "down"
       ],
-      "target_delta": 0.15,
+      "target_delta": 0.35,
       "take_profit": null,
       "stop_loss": null,
       "trail_after": 2.0,
@@ -271,7 +271,7 @@
       "sides": [
         "up"
       ],
-      "target_delta": 0.15,
+      "target_delta": 0.35,
       "take_profit": null,
       "stop_loss": null,
       "trail_after": null,
@@ -289,14 +289,15 @@
   "ledgers": {
     "base": 500,
     "dead": 50,
-    "risk": 0.2,
-    "one_contract_cap": 0.3,
+    "risk": 0.5,
+    "one_contract_cap": 0.5,
     "pause_after": 5,
     "variants": [
       "nvda_gapdown_put",
       "spy_open_drive",
       "stock_open_drive",
       "spy_open_drive_put"
-    ]
+    ],
+    "max_contracts": 1
   }
 }

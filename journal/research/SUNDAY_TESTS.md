@@ -272,7 +272,9 @@ in EVOLUTION.md.
    Replay exits.csv 'time' rows against the contract's 15:45 minute-bar close (sellk.json has both) and, if the shadow is
    systematically high, book the shadow exit at the bid (or the mid when the spread is over 50%).
 
-55. **Entry retry slack on a fast tape (2026-11-09).** spy_open_drive's real SPY 753C: limit 0.37 at the ask unfilled
+55. **Entry retry slack on a fast tape (2026-11-09).** PARTLY DONE 11-09 evening (owner: 按你的来): index
+   contracts (SPY/QQQ/IWM) retry up to +50%, single stocks keep 10% (bot.retry_slack, PR #111); the
+   replay below is still open. spy_open_drive's real SPY 753C: limit 0.37 at the ask unfilled
    for 90 s, fresh ask 0.51 (+38%) beyond ENTRY_RETRY_SLACK 10% -> no retry, $0 real, while the shadow at 0.37 made
    +280% (half at 4.0x, trail 1.405). The 10% slack was set for illiquid single-stock contracts whose fresh ask is a
    stale quote; on SPY (spread 3%, 566K volume) the fresh ask is real. Replay every unfilled real entry since 10-01 (the

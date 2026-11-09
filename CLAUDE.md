@@ -13,7 +13,11 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
   `zoh/check.py` (diagnostics). Stdlib only, Python 3.12.
 - `zoh/ledgers.py`: variants listed in config `ledgers` trade real paper orders from their own
   $500 ledger (journal/ledgers.json, journal/ledger_equity.csv); the main ledger (journal/ledger.json)
-  belongs to the champion and the snipers. Weekly-review studies: `.github/workflows/sunday.yml`
+  belongs to the champion and the snipers. Since 2026-11-09 (owner) a ledger variant buys one contract
+  nearest 0.35 delta (about 1% from the money) for up to half its ledger, and its shadow is sized the
+  same way; before, 20% of the ledger at 0.15 delta bought strikes 2-5% out that went to zero with the
+  direction right (14 of 134 graded trades, STRIKEBUDGET.md). Real entries on SPY/QQQ contracts are
+  re-quoted once up to 50% above the first ask (10% on single stocks, bot.retry_slack). Weekly-review studies: `.github/workflows/sunday.yml`
   (run by hand) and `zoh/research/` (exits.py, scanners.py, ...).
 - `journal/`: written by GitHub Actions — `trades.csv`, `equity.csv`, `REVIEW.md`,
   `BACKTEST.md`, `state.json`. Do not hand-edit trade history.
@@ -72,7 +76,10 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
   check-in existed the mirror went unjudged; since 2026-11-05 the 11:21 check-in judges it, the 10:16
   file still writes a conditional line (what would arm it and which name is weakest) and the 13:16
   check scores both. Theme state (next paragraph of 2b) is a filter on
-  our own picks: no call pick on a `turning` theme's names, whatever the headline.
+  our own picks: no call pick on a `turning` theme's names on a bounce, sympathy or relative
+  strength; a name with a same-day catalyst of its own (major-broker upgrade, contract, product) may
+  be picked while SUNDAY_TESTS 56 splits the 28-trade sample (owner, 2026-11-09: the blanket ban cost
+  seven winners that day, AMD +7.4% and AVGO +4.6% from their opens among them).
 - Weekdays 16:35 ET: daily post-market review and light evolution. Grade every closed trade
   (real and shadow) and the day's pre-market calls in `journal/grades.csv` with the rubric in
   `journal/GRADING.md` (process score out of 10, separate from the result; peaks from
@@ -89,6 +96,12 @@ new shadow-only challengers or signals, checklist and calendar fixes, bug fixes,
 Retiring a variant needs >= 20 live shadow trades with clearly negative expectancy, or a
 "broken" verdict in the backtest Regime check. Changing the champion's parameters or phase
 sizing needs >= 10 live trades of evidence, or a documented regime change.
+
+Owner, 2026-11-09 ("可以，按你的来"): decisions about the paper ledgers are Claude's to make and to
+report the same evening: strike and stake rules, exit rules, filters, a variant's real-or-shadow
+status, population changes within the bars above. Only what touches real money (Webull, live
+trading, the readiness verdict) waits for the owner. Filters change at most once a week, from a
+SUNDAY_TESTS item with numbers: one day's loss produces an item, not a new rule in this file.
 
 ## Evolution protocol (weekly review session)
 1. Read `journal/REVIEW.md`, `journal/trades.csv`, `journal/equity.csv`, `journal/BACKTEST.md`,
@@ -160,8 +173,9 @@ scored against purely mechanical variants.
    forecast: the theme's own next 1-4 weeks are a coin flip (87 episodes: 34 continued, 25
    recovered, 28 neither) and its gap-ups still closed up 56-60% of the time, but our calls on a
    turning theme's names won 21% (28 trades, -68% avg) vs 57% in heating themes. So on a turning
-   theme: no call sniper or call pick on its names on good news, no bounce-buying, and the put
-   mirror only with the 11:00 confirmation. Sniper scans start with the heating themes.
+   theme: no bounce-buying and no sympathy calls; a call sniper or call pick on its names needs a
+   catalyst of their own (since 2026-11-09, see the intraday paragraph), and the put mirror only
+   with the 11:00 confirmation. Sniper scans start with the heating themes.
    Outside tech, also track sector baskets every day: banks (JPM, GS, BAC), health care (UNH,
    LLY), energy (XOM, CVX), consumer (WMT, COST, HD), industrials (CAT, GE), with XLF/XLV/
    XLE/XLY/XLI and IWM as checks. Every universe and theme here was tech, so on 2026-10-14/15,
@@ -184,6 +198,10 @@ scored against purely mechanical variants.
    in a cooling theme tends to fade. scan mega caps with same-day options for a fresh,
    non-earnings catalyst (Webull PRE_MARKET movers + news, and that morning's analyst upgrades/downgrades on mega caps, e.g. 24/7 Wall St. "top analyst research calls"; 2026-10-05 Melius upgraded MSFT to Buy, gap only +0.9%, and it ran +1.5% from the open in 15 minutes). Name at most one stock with
    direction and catalyst in `sniper`; see journal/bias/README.md for the bar it must clear.
+   Since 2026-11-09 (owner) the sniper and the intraday picks are shadow-only: catalyst_open and
+   catalyst_intraday carry real_risk 0 and the hero shadows keep the full-ledger samples. 14 live
+   snipers ran -13% (-35% without the best one) and 13 intraday picks -30% (SNIPERS_REAL.md); real
+   money returns when the live rule is positive over 20 more picks. The pick bar is unchanged.
    Non-tech mega caps qualify too (JPM, GS, UNH, LLY, XOM, WMT, COST, V...). They mostly have
    Friday expiries only, so the sniper buys the nearest expiry; prefer them when the rotation
    map shows money moving into their sector.
