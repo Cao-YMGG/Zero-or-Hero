@@ -1,7 +1,249 @@
 {
- "as_of": "2026-11-09T15:16-05:00",
+ "as_of": "2026-11-09T17:41-05:00",
  "since": "2026-11-06T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-09 17:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle and Digital Realty Launch AI Workload Testing Lab in Latin America",
+   "source": "fiscal.ai",
+   "url": "https://datacentremagazine.com/news/digital-realty-launches-first-latin-american-innovation-lab"
+  },
+  {
+   "time": "11-09 17:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Announces $1.75 Million in Philanthropic Support for Veterans",
+   "source": "fiscal.ai",
+   "url": "https://investingnews.com/jpmorganchase-provides-1-75-million-to-help-thousands-of-veteran-and-military-spouse-entrepreneurs-grow-their-businesses-compete-for-contracts-and-create-jobs/"
+  },
+  {
+   "time": "11-09 17:28",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Shareholders File Class-Action Lawsuit Against NVIDIA And CEO For Concealing Ties With Suspected Chinese Spy",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63075419/shareholders-file-class-action-lawsuit-against-nvidia-and-ceo-concealing-ties-suspected-chinese-spy"
+  },
+  {
+   "time": "11-09 17:19",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "",
+   "headline": "Vistra Files Prospectus For Offering 5M Common Shares On Behalf Of Selling Shareholder",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63074989/vistra-files-prospectus-offering-5m-common-shares-behalf-selling-shareholder"
+  },
+  {
+   "time": "11-09 17:17",
+   "symbols": [
+    "AMZN",
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Anthropic\u2019s S-1 Hides Its Most Bullish Number, Says Larridin CEO",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63074897/anthropic-ai-spending"
+  },
+  {
+   "time": "11-09 17:15",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Here\u2019s How Much You Would Have Made Owning Robinhood Markets Stock In The Last 5 Years",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63074823/here-s-how-much-you-would-have-made-owning-robinhood-markets-stock-last-5-years"
+  },
+  {
+   "time": "11-09 16:48",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Rocket Lab Secures Eight Neutron Missions Across Five Constellation Operators Totaling More Than $515M In Q3",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63073289/rocket-lab-secures-eight-neutron-missions-across-five-constellation-operators-totaling-more-515m-q3"
+  },
+  {
+   "time": "11-09 16:43",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Rocket Lab Sees Q4 Sales $270.000M-$290.000M vs $265.396M Est",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63072912/rocket-lab-sees-q4-sales-270-000m-290-000m-vs-265-396m-est"
+  },
+  {
+   "time": "11-09 16:38",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "target up",
+   "headline": "Jefferies Maintains Buy on Eli Lilly, Raises Price Target to $1700",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63072409/jefferies-maintains-buy-eli-lilly-raises-price-target-1700"
+  },
+  {
+   "time": "11-09 16:31",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Acquires International Streaming Rights for 'The Gallerist'",
+   "source": "fiscal.ai",
+   "url": "https://www.newsnow.co.uk/h/Entertainment+&+Arts/Movies"
+  },
+  {
+   "time": "11-09 16:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft and Northern Trust Expand AI Collaboration",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/press-releases/8737579/northern-trust-and-microsoft-frontier-company-collaborate-to-transform-client-onboarding-through-ai"
+  },
+  {
+   "time": "11-09 16:23",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Waymo Faces Fresh Federal Probe as Robotaxis Keep Blowing Past Stopped School Buses",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/private-markets/26/11/63071430/waymo-faces-fresh-federal-probe-as-robotaxis-keep-blowing-past-stopped-school-buses"
+  },
+  {
+   "time": "11-09 16:23",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Rocket Lab Q3: Revenue Beat, EPS Miss, Company Signs $515 Million In Neutron Launch Deals",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/11/63071405/rocket-lab-q3-revenue-beat-eps-miss-company-signs-515-million-in-neutron-launch-deals"
+  },
+  {
+   "time": "11-09 16:09",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Rocket Lab USA Q3 EPS $(0.12) Misses $(0.06) Estimate, Sales $267.834M Beat $255.709M Estimate",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/11/63069541/rocket-lab-usa-q3-eps-0-12-misses-0-06-estimate-sales-267-834m-beat-255-709m-estimate"
+  },
+  {
+   "time": "11-09 16:00",
+   "symbols": [
+    "CIEN"
+   ],
+   "rating": "",
+   "headline": "Here's How Much $1000 Invested In Ciena 10 Years Ago Would Be Worth Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63068130/here-s-how-much-1000-invested-ciena-10-years-ago-would-be-worth-today"
+  },
+  {
+   "time": "11-09 16:00",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "target up",
+   "headline": "UBS Maintains Buy on Walmart, Raises Price Target to $149",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63068086/ubs-maintains-buy-walmart-raises-price-target-149"
+  },
+  {
+   "time": "11-09 15:54",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Goes From SNL Host to Joke Punchline: \u2018My Car Did a Flip\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/entertainment/26/11/63067723/elon-musk-goes-from-snl-host-to-joke-punchline-my-car-did-a-flip"
+  },
+  {
+   "time": "11-09 15:50",
+   "symbols": [
+    "INTC",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia Is Now Nearly 3 Times Cheaper Than Intel on Forward Earnings",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63067409/nvidia-is-now-nearly-3-times-cheaper-than-intel-on-forward-earnings"
+  },
+  {
+   "time": "11-09 15:47",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "'Nvidia-Backed Fireworks AI Notifies Customers of Its Second Hack in Weeks' - Bloomberg Exclusive",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63067264/nvidia-backed-fireworks-ai-notifies-customers-its-second-hack-weeks-bloomberg-exclusive"
+  },
+  {
+   "time": "11-09 15:34",
+   "symbols": [
+    "HD"
+   ],
+   "rating": "target up",
+   "headline": "JP Morgan Maintains Overweight on Home Depot, Raises Price Target to $400",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63066217/jp-morgan-maintains-overweight-home-depot-raises-price-target-400"
+  },
+  {
+   "time": "11-09 15:32",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "target up",
+   "headline": "JP Morgan Maintains Overweight on Walmart, Raises Price Target to $145",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63066074/jp-morgan-maintains-overweight-walmart-raises-price-target-145"
+  },
+  {
+   "time": "11-09 15:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "House Democratic Minority Leader Hakeem Jeffries Says There Are Real Concerns That Need To Be Addressed With Respect To The NVIDIA Situation; Says NVIDIA Situation Came Up In Intelligence Briefing But Mostly About Iran; Says He Strongly Supports Chips Restrictions In Senate NDAA On China Becoming Law",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63066004/house-democratic-minority-leader-hakeem-jeffries-says-there-are-real-concerns-need-be-addressed-resp"
+  },
+  {
+   "time": "11-09 15:25",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "House Democratic Minority Leader Hakeem Jeffries Says \u201cClearly Congress Needs More Information About NVIDIA Situation\u201d",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63065581/house-democratic-minority-leader-hakeem-jeffries-says-clearly-congress-needs-more-information-about-"
+  },
+  {
+   "time": "11-09 15:15",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "$1000 Invested In Apple 10 Years Ago Would Be Worth This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63064828/1000-invested-apple-10-years-ago-would-be-worth-much-today"
+  },
   {
    "time": "11-09 15:07",
    "symbols": [

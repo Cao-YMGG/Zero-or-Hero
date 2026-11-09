@@ -1,9 +1,13 @@
-# Headlines since 2026-11-06 16:00 ET (as of 2026-11-09 15:16 ET)
+# Headlines since 2026-11-06 16:00 ET (as of 2026-11-09 17:41 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-09 16:38 | LLY | target up | Jefferies Maintains Buy on Eli Lilly, Raises Price Target to $1700 |
+| 11-09 16:00 | WMT | target up | UBS Maintains Buy on Walmart, Raises Price Target to $149 |
+| 11-09 15:34 | HD | target up | JP Morgan Maintains Overweight on Home Depot, Raises Price Target to $400 |
+| 11-09 15:32 | WMT | target up | JP Morgan Maintains Overweight on Walmart, Raises Price Target to $145 |
 | 11-09 11:52 | VST | target down | Scotiabank Maintains Sector Outperform on Vistra, Lowers Price Target to $169 |
 | 11-09 11:04 | WMT | rating | UBS Adjusts Walmart Price Target to $149 |
 | 11-09 10:12 | LLY | target up | Eli Lilly Gains After Jefferies Raises Price Target to Wall Street-High $1,700 |
@@ -16,6 +20,26 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-08 16:57 | NVDA | initiate | NVIDIA Board Initiates Independent Investigation Into Reported Foreign Intelligence Effort Targeting CEO Jensen Huang; Says Board Believes Not Either National Security Or NVIDIA Secrets Were Compromised |
 | 11-08 03:03 | META | target down | Inderes Lowers Price Target for Metacon |
 | 11-06 19:08 | COIN | target down | Freedom Broker Maintains Buy on Coinbase Global, Lowers Price Target to $175 |
+| 11-09 17:31 | ORCL |  | Oracle and Digital Realty Launch AI Workload Testing Lab in Latin America |
+| 11-09 17:31 | JPM |  | JPMorgan Chase Announces $1.75 Million in Philanthropic Support for Veterans |
+| 11-09 17:28 | NVDA |  | Shareholders File Class-Action Lawsuit Against NVIDIA And CEO For Concealing Ties With Suspected Chinese Spy |
+| 11-09 17:19 | VST |  | Vistra Files Prospectus For Offering 5M Common Shares On Behalf Of Selling Shareholder |
+| 11-09 17:17 | AMZN GOOGL |  | Anthropic’s S-1 Hides Its Most Bullish Number, Says Larridin CEO |
+| 11-09 17:15 | HOOD |  | Here’s How Much You Would Have Made Owning Robinhood Markets Stock In The Last 5 Years |
+| 11-09 16:48 | RKLB |  | Rocket Lab Secures Eight Neutron Missions Across Five Constellation Operators Totaling More Than $515M In Q3 |
+| 11-09 16:43 | RKLB |  | Rocket Lab Sees Q4 Sales $270.000M-$290.000M vs $265.396M Est |
+| 11-09 16:31 | NFLX |  | Netflix Acquires International Streaming Rights for 'The Gallerist' |
+| 11-09 16:31 | MSFT |  | Microsoft and Northern Trust Expand AI Collaboration |
+| 11-09 16:23 | GOOGL |  | Waymo Faces Fresh Federal Probe as Robotaxis Keep Blowing Past Stopped School Buses |
+| 11-09 16:23 | RKLB |  | Rocket Lab Q3: Revenue Beat, EPS Miss, Company Signs $515 Million In Neutron Launch Deals |
+| 11-09 16:09 | RKLB |  | Rocket Lab USA Q3 EPS $(0.12) Misses $(0.06) Estimate, Sales $267.834M Beat $255.709M Estimate |
+| 11-09 16:00 | CIEN |  | Here's How Much $1000 Invested In Ciena 10 Years Ago Would Be Worth Today |
+| 11-09 15:54 | TSLA |  | Elon Musk Goes From SNL Host to Joke Punchline: ‘My Car Did a Flip’ |
+| 11-09 15:50 | INTC NVDA |  | Nvidia Is Now Nearly 3 Times Cheaper Than Intel on Forward Earnings |
+| 11-09 15:47 | NVDA |  | 'Nvidia-Backed Fireworks AI Notifies Customers of Its Second Hack in Weeks' - Bloomberg Exclusive |
+| 11-09 15:31 | NVDA |  | House Democratic Minority Leader Hakeem Jeffries Says There Are Real Concerns That Need To Be Addressed With Respect To The NVIDIA Situation; Says NVIDIA Situation Came Up In Intelligence Briefing But Mostly About Iran; Says He Strongly Supports Chips Restrictions In Senate NDAA On China Becoming Law |
+| 11-09 15:25 | NVDA |  | House Democratic Minority Leader Hakeem Jeffries Says “Clearly Congress Needs More Information About NVIDIA Situation” |
+| 11-09 15:15 | AAPL |  | $1000 Invested In Apple 10 Years Ago Would Be Worth This Much Today |
 | 11-09 15:07 | NVDA |  | NVIDIA Founder & CEO Jensen Huang Is Scheduled To Attend Semafor’s Silicon Valley & The World, "The Definitive New Initiative Connecting The Builders Of Transformative Technologies With The Global Leaders Shaping Their Impact." |
 | 11-09 15:04 | NVDA |  | 'Leaders Of Three U.S. House Committees Have Summoned NVIDIA CEO Jensen Huang To A Closed-Door Briefing Over His Ties To Alice Huang, A Tech Executive Reportedly Identified As A Chinese Spy' - The Information |
 | 11-09 15:01 | AMZN |  | JPMorgan Names Amazon a Top AI Pick, Citing AWS Growth Projections |
