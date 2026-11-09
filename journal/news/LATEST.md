@@ -1,4 +1,4 @@
-# Headlines since 2026-11-06 16:00 ET (as of 2026-11-09 14:45 ET)
+# Headlines since 2026-11-06 16:00 ET (as of 2026-11-09 15:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -16,6 +16,15 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-08 16:57 | NVDA | initiate | NVIDIA Board Initiates Independent Investigation Into Reported Foreign Intelligence Effort Targeting CEO Jensen Huang; Says Board Believes Not Either National Security Or NVIDIA Secrets Were Compromised |
 | 11-08 03:03 | META | target down | Inderes Lowers Price Target for Metacon |
 | 11-06 19:08 | COIN | target down | Freedom Broker Maintains Buy on Coinbase Global, Lowers Price Target to $175 |
+| 11-09 15:07 | NVDA |  | NVIDIA Founder & CEO Jensen Huang Is Scheduled To Attend Semafor’s Silicon Valley & The World, "The Definitive New Initiative Connecting The Builders Of Transformative Technologies With The Global Leaders Shaping Their Impact." |
+| 11-09 15:04 | NVDA |  | 'Leaders Of Three U.S. House Committees Have Summoned NVIDIA CEO Jensen Huang To A Closed-Door Briefing Over His Ties To Alice Huang, A Tech Executive Reportedly Identified As A Chinese Spy' - The Information |
+| 11-09 15:01 | AMZN |  | JPMorgan Names Amazon a Top AI Pick, Citing AWS Growth Projections |
+| 11-09 15:01 | PLTR |  | Palantir Hires Former Senator Jon Tester as Adviser |
+| 11-09 15:01 | GS |  | Goldman Sachs CEO David Solomon Comments on Nvidia and AI Ecosystem |
+| 11-09 15:01 | UNH |  | UnitedHealthcare Seeks Dismissal of Fairview Health Services Lawsuit |
+| 11-09 15:01 | NVDA |  | NVIDIA, Rebellions, and SK Telecom Collaborate on Sovereign AI Infrastructure |
+| 11-09 14:57 | META |  | Meta Platforms Rolls Out AI Age-Estimation Technology Globally In Teen Account Protections On Instagram |
+| 11-09 14:55 | NVDA |  | Benzinga Market Summary: S&P Rises As Tech Rebounds, Oil Drops As Trump Downplays Future Strikes On Iran, NVIDIA Drops After CEO Admitted Affair With Alleged Chinese Asset |
 | 11-09 14:16 | AMD GOOGL NVDA |  | AMD Lands Key Role in Google's New AI Chip System as Nvidia Rivalry Intensifies |
 | 11-09 14:04 | NVDA |  | Short Nvidia, Long Drama: Traders Pile into Leveraged ETFs During Sell-Off |
 | 11-09 14:02 | V |  | Global Payments Integrates Visa API into Authentication Platform |
