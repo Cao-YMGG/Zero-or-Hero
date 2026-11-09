@@ -1,0 +1,117 @@
+{
+ "date": "2026-11-09",
+ "picks": [],
+ "check_1016": "10:17 ET, no pick. SPY 748.78 (+1.8% on the day, +0.9% from its 741.93 open), QQQ +2.7% (+1.7% from open), SMH 481 (+3.7%, +3.5% from open), IWM +2.1%, VIXY -9.7%, XLY +2.7%, XLF +1.0%, XLV +0.7%, USO -2.9%, TLT flat. The NVDA scare reversed at the open: NVDA 178.35 (-4.4% on the day but +3.1% from its 173.04 open), so nvda_gapdown_put did not fire (above its open at 10:00) and rebound_scanner's 09:45 call is the side that is winning; the bot also entered spy_open_drive (SPY +0.9% from open at 10:00), stock_open_drive (TSLA), leader_follow, catalyst_open (WMT sniper) and the hero shadow. Leaders: AMD 490 (+9.2%, +3.4% from open; Oppenheimer upgrade), AVGO +7.5%, MRVL +8.5%, LITE +11%, MU +5.7%, TSM +4.1%, INTC +4.2% (chips: turning theme, no call picks); TSLA 376.8 (+5.2%, +4.6% from open on Musk's Cybertruck deposit-refund / extra-shift posts, a pre-market catalyst past the 3% line, and stock_open_drive already holds it); GEV +6.9% (+2.8% from open), VST +5.8% (power bounce, only a small German wind order of its own); GS +4.2% (+1.9%), META +5.0% (+1.5%; The Information: enterprise sales team), AMZN +4.3% (+0.5%), GOOGL +3.4% (+0.5%), AAPL +2.1% (+1.4%), MSFT +1.9% (-0.8% from open). LLY 1390 (+2.7%, +1.3% from open) has the only fresh in-session catalyst of its own: 09:33 Foundayo met the primary endpoint in the ATTAIN-OSA Phase 3 (JAMA, AHA sessions), Jefferies raised its target to a Street-high $1,700 and Canada recommended Kisunla; not picked because at 10:13 the FDA announced GLP-1 class label changes for a rare eye condition (NAION), a sector negative crossing the trial news, and because the $92 stake cannot buy a 0.06+-delta LLY weekly call (the real order would be skipped; only the hero shadow could trade it). Puts: nothing is below its open among the mega caps except MSFT (-0.8%); the put mirror is not armed (SMH +3.5% from its open). Sniper check: WMT 124.67 (-0.7% on the day, +0.1% from its 124.53 open, low 123.58): flat, the JPM raise is not moving it.",
+ "conditional_1121": "The put mirror arms only if SMH falls back below its open (464.93) by 11:21 with a chip below its own open and outside a report window; at 10:17 every chip is 3-9% above its open, so the weakest-chip candidate does not exist yet (MSFT is the only mega cap below its open, not a chip). A call pick at 11:21 needs an in-session catalyst on a non-chip name within 3% of its open: LLY qualifies on news if it absorbs the FDA label headline and stays above 1,372; otherwise nothing.",
+ "structure": {
+  "SPY": {
+   "open": 741.93,
+   "prior_close": 735.29,
+   "p1000": 747.75,
+   "p1017": 748.78,
+   "high": 749.09,
+   "low": 741.09,
+   "state": "higher highs since the open, above VWAP, no lower high yet"
+  },
+  "QQQ": {
+   "open": 662.87,
+   "prior_close": 656.1,
+   "p1000": 673.35,
+   "p1017": 673.94,
+   "high": 674.73,
+   "low": 662.02,
+   "state": "higher highs"
+  },
+  "SMH": {
+   "open": 464.93,
+   "prior_close": 463.96,
+   "p1000": 480.2,
+   "p1017": 481.0,
+   "high": 482.7,
+   "low": 462.88,
+   "state": "higher highs; gap-down scare in NVDA reversed at 09:30"
+  },
+  "NVDA": {
+   "open": 173.04,
+   "prior_close": 186.64,
+   "p1000": 178.77,
+   "p1017": 178.35,
+   "high": 179.79,
+   "low": 170.24,
+   "state": "V from the 09:31 low 170.24, +3.1% from open, still -4.4% on the day"
+  },
+  "LLY": {
+   "open": 1372.39,
+   "prior_close": 1354.0,
+   "p1017": 1390.32,
+   "high": 1396.44,
+   "low": 1364.58,
+   "state": "above its open since the 09:33 trial headline; 10:13 FDA GLP-1 label headline not yet reflected"
+  }
+ },
+ "opportunities": [
+  {
+   "type": "company_news",
+   "symbol": "LLY",
+   "direction": "call",
+   "time": "10:17",
+   "action": "none",
+   "why": "In-session: 09:33 Foundayo ATTAIN-OSA Phase 3 met its primary endpoint (JAMA); Jefferies target $1,700 (Street high); Canada Kisunla reimbursement recommendation. LLY +1.3% from its open, +2.7% on the day. Not picked: 10:13 FDA GLP-1 class label change (NAION) is a fresh sector negative, and the $92 stake cannot buy a 0.06+-delta LLY weekly call (real order impossible). Scored from 10:17.",
+   "why_zh": "礼来 09:33 公布口服减肥药 Foundayo 治睡眠呼吸暂停的三期试验达标（JAMA 发表），Jefferies 把目标价提到全街最高 1,700，加拿大推荐报销其阿尔茨海默药；股价从开盘 +1.3%。没选：10:13 FDA 要求整类 GLP-1 药改标签（罕见眼病风险）是刚出的行业利空，而且 92 美元的仓位买不到 1,390 美元股票上像样的周度看涨。从 10:17 起打分。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "TSLA",
+   "direction": "call",
+   "time": "10:17",
+   "action": "none",
+   "why": "+5.2% on the day, +4.6% from its open after Musk's pre-market posts (Cybertruck order rate far above production, deposits refunded, extra shift before the mid-2027 line shutdown). A pre-market catalyst already past the 3% line from the open; stock_open_drive holds the TSLA call from 10:00. Scored.",
+   "why_zh": "特斯拉 +5.2%，从开盘已 +4.6%：马斯克盘前说 Cybertruck 订单远超产能、要退一批定金并加班生产到明年年中停线。盘前消息、离开盘价超过 3%，不追；开盘跟随规则 10:00 已经买了它的看涨。记录。"
+  },
+  {
+   "type": "turning_bounce",
+   "symbol": "AMD",
+   "direction": "call",
+   "time": "10:17",
+   "action": "none",
+   "why": "+9.2% on the day (+3.4% from open) on the Oppenheimer upgrade and the NVDA alternative trade; AVGO +7.5%, MRVL +8.5%, LITE +11%, MU +5.7%, SMH +3.5% from open. Chips are a turning theme: no call picks on its names. Scored as the group's leader.",
+   "why_zh": "AMD +9.2%（从开盘 +3.4%），Oppenheimer 上调加上英伟达的替代品交易；博通 +7.5%、迈威尔 +8.5%、Lumentum +11%、美光 +5.7%。芯片是转向主题，规则不买它们的看涨。记录。"
+  },
+  {
+   "type": "relative_strength",
+   "symbol": "GEV",
+   "direction": "call",
+   "time": "10:17",
+   "action": "none",
+   "why": "+6.9% (+2.8% from open), VST +5.8%: the power build-out bounces with the AI complex; own news only a small German wind-turbine order. No in-session catalyst. Scored.",
+   "why_zh": "GE Vernova +6.9%、Vistra +5.8%：电力建设股跟着 AI 板块反弹，自己只有一笔德国小风机订单。没有盘中催化剂，记录。"
+  },
+  {
+   "type": "relative_strength",
+   "symbol": "GS",
+   "direction": "call",
+   "time": "10:17",
+   "action": "none",
+   "why": "+4.2% (+1.9% from open) with JPM +1.5%, XLF +1.0%; no own news. Scored.",
+   "why_zh": "高盛 +4.2%、摩根大通 +1.5%，银行跟着涨，没有自己的消息。记录。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "META",
+   "direction": "call",
+   "time": "10:17",
+   "action": "none",
+   "why": "+5.0% (+1.5% from open); The Information 09:25: Meta plans a sales team and consulting partnerships to win big companies. Minor item on a day the AI spenders are bid; meta_follow2 (shadow) covers a >= 2% move from the open after 10:00. Scored.",
+   "why_zh": "Meta +5.0%（从开盘 +1.5%）；The Information 说 Meta 要组建企业销售团队。小消息，平台股今天都在涨；影子规则 meta_follow2 会接 10:00 后离开盘价 2% 的走势。记录。"
+  },
+  {
+   "type": "sector_move",
+   "symbol": "NVDA",
+   "direction": "call",
+   "time": "10:17",
+   "action": "none",
+   "why": "The gap-down put did not fire (NVDA above its open at 10:00, +3.1% from the 173.04 open); the V from 170.24 is the rebound_scanner side. Turning theme and the probe overhang: no pick either way. Scored both ways.",
+   "why_zh": "英伟达低开后从 170.24 拉回到 178（从开盘 +3.1%），10:00 在开盘价上，低开看跌没触发；反弹看涨那一边在赢。转向主题加调查悬着，两边都不做，两边都记分。"
+  }
+ ]
+}
