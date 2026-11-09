@@ -1,9 +1,10 @@
-# Headlines since 2026-11-06 16:00 ET (as of 2026-11-09 10:02 ET)
+# Headlines since 2026-11-06 16:00 ET (as of 2026-11-09 10:33 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-09 10:12 | LLY | target up | Eli Lilly Gains After Jefferies Raises Price Target to Wall Street-High $1,700 |
 | 11-09 09:32 | INTC | rating | Evercore ISI Adjusts Intel Price Target to $131 From $133 |
 | 11-09 08:51 | NVDA | rating | RBC Capital Reiterates Outperform on NVIDIA, Maintains $330 Price Target |
 | 11-09 06:32 | AMD | upgrade | Oppenheimer Upgrades AMD to Outperform with $600 Price Target |
@@ -13,6 +14,11 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-08 16:57 | NVDA | initiate | NVIDIA Board Initiates Independent Investigation Into Reported Foreign Intelligence Effort Targeting CEO Jensen Huang; Says Board Believes Not Either National Security Or NVIDIA Secrets Were Compromised |
 | 11-08 03:03 | META | target down | Inderes Lowers Price Target for Metacon |
 | 11-06 19:08 | COIN | target down | Freedom Broker Maintains Buy on Coinbase Global, Lowers Price Target to $175 |
+| 11-09 10:13 | LLY |  | FDA Requires Safety Labeling Changes for Glucagon-Like Peptide-1 Receptor Agonists Due to Potential Increased Risk of Rare But Serious Eye Condition |
+| 11-09 10:08 | NVDA |  | Edgevana Announces Over $700M Agreements To Deploy Nvidia Blackwell Computing Systems Throughout North America, Europe |
+| 11-09 10:08 | COIN |  | PNC Bank Launches USDC Payment Acceptance For Corporate Clients, Enabling 1-To-1 Conversion Into U.S. Dollars Through Coinbase |
+| 11-09 10:04 | NVDA |  | Jensen Huang Is ‘Core DNA of Nvidia and Its AI Success’: Dan Ives Says CEO ‘Not Replaceable’ |
+| 11-09 10:00 | AVGO MU WDC |  | Congressional Trading Report: Rep. John McGuire Sold Over $1K In Western Digital Stock |
 | 11-09 09:52 | AMD |  | Jim Cramer Posts On X "AMD viewed as a winner. It IS a winner. But a data center multi-year roadmap in this country is now suspect..." |
 | 11-09 09:33 | LLY |  | Eli Lilly Announces Foundayo Met Primary Endpoint At Week 52 In ATTAIN-OSA Trial To Reduce Apnea-Hypopnea Index; Lowers Sleep Apnea-Specific Hypoxic Burden By Up To An Average Of 55.9% |
 | 11-09 09:33 | CAT |  | Caterpillar and Phoenix Service Partners Test Ultra-Low Methane Gas Compression System |

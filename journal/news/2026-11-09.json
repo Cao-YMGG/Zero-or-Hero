@@ -1,7 +1,69 @@
 {
- "as_of": "2026-11-09T10:02-05:00",
+ "as_of": "2026-11-09T10:33-05:00",
  "since": "2026-11-06T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-09 10:13",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "FDA Requires Safety Labeling Changes for Glucagon-Like Peptide-1 Receptor Agonists Due to Potential Increased Risk of Rare But Serious Eye Condition",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63039207/fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-due-potential-increased-ri"
+  },
+  {
+   "time": "11-09 10:12",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "target up",
+   "headline": "Eli Lilly Gains After Jefferies Raises Price Target to Wall Street-High $1,700",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63038974/eli-lilly-gains-after-jefferies-raises-price-target-to-wall-street-high-dollar1700"
+  },
+  {
+   "time": "11-09 10:08",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Edgevana Announces Over $700M Agreements To Deploy Nvidia Blackwell Computing Systems Throughout North America, Europe",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63038377/edgevana-announces-over-700m-agreements-deploy-nvidia-blackwell-computing-systems-throughout-north-a"
+  },
+  {
+   "time": "11-09 10:08",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "PNC Bank Launches USDC Payment Acceptance For Corporate Clients, Enabling 1-To-1 Conversion Into U.S. Dollars Through Coinbase",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/cryptocurrency/26/11/63038352/pnc-bank-launches-usdc-payment-acceptance-corporate-clients-enabling-1-1-conversion-u-s-dollars-thro"
+  },
+  {
+   "time": "11-09 10:04",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Jensen Huang Is \u2018Core DNA of Nvidia and Its AI Success\u2019: Dan Ives Says CEO \u2018Not Replaceable\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63037773/jensen-huang-is-core-dna-of-nvidia-and-its-ai-success-dan-ives-says-ceo-not-replaceable"
+  },
+  {
+   "time": "11-09 10:00",
+   "symbols": [
+    "AVGO",
+    "MU",
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Congressional Trading Report: Rep. John McGuire Sold Over $1K In Western Digital Stock",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/government/26/11/63037178/congressional-trading-report-rep-john-mcguire-sold-over-1k-western-digital-stock"
+  },
   {
    "time": "11-09 09:52",
    "symbols": [
