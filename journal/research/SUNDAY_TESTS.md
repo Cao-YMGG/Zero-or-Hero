@@ -272,6 +272,26 @@ in EVOLUTION.md.
    Replay exits.csv 'time' rows against the contract's 15:45 minute-bar close (sellk.json has both) and, if the shadow is
    systematically high, book the shadow exit at the bid (or the mid when the spread is over 50%).
 
+55. **Entry retry slack on a fast tape (2026-11-09).** spy_open_drive's real SPY 753C: limit 0.37 at the ask unfilled
+   for 90 s, fresh ask 0.51 (+38%) beyond ENTRY_RETRY_SLACK 10% -> no retry, $0 real, while the shadow at 0.37 made
+   +280% (half at 4.0x, trail 1.405). The 10% slack was set for illiquid single-stock contracts whose fresh ask is a
+   stale quote; on SPY (spread 3%, 566K volume) the fresh ask is real. Replay every unfilled real entry since 10-01 (the
+   bot logs 'no retry, fresh ask X vs Y') with a retry capped at +25% / +50% / uncapped, and every filled entry with a
+   hypothetical +25% worse fill, by family (SPY/QQQ open-drive vs single-stock catalyst). Proposal if it pays: slack
+   by family (index 0DTE 0.5, single stock 0.1), owner's call because it raises the entry price of real orders.
+56. **The turning-theme filter's cost on catalyst days (2026-11-09).** AMD +7.4% open to close (+13.3% day) on an
+   Oppenheimer upgrade and the NVDA-alternative trade, AVGO +4.6%, MU +4.3%: all in the turning chip theme, all
+   un-pickable by the rule (28 calls on turning names won 21%, -68% avg). Split those 28 by cause: own catalyst (upgrade,
+   contract, product) vs bounce-buying without news vs sector sympathy. If the own-catalyst subset is not negative, the
+   filter should exempt it (keep blocking bounces and sympathy). Also list every turning-theme catalyst day since 10-01
+   with the 0.2-delta same-day call result, so the filter's cost has a number next to its benefit.
+57. **Sniper by catalyst class (2026-11-09).** WMT call on two target raises (JPM $145 06:33, UBS $149 11:04): +0.9% open
+   to close, all of it after 14:00; the 131C 0.24 -> 0.19 carried. 10-16 and 11-02 were the same class (target raise /
+   small-broker upgrade) and also went nowhere by the check-in. Table every pre-market sniper since 10-01 by class
+   (major-broker upgrade, target raise only, product/trial/contract, priced offering, other) with stock open to close,
+   the live option result and the hero result. If 'target raise only' is negative on >= 8 samples, the checklist demotes
+   it: a target raise alone goes to `opportunities`, the sniper needs an upgrade, a product or a contract.
+
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
   live entry) and intraday pick (10) since 10-01 on real option minute bars, 10% costs each way. Snipers,
