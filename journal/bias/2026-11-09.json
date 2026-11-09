@@ -1,0 +1,189 @@
+{
+ "date": "2026-11-09",
+ "bias": "none",
+ "confidence": 0.3,
+ "p_up": 0.54,
+ "summary": "Monday after the -3% week (Thursday -4.4%, Friday +0.3% chop). Pre-market 07:45 ET: SPY +0.77% (740.9 vs 735.29), QQQ +0.7%, IWM +1.2%, SMH -0.3%, VIXY -6.3%, oil -2.5% (USO) after Trump said fresh strikes on Iran are 'highly unlikely' (Brent -16% last week), dollar -0.4% (UUP), TLT flat. The story is Nvidia: the board opened an independent investigation into CEO Jensen Huang's relationship with a woman US officials suspect of ties to Chinese intelligence (Huang admitted the affair Sunday; Trump backs him; Aletheia cut to Hold, Goldman reiterated Buy $300); NVDA -5.3% pre-market (176.8 vs 186.64). The other side of the headline is bid: AMD +4.0% (also an Oppenheimer upgrade to Outperform, $600 target, 05:18 ET), AVGO +2.9%, TSM +1.2%; and the AI spenders are up without the supplier: MSFT +2.4%, META +2.5%, GOOGL +2.5%, AMZN +2.9%. CPI is tomorrow 08:30, no US release today. A broad gap-up with falling oil and VIX, breadth positive (banks, health, consumer, small caps up) but led by a one-stock governance shock in the index's largest weight, before CPI: 08:30 re-read: SPY +0.81%, QQQ +0.78%, SMH flat, NVDA -5.5%, VIXY -6.5%, USO -3.3%, TLT +0.3%, unchanged picture. p_up 0.54, none. The mechanical bets today are NVDA's: rebound_scanner buys the 09:45 call on the >= 2% gap down (shadow) and nvda_gapdown_put buys the 10:00 put if NVDA is still under its open (real ledger) -- the two sides that met on 10-16 and 10-30 (the put won both).",
+ "reasons": [
+  "Webull extended hours 07:45 ET (vs the 11-06 close): SPY 740.93 (+0.77%), QQQ 660.58 (+0.68%), IWM 276.92 (+1.19%), SMH 462.47 (-0.32%), VIXY 19.71 (-6.3%), TLT 81.92 (0.0%), UUP 29.01 (-0.41%), USO 144.74 (-2.47%), XLF +0.89%, XLV +1.08%, XLY +1.45%, XLP +0.34%, XLE 0.0%, XLK +0.16%, XLU +0.65%. Mega caps: NVDA 176.77 (-5.29%), AMD 466.93 (+3.98%), AVGO 302.20 (+2.90%), MU 689.06 (-0.14%), INTC flat, TSM +1.23%, AMAT +1.68%, LRCX +1.73%, ARM -0.40%, SNDK -1.51%, WDC +0.46%, STX +0.36%, MRVL +0.07%, LITE -0.12%; MSFT 543.48 (+2.42%), META 625.71 (+2.55%), GOOGL 291.77 (+2.45%), AMZN 266.78 (+2.88%), AAPL 344.46 (+0.61%), TSLA 361.14 (+0.82%), ORCL 116.24 (+0.12%), CRM +0.63%, PLTR +0.23%, NFLX +0.19%; LLY 1378.21 (+1.79%), UNH +0.65%, JPM +1.35%, GS +1.66%, BAC +1.15%, V +0.74%, WMT 125.66 (+0.11%), COST +0.15%, HD +0.75%, CAT +1.32%, GE 328.80 (+1.72%), GEV +1.92%, VST +1.19%, XOM -0.26%, CVX -0.17%, COIN 132.58 (-1.62%, near its 52-week low 131.55), HOOD -0.61%, NBIS -2.49%, IREN -4.34%, SMCI -2.78%, UBER +1.53%, SAP +2.97%, HIMS -2.38%.",
+  "Nvidia: Sunday 16:57 ET the board announced an independent investigation (committee of independent directors, outside counsel) into a reported foreign-intelligence effort targeting Huang; it 'has no reason to believe national security or Nvidia secrets were compromised' and expressed confidence in him. Huang told staff he was unfaithful to his wife and apologized. Trump called Huang 'honorable' and said he should stay; Beijing called the spy allegation a smear; three House committee chairmen asked for a closed-door briefing on 11-18; Gary Black doubts Huang keeps the job ('no natural successor'), Dan Ives calls it a 'black eye' overhang; Aletheia downgraded to Hold, Goldman reiterated Buy $300. NVDA reports 11-17 (6 sessions). A governance shock on the index's largest weight on a day the rest of the market gaps up: SPY's open-to-close depends on whether the NVDA selling spreads to the chain (SMH only -0.3% pre-market, AMD/AVGO/TSM up: so far it is not spreading) or stays idiosyncratic.",
+  "08:30 ET re-read (no US release today): SPY 741.28 (+0.81%), QQQ 661.22 (+0.78%), IWM 277.27 (+1.32%), SMH 464.00 (0.0%), VIXY 19.67 (-6.5%), TLT 82.13 (+0.26%, yields a touch lower), UUP -0.41%, USO 143.56 (-3.3%, WTI about $88-89), XLF +0.91%, XLV +1.08%, XLY +1.29%, XLP +0.15%, XLE -0.44%, XLK +0.33%. NVDA 176.46 (-5.45%), AMD 465.47 (+3.66%), AVGO 302.22 (+2.90%), TSM +1.60%, MU +0.72%, INTC +0.25%, MSFT 542.11 (+2.17%), META 627.86 (+2.90%), GOOGL 291.77 (+2.45%), AMZN 267.50 (+3.16%), AAPL +0.45%, TSLA 360.16 (+0.54%), LLY 1375.0 (+1.55%), GE 330.42 (+2.22%), HD 349.85 (+1.86%, JPM target $400), WMT 125.15 (-0.29%: the sniper is slightly below Friday's close, so catalyst_open only buys if it holds its open), COST -0.01%, JPM +1.48%, GS +1.84%, UNH +0.26%, XOM -0.36%, ORCL +0.28%, COIN 132.20 (-1.90%). Nothing changed the read in 45 minutes: broad gap-up led by the AI spenders, banks and industrials, the supplier chain flat ex-NVDA, oil and VIX lower. p_up stays 0.54, none.",
+  "AMD: Oppenheimer upgraded to Outperform with a $600 target (05:18 ET, Benzinga 06:32 repeat), on top of being the other side of the NVDA headline; +4.0% pre-market (466.9 vs 449.04) after +9.9% Friday and -17% Thursday; reported 11-03 (four sessions ago, outside the report window). Not the sniper: chips are a turning theme (THEMES: REL_WEAK, BREADTH, PERIPH), and the rule since 11-05 forbids a call sniper or call pick on a turning theme's names on good news (calls there won 21%); the gap is also at the ~4% line. Logged as an opportunity and scored.",
+  "Oil and rates: WTI about $89-90 (-0.4% to -3% depending on the print; USO -2.5% pre-market) and Brent about $95-97 after Trump said fresh attacks on Iran are 'highly unlikely' while talks progress; Brent fell 16% last week, the steepest weekly drop since the pandemic; Hormuz shipping incidents continue (UKMTO tanker report), so a risk premium remains. 10Y 4.86% at Friday's close after the hot payrolls (2Y about 4.47%); Treasurys 'steady' this morning (MarketScreener), TLT flat pre-market; the exact overnight bp change could not be confirmed from a dated source. Dollar softer: UUP -0.4%. VIX 24.4 at Friday's close (-13%); VIXY -6.3% pre-market puts VIX near 22-23.",
+  "Overnight: Asia and Europe closes for Monday could not be confirmed from a dated source by 07:45 ET; TSMC's ADR is +1.2% pre-market after Friday's limit-down in Taipei, Intel and AMD gained while Nvidia fell (CNBC). US futures: Dow +0.6 to +0.9% (about +480 points, CNBC), S&P +0.35 to +0.6%, Nasdaq-100 -0.3 to +0.5% depending on the snapshot time. Night session (Webull overnight 20:00-04:00 ET): SPY 738.27 (+0.41%, range 734.05-752.00), QQQ 656.38 (+0.04%, range 648-685), SMH 458.48 (-1.18%), VIXY 19.85 (-5.6%): the night was up, so OVERNIGHT.md's one weak lean (night down then pre-market recovery) does not apply; the night barely predicts open to close anyway (SPY corr -0.11).",
+  "Why none and not a call: the +0.77% gap is in the price (ANALYST.md baseline: following the gap open to close is 49% up, -0.1% median); the lead is a governance shock in the largest index weight six sessions before its report; CPI tomorrow 08:30 (consensus +0.3% m/m headline, +0.2% core) caps conviction; and last week's pattern was gap one way, close the other (11-05 gapped up and closed -4.2%, 11-06 gapped up and closed +0.06%). For it: breadth (IWM +1.2%, banks, health, consumer, utilities all up), oil and VIX down, dollar down, the heating themes (consumer, health) leading rather than the turning one. p_up 0.54: the lean is up, the call needs 0.60.",
+  "rebound_scanner universe: NVDA -5.3% is the only >= 2% down gap (AMD +4.0%, MU -0.1%, INTC flat, TSLA +0.8%, META +2.5%, AMZN +2.9%, GOOGL +2.5%, AAPL +0.6%, AVGO +2.9%, PLTR +0.2%, HOOD -0.6%, COIN -1.6%, SMCI -2.8%, RKLB +1.6%, CRDO +0.8%). Monday is a same-day-expiry day for NVDA, so rebound_scanner buys a ~0.08-delta NVDA call at 09:45 (shadow) and nvda_gapdown_put buys the nearest-0.40-delta put the $691 ledger can afford at 10:00 if NVDA is still >= 0.1% under its open (real). GAPDOWN.md (11-08): the put rule on NVDA same-day days is +28% per $1 over two years (43 trades, +16% without the best two), +112% in the last 3 months (9); the 09:45 rebound call is -33% on real prices. DOSSIER_AMD: AMD moves with the CPU group (SMH corr 0.78, NVDA only 0.46), so an NVDA-only selloff need not drag it; up gaps >= 2% continue 64% but 09:45 calls lost -40%/trade. DOSSIER_META: META moves on its own news; +2.5% today with none (Spaces feature Friday), small gaps fill.",
+  "Other names with news: COIN won final regulatory approval for a national trust-bank charter (Bloomberg 05:48, company 07:31) but is -1.6% pre-market at a 52-week low; the tape disagrees with the news, no pick. ORCL flat after Friday's Bloomberg report that Microsoft wound down its Oracle AI-capacity lease (Oracle disputes the framing; stock near a death cross): a put candidate only on a SPY put day. WMT: JPMorgan raised its target to $145 from $125 (06:33 ET), +0.1% pre-market, reports 11-19 (eight sessions): the sniper, see below. HD: JPM target $400 from $396 (small). LLY +1.8%: 'analyst increases price target' (07:31, firm not named) on day two of the Hims & Hers deal; Hims reports tonight; LLY's same-day 0.06+-delta call costs more than the $91 stake, so the bot could not buy it anyway. GEV: German wind-turbine order (small). UBER: Citi resumed Buy (+1.5%); SAP: JPM upgrade (+3.0%, ADR); ABNB: Redburn Sell to Neutral; DKNG: three downgrades after Friday's -27%. Reaction days (excluded): none among mega caps; CEG, NRG, KKR report this morning, TTWO and HIMS tonight, CRWV tomorrow.",
+  "Earnings window (config/earnings.json + Webull): WMT 11-19 (8 sessions), NVDA 11-17 (6), HD 11-18, CSCO 11-12 (verify), AMAT 11-12 (verify); no mega cap reports today or tomorrow. RUNUP.md: the 10-day run-up is +1.6% vs SPY (60% up), the reaction day -1.6%; WMT and HD are inside the drift window, NVDA is too but carries the probe and a turning theme.",
+  "Macro calendar: no US release today (Webull calendar, the other Claude's week-ahead). Tuesday 11-10: 08:30 October CPI (consensus +0.3% m/m headline, +0.2% core; config/macro_events.json lists it as the next event day, so spy_open_drive, spy_open_drive_put, stock_open_drive, rebound_scanner and leader_follow are off tomorrow), 13:00 10Y auction (prior 5.30% high yield, 2.77 bid-to-cover), Fed's Schmid 13:30, Bowman 15:30 and 18:30, Paulson 18:30, CRWV after the close; Wednesday 11-11 bond market closed (Veterans Day). December hike odds about 70-80% after Friday's payrolls."
+ ],
+ "events": [
+  "No US data today. Pre-market reports: CEG, NRG, KKR, B; after the close: TTWO (GTA 6 console launch day), HIMS (Lilly partner), ONON, TTD, OXY",
+  "NVDA board probe into CEO Huang (announced Sunday 16:57 ET); House committee briefing requested for 11-18; NVDA reports 11-17",
+  "Tomorrow 08:30 ET October CPI (consensus +0.3% m/m, core +0.2%); 13:00 10Y auction; Fed's Schmid 13:30, Bowman 15:30 / 18:30, Paulson 18:30; CRWV after the close. Event day: open-drive and gap variants off",
+  "Wednesday 11-11 Veterans Day: bond market closed, stocks open",
+  "Opex week is next week (11-20), so skip_opex_week does not apply today"
+ ],
+ "inputs": {
+  "es_futures_pct": 0.5,
+  "vix": 22.5,
+  "wti_pct": -3.3,
+  "us10y": 4.86,
+  "us10y_change_bp": null,
+  "us2y_change_bp": null,
+  "dxy_pct": -0.4,
+  "vixy_pct": -6.5,
+  "overnight": "Night session (Webull overnight, 20:00-04:00 ET): SPY 738.27 (+0.41%, 734.05-752.00), QQQ 656.38 (+0.04%), SMH 458.48 (-1.18%), VIXY 19.85 (-5.6%), USO 147.18 (-0.83%), XLF +1.1%, XLV +0.9%, IWM +1.0%. S&P futures +0.35 to +0.6%, Dow +0.6 to +0.9%, Nasdaq-100 -0.3 to +0.5% (snapshots, not live). Asia/Europe closes not confirmed from a dated source. 10Y/2Y overnight bp change not confirmed; TLT flat pre-market."
+ },
+ "rotation": {
+  "heating": [
+   "consumer: WMT +1.6% 1w / +16.1% 1m, COST +4.1% / +12.0%, HD +4.3% / +20.2% (basket +3.3% / +16.1%); XLY +1.9% / +5.6%, XLP +0.7% / +10.3%; THEMES heat flags REL_STRONG, BREADTH_UP (state neutral). JPMorgan raised WMT ($145) and HD ($400) targets this morning",
+   "health: XLV 0.0% 1w / +9.5% 1m (UNH -3.2% / +4.8%, LLY -4.5% / +13.9%); THEMES BREADTH_UP; +1.1% pre-market",
+   "banks and small caps today: XLF +1.2% 1w / +6.3% 1m (JPM -0.8% / +1.5%, GS -3.2% / -2.4%, BAC -1.2% / -7.7%; neutral), IWM -2.0% / -1.5%; XLF +0.9%, IWM +1.2%, GS +1.7%, JPM +1.4% pre-market with no own news",
+   "internet / AI spenders: basket +2.0% 1w / -6.5% 1m (AMZN +7.9% 1w, GOOGL +1.8%, MSFT +1.7%, META -0.8%, AAPL -0.7%); THEMES REL_STRONG heat flag, state neutral; +2.4 to +2.9% pre-market as the suppliers' money looks for a home (GE too: +7.1% 1w / +6.5% 1m, +1.7% pre-market)",
+   "long bonds: TLT +0.5% 1w / +6.6% 1m"
+  ],
+  "cooling": [
+   "chips, every link: GPU NVDA -8.8% 1w / -21.4% 1m; CPU AMD -11.0% / -30.5%, INTC -14.4% / -50.2%, ARM -15.2% / -40.7%; memory MU -22.0% / -36.6%, SNDK -27.4% / -50.7%; disk WDC -28.0% / -34.9%, STX -28.5% / -42.9%; custom silicon AVGO -9.9% / -22.0%, MRVL -28.1% / -50.4%; SMH -11.2% / -25.8%, XLK -8.2% / -18.2%. THEMES: turning (REL_WEAK, BREADTH, PERIPH). Today the group splits on the NVDA probe (NVDA -5.3%, AMD +4.0%, AVGO +2.9%): the first idiosyncratic day inside the chain since the rout",
+   "optical LITE -35.9% / -51.5%, CIEN -24.1% / -45.5% (basket -30% / -48%; Marvell is acquiring Lumentum, Raymond James upgraded LITE Friday; THEMES neutral with REL_WEAK + BREADTH turn flags, PERIPH_UP heat)",
+   "power GEV -9.8% / -22.3%, VST -9.8% / -25.1% (turn flags REL_WEAK, BREADTH; bouncing +1.2 to +1.9% pre-market on small contract news)",
+   "energy: XOM -11.4% 1w / +1.1% 1m, CVX -9.7% / +3.6%, XLE -12.0% / -2.7% on oil's collapse (Brent -16% last week; -0.4 to -3% today on the Iran talks); THEMES turn flags REL_WEAK, BREADTH",
+   "software turning (THEMES: REL_WEAK, BREADTH, RATIO_LOW): ORCL near a death cross after the Microsoft lease wind-down, CRM -3.9% Friday; TSLA -10.4% 1w; CAT -10.3% 1w / -31.2% 1m (industrials -1.6% / -12.4%); SPY -2.7% 1w / -5.4% 1m, QQQ -5.0% / -13.4%"
+  ],
+  "theme_state": {
+   "turning": [
+    "chips",
+    "software"
+   ],
+   "heating": [],
+   "neutral": [
+    "internet",
+    "banks",
+    "health",
+    "energy",
+    "consumer",
+    "industrials",
+    "power",
+    "optical"
+   ],
+   "source": "python -m zoh.research.themes --today, bars to 2026-11-06 (consumer carries REL_STRONG + BREADTH_UP heat flags, health BREADTH_UP, internet REL_STRONG, industrials and optical PERIPH_UP; power, energy and optical carry REL_WEAK + BREADTH turn flags without reaching turning)",
+   "filter": "no call sniper or call pick on chips or software names today (AMD's upgrade included); sniper scans start with consumer and health"
+  },
+  "events": "The NVDA probe is a one-name event inside the turning theme: the chain's recent pairwise correlation (0.85 over 10 days, the other Claude's number) gets tested today, because AMD, AVGO and TSM are gapping the other way. CPI tomorrow is the next test for the heating defensives (yields headwind). Oil's slide helps consumer and transports, hurts XLE (-12% in a week)."
+ },
+ "sniper": {
+  "symbol": "WMT",
+  "direction": "call",
+  "confidence": 0.3,
+  "catalyst": "Own news from the last day: JPMorgan raised its Walmart price target to $145 from $125 at 06:33 ET (Benzinga; a 16% raise, Overweight kept), ahead of the 11-19 report (8 sessions out, inside RUNUP.md's drift window: +1.6% vs SPY median over the 10 days before a report, 60% up) and the holiday events Walmart announced (early Black Friday 11-12 to 11-15). Pre-market +0.1% (125.66 vs 125.52) after -1.7% Friday: nothing of the raise is in the price. Consumer is the strongest basket (+3.3% 1w / +16.1% 1m) with THEMES heat flags REL_STRONG and BREADTH_UP; oil's slide is a tailwind for the consumer. Weak-catalyst class (a target raise, not an upgrade), so the 1.5% gap caution applies and is met. Analyst median target $130 (mean $127.5, high $155): little room to the median, which is one reason for 0.30. Nearest expiry is Friday 11-13 (no same-day options): catalyst_open buys a ~0.10-delta 11-13 call with a real paper order 09:31-10:00 only while WMT is at or above its open; half at 3x, trail from 1.5x; a news pick may be carried overnight. catalyst_open_hero shadows the same contract at the full ledger. Risks: WMT is +16% in a month and reports in eight sessions; defensives were sold on Friday's rotation back into chips; a target raise is the weakest catalyst class. 08:31 re-read: WMT 125.15 (-0.3% vs Friday's 125.52) while HD is +1.9% on its own small JPM raise ($400 from $396): the consumer bid is there, the WMT print is not yet; the catalyst_open gate (at or above its open 09:31-10:00) decides.",
+  "wrong_if": "below its open at 10:00, or below Friday's low 123.03 before 10:30"
+ },
+ "opportunities": [
+  {
+   "type": "analyst",
+   "symbol": "WMT",
+   "direction": "call",
+   "time": "09:31",
+   "action": "real",
+   "why": "Sniper (see sniper): JPMorgan target $145 from $125 at 06:33 ET, +0.1% pre-market, consumer the strongest basket, reports 11-19.",
+   "why_zh": "狙击（见上）：摩根大通 06:33 把沃尔玛目标价从 125 提到 145，盘前只 +0.1%，消费是最强的篓子（一月 +16%），11-19 出财报。弱催化剂，信心 0.30。"
+  },
+  {
+   "type": "analyst",
+   "symbol": "AMD",
+   "direction": "call",
+   "time": "09:31",
+   "action": "none",
+   "why": "Oppenheimer upgrade to Outperform, $600 target (05:18 ET) and the other side of the NVDA probe; +4.0% pre-market. Not picked: chips are a turning theme (calls there won 21%), gap at the ~4% line. Scored.",
+   "why_zh": "Oppenheimer 05:18 上调 AMD 到「跑赢」、目标价 600，又是英伟达事件的另一头，盘前 +4.0%。没选：芯片是转向主题（这类看涨只赢 21%），缺口也到了 4% 线。记录打分。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "NVDA",
+   "direction": "put",
+   "time": "10:00",
+   "action": "bot",
+   "why": "Board probe into CEO Huang, -5.3% pre-market, reports 11-17. nvda_gapdown_put (real $691 ledger) buys the 10:00 put if NVDA is still under its open; rebound_scanner buys the 09:45 call in shadow. GAPDOWN.md: the put rule +28% per $1 over two years on same-day days, the rebound call -33%.",
+   "why_zh": "英伟达董事会调查黄仁勋（和疑似中国情报人员的关系），盘前 -5.3%，11-17 出财报。机器人自己会做：10:00 还在开盘价下就买当天看跌（真钱账本 $691）；09:45 的反弹看涨只记影子。回放里这条看跌规则两年每 $1 +28%，反弹看涨 -33%。"
+  },
+  {
+   "type": "other_side",
+   "symbol": "AVGO",
+   "direction": "call",
+   "time": "09:31",
+   "action": "none",
+   "why": "+2.9% pre-market as the NVDA alternative (TSM +1.2%, AMD +4.0%); no own news; turning theme. Scored.",
+   "why_zh": "博通盘前 +2.9%，是英伟达的替代品（台积电 +1.2%、AMD +4.0%），没有自己的消息，转向主题。记录。"
+  },
+  {
+   "type": "relative_strength",
+   "symbol": "MSFT",
+   "direction": "call",
+   "time": "09:31",
+   "action": "none",
+   "why": "MSFT +2.4%, META +2.5%, GOOGL +2.5%, AMZN +2.9% pre-market with no fresh news of their own (OpenAI's $1.25T raise and Microsoft's Oracle wind-down are Friday's; Google's Suncatcher orbit test is from 10-30): the AI spenders bid while the supplier falls. Relative strength is not a catalyst. Scored as a group.",
+   "why_zh": "微软 +2.4%、Meta +2.5%、谷歌 +2.5%、亚马逊 +2.9%，都没有今天自己的消息：供应商跌、花钱的平台涨。相对强势不算催化剂，记录。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "COIN",
+   "direction": "call",
+   "time": "09:31",
+   "action": "none",
+   "why": "Final OCC approval for a national trust-bank charter (05:48 ET) but -1.6% pre-market at a 52-week low (131.55): the tape disagrees with the news. Scored.",
+   "why_zh": "Coinbase 拿到国民信托银行牌照的最终批准，但盘前 -1.6%，在 52 周新低上：盘面不认这条消息。记录。"
+  },
+  {
+   "type": "sell_the_news",
+   "symbol": "ORCL",
+   "direction": "put",
+   "time": "09:31",
+   "action": "none",
+   "why": "Microsoft wound down its Oracle AI-capacity lease (Bloomberg, Friday); Oracle disputes it; stock near a death cross, flat pre-market. A put sniper needs a SPY put day. Scored.",
+   "why_zh": "微软退掉甲骨文的 AI 算力租约（彭博，周五），甲骨文否认说法；股价贴着死叉，盘前平。看跌狙击要 SPY 看跌日。记录。"
+  },
+  {
+   "type": "sector_move",
+   "symbol": "XOM",
+   "direction": "put",
+   "time": "09:31",
+   "action": "none",
+   "why": "Oil -0.4% to -3% on Trump's 'fresh Iran attacks highly unlikely'; Brent -16% last week; XLE -12% in a week, energy carries REL_WEAK + BREADTH turn flags. XOM -0.3% pre-market. Scored.",
+   "why_zh": "特朗普说再打伊朗「极不可能」，油价又跌（布伦特上周 -16%）；能源 ETF 一周 -12%，埃克森盘前 -0.3%。记录。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "LLY",
+   "direction": "call",
+   "time": "09:31",
+   "action": "none",
+   "why": "Day two of the Hims & Hers deal plus an unnamed target raise (07:31); +1.8% pre-market; Hims reports tonight. Not picked: the news is a day old and the $91 stake cannot buy a 0.06+-delta same-day call on a $1,378 stock (11-06 lesson). Scored.",
+   "why_zh": "礼来和 Hims 合作的第二天，又有一家分析师上调目标价，盘前 +1.8%，Hims 今晚出财报。没选：消息是昨天的，而且 91 美元的仓位买不到 1,378 美元股票上像样的当天看涨（11-06 的教训）。记录。"
+  },
+  {
+   "type": "analyst",
+   "symbol": "UBER",
+   "direction": "call",
+   "time": "09:31",
+   "action": "none",
+   "why": "Citi resumed coverage with Buy; +1.5% pre-market. A resumption is weaker than an upgrade and UBER is outside the mega-cap list; Friday-only options. Scored.",
+   "why_zh": "花旗恢复覆盖优步给买入，盘前 +1.5%。恢复覆盖比上调弱，优步也不在大盘股名单里。记录。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "GE",
+   "direction": "call",
+   "time": "09:31",
+   "action": "none",
+   "why": "+1.7% pre-market on Friday's $12.9B China-expo orders (faded Friday after the 10:19 pick); no new news today; industrials PERIPH_UP. Scored.",
+   "why_zh": "GE 航空盘前 +1.7%，还是周五中国进博会 129 亿美元订单的消息（周五盘中选了又回落）；今天没新消息。记录。"
+  }
+ ],
+ "generated_at": "2026-11-09T08:31:10-05:00",
+ "zh": {
+  "summary": "上周跌 3%（周四 -4.4%、周五横着）之后的周一。盘前 07:45：标普 ETF +0.8%，纳指 ETF +0.7%，小盘 +1.2%，半导体 ETF -0.3%，恐慌指数 ETF -6%，油 -2.5%（特朗普说再打伊朗「极不可能」，布伦特上周 -16%），美元 -0.4%，长债平。主角是英伟达：董事会对黄仁勋和一名疑似中国情报人员的关系启动独立调查，黄仁勋周日承认婚外情并道歉，特朗普支持他留任；盘前 -5.3%。事件的另一头被买：AMD +4.0%（另有 Oppenheimer 上调到「跑赢」、目标价 600），博通 +2.9%，台积电 +1.2%；花钱的平台也涨：微软 +2.4%、Meta +2.5%、谷歌 +2.5%、亚马逊 +2.9%。明天 08:30 CPI，今天没有数据。",
+  "spy": "不做。上涨概率 54%：高开 0.8% 已在价格里，领头的是指数第一大权重的治理丑闻（6 个交易日后出财报），明天 CPI 压着信心，上周两天都是高开低走。另一边：宽度好（小盘、银行、医疗、消费都涨），油和恐慌指数在跌，升温的主题在领涨。倾向偏上但没到 60% 的看涨线。 08:30 再读：标普 ETF +0.8%、纳指 ETF +0.8%、半导体 ETF 平、英伟达 -5.5%、恐慌指数 ETF -6.5%、油 -3.3%，图没变。",
+  "sniper": "沃尔玛看涨，信心 0.30。摩根大通 06:33 把目标价从 125 提到 145（提了 16%），盘前只 +0.1%，消息没进价格；消费是最强的篓子（一个月 +16%），11-19 出财报，正在财报前漂移窗口里。弱催化剂（目标价上调不是评级上调），目标价中位 130 离现价不远，所以信心低。最近到期是周五 11-13 的周度期权：机器人 09:31-10:00 只在沃尔玛守住开盘价时买约 0.10 delta 的看涨，3 倍卖一半、1.5 倍后追踪，可以过夜。错在哪算错：10:00 在开盘价下，或 10:30 前跌破周五低点 123.03。 08:31：沃尔玛盘前 125.15（-0.3%），家得宝 +1.9%；消费有买盘，沃尔玛自己还没动，09:31 后守不守开盘价由机器人判断。",
+  "rotation": "钱继续从芯片（每一环都在冷：GPU 一月 -21%、CPU -40%、内存 -44%、硬盘 -39%、光模块 -48%）、电力、能源（油崩）流向消费（一月 +16%）、医疗、银行和长债；今天芯片内部第一次分裂（英伟达 -5%、AMD +4%、博通 +3%）。主题状态：芯片和软件转向，其余中性；消费和医疗带升温标记。规则：今天不买芯片和软件的看涨（包括 AMD 的上调）。"
+ }
+}
