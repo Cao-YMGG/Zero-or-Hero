@@ -125,7 +125,8 @@ class SpreadGateTest(unittest.TestCase):
         orders, vstate = self._enter(bid=0.09, ask=0.54)
         self.assertEqual(orders, [])
         self.assertEqual(vstate["shadow"]["entry_price"], 0.32)  # mid 0.315 rounded up to the tick
-        self.assertEqual(vstate["shadow"]["qty"], 2)  # the shadow budget is 20% of the $457 stake, at $0.32
+        # since 2026-11-09 the shadow of a ledger variant is sized off its ledger: CFG risk 20% of $500 at $0.32
+        self.assertEqual(vstate["shadow"]["qty"], 3)
 
     def test_normal_quote_still_trades_real_at_the_ask(self):
         orders, vstate = self._enter(bid=0.50, ask=0.54)
@@ -256,7 +257,7 @@ class StockChainWidthTest(unittest.TestCase):
 class EntryRetryTest(unittest.TestCase):
     """An entry unfilled at the ask is retried once at a fresh ask within ENTRY_RETRY_SLACK."""
 
-    def _buy(self, fresh_ask):
+    def _buy(self, fresh_ask, symbol="AMAT261030C00445000", ask=1.32):
         orders = []
 
         class Api:
@@ -271,7 +272,7 @@ class EntryRetryTest(unittest.TestCase):
                 orders.append((tag, limit))
                 return (0, None) if tag == "in" else (qty, limit)
 
-        return FakeBot()._buy_entry("AMAT261030C00445000", 1, 1.32), orders
+        return FakeBot()._buy_entry(symbol, 1, ask), orders
 
     def test_retries_at_the_fresh_ask(self):
         result, orders = self._buy(1.38)
@@ -282,6 +283,18 @@ class EntryRetryTest(unittest.TestCase):
         result, orders = self._buy(1.60)
         self.assertEqual(orders, [("in", 1.32)])
         self.assertEqual(result, (0, None))
+
+    def test_index_contract_retries_within_half(self):
+        """2026-11-09: SPY 753C 0.37 -> fresh ask 0.51 (+38%) must be retried; a stock stays at 10%."""
+        result, orders = self._buy(0.51, "SPY261109C00753000", 0.37)
+        self.assertEqual(orders, [("in", 0.37), ("in2", 0.51)])
+        self.assertEqual(result, (1, 0.51))
+        result, orders = self._buy(0.60, "SPY261109C00753000", 0.37)
+        self.assertEqual(orders, [("in", 0.37)])
+        result, orders = self._buy(0.51, "TSLA261109C00385000", 0.37)
+        self.assertEqual(orders, [("in", 0.37)])
+        self.assertEqual(botmod.retry_slack("QQQ261109P00670000"), botmod.INDEX_RETRY_SLACK)
+        self.assertEqual(botmod.retry_slack("NVDA261109C00185000"), botmod.ENTRY_RETRY_SLACK)
 
 
 class ExpiryDeltaTest(unittest.TestCase):
@@ -489,3 +502,79 @@ class ShadowRiskTest(unittest.TestCase):
                 self.assertIsNone(v.get(k), k)
             self.assertNotIn("half_at", v)
         self.assertLessEqual(len(config["variants"]), 12)
+
+
+class LedgerSizingTest(unittest.TestCase):
+    """Owner, 2026-11-09: a ledger variant buys one contract near the money for up to half its ledger,
+    and the sniper / intraday pick variants are shadow-only until their live rule turns positive."""
+
+    def test_ledger_budget_and_contract_cap(self):
+        self.assertEqual(botmod.ledger_budget({"equity": 410.0}, {"risk": 0.5}), 205.0)
+        self.assertEqual(botmod.ledger_budget({"equity": 410.0}, {}), 82.0)
+        self.assertEqual(botmod.cap_contracts(3, {"max_contracts": 1}), 1)
+        self.assertEqual(botmod.cap_contracts(3, {}), 3)
+        self.assertEqual(botmod.cap_contracts(0, {"max_contracts": 1}), 0)
+
+    def test_config_after_2026_11_09(self):
+        config = json.loads((journal.ROOT / "config" / "strategy.json").read_text())
+        cfg = config["ledgers"]
+        self.assertEqual(cfg["risk"], 0.5)
+        self.assertEqual(cfg["max_contracts"], 1)
+        self.assertLessEqual(cfg["one_contract_cap"], 0.5)
+        by_id = {v["id"]: v for v in config["variants"]}
+        for vid in cfg["variants"]:
+            self.assertTrue(0.30 <= by_id[vid]["target_delta"] <= 0.45, vid)
+        for vid in ("catalyst_open", "catalyst_intraday"):
+            self.assertEqual(by_id[vid].get("real_risk", 0), 0, vid)
+        # the hero shadows still put the whole ledger on the pick
+        for vid in ("catalyst_open_hero", "catalyst_intraday_hero"):
+            self.assertEqual(by_id[vid]["shadow_risk"], 1.0)
+
+    def _enter_ledger(self, candidates, cfg):
+        orders = []
+
+        class FakeBot(botmod.Bot):
+            def __init__(self):
+                self.api, self.dry_run, self.underlying = None, False, "SPY"
+                self.today = date(2026, 11, 9)
+                self.config = {"backtest": {"start_equity": 500}, "ledgers": cfg}
+                self.state = {"equity_start": 457.0, "risk_per_trade": 0.2, "champion": "nvda_gapdown_put",
+                              "real_underlyings": [],
+                              "ledgers": {"spy_open_drive": {"equity": 410.0, "paused": False, "generation": 1}}}
+
+            def _order(self, symbol, qty, side, kind, tag, limit=None):
+                orders.append((symbol, qty, limit))
+                return qty, limit
+
+        vstate = {}
+        old = botmod.chain_candidates
+        botmod.chain_candidates = lambda *a, **k: candidates
+        try:
+            FakeBot().try_enter({"id": "spy_open_drive", "target_delta": 0.35}, vstate, "call", 747.5,
+                                datetime(2026, 11, 9, 10, 1, tzinfo=ET))
+        finally:
+            botmod.chain_candidates = old
+        return orders, vstate
+
+    def test_ledger_variant_buys_one_near_the_money_contract_off_its_ledger(self):
+        """2026-11-09 10:01: SPY 747.5. The old 20% / 0.15-delta rule bought the 753C at 0.37; half the
+        $410 ledger ($205) now buys the 0.35-delta 750C at 1.80, one contract, shadow and real alike."""
+        cands = [{"symbol": "SPY261109C00753000", "strike": 753, "ask": 0.37, "bid": 0.36, "delta": 0.14, "quote_time": None},
+                 {"symbol": "SPY261109C00750000", "strike": 750, "ask": 1.80, "bid": 1.78, "delta": 0.36, "quote_time": None},
+                 {"symbol": "SPY261109C00748000", "strike": 748, "ask": 2.90, "bid": 2.85, "delta": 0.48, "quote_time": None}]
+        cfg = {"base": 500, "dead": 50, "risk": 0.5, "one_contract_cap": 0.5, "pause_after": 5, "max_contracts": 1}
+        orders, vstate = self._enter_ledger(cands, cfg)
+        self.assertEqual(vstate["shadow"]["contract"], "SPY261109C00750000")
+        self.assertEqual(vstate["shadow"]["qty"], 1)
+        self.assertEqual(orders, [("SPY261109C00750000", 1, 1.80)])
+        self.assertEqual(vstate["real"]["qty"], 1)
+        # a cheap contract would afford several; max_contracts keeps it to one
+        cheap = [{"symbol": "SPY261109C00751000", "strike": 751, "ask": 0.80, "bid": 0.78, "delta": 0.33, "quote_time": None}]
+        orders, vstate = self._enter_ledger(cheap, cfg)
+        self.assertEqual(vstate["shadow"]["qty"], 1)
+        self.assertEqual(orders, [("SPY261109C00751000", 1, 0.80)])
+        # nothing within half the ledger at the delta floor: no entry at all
+        pricey = [{"symbol": "SPY261109C00748000", "strike": 748, "ask": 2.90, "bid": 2.85, "delta": 0.48, "quote_time": None}]
+        orders, vstate = self._enter_ledger(pricey, cfg)
+        self.assertNotIn("shadow", vstate)
+        self.assertEqual(orders, [])

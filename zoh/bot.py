@@ -65,6 +65,20 @@ def real_contracts(equity, real_risk, ask, cap=REAL_ONE_CONTRACT_CAP):
     return qty
 
 
+def ledger_budget(own, cfg):
+    """Stake of a ledger variant: `risk` of its own ledger. 0.5 since 2026-11-09 (owner): 20% of a
+    $410-690 ledger bought 0.15-delta strikes 2-5% out that went to zero with the direction right
+    (14 of 134 graded trades, STRIKEBUDGET.md); half the ledger buys one contract near the money."""
+    return own["equity"] * cfg.get("risk", 0.2)
+
+
+def cap_contracts(qty, cfg):
+    """At most `max_contracts` per ledger trade (1 since 2026-11-09): one contract near the money
+    instead of several far out."""
+    cap = cfg.get("max_contracts")
+    return min(qty, cap) if cap else qty
+
+
 def may_trade_real(state, underlying):
     """Real orders stop when the account needs a reset, and one theme gets at most one real
     position a day: two rules on the same news (or the same sector move) are one bet, so
@@ -198,6 +212,7 @@ PENNY = 0.01  # limit price for selling an expiring option that has no bid
 
 STOCK_WIDTH = 0.15  # strike band for single-stock chains (fraction of spot)
 ENTRY_RETRY_SLACK = 0.10  # an unfilled entry is retried once at a fresh ask up to 10% higher
+INDEX_RETRY_SLACK = 0.50  # SPY/QQQ/IWM contracts: the fresh ask is a real seller (see retry_slack)
 # 2026-11-06: three of three real orders at the ask went unfilled on same-day contracts quoted
 # 0.28/0.91 (LLY) and 0.09/0.54 (GE). A quote that wide has no seller at the ask: no real order,
 # and the shadow books the mid so it stops overstating the loss. Config "max_spread" overrides.
@@ -213,6 +228,15 @@ def spread_of(quote):
     if ask <= 0 or bid is None or bid < 0:
         return 0.0
     return (ask - bid) / ask
+
+
+def retry_slack(symbol):
+    """How far above the first ask a retried entry may pay. Index 0DTE quotes (SPY, QQQ, IWM)
+    are tight and deep, so a fresh ask is a real seller: on 2026-11-09 the SPY 753C went 0.37 ->
+    0.51 (+38%) during the 90 s wait, the 10% slack refused the retry and the shadow made +280%
+    while the ledger made nothing. Single-stock contracts keep the 10%: there the fresh ask is
+    often a stale quote (11-06 LLY 0.91 -> 1.11, GE 0.09/0.54). Owner, 2026-11-09."""
+    return INDEX_RETRY_SLACK if parse_occ(symbol)[0] in THEMES["index"] else ENTRY_RETRY_SLACK
 
 
 def chain_candidates(api, underlying, expiry, kind, spot, now, width=0.03):
@@ -354,6 +378,11 @@ class Bot:
         # "shadow_risk" sizes a shadow-only variant off the phase stake: the hero shadows
         # (2026-11-03) put the whole ledger on one pick, like the other Claude's rounds.
         budget = stake * variant.get("shadow_risk", self.state["risk_per_trade"])
+        own = (self.state.get("ledgers") or {}).get(variant["id"])
+        if own is not None:
+            # A ledger variant picks and sizes off its own ledger (owner, 2026-11-09): half of it
+            # for one contract near 0.35 delta, so the shadow and the real leg hold the same contract.
+            budget = ledger_budget(own, self.config.get("ledgers", {}))
         underlying = underlying or self.underlying
         if underlying != self.underlying and reports_soon(underlying, self.today,
                                                            getattr(self, "earnings", {})):
@@ -382,6 +411,8 @@ class Bot:
         wide = spread > self.config.get("max_spread", MAX_SPREAD)
         entry = round_limit((pick["ask"] + pick["bid"]) / 2) if wide else pick["ask"]
         qty = contracts_for(budget, entry)
+        if own is not None:
+            qty = cap_contracts(qty, self.config.get("ledgers", {}))
         log(f"{variant['id']}: {direction} signal @ {spot:.2f} -> {pick['symbol']} "
             f"bid={pick['bid']} ask={pick['ask']} delta={pick['delta']:.2f} spread={spread:.0%} qty={qty}"
             + (f" (wide quote: shadow at the mid {entry}, no real order)" if wide else ""))
@@ -392,13 +423,13 @@ class Bot:
         # The champion trades the phase stake; a variant with real_risk also trades real
         # paper orders at that fraction of equity, to collect real fills sooner.
         champion_real = self.config.get("champion_real", True)
-        own = (self.state.get("ledgers") or {}).get(variant["id"])
         if own is not None:
-            # Its own $500 ledger: sized on that ledger, independent of the main one's themes.
-            cfg = self.config["ledgers"]
-            real_qty = 0 if own["paused"] else real_contracts(
+            # Its own ledger: sized on that ledger, independent of the main one's themes; one
+            # contract at most since 2026-11-09 (max_contracts).
+            cfg = self.config.get("ledgers", {})
+            real_qty = 0 if own["paused"] else cap_contracts(real_contracts(
                 own["equity"], cfg.get("risk", 0.2), pick["ask"],
-                cfg.get("one_contract_cap", REAL_ONE_CONTRACT_CAP))
+                cfg.get("one_contract_cap", REAL_ONE_CONTRACT_CAP)), cfg)
             if own["paused"]:
                 log(f"{variant['id']}: shadow only (its ledger is paused after a losing streak)")
         elif variant["id"] == self.state["champion"] and champion_real:
@@ -424,7 +455,7 @@ class Bot:
 
     def _buy_entry(self, symbol, qty, ask):
         """Limit buy at the ask; when that is unfilled after 90 s, re-quote once and pay the fresh
-        ask if it is at most ENTRY_RETRY_SLACK above the first. The AMAT 445C (10-28) and ORCL
+        ask if it is at most retry_slack(symbol) above the first (10% single stock, 50% index). The AMAT 445C (10-28) and ORCL
         128C (10-23) intraday picks went unfilled at the ask, 2 of 18 entries, with no retry."""
         filled, price = self._order(symbol, qty, "buy", "limit", "in", round_limit(ask))
         if filled:
@@ -435,8 +466,9 @@ class Bot:
             log(f"  re-quote of {symbol} failed: {e}")
             return 0, None
         fresh = (snap.get("latestQuote") or {}).get("ap") or 0
-        if not fresh or fresh > ask * (1 + ENTRY_RETRY_SLACK):
-            log(f"  {symbol}: no retry, fresh ask {fresh} vs {ask}")
+        slack = retry_slack(symbol)
+        if not fresh or fresh > ask * (1 + slack):
+            log(f"  {symbol}: no retry, fresh ask {fresh} vs {ask} (slack {slack:.0%})")
             return 0, None
         return self._order(symbol, qty, "buy", "limit", "in2", round_limit(fresh))
 

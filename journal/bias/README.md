@@ -96,7 +96,8 @@ Weekday check-ins at about 10:30 and 13:00 ET may add a pick to
 Opportunities in this file also carry `why_zh` (plain Chinese for Discord), as in the pre-market file.
 
 Append, never rewrite earlier picks. The bot re-reads main every 2 minutes and
-`catalyst_intraday` buys a ~0.2-delta same-day/nearest option on the latest pick right away
-(until 14:30), then trails. Bar: news that broke during the session (the best case in the
+`catalyst_intraday` books a ~0.2-delta same-day/nearest option on the latest pick right away
+(until 14:30), then trails; shadow-only since 2026-11-09 (the hero shadow takes the full ledger),
+real money returns when the live rule is positive over 20 more picks. Bar: news that broke during the session (the best case in the
 research, e.g. 2026-05-08 WSJ Apple-Intel), or a big move with a clear cause that is still
 unfolding. Most check-ins should add nothing.
