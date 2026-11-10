@@ -1,4 +1,4 @@
-# Headlines since 2026-11-09 16:00 ET (as of 2026-11-10 14:59 ET)
+# Headlines since 2026-11-09 16:00 ET (as of 2026-11-10 15:17 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -22,6 +22,13 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-09 18:01 | VST | target down | Scotiabank Maintains Vistra at Sector Outperform, Lowers Price Target |
 | 11-09 16:38 | LLY | target up | Jefferies Maintains Buy on Eli Lilly, Raises Price Target to $1700 |
 | 11-09 16:00 | WMT | target up | UBS Maintains Buy on Walmart, Raises Price Target to $149 |
+| 11-10 15:12 | NVDA |  | 'U.S. Commerce Department Delays MegaSpeed’s Inclusion On Trade Blacklist' - Financial Times |
+| 11-10 15:01 | TSLA |  | Tesla Executives Explain Removal of Opening Sunroof in Model Y L |
+| 11-10 15:01 | TSLA |  | Sargasso Capital Management Proposes Tesla and SpaceX Combination |
+| 11-10 15:01 | GS |  | Goldman Sachs Commits to $270 Million Stablecoin Venture |
+| 11-10 15:01 | CAT |  | Caterpillar Launches Cat Compact Distribution Sub-brand |
+| 11-10 15:01 | AVGO |  | Broadcom Updates VMware Cloud Foundation to Enhance Private AI Infrastructure Security and Resilience |
+| 11-10 15:01 | MSFT |  | The Ohio State University and Microsoft Announce Five-Year Strategic Partnership |
 | 11-10 14:54 | NVDA |  | Wall Street Hasn't Ignored Earnings Beats Like This Since the Dot-Com Bust |
 | 11-10 14:45 | NVDA |  | 'House Republicans Consider Issuing Subpoena To NVIDIA CEO Jensen Huang' - ABC News |
 | 11-10 14:30 | AMD GOOGL INTC NVDA |  | AMD Gains 25% Against NVDA in 2 Days: Chip Analyst Says Lisa Su Is ‘at Her Best’ |

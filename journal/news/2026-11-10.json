@@ -1,7 +1,77 @@
 {
- "as_of": "2026-11-10T14:59-05:00",
+ "as_of": "2026-11-10T15:17-05:00",
  "since": "2026-11-09T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-10 15:12",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "'U.S. Commerce Department Delays MegaSpeed\u2019s Inclusion On Trade Blacklist' - Financial Times",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63118264/u-s-commerce-department-delays-megaspeed-s-inclusion-trade-blacklist-financial-times"
+  },
+  {
+   "time": "11-10 15:01",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Executives Explain Removal of Opening Sunroof in Model Y L",
+   "source": "fiscal.ai",
+   "url": "https://www.businessinsider.com/tesla-killing-off-sunroof-option-model-y-2026-11"
+  },
+  {
+   "time": "11-10 15:01",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Sargasso Capital Management Proposes Tesla and SpaceX Combination",
+   "source": "fiscal.ai",
+   "url": "https://markets.businessinsider.com/news/stocks/sargasso-capital-management-announces-project-kepler-the-case-for-combining-tesla-spacex-1036743771"
+  },
+  {
+   "time": "11-10 15:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Commits to $270 Million Stablecoin Venture",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1004174118/market-chatter-goldman-citigroup-among-banks-committing-270-million-to"
+  },
+  {
+   "time": "11-10 15:01",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "Caterpillar Launches Cat Compact Distribution Sub-brand",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/coastal-construction-equipment-lleva-la-nueva-experiencia-cat-compact-a-los-contratistas-del-sur-de-florida-815821766.html"
+  },
+  {
+   "time": "11-10 15:01",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "",
+   "headline": "Broadcom Updates VMware Cloud Foundation to Enhance Private AI Infrastructure Security and Resilience",
+   "source": "fiscal.ai",
+   "url": "https://technologymagazine.com/news/how-broadcom-protects-private-ai-workloads-in-vmware-vcf"
+  },
+  {
+   "time": "11-10 15:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "The Ohio State University and Microsoft Announce Five-Year Strategic Partnership",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261110ny93626/the-ohio-state-university-and-microsoft-announce-five-year-strategic-partnership-to-accelerate-innovation-across-clinical-care-education-and-research"
+  },
   {
    "time": "11-10 14:54",
    "symbols": [
