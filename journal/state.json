@@ -1,27 +1,11 @@
 {
-  "date": "2026-11-09",
-  "done": true,
+  "date": "2026-11-10",
+  "done": false,
   "variants": {
-    "claude_bias": {},
-    "meta_follow2": {
-      "attempts": 1,
+    "catalyst_open@2026-11-09": {
       "entered": true,
-      "closed": true
-    },
-    "leader_follow": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "rebound_scanner": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "nvda_gapdown_put": {},
-    "catalyst_open": {
-      "attempts": 1,
-      "entered": true,
+      "carried": true,
+      "of": "catalyst_open",
       "shadow": {
         "contract": "WMT261113C00131000",
         "direction": "call",
@@ -29,8 +13,8 @@
         "entry_price": 0.26,
         "peak": 0.26,
         "qty": 3,
-        "last": 0.16,
-        "last_time": "2026-11-09T15:45:14-05:00"
+        "last": 0.09,
+        "last_time": "2026-11-10T10:01:56-05:00"
       },
       "real": {
         "contract": "WMT261113C00131000",
@@ -38,12 +22,12 @@
         "underlying": "WMT",
         "entry_price": 0.24,
         "entry_time": "2026-11-09T09:33:20-05:00"
-      },
-      "hold": true
+      }
     },
-    "catalyst_open_hero": {
-      "attempts": 1,
+    "catalyst_open_hero@2026-11-09": {
       "entered": true,
+      "carried": true,
+      "of": "catalyst_open_hero",
       "shadow": {
         "contract": "WMT261113C00131000",
         "direction": "call",
@@ -51,17 +35,14 @@
         "entry_price": 0.26,
         "peak": 0.26,
         "qty": 17,
-        "last": 0.16,
-        "last_time": "2026-11-09T15:45:14-05:00"
-      },
-      "hold": true
+        "last": 0.09,
+        "last_time": "2026-11-10T10:01:56-05:00"
+      }
     },
-    "catalyst_intraday": {
-      "attempts": 3
-    },
-    "catalyst_intraday_hero": {
-      "attempts": 1,
+    "catalyst_intraday_hero@2026-11-09": {
       "entered": true,
+      "carried": true,
+      "of": "catalyst_intraday_hero",
       "shadow": {
         "contract": "LLY261113C01470000",
         "direction": "call",
@@ -69,25 +50,54 @@
         "entry_price": 4.23,
         "peak": 4.23,
         "qty": 1,
-        "last": 3.25,
-        "last_time": "2026-11-09T15:45:14-05:00"
-      },
-      "hold": true
+        "last": 2.76,
+        "last_time": "2026-11-10T10:01:56-05:00"
+      }
     },
-    "spy_open_drive": {
+    "claude_bias": {},
+    "meta_follow2": {},
+    "leader_follow": {},
+    "rebound_scanner": {},
+    "nvda_gapdown_put": {},
+    "catalyst_open": {
       "attempts": 1,
       "entered": true,
-      "closed": true
+      "shadow": {
+        "contract": "TSM261113C00417500",
+        "direction": "call",
+        "entry_time": "2026-11-10T09:32:52-05:00",
+        "entry_price": 0.82,
+        "peak": 2.25,
+        "qty": 1,
+        "last": 2.25,
+        "last_time": "2026-11-10T10:01:56-05:00"
+      }
     },
+    "catalyst_open_hero": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "TSM261113C00415000",
+        "direction": "call",
+        "entry_time": "2026-11-10T09:32:52-05:00",
+        "entry_price": 1.01,
+        "peak": 2.8,
+        "qty": 4,
+        "last": 2.8,
+        "last_time": "2026-11-10T10:01:56-05:00"
+      }
+    },
+    "catalyst_intraday": {},
+    "catalyst_intraday_hero": {},
+    "spy_open_drive": {},
     "spy_open_drive_put": {},
-    "stock_open_drive": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    }
+    "stock_open_drive": {}
   },
+  "real_underlyings": [
+    "WMT"
+  ],
   "generation": 1,
-  "equity_start": 457.7699999999968,
+  "equity_start": 436.5199999999968,
   "phase": "zero-or-hero",
   "risk_per_trade": 0.2,
   "champion": "nvda_gapdown_put",
@@ -103,7 +113,7 @@
       "paused": false
     },
     "stock_open_drive": {
-      "equity": 546.0,
+      "equity": 493.0,
       "generation": 1,
       "paused": false
     },
@@ -112,8 +122,5 @@
       "generation": 1,
       "paused": false
     }
-  },
-  "real_underlyings": [
-    "WMT"
-  ]
+  }
 }

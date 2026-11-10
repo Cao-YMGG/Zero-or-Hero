@@ -1,7 +1,501 @@
 {
- "as_of": "2026-11-10T07:42-05:00",
+ "as_of": "2026-11-10T10:02-05:00",
  "since": "2026-11-09T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-10 09:55",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "'Goldman Sachs expects Anthropic revenue to exceed $600B by 2030' - Financial Times",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63093182/goldman-sachs-expects-anthropic-revenue-exceed-600b-2030-financial-times"
+  },
+  {
+   "time": "11-10 09:48",
+   "symbols": [
+    "AMZN",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "FMR LLC Cuts Share Stake In SpaceX By 17.9% To 248.3M Class A Shares; Cuts Share Stake In NVIDIA Corporation By 9.1% To 932.8M Shares; Cuts Share Stake In Amazon By 11.8% To 322.6M Shares",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63092390/fmr-llc-cuts-share-stake-in-spacex-by-17-9-to-248-3m-class-a-shares-cuts-share-stake-in-nvidia-corporation-by-9-1-to-932-8m-shares"
+  },
+  {
+   "time": "11-10 09:47",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "target down",
+   "headline": "Barclays Maintains Overweight on Rocket Lab, Lowers Price Target to $82",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63092303/barclays-maintains-overweight-rocket-lab-lowers-price-target-82"
+  },
+  {
+   "time": "11-10 09:41",
+   "symbols": [
+    "LITE"
+   ],
+   "rating": "target up",
+   "headline": "Bernstein Maintains Outperform on Lumentum Holdings, Raises Price Target to $700",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63091588/bernstein-maintains-outperform-lumentum-holdings-raises-price-target-700"
+  },
+  {
+   "time": "11-10 09:37",
+   "symbols": [
+    "HD"
+   ],
+   "rating": "target up",
+   "headline": "Bernstein Maintains Market Perform on Home Depot, Raises Price Target to $357",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63091085/bernstein-maintains-market-perform-home-depot-raises-price-target-357"
+  },
+  {
+   "time": "11-10 09:33",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Coinbase, Kraken, Kalshi Support CFTC in Legal Fight Over Stock Perpetual Futures",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63090529/coinbase-kraken-kalshi-support-cftc-in-legal-fight-over-stock-perpetual-futures"
+  },
+  {
+   "time": "11-10 09:32",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD to Invest $2.5 Billion in Anthropic IPO",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/2026111038/anthropic-officially-sets-the-stage-for-an-ipo-valuing-the-company-north-of-1-trillion"
+  },
+  {
+   "time": "11-10 09:32",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Rocket Lab's ESCAPADE Spacecraft Complete Trans-Mars Injection Burns",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/10/3399441/0/en/twin-satellites-built-by-rocket-lab-for-nasa-s-escapade-mission-complete-successful-trans-mars-injection-burns-setting-course-for-the-red-planet.html"
+  },
+  {
+   "time": "11-10 09:32",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "Evercore Analyst Adjusts Caterpillar Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1004150055/evercore-maintains-caterpillar-catus-with-buy-rating-cuts-target-price"
+  },
+  {
+   "time": "11-10 09:32",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Hi Peach Layne Launches Hair Repair Oil at Walmart",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/hi-peach-layne-launches-9-97-hair-repair-oil-on-walmarts-beauty-finds-under-10-endcap-just-in-time-for-holidays-302934588.html"
+  },
+  {
+   "time": "11-10 09:32",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "DataKrypto Integrates Confidential AI Technology with Intel Hardware",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/10/3399646/0/en/datakrypto-collaborates-with-intel-to-make-encrypted-execution-a-standard-property-of-ai-infrastructure.html"
+  },
+  {
+   "time": "11-10 09:32",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "IBM and Microsoft Announce New AI Agent Platform",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation-302934280.html"
+  },
+  {
+   "time": "11-10 09:32",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Awardco Announces Model Context Protocol Support for Microsoft Copilot 365",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261110la93559/awardco-announces-mcp-support-for-claude-microsoft-copilot-365-and-more"
+  },
+  {
+   "time": "11-10 09:32",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Hitachi Solutions and Microsoft Collaborate on Digital Council Initiative",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.co.uk/news-releases/aberdeen-city-council-hitachi-solutions-and-microsoft-to-build-the-digital-council-of-the-future-302933833.html"
+  },
+  {
+   "time": "11-10 09:32",
+   "symbols": [
+    "LITE"
+   ],
+   "rating": "rating",
+   "headline": "UBS Adjusts Lumentum Price Target to $686 From $960, Maintains Neutral Rating",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/ubs-adjusts-lumentum-price-target-to-686-from-960-maintains-neutral-rating-ce785edadc81f627"
+  },
+  {
+   "time": "11-10 09:31",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Pixelworks Partners With Meta to Bring TrueCut Motion Cinematic Content to Meta VR Devices",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/pixelworks-partners-with-meta-to-bring-truecut-motion-cinematic-content-to-newly-launched-meta-vr-glasses-302934213.html"
+  },
+  {
+   "time": "11-10 09:31",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Micron Technology to Participate in Anthropic IPO",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/2026111038/anthropic-officially-sets-the-stage-for-an-ipo-valuing-the-company-north-of-1-trillion"
+  },
+  {
+   "time": "11-10 09:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Expands Veteran Technology Training Partnership in Alabama",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/new-huntsville-program-to-connect-veterans-and-military-spouses-to-in-demand-careers-302934947.html"
+  },
+  {
+   "time": "11-10 09:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Launches New AI-Assisted Financial Services Analytics Applications",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/oracle-helps-financial-institutions-make-faster-more-informed-treasury-and-customer-decisions-with-ai-assisted-analytics-302934373.html"
+  },
+  {
+   "time": "11-10 09:30",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Pixelworks Stock Surges Tuesday, Partners With Meta to Bring TrueCut Motion Technology to VR Glasses",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63090408/pixelworks-stock-surges-tuesday-partners-with-meta-to-bring-truecut-motion-technology-to-vr-glasses"
+  },
+  {
+   "time": "11-10 09:18",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Adobe Expands Collaboration With Google To Introduce Adobe's Tools To More Google Products, Google's AI Models To Adobe Apps",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63089877/adobe-expands-collaboration-google-introduce-adobe-s-tools-more-google-products-google-s-ai-models-a"
+  },
+  {
+   "time": "11-10 09:05",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel Partners With Altera To Develop A Sensor Bridge Reference Solution For Edge And Physical AI Industries Including Healthcare, Aerospace & Defense And Robotics",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63089115/intel-partners-altera-develop-sensor-bridge-reference-solution-edge-and-physical-ai-industries-inclu"
+  },
+  {
+   "time": "11-10 09:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia\u2019s $7.5 Billion China Chip Scandal Leads to This Shanghai-Listed AI Company",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63088843/nvidia-china-chip-scandal"
+  },
+  {
+   "time": "11-10 09:01",
+   "symbols": [
+    "TSM"
+   ],
+   "rating": "",
+   "headline": "TSMC Approves Strategic Investments in Anthropic and OpenAI",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/taiwan-semiconductor-manufacturing-approves-up-to-1-billion-investments-in-anthropic-openai-ce785edadc81ff2c"
+  },
+  {
+   "time": "11-10 08:57",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "target down",
+   "headline": "Evercore ISI Group Maintains Outperform on Caterpillar, Lowers Price Target to $833",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63088317/evercore-isi-group-maintains-outperform-caterpillar-lowers-price-target-833"
+  },
+  {
+   "time": "11-10 08:56",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "Venture Global Eyes AI Power Gold Rush, Raises 2026 Profit Outlook",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/11/63088271/venture-global-eyes-ai-power-gold-rush-raises-2026-profit-outlook"
+  },
+  {
+   "time": "11-10 08:46",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "These Analysts Revise Their Forecasts On Rocket Lab Following Q3 Results",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/63087884/these-analysts-revise-their-forecasts-on-rocket-lab-following-q3-results"
+  },
+  {
+   "time": "11-10 08:42",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "At Least 11 States Are Offering Extra Obamacare Premium Aid In 2027 as Enhanced Federal Subsidies Expire, With Two Launching New Programs",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/11/63087611/at-least-11-states-are-offering-extra-obamacare-premium-aid-in-2027-as-enhanced-federal-subsidies-expire-with-two-launching-new-programs"
+  },
+  {
+   "time": "11-10 08:35",
+   "symbols": [
+    "AVGO",
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Google\u2019s New AI System Doubles Compute in the Same Space. JPMorgan Sees a Broadcom Win",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63087248/broadcom-google-ai-chips"
+  },
+  {
+   "time": "11-10 08:34",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "IMAX Inks Agreement With Meta For Meta VR Glasses As IMAX Enhanced Certified VR Device, Roll Out Updated IMAX App To Device In 2027",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63087205/imax-inks-agreement-meta-meta-vr-glasses-imax-enhanced-certified-vr-device-roll-out-updated-imax-app"
+  },
+  {
+   "time": "11-10 08:30",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "rating",
+   "headline": "Keybanc Reiterates Overweight on Rocket Lab, Maintains $100 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63086893/keybanc-reiterates-overweight-rocket-lab-maintains-100-price-target"
+  },
+  {
+   "time": "11-10 08:23",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "FDA Flags Potential Vision Loss Risk With GLP-1 Drugs, Requiring Weight-Loss Medicines Like Wegovy and Zepbound to Carry New Warning",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/11/63086632/fda-flags-potential-vision-loss-risk-with-glp-1-drugs-requiring-weight-loss-medicines-like-wegovy-and-zepbound-to-carry-new-warning"
+  },
+  {
+   "time": "11-10 08:19",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "rating",
+   "headline": "BTIG Reiterates Neutral on Rocket Labto Neutral",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63086523/btig-reiterates-neutral-rocket-labto-neutral"
+  },
+  {
+   "time": "11-10 08:18",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Google Rolls Out Gemini For Healthcare",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63086485/google-rolls-out-gemini-healthcare"
+  },
+  {
+   "time": "11-10 08:15",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Could Jensen Huang's Affair Be the Most Expensive in Human History?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63086371/jensen-huang-affair"
+  },
+  {
+   "time": "11-10 08:14",
+   "symbols": [
+    "AMZN",
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Constellation Has Done Something \u2018Unseen\u2019 in the Power Industry, CEO Says",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63086340/constellation-unseen-power-model"
+  },
+  {
+   "time": "11-10 08:09",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "IBM, Microsoft Roll Out Agentic Platform Imagine Enterprise",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63086077/ibm-microsoft-roll-out-agentic-platform-imagine-enterprise"
+  },
+  {
+   "time": "11-10 08:07",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "target up",
+   "headline": "Susquehanna Maintains Negative on Super Micro Computer, Raises Price Target to $18",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63085904/susquehanna-maintains-negative-super-micro-computer-raises-price-target-18"
+  },
+  {
+   "time": "11-10 08:06",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Pixelworks Announces Multi-Year Certification Agreement With Meta For TrueCut Motion Playback On Meta VR Devices, Including VR Glasses; Terms Not Disclosed",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/META"
+  },
+  {
+   "time": "11-10 08:05",
+   "symbols": [
+    "CVX",
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "Mark Kelly Slams President as Americans Pay More at The Pump: 'Trump Is Getting Richer Off His Oil and Gas Stocks'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/63085801/mark-kelly-slams-trump-oil-gas-stocks-rising-gas-prices"
+  },
+  {
+   "time": "11-10 08:03",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "Daiwa Securities Adjusts Price Target on Advanced Micro Devices to $525 From $575",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/daiwa-securities-adjusts-price-target-on-advanced-micro-devices-to-525-from-575-ce785edada8cf423"
+  },
+  {
+   "time": "11-10 08:03",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Rocket Lab Announces Completion Of Trans-Mars Injection Burns By Two Of Its Spacecraft Built For NASA",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63085672/rocket-lab-announces-completion-trans-mars-injection-burns-two-its-spacecraft-built-nasa"
+  },
+  {
+   "time": "11-10 08:03",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Adjusts Price Target on KKR & Co.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-price-target-on-kkr-co-to-131-from-125-ce785edadd89f026"
+  },
+  {
+   "time": "11-10 08:02",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "initiate",
+   "headline": "Fubon Securities Initiates Coverage on Palantir Technologies With Buy Rating",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/fubon-securities-initiates-coverage-on-palantir-technologies-with-buy-rating-200-pt-ce785edadd80f325"
+  },
+  {
+   "time": "11-10 08:02",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "J.P. Morgan Asset Management Announces October 2026 Cash Distributions for JPMorgan ETFs",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/10/3399311/0/en/jpmorgan-announces-cash-distributions-for-the-jpmorgan-etfs.html"
+  },
+  {
+   "time": "11-10 08:02",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Keefe, Bruyette & Woods Adjusts Price Target on Robinhood Markets to $115 From $105",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/keefe-bruyette-woods-adjusts-price-target-on-robinhood-markets-to-115-from-105-ce785edadd81f224"
+  },
+  {
+   "time": "11-10 08:01",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "",
+   "headline": "Broadcom Co-Chairs New Kubernetes Workload Conformance Working Group",
+   "source": "fiscal.ai",
+   "url": "https://aithority.com/it-and-devops/cloud/broadcom-contributes-vm-api-open-source-project-to-cloud-native-computing-foundation/"
+  },
+  {
+   "time": "11-10 08:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Denodo Enters Strategic Collaboration Agreement with Amazon Web Services",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/10/3399313/0/en/denodo-signs-strategic-collaboration-agreement-with-aws-to-accelerate-trusted-data-access-for-agentic-ai.html"
+  },
+  {
+   "time": "11-10 07:58",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "target down",
+   "headline": "Piper Sandler Maintains Neutral on Rocket Lab, Lowers Price Target to $58",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63085191/piper-sandler-maintains-neutral-rocket-lab-lowers-price-target-58"
+  },
   {
    "time": "11-10 07:32",
    "symbols": [

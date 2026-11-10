@@ -1,14 +1,63 @@
-# Headlines since 2026-11-09 16:00 ET (as of 2026-11-10 07:42 ET)
+# Headlines since 2026-11-09 16:00 ET (as of 2026-11-10 10:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-10 09:47 | RKLB | target down | Barclays Maintains Overweight on Rocket Lab, Lowers Price Target to $82 |
+| 11-10 09:41 | LITE | target up | Bernstein Maintains Outperform on Lumentum Holdings, Raises Price Target to $700 |
+| 11-10 09:37 | HD | target up | Bernstein Maintains Market Perform on Home Depot, Raises Price Target to $357 |
+| 11-10 09:32 | LITE | rating | UBS Adjusts Lumentum Price Target to $686 From $960, Maintains Neutral Rating |
+| 11-10 08:57 | CAT | target down | Evercore ISI Group Maintains Outperform on Caterpillar, Lowers Price Target to $833 |
+| 11-10 08:30 | RKLB | rating | Keybanc Reiterates Overweight on Rocket Lab, Maintains $100 Price Target |
+| 11-10 08:19 | RKLB | rating | BTIG Reiterates Neutral on Rocket Labto Neutral |
+| 11-10 08:07 | SMCI | target up | Susquehanna Maintains Negative on Super Micro Computer, Raises Price Target to $18 |
+| 11-10 08:02 | PLTR | initiate | Fubon Securities Initiates Coverage on Palantir Technologies With Buy Rating |
+| 11-10 07:58 | RKLB | target down | Piper Sandler Maintains Neutral on Rocket Lab, Lowers Price Target to $58 |
 | 11-10 07:18 | RKLB | target down | Cantor Fitzgerald Maintains Overweight on Rocket Lab, Lowers Price Target to $111 |
 | 11-10 06:30 | NVDA | target down | Wells Fargo Maintains Overweight on NVIDIA, Lowers Price Target to $300 |
 | 11-09 18:01 | VST | target down | Scotiabank Maintains Vistra at Sector Outperform, Lowers Price Target |
 | 11-09 16:38 | LLY | target up | Jefferies Maintains Buy on Eli Lilly, Raises Price Target to $1700 |
 | 11-09 16:00 | WMT | target up | UBS Maintains Buy on Walmart, Raises Price Target to $149 |
+| 11-10 09:55 | GS |  | 'Goldman Sachs expects Anthropic revenue to exceed $600B by 2030' - Financial Times |
+| 11-10 09:48 | AMZN NVDA |  | FMR LLC Cuts Share Stake In SpaceX By 17.9% To 248.3M Class A Shares; Cuts Share Stake In NVIDIA Corporation By 9.1% To 932.8M Shares; Cuts Share Stake In Amazon By 11.8% To 322.6M Shares |
+| 11-10 09:33 | COIN |  | Coinbase, Kraken, Kalshi Support CFTC in Legal Fight Over Stock Perpetual Futures |
+| 11-10 09:32 | AMD |  | AMD to Invest $2.5 Billion in Anthropic IPO |
+| 11-10 09:32 | RKLB |  | Rocket Lab's ESCAPADE Spacecraft Complete Trans-Mars Injection Burns |
+| 11-10 09:32 | CAT |  | Evercore Analyst Adjusts Caterpillar Price Target |
+| 11-10 09:32 | WMT |  | Hi Peach Layne Launches Hair Repair Oil at Walmart |
+| 11-10 09:32 | INTC |  | DataKrypto Integrates Confidential AI Technology with Intel Hardware |
+| 11-10 09:32 | MSFT |  | IBM and Microsoft Announce New AI Agent Platform |
+| 11-10 09:32 | MSFT |  | Awardco Announces Model Context Protocol Support for Microsoft Copilot 365 |
+| 11-10 09:32 | MSFT |  | Hitachi Solutions and Microsoft Collaborate on Digital Council Initiative |
+| 11-10 09:31 | META |  | Pixelworks Partners With Meta to Bring TrueCut Motion Cinematic Content to Meta VR Devices |
+| 11-10 09:31 | MU |  | Micron Technology to Participate in Anthropic IPO |
+| 11-10 09:31 | JPM |  | JPMorgan Chase Expands Veteran Technology Training Partnership in Alabama |
+| 11-10 09:31 | ORCL |  | Oracle Launches New AI-Assisted Financial Services Analytics Applications |
+| 11-10 09:30 | META |  | Pixelworks Stock Surges Tuesday, Partners With Meta to Bring TrueCut Motion Technology to VR Glasses |
+| 11-10 09:18 | GOOGL |  | Adobe Expands Collaboration With Google To Introduce Adobe's Tools To More Google Products, Google's AI Models To Adobe Apps |
+| 11-10 09:05 | INTC |  | Intel Partners With Altera To Develop A Sensor Bridge Reference Solution For Edge And Physical AI Industries Including Healthcare, Aerospace & Defense And Robotics |
+| 11-10 09:01 | NVDA |  | Nvidia’s $7.5 Billion China Chip Scandal Leads to This Shanghai-Listed AI Company |
+| 11-10 09:01 | TSM |  | TSMC Approves Strategic Investments in Anthropic and OpenAI |
+| 11-10 08:56 | GEV |  | Venture Global Eyes AI Power Gold Rush, Raises 2026 Profit Outlook |
+| 11-10 08:46 | RKLB |  | These Analysts Revise Their Forecasts On Rocket Lab Following Q3 Results |
+| 11-10 08:42 | UNH |  | At Least 11 States Are Offering Extra Obamacare Premium Aid In 2027 as Enhanced Federal Subsidies Expire, With Two Launching New Programs |
+| 11-10 08:35 | AVGO GOOGL |  | Google’s New AI System Doubles Compute in the Same Space. JPMorgan Sees a Broadcom Win |
+| 11-10 08:34 | META |  | IMAX Inks Agreement With Meta For Meta VR Glasses As IMAX Enhanced Certified VR Device, Roll Out Updated IMAX App To Device In 2027 |
+| 11-10 08:23 | LLY |  | FDA Flags Potential Vision Loss Risk With GLP-1 Drugs, Requiring Weight-Loss Medicines Like Wegovy and Zepbound to Carry New Warning |
+| 11-10 08:18 | GOOGL |  | Google Rolls Out Gemini For Healthcare |
+| 11-10 08:15 | NVDA |  | Could Jensen Huang's Affair Be the Most Expensive in Human History? |
+| 11-10 08:14 | AMZN GOOGL |  | Constellation Has Done Something ‘Unseen’ in the Power Industry, CEO Says |
+| 11-10 08:09 | MSFT |  | IBM, Microsoft Roll Out Agentic Platform Imagine Enterprise |
+| 11-10 08:06 | META |  | Pixelworks Announces Multi-Year Certification Agreement With Meta For TrueCut Motion Playback On Meta VR Devices, Including VR Glasses; Terms Not Disclosed |
+| 11-10 08:05 | CVX XOM |  | Mark Kelly Slams President as Americans Pay More at The Pump: 'Trump Is Getting Richer Off His Oil and Gas Stocks' |
+| 11-10 08:03 | AMD |  | Daiwa Securities Adjusts Price Target on Advanced Micro Devices to $525 From $575 |
+| 11-10 08:03 | RKLB |  | Rocket Lab Announces Completion Of Trans-Mars Injection Burns By Two Of Its Spacecraft Built For NASA |
+| 11-10 08:03 | GS |  | Goldman Sachs Adjusts Price Target on KKR & Co. |
+| 11-10 08:02 | JPM |  | J.P. Morgan Asset Management Announces October 2026 Cash Distributions for JPMorgan ETFs |
+| 11-10 08:02 | HOOD |  | Keefe, Bruyette & Woods Adjusts Price Target on Robinhood Markets to $115 From $105 |
+| 11-10 08:01 | AVGO |  | Broadcom Co-Chairs New Kubernetes Workload Conformance Working Group |
+| 11-10 08:01 | AMZN |  | Denodo Enters Strategic Collaboration Agreement with Amazon Web Services |
 | 11-10 07:32 | WMT |  | BMO Capital and Mizuho Adjust Price Targets on Walmart |
 | 11-10 07:32 | COIN |  | Keefe, Bruyette & Woods Adjusts Price Target on Coinbase Global to $237 From $221 |
 | 11-10 07:32 | V |  | Analyst Price Target Adjustments for Visa |
