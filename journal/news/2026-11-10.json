@@ -1,7 +1,59 @@
 {
- "as_of": "2026-11-10T12:03-05:00",
+ "as_of": "2026-11-10T12:34-05:00",
  "since": "2026-11-09T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-10 12:21",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "rating",
+   "headline": "GLJ Research Reiterates Sell on GE Vernova, Maintains $540 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63107340/glj-research-reiterates-sell-ge-vernova-maintains-540-price-target"
+  },
+  {
+   "time": "11-10 12:17",
+   "symbols": [
+    "AMD",
+    "GOOGL",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "AMD Stock Reverses Morning Gains, Slowly Recovers After Google AI Deal",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63107011/amd-stock-reverses-morning-gains-slowly-recovers-after-google-ai-deal"
+  },
+  {
+   "time": "11-10 12:08",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD Announces Availability Of 6th Gen AMD EPYC Server Sp7 Processors",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63106305/amd-announces-availability-6th-gen-amd-epyc-server-sp7-processors"
+  },
+  {
+   "time": "11-10 12:07",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Google Announces Availability Of Gemini 4 Carbon",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63106241/google-announces-availability-gemini-4-carbon"
+  },
+  {
+   "time": "11-10 12:02",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Mark Zuckerberg Net Worth Tops $225 Billion: Meta Founder\u2019s Shares Won\u2019t Go to Family",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/large-cap/26/11/63105755/mark-zuckerberg-net-worth-tops-225-billion-meta-ceo-family"
+  },
   {
    "time": "11-10 11:52",
    "symbols": [

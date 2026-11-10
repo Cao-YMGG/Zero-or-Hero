@@ -1,9 +1,10 @@
-# Headlines since 2026-11-09 16:00 ET (as of 2026-11-10 12:03 ET)
+# Headlines since 2026-11-09 16:00 ET (as of 2026-11-10 12:34 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-10 12:21 | GEV | rating | GLJ Research Reiterates Sell on GE Vernova, Maintains $540 Price Target |
 | 11-10 09:47 | RKLB | target down | Barclays Maintains Overweight on Rocket Lab, Lowers Price Target to $82 |
 | 11-10 09:41 | LITE | target up | Bernstein Maintains Outperform on Lumentum Holdings, Raises Price Target to $700 |
 | 11-10 09:37 | HD | target up | Bernstein Maintains Market Perform on Home Depot, Raises Price Target to $357 |
@@ -19,6 +20,10 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-09 18:01 | VST | target down | Scotiabank Maintains Vistra at Sector Outperform, Lowers Price Target |
 | 11-09 16:38 | LLY | target up | Jefferies Maintains Buy on Eli Lilly, Raises Price Target to $1700 |
 | 11-09 16:00 | WMT | target up | UBS Maintains Buy on Walmart, Raises Price Target to $149 |
+| 11-10 12:17 | AMD GOOGL NVDA |  | AMD Stock Reverses Morning Gains, Slowly Recovers After Google AI Deal |
+| 11-10 12:08 | AMD |  | AMD Announces Availability Of 6th Gen AMD EPYC Server Sp7 Processors |
+| 11-10 12:07 | GOOGL |  | Google Announces Availability Of Gemini 4 Carbon |
+| 11-10 12:02 | META |  | Mark Zuckerberg Net Worth Tops $225 Billion: Meta Founder’s Shares Won’t Go to Family |
 | 11-10 11:52 | GOOGL MU NVDA ORCL |  | Steve Eisman: Oracle Could Suffer if OpenAI 'Demise' Causes US Recession |
 | 11-10 11:29 | GOOGL |  | Google Agrees To Additional Privacy Protections In Acquisition Of Employee Data From Defunct Spirit Airlines |
 | 11-10 11:20 | GS |  | 'A Group Of Financial Firms Including Goldman Sachs Group, Citigroup, Banco Santander SA And Deutsche Bank AG Have Committed Around $270M In Funding Toward A Joint Stablecoin Venture' - Bloomberg Law |
