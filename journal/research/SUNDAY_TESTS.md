@@ -294,6 +294,23 @@ in EVOLUTION.md.
    the live option result and the hero result. If 'target raise only' is negative on >= 8 samples, the checklist demotes
    it: a target raise alone goes to `opportunities`, the sniper needs an upgrade, a product or a contract.
 
+58. **Put-mirror live sample ledger (2026-11-10).** The 11:00 confirmation gave its first clean loss: SMH lost its 479.00 open at
+   11:5x (not armed at 10:16 or 11:21), MU the name; untradable (the day's one catalyst entry went to AMZN at 10:18) and scored
+   as a sample: MU 714.56 at 11:21 / 707.10 at 13:17 -> 725.11 close (+1.5% / +2.5% against the put, best for the put +2.1% at
+   the 12:4x low 699.63), SMH closed +1.1% above its open. Live armings so far: 11-02 win (MU 860P 1.51 -> 27 live exit, +1315%
+   held), 11-04 unjudged (MU -3.4% at the close, no 11:21 check yet), 11-05 not re-armed (SMH -5.8% from open but the 11:00
+   bounce), 11-06 flat (MU put pick 689.69 -> 690.00, best +2.0%), 11-10 loss. Put every arming (date, arm time, SMH vs open at
+   11:21 / 13:17 / close, name, name's move from 11:21 and 13:17 to the close, 0.2-delta put result) in one table and keep it
+   current; the rule stays as is until the table has 10 rows. Item 40's BOUNCE.md numbers (arming between the check-ins is not a
+   put signal on average) already say the tail carries it.
+59. **The pick extension line by the name's own range (2026-11-10).** AMZN 11-02 (picked +4.0% from its open -> 255C -98%) and
+   AMZN 11-10 (picked +2.0% from its open on a 06:38 catalyst plus a 09:55 piece -> 277.5C -64% at the close, topped 272.88 within
+   minutes) both topped right after the pick. The 3% line was set on chips (AMD/MU days of 5-7%); a platform name's normal day is
+   ~2%, so +2.0% on AMZN is already an extended move. Test on the 13 intraday picks plus the 10:16 / 11:21 / 13:16 opportunity rows
+   with an entry-time price: extension from the open divided by the name's 20-day average open-to-high range (Alpaca daily bars),
+   result from the pick to the close and the 0.2-delta option result, bucketed at < 0.5x, 0.5-1.0x, > 1.0x. If the > 1.0x bucket
+   is the losing one, the line becomes 'one average range' instead of a flat 3%; until then it is an item, not a rule.
+
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
   live entry) and intraday pick (10) since 10-01 on real option minute bars, 10% costs each way. Snipers,
