@@ -1,9 +1,10 @@
-# Headlines since 2026-11-09 16:00 ET (as of 2026-11-10 12:34 ET)
+# Headlines since 2026-11-09 16:00 ET (as of 2026-11-10 13:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-10 12:42 | WMT | target up | Mizuho Maintains Outperform on Walmart, Raises Price Target to $135 |
 | 11-10 12:21 | GEV | rating | GLJ Research Reiterates Sell on GE Vernova, Maintains $540 Price Target |
 | 11-10 09:47 | RKLB | target down | Barclays Maintains Overweight on Rocket Lab, Lowers Price Target to $82 |
 | 11-10 09:41 | LITE | target up | Bernstein Maintains Outperform on Lumentum Holdings, Raises Price Target to $700 |
@@ -20,6 +21,13 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-09 18:01 | VST | target down | Scotiabank Maintains Vistra at Sector Outperform, Lowers Price Target |
 | 11-09 16:38 | LLY | target up | Jefferies Maintains Buy on Eli Lilly, Raises Price Target to $1700 |
 | 11-09 16:00 | WMT | target up | UBS Maintains Buy on Walmart, Raises Price Target to $149 |
+| 11-10 13:06 | NVDA SMCI |  | Why Is SMCI Stock Falling on Tuesday? |
+| 11-10 13:04 | GS |  | Goldman Sachs, Citi Back $270M Stablecoin Venture to Challenge Tether, Circle |
+| 11-10 13:01 | AMZN AVGO |  | CNBC Halftime Report Final Trades: Broadcom, Amazon, EQT Corp. |
+| 11-10 12:45 | AMD ARM GOOGL NVDA |  | Nvidia Has No Obvious Jensen Huang Successor. That’s Becoming a Bigger Problem |
+| 11-10 12:41 | PLTR |  | Live On CNBC, Josh Brown Hosts Segment Titled “Josh’s Best Stocks Update: OKTA, Palantir Technologies; Hewlett Packard Enterprise” |
+| 11-10 12:35 | META |  | 3 Communication Services Stocks Whale Activity In Today’s Session |
+| 11-10 12:30 | META NVDA |  | CoreWeave Earnings Prediction Market Preview: Can Michael Intrator Steady the Ship? |
 | 11-10 12:17 | AMD GOOGL NVDA |  | AMD Stock Reverses Morning Gains, Slowly Recovers After Google AI Deal |
 | 11-10 12:08 | AMD |  | AMD Announces Availability Of 6th Gen AMD EPYC Server Sp7 Processors |
 | 11-10 12:07 | GOOGL |  | Google Announces Availability Of Gemini 4 Carbon |

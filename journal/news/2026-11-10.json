@@ -1,7 +1,93 @@
 {
- "as_of": "2026-11-10T12:34-05:00",
+ "as_of": "2026-11-10T13:16-05:00",
  "since": "2026-11-09T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-10 13:06",
+   "symbols": [
+    "NVDA",
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Why Is SMCI Stock Falling on Tuesday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63110842/why-is-smci-stock-falling-on-tuesday"
+  },
+  {
+   "time": "11-10 13:04",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs, Citi Back $270M Stablecoin Venture to Challenge Tether, Circle",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63110731/goldman-sachs-citi-back-270m-stablecoin-venture-to-challenge-tether-circle"
+  },
+  {
+   "time": "11-10 13:01",
+   "symbols": [
+    "AMZN",
+    "AVGO"
+   ],
+   "rating": "",
+   "headline": "CNBC Halftime Report Final Trades: Broadcom, Amazon, EQT Corp.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AVGO"
+  },
+  {
+   "time": "11-10 12:45",
+   "symbols": [
+    "AMD",
+    "ARM",
+    "GOOGL",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia Has No Obvious Jensen Huang Successor. That\u2019s Becoming a Bigger Problem",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63109340/nvidia-jensen-huang-successor"
+  },
+  {
+   "time": "11-10 12:42",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "target up",
+   "headline": "Mizuho Maintains Outperform on Walmart, Raises Price Target to $135",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63109010/mizuho-maintains-outperform-walmart-raises-price-target-135"
+  },
+  {
+   "time": "11-10 12:41",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Live On CNBC, Josh Brown Hosts Segment Titled \u201cJosh\u2019s Best Stocks Update: OKTA, Palantir Technologies; Hewlett Packard Enterprise\u201d",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/HPE"
+  },
+  {
+   "time": "11-10 12:35",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "3 Communication Services Stocks Whale Activity In Today\u2019s Session",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/options/26/11/63108379/3-communication-services-stocks-whale-activity-today-s-session"
+  },
+  {
+   "time": "11-10 12:30",
+   "symbols": [
+    "META",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "CoreWeave Earnings Prediction Market Preview: Can Michael Intrator Steady the Ship?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63108037/coreweave-earnings-preview"
+  },
   {
    "time": "11-10 12:21",
    "symbols": [
