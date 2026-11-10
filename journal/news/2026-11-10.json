@@ -1,7 +1,20 @@
 {
- "as_of": "2026-11-10T11:33-05:00",
+ "as_of": "2026-11-10T12:03-05:00",
  "since": "2026-11-09T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-10 11:52",
+   "symbols": [
+    "GOOGL",
+    "MU",
+    "NVDA",
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Steve Eisman: Oracle Could Suffer if OpenAI 'Demise' Causes US Recession",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63104820/eisman-ai-bear-market"
+  },
   {
    "time": "11-10 11:29",
    "symbols": [

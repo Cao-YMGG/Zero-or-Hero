@@ -1,4 +1,4 @@
-# Headlines since 2026-11-09 16:00 ET (as of 2026-11-10 11:33 ET)
+# Headlines since 2026-11-09 16:00 ET (as of 2026-11-10 12:03 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -19,6 +19,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-09 18:01 | VST | target down | Scotiabank Maintains Vistra at Sector Outperform, Lowers Price Target |
 | 11-09 16:38 | LLY | target up | Jefferies Maintains Buy on Eli Lilly, Raises Price Target to $1700 |
 | 11-09 16:00 | WMT | target up | UBS Maintains Buy on Walmart, Raises Price Target to $149 |
+| 11-10 11:52 | GOOGL MU NVDA ORCL |  | Steve Eisman: Oracle Could Suffer if OpenAI 'Demise' Causes US Recession |
 | 11-10 11:29 | GOOGL |  | Google Agrees To Additional Privacy Protections In Acquisition Of Employee Data From Defunct Spirit Airlines |
 | 11-10 11:20 | GS |  | 'A Group Of Financial Firms Including Goldman Sachs Group, Citigroup, Banco Santander SA And Deutsche Bank AG Have Committed Around $270M In Funding Toward A Joint Stablecoin Venture' - Bloomberg Law |
 | 11-10 11:16 | NVDA |  | NVIDIA Introduces Alpamayo; Open AI Models, Simulation Tools And Datasets For Autonomous Vehicles And Robotaxis; Combines Explainable Reasoning AI With Full-Stack Driving Software And Safety Technologies |
