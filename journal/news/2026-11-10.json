@@ -1,7 +1,87 @@
 {
- "as_of": "2026-11-10T10:32-05:00",
+ "as_of": "2026-11-10T11:02-05:00",
  "since": "2026-11-09T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-10 11:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Forecasts Significant Growth in Global AI Infrastructure Capital Expenditure",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1004140341/overseas-research-selection-semiconductor-sector-suffers-sharp-decline-goldman-sachs"
+  },
+  {
+   "time": "11-10 11:01",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank of America Announces New Membership Benefit for Preferred Rewards Members",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/financial-services-latest-news/banking-financial-services-list/"
+  },
+  {
+   "time": "11-10 11:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA and Commvault Collaborate to Enhance Enterprise Data for AI",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/commvault-to-help-enterprises-put-more-data-to-work-safely-for-ai-with-nvidia-302934299.html"
+  },
+  {
+   "time": "11-10 11:01",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Monad Joins Visa's Stablecoin Settlement Program",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/10/3399913/0/en/monad-joins-visa-s-stablecoin-settlement-program.html"
+  },
+  {
+   "time": "11-10 11:01",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "SoftBank Subsidiary Modifies Turbine Procurement Agreement with GE Vernova",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/2026111044/elon-musk-was-half-right-in-his-comment-last-week-about-softbank-back-pedaling-on-a-gas-turbine-order"
+  },
+  {
+   "time": "11-10 11:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta and IMAX Announce Partnership for Upcoming VR Glasses",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/press-releases/8756645/meta-vr-glasses-to-be-first-ever-imax-certified-vr-device"
+  },
+  {
+   "time": "11-10 11:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "AvePoint Expands Strategic Partnership with Microsoft for AI Governance",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/10/3399566/0/en/avepoint-deepens-strategic-partnership-with-microsoft-to-advance-trusted-ai-adoption.html"
+  },
+  {
+   "time": "11-10 10:32",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova To Invest $34.5M In Shreveport Facility Expansion To Meet Growing Grid Infrastructure Demand",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63097575/ge-vernova-invest-34-5m-shreveport-facility-expansion-meet-growing-grid-infrastructure-demand"
+  },
   {
    "time": "11-10 10:20",
    "symbols": [

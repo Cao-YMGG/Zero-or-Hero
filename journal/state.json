@@ -13,8 +13,8 @@
         "entry_price": 0.26,
         "peak": 0.26,
         "qty": 3,
-        "last": 0.1,
-        "last_time": "2026-11-10T10:32:29-05:00"
+        "last": 0.08,
+        "last_time": "2026-11-10T11:02:53-05:00"
       },
       "real": {
         "contract": "WMT261113C00131000",
@@ -35,8 +35,8 @@
         "entry_price": 0.26,
         "peak": 0.26,
         "qty": 17,
-        "last": 0.1,
-        "last_time": "2026-11-10T10:32:29-05:00"
+        "last": 0.08,
+        "last_time": "2026-11-10T11:02:53-05:00"
       }
     },
     "catalyst_intraday_hero@2026-11-09": {
@@ -50,8 +50,8 @@
         "entry_price": 4.23,
         "peak": 4.23,
         "qty": 1,
-        "last": 2.18,
-        "last_time": "2026-11-10T10:32:29-05:00"
+        "last": 2.28,
+        "last_time": "2026-11-10T11:02:53-05:00"
       }
     },
     "claude_bias": {},
@@ -62,16 +62,7 @@
     "catalyst_open": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "TSM261113C00417500",
-        "direction": "call",
-        "entry_time": "2026-11-10T09:32:52-05:00",
-        "entry_price": 0.82,
-        "peak": 2.25,
-        "qty": 1,
-        "last": 1.78,
-        "last_time": "2026-11-10T10:32:29-05:00"
-      }
+      "closed": true
     },
     "catalyst_open_hero": {
       "attempts": 1,
@@ -83,8 +74,8 @@
         "entry_price": 1.01,
         "peak": 2.8,
         "qty": 4,
-        "last": 2.18,
-        "last_time": "2026-11-10T10:32:29-05:00"
+        "last": 1.62,
+        "last_time": "2026-11-10T11:02:53-05:00"
       }
     },
     "catalyst_intraday": {
@@ -97,8 +88,8 @@
         "entry_price": 0.77,
         "peak": 0.77,
         "qty": 1,
-        "last": 0.76,
-        "last_time": "2026-11-10T10:32:29-05:00"
+        "last": 0.31,
+        "last_time": "2026-11-10T11:02:53-05:00"
       }
     },
     "catalyst_intraday_hero": {
@@ -111,8 +102,8 @@
         "entry_price": 0.77,
         "peak": 0.77,
         "qty": 5,
-        "last": 0.76,
-        "last_time": "2026-11-10T10:32:29-05:00"
+        "last": 0.31,
+        "last_time": "2026-11-10T11:02:53-05:00"
       }
     },
     "spy_open_drive": {},

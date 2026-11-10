@@ -1,4 +1,4 @@
-# Headlines since 2026-11-09 16:00 ET (as of 2026-11-10 10:32 ET)
+# Headlines since 2026-11-09 16:00 ET (as of 2026-11-10 11:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -19,6 +19,14 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-09 18:01 | VST | target down | Scotiabank Maintains Vistra at Sector Outperform, Lowers Price Target |
 | 11-09 16:38 | LLY | target up | Jefferies Maintains Buy on Eli Lilly, Raises Price Target to $1700 |
 | 11-09 16:00 | WMT | target up | UBS Maintains Buy on Walmart, Raises Price Target to $149 |
+| 11-10 11:01 | GS |  | Goldman Sachs Forecasts Significant Growth in Global AI Infrastructure Capital Expenditure |
+| 11-10 11:01 | BAC |  | Bank of America Announces New Membership Benefit for Preferred Rewards Members |
+| 11-10 11:01 | NVDA |  | NVIDIA and Commvault Collaborate to Enhance Enterprise Data for AI |
+| 11-10 11:01 | V |  | Monad Joins Visa's Stablecoin Settlement Program |
+| 11-10 11:01 | GEV |  | SoftBank Subsidiary Modifies Turbine Procurement Agreement with GE Vernova |
+| 11-10 11:01 | META |  | Meta and IMAX Announce Partnership for Upcoming VR Glasses |
+| 11-10 11:01 | MSFT |  | AvePoint Expands Strategic Partnership with Microsoft for AI Governance |
+| 11-10 10:32 | GEV |  | GE Vernova To Invest $34.5M In Shreveport Facility Expansion To Meet Growing Grid Infrastructure Demand |
 | 11-10 10:20 | INTC |  | Nancy Pelosi’s Warner Bros. Stake Was Cashed Out in Paramount Deal, Worth About 43% of Her Salary |
 | 11-10 09:55 | GS |  | 'Goldman Sachs expects Anthropic revenue to exceed $600B by 2030' - Financial Times |
 | 11-10 09:48 | AMZN NVDA |  | FMR LLC Cuts Share Stake In SpaceX By 17.9% To 248.3M Class A Shares; Cuts Share Stake In NVIDIA Corporation By 9.1% To 932.8M Shares; Cuts Share Stake In Amazon By 11.8% To 322.6M Shares |
