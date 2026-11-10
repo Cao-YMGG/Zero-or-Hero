@@ -1,7 +1,27 @@
 {
- "as_of": "2026-11-10T14:47-05:00",
+ "as_of": "2026-11-10T14:59-05:00",
  "since": "2026-11-09T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-10 14:54",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Wall Street Hasn't Ignored Earnings Beats Like This Since the Dot-Com Bust",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/11/63117154/earnings-beats-ignored-dot-com-bust-bofa-factset-sp-500"
+  },
+  {
+   "time": "11-10 14:45",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "'House Republicans Consider Issuing Subpoena To NVIDIA CEO Jensen Huang' - ABC News",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63116676/house-republicans-consider-issuing-subpoena-nvidia-ceo-jensen-huang-abc-news"
+  },
   {
    "time": "11-10 14:30",
    "symbols": [

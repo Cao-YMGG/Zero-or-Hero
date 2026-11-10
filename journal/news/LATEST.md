@@ -1,4 +1,4 @@
-# Headlines since 2026-11-09 16:00 ET (as of 2026-11-10 14:47 ET)
+# Headlines since 2026-11-09 16:00 ET (as of 2026-11-10 14:59 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -22,6 +22,8 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-09 18:01 | VST | target down | Scotiabank Maintains Vistra at Sector Outperform, Lowers Price Target |
 | 11-09 16:38 | LLY | target up | Jefferies Maintains Buy on Eli Lilly, Raises Price Target to $1700 |
 | 11-09 16:00 | WMT | target up | UBS Maintains Buy on Walmart, Raises Price Target to $149 |
+| 11-10 14:54 | NVDA |  | Wall Street Hasn't Ignored Earnings Beats Like This Since the Dot-Com Bust |
+| 11-10 14:45 | NVDA |  | 'House Republicans Consider Issuing Subpoena To NVIDIA CEO Jensen Huang' - ABC News |
 | 11-10 14:30 | AMD GOOGL INTC NVDA |  | AMD Gains 25% Against NVDA in 2 Days: Chip Analyst Says Lisa Su Is ‘at Her Best’ |
 | 11-10 14:19 | RKLB |  | Rocket Lab Benefits from Tight Launch Supply as Falcon 9 Bookings Close, Analysts Say |
 | 11-10 14:13 | GOOGL |  | Google Fi Wireless Launches Super Network With Dual 5G And Wi-Fi Access |
