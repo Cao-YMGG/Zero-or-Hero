@@ -18,36 +18,40 @@
    "prior_close": 752.69,
    "p1017": 750.78,
    "high": 752.14,
-   "low": 746.0,
-   "state": "back below its 748.29 open at 11:21 (-0.16% from open, -0.74% day); the 10:00 bounce faded with TLT -1.4%",
-   "p1121": 747.09
+   "low": 744.87,
+   "state": "below its open all afternoon (-0.25% from open at 13:17); TLT -1.65%",
+   "p1121": 747.09,
+   "p1317": 746.39
   },
   "QQQ": {
    "open": 673.43,
    "prior_close": 679.35,
    "p1017": 678.43,
    "high": 680.95,
-   "low": 669.92,
-   "state": "-0.06% from open; high 680.95 at 10:0x",
-   "p1121": 673.05
+   "low": 667.05,
+   "state": "-0.56% from open; MSFT -2.5% the new drag",
+   "p1121": 673.05,
+   "p1317": 669.66
   },
   "SMH": {
    "open": 479.0,
    "prior_close": 487.41,
    "p1017": 489.51,
    "high": 492.74,
-   "low": 475.48,
-   "state": "+0.5% from open, 2.3% off the 10:00 high; mirror arms below 479.00",
-   "p1121": 481.41
+   "low": 474.03,
+   "state": "below its 479.00 open since 11:5x (mirror armed, untradable today)",
+   "p1121": 481.41,
+   "p1317": 478.19
   },
   "NVDA": {
    "open": 174.0,
    "prior_close": 178.67,
    "p1017": 172.8,
    "high": 174.65,
-   "low": 167.69,
-   "state": "-3.1% from open, -5.6% day, new low under Monday's 170.24; beyond the 3% line for the mirror",
-   "p1121": 168.59
+   "low": 166.24,
+   "state": "-3.5% from open, -6.1% day",
+   "p1121": 168.59,
+   "p1317": 167.83
   },
   "AMZN": {
    "open": 266.33,
@@ -55,8 +59,9 @@
    "p1017": 271.7,
    "high": 272.88,
    "low": 266.14,
-   "state": "-0.9% since the 10:18 pick, +1.1% from open; 277.5C 0.77 -> 0.31",
-   "p1121": 269.18
+   "state": "+0.9% from open, -1.1% since the pick; 277.5C 0.13",
+   "p1121": 269.18,
+   "p1317": 268.64
   },
   "TSM": {
    "open": 388.22,
@@ -64,8 +69,9 @@
    "p1017": 397.1,
    "high": 400.21,
    "low": 387.2,
-   "state": "+1.4% from open; sniper shadow trailed out +56% at 10:45, hero holds",
-   "p1121": 393.71
+   "state": "+0.5% from open; hero 415C back near entry",
+   "p1121": 393.71,
+   "p1317": 390.15
   },
   "AMD": {
    "open": 504.53,
@@ -80,8 +86,17 @@
    "prior_close": 733.15,
    "p1121": 713.94,
    "high": 745.64,
-   "low": 702.36,
-   "state": "-0.75% from open: the mirror's name if SMH loses its open"
+   "low": 699.63,
+   "state": "-1.7% from open: the mirror's name, scored only",
+   "p1317": 707.13
+  },
+  "MSFT": {
+   "open": 543.33,
+   "prior_close": 545.18,
+   "p1317": 531.57,
+   "high": 544.15,
+   "low": 526.37,
+   "state": "-2.2% from open with no headline of its own; software turning, AI spenders sold with yields up"
   }
  },
  "opportunities": [
@@ -174,8 +189,27 @@
    "action": "none",
    "why": "11:01: a SoftBank subsidiary modified its turbine procurement agreement with GE Vernova (after Musk's Friday claim that SoftBank is defaulting on turbine orders); the pre-market dump (-7%) now has its headline. GEV 775.74 is -6.5% on the day but +2.8% from its 754.56 open: the tape is bouncing, not falling, so no put. Scored from 11:21.",
    "why_zh": "11:01 软银子公司修改了和 GE Vernova 的燃气轮机采购协议（上周五马斯克说软银在拖欠涡轮机订单），盘前那 -7% 的原因找到了。但股价开盘 754.56 后反弹到 775.7（比开盘 +2.8%），走势是在反弹而不是继续跌，看跌不做，只打分。"
+  },
+  {
+   "type": "mirror",
+   "symbol": "MU",
+   "direction": "put",
+   "time": "13:17",
+   "action": "none",
+   "why": "Mirror armed since 11:5x: SMH below its 479.00 open (478.19 at 13:17, low 474.03), MU -1.7% from its open (707.13), NVDA beyond the 3% line. The day's one catalyst entry is spent (AMZN), so the mirror is scored only, from 11:21 (713.94) and 13:17.",
+   "why_zh": "看跌镜像从 11:5x 起成立：半导体 ETF 跌破开盘价 479.0（13:17 在 478.2，最低 474.0），美光比开盘 -1.7%（707.1），英伟达已超 3% 线。今天唯一的盘中名额已经给了亚马逊，镜像只能打分（从 11:21 的 713.9 和 13:17 两个点）。"
+  },
+  {
+   "type": "relative_weakness",
+   "symbol": "MSFT",
+   "direction": "put",
+   "time": "13:17",
+   "action": "none",
+   "why": "MSFT 531.57: -2.5% on the day, -2.2% from its open, low 526.37, with no headline of its own (IBM agentic platform is positive; the Anthropic S-1 range is indirect). Software is a turning theme and ORCL -2.6% on Eisman's OpenAI remark: the AI spenders are sold with yields up. Relative weakness without news is not a pick. Scored.",
+   "why_zh": "微软全天 -2.5%、比开盘 -2.2%，没有自己的消息（和 IBM 的智能体平台是利好、Anthropic 招股书是间接的）。软件是转向主题，甲骨文也因 Eisman 的 OpenAI 言论 -2.6%：利率上升时 AI 花钱的公司被卖。只凭相对弱势不做，只打分。"
   }
  ],
  "check_1121": "11:21 ET: no second pick (one a day; AMZN stands); the put mirror is NOT armed but is close. The hot-CPI tape is coming back as the 10:16 conditional said: SPY 747.09 (-0.74% on the day) is back BELOW its 748.29 open (low 746.00), QQQ 673.05 (-0.06% from open), TLT 80.80 (-1.4%, yields still rising), VIXY +3.2%, IWM -1.4%, XLV -0.7%, XLF flat. SMH 481.41: +0.5% above its 479.00 open after a 492.74 high at ~10:00 (2.3% off the high); the mirror arms if it loses 479.00. Chips below their own opens: NVDA 168.59 (-5.6% on the day, -3.1% from its 174.00 open, new low 167.69 under Monday's 170.24; no new headline since 10:00 beyond the Commvault note, the probe drip plus the hot print) and MU 713.94 (-2.6%, -0.75% from open); AMD 524 (+3.1%, +3.9% from open, faded from 539), AVGO +3.1% from open, TSM 393.7 (+1.4% from open, off the 400 high), INTC +0.2%, MRVL +2.8%, LITE +3.2% from open. If the mirror arms, the name is MU (NVDA is already beyond the 3% line at -3.1%); NVDA reports 11-17, outside the forbidden window but the bot's catalyst entry is spent for the day anyway. AMZN pick (10:18 at 271.70): 269.18 at 11:21 (-0.9% since the pick, +1.1% from its open, off the 272.88 high); the shadow 11-11 277.5C 0.77 -> 0.31 (-60%), hero x5 the same; wrong_if (below 266.33) not triggered. The 11-02 shape again (picked near the high). Sniper TSM: catalyst_open's 417.5C trailed out at 1.28 (+56%, +$46 shadow) at 10:45 after a 2.25 peak; the hero 415C x4 1.01 -> 1.62 (peak 2.80), held to the close. Other: GEV 775.74 (-6.5% on the day, +2.8% from its 754.56 open): the pre-market dump now has a headline, 11:01 'SoftBank subsidiary modifies turbine procurement agreement with GE Vernova' (after Musk's Friday claim that SoftBank is defaulting on turbine orders); the stock is bouncing off the open, so no put. COIN 131.04 (-3.7%, -1.0% from open) sits on its 52-week low 131.10 with no fresh news. CAT 576.9 (-3.7%, +1.0% from open). Platforms: AAPL -1.2% from open, GOOGL -0.7%, MSFT -0.2%, META +0.7%, TSLA +1.5%. Gainers/losers MIN_5 are micro caps.",
- "conditional_1316": "Mirror: arms if SMH < 479.00 (its open) with MU below 719.35 (its open) as the name; NVDA is beyond the 3% line. A 13:16 call pick is unlikely: the one entry is spent and the index is below its open with yields rising; the 13:00 10Y auction and Schmid 13:30 are the next waves. If SPY reclaims 748.29 and SMH holds above its open, the morning was a two-sided CPI day; if not, the hot-print tape (chips, long duration down; banks flat) is the day."
+ "conditional_1316": "Mirror: arms if SMH < 479.00 (its open) with MU below 719.35 (its open) as the name; NVDA is beyond the 3% line. A 13:16 call pick is unlikely: the one entry is spent and the index is below its open with yields rising; the 13:00 10Y auction and Schmid 13:30 are the next waves. If SPY reclaims 748.29 and SMH holds above its open, the morning was a two-sided CPI day; if not, the hot-print tape (chips, long duration down; banks flat) is the day.",
+ "check_1316": "13:17 ET: no pick (the day's one entry went to AMZN at 10:18; nothing new clears the bar either). Hot-CPI tape all afternoon: SPY 746.39 (-0.84% on the day, -0.25% from open; low 744.87 at 12:5x), QQQ 669.66 (-1.43%, -0.56% from open), SMH 478.19 (-1.9%, -0.17% from open; low 474.03), TLT 80.61 (-1.65%; unchanged through the 13:00 10Y auction, so the auction added no wave), VIXY +3.2%, IWM -1.0%, XLF +0.4%, XLV -0.1%. Put mirror: technically armed since 11:5x (SMH below its 479.00 open) with MU as the name (707.13, -3.5% on the day, -1.7% from its 719.35 open, low 699.63); NVDA 167.83 (-6.1%, -3.5% from open) is beyond the 3% line. Not tradable today (one catalyst entry a day, spent on AMZN); scored from 11:21 and 13:17 as the mirror's sample. New mover: MSFT 531.57 (-2.5% on the day, -2.2% from its 543.33 open, low 526.37) with no headline of its own (IBM agentic platform, Anthropic S-1 range; software is a turning theme, ORCL -2.6% on Eisman's OpenAI remark, GOOGL -1.1% from open after 'Gemini 4 Carbon' availability): the AI spenders are sold with yields up; relative weakness without own news is not a put pick. AMD 509 (flat, +0.9% from open; 'reverses morning gains, recovers after Google AI deal' 12:17; 6th-gen EPYC availability 12:08) gave back all of the $2.5B-Anthropic pop. AVGO +2.4%, TSM 390.1 (+0.4%, +0.5% from open). Pick status: AMZN 268.64 (+0.6% on the day, +0.9% from open, -1.1% since the 10:18 pick); the 11-11 277.5C 0.13/0.15 (-83% from 0.77), hero x5 the same; wrong_if (below 266.33) not triggered, the 15:45 exit will book it. Sniper: TSM hero 415C 0.95/1.14 (back near the 1.01 entry after a 2.80 peak); the 417.5C trailed out +56% at 10:45. Carried: WMT 131C 0.12/0.14 (WMT 125.82, Mizuho $135 at 12:42), LLY 1470C 3.15/3.45 (LLY 1422.8, +0.8%). Other: GEV 771.5 (-7.0%; GLJ reiterates Sell at 12:21 after the SoftBank procurement change), CAT -3.2%, COIN 130.98 (-3.8%, under its 52-week low), CRWV -2.4% into its report, META -0.5%, AAPL -0.8%, TSLA -0.5% (+1.5% from open), GS -0.3%, JPM +0.1%, WMT +0.1%. Gainers/losers MIN_5 are micro caps."
 }
