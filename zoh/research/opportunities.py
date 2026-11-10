@@ -6,7 +6,9 @@ Sources, all for one US/Eastern date:
 - journal/opportunities/<date>.json: entries added later in the day or at the review.
 
 Each entry: {"type", "symbol", "direction": "call"|"put", "time": "HH:MM" (default 10:00),
-"why", "action": "real"|"shadow"|"none"}. The score is the stock move from the entry time to the
+"why", "action": "real"|"shadow"|"none"}. The sniper's and the picks' action follows the config:
+"real" while catalyst_open / catalyst_intraday carry a real_risk, "shadow" once it is 0 (since
+2026-11-09 both are shadow-only). The score is the stock move from the entry time to the
 close, signed by direction, plus open->close and the best move after entry, from IEX minute
 bars. Written to journal/opportunities.csv so each type builds a record (owner, 2026-10-29:
 "list every kind of opportunity").
@@ -26,7 +28,19 @@ FIELDS = ["date", "time", "type", "symbol", "direction", "action", "source", "op
           "close", "open_close_pct", "entry_close_pct", "best_after_entry_pct", "why"]
 
 
-def collect(day, root=None):
+PICK_VARIANTS = {"sniper": "catalyst_open", "intraday": "catalyst_intraday"}
+
+
+def pick_action(source, config=None):
+    """'real' when the variant behind a sniper or intraday pick risks real money, else 'shadow'."""
+    config = journal.load_config() if config is None else config
+    for v in config.get("variants", []):
+        if v.get("id") == PICK_VARIANTS.get(source):
+            return "real" if v.get("real_risk", v.get("risk", 0)) else "shadow"
+    return "shadow"
+
+
+def collect(day, root=None, config=None):
     root = Path(root or journal.JOURNAL_DIR)
     out = []
     bias_path = root / "bias" / f"{day}.json"
@@ -36,7 +50,8 @@ def collect(day, root=None):
         if sniper and sniper.get("symbol"):
             out.append({"type": sniper.get("catalyst_type") or "sniper", "symbol": sniper["symbol"],
                         "direction": sniper.get("direction", "call"), "time": "09:31",
-                        "why": sniper.get("catalyst", ""), "action": "real", "source": "sniper"})
+                        "why": sniper.get("catalyst", ""), "action": pick_action("sniper", config),
+                        "source": "sniper"})
         out += [dict(o, source="premarket") for o in bias.get("opportunities") or []]
     intraday_path = root / "bias" / "intraday" / f"{day}.json"
     if intraday_path.exists():
@@ -44,7 +59,8 @@ def collect(day, root=None):
         for p in intraday.get("picks") or []:
             out.append({"type": p.get("catalyst_type") or "intraday", "symbol": p["symbol"],
                         "direction": p.get("direction", "call"), "time": p.get("time", "10:00"),
-                        "why": p.get("catalyst", ""), "action": "real", "source": "intraday"})
+                        "why": p.get("catalyst", ""), "action": pick_action("intraday", config),
+                        "source": "intraday"})
         out += [dict(o, source="intraday") for o in intraday.get("opportunities") or []]
     extra_path = root / "opportunities" / f"{day}.json"
     if extra_path.exists():

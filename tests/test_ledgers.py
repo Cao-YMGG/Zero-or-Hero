@@ -407,6 +407,27 @@ class OpportunityScoreTest(unittest.TestCase):
             got = [(o["symbol"], o["source"]) for o in collect("2026-10-29", root)]
         self.assertEqual(got, [("V", "sniper"), ("META", "premarket"), ("ORCL", "intraday"), ("MSFT", "review")])
 
+    def test_pick_action_follows_the_variant_real_risk(self):
+        import json as _json
+        from zoh import journal
+        from zoh.research.opportunities import collect, pick_action
+        live = {"variants": [{"id": "catalyst_open", "real_risk": 0.2}, {"id": "catalyst_intraday", "real_risk": 0.2}]}
+        shadow = {"variants": [{"id": "catalyst_open", "real_risk": 0}, {"id": "catalyst_intraday", "real_risk": 0}]}
+        self.assertEqual(pick_action("sniper", live), "real")
+        self.assertEqual(pick_action("intraday", shadow), "shadow")
+        self.assertEqual(pick_action("sniper", {"variants": []}), "shadow")
+        # the checked-in config has both shadow-only since 2026-11-09
+        self.assertEqual(pick_action("sniper", journal.load_config()), "shadow")
+        self.assertEqual(pick_action("intraday", journal.load_config()), "shadow")
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "bias" / "intraday").mkdir(parents=True)
+            (root / "bias" / "2026-11-10.json").write_text(_json.dumps({"sniper": {"symbol": "TSM", "direction": "call"}}))
+            (root / "bias" / "intraday" / "2026-11-10.json").write_text(_json.dumps(
+                {"picks": [{"time": "10:18", "symbol": "AMZN", "direction": "call"}]}))
+            self.assertEqual([o["action"] for o in collect("2026-11-10", root, live)], ["real", "real"])
+            self.assertEqual([o["action"] for o in collect("2026-11-10", root, shadow)], ["shadow", "shadow"])
+
 
 class NotifyTest(unittest.TestCase):
     def test_no_webhook_is_a_quiet_no_op(self):
