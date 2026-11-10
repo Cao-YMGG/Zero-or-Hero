@@ -1,7 +1,30 @@
 {
- "as_of": "2026-11-10T14:17-05:00",
+ "as_of": "2026-11-10T14:47-05:00",
  "since": "2026-11-09T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-10 14:30",
+   "symbols": [
+    "AMD",
+    "GOOGL",
+    "INTC",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "AMD Gains 25% Against NVDA in 2 Days: Chip Analyst Says Lisa Su Is \u2018at Her Best\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63115849/amd-lisa-su"
+  },
+  {
+   "time": "11-10 14:19",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Rocket Lab Benefits from Tight Launch Supply as Falcon 9 Bookings Close, Analysts Say",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63115324/rocket-lab-benefits-from-tight-launch-supply-as-falcon-9-bookings-close-analysts-say"
+  },
   {
    "time": "11-10 14:14",
    "symbols": [
