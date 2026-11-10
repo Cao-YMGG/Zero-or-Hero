@@ -1,0 +1,179 @@
+{
+ "date": "2026-11-10",
+ "bias": "none",
+ "confidence": 0.35,
+ "p_up": 0.44,
+ "summary": "CPI day (October CPI 08:30 ET) after a +2.4% gap-and-go Monday. Pre-market 07:45: SPY flat (+0.05%), QQQ -0.4%, SMH -1.1% as chips give back part of Monday's +5-13% (NVDA -0.9% on an FBI probe, a shareholder class action and a Wells Fargo target cut to $300; INTC -2.5%, MRVL -2.5%, LITE -3%, MU -1.6%), banks +0.7-1.0% (XLF +0.7%, GS +1.0%, JPM +0.9%), XLV +0.6%, oil -2.3% (Brent under $90 for the first time since August on Trump saying the Iran war could end 'fairly soon'), TLT flat with the 10Y at 4.86% and the 2Y 4.56%, dollar flat, VIXY +0.8%. Consensus CPI +0.3% m/m headline, core +0.2% to +0.3% (sources differ); Waller said a 50 bp December hike 'should be considered' if core stays at 0.3%+, so a hot core is the asymmetric risk. 08:30: CPI hot, headline +0.4% (vs +0.3%) and core +0.3% (vs +0.2%); SPY -0.4%, QQQ -1.0%, SMH -2.4%, TLT -0.5%, VIXY +2% at 08:32. p_up 0.44, none: a bearish lean short of the 0.40 put line on a day the open absorbs the print.",
+ "reasons": [
+  "Webull extended hours 07:45 ET (vs the 11-09 close): SPY 753.10 (+0.05%), QQQ 676.50 (-0.42%), IWM 282.64 (+0.05%), SMH 482.00 (-1.11%), VIXY 18.35 (+0.8%), TLT 81.92 (0.0%), UUP 28.97 (0.0%), USO 139.33 (-2.33%), XLF +0.72%, XLV +0.62%, XLP +0.27%, XLY +0.20%, XLI -0.03%, XLE -0.70%. Mega caps: NVDA 177.01 (-0.93%), AMD 504.00 (-0.90%), AVGO 316.95 (-0.79%), MU 721.60 (-1.58%), INTC 57.86 (-2.54%), ARM -1.49%, MRVL -2.48%, TSM 389.40 (+0.20%), SNDK -1.98%, WDC -1.65%, STX -1.84%, LITE -3.05%, CIEN -0.79%; META 646.40 (+0.78%), AAPL 352.56 (+0.53%), AMZN 268.31 (+0.52%), GOOGL 289.60 (+0.50%), MSFT 545.52 (+0.06%), TSLA 374.75 (-0.87%), ORCL -0.42%, PLTR -0.66%, COIN 134.14 (-1.44%); LLY 1418.25 (+0.45%), UNH +0.24%, JPM 345.20 (+0.91%), GS 915.06 (+0.98%), WMT 126.00 (+0.27%), COST +0.26%, HD +0.72%, XOM -0.79%, GE -0.13%, VST 131.24 (-2.00%). GEV 777.50 (-6.25%, 36K shares) and CAT 574.00 (-4.15%, 26K) print far below Monday's close with no headline found (Yahoo/Seeking Alpha showed both near flat at 04:30): thin pre-market prints after +7% days, to be re-checked at 08:30. Reports overnight: TTWO +4.0% (beat), RKLB -7.2% (EPS miss, $515M Neutron deals), TTD -5.2%, HIMS -0.8% after -11.8% Monday, OXY -0.7%; CRWV (-1.6%) reports after the close.",
+  "Macro: October CPI 08:30 ET, consensus +0.3% m/m headline (September +0.6%), core +0.2% (TipRanks) to +0.3% (other sources); y/y not consistently reported. Fed Governor Waller (Monday): a 50 bp hike in December 'should be considered' if core stays around 0.3% or higher; December hike odds about 80% (other Claude's note). Speakers today: Schmid 13:30, Bowman 15:30 and 18:30, Paulson 18:30. 10Y note auction 13:00 (prior HY 5.30%, BTC 2.77). Bond market closed Wednesday (Veterans Day), stocks open. Yields: 2Y 4.56% (+5 bp Monday), 10Y 4.86-4.88% (+2 bp Monday, little changed overnight), 30Y 5.26%. Dollar index 101.8 (-0.4% Monday, flat overnight). Oil: Brent fell below $90 for the first time since August (Monday settle $92.57, -5.9%), WTI about $84.6-85.9 (-1.5% to -2.5% from the $86.85 settle) after Trump said the Iran war could end 'fairly soon'; Brent -16% last week. Asia up on the oil drop; Europe strong Monday (FTSE MIB +2.7%, IBEX +1.9%).",
+  "Night session / overnight news: the NVDA drip continues (Trump 07:10: 'I know the FBI is looking into it'; shareholder class action filed 17:28 Monday; Wells Fargo keeps Overweight, target $300 from higher at 06:30; Bloomberg: Nvidia-backed Fireworks AI hacked twice). SMCI: report of a possible export-control breach involving Supermicro servers in China (07:31). TSMC October sales up nearly 60% y/y (06:35, Benzinga; could not be confirmed on a second source before 08:00). Anthropic amended S-1 (06:38): 801,351,354 shares at an expected $70-78 (plus 23.6M secondary); Amazon and Alphabet are large holders (Amazon booked a $50.5B upward adjustment on its Anthropic preferred in Q2); JPMorgan hosts a Dimon-Anthropic livestream. Amazon announced Black Friday Week and Cyber Monday events. Meta: Bilt small-business partnership (07:31), Muse Ember on the Meta Model API and Muse Code (yesterday 12:41-12:58). LLY: the FDA GLP-1 label update re-reported (07:31). WMT: BMO and Mizuho adjusted targets (07:32) ahead of the 11-19 report. COIN: KBW target $237 from $221 (07:32). VST: Scotiabank cut its target Monday 18:01 and VST filed a 5M-share offering for a selling shareholder (17:19). Rating changes on mega caps this morning: only the NVDA cut; the Daily Trade Alert roundup lists Cloudflare, MongoDB, DraftKings, Shell, L'Oreal and no mega cap.",
+  "Why p_up 0.50 and none before the print: CPI days are decided at 08:30 and the open absorbs it (other Claude's 31 CPI days since 2024-02: on 25 the 10:00 price was within 0.3% of the open; their 10:00 follow card lost -28% avg on CPI days). Our MACRO work: open-to-close on release days is a coin flip. Base rates pulling each way: the day after a +2% up day follows through about 52% of the time but with another big move likely (20-day realized vol 21.6%); yesterday's leaders (chips, industrials, power) are giving back pre-market while the index is flat, so breadth is narrowing into the print. Waller's 50 bp talk makes a hot core (>= 0.4%) the asymmetric outcome: TLT and QQQ would take it; a cool print (<= 0.2%) extends Monday but is half-expected. Decision after the print: a call needs >= 0.60 and a put <= 0.40; both unlikely from a 0.3/0.3 print.",
+  "Rotation map (Webull daily bars to 11-09, 1 week / 1 month): internet +5.8% / -3.2% (AMZN +8.7 / +5.1, MSFT +7.5 / +4.3, META +5.7 / -11.0, AAPL +3.7 / +3.0, GOOGL +3.3 / -17.3), industrials +1.9% / -7.4% (GE +6.3 / +9.8, CAT -2.4 / -24.6), consumer +1.5% / +15.3% (HD +3.6 / +19.6, COST +2.5 / +12.6, WMT -1.6 / +13.7), banks +1.1% / +0.1% (BAC +2.0, GS +0.8, JPM +0.4), CPU +0.9% / -31.7% (AMD +8.9 / -18.1 after Monday; INTC -1.0 / -44.6, ARM -5.3 / -32.3), health -0.3% / +13.9% (LLY +0.1 / +20.7, UNH -0.7 / +7.2), power -2.1% / -15.6% (GEV -3.8, VST -0.5), custom silicon -4.4% / -23.4% (AVGO -0.9, MRVL -9.8, TSM -2.5), energy -7.9% / -1.3% (XOM -8.3, CVX -7.5), optical -9.1% / -40.0% (LITE -12.9, CIEN -5.3), GPU -11.6% / -22.5% (NVDA), disk -14.6% / -30.5% (WDC -14.4, STX -14.8), memory -14.8% / -37.0% (MU -12.0, SNDK -17.5); TSLA -6.4 / +0.8, PLTR -5.1 / -14.9, ORCL +0.5 / -11.4, COIN -1.3 / -20.9. ETFs: SPY +0.1% / -2.7%, QQQ -0.3% / -9.1%, SMH -4.1% / -19.7%, XLF +0.7% / +6.9%, XLV +2.0% / +12.0%, XLY +2.4% / +8.3%, XLP +0.1% / +9.0%, XLI -0.5% / +0.3%, IWM +1.2% / +1.8%, XLE -7.9% / -5.1%, TLT +0.3% / +5.7%, USO -9.1% / -3.3%. Theme states (python -m zoh.research.themes --today, bars to 11-09): chips turning (REL_WEAK, BREADTH, PERIPH), software turning, energy turning (REL_WEAK, BREADTH, RATIO_LOW); industrials heating (AT_HIGH, BREADTH_UP, RATIO_HIGH, PERIPH_UP); internet neutral with REL_STRONG + BREADTH_UP; banks, health, consumer neutral with BREADTH_UP; power neutral (BREADTH turn flag), optical neutral (PERIPH_UP).",
+  "Rebound_scanner universe gap-downs >= 2%: none at 07:45 (largest: INTC -2.5% is not in the universe; MRVL/LITE not in it; SMCI -? no print). nvda_gapdown_put, rebound_scanner, leader_follow, spy_open_drive, spy_open_drive_put and stock_open_drive are all off today: CPI is a release day (days: non_event) and Tuesday has no same-day NVDA/TSLA expiry; meta_follow2 runs Mon/Wed/Fri only. Only the catalyst family (shadow-only since last night, PR #111) and the two hero shadows can trade. Carried from Monday: catalyst_open's real WMT 11-13 131C x3 (0.24, 0.17-0.19 at the close) and the hero shadows (WMT x17, LLY 11-13 1470C x1 at 4.23, 3.56 at the close).",
+  "Dossiers: AMD moves with the CPU group on Intel/CPU days, not NVDA (corr 0.46); after a +13% day with no new catalyst it is a non-event for us today. META: moves on its own news, big gaps continue, small gaps fill; Muse Ember / Muse Code is day-two news and the stock did not react intraday Monday, so +0.8% pre-market is relative strength, not a sniper. ANALYST.md: upgrades carry (+0.6% median open to close, 57% up), target cuts do not; the only mega-cap rating change this morning is a cut (NVDA, Wells Fargo).",
+  "08:30 RE-READ (08:32-08:34 ET): October CPI hot on both lines: headline +0.4% m/m SA (consensus +0.3%, September +0.6%; NSA +0.17%), core +0.3% m/m SA (consensus +0.2%, September +0.3%); no 12-month rates published (October 2025 index missing after the shutdown); CPI index NSA 337.511 vs 337.042 expected; real weekly earnings 0.0%. Core at 0.3% is exactly Waller's 'around 0.3% or higher' line for considering a 50 bp December hike. Reaction at 08:32 (Webull extended hours vs the 11-09 close): SPY 749.96 (-0.36%, from +0.05% at 07:45), QQQ 672.36 (-1.03%), SMH 475.91 (-2.36%), IWM 280.11 (-0.85%), TLT 81.58 (-0.46%, roughly +4-5 bp on the 10Y, estimated from TLT), VIXY 18.57 (+2.0%), USO 139.07 (-2.5%), UUP flat, XLF +0.50%, XLV +0.36%, XLP +0.37%, XLE -0.88%. Stocks: NVDA 175.81 (-1.60%), AMD 497.62 (-2.15%), AVGO 313.22 (-1.96%), MU 712.67 (-2.79%), INTC 57.21 (-3.64%), TSM 384.77 (-0.99%, from +0.20%), TSLA 371.02 (-1.86%), COIN 132.39 (-2.73%), AMZN 266.10 (-0.31%), META 640.75 (-0.10%), MSFT 543.80 (-0.25%), GOOGL flat, AAPL 352.00 (+0.37%), GS 912.77 (+0.72%), JPM 344.59 (+0.73%), WMT 126.80 (+0.91%), LLY 1415.27 (+0.23%); GEV 770.97 (-7.04%, 58K shares, still no headline found), CAT 577.00 (-3.65%), VST 129.55 (-3.27%). Read: a hot print sells duration first (chips -2.4%, QQQ -1%, TLT down) while banks, staples and WMT hold a bid; the gap is -0.4% on SPY, so the open absorbs most of it and the open-to-close question is whether the 10:00 chip bounce or the 50 bp talk wins. p_up 0.50 -> 0.44: a bearish lean (hot core + hawkish Fed + VIX up + chips leading down + yields up) but not the <= 0.40 a put needs; CPI-day open-to-close is a coin flip in MACRO and 10-14's hot core CPI produced only -0.7% open to close. Call: none. Sniper: the 08:30 decision rule (core >= 0.4% AND SMH <= -1.5%) is half met (SMH -2.4%, core 0.3%), so the pre-committed rule keeps TSM; confidence 0.30 -> 0.25 because the stock gapped from +0.2% to -1.0% and the catalyst_open gate (at or above its open 09:31-10:00) will likely keep the shadow out if chips keep falling. Trade workflow run 80 dispatched 08:32 and in progress."
+ ],
+ "events": [
+  "CPI October: headline +0.4% m/m (vs +0.3%), core +0.3% (vs +0.2%), no y/y published",
+  "CPI (October) 08:30 ET",
+  "10Y note auction 13:00 ET",
+  "Fed: Schmid 13:30, Bowman 15:30 and 18:30, Paulson 18:30 ET",
+  "CRWV reports after the close",
+  "Bond market closed Wednesday 11-11 (stocks open)"
+ ],
+ "inputs": {
+  "es_futures_pct": -0.4,
+  "vix": 19.9,
+  "wti_pct": -2.5,
+  "us10y": 4.9,
+  "us10y_change_bp": 4,
+  "us2y_change_bp": null,
+  "dxy_pct": 0.0,
+  "vixy_pct": 2.0,
+  "overnight": "SPY 753.10 (+0.05%) at 07:45, 749.96 (-0.36%) at 08:32 after a hot CPI (0.4 / 0.3 vs 0.3 / 0.2); QQQ -1.0%, SMH -2.4%, TLT -0.5% (10Y about 4.90%, +4 bp estimated from TLT), VIXY +2%; Brent < $90 on Iran de-escalation"
+ },
+ "rotation": {
+  "heating": [
+   "internet: +5.8% 1w (AMZN +8.7%, MSFT +7.5%, META +5.7%), -3.2% 1m; THEMES neutral with REL_STRONG + BREADTH_UP; +0.5-0.8% pre-market while chips fall",
+   "industrials: GE +6.3% 1w, XLI +3.8% Monday; THEMES heating (AT_HIGH, BREADTH_UP, RATIO_HIGH, PERIPH_UP); CAT -24.6% 1m is the laggard inside it and prints -4% pre-market on thin volume",
+   "consumer: +1.5% 1w / +15.3% 1m (HD +19.6%, WMT +13.7%, COST +12.6%); XLP +9.0% 1m; THEMES neutral, BREADTH_UP",
+   "banks: +1.1% 1w, XLF +6.9% 1m; +0.7-1.0% pre-market (GS +1.0%, JPM +0.9%) with yields firm; THEMES neutral, BREADTH_UP",
+   "health: +13.9% 1m (LLY +20.7%), XLV +12.0% 1m, +0.6% pre-market; THEMES neutral, BREADTH_UP"
+  ],
+  "cooling": [
+   "chips, every link: memory MU -12.0% / -29.2% 1w / 1m, SNDK -17.5% / -44.9%; disk WDC -14.4% / -26.3%, STX -14.8% / -34.7%; GPU NVDA -11.6% / -22.5%; optical LITE -12.9% / -43.1%, CIEN -5.3% / -36.8%; custom AVGO -0.9% / -11.3%, MRVL -9.8% / -43.7%, TSM -2.5% / -15.1%; CPU INTC -1.0% / -44.6%, ARM -5.3% / -32.3%, AMD +8.9% / -18.1% only after Monday; SMH -4.1% / -19.7%. THEMES: turning (REL_WEAK, BREADTH, PERIPH). Monday's +5% SMH bounce is giving back -1.1% pre-market with NVDA under the probe drip.",
+   "energy: XOM -8.3% 1w, CVX -7.5%, XLE -7.9% 1w; THEMES turning (REL_WEAK, BREADTH, RATIO_LOW); oil -2.3% again today",
+   "power: GEV -3.8% / -17.0%, VST -0.5% / -14.2%; THEMES neutral with a BREADTH turn flag; VST secondary + target cut, GEV -6% pre-market unexplained",
+   "software: THEMES turning (REL_WEAK, BREADTH, RATIO_LOW); PLTR -5.1% 1w, ORCL -11.4% 1m",
+   "TSLA -6.4% 1w despite Monday's +5.5%; COIN -20.9% 1m near its 52-week low"
+  ],
+  "theme_state": {
+   "turning": [
+    "chips",
+    "software",
+    "energy"
+   ],
+   "heating": [
+    "industrials"
+   ],
+   "neutral": [
+    "internet",
+    "banks",
+    "health",
+    "consumer",
+    "power",
+    "optical"
+   ],
+   "source": "python -m zoh.research.themes --today, bars to 2026-11-09 (internet REL_STRONG + BREADTH_UP; banks, health, consumer BREADTH_UP; industrials AT_HIGH + BREADTH_UP + RATIO_HIGH + PERIPH_UP; power and optical carry a BREADTH turn flag)",
+   "filter": "chips/software/energy turning: no bounce-buying and no sympathy calls on their names; since 2026-11-09 a call sniper or pick on a turning name needs a catalyst of its own (TSM's October sales qualify); put mirror only with the 11:00 confirmation. Industrials heating: GE/CAT calls allowed on news."
+  },
+  "events": "CPI at 08:30 decides the day: a hot core hits the long-duration groups (chips, software, power) and helps banks; a cool print extends Monday's rotation back into chips and cyclicals. Chips are giving back pre-market before the print, platforms and banks are bid: the market is leaning defensive into it. TSMC's October sales (+60% y/y) are the chip chain's own positive today; the NVDA probe is its negative. Oil's slide (Brent < $90) helps consumer and transports, hurts energy (turning)."
+ },
+ "sniper": {
+  "symbol": "TSM",
+  "direction": "call",
+  "confidence": 0.25,
+  "catalyst": "Own news from the last day: TSMC reported October revenue up nearly 60% year over year (Benzinga 06:35 ET; monthly sales release, not earnings; could not be confirmed on a second source before 08:00 and the file says so). Pre-market +0.2% (389.40 vs 388.62) while SMH is -1.1%: the number is not in the price yet, the sector tape is against it. Analyst median target $560 (mean $587, high $1,000) vs $389: room; 20 of 21 ratings Buy or Strong Buy. Chips are a turning theme, so this pick uses the 2026-11-09 exemption (a catalyst of its own) and is a shadow-only sample (catalyst_open real_risk 0 since PR #111; the hero shadow takes the full ledger). Nearest expiry Friday 11-13. Risks: CPI at 08:30 (a hot core sells chips first), the turning theme (21% win rate on its names), the 10-28 MU/SK Hynix analog cuts both ways (MU ran +2.2% from its open on a peer's record quarter), and SMH -1.1% pre-market means the open may already be red. DECISION RULE AT 08:30: if core CPI >= 0.4% and SMH is below -1.5% pre-market at 08:35, the sniper becomes null and TSM goes to opportunities. 08:32: TSM 384.77 (-1.0%) after the hot CPI, SMH -2.4%: the pre-committed rule (core >= 0.4% AND SMH <= -1.5%) is only half met, so the pick stands at 0.25; the catalyst_open gate decides at the open.",
+  "wrong_if": "below its open at 10:00, or SMH more than 1% below its own open at 10:00"
+ },
+ "opportunities": [
+  {
+   "type": "company_news",
+   "symbol": "TSM",
+   "direction": "call",
+   "time": "09:31",
+   "action": "shadow",
+   "why": "Sniper (see sniper): October sales +60% y/y (06:35), +0.2% pre-market against SMH -1.1%; median target $560; shadow-only since 11-09. 08:32: -1.0% after the hot CPI; confidence 0.25.",
+   "why_zh": "狙击（见上）：台积电 10 月营收同比 +60%（06:35），盘前只 +0.2% 而半导体 ETF -1.1%，消息还没进价格；分析师中位目标价 560 对现价 389。芯片是转向主题，用的是昨晚新定的「自己有催化剂可以选」的例外；从昨晚起狙击只记影子、不下真单。08:32 CPI 偏热后台积电盘前 -1.0%、半导体 ETF -2.4%：预先定的取消条件（核心 ≥ 0.4% 且半导体 ETF 跌超 1.5%）只满足一半，按规则保留，信心降到 0.25；机器人 09:31 后只在它守住开盘价时才记。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "AMZN",
+   "direction": "call",
+   "time": "09:31",
+   "action": "none",
+   "why": "Anthropic's amended S-1 sets 801M shares at $70-78 (06:38); Amazon is the largest outside holder (it booked a $50.5B upward adjustment on the preferred in Q2) and announced its Black Friday Week events. +0.5% pre-market after -0.9% open to close Monday. Indirect catalyst (a mark on a holding), platforms were sold intraday Monday: not the sniper. Scored.",
+   "why_zh": "Anthropic 修改后的招股书定了发行区间（8 亿股、每股 70–78 美元），亚马逊是最大的外部股东（二季度已把这笔持股上调 505 亿美元账面），又公布了黑五周活动。盘前 +0.5%，但昨天平台股盘中被卖（亚马逊开到收 -0.9%），催化剂是间接的，不选，只打分。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "META",
+   "direction": "call",
+   "time": "09:31",
+   "action": "none",
+   "why": "Day two of Muse Ember on the Meta Model API and Muse Code (Monday 12:41-12:58; the stock did not react intraday) plus a Bilt small-business partnership (07:31). +0.8% pre-market, internet REL_STRONG. Relative strength with day-old product news: opportunity, not sniper (DOSSIER_META: small gaps fill). Scored.",
+   "why_zh": "Muse Ember 上 Meta 模型 API、Muse Code 发布是昨天中午的消息（当时股价没反应），今早又有和 Bilt 的小企业合作。盘前 +0.8%，互联网主题相对强。隔天的产品消息加相对强势，只记录不选。"
+  },
+  {
+   "type": "analyst",
+   "symbol": "NVDA",
+   "direction": "put",
+   "time": "09:31",
+   "action": "none",
+   "why": "Wells Fargo cut its target to $300 (06:30, keeps Overweight); Trump: 'the FBI is looking into it' (07:10); shareholder class action (Monday 17:28); Fireworks AI hack. -0.9% pre-market after -4.3% Monday (+3.3% open to close). Reports 11-17 (5 sessions): no sniper either way; nvda_gapdown_put is off (Tuesday, CPI). Scored as the probe-drip put. 08:32: -1.6% after the hot CPI.",
+   "why_zh": "富国把英伟达目标价降到 300（维持增持），特朗普说 FBI 在查，股东集体诉讼已提交。盘前 -0.9%，昨天 -4.3% 但开到收 +3.3%。11-17 出财报（5 个交易日），两边都不做；英伟达低开看跌今天不跑（周二没有当天到期、CPI 日）。记录为「调查消息慢慢渗」的看跌样本。"
+  },
+  {
+   "type": "financing_fade",
+   "symbol": "VST",
+   "direction": "put",
+   "time": "09:31",
+   "action": "none",
+   "why": "VST filed a 5M-share offering for a selling shareholder (Monday 17:19) and Scotiabank cut its target (18:01) after +7.3% Monday; -2.0% pre-market. Power neutral with a BREADTH turn flag. A secondary into a +7% day is the fade setup (FADES.md: acquirer/offering puts lose on average, so no trade). Scored.",
+   "why_zh": "Vistra 昨天涨 7.3% 后，盘后有股东要卖 500 万股，Scotiabank 又降了目标价，盘前 -2.0%。涨完就增发是「卖消息」的样子，但 FADES 研究说这类看跌平均亏，只记录。"
+  },
+  {
+   "type": "sector_move",
+   "symbol": "GS",
+   "direction": "call",
+   "time": "09:31",
+   "action": "none",
+   "why": "Banks bid into CPI: GS +1.0%, JPM +0.9%, XLF +0.7% pre-market with yields firm and Waller hawkish; JPMorgan hosts a Dimon-Anthropic livestream. No rating change: relative strength, not a catalyst. Scored.",
+   "why_zh": "CPI 前银行被买：高盛 +1.0%、摩根大通 +0.9%、金融 ETF +0.7%，利率站稳、Waller 偏鹰对银行有利。没有评级变化，只是相对强势，不选。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "LLY",
+   "direction": "call",
+   "time": "09:31",
+   "action": "none",
+   "why": "Day two of the Foundayo OSA Phase 3 and the Jefferies $1,700 target; +0.45% pre-market after +4.3% Monday. Extended; the hero shadow already holds the 11-13 1470C from 13:19 Monday. Scored.",
+   "why_zh": "礼来三期试验和 Jefferies 1,700 目标价的第二天，盘前 +0.45%，昨天已涨 4.3%。涨得太多；hero 影子昨天 13:19 买的 1470 看涨还拿着。只记录。"
+  },
+  {
+   "type": "analyst",
+   "symbol": "COIN",
+   "direction": "call",
+   "time": "09:31",
+   "action": "none",
+   "why": "KBW raised its target to $237 from $221 (07:32) a day after the trust-bank charter; -1.4% pre-market at 134 (52-week low 131.10 Monday). The tape disagrees with the news again (same as Monday morning). Scored.",
+   "why_zh": "KBW 把 Coinbase 目标价从 221 提到 237，昨天刚拿到信托牌照，但盘前 -1.4%、贴着 52 周低点。消息和走势不一致（和昨天早上一样），只记录。"
+  },
+  {
+   "type": "relative_weakness",
+   "symbol": "GEV",
+   "direction": "put",
+   "time": "09:31",
+   "action": "none",
+   "why": "GEV 777.50 (-6.3%) and CAT 574 (-4.2%) printed well below Monday's close pre-market on 36K / 26K shares with no headline found (other quote sources showed both flat at 04:30). Thin prints after +7% days until proven otherwise; re-checked at 08:30. No trade on relative weakness without news. Scored from the open. 08:32: GEV 770.97 (-7.0%, 58K shares), CAT 577 (-3.7%), VST 129.55 (-3.3%): the power/industrial leaders of Monday are being sold pre-market; still no headline.",
+   "why_zh": "GE Vernova 盘前打印 777.5（-6.3%）、卡特彼勒 574（-4.2%），成交很少，也找不到消息（别的报价源 04:30 都是平的）。昨天各涨 7% 后的零星盘前成交，08:30 再核一次；没有消息不做看跌，只打分。 08:32 仍在跌：GE Vernova -7.0%（5.8 万股）、卡特彼勒 -3.7%、Vistra -3.3%，昨天领涨的电力和工业在被卖，还是没有消息。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "SMCI",
+   "direction": "put",
+   "time": "09:31",
+   "action": "none",
+   "why": "Report of a possible export-control breach involving Supermicro servers in China (07:31). In the rebound_scanner universe; turning theme; no pre-market print read. Scored.",
+   "why_zh": "有报道说超微的服务器可能在中国涉及出口管制违规（07:31）。芯片转向主题里的负面消息，没读到盘前价，只记录。"
+  }
+ ],
+ "generated_at": "2026-11-10T08:35:07-05:00",
+ "zh": {
+  "summary": "CPI 日（10 月 CPI 08:30 公布），昨天高开走高 +2.4% 之后。盘前 07:45：标普 ETF 平，纳指 ETF -0.4%，半导体 ETF -1.1%——芯片在吐昨天 +5% 到 +13% 的一部分（英伟达 -0.9%：FBI 在查、股东集体诉讼、富国降目标价到 300；英特尔 -2.5%、迈威尔 -2.5%、Lumentum -3%、美光 -1.6%），银行 +0.7% 到 +1.0%，医疗 +0.6%，油 -2.3%（布伦特八月以来首次跌破 90，特朗普说伊朗战争「很快」能结束），长债平（10 年期 4.86%、2 年期 4.56%），美元平，恐慌指数 ETF +0.8%。CPI 预期环比 +0.3%、核心 +0.2% 到 +0.3%（来源不一）；Waller 说核心若还在 0.3% 以上，12 月该考虑加 50 个基点，所以核心偏热是不对称的风险。08:30 再读：CPI 偏热——环比 +0.4%（预期 +0.3%）、核心 +0.3%（预期 +0.2%），没有同比（去年 10 月停摆缺数据）。08:32：标普 ETF -0.4%，纳指 ETF -1.0%，半导体 ETF -2.4%，长债 -0.5%（10 年期约 4.90%），恐慌指数 ETF +2%，银行、必需消费和沃尔玛还在涨。",
+  "spy": "不做。上涨概率 50%：CPI 日由 08:30 的数字决定，开盘已经把它吃掉（对面 31 个 CPI 日里 25 天 10:00 离开盘价不到 0.3%）；昨天的领头羊（芯片、工业、电力）盘前在回吐，指数持平，宽度在收窄。核心 ≥ 0.4% 是不对称的一边（Waller 的 50 个基点），≤ 0.2% 延续昨天但一半已在预期里。看涨要 60%、看跌要 40%，0.3/0.3 的数字到不了。08:30 再读：数字偏热，核心 0.3% 正好踩在 Waller 说的「该考虑加 50 个基点」的线上。上涨概率从 50% 降到 44%：偏空（数据热、联储鹰、恐慌指数涨、芯片领跌、利率升），但没到 40% 的看跌线——开盘会吸掉大部分缺口，CPI 日开到收在我们的研究里是硬币，10-14 核心偏热那天开到收也只 -0.7%。不做。",
+  "sniper": "台积电看涨，信心 0.30，只记影子（昨晚起狙击不下真单）。催化剂是它自己的：10 月营收同比 +60%（06:35 Benzinga，08:00 前没找到第二个来源，文件里写明）。盘前只 +0.2%，而半导体 ETF -1.1%——数字没进价格，板块的走势却是反的。分析师中位目标价 560 对现价 389，21 家里 20 家买入。芯片是转向主题，用的是昨晚新定的例外（名字自己有催化剂可以选）。最近到期周五 11-13。风险：08:30 的 CPI（核心偏热先卖芯片）、转向主题的 21% 胜率、半导体 ETF 盘前已经红。08:30 的规则（核心 ≥ 0.4% 且半导体 ETF 跌超 1.5% 才取消）只满足一半：核心 0.3%、半导体 ETF -2.4%，按预先定的规则保留，信心降到 0.25；台积电盘前从 +0.2% 变成 -1.0%，09:31 后机器人只在它守住开盘价时才记影子。什么算错：10:00 在开盘价下，或半导体 ETF 10:00 比自己的开盘价低 1% 以上。",
+  "rotation": "一周看，钱在互联网平台（亚马逊 +8.7%、微软 +7.5%、Meta +5.7%）、工业（GE +6.3%）、消费和银行；一个月看，医疗 +14%、消费 +15%、必需消费 +9% 是赢家。降温的还是整条芯片链：存储 -15%、硬盘 -15%、英伟达 -12%、光模块 -9%（一个月 -22% 到 -40%），能源一周 -8%，电力 -2%。主题状态：芯片、软件、能源「转向」；工业「升温」；互联网、银行、医疗、消费中性但宽度在转好。今天 CPI 决定方向：核心偏热先打久期长的组（芯片、软件、电力）、利好银行；偏凉就延续昨天回流芯片和周期股。台积电 10 月营收是芯片链今天唯一的自家利好，英伟达的调查是它的利空。"
+ }
+}
