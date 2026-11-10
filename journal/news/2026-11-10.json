@@ -1,7 +1,247 @@
 {
- "as_of": "2026-11-10T13:46-05:00",
+ "as_of": "2026-11-10T14:17-05:00",
  "since": "2026-11-09T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-10 14:14",
+   "symbols": [
+    "V"
+   ],
+   "rating": "target up",
+   "headline": "Citigroup Maintains Buy on Visa, Raises Price Target to $490",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63115003/citigroup-maintains-buy-visa-raises-price-target-490"
+  },
+  {
+   "time": "11-10 14:13",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Google Fi Wireless Launches Super Network With Dual 5G And Wi-Fi Access",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63114893/google-fi-wireless-launches-super-network-dual-5g-and-wi-fi-access"
+  },
+  {
+   "time": "11-10 14:10",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "'UK data centre pioneer considers delaying $35bn listing after AI sell-off' - The Telegraph",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63114776/uk-data-centre-pioneer-considers-delaying-35bn-listing-after-ai-sell-telegraph"
+  },
+  {
+   "time": "11-10 14:07",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "'Nvidia Hires Wachtell Lipton to Investigate C.E.O.\u2019s Affair With Chinese Executive; Wachtell Partner Joon H. Kim, A Former Acting U.S. Attorney, Is Leading The Inquiry Into The Chip Maker\u2019s Chief Executive' - NY Times",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63114602/nvidia-hires-wachtell-lipton-investigate-c-e-o-s-affair-chinese-executive-wachtell-partner-joon-h-ki"
+  },
+  {
+   "time": "11-10 14:02",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "SIG Analyst Adjusts Supermicro Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1004143170/sig-maintains-super-micro-computer-smcius-with-sell-rating-raises"
+  },
+  {
+   "time": "11-10 14:02",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Dan Ives Says \u2018Spy Soap Opera\u2019 Could Send Nvidia Stock 30% Lower Without CEO: \u2018There is Only One Jensen\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63114257/dan-ives-says-spy-soap-opera-could-send-nvidia-stock-30-lower-without-ceo-there-is-only-one-jensen"
+  },
+  {
+   "time": "11-10 14:02",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Coinbase and Industry Peers File Support for CFTC in Perpetual Futures Legal Battle",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1004118764/coinbase-kalshi-kraken-parent-back-cftc-in-legal-fight-over"
+  },
+  {
+   "time": "11-10 14:02",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "UnitedHealthcare Discontinues Supplemental Medicare Plan in Wyoming",
+   "source": "fiscal.ai",
+   "url": "https://insurancenewsnet.com/topics/health-employee-benefits/page/topics/newswires?archive_date=2026-11"
+  },
+  {
+   "time": "11-10 14:02",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova Plans $34.5 Million Investment to Expand Louisiana Transformer Manufacturing Operations",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/ge-vernova-plans-34-5-million-investment-to-expand-louisiana-transformer-manufacturing-operations-ce785edade8cf522"
+  },
+  {
+   "time": "11-10 14:02",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Nucleus Research Names Salesforce a Leader in 2026 CPQ Technology Value Matrix",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261110fl94127/nucleus-research-releases-2026-cpq-commerce-technology-value-matrix"
+  },
+  {
+   "time": "11-10 14:01",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "RBC Capital Markets Issues Outlook on Intel's 2027 Growth",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1004172591/intel-sees-2027-growth-as-data-center-strength-offsets-pc"
+  },
+  {
+   "time": "11-10 14:01",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank of America Adds Erewhon Membership to BofA Rewards Program",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/bank-of-america-brings-the-erewhon-membership-to-bofa-rewards-302934937.html"
+  },
+  {
+   "time": "11-10 14:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Alternatives Leads $80 Million Series B Funding for Daylight",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.com/news/as-ai-threats-surge-daylight-raises-80m-led-by-goldman-sachs-22887006"
+  },
+  {
+   "time": "11-10 14:01",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank of America Awards $250,000 Grant to Goodwill Southeast Georgia",
+   "source": "fiscal.ai",
+   "url": "https://savannahceo.com/news/2026/11/bank-america-awards-250000-grant-goodwill-southeast-georgia/"
+  },
+  {
+   "time": "11-10 14:01",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Announces 2026 Partner Award Winners",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/10/3399961/0/es/ai-r-compass-uol-es-reconocida-por-oracle-en-la-regi%C3%B3n-de-am%C3%A9rica-latina.html"
+  },
+  {
+   "time": "11-10 14:01",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly Launches 'Life Doesn't Slow Down' Campaign for Foundayo",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/life-doesnt-slow-down-and-foundayo-orforglipron-patient-leanne-morgan-is-done-waiting-302934087.html"
+  },
+  {
+   "time": "11-10 14:01",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD and Cornelis Networks Launch Joint Go-to-Market Program for HPC and AI",
+   "source": "fiscal.ai",
+   "url": "https://natlawreview.com/press-releases/amd-and-cornelis-expand-collaboration-hpc-and-ai-science-gwdg-deploys-emmy"
+  },
+  {
+   "time": "11-10 14:01",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD Announces General Availability of 6th Gen EPYC Server Processors",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/10/3400032/0/en/amd-showcases-6th-gen-amd-epyc-processors-to-lead-next-era-of-ai-and-enterprise-computing.html"
+  },
+  {
+   "time": "11-10 14:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Launches Muse AI Agent App for Apple Watch",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/ca1tp9t/"
+  },
+  {
+   "time": "11-10 14:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Rackspace and Together AI Announce Strategic AI Infrastructure Agreement Using NVIDIA Systems",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/10/3399517/0/en/rackspace-and-together-ai-announce-strategic-agreement-to-support-enterprise-ai-inference.html"
+  },
+  {
+   "time": "11-10 14:01",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Reolink Launches Costco-Exclusive 8-Camera 4K Security Bundle",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/reolink-launches-costco-exclusive-8-camera-4k-security-bundle-with-ai-detection-and-no-monthly-fees-302929064.html"
+  },
+  {
+   "time": "11-10 14:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Supports Financial Health Network Report on Homeowners Insurance",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/10/3399622/0/en/new-financial-health-network-report-finds-rising-home-insurance-costs-put-financial-stability-at-risk-for-households-across-the-u-s.html"
+  },
+  {
+   "time": "11-10 14:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "ShiftCam ProRig Filmmaker Kit Launches at Apple Stores",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/10/3400016/0/en/shiftcam-prorig-now-available-in-apple-stores-and-online.html"
+  },
+  {
+   "time": "11-10 13:48",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Democratic Senate Leader Schumer Calls Trump\u2019s Defense Of NVIDIA\u2019s Huang \u201cTroubling\u201d; Says Full Accounting For Trump\u2019s Alleged \u201cFailure To Address Foreign Espionage In The American Tech Industry\u201d Needed; Says Congress Must Pass AI Chip Related Legislation Including AI Overwatch Act, The Match Act, And Chip Security Act; Says U.S. Needs Answers On NVIDIA\u2019s Influence Over Trump Administration\u2019s National Security Decisions",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63113429/democratic-senate-leader-schumer-calls-trump-s-defense-nvidia-s-huang-troubling-says-full-accounting"
+  },
   {
    "time": "11-10 13:06",
    "symbols": [

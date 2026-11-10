@@ -1,9 +1,10 @@
-# Headlines since 2026-11-09 16:00 ET (as of 2026-11-10 13:46 ET)
+# Headlines since 2026-11-09 16:00 ET (as of 2026-11-10 14:17 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-10 14:14 | V | target up | Citigroup Maintains Buy on Visa, Raises Price Target to $490 |
 | 11-10 12:42 | WMT | target up | Mizuho Maintains Outperform on Walmart, Raises Price Target to $135 |
 | 11-10 12:21 | GEV | rating | GLJ Research Reiterates Sell on GE Vernova, Maintains $540 Price Target |
 | 11-10 09:47 | RKLB | target down | Barclays Maintains Overweight on Rocket Lab, Lowers Price Target to $82 |
@@ -21,6 +22,29 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-09 18:01 | VST | target down | Scotiabank Maintains Vistra at Sector Outperform, Lowers Price Target |
 | 11-09 16:38 | LLY | target up | Jefferies Maintains Buy on Eli Lilly, Raises Price Target to $1700 |
 | 11-09 16:00 | WMT | target up | UBS Maintains Buy on Walmart, Raises Price Target to $149 |
+| 11-10 14:13 | GOOGL |  | Google Fi Wireless Launches Super Network With Dual 5G And Wi-Fi Access |
+| 11-10 14:10 | NVDA |  | 'UK data centre pioneer considers delaying $35bn listing after AI sell-off' - The Telegraph |
+| 11-10 14:07 | NVDA |  | 'Nvidia Hires Wachtell Lipton to Investigate C.E.O.’s Affair With Chinese Executive; Wachtell Partner Joon H. Kim, A Former Acting U.S. Attorney, Is Leading The Inquiry Into The Chip Maker’s Chief Executive' - NY Times |
+| 11-10 14:02 | SMCI |  | SIG Analyst Adjusts Supermicro Price Target |
+| 11-10 14:02 | NVDA |  | Dan Ives Says ‘Spy Soap Opera’ Could Send Nvidia Stock 30% Lower Without CEO: ‘There is Only One Jensen’ |
+| 11-10 14:02 | COIN |  | Coinbase and Industry Peers File Support for CFTC in Perpetual Futures Legal Battle |
+| 11-10 14:02 | UNH |  | UnitedHealthcare Discontinues Supplemental Medicare Plan in Wyoming |
+| 11-10 14:02 | GEV |  | GE Vernova Plans $34.5 Million Investment to Expand Louisiana Transformer Manufacturing Operations |
+| 11-10 14:02 | CRM |  | Nucleus Research Names Salesforce a Leader in 2026 CPQ Technology Value Matrix |
+| 11-10 14:01 | INTC |  | RBC Capital Markets Issues Outlook on Intel's 2027 Growth |
+| 11-10 14:01 | BAC |  | Bank of America Adds Erewhon Membership to BofA Rewards Program |
+| 11-10 14:01 | GS |  | Goldman Sachs Alternatives Leads $80 Million Series B Funding for Daylight |
+| 11-10 14:01 | BAC |  | Bank of America Awards $250,000 Grant to Goodwill Southeast Georgia |
+| 11-10 14:01 | ORCL |  | Oracle Announces 2026 Partner Award Winners |
+| 11-10 14:01 | LLY |  | Eli Lilly Launches 'Life Doesn't Slow Down' Campaign for Foundayo |
+| 11-10 14:01 | AMD |  | AMD and Cornelis Networks Launch Joint Go-to-Market Program for HPC and AI |
+| 11-10 14:01 | AMD |  | AMD Announces General Availability of 6th Gen EPYC Server Processors |
+| 11-10 14:01 | META |  | Meta Launches Muse AI Agent App for Apple Watch |
+| 11-10 14:01 | NVDA |  | Rackspace and Together AI Announce Strategic AI Infrastructure Agreement Using NVIDIA Systems |
+| 11-10 14:01 | COST |  | Reolink Launches Costco-Exclusive 8-Camera 4K Security Bundle |
+| 11-10 14:01 | JPM |  | JPMorgan Chase Supports Financial Health Network Report on Homeowners Insurance |
+| 11-10 14:01 | AAPL |  | ShiftCam ProRig Filmmaker Kit Launches at Apple Stores |
+| 11-10 13:48 | NVDA |  | Democratic Senate Leader Schumer Calls Trump’s Defense Of NVIDIA’s Huang “Troubling”; Says Full Accounting For Trump’s Alleged “Failure To Address Foreign Espionage In The American Tech Industry” Needed; Says Congress Must Pass AI Chip Related Legislation Including AI Overwatch Act, The Match Act, And Chip Security Act; Says U.S. Needs Answers On NVIDIA’s Influence Over Trump Administration’s National Security Decisions |
 | 11-10 13:06 | NVDA SMCI |  | Why Is SMCI Stock Falling on Tuesday? |
 | 11-10 13:04 | GS |  | Goldman Sachs, Citi Back $270M Stablecoin Venture to Challenge Tether, Circle |
 | 11-10 13:01 | AMZN AVGO |  | CNBC Halftime Report Final Trades: Broadcom, Amazon, EQT Corp. |
