@@ -1,7 +1,37 @@
 {
- "as_of": "2026-11-10T11:02-05:00",
+ "as_of": "2026-11-10T11:33-05:00",
  "since": "2026-11-09T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-10 11:29",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Google Agrees To Additional Privacy Protections In Acquisition Of Employee Data From Defunct Spirit Airlines",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m/26/11/63103014/google-agrees-additional-privacy-protections-acquisition-employee-data-defunct-spirit-airlines"
+  },
+  {
+   "time": "11-10 11:20",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "'A Group Of Financial Firms Including Goldman Sachs Group, Citigroup, Banco Santander SA And Deutsche Bank AG Have Committed Around $270M In Funding Toward A Joint Stablecoin Venture' - Bloomberg Law",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/cryptocurrency/26/11/63102435/group-financial-firms-including-goldman-sachs-group-citigroup-banco-santander-sa-and-deutsche-bank-a"
+  },
+  {
+   "time": "11-10 11:16",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Introduces Alpamayo; Open AI Models, Simulation Tools And Datasets For Autonomous Vehicles And Robotaxis; Combines Explainable Reasoning AI With Full-Stack Driving Software And Safety Technologies",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63102068/nvidia-introduces-alpamayo-open-ai-models-simulation-tools-and-datasets-autonomous-vehicles-and-robo"
+  },
   {
    "time": "11-10 11:01",
    "symbols": [
