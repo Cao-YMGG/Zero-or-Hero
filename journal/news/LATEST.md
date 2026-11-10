@@ -1,4 +1,4 @@
-# Headlines since 2026-11-09 16:00 ET (as of 2026-11-10 10:02 ET)
+# Headlines since 2026-11-09 16:00 ET (as of 2026-11-10 10:32 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -19,6 +19,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-09 18:01 | VST | target down | Scotiabank Maintains Vistra at Sector Outperform, Lowers Price Target |
 | 11-09 16:38 | LLY | target up | Jefferies Maintains Buy on Eli Lilly, Raises Price Target to $1700 |
 | 11-09 16:00 | WMT | target up | UBS Maintains Buy on Walmart, Raises Price Target to $149 |
+| 11-10 10:20 | INTC |  | Nancy Pelosi’s Warner Bros. Stake Was Cashed Out in Paramount Deal, Worth About 43% of Her Salary |
 | 11-10 09:55 | GS |  | 'Goldman Sachs expects Anthropic revenue to exceed $600B by 2030' - Financial Times |
 | 11-10 09:48 | AMZN NVDA |  | FMR LLC Cuts Share Stake In SpaceX By 17.9% To 248.3M Class A Shares; Cuts Share Stake In NVIDIA Corporation By 9.1% To 932.8M Shares; Cuts Share Stake In Amazon By 11.8% To 322.6M Shares |
 | 11-10 09:33 | COIN |  | Coinbase, Kraken, Kalshi Support CFTC in Legal Fight Over Stock Perpetual Futures |
