@@ -1,0 +1,216 @@
+{
+ "date": "2026-11-11",
+ "bias": "none",
+ "confidence": 0.3,
+ "p_up": 0.53,
+ "summary": "Veterans Day: the US bond market is closed, stocks are open, no US data. Futures bounce after Tuesday's hot-CPI dip on CoreWeave's Q3 beat (revenue $3.66B, +168% y/y, backlog $132.5B, 2026 guidance raised; CRWV +15% pre-market, NBIS +11%, IREN +8%): Nasdaq-100 futures +1.9%, S&P +0.9%, Dow +0.1%. Pre-market 07:48 ET (Yahoo quotes; Webull is not authorized this morning and Alpaca IEX prints nothing before 08:00, so the ETF and single-stock numbers are Yahoo's pre-market prints vs Tuesday's close): SPY 756.83 (+0.91%), QQQ 688.08 (+1.97%), SMH 507.36 (+4.9%), NVDA 175.77 (+4.1%), AMD 546.84 (+6.1%), TSM 415.88 (+4.9%), INTC 62.01 (+6.7%), GEV 852.00 (+6.9%), MSFT 535.70 (+0.5%), AMZN 271.13 (+0.1%), AAPL 346.33 (-0.63%). Chips bounce as a group in a turning theme (Kospi +2.4%, Taiex +3.6%, SK Hynix +5.5%, Samsung +3.6%, Infineon +6.3%, ASML +3%); NVDA rebounds despite a Baird downgrade to Neutral ($200 from $500, 'supply issues', 07:02), the Reuters report of H200 chips at a PLA-linked Chinese university and senators calling for the CEO to resign. Platforms lag: AAPL -0.6% despite China Renaissance upgrading it to Buy from Hold (06:31, Benzinga; not found on a second source before 08:00), AMZN flat on a report (04:48) that banks weigh pricing the Anthropic IPO above a $1.5T valuation. GEV +6.9% on Siemens Energy's record quarter (read-through), against Ontario Power Generation citing GE Vernova Hitachi engineering delays at Darlington (07:32); VST delays its Helix capital contribution (07:32). Rates (Tuesday cash close, no cash trading today): 2Y 4.74% (+17 bp), 10Y 4.99% (+11 bp, briefly above 5%), the weakest 10Y auction since June; a December hike is ~90-100% priced after Waller ('50 bp worth considering') and Logan ('at least two more'); MOVE 92. Dollar up Tuesday (USDJPY 158.5-159, EURUSD under 1.115). Brent $92.2-92.5 (+0.8%, Hormuz attacks after a two-day drop on Trump playing down more Iran strikes), WTI $86.5; gold $4,055; VIX 18.45 (-5%), VIX1D 13.95, options price ~0.65% for SPY today. Asia: Nikkei +1%, Kospi +2.4%, Taiex +3.6%, Hang Seng -0.7%; Europe: Stoxx 600 +0.3%, DAX +0.7%, banks +1.7%; SoftBank -3% on a 1.12T yen loss. Call: none, p_up 0.53 for the close above the open. A +0.9% gap is the news itself (OVERNIGHT.md: the night move barely predicts open to close); the bounce is in a turning theme after a -0.4% / -0.7% day, the rates driver is switched off for a day (bond market shut: no relief, no shock), and Thursday's claims and 30Y auction and Friday's PPI are the next waves. Neither 0.60 nor 0.40 is reachable. 08:30 re-read (Yahoo quotes 08:30-08:31 and Alpaca IEX prints 08:2x-08:30 vs Tuesday's close): SPY 757.10 (+0.94%; IEX 757.23), QQQ 687.96 (+1.96%), SMH 506.68 (+4.8%), IWM 283.24 (+0.95%, IEX), USO 142.60 (+0.8%); NVDA 174.93 (+3.6%), INTC 61.75 (+6.2%), AMD 543.26 (+5.4%), MU 779.13 (+7.5%, SK Hynix +5.5% overnight), AVGO 346.61 (+4.4%), ORCL 124.15 (+5.2%, no headline checked), CRWV 56.61 (+16%), META 649.68 (+1.3%), TSLA 386.22 (+1.7%), AAPL 347.08 (-0.41%). The gap held through the half hour; nothing changes the call. AAPL upgrade now confirmed on a second source: Yahoo's rating table lists China Renaissance, Upgrade to Buy, price target $425, dated 11-11.",
+ "reasons": [
+  "Pre-market 07:48 ET (Yahoo quotes; Webull is not authorized this morning and Alpaca IEX prints nothing before 08:00, so the ETF and single-stock numbers are Yahoo's pre-market prints vs Tuesday's close): SPY 756.83 (+0.91%), QQQ 688.08 (+1.97%), SMH 507.36 (+4.9%), NVDA 175.77 (+4.1%), AMD 546.84 (+6.1%), TSM 415.88 (+4.9%), INTC 62.01 (+6.7%), GEV 852.00 (+6.9%), MSFT 535.70 (+0.5%), AMZN 271.13 (+0.1%), AAPL 346.33 (-0.63%).",
+  "08:30 re-read (Yahoo quotes 08:30-08:31 and Alpaca IEX prints 08:2x-08:30 vs Tuesday's close): SPY 757.10 (+0.94%; IEX 757.23), QQQ 687.96 (+1.96%), SMH 506.68 (+4.8%), IWM 283.24 (+0.95%, IEX), USO 142.60 (+0.8%); NVDA 174.93 (+3.6%), INTC 61.75 (+6.2%), AMD 543.26 (+5.4%), MU 779.13 (+7.5%, SK Hynix +5.5% overnight), AVGO 346.61 (+4.4%), ORCL 124.15 (+5.2%, no headline checked), CRWV 56.61 (+16%), META 649.68 (+1.3%), TSLA 386.22 (+1.7%), AAPL 347.08 (-0.41%). The gap held through the half hour; nothing changes the call. AAPL upgrade now confirmed on a second source: Yahoo's rating table lists China Renaissance, Upgrade to Buy, price target $425, dated 11-11.",
+  "Night session: not read (Webull unauthorized). Futures per CNBC/Yahoo 04:30-07:35 ET: Nasdaq-100 +1.6% to +1.9%, S&P 500 +0.7% to +0.9% (about 7,610), Dow +0.1% to +0.2%, Russell +0.8%.",
+  "CoreWeave Q3 (Tuesday after the close): revenue $3.66B vs $3.55B expected (+168% y/y), adjusted operating income $379M vs $234M, backlog $132.5B, FY26 revenue and operating income guidance raised; CEO: 'breakout quarter', nearly $10B revenue opportunity from older NVIDIA GPUs. CRWV +15% pre-market, NBIS +11.4%, IREN +7.9%: the neocloud read-through is the day's catalyst for chips.",
+  "NVDA: Baird downgrades to Neutral, target $200 from $500 ('supply issues', 07:02 Benzinga; Investing.com 'rare Wall Street downgrade'); Reuters: a PLA-linked Chinese university bought H200 chips despite the blacklist (01:56); Senator Cramer calls for the CEO's resignation, Schumer blasts Trump; House Republicans consider a subpoena (Tuesday 14:45); Dan Niles and Michael Burry call it a buy for a trade. +4.1% pre-market after -5.5% Tuesday: a bounce on a peer's print with the stock's own news still negative. Reports 11-17 (4 trading days). ANALYST.md: downgrades do not carry.",
+  "AAPL: China Renaissance upgrades to Buy from Hold (06:31, Benzinga; the same broker cut it to Hold in August; confirmed at 08:31 on Yahoo's rating table with a $425 target). -0.63% pre-market, -0.41% at 08:31, while QQQ +2%: the upgrade is not in the price and money is flowing from the havens into chips (the 2026-10-15 lesson in reverse). ANALYST.md: AAPL is the weakest upgrade name in the table (21 events, 11 upgrades, median open to close 0.0%, 52% up), so confidence stays at 0.25. Reported 10-29/30: outside the report window.",
+  "AMD +6.1% pre-market: Goldman calls chip stocks 'oversold' with names to buy (Yahoo, overnight; list not confirmed), Freedom Capital initiates at Buy (07:31, small broker), AMD-Samsung partnership for semiconductor manufacturing test infrastructure (06:32), Tuesday's $2.5B Anthropic IPO investment. DOSSIER_AMD: Wednesday is its most volatile day with same-day options; an up gap >= 2% continues 64% but calls bought at 09:45 lost (-40%/trade): the gap is spent on arrival. Too big a gap for the sniper.",
+  "TSM +4.9% pre-market, day two of October sales +60% and the board's up to $1B Anthropic/OpenAI investments (dividend raise); Taiex +3.6%. Gap above the ~4% line: opportunity, not sniper. INTC +6.7% with no headline of its own found (Yahoo news page, Benzinga feed): sector sympathy, a question mark, not a catalyst.",
+  "GEV +6.9% pre-market: Siemens Energy posted record quarterly revenue of 12.83B euros this morning (read-through to gas turbines and grid), RWE +1.4%; against it, Ontario Power Generation cites GE Vernova Hitachi engineering delays at the Darlington SMR project (07:32), GLJ Sell reiterated Tuesday, and Tuesday's SoftBank turbine-agreement modification. Two-day whipsaw (-9% open Tuesday, close at the high, +7% today): no pick either way, logged as an opportunity. VST: delays its capital contribution to the Helix AI infrastructure platform (07:32), -2% Tuesday; power theme neutral with REL_WEAK + BREADTH turn flags.",
+  "MSFT +0.5% pre-market after -2.2% Tuesday: 'Anthropic launches Claude Sheets to rival Excel' / 'takes aim at Office work' (04:59-07:xx) is a competitive negative on a turning software theme; the stock is not reacting pre-market. Put mirror candidate intraday if QQQ gives back the gap, not a pre-market pick (puts need a SPY put day).",
+  "WMT: Baird raises its target to $140 from $120 (06:31) after Mizuho $135 (Tuesday) and UBS $149 (Monday). Three target raises in three days: SUNDAY_TESTS 57 class 'target raise only' (11-09 WMT sniper went flat, the real 131C is -65%): opportunity, not sniper. WMT reports around 11-19 (pre-earnings drift window, RUNUP.md +1.6% median vs SPY).",
+  "Anthropic IPO: report (04:48) that banks weigh pricing above a $1.5T valuation, raising over $100B on strong demand; roadshow this week, pricing expected before Thanksgiving. AMZN (largest outside holder) +0.1% pre-market: Tuesday's 10:18 AMZN pick on the same story faded (-0.3%, the 277.5C -64%), day three of the story: opportunity only. Other side: Anthropic's workplace tools are the MSFT negative above.",
+  "Rotation (Alpaca daily bars to 11-10, 1w / 1m): internet +4.3% / -5.4% (AMZN +8.0, AAPL +5.0, META +3.3, GOOGL +2.6, MSFT +2.3 on the week), consumer +3.2% / +11.8% (HD +5.2, COST +4.6), banks +1.7% / +0.7%, health +1.5% / +12.7% (LLY +1.6 / +21.1); industrials -0.8% / -5.8% (GE +5.4 vs CAT -6.3), energy -6.8% / -4.0%, power -9.6% / -18.5%, and every chip link down on the week: GPU -18.3% / -25.4%, memory -19.4% / -34.4%, disk -17.0% / -29.3%, optical -11.6% / -37.0%, custom/foundry -4.1% / -19.7%, CPU -2.6% / -28.3% (AMD +6.5 the exception); SPY -0.6% / -3.6%, QQQ -1.5% / -9.6%, SMH -6.7% / -18.2%, IWM +0.3% / +1.0%. THEMES (--today, bars to 11-10): chips and software turning; consumer and industrials heating; internet neutral with REL_STRONG; banks neutral with BREADTH_UP + RATIO_HIGH; health, energy, power, optical neutral.",
+  "Mechanical rules today (Wednesday, no release, not opex week): spy_open_drive and spy_open_drive_put (SPY +/-0.5% from its open at 10:00), stock_open_drive (NVDA/TSLA >= +0.8% from the open at 10:00), nvda_gapdown_put (NVDA is gapping up: unlikely), rebound_scanner (no >= 2% down gap visible in its universe pre-market: AAPL -0.6% is the only red mega cap), leader_follow 09:45, meta_follow2 (Wed), the two hero shadows. First live run of the 2026-11-09 ledger rules: one contract nearest 0.35 delta for up to half the ledger, index retry slack 50%.",
+  "Operational note from the other Claude (2026-11-10 reply): on expiry day Alpaca liquidates in-the-money option positions itself from about 15:30 ET (accounts cannot exercise) and rejects the holder's later sell. Our real exits run at 15:45; with 0.35-delta contracts an ITM finish is now likely, so today's 16:35 review checks how the bot's exit path handled it (bot.py checks broker positions before selling) and whether a 15:25 real exit for same-day expiries is needed.",
+  "Dossiers: AMD (Wednesday most volatile, same-day options; the up gap is spent on arrival; no Intel catalyst today, INTC's +6.7% is sympathy); META (nothing of its own: ByteDance plans a Muse-like assistant, a Brazilian election fine; meta_follow2 covers a >= 2% move after 30 minutes)."
+ ],
+ "events": [
+  "Veterans Day: US bond market closed (SIFMA), stocks and options open; no US releases (MBA mortgage applications 07:00 only)",
+  "OPEC monthly oil market report; ECB's Lagarde speaks this morning",
+  "Earnings: CRWV reported Tuesday after the close (beat, raised; +15% pre-market); Siemens Energy, E.ON, RWE this morning; CSCO and AMAT Thursday after the close; NVDA 11-17",
+  "Thursday: jobless claims 08:30, 30Y bond auction 13:00, delayed EIA report; Friday: October PPI",
+  "Anthropic IPO roadshow this week; report that pricing may exceed a $1.5T valuation"
+ ],
+ "inputs": {
+  "es_futures_pct": 0.94,
+  "nq_futures_pct": 1.96,
+  "vix": 18.45,
+  "wti_pct": 0.6,
+  "brent": 92.4,
+  "us10y": 4.99,
+  "us10y_change_bp": 11,
+  "us2y": 4.74,
+  "us2y_change_bp": 17,
+  "dxy_pct": null,
+  "vixy_pct": null,
+  "overnight": "Rates are Tuesday's cash close (bond market closed today). Pre-market 07:48 ET (Yahoo quotes; Webull is not authorized this morning and Alpaca IEX prints nothing before 08:00, so the ETF and single-stock numbers are Yahoo's pre-market prints vs Tuesday's close): SPY 756.83 (+0.91%), QQQ 688.08 (+1.97%), SMH 507.36 (+4.9%), NVDA 175.77 (+4.1%), AMD 546.84 (+6.1%), TSM 415.88 (+4.9%), INTC 62.01 (+6.7%), GEV 852.00 (+6.9%), MSFT 535.70 (+0.5%), AMZN 271.13 (+0.1%), AAPL 346.33 (-0.63%). Sources: Yahoo quote pages, CNBC live blog, Saxo Market Quick Take, Benzinga via Alpaca news; Webull unauthorized, Twelve Data rate-limited. 08:30 re-read (Yahoo quotes 08:30-08:31 and Alpaca IEX prints 08:2x-08:30 vs Tuesday's close): SPY 757.10 (+0.94%; IEX 757.23), QQQ 687.96 (+1.96%), SMH 506.68 (+4.8%), IWM 283.24 (+0.95%, IEX), USO 142.60 (+0.8%); NVDA 174.93 (+3.6%), INTC 61.75 (+6.2%), AMD 543.26 (+5.4%), MU 779.13 (+7.5%, SK Hynix +5.5% overnight), AVGO 346.61 (+4.4%), ORCL 124.15 (+5.2%, no headline checked), CRWV 56.61 (+16%), META 649.68 (+1.3%), TSLA 386.22 (+1.7%), AAPL 347.08 (-0.41%). The gap held through the half hour; nothing changes the call. AAPL upgrade now confirmed on a second source: Yahoo's rating table lists China Renaissance, Upgrade to Buy, price target $425, dated 11-11."
+ },
+ "rotation": {
+  "heating": [
+   "internet: +4.3% 1w (AMZN +8.0%, AAPL +5.0%, META +3.3%, GOOGL +2.6%, MSFT +2.3%), -5.4% 1m; THEMES neutral with REL_STRONG; flat to +0.5% pre-market while chips bounce 4-7%: the week's leader is the morning's laggard",
+   "consumer: +3.2% 1w / +11.8% 1m (HD +5.2% / +20.8%, COST +4.6% / +11.3%, WMT +0.6% / +11.0%, XLY +3.2%, XLP +2.3%); THEMES heating (REL_STRONG, BREADTH_UP, PERIPH_UP); WMT third target raise in three days (Baird $140)",
+   "banks: +1.7% 1w / +0.7% 1m (XLF +1.9% / +5.9%, BAC +2.1%, GS +1.6%, JPM +1.2%); THEMES neutral with BREADTH_UP + RATIO_HIGH; euro-zone banks +1.7% Tuesday; a December hike ~90-100% priced",
+   "health: +1.5% 1w / +12.7% 1m (LLY +1.6% / +21.1%, XLV +2.6% / +9.8%, UNH +0.2% / +7.0%); THEMES neutral, BREADTH_UP",
+   "industrials: THEMES heating (AT_HIGH, BREADTH_UP, RATIO_HIGH, PERIPH_UP) but -0.8% 1w / -5.8% 1m on CAT (-6.3% / -26.7%); GE +5.4% / +9.5%; GEV +6.9% pre-market on Siemens Energy's record quarter"
+  ],
+  "cooling": [
+   "chips, every link, on the week: GPU NVDA -18.3% / -25.4%; memory MU -15.2% / -26.7%, SNDK -23.7% / -42.2%; disk WDC -16.7% / -25.3%, STX -17.3% / -33.4%; optical LITE -13.9% / -41.2%, CIEN -9.3% / -32.8%; custom/foundry AVGO 0.0% / -6.4%, MRVL -10.2% / -41.9%, TSM -2.1% / -10.8%; CPU INTC -4.0% / -42.6%, ARM -10.4% / -28.9%, AMD +6.5% / -13.3% the exception; SMH -6.7% / -18.2%. THEMES: turning (REL_WEAK, BREADTH, PERIPH). Today's +4-7% pre-market bounce on CoreWeave is a bounce in a turning theme: no sympathy calls (TSM has a day-old own catalyst but a 4.9% gap)",
+   "software: THEMES turning (REL_WEAK, BREADTH, RATIO_LOW); MSFT -1.5% 1m, ORCL -6.5% / -14.1%, PLTR -3.8% / -19.2%; Anthropic's Claude Sheets / workplace tools read as a competitive negative for MSFT",
+   "energy: -6.8% 1w / -4.0% 1m (XOM -7.3%, CVX -6.2%, XLE -6.7%); THEMES neutral with REL_WEAK + BREADTH turn flags; Brent $92 after a two-day drop, +0.8% this morning on Hormuz attacks; XLE was Tuesday's best open-to-close sector (+2.2%)",
+   "power: -9.6% 1w / -18.5% 1m (GEV -13.2% / -20.0%, VST -6.0% / -17.0%); THEMES neutral with REL_WEAK + BREADTH turn flags; GEV +6.9% pre-market (Siemens Energy) vs Darlington delays and VST's Helix delay: whipsaw, no pick",
+   "other: TSLA -4.7% 1w / +0.5% 1m, ORCL -6.5%, COIN -9.2% / -26.8%, CRWV -9.3% / -39.3% before today's +15%"
+  ],
+  "theme_state": {
+   "turning": [
+    "chips",
+    "software"
+   ],
+   "heating": [
+    "consumer",
+    "industrials"
+   ],
+   "neutral": [
+    "internet",
+    "banks",
+    "health",
+    "energy",
+    "power",
+    "optical"
+   ],
+   "source": "python -m zoh.research.themes --today, bars to 2026-11-10 (internet REL_STRONG with BREADTH/PERIPH turn flags; banks BREADTH_UP + RATIO_HIGH; health BREADTH_UP with a PERIPH turn flag; energy and power REL_WEAK + BREADTH turn flags; optical BREADTH turn flag with PERIPH_UP)",
+   "filter": "chips/software turning: no bounce-buying and no sympathy calls on their names today despite the +4-7% gaps; a call sniper or pick on a turning name needs a catalyst of its own with a small gap (none qualifies this morning: TSM/AMD/INTC/NVDA all gapped 4-7%); put mirror only with the 11:00 confirmation (SMH back below its open). Consumer/industrials heating: GE/WMT/HD calls allowed on news."
+  },
+  "events": "No US data: the day is the chip bounce (CoreWeave read-through) against Tuesday's rate shock with the bond market shut. If the gap holds past 10:00 it is a gap-and-go in the names that were down 15-40% on the month; if SMH loses its open by 11:00 the mirror arms on the weakest chip below its open (INTC and NVDA have the thinnest own news). Thursday's claims/30Y auction and Friday's PPI are the next rate waves."
+ },
+ "sniper": {
+  "symbol": "AAPL",
+  "direction": "call",
+  "confidence": 0.25,
+  "catalyst": "Own news from the last day: China Renaissance upgrades Apple to Buy from Hold (06:31 ET, Benzinga via Alpaca; the broker had cut it to Hold in August; confirmed at 08:31 on Yahoo's rating table: Upgrade to Buy, price target $425, dated 11-11). Small gap the wrong way: AAPL 346.33 pre-market (-0.63%) while QQQ is +2.0% and SMH +4.9%: the upgrade is not in the price, money is flowing from the havens into the chip bounce (the 2026-10-15 lesson in reverse: when the chip move reverses, the haven catches the flow). Internet theme neutral with REL_STRONG; AAPL +5.0% on the week. Nearest expiry: same-day Wednesday 11-11 exists for AAPL. Shadow-only (catalyst_open real_risk 0 since 11-09; the hero shadow takes the full ledger). Why only 0.25: ANALYST.md has AAPL as the weakest upgrade name (21 events, median open to close 0.0%, 52% up) and a mid-tier broker's upgrade is a weak catalyst by SUNDAY_TESTS 57's classes. Considered and not picked: NVDA/AMD/TSM/INTC/GEV (gaps of 4-7% on a bounce or a peer's news, turning theme), WMT (target raises only), AMZN (day three of the Anthropic story), MSFT put (puts need a SPY put day). 08:31: AAPL 347.08 (-0.41%) with QQQ +1.96%: unchanged, the pick stands at 0.25.",
+  "wrong_if": "AAPL below its open at 10:00, or QQQ gives back more than half its gap by 10:00 while AAPL is still red on the day"
+ },
+ "opportunities": [
+  {
+   "type": "analyst",
+   "symbol": "AAPL",
+   "direction": "call",
+   "time": "09:31",
+   "action": "shadow",
+   "why": "Sniper (see sniper): China Renaissance upgrade to Buy from Hold (06:31), -0.6% pre-market while QQQ +2%; shadow-only since 11-09; ANALYST.md base rate weak (52%, 0.0% median), confidence 0.25.",
+   "why_zh": "狙击（见上）：中国 Renaissance 把苹果从持有上调到买入（06:31），盘前 -0.6% 而纳指 ETF +2%：消息没进价格，钱在从避险股流向芯片反弹。只记影子。苹果在我们的评级研究里是最弱的一只（21 次里 52% 收涨、中位数 0），所以信心只有 0.25。"
+  },
+  {
+   "type": "sector_move",
+   "symbol": "NVDA",
+   "direction": "call",
+   "time": "09:31",
+   "action": "none",
+   "why": "CoreWeave read-through bounce +4.1% pre-market after -5.5% Tuesday, in a turning theme with the stock's own news negative (Baird downgrade to Neutral $200, H200 chips at a PLA-linked university, calls for the CEO to resign); reports 11-17. No bounce-buying on a turning theme.",
+   "why_zh": "英伟达盘前 +4.1%（CoreWeave 财报带动的反弹），但自己的消息还是负的：Baird 下调到中性、目标价 200；路透说解放军相关大学买到了 H200；参议员要 CEO 辞职。转向主题不买反弹，只记录。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "TSM",
+   "direction": "call",
+   "time": "09:31",
+   "action": "none",
+   "why": "Day two of October sales +60% and the board's up to $1B Anthropic/OpenAI investments; +4.9% pre-market, Taiex +3.6%: gap above the ~4% line, the 10-16 lesson (good news gapped is sold at the open).",
+   "why_zh": "台积电：10 月营收和投资 Anthropic/OpenAI 的第二天，盘前 +4.9%，缺口太大（超过 4%），好消息已经在价里，不选。"
+  },
+  {
+   "type": "analyst",
+   "symbol": "AMD",
+   "direction": "call",
+   "time": "09:31",
+   "action": "none",
+   "why": "Goldman calls chips 'oversold' (names to buy; list unconfirmed), Freedom Capital initiates Buy (07:31), AMD-Samsung test-infrastructure partnership (06:32); +6.1% pre-market. DOSSIER_AMD: a >= 2% up gap continues 64% but 09:45 calls lost; gap too big for the sniper.",
+   "why_zh": "AMD：高盛说芯片股超卖、小券商首评买入、和三星合作测试产线；盘前 +6.1%。档案说 2% 以上的高开多数能延续，但开盘买看涨历史上亏钱：缺口太大，不选。"
+  },
+  {
+   "type": "sympathy",
+   "symbol": "INTC",
+   "direction": "call",
+   "time": "09:31",
+   "action": "none",
+   "why": "+6.7% pre-market with no headline of its own found (Yahoo news, Benzinga feed): chip-bounce sympathy. A headline-less 6.7% gap is a question, not a catalyst; prediction: INTC closes below its open.",
+   "why_zh": "英特尔盘前 +6.7%，没找到自己的消息，是芯片反弹的同情盘。没消息的大缺口是个问号，不是催化剂；我们的预测是它收在开盘价下。"
+  },
+  {
+   "type": "peer_readthrough",
+   "symbol": "GEV",
+   "direction": "call",
+   "time": "09:31",
+   "action": "none",
+   "why": "+6.9% pre-market on Siemens Energy's record quarter (12.83B euros revenue), against Ontario Power Generation citing GE Vernova Hitachi delays at Darlington (07:32), GLJ Sell and Tuesday's SoftBank turbine-agreement change. Two-day whipsaw: no pick.",
+   "why_zh": "GE Vernova 盘前 +6.9%，跟西门子能源的创纪录季度（同行读穿），但同一早上安大略电力说 Darlington 小堆项目的工程延期，昨天还有软银改合同、GLJ 维持卖出。两天来回甩，不做。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "VST",
+   "direction": "put",
+   "time": "09:31",
+   "action": "none",
+   "why": "Vistra delays its capital contribution to the Helix AI infrastructure platform (07:32); -2% Tuesday, power theme with REL_WEAK + BREADTH turn flags. Puts need a SPY put day for the sniper; logged.",
+   "why_zh": "Vistra 推迟向 Helix AI 基建平台出资（07:32），昨天 -2%，电力主题带两个转向旗。狙击看跌要大盘看跌日，只记录。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "MSFT",
+   "direction": "put",
+   "time": "10:00",
+   "action": "none",
+   "why": "Anthropic launches Claude Sheets and workplace tools 'taking aim at Office' (04:59-07:xx); MSFT -2.2% Tuesday, +0.5% pre-market, software theme turning. Intraday put mirror candidate if QQQ gives back its gap.",
+   "why_zh": "Anthropic 推出 Claude 表格等办公工具、直指 Office；微软昨天 -2.2%、今早 +0.5%，软件是转向主题。如果纳指回吐缺口，盘中可以当看跌镜像的候选。"
+  },
+  {
+   "type": "analyst",
+   "symbol": "WMT",
+   "direction": "call",
+   "time": "09:31",
+   "action": "none",
+   "why": "Baird raises its target to $140 from $120 (06:31) after Mizuho $135 and UBS $149: third target raise in three days, 'target raise only' class (SUNDAY_TESTS 57; the 11-09 WMT sniper went flat). Reports ~11-19: pre-earnings drift window.",
+   "why_zh": "沃尔玛：Baird 目标价 120 → 140，三天里第三家上调，但只是目标价、不是评级（11-09 的沃尔玛狙击就是这类，走平）；约 11-19 财报，属于财报前漂移窗口。只记录。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "AMZN",
+   "direction": "call",
+   "time": "09:31",
+   "action": "none",
+   "why": "Report (04:48) that banks weigh pricing the Anthropic IPO above a $1.5T valuation, raising over $100B; AMZN flat pre-market, day three of the story, Tuesday's pick faded (-0.3%, the 277.5C -64%).",
+   "why_zh": "亚马逊：报道说 Anthropic IPO 估值可能超过 1.5 万亿、募资超 1,000 亿；亚马逊盘前平，这条故事第三天，昨天的 pick 已经走平亏钱。只记录。"
+  },
+  {
+   "type": "sector_move",
+   "symbol": "GS",
+   "direction": "call",
+   "time": "09:31",
+   "action": "none",
+   "why": "Banks +1.7% on the week with BREADTH_UP + RATIO_HIGH flags, euro-zone banks +1.7% Tuesday, a hike ~90-100% priced; no own news on GS/JPM today (Goldman's 'additional hike' call is macro). Relative strength is not a catalyst.",
+   "why_zh": "银行：一周 +1.7%、宽度和比价旗都亮着，欧洲银行昨天 +1.7%，12 月加息基本定价；但高盛、摩根大通今天没有自己的消息，相对强势不是催化剂。"
+  },
+  {
+   "type": "sell_the_news",
+   "symbol": "SMH",
+   "direction": "put",
+   "time": "11:00",
+   "action": "none",
+   "why": "Put mirror conditional: a +4.9% gap in a turning theme after a -6.7% week. Arms only if SMH is back below its open by 11:00; the name is the weakest chip below its open (INTC and NVDA carry the least own news). Base rate: turning-theme gap-ups still closed up 56-60%.",
+   "why_zh": "看跌镜像条件：半导体 ETF 在转向主题里高开 4.9%。只有 11:00 前它跌回开盘价下才触发，名字是跌破开盘价最弱的那只（英特尔、英伟达自己的消息最少）。基准：转向主题的高开仍有 56–60% 收涨。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "CRWV",
+   "direction": "call",
+   "time": "09:31",
+   "action": "none",
+   "why": "Q3 beat and raised 2026 guidance, +15% pre-market (NBIS +11%, IREN +8%): the day's catalyst, not a mega cap and far beyond the gap line; logged for the record.",
+   "why_zh": "CoreWeave 三季度超预期、上调全年指引，盘前 +15%：今天芯片反弹的源头，但不是大盘股、缺口也太大，只记录。"
+  }
+ ],
+ "generated_at": "2026-11-11T08:32:21-05:00",
+ "zh": {
+  "summary": "退伍军人节：债市休市、股市照开、没有数据。昨天 CPI 偏热跌了一天，今早期货反弹：CoreWeave 三季度营收 36.6 亿（+168%）、上调全年指引，盘前 +15%，带动整条芯片链——盘前 07:48（雅虎报价；Webull 今早没授权，Alpaca 的免费源 08:00 前没有盘前成交）：标普 ETF +0.9%、纳指 ETF +2.0%、半导体 ETF +4.9%，英伟达 +4.1%（Baird 却在今早下调到中性、目标价 200；路透说解放军相关大学买到了 H200），AMD +6.1%，台积电 +4.9%，英特尔 +6.7%（没消息），GE Vernova +6.9%（西门子能源创纪录季度）。平台股落后：苹果 -0.6%（中国 Renaissance 上调到买入也没拉动），亚马逊平。利率：昨天 2 年期 4.74%（+17 基点）、10 年期 4.99%（+11 基点，盘中破 5%），12 月加息基本定价，今天债市不开。油 92（+0.8%，霍尔木兹袭击），恐慌指数 18.5（-5%）。亚洲：韩国 +2.4%、台湾 +3.6%；欧洲小涨、银行 +1.7%。 08:30 再读：标普 ETF +0.94%、纳指 ETF +1.96%、半导体 ETF +4.8%，英伟达 +3.6%、英特尔 +6.2%、AMD +5.4%、美光 +7.5%、甲骨文 +5.2%，苹果 -0.4%：缺口守住了，判断不变。",
+  "spy": "不做。收在开盘价上的概率 53%：+0.9% 的高开本身就是消息（夜里的涨跌基本不预测开盘到收盘），反弹发生在「转向」的芯片主题里，债市休市一天利率这根线既不会松也不会再紧，周四初请 + 30 年期拍卖、周五 PPI 才是下一波。看涨要 60%、看跌要 40%，今天到不了。",
+  "sniper": "苹果看涨，信心 0.25，只记影子。催化剂是它自己的：中国 Renaissance 今早 06:31 把苹果从持有上调到买入（8 月刚下调过；08:31 在雅虎的评级表里确认：上调到买入、目标价 425）。盘前 -0.6% 而纳指 ETF +2%：消息没进价格，钱在从避险股流向芯片反弹——10-15 的教训反过来（芯片的反弹一旦掉头，避险股接流）。为什么只有 0.25：苹果在我们两年的评级研究里是最弱的一只（21 次评级变化，52% 收涨、中位数 0），中型券商的上调也是弱催化剂。没选的：英伟达 / AMD / 台积电 / 英特尔 / GE Vernova 都高开 4–7%、都是反弹或同行消息；沃尔玛只是目标价上调；亚马逊是 Anthropic 故事的第三天；微软看跌要大盘看跌日。机器人 09:31–10:00 只在苹果守住开盘价时记影子，最近到期就是今天。",
+  "rotation": "一周看，钱在互联网平台（亚马逊 +8%、苹果 +5%、Meta +3%）、消费（家得宝 +5%、好市多 +5%）、银行和医疗；一个月看，医疗 +13%、消费 +12% 是赢家。降温的还是整条芯片链：一周英伟达 -18%、存储 -19%、硬盘 -17%、光模块 -12%（一个月 -25% 到 -42%），电力 -10%，能源 -7%。主题状态：芯片、软件「转向」；消费、工业「升温」；互联网中性但相对强；银行中性、宽度转好。今天的芯片反弹（盘前 +4% 到 +7%）是转向主题里的反弹：不买同情盘、不追缺口；如果 11:00 前半导体 ETF 跌回开盘价下，看跌镜像在跌破开盘价最弱的芯片股上触发。"
+ }
+}
