@@ -1,0 +1,807 @@
+{
+ "as_of": "2026-11-11T07:42-05:00",
+ "since": "2026-11-10T16:00-05:00",
+ "headlines": [
+  {
+   "time": "11-11 07:33",
+   "symbols": [
+    "GOOGL",
+    "META"
+   ],
+   "rating": "",
+   "headline": "Bernie Sanders Vows Federal Billionaire Wealth Tax After California Proposal Fails, Warns \u2018Oligarchs\u2019: \u2018Your Victory Is Fleeting\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/63134771/bernie-sanders-vows-federal-billionaire-wealth-tax-after-california-proposal-fails-warns-oligarchs-your-victory-is-fleeting"
+  },
+  {
+   "time": "11-11 07:32",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "Ontario Power Generation Cites GE Vernova Hitachi Engineering Delays at Darlington SMR Project",
+   "source": "fiscal.ai",
+   "url": "https://electricityinfo.org/category/topics/foreign-news/"
+  },
+  {
+   "time": "11-11 07:32",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Bernstein and BMO Capital Adjust Price Targets on Chevron",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/bernstein-adjusts-price-target-on-chevron-to-233-from-248-ce785edbdd8cf322"
+  },
+  {
+   "time": "11-11 07:32",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "",
+   "headline": "Vistra Delays Capital Contribution to Helix AI Infrastructure Platform",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1004265636"
+  },
+  {
+   "time": "11-11 07:32",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Supermicro Announces Participation in Upcoming Investor Events",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/technology/telecommunications"
+  },
+  {
+   "time": "11-11 07:32",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "rating",
+   "headline": "JPMorgan Chase Maintains Overweight Rating on RWE AG",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.at/nachrichten/aktien/jp-morgan-chase-&-co-verleiht-rwe-aktie-overweight-in-juengster-analyse-1036748954"
+  },
+  {
+   "time": "11-11 07:32",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "downgrade",
+   "headline": "JPMorgan Chase Downgrades Phreesia, Inc. to Sell",
+   "source": "fiscal.ai",
+   "url": "https://de.marketscreener.com/boerse-nachrichten/phreesia-inc-jpmorgan-chase-senkt-seine-bewertung-auf-verkaufen-ce785edbdd8af121"
+  },
+  {
+   "time": "11-11 07:31",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Viam to Host Robot Hackathon Featuring Intel Technology",
+   "source": "fiscal.ai",
+   "url": "http://siliconalley.com/tech-news-news-from-pr-newswire/?rkey=20261110NY94028&filter=4964"
+  },
+  {
+   "time": "11-11 07:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "The Goldman Sachs Group, Inc. Discloses Major Holding in AIXTRON SE",
+   "source": "fiscal.ai",
+   "url": "https://www.placera.se/pressmeddelanden/aixtron-aixtron-se-release-according-to-article-40-section-1-of-the-wphg-the-german-securities-trading-act-with-the-objective-of-europe-wide-distribution-20261111"
+  },
+  {
+   "time": "11-11 07:31",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "initiate",
+   "headline": "Freedom Capital Markets Initiates Coverage on AMD with Buy Rating",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/community/feed/advanced-micro-devices-amd-us-freedom-capital-markets-analyst-egor-117596965437446"
+  },
+  {
+   "time": "11-11 07:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "SGS Expands Testing Support for Walmart US Fashion Departments",
+   "source": "fiscal.ai",
+   "url": "https://www.einpresswire.com/article/955998688/walmart-us-expands-sgs-approved-testing-support-across-fashion-departments"
+  },
+  {
+   "time": "11-11 07:14",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Jim Cramer: Buy This Consumer Defensive Stock, SharkNinja Is \u2018Fantastic\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63134327/jim-cramer-stock-picks-sharkninja-is-a-fantastic-company"
+  },
+  {
+   "time": "11-11 07:02",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "downgrade",
+   "headline": "Baird Downgrades NVIDIA to Neutral, Lowers Price Target to $200",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63133871/baird-downgrades-nvidia-neutral-lowers-price-target-200"
+  },
+  {
+   "time": "11-11 06:32",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Bernstein Adjusts Price Target on Costco Wholesale",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/bernstein-adjusts-price-target-on-costco-wholesale-to-1-155-from-1-143-ce785edbdd88f121"
+  },
+  {
+   "time": "11-11 06:32",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Mizuho Securities Reaffirms Neutral Rating on Costco Wholesale",
+   "source": "fiscal.ai",
+   "url": "https://de.marketscreener.com/boerse-nachrichten/costco-wholesale-corporation-mizuho-securities-bekraeftigt-seine-neutrale-bewertung-ce785edbdd8df220"
+  },
+  {
+   "time": "11-11 06:32",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD and Samsung Electronics Announce Partnership for Semiconductor Manufacturing Test Infrastructure",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/amd-samsung-electronics-collaborate-on-semiconductor-manufacturing-test-technology-ce785edbda80f422"
+  },
+  {
+   "time": "11-11 06:32",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Bernstein Adjusts Price Target on Visa",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/bernstein-adjusts-price-target-on-visa-to-486-from-475-ce785edbdd88f127"
+  },
+  {
+   "time": "11-11 06:32",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Bernstein Adjusts Price Target on Chevron to $233 From $248",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/bernstein-adjusts-price-target-on-chevron-to-233-from-248-ce785edbdd8cf322"
+  },
+  {
+   "time": "11-11 06:32",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Receives Regulatory Approval for Assisted Driving System in Finland",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/tesla-gets-regulatory-approval-for-assisted-driving-system-in-finland-ce785edbda8ff023"
+  },
+  {
+   "time": "11-11 06:32",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Targets Mid-2027 Launch for Battery Cell Production at German Plant",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/tesla-targets-mid-2027-launch-for-battery-cell-production-at-german-plant-ce785edbdd8ff420"
+  },
+  {
+   "time": "11-11 06:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Reports of NVIDIA H200 Chips Found at Chinese University",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/nvidia-h200-chips-gets-purchased-by-chinese-university-despite-us-blacklist-ce785edbda8ef524"
+  },
+  {
+   "time": "11-11 06:31",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce Participates in Mercor's $750 Million Series D Funding Round",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1004271104/mercor-secures-750-million-in-series-d-funding-valued-at"
+  },
+  {
+   "time": "11-11 06:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Baird Adjusts Price Target on Walmart to $140 From $120",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/baird-adjusts-price-target-on-walmart-to-140-from-120-ce785edbdd88ff2d"
+  },
+  {
+   "time": "11-11 06:31",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Adjusts Price Target on GE Vernova",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/jpmorgan-adjusts-price-target-on-ge-vernova-to-1-000-from-1-035-ce785edbdd88fe2d"
+  },
+  {
+   "time": "11-11 06:31",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "upgrade",
+   "headline": "China Renaissance Upgrades Apple to Buy From Hold",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/china-renaissance-upgrades-apple-to-buy-from-hold-price-target-is-425-ce785edbdd89f124"
+  },
+  {
+   "time": "11-11 06:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Forecasts Additional Interest Rate Hike",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1004280453/why-goldman-sachs-is-now-changing-its-federal-reserve-interest"
+  },
+  {
+   "time": "11-11 06:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Appointed Depositary Bank for Harena Rare Earths ADR Program",
+   "source": "fiscal.ai",
+   "url": "https://www.voxmarkets.com/articles/harena-launches-us-adr-programme-df65367"
+  },
+  {
+   "time": "11-11 06:31",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "ExxonMobil CEO Darren Woods to Miss UN Climate Talks",
+   "source": "fiscal.ai",
+   "url": "https://www.rigzone.com/news/wire/exxonmobil_ceo_to_miss_un_climate_talks-11-nov-2026-185055-article/"
+  },
+  {
+   "time": "11-11 06:31",
+   "symbols": [
+    "HD"
+   ],
+   "rating": "",
+   "headline": "The Home Depot Recognized as a Military Friendly\u00ae Employer",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/military-friendly-announces-the-nations-top-military-friendly-employers-for-2027-302935693.html"
+  },
+  {
+   "time": "11-11 06:31",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Brazilian Court Fines Meta for Election Compliance Failures",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.ch/nachrichten/aktien/meta-aktie-dennoch-fester-millionenbusse-nach-urteil-in-brasilien-1036748513"
+  },
+  {
+   "time": "11-11 06:28",
+   "symbols": [
+    "AAPL",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Dan Niles Buys Nvidia Dip, Says Apple's 2011 Rally After Steve Jobs' Exit Shows Why Losing a Visionary Isn't the End: 'Don't Know How It Gets Much More Negative'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63133037/dan-niles-buys-nvidia-dip-says-apples-2011-rally-after-steve-jobs-exit-shows-why-losing-a-visionary-isnt-the-end-dont-know-how-it-gets-much-more-negative"
+  },
+  {
+   "time": "11-11 06:10",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "target down",
+   "headline": "Needham Maintains Buy on Rocket Lab, Lowers Price Target to $100",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63132867/needham-maintains-buy-rocket-lab-lowers-price-target-100"
+  },
+  {
+   "time": "11-11 05:49",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "CRWV CEO Michael Intrator Sees Nearly $10 Billion Revenue Opportunity From Older Nvidia GPUs \u2014 Without Spending Another Dollar",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63132638/crwv-ceo-michael-intrator-sees-nearly-10-billion-revenue-opportunity-from-older-nvidia-gpus-without-spending-another-dollar"
+  },
+  {
+   "time": "11-11 05:34",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Makes Bold $10 Trillion Net Worth Remark as He Predicts Tesla Cybercab Will Dominate Ride-Hailing: \u2018Obvious to Anyone With Eyes and a Brain\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63132472/elon-musk-makes-bold-10-trillion-net-worth-remark-as-he-predicts-tesla-cybercab-will-dominate-ride-hailing-obvious-to-anyone-with-eyes-and-a-brain"
+  },
+  {
+   "time": "11-11 05:31",
+   "symbols": [
+    "GOOGL",
+    "META"
+   ],
+   "rating": "",
+   "headline": "Bloomberg Reported, ByteDance Plans To Release Muse-Like AI Assistant In Coming Weeks To Augment Its Lead In AI Video",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63132456/bloomberg-reported-bytedance-plans-to-release-muse-like-ai-assistant-in-coming-weeks-to-augment-its-lead-in-ai-video"
+  },
+  {
+   "time": "11-11 04:59",
+   "symbols": [
+    "GOOGL",
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Anthropic Expands Claude's Workplace Arsenal to Rival Google and Microsoft: What Its New AI Tools Can Do Differently",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63132158/anthropic-claude-workplace-tools-google-microsoft"
+  },
+  {
+   "time": "11-11 04:48",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Anthropic IPO Could Top $1.5 Trillion Valuation as Banks Weigh Higher Pricing Amid Strong Investor Demand, Potentially Raising Over $100 Billion: Report",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/private-markets/26/11/63132120/anthropic-ipo-could-top-1-5-trillion-valuation-as-banks-weigh-higher-pricing-amid-strong-investor-demand-potentially-raising-over-100-billion-report"
+  },
+  {
+   "time": "11-11 04:44",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Reuters Reported Earlier, People's Liberation Army-Linked Chinese University Bought Nvidia H200 Chips Despite US Blacklist",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63132097/reuters-reported-earlier-people-s-liberation-army-linked-chinese-university-bought-nvidia-h200-chips"
+  },
+  {
+   "time": "11-11 04:01",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk\u2019s \u2018Funding Secured\u2019 Post to Take Tesla Private Still Cost Him 8 Years Later: SEC Moves to Close Payout to TSLA Investors",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63131695/elon-musks-funding-secured-post-to-take-tesla-private-still-cost-him-8-years-later-sec-moves-to-close-payout-to-tsla-investors"
+  },
+  {
+   "time": "11-11 03:41",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Chuck Schumer Blasts Trump Over Nvidia CEO Jensen Huang\u2019s Alleged China Spy Ties Despite Intelligence Warning a Year Ago: \u2018What a Dereliction of Duty\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63131521/schumer-trump-huang-china-spy-allegations"
+  },
+  {
+   "time": "11-11 03:03",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Alibaba Prepares Hong Kong IPO For Chip Unit T-Head as China Ramps Up AI Chip Ambitions to Challenge Nvidia",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63131208/alibaba-prepares-hong-kong-ipo-for-chip-unit-t-head-as-china-ramps-up-ai-chip-ambitions-to-challenge-nvidia"
+  },
+  {
+   "time": "11-11 02:46",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Wants to Build a \u2018Sentient Sun\u2019: SpaceX Orders Massive 100 GW Solar Manufacturing Line",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63131131/elon-musk-wants-to-build-a-sentient-sun-spacex-orders-massive-100-gw-solar-manufacturing-line"
+  },
+  {
+   "time": "11-11 02:42",
+   "symbols": [
+    "JPM",
+    "META"
+   ],
+   "rating": "",
+   "headline": "Reported Earlier, Alphabet Mandates HSBC, JP Morgan As Joint Global Coordinators For Potential Inaugural HKD, SGD Bond Offering, Term Sheet Shows",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63130998/reported-earlier-alphabet-mandates-hsbc-jp-morgan-joint-global-coordinators-potential-inaugural-hkd-"
+  },
+  {
+   "time": "11-11 02:13",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Reported Earlier, Commerce's Lutnick Was Sent Warning On Nvidia CEO Affair - Axios",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63130845/reported-earlier-commerce-s-lutnick-was-sent-warning-nvidia-ceo-affair-axios"
+  },
+  {
+   "time": "11-11 02:07",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla May Be Done With Cybertruck, but This Company Wants to Keep It Alive \u2014 and Ross Gerber Is on Board",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63130810/tesla-may-be-done-with-cybertruck-but-this-company-wants-to-keep-it-alive-and-ross-gerber-is-on-board"
+  },
+  {
+   "time": "11-11 01:56",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "'PLA-Linked Chinese University Bought Nvidia H200 Chips Despite US Blacklist, Records Show' - Reuters Exclusive",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63130765/pla-linked-chinese-university-bought-nvidia-h200-chips-despite-us-blacklist-records-show-reuters-exc"
+  },
+  {
+   "time": "11-11 01:38",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "GOP Senator Kevin Cramer Calls for Nvidia CEO Jensen Huang\u2019s Resignation Over China Spy Concerns, Says Potential for Extortion Is \u2018Tremendous\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/63130636/gop-senator-kevin-cramer-calls-for-nvidia-ceo-jensen-huangs-resignation-over-china-spy-concerns-says-potential-for-extortion-is-tremendous"
+  },
+  {
+   "time": "11-11 01:19",
+   "symbols": [
+    "GOOGL",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "\u2018That\u2019s The Bet\u2019: Palmer Luckey Backs Elon Musk\u2019s $150 Billion Robotaxi Ambitions as Tesla Tops Waymo in Texas",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63130557/thats-the-bet-palmer-luckey-backs-elon-musks-150-billion-robotaxi-ambitions-as-tesla-tops-waymo-in-texas"
+  },
+  {
+   "time": "11-10 23:58",
+   "symbols": [
+    "AVGO",
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "Why Is Broadcom (AVGO) Stock Trending After Hours?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63130138/broadcom-shares-rise-after-hours-fiscal-2026-earnings-date"
+  },
+  {
+   "time": "11-10 23:26",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia Bloodbath Over by November\u2019s End? Crypto Bettors Weigh NVDA Stock\u2019s Next Move as Jensen Huang Controversy Brews",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63130036/nvidia-price-crypto-bettors-november-end"
+  },
+  {
+   "time": "11-10 22:03",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia Stock (NVDA) Is Trending After Hours As Analysts Cut Price Targets Amid CEO Probe: Here\u2019s What You Should Know",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63129853/nvidia-shares-rise-after-hours-analyst-target-cuts-leadership-probe"
+  },
+  {
+   "time": "11-10 22:01",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Chevron Officer Files Notice of Proposed Stock Sale",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/flash/1004198844/form-144-chevron-cvxus-officer-proposes-to-sell-23-57"
+  },
+  {
+   "time": "11-10 22:01",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Whish Money Deploys Visa's Featurespace for Fraud Prevention in Lebanon",
+   "source": "fiscal.ai",
+   "url": "https://www.einpresswire.com/article/955802368/whish-money-to-deploy-visa-s-featurespace-to-strengthen-real-time-fraud-prevention-in-lebanon"
+  },
+  {
+   "time": "11-10 22:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple to Shut Down Support Community Forums on November 20",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/3qyakii/"
+  },
+  {
+   "time": "11-10 21:17",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Did Jensen Huang Mislead the Board? Gary Black Raises Questions As Nvidia CEO Returns to \u2018Business As Usual\u2019 Amid Affair Fallout",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63129745/gary-black-jensen-huang-nvidia-scandal"
+  },
+  {
+   "time": "11-10 20:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase to Present at Goldman Sachs Financial Services Conference",
+   "source": "fiscal.ai",
+   "url": "https://investingnews.com/jpmorganchase-to-present-at-the-goldman-sachs-financial-services-conference/"
+  },
+  {
+   "time": "11-10 20:01",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Series 'Dead-End Job' Tops Non-English TV Chart",
+   "source": "fiscal.ai",
+   "url": "https://www.koreaherald.com/article/10933006"
+  },
+  {
+   "time": "11-10 20:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Adds Sign Language Interpretation to Apple TV Originals",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/ghjxmy6/"
+  },
+  {
+   "time": "11-10 19:01",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Chevron Announces Expansion Plans for Vaca Muerta Assets in Argentina",
+   "source": "fiscal.ai",
+   "url": "https://stocktwits.com/symbol/CVX/news"
+  },
+  {
+   "time": "11-10 19:01",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir Officer Shyam Sankar Files Notice of Proposed Sale of Securities",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/flash/1004189289/form-144-palantir-pltrus-officer-proposes-to-sell-50-76"
+  },
+  {
+   "time": "11-10 19:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "AI Investing App Ulys Launches on Apple App Store",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.com/news/ulys-unveils-ai-app-that-builds-investment-portfolios-from-simple-text-prompts"
+  },
+  {
+   "time": "11-10 18:00",
+   "symbols": [
+    "AAPL",
+    "MSFT",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Microsoft Briefly Overtakes Nvidia as Jensen Huang Affair Helps Erase $1.8 Trillion Lead",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63128428/microsoft-overtakes-nvidia"
+  },
+  {
+   "time": "11-10 17:31",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce Announces Date for Third Quarter Fiscal 2027 Earnings Release",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1004191221/press-release-salesforce-announces-date-of-third-quarter-fiscal-2027"
+  },
+  {
+   "time": "11-10 17:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Web Services Launches $100 Million Health Impact Initiative",
+   "source": "fiscal.ai",
+   "url": "https://af.net/realtime/aws-pledges-100m-in-ai-and-cloud-credits-for-healthcare-access/"
+  },
+  {
+   "time": "11-10 17:31",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Costco Wholesale Corporation Declares $30 Special Cash Dividend and Reauthorizes Stock Repurchase Program",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/10/3400236/0/en/costco-wholesale-corporation-declares-30-special-cash-dividend-and-reauthorizes-stock-repurchase-program.html"
+  },
+  {
+   "time": "11-10 16:46",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Costco Goes Bulk on Payouts with $30 Special Dividend",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63126049/costco-goes-bulk-on-payouts-with-30-special-dividend"
+  },
+  {
+   "time": "11-10 16:32",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Files Lawsuit Against Missouri Over Gambling Law Enforcement",
+   "source": "fiscal.ai",
+   "url": "https://cdcgaming.com/brief/missouri-cease-and-desist-leads-to-robinhood-lawsuit/"
+  },
+  {
+   "time": "11-10 16:31",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce Adopts Legora Agentic AI for Legal Operations",
+   "source": "fiscal.ai",
+   "url": "https://aimagazine.com/news/what-took-legoras-ai-space-to-us-200m-arr-in-six-months"
+  },
+  {
+   "time": "11-10 16:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Breaks Ground on New Global Headquarters in Nashville",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/oracle-celebrates-groundbreaking-on-future-global-headquarters-in-nashville-302935477.html"
+  },
+  {
+   "time": "11-10 16:31",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "Coastal Construction Equipment Launches as Authorized Cat Compact Dealer in South Florida",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/coastal-construction-equipment-brings-the-new-cat-compact-experience-to-south-florida-contractors-302935139.html"
+  },
+  {
+   "time": "11-10 16:31",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Costco Wholesale Corporation Declares Special Cash Dividend",
+   "source": "fiscal.ai",
+   "url": "https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Declares-30-Special-Cash-Dividend-and-Reauthorizes-Stock-Repurchase-Program/default.aspx"
+  },
+  {
+   "time": "11-10 16:31",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "White House Nominates Palantir CISO Michael LoSapio to Lead CISA",
+   "source": "fiscal.ai",
+   "url": "https://www.commondreams.org/news/trump-palantir"
+  },
+  {
+   "time": "11-10 16:31",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Whish Money to Deploy Visa's Featurespace for Fraud Prevention",
+   "source": "fiscal.ai",
+   "url": "https://www.einpresswire.com/article/955802368/whish-money-to-deploy-visa-s-featurespace-to-strengthen-real-time-fraud-prevention-in-lebanon"
+  },
+  {
+   "time": "11-10 16:31",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "SketchUp Introduces Spatial Preview for Apple Vision Pro",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/trimble-expands-design-and-constructability-workflows-with-new-sketchup-capabilities-302933970.html"
+  },
+  {
+   "time": "11-10 16:31",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Costco Wholesale Declares Special Dividend Of $30 Per Share; Reauthorized $4B Buyback Plan Through November 2030",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63124969/costco-wholesale-declares-special-dividend-30-share-reauthorized-4b-buyback-plan-through-november-20"
+  },
+  {
+   "time": "11-10 16:15",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "If You Invested $100 In Micron Technology Stock 10 Years Ago, You Would Have This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63123225/if-you-invested-100-micron-technology-stock-10-years-ago-you-would-have-much-today"
+  },
+  {
+   "time": "11-10 16:14",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "'OpenAI Revenue Jumps to $10B in Third Quarter'- The Information",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63123069/openai-revenue-jumps-10b-third-quarter-information"
+  },
+  {
+   "time": "11-10 16:06",
+   "symbols": [
+    "AMZN",
+    "MSFT",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Jensen Huang\u2019s Love Life Just Made Nvidia the Dow\u2019s Cheapest Stock",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63122164/jensen-huangs-love-life-just-made-nvidia-the-dows-cheapest-stock"
+  },
+  {
+   "time": "11-10 16:00",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "SpaceX Could Profit From AI Data Center Crackdown, Deutsche Bank Says as It Raises 2028 Forecast",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63121272/spacex-data-center-crackdown"
+  }
+ ]
+}
