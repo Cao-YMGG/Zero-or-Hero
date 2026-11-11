@@ -1,4 +1,4 @@
-# Headlines since 2026-11-10 16:00 ET (as of 2026-11-11 13:45 ET)
+# Headlines since 2026-11-10 16:00 ET (as of 2026-11-11 14:15 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -18,6 +18,12 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-11 07:02 | NVDA | downgrade | Baird Downgrades NVIDIA to Neutral, Lowers Price Target to $200 |
 | 11-11 06:31 | AAPL | upgrade | China Renaissance Upgrades Apple to Buy From Hold |
 | 11-11 06:10 | RKLB | target down | Needham Maintains Buy on Rocket Lab, Lowers Price Target to $100 |
+| 11-11 14:02 | RKLB |  | Morgan Stanley Adjusts Rocket Lab Price Target |
+| 11-11 14:02 | CRDO |  | Credo Schedules Second Quarter Fiscal Year 2027 Financial Results Conference Call |
+| 11-11 14:01 | AMD |  | Supermicro and AMD Collaborate on Helios and Helion Rack-Scale AI Solutions |
+| 11-11 14:01 | META |  | Meta Wins CNCF End User Case Study Contest |
+| 11-11 14:01 | META |  | Meta Infrastructure Head Santosh Janardhan to Depart in 2027 |
+| 11-11 14:01 | JPM |  | JPMorgan Chase & Co. Reduces Stake in Future PLC |
 | 11-11 13:26 | AAPL MSFT NVDA |  | Nvidia’s Earnings Day Is ‘Earnings Day for Your 401(k).’ Here’s Why |
 | 11-11 13:18 | NVDA |  | James Altucher Posts On X "My first patent, on a critical piece of infrastructure to make $NVDA GPUs faster. All credit to the amazing optical engineers at $FABC and $KOPN who let me put my name on it." |
 | 11-11 13:18 | NVDA |  | What Is Going On With Snap Stock on Wednesday? |

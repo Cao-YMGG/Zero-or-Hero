@@ -1,7 +1,67 @@
 {
- "as_of": "2026-11-11T13:45-05:00",
+ "as_of": "2026-11-11T14:15-05:00",
  "since": "2026-11-10T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-11 14:02",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Morgan Stanley Adjusts Rocket Lab Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/rocket-lab-s-neutron-commercialization-path-outweighs-q3-margin-noise-morgan-stanley-says-ce785edbde88f12c"
+  },
+  {
+   "time": "11-11 14:02",
+   "symbols": [
+    "CRDO"
+   ],
+   "rating": "",
+   "headline": "Credo Schedules Second Quarter Fiscal Year 2027 Financial Results Conference Call",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/subject/earnings"
+  },
+  {
+   "time": "11-11 14:01",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "Supermicro and AMD Collaborate on Helios and Helion Rack-Scale AI Solutions",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/supermicro-now-shipping-next-generation-servers-powered-by-6th-gen-amd-epyc-9006-series-cpus-for-cloud-hpc-and-agentic-ai-workloads-302935896.html"
+  },
+  {
+   "time": "11-11 14:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Wins CNCF End User Case Study Contest",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261111dc87018/meta-wins-cncf-end-user-case-study-contest-for-accelerating-ai-infrastructure-deployments-from-hours-to-minutes"
+  },
+  {
+   "time": "11-11 14:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Infrastructure Head Santosh Janardhan to Depart in 2027",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1004318752/market-chatter-meta-s-infrastructure-head-santosh-janardhan-to-depart"
+  },
+  {
+   "time": "11-11 14:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase & Co. Reduces Stake in Future PLC",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/rns/future--futr/holding-s-in-company/9869753"
+  },
   {
    "time": "11-11 13:26",
    "symbols": [
