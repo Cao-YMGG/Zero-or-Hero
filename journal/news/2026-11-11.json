@@ -1,7 +1,48 @@
 {
- "as_of": "2026-11-11T11:33-05:00",
+ "as_of": "2026-11-11T12:03-05:00",
  "since": "2026-11-10T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-11 12:00",
+   "symbols": [
+    "GOOGL",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Google Could Buy Uber to Win the Robotaxi Wars, Reuters Columnist Argues",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63153119/google-uber-robotaxis"
+  },
+  {
+   "time": "11-11 11:45",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Micron Stock Jumps 13% as CoreWeave Outlook Eases AI Spending Fears",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63152060/micron-stock-jumps-13-as-coreweave-outlook-eases-ai-spending-fears"
+  },
+  {
+   "time": "11-11 11:45",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "Here\u2019s How Much You Would Have Made Owning JPMorgan Chase Stock In The Last 5 Years",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63152040/here-s-how-much-you-would-have-made-owning-jpmorgan-chase-stock-last-5-years"
+  },
+  {
+   "time": "11-11 11:37",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "CoreWeave CEO Says He Has Buyers for All Its Future AI Capacity but Won\u2019t Sell Yet",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63151452/coreweave-ai-capacity"
+  },
   {
    "time": "11-11 11:31",
    "symbols": [
