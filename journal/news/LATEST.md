@@ -1,9 +1,10 @@
-# Headlines since 2026-11-10 16:00 ET (as of 2026-11-11 11:03 ET)
+# Headlines since 2026-11-10 16:00 ET (as of 2026-11-11 11:33 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-11 11:23 | GEV | target down | JP Morgan Maintains Overweight on GE Vernova, Lowers Price Target to $1000 |
 | 11-11 09:45 | NVDA | downgrade | Nvidia Stock Gets Rare Downgrade: Baird Slashes Target 60% on Jensen Huang Scandal |
 | 11-11 09:33 | XOM | rating | Goldman Sachs Adjusts Exxon Mobil Price Target to $169 From $179 |
 | 11-11 09:02 | NVDA | rating | Morgan Stanley Reiterates Overweight on NVIDIA, Maintains $300 Price Target |
@@ -14,6 +15,10 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-11 07:02 | NVDA | downgrade | Baird Downgrades NVIDIA to Neutral, Lowers Price Target to $200 |
 | 11-11 06:31 | AAPL | upgrade | China Renaissance Upgrades Apple to Buy From Hold |
 | 11-11 06:10 | RKLB | target down | Needham Maintains Buy on Rocket Lab, Lowers Price Target to $100 |
+| 11-11 11:31 | ASML |  | Reports Indicate Increased EUV Lithography Machine Purchases by Samsung and SK Hynix |
+| 11-11 11:14 | META |  | Meta’s Head Of Infrastructure Engineering Santosh Janardhan To Step Down In 2027; Dave Brown To Succeed |
+| 11-11 11:07 | TSM |  | Why Is Taiwan Semiconductor Stock Gaining Wednesday? |
+| 11-11 11:03 | GS |  | Goldman Sachs and HSBC Join $150 Million Private Credit Deal for United Saudi Co. |
 | 11-11 11:02 | PLTR |  | Palantir Shares Decline Following Contract Warning |
 | 11-11 11:02 | PLTR |  | Palantir Technologies Named Public Health Data Solution of the Year |
 | 11-11 11:02 | META |  | Meta Fined by Brazil Electoral Court |

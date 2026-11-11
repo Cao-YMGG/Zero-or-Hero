@@ -1,7 +1,57 @@
 {
- "as_of": "2026-11-11T11:03-05:00",
+ "as_of": "2026-11-11T11:33-05:00",
  "since": "2026-11-10T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-11 11:31",
+   "symbols": [
+    "ASML"
+   ],
+   "rating": "",
+   "headline": "Reports Indicate Increased EUV Lithography Machine Purchases by Samsung and SK Hynix",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/community/feed/today-s-pre-market-movers-and-top-ratings-nvda-amd-117597990813701"
+  },
+  {
+   "time": "11-11 11:23",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "target down",
+   "headline": "JP Morgan Maintains Overweight on GE Vernova, Lowers Price Target to $1000",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63150331/jp-morgan-maintains-overweight-ge-vernova-lowers-price-target-1000"
+  },
+  {
+   "time": "11-11 11:14",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta\u2019s Head Of Infrastructure Engineering Santosh Janardhan To Step Down In 2027; Dave Brown To Succeed",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63149434/meta-s-head-infrastructure-engineering-santosh-janardhan-step-down-2027-dave-brown-succeed"
+  },
+  {
+   "time": "11-11 11:07",
+   "symbols": [
+    "TSM"
+   ],
+   "rating": "",
+   "headline": "Why Is Taiwan Semiconductor Stock Gaining Wednesday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63148867/why-is-taiwan-semiconductor-stock-gaining-wednesday"
+  },
+  {
+   "time": "11-11 11:03",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs and HSBC Join $150 Million Private Credit Deal for United Saudi Co.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/hsbc-goldman-sachs-said-to-join-private-credit-funding-deal-for-united-saudi-co-ce785edbde89f627"
+  },
   {
    "time": "11-11 11:02",
    "symbols": [
