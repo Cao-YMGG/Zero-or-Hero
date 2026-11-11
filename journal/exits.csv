@@ -103,3 +103,4 @@ date,variant,mode,contract,entry_price,exit_price,peak,exit_reason
 2026-11-09,stock_open_drive,real,TSLA261109C00385000,0.56,0.03,0.65,time
 2026-11-10,catalyst_open,shadow,TSM261113C00417500,0.82,1.28,2.25,trail
 2026-11-11,catalyst_open,shadow,AAPL261111C00357500,0.24,0.23,0.37,trail
+2026-11-11,catalyst_intraday,shadow,MSFT261111P00515000,0.62,0.68,1.14,trail

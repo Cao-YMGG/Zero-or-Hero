@@ -1,7 +1,57 @@
 {
- "as_of": "2026-11-11T10:32-05:00",
+ "as_of": "2026-11-11T11:03-05:00",
  "since": "2026-11-10T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-11 11:02",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir Shares Decline Following Contract Warning",
+   "source": "fiscal.ai",
+   "url": "https://ucapital.com/en/news/breaking/17779717"
+  },
+  {
+   "time": "11-11 11:02",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir Technologies Named Public Health Data Solution of the Year",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/11/3400857/0/en/2026-govtech-breakthrough-awards-program-recognizes-the-world-s-most-innovative-government-technology-companies.html"
+  },
+  {
+   "time": "11-11 11:02",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Fined by Brazil Electoral Court",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/meta-fined-by-brazil-electoral-court-for-allegedly-failing-to-provide-equal-content-during-president-ce785edbdf8ef726"
+  },
+  {
+   "time": "11-11 10:45",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "If You Invested $100 In NVIDIA Stock 15 Years Ago, You Would Have This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63146701/if-you-invested-100-nvidia-stock-15-years-ago-you-would-have-much-today"
+  },
+  {
+   "time": "11-11 10:45",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Stock of the Day: Did Rocket Lab Breakout Yesterday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/technicals/26/11/63146694/stock-of-the-day-did-rocket-lab-breakout-yesterday"
+  },
   {
    "time": "11-11 10:00",
    "symbols": [

@@ -1,4 +1,4 @@
-# Headlines since 2026-11-10 16:00 ET (as of 2026-11-11 10:32 ET)
+# Headlines since 2026-11-10 16:00 ET (as of 2026-11-11 11:03 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -14,6 +14,11 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-11 07:02 | NVDA | downgrade | Baird Downgrades NVIDIA to Neutral, Lowers Price Target to $200 |
 | 11-11 06:31 | AAPL | upgrade | China Renaissance Upgrades Apple to Buy From Hold |
 | 11-11 06:10 | RKLB | target down | Needham Maintains Buy on Rocket Lab, Lowers Price Target to $100 |
+| 11-11 11:02 | PLTR |  | Palantir Shares Decline Following Contract Warning |
+| 11-11 11:02 | PLTR |  | Palantir Technologies Named Public Health Data Solution of the Year |
+| 11-11 11:02 | META |  | Meta Fined by Brazil Electoral Court |
+| 11-11 10:45 | NVDA |  | If You Invested $100 In NVIDIA Stock 15 Years Ago, You Would Have This Much Today |
+| 11-11 10:45 | RKLB |  | Stock of the Day: Did Rocket Lab Breakout Yesterday? |
 | 11-11 10:00 | AVGO |  | If You Invested $100 In Broadcom Stock 5 Years Ago, You Would Have This Much Today |
 | 11-11 09:56 | LLY |  | EXCLUSIVE: Lilly, Gilead Face Near-Term Drug Pricing Risks As Washington Turns Up Heat |
 | 11-11 09:49 | LLY |  | Eli Lilly Reports 52-Week Results Showing Improved Efficacy From TOGETHER-Psa Phase 3b Open-Label Clinical Trial Evaluating Taltz-Zepbound Combination In Psoriatic Arthritis |
