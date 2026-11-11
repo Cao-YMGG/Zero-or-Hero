@@ -1,9 +1,10 @@
-# Headlines since 2026-11-10 16:00 ET (as of 2026-11-11 14:51 ET)
+# Headlines since 2026-11-10 16:00 ET (as of 2026-11-11 15:07 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-11 15:01 | WMT | target up | BofA Securities Raises Walmart Price Target to $139 |
 | 11-11 12:52 | RKLB | target down | Morgan Stanley Maintains Overweight on Rocket Lab, Lowers Price Target to $103 |
 | 11-11 12:28 | V | target up | Bernstein Maintains Outperform on Visa, Raises Price Target to $486 |
 | 11-11 12:27 | COST | target up | Bernstein Maintains Outperform on Costco Wholesale, Raises Price Target to $1155 |
@@ -18,6 +19,10 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-11 07:02 | NVDA | downgrade | Baird Downgrades NVIDIA to Neutral, Lowers Price Target to $200 |
 | 11-11 06:31 | AAPL | upgrade | China Renaissance Upgrades Apple to Buy From Hold |
 | 11-11 06:10 | RKLB | target down | Needham Maintains Buy on Rocket Lab, Lowers Price Target to $100 |
+| 11-11 15:01 | INTC |  | Advantech Launches SOM-5994 Module Powered by Intel Atom P6900 |
+| 11-11 15:01 | AMD |  | AMD Disclosed as Strategic Partner and Investor in Anthropic IPO Filing |
+| 11-11 15:01 | CVX |  | Goldman Sachs Adjusts Chevron Price Target |
+| 11-11 15:01 | TSLA |  | SEC Completes Distribution of Fair Fund from 2018 Tesla Settlement |
 | 11-11 14:02 | RKLB |  | Morgan Stanley Adjusts Rocket Lab Price Target |
 | 11-11 14:02 | CRDO |  | Credo Schedules Second Quarter Fiscal Year 2027 Financial Results Conference Call |
 | 11-11 14:01 | AMD |  | Supermicro and AMD Collaborate on Helios and Helion Rack-Scale AI Solutions |

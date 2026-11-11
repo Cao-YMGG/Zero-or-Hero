@@ -1,7 +1,57 @@
 {
- "as_of": "2026-11-11T14:51-05:00",
+ "as_of": "2026-11-11T15:07-05:00",
  "since": "2026-11-10T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-11 15:01",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "target up",
+   "headline": "BofA Securities Raises Walmart Price Target to $139",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1004315488/walmart-poised-for-continued-growth-amid-market-share-gains-bofa"
+  },
+  {
+   "time": "11-11 15:01",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Advantech Launches SOM-5994 Module Powered by Intel Atom P6900",
+   "source": "fiscal.ai",
+   "url": "https://digiconasia.net/pr-newswire/advantech-powers-high-density-edge-infrastructure-with-the-intel-atom-p6900-processor-based-som-5994-module"
+  },
+  {
+   "time": "11-11 15:01",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD Disclosed as Strategic Partner and Investor in Anthropic IPO Filing",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.ca/fr/news-releases/an-ai-developer-starts-its-ipo-roadshow-and-its-filing-names-chip-and-cloud-partners-851388308.html"
+  },
+  {
+   "time": "11-11 15:01",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Adjusts Chevron Price Target",
+   "source": "fiscal.ai",
+   "url": "https://news.futunn.com/post/1004188918/goldman-sachs-adjusts-chevron-price-target-to-245-from-256"
+  },
+  {
+   "time": "11-11 15:01",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "SEC Completes Distribution of Fair Fund from 2018 Tesla Settlement",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/2026/11/12/business/foreign-business/closure-of-musk-tesla-settlement-fund-sought/2467800"
+  },
   {
    "time": "11-11 14:02",
    "symbols": [
