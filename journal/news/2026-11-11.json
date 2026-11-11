@@ -1,7 +1,288 @@
 {
- "as_of": "2026-11-11T07:42-05:00",
+ "as_of": "2026-11-11T10:02-05:00",
  "since": "2026-11-10T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-11 10:00",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "",
+   "headline": "If You Invested $100 In Broadcom Stock 5 Years Ago, You Would Have This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63141900/if-you-invested-100-broadcom-stock-5-years-ago-you-would-have-much-today"
+  },
+  {
+   "time": "11-11 09:56",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "EXCLUSIVE: Lilly, Gilead Face Near-Term Drug Pricing Risks As Washington Turns Up Heat",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63141495/democrats-drug-pricing-stocks-exclusive"
+  },
+  {
+   "time": "11-11 09:49",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly Reports 52-Week Results Showing Improved Efficacy From TOGETHER-Psa Phase 3b Open-Label Clinical Trial Evaluating Taltz-Zepbound Combination In Psoriatic Arthritis",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63140613/eli-lilly-reports-52-week-results-showing-improved-efficacy-together-psa-phase-3b-open-label-clinica"
+  },
+  {
+   "time": "11-11 09:48",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Live On CNBC, CoreWeave CEO Says NVIDIA Is Not One Person, It Is An Extraordinary Company",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/NVDA"
+  },
+  {
+   "time": "11-11 09:46",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Lilly Highlights Phase 3b Data On Taltz, Zepbound",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63140318/lilly-highlights-phase-3b-data-taltz-zepbound"
+  },
+  {
+   "time": "11-11 09:45",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "downgrade",
+   "headline": "Nvidia Stock Gets Rare Downgrade: Baird Slashes Target 60% on Jensen Huang Scandal",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63140011/nvidia-stock-gets-rare-downgrade-baird-slashes-target-60-on-jensen-huang-scandal"
+  },
+  {
+   "time": "11-11 09:33",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Adjusts Exxon Mobil Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-exxon-mobil-price-target-to-169-from-179-ce785edbdf8bf620"
+  },
+  {
+   "time": "11-11 09:33",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "rating",
+   "headline": "Goldman Sachs Adjusts Exxon Mobil Price Target to $169 From $179",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-exxon-mobil-price-target-to-169-from-179-ce785edbdf8bf620"
+  },
+  {
+   "time": "11-11 09:32",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Quake AI Announces Plans to Deploy NVIDIA Minerva",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/11/3400621/0/en/quake-ai-plans-to-deploy-nvidia-minerva-to-strengthen-ai-factory-operations.html"
+  },
+  {
+   "time": "11-11 09:32",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Coinbase Named Presenting Partner for World Team Tennis",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/world-team-tennis-names-coinbase-as-presenting-partner-302935765.html"
+  },
+  {
+   "time": "11-11 09:32",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "LawVu Integrates Microsoft Copilot into Legal Workflow Platform",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/lawvu-connects-anthropics-claude-microsoft-copilot-openais-chatgpt-harvey-and-legora-to-in-house-legals-data-and-workflows-302935762.html"
+  },
+  {
+   "time": "11-11 09:32",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Launches Sustainability Deep Tech Accelerator for External Innovation",
+   "source": "fiscal.ai",
+   "url": "https://technologymagazine.com/news/amazon-vets-clean-tech-via-deep-tech-engine"
+  },
+  {
+   "time": "11-11 09:32",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Fauna Bio Designates Second Target in Obesity Collaboration with Eli Lilly",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/health/biotechnology"
+  },
+  {
+   "time": "11-11 09:30",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Here\u2019s How Much You Would Have Made Owning Tesla Stock In The Last 10 Years",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63138343/here-s-how-much-you-would-have-made-owning-tesla-stock-last-10-years"
+  },
+  {
+   "time": "11-11 09:28",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "'Goldman, Fortress and HBSC Back Rare Saudi Private Credit Deal' - Bloomberg Exclusive",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63138279/goldman-fortress-and-hbsc-back-rare-saudi-private-credit-deal-bloomberg-exclusive"
+  },
+  {
+   "time": "11-11 09:08",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "ByteDance Plans to Take on Meta's Muse, Eyes Rival AI Agent Launch In Coming Weeks: Report",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63137541/bytedance-plans-to-take-on-metas-muse-eyes-rival-ai-agent-launch-in-coming-weeks-report"
+  },
+  {
+   "time": "11-11 09:07",
+   "symbols": [
+    "AMD",
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Super Micro Computer Begins Shipments Of Its H15 Generation Servers With AMD EPYC 9006 Series Processors",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63137529/super-micro-computer-begins-shipments-its-h15-generation-servers-amd-epyc-9006-series-processors"
+  },
+  {
+   "time": "11-11 09:04",
+   "symbols": [
+    "ARM"
+   ],
+   "rating": "",
+   "headline": "Armada Mercantile Ltd. Insider Filing",
+   "source": "fiscal.ai",
+   "url": "https://ceo.ca/insiders"
+  },
+  {
+   "time": "11-11 09:02",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "rating",
+   "headline": "Morgan Stanley Reiterates Overweight on NVIDIA, Maintains $300 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63137347/morgan-stanley-reiterates-overweight-nvidia-maintains-300-price-target"
+  },
+  {
+   "time": "11-11 08:59",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Dan Ives Says 'Irreplaceable' Nvidia CEO Jensen Huang Is the 'Central Nervous System' of US Tech, Says Company Has No Succession Plan Amid China Spy Allegations",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63137036/dan-ives-says-irreplaceable-nvidia-ceo-jensen-huang-is-the-central-nervous-system-of-us-tech-says-company-has-no-succession-plan-amid-china-spy-allegations"
+  },
+  {
+   "time": "11-11 08:44",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Why Is NVIDIA Stock Gaining Wednesday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63136565/why-is-nvidia-stock-gaining-wednesday"
+  },
+  {
+   "time": "11-11 08:32",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia\u2019s China Comeback Faces 3 New Washington Roadblocks. Trump Holds the Wild Card",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63136323/nvidia-china-chip-restrictions"
+  },
+  {
+   "time": "11-11 08:26",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Cathie Wood Calls Humanoid Robots a '$26 Trillion Opportunity' Over the Next 15 Years: 'Embodied AI' Could Eventually Equal '20% of Global GDP'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63136167/cathie-wood-calls-humanoid-robots-a-26-trillion-opportunity-over-the-next-15-years-embodied-ai-could-eventually-equal-20-of-global-gdp"
+  },
+  {
+   "time": "11-11 08:04",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Vertiv CFO Says Customers Aren't Pushing Back on Higher Prices Despite Inflation Pressure",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63135575/vertiv-cfo-says-customers-arent-pushing-back-on-higher-prices-despite-inflation-pressure"
+  },
+  {
+   "time": "11-11 08:03",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "upgrade",
+   "headline": "China Renaissance Upgrades Apple to Buy, Announces $425 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63135536/china-renaissance-upgrades-apple-buy-announces-425-price-target"
+  },
+  {
+   "time": "11-11 08:02",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "Guggenheim and JPMorgan Adjust Price Targets for GE Vernova",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/guggenheim-adjusts-price-target-on-ge-vernova-to-1-210-from-1-400-ce785edbdc8af523"
+  },
+  {
+   "time": "11-11 08:02",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "Analysts Adjust Price Targets for Exxon Mobil",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/bernstein-adjusts-price-target-on-exxon-mobil-to-186-from-193-ce785edbdd8cf127"
+  },
+  {
+   "time": "11-11 08:01",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Opower Programs Achieve 1 Gigawatt of Peak Energy Demand Reduction",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/utilities-achieve-record-peak-energy-ai-powered-demand-reduction-with-oracle-302936449.html"
+  },
   {
    "time": "11-11 07:33",
    "symbols": [

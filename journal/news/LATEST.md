@@ -1,15 +1,43 @@
-# Headlines since 2026-11-10 16:00 ET (as of 2026-11-11 07:42 ET)
+# Headlines since 2026-11-10 16:00 ET (as of 2026-11-11 10:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-11 09:45 | NVDA | downgrade | Nvidia Stock Gets Rare Downgrade: Baird Slashes Target 60% on Jensen Huang Scandal |
+| 11-11 09:33 | XOM | rating | Goldman Sachs Adjusts Exxon Mobil Price Target to $169 From $179 |
+| 11-11 09:02 | NVDA | rating | Morgan Stanley Reiterates Overweight on NVIDIA, Maintains $300 Price Target |
+| 11-11 08:03 | AAPL | upgrade | China Renaissance Upgrades Apple to Buy, Announces $425 Price Target |
 | 11-11 07:32 | JPM | rating | JPMorgan Chase Maintains Overweight Rating on RWE AG |
 | 11-11 07:32 | JPM | downgrade | JPMorgan Chase Downgrades Phreesia, Inc. to Sell |
 | 11-11 07:31 | AMD | initiate | Freedom Capital Markets Initiates Coverage on AMD with Buy Rating |
 | 11-11 07:02 | NVDA | downgrade | Baird Downgrades NVIDIA to Neutral, Lowers Price Target to $200 |
 | 11-11 06:31 | AAPL | upgrade | China Renaissance Upgrades Apple to Buy From Hold |
 | 11-11 06:10 | RKLB | target down | Needham Maintains Buy on Rocket Lab, Lowers Price Target to $100 |
+| 11-11 10:00 | AVGO |  | If You Invested $100 In Broadcom Stock 5 Years Ago, You Would Have This Much Today |
+| 11-11 09:56 | LLY |  | EXCLUSIVE: Lilly, Gilead Face Near-Term Drug Pricing Risks As Washington Turns Up Heat |
+| 11-11 09:49 | LLY |  | Eli Lilly Reports 52-Week Results Showing Improved Efficacy From TOGETHER-Psa Phase 3b Open-Label Clinical Trial Evaluating Taltz-Zepbound Combination In Psoriatic Arthritis |
+| 11-11 09:48 | NVDA |  | Live On CNBC, CoreWeave CEO Says NVIDIA Is Not One Person, It Is An Extraordinary Company |
+| 11-11 09:46 | LLY |  | Lilly Highlights Phase 3b Data On Taltz, Zepbound |
+| 11-11 09:33 | GS |  | Goldman Sachs Adjusts Exxon Mobil Price Target |
+| 11-11 09:32 | NVDA |  | Quake AI Announces Plans to Deploy NVIDIA Minerva |
+| 11-11 09:32 | COIN |  | Coinbase Named Presenting Partner for World Team Tennis |
+| 11-11 09:32 | MSFT |  | LawVu Integrates Microsoft Copilot into Legal Workflow Platform |
+| 11-11 09:32 | AMZN |  | Amazon Launches Sustainability Deep Tech Accelerator for External Innovation |
+| 11-11 09:32 | LLY |  | Fauna Bio Designates Second Target in Obesity Collaboration with Eli Lilly |
+| 11-11 09:30 | TSLA |  | Here’s How Much You Would Have Made Owning Tesla Stock In The Last 10 Years |
+| 11-11 09:28 | GS |  | 'Goldman, Fortress and HBSC Back Rare Saudi Private Credit Deal' - Bloomberg Exclusive |
+| 11-11 09:08 | META |  | ByteDance Plans to Take on Meta's Muse, Eyes Rival AI Agent Launch In Coming Weeks: Report |
+| 11-11 09:07 | AMD SMCI |  | Super Micro Computer Begins Shipments Of Its H15 Generation Servers With AMD EPYC 9006 Series Processors |
+| 11-11 09:04 | ARM |  | Armada Mercantile Ltd. Insider Filing |
+| 11-11 08:59 | NVDA |  | Dan Ives Says 'Irreplaceable' Nvidia CEO Jensen Huang Is the 'Central Nervous System' of US Tech, Says Company Has No Succession Plan Amid China Spy Allegations |
+| 11-11 08:44 | NVDA |  | Why Is NVIDIA Stock Gaining Wednesday? |
+| 11-11 08:32 | NVDA |  | Nvidia’s China Comeback Faces 3 New Washington Roadblocks. Trump Holds the Wild Card |
+| 11-11 08:26 | TSLA |  | Cathie Wood Calls Humanoid Robots a '$26 Trillion Opportunity' Over the Next 15 Years: 'Embodied AI' Could Eventually Equal '20% of Global GDP' |
+| 11-11 08:04 | NVDA |  | Vertiv CFO Says Customers Aren't Pushing Back on Higher Prices Despite Inflation Pressure |
+| 11-11 08:02 | GEV |  | Guggenheim and JPMorgan Adjust Price Targets for GE Vernova |
+| 11-11 08:02 | XOM |  | Analysts Adjust Price Targets for Exxon Mobil |
+| 11-11 08:01 | ORCL |  | Oracle Opower Programs Achieve 1 Gigawatt of Peak Energy Demand Reduction |
 | 11-11 07:33 | GOOGL META |  | Bernie Sanders Vows Federal Billionaire Wealth Tax After California Proposal Fails, Warns ‘Oligarchs’: ‘Your Victory Is Fleeting’ |
 | 11-11 07:32 | GEV |  | Ontario Power Generation Cites GE Vernova Hitachi Engineering Delays at Darlington SMR Project |
 | 11-11 07:32 | CVX |  | Bernstein and BMO Capital Adjust Price Targets on Chevron |
