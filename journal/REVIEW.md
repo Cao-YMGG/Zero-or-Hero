@@ -1,8 +1,8 @@
-# Review — 2026-11-10
+# Review — 2026-11-11
 
 - Champion: **nvda_gapdown_put**
-- Equity: **$412.52** (phase zero-or-hero)
-- Real trades: 34, realised P&L $-531.00
+- Equity: **$391.47** (phase zero-or-hero)
+- Real trades: 35, realised P&L $-691.00
 
 ## Shadow leaderboard (last 20 trades / all)
 
@@ -12,14 +12,14 @@
 | spy_open_drive | 2 | 50% | +89.9% | +180% | +280% | -100% | 2 | +89.9% |
 | claude_bias | 5 | 80% | +76.1% | +380% | +141% | -97% | 5 | +76.1% |
 | meta_follow2 | 7 | 57% | +32.0% | +224% | +259% | -99% | 7 | +32.0% |
-| stock_open_drive | 4 | 50% | +24.3% | +97% | +230% | -100% | 4 | +24.3% |
-| catalyst_intraday | 10 | 50% | +2.2% | +22% | +299% | -100% | 10 | +2.2% |
-| catalyst_open | 14 | 50% | +1.4% | +19% | +339% | -100% | 14 | +1.4% |
+| catalyst_open | 15 | 47% | +1.0% | +15% | +339% | -100% | 15 | +1.0% |
+| stock_open_drive | 5 | 40% | +0.3% | +1% | +230% | -100% | 5 | +0.3% |
 | spy_open_drive_put | 0 | 0% | +0.0% | +0% | +0% | +0% | 0 | +0.0% |
+| catalyst_intraday | 12 | 50% | -5.7% | -68% | +299% | -100% | 12 | -5.7% |
 | rebound_scanner | 8 | 38% | -28.0% | -224% | +188% | -100% | 8 | -28.0% |
-| leader_follow | 17 | 18% | -58.2% | -990% | +75% | -100% | 17 | -58.2% |
-| catalyst_intraday_hero | 1 | 0% | -98.2% | -98% | -98% | -98% | 1 | -98.2% |
-| catalyst_open_hero | 1 | 0% | -100.0% | -100% | -100% | -100% | 1 | -100.0% |
+| leader_follow | 18 | 17% | -60.5% | -1090% | +75% | -100% | 18 | -60.5% |
+| catalyst_intraday_hero | 3 | 0% | -99.4% | -298% | -98% | -100% | 3 | -99.4% |
+| catalyst_open_hero | 2 | 0% | -100.0% | -200% | -100% | -100% | 2 | -100.0% |
 
 ## Ledgers (one $500 virtual account per variant, real paper orders)
 
@@ -27,14 +27,13 @@
 |---|---|---|---|---|---|
 | nvda_gapdown_put | 1 | $691.00 | 1 | 0 | - |
 | spy_open_drive | 1 | $410.00 | 1 | 0 | - |
-| stock_open_drive | 1 | $493.00 | 4 | 3 | - |
+| stock_open_drive | 1 | $333.00 | 5 | 4 | - |
 | spy_open_drive_put | 1 | $500.00 | 0 | 0 | - |
 
 ## Last real trades
 
 | date | variant | contract | entry | exit | qty | P&L | reason |
 |---|---|---|---|---|---|---|---|
-| 2026-10-30 | nvda_gapdown_put | NVDA261030P00207500 | 0.92 | 2.83 | 1 | +191.00 | take_profit |
 | 2026-10-30 | megacap_reclaim | AMZN261030C00245000 | 0.57 | 0.01 | 1 | -56.00 | time |
 | 2026-10-30 | rebound_scanner | NVDA261030C00212500 | 0.06 | 0.0 | 13 | -78.00 | expired |
 | 2026-10-30 | catalyst_open | GEV261030C00935000 | 2.15 | 0.0 | 1 | -215.00 | expired |
@@ -44,3 +43,4 @@
 | 2026-11-04 | spy_open_drive | SPY261104C00773000 | 0.3 | 0.0 | 3 | -90.00 | expired |
 | 2026-11-04 | stock_open_drive | TSLA261104C00392500 | 0.72 | 0.01 | 1 | -71.00 | time |
 | 2026-11-09 | stock_open_drive | TSLA261109C00385000 | 0.56 | 0.03 | 1 | -53.00 | time |
+| 2026-11-11 | stock_open_drive | TSLA261111C00392500 | 1.69 | 0.09 | 1 | -160.00 | time |

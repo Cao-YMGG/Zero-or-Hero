@@ -51,8 +51,8 @@
   "stock_open_drive": {
     "generation": 1,
     "history": [],
-    "real_trades": 4,
-    "realized": -7.0,
+    "real_trades": 5,
+    "realized": -167.0,
     "started": "2026-10-19"
   }
 }
