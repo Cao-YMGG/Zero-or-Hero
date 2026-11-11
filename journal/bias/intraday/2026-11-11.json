@@ -1,0 +1,165 @@
+{
+ "date": "2026-11-11",
+ "picks": [
+  {
+   "time": "10:19",
+   "symbol": "MSFT",
+   "direction": "put",
+   "confidence": 0.35,
+   "catalyst": "Same-day negative of its own: Anthropic launched Claude Sheets and a set of workplace agents aimed at Office (04:59 Benzinga 'Anthropic expands Claude's workplace arsenal to rival Google and Microsoft'; in-session coverage 'Microsoft stock falls as Anthropic takes aim at Office work', 'targets a $27B business'). MSFT opened +0.2% (534.17) and has slid without a bounce to 523.02 at 10:15 (-2.1% from its open, -1.9% on the day, low 523.35) while QQQ is -0.2% from its open (+1.7% day) and GOOGL +0.4% from open: the selling is MSFT-specific, the second down day after -2.2% Tuesday. Software theme is turning (REL_WEAK, BREADTH, RATIO_LOW): a put on the theme's weakest name with a same-day negative of its own, the mirror of the call exemption. Within the 3% line; reported 10-28/29 (no report window). Risks: -2% is already a full normal MSFT day (SUNDAY_TESTS 59: extension vs the name's own range), a fade in the chip bounce could rotate money back into platforms, and the 2026-10-23 MSFT 515P intraday pick went -99%. Nearest expiry: same-day 11-11. Shadow-only sample (catalyst_intraday real_risk 0 since 11-09; the hero shadow takes the full ledger).",
+   "catalyst_zh": "Anthropic 今早推出 Claude 表格和一组面向办公的智能体，直指微软 Office（报道说瞄准 270 亿美元的业务）。微软开盘 +0.2% 后一路下滑到 10:15 的 523（比开盘 -2.1%，当天 -1.9%），而纳指 ETF 只比开盘 -0.2%、谷歌 +0.4%：卖的只是微软，昨天已经 -2.2%。软件是「转向」主题，这是转向主题里「自带当天负面消息的最弱名字」做看跌。风险：-2% 对微软已经是一整天的正常波幅；芯片反弹如果退潮，钱可能回流平台股；10-23 的微软看跌 pick 归零过。从 11-09 起盘中 pick 只记影子。"
+  }
+ ],
+ "check_1016": "10:17 ET: pick MSFT put 0.35 (above). Gap-and-hold morning: SPY 756.72 open -> 755.88 (-0.11% from open, +0.79% on the day; 10:00 756.36 = -0.05%, prediction 1 right), QQQ 687.24 -> 685.92 (-0.19%, +1.65% day), SMH 504.54 -> 501.32 (-0.64%, +3.66% day; chips hold most of the CoreWeave gap but lead nothing from the open), IWM -0.36% from open, VIXY -0.85% (17.54), TLT -0.2%, XLF +0.1%, XLV +0.1%, XLP -0.1%. Leaders from the open: CRWV +4.1% (+19.5% day), MU +2.1% (+9.5% day, memory rebound with SK Hynix, no own news: turning-theme bounce, not pickable), TSLA +1.6% (+3.4%; stock_open_drive fired at 10:01: the first live trade under the new ledger rules, 392.5C x1 real at 1.69, 2.46 at 10:16), SMCI +1.3% (+7.8%), AAPL +1.2% (+1.5% day; the sniper: 353.70 at 10:00 vs 349.54 open, prediction 2 right; catalyst_open_hero 357.5C x17 at 0.24, 0.18 at 10:16 after a 0.37 peak; the $92 catalyst_open leg found nothing to buy), LITE +1.1% (+10.8%), ARM +0.9%, ORCL +0.8% (+6.1% day, no headline checked). Laggards from the open: GEV -2.9% (+2.0% day: the +5% Siemens Energy gap sold into the Darlington-delay headline, low 802.89 = -4.1%), MSFT -2.0% (the pick), AMZN -1.7% (-0.8% day, no news; yesterday's 277.5C expires today at 0.03), UNH -1.5% (Lilly/Gilead drug-pricing 'Washington turns up heat' 09:56 is the only sector headline), TSM -1.45% (+3.1% day: day-two sell-the-news as expected), META -1.25%. No >= 2% gap-down in the rebound_scanner universe; spy_open_drive did not fire (SPY -0.05% at 10:00); nvda_gapdown_put no (NVDA gapped up, 172.69 flat from open, +2.3% day). Webull unauthorized: tape from Alpaca IEX minute bars, movers by hand.",
+ "conditional_1121": "Put mirror: SMH 504.54 open, 501.32 at 10:16 (-0.64% from open) after a 496.03 low at 09:5x: it is already below its open, so the 11:21 check judges the mirror armed if SMH is still below 504.54 then; the name would be the weakest chip below its open with the least own news (TSM -1.45% from open on day-two sell-the-news, AVGO -0.3%, AMD -0.8%; INTC +0.4% and MU +2.1% are above their opens). Not tradable by catalyst_intraday today (one entry a day, spent on the MSFT put at 10:19): scored as a sample like 11-10. The MSFT put is wrong if MSFT is back above 528 (half the slide) at 11:21 with QQQ holding its open. If SPY loses 754.9 (the 09:4x low) the gap-fade day is on; if chips reclaim their opens the morning dip was the whole fade.",
+ "structure": {
+  "SPY": {
+   "open": 756.72,
+   "prior_close": 749.92,
+   "p1000": 756.36,
+   "p1016": 755.88,
+   "high": 757.9,
+   "low": 754.92,
+   "state": "gap +0.9% held, -0.11% from open; 10:00 inside +-0.4% (prediction 1 right)"
+  },
+  "QQQ": {
+   "open": 687.24,
+   "prior_close": 674.76,
+   "p1016": 685.92,
+   "high": 688.87,
+   "low": 683.6,
+   "state": "-0.19% from open, +1.65% day"
+  },
+  "SMH": {
+   "open": 504.54,
+   "prior_close": 483.63,
+   "p1016": 501.32,
+   "high": 505.38,
+   "low": 496.03,
+   "state": "below its open since 09:4x (mirror would arm at 11:21 if still below 504.54)"
+  },
+  "NVDA": {
+   "open": 172.71,
+   "prior_close": 168.89,
+   "p1016": 172.69,
+   "high": 175.12,
+   "low": 170.88,
+   "state": "flat from open, +2.3% day; Baird downgrade absorbed"
+  },
+  "MSFT": {
+   "open": 534.17,
+   "prior_close": 533.16,
+   "p1016": 523.38,
+   "high": 534.5,
+   "low": 523.35,
+   "state": "the pick: -2.0% from open, straight-line slide, Anthropic Office tools"
+  },
+  "AAPL": {
+   "open": 349.54,
+   "prior_close": 348.51,
+   "p1000": 353.7,
+   "p1016": 353.63,
+   "high": 354.39,
+   "low": 349.32,
+   "state": "sniper +1.2% from open (prediction 2 right); hero 357.5C 0.24 -> 0.18, peak 0.37"
+  },
+  "TSLA": {
+   "open": 386.58,
+   "prior_close": 379.78,
+   "p1016": 392.81,
+   "high": 393.51,
+   "low": 386.46,
+   "state": "+1.6% from open; stock_open_drive real 392.5C x1 at 1.69 (first live ledger trade), 2.46 at 10:16"
+  },
+  "GEV": {
+   "open": 837.3,
+   "prior_close": 797.04,
+   "p1016": 813.12,
+   "high": 841.85,
+   "low": 802.89,
+   "state": "+5% gap sold: -2.9% from open"
+  },
+  "INTC": {
+   "open": 61.75,
+   "prior_close": 58.13,
+   "p1016": 61.99,
+   "high": 62.5,
+   "low": 60.96,
+   "state": "+0.4% from open, +6.6% day (prediction 3: closes below its open, open)"
+  }
+ },
+ "opportunities": [
+  {
+   "type": "company_news",
+   "symbol": "MSFT",
+   "direction": "put",
+   "time": "10:19",
+   "action": "shadow",
+   "why": "Pick (see picks): Anthropic's Claude Sheets / Office-aimed agents; -2.0% from open with QQQ -0.2%; software turning; shadow-only.",
+   "why_zh": "Pick（见上）：Anthropic 的办公工具直指 Office，微软比开盘 -2% 而纳指 ETF 只 -0.2%；软件是转向主题；只记影子。"
+  },
+  {
+   "type": "sympathy",
+   "symbol": "MU",
+   "direction": "call",
+   "time": "10:16",
+   "action": "none",
+   "why": "+2.1% from open, +9.5% day on the memory rebound (SK Hynix +5.5% overnight), no news of its own: a turning-theme bounce, blocked by the filter; the strongest chip from the open.",
+   "why_zh": "美光比开盘 +2.1%、当天 +9.5%，跟着 SK 海力士的存储反弹，自己没有消息：转向主题里的反弹，规则不让买；是开盘以来最强的芯片股。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "CRWV",
+   "direction": "call",
+   "time": "10:16",
+   "action": "none",
+   "why": "+4.1% from open, +19.5% day on the Q3 beat and raised guidance: the day's catalyst, not a mega cap, 0.2-delta same-day options illiquid at our size; logged.",
+   "why_zh": "CoreWeave 比开盘 +4.1%、当天 +19.5%，今天反弹的源头，但不是大盘股、期权太薄，只记录。"
+  },
+  {
+   "type": "sell_the_news",
+   "symbol": "TSM",
+   "direction": "put",
+   "time": "10:16",
+   "action": "none",
+   "why": "Day two of the October sales / Anthropic-OpenAI investment: gapped +4.6% and is -1.45% from its open (408.86), the 10-16 pattern; no fresh negative, turning theme: logged, and the candidate name if the chip mirror arms at 11:21.",
+   "why_zh": "台积电：好消息第二天高开 4.6% 后比开盘 -1.45%，典型的消息兑现；没有新的负面，只记录；如果 11:21 芯片镜像触发，它是候选名字。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "GEV",
+   "direction": "put",
+   "time": "10:16",
+   "action": "none",
+   "why": "+5% gap on Siemens Energy's record quarter sold to -2.9% from its open (low -4.1%) on Ontario Power Generation citing GE Vernova Hitachi delays at Darlington (07:32) and GLJ's Sell; at the 3% line, two-day whipsaw: not picked.",
+   "why_zh": "GE Vernova 高开 5% 后被卖到比开盘 -2.9%（最低 -4.1%）：安大略电力说 Darlington 小堆工程延期、GLJ 维持卖出。已到 3% 的线、两天来回甩，不选。"
+  },
+  {
+   "type": "relative_weakness",
+   "symbol": "AMZN",
+   "direction": "put",
+   "time": "10:16",
+   "action": "none",
+   "why": "-1.7% from open, -0.8% day with no news (GOOGL +0.4% from open): relative weakness alone; yesterday's 277.5C expires today at 0.03.",
+   "why_zh": "亚马逊比开盘 -1.7%、没有消息（谷歌 +0.4%）：只是相对弱势，不选；昨天的 277.5 看涨今天到期，只剩 0.03。"
+  },
+  {
+   "type": "sector_move",
+   "symbol": "UNH",
+   "direction": "put",
+   "time": "10:16",
+   "action": "none",
+   "why": "-1.5% from open, -1.7% day; the only sector headline is Benzinga's 09:56 exclusive on Lilly/Gilead near-term drug-pricing risk as 'Washington turns up the heat' (pharma, not insurers): no own cause, logged.",
+   "why_zh": "联合健康比开盘 -1.5%，板块只有一条 09:56 的消息（礼来、吉利德面临华盛顿药价压力，是药企不是保险），自己没有原因，只记录。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "LLY",
+   "direction": "call",
+   "time": "10:16",
+   "action": "none",
+   "why": "Taltz-Zepbound Phase 3b data (09:46-09:49) against the 09:56 drug-pricing exclusive: +0.2% from open, -0.9% day, mixed; the 11-09 hero 1470C is 4.23 -> 1.18.",
+   "why_zh": "礼来：Taltz + Zepbound 三期 b 数据对上药价压力的独家报道，比开盘 +0.2%、当天 -0.9%，多空混杂不选；11-09 的 hero 影子 1470 看涨 4.23 → 1.18。"
+  }
+ ]
+}
