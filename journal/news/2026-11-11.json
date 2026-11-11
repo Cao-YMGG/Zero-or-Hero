@@ -1,7 +1,39 @@
 {
- "as_of": "2026-11-11T13:15-05:00",
+ "as_of": "2026-11-11T13:45-05:00",
  "since": "2026-11-10T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-11 13:26",
+   "symbols": [
+    "AAPL",
+    "MSFT",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia\u2019s Earnings Day Is \u2018Earnings Day for Your 401(k).\u2019 Here\u2019s Why",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63159321/nvidia-earnings-401k-impact"
+  },
+  {
+   "time": "11-11 13:18",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "James Altucher Posts On X \"My first patent, on a critical piece of infrastructure to make $NVDA GPUs faster. All credit to the amazing optical engineers at $FABC and $KOPN who let me put my name on it.\"",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/26/11/63158823/james-altucher-posts-x-my-first-patent-critical-piece-infrastructure-make-nvda-gpus-faster-all-credi"
+  },
+  {
+   "time": "11-11 13:18",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "What Is Going On With Snap Stock on Wednesday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63158783/what-is-going-on-with-snap-stock-on-wednesday-2"
+  },
   {
    "time": "11-11 13:06",
    "symbols": [
