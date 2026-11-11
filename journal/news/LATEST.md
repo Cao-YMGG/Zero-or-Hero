@@ -1,9 +1,11 @@
-# Headlines since 2026-11-10 16:00 ET (as of 2026-11-11 12:03 ET)
+# Headlines since 2026-11-10 16:00 ET (as of 2026-11-11 12:33 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-11 12:28 | V | target up | Bernstein Maintains Outperform on Visa, Raises Price Target to $486 |
+| 11-11 12:27 | COST | target up | Bernstein Maintains Outperform on Costco Wholesale, Raises Price Target to $1155 |
 | 11-11 11:23 | GEV | target down | JP Morgan Maintains Overweight on GE Vernova, Lowers Price Target to $1000 |
 | 11-11 09:45 | NVDA | downgrade | Nvidia Stock Gets Rare Downgrade: Baird Slashes Target 60% on Jensen Huang Scandal |
 | 11-11 09:33 | XOM | rating | Goldman Sachs Adjusts Exxon Mobil Price Target to $169 From $179 |
@@ -15,6 +17,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-11 07:02 | NVDA | downgrade | Baird Downgrades NVIDIA to Neutral, Lowers Price Target to $200 |
 | 11-11 06:31 | AAPL | upgrade | China Renaissance Upgrades Apple to Buy From Hold |
 | 11-11 06:10 | RKLB | target down | Needham Maintains Buy on Rocket Lab, Lowers Price Target to $100 |
+| 11-11 12:14 | META |  | Hims & Hers Under Fire: Five More States Join Federal Crackdown Over Alleged Privacy Violations |
 | 11-11 12:00 | GOOGL TSLA |  | Google Could Buy Uber to Win the Robotaxi Wars, Reuters Columnist Argues |
 | 11-11 11:45 | MU |  | Micron Stock Jumps 13% as CoreWeave Outlook Eases AI Spending Fears |
 | 11-11 11:45 | JPM |  | Here’s How Much You Would Have Made Owning JPMorgan Chase Stock In The Last 5 Years |

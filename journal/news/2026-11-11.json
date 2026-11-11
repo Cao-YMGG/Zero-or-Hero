@@ -1,7 +1,37 @@
 {
- "as_of": "2026-11-11T12:03-05:00",
+ "as_of": "2026-11-11T12:33-05:00",
  "since": "2026-11-10T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-11 12:28",
+   "symbols": [
+    "V"
+   ],
+   "rating": "target up",
+   "headline": "Bernstein Maintains Outperform on Visa, Raises Price Target to $486",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63155332/bernstein-maintains-outperform-visa-raises-price-target-486"
+  },
+  {
+   "time": "11-11 12:27",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "target up",
+   "headline": "Bernstein Maintains Outperform on Costco Wholesale, Raises Price Target to $1155",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63155237/bernstein-maintains-outperform-costco-wholesale-raises-price-target-1155"
+  },
+  {
+   "time": "11-11 12:14",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Hims & Hers Under Fire: Five More States Join Federal Crackdown Over Alleged Privacy Violations",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/11/63154352/hims-hers-under-fire-five-more-states-join-federal-crackdown-over-alleged-privacy-violations"
+  },
   {
    "time": "11-11 12:00",
    "symbols": [
