@@ -1,9 +1,10 @@
-# Headlines since 2026-11-10 16:00 ET (as of 2026-11-11 12:33 ET)
+# Headlines since 2026-11-10 16:00 ET (as of 2026-11-11 13:15 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-11 12:52 | RKLB | target down | Morgan Stanley Maintains Overweight on Rocket Lab, Lowers Price Target to $103 |
 | 11-11 12:28 | V | target up | Bernstein Maintains Outperform on Visa, Raises Price Target to $486 |
 | 11-11 12:27 | COST | target up | Bernstein Maintains Outperform on Costco Wholesale, Raises Price Target to $1155 |
 | 11-11 11:23 | GEV | target down | JP Morgan Maintains Overweight on GE Vernova, Lowers Price Target to $1000 |
@@ -17,6 +18,12 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-11 07:02 | NVDA | downgrade | Baird Downgrades NVIDIA to Neutral, Lowers Price Target to $200 |
 | 11-11 06:31 | AAPL | upgrade | China Renaissance Upgrades Apple to Buy From Hold |
 | 11-11 06:10 | RKLB | target down | Needham Maintains Buy on Rocket Lab, Lowers Price Target to $100 |
+| 11-11 13:06 | LLY |  | Eli Lilly Says Taltz/Zepbound Combo Shows Long-Term Efficacy in Psoriatic Arthritis Trial |
+| 11-11 12:45 | NVDA ORCL PLTR |  | Michael Burry Says Jensen’s Affair Won’t Sink Nvidia, But Regulators Might |
+| 11-11 12:41 | NVDA |  | 'Nvidia Partners See Early Signs Customers Are Unnerved By Jensen Huang Investigation' - CRN |
+| 11-11 12:36 | MSFT |  | Microsoft Stock Slides After Anthropic Launches Productivity Tools: What to Know |
+| 11-11 12:35 | CAT GEV |  | 4 Industrials Stocks With Whale Alerts In Today’s Session |
+| 11-11 12:35 | META |  | 4 Communication Services Stocks Whale Activity In Today’s Session |
 | 11-11 12:14 | META |  | Hims & Hers Under Fire: Five More States Join Federal Crackdown Over Alleged Privacy Violations |
 | 11-11 12:00 | GOOGL TSLA |  | Google Could Buy Uber to Win the Robotaxi Wars, Reuters Columnist Argues |
 | 11-11 11:45 | MU |  | Micron Stock Jumps 13% as CoreWeave Outlook Eases AI Spending Fears |

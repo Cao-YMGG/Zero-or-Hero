@@ -1,7 +1,80 @@
 {
- "as_of": "2026-11-11T12:33-05:00",
+ "as_of": "2026-11-11T13:15-05:00",
  "since": "2026-11-10T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-11 13:06",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly Says Taltz/Zepbound Combo Shows Long-Term Efficacy in Psoriatic Arthritis Trial",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/biotech/26/11/63158034/eli-lilly-says-taltz-zepbound-combo-shows-long-term-efficacy-in-psoriatic-arthritis-trial"
+  },
+  {
+   "time": "11-11 12:52",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "target down",
+   "headline": "Morgan Stanley Maintains Overweight on Rocket Lab, Lowers Price Target to $103",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63157234/morgan-stanley-maintains-overweight-rocket-lab-lowers-price-target-103"
+  },
+  {
+   "time": "11-11 12:45",
+   "symbols": [
+    "NVDA",
+    "ORCL",
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Michael Burry Says Jensen\u2019s Affair Won\u2019t Sink Nvidia, But Regulators Might",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63156711/michael-burry-says-jensens-affair-wont-sink-nvidia-but-regulators-might"
+  },
+  {
+   "time": "11-11 12:41",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "'Nvidia Partners See Early Signs Customers Are Unnerved By Jensen Huang Investigation' - CRN",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63156281/nvidia-partners-see-early-signs-customers-are-unnerved-jensen-huang-investigation-crn"
+  },
+  {
+   "time": "11-11 12:36",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Stock Slides After Anthropic Launches Productivity Tools: What to Know",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63155981/microsoft-stock-slides-after-anthropic-launches-productivity-tools-what-to-know"
+  },
+  {
+   "time": "11-11 12:35",
+   "symbols": [
+    "CAT",
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "4 Industrials Stocks With Whale Alerts In Today\u2019s Session",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/options/26/11/63155863/4-industrials-stocks-whale-alerts-today-s-session"
+  },
+  {
+   "time": "11-11 12:35",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "4 Communication Services Stocks Whale Activity In Today\u2019s Session",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/options/26/11/63155862/4-communication-services-stocks-whale-activity-today-s-session"
+  },
   {
    "time": "11-11 12:28",
    "symbols": [
