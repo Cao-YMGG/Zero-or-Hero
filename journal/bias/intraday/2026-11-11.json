@@ -18,41 +18,46 @@
    "prior_close": 749.92,
    "p1000": 756.36,
    "p1016": 755.88,
-   "high": 757.9,
+   "high": 758.85,
    "low": 754.92,
-   "state": "gap +0.9% held, -0.11% from open; 10:00 inside +-0.4% (prediction 1 right)"
+   "state": "+0.26% from open, +1.17% day: gap-and-hold, new high at 10:55",
+   "p1121": 758.69
   },
   "QQQ": {
    "open": 687.24,
    "prior_close": 674.76,
    "p1016": 685.92,
-   "high": 688.87,
+   "high": 692.1,
    "low": 683.6,
-   "state": "-0.19% from open, +1.65% day"
+   "state": "+0.60% from open, +2.5% day",
+   "p1121": 691.39
   },
   "SMH": {
    "open": 504.54,
    "prior_close": 483.63,
    "p1016": 501.32,
-   "high": 505.38,
+   "high": 511.2,
    "low": 496.03,
-   "state": "below its open since 09:4x (mirror would arm at 11:21 if still below 504.54)"
+   "state": "reclaimed its open at 10:25, +1.27% from open: mirror not armed",
+   "p1121": 510.93
   },
   "NVDA": {
    "open": 172.71,
    "prior_close": 168.89,
    "p1016": 172.69,
-   "high": 175.12,
+   "high": 176.22,
    "low": 170.88,
-   "state": "flat from open, +2.3% day; Baird downgrade absorbed"
+   "state": "+1.6% from open, +3.9% day",
+   "p1121": 175.46
   },
   "MSFT": {
    "open": 534.17,
    "prior_close": 533.16,
    "p1016": 523.38,
    "high": 534.5,
-   "low": 523.35,
-   "state": "the pick: -2.0% from open, straight-line slide, Anthropic Office tools"
+   "low": 518.53,
+   "state": "the pick: -2.58% from open, -2.4% day; 515P 0.62 -> 1.14 peak -> 0.39",
+   "p1121": 520.38
   },
   "AAPL": {
    "open": 349.54,
@@ -61,15 +66,17 @@
    "p1016": 353.63,
    "high": 354.39,
    "low": 349.32,
-   "state": "sniper +1.2% from open (prediction 2 right); hero 357.5C 0.24 -> 0.18, peak 0.37"
+   "state": "+1.3% from open; hero 357.5C 0.03 (dead, 1% OTM)",
+   "p1121": 354.12
   },
   "TSLA": {
    "open": 386.58,
    "prior_close": 379.78,
    "p1016": 392.81,
-   "high": 393.51,
+   "high": 395.39,
    "low": 386.46,
-   "state": "+1.6% from open; stock_open_drive real 392.5C x1 at 1.69 (first live ledger trade), 2.46 at 10:16"
+   "state": "+1.75% from open; real 392.5C 1.69 -> 3.73 peak (10:55) -> 2.15",
+   "p1121": 393.33
   },
   "GEV": {
    "open": 837.3,
@@ -77,15 +84,25 @@
    "p1016": 813.12,
    "high": 841.85,
    "low": 802.89,
-   "state": "+5% gap sold: -2.9% from open"
+   "state": "-1.85% from open, +3.1% day",
+   "p1121": 821.8
   },
   "INTC": {
    "open": 61.75,
    "prior_close": 58.13,
    "p1016": 61.99,
-   "high": 62.5,
+   "high": 63.34,
    "low": 60.96,
-   "state": "+0.4% from open, +6.6% day (prediction 3: closes below its open, open)"
+   "state": "+2.1% from open, +8.5% day: prediction 3 (closes below its open) losing",
+   "p1121": 63.04
+  },
+  "MU": {
+   "open": 777.79,
+   "prior_close": 725.11,
+   "p1121": 818.89,
+   "high": 821.79,
+   "low": 763.25,
+   "state": "+5.3% from open, +12.9% day: the leader, no own news (memory rebound)"
   }
  },
  "opportunities": [
@@ -160,6 +177,62 @@
    "action": "none",
    "why": "Taltz-Zepbound Phase 3b data (09:46-09:49) against the 09:56 drug-pricing exclusive: +0.2% from open, -0.9% day, mixed; the 11-09 hero 1470C is 4.23 -> 1.18.",
    "why_zh": "礼来：Taltz + Zepbound 三期 b 数据对上药价压力的独家报道，比开盘 +0.2%、当天 -0.9%，多空混杂不选；11-09 的 hero 影子 1470 看涨 4.23 → 1.18。"
+  },
+  {
+   "type": "sympathy",
+   "symbol": "MU",
+   "direction": "call",
+   "time": "11:21",
+   "action": "none",
+   "why": "Leader rule candidate: +5.3% from open, +12.9% day, 4 points beyond SMH (+1.3% from open), but no news of its own (memory rebound with SK Hynix and SNDK) in a turning theme: blocked; the day's one entry is spent anyway.",
+   "why_zh": "美光是今天的领头羊：比开盘 +5.3%、当天 +12.9%，比半导体 ETF 多涨 4 个点，但自己没有消息（跟 SK 海力士、闪迪的存储反弹），转向主题不买同情盘；今天的一笔也已经用掉。"
+  },
+  {
+   "type": "sympathy",
+   "symbol": "ORCL",
+   "direction": "call",
+   "time": "11:21",
+   "action": "none",
+   "why": "+3.6% from open, +9.1% day with no headline found (Benzinga feed, web): software is a turning theme; a 9% move without a visible cause is a question, not a catalyst.",
+   "why_zh": "甲骨文比开盘 +3.6%、当天 +9.1%，没找到消息：软件是转向主题，没原因的大涨是问号不是催化剂，只记录。"
+  },
+  {
+   "type": "sympathy",
+   "symbol": "ARM",
+   "direction": "call",
+   "time": "11:21",
+   "action": "none",
+   "why": "+5.8% from open, +11.9% day (UBS: server CPU share gains for AMD and Arm, 08:2x) in the turning CPU theme; sympathy bounce, logged.",
+   "why_zh": "ARM 比开盘 +5.8%、当天 +11.9%（UBS 说 AMD 和 Arm 在服务器 CPU 抢份额），CPU 是转向主题里的反弹，只记录。"
+  },
+  {
+   "type": "relative_weakness",
+   "symbol": "AMZN",
+   "direction": "put",
+   "time": "11:21",
+   "action": "none",
+   "why": "-2.6% from open, -1.7% day, the weakest platform with MSFT and no news of its own: relative weakness, not a catalyst; yesterday's 277.5C expires today at 0.03.",
+   "why_zh": "亚马逊比开盘 -2.6%、当天 -1.7%，和微软一起是最弱的平台股，但自己没有消息：只是相对弱势，不选。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "PLTR",
+   "direction": "put",
+   "time": "11:21",
+   "action": "none",
+   "why": "Benzinga 11:02 'Palantir shares decline following contract warning' (no detail found): PLTR 173.25 flat from its open, +2.6% day: the tape does not agree, logged.",
+   "why_zh": "Benzinga 11:02 说 Palantir 因合同警告下跌，没查到细节；股价 173 和开盘持平、当天 +2.6%，走势不配合，只记录。"
+  },
+  {
+   "type": "mirror_conditional",
+   "symbol": "TSM",
+   "direction": "put",
+   "time": "11:21",
+   "action": "none",
+   "why": "Mirror not armed (SMH +1.27% above its open); TSM -0.5% from open is the only chip below its open (day-two sell-the-news), the name if SMH loses 504.54 by 13:16. Untradable today.",
+   "why_zh": "镜像没触发（半导体 ETF 在开盘价上 1.3%）；台积电比开盘 -0.5% 是唯一跌破开盘价的芯片股，如果 13:16 前半导体 ETF 跌回开盘价下，它是名字。今天做不了。"
   }
- ]
+ ],
+ "check_1121": "11:22 ET: no second pick (one catalyst entry a day, spent on the MSFT put at 10:19). Put mirror NOT armed: SMH reclaimed its 504.54 open at 10:25 and is 510.93 (+1.27% from open, +5.6% day), so the 10:16 conditional did not hold; chips are now the leaders from the open with no own news (ARM +5.8%, MU +5.3% at 818.89 / +12.9% day, LITE +4.1%, SMCI +4.1%, MRVL +3.1%, INTC +2.1%, AMD +1.7%, NVDA +1.6%, AVGO +0.8%) and ORCL +3.6% from open (+9.1% day, no headline found; Benzinga has nothing on it since the open): all turning-theme bounces, none pickable, logged. Index: SPY 758.69 (+0.26% from open, +1.17% day, high 758.85), QQQ 691.39 (+0.60%, +2.5% day), IWM flat from open, VIXY 17.40 (-1.6%), TLT flat, XLF +0.3%, XLE +0.2%, XLV +0.2%. The MSFT pick: 520.38 (-2.58% from its open, -2.4% day, low 518.53 at 10:2x), still the weakest mega cap with AMZN (-2.6% from open, -1.7% day, no news) while GOOGL +0.5% and META -1.0%: the stock is right, the same-day 515P is not. catalyst_intraday_hero 515P x6 at 0.62 (10:22) peaked 1.14 at the 10:2x low and is 0.39 at 11:21 (-37%) with MSFT 1% lower than at entry: a 1.5%-OTM same-day put with five hours of theta (SUNDAY_TESTS 59 material: the stock did its full normal day before the pick). The $92 catalyst_intraday leg booked nothing (to check in the review). Wrong_if (MSFT back above 528 with QQQ holding its open): not triggered. Live rules: stock_open_drive TSLA 392.5C real x1 at 1.69 (the first ledger trade under the 11-09 rules) peaked 3.73 at ~10:55 (TSLA 395.39) and is 2.15 at 11:21 (TSLA 393.33, +1.75% from open); shadow marks 2.84. AAPL sniper: 354.12 (+1.3% from open) but the hero's 357.5C is 0.03 (0.24 entry, 0.37 peak): 1% OTM with the stock up 1.3% and the option dead, the strike problem again. PLTR 11:02 'shares decline following contract warning' (Benzinga, no detail found): 173.25, flat from open, +2.6% day: tape does not agree, logged. UNH -1.4% from open, GEV -1.85%, META -1.0%: no fresh cause. Webull unauthorized all morning: tape from Alpaca IEX minute bars.",
+ "conditional_1316": "Mirror: arms only if SMH falls back below 504.54 (its open) by 13:16; the name would be the weakest chip below its own open (TSM, -0.5% from open on day-two selling, is the only one below it now; AMD/NVDA/AVGO are above). Untradable today anyway (entry spent), scored as a sample. Call side: the day's leaders (MU, ARM, LITE, ORCL) are turning-theme bounces without own news, so no call pick even if they extend. MSFT put: if MSFT is below 518.53 (the 10:2x low) at 13:16 the stock side is a clean win; if it is back above 528 the pick is wrong. TSLA real 392.5C: watch the bot's half-at-3x / trail handling and Alpaca's 15:30 liquidation of in-the-money expiring contracts (ITM if TSLA > 392.5 at 15:30)."
 }
