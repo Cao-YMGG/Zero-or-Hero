@@ -1,7 +1,69 @@
 {
- "as_of": "2026-11-12T11:33-05:00",
+ "as_of": "2026-11-12T12:03-05:00",
  "since": "2026-11-11T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-12 11:59",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Signapore Announces Investigation Into Alice Huang, Megaspeed International",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63205356/signapore-announces-investigation-alice-huang-megaspeed-international"
+  },
+  {
+   "time": "11-12 11:53",
+   "symbols": [
+    "SNDK",
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "SanDisk, Western Digital Are Down 60% \u2014 Are Memory Investors Getting a Second Chance?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/technicals/26/11/63204825/sandisk-western-digital-stocks"
+  },
+  {
+   "time": "11-12 11:53",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "target down",
+   "headline": "BMO Capital Maintains Outperform on NVIDIA, Lowers Price Target to $240",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63204812/bmo-capital-maintains-outperform-nvidia-lowers-price-target-240"
+  },
+  {
+   "time": "11-12 11:52",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "rating",
+   "headline": "Baird Reiterates Neutral on NVIDIA, Maintains $200 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63204664/baird-reiterates-neutral-nvidia-maintains-200-price-target"
+  },
+  {
+   "time": "11-12 11:48",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "target down",
+   "headline": "Goldman Sachs Maintains Buy on NVIDIA, Lowers Price Target to $220",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63204303/goldman-sachs-maintains-buy-nvidia-lowers-price-target-220"
+  },
+  {
+   "time": "11-12 11:42",
+   "symbols": [
+    "AAPL",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Trump\u2019s Bombshell Choice for Nvidia\u2019s Next CEO: \u2018A Legend Replaces a Legend\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63203759/trump-choice-for-nvidia-next-ceo-tim-cook"
+  },
   {
    "time": "11-12 11:31",
    "symbols": [
