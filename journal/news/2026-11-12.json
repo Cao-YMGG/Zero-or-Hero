@@ -1,7 +1,179 @@
 {
- "as_of": "2026-11-12T10:32-05:00",
+ "as_of": "2026-11-12T11:03-05:00",
  "since": "2026-11-11T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-12 11:02",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "rating",
+   "headline": "BofA Securities Adjusts AMD Price Target to $700",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/bofa-securities-adjusts-advanced-micro-devices-price-target-to-700-from-650-buy-rating-kept-ce785ed8df89fe21"
+  },
+  {
+   "time": "11-12 11:02",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "downgrade",
+   "headline": "JPMorgan Chase Downgrades Agility Robotics to Neutral",
+   "source": "fiscal.ai",
+   "url": "https://de.marketscreener.com/boerse-nachrichten/agility-robotics-inc-jpmorgan-chase-senkt-seine-meinung-und-wechselt-zu-neutral-ce785ed8df88ff26"
+  },
+  {
+   "time": "11-12 11:01",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix to Release Russell Brand Documentary",
+   "source": "fiscal.ai",
+   "url": "https://mediamole.co.uk/tv/netflix-to-release-fast-turnaround-russell-brand-documentary-on-friday/47371/"
+  },
+  {
+   "time": "11-12 11:01",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Antigravity A1 Drone Bundle Available at Costco",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/antigravity-unveils-its-biggest-savings-to-date-with-up-to-35-off-a1-this-black-friday-302937781.html"
+  },
+  {
+   "time": "11-12 11:01",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Flourish Protein Pancake and Waffle Mixes Launch at Walmart",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261112to95337/the-rumors-are-true-flourish-protein-pancakes-land-at-walmart-stores-across-the-united-states"
+  },
+  {
+   "time": "11-12 11:01",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Micron Officer Files Notice of Proposed Stock Sale",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/flash/1004447560/form-144-micron-technology-muus-officer-proposes-to-sell-11"
+  },
+  {
+   "time": "11-12 11:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Arctera Announces Model Context Protocol Connectivity for Microsoft 365 Copilot",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/12/3401511/0/en/arctera-helps-companies-bring-business-information-into-microsoft-copilot-workflows-with-governance-controls-in-place.html"
+  },
+  {
+   "time": "11-12 11:01",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Hyro Achieves Oracle Health Endpoint Validation Expertise",
+   "source": "fiscal.ai",
+   "url": "https://markets.businessinsider.com/news/stocks/hyro-achieves-oracle-validated-oracle-health-endpoint-validation-expertise-for-delivering-proven-agentic-ai-ehr-integration-1036755577"
+  },
+  {
+   "time": "11-12 11:01",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "",
+   "headline": "Roundhill Investments Launches Magnificent Seven Plus ETF Including Broadcom",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/roundhill-investments-launches-roundhill-magnificent-seven-plus-etf-magp-302937730.html"
+  },
+  {
+   "time": "11-12 11:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Nintendo to Discontinue 'Sign In with Apple' for Nintendo Accounts",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/tcwfhvr/"
+  },
+  {
+   "time": "11-12 10:58",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Seeing Reports Retail Investors Bought Net $111M Worth Of Nvidia Stock In The First Half-Hour Of Trading, Biggest Opening Bid On Record For The Stock",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/NVDA"
+  },
+  {
+   "time": "11-12 10:57",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "target down",
+   "headline": "Citigroup Maintains Buy on NVIDIA, Lowers Price Target to $225",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63199067/citigroup-maintains-buy-nvidia-lowers-price-target-225"
+  },
+  {
+   "time": "11-12 10:45",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Here's How Much $100 Invested In Rocket Lab 5 Years Ago Would Be Worth Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63197800/here-s-how-much-100-invested-rocket-lab-5-years-ago-would-be-worth-today"
+  },
+  {
+   "time": "11-12 10:37",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "target down",
+   "headline": "Needham Maintains Buy on NVIDIA, Lowers Price Target to $200",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63197083/needham-maintains-buy-nvidia-lowers-price-target-200"
+  },
+  {
+   "time": "11-12 10:36",
+   "symbols": [
+    "AMD",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Jim Cramer Says Jensen Huang's NVIDIA Exit 'Had to Happen'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63196987/jim-cramer-says-jensen-huangs-nvidia-exit-had-to-happen"
+  },
+  {
+   "time": "11-12 10:33",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "downgrade",
+   "headline": "StoneX Downgrades NVIDIA to Hold",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63196627/stonex-downgrades-nvidia-hold"
+  },
+  {
+   "time": "11-12 10:32",
+   "symbols": [
+    "AAPL",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "President Trump On Truth Social Says Now That NVIDIA CEO Jensen Huang, Who Has Done A Fantastic Job, Has Resigned, There Is Only One Man To Take His Place - Tim Cook Of Apple",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63196471/president-trump-truth-social-says-now-nvidia-ceo-jensen-huang-who-has-done-fantastic-job-has-resigne"
+  },
   {
    "time": "11-12 10:15",
    "symbols": [

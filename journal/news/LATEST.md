@@ -1,9 +1,14 @@
-# Headlines since 2026-11-11 16:00 ET (as of 2026-11-12 10:32 ET)
+# Headlines since 2026-11-11 16:00 ET (as of 2026-11-12 11:03 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-12 11:02 | AMD | rating | BofA Securities Adjusts AMD Price Target to $700 |
+| 11-12 11:02 | JPM | downgrade | JPMorgan Chase Downgrades Agility Robotics to Neutral |
+| 11-12 10:57 | NVDA | target down | Citigroup Maintains Buy on NVIDIA, Lowers Price Target to $225 |
+| 11-12 10:37 | NVDA | target down | Needham Maintains Buy on NVIDIA, Lowers Price Target to $200 |
+| 11-12 10:33 | NVDA | downgrade | StoneX Downgrades NVIDIA to Hold |
 | 11-12 10:06 | COIN | target down | B. Riley Securities Reiterates Neutral on Coinbase Global, Lowers Price Target to $150 |
 | 11-12 09:54 | AMD | rating | RBC Capital Reiterates Sector Perform on Advanced Micro Devices, Maintains $540 Price Target |
 | 11-12 09:21 | NVDA | target down | Stifel Maintains Buy on NVIDIA, Lowers Price Target to $205 |
@@ -23,6 +28,18 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-12 06:17 | NVDA | downgrade | Evercore ISI Group Downgrades NVIDIA to In-Line, Lowers Price Target to $186 |
 | 11-12 04:42 | NVDA | downgrade | Oppenheimer Downgrades NVIDIA to Perform |
 | 11-11 20:01 | MU | rating | Goldman Sachs Maintains Neutral Rating on Micron Technology |
+| 11-12 11:01 | NFLX |  | Netflix to Release Russell Brand Documentary |
+| 11-12 11:01 | COST |  | Antigravity A1 Drone Bundle Available at Costco |
+| 11-12 11:01 | WMT |  | Flourish Protein Pancake and Waffle Mixes Launch at Walmart |
+| 11-12 11:01 | MU |  | Micron Officer Files Notice of Proposed Stock Sale |
+| 11-12 11:01 | MSFT |  | Arctera Announces Model Context Protocol Connectivity for Microsoft 365 Copilot |
+| 11-12 11:01 | ORCL |  | Hyro Achieves Oracle Health Endpoint Validation Expertise |
+| 11-12 11:01 | AVGO |  | Roundhill Investments Launches Magnificent Seven Plus ETF Including Broadcom |
+| 11-12 11:01 | AAPL |  | Nintendo to Discontinue 'Sign In with Apple' for Nintendo Accounts |
+| 11-12 10:58 | NVDA |  | Seeing Reports Retail Investors Bought Net $111M Worth Of Nvidia Stock In The First Half-Hour Of Trading, Biggest Opening Bid On Record For The Stock |
+| 11-12 10:45 | RKLB |  | Here's How Much $100 Invested In Rocket Lab 5 Years Ago Would Be Worth Today |
+| 11-12 10:36 | AMD NVDA |  | Jim Cramer Says Jensen Huang's NVIDIA Exit 'Had to Happen' |
+| 11-12 10:32 | AAPL NVDA |  | President Trump On Truth Social Says Now That NVIDIA CEO Jensen Huang, Who Has Done A Fantastic Job, Has Resigned, There Is Only One Man To Take His Place - Tim Cook Of Apple |
 | 11-12 10:15 | BAC |  | $1000 Invested In Bank of America 15 Years Ago Would Be Worth This Much Today |
 | 11-12 10:15 | META |  | Meta's $27B Off-Balance-Sheet AI Deal Reminds Steve Eisman of Enron— Joseph Carlson Disagrees |
 | 11-12 10:02 | NVDA |  | 'Alice Huang’s Companies’ Investment Aims To Secure NVIDIA Blackwell Chip Supply For Deepseek' -The Information |

@@ -14,7 +14,7 @@
         "peak": 0.26,
         "qty": 3,
         "last": 0.01,
-        "last_time": "2026-11-12T10:32:41-05:00"
+        "last_time": "2026-11-12T11:03:04-05:00"
       },
       "real": {
         "contract": "WMT261113C00131000",
@@ -36,7 +36,7 @@
         "peak": 0.26,
         "qty": 17,
         "last": 0.01,
-        "last_time": "2026-11-12T10:32:41-05:00"
+        "last_time": "2026-11-12T11:03:04-05:00"
       }
     },
     "catalyst_intraday_hero@2026-11-09": {
@@ -50,8 +50,8 @@
         "entry_price": 4.23,
         "peak": 5.27,
         "qty": 1,
-        "last": 3.32,
-        "last_time": "2026-11-12T10:32:41-05:00"
+        "last": 2.77,
+        "last_time": "2026-11-12T11:03:04-05:00"
       }
     },
     "catalyst_open_hero@2026-11-10": {
@@ -65,8 +65,8 @@
         "entry_price": 1.01,
         "peak": 7.13,
         "qty": 4,
-        "last": 1.65,
-        "last_time": "2026-11-12T10:32:41-05:00"
+        "last": 2.71,
+        "last_time": "2026-11-12T11:03:04-05:00"
       }
     },
     "claude_bias": {},
@@ -89,10 +89,10 @@
         "direction": "call",
         "entry_time": "2026-11-12T09:37:26-05:00",
         "entry_price": 1.65,
-        "peak": 2.22,
+        "peak": 2.91,
         "qty": 2,
-        "last": 0.39,
-        "last_time": "2026-11-12T10:32:41-05:00"
+        "last": 1.9,
+        "last_time": "2026-11-12T11:03:04-05:00"
       }
     },
     "catalyst_intraday": {
@@ -105,8 +105,8 @@
         "entry_price": 0.65,
         "peak": 0.78,
         "qty": 1,
-        "last": 0.41,
-        "last_time": "2026-11-12T10:32:41-05:00"
+        "last": 0.33,
+        "last_time": "2026-11-12T11:03:04-05:00"
       }
     },
     "catalyst_intraday_hero": {
@@ -119,8 +119,8 @@
         "entry_price": 1.49,
         "peak": 1.76,
         "qty": 2,
-        "last": 0.98,
-        "last_time": "2026-11-12T10:32:41-05:00"
+        "last": 0.96,
+        "last_time": "2026-11-12T11:03:04-05:00"
       }
     },
     "spy_open_drive": {},
