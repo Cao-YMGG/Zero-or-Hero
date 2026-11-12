@@ -1,0 +1,150 @@
+{
+ "date": "2026-11-12",
+ "picks": [
+  {
+   "time": "10:19",
+   "symbol": "AVGO",
+   "direction": "call",
+   "confidence": 0.35,
+   "catalyst": "The other side of the day's headline, in session: at 09:32 NVIDIA announced Jensen Huang's resignation as CEO and board member, Colette Kress interim CEO, a new board chair. NVDA opened -13% (150.99) and is bouncing +8% from that open on the resolution; the money that left NVDA this week went to the custom-silicon alternative: AVGO 364.13 at 10:16, +5.5% on the day and +2.1% from its 356.72 open while SPY is -0.4% on the day (+0.4% from open) and SMH -1.9% / +2.4%. Leader rule: a mega cap >= 2% beyond SPY on the day with the index red; still inside the 3% line from its open; chips are 'neutral' in THEMES today (the sympathy filter applies to turning themes only); AVGO reported in September (no window); same-day expiry not available on Thursday, the bot buys the nearest (Friday 11-13). 'AMD, Broadcom gain as investors rotate away from Nvidia' (06:51) is the thesis, the resignation makes it a decision rather than a rumor. Risks: it is a derivative of NVDA's story (if NVDA's relief rally keeps filling its gap, the rotation can reverse intraday: AVGO went +2.1% -> +0.4% -> +2.1% from its open in the first 45 minutes), AVGO is +6.1% on the week, and the AMD sniper of this morning is already -1.1% from its open (the wrong_if fired at 10:00). Shadow-only sample (catalyst_intraday real_risk 0; the hero shadow takes the full ledger).",
+   "catalyst_zh": "09:32 英伟达正式宣布黄仁勋辞去 CEO 和董事、CFO Kress 代理 CEO：悬念落地，英伟达开盘 -13% 后反弹 8%。这周从英伟达流出的钱去了定制芯片的替代者博通：博通当天 +5.5%、比开盘 +2.1%，而标普当天 -0.4%——是今天的领头羊，离开盘还没超过 3%。风险：它是英伟达故事的衍生品，如果英伟达的解脱式反弹继续补缺口，资金可能当天就转回去；早上的 AMD 狙击已经跌破开盘价。从 11-09 起盘中 pick 只记影子，买周五到期。"
+  }
+ ],
+ "check_1016": "10:17 ET: pick AVGO call 0.35 (above). The day's structure changed at 09:32: NVIDIA announced the CEO's resignation (Kress interim, a new chair), so the pre-market speculation became a decision and NVDA sold the rumor / bought the fact: open 150.99 (-13.1%), 161.8 at 10:00, 163.09 at 10:16 (+8.0% from open, -6.1% day; high 163.50). SPY 753.93 open (-0.78% gap) -> 756.94 (+0.40% from open, -0.38% day; 10:00 756.70 = +0.37%, so spy_open_drive did not fire), QQQ +0.85% from open (-0.6% day), SMH 485.37 -> 497.06 (+2.4% from open, -1.9% day), IWM -0.7% from open (-1.3% day), TLT -0.5%, VIXY -0.5% from open (+2.8% day), XLF -0.6%, XLV -1.0%, XLP -0.6% from open: the defensives that led pre-market gave it back as the gap filled. From the open: CRWV +8.6% (-9.2% day), NVDA +8.0%, DELL +5.5% (-6.1% day), NBIS +4.8% (-18.7% day after its print), ARM +4.1%, SMCI +3.6%, MRVL +3.1%, GEV +3.0%, TSM +2.5%, AVGO +2.1% (+5.5% day, the pick), TSLA +1.65%, ORCL +1.65%, AMZN +1.2%; laggards AMD -1.1% from open (+1.7% day; the sniper: 10:00 564.51 vs 568.37 open, wrong_if fired; catalyst_open found nothing within $92 at 0.10 delta on a $568 stock with a Friday expiry, the hero holds 617.5C x2 at 1.65 -> 0.66, peak 2.22), UNH -1.0%, XLV -1.0%, LLY -0.7% (China pill approval faded from +1.8% pre-market), META -0.6%, AAPL -0.3%. leader_follow bought NVDA 11-13 175C x1 at 0.56 (09:46), 0.48 at 10:16 (peak 0.75). No real orders. OpenAI raised $15B at $1.25T (09:51). Claims 200K vs 195K. Webull unauthorized: tape from Alpaca IEX minute bars, movers by hand.",
+ "conditional_1121": "Put mirror: not armed (SMH +2.4% above its 485.37 open; every chip above its open after NVDA's relief bounce). It arms only if SMH loses 485.37 by 11:21; the name would be the weakest chip below its own open (NVDA cannot be it, it is beyond the 3% line both ways; INTC +0.8% and MU +0.8% from their opens are the thinnest). Call side: the one entry is spent on AVGO at 10:19; 11:21 judges it (wrong if AVGO is back below 356.72, its open, or if NVDA's relief rally takes SMH leadership back so that AVGO is red from its open while NVDA is +10%). If SPY loses 753.93 (its open) with the 30Y auction at 13:00 ahead, the gap-fill morning was the whole bounce.",
+ "structure": {
+  "SPY": {
+   "open": 753.93,
+   "prior_close": 759.81,
+   "p1000": 756.7,
+   "p1016": 756.94,
+   "high": 758.84,
+   "low": 753.74,
+   "state": "-0.78% gap half filled: +0.40% from open; 10:00 +0.37% (spy_open_drive no)"
+  },
+  "QQQ": {
+   "open": 680.26,
+   "prior_close": 690.38,
+   "p1016": 686.02,
+   "high": 688.4,
+   "low": 680.0,
+   "state": "+0.85% from open, -0.6% day"
+  },
+  "SMH": {
+   "open": 485.37,
+   "prior_close": 506.96,
+   "p1016": 497.06,
+   "high": 500.42,
+   "low": 484.96,
+   "state": "+2.4% from open on NVDA's relief bounce, -1.9% day; mirror not armed"
+  },
+  "NVDA": {
+   "open": 150.99,
+   "prior_close": 173.73,
+   "p1000": 161.81,
+   "p1016": 163.09,
+   "high": 163.5,
+   "low": 148.8,
+   "state": "CEO resignation announced 09:32: -13% open, +8% from open (buy the fact), -6.1% day"
+  },
+  "AMD": {
+   "open": 568.37,
+   "prior_close": 552.9,
+   "p1000": 564.51,
+   "p1016": 562.26,
+   "high": 578.4,
+   "low": 555.05,
+   "state": "sniper: -1.1% from open (+1.7% day), wrong_if fired at 10:00; hero 617.5C 1.65 -> 0.66"
+  },
+  "AVGO": {
+   "open": 356.72,
+   "prior_close": 345.22,
+   "p1000": 361.32,
+   "p1016": 364.13,
+   "high": 365.6,
+   "low": 354.88,
+   "state": "the pick: +2.1% from open, +5.5% day, leader"
+  },
+  "TSLA": {
+   "open": 386.02,
+   "prior_close": 390.84,
+   "p1016": 392.39,
+   "high": 395.94,
+   "low": 385.41,
+   "state": "+1.65% from open; stock_open_drive off on Thursday"
+  },
+  "LLY": {
+   "open": 1451.04,
+   "prior_close": 1437.29,
+   "p1016": 1441.53,
+   "high": 1455.18,
+   "low": 1434.11,
+   "state": "China approval gap +1.0% sold to -0.7% from open"
+  }
+ },
+ "opportunities": [
+  {
+   "type": "company_news",
+   "symbol": "AVGO",
+   "direction": "call",
+   "time": "10:19",
+   "action": "shadow",
+   "why": "Pick (see picks): the other side of NVIDIA's 09:32 CEO resignation; +5.5% day / +2.1% from open with SPY red; leader rule; shadow-only.",
+   "why_zh": "Pick（见上）：英伟达 09:32 宣布 CEO 辞职的另一面——定制芯片替代者博通当天 +5.5%、比开盘 +2.1%，标普红；领头羊规则；只记影子。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "NVDA",
+   "direction": "call",
+   "time": "10:16",
+   "action": "none",
+   "why": "In-session own catalyst (the resignation ends the rumor phase) and the tape agrees, but +8.0% from its open by 10:16 after a -13% open: beyond the 3% line, the 11-02 AMZN pattern (pick at the top of the first leg). Reports 11-17. Logged; the relief rally is today's story.",
+   "why_zh": "英伟达：09:32 正式宣布辞职，悬念落地、开盘 -13% 后反弹 8%，是公司自己的催化剂、走势也配合，但到 10:16 已比开盘 +8%，远超 3% 的线（11-02 亚马逊就是选在第一波的顶上）。11-17 财报。只记录。"
+  },
+  {
+   "type": "sympathy",
+   "symbol": "TSM",
+   "direction": "call",
+   "time": "10:16",
+   "action": "none",
+   "why": "+2.5% from open (-2.2% day) with NVDA's bounce, no news of its own after Tuesday's sales/Anthropic items: a bounce, logged.",
+   "why_zh": "台积电跟英伟达反弹，比开盘 +2.5%（当天 -2.2%），自己没有新消息：反弹，只记录。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "DELL",
+   "direction": "call",
+   "time": "10:16",
+   "action": "none",
+   "why": "+5.5% from open after a -6% gap (Nvidia-chain de-risking reversed at the open); not in our mega-cap universe, 0.2-delta weeklies thin; logged with CRWV +8.6% and NBIS +4.8% from their opens.",
+   "why_zh": "戴尔低开 6% 后比开盘 +5.5%（英伟达链的去风险在开盘后反转），不在我们的大盘股范围里；CoreWeave +8.6%、Nebius +4.8% 同理，只记录。"
+  },
+  {
+   "type": "analyst",
+   "symbol": "AMD",
+   "direction": "call",
+   "time": "10:16",
+   "action": "none",
+   "why": "The morning sniper (William Blair upgrade): opened +2.8% (568.37), 10:00 564.51 below its open -> wrong_if fired; RBC reiterated Sector Perform $540 at 09:54; catalyst_open booked nothing (no contract within $92 at delta >= 0.06 on a $568 stock, Friday expiry), the hero holds 617.5C x2 1.65 -> 0.66. The 'other side of NVDA' money chose AVGO over AMD once the resignation was official.",
+   "why_zh": "早上的 AMD 狙击：高开 2.8% 后 10:00 跌破开盘价，判错；RBC 09:54 维持中性 540；$92 影子在 568 美元的股票上买不到 0.06 delta 以上的合约，hero 两张 617.5 看涨 1.65 → 0.66。辞职落地后，「英伟达的另一面」的钱选了博通不是 AMD。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "LLY",
+   "direction": "call",
+   "time": "10:16",
+   "action": "none",
+   "why": "China approval gap (+1.0% open) sold to -0.7% from open; health -1.0% from open with the defensives: the day-one catalyst did not hold; above $1,000 anyway.",
+   "why_zh": "礼来：中国获批的高开 1% 被卖到比开盘 -0.7%，医疗板块随防守股回落；股价过千本来也只能记样本。只记录。"
+  },
+  {
+   "type": "relative_weakness",
+   "symbol": "UNH",
+   "direction": "put",
+   "time": "10:16",
+   "action": "none",
+   "why": "-1.0% from open, XLV -1.0%: the pre-market defensives bid unwinding as the gap fills; no own news; logged.",
+   "why_zh": "联合健康比开盘 -1.0%，医疗 ETF 同样：盘前的防守盘在缺口回补时退潮；没有自己的消息，只记录。"
+  }
+ ]
+}
