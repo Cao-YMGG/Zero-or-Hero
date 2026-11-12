@@ -1,0 +1,178 @@
+{
+ "date": "2026-11-12",
+ "bias": "none",
+ "confidence": 0.3,
+ "p_up": 0.5,
+ "summary": "The Nvidia governance story takes over: the board is meeting on Jensen Huang's future (WSJ), weighs CFO Colette Kress as interim CEO (06:40 report), has hired an outside firm for a replacement search (24/7 Wall St.), after the NYT reported a second affair (with the company's healthcare head); four downgrades before the open (Oppenheimer to Perform 04:42, Evercore to In-Line $186 06:17, Bernstein to Market Perform $200 07:06, KeyBanc to Sector Weight 07:39; Cantor keeps Overweight at $250; William Blair also to Market Perform). Pre-market 07:42 ET (Yahoo quotes vs Wednesday's close; Webull is not authorized, Alpaca IEX prints nothing before 08:00): SPY 756.58 (-0.43%), QQQ 683.72 (-0.97%), SMH 492.30 (-2.9%), NVDA 160.02 (-7.9%, below the $164 floor that held twice in 14 months), AMD 565.00 (+2.2%), TSLA 387.82 (-0.8%), MSFT 520.50 (-0.1%), NBIS 139.88 (-9.6%, reported this morning), CRWV 54.73 (-9.9%), MSTR -5.3% (MSCI removal). Futures 07:39: S&P -0.42%, Nasdaq-100 -0.91%, Dow +0.04%, Russell -0.14%. The other side of the headline: 'AMD, Broadcom gain as investors rotate away from Nvidia' (06:51); William Blair upgrades AMD to Outperform (06:31/07:25). Rates: cash Treasuries reopen after Veterans Day with the 10Y 4.99-5.00% (+1-2 bp), 2Y 4.76% (+3 bp); December hike 82-91% priced; 30Y auction 13:00; jobless claims 08:30 (consensus ~194-195K vs 189K). Oil: WTI 85.80 (-0.8%), Brent under $93 after Wednesday's drop; VIX 18.28 (+4.5%); dollar index ~102.9 (morning note, unconfirmed). Wednesday: SPY +0.40% open to close (+1.32% day, 759.81), QQQ +0.45% (+2.31%), SMH +0.39% (+4.82%), breadth good (XLP +1.0%, XLF +0.9%, XLV +0.8% open to close), MSFT -2.45% and META -2.8% / AMZN -2.7% open to close the losers. Today's earnings: NBIS pre-market (-9.6%), CSCO and AMAT after the close; NVDA reports 11-17 (3 trading days). Call: none, p_up 0.52 for the close above the open. The gap is one stock's governance shock (-8% on an 8% Nasdaq-100 weight) with the rest of the tape flat to slightly up (Dow +0.04%, Russell -0.1%, AMD/AVGO bid): 11-09 was the same shape (NVDA -7% gap, SPY ran +1.45% open to close) and 11-10 the opposite (hot CPI, SPY +0.26%). A -0.4% gap into a claims print and a 30Y auction with the 10Y at 5% is a coin flip from the open; neither 0.60 nor 0.40 is reachable before the 08:30 print. 08:31 re-read (Yahoo quotes 08:31 and Alpaca IEX prints 08:2x-08:31 vs Wednesday's close): the gap widened and broadened: SPY 754.29 (-0.73%; IEX 753.81, -0.79%), QQQ 681.51 (-1.3%), IWM 280.91 (-0.8%), SMH 489.94 (-3.4%); futures S&P -0.69%, Nasdaq-100 -1.3%, Dow -0.35%. NVDA 158.56 (-8.7%), MU 770.76 (-5.0%), INTC 60.19 (-3.7%), TSM 399.74 (-3.3%), CRWV 54.37 (-10.5%), NBIS -17%, TSLA 385.86 (-1.3%), GOOGL -0.8%, AMZN -0.65%, MSFT 518.96 (-0.4%); AMD 560.00 (+1.3%; IEX 556.61, +0.7%, paring the 07:42 +2.2%), AVGO 346.79 (+0.45%), LLY 1462.60 (+1.8%). The NVDA shock is spreading into the chip group (the other Claude's 'chips -12% from the 20-day high and SPY flat over five days' condition fires this morning), so p_up goes to 0.50 and the AMD sniper's confidence to 0.30: AMD is still green while SMH is -3.4%, but the gate at the open (AMD at or above its open 09:31-10:00, SMH not 1.5% below its open) decides. 08:30 print (read 08:34): initial jobless claims 200K vs 195K expected and 189K prior (a nine-month... the lowest since 1969 last week), a small miss that eases the hike story at the margin; futures did not change on it (the NVDA story dominates).",
+ "reasons": [
+  "Pre-market 07:42 ET (Yahoo quotes vs Wednesday's close; Webull is not authorized, Alpaca IEX prints nothing before 08:00): SPY 756.58 (-0.43%), QQQ 683.72 (-0.97%), SMH 492.30 (-2.9%), NVDA 160.02 (-7.9%, below the $164 floor that held twice in 14 months), AMD 565.00 (+2.2%), TSLA 387.82 (-0.8%), MSFT 520.50 (-0.1%), NBIS 139.88 (-9.6%, reported this morning), CRWV 54.73 (-9.9%), MSTR -5.3% (MSCI removal). Futures 07:39: S&P -0.42%, Nasdaq-100 -0.91%, Dow +0.04%, Russell -0.14%.",
+  "08:31 re-read (Yahoo quotes 08:31 and Alpaca IEX prints 08:2x-08:31 vs Wednesday's close): the gap widened and broadened: SPY 754.29 (-0.73%; IEX 753.81, -0.79%), QQQ 681.51 (-1.3%), IWM 280.91 (-0.8%), SMH 489.94 (-3.4%); futures S&P -0.69%, Nasdaq-100 -1.3%, Dow -0.35%. NVDA 158.56 (-8.7%), MU 770.76 (-5.0%), INTC 60.19 (-3.7%), TSM 399.74 (-3.3%), CRWV 54.37 (-10.5%), NBIS -17%, TSLA 385.86 (-1.3%), GOOGL -0.8%, AMZN -0.65%, MSFT 518.96 (-0.4%); AMD 560.00 (+1.3%; IEX 556.61, +0.7%, paring the 07:42 +2.2%), AVGO 346.79 (+0.45%), LLY 1462.60 (+1.8%). The NVDA shock is spreading into the chip group (the other Claude's 'chips -12% from the 20-day high and SPY flat over five days' condition fires this morning), so p_up goes to 0.50 and the AMD sniper's confidence to 0.30: AMD is still green while SMH is -3.4%, but the gate at the open (AMD at or above its open 09:31-10:00, SMH not 1.5% below its open) decides. 08:30 print (read 08:34): initial jobless claims 200K vs 195K expected and 189K prior (a nine-month... the lowest since 1969 last week), a small miss that eases the hike story at the margin; futures did not change on it (the NVDA story dominates).",
+  "Night session: not read (Webull unauthorized). Overnight: Asia and Europe not detailed in the sources found before 08:00 (Stoxx 600 hit another record Wednesday per one wire); Nasdaq futures -0.9% is NVDA's weight.",
+  "NVDA: WSJ: the board meets on whether to oust Jensen Huang; NYT: a second affair with a senior executive; report 06:40: the board weighs CFO Colette Kress as interim CEO; 24/7 Wall St.: an outside firm hired for the replacement search; Kobeissi: 'do not fire Jensen Huang'. Downgrades: Oppenheimer (04:42), Evercore ISI ($186, 06:17), Bernstein ($200 from $400, 07:06), KeyBanc (07:39), William Blair; Cantor Overweight $250; Morgan Stanley reiterated Overweight $300 Wednesday. -7.9% pre-market to 160, below the 164 floor; reports 11-17. ANALYST.md: downgrades do not carry on average, but five in one morning on a governance event is a different animal; no pick either way (a put needs a SPY put day; the bounce side has no own catalyst). nvda_gapdown_put and rebound_scanner do not scan on Thursdays (no same-day NVDA expiry, SUNDAY_TESTS 46): the biggest NVDA gap-down of the month falls on a silent day for both.",
+  "AMD: William Blair upgrades to Outperform from Market Perform (06:31 Benzinga, repeated 07:25; the dailytradealert roundup lists it; Yahoo's rating table shows it dated 11-12; the note's text not found) plus the rotation 'away from Nvidia' into AMD and AVGO (06:51), Supermicro's 6th-gen EPYC servers (07:31), Lisa Su named Yahoo's CEO of the year. +2.2% pre-market (565.00) after +7.3% Wednesday and +13% on the week. DOSSIER_AMD: Thursday has no same-day options (nearest expiry Friday 11-13); an up gap >= 2% continues 64% but 09:45 calls lost on average (the gap is spent on arrival); its biggest days are CPU/Intel days. Chips are 'neutral' in THEMES today (REL_STRONG heat flag), no longer turning, so the theme filter does not block it; reported 11-03 (7 trading days ago). Sniper at 0.35: an upgrade of its own plus the other side of the day's biggest story, small gap.",
+  "AVGO: +? pre-market on the same rotation, no own news: sympathy, logged. MU/INTC lower pre-market (NVDA drag). SMH -2.9%: the ETF's NVDA weight; AMD/AVGO/TSM diverge from it (THEMES chips DIVERGE flag).",
+  "LLY: China approves the oral weight-loss pill (06:32): own catalyst, day one; a stock above $1,000 is a shadow sample only (11-09: nothing affordable at the 0.06-delta floor); health theme neutral with BREADTH_UP; LLY +23% on the month, +1.35% open to close Wednesday. Logged as the alternative; AMD preferred (liquid, under $700, the day's story).",
+  "MSFT -0.1% pre-market after -2.45% open to close Wednesday (the 10:19 put pick: stock right, same-day 515P -100% for the hero, +10% for the trail leg); internet theme now 'turning' in THEMES (DIVERGE, BREADTH, PERIPH: MSFT -6.2% 1w, META -2.8% and AMZN -2.7% open to close Wednesday). No new negative this morning: a day-four put needs fresh news; logged.",
+  "TSLA -0.8% (Musk: hiring Huang 'would be an honor'; robotaxi 24/7 statement); stock_open_drive does not run on Thursday (Mon/Wed). CRWV -9.9% and NBIS -9.6% pre-market: the neocloud leg of Wednesday's rally gives back on NBIS's print and the NVDA shock.",
+  "Rotation (Alpaca daily bars to 11-11, 1w / 1m): CPU +8.8% / -22.8% (AMD +13.1%, INTC +7.3%, ARM +6.0% on the week), optical +6.1% / -30.2%, custom/foundry +5.4% / -15.9% (AVGO +6.1%, MRVL +5.6%, TSM +4.4%), power +4.0% / -18.6% (VST +10.9%), industrials +2.2% / -3.1% (GE +4.0%); GPU -13.2% / -24.0% (NVDA), memory -1.9% / -24.5%, disk -2.1% / -21.9%, internet -0.6% / -6.3% (MSFT -6.2%, META -0.2%, AMZN +0.1%, AAPL +1.8%, GOOGL +1.6%), banks -1.4% / +2.1%, energy -1.1% / -4.0%, health -0.2% / +13.7%, consumer -0.3% / +12.4%; SPY -0.9% / -2.3%, QQQ -0.2% / -7.2%, SMH +0.5% / -13.8%, IWM -0.3% / +2.3%. THEMES (--today, bars to 11-11): chips neutral (DIVERGE + BREADTH turn flags, REL_STRONG heat) after a week turning; internet turning (DIVERGE, BREADTH, PERIPH); software neutral; industrials heating (AT_HIGH, BREADTH_UP, PERIPH_UP); power and optical neutral with REL_STRONG + PERIPH_UP; banks, health, consumer neutral with BREADTH_UP; energy neutral.",
+  "Wednesday's scorecard (11-11, the review is written this morning after the session died at 13:16): SPY none 0.53 -> +0.40% open to close (ok); sniper AAPL call right on the stock (+1.74% open to close) but the 0.10-delta same-day 357.5C went 0.24 -> 0 (hero -$408) and the $92 leg trailed out at 0.23 (-4%); MSFT put pick right on the stock (-2.45%) and the hero 515P went to 0 (-$372) while the $92 leg trailed out +10%; the first live ledger trade, stock_open_drive TSLA 392.5C real 1.69 -> peak 3.73 (10:56) -> 0.09 at 15:45 (-$160; TSLA +1.10% open to close, closed 390.84 under the 392.5 strike): direction right, no trail on the open-drive variants, the ledger $493 -> $333. Predictions 2 of 3 (INTC closed +1.35% above its open: wrong).",
+  "Mechanical rules today (Thursday, claims day is not a 'non_event' day in config, not opex week): spy_open_drive / spy_open_drive_put at 10:00 (SPY +/-0.5% from its open), leader_follow 09:45, catalyst_open (AMD, shadow $92) and catalyst_open_hero (AMD, full ledger), catalyst_intraday at the check-ins. Not today: stock_open_drive (Mon/Wed), meta_follow2 (Mon/Wed/Fri), nvda_gapdown_put and rebound_scanner (no same-day NVDA expiry on Thursday).",
+  "Operations: yesterday's scheduled Trade run 84 ended 'failure' at the run level with no failed job and run 85 sat 'queued' with no jobs for 16 hours (GitHub's queue); run 85 was cancelled at 07:5x so this morning's dispatch at 08:31 is not blocked. The 13:16 check-in, the 16:35 review and the 17:10 exchange of 11-11 did not run (the session's worker died at 13:16); they are written this morning after the bias.",
+  "Dossiers: AMD (Thursday no same-day expiry, up gap spent on arrival: the sniper buys the Friday 11-13 ~0.10-delta call only while AMD holds its open 09:31-10:00); META (nothing of its own: UK fine, green steel, Nevoya; internet turning)."
+ ],
+ "events": [
+  "08:30 ET initial jobless claims: 200K vs 195K expected (189K prior)",
+  "13:00 ET 30-year bond auction (Tuesday's 10Y auction tailed with the weakest demand since June); cash Treasuries reopen after Veterans Day",
+  "Earnings: NBIS pre-market (-9.6%), CSCO and AMAT after the close; NVDA 11-17",
+  "NVDA board meeting on the CEO (WSJ); interim-CEO report (Kress); five downgrades this morning",
+  "Friday: October PPI"
+ ],
+ "inputs": {
+  "es_futures_pct": -0.69,
+  "nq_futures_pct": -1.3,
+  "vix": 18.3,
+  "wti_pct": -0.8,
+  "brent": 92.8,
+  "us10y": 4.998,
+  "us10y_change_bp": 1,
+  "us2y": 4.76,
+  "us2y_change_bp": 3,
+  "dxy_pct": null,
+  "vixy_pct": null,
+  "overnight": "Pre-market 07:42 ET (Yahoo quotes vs Wednesday's close; Webull is not authorized, Alpaca IEX prints nothing before 08:00): SPY 756.58 (-0.43%), QQQ 683.72 (-0.97%), SMH 492.30 (-2.9%), NVDA 160.02 (-7.9%, below the $164 floor that held twice in 14 months), AMD 565.00 (+2.2%), TSLA 387.82 (-0.8%), MSFT 520.50 (-0.1%), NBIS 139.88 (-9.6%, reported this morning), CRWV 54.73 (-9.9%), MSTR -5.3% (MSCI removal). Futures 07:39: S&P -0.42%, Nasdaq-100 -0.91%, Dow +0.04%, Russell -0.14%. Sources: Yahoo quote pages and live blog, Benzinga via Alpaca news, dailytradealert, CNBC; Webull unauthorized. 08:31 re-read (Yahoo quotes 08:31 and Alpaca IEX prints 08:2x-08:31 vs Wednesday's close): the gap widened and broadened: SPY 754.29 (-0.73%; IEX 753.81, -0.79%), QQQ 681.51 (-1.3%), IWM 280.91 (-0.8%), SMH 489.94 (-3.4%); futures S&P -0.69%, Nasdaq-100 -1.3%, Dow -0.35%. NVDA 158.56 (-8.7%), MU 770.76 (-5.0%), INTC 60.19 (-3.7%), TSM 399.74 (-3.3%), CRWV 54.37 (-10.5%), NBIS -17%, TSLA 385.86 (-1.3%), GOOGL -0.8%, AMZN -0.65%, MSFT 518.96 (-0.4%); AMD 560.00 (+1.3%; IEX 556.61, +0.7%, paring the 07:42 +2.2%), AVGO 346.79 (+0.45%), LLY 1462.60 (+1.8%). The NVDA shock is spreading into the chip group (the other Claude's 'chips -12% from the 20-day high and SPY flat over five days' condition fires this morning), so p_up goes to 0.50 and the AMD sniper's confidence to 0.30: AMD is still green while SMH is -3.4%, but the gate at the open (AMD at or above its open 09:31-10:00, SMH not 1.5% below its open) decides. 08:30 print (read 08:34): initial jobless claims 200K vs 195K expected and 189K prior (a nine-month... the lowest since 1969 last week), a small miss that eases the hike story at the margin; futures did not change on it (the NVDA story dominates)."
+ },
+ "rotation": {
+  "heating": [
+   "CPU: +8.8% 1w (AMD +13.1%, INTC +7.3%, ARM +6.0%), -22.8% 1m; AMD +2.2% pre-market on the William Blair upgrade and the rotation away from NVDA",
+   "custom/foundry: +5.4% 1w (AVGO +6.1%, MRVL +5.6%, TSM +4.4%), -15.9% 1m; AVGO bid pre-market as the NVDA alternative",
+   "optical: +6.1% 1w (CIEN +8.7%, LITE +3.4%), -30.2% 1m; THEMES neutral with REL_STRONG + PERIPH_UP",
+   "power: +4.0% 1w (VST +10.9%, GEV -3.0%), -18.6% 1m; THEMES neutral with REL_STRONG + PERIPH_UP",
+   "industrials: +2.2% 1w (GE +4.0%, CAT +1.7%), THEMES heating (AT_HIGH, BREADTH_UP, PERIPH_UP)",
+   "health / consumer: flat on the week, +13.7% / +12.4% on the month; XLP +1.0%, XLV +0.8% open to close Wednesday; LLY's China pill approval today"
+  ],
+  "cooling": [
+   "GPU: NVDA -13.2% 1w / -24.0% 1m before today's -7.9% pre-market; the governance story is the market's only subject this morning",
+   "internet: THEMES turning (DIVERGE, BREADTH, PERIPH): MSFT -6.2% 1w (Anthropic's Office tools), META -2.8% and AMZN -2.7% open to close Wednesday; AAPL +1.8% and GOOGL +1.6% the exceptions",
+   "memory / disk: -1.9% / -2.1% 1w after Wednesday's +12% MU bounce; MU and INTC lower pre-market with NVDA",
+   "banks: -1.4% 1w (JPM -2.5%), +2.1% 1m; energy -1.1% / -4.0%; neocloud leg (CRWV -9.9%, NBIS -9.6% pre-market) gives back Wednesday's +25%"
+  ],
+  "theme_state": {
+   "turning": [
+    "internet"
+   ],
+   "heating": [
+    "industrials"
+   ],
+   "neutral": [
+    "chips",
+    "software",
+    "banks",
+    "health",
+    "energy",
+    "consumer",
+    "power",
+    "optical"
+   ],
+   "source": "python -m zoh.research.themes --today, bars to 2026-11-11 (chips: DIVERGE + BREADTH turn flags with REL_STRONG; internet: DIVERGE, BREADTH, PERIPH; power and optical REL_STRONG + PERIPH_UP; banks/health/consumer BREADTH_UP)",
+   "filter": "internet turning: no bounce-buying or sympathy calls on META/AMZN/MSFT today (a name with a same-day catalyst of its own may be picked). Chips back to neutral: the AMD sniper is an own-catalyst pick (upgrade) inside a theme whose ETF gaps -2.9% on one name; the put mirror still applies if SMH is below its open at 11:00 with the weakest chip below its open (NVDA is beyond the 3% line already)."
+  },
+  "events": "Claims at 08:30 and the 30Y at 13:00 are the rate waves; the NVDA board decision could land intraday (an announced interim CEO or a vote of confidence would move NVDA 5% either way and SMH with it). AMD/AVGO vs NVDA is the day's pair."
+ },
+ "sniper": {
+  "symbol": "AMD",
+  "direction": "call",
+  "confidence": 0.3,
+  "catalyst": "Own news from the last day: William Blair upgrades AMD to Outperform from Market Perform (06:31 ET, Benzinga via Alpaca, repeated 07:25; the dailytradealert roundup and Yahoo's rating table list it for 11-12), on top of the other side of the day's biggest headline: 'AMD, Broadcom gain as investors rotate away from Nvidia' (06:51) as NVDA gaps -7.9% on the board's CEO deliberations and five downgrades. Small gap: +2.2% pre-market (565.00 vs 552.90) while SMH is -2.9% and QQQ -1.0%. Chips are neutral in THEMES today (not turning), AMD reported 11-03 (no report window), Thursday has no same-day expiry so catalyst_open buys the Friday 11-13 ~0.10-delta call; shadow-only (real_risk 0 since 11-09; the hero shadow takes the full ledger). Risks: AMD is +13% on the week and +7.3% Wednesday (DOSSIER_AMD: an up gap is usually spent on arrival, 09:45 calls lost -40%/trade historically), the NVDA shock could turn into sector de-risking (AI-chain correlation 0.83 over 10 days) and a claims miss at 08:30 hits long duration first. Confidence 0.35, not higher, for the extension. 08:31: AMD 560.00 (+1.3%, IEX 556.61) with SMH -3.4% and NVDA -8.7%: still the only green large chip with AVGO, confidence trimmed to 0.30 for the sector de-risking.",
+  "wrong_if": "AMD below its open at 10:00, or SMH more than 1.5% below its own open at 10:00 with AMD red on the day"
+ },
+ "opportunities": [
+  {
+   "type": "analyst",
+   "symbol": "AMD",
+   "direction": "call",
+   "time": "09:31",
+   "action": "shadow",
+   "why": "Sniper (see sniper): William Blair upgrade to Outperform + the rotation away from NVDA; +2.2% pre-market; shadow-only; Friday expiry. 08:31: +1.3% with SMH -3.4%; confidence 0.30.",
+   "why_zh": "狙击（见上）：William Blair 把 AMD 上调到跑赢大市，加上「资金从英伟达转向 AMD、博通」；盘前 +2.2%。只记影子，买周五到期。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "NVDA",
+   "direction": "put",
+   "time": "09:31",
+   "action": "none",
+   "why": "Board meeting on the CEO, interim-CEO report, five downgrades, -7.9% pre-market below the 164 floor: a put needs a SPY put day and the gap is already 8%; a call has no own catalyst. nvda_gapdown_put does not scan on Thursday. Logged both ways.",
+   "why_zh": "英伟达：董事会讨论 CEO 去留、传 CFO 代理、五家下调评级，盘前 -7.9% 跌破 164 的地板。看跌要大盘看跌日且缺口已 8%；看涨没有自己的利好。机器人的英伟达低开看跌周四不扫。只记录。"
+  },
+  {
+   "type": "sympathy",
+   "symbol": "AVGO",
+   "direction": "call",
+   "time": "09:31",
+   "action": "none",
+   "why": "Bid pre-market as the NVDA alternative (06:51 headline) with no news of its own: sympathy, not a catalyst; the leader rule may apply at 10:16 if it leads from its open.",
+   "why_zh": "博通盘前跟着「英伟达替代」被买，自己没有消息：同情盘不是催化剂；10:16 若从开盘领涨再按领头羊规则看。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "LLY",
+   "direction": "call",
+   "time": "09:31",
+   "action": "none",
+   "why": "China approves the oral weight-loss pill (06:32): own catalyst, day one, health theme neutral; above $1,000 so a shadow sample only (11-09: nothing affordable at the delta floor). AMD preferred.",
+   "why_zh": "礼来：口服减肥药在中国获批（06:32），自己的催化剂、第一天；股价过千只能记影子样本（11-09 的礼来 pick $92 买不到合约）。今天选了 AMD。"
+  },
+  {
+   "type": "sell_the_news",
+   "symbol": "CRWV",
+   "direction": "put",
+   "time": "09:31",
+   "action": "none",
+   "why": "-9.9% pre-market with NBIS -9.6% after its print: the neocloud leg of Wednesday's +25% unwinds; not a mega cap, gap too big; logged.",
+   "why_zh": "CoreWeave 盘前 -9.9%、Nebius 财报后 -9.6%：昨天 +25% 的新云一腿在回吐；不是大盘股、缺口太大，只记录。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "MSFT",
+   "direction": "put",
+   "time": "09:31",
+   "action": "none",
+   "why": "Day four of the Anthropic Office-tools story, -0.1% pre-market after -2.45% open to close Wednesday; internet theme turning; no fresh negative: logged, a put mirror candidate again only with new news.",
+   "why_zh": "微软：Anthropic 办公工具故事的第四天，盘前 -0.1%，昨天开到收 -2.45%；互联网主题转向；没有新的负面，只记录。"
+  },
+  {
+   "type": "relative_weakness",
+   "symbol": "SMH",
+   "direction": "put",
+   "time": "11:00",
+   "action": "none",
+   "why": "Mirror conditional: SMH gaps -2.9% on NVDA; arms only if SMH is below its own open at 11:00 with the weakest chip below its open (NVDA is beyond the 3% line; MU/INTC/TSM are the candidates).",
+   "why_zh": "看跌镜像条件：半导体 ETF 因英伟达低开 2.9%；只有 11:00 它还在自己开盘价下、且最弱的芯片股也在开盘价下才触发（英伟达已超过 3% 的线，候选是美光 / 英特尔 / 台积电）。"
+  },
+  {
+   "type": "sector_move",
+   "symbol": "XLF",
+   "direction": "call",
+   "time": "09:31",
+   "action": "none",
+   "why": "Banks -1.4% on the week but XLF +0.9% open to close Wednesday; cash Treasuries reopen with the 10Y at 5% and a hike priced: no own news on JPM/GS; logged.",
+   "why_zh": "银行：一周 -1.4% 但昨天开到收 +0.9%，债市复市、10 年期 5%、加息已定价；摩根大通、高盛没有自己的消息，只记录。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "TSLA",
+   "direction": "call",
+   "time": "09:31",
+   "action": "none",
+   "why": "Musk: robotaxi runs 168 hours a week across all active cities (06:55); -0.8% pre-market; stock_open_drive does not run on Thursday; minor item, logged.",
+   "why_zh": "特斯拉：马斯克说 robotaxi 每周 168 小时运行（06:55），盘前 -0.8%；周四开盘跟随不跑；小消息，只记录。"
+  }
+ ],
+ "generated_at": "2026-11-12T08:34:05-05:00",
+ "zh": {
+  "summary": "英伟达的治理故事接管了早盘：华尔街日报说董事会在开会讨论黄仁勋的去留，有报道说 CFO Kress 可能代理 CEO、公司已请外部机构找接班人，纽约时报又报了第二段婚外情；开盘前五家下调评级（Oppenheimer、Evercore、Bernstein 目标价 200、KeyBanc、William Blair）。盘前 07:42（雅虎报价；Webull 没授权）：英伟达 -7.9% 跌破 164 的地板，纳指期货 -0.9%、标普 -0.4%、道指平，半导体 ETF -2.9%；另一边 AMD +2.2%（William Blair 上调到跑赢大市 + 「资金从英伟达转向 AMD、博通」）。利率：债市复市，10 年期 5.0%、2 年期 4.76%，12 月加息 82–91% 定价；08:30 初请（预期约 19.4 万）、13:00 三十年期拍卖。油 WTI 85.8（-0.8%），恐慌指数 18.3（+4.5%）。昨天标普开到收 +0.4%（当天 +1.3%），宽度好（必需消费、银行、医疗开到收都 +0.8% 到 +1%），输家是微软、Meta、亚马逊（开到收 -2.5% 到 -2.8%）。今晚思科、应用材料财报；英伟达 11-17。 08:31 再读：缺口变大也变宽——标普 ETF -0.75%、纳指 ETF -1.3%、罗素 -0.8%、半导体 ETF -3.4%，英伟达 -8.7%（158.6），美光 -5%、英特尔 -3.7%、台积电 -3.3%、CoreWeave -10.5%、Nebius -17%；AMD +1.3%（从 +2.2% 回落）、博通 +0.5%、礼来 +1.8% 还是绿的。初请 20.0 万（预期 19.5 万、前值 18.9 万），略偏弱，期货没反应。",
+  "spy": "不做。收在开盘价上的概率 50%（08:31 下调两个点：英伟达的冲击开始扩散到整条芯片线和小盘股）：缺口是一只股票的治理冲击（英伟达在纳指 100 里占 8%），其余盘面平到略涨（道指平、罗素 -0.1%、AMD 和博通被买），11-09 同样形状（英伟达低开 7%，标普开到收 +1.45%），11-10 相反（CPI 偏热）。-0.4% 的缺口撞上初请和 10 年期 5% 的三十年期拍卖，开到收是硬币；08:30 的数字出来前到不了 60% 或 40%。",
+  "sniper": "AMD 看涨，信心 0.30（08:31 从 0.35 下调：半导体 ETF -3.4% 时 AMD 只剩 +1.3%），只记影子。催化剂是它自己的：William Blair 今早把 AMD 从持平上调到跑赢大市（06:31，Benzinga；dailytradealert 和雅虎评级表都有），再加上今天最大新闻的另一面——「资金从英伟达转向 AMD、博通」。盘前 +2.2% 而半导体 ETF -2.9%、纳指 ETF -1.0%，缺口不大。芯片主题今天回到「中性」，不再是转向；AMD 11-03 已财报。周四没有当天到期，机器人 09:31–10:00 在 AMD 守住开盘价时买周五到期约 0.10 delta 的看涨（$92 影子），hero 全仓影子拿到收盘。风险：AMD 一周已涨 13%、昨天 +7.3%（档案说高开的 AMD 开盘买看涨历史上亏钱），英伟达的冲击可能变成整个板块去风险，初请偏弱先打久期。信心只给 0.35。没选的：英伟达两边（看跌要大盘看跌日、缺口已 8%；看涨没利好）、博通（同情盘）、礼来（中国批了口服减肥药，但股价过千只能记样本）、微软（第四天、没新消息）。",
+  "rotation": "一周看，钱回到 CPU（AMD +13%、英特尔 +7%、ARM +6%）、光模块 +6%、定制芯片 / 代工 +5%（博通、迈威尔、台积电）、电力 +4%、工业 +2%；流出的是英伟达（-13%）、存储和硬盘（-2%）、互联网（微软 -6%）、银行（-1%）。主题状态：芯片回到「中性」（一周前还是转向），互联网变成「转向」（微软、Meta、亚马逊昨天开到收都 -2.5% 到 -2.8%），工业「升温」，电力和光模块中性但相对强。今天盘前的分裂是「英伟达 对 其他芯片」：英伟达 -8%，AMD +2%、博通被买，半导体 ETF 被英伟达拖下 2.9%。"
+ }
+}
