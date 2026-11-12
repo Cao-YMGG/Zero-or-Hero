@@ -1,9 +1,13 @@
-# Headlines since 2026-11-11 16:00 ET (as of 2026-11-12 12:33 ET)
+# Headlines since 2026-11-11 16:00 ET (as of 2026-11-12 13:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-12 12:53 | NVDA | downgrade | Craig-Hallum Downgrades NVIDIA to Hold, Announces $180 Price Target |
+| 11-12 12:47 | NVDA | target down | B of A Securities Maintains Buy on NVIDIA, Lowers Price Target to $280 |
+| 11-12 12:41 | AMD | target up | B of A Securities Maintains Buy on Advanced Micro Devices, Raises Price Target to $700 |
+| 11-12 12:38 | INTC | target down | B of A Securities Maintains Neutral on Intel, Lowers Price Target to $80 |
 | 11-12 12:13 | AMD META NVDA | upgrade | AMD Stock Upgraded as AI Chip Rival Nvidia Spirals |
 | 11-12 11:53 | NVDA | target down | BMO Capital Maintains Outperform on NVIDIA, Lowers Price Target to $240 |
 | 11-12 11:52 | NVDA | rating | Baird Reiterates Neutral on NVIDIA, Maintains $200 Price Target |
@@ -33,6 +37,9 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-12 06:17 | NVDA | downgrade | Evercore ISI Group Downgrades NVIDIA to In-Line, Lowers Price Target to $186 |
 | 11-12 04:42 | NVDA | downgrade | Oppenheimer Downgrades NVIDIA to Perform |
 | 11-11 20:01 | MU | rating | Goldman Sachs Maintains Neutral Rating on Micron Technology |
+| 11-12 13:01 | MU |  | CNBC Halftime Report Final Trades: Micron Technology, Digital Realty Trust, Natera, Moody's |
+| 11-12 12:55 | RKLB |  | Rocket Lab’s Near-50% Rebound Is Defying a Wave of Price-Target Cuts |
+| 11-12 12:34 | AAPL GOOGL |  | Google Launches Gemini App On Apple Carplay For iOS Users |
 | 11-12 12:18 | META |  | Live On CNBC, Stephanie Link Announces Bought Meta Platforms |
 | 11-12 12:14 | NVDA |  | SpaceX Stock Rises Thursday on Speculation Huang Could Team Up With Musk |
 | 11-12 11:59 | NVDA |  | Signapore Announces Investigation Into Alice Huang, Megaspeed International |

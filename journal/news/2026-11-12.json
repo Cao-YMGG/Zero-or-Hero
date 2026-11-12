@@ -1,7 +1,78 @@
 {
- "as_of": "2026-11-12T12:33-05:00",
+ "as_of": "2026-11-12T13:16-05:00",
  "since": "2026-11-11T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-12 13:01",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "CNBC Halftime Report Final Trades: Micron Technology, Digital Realty Trust, Natera, Moody's",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/MCO"
+  },
+  {
+   "time": "11-12 12:55",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Rocket Lab\u2019s Near-50% Rebound Is Defying a Wave of Price-Target Cuts",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63209637/rocket-lab-stock-wall-street-cuts"
+  },
+  {
+   "time": "11-12 12:53",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "downgrade",
+   "headline": "Craig-Hallum Downgrades NVIDIA to Hold, Announces $180 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63209437/craig-hallum-downgrades-nvidia-hold-announces-180-price-target"
+  },
+  {
+   "time": "11-12 12:47",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "target down",
+   "headline": "B of A Securities Maintains Buy on NVIDIA, Lowers Price Target to $280",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63209090/b-securities-maintains-buy-nvidia-lowers-price-target-280"
+  },
+  {
+   "time": "11-12 12:41",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "target up",
+   "headline": "B of A Securities Maintains Buy on Advanced Micro Devices, Raises Price Target to $700",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63208691/b-securities-maintains-buy-advanced-micro-devices-raises-price-target-700"
+  },
+  {
+   "time": "11-12 12:38",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "target down",
+   "headline": "B of A Securities Maintains Neutral on Intel, Lowers Price Target to $80",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63208444/b-securities-maintains-neutral-intel-lowers-price-target-80"
+  },
+  {
+   "time": "11-12 12:34",
+   "symbols": [
+    "AAPL",
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Google Launches Gemini App On Apple Carplay For iOS Users",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63208142/google-launches-gemini-app-apple-carplay-ios-users"
+  },
   {
    "time": "11-12 12:18",
    "symbols": [
