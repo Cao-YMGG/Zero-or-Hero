@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-11",
-  "done": true,
+  "date": "2026-11-12",
+  "done": false,
   "variants": {
     "catalyst_open@2026-11-09": {
       "entered": true,
@@ -14,7 +14,7 @@
         "peak": 0.26,
         "qty": 3,
         "last": 0.01,
-        "last_time": "2026-11-11T15:45:17-05:00"
+        "last_time": "2026-11-12T10:02:24-05:00"
       },
       "real": {
         "contract": "WMT261113C00131000",
@@ -22,8 +22,7 @@
         "underlying": "WMT",
         "entry_price": 0.24,
         "entry_time": "2026-11-09T09:33:20-05:00"
-      },
-      "hold": true
+      }
     },
     "catalyst_open_hero@2026-11-09": {
       "entered": true,
@@ -37,9 +36,8 @@
         "peak": 0.26,
         "qty": 17,
         "last": 0.01,
-        "last_time": "2026-11-11T15:45:17-05:00"
-      },
-      "hold": true
+        "last_time": "2026-11-12T10:02:24-05:00"
+      }
     },
     "catalyst_intraday_hero@2026-11-09": {
       "entered": true,
@@ -52,10 +50,9 @@
         "entry_price": 4.23,
         "peak": 5.27,
         "qty": 1,
-        "last": 2.6,
-        "last_time": "2026-11-11T15:45:17-05:00"
-      },
-      "hold": true
+        "last": 3.42,
+        "last_time": "2026-11-12T10:02:24-05:00"
+      }
     },
     "catalyst_open_hero@2026-11-10": {
       "entered": true,
@@ -68,65 +65,56 @@
         "entry_price": 1.01,
         "peak": 7.13,
         "qty": 4,
-        "last": 4.94,
-        "last_time": "2026-11-11T15:45:17-05:00"
-      },
-      "hold": true
-    },
-    "catalyst_intraday@2026-11-10": {
-      "entered": true,
-      "carried": true,
-      "of": "catalyst_intraday",
-      "closed": true
-    },
-    "catalyst_intraday_hero@2026-11-10": {
-      "entered": true,
-      "carried": true,
-      "of": "catalyst_intraday_hero",
-      "closed": true
+        "last": 1.68,
+        "last_time": "2026-11-12T10:02:24-05:00"
+      }
     },
     "claude_bias": {},
     "meta_follow2": {},
     "leader_follow": {
       "attempts": 1,
       "entered": true,
-      "closed": true
+      "shadow": {
+        "contract": "NVDA261113C00175000",
+        "direction": "call",
+        "entry_time": "2026-11-12T09:46:16-05:00",
+        "entry_price": 0.56,
+        "peak": 0.75,
+        "qty": 1,
+        "last": 0.48,
+        "last_time": "2026-11-12T10:02:24-05:00"
+      }
     },
     "rebound_scanner": {},
     "nvda_gapdown_put": {},
     "catalyst_open": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
+      "attempts": 3
     },
     "catalyst_open_hero": {
       "attempts": 1,
       "entered": true,
-      "closed": true
+      "shadow": {
+        "contract": "AMD261113C00617500",
+        "direction": "call",
+        "entry_time": "2026-11-12T09:37:26-05:00",
+        "entry_price": 1.65,
+        "peak": 2.22,
+        "qty": 2,
+        "last": 0.66,
+        "last_time": "2026-11-12T10:02:24-05:00"
+      }
     },
-    "catalyst_intraday": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "catalyst_intraday_hero": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
+    "catalyst_intraday": {},
+    "catalyst_intraday_hero": {},
     "spy_open_drive": {},
     "spy_open_drive_put": {},
-    "stock_open_drive": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    }
+    "stock_open_drive": {}
   },
   "real_underlyings": [
     "WMT"
   ],
   "generation": 1,
-  "equity_start": 409.5199999999968,
+  "equity_start": 394.40000000000146,
   "phase": "zero-or-hero",
   "risk_per_trade": 0.2,
   "champion": "nvda_gapdown_put",
@@ -142,7 +130,7 @@
       "paused": false
     },
     "stock_open_drive": {
-      "equity": 493.0,
+      "equity": 333.0,
       "generation": 1,
       "paused": false
     },

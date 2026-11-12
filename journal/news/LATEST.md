@@ -1,9 +1,16 @@
-# Headlines since 2026-11-11 16:00 ET (as of 2026-11-12 07:42 ET)
+# Headlines since 2026-11-11 16:00 ET (as of 2026-11-12 10:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-12 09:54 | AMD | rating | RBC Capital Reiterates Sector Perform on Advanced Micro Devices, Maintains $540 Price Target |
+| 11-12 09:21 | NVDA | target down | Stifel Maintains Buy on NVIDIA, Lowers Price Target to $205 |
+| 11-12 08:21 | NVDA | target down | RBC Capital Maintains Outperform on NVIDIA, Lowers Price Target to $230 |
+| 11-12 08:01 | ORCL | rating | DBS Maintains Buy Rating on Oracle, Adjusts Price Target |
+| 11-12 07:50 | CVX | target down | Bernstein Maintains Market Perform on Chevron, Lowers Price Target to $233 |
+| 11-12 07:43 | XOM | target down | Bernstein Maintains Outperform on ExxonMobil Holdings, Lowers Price Target to $186 |
+| 11-12 07:43 | NVDA | downgrade | William Blair Downgrades NVIDIA to Market Perform |
 | 11-12 07:39 | NVDA | downgrade | Keybanc Downgrades NVIDIA to Sector Weight |
 | 11-12 07:32 | RKLB | rating | Berenberg Adjusts Price Target on Rocket Lab to $85 From $83, Maintains Buy Rating |
 | 11-12 07:25 | AMD | upgrade | William Blair Upgrades Advanced Micro Devices to Outperform |
@@ -15,6 +22,45 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-12 06:17 | NVDA | downgrade | Evercore ISI Group Downgrades NVIDIA to In-Line, Lowers Price Target to $186 |
 | 11-12 04:42 | NVDA | downgrade | Oppenheimer Downgrades NVIDIA to Perform |
 | 11-11 20:01 | MU | rating | Goldman Sachs Maintains Neutral Rating on Micron Technology |
+| 11-12 09:51 | NVDA |  | OpenAI Raises $15B At $1.25T Valuation |
+| 11-12 09:48 | TSLA |  | How the SpaceX Stock Slump Complicates Elon Musk’s Tesla Merger |
+| 11-12 09:44 | HD |  | Americans Are Cashing In on Home Equity at the Fastest Pace Since the Financial Crisis |
+| 11-12 09:32 | COIN |  | B. Riley and Cantor Fitzgerald Adjust Price Targets for Coinbase Global |
+| 11-12 09:32 | INTC |  | BofA Securities Adjusts Intel Price Target |
+| 11-12 09:32 | WMT |  | Walmart Announces Third Quarter Earnings Call Date |
+| 11-12 09:32 | HOOD |  | Robinhood Executive Chris Koegel Appointed CFO of Klarna |
+| 11-12 09:32 | NVDA |  | NVIDIA Announces CEO Resignation and Leadership Transition |
+| 11-12 09:31 | BAC |  | Bank of America Participates in Series A Financing for Silicon Data |
+| 11-12 09:31 | ORCL |  | Waratek Publishes State of Java Exploits Report Highlighting Oracle Product Vulnerabilities |
+| 11-12 09:31 | AMD |  | Bentaus and DriveNets Achieve Efficiency Gains Using AMD Instinct MI325X GPUs |
+| 11-12 09:31 | CRM |  | Salesforce Ventures Leads $290 Million Series C Funding for Q-CTRL |
+| 11-12 09:31 | AMD |  | AMD and PsiQuantum Expand Partnership for Quantum Computing Infrastructure |
+| 11-12 09:31 | COST |  | Costco Improves Ranking in Q3 2026 AI Readiness Benchmark |
+| 11-12 09:31 | NVDA |  | Seeing Reports Speaker Johnson Says 'Critically Important' To Choose Right Successor To Replace Nvidia CEO |
+| 11-12 09:31 | JPM |  | J.P. Morgan Leads $500 Million Financing for VulcanForms |
+| 11-12 09:31 | MSFT |  | DuPont, NobleAI, and Microsoft Partner on AI-Driven R&D Platform |
+| 11-12 09:31 | MSFT |  | Kno2 Collaborates with Microsoft to Connect Healthcare Data to Azure |
+| 11-12 09:29 | NVDA |  | Nvidia Interim CEO Kress To Host A Company Meeting On November 18 At 9:00AM PT |
+| 11-12 09:21 | MSFT NVDA |  | Nvidia CEO Jensen Huang Resigns — CFO Collette Kress in as Interim CEO |
+| 11-12 09:20 | NVDA |  | Seeing Reports U.S. Speaker Johnson Says He Is In Favor Of Limiting Chip Exports To China |
+| 11-12 09:01 | TSM |  | TSMC Board Approves $1 Billion Investment in Frontier AI Labs |
+| 11-12 08:57 | NVDA |  | Michael Burry Says Nvidia Just Lost Its Enforcer: ‘The Don Has Fallen’ |
+| 11-12 08:57 | NVDA |  | Quantum Stocks Slide as Rigetti, D-Wave Results Disappoint, Nvidia Turmoil Overshadows IonQ |
+| 11-12 08:52 | NVDA |  | NVIDIA Says Colette Kress To Serve As Interim CEO Until Permanent Successor Named; Board Is Initiating Search For Permanent CEO And Will Consider Internal And External Candidates |
+| 11-12 08:52 | PLTR |  | Palantir CEO Alex Karp Says Silicon Valley ‘Would Not Even Exist’ Without US Military Support |
+| 11-12 08:50 | NVDA |  | NVIDIA Appoints Harvey C. Jones As Its First-Ever Board Chair |
+| 11-12 08:49 | NVDA |  | NVIDIA Appoints Colette Kress As Interim CEO; Jensen Huang Has Resigned As President, Chief Executive Officer, And A Member Of The Board, Effective Immediately |
+| 11-12 08:44 | NVDA |  | U.S. Trade Rep Greer Says Want 'Crown Jewel' Chips To Remain 'Crown Jewels' In Us, Allies’ Hands |
+| 11-12 08:42 | NVDA |  | U.S. Trade Rep Greer Won't Comment On Nvidia Situation In CNBC Interview |
+| 11-12 08:42 | COST |  | Top 3 Risk Off Stocks That Could Sink Your Portfolio This Quarter |
+| 11-12 08:31 | HOOD |  | Klarna Names Chris Koegel As CFO |
+| 11-12 08:30 | LLY |  | Eli Lilly Wins China Approval for First GLP-1 Weight-Loss Pill, Giving It First-Mover Edge In Potential $4.5 Billion Market: Report |
+| 11-12 08:26 | NVDA |  | Why Is IonQ Stock Falling on Thursday? |
+| 11-12 08:23 | NVDA TSM |  | Nvidia Stock’s 'Very Sad Day,' Analyst Cuts Price Target by $100 |
+| 11-12 08:05 | AMD |  | AMD Announces Expanded Partnership With PsiQuantum To Co-Design Quantum Computing Infrastructure, Plans Equity Investment In PsiQuantum; Terms Not Disclosed |
+| 11-12 08:01 | AVGO |  | Broadcom Stock Rises Amid Nvidia Executive Turmoil |
+| 11-12 08:00 | NVDA |  | Nvidia Faces A 'Black Eye Moment,' Dan Ives Says, as 'Writing Is On The Wall' for Jensen Huang; Projects $225 Stock Valuation Without CEO |
+| 11-12 07:57 | NVDA |  | NVIDIA shares are trading lower following reports suggesting that the company may remove CEO Huang due to two affairs that included an alleged Chinese asset and a company executive who reported to him. Investors may be concerned about the future successor. |
 | 11-12 07:32 | META |  | Meta Expands Partnership with Nevoya for Electric Trucking |
 | 11-12 07:32 | META |  | Meta Fined by UK Regulator Over WhatsApp Business Data Inaccuracies |
 | 11-12 07:32 | META |  | Meta Signs Multi-Year Green Steel Agreement with Stegra |

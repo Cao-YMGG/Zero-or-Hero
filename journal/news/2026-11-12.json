@@ -1,7 +1,469 @@
 {
- "as_of": "2026-11-12T07:42-05:00",
+ "as_of": "2026-11-12T10:02-05:00",
  "since": "2026-11-11T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-12 09:54",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "rating",
+   "headline": "RBC Capital Reiterates Sector Perform on Advanced Micro Devices, Maintains $540 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63191492/rbc-capital-reiterates-sector-perform-advanced-micro-devices-maintains-540-price-target"
+  },
+  {
+   "time": "11-12 09:51",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "OpenAI Raises $15B At $1.25T Valuation",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63191088/openai-raises-15b-1-25t-valuation"
+  },
+  {
+   "time": "11-12 09:48",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "How the SpaceX Stock Slump Complicates Elon Musk\u2019s Tesla Merger",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63190512/spacex-tesla-merger"
+  },
+  {
+   "time": "11-12 09:44",
+   "symbols": [
+    "HD"
+   ],
+   "rating": "",
+   "headline": "Americans Are Cashing In on Home Equity at the Fastest Pace Since the Financial Crisis",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/real-estate/26/11/63189807/americans-cashing-in-home-equity-fastest-pace-since-financial-crisis-heloc-jefferies"
+  },
+  {
+   "time": "11-12 09:32",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "B. Riley and Cantor Fitzgerald Adjust Price Targets for Coinbase Global",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/b-riley-adjusts-pt-on-coinbase-global-to-150-from-203-maintains-neutral-rating-ce785ed8dc80f227"
+  },
+  {
+   "time": "11-12 09:32",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "BofA Securities Adjusts Intel Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/bofa-securities-cuts-price-target-on-intel-to-80-from-100-maintains-neutral-rating-ce785ed8df8af02d"
+  },
+  {
+   "time": "11-12 09:32",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart Announces Third Quarter Earnings Call Date",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hant/news/post/1004444407/press-release-walmart-to-host-third-quarter-earnings-conference-call"
+  },
+  {
+   "time": "11-12 09:32",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Executive Chris Koegel Appointed CFO of Klarna",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/klarna-appoints-robinhood-executive-chris-koegel-as-cfo-ce785ed8df8efe2c"
+  },
+  {
+   "time": "11-12 09:32",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Announces CEO Resignation and Leadership Transition",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1004449396/press-release-nvidia-announces-ceo-transition"
+  },
+  {
+   "time": "11-12 09:31",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank of America Participates in Series A Financing for Silicon Data",
+   "source": "fiscal.ai",
+   "url": "https://www.einnews.com/pr_news/956082619/bank-of-america-and-citi-invest-in-silicon-data-the-leading-independent-index-provider-for-ai-compute"
+  },
+  {
+   "time": "11-12 09:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Waratek Publishes State of Java Exploits Report Highlighting Oracle Product Vulnerabilities",
+   "source": "fiscal.ai",
+   "url": "https://www.einpresswire.com/article/955804183/java-security-flaws-surge-sevenfold-in-2026-but-attacks-against-them-don-t-follow"
+  },
+  {
+   "time": "11-12 09:31",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "Bentaus and DriveNets Achieve Efficiency Gains Using AMD Instinct MI325X GPUs",
+   "source": "fiscal.ai",
+   "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70111636-bentaus-an-energy-first-neocloud-deploys-drivenets-high-performance-ai-fabric-with-amd-gpus-to-produce-ai-tokens-with-30-less-energy-008.htm"
+  },
+  {
+   "time": "11-12 09:31",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce Ventures Leads $290 Million Series C Funding for Q-CTRL",
+   "source": "fiscal.ai",
+   "url": "https://www.einnews.com/pr_news/955914525/q-ctrl-secures-us-290-million-series-c-funding-led-by-salesforce-ventures-to-accelerate-the-convergence-of-quantum-ai"
+  },
+  {
+   "time": "11-12 09:31",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD and PsiQuantum Expand Partnership for Quantum Computing Infrastructure",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/amd-psiquantum-expand-partnership-to-co-design-computing-infrastructure-ce785ed8df8efe22"
+  },
+  {
+   "time": "11-12 09:31",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Costco Improves Ranking in Q3 2026 AI Readiness Benchmark",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.com/news/ai1000-bot-access-and-blocking-reveal-an-ai-readiness-divide-ahead-of-22888265"
+  },
+  {
+   "time": "11-12 09:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Seeing Reports Speaker Johnson Says 'Critically Important' To Choose Right Successor To Replace Nvidia CEO",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/NVDA"
+  },
+  {
+   "time": "11-12 09:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "J.P. Morgan Leads $500 Million Financing for VulcanForms",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/12/3401536/0/en/vulcanforms-secures-500-million-to-scale-the-next-generation-of-american-manufacturing.html"
+  },
+  {
+   "time": "11-12 09:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "DuPont, NobleAI, and Microsoft Partner on AI-Driven R&D Platform",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/dupont-announces-collaboration-with-microsoft-and-nobleai-to-accelerate-rd-innovation-with-ai-302936704.html"
+  },
+  {
+   "time": "11-12 09:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Kno2 Collaborates with Microsoft to Connect Healthcare Data to Azure",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261112cl95436/kno2-brings-nationwide-connectivity-to-microsoft-azure-healthcare-customers"
+  },
+  {
+   "time": "11-12 09:29",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia Interim CEO Kress To Host A Company Meeting On November 18 At 9:00AM PT",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63187164/nvidia-interim-ceo-kress-host-company-meeting-november-18-9-00am-pt"
+  },
+  {
+   "time": "11-12 09:21",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "target down",
+   "headline": "Stifel Maintains Buy on NVIDIA, Lowers Price Target to $205",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63186665/stifel-maintains-buy-nvidia-lowers-price-target-205"
+  },
+  {
+   "time": "11-12 09:21",
+   "symbols": [
+    "MSFT",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia CEO Jensen Huang Resigns \u2014 CFO Collette Kress in as Interim CEO",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63186620/nvidia-ceo-jensen-huang-resigns-cfo-collette-kress-in-as-interim-ceo"
+  },
+  {
+   "time": "11-12 09:20",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Seeing Reports U.S. Speaker Johnson Says He Is In Favor Of Limiting Chip Exports To China",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/NVDA"
+  },
+  {
+   "time": "11-12 09:01",
+   "symbols": [
+    "TSM"
+   ],
+   "rating": "",
+   "headline": "TSMC Board Approves $1 Billion Investment in Frontier AI Labs",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1004432535/overseas-research-selection-bank-of-america-taiwan-semiconductor-s-capital"
+  },
+  {
+   "time": "11-12 08:57",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Michael Burry Says Nvidia Just Lost Its Enforcer: \u2018The Don Has Fallen\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63184853/michael-burry-says-nvidia-lost-its-enforcer-don-has-fallen"
+  },
+  {
+   "time": "11-12 08:57",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Quantum Stocks Slide as Rigetti, D-Wave Results Disappoint, Nvidia Turmoil Overshadows IonQ",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63184851/quantum-stocks-slide-as-rigetti-d-wave-results-disappoint-nvidia-turmoil-overshadows-ionq"
+  },
+  {
+   "time": "11-12 08:52",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Says Colette Kress To Serve As Interim CEO Until Permanent Successor Named; Board Is Initiating Search For Permanent CEO And Will Consider Internal And External Candidates",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63184586/nvidia-says-colette-kress-serve-interim-ceo-until-permanent-successor-named-board-initiating-search-"
+  },
+  {
+   "time": "11-12 08:52",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir CEO Alex Karp Says Silicon Valley \u2018Would Not Even Exist\u2019 Without US Military Support",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63184565/palantir-ceo-alex-karp-says-silicon-valley-would-not-even-exist-without-us-military-support"
+  },
+  {
+   "time": "11-12 08:50",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Appoints Harvey C. Jones As Its First-Ever Board Chair",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63184507/nvidia-appoints-harvey-c-jones-its-first-ever-board-chair"
+  },
+  {
+   "time": "11-12 08:49",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Appoints Colette Kress As Interim CEO; Jensen Huang Has Resigned As President, Chief Executive Officer, And A Member Of The Board, Effective Immediately",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/NVDA"
+  },
+  {
+   "time": "11-12 08:44",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "U.S. Trade Rep Greer Says Want 'Crown Jewel' Chips To Remain 'Crown Jewels' In Us, Allies\u2019 Hands",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63184127/u-s-trade-rep-greer-says-want-crown-jewel-chips-remain-crown-jewels-us-allies-hands"
+  },
+  {
+   "time": "11-12 08:42",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "U.S. Trade Rep Greer Won't Comment On Nvidia Situation In CNBC Interview",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63184065/u-s-trade-rep-greer-won-t-comment-nvidia-situation-cnbc-interview"
+  },
+  {
+   "time": "11-12 08:42",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Top 3 Risk Off Stocks That Could Sink Your Portfolio This Quarter",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/short-ideas/26/11/63184027/top-3-risk-off-stocks-that-could-sink-your-portfolio-this-quarter"
+  },
+  {
+   "time": "11-12 08:31",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Klarna Names Chris Koegel As CFO",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63183354/klarna-names-chris-koegel-cfo"
+  },
+  {
+   "time": "11-12 08:30",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly Wins China Approval for First GLP-1 Weight-Loss Pill, Giving It First-Mover Edge In Potential $4.5 Billion Market: Report",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/11/63183337/eli-lilly-wins-china-approval-for-first-glp-1-weight-loss-pill-giving-it-first-mover-edge-in-potential-4-5-billion-market-report"
+  },
+  {
+   "time": "11-12 08:26",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Why Is IonQ Stock Falling on Thursday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63183149/why-is-ionq-stock-falling-on-thursday"
+  },
+  {
+   "time": "11-12 08:23",
+   "symbols": [
+    "NVDA",
+    "TSM"
+   ],
+   "rating": "",
+   "headline": "Nvidia Stock\u2019s 'Very Sad Day,' Analyst Cuts Price Target by $100",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/63183072/nvidia-stock-price-target-100-haircut-cantor-jensen-huang"
+  },
+  {
+   "time": "11-12 08:21",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "target down",
+   "headline": "RBC Capital Maintains Outperform on NVIDIA, Lowers Price Target to $230",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63183014/rbc-capital-maintains-outperform-nvidia-lowers-price-target-230"
+  },
+  {
+   "time": "11-12 08:05",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD Announces Expanded Partnership With PsiQuantum To Co-Design Quantum Computing Infrastructure, Plans Equity Investment In PsiQuantum; Terms Not Disclosed",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/AMD"
+  },
+  {
+   "time": "11-12 08:01",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "",
+   "headline": "Broadcom Stock Rises Amid Nvidia Executive Turmoil",
+   "source": "fiscal.ai",
+   "url": "https://news.futunn.com/en/post/1004306717/amd-and-broadcom-stocks-jump-what-it-says-about-the"
+  },
+  {
+   "time": "11-12 08:01",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "rating",
+   "headline": "DBS Maintains Buy Rating on Oracle, Adjusts Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1004416440/dbs-maintains-oracle-orclus-with-buy-rating-cuts-target-price"
+  },
+  {
+   "time": "11-12 08:00",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia Faces A 'Black Eye Moment,' Dan Ives Says, as 'Writing Is On The Wall' for Jensen Huang; Projects $225 Stock Valuation Without CEO",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63181607/nvidia-faces-a-black-eye-moment-dan-ives-says-as-writing-is-on-the-wall-for-jensen-huang-projects-225-stock-valuation-without-ceo"
+  },
+  {
+   "time": "11-12 07:57",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA shares are trading lower following reports suggesting that the company may remove CEO Huang due to two affairs that included an alleged Chinese asset and a company executive who reported to him. Investors may be concerned about the future successor.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/NVDA"
+  },
+  {
+   "time": "11-12 07:50",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "target down",
+   "headline": "Bernstein Maintains Market Perform on Chevron, Lowers Price Target to $233",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63180913/bernstein-maintains-market-perform-chevron-lowers-price-target-233"
+  },
+  {
+   "time": "11-12 07:43",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "target down",
+   "headline": "Bernstein Maintains Outperform on ExxonMobil Holdings, Lowers Price Target to $186",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63180501/bernstein-maintains-outperform-exxonmobil-holdings-lowers-price-target-186"
+  },
+  {
+   "time": "11-12 07:43",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "downgrade",
+   "headline": "William Blair Downgrades NVIDIA to Market Perform",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63180438/william-blair-downgrades-nvidia-market-perform"
+  },
   {
    "time": "11-12 07:39",
    "symbols": [
