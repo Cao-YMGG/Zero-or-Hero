@@ -1,9 +1,11 @@
-# Headlines since 2026-11-11 16:00 ET (as of 2026-11-12 13:16 ET)
+# Headlines since 2026-11-11 16:00 ET (as of 2026-11-12 13:46 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-12 13:19 | NVDA | downgrade | Melius Research Downgrades NVIDIA to Hold, Lowers Price Target to $185 |
+| 11-12 13:14 | NVDA | target down | DA Davidson Maintains Buy on NVIDIA, Lowers Price Target to $200 |
 | 11-12 12:53 | NVDA | downgrade | Craig-Hallum Downgrades NVIDIA to Hold, Announces $180 Price Target |
 | 11-12 12:47 | NVDA | target down | B of A Securities Maintains Buy on NVIDIA, Lowers Price Target to $280 |
 | 11-12 12:41 | AMD | target up | B of A Securities Maintains Buy on Advanced Micro Devices, Raises Price Target to $700 |
@@ -37,6 +39,8 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-12 06:17 | NVDA | downgrade | Evercore ISI Group Downgrades NVIDIA to In-Line, Lowers Price Target to $186 |
 | 11-12 04:42 | NVDA | downgrade | Oppenheimer Downgrades NVIDIA to Perform |
 | 11-11 20:01 | MU | rating | Goldman Sachs Maintains Neutral Rating on Micron Technology |
+| 11-12 13:38 | NVDA SMCI |  | Super Micro Stock Plunges Amid DOJ Probe Rumors |
+| 11-12 13:22 | AAPL NVDA |  | Can Nvidia Pull A Tim Cook? Apple's Post-Jobs Performance Offers Clues |
 | 11-12 13:01 | MU |  | CNBC Halftime Report Final Trades: Micron Technology, Digital Realty Trust, Natera, Moody's |
 | 11-12 12:55 | RKLB |  | Rocket Lab’s Near-50% Rebound Is Defying a Wave of Price-Target Cuts |
 | 11-12 12:34 | AAPL GOOGL |  | Google Launches Gemini App On Apple Carplay For iOS Users |
@@ -49,7 +53,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-12 11:20 | NVDA |  | Jensen Huang Agrees To Testify Before Congress Before Thanksgiving |
 | 11-12 11:19 | NVDA PLTR |  | Drone Maker Ondas Raises Full-Year Outlook |
 | 11-12 11:18 | NVDA |  | Seeing Reports House Democratic Leader Says Classified Briefing On Nvidia Situation Should Be Scheduled For U.S. House Members |
-| 11-12 11:05 | NVDA |  | Who is Colette Kress? 5 Things to Know About New Nvidia CEO |
+| 11-12 11:04 | NVDA |  | Who is Colette Kress? 5 Things to Know About New Nvidia CEO |
 | 11-12 11:03 | AMZN |  | Amazon Releases Best Books of 2026 List |
 | 11-12 11:01 | NFLX |  | Netflix to Release Russell Brand Documentary |
 | 11-12 11:01 | COST |  | Antigravity A1 Drone Bundle Available at Costco |

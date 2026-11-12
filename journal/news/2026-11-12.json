@@ -1,7 +1,49 @@
 {
- "as_of": "2026-11-12T13:16-05:00",
+ "as_of": "2026-11-12T13:46-05:00",
  "since": "2026-11-11T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-12 13:38",
+   "symbols": [
+    "NVDA",
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Super Micro Stock Plunges Amid DOJ Probe Rumors",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63212202/super-micro-stock-plunges-amid-doj-probe-rumors"
+  },
+  {
+   "time": "11-12 13:22",
+   "symbols": [
+    "AAPL",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Can Nvidia Pull A Tim Cook? Apple's Post-Jobs Performance Offers Clues",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63211242/nvidia-jensen-huang-resigns-apple-tim-cook"
+  },
+  {
+   "time": "11-12 13:19",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "downgrade",
+   "headline": "Melius Research Downgrades NVIDIA to Hold, Lowers Price Target to $185",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63211135/melius-research-downgrades-nvidia-hold-lowers-price-target-185"
+  },
+  {
+   "time": "11-12 13:14",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "target down",
+   "headline": "DA Davidson Maintains Buy on NVIDIA, Lowers Price Target to $200",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63210757/da-davidson-maintains-buy-nvidia-lowers-price-target-200"
+  },
   {
    "time": "11-12 13:01",
    "symbols": [
@@ -219,7 +261,7 @@
    "url": "https://www.benzinga.com/quote/NVDA"
   },
   {
-   "time": "11-12 11:05",
+   "time": "11-12 11:04",
    "symbols": [
     "NVDA"
    ],
