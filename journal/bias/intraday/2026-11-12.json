@@ -18,52 +18,58 @@
    "prior_close": 759.81,
    "p1000": 756.7,
    "p1016": 756.94,
-   "high": 758.84,
+   "high": 762.98,
    "low": 753.74,
-   "state": "-0.78% gap half filled: +0.40% from open; 10:00 +0.37% (spy_open_drive no)"
+   "state": "gap filled and more: +1.15% from open, +0.37% day, above Wednesday's close",
+   "p1121": 762.62
   },
   "QQQ": {
    "open": 680.26,
    "prior_close": 690.38,
    "p1016": 686.02,
-   "high": 688.4,
+   "high": 694.52,
    "low": 680.0,
-   "state": "+0.85% from open, -0.6% day"
+   "state": "+2.0% from open, +0.5% day",
+   "p1121": 694.06
   },
   "SMH": {
    "open": 485.37,
    "prior_close": 506.96,
    "p1016": 497.06,
-   "high": 500.42,
+   "high": 509.51,
    "low": 484.96,
-   "state": "+2.4% from open on NVDA's relief bounce, -1.9% day; mirror not armed"
+   "state": "+4.9% from open, +0.4% day: mirror off",
+   "p1121": 508.94
   },
   "NVDA": {
    "open": 150.99,
    "prior_close": 173.73,
    "p1000": 161.81,
    "p1016": 163.09,
-   "high": 163.5,
+   "high": 167.14,
    "low": 148.8,
-   "state": "CEO resignation announced 09:32: -13% open, +8% from open (buy the fact), -6.1% day"
+   "state": "+10.3% from open, -4.1% day: buy the fact; record retail buying",
+   "p1121": 166.54
   },
   "AMD": {
    "open": 568.37,
    "prior_close": 552.9,
    "p1000": 564.51,
    "p1016": 562.26,
-   "high": 578.4,
+   "high": 593.93,
    "low": 555.05,
-   "state": "sniper: -1.1% from open (+1.7% day), wrong_if fired at 10:00; hero 617.5C 1.65 -> 0.66"
+   "state": "reversed at 10:35: +4.2% from open, +7.2% day; BofA $700; hero 617.5C 1.65 -> 2.91 -> 1.90",
+   "p1121": 592.45
   },
   "AVGO": {
    "open": 356.72,
    "prior_close": 345.22,
    "p1000": 361.32,
    "p1016": 364.13,
-   "high": 365.6,
+   "high": 369.79,
    "low": 354.88,
-   "state": "the pick: +2.1% from open, +5.5% day, leader"
+   "state": "the pick: +3.6% from open, +7.0% day, +1.5% since the pick; 385C 0.65 -> 0.33, 377.5C 1.49 -> 0.96 (marks)",
+   "p1121": 369.41
   },
   "TSLA": {
    "open": 386.02,
@@ -71,7 +77,8 @@
    "p1016": 392.39,
    "high": 395.94,
    "low": 385.41,
-   "state": "+1.65% from open; stock_open_drive off on Thursday"
+   "state": "+1.6% from open",
+   "p1121": 392.24
   },
   "LLY": {
    "open": 1451.04,
@@ -79,7 +86,8 @@
    "p1016": 1441.53,
    "high": 1455.18,
    "low": 1434.11,
-   "state": "China approval gap +1.0% sold to -0.7% from open"
+   "state": "-0.3% from open; defensives sold as the gap filled",
+   "p1121": 1446.69
   }
  },
  "opportunities": [
@@ -145,6 +153,44 @@
    "action": "none",
    "why": "-1.0% from open, XLV -1.0%: the pre-market defensives bid unwinding as the gap fills; no own news; logged.",
    "why_zh": "联合健康比开盘 -1.0%，医疗 ETF 同样：盘前的防守盘在缺口回补时退潮；没有自己的消息，只记录。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "AMD",
+   "direction": "call",
+   "time": "11:21",
+   "action": "none",
+   "why": "Leader: +7.2% day, +4.2% from open after the 10:00 dip; BofA target $700 (11:02) on top of William Blair's upgrade. Already the morning sniper (hero 617.5C holds); the day's catalyst_intraday entry is spent. Logged as the leader-rule sample.",
+   "why_zh": "AMD 是今天的领头羊：当天 +7.2%、比开盘 +4.2%（10:00 跌破开盘价后 10:35 反转），美银 11:02 把目标价提到 700。它已经是早上的狙击（hero 还拿着），盘中的一笔也用在博通上了。记领头羊样本。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "NVDA",
+   "direction": "call",
+   "time": "11:21",
+   "action": "none",
+   "why": "+10.3% from its open (166.54) after the resignation: the relief rally continued another 2% since 10:16; retail record buying, Trump's Tim Cook post. Beyond the 3% line from the first minute; logged as the day's structure.",
+   "why_zh": "英伟达比开盘 +10.3%：辞职落地后的解脱式反弹又走了 2 个点，散户开盘半小时净买 1.11 亿创纪录，特朗普说该让库克接班。从第一分钟就超过 3% 的线，只记录。"
+  },
+  {
+   "type": "relative_weakness",
+   "symbol": "XLP",
+   "direction": "put",
+   "time": "11:21",
+   "action": "none",
+   "why": "Defensives unwind as the gap fills: XLP -0.7%, XLV -0.8%, WMT -0.7%, UNH -0.4% from their opens with no news; relative weakness alone, logged.",
+   "why_zh": "缺口回补时防守股退潮：必需消费 -0.7%、医疗 -0.8%、沃尔玛 -0.7%（对开盘），没有消息，只是相对弱势，只记录。"
+  },
+  {
+   "type": "sympathy",
+   "symbol": "MRVL",
+   "direction": "call",
+   "time": "11:21",
+   "action": "none",
+   "why": "+7.4% from open (-0.3% day) in the chip relief rally, no own news; not a mega cap; logged with ARM +7.1%, INTC +4.9%, TSM +4.2%, MU +3.5%.",
+   "why_zh": "迈威尔比开盘 +7.4%，跟芯片的解脱式反弹，没有自己的消息，不是大盘股；ARM +7.1%、英特尔 +4.9%、台积电 +4.2%、美光 +3.5% 同理，只记录。"
   }
- ]
+ ],
+ "check_1121": "11:22 ET: no second pick (one catalyst entry a day, spent on AVGO at 10:19). Put mirror NOT armed: SMH 508.94 is +4.9% above its 485.37 open (+0.4% on the day) after the relief rally that followed NVIDIA's 09:32 resignation announcement; every chip is above its open. The whole gap filled: SPY 762.62 (+1.15% from open, +0.37% day, above Wednesday's close), QQQ 694.06 (+2.0% / +0.5%), IWM flat from open (-0.6% day), VIXY 17.01 (-2.7% from open), TLT -0.7% (10Y back toward 5% into the 13:00 30Y auction). Money left the morning's defensives (XLP -0.7%, XLV -0.8%, WMT -0.7%, XLF -0.4%, UNH -0.4% from their opens) for the chips: NVDA 166.54 (+10.3% from its 150.99 open, -4.1% day; retail bought a record $111M in the first half hour, StoneX downgrade, Citi $225 and Needham $200 targets, Trump on Truth Social: Tim Cook should replace Huang), AMD 592.45 (+4.2% from open, +7.2% day: BofA raised its target to $700 at 11:02 after William Blair's upgrade; the sniper's wrong_if fired at 10:00 at 564.51 but the stock reversed at 10:35 and the hero's 617.5C went 1.65 -> 2.91 peak -> 1.90), AVGO 369.41 (+3.6% from open, +7.0% day: the pick, 364.1 at 10:21 -> 369.4, +1.5% since the pick; catalyst_intraday 385C x1 0.65 -> 0.33 last (peak 0.78) and hero 377.5C x2 1.49 -> 0.96 (peak 1.76): the marks lag or the 4%-OTM Friday calls lost vol as VIXY fell; wrong_if (below 356.72) not triggered), TSM +4.2%, MU +3.5%, INTC +4.9%, MRVL +7.4%, ARM +7.1%, DELL +8.6%, CRWV +14.5% from their opens; GEV +5.9% (+3.9% day), GOOGL +2.1% (300.12, +2.3% day), MSFT +1.25%, AMZN +1.2%, TSLA +1.6%, AAPL flat, META +0.2%, LLY -0.3%. Leader by the rule: AMD (+7.2% day with own news) and AVGO (+7.0%) - AVGO is already the pick, AMD is the sniper's hero. Other Claude's shape call (a one-stock shock that broadens) reversed within the hour: the broadening was the gap, the session is the fill. No real orders today (spy_open_drive missed at 10:00: +0.37% vs the +0.5% line; it is +1.15% now).",
+ "conditional_1316": "Mirror: effectively off (SMH +4.9% above its open; it would need a full reversal below 485.37 by 13:16, which only an NVDA relapse could produce). The 13:00 30Y auction is the one scheduled wave; a tail with the 10Y at 5% is the thing that could take the afternoon back. AVGO pick: wrong if below 356.72 (its open) at 13:16; a clean win if above 372 (the pick +2%). spy_open_drive did not fire, so no real position today; the hero AMD 617.5C and the AVGO shadows are the only live legs (plus leader_follow's NVDA 175C x1 0.56, now in the money zone: NVDA 166.5 vs 175 strike, 1.4 days). CSCO and AMAT report after the close: nothing to do before it."
 }
