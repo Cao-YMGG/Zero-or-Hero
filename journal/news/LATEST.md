@@ -1,4 +1,4 @@
-# Headlines since 2026-11-11 16:00 ET (as of 2026-11-12 15:26 ET)
+# Headlines since 2026-11-11 16:00 ET (as of 2026-11-12 15:44 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -39,6 +39,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-12 06:17 | NVDA | downgrade | Evercore ISI Group Downgrades NVIDIA to In-Line, Lowers Price Target to $186 |
 | 11-12 04:42 | NVDA | downgrade | Oppenheimer Downgrades NVIDIA to Perform |
 | 11-11 20:01 | MU | rating | Goldman Sachs Maintains Neutral Rating on Micron Technology |
+| 11-12 15:30 | TSLA |  | Stephen King Tells Elon Musk ‘You Sound Like Trump’ After Billionaire Warns Democrats Will ‘Execute Their Plan to End Democracy in America’ |
 | 11-12 15:01 | COST |  | Jackery Launches FridgeGuard Power Solution at Costco |
 | 11-12 15:01 | TSLA |  | Lawsuit Filed Against Tesla Over San Mateo Street-Racing Incident |
 | 11-12 14:58 | AAPL NVDA |  | Wall Street Takes the Chainsaw to Nvidia Targets: One Bank Slashes $465 to $186 |

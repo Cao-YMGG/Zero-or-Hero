@@ -1,7 +1,17 @@
 {
- "as_of": "2026-11-12T15:26-05:00",
+ "as_of": "2026-11-12T15:44-05:00",
  "since": "2026-11-11T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-12 15:30",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Stephen King Tells Elon Musk \u2018You Sound Like Trump\u2019 After Billionaire Warns Democrats Will \u2018Execute Their Plan to End Democracy in America\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/63218179/stephen-king-tells-elon-musk-you-sound-like-trump-after-billionaire-warns-democrats-will-execute-their-plan-to-end-democracy-in-america"
+  },
   {
    "time": "11-12 15:01",
    "symbols": [
