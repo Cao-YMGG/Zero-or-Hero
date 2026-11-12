@@ -321,6 +321,12 @@ in EVOLUTION.md.
    half at 2x + trail, and hold, by family; if a trail beats hold on these 0.35-delta contracts without the best trade, set
    trail_after on spy_open_drive and stock_open_drive (a ledger decision, Claude's under the 11-09 mandate; one day is not
    evidence, hence the item).
+   11-12 addendum, the hero arm as the 'hold' control: the catalyst legs with a trail and their heroes on the same contract are
+   a live A/B. Four matched pairs so far (trail leg vs hero): 11-06 GE 330C -98% / -98%, 11-10 AMZN 277.5C -100% / -100%, 11-11
+   AAPL 357.5C -4% / -100%, 11-11 MSFT 515P +10% / -100%: trail -48% avg, hero -100%. Unmatched heroes (different strike) tell
+   the same story this week: TSM 415C 1.01 -> 7.13 peak -> 1.40 at the 11-12 close, AMD 617.5C 1.65 -> 4.17 -> 1.66, AVGO 377.5C
+   1.49 -> 2.80 -> 1.01, while the trail legs took +56%, (none affordable), +12%. Keep the heroes as they are (they are the
+   control, not a strategy) and count the pairs on Sunday with the per-$1 table.
 
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
