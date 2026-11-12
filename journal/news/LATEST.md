@@ -1,4 +1,4 @@
-# Headlines since 2026-11-11 16:00 ET (as of 2026-11-12 14:16 ET)
+# Headlines since 2026-11-11 16:00 ET (as of 2026-11-12 14:46 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -39,6 +39,8 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-12 06:17 | NVDA | downgrade | Evercore ISI Group Downgrades NVIDIA to In-Line, Lowers Price Target to $186 |
 | 11-12 04:42 | NVDA | downgrade | Oppenheimer Downgrades NVIDIA to Perform |
 | 11-11 20:01 | MU | rating | Goldman Sachs Maintains Neutral Rating on Micron Technology |
+| 11-12 14:30 | AMZN MSFT TSLA |  | Workday CEO Admits He’s ‘Absolutely’ Worried About AI Job Displacement — Says ‘Yes,’ Companies Will Want to Replace Humans for Less |
+| 11-12 14:29 | NVDA |  | Former Nvidia CEO Jensen Huang Had An Intimate Relationship With A Second Employee, Sources Say |
 | 11-12 14:15 | META |  | ERock Stock Drops After Mixed Q3 Earnings |
 | 11-12 14:02 | AMD |  | AMD Management Expresses Confidence in CPU Revenue Doubling by 2027 |
 | 11-12 14:02 | CIEN |  | Ciena Announces Fiscal Fourth Quarter and Year-End 2026 Earnings Date |

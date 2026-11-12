@@ -1,7 +1,29 @@
 {
- "as_of": "2026-11-12T14:16-05:00",
+ "as_of": "2026-11-12T14:46-05:00",
  "since": "2026-11-11T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-12 14:30",
+   "symbols": [
+    "AMZN",
+    "MSFT",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Workday CEO Admits He\u2019s \u2018Absolutely\u2019 Worried About AI Job Displacement \u2014 Says \u2018Yes,\u2019 Companies Will Want to Replace Humans for Less",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/topics/26/11/63215089/workday-ceo-aneel-bhusri-ai-agents-replace-junior-auditors-lawyers-5-years"
+  },
+  {
+   "time": "11-12 14:29",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Former Nvidia CEO Jensen Huang Had An Intimate Relationship With A Second Employee, Sources Say",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63215028/former-nvidia-ceo-jensen-huang-had-intimate-relationship-second-employee-sources-say"
+  },
   {
    "time": "11-12 14:15",
    "symbols": [
