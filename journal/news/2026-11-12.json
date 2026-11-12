@@ -1,7 +1,48 @@
 {
- "as_of": "2026-11-12T14:46-05:00",
+ "as_of": "2026-11-12T15:17-05:00",
  "since": "2026-11-11T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-12 15:01",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Jackery Launches FridgeGuard Power Solution at Costco",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/12/3402031/0/en/jackery-introduces-fridgeguard-the-world-s-slimmest-refrigerator-backup-battery-always-ready-for-instant-outage-protection.html"
+  },
+  {
+   "time": "11-12 15:01",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Lawsuit Filed Against Tesla Over San Mateo Street-Racing Incident",
+   "source": "fiscal.ai",
+   "url": "https://newsfilter.io/sources/businesswire"
+  },
+  {
+   "time": "11-12 14:58",
+   "symbols": [
+    "AAPL",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Wall Street Takes the Chainsaw to Nvidia Targets: One Bank Slashes $465 to $186",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/63216627/nvidia-price-targets-cut-evercore-apple-jensen-huang"
+  },
+  {
+   "time": "11-12 14:50",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "",
+   "headline": "New Era Energy Stock Booms After Strong Q3 Revenue",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63216201/new-era-energy-stock-booms-after-strong-q3-revenue"
+  },
   {
    "time": "11-12 14:30",
    "symbols": [

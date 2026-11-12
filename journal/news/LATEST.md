@@ -1,4 +1,4 @@
-# Headlines since 2026-11-11 16:00 ET (as of 2026-11-12 14:46 ET)
+# Headlines since 2026-11-11 16:00 ET (as of 2026-11-12 15:17 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -39,6 +39,10 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-12 06:17 | NVDA | downgrade | Evercore ISI Group Downgrades NVIDIA to In-Line, Lowers Price Target to $186 |
 | 11-12 04:42 | NVDA | downgrade | Oppenheimer Downgrades NVIDIA to Perform |
 | 11-11 20:01 | MU | rating | Goldman Sachs Maintains Neutral Rating on Micron Technology |
+| 11-12 15:01 | COST |  | Jackery Launches FridgeGuard Power Solution at Costco |
+| 11-12 15:01 | TSLA |  | Lawsuit Filed Against Tesla Over San Mateo Street-Racing Incident |
+| 11-12 14:58 | AAPL NVDA |  | Wall Street Takes the Chainsaw to Nvidia Targets: One Bank Slashes $465 to $186 |
+| 11-12 14:50 | VST |  | New Era Energy Stock Booms After Strong Q3 Revenue |
 | 11-12 14:30 | AMZN MSFT TSLA |  | Workday CEO Admits He’s ‘Absolutely’ Worried About AI Job Displacement — Says ‘Yes,’ Companies Will Want to Replace Humans for Less |
 | 11-12 14:29 | NVDA |  | Former Nvidia CEO Jensen Huang Had An Intimate Relationship With A Second Employee, Sources Say |
 | 11-12 14:15 | META |  | ERock Stock Drops After Mixed Q3 Earnings |
