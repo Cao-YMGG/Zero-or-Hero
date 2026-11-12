@@ -311,6 +311,17 @@ in EVOLUTION.md.
    result from the pick to the close and the 0.2-delta option result, bucketed at < 0.5x, 0.5-1.0x, > 1.0x. If the > 1.0x bucket
    is the losing one, the line becomes 'one average range' instead of a flat 3%; until then it is an item, not a rule.
 
+60. **A trail for the open-drive family (2026-11-11).** First live trade under the 0.35-delta ledger rule: stock_open_drive TSLA
+   392.5C 1.69 at 10:01 -> 3.73 at 10:56 (+121%, TSLA 395.43) -> 0.09 at the 15:45 market sell (-$160, the ledger $493 -> $333);
+   11-04 the same variant's TSLA 392.5C went 3.3x -> 0.01 and 11-09 spy_open_drive's 753C sold half at 4x and trailed the rest
+   (+280%, the shadow's only big win). The family has half_at 3.0 and no trail (spy_open_drive_put trails after 2x). SELLK.md
+   pooled: hold (-22%) is worse than the recorded exits (-14%) over 79 contracts, and among the 26 that reached 2x hold (+98%)
+   beats sell-at-2x (+80%) and half-at-2x-hold (+89%): the pooled table does not say 'sell earlier'. Replay the open-drive
+   contracts only (SPY/QQQ and NVDA/TSLA since 10-19, exits.csv peaks plus minute bars) with trail 40% after 1.5x, after 2x,
+   half at 2x + trail, and hold, by family; if a trail beats hold on these 0.35-delta contracts without the best trade, set
+   trail_after on spy_open_drive and stock_open_drive (a ledger decision, Claude's under the 11-09 mandate; one day is not
+   evidence, hence the item).
+
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
   live entry) and intraday pick (10) since 10-01 on real option minute bars, 10% costs each way. Snipers,
