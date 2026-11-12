@@ -14,7 +14,7 @@
         "peak": 0.26,
         "qty": 3,
         "last": 0.01,
-        "last_time": "2026-11-12T10:02:24-05:00"
+        "last_time": "2026-11-12T10:32:41-05:00"
       },
       "real": {
         "contract": "WMT261113C00131000",
@@ -36,7 +36,7 @@
         "peak": 0.26,
         "qty": 17,
         "last": 0.01,
-        "last_time": "2026-11-12T10:02:24-05:00"
+        "last_time": "2026-11-12T10:32:41-05:00"
       }
     },
     "catalyst_intraday_hero@2026-11-09": {
@@ -50,8 +50,8 @@
         "entry_price": 4.23,
         "peak": 5.27,
         "qty": 1,
-        "last": 3.42,
-        "last_time": "2026-11-12T10:02:24-05:00"
+        "last": 3.32,
+        "last_time": "2026-11-12T10:32:41-05:00"
       }
     },
     "catalyst_open_hero@2026-11-10": {
@@ -65,8 +65,8 @@
         "entry_price": 1.01,
         "peak": 7.13,
         "qty": 4,
-        "last": 1.68,
-        "last_time": "2026-11-12T10:02:24-05:00"
+        "last": 1.65,
+        "last_time": "2026-11-12T10:32:41-05:00"
       }
     },
     "claude_bias": {},
@@ -74,16 +74,7 @@
     "leader_follow": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "NVDA261113C00175000",
-        "direction": "call",
-        "entry_time": "2026-11-12T09:46:16-05:00",
-        "entry_price": 0.56,
-        "peak": 0.75,
-        "qty": 1,
-        "last": 0.48,
-        "last_time": "2026-11-12T10:02:24-05:00"
-      }
+      "closed": true
     },
     "rebound_scanner": {},
     "nvda_gapdown_put": {},
@@ -100,12 +91,38 @@
         "entry_price": 1.65,
         "peak": 2.22,
         "qty": 2,
-        "last": 0.66,
-        "last_time": "2026-11-12T10:02:24-05:00"
+        "last": 0.39,
+        "last_time": "2026-11-12T10:32:41-05:00"
       }
     },
-    "catalyst_intraday": {},
-    "catalyst_intraday_hero": {},
+    "catalyst_intraday": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "AVGO261113C00385000",
+        "direction": "call",
+        "entry_time": "2026-11-12T10:21:36-05:00",
+        "entry_price": 0.65,
+        "peak": 0.78,
+        "qty": 1,
+        "last": 0.41,
+        "last_time": "2026-11-12T10:32:41-05:00"
+      }
+    },
+    "catalyst_intraday_hero": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "AVGO261113C00377500",
+        "direction": "call",
+        "entry_time": "2026-11-12T10:21:36-05:00",
+        "entry_price": 1.49,
+        "peak": 1.76,
+        "qty": 2,
+        "last": 0.98,
+        "last_time": "2026-11-12T10:32:41-05:00"
+      }
+    },
     "spy_open_drive": {},
     "spy_open_drive_put": {},
     "stock_open_drive": {}

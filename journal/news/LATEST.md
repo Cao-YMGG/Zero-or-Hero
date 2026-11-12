@@ -1,9 +1,10 @@
-# Headlines since 2026-11-11 16:00 ET (as of 2026-11-12 10:02 ET)
+# Headlines since 2026-11-11 16:00 ET (as of 2026-11-12 10:32 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-12 10:06 | COIN | target down | B. Riley Securities Reiterates Neutral on Coinbase Global, Lowers Price Target to $150 |
 | 11-12 09:54 | AMD | rating | RBC Capital Reiterates Sector Perform on Advanced Micro Devices, Maintains $540 Price Target |
 | 11-12 09:21 | NVDA | target down | Stifel Maintains Buy on NVIDIA, Lowers Price Target to $205 |
 | 11-12 08:21 | NVDA | target down | RBC Capital Maintains Outperform on NVIDIA, Lowers Price Target to $230 |
@@ -22,6 +23,10 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-12 06:17 | NVDA | downgrade | Evercore ISI Group Downgrades NVIDIA to In-Line, Lowers Price Target to $186 |
 | 11-12 04:42 | NVDA | downgrade | Oppenheimer Downgrades NVIDIA to Perform |
 | 11-11 20:01 | MU | rating | Goldman Sachs Maintains Neutral Rating on Micron Technology |
+| 11-12 10:15 | BAC |  | $1000 Invested In Bank of America 15 Years Ago Would Be Worth This Much Today |
+| 11-12 10:15 | META |  | Meta's $27B Off-Balance-Sheet AI Deal Reminds Steve Eisman of Enron— Joseph Carlson Disagrees |
+| 11-12 10:02 | NVDA |  | 'Alice Huang’s Companies’ Investment Aims To Secure NVIDIA Blackwell Chip Supply For Deepseek' -The Information |
+| 11-12 10:02 | NVDA |  | 'Alice Huang’s Companies Invested in DeepSeek, Promising Nvidia Chips' -The Information |
 | 11-12 09:51 | NVDA |  | OpenAI Raises $15B At $1.25T Valuation |
 | 11-12 09:48 | TSLA |  | How the SpaceX Stock Slump Complicates Elon Musk’s Tesla Merger |
 | 11-12 09:44 | HD |  | Americans Are Cashing In on Home Equity at the Fastest Pace Since the Financial Crisis |

@@ -111,3 +111,4 @@ date,variant,mode,contract,entry_price,exit_price,peak,exit_reason
 2026-11-11,stock_open_drive,real,TSLA261111C00392500,1.69,0.09,3.73,time
 2026-11-11,catalyst_intraday,shadow,AMZN261111C00277500,0.77,0,0.77,time
 2026-11-11,catalyst_intraday_hero,shadow,AMZN261111C00277500,0.77,0,0.77,time
+2026-11-12,leader_follow,shadow,NVDA261113C00175000,0.56,0.68,1.17,trail
