@@ -112,3 +112,4 @@ date,variant,mode,contract,entry_price,exit_price,peak,exit_reason
 2026-11-11,catalyst_intraday,shadow,AMZN261111C00277500,0.77,0,0.77,time
 2026-11-11,catalyst_intraday_hero,shadow,AMZN261111C00277500,0.77,0,0.77,time
 2026-11-12,leader_follow,shadow,NVDA261113C00175000,0.56,0.68,1.17,trail
+2026-11-12,catalyst_intraday,shadow,AVGO261113C00385000,0.65,0.73,1.27,trail

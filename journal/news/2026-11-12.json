@@ -1,7 +1,78 @@
 {
- "as_of": "2026-11-12T11:03-05:00",
+ "as_of": "2026-11-12T11:33-05:00",
  "since": "2026-11-11T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-12 11:31",
+   "symbols": [
+    "ARM"
+   ],
+   "rating": "rating",
+   "headline": "Piper Sandler Maintains Buy Rating on Arm Holdings",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1004447606/piper-sandler-maintains-arm-holdings-armus-with-buy-rating-maintains"
+  },
+  {
+   "time": "11-12 11:29",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "'DOJ probes Nvidia as fallout from Huang\u2019s resignation ripples across Washington' -Semafor",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63202485/doj-probes-nvidia-fallout-huang-s-resignation-ripples-across-washington-semafor"
+  },
+  {
+   "time": "11-12 11:20",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Jensen Huang Agrees To Testify Before Congress Before Thanksgiving",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63201685/jensen-huang-agrees-testify-congress-thanksgiving"
+  },
+  {
+   "time": "11-12 11:19",
+   "symbols": [
+    "NVDA",
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Drone Maker Ondas Raises Full-Year Outlook",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/11/63201636/drone-maker-ondas-raises-full-year-outlook"
+  },
+  {
+   "time": "11-12 11:18",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Seeing Reports House Democratic Leader Says Classified Briefing On Nvidia Situation Should Be Scheduled For U.S. House Members",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/NVDA"
+  },
+  {
+   "time": "11-12 11:05",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Who is Colette Kress? 5 Things to Know About New Nvidia CEO",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63199994/who-is-colette-kress-5-things-to-know-about-new-nvidia-ceo"
+  },
+  {
+   "time": "11-12 11:03",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Releases Best Books of 2026 List",
+   "source": "fiscal.ai",
+   "url": "https://stockhouse.com/news/newswire/2026/11/12/amazon-releases-best-books-2026-list-led-min-jin-lee-novel"
+  },
   {
    "time": "11-12 11:02",
    "symbols": [

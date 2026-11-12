@@ -13,8 +13,8 @@
         "entry_price": 0.26,
         "peak": 0.26,
         "qty": 3,
-        "last": 0.01,
-        "last_time": "2026-11-12T11:03:04-05:00"
+        "last": 0.04,
+        "last_time": "2026-11-12T11:33:13-05:00"
       },
       "real": {
         "contract": "WMT261113C00131000",
@@ -35,8 +35,8 @@
         "entry_price": 0.26,
         "peak": 0.26,
         "qty": 17,
-        "last": 0.01,
-        "last_time": "2026-11-12T11:03:04-05:00"
+        "last": 0.04,
+        "last_time": "2026-11-12T11:33:13-05:00"
       }
     },
     "catalyst_intraday_hero@2026-11-09": {
@@ -50,8 +50,8 @@
         "entry_price": 4.23,
         "peak": 5.27,
         "qty": 1,
-        "last": 2.77,
-        "last_time": "2026-11-12T11:03:04-05:00"
+        "last": 3.66,
+        "last_time": "2026-11-12T11:33:13-05:00"
       }
     },
     "catalyst_open_hero@2026-11-10": {
@@ -65,8 +65,8 @@
         "entry_price": 1.01,
         "peak": 7.13,
         "qty": 4,
-        "last": 2.71,
-        "last_time": "2026-11-12T11:03:04-05:00"
+        "last": 2.34,
+        "last_time": "2026-11-12T11:33:13-05:00"
       }
     },
     "claude_bias": {},
@@ -89,25 +89,16 @@
         "direction": "call",
         "entry_time": "2026-11-12T09:37:26-05:00",
         "entry_price": 1.65,
-        "peak": 2.91,
+        "peak": 4.17,
         "qty": 2,
-        "last": 1.9,
-        "last_time": "2026-11-12T11:03:04-05:00"
+        "last": 2.85,
+        "last_time": "2026-11-12T11:33:13-05:00"
       }
     },
     "catalyst_intraday": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "AVGO261113C00385000",
-        "direction": "call",
-        "entry_time": "2026-11-12T10:21:36-05:00",
-        "entry_price": 0.65,
-        "peak": 0.78,
-        "qty": 1,
-        "last": 0.33,
-        "last_time": "2026-11-12T11:03:04-05:00"
-      }
+      "closed": true
     },
     "catalyst_intraday_hero": {
       "attempts": 1,
@@ -117,10 +108,10 @@
         "direction": "call",
         "entry_time": "2026-11-12T10:21:36-05:00",
         "entry_price": 1.49,
-        "peak": 1.76,
+        "peak": 2.8,
         "qty": 2,
-        "last": 0.96,
-        "last_time": "2026-11-12T11:03:04-05:00"
+        "last": 1.73,
+        "last_time": "2026-11-12T11:33:13-05:00"
       }
     },
     "spy_open_drive": {},
