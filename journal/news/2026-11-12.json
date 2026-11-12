@@ -1,7 +1,39 @@
 {
- "as_of": "2026-11-12T12:03-05:00",
+ "as_of": "2026-11-12T12:33-05:00",
  "since": "2026-11-11T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-12 12:18",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Live On CNBC, Stephanie Link Announces Bought Meta Platforms",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/META"
+  },
+  {
+   "time": "11-12 12:14",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "SpaceX Stock Rises Thursday on Speculation Huang Could Team Up With Musk",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63206574/spacex-stock-rises-thursday-on-speculation-huang-could-team-up-with-musk"
+  },
+  {
+   "time": "11-12 12:13",
+   "symbols": [
+    "AMD",
+    "META",
+    "NVDA"
+   ],
+   "rating": "upgrade",
+   "headline": "AMD Stock Upgraded as AI Chip Rival Nvidia Spirals",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63206489/amd-stock-upgraded-as-nvidia-spirals"
+  },
   {
    "time": "11-12 11:59",
    "symbols": [

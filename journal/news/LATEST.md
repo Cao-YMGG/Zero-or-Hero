@@ -1,9 +1,10 @@
-# Headlines since 2026-11-11 16:00 ET (as of 2026-11-12 12:03 ET)
+# Headlines since 2026-11-11 16:00 ET (as of 2026-11-12 12:33 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-12 12:13 | AMD META NVDA | upgrade | AMD Stock Upgraded as AI Chip Rival Nvidia Spirals |
 | 11-12 11:53 | NVDA | target down | BMO Capital Maintains Outperform on NVIDIA, Lowers Price Target to $240 |
 | 11-12 11:52 | NVDA | rating | Baird Reiterates Neutral on NVIDIA, Maintains $200 Price Target |
 | 11-12 11:48 | NVDA | target down | Goldman Sachs Maintains Buy on NVIDIA, Lowers Price Target to $220 |
@@ -32,6 +33,8 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-12 06:17 | NVDA | downgrade | Evercore ISI Group Downgrades NVIDIA to In-Line, Lowers Price Target to $186 |
 | 11-12 04:42 | NVDA | downgrade | Oppenheimer Downgrades NVIDIA to Perform |
 | 11-11 20:01 | MU | rating | Goldman Sachs Maintains Neutral Rating on Micron Technology |
+| 11-12 12:18 | META |  | Live On CNBC, Stephanie Link Announces Bought Meta Platforms |
+| 11-12 12:14 | NVDA |  | SpaceX Stock Rises Thursday on Speculation Huang Could Team Up With Musk |
 | 11-12 11:59 | NVDA |  | Signapore Announces Investigation Into Alice Huang, Megaspeed International |
 | 11-12 11:53 | SNDK WDC |  | SanDisk, Western Digital Are Down 60% — Are Memory Investors Getting a Second Chance? |
 | 11-12 11:42 | AAPL NVDA |  | Trump’s Bombshell Choice for Nvidia’s Next CEO: ‘A Legend Replaces a Legend’ |
