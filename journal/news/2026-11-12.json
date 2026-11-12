@@ -1,7 +1,169 @@
 {
- "as_of": "2026-11-12T13:46-05:00",
+ "as_of": "2026-11-12T14:16-05:00",
  "since": "2026-11-11T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-12 14:15",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "ERock Stock Drops After Mixed Q3 Earnings",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63214317/erock-stock-drops-after-mixed-q3-earnings"
+  },
+  {
+   "time": "11-12 14:02",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD Management Expresses Confidence in CPU Revenue Doubling by 2027",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/advanced-micro-devices-management-confident-about-cpu-revenue-doubling-in-2027-rbc-says-ce785ed8d188ff27"
+  },
+  {
+   "time": "11-12 14:02",
+   "symbols": [
+    "CIEN"
+   ],
+   "rating": "",
+   "headline": "Ciena Announces Fiscal Fourth Quarter and Year-End 2026 Earnings Date",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hant/news/post/1004454241/press-release-ciena-announces-reporting-date-and-web-broadcast-for"
+  },
+  {
+   "time": "11-12 14:02",
+   "symbols": [
+    "CIEN"
+   ],
+   "rating": "",
+   "headline": "Blue Planet Collaborates with KDDI to Modernize Network Operations",
+   "source": "fiscal.ai",
+   "url": "https://newswire.telecomramblings.com/2026/11/blue-planet-collaborates-with-kddi-to-advance-kddis-autonomous-network-journey/"
+  },
+  {
+   "time": "11-12 14:02",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Coinbase Asset Management President to Participate in G20 Digital Asset Round Table",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/swfi-to-host-g20-digital-asset-round-table-at-g20-investment-week-in-miami-on-the-sidelines-of-the-g20-leaders-summit-302937719.html"
+  },
+  {
+   "time": "11-12 14:02",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Glider Launches Tokenized Stock Platform Backed by Coinbase Ventures",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/12/3401488/0/en/as-50-public-companies-reject-tokenized-securities-venues-glider-launches-permissionless-alternative.html"
+  },
+  {
+   "time": "11-12 14:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Alternatives Leads $345 Million Financing for Exus Renewables North America",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/exus-renewables-north-america-secures-345-million-financing-led-by-goldman-sachs-alternatives-302938167.html"
+  },
+  {
+   "time": "11-12 14:01",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Recognized in TRM Labs Disruption Awards",
+   "source": "fiscal.ai",
+   "url": "https://www.fidelity.com/news/article/default/202611121100PRIMZONEFULLFEED9876355"
+  },
+  {
+   "time": "11-12 14:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Releases Muse Ember AI Model",
+   "source": "fiscal.ai",
+   "url": "https://newsfilter.io/ticker/META"
+  },
+  {
+   "time": "11-12 14:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Provides One-Year Update on Future Ready 2030 Commitment",
+   "source": "fiscal.ai",
+   "url": "https://stockhouse.com/news/newswire/2026/11/12/amazon-updates-future-ready-2030-skills-plan-allocates-1-billion-to-career"
+  },
+  {
+   "time": "11-12 14:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "BetterUp Announces Collaboration with Microsoft to Support Managers",
+   "source": "fiscal.ai",
+   "url": "https://natlawreview.com/press-releases/betterup-announces-collaboration-microsoft-support-managers-they-lead-high"
+  },
+  {
+   "time": "11-12 14:01",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Related Ross Names Bank of America Official Bank of CityPlace",
+   "source": "fiscal.ai",
+   "url": "https://investingnews.com/related-ross-names-bank-of-america-official-bank-of-cityplace/"
+  },
+  {
+   "time": "11-12 14:01",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "Doncasters Acquires 50% Stake in Montana Precision Products",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/subject/merger-acquisition"
+  },
+  {
+   "time": "11-12 14:00",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Warren Buffett Said \u2018We Can Afford to Lose Money\u2019 But Not \u2018Even a Shred of Reputation\u2019 \u2014 Nvidia\u2019s Board Just Showed What That Means With Jensen Huang\u2019s Exit",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/legal/26/11/63213525/warren-buffett-said-we-can-afford-to-lose-money-but-not-even-a-shred-of-reputation-nvidias-board-just-showed-what-that-means-with-jensen-huang"
+  },
+  {
+   "time": "11-12 13:56",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Why Is CuriosityStream Stock Gaining Thursday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/11/63213273/why-is-curiositystream-stock-gaining-thursday"
+  },
+  {
+   "time": "11-12 13:44",
+   "symbols": [
+    "AMD",
+    "AVGO",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Why Is Qualcomm Stock Surging on Thursday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63212585/why-is-qualcomm-stock-surging-on-thursday"
+  },
   {
    "time": "11-12 13:38",
    "symbols": [

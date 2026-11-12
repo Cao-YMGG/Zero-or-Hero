@@ -1,4 +1,4 @@
-# Headlines since 2026-11-11 16:00 ET (as of 2026-11-12 13:46 ET)
+# Headlines since 2026-11-11 16:00 ET (as of 2026-11-12 14:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -39,6 +39,22 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-12 06:17 | NVDA | downgrade | Evercore ISI Group Downgrades NVIDIA to In-Line, Lowers Price Target to $186 |
 | 11-12 04:42 | NVDA | downgrade | Oppenheimer Downgrades NVIDIA to Perform |
 | 11-11 20:01 | MU | rating | Goldman Sachs Maintains Neutral Rating on Micron Technology |
+| 11-12 14:15 | META |  | ERock Stock Drops After Mixed Q3 Earnings |
+| 11-12 14:02 | AMD |  | AMD Management Expresses Confidence in CPU Revenue Doubling by 2027 |
+| 11-12 14:02 | CIEN |  | Ciena Announces Fiscal Fourth Quarter and Year-End 2026 Earnings Date |
+| 11-12 14:02 | CIEN |  | Blue Planet Collaborates with KDDI to Modernize Network Operations |
+| 11-12 14:02 | COIN |  | Coinbase Asset Management President to Participate in G20 Digital Asset Round Table |
+| 11-12 14:02 | COIN |  | Glider Launches Tokenized Stock Platform Backed by Coinbase Ventures |
+| 11-12 14:01 | GS |  | Goldman Sachs Alternatives Leads $345 Million Financing for Exus Renewables North America |
+| 11-12 14:01 | HOOD |  | Robinhood Recognized in TRM Labs Disruption Awards |
+| 11-12 14:01 | META |  | Meta Releases Muse Ember AI Model |
+| 11-12 14:01 | AMZN |  | Amazon Provides One-Year Update on Future Ready 2030 Commitment |
+| 11-12 14:01 | MSFT |  | BetterUp Announces Collaboration with Microsoft to Support Managers |
+| 11-12 14:01 | BAC |  | Related Ross Names Bank of America Official Bank of CityPlace |
+| 11-12 14:01 | GE |  | Doncasters Acquires 50% Stake in Montana Precision Products |
+| 11-12 14:00 | NVDA |  | Warren Buffett Said ‘We Can Afford to Lose Money’ But Not ‘Even a Shred of Reputation’ — Nvidia’s Board Just Showed What That Means With Jensen Huang’s Exit |
+| 11-12 13:56 | AMZN |  | Why Is CuriosityStream Stock Gaining Thursday? |
+| 11-12 13:44 | AMD AVGO NVDA |  | Why Is Qualcomm Stock Surging on Thursday? |
 | 11-12 13:38 | NVDA SMCI |  | Super Micro Stock Plunges Amid DOJ Probe Rumors |
 | 11-12 13:22 | AAPL NVDA |  | Can Nvidia Pull A Tim Cook? Apple's Post-Jobs Performance Offers Clues |
 | 11-12 13:01 | MU |  | CNBC Halftime Report Final Trades: Micron Technology, Digital Realty Trust, Natera, Moody's |
