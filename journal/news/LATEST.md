@@ -1,4 +1,4 @@
-# Headlines since 2026-11-12 16:00 ET (as of 2026-11-13 15:01 ET)
+# Headlines since 2026-11-12 16:00 ET (as of 2026-11-13 15:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -16,6 +16,11 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-13 07:31 | ORCL | rating | President Capital Adjusts Oracle Price Target to $323 |
 | 11-13 07:30 | TSLA | rating | GLJ Research Reiterates Sell on Tesla, Maintains $24.86 Price Target |
 | 11-13 06:31 | AVGO | downgrade | Rothschild & Co Redburn Downgrades Broadcom to Neutral |
+| 11-13 15:06 | NVDA TSLA V |  | Nancy Pelosi’s Nvidia Bet Just Cost Her Most Of A Year’s Pay — Thanks To Jensen Huang |
+| 11-13 15:01 | TSLA |  | Texas Attorney General Threatens Potential Tesla-SpaceX Merger |
+| 11-13 15:01 | NFLX |  | Netflix Announces New Animated Series 'PLANESWALKER' Based on Magic: The Gathering |
+| 11-13 15:01 | NFLX |  | Netflix Renews 'Virgin River' for Ninth Season |
+| 11-13 15:01 | GS |  | Goldman Sachs Advises TruGreen and CD&R on Transaction |
 | 11-13 14:58 | AVGO NVDA |  | QUICK SPARK: Broadcom Scores Historic Win Over Nvidia as AVGO-NVDA Gap Explodes |
 | 11-13 14:51 | META |  | 'Meta Testing New Prediction-Market App With Employees'- WSJ |
 | 11-13 14:45 | NVDA TSLA |  | Elon Musk's SpaceX–Tesla Merger 'Almost Inconceivable' to Avoid, Biographer Says |

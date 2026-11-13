@@ -1,7 +1,59 @@
 {
- "as_of": "2026-11-13T15:01-05:00",
+ "as_of": "2026-11-13T15:16-05:00",
  "since": "2026-11-12T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-13 15:06",
+   "symbols": [
+    "NVDA",
+    "TSLA",
+    "V"
+   ],
+   "rating": "",
+   "headline": "Nancy Pelosi\u2019s Nvidia Bet Just Cost Her Most Of A Year\u2019s Pay \u2014 Thanks To Jensen Huang",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/63264694/nancy-pelosis-nvidia-bet-just-cost-her-most-of-a-years-pay-thanks-to-jensen-huang"
+  },
+  {
+   "time": "11-13 15:01",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Texas Attorney General Threatens Potential Tesla-SpaceX Merger",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/tesla-spacex-merger-threatened-by-newly-elected-texas-attorney-general-ce785ed9de8cf523"
+  },
+  {
+   "time": "11-13 15:01",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Announces New Animated Series 'PLANESWALKER' Based on Magic: The Gathering",
+   "source": "fiscal.ai",
+   "url": "https://www.cgmagonline.com/news/netflix-planeswalker-magic-the-gatherings/"
+  },
+  {
+   "time": "11-13 15:01",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Renews 'Virgin River' for Ninth Season",
+   "source": "fiscal.ai",
+   "url": "https://www.avclub.com/article-type/news"
+  },
+  {
+   "time": "11-13 15:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Advises TruGreen and CD&R on Transaction",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/trugreen-announces-acquisition-by-birch-hill-equity-partners-302939072.html"
+  },
   {
    "time": "11-13 14:58",
    "symbols": [
