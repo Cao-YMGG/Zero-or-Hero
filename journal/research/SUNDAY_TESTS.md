@@ -371,7 +371,7 @@ in EVOLUTION.md.
    unlit in each period slice; it is NVDA/TSLA (22 trades, 59%, +58% vs 67 trades, 28%, -15%), not SPY (12 vs 7, no
    difference). Six lights, two sides and four exits were looked at, so this cell is a candidate, not a rule: item 62.
 
-62. **Chip breadth as a gate for stock_open_drive calls, and the put side (2026-11-12, from DROPS.md).** DONE 11-13, 00:50 ET
+62. **Chip breadth as a gate for stock_open_drive calls, and the put side (2026-11-12, from DROPS.md).** DONE 11-12, 23:50 ET
    (owner: "62 too, do not wait for Sunday"; journal/research/OPENGATE.md, zoh/research/opengate.py), result at the end. After an evening with
    >= 75% of the chip names below their own 20-day average, NVDA/TSLA calls at +0.8% from the open at 10:00 won 59% (+58% take3,
    +41% without the best two; 22 trades) against 28% (-15%; 67 trades) after other evenings, and lit beat unlit in the last 3
