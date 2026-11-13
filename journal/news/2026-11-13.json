@@ -1,7 +1,39 @@
 {
- "as_of": "2026-11-13T14:46-05:00",
+ "as_of": "2026-11-13T15:01-05:00",
  "since": "2026-11-12T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-13 14:58",
+   "symbols": [
+    "AVGO",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "QUICK SPARK: Broadcom Scores Historic Win Over Nvidia as AVGO-NVDA Gap Explodes",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63264147/broadcom-stock-beating-nvidia-record-week-jensen-huang"
+  },
+  {
+   "time": "11-13 14:51",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "'Meta Testing New Prediction-Market App With Employees'- WSJ",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63263848/meta-testing-new-prediction-market-app-employees-wsj"
+  },
+  {
+   "time": "11-13 14:45",
+   "symbols": [
+    "NVDA",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk's SpaceX\u2013Tesla Merger 'Almost Inconceivable' to Avoid, Biographer Says",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63263558/spacex-tesla-merger-2"
+  },
   {
    "time": "11-13 14:25",
    "symbols": [

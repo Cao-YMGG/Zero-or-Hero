@@ -1,4 +1,4 @@
-# Headlines since 2026-11-12 16:00 ET (as of 2026-11-13 14:46 ET)
+# Headlines since 2026-11-12 16:00 ET (as of 2026-11-13 15:01 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -16,6 +16,9 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-13 07:31 | ORCL | rating | President Capital Adjusts Oracle Price Target to $323 |
 | 11-13 07:30 | TSLA | rating | GLJ Research Reiterates Sell on Tesla, Maintains $24.86 Price Target |
 | 11-13 06:31 | AVGO | downgrade | Rothschild & Co Redburn Downgrades Broadcom to Neutral |
+| 11-13 14:58 | AVGO NVDA |  | QUICK SPARK: Broadcom Scores Historic Win Over Nvidia as AVGO-NVDA Gap Explodes |
+| 11-13 14:51 | META |  | 'Meta Testing New Prediction-Market App With Employees'- WSJ |
+| 11-13 14:45 | NVDA TSLA |  | Elon Musk's SpaceX–Tesla Merger 'Almost Inconceivable' to Avoid, Biographer Says |
 | 11-13 14:25 | AMZN |  | Amazon Issues An Update On Labour Proceedings In Delta, BC |
 | 11-13 14:15 | NVDA |  | CNBC Reporter Seema Mody Posts On X "Nvidia board to @CNBC:"We are in the process of selecting a search firm for the NVIDIA CEO role. We have not formally engaged any potential candidates. Any speculation regarding individual candidates, whether internal or external, is premature." |
 | 11-13 14:02 | CRM |  | Salesforce Ventures Participates in LangChain Funding Round |
