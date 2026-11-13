@@ -103,6 +103,14 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
   plain Chinese: the tally, each wrong idea in one line with its cause, the day's change, the running count of
   causes) and push it; Notify posts it. The pre-market and intraday sessions read the cause table at the bottom of
   journal/research/OPPORTUNITY_SCORES.md before listing ideas.
+  Every listed idea carries `conviction` (first post-mortem, 2026-11-13: 13 of 17 ideas wrong, and the record could not
+  tell the one I backed, the TSLA sniper, from the twelve I had listed while arguing against them; two of those, the AVGO
+  put after its downgrade and META as the no-news leader, were the day's only ideas that paid): `yes` = I would pick it
+  if the bar allowed, `maybe`, `no` = a control, listed because it fits a type or to watch a line. Say what I think
+  before the close; never fill it in afterwards. The record splits by it: if the `no` ideas pay as often as the `yes`
+  ones, the pick bar is not adding anything and that goes to SUNDAY_TESTS. Six of the thirteen wrong ideas that day
+  were `chased` (puts listed at 10:17 and 11:22 on names already 3-10% below their opens): an idea past the 3% line
+  is a `no` by construction, and one such control per check-in is enough.
 - Sundays 09:52 ET: weekly deep review (full protocol below, population cleanup, backtests).
 
 ## Noise gate (applies to the daily review)

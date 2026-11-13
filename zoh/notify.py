@@ -118,6 +118,7 @@ TYPES = {"analyst_upgrade": "评级上调", "contract_customer": "大合同/大�
          "sympathy": "跟涨跟跌", "put_mirror": "看跌镜像", "earnings_reaction": "财报后反应", "buyback": "回购",
          "turning_bounce": "转向板块的反弹"}
 GRADES = {"paid": "💰", "right": "✅", "wrong": "❌"}
+CONVICTION_CN = {"yes": "看好", "maybe": "拿不准", "no": "不看好，当对照"}
 EXITS_CN = {"half": "3 倍卖一半", "trail": "跟踪止盈", "time": "收盘前卖出", "expired": "到期作废",
             "take_profit": "止盈", "stop_loss": "止损", "time_noquote": "无报价按 0"}
 
@@ -146,7 +147,8 @@ def _usd(x):
 
 def opportunity_lines(items):
     return [f"{i}. {o.get('symbol')} {_dir(o.get('direction'))}｜{TYPES.get(o.get('type'), o.get('type'))}："
-            f"{_short(o.get('why_zh') or o.get('why'), 120)}（{ACTIONS.get(o.get('action', 'none'), '只记录')}）"
+            f"{_short(o.get('why_zh') or o.get('why'), 120)}（{ACTIONS.get(o.get('action', 'none'), '只记录')}"
+            + (f"；{CONVICTION_CN[o['conviction']]}" if o.get("conviction") in CONVICTION_CN else "") + "）"
             for i, o in enumerate(items or [], 1)]
 
 
@@ -226,9 +228,10 @@ def scored_lines(day, root=None):
         if rel not in (None, ""):
             rel = float(rel)
             against = f"，比大盘{'多' if rel >= 0 else '少'} {abs(rel):.2f}%" + ("，只是跟着大盘" if pct > 0 >= rel else "")
+        told = f"；我当时{CONVICTION_CN[o['conviction']]}" if o.get("conviction") in CONVICTION_CN else ""
         out.append(f"{GRADES[o.get('grade') or grade_of(pct)]} {o['symbol']} {_dir(o['direction'])}｜"
                    f"{TYPES.get(o['type'], o['type'])}：{o['time']} 起到收盘 {pct:+.2f}%{against}"
-                   f"（中间最好 {float(o['best_after_entry_pct']):+.2f}%）")
+                   f"（中间最好 {float(o['best_after_entry_pct']):+.2f}%{told}）")
     if not out:
         return out
     if repeats:

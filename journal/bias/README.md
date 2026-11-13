@@ -30,6 +30,8 @@ appears; the `claude_bias` / `claude_confirm` variants trade it in shadow mode.
     {"type": "rotation_laggard", "symbol": "META", "direction": "call", "time": "10:00",
      "why": "-12% in a week after its offering, green pre-market while GOOGL -11%",
      "why_zh": "发债后一周跌 12%，谷歌跌 11% 时它盘前反而是红的",   // plain Chinese for Discord
+     "conviction": "maybe",       // since 2026-11-16: "yes" (I would pick it if the bar allowed), "maybe",
+                                  // or "no" (a control: it fits a type or is past a line, I expect it to fail)
      "action": "none"}            // "real" (sniper / pick), "shadow" or "none"
   ],
   "zh": {                         // since 2026-11-02: plain Chinese for the Discord posts (the owner
