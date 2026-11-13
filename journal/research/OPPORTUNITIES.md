@@ -27,5 +27,16 @@ over the last 3 months (and without its best trade) earns a variant; most stay n
 | open_drive | 开盘 30 分钟走出方向 | spy_open_drive, stock_open_drive | variants |
 | macro_day | 宏观数据日 | GDP +3.4% 10-29, IWM +1.0% | list only |
 
+Scoring since 2026-11-13 (owner: "the scoring could be better"; the record is rebuilt after every run in
+journal/research/OPPORTUNITY_SCORES.md): each row is graded `paid` (the stock moved 1% or more the idea's way,
+about what a same-day option needs), `right` (the right side, not enough) or `wrong`, and carries what SPY did
+over the same minutes, so a put on a day everything fell gets no credit for the tape. A later mention of the
+same stock and direction on the same day is a repeat and is not counted again. The workflow scores at about
+15:48; a later run scores the row again to the real close (`final`). Use one of the keys above or one already in
+the record (`analyst`, `company_news`, `sector_move`, `relative_weakness`, `relative_strength`, `sympathy`,
+`earnings_reaction`, `put_mirror`): a new key starts a group of one. First read of the record (179 ideas, 12
+sessions): no edge as a whole (54% right, 28% paid, +0.05% against SPY); rating changes lead (13 ideas, 54% paid,
++1.4% against SPY); ideas added at the intraday checks trail the pre-market ones (19% paid against 35%).
+
 Evidence so far: journal/research/OPPORTUNITY_TESTS.md (daily bars), RUNUP.md, ANALYST.md,
 the dossiers. Open questions: SUNDAY_TESTS.md items 29-33.
