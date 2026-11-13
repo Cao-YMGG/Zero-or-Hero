@@ -328,6 +328,22 @@ in EVOLUTION.md.
    1.49 -> 2.80 -> 1.01, while the trail legs took +56%, (none affordable), +12%. Keep the heroes as they are (they are the
    control, not a strategy) and count the pairs on Sunday with the per-$1 table.
 
+61. **Were the drops traceable? (owner, 2026-11-13 talk: "these drops all had signs you could follow").** Test the claim both
+   ways, not only on the days that fell. (a) Events: every day since 2024-02 with SPY <= -1.5% close to close or SMH <= -4%, and
+   for 2026-10-01 onward by hand: 10-30, 11-02, 11-05 (theme drops) and 11-09, 11-12 (NVDA event gaps). (b) Lights on the evening
+   before, each computable from data we already have: chips `turning` in THEMES (fired 10-13), SMH >= 12% below its 20-day
+   closing high with SPY down < 1.5% over five days (the other Claude's condition, chosen after 11-05), AI-chain breadth
+   (share of the 16 names below their 20-day average), 10Y change over five days, and for the recent weeks a hand count of
+   financing / target-cut headlines on the chain (Melius 11-02, ORCL $20B, the AMZN supplier loan) and of company-specific
+   negatives on NVDA (from 11-08). (c) The base rate that decides it: on ALL evenings with the same lights on, how often a drop
+   followed within 1, 3 and 5 sessions; report hit rate, false-alarm rate and the lift over the unconditional rate, without the
+   best-known episode (2026-11-05) as well. THEMES already says `turning` alone is a coin flip for the theme (87 episodes: 34
+   continued, 25 recovered, 28 neither). (d) Split by kind: theme drops vs single-name event gaps; for event gaps measure the
+   gap against the open-to-close move (11-09 NVDA -7% gap then +3.2% from the open; 11-12 -13% gap then +10.0%), i.e. whether
+   'seeing it coming' could have been traded after the open at all. Use: if a combination of lights shows a lift >= 2x on >= 20
+   lit evenings, it becomes a sizing input for the ledgers on lit evenings (a ledger decision under the 11-09 mandate), not a
+   short signal; if not, it stays what it is today, a filter on what we do not buy.
+
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
   live entry) and intraday pick (10) since 10-01 on real option minute bars, 10% costs each way. Snipers,
