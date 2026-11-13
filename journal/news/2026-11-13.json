@@ -1,7 +1,69 @@
 {
- "as_of": "2026-11-13T12:33-05:00",
+ "as_of": "2026-11-13T13:15-05:00",
  "since": "2026-11-12T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-13 13:01",
+   "symbols": [
+    "AMZN",
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "CNBC Halftime Report Final: Caterpillar, Amazon, eBay",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/EBAY"
+  },
+  {
+   "time": "11-13 12:53",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Bessent Points Finger at Lutnick as White House Feud Over Nvidia Erupts",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63257278/bessent-lutnick-feud"
+  },
+  {
+   "time": "11-13 12:41",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "UnitedHealthcare Policy Assessment Urges Clearer Provider Guidance",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/11/63256553/unitedhealthcare-policy-assessment-urges-clearer-provider-guidance"
+  },
+  {
+   "time": "11-13 12:39",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "SpaceX, Tesla Merger Could Hit Democratic Roadblock: Jay Woods Unsure if Elon Musk Can 'Work His Magic'",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m-a/26/11/63256475/elon-musk-spacex-tesla-merger-democrat-roadblock-work-his-magic"
+  },
+  {
+   "time": "11-13 12:36",
+   "symbols": [
+    "MSFT",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Analyst Shrugs Off Nebius Data Center Delay As 'Slight Blemish' on Strong Quarter",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63256318/analyst-shrugs-off-nebius-data-center-delay-as-slight-blemish-on-strong-quarter"
+  },
+  {
+   "time": "11-13 12:32",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "Live On CNBC, Kevin Simpson Announces Bought More Caterpillar",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/CAT"
+  },
   {
    "time": "11-13 12:13",
    "symbols": [

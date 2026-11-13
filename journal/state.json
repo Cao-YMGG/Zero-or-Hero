@@ -14,7 +14,7 @@
         "peak": 0.26,
         "qty": 3,
         "last": 0,
-        "last_time": "2026-11-13T12:45:01-05:00"
+        "last_time": "2026-11-13T13:15:43-05:00"
       },
       "real": {
         "contract": "WMT261113C00131000",
@@ -36,7 +36,7 @@
         "peak": 0.26,
         "qty": 17,
         "last": 0,
-        "last_time": "2026-11-13T12:45:01-05:00"
+        "last_time": "2026-11-13T13:15:43-05:00"
       }
     },
     "catalyst_intraday_hero@2026-11-09": {
@@ -50,8 +50,8 @@
         "entry_price": 4.23,
         "peak": 5.27,
         "qty": 1,
-        "last": 0.04,
-        "last_time": "2026-11-13T12:45:01-05:00"
+        "last": 0.03,
+        "last_time": "2026-11-13T13:15:43-05:00"
       }
     },
     "catalyst_open_hero@2026-11-10": {
@@ -66,7 +66,7 @@
         "peak": 7.13,
         "qty": 4,
         "last": 0.03,
-        "last_time": "2026-11-13T12:45:01-05:00"
+        "last_time": "2026-11-13T13:15:43-05:00"
       }
     },
     "catalyst_open_hero@2026-11-12": {
@@ -81,7 +81,7 @@
         "peak": 4.17,
         "qty": 2,
         "last": 0,
-        "last_time": "2026-11-13T12:45:01-05:00"
+        "last_time": "2026-11-13T13:15:43-05:00"
       }
     },
     "catalyst_intraday_hero@2026-11-12": {
@@ -95,12 +95,25 @@
         "entry_price": 1.49,
         "peak": 2.8,
         "qty": 2,
-        "last": 0.03,
-        "last_time": "2026-11-13T12:45:01-05:00"
+        "last": 0,
+        "last_time": "2026-11-13T13:15:43-05:00"
       }
     },
     "claude_bias": {},
-    "meta_follow2": {},
+    "meta_follow2": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "META261113C00647500",
+        "direction": "call",
+        "entry_time": "2026-11-13T12:53:10-05:00",
+        "entry_price": 0.5,
+        "peak": 0.51,
+        "qty": 1,
+        "last": 0.15,
+        "last_time": "2026-11-13T13:15:43-05:00"
+      }
+    },
     "leader_follow": {},
     "rebound_scanner": {
       "attempts": 1,
@@ -112,8 +125,8 @@
         "entry_price": 0.71,
         "peak": 0.71,
         "qty": 1,
-        "last": 0.03,
-        "last_time": "2026-11-13T12:45:01-05:00"
+        "last": 0,
+        "last_time": "2026-11-13T13:15:43-05:00"
       }
     },
     "nvda_gapdown_put": {},
@@ -127,8 +140,8 @@
         "entry_price": 0.52,
         "peak": 0.52,
         "qty": 1,
-        "last": 0.01,
-        "last_time": "2026-11-13T12:45:01-05:00"
+        "last": 0.03,
+        "last_time": "2026-11-13T13:15:43-05:00"
       }
     },
     "catalyst_open_hero": {
@@ -141,8 +154,8 @@
         "entry_price": 0.52,
         "peak": 0.52,
         "qty": 7,
-        "last": 0.01,
-        "last_time": "2026-11-13T12:45:01-05:00"
+        "last": 0.03,
+        "last_time": "2026-11-13T13:15:43-05:00"
       }
     },
     "catalyst_intraday": {},
