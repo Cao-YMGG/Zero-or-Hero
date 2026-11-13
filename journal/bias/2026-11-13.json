@@ -1,0 +1,171 @@
+{
+  "date": "2026-11-13",
+  "bias": "none",
+  "confidence": 0.3,
+  "p_up": 0.53,
+  "summary": "October PPI came in a tenth under the consensus on the headline (+0.3% m/m against +0.4%, 6.5% y/y against 6.6%, after +1.3% in September) and SPY went from +0.39% to +0.71% pre-market in three minutes (762.53 at 08:33, at Thursday's 763.04 high, after +2.9% on the week). The relief is priced before the open and the core is not soft (ex food, energy and trade +0.5% m/m, 4.9% y/y; goods +0.5%), so the print does not take the December hike off the table (CME: 87% for 25bp, 13% for 50bp before the release; 10Y 5.13%). Chips are split (NVDA +2.3% on day two after the resignation, AMD -2.7%, AVGO -2.3% on a downgrade), Microsoft's outage runs into a second day, oil is back above $88 WTI on Trump's 'we don't need a deal with Iran'. Open to close is a coin flip with a small lean up: no SPY trade.",
+  "reasons": [
+    "08:30 PPI (BLS release page, read 08:33): final demand +0.3% m/m (consensus +0.4%, September +1.3%), 6.5% y/y (consensus 6.6%, September 6.3%); less foods, energy and trade services +0.5% m/m and 4.9% y/y; goods +0.5%, services +0.2%. Headline a tenth cool, core firm. The standard core (ex food and energy) m/m against its +0.3% consensus was not on the page I could read.",
+    "Reaction (Alpaca IEX prints; Webull is not connected): SPY 760.10 (+0.39%) before the print, 762.53 (+0.71%) at 08:33; QQQ +0.58%, IWM +0.43%, MU from -0.7% to +0.7%, NVDA 170.04 (+2.3%). A gap of about +0.7% opens SPY at Thursday's high (763.04, reached 11:23 before fading to 757.12).",
+    "p_up 0.53: the news is in the gap (OVERNIGHT.md: the gap barely predicts open to close); for it, the week's momentum (S&P +2.9%, Nasdaq +3.2%), breadth this morning (IWM, XLF +0.5%, XLE +0.5% up with the index) and VIX 18.3 (-2.3%); against it, a firm core that leaves the 12-09 hike in place, the 10Y at 5.13% (+2bp before the print, the cycle high), Bowman 10:50 and Daly 12:00, and a Friday after a +2.9% week with monthly expiry next week.",
+    "Rates and oil: CME FedWatch before the print (CNBC): 87% for a 25bp hike on 12-09 and 13% for 50bp, after Tuesday's hot CPI (+0.4% / core +0.3%); 2Y about 4.85%; dollar index at an 18-month high (Saxo). WTI above $88 and Brent above $96 after Trump's 'We don't need a deal with Iran' (USO +3.3% Thursday, -0.5% pre-market).",
+    "Thursday: SPY -0.35% close to close but +0.42% open to close (753.93 -> 757.12); NVDA opened -13% on Huang's resignation and closed -4.3% (+10% from its open); SMH -1.0%, IWM -1.6%, TLT -1.5%.",
+    "Overnight: Nikkei about +1%, Kospi -0.7% (SK Hynix -2%), Hang Seng -1%; STOXX 600 -0.2% from Thursday's record, chip names lower (Siltronic, Aixtron); Richemont -7%. Cerebras +17% pre-market (raised its 2026 revenue forecast, names Microsoft as a customer); Cisco -3% after a beat and a raised year (first day after its report); Applied Materials -0.8% after a beat.",
+    "Drop lights at Thursday's close (python -m zoh.research.drops --today): breadth and rates lit, stretched not lit. Both mark nothing about direction (DROPS.md); no change to p_up.",
+    "Pre-market down gaps of 2% or more in the rebound_scanner universe (08:17 consolidated tape): AMD -2.7% (569.70; no news of its own, giving back Thursday's +5.9%), COIN -2.6% (bitcoin under $69K, Korea's NPS cut its stake), AVGO -2.3% (Rothschild & Co Redburn to Neutral, target $398). HOOD -1.8% is under the line.",
+    "Dossiers: AMD's down gaps of 2% or more continued only 42% of the time (it tends to bounce), which is the scanner's trade today, not a sniper: there is no AMD news this morning. META is flat (+0.2%) with nothing of its own.",
+    "Earnings window: NVDA reports Tuesday 11-17 (two sessions away: allowed today, not picked). Next week's retailers (WMT, HD, TGT, LOW) are not in config/earnings.json and the Webull calendar cannot be read, so none of them is a sniper today (Wells Fargo raised its WMT target to $135).",
+    "Unconfirmed: the Benzinga line 'GE Vernova Raises 2026 Financial Guidance' (11-12 16:31) has no second source; the only raise found is the 10-28 quarter. GEV +1.3% pre-market is not used.",
+    "Inputs missing: Webull is not connected (pre-market rankings, analyst targets, earnings calendar). Prices are Alpaca consolidated-tape minute bars to 08:17 and IEX prints after; the rotation map is Alpaca daily bars."
+  ],
+  "events": [
+    "08:30 ET October PPI: +0.3% m/m (exp +0.4%), 6.5% y/y (exp 6.6%); ex food, energy and trade +0.5% m/m",
+    "Fed: Bowman 10:50, Daly 12:00, Paulson 18:30, Jefferson 19:00 (calendars differ on the list)",
+    "Earnings reactions: CSCO, AMAT (reported Thursday after the close); NVDA Tuesday 11-17",
+    "Expiring today: real WMT 131C x3, shadows AMD 617.5C, AVGO 377.5C, TSM 415C, LLY 1470C",
+    "Next week: monthly options expiry (the open-drive ledgers skip it)"
+  ],
+  "inputs": {
+    "es_futures_pct": 0.71,
+    "nq_futures_pct": 0.58,
+    "vix": 18.27,
+    "wti": 88.0,
+    "wti_pct": null,
+    "brent": 96.0,
+    "us10y": 5.13,
+    "us10y_change_bp": 2,
+    "us2y": 4.85,
+    "us2y_change_bp": null,
+    "dxy_pct": 0.2,
+    "vixy_pct": -0.6,
+    "overnight": "Pre-market vs Thursday's close. 08:17 ET (Alpaca consolidated tape, 16 minutes delayed): SPY 759.50 (+0.31%), QQQ +0.06%, SMH 500.90 (-0.17%), IWM +0.11%, TLT -0.41%, USO -0.51%, XLF +0.52%, XLE +0.50%, VIXY -0.63%; NVDA 168.98 (+1.7%), AMD 569.70 (-2.7%), AVGO 355.88 (-2.3%), MSFT 516.75 (-1.2%, low 506.12), AMZN +1.1%, GOOGL +1.1%, TSLA 400.80 (+0.8%), AAPL +0.5%, META +0.2%, MU -0.9%, ORCL +0.7%, CSCO -3.0%, AMAT -0.8%, COIN -2.6%, HOOD -1.8%, GEV +1.3%. After the 08:30 print (Alpaca IEX; Yahoo for TSLA): SPY 762.53 (+0.71%) at 08:33, QQQ 692.17 (+0.58%), IWM +0.43%, NVDA 170.04 (+2.3%), MU 803.96 (+0.7%), TSLA 404.02 (+1.65%) at 08:34. es/nq fields are the SPY and QQQ moves. us10y and the FedWatch odds are from before the print (CNBC); the 10Y after the print could not be read. dxy_pct is the Bloomberg dollar index in Asia (Saxo). Sources: BLS, CNBC live blog, Benzinga via Alpaca news, Saxo, investingLive, Yahoo quote pages; Webull not connected."
+  },
+  "rotation": {
+    "heating": [
+      "CPU: +27.2% 1w off the 11-05 low (AMD +5.9% Thursday on its second upgrade of the week), still -17.1% 1m; AMD -2.7% pre-market",
+      "optical +25.0% 1w / -24.3% 1m, memory +18.9% / -22.9%, disk +16.6% / -19.1%: the whole AI-hardware chain bounced 12-27% in five sessions (SMH +12.1% 1w, -11.2% 1m) and is still below its 20-day and 100-day averages",
+      "power: +12.7% 1w / -12.2% 1m (GEV, VST; THEMES REL_STRONG)",
+      "industrials: +7.2% 1w / -5.6% 1m (THEMES BREADTH_UP, PERIPH_UP; CAT +1.0% pre-market)",
+      "health +3.5% 1w / +10.2% 1m, consumer +0.3% / +12.6%, XLF +6.8% 1m: the month's leaders, quiet this week; XLF and XLE +0.5% pre-market"
+    ],
+    "cooling": [
+      "GPU: NVDA -8.5% 1w / -24.9% 1m; Huang resigned 11-12, eight downgrades in two days, a House subpoena threat at 08:26 today, report on 11-17; +2.3% pre-market",
+      "internet: +2.5% 1w / -4.5% 1m, two THEMES turn flags (BREADTH, PERIPH); MSFT -1.2% pre-market on a second day of the Outlook / M365 outage, AMZN and GOOGL +1.1%",
+      "custom silicon: AVGO +25% 1w, then Rothschild & Co Redburn to Neutral this morning (-2.3%)",
+      "small caps and bonds: IWM -1.6% and TLT -1.5% Thursday (TLT -2.7% 1w)"
+    ],
+    "theme_state": {
+      "turning": [],
+      "heating": [],
+      "neutral": [
+        "chips",
+        "internet",
+        "software",
+        "banks",
+        "health",
+        "energy",
+        "consumer",
+        "industrials",
+        "power",
+        "optical"
+      ],
+      "lights": [
+        "breadth",
+        "rates"
+      ],
+      "source": "python -m zoh.research.themes --today and drops --today, bars to 2026-11-12 (chips: BREADTH turn flag with REL_STRONG; internet: BREADTH, PERIPH; power REL_STRONG; optical BREADTH with REL_STRONG, PERIPH_UP; banks, health, consumer, industrials BREADTH_UP)",
+      "filter": "No theme is turning today: chips left the state after the week's bounce and internet has two flags, one short. SMH (501.73) is below its 20-day average (520.72) and its 100-day (568.91): a bounce inside a downtrend, so no sympathy calls on chip names; the put mirror applies if SMH is below its open at 11:00 with AMD or AVGO, already gapping down, below theirs. stock_open_drive does not trade on Fridays; its real-money gate (SMH below its 20-day average) reads on."
+    },
+    "events": [
+      "NVDA report 11-17; monthly expiry week 11-16 to 11-20"
+    ]
+  },
+  "sniper": {
+    "symbol": "TSLA",
+    "direction": "call",
+    "confidence": 0.25,
+    "catalyst": "Own news from the last day: Bloomberg (carried by Reuters, Benzinga 16:31 Thursday and 24/7 Wall St. this morning) reports the Tesla-SpaceX merger talks are advancing, with special board committees negotiating structure and share-exchange terms and an announcement possible around Tesla's 12-03 shareholder meeting. It broke Thursday afternoon (TSLA +1.7% on the day, +0.6% after hours) and the gap is small: 400.80 (+0.8%) at 08:17, 404.02 (+1.65%) at 08:34 after the PPI. Against it: five gains in a row and +16% on the week, the best run since September 2025, so part of it is priced; no terms and no company statement; GLJ repeats its Sell. Not in a report window. Same-day expiry (Friday). Shadow only (catalyst_open carries no real stake since 11-09; the hero shadow takes the full-ledger sample).",
+    "wrong_if": "TSLA is below its open at 10:00, or a report before then that the talks have stalled or slipped into 2027."
+  },
+  "opportunities": [
+    {
+      "type": "company_news",
+      "symbol": "TSLA",
+      "direction": "call",
+      "time": "09:31",
+      "action": "shadow",
+      "why": "Sniper (see sniper): merger talks with SpaceX advancing per Bloomberg, announcement possible around 12-03; gap +0.8% to +1.65%; five up days and +16% on the week argue part is priced. Confidence 0.25.",
+      "why_zh": "狙击（见上）：彭博报道特斯拉和 SpaceX 的合并谈判在推进，最快 12 月 3 日股东大会前后宣布；盘前只高开 0.8% 到 1.65%。风险是已经连涨五天、一周涨 16%。只记影子。"
+    },
+    {
+      "type": "gapdown_rebound",
+      "symbol": "AMD",
+      "direction": "call",
+      "time": "10:00",
+      "action": "none",
+      "why": "AMD -2.7% pre-market with no news of its own, giving back Thursday's +5.9% (two upgrades this week). Its dossier: down gaps of 2% or more continued only 42% of the time. The rebound_scanner shadow handles it if it reclaims.",
+      "why_zh": "AMD 盘前跌 2.7%，没有自己的坏消息，只是把昨天的 +5.9% 吐回一部分。它的历史是低开 2% 以上多半反弹（继续跌的只有 42%）。"
+    },
+    {
+      "type": "analyst",
+      "symbol": "AVGO",
+      "direction": "put",
+      "time": "09:31",
+      "action": "none",
+      "why": "Rothschild & Co Redburn cuts Broadcom to Neutral (target $398) after +25% in a week; -2.3% pre-market. ANALYST.md: downgrades follow through 48% of the time, so this is a control, not a pick.",
+      "why_zh": "Rothschild 把博通下调到中性（目标价 398），前面一周涨了 25%，盘前跌 2.3%。我们的统计是下调评级之后继续跌的只有 48%，所以只记录、不选。"
+    },
+    {
+      "type": "company_news",
+      "symbol": "MSFT",
+      "direction": "put",
+      "time": "09:31",
+      "action": "none",
+      "why": "Outlook / Microsoft 365 outage into a second day, spilling over to OpenAI and Anthropic services; -1.2% pre-market after -3% at the low. A put sniper needs a SPY put day, and outages usually fade once service is back ('early signs of stabilization').",
+      "why_zh": "微软 Outlook / 365 宕机进入第二天，还波及 OpenAI 和 Anthropic 的服务；盘前最低跌 3%，现在跌 1.2%。今天不是看跌日，而且宕机修好后通常就没事了，只记录。"
+    },
+    {
+      "type": "company_news",
+      "symbol": "NVDA",
+      "direction": "call",
+      "time": "09:31",
+      "action": "none",
+      "why": "Day two after the resignation landed: +2.3% pre-market after closing +10% above Thursday's open. No upgrade (eight downgrades in two days), a House subpoena threat at 08:26, and the report is Tuesday. A rebound on momentum alone, so not the sniper.",
+      "why_zh": "英伟达辞职消息落地后的第二天，盘前 +2.3%（昨天从开盘价反弹了 10%）。但没有任何上调评级，今早国会又威胁传唤，周二还有财报：只是惯性反弹，不选。"
+    },
+    {
+      "type": "earnings_reaction",
+      "symbol": "CSCO",
+      "direction": "put",
+      "time": "10:00",
+      "action": "none",
+      "why": "Cisco -3.0% pre-market after beating and raising its year (revenue +24%); in August it also beat and fell 8% the next day. First trading day after a report: never a sniper, listed to score the reaction.",
+      "why_zh": "思科财报超预期、还上调全年指引，盘前反而跌 3%（8 月那次也是超预期后第二天跌 8%）。财报后第一天按规则不选，只记录看反应。"
+    },
+    {
+      "type": "sector_move",
+      "symbol": "XLF",
+      "direction": "call",
+      "time": "10:00",
+      "action": "none",
+      "why": "Banks +0.5% pre-market with the 10Y at 5.13% and a hike priced for 12-09; XLF +6.8% on the month, BREADTH_UP in THEMES. Friday expiries only.",
+      "why_zh": "银行股盘前 +0.5%：10 年期利率 5.13%、12 月加息基本定价，利差对银行有利；金融板块这个月涨 6.8%。"
+    },
+    {
+      "type": "gapdown_rebound",
+      "symbol": "COIN",
+      "direction": "call",
+      "time": "10:00",
+      "action": "none",
+      "why": "COIN -2.6% pre-market with bitcoin under $69K and Korea's NPS trimming its stake; a scanner-universe gap, no catalyst for a turn.",
+      "why_zh": "Coinbase 盘前跌 2.6%（比特币跌破 6.9 万美元、韩国国民年金减持）。在反弹扫描的名单里，但没有反转的理由，只记录。"
+    }
+  ],
+  "generated_at": "2026-11-13T08:36:35-05:00",
+  "zh": {
+    "summary": "08:30 的生产者价格（PPI）比预期低一点：环比 +0.3%（预期 +0.4%，上月 +1.3%），同比 6.5%（预期 6.6%）。标普 ETF 三分钟内从 +0.4% 拉到 +0.7%（762.5，正好到昨天的高点）。但去掉食品、能源和贸易后的核心还是 +0.5%，不算软，12 月加息基本还在（公布前定价 87% 加 25 个基点、13% 加 50 个基点），10 年期利率 5.13%。芯片分化：英伟达 +2.3%（辞职后第二天反弹），AMD -2.7%、博通 -2.3%（被下调评级）。微软宕机进入第二天（-1.2%）。油价回到 88 美元上方（特朗普说「不需要和伊朗达成协议」）。",
+    "spy": "不做。收在开盘价上方的概率 53%：好消息已经在高开里了（开盘就在昨天的高点、这周已涨 2.9%），核心通胀不软、利率在高位、今天还有两位美联储官员讲话；但市场宽度不错（小盘股、银行、能源都跟涨），所以略偏多、不够下注。",
+    "sniper": "特斯拉看涨（信心 0.25，只记影子）：彭博报道特斯拉和 SpaceX 的合并谈判在推进，双方董事会的特别委员会在谈结构和换股条件，最快 12 月 3 日股东大会前后宣布。消息是昨天下午出的，盘前只高开 0.8% 到 1.65%。风险：已经连涨五天、一周涨 16%，一部分已经在价格里；公司没有正式表态。10:00 如果跌回开盘价下方就算错。今天没有大盘股被上调评级。",
+    "rotation": "升温：整条 AI 硬件链从 11-05 的低点五天反弹了 12% 到 27%（CPU、光模块、存储、硬盘、电力），但都还在 20 日线和 100 日线下方，是下跌趋势里的反弹；工业一周 +7%；医疗、消费、金融是这个月的领涨、这周安静。降温：英伟达（一周 -8.5%、一月 -25%，周二财报）；互联网（微软最弱）；博通涨了 25% 后今早被下调；小盘股和长债昨天各跌 1.5%。今天没有主题处于「转向」状态。"
+  }
+}
