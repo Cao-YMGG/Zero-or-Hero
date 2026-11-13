@@ -1,9 +1,10 @@
-# Headlines since 2026-11-12 16:00 ET (as of 2026-11-13 10:32 ET)
+# Headlines since 2026-11-12 16:00 ET (as of 2026-11-13 11:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-13 10:40 | NVDA | target down | Barclays Maintains Overweight on NVIDIA, Lowers Price Target to $210 |
 | 11-13 10:31 | XOM | target up | Barclays Maintains Overweight on ExxonMobil Holdings, Raises Price Target to $206 |
 | 11-13 09:35 | NVDA | downgrade | Truist Securities Downgrades NVIDIA to Hold, Lowers Price Target to $174 |
 | 11-13 09:31 | CVX | target up | Barclays Maintains Chevron Hold Rating and Raises Price Target |
@@ -12,6 +13,12 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-13 07:31 | ORCL | rating | President Capital Adjusts Oracle Price Target to $323 |
 | 11-13 07:30 | TSLA | rating | GLJ Research Reiterates Sell on Tesla, Maintains $24.86 Price Target |
 | 11-13 06:31 | AVGO | downgrade | Rothschild & Co Redburn Downgrades Broadcom to Neutral |
+| 11-13 11:01 | TSLA |  | Form Energy Appoints Former Tesla Executive Jon McNeill to Board of Directors |
+| 11-13 11:01 | ORCL |  | Oracle Enhances Primavera Unifier with AI Capabilities |
+| 11-13 11:01 | WMT |  | Store Recalls Report Identifies Walmart in 81 Official U.S. Recalls for 2026 |
+| 11-13 10:58 | MSFT NVDA |  | Nebius Stock Falls Nearly 17%; Weak Outlook, Nvidia Turmoil and Nscale’s Wider Loss Rattle Neoclouds |
+| 11-13 10:56 | MSFT |  | Microsoft Just Relived the CrowdStrike Nightmare. But There’s One Crucial Difference |
+| 11-13 10:49 | NVDA |  | Bitcoin Could Crash Below $10,000, Peter Schiff Warns: ‘Get the Hell Out’ |
 | 11-13 10:23 | GOOGL |  | Your AI Health Advice May Be Influenced by Drug Ads, Study Finds |
 | 11-13 10:18 | MU |  | Micron, Moody’s, Digital Realty and a Health Care Stock on CNBC’s ‘Final Trades’ |
 | 11-13 10:15 | LITE |  | Here’s How Much You Would Have Made Owning Lumentum Holdings Stock In The Last 5 Years |
