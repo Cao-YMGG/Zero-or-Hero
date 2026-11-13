@@ -1,7 +1,27 @@
 {
- "as_of": "2026-11-13T14:16-05:00",
+ "as_of": "2026-11-13T14:46-05:00",
  "since": "2026-11-12T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-13 14:25",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Issues An Update On Labour Proceedings In Delta, BC",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63262456/amazon-issues-update-labour-proceedings-delta-bc"
+  },
+  {
+   "time": "11-13 14:15",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "CNBC Reporter Seema Mody Posts On X \"Nvidia board to @CNBC:\"We are in the process of selecting a search firm for the NVIDIA CEO role. We have not formally engaged any potential candidates. Any speculation regarding individual candidates, whether internal or external, is premature.\"",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63261821/cnbc-reporter-seema-mody-posts-x-nvidia-board-cnbc-we-are-process-selecting-search-firm-nvidia-ceo-r"
+  },
   {
    "time": "11-13 14:02",
    "symbols": [
