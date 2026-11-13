@@ -136,19 +136,23 @@ def half_out(shadow, bid, variant):
     return shadow.get("qty", 1) >= 2 or bool(variant.get("single_take"))
 
 
-def start_ledgers(config, today):
-    """Roll the per-variant ledgers for today and fix each one's stake and pause state, like
-    equity_start for the main ledger. Returns {variant: {"equity", "paused", "generation"}}."""
+def start_ledgers(config, today, api=None):
+    """Roll the per-variant ledgers for today and fix each one's stake, pause state and real-money
+    gate (ledgers.real_gate), like equity_start for the main ledger.
+    Returns {variant: {"equity", "paused", "generation", "gated"}}."""
     cfg = config["ledgers"]
     book = ledgers.roll(ledgers.load(), cfg, today)
     ledgers.save(book)
     trades = journal.read_trades()
+    variants = {v["id"]: v for v in config.get("variants", [])}
     out = {}
     for vid in cfg.get("variants", []):
+        ok, note = ledgers.real_gate(api, variants.get(vid), today)
         out[vid] = {"equity": ledgers.equity(book, vid, cfg), "generation": book[vid]["generation"],
-                    "paused": ledgers.paused(trades, vid, cfg)}
+                    "paused": ledgers.paused(trades, vid, cfg), "gated": not ok}
         log(f"ledger {vid}: generation {out[vid]['generation']}, ${out[vid]['equity']:.2f}"
-            + (" (paused)" if out[vid]["paused"] else ""))
+            + (" (paused)" if out[vid]["paused"] else "")
+            + (f" ({'real orders on' if ok else 'shadow only today'}: {note})" if note else ""))
     return out
 
 
@@ -427,11 +431,14 @@ class Bot:
             # Its own ledger: sized on that ledger, independent of the main one's themes; one
             # contract at most since 2026-11-09 (max_contracts).
             cfg = self.config.get("ledgers", {})
-            real_qty = 0 if own["paused"] else cap_contracts(real_contracts(
+            held = own["paused"] or own.get("gated")
+            real_qty = 0 if held else cap_contracts(real_contracts(
                 own["equity"], cfg.get("risk", 0.2), pick["ask"],
                 cfg.get("one_contract_cap", REAL_ONE_CONTRACT_CAP)), cfg)
             if own["paused"]:
                 log(f"{variant['id']}: shadow only (its ledger is paused after a losing streak)")
+            elif own.get("gated"):
+                log(f"{variant['id']}: shadow only (its real_when condition did not hold at the last close)")
         elif variant["id"] == self.state["champion"] and champion_real:
             real_qty = qty
         else:
@@ -769,7 +776,7 @@ def main():
             log(f"RESET NEEDED: equity ${equity:.2f} < ${config['dead_equity']}; shadow only today")
             state["reset_needed"] = True
         if config.get("ledgers"):
-            state["ledgers"] = start_ledgers(config, now.date().isoformat())
+            state["ledgers"] = start_ledgers(config, now.date().isoformat(), api)
         journal.save_state(state)
     log(f"equity ${state['equity_start']:.2f} phase={state['phase']} "
         f"champion={state['champion']} until={until} exit={exit_at} dry_run={args.dry_run}")

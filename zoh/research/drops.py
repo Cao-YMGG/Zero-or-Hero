@@ -76,20 +76,26 @@ def runs(lit, quiet=QUIET):
     return out
 
 
-def lights_at(i, days, spy_bars, spy, smh, tlt, idx, members):
-    turn, heat = flags(idx, spy_bars, members, days, i)
+def breadth_share(i, days, members):
+    """Share of the theme's names closing below their own 20-day average (None with no data)."""
     window = days[i - 19:i + 1]
     below = []
     for m in members:
         closes = [m[d][1] for d in window if d in m]
         if days[i] in m and len(closes) >= 10:
             below.append(m[days[i]][1] < st.mean(closes))
+    return sum(below) / len(below) if below else None
+
+
+def lights_at(i, days, spy_bars, spy, smh, tlt, idx, members):
+    turn, heat = flags(idx, spy_bars, members, days, i)
+    share = breadth_share(i, days, members)
     got = {
         "turning": state_of(turn, heat) == "turning",
         "diverge": bool(turn["DIVERGE"]),
         "stretched": bool(smh[i] and smh[i] / max(x for x in smh[i - 19:i + 1] if x) - 1 <= -0.12
                           and spy[i] / spy[i - 5] - 1 > -0.015),
-        "breadth": bool(below) and sum(below) / len(below) >= 0.75,
+        "breadth": share is not None and share >= 0.75,
         "rates": bool(tlt[i] and tlt[i - 5] and tlt[i] / tlt[i - 5] - 1 <= -0.02),
     }
     n = sum(got[k] for k in SINGLE)
@@ -137,7 +143,8 @@ def study(api, start):
         row["fwd_spy"] = spy[i + 5] / spy[i] - 1 if i + 5 < len(days) else None
         row["fwd_smh"] = smh[i + 5] / smh[i] - 1 if i + 5 < len(days) and smh[i] else None
         rows.append(row)
-    return {"days": days, "bars": bars, "spy": spy, "smh": smh, "rs": rs, "rm": rm, "rows": rows}
+    return {"days": days, "bars": bars, "spy": spy, "smh": smh, "rs": rs, "rm": rm, "rows": rows,
+            "members": members}
 
 
 def window_rows(rows, lo=None, hi=None):

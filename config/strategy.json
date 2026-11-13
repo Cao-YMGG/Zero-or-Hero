@@ -283,7 +283,11 @@
         0,
         2
       ],
-      "half_at": 3.0
+      "half_at": 3.0,
+      "real_when": {
+        "symbol": "SMH",
+        "below_average": 20
+      }
     }
   ],
   "ledgers": {
