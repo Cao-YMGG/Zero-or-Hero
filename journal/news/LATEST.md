@@ -1,14 +1,27 @@
-# Headlines since 2026-11-12 16:00 ET (as of 2026-11-13 08:33 ET)
+# Headlines since 2026-11-12 16:00 ET (as of 2026-11-13 10:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-13 09:35 | NVDA | downgrade | Truist Securities Downgrades NVIDIA to Hold, Lowers Price Target to $174 |
+| 11-13 09:31 | CVX | target up | Barclays Maintains Chevron Hold Rating and Raises Price Target |
 | 11-13 08:07 | AVGO | downgrade | Rothschild & Co Downgrades Broadcom to Neutral, Lowers Price Target to $398 |
 | 11-13 07:32 | GS | upgrade | Goldman Sachs Upgrades DT Midstream to Neutral |
 | 11-13 07:31 | ORCL | rating | President Capital Adjusts Oracle Price Target to $323 |
 | 11-13 07:30 | TSLA | rating | GLJ Research Reiterates Sell on Tesla, Maintains $24.86 Price Target |
 | 11-13 06:31 | AVGO | downgrade | Rothschild & Co Redburn Downgrades Broadcom to Neutral |
+| 11-13 09:51 | NVDA |  | Options Traders Expect Nvidia's Biggest Earnings Move Since 2024 |
+| 11-13 09:50 | TSLA |  | 'Elon Musk’s AI Group Guts Grok Video Generation Team'- The Information |
+| 11-13 09:50 | MSFT |  | Microsoft Outage Hit More Than Outlook: Even Its Cybersecurity Defenses Were Affected |
+| 11-13 09:42 | NVDA |  | Colette Kress’ First Nvidia Earnings Call Without Jensen Huang: 5 Things Investors Need to Hear |
+| 11-13 09:38 | META ORCL |  | Meta’s TikTok Threat Just Became Bigger Than Oracle |
+| 11-13 09:33 | JPM |  | JPMorgan Chase's Indirect Stake in Ubisoft Surpasses 10% |
+| 11-13 09:31 | LLY |  | EU Regulator Advises Additional Contraception Precautions for Mounjaro Patients |
+| 11-13 09:31 | PLTR |  | South Korea's National Pension Service Increases Exposure to Defense and Space Stocks |
+| 11-13 09:22 | NVDA |  | Jim Cramer Questions If Jensen Huang Betrayed Nvidia Shareholders, Says Former CEO Let Investors Down: ‘Yes. End Of Story’ |
+| 11-13 09:15 | LLY |  | Here’s How Much You Would Have Made Owning Eli Lilly Stock In The Last 5 Years |
+| 11-13 09:06 | ORCL |  | Oracle Commodity Holding Corp. Increases Private Placement to $150,000 |
 | 11-13 08:30 | NVDA |  | SemiAnalysis Suspects US Intelligence Role in Jensen Huang’s Exit as China Chip Crackdown Looms |
 | 11-13 08:29 | META |  | Newsmax Delivers Its Strongest Quarter Since Going Public |
 | 11-13 08:26 | NVDA |  | Jensen Huang Faces Subpoena Threat As 3 Republican-Led House Committees Demand Closed-Door Testimony Over Nvidia’s China Ties |

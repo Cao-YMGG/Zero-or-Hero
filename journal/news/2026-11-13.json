@@ -1,7 +1,138 @@
 {
- "as_of": "2026-11-13T08:33-05:00",
+ "as_of": "2026-11-13T10:02-05:00",
  "since": "2026-11-12T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-13 09:51",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Options Traders Expect Nvidia's Biggest Earnings Move Since 2024",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/opinion/26/11/63240720/options-traders-expect-nvidia-biggest-earnings-move-since-2024"
+  },
+  {
+   "time": "11-13 09:50",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "'Elon Musk\u2019s AI Group Guts Grok Video Generation Team'- The Information",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63240634/elon-musk-s-ai-group-guts-grok-video-generation-team-information"
+  },
+  {
+   "time": "11-13 09:50",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Outage Hit More Than Outlook: Even Its Cybersecurity Defenses Were Affected",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63240632/microsoft-outage-defender-security"
+  },
+  {
+   "time": "11-13 09:42",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Colette Kress\u2019 First Nvidia Earnings Call Without Jensen Huang: 5 Things Investors Need to Hear",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/previews/26/11/63239519/colette-kress-nvidia-earnings"
+  },
+  {
+   "time": "11-13 09:38",
+   "symbols": [
+    "META",
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Meta\u2019s TikTok Threat Just Became Bigger Than Oracle",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63238952/meta-tiktok-threat-bytedance"
+  },
+  {
+   "time": "11-13 09:35",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "downgrade",
+   "headline": "Truist Securities Downgrades NVIDIA to Hold, Lowers Price Target to $174",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63238422/truist-securities-downgrades-nvidia-hold-lowers-price-target-174"
+  },
+  {
+   "time": "11-13 09:33",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase's Indirect Stake in Ubisoft Surpasses 10%",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/jpmorgan-chase-s-indirect-stake-in-ubisoft-surpasses-10-ce785ed9d188fe23"
+  },
+  {
+   "time": "11-13 09:31",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "target up",
+   "headline": "Barclays Maintains Chevron Hold Rating and Raises Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1004587082/barclays-maintains-chevron-cvxus-with-hold-rating-raises-target-price"
+  },
+  {
+   "time": "11-13 09:31",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "EU Regulator Advises Additional Contraception Precautions for Mounjaro Patients",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/dow-jones/202611135239/eu-regulator-advises-extra-birth-control-precautions-for-patients-of-lillys-mounjaro"
+  },
+  {
+   "time": "11-13 09:31",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "South Korea's National Pension Service Increases Exposure to Defense and Space Stocks",
+   "source": "fiscal.ai",
+   "url": "https://www.koreaherald.com/article/10936767"
+  },
+  {
+   "time": "11-13 09:22",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Jim Cramer Questions If Jensen Huang Betrayed Nvidia Shareholders, Says Former CEO Let Investors Down: \u2018Yes. End Of Story\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63238024/jim-cramer-questions-if-jensen-huang-betrayed-nvidia-shareholders-says-former-ceo-let-investors-down-yes-end-of-story"
+  },
+  {
+   "time": "11-13 09:15",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Here\u2019s How Much You Would Have Made Owning Eli Lilly Stock In The Last 5 Years",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63237747/here-s-how-much-you-would-have-made-owning-eli-lilly-stock-last-5-years"
+  },
+  {
+   "time": "11-13 09:06",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Commodity Holding Corp. Increases Private Placement to $150,000",
+   "source": "fiscal.ai",
+   "url": "https://www.newsfilecorp.com/release/323777/Oracle-Commodity-Holding-Increases-Private-Placement-to-150000"
+  },
   {
    "time": "11-13 08:30",
    "symbols": [
