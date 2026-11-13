@@ -1,16 +1,37 @@
 {
- "as_of": "2026-11-13T11:33-05:00",
+ "as_of": "2026-11-13T12:03-05:00",
  "since": "2026-11-12T16:00-05:00",
  "headlines": [
   {
-   "time": "11-13 11:28",
+   "time": "11-13 11:56",
    "symbols": [
-    "AMD"
+    "ARM",
+    "NVDA"
    ],
    "rating": "",
-   "headline": "AMD Benefits From Nvidia's Troubles, Smart Money Sells Nvidia; Cooler PPI; Bitcoin Below $70K",
+   "headline": "'Arm boss Rene Haas approached in Nvidia CEO search'- Financial Times",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/opinion/26/11/63250990/amd-benefits-from-nvidias-troubles-smart-money-sells-nvidia-cooler-ppi-bitcoin-below-70k"
+   "url": "https://www.benzinga.com/news/26/11/63253422/arm-boss-rene-haas-approached-nvidia-ceo-search-financial-times"
+  },
+  {
+   "time": "11-13 11:46",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Super Micro Computer Spokesperson Says Responsive To Inquiries And Has Fully Cooperated With US And Taiwanese Officials; Megaspeed Is Not, And Has Never Been, A Supermicro Customer; Voluntarily Provided Information And Engaging With All Requests From Singapore Authorities To Date",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63252561/super-micro-computer-spokesperson-says-responsive-inquiries-and-has-fully-cooperated-us-and-taiwanes"
+  },
+  {
+   "time": "11-13 11:38",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Bill Ackman Is a Fan of \u2018Remarkable Story\u2019 of Anthropic, but He\u2019s Not Buying Stock at IPO",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/ipos/26/11/63251847/bill-ackman-is-a-fan-of-remarkable-story-of-anthropic-but-hes-not-buying-stock-at-ipo"
   },
   {
    "time": "11-13 11:26",
