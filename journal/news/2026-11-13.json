@@ -1,0 +1,817 @@
+{
+ "as_of": "2026-11-13T07:41-05:00",
+ "since": "2026-11-12T16:00-05:00",
+ "headlines": [
+  {
+   "time": "11-13 07:33",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Jensen Huang Divorce Odds Hit 37%, but Top Lawyer Says Couple May Wait Out Scandal",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63234038/jensen-huang-divorce"
+  },
+  {
+   "time": "11-13 07:32",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "upgrade",
+   "headline": "Goldman Sachs Upgrades DT Midstream to Neutral",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-upgrades-dt-midstream-to-neutral-from-sell-127-price-target-ce785ed9df81f123"
+  },
+  {
+   "time": "11-13 07:32",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Publishes 2027 Global Equity Strategy Outlook",
+   "source": "fiscal.ai",
+   "url": "https://news.futunn.com/en/post/1004453003/earnings-growth-is-set-to-peter-out-but-not-the"
+  },
+  {
+   "time": "11-13 07:32",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Adjusts Price Target on Williams Companies",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-price-target-on-williams-companies-to-82-from-84-ce785ed9df89ff21"
+  },
+  {
+   "time": "11-13 07:32",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Adjusts Price Target for Siemens Energy",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.ch/nachrichten/aktien/goldman-sachs-group-inc-buy-fuer-siemens-energy-aktie-1036761112"
+  },
+  {
+   "time": "11-13 07:32",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "South Korea's National Pension Service Reduces Stake in Coinbase",
+   "source": "fiscal.ai",
+   "url": "https://www.koreaherald.com/article/10936767"
+  },
+  {
+   "time": "11-13 07:31",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Analyst Betty Jiang Updates Chevron Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1004587082/barclays-maintains-chevron-cvxus-with-hold-rating-raises-target-price"
+  },
+  {
+   "time": "11-13 07:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "rating",
+   "headline": "President Capital Adjusts Oracle Price Target to $323",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/president-capital-adjusts-price-target-on-oracle-to-323-from-328-ce785ed9df8af52d"
+  },
+  {
+   "time": "11-13 07:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Bedrock Expands Model Offerings with OpenAI and Google DeepMind Integration",
+   "source": "fiscal.ai",
+   "url": "https://aimagazine.com/news/what-is-an-ai-marketplace-aws-hugging-face-openrouter"
+  },
+  {
+   "time": "11-13 07:30",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "rating",
+   "headline": "GLJ Research Reiterates Sell on Tesla, Maintains $24.86 Price Target",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63233955/glj-research-reiterates-sell-tesla-maintains-24-86-price-target"
+  },
+  {
+   "time": "11-13 07:15",
+   "symbols": [
+    "MSFT",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Chamath Palihapitiya Says Nvidia Oversight Would Be A \u2018Disaster\u2019 After Jensen Huang's Exit, Warns Against Repeating Microsoft\u2019s DOJ Era",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63233737/chamath-palihapitiya-says-nvidia-oversight-would-be-a-disaster-after-jensen-huangs-exit-warns-against-repeating-microsofts-doj-era"
+  },
+  {
+   "time": "11-13 06:35",
+   "symbols": [
+    "TSM"
+   ],
+   "rating": "",
+   "headline": "TSMC Confirms Employee Data Leak Through Cloud Provider, Hackers Reportedly Demand 3 Bitcoins to Withhold 46,000 Records",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63232720/tsmc-confirms-employee-data-leak-through-cloud-provider-hackers-reportedly-demand-3-bitcoins-to-withhold-46000-records"
+  },
+  {
+   "time": "11-13 06:33",
+   "symbols": [
+    "AMZN",
+    "META"
+   ],
+   "rating": "",
+   "headline": "'Amazon\u2019s plan to own the world\u2019s product data and fight AI shopping agents' - Reuters Exclusive",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63232649/amazon-s-plan-own-world-s-product-data-and-fight-ai-shopping-agents-reuters-exclusive"
+  },
+  {
+   "time": "11-13 06:32",
+   "symbols": [
+    "HD"
+   ],
+   "rating": "",
+   "headline": "Piper Sandler Adjusts Price Target on Home Depot to $371 From $378",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/piper-sandler-adjusts-price-target-on-home-depot-to-371-from-378-ce785ed9dc81ff21"
+  },
+  {
+   "time": "11-13 06:32",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Wells Fargo Adjusts Price Target on Walmart to $135 From $120",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/wells-fargo-adjusts-price-target-on-walmart-to-135-from-120-ce785ed9dc81ff27"
+  },
+  {
+   "time": "11-13 06:32",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Adjusts Price Target on Robinhood Markets to $115 From $128",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-price-target-on-robinhood-markets-to-115-from-128-ce785ed9df88f223"
+  },
+  {
+   "time": "11-13 06:31",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "downgrade",
+   "headline": "Rothschild & Co Redburn Downgrades Broadcom to Neutral",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/rothschild-co-redburn-downgrades-broadcom-to-neutral-from-buy-price-target-is-398-46-ce785ed9dc8cf726"
+  },
+  {
+   "time": "11-13 06:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA-Linked Chinese AI Projects Face Increased US Scrutiny",
+   "source": "fiscal.ai",
+   "url": "https://news.futunn.com/en/post/1004458006/market-chatter-nvidia-linked-chinese-ai-projects-worth-over-3"
+  },
+  {
+   "time": "11-13 06:31",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel and Cornelis Networks Extend Collaboration on HPC and AI Platforms",
+   "source": "fiscal.ai",
+   "url": "https://cioinfluence.com/networking/cornelis-cn6000-networking-platform-delivers-industry-leading-1-6-billion-messages-per-second-at-800g-for-ai-and-hpc/"
+  },
+  {
+   "time": "11-13 06:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Cohesity Expands Data Resilience Capabilities for Microsoft Ecosystem",
+   "source": "fiscal.ai",
+   "url": "https://www.kipost.net/news/articleViewAmp.html?idxno=343273"
+  },
+  {
+   "time": "11-13 06:31",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "ExxonMobil Named in Report on Fossil Fuel Lobbying at COP31 Climate Summit",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.at/nachrichten/aktien/umweltverbande-ruegen-einfluss-von-oel-lobby-auf-klimagipfel-1036761113"
+  },
+  {
+   "time": "11-13 06:31",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "UQPAY Secures Visa Associate Membership in Australia",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/apac/news-releases/uqpay-secures-visa-associate-membership-in-australia-302938820.html"
+  },
+  {
+   "time": "11-13 05:34",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Kevin O\u2019Leary Backs Elon Musk\u2019s Starlink as United CEO Calls It \u2018Biggest Near-Term Competitive Advantage\u2019 in 100 Years, Says Amazon Leo Is \u2018A Mistake\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63231543/kevin-oleary-backs-elon-musks-starlink-as-united-ceo-calls-it-biggest-near-term-competitive-advantage-in-100-years-says-amazon-leo-is-a-mistake"
+  },
+  {
+   "time": "11-13 05:33",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Ed Bastian Says Delta Will Take \u2018Nuanced\u2019 Approach to AI Agents, Warns Oil Shock May Not Be \u2018Behind Us\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/travel/26/11/63231528/ed-bastian-says-delta-will-be-nuanced-in-its-approach-to-ai-agents-looking-for-cheaper-fares-warns-oil-shock-may-not-be-behind-us"
+  },
+  {
+   "time": "11-13 05:10",
+   "symbols": [
+    "MSFT",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia-Backed Nscale Warns It Needs More 'Financing' Amid $44.6B Anthropic Contract Ahead of US IPO As Nine-Month Loss Widens to $1.69 Billion",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/private-markets/26/11/63231331/nvidia-backed-nscale-warns-it-needs-more-financing-amid-44-6b-anthropic-contract-ahead-of-us-ipo-as-nine-month-loss-widens-to-1-69-billion"
+  },
+  {
+   "time": "11-13 04:42",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Jensen Huang Repeatedly Said \u2018Whatever\u2019 and \u2018I Don\u2019t Care\u2019 as Affair Scandal Shatters His Image, Dims Star Power in Taiwan: Report",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63231089/jensen-huang-affair-scandal-taiwan"
+  },
+  {
+   "time": "11-13 04:14",
+   "symbols": [
+    "AMZN",
+    "MSFT",
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Cerebras (CBRS) Stock Is Trending Pre-Market: Here's Why",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63230833/cerebras-stock-surges-premarket-q3-results-microsoft-deal"
+  },
+  {
+   "time": "11-13 04:09",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Outlook Outage Hits Colorado Jail, Forces Families to Post Bail In Person to Secure Release",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63230820/microsoft-outlook-outage-hits-colorado-jail-forces-families-to-post-bail-in-person-to-secure-release"
+  },
+  {
+   "time": "11-13 03:54",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Alice Huang-Linked Firms Joined DeepSeek's $15.8 Billion Funding Round In Bid to Access Nvidia Blackwell Chips Despite US Curbs: Report",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63230772/alice-huang-linked-firms-joined-deepseeks-15-8-billion-funding-round-in-bid-to-access-nvidia-blackwell-chips-despite-us-curbs-report"
+  },
+  {
+   "time": "11-13 03:30",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Trump Says Ex-Nvidia CEO Jensen Huang Is \u2018Going Through Hell\u2019 After Resignation: \u2018He Called Me\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63230622/trump-says-nvidia-ceo-jensen-huang-going-through-hell-after-resignation"
+  },
+  {
+   "time": "11-13 03:24",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Predicted Trouble For Delta Over SpaceX Starlink Snub: CEO Ed Bastian Says Airline Is Playing \u2018Long Game\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63230596/elon-musk-predicted-trouble-for-delta-over-spacex-starlink-snub-ceo-ed-bastian-says-airline-is-playing-long-game"
+  },
+  {
+   "time": "11-13 03:21",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Reported Earlier, South Korea Says Google Removed Map Coordinates, Will Delete Military And Security Facility Street View Imagery Under February Data Export Permit",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63230584/reported-earlier-south-korea-says-google-removed-map-coordinates-will-delete-military-and-security-f"
+  },
+  {
+   "time": "11-13 03:10",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft 365 Incident: Microsoft Not Aware Of Malicious Activity, Sees Stability Gains After Partial Patch, Working To Expand Fix To Active Regions",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63230428/microsoft-365-incident-microsoft-not-aware-malicious-activity-sees-stability-gains-after-partial-pat"
+  },
+  {
+   "time": "11-13 02:55",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Trump Tech Advisor David Sacks Says \u2018Spy Narrative Is Collapsing\u2019 as US Officials Question Evidence Against Nvidia\u2019s Jensen Huang",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63230368/trump-tech-advisor-david-sacks-says-spy-narrative-is-collapsing-as-us-officials-question-evidence-against-nvidias-jensen-huang"
+  },
+  {
+   "time": "11-13 01:45",
+   "symbols": [
+    "NVDA",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Anthony Scaramucci Rips Howard Lutnick Over Nvidia Chip Crackdown: \u2018Incompetence Is Random. This Broke The Same Way Every Time\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63229955/anthony-scaramucci-howard-lutnick-nvidia-chip-crackdown-criticism"
+  },
+  {
+   "time": "11-13 01:34",
+   "symbols": [
+    "AAPL",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Trump Urged Jensen Huang To \u2018Keep Fighting\u2019 for His Nvidia CEO Job Two Days Before Resignation: Report",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/63229921/trump-urged-jensen-huang-to-keep-fighting-for-his-nvidia-ceo-job-two-days-before-resignation-report"
+  },
+  {
+   "time": "11-13 01:18",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "Vertiv Holdings (VRT) Stock Is Trending After Hours: Here's Why",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63229805/vertiv-shares-rise-after-hours-ai-data-center-power-system-launch"
+  },
+  {
+   "time": "11-13 00:48",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia Funded AI Boom Under Jensen Huang, but Gary Marcus Questions if New CEO Will Keep Writing the Checks: \u2018Whole Thing Might Collapse\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63229612/nvidia-ai-boom-jensen-huang-gary-marcus-colette-kress-funding-concerns"
+  },
+  {
+   "time": "11-13 00:17",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Elizabeth Warren, GOP Senator Turn the Heat on Jensen Huang, Howard Lutnick Over Nvidia-China Spy Concerns \u2014 \u2018Huang\u2019s Decision to Resign From Nvidia Does Not Absolve Him\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/63229364/elizabeth-warren-gop-senator-turn-the-heat-on-jensen-huang-howard-lutnick-over-nvidia-china-spy-concerns-huangs-decision-to-resign-from-nvidia-does-not-absolve-him"
+  },
+  {
+   "time": "11-12 23:41",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Outage Triggers Chaos Across Outlook, Teams and Copilot \u2014 Spills Over to OpenAI and Anthropic (UPDATED)",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63229102/microsoft-outage-triggers-chaos-across-outlook-teams-and-copilot-spills-over-to-openai-and-anthropic"
+  },
+  {
+   "time": "11-12 23:38",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla (TSLA) Stock Trends After Hours As SpaceX Merger Talks Heat Up, Elon Musk Extends Cybertruck Production",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63229070/tesla-shares-rise-after-hours-spacex-merger-talks"
+  },
+  {
+   "time": "11-12 23:26",
+   "symbols": [
+    "NVDA",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Michael Burry Hints At Bigger Nvidia Asia \u2018Reveal\u2019 As Jensen Huang\u2019s \u2018Deer In The Headlights\u2019 Dig At Colette Kress Resurfaces",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63229044/michael-burry-nvidia-jensen-huang-ai-chips-china-colette-kress"
+  },
+  {
+   "time": "11-12 23:15",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Alice Huang, Who Allegedly Spied for China, Had Stakes in Businesses Linked to Nvidia Rival Huawei: Report",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63228995/jensen-huang-alleged-affair-huawei"
+  },
+  {
+   "time": "11-12 22:24",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia Stock Trends After Hours As Colette Kress Vows To Build On \u2018Foundation\u2019 Laid By Ousted CEO Jensen Huang",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63228901/nvidia-shares-rise-after-hours-jensen-huang-resigns"
+  },
+  {
+   "time": "11-12 22:06",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Mike Johnson Sees Growing Support For China Chip Restrictions As Nvidia\u2019s Jensen Huang Exit Rocks Washington: \u2018Developing Consensus in Congress\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63228855/johnson-china-chip-restrictions-nvidia"
+  },
+  {
+   "time": "11-12 22:01",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "ExxonMobil to Evaluate Seven Areas in Venezuela for Potential Oil and Gas Projects",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/exxon-mobil-to-evaluate-seven-areas-in-venezuela-for-potential-oil-and-gas-projects-ce785ed8da89f022"
+  },
+  {
+   "time": "11-12 22:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase & Co. Reports Change in Voting Rights in K+S Aktiengesellschaft",
+   "source": "fiscal.ai",
+   "url": "https://www.placera.se/pressmeddelanden/k-s-k-s-aktiengesellschaft-release-according-to-article-40-section-1-of-the-wphg-the-german-securities-trading-act-with-the-objective-of-europe-wide-distribution-20261112"
+  },
+  {
+   "time": "11-12 22:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Releases HomeView Software 27.2",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/pegq6zg/"
+  },
+  {
+   "time": "11-12 20:47",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Jim Cramer Says Interim Nvidia CEO Colette Kress Leads With \u2018Steel Fist\u2019 After Jensen Huang Exit: \u2018Absolutely The One You Need Right Now\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63228620/jim-cramer-nvidia-interim-ceo-colette-kress-steel-fist-jensen-huang-exit"
+  },
+  {
+   "time": "11-12 20:03",
+   "symbols": [
+    "JPM",
+    "V"
+   ],
+   "rating": "",
+   "headline": "The Wall Street Journal Reported JPMorgan Chase Blocking Some Agentic Purchases With Chase Cards; Merchants Have Complained To Visa, Mastercard About Higher Fees From Certain Agentic Transactions",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/MA"
+  },
+  {
+   "time": "11-12 20:01",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Veylo and Thunderyard Solutions Continue Strategic Partnership for Federal AI Modernization",
+   "source": "fiscal.ai",
+   "url": "https://www.einnews.com/pr_news/956264783/veylo-and-thunderyard-join-forces-to-bring-ai-driven-modernization-to-federal-agencies"
+  },
+  {
+   "time": "11-12 19:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs International Discloses Dealings in DCC Energy PLC",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/rns/dcc-energy-plc--dcc/form-38-5b-dcc-energy-plc/9872483"
+  },
+  {
+   "time": "11-12 19:01",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly Presents New Clinical Data at ACR Convergence 2026",
+   "source": "fiscal.ai",
+   "url": "https://www.patientcareonline.com/view/retatrutide-phase-3-trials-report-reduced-knee-osteoarthritis-pain"
+  },
+  {
+   "time": "11-12 18:45",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "If You Invested $1000 In Western Digital Stock 10 Years Ago, You Would Have This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63227958/if-you-invested-1000-western-digital-stock-10-years-ago-you-would-have-much-today"
+  },
+  {
+   "time": "11-12 18:30",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Launches Over 20 New Merchandise Products for Holidays and Some are Already Sold Out: Here\u2019s the List",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/large-cap/26/11/63227877/tesla-launches-over-20-new-merchandise-products-for-holidays-and-some-are-already-sold-out-heres-the-list"
+  },
+  {
+   "time": "11-12 18:01",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Supermicro Faces DOJ Investigation Over Alleged Smuggling to China",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hant/news/post/1004475384/super-micro-stock-falls-10-intraday-as-doj-probes-smuggling"
+  },
+  {
+   "time": "11-12 18:01",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Rocket Lab Announces Upcoming 100th Electron Rocket Launch",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/12/3402322/0/en/rocket-lab-to-launch-milestone-100th-electron-rocket-this-week.html"
+  },
+  {
+   "time": "11-12 17:32",
+   "symbols": [
+    "NVDA",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "From AI Chips to Rocket Ships: Will Jensen Huang Join Elon Musk?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63227294/jensen-huang-spacex"
+  },
+  {
+   "time": "11-12 17:32",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "ExxonMobil Advances Next Phase of Guyana Development with Longtail",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/press-releases/8810194/exxonmobil-advances-next-phase-of-guyana-development-with-longtail"
+  },
+  {
+   "time": "11-12 17:31",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Markets, Inc. Reports October 2026 Operating Data",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/12/3402268/0/en/robinhood-markets-inc-reports-october-2026-operating-data.html"
+  },
+  {
+   "time": "11-12 17:31",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Expands Stablecoin Settlement Capabilities with Anchorage Digital",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/news/b2b-payments/2026/visa-expands-stablecoin-services-with-anchorage-partnership/"
+  },
+  {
+   "time": "11-12 17:31",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Direct Integrates with AviaGames for Real-Time Payouts",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/news/payments-innovation/2026/visa-helps-aviagames-players-get-paid-faster/"
+  },
+  {
+   "time": "11-12 17:31",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly Breaks Ground on $3.5 Billion Manufacturing Facility in Pennsylvania",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/lilly-breaks-ground-in-pennsylvanias-lehigh-valley-on-a-3-5-billion-site-to-make-next-generation-obesity-medicines-the-latest-of-10-new-us-sites-since-2020--302938234.html"
+  },
+  {
+   "time": "11-12 17:31",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir Officer Shyam Sankar Files Notice of Proposed Stock Sale",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/flash/1004442658/form-144-palantir-pltrus-officer-proposes-to-sell-14-3"
+  },
+  {
+   "time": "11-12 17:31",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Tampa General Hospital Partners with Palantir for Reliability Management System",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/tampa-general-hospital-advances-high-reliability-journey-with-first-of-its-kind-certification-302938416.html"
+  },
+  {
+   "time": "11-12 17:31",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "Caterpillar Awarded $50 Million Annualized Contract for Data Center Energy Storage",
+   "source": "fiscal.ai",
+   "url": "https://www.fidelity.com/news/article/technology/202611121630PRIMZONEFULLFEED9876771"
+  },
+  {
+   "time": "11-12 17:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "XTI Aerospace Secures Credit Facility Amendment with JPMorgan Chase Bank",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/xti-aerospace-successfully-completes-restructuring-of-approximately-4-7-million-of-promissory-notes-and-secures-waiver-and-amendment-of-revolving-credit-facility-with-jpmorgan-chase-bank-na-302938403.html"
+  },
+  {
+   "time": "11-12 17:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft 365 Experiences Service Outage",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/2026/11/13/world/americas-emea/major-outage-hits-microsoft-outlook/2469181"
+  },
+  {
+   "time": "11-12 17:19",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Rocket Lab's 100th Electron Rocket Scheduled For Launch At The End Of This Week",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63227026/rocket-lab-s-100th-electron-rocket-scheduled-launch-end-week"
+  },
+  {
+   "time": "11-12 17:00",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Jensen Huang Drops Out of Top 10 Richest, Elon Musk Now 6.3x Richer Than Former Nvidia CEO",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63226051/jensen-huang-drops-out-of-top-10-richest-elon-musk-now-6-3x-richer-than-former-nvidia-ceo"
+  },
+  {
+   "time": "11-12 16:45",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "If You Invested $1000 In UnitedHealth Group Stock 20 Years Ago, You Would Have This Much Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63225411/if-you-invested-1000-unitedhealth-group-stock-20-years-ago-you-would-have-much-today"
+  },
+  {
+   "time": "11-12 16:43",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "ExxonMobil Announces $12.5B Final Investment Decision For Longtail Gas Development Offshore Guyana, Targets 2030 Start-Up",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/XOM"
+  },
+  {
+   "time": "11-12 16:32",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel Collaborates with RadixArk to Optimize AI Inference",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/press-releases/8808655/intel-radixark-collaborate-to-advance-open-ai-inference-on-intel-platforms"
+  },
+  {
+   "time": "11-12 16:31",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Arbisoft Expands Salesforce Practice with New Certifications and Native Apps",
+   "source": "fiscal.ai",
+   "url": "https://www.einpresswire.com/article/954725002/arbisoft-deepens-salesforce-partnership-with-42-certifications-and-three-free-native-apps"
+  },
+  {
+   "time": "11-12 16:31",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova Raises 2026 Financial Guidance",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/data-center-power-suppliers-post-backlog-and-guidance-updates-alongside-a-fuel-cell-deal-302937464.html"
+  },
+  {
+   "time": "11-12 16:31",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "Arena Physica Collaborates with AMD to Train Heaviside Foundation Model",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1004472702/arena-physica-collaborates-with-amd-to-train-next-generation-of"
+  },
+  {
+   "time": "11-12 16:31",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Micron Technology Announces Upcoming Investor Event Participation",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/12/3402153/14450/en/micron-announces-participation-in-investor-events.html"
+  },
+  {
+   "time": "11-12 16:31",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla and SpaceX Merger Negotiations Reportedly Progressing",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/tesla-spacex-shares-up-on-progressing-merger-talks-bloomberg-reports-ce785ed9d98af421"
+  },
+  {
+   "time": "11-12 16:02",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "QUICK SPARK: Tesla Stock Has Best 5-Day Rally in Over a Year as Elon Musk Pushes for SpaceX Merger by December",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m-a/26/11/63220678/tesla-stock-best-five-day-run-elon-musk-spacex-merger"
+  },
+  {
+   "time": "11-12 16:00",
+   "symbols": [
+    "NVDA",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Would a Tesla\u2013SpaceX Merger Be Bullish for Bitcoin? Careful What You Wish For",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63220353/would-a-tesla-spacex-merger-be-bullish-for-bitcoin-careful-what-you-wish-for"
+  }
+ ]
+}
