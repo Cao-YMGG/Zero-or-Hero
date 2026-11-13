@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-13",
+  "picks": [],
+  "check_1016": "10:17 ET: no pick. The PPI pop was gone by the bell (SPY opened 760.07, +0.39%, not the +0.7% of 08:33) and the open was the high: SPY 749.47 (-1.39% from its open, -1.0% on the day, low 748.90), QQQ -1.9%, IWM -1.3%. It is an AI-chain liquidation, not a rates move (TLT +0.14% from its open; 10Y 5.14%, +4bp after PPI per CNBC): SMH 499.93 -> 480.56 (-3.9% from its open, low 478.49; SOX -4.2% at 10:10), AMD 566.78 -> 532.51 (-6.0% from its open, -9.0% on the day), NVDA 169.91 -> 160.60 (-5.5%, the +2.2% gap reversed), MRVL -5.7%, LITE -5.5%, INTC -4.4%, AVGO -3.6% (-5.7% day, downgraded this morning), MU -2.3%, TSM -3.1%; the neoclouds NBIS -9.8% and CRWV -8.8%; ORCL -3.9%, PLTR -3.0%, GEV -4.7%, CAT -2.8%. Green from the open: NFLX +0.7%, META +0.6%, COST +0.5%, WMT +0.4%, AAPL +0.1%, MSFT flat. No headline that broke in the session explains it: Truist's NVDA downgrade to Hold ($174) was logged at 09:35 but dates from Thursday; the morning's negatives were the House committees' subpoena threat (08:26), Rothschild's AVGO downgrade and Nscale's financing warning; CNBC ties the index fade to the 6.5% yearly PPI keeping the December hike alive. Without in-session news, names 4-6% below their opens are extended (the 3% line), so the puts go to opportunities and the put mirror is judged at 11:21 as the rule says. Morning sniper: TSLA 401.99 -> 388.56 (-3.3% from its open, high 404.40): below its open at 10:00, wrong_if hit; a 07:42 Bloomberg interview (Texas' next AG vows 'tremendous scrutiny' of the Tesla-SpaceX deal) was posted after the 07:41 news read and missed. Morning predictions at 10:17: TSLA above its open at 10:00 wrong; AMD to close above its open -6.0% so far; SPY open-to-close inside 0.6% at -1.39% so far. Prices: Alpaca consolidated tape to 10:01 and IEX after (Webull not connected).",
+  "conditional_1121": "Put mirror: armed since the open (SMH has not traded above its 499.93 open since 09:31; the morning file called the week's chip bounce 'a bounce inside a downtrend'). 11:21 judges it. Put on AMD (the weakest chip mega cap, not in a report window; NVDA reports Tuesday and is left out; AVGO second, with its own downgrade) if at 11:21 SMH is below 480.56 and AMD below 532.51, their 10:17 prices, i.e. the selling outlived the 10:30 bounce window. No put if SMH is back above 485.4 (1% off its 10:17 price) or AMD above 540: that is the 11-05 shape (SMH -5.8% from its open, then the 11:00 bounce, not re-armed). In between: no pick, score it as a sample. Call side: nothing qualifies; META is +2.0% beyond SPY from its open with no news found, an opportunity only.",
+  "structure": "Gap up on PPI sold from the first minute; chips and everything AI-financed lead down, staples and the platform names without capex stories hold. Friday, monthly expiry next week, NVDA's report Tuesday.",
+  "opportunities": [
+    {
+      "type": "relative_weakness",
+      "symbol": "AMD",
+      "direction": "put",
+      "time": "10:17",
+      "action": "none",
+      "why": "Put-mirror candidate: weakest chip mega cap, 566.78 -> 532.51 (-6.0% from its open, -9.0% on the day) with SMH -3.9% from its open. Not picked at 10:17: no in-session news of its own and already twice past the 3% line; 11:21 judges the mirror.",
+      "why_zh": "看跌镜像的候选：AMD 是今天最弱的芯片大盘股，比开盘价低 6.0%（当天 -9.0%），半导体 ETF 比开盘低 3.9%。10:17 不选：没有盘中自己的新消息，而且已经跌过「3% 线」两倍；按规则 11:21 再判断。"
+    },
+    {
+      "type": "sector_intraday",
+      "symbol": "SMH",
+      "direction": "put",
+      "time": "10:17",
+      "action": "none",
+      "why": "AI-chain liquidation from the first minute: SMH -3.9% from its open (SOX -4.2%), NBIS -9.8%, CRWV -8.8%, while TLT is up from its open. Friday before NVDA's Tuesday report.",
+      "why_zh": "从第一分钟开始的 AI 链抛售：半导体 ETF 比开盘低 3.9%，新云（Nebius、CoreWeave）跌 9% 左右，而长债是涨的——不是利率，是减仓。周五，下周二英伟达财报。"
+    },
+    {
+      "type": "analyst",
+      "symbol": "AVGO",
+      "direction": "put",
+      "time": "10:17",
+      "action": "none",
+      "why": "Own negative plus the sector: Rothschild & Co Redburn to Neutral ($398) this morning after +25% in a week; 356.54 -> 343.75 (-3.6% from its open, -5.7% day). Second to AMD for the mirror.",
+      "why_zh": "博通有自己的利空加板块下跌：今早被 Rothschild 下调到中性，前一周涨了 25%；比开盘低 3.6%、当天 -5.7%。镜像规则里排在 AMD 之后。"
+    },
+    {
+      "type": "company_news",
+      "symbol": "NVDA",
+      "direction": "put",
+      "time": "10:17",
+      "action": "none",
+      "why": "Gap-up reversal: opened +2.2% at 169.91, now 160.60 (-5.5% from its open) under the subpoena threat and Truist's Hold. Reports Tuesday and is past the 3% line: not picked.",
+      "why_zh": "英伟达高开 2.2% 后反转，现在比开盘低 5.5%（国会威胁传唤、Truist 下调）。周二财报、又已经跌过 3% 线，不选。"
+    },
+    {
+      "type": "company_news",
+      "symbol": "TSLA",
+      "direction": "put",
+      "time": "10:17",
+      "action": "none",
+      "why": "The morning call sniper failed: 401.99 -> 388.56 (-3.3% from its open). Texas' next AG vows 'tremendous scrutiny' of the SpaceX deal (07:42, missed this morning); The Information: xAI guts its Grok video team (09:50). Past the 3% line.",
+      "why_zh": "早上的特斯拉看涨狙击错了：比开盘低 3.3%。得州下任总检察长说要「严格审查」和 SpaceX 的合并（07:42，早上漏看了）；The Information 报道 xAI 砍掉了 Grok 视频团队。已经跌过 3% 线，只记录。"
+    },
+    {
+      "type": "relative_strength",
+      "symbol": "META",
+      "direction": "call",
+      "time": "10:17",
+      "action": "none",
+      "why": "Leader check: META 627.21 -> 630.97 (+0.6% from its open, +2.0% beyond SPY) with QQQ -1.9%; no news of its own found (a Benzinga piece on its TikTok position at 09:38). Relative strength without news is not a pick.",
+      "why_zh": "领涨检查：纳指跌 1.9% 的时候 Meta 比开盘高 0.6%（比标普强 2 个点），但没找到它自己的新消息。只有相对强度、没有消息，按规则不选。"
+    }
+  ]
+}
