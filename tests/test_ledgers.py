@@ -612,6 +612,39 @@ class OpportunityScoreTest(unittest.TestCase):
         self.assertEqual(notify.postmortem_message({"date": "2026-11-13", "text": " 错 2 个 "}), "**🪞 机会复盘 2026-11-13**\n错 2 个")
         self.assertEqual(notify.postmortem_message({"date": "2026-11-13", "text": ""}), "")
 
+    def test_conviction_is_kept_and_the_record_splits_by_it(self):
+        import json as _json
+        from zoh import notify
+        from zoh.research import opportunities as opp
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "bias" / "intraday").mkdir(parents=True)
+            (root / "bias" / "2026-11-16.json").write_text(_json.dumps({
+                "sniper": {"symbol": "V", "direction": "call", "catalyst": "upgrade"},
+                "opportunities": [{"type": "analyst", "symbol": "AVGO", "direction": "put", "conviction": "no"},
+                                  {"type": "sector_move", "symbol": "XLF", "direction": "call", "conviction": "sure"},
+                                  {"type": "gapdown_rebound", "symbol": "AMD", "direction": "call", "conviction": "maybe"}]}))
+            got = opp.collect("2026-11-16", root, {"variants": []})
+        self.assertEqual([(o["symbol"], o["conviction"]) for o in got], [("V", "yes"), ("AVGO", "no"), ("XLF", ""), ("AMD", "maybe")])
+
+        def row(sym, move, vs, conviction, action="none", source="premarket"):
+            return {"date": "2026-11-16", "time": "09:31", "type": "analyst", "symbol": sym, "direction": "call",
+                    "action": action, "source": source, "entry_close_pct": str(move), "vs_spy_pct": str(vs),
+                    "best_after_entry_pct": "0", "conviction": conviction}
+        rows = [row("V", -2.0, -1.5, "", "shadow", "sniper"), row("AVGO", 2.9, 2.3, "no"), row("META", 1.7, 1.1, "no"),
+                row("XLF", 0.2, 0.3, ""), row("AMD", -1.1, -1.1, "maybe")]
+        by = opp.board(rows, "conviction")
+        self.assertEqual({k: v["n"] for k, v in by.items()}, {"yes": 1, "no": 2, "": 1, "maybe": 1})   # a pick is yes
+        self.assertAlmostEqual(by["no"]["paid"], 1.0)
+        text = opp.scoreboard(rows, small=1)
+        self.assertIn("## By conviction", text)
+        self.assertIn("| not stated | 1 |", text)
+        zh = opp.summary_zh(rows, min_n=99, reviews=[])
+        self.assertIn("我的判断：看好的 1 个：够赚钱 0%", zh[-1])
+        self.assertIn("不看好（当对照）的 2 个：够赚钱 100%", zh[-1])
+        self.assertIn("；不看好，当对照）", notify.opportunity_lines([{"symbol": "AVGO", "direction": "put", "type": "analyst",
+                                                              "why_zh": "下调评级", "conviction": "no"}])[0])
+
     def test_discord_lines_grade_and_compare(self):
         import csv as _csv
         from zoh import notify

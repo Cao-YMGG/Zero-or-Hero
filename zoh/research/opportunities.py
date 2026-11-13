@@ -37,7 +37,7 @@ CSV_PATH = journal.JOURNAL_DIR / "opportunities.csv"
 BOARD_PATH = journal.JOURNAL_DIR / "research" / "OPPORTUNITY_SCORES.md"
 FIELDS = ["date", "time", "type", "symbol", "direction", "action", "source", "open", "entry",
           "close", "open_close_pct", "entry_close_pct", "best_after_entry_pct", "why",
-          "spy_pct", "vs_spy_pct", "grade", "repeat", "final"]
+          "spy_pct", "vs_spy_pct", "grade", "repeat", "final", "conviction"]
 # Since 2026-11-13 (owner: "the scoring could be better"). Before, a row was right when the stock
 # closed a cent the idea's way: 56% of 205 rows were "right" and only 29% moved the 1% a same-day
 # option needs; every put looked right on a down day; 43 rows were the same idea listed again at a
@@ -52,6 +52,12 @@ ALIASES = {"analyst_upgrade": "analyst", "upgrade": "analyst", "analyst_downgrad
            "other_side": "peer_readthrough", "post_earnings_reversal": "earnings_reaction",
            "rotation_reversal": "rotation_laggard", "rotation_unwind": "rotation_laggard"}
 GENERIC = {"sniper", "intraday"}  # a pick logged without its catalyst kind
+# What I thought when I listed it (since 2026-11-16; first post-mortem, 2026-11-13: of 17 ideas the one I
+# backed was wrong and two I had argued against, "a control, not a pick", were the day's best). yes = I
+# would pick it if the bar allowed; maybe; no = a control, listed because it fits a type or to watch a
+# line, expected to fail. A sniper or pick is yes by definition. If the no ideas pay as often as the
+# yes ones, the pick bar is not adding anything.
+CONVICTIONS = ("yes", "maybe", "no")
 
 # The daily post-mortem (owner, 2026-11-13: "when you are wrong, work out why you read it wrong"). Every
 # wrong idea and every pick gets one row in journal/opportunity_reviews.csv with one cause from this
@@ -124,7 +130,7 @@ def collect(day, root=None, config=None):
             out.append({"type": sniper.get("catalyst_type") or "sniper", "symbol": sniper["symbol"],
                         "direction": sniper.get("direction", "call"), "time": "09:31",
                         "why": sniper.get("catalyst", ""), "action": pick_action("sniper", config),
-                        "source": "sniper", "pick": True})
+                        "source": "sniper", "pick": True, "conviction": "yes"})
         out += [dict(o, source="premarket") for o in bias.get("opportunities") or []]
     intraday_path = root / "bias" / "intraday" / f"{day}.json"
     if intraday_path.exists():
@@ -133,12 +139,15 @@ def collect(day, root=None, config=None):
             out.append({"type": p.get("catalyst_type") or "intraday", "symbol": p["symbol"],
                         "direction": p.get("direction", "call"), "time": p.get("time", "10:00"),
                         "why": p.get("catalyst", ""), "action": pick_action("intraday", config),
-                        "source": "intraday", "pick": True})
+                        "source": "intraday", "pick": True, "conviction": "yes"})
         out += [dict(o, source="intraday") for o in intraday.get("opportunities") or []]
     extra_path = root / "opportunities" / f"{day}.json"
     if extra_path.exists():
         extra = json.loads(extra_path.read_text())
         out += [dict(o, source=o.get("source", "review")) for o in extra.get("opportunities") or []]
+    for o in out:
+        if o.get("conviction") not in CONVICTIONS:
+            o["conviction"] = ""
     return merge_picks(out)
 
 
@@ -330,6 +339,8 @@ def ideas(rows):
         base["action"] = acted[0] if acted else base.get("action") or "none"
         if any(r.get("source") == "sniper" for r in first):
             base["source"] = "sniper"
+        stated = [r.get("conviction") for r in first if r.get("conviction") in CONVICTIONS]
+        base["conviction"] = "yes" if acted or base["source"] == "sniper" else (stated[0] if stated else "")
         out.append(base)
     return sorted(out, key=lambda r: (r["date"], r["time"]))
 
@@ -392,10 +403,11 @@ def scoreboard(rows, small=3, reviews=()):
            "tape; `beat SPY` = share with that number above zero. A type earns attention at 20 ideas with `paid` and "
            "`avg vs SPY` both above the all-ideas line, and without its best idea. Rebuilt by "
            "`python -m zoh.research.opportunities`.", "", "## All ideas", ""] + HEAD + [_line("all ideas", stats(one))]
-    for title, key in (("By source", "source"), ("By direction", "direction"), ("By action (picked or only listed)", "action")):
+    for title, key in (("By source", "source"), ("By direction", "direction"), ("By action (picked or only listed)", "action"),
+                       ("By conviction (what I thought when I listed it; stated since 2026-11-13)", "conviction")):
         out += ["", f"## {title}", ""] + HEAD
         for k, s in sorted(board(rows, key).items(), key=lambda kv: -kv[1]["n"]):
-            out.append(_line(k or "-", s))
+            out.append(_line(k or ("not stated" if key == "conviction" else "-"), s))
     for title, part in (("By type", one), (f"By type, last {len(recent)} sessions", [r for r in one if r["date"] in recent])):
         by = {}
         for r in part:
@@ -443,6 +455,11 @@ def summary_zh(rows, min_n=8, reviews=None):
         show = lambda kv: f"{name(kv[0])}（{kv[1]['n']} 个，够赚钱 {_pct(kv[1]['paid'])}，比大盘 {_pts(kv[1]['vs_spy'])}）"
         lines.append("最好的类型：" + "、".join(show(x) for x in by[:2]))
         lines.append("最差的类型：" + "、".join(show(x) for x in by[-2:][::-1]))
+    told = board(rows, "conviction")
+    if told.get("yes") and told.get("no"):
+        say = lambda k, word: f"{word}的 {told[k]['n']} 个：够赚钱 {_pct(told[k]['paid'])}、比大盘 {_pts(told[k]['vs_spy'])}"
+        lines.append("我的判断：" + "；".join([say("yes", "看好")] + ([say("maybe", "拿不准")] if told.get("maybe") else [])
+                                         + [say("no", "不看好（当对照）")]))
     causes = cause_counts(load_reviews() if reviews is None else reviews)
     if causes:
         lines.append("看错的原因（累计）：" + "、".join(f"{CAUSES.get(c, c).split('：')[0]} {n} 次" for c, n in causes[:3]))
@@ -473,7 +490,8 @@ def main(day=None, backfill_only=False):
             continue
         rows.append({"date": key[0], "time": key[1], "type": key[2], "symbol": key[3],
                      "direction": it.get("direction", "call"), "action": it.get("action", "none"),
-                     "source": it.get("source", ""), **s, "why": (it.get("why") or "")[:200]})
+                     "source": it.get("source", ""), **s, "why": (it.get("why") or "")[:200],
+                     "conviction": it.get("conviction", "")})
         done.add(key)
         added += 1
     if not rows:
@@ -497,7 +515,7 @@ def review_cli(argv):
         owed = to_review(day, rows, reviews)
         open_rows = sum(1 for r in rows if r["date"] == day and r.get("final") != "1")
         print(json.dumps({"date": day, "not_final_rows": open_rows, "causes": CAUSES, "owed": [
-            {k: r.get(k, "") for k in ("date", "time", "symbol", "direction", "type", "source", "action", "grade",
+            {k: r.get(k, "") for k in ("date", "time", "symbol", "direction", "type", "source", "action", "conviction", "grade",
                                        "entry", "close", "entry_close_pct", "spy_pct", "vs_spy_pct",
                                        "best_after_entry_pct", "why")} for r in owed]}, ensure_ascii=False, indent=1))
         return

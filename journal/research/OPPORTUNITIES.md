@@ -43,5 +43,8 @@ journal/opportunity_reviews.csv with one cause from a fixed list (`CAUSES` in zo
 what was thought, what happened and the lesson; the causes are counted at the bottom of OPPORTUNITY_SCORES.md and
 the evening's text goes to journal/postmortems/<date>.json for Discord.
 
+Conviction (since 2026-11-16): each listed idea says `yes`, `maybe` or `no` before the close (a sniper or pick is
+`yes`); `no` is a control. The record splits by it, which is the test of the pick bar itself.
+
 Evidence so far: journal/research/OPPORTUNITY_TESTS.md (daily bars), RUNUP.md, ANALYST.md,
 the dossiers. Open questions: SUNDAY_TESTS.md items 29-33.
