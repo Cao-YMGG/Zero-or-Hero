@@ -1,7 +1,120 @@
 {
- "as_of": "2026-11-13T11:02-05:00",
+ "as_of": "2026-11-13T11:33-05:00",
  "since": "2026-11-12T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-13 11:28",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD Benefits From Nvidia's Troubles, Smart Money Sells Nvidia; Cooler PPI; Bitcoin Below $70K",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/opinion/26/11/63250990/amd-benefits-from-nvidias-troubles-smart-money-sells-nvidia-cooler-ppi-bitcoin-below-70k"
+  },
+  {
+   "time": "11-13 11:26",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Why Is Applied Digital Stock Falling on Friday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63250819/why-is-applied-digital-stock-falling-on-friday"
+  },
+  {
+   "time": "11-13 11:22",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Stock in Focus as Massive 365 Outage Hits Outlook, Teams and Copilot: What Investors Should Know",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63250443/microsoft-stock-in-focus-as-massive-365-outage-hits-outlook-teams-and-copilot-what-investors-should-know"
+  },
+  {
+   "time": "11-13 11:20",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "target down",
+   "headline": "Goldman Sachs Maintains Buy on Robinhood Markets, Lowers Price Target to $115",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63250242/goldman-sachs-maintains-buy-robinhood-markets-lowers-price-target-115"
+  },
+  {
+   "time": "11-13 11:14",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Michael Burry Says WSJ Missed the Real Nvidia Story",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63249664/michael-burry-says-wsj-missed-the-real-nvidia-story"
+  },
+  {
+   "time": "11-13 11:13",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "target up",
+   "headline": "Wells Fargo Maintains Overweight on Walmart, Raises Price Target to $135",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63249565/wells-fargo-maintains-overweight-walmart-raises-price-target-135"
+  },
+  {
+   "time": "11-13 11:08",
+   "symbols": [
+    "AMD",
+    "AVGO",
+    "NVDA",
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Super Micro Extends DOJ-Probe Selloff as Nvidia, Nasdaq Slide",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63249030/super-micro-extends-doj-probe-selloff-as-nvidia-nasdaq-slide"
+  },
+  {
+   "time": "11-13 11:05",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Introduces Alexa for Shopping, Your Personalized, Agentic AI Assistant On Amazon",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63248830/amazon-introduces-alexa-shopping-your-personalized-agentic-ai-assistant-amazon"
+  },
+  {
+   "time": "11-13 11:02",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Faces Multiple US Department of Justice Probes",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/nvidia-draws-scrutiny-from-3-us-justice-department-probes-ce785ed9df8df320"
+  },
+  {
+   "time": "11-13 11:02",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Kirkland Signature Launches Prebiotic Soda",
+   "source": "fiscal.ai",
+   "url": "https://www.bevnet.com/news/2026/new-beverages-jetty-arrives-kirkland-does-modern-soda-bloom-pop-expands/"
+  },
+  {
+   "time": "11-13 11:02",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "target up",
+   "headline": "BofA Securities Raises Price Target on Costco Wholesale",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/bofa-securities-adjusts-price-target-on-costco-wholesale-to-1-257-from-1-095-ce785ed9d18bf123"
+  },
   {
    "time": "11-13 11:01",
    "symbols": [

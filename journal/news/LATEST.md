@@ -1,9 +1,12 @@
-# Headlines since 2026-11-12 16:00 ET (as of 2026-11-13 11:02 ET)
+# Headlines since 2026-11-12 16:00 ET (as of 2026-11-13 11:33 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-13 11:20 | HOOD | target down | Goldman Sachs Maintains Buy on Robinhood Markets, Lowers Price Target to $115 |
+| 11-13 11:13 | WMT | target up | Wells Fargo Maintains Overweight on Walmart, Raises Price Target to $135 |
+| 11-13 11:02 | COST | target up | BofA Securities Raises Price Target on Costco Wholesale |
 | 11-13 10:40 | NVDA | target down | Barclays Maintains Overweight on NVIDIA, Lowers Price Target to $210 |
 | 11-13 10:31 | XOM | target up | Barclays Maintains Overweight on ExxonMobil Holdings, Raises Price Target to $206 |
 | 11-13 09:35 | NVDA | downgrade | Truist Securities Downgrades NVIDIA to Hold, Lowers Price Target to $174 |
@@ -13,6 +16,14 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-13 07:31 | ORCL | rating | President Capital Adjusts Oracle Price Target to $323 |
 | 11-13 07:30 | TSLA | rating | GLJ Research Reiterates Sell on Tesla, Maintains $24.86 Price Target |
 | 11-13 06:31 | AVGO | downgrade | Rothschild & Co Redburn Downgrades Broadcom to Neutral |
+| 11-13 11:28 | AMD |  | AMD Benefits From Nvidia's Troubles, Smart Money Sells Nvidia; Cooler PPI; Bitcoin Below $70K |
+| 11-13 11:26 | NVDA |  | Why Is Applied Digital Stock Falling on Friday? |
+| 11-13 11:22 | MSFT |  | Microsoft Stock in Focus as Massive 365 Outage Hits Outlook, Teams and Copilot: What Investors Should Know |
+| 11-13 11:14 | NVDA |  | Michael Burry Says WSJ Missed the Real Nvidia Story |
+| 11-13 11:08 | AMD AVGO NVDA SMCI |  | Super Micro Extends DOJ-Probe Selloff as Nvidia, Nasdaq Slide |
+| 11-13 11:05 | AMZN |  | Amazon Introduces Alexa for Shopping, Your Personalized, Agentic AI Assistant On Amazon |
+| 11-13 11:02 | NVDA |  | NVIDIA Faces Multiple US Department of Justice Probes |
+| 11-13 11:02 | COST |  | Kirkland Signature Launches Prebiotic Soda |
 | 11-13 11:01 | TSLA |  | Form Energy Appoints Former Tesla Executive Jon McNeill to Board of Directors |
 | 11-13 11:01 | ORCL |  | Oracle Enhances Primavera Unifier with AI Capabilities |
 | 11-13 11:01 | WMT |  | Store Recalls Report Identifies Walmart in 81 Official U.S. Recalls for 2026 |
