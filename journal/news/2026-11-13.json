@@ -1,7 +1,78 @@
 {
- "as_of": "2026-11-13T10:02-05:00",
+ "as_of": "2026-11-13T10:32-05:00",
  "since": "2026-11-12T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-13 10:31",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "target up",
+   "headline": "Barclays Maintains Overweight on ExxonMobil Holdings, Raises Price Target to $206",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63245473/barclays-maintains-overweight-exxonmobil-holdings-raises-price-target-206"
+  },
+  {
+   "time": "11-13 10:23",
+   "symbols": [
+    "GOOGL"
+   ],
+   "rating": "",
+   "headline": "Your AI Health Advice May Be Influenced by Drug Ads, Study Finds",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/11/63244586/your-ai-health-advice-may-be-influenced-by-drug-ads-study-finds"
+  },
+  {
+   "time": "11-13 10:18",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Micron, Moody\u2019s, Digital Realty and a Health Care Stock on CNBC\u2019s \u2018Final Trades\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63243745/micron-moodys-digital-realty-and-a-health-care-stock-on-cnbcs-final-trades"
+  },
+  {
+   "time": "11-13 10:15",
+   "symbols": [
+    "LITE"
+   ],
+   "rating": "",
+   "headline": "Here\u2019s How Much You Would Have Made Owning Lumentum Holdings Stock In The Last 5 Years",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63243275/here-s-how-much-you-would-have-made-owning-lumentum-holdings-stock-last-5-years"
+  },
+  {
+   "time": "11-13 10:14",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Michael Burry Posts On X \"My Thesis On NVIDIA Was Not About Illicit Affairs Because It Goes Far Beyond Illicit Affairs.\"",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63243156/michael-burry-posts-x-my-thesis-nvidia-was-not-about-illicit-affairs-because-it-goes-far-beyond-illi"
+  },
+  {
+   "time": "11-13 10:09",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Gene Munster Says This is Nvidia\u2019s Biggest \u2018Long-Term Challenge\u2019 After Replacing Jensen Huang",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63242763/gene-munster-says-this-is-nvidias-biggest-long-term-challenge-after-replacing-jensen-huang"
+  },
+  {
+   "time": "11-13 10:04",
+   "symbols": [
+    "MSFT",
+    "V"
+   ],
+   "rating": "",
+   "headline": "OpenAI Introduces ChatGPT Wallet; Built In Partnership With American Express, MasterCard, And Visa, ChatGPT Wallet Will Initially Be Available Through Dots\u2060 For ChatGPT Pro Subscribers In The US",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63242244/openai-introduces-chatgpt-wallet-built-partnership-american-express-mastercard-and-visa-chatgpt-wall"
+  },
   {
    "time": "11-13 09:51",
    "symbols": [

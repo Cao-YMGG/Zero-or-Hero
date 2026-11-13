@@ -1,9 +1,10 @@
-# Headlines since 2026-11-12 16:00 ET (as of 2026-11-13 10:02 ET)
+# Headlines since 2026-11-12 16:00 ET (as of 2026-11-13 10:32 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-13 10:31 | XOM | target up | Barclays Maintains Overweight on ExxonMobil Holdings, Raises Price Target to $206 |
 | 11-13 09:35 | NVDA | downgrade | Truist Securities Downgrades NVIDIA to Hold, Lowers Price Target to $174 |
 | 11-13 09:31 | CVX | target up | Barclays Maintains Chevron Hold Rating and Raises Price Target |
 | 11-13 08:07 | AVGO | downgrade | Rothschild & Co Downgrades Broadcom to Neutral, Lowers Price Target to $398 |
@@ -11,6 +12,12 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-13 07:31 | ORCL | rating | President Capital Adjusts Oracle Price Target to $323 |
 | 11-13 07:30 | TSLA | rating | GLJ Research Reiterates Sell on Tesla, Maintains $24.86 Price Target |
 | 11-13 06:31 | AVGO | downgrade | Rothschild & Co Redburn Downgrades Broadcom to Neutral |
+| 11-13 10:23 | GOOGL |  | Your AI Health Advice May Be Influenced by Drug Ads, Study Finds |
+| 11-13 10:18 | MU |  | Micron, Moody’s, Digital Realty and a Health Care Stock on CNBC’s ‘Final Trades’ |
+| 11-13 10:15 | LITE |  | Here’s How Much You Would Have Made Owning Lumentum Holdings Stock In The Last 5 Years |
+| 11-13 10:14 | NVDA |  | Michael Burry Posts On X "My Thesis On NVIDIA Was Not About Illicit Affairs Because It Goes Far Beyond Illicit Affairs." |
+| 11-13 10:09 | NVDA |  | Gene Munster Says This is Nvidia’s Biggest ‘Long-Term Challenge’ After Replacing Jensen Huang |
+| 11-13 10:04 | MSFT V |  | OpenAI Introduces ChatGPT Wallet; Built In Partnership With American Express, MasterCard, And Visa, ChatGPT Wallet Will Initially Be Available Through Dots⁠ For ChatGPT Pro Subscribers In The US |
 | 11-13 09:51 | NVDA |  | Options Traders Expect Nvidia's Biggest Earnings Move Since 2024 |
 | 11-13 09:50 | TSLA |  | 'Elon Musk’s AI Group Guts Grok Video Generation Team'- The Information |
 | 11-13 09:50 | MSFT |  | Microsoft Outage Hit More Than Outlook: Even Its Cybersecurity Defenses Were Affected |
