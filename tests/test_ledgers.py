@@ -1,7 +1,7 @@
 import json
 import tempfile
 import unittest
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 from zoh import bot as botmod
@@ -89,6 +89,80 @@ class LedgerOrderTest(unittest.TestCase):
     def test_paused_ledger_trades_shadow_only(self):
         b, orders = self._enter({"equity": 300.0, "paused": True, "generation": 1})
         self.assertEqual(orders, [])
+
+    def test_gated_ledger_trades_shadow_only(self):
+        b, orders = self._enter({"equity": 300.0, "paused": False, "generation": 1, "gated": True})
+        self.assertEqual(orders, [])
+        b, orders = self._enter({"equity": 300.0, "paused": False, "generation": 1, "gated": False})
+        self.assertEqual(orders, [("SPY261019C00770000", 2)])
+
+
+class RealGateTest(unittest.TestCase):
+    """`real_when` on a ledger variant: real orders only when the condition held at the last close."""
+
+    RULE = {"id": "stock_open_drive", "real_when": {"symbol": "SMH", "below_average": 20}}
+
+    class Api:
+        def __init__(self, closes, fail=()):
+            self.closes, self.fail, self.feeds = closes, fail, []
+
+        def daily_bars_multi(self, symbols, start, end, feed="sip"):
+            self.feeds.append(feed)
+            if feed in self.fail:
+                raise botmod.AlpacaError(403, "no")
+            # one bar a day, the newest on 2026-11-23 (today's own bar, which must not count)
+            first = date(2026, 11, 23) - timedelta(days=len(self.closes) - 1)
+            return {symbols[0]: [{"t": f"{first + timedelta(days=i)}T05:00:00Z", "c": c}
+                                 for i, c in enumerate(self.closes)]}
+
+    def test_no_rule_is_always_on(self):
+        self.assertEqual(ledgers.real_gate(None, {"id": "spy_open_drive"}, "2026-11-23"), (True, ""))
+        self.assertEqual(ledgers.real_gate(None, None, "2026-11-23"), (True, ""))
+
+    def test_below_the_average_is_on_and_above_is_off(self):
+        falling = [530 - i for i in range(24)] + [999]          # the last bar is today's and must not count
+        ok, note = ledgers.real_gate(self.Api(falling), self.RULE, "2026-11-23")
+        self.assertTrue(ok)
+        self.assertIn("below its 20-day average", note)
+        rising = [500 + i for i in range(24)] + [1]
+        ok, note = ledgers.real_gate(self.Api(rising), self.RULE, date(2026, 11, 23))
+        self.assertFalse(ok)
+        self.assertIn("SMH closed 523.00, above its 20-day average 513.50", note)
+
+    def test_unknown_state_is_shadow_only(self):
+        self.assertFalse(ledgers.real_gate(None, self.RULE, "2026-11-23")[0])                       # no api
+        self.assertFalse(ledgers.real_gate(self.Api([500.0] * 10), self.RULE, "2026-11-23")[0])     # too few bars
+        api = self.Api([530 - i for i in range(25)], fail=("sip", "iex"))
+        ok, note = ledgers.real_gate(api, self.RULE, "2026-11-23")
+        self.assertFalse(ok)
+        self.assertIn("daily bars failed", note)
+
+        class Down:
+            def daily_bars_multi(self, *a, **k):
+                raise OSError("network unreachable")
+        ok, note = ledgers.real_gate(Down(), self.RULE, "2026-11-23")      # never raises into the bot's start
+        self.assertFalse(ok)
+        self.assertIn("network unreachable", note)
+
+    def test_falls_back_to_iex_when_sip_refuses(self):
+        api = self.Api([530 - i for i in range(25)], fail=("sip",))
+        self.assertTrue(ledgers.real_gate(api, self.RULE, "2026-11-23")[0])
+        self.assertEqual(api.feeds, ["sip", "iex"])
+
+    def test_start_ledgers_marks_the_gated_ledger(self):
+        with tempfile.TemporaryDirectory() as d:
+            tmp = Path(d)
+            saved = (journal.JOURNAL_DIR, journal.TRADES_PATH, ledgers.PATH)
+            journal.JOURNAL_DIR, journal.TRADES_PATH, ledgers.PATH = tmp, tmp / "t.csv", tmp / "ledgers.json"
+            try:
+                config = {"ledgers": dict(CFG, variants=["stock_open_drive", "spy_open_drive"]),
+                          "variants": [self.RULE, {"id": "spy_open_drive"}]}
+                out = botmod.start_ledgers(config, "2026-11-23", self.Api([500 + i for i in range(25)]))
+            finally:
+                journal.JOURNAL_DIR, journal.TRADES_PATH, ledgers.PATH = saved
+        self.assertTrue(out["stock_open_drive"]["gated"])
+        self.assertFalse(out["spy_open_drive"]["gated"])
+        self.assertEqual(out["stock_open_drive"]["equity"], 500)
 
 
 class SpreadGateTest(unittest.TestCase):

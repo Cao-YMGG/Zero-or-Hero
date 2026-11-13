@@ -71,6 +71,40 @@ class OpenGate(unittest.TestCase):
         self.assertFalse(first["spy_below"] or first["breadth"])
         self.assertTrue(state["next"]["breadth"])
 
+    def test_cells_and_long_average(self):
+        self.assertEqual(g.cell_of(True, True), "dip in an uptrend")
+        self.assertEqual(g.cell_of(True, False), "dip in a downtrend")
+        self.assertEqual(g.cell_of(False, True), "above its 20-day average")
+        rising = [float(i) for i in range(1, 121)]
+        self.assertTrue(g.above_long(rising, 119))
+        self.assertFalse(g.above_long(rising[::-1], 119))
+        self.assertFalse(g.above_long(rising, 30))        # under 80 closes: not enough to call a trend
+
+    def test_best_quarters_and_positive_count(self):
+        rows = [trade("NVDA", "2026-05-04", 5.0), trade("NVDA", "2026-05-06", -1.0),    # Q2: +4
+                trade("TSLA", "2026-08-03", 2.0),                                       # Q3: +2
+                trade("TSLA", "2026-02-02", -1.0), trade("TSLA", "2025-11-03", -0.5)]   # two losing quarters
+        value = lambda t: t["d35"]["exits"]["hold"]
+        self.assertEqual(g.quarter_of(rows[0]), "2026 Q2")
+        self.assertEqual(g.best_quarters(rows, value), (["2026 Q2", "2026 Q3"], 2, 4))
+        self.assertEqual(g.best_quarters(rows, value, k=1)[0], ["2026 Q2"])
+
+    def test_half_hours_and_signals_on_the_underlying(self):
+        class Api:
+            def stock_bars(self, sym, start, end, timeframe="1Min", feed="iex", adjustment="raw"):
+                if start.year != 2026:
+                    return []
+                up = {"NVDA": 101.0, "TSLA": 100.5, "SPY": 99.4}[sym]       # +1.0%, +0.5%, -0.6% by 10:00
+                return [{"t": "2026-11-02T14:30:00Z", "o": 100.0, "h": 102, "l": 99, "c": up, "v": 1},
+                        {"t": "2026-11-02T20:00:00Z", "o": up, "h": 103, "l": 99, "c": up * 1.02, "v": 1},
+                        {"t": "2026-11-03T14:30:00Z", "o": 100.0, "h": 102, "l": 99, "c": 100.0, "v": 1}]  # no 15:00 bar
+        rows = g.underlying(Api(), start=date(2026, 1, 1))
+        self.assertEqual([(r["sym"], r["kind"]) for r in rows], [("NVDA", "call"), ("SPY", "put")])
+        self.assertAlmostEqual(rows[0]["rest"], 0.02)       # the call wants the stock higher
+        self.assertAlmostEqual(rows[1]["rest"], -0.02)      # the put is signed the other way
+        self.assertEqual(g.drift(rows), "2 | +0.00% | 50% | 50% | 50%")
+        self.assertEqual(g.drift([]), "0 | - | - | - | -")
+
     def test_gate_table_splits_lit_and_unlit(self):
         state = {"2026-11-02": {"breadth": True}, "2026-11-04": {"breadth": False}}
         rows = [trade("TSLA", "2026-11-02", 2.0), trade("TSLA", "2026-11-04", -1.0)]

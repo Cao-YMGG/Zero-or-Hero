@@ -11,11 +11,18 @@ last) and resumes after the next win; the shadow keeps trading either way.
 
     "ledgers": {"base": 500, "dead": 50, "risk": 0.2, "one_contract_cap": 0.25,
                 "pause_after": 5, "variants": ["meta_follow2", ...]}
+
+A ledger variant may also carry `real_when`, a daily condition judged at the last close before
+the session (`real_gate`): on a day it does not hold, the ledger places no real order and its
+shadow trades as usual.
 """
 import csv
 import json
+from datetime import date, datetime, timedelta
 
 from . import journal
+from .alpaca import AlpacaError
+from .strategy import ET
 
 PATH = journal.JOURNAL_DIR / "ledgers.json"
 EQUITY_PATH = journal.JOURNAL_DIR / "ledger_equity.csv"
@@ -28,6 +35,48 @@ def load():
 
 def save(ledgers):
     PATH.write_text(json.dumps(ledgers, indent=2, sort_keys=True) + "\n")
+
+
+def closes_before(api, symbol, day, days):
+    """The last `days` daily closes of `symbol` strictly before `day` (split-adjusted)."""
+    start = day - timedelta(days=days * 2 + 20)
+    try:
+        bars = api.daily_bars_multi([symbol], start, day, feed="sip")
+    except AlpacaError:
+        bars = api.daily_bars_multi([symbol], start, day, feed="iex")
+    out = [b["c"] for b in bars.get(symbol, [])
+           if datetime.fromisoformat(b["t"].replace("Z", "+00:00")).astimezone(ET).date() < day]
+    return out[-days:]
+
+
+def real_gate(api, variant, today):
+    """(ok, note): may this ledger variant place real orders today?
+
+    `"real_when": {"symbol": "SMH", "below_average": 20}` means the symbol closed below the average of
+    its last 20 closes at the last close before today. No rule: always ok. Bars missing or the request
+    failing: not ok, because a shadow-only day costs nothing and a real order on an unknown state does.
+
+    stock_open_drive, 2026-11-13 (journal/research/OPENGATE.md): NVDA/TSLA calls at +0.8% by 10:00 won
+    50% after an evening with SMH below its 20-day average and 20% after the others (44 and 51 trades
+    on real 0.35-delta prices, 2024-02 to 2026-11; +38% against -56% a trade without the best two), and
+    in 2020 to 2023, before the option data, the stock added the 1% the call needs on 44% of such days
+    against 35% (231 and 342 signals, the same way in each of the four years). A tilt, not an edge."""
+    rule = (variant or {}).get("real_when")
+    if not rule:
+        return True, ""
+    symbol, days = rule["symbol"], int(rule["below_average"])
+    day = date.fromisoformat(today) if isinstance(today, str) else today
+    if api is None:
+        return False, f"no market data for {symbol}"
+    try:
+        closes = closes_before(api, symbol, day, days)
+    except Exception as e:  # a network error here must never stop the session from starting
+        return False, f"{symbol} daily bars failed: {e}"
+    if len(closes) < days:
+        return False, f"only {len(closes)} daily closes for {symbol}"
+    average = sum(closes) / days
+    ok = closes[-1] < average
+    return ok, f"{symbol} closed {closes[-1]:.2f}, {'below' if ok else 'above'} its {days}-day average {average:.2f}"
 
 
 def members(config):

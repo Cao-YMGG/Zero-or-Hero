@@ -16,7 +16,8 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
   belongs to the champion and the snipers. Since 2026-11-09 (owner) a ledger variant buys one contract
   nearest 0.35 delta (about 1% from the money) for up to half its ledger, and its shadow is sized the
   same way; before, 20% of the ledger at 0.15 delta bought strikes 2-5% out that went to zero with the
-  direction right (14 of 134 graded trades, STRIKEBUDGET.md). Real entries on SPY/QQQ contracts are
+  direction right (14 of 134 graded trades, STRIKEBUDGET.md). A ledger variant with `real_when` trades real
+  only on days its condition held at the last close (stock_open_drive: SMH below its 20-day average, 2026-11-13). Real entries on SPY/QQQ contracts are
   re-quoted once up to 50% above the first ask (10% on single stocks, bot.retry_slack). Weekly-review studies: `.github/workflows/sunday.yml`
   (run by hand) and `zoh/research/` (exits.py, scanners.py, ...).
 - `journal/`: written by GitHub Actions — `trades.csv`, `equity.csv`, `REVIEW.md`,
@@ -185,7 +186,12 @@ scored against purely mechanical variants.
    (15 runs since 2020), and +1.5% days just as often. It marks big days, not down days: say so in `reasons`, do not move p_up
    on it. A gap cannot be shorted after the open: mega-cap gaps <= -5% closed above their open 52% of the time (+0.3%), NVDA
    gaps <= -3% 56% (+1.7%). The one place the lights show in our own trades is stock_open_drive calls after a `breadth`
-   evening (59% win, +58%, 22 trades, against 28%, -15%, 67 trades): a candidate gate, SUNDAY_TESTS 62, not a rule yet.
+   evening (59% win, +58%, 22 trades, against 28%, -15%, 67 trades). Tested 2026-11-13 (journal/research/OPENGATE.md): the
+   light itself fails (no difference on the stock alone in 2020-2023, no dose, 2026 Q3 holds half its wins), the plainer state
+   behind it holds as a small tilt. Since then stock_open_drive places real orders only after an evening with SMH below its
+   20-day average (`real_when` in config; 50% against 20% wins on real 0.35-delta prices, and the +1% from 10:00 the call needs
+   on 44% against 35% of days in 2020-2023); its shadow trades every signal. Come-off bar: 10 shadow signals on `above`
+   evenings winning 4 or more. Outside 2026 Q2-Q3 the ledger loses either way (62 trades, 26% win, -35%).
    Outside tech, also track sector baskets every day: banks (JPM, GS, BAC), health care (UNH,
    LLY), energy (XOM, CVX), consumer (WMT, COST, HD), industrials (CAT, GE), with XLF/XLV/
    XLE/XLY/XLI and IWM as checks. Every universe and theme here was tech, so on 2026-10-14/15,

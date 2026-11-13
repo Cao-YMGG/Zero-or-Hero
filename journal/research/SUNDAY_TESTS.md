@@ -371,7 +371,8 @@ in EVOLUTION.md.
    unlit in each period slice; it is NVDA/TSLA (22 trades, 59%, +58% vs 67 trades, 28%, -15%), not SPY (12 vs 7, no
    difference). Six lights, two sides and four exits were looked at, so this cell is a candidate, not a rule: item 62.
 
-62. **Chip breadth as a gate for stock_open_drive calls, and the put side (2026-11-12, from DROPS.md).** After an evening with
+62. **Chip breadth as a gate for stock_open_drive calls, and the put side (2026-11-12, from DROPS.md).** DONE 11-13, 00:50 ET
+   (owner: "62 too, do not wait for Sunday"; journal/research/OPENGATE.md, zoh/research/opengate.py), result at the end. After an evening with
    >= 75% of the chip names below their own 20-day average, NVDA/TSLA calls at +0.8% from the open at 10:00 won 59% (+58% take3,
    +41% without the best two; 22 trades) against 28% (-15%; 67 trades) after other evenings, and lit beat unlit in the last 3
    months, the last year and before. Against it: the cell was found among 6 lights x 2 sides x 4 exits; the data ends 2026-10-15;
@@ -383,6 +384,41 @@ in EVOLUTION.md.
    lit or unlit (`python -m zoh.research.drops --today` in the morning file). Separately, SPY puts at <= -0.5% lost under every
    exit (27 trades, 22-33% win, -28% to -38%): spy_open_drive_put holds a $500 real ledger and has not traded; decide on Sunday
    whether it stays real.
+   RESULT (OPENGATE.md; 168 signals 2024-02-01 to 2026-11-12 re-priced at the contract nearest 0.35 delta, and the same 10:00
+   signals on the stock alone for 2020 to 2023, which the option data does not reach).
+   (a) The breadth light is not the gate. On the 0.35-delta strike held to 15:30 the split is still there (lit 28 trades, 54%
+   win, +56%, +17% without the best two; not lit 67 trades, 25%, +8%, -23%), but it fails the bar written before the prices
+   were read: shuffling the lit days reaches the gap in the average 17.6% of the time (0.9% for the win rate, before counting
+   the 48 cells it was found in); there is no dose: 75-99% of chips below their average 18 trades 67% win, all twelve 10
+   trades 30%; the lit trades sit in 9 of the 12 quarters and 2026 Q3 holds 7 of their 15 wins; the six trades after
+   the discovery data (10-19 to 11-09) were all lit and one won (-41%), the ledger's own five 1 win; and in 2020 to 2023 the
+   stock did the same after lit and unlit evenings (+0.27% against +0.28% from 10:00 to 15:30; 154 and 419 signals).
+   (b) The plainer state it stands in for does better. The light never lit with SMH above its 20-day average, and `SMH
+   below its 20-day average` adds 16 trades of the same kind: 44 trades, 50% win, +74%, +38% without the best two, against
+   51 trades, 20%, -23%, -56% (shuffles reach it 1.6% and 0.2% of the time, picked from 15 states after reading them). On
+   the ledger's own rule (Mon/Wed, the stronger name, no macro day, no monthly-expiry week): 15 trades 67% win +189% against
+   14 trades 21% -60%. Out of sample on the stock alone, 2020 to 2023: the +1% from 10:00 that the call needs came on 44%
+   of such days against 35% (231 and 342 signals; 46/37, 48/34, 42/35, 42/36 by year), 33% against 27% in 2024 to 2026. The
+   call made money on 30 of 38 days with that +1% and on 2 of 57 without. So: a tilt of 6 to 9 points on the win rate, a
+   third of what the option sample shows. A refinement found on the way (dip above the 100-day average 67% win, below it
+   24%) does not survive 2020 to 2023 (43% against 44%) and is dropped.
+   (c) What the ledger rests on: 2 of 12 calendar quarters averaged above zero (2026 Q2 +163% on 15 trades, none after a lit
+   evening; 2026 Q3 +102% on 18). Without them: 62 trades, 26% win, -35%, and both sides lose (SMH below 31 trades 35% win
+   -7%; above 31 trades 16% -63%). stock_open_drive was given its ledger on 10-16 on its last three months of real prices,
+   which were 2026 Q3.
+   DECISION (ledger decision, 11-09 mandate; the one filter change for the week of 11-16): stock_open_drive places real
+   orders only after an evening with SMH below its 20-day average (`real_when` in config, judged by the bot at the last
+   close; unknown state = shadow only); the shadow trades every signal as before. It changes nothing this week or next:
+   SMH is below its average now (501.92 against 520.72) and 11-16 to 11-20 is the monthly-expiry week, which the ledger
+   skips. Come-off bar: once the shadow has 10 signals on `above` evenings, the gate is removed if they won 4 or more, or
+   averaged above zero without the best one. The breadth light stays in the morning file as a volatility note only. SPY
+   calls get no gate (2020-23: +0.04% below against +0.23% above).
+   The put hand stays real. On its own strike, days and exit it is not `negative under every exit`: 17 trades, 47% win,
+   +21% under the trail, +1% without the best, -18% without the best two (all weekdays, 27 trades: 37%, -8%, -21%, -34%).
+   New and against it: in 2020 to 2023, after SPY was 0.5% or more below its open at 10:00, it bounced 1% or more by 15:30
+   on 31% of days and fell 1% further on 18% (62 signals; 2024-26: 10% and 17%, 30 signals): the bounce is the commoner
+   tail. No evening state helps: the SMH split flips sign between the two periods. About six signals a year, at most half
+   of $500 each, paused after five losses in a row; the owner chose it on 11-05 as a tail position with these odds in view.
 
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
