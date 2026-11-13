@@ -38,5 +38,10 @@ the record (`analyst`, `company_news`, `sector_move`, `relative_weakness`, `rela
 sessions): no edge as a whole (54% right, 28% paid, +0.05% against SPY); rating changes lead (13 ideas, 54% paid,
 +1.4% against SPY); ideas added at the intraday checks trail the pre-market ones (19% paid against 35%).
 
+Post-mortems (owner, 2026-11-13): every evening each wrong idea and each pick gets one row in
+journal/opportunity_reviews.csv with one cause from a fixed list (`CAUSES` in zoh/research/opportunities.py) and
+what was thought, what happened and the lesson; the causes are counted at the bottom of OPPORTUNITY_SCORES.md and
+the evening's text goes to journal/postmortems/<date>.json for Discord.
+
 Evidence so far: journal/research/OPPORTUNITY_TESTS.md (daily bars), RUNUP.md, ANALYST.md,
 the dossiers. Open questions: SUNDAY_TESTS.md items 29-33.

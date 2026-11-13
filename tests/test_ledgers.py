@@ -575,6 +575,43 @@ class OpportunityScoreTest(unittest.TestCase):
         self.assertTrue(session_over(date(2026, 11, 13), at(16, 1)))
         self.assertTrue(session_over(date(2026, 11, 12), at(9, 0)))
 
+    def test_post_mortems_are_owed_validated_and_counted(self):
+        from zoh import notify
+        from zoh.research import opportunities as opp
+
+        def row(t, sym, direction, move, grade, action="none", source="intraday", kind="company_news"):
+            return {"date": "2026-11-13", "time": t, "type": kind, "symbol": sym, "direction": direction,
+                    "action": action, "source": source, "entry_close_pct": str(move), "vs_spy_pct": "0.1",
+                    "best_after_entry_pct": "0", "grade": grade}
+        rows = [row("09:31", "TSLA", "call", -3.0, "wrong", "shadow", "sniper"),      # the pick, wrong
+                row("10:17", "AMD", "put", 1.5, "paid", kind="relative_weakness"),     # right and not a pick: nothing owed
+                row("10:17", "META", "call", -0.4, "wrong", kind="relative_strength"),
+                row("11:22", "META", "call", 0.9, "right", kind="relative_strength"),  # a repeat: not a new idea
+                {**row("10:00", "XLF", "call", -0.2, "wrong"), "date": "2026-11-12"}]
+        owed = opp.to_review("2026-11-13", rows)
+        self.assertEqual([(r["symbol"], r["grade"]) for r in owed], [("TSLA", "wrong"), ("META", "wrong")])
+        note = {"date": "2026-11-13", "symbol": "TSLA", "direction": "call", "cause": "missed_news",
+                "thought": "merger talks", "happened": "sold from the open", "lesson": "read again at 08:30"}
+        with self.assertRaises(ValueError):
+            opp.add_reviews([dict(note, cause="bad luck")], rows, [])            # not a cause on the list
+        with self.assertRaises(ValueError):
+            opp.add_reviews([dict(note, lesson=" ")], rows, [])                  # every field must be written
+        with self.assertRaises(ValueError):
+            opp.add_reviews([dict(note, symbol="NVDA")], rows, [])               # no such idea
+        reviews = opp.add_reviews([note, dict(note, symbol="META", cause="no_catalyst")], rows, [])
+        self.assertEqual([(r["symbol"], r["type"], r["grade"], r["cause"]) for r in reviews],
+                         [("TSLA", "company_news", "wrong", "missed_news"), ("META", "relative_strength", "wrong", "no_catalyst")])
+        self.assertEqual(len(opp.add_reviews([note], rows, reviews)), 2)        # written once
+        self.assertEqual(opp.to_review("2026-11-13", rows, reviews), [])
+        self.assertEqual(opp.cause_counts(reviews + [dict(reviews[0], symbol="X")]), [("missed_news", 2), ("no_catalyst", 1)])
+        text = opp.scoreboard(rows, reviews=reviews)
+        self.assertIn("## Why the wrong ones were wrong", text)
+        self.assertIn("2 of 3 wrong ideas have a post-mortem", text)
+        self.assertIn("| missed_news | 漏看消息 | 1 | 50% | -3.00% | company_news 1 |", text)
+        self.assertIn("看错的原因（累计）：漏看消息 1 次", opp.summary_zh(rows, min_n=1, reviews=reviews)[-1])
+        self.assertEqual(notify.postmortem_message({"date": "2026-11-13", "text": " 错 2 个 "}), "**🪞 机会复盘 2026-11-13**\n错 2 个")
+        self.assertEqual(notify.postmortem_message({"date": "2026-11-13", "text": ""}), "")
+
     def test_discord_lines_grade_and_compare(self):
         import csv as _csv
         from zoh import notify
