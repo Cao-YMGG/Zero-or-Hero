@@ -1,4 +1,4 @@
-# Headlines since 2026-11-12 16:00 ET (as of 2026-11-13 12:03 ET)
+# Headlines since 2026-11-12 16:00 ET (as of 2026-11-13 12:33 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -16,6 +16,9 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-13 07:31 | ORCL | rating | President Capital Adjusts Oracle Price Target to $323 |
 | 11-13 07:30 | TSLA | rating | GLJ Research Reiterates Sell on Tesla, Maintains $24.86 Price Target |
 | 11-13 06:31 | AVGO | downgrade | Rothschild & Co Redburn Downgrades Broadcom to Neutral |
+| 11-13 12:13 | COIN |  | Is Bitcoin the Better Gold? These 3 Factors Say Yes |
+| 11-13 12:11 | MSFT TSLA |  | 'OpenAI disbands its robotics team as its general models start running robots'- Fortune |
+| 11-13 12:10 | HOOD |  | Robinhood Stock Falls on 48% Crypto Volume Drop, Goldman Target Cut, Bitcoin Slide |
 | 11-13 11:56 | ARM NVDA |  | 'Arm boss Rene Haas approached in Nvidia CEO search'- Financial Times |
 | 11-13 11:46 | SMCI |  | Super Micro Computer Spokesperson Says Responsive To Inquiries And Has Fully Cooperated With US And Taiwanese Officials; Megaspeed Is Not, And Has Never Been, A Supermicro Customer; Voluntarily Provided Information And Engaging With All Requests From Singapore Authorities To Date |
 | 11-13 11:38 | V |  | Bill Ackman Is a Fan of ‘Remarkable Story’ of Anthropic, but He’s Not Buying Stock at IPO |

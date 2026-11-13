@@ -1,7 +1,38 @@
 {
- "as_of": "2026-11-13T12:03-05:00",
+ "as_of": "2026-11-13T12:33-05:00",
  "since": "2026-11-12T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-13 12:13",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Is Bitcoin the Better Gold? These 3 Factors Say Yes",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63254640/is-bitcoin-the-better-gold-these-3-factors-say-yes"
+  },
+  {
+   "time": "11-13 12:11",
+   "symbols": [
+    "MSFT",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "'OpenAI disbands its robotics team as its general models start running robots'- Fortune",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63254548/openai-disbands-its-robotics-team-its-general-models-start-running-robots-fortune"
+  },
+  {
+   "time": "11-13 12:10",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Stock Falls on 48% Crypto Volume Drop, Goldman Target Cut, Bitcoin Slide",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63254460/robinhood-stock-falls-on-48-crypto-volume-drop-goldman-target-cut-bitcoin-slide"
+  },
   {
    "time": "11-13 11:56",
    "symbols": [
