@@ -1,4 +1,4 @@
-# Headlines since 2026-11-12 16:00 ET (as of 2026-11-13 13:46 ET)
+# Headlines since 2026-11-12 16:00 ET (as of 2026-11-13 14:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -16,6 +16,15 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-13 07:31 | ORCL | rating | President Capital Adjusts Oracle Price Target to $323 |
 | 11-13 07:30 | TSLA | rating | GLJ Research Reiterates Sell on Tesla, Maintains $24.86 Price Target |
 | 11-13 06:31 | AVGO | downgrade | Rothschild & Co Redburn Downgrades Broadcom to Neutral |
+| 11-13 14:02 | CRM |  | Salesforce Ventures Participates in LangChain Funding Round |
+| 11-13 14:01 | ORCL |  | Department of Veterans Affairs and Department of War Go-Live on Oracle Health Information Network |
+| 11-13 14:01 | CAT |  | Levi & Korsinsky Investigates Caterpillar Inc. Following Third Quarter Results |
+| 11-13 14:01 | ARM |  | Nvidia Board Approaches Arm CEO Rene Haas for Potential Succession |
+| 11-13 14:01 | AAPL |  | Apple Launches HomeView Smart Home Hub |
+| 11-13 14:01 | MSFT |  | Microsoft Experiences Widespread Global Service Outage |
+| 11-13 14:00 | HOOD |  | 'US Supreme Court to consider lawsuit over Robinhood's 2021 IPO'- Reuters |
+| 11-13 14:00 | GE |  | Warburg Pincus Made 55% On Its First Fund. Now It Wants $5 Billion More |
+| 11-13 13:51 | HOOD |  | Klarna Hires Robinhood Executive As CFO |
 | 11-13 13:42 | AMD NVDA |  | AMD Stock Has Outrun Nvidia 5X Since 2024. But There’s a Valuation Catch |
 | 11-13 13:27 | NVDA |  | How Did Dell Servers With Restricted NVIDIA Chips End Up in China? |
 | 11-13 13:01 | AMZN CAT |  | CNBC Halftime Report Final: Caterpillar, Amazon, eBay |

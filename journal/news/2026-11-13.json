@@ -1,7 +1,97 @@
 {
- "as_of": "2026-11-13T13:46-05:00",
+ "as_of": "2026-11-13T14:16-05:00",
  "since": "2026-11-12T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-13 14:02",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce Ventures Participates in LangChain Funding Round",
+   "source": "fiscal.ai",
+   "url": "https://www.fidelity.com/news/article/technology/202611131053BIZWIRE_USPR_____20261113_BW716429"
+  },
+  {
+   "time": "11-13 14:01",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Department of Veterans Affairs and Department of War Go-Live on Oracle Health Information Network",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/department-of-veterans-affairs-and-department-of-war-go-live-on-oracle-health-information-network-to-expand-nationwide-health-information-exchange-302939220.html"
+  },
+  {
+   "time": "11-13 14:01",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "Levi & Korsinsky Investigates Caterpillar Inc. Following Third Quarter Results",
+   "source": "fiscal.ai",
+   "url": "https://www.financialcontent.com/article/accwirecq-2026-11-13-caterpillar-inc-cat-securities-investigation-notice-levi-and-korsinsky"
+  },
+  {
+   "time": "11-13 14:01",
+   "symbols": [
+    "ARM"
+   ],
+   "rating": "",
+   "headline": "Nvidia Board Approaches Arm CEO Rene Haas for Potential Succession",
+   "source": "fiscal.ai",
+   "url": "https://michaelwest.com.au/nvidia-approached-arms-haas-for-executive-role-report/"
+  },
+  {
+   "time": "11-13 14:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Launches HomeView Smart Home Hub",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/l1uksdi/"
+  },
+  {
+   "time": "11-13 14:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Experiences Widespread Global Service Outage",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.lk/2026/11/13/widespread-microsoft-outage-takes-down-outlook-and-other-365-services/"
+  },
+  {
+   "time": "11-13 14:00",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "'US Supreme Court to consider lawsuit over Robinhood's 2021 IPO'- Reuters",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63261054/us-supreme-court-consider-lawsuit-over-robinhood-s-2021-ipo-reuters"
+  },
+  {
+   "time": "11-13 14:00",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "Warburg Pincus Made 55% On Its First Fund. Now It Wants $5 Billion More",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/private-markets/26/11/63261048/warburg-pincus-made-55-on-its-first-fund-now-it-wants-5-billion-more"
+  },
+  {
+   "time": "11-13 13:51",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Klarna Hires Robinhood Executive As CFO",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63260476/klarna-hires-robinhood-executive-as-cfo"
+  },
   {
    "time": "11-13 13:42",
    "symbols": [
