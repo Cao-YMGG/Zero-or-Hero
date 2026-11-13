@@ -1,7 +1,97 @@
 {
- "as_of": "2026-11-13T07:41-05:00",
+ "as_of": "2026-11-13T08:33-05:00",
  "since": "2026-11-12T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-13 08:30",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "SemiAnalysis Suspects US Intelligence Role in Jensen Huang\u2019s Exit as China Chip Crackdown Looms",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63236044/jensen-huang-intelligence"
+  },
+  {
+   "time": "11-13 08:29",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Newsmax Delivers Its Strongest Quarter Since Going Public",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/11/63235975/newsmax-delivers-its-strongest-quarter-since-going-public"
+  },
+  {
+   "time": "11-13 08:26",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Jensen Huang Faces Subpoena Threat As 3 Republican-Led House Committees Demand Closed-Door Testimony Over Nvidia\u2019s China Ties",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63235908/jensen-huang-faces-subpoena-threat-as-3-republican-led-house-committees-demand-closed-door-testimony-over-nvidias-china-ties"
+  },
+  {
+   "time": "11-13 08:07",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "downgrade",
+   "headline": "Rothschild & Co Downgrades Broadcom to Neutral, Lowers Price Target to $398",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63235286/rothschild-co-downgrades-broadcom-neutral-lowers-price-target-398"
+  },
+  {
+   "time": "11-13 08:02",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Blocking AI Shopping Agent Payments",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/jpmorgan-blocking-ai-shopping-agent-payments-ce785ed9dc8df125"
+  },
+  {
+   "time": "11-13 08:01",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "National Pension Service of Korea Discloses Increase in SanDisk Shareholdings",
+   "source": "fiscal.ai",
+   "url": "https://www.koreaherald.com/article/10936767"
+  },
+  {
+   "time": "11-13 08:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Confirms South Korea GPU Supply Commitment",
+   "source": "fiscal.ai",
+   "url": "https://www.koreaherald.com/article/10936791"
+  },
+  {
+   "time": "11-13 08:01",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Releases Cybertruck RC Racer Model",
+   "source": "fiscal.ai",
+   "url": "https://techbuzzireland.com/2026/11/13/you-can-now-buy-a-tesla-cybertruck-rc-racer/"
+  },
+  {
+   "time": "11-13 07:42",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "'Texas\u2019 Next AG Vows \u2018Tremendous Scrutiny\u2019 of Tesla-SpaceX Deal' - Bloomberg Interview",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63234329/texas-next-ag-vows-tremendous-scrutiny-tesla-spacex-deal-bloomberg-interview"
+  },
   {
    "time": "11-13 07:33",
    "symbols": [

@@ -1,13 +1,22 @@
-# Headlines since 2026-11-12 16:00 ET (as of 2026-11-13 07:41 ET)
+# Headlines since 2026-11-12 16:00 ET (as of 2026-11-13 08:33 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-13 08:07 | AVGO | downgrade | Rothschild & Co Downgrades Broadcom to Neutral, Lowers Price Target to $398 |
 | 11-13 07:32 | GS | upgrade | Goldman Sachs Upgrades DT Midstream to Neutral |
 | 11-13 07:31 | ORCL | rating | President Capital Adjusts Oracle Price Target to $323 |
 | 11-13 07:30 | TSLA | rating | GLJ Research Reiterates Sell on Tesla, Maintains $24.86 Price Target |
 | 11-13 06:31 | AVGO | downgrade | Rothschild & Co Redburn Downgrades Broadcom to Neutral |
+| 11-13 08:30 | NVDA |  | SemiAnalysis Suspects US Intelligence Role in Jensen Huang’s Exit as China Chip Crackdown Looms |
+| 11-13 08:29 | META |  | Newsmax Delivers Its Strongest Quarter Since Going Public |
+| 11-13 08:26 | NVDA |  | Jensen Huang Faces Subpoena Threat As 3 Republican-Led House Committees Demand Closed-Door Testimony Over Nvidia’s China Ties |
+| 11-13 08:02 | JPM |  | JPMorgan Chase Blocking AI Shopping Agent Payments |
+| 11-13 08:01 | SNDK |  | National Pension Service of Korea Discloses Increase in SanDisk Shareholdings |
+| 11-13 08:01 | NVDA |  | NVIDIA Confirms South Korea GPU Supply Commitment |
+| 11-13 08:01 | TSLA |  | Tesla Releases Cybertruck RC Racer Model |
+| 11-13 07:42 | TSLA |  | 'Texas’ Next AG Vows ‘Tremendous Scrutiny’ of Tesla-SpaceX Deal' - Bloomberg Interview |
 | 11-13 07:33 | NVDA |  | Jensen Huang Divorce Odds Hit 37%, but Top Lawyer Says Couple May Wait Out Scandal |
 | 11-13 07:32 | GS |  | Goldman Sachs Publishes 2027 Global Equity Strategy Outlook |
 | 11-13 07:32 | GS |  | Goldman Sachs Adjusts Price Target on Williams Companies |
