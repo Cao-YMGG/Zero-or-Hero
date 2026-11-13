@@ -1,162 +1,65 @@
 {
   "date": "2026-11-13",
-  "done": false,
+  "done": true,
   "variants": {
     "catalyst_open@2026-11-09": {
       "entered": true,
       "carried": true,
       "of": "catalyst_open",
-      "shadow": {
-        "contract": "WMT261113C00131000",
-        "direction": "call",
-        "entry_time": "2026-11-09T09:33:14-05:00",
-        "entry_price": 0.26,
-        "peak": 0.26,
-        "qty": 3,
-        "last": 0,
-        "last_time": "2026-11-13T15:16:54-05:00"
-      },
-      "real": {
-        "contract": "WMT261113C00131000",
-        "qty": 3,
-        "underlying": "WMT",
-        "entry_price": 0.24,
-        "entry_time": "2026-11-09T09:33:20-05:00"
-      }
+      "closed": true
     },
     "catalyst_open_hero@2026-11-09": {
       "entered": true,
       "carried": true,
       "of": "catalyst_open_hero",
-      "shadow": {
-        "contract": "WMT261113C00131000",
-        "direction": "call",
-        "entry_time": "2026-11-09T09:33:14-05:00",
-        "entry_price": 0.26,
-        "peak": 0.26,
-        "qty": 17,
-        "last": 0,
-        "last_time": "2026-11-13T15:16:54-05:00"
-      }
+      "closed": true
     },
     "catalyst_intraday_hero@2026-11-09": {
       "entered": true,
       "carried": true,
       "of": "catalyst_intraday_hero",
-      "shadow": {
-        "contract": "LLY261113C01470000",
-        "direction": "call",
-        "entry_time": "2026-11-09T13:19:56-05:00",
-        "entry_price": 4.23,
-        "peak": 5.27,
-        "qty": 1,
-        "last": 0,
-        "last_time": "2026-11-13T15:16:54-05:00"
-      }
+      "closed": true
     },
     "catalyst_open_hero@2026-11-10": {
       "entered": true,
       "carried": true,
       "of": "catalyst_open_hero",
-      "shadow": {
-        "contract": "TSM261113C00415000",
-        "direction": "call",
-        "entry_time": "2026-11-10T09:32:52-05:00",
-        "entry_price": 1.01,
-        "peak": 7.13,
-        "qty": 4,
-        "last": 0.03,
-        "last_time": "2026-11-13T15:16:54-05:00"
-      }
+      "closed": true
     },
     "catalyst_open_hero@2026-11-12": {
       "entered": true,
       "carried": true,
       "of": "catalyst_open_hero",
-      "shadow": {
-        "contract": "AMD261113C00617500",
-        "direction": "call",
-        "entry_time": "2026-11-12T09:37:26-05:00",
-        "entry_price": 1.65,
-        "peak": 4.17,
-        "qty": 2,
-        "last": 0,
-        "last_time": "2026-11-13T15:16:54-05:00"
-      }
+      "closed": true
     },
     "catalyst_intraday_hero@2026-11-12": {
       "entered": true,
       "carried": true,
       "of": "catalyst_intraday_hero",
-      "shadow": {
-        "contract": "AVGO261113C00377500",
-        "direction": "call",
-        "entry_time": "2026-11-12T10:21:36-05:00",
-        "entry_price": 1.49,
-        "peak": 2.8,
-        "qty": 2,
-        "last": 0,
-        "last_time": "2026-11-13T15:16:54-05:00"
-      }
+      "closed": true
     },
     "claude_bias": {},
     "meta_follow2": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "META261113C00647500",
-        "direction": "call",
-        "entry_time": "2026-11-13T12:53:10-05:00",
-        "entry_price": 0.5,
-        "peak": 0.69,
-        "qty": 1,
-        "last": 0.13,
-        "last_time": "2026-11-13T15:16:54-05:00"
-      }
+      "closed": true
     },
     "leader_follow": {},
     "rebound_scanner": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "AMD261113C00582500",
-        "direction": "call",
-        "entry_time": "2026-11-13T09:46:12-05:00",
-        "entry_price": 0.71,
-        "peak": 0.71,
-        "qty": 1,
-        "last": 0,
-        "last_time": "2026-11-13T15:16:54-05:00"
-      }
+      "closed": true
     },
     "nvda_gapdown_put": {},
     "catalyst_open": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "TSLA261113C00415000",
-        "direction": "call",
-        "entry_time": "2026-11-13T09:32:01-05:00",
-        "entry_price": 0.52,
-        "peak": 0.52,
-        "qty": 1,
-        "last": 0,
-        "last_time": "2026-11-13T15:16:54-05:00"
-      }
+      "closed": true
     },
     "catalyst_open_hero": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "TSLA261113C00415000",
-        "direction": "call",
-        "entry_time": "2026-11-13T09:32:01-05:00",
-        "entry_price": 0.52,
-        "peak": 0.52,
-        "qty": 7,
-        "last": 0,
-        "last_time": "2026-11-13T15:16:54-05:00"
-      }
+      "closed": true
     },
     "catalyst_intraday": {},
     "catalyst_intraday_hero": {},

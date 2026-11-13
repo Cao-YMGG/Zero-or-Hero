@@ -113,3 +113,14 @@ date,variant,mode,contract,entry_price,exit_price,peak,exit_reason
 2026-11-11,catalyst_intraday_hero,shadow,AMZN261111C00277500,0.77,0,0.77,time
 2026-11-12,leader_follow,shadow,NVDA261113C00175000,0.56,0.68,1.17,trail
 2026-11-12,catalyst_intraday,shadow,AVGO261113C00385000,0.65,0.73,1.27,trail
+2026-11-13,meta_follow2,shadow,META261113C00647500,0.5,0.01,0.69,time
+2026-11-13,rebound_scanner,shadow,AMD261113C00582500,0.71,0,0.71,time
+2026-11-13,catalyst_open,shadow,TSLA261113C00415000,0.52,0,0.52,time
+2026-11-13,catalyst_open_hero,shadow,TSLA261113C00415000,0.52,0,0.52,time
+2026-11-13,catalyst_open,shadow,WMT261113C00131000,0.26,0,0.26,time
+2026-11-13,catalyst_open,real,WMT261113C00131000,0.24,0.0,0.26,expired
+2026-11-13,catalyst_open_hero,shadow,WMT261113C00131000,0.26,0,0.26,time
+2026-11-13,catalyst_intraday_hero,shadow,LLY261113C01470000,4.23,0,5.27,time
+2026-11-13,catalyst_open_hero,shadow,TSM261113C00415000,1.01,0,7.13,time
+2026-11-13,catalyst_open_hero,shadow,AMD261113C00617500,1.65,0,4.17,time
+2026-11-13,catalyst_intraday_hero,shadow,AVGO261113C00377500,1.49,0,2.8,time
