@@ -176,6 +176,16 @@ scored against purely mechanical variants.
    theme: no bounce-buying and no sympathy calls; a call sniper or call pick on its names needs a
    catalyst of their own (since 2026-11-09, see the intraday paragraph), and the put mirror only
    with the 11:00 confirmation. Sniper scans start with the heating themes.
+   Drop lights (owner, 2026-11-13: "these drops all had signs"; journal/research/DROPS.md, daily bars 2020-01 to 2026-11): also
+   run `python -m zoh.research.drops --today` and record the lit lights in `rotation.theme_state.lights`. The owner was right
+   about the 10-14 to 11-05 leg (turning, diverge and breadth lit before every down day), but those lights were lit on every
+   evening from 10-13 to 11-10, up days included; over two years they are on 14-26% of all evenings, a -1.5% SPY day is only
+   1.3-1.6x as frequent after them, and 12 of 29 drops had no light. Only `stretched` (SMH >= 12% below its 20-day high while
+   SPY is down < 1.5% over five sessions) has lift: a -1.5% SPY day within five sessions 55-60% of the time against 23-27%
+   (15 runs since 2020), and +1.5% days just as often. It marks big days, not down days: say so in `reasons`, do not move p_up
+   on it. A gap cannot be shorted after the open: mega-cap gaps <= -5% closed above their open 52% of the time (+0.3%), NVDA
+   gaps <= -3% 56% (+1.7%). The one place the lights show in our own trades is stock_open_drive calls after a `breadth`
+   evening (59% win, +58%, 22 trades, against 28%, -15%, 67 trades): a candidate gate, SUNDAY_TESTS 62, not a rule yet.
    Outside tech, also track sector baskets every day: banks (JPM, GS, BAC), health care (UNH,
    LLY), energy (XOM, CVX), consumer (WMT, COST, HD), industrials (CAT, GE), with XLF/XLV/
    XLE/XLY/XLI and IWM as checks. Every universe and theme here was tech, so on 2026-10-14/15,

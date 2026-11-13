@@ -327,8 +327,18 @@ in EVOLUTION.md.
    the same story this week: TSM 415C 1.01 -> 7.13 peak -> 1.40 at the 11-12 close, AMD 617.5C 1.65 -> 4.17 -> 1.66, AVGO 377.5C
    1.49 -> 2.80 -> 1.01, while the trail legs took +56%, (none affordable), +12%. Keep the heroes as they are (they are the
    control, not a strategy) and count the pairs on Sunday with the per-$1 table.
+   11-12 evening, from opendrive.json (real 0DTE prices, 10% costs, ~0.7% out of the money, data to 2026-10-15), the live-like
+   trades by exit. NVDA/TSLA calls at +0.8% (89 trades; 53% reached 2x, 31% 3x): hold +27% (+4% without the best two), trail
+   (arms at 2x, out at 60% of the peak) +19% (-2%), half at 3x + trail +15% (+1%), all out at 3x +3% (-2%). SPY calls at +0.5%
+   (19): all out at 3x +68% (+28%), half at 3x + trail +65% (+25%), hold +30% (-31%). SPY puts at -0.5% (27): -28% to -38%
+   under every exit. So the backtest does not support a trail or a 3x take on stock_open_drive: hold is its best arm, and one
+   contract with half_at 3.0 and no single_take is already a hold; the 11-04 and 11-11 TSLA round trips are the price of the
+   tail. On spy_open_drive the 3x take (single_take) is right. Left for Sunday: the same table on 0.35-delta strikes and
+   through 11-12, next to the hero-vs-trail pairs (single-stock catalyst contracts 1-4% out of the money are a different
+   animal from 0.4%-OTM open-drive contracts).
 
-61. **Were the drops traceable? (owner, 2026-11-13 talk: "these drops all had signs you could follow").** Test the claim both
+61. **Were the drops traceable? (owner, 2026-11-13 talk: "these drops all had signs you could follow").** DONE 11-12 evening
+   (owner: "do not wait for Sunday, compute it now"; journal/research/DROPS.md, zoh/research/drops.py), result at the end. Test the claim both
    ways, not only on the days that fell. (a) Events: every day since 2024-02 with SPY <= -1.5% close to close or SMH <= -4%, and
    for 2026-10-01 onward by hand: 10-30, 11-02, 11-05 (theme drops) and 11-09, 11-12 (NVDA event gaps). (b) Lights on the evening
    before, each computable from data we already have: chips `turning` in THEMES (fired 10-13), SMH >= 12% below its 20-day
@@ -343,6 +353,36 @@ in EVOLUTION.md.
    'seeing it coming' could have been traded after the open at all. Use: if a combination of lights shows a lift >= 2x on >= 20
    lit evenings, it becomes a sizing input for the ledgers on lit evenings (a ledger decision under the 11-09 mandate), not a
    short signal; if not, it stays what it is today, a filter on what we do not buy.
+   RESULT (2020-01-02 to 2026-11-12, 1,726 evenings; the last two years 502). (a) Recall on the recent leg is perfect: turning,
+   diverge and breadth were lit before 10-14, 10-16, 10-22, 10-30 and 11-05, stretched before 10-22 and 11-05; the same lights
+   were lit on every evening from 10-13 to 11-10, the up days included (11-09 +2.4%, 11-11 +1.3%). (b) Base rate, last two
+   years: turning is lit on 14% of evenings and a -1.5% SPY day follows within five sessions 29% of the time against 23% on any
+   evening (1.3x; SMH -4% days 1.9x); breadth lit 26%, 37% vs 23% (1.6x); rates 1.6x (1.3x since 2020, 0.7x in 2026); diverge 0.4x
+   (SPY near its high is the calm regime). 12 of 29 drops (48 of 125 since 2020) had no light at all. Per episode: 2 of 12
+   turning runs had a drop within five sessions of the first lit evening, 4 within ten. (c) `stretched` clears the bar written
+   above: 2.4x on 22 lit evenings in two years, 2.2x on 64 since 2020, 2.3x on 54 before the known episode; 9 of 15 runs had a
+   -1.5% day within five sessions. But +1.5% days are 2.0-2.2x as frequent too, the next session averages -0.06% and SPY five
+   sessions later was up in 7 of the 15 runs: a volatility state, not a direction. The bar was badly written (it did not ask
+   for asymmetry) and the backtest has only 4 live-like trades on stretched evenings, so no sizing change follows from it; the
+   light is recorded in the morning file as a big-day light. (d) Event gaps: mega-cap gaps <= -5%, 131 in two years, open ->
+   close +0.31%, 52% above the open; NVDA gaps <= -3%, 16, +1.73%, 56%; SPY gaps <= -0.7%, 46, +0.11%, 54%: nothing to short
+   after 09:30. (e) The lights against opendrive.json (135 live-like trades to 2026-10-05): calls after a breadth evening 34
+   trades, 59% win, +57% take3 (+42% without the best two) against 74 trades, 31%, -5% (-15%) after other evenings; lit beats
+   unlit in each period slice; it is NVDA/TSLA (22 trades, 59%, +58% vs 67 trades, 28%, -15%), not SPY (12 vs 7, no
+   difference). Six lights, two sides and four exits were looked at, so this cell is a candidate, not a rule: item 62.
+
+62. **Chip breadth as a gate for stock_open_drive calls, and the put side (2026-11-12, from DROPS.md).** After an evening with
+   >= 75% of the chip names below their own 20-day average, NVDA/TSLA calls at +0.8% from the open at 10:00 won 59% (+58% take3,
+   +41% without the best two; 22 trades) against 28% (-15%; 67 trades) after other evenings, and lit beat unlit in the last 3
+   months, the last year and before. Against it: the cell was found among 6 lights x 2 sides x 4 exits; the data ends 2026-10-15;
+   and the live ledger's trades on lit evenings are 1 win (10-19 TSLA +259%) and 3 losses (11-04, 11-09, 11-11 TSLA, two of
+   which peaked at 2.2-3.3x). To do: re-run opendrive through 11-12 on 0.35-delta strikes with the light of the evening before
+   in each row; test the alternatives that would make chip breadth a proxy (SMH below its 20-day average, a VIX level, SPY's own
+   20-day breadth); report lit vs unlit without the best two and for the last 3 months. If it holds, breadth becomes next week's
+   one filter change: stock_open_drive trades only after a lit evening. Until then the review tags each stock_open_drive trade
+   lit or unlit (`python -m zoh.research.drops --today` in the morning file). Separately, SPY puts at <= -0.5% lost under every
+   exit (27 trades, 22-33% win, -28% to -38%): spy_open_drive_put holds a $500 real ledger and has not traded; decide on Sunday
+   whether it stays real.
 
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
