@@ -303,6 +303,12 @@ in EVOLUTION.md.
    11:21 / 13:17 / close, name, name's move from 11:21 and 13:17 to the close, 0.2-delta put result) in one table and keep it
    current; the rule stays as is until the table has 10 rows. Item 40's BOUNCE.md numbers (arming between the check-ins is not a
    put signal on average) already say the tail carries it.
+   11-13, row 6: armed from the open (SMH never above its 499.93 open; the morning file had called the week's chip bounce 'a
+   bounce inside a downtrend'), SMH -3.9% from its open at 10:17, -4.9% at 11:22, -3.75% at 13:17, -3.42% at the close. No name
+   inside the 3% line at any check (AMD -6.0% / -7.6%, NVDA -5.5% / -6.5%, AVGO -3.6% / -4.9%, MU -2.3% at 10:17 then -3.8%), so
+   no pick. AMD as the name: 532.51 at 10:17 -> 526.95 close (-1.0%, best -2.3% at the 520.01 low of 11:50); from 11:22, 523.77
+   -> 526.95 (+0.6% against the put). MU from 10:17 (764.43, the one name inside the line then): +0.7% against; from 11:22
+   +2.3% against. Scored as: armed early, nothing left in it by the check-ins. Six rows: 1 win, 1 loss, 1 flat, 3 not traded.
 59. **The pick extension line by the name's own range (2026-11-10).** AMZN 11-02 (picked +4.0% from its open -> 255C -98%) and
    AMZN 11-10 (picked +2.0% from its open on a 06:38 catalyst plus a 09:55 piece -> 277.5C -64% at the close, topped 272.88 within
    minutes) both topped right after the pick. The 3% line was set on chips (AMD/MU days of 5-7%); a platform name's normal day is
@@ -311,6 +317,10 @@ in EVOLUTION.md.
    result from the pick to the close and the 0.2-delta option result, bucketed at < 0.5x, 0.5-1.0x, > 1.0x. If the > 1.0x bucket
    is the losing one, the line becomes 'one average range' instead of a flat 3%; until then it is an item, not a rule.
 
+   11-13, the put side of the line: the names already 3.6-6.0% below their opens at 10:17 gave almost nothing more by the close
+   (AMD another -1.0%, AVGO -0.2%, SMH +0.5%, NVDA +0.8%, TSLA 0.0% from 388.56 to 388.49), and from 11:22 they bounced (AMD
+   +0.6%, MU +2.3%, SMH +1.6%, CRWV +3.4%). Five put samples from 10:17: one just at the 1% line (AMD, +1.04% for the put), four with
+   nothing. Add them to the table with their own-range multiples.
 60. **A trail for the open-drive family (2026-11-11).** First live trade under the 0.35-delta ledger rule: stock_open_drive TSLA
    392.5C 1.69 at 10:01 -> 3.73 at 10:56 (+121%, TSLA 395.43) -> 0.09 at the 15:45 market sell (-$160, the ledger $493 -> $333);
    11-04 the same variant's TSLA 392.5C went 3.3x -> 0.01 and 11-09 spy_open_drive's 753C sold half at 4x and trailed the rest
@@ -336,6 +346,12 @@ in EVOLUTION.md.
    tail. On spy_open_drive the 3x take (single_take) is right. Left for Sunday: the same table on 0.35-delta strikes and
    through 11-12, next to the hero-vs-trail pairs (single-stock catalyst contracts 1-4% out of the money are a different
    animal from 0.4%-OTM open-drive contracts).
+
+   11-13, the week's heroes at expiry: all six ended at zero (TSLA 415C, WMT 131C, LLY 1470C, TSM 415C after a 7.1x peak, AMD
+   617.5C after 2.5x, AVGO 377.5C after 1.9x). Hero record: 11 trades, 0 wins, -100% each (catalyst_open_hero 6,
+   catalyst_intraday_hero 5); four of the eleven traded at 1.25x or better first. The trail legs on the same picks: catalyst_open
+   17 trades 41% win -11%, catalyst_intraday 13 trades 54% win -4%. Sunday: the per-$1 table, and whether the heroes have
+   answered what they were set up to answer (the bar for retiring is 20 live shadow trades; they have 11).
 
 61. **Were the drops traceable? (owner, 2026-11-13 talk: "these drops all had signs you could follow").** DONE 11-12 evening
    (owner: "do not wait for Sunday, compute it now"; journal/research/DROPS.md, zoh/research/drops.py), result at the end. Test the claim both
@@ -419,6 +435,22 @@ in EVOLUTION.md.
    on 31% of days and fell 1% further on 18% (62 signals; 2024-26: 10% and 17%, 30 signals): the bounce is the commoner
    tail. No evening state helps: the SMH split flips sign between the two periods. About six signals a year, at most half
    of $500 each, paused after five losses in a row; the owner chose it on 11-05 as a tail position with these odds in view.
+
+63. **A release pop that fades before the bell (2026-11-13).** October PPI came in a tenth light at 08:30; SPY went from +0.39%
+   to +0.71% by 08:33, was back at +0.39% at the 09:30 open, and the open was the day's high (-1.19% open to close). The bias
+   was final at 08:37 and never saw the fade. Test on every 08:30 release day since 2024-02 (CPI, PPI, NFP, claims on big
+   days; SIP pre-market minutes): the 08:31-08:40 extreme against the opening print; when half or more of the pop (or drop) is
+   gone by the open, how often does open-to-close run against the first reaction, against days where it held? If it has lift,
+   the checklist gets a 09:20 read on release days (the bias file may be rewritten until 09:30) and p_up moves on it.
+64. **The entry minute of the open sniper (2026-11-13).** catalyst_open bought TSLA at 09:32:01 on the first closed bar (403.12
+   against a 401.20 open: the 'not against the pick' gate passed) one minute after the day's high (404.40); 398.5 a minute
+   later, -3.4% open to close. The gate reads one bar. Replay the 17 catalyst_open entries and the sniper days since 10-01 on
+   minute bars: enter on the first closed bar (now), or only once the stock has held above its open for 5 closed bars, or above
+   the first 5 minutes' high; compare the option entry price, the share of days entered, and the result with the same exit.
+   SNIPERS_REAL.md found 09:40 and 10:00 entries no better on average; this asks about the gate, not the clock.
+65. **Friday and the put hand (2026-11-13).** SPY was 753.85 at 10:00, 0.82% below its 760.07 open, on a Friday: the put hand's
+   signal with its weekday off. SPY fell to 745.20 by 11:35 and closed 751.03. With OPENGATE.md's Friday rows (10 of the 27
+   put signals fell outside the ledger's days and were mostly losers) count this one too before touching the weekday rule.
 
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
