@@ -20,6 +20,8 @@ record by type in journal/research/OPPORTUNITY_SCORES.md.
 
     python -m zoh.research.opportunities [YYYY-MM-DD]     # score a day and rebuild the record
     python -m zoh.research.opportunities --backfill       # only score the open rows again and rebuild
+    python -m zoh.research.opportunities --review [date]  # the ideas that owe a post-mortem, as JSON
+    python -m zoh.research.opportunities --add-reviews F  # append the written post-mortems
 """
 import csv
 import json
@@ -50,6 +52,25 @@ ALIASES = {"analyst_upgrade": "analyst", "upgrade": "analyst", "analyst_downgrad
            "other_side": "peer_readthrough", "post_earnings_reversal": "earnings_reaction",
            "rotation_reversal": "rotation_laggard", "rotation_unwind": "rotation_laggard"}
 GENERIC = {"sniper", "intraday"}  # a pick logged without its catalyst kind
+
+# The daily post-mortem (owner, 2026-11-13: "when you are wrong, work out why you read it wrong"). Every
+# wrong idea and every pick gets one row in journal/opportunity_reviews.csv with one cause from this
+# list, so the causes can be counted: a cause that keeps coming back is a habit to change.
+REVIEWS_PATH = journal.JOURNAL_DIR / "opportunity_reviews.csv"
+REVIEW_FIELDS = ["date", "time", "symbol", "direction", "type", "source", "grade", "entry_close_pct",
+                 "vs_spy_pct", "cause", "thought", "happened", "lesson"]
+CAUSES = {"chased": "追在延伸处：大部分行情已经走完才提",
+          "no_catalyst": "没有自己的消息：只凭相对强弱或跟风",
+          "missed_news": "漏看消息：当时已有的标题没读到或没当回事",
+          "misread_news": "消息读反了：把利空当利好，或反过来",
+          "priced_in": "已经在价格里：消息在缺口里就消化完了",
+          "tide": "被大盘带走：比大盘强，但大盘的方向盖过了它",
+          "reversal": "逆势：赌反弹或回落，当天的趋势没停",
+          "timing": "时间不对：之前或之后是对的，从记录的时间算是错的",
+          "luck": "对了但靠运气：理由没兑现，是大盘或别的事带着走",
+          "sound": "判断成立：理由兑现了",
+          "noise": "没有可学的：涨跌很小，哪边都说明不了什么",
+          "other": "其他"}
 
 
 PICK_VARIANTS = {"sniper": "catalyst_open", "intraday": "catalyst_intraday"}
@@ -233,6 +254,62 @@ def rescore(api, rows, today=None, now=None):
     return mark_repeats(rows)
 
 
+# ---- the daily post-mortem ------------------------------------------------------------------
+
+def load_reviews(path=None):
+    return load_rows(path or REVIEWS_PATH)
+
+
+def to_review(day, rows, reviews=()):
+    """The day's ideas that owe a post-mortem and have none yet: every wrong one, and every pick
+    (a pick that worked is checked for luck)."""
+    done = {(r["date"], r["symbol"], r["direction"]) for r in reviews}
+    return [r for r in ideas(rows) if r["date"] == day and (r["date"], r["symbol"], r["direction"]) not in done
+            and (r.get("grade") == "wrong" or r.get("action") in ("real", "shadow") or r.get("source") == "sniper")]
+
+
+def add_reviews(items, rows, reviews):
+    """Validate the written post-mortems against the day's ideas and append them. Each item needs
+    date, symbol, direction, a cause from CAUSES, and thought / happened / lesson in plain words."""
+    by = {(r["date"], r["symbol"], r["direction"]): r for r in ideas(rows)}
+    have = {(r["date"], r["symbol"], r["direction"]) for r in reviews}
+    out = list(reviews)
+    for it in items:
+        key = (it["date"], it["symbol"], it["direction"])
+        if it.get("cause") not in CAUSES:
+            raise ValueError(f"{key}: cause must be one of {sorted(CAUSES)}")
+        if key not in by:
+            raise ValueError(f"{key}: no such idea in the scored log")
+        if not all((it.get(k) or "").strip() for k in ("thought", "happened", "lesson")):
+            raise ValueError(f"{key}: thought, happened and lesson must all be written")
+        if key in have:
+            continue
+        idea = by[key]
+        out.append({"date": key[0], "time": idea["time"], "symbol": key[1], "direction": key[2], "type": idea["type"],
+                    "source": idea.get("source", ""), "grade": idea.get("grade", ""),
+                    "entry_close_pct": idea.get("entry_close_pct", ""), "vs_spy_pct": idea.get("vs_spy_pct", ""),
+                    "cause": it["cause"], "thought": it["thought"].strip(), "happened": it["happened"].strip(),
+                    "lesson": it["lesson"].strip()})
+        have.add(key)
+    return out
+
+
+def save_reviews(reviews, path=None):
+    with Path(path or REVIEWS_PATH).open("w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=REVIEW_FIELDS, extrasaction="ignore")
+        w.writeheader()
+        w.writerows(reviews)
+
+
+def cause_counts(reviews, since=None):
+    """[(cause, ideas)] for the wrong ideas, most common first."""
+    count = {}
+    for r in reviews:
+        if r.get("grade") == "wrong" and (since is None or r["date"] >= since):
+            count[r["cause"]] = count.get(r["cause"], 0) + 1
+    return sorted(count.items(), key=lambda kv: -kv[1])
+
+
 # ---- the record by type ---------------------------------------------------------------------
 
 def ideas(rows):
@@ -298,8 +375,9 @@ HEAD = ["| group | ideas | right | paid (>= +1%) | avg move | avg w/o best | avg
         "|---|---|---|---|---|---|---|---|"]
 
 
-def scoreboard(rows, small=3):
-    """Markdown record by type, source, direction and action, rebuilt after every scoring run."""
+def scoreboard(rows, small=3, reviews=()):
+    """Markdown record by type, source, direction and action, rebuilt after every scoring run; with the
+    post-mortems, also why the wrong ideas were wrong."""
     one = ideas(rows)
     if not one:
         return "# Opportunity scores\n\nNo rows yet.\n"
@@ -331,10 +409,25 @@ def scoreboard(rows, small=3):
                 out.append(_line(k, stats(rs)))
         if rest:
             out.append(_line(f"other types (fewer than {small} ideas each)", stats(rest)))
+    wrong = [r for r in reviews if r.get("grade") == "wrong"]
+    if wrong:
+        total = sum(1 for r in one if r.get("grade") == "wrong")
+        out += ["", "## Why the wrong ones were wrong", "",
+                f"{len(wrong)} of {total} wrong ideas have a post-mortem (journal/opportunity_reviews.csv, written each "
+                "evening since 2026-11-13). One cause each; a cause that keeps coming back is a habit to change.", "",
+                "| cause | 中文 | wrong ideas | share | avg move | types it shows up in |", "|---|---|---|---|---|---|"]
+        for cause, n in cause_counts(reviews):
+            part = [r for r in wrong if r["cause"] == cause]
+            kinds = {}
+            for r in part:
+                kinds[r["type"]] = kinds.get(r["type"], 0) + 1
+            top = ", ".join(f"{k} {v}" for k, v in sorted(kinds.items(), key=lambda kv: -kv[1])[:3])
+            out.append(f"| {cause} | {CAUSES.get(cause, cause).split('：')[0]} | {n} | {_pct(n / len(wrong))} | "
+                       f"{_pts(sum(float(r['entry_close_pct']) for r in part) / n)} | {top} |")
     return "\n".join(out) + "\n"
 
 
-def summary_zh(rows, min_n=8):
+def summary_zh(rows, min_n=8, reviews=None):
     """Two or three plain Chinese lines for the Discord post: the running record and its best and worst types."""
     one = ideas(rows)
     if not one:
@@ -350,6 +443,9 @@ def summary_zh(rows, min_n=8):
         show = lambda kv: f"{name(kv[0])}（{kv[1]['n']} 个，够赚钱 {_pct(kv[1]['paid'])}，比大盘 {_pts(kv[1]['vs_spy'])}）"
         lines.append("最好的类型：" + "、".join(show(x) for x in by[:2]))
         lines.append("最差的类型：" + "、".join(show(x) for x in by[-2:][::-1]))
+    causes = cause_counts(load_reviews() if reviews is None else reviews)
+    if causes:
+        lines.append("看错的原因（累计）：" + "、".join(f"{CAUSES.get(c, c).split('：')[0]} {n} 次" for c, n in causes[:3]))
     return lines
 
 
@@ -385,12 +481,36 @@ def main(day=None, backfill_only=False):
     save_rows(rescore(api, rows))
     try:
         BOARD_PATH.parent.mkdir(parents=True, exist_ok=True)
-        BOARD_PATH.write_text(scoreboard(rows))
+        BOARD_PATH.write_text(scoreboard(rows, reviews=load_reviews()))
     except Exception as e:  # the record by type must never cost the day's rows
         print(f"opportunities: scoreboard failed: {e}")
     print(f"opportunities: {added} scored for {day}, {len(rows)} rows in all")
 
 
+def review_cli(argv):
+    """--review [date]: print the ideas that owe a post-mortem as JSON to fill in.
+    --add-reviews FILE: append the filled-in list ([{date, symbol, direction, cause, thought, happened,
+    lesson}]) to journal/opportunity_reviews.csv and rebuild the record."""
+    rows, reviews = load_rows(), load_reviews()
+    if argv[0] == "--review":
+        day = argv[1] if len(argv) > 1 else datetime.now(ET).date().isoformat()
+        owed = to_review(day, rows, reviews)
+        open_rows = sum(1 for r in rows if r["date"] == day and r.get("final") != "1")
+        print(json.dumps({"date": day, "not_final_rows": open_rows, "causes": CAUSES, "owed": [
+            {k: r.get(k, "") for k in ("date", "time", "symbol", "direction", "type", "source", "action", "grade",
+                                       "entry", "close", "entry_close_pct", "spy_pct", "vs_spy_pct",
+                                       "best_after_entry_pct", "why")} for r in owed]}, ensure_ascii=False, indent=1))
+        return
+    items = json.loads(Path(argv[1]).read_text())
+    out = add_reviews(items, rows, reviews)
+    save_reviews(out)
+    BOARD_PATH.write_text(scoreboard(rows, reviews=out))
+    print(f"opportunities: {len(out) - len(reviews)} post-mortems added, {len(out)} in all")
+
+
 if __name__ == "__main__":
-    args = [a for a in sys.argv[1:] if a != "--backfill"]
-    main(datetime.fromisoformat(args[0]).date() if args else None, backfill_only="--backfill" in sys.argv)
+    if len(sys.argv) > 1 and sys.argv[1] in ("--review", "--add-reviews"):
+        review_cli(sys.argv[1:])
+    else:
+        args = [a for a in sys.argv[1:] if a != "--backfill"]
+        main(datetime.fromisoformat(args[0]).date() if args else None, backfill_only="--backfill" in sys.argv)

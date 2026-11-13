@@ -89,6 +89,20 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
   SPY call vs the open-to-close move, the sniper and intraday picks (stock move and option result),
   the morning predictions right/wrong, real fills vs the broker, one lesson. Push it to main; the
   Notify workflow posts it to Discord (owner, 2026-11-02: "you have to check after the close too").
+- Weekdays 17:43 ET: opportunity post-mortem (owner, 2026-11-13: "set a task: improve it every day, and when you
+  are wrong work out why you read it wrong"). `python -m zoh.research.opportunities` scores the day's ideas to the
+  real close (paid = 1% or more the idea's way, right, wrong; each against SPY over the same minutes), then
+  `--review` lists what owes a post-mortem: every wrong idea and every pick. Each gets one row in
+  journal/opportunity_reviews.csv through `--add-reviews`: one cause from the fixed list (chased, no_catalyst,
+  missed_news, misread_news, priced_in, tide, reversal, timing, luck, sound, noise, other) and what I thought, what
+  happened and the lesson, in plain words; say "I do not know" as `other` rather than invent a reason. Then one
+  improvement a day, taken from what the post-mortems show: to the scorer or the record (additive, a new column or
+  split; a changed definition re-scores the whole log so old and new rows compare), to the type list, or to the
+  check-in habits (a line in this file). A day with nothing worth changing says so; trading rules do not change here,
+  a pattern worth a rule becomes a SUNDAY_TESTS item. Write journal/postmortems/<date>.json (`{"date", "text"}`,
+  plain Chinese: the tally, each wrong idea in one line with its cause, the day's change, the running count of
+  causes) and push it; Notify posts it. The pre-market and intraday sessions read the cause table at the bottom of
+  journal/research/OPPORTUNITY_SCORES.md before listing ideas.
 - Sundays 09:52 ET: weekly deep review (full protocol below, population cleanup, backtests).
 
 ## Noise gate (applies to the daily review)

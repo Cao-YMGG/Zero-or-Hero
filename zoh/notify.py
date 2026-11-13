@@ -210,7 +210,7 @@ def scored_lines(day, root=None):
     needs), ✅ right side but less, ❌ wrong; with the move against SPY over the same minutes, so a put on
     a day everything fell is not counted as skill. Later mentions of the same idea are left out, and the
     running record follows (owner, 2026-11-13: "the scoring could be better")."""
-    from .research.opportunities import grade_of, summary_zh
+    from .research.opportunities import grade_of, load_reviews, summary_zh
     root = Path(root or journal.JOURNAL_DIR)
     path = root / "opportunities.csv"
     out, seen, repeats = [], set(), 0
@@ -235,7 +235,8 @@ def scored_lines(day, root=None):
         out.append(f"（另有 {repeats} 条是同一想法后来再提，不重复算）")
     with path.open() as f:
         all_rows = list(csv.DictReader(f))
-    return out + ["💰 顺方向涨跌 1% 以上，够期权赚钱；✅ 方向对但不够；❌ 方向错"] + summary_zh(all_rows)
+    return (out + ["💰 顺方向涨跌 1% 以上，够期权赚钱；✅ 方向对但不够；❌ 方向错"]
+            + summary_zh(all_rows, reviews=load_reviews(root / "opportunity_reviews.csv")))
 
 
 def day_message(day, root=None, with_opportunities=True):
@@ -285,9 +286,16 @@ def check_message(data):
     return f"**🔎 盘后核对 {data.get('date')}**\n{text}" if text else ""
 
 
+def postmortem_message(data):
+    """The evening post-mortem of the day's ideas (journal/postmortems/<date>.json, plain Chinese): the tally,
+    why each wrong one was wrong, and the one thing changed because of it (owner, 2026-11-13)."""
+    text = (data.get("text") or "").strip()
+    return f"**🪞 机会复盘 {data.get('date')}**\n{text}" if text else ""
+
+
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("kind", choices=["bias", "intraday", "opportunities", "day", "check", "test"])
+    ap.add_argument("kind", choices=["bias", "intraday", "opportunities", "day", "check", "postmortem", "test"])
     ap.add_argument("--file")
     ap.add_argument("--date")
     args = ap.parse_args()
@@ -309,6 +317,12 @@ def main():
         if path.exists():
             text = check_message(json.loads(path.read_text()))
             text and post(text, "review")
+        return
+    if args.kind == "postmortem":
+        path = Path(args.file) if args.file else journal.JOURNAL_DIR / "postmortems" / f"{day}.json"
+        if path.exists():
+            text = postmortem_message(json.loads(path.read_text()))
+            text and post(text, "opportunities" if split else "review")
         return
     path = Path(args.file) if args.file else (
         journal.JOURNAL_DIR / "bias" / (f"intraday/{day}.json" if args.kind == "intraday" else f"{day}.json"))

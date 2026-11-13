@@ -9,6 +9,7 @@ on:
       - "journal/bias/intraday/*.json"
       - "journal/opportunities/*.json"
       - "journal/checks/*.json"
+      - "journal/postmortems/*.json"
   workflow_dispatch:
     inputs:
       mode:
@@ -42,7 +43,7 @@ jobs:
         run: |
           if [ "$MODE" = "test" ]; then python -m zoh.notify test; exit 0; fi
           if [ -z "$BEFORE" ] || ! git cat-file -e "$BEFORE" 2>/dev/null; then BEFORE=HEAD~1; fi
-          for f in $(git diff --name-only "$BEFORE" HEAD -- journal/bias journal/opportunities journal/checks); do
+          for f in $(git diff --name-only "$BEFORE" HEAD -- journal/bias journal/opportunities journal/checks journal/postmortems); do
             [ -f "$f" ] || continue
             case "$f" in
               journal/bias/intraday/*.json) python -m zoh.notify intraday --file "$f" ;;
@@ -50,5 +51,6 @@ jobs:
               journal/bias/*.json) python -m zoh.notify bias --file "$f" ;;
               journal/opportunities/*.json) python -m zoh.notify opportunities --file "$f" ;;
               journal/checks/*.json) python -m zoh.notify check --file "$f" ;;
+              journal/postmortems/*.json) python -m zoh.notify postmortem --file "$f" ;;
             esac
           done
