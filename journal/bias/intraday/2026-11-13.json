@@ -58,6 +58,44 @@
       "action": "none",
       "why": "Leader check: META 627.21 -> 630.97 (+0.6% from its open, +2.0% beyond SPY) with QQQ -1.9%; no news of its own found (a Benzinga piece on its TikTok position at 09:38). Relative strength without news is not a pick.",
       "why_zh": "领涨检查：纳指跌 1.9% 的时候 Meta 比开盘高 0.6%（比标普强 2 个点），但没找到它自己的新消息。只有相对强度、没有消息，按规则不选。"
+    },
+    {
+      "type": "relative_weakness",
+      "symbol": "AMD",
+      "direction": "put",
+      "time": "11:22",
+      "action": "none",
+      "why": "Mirror sample (SUNDAY_TESTS 58 and 59): armed, both 10:17 levels crossed, but AMD is -7.6% from its open, far past the 3% line, so no pick. Scored from 523.77 with SMH at 475.23.",
+      "why_zh": "看跌镜像的样本：条件成立（半导体 ETF 和 AMD 都跌破了 10:17 的价位），但 AMD 已经比开盘低 7.6%，远超「3% 线」，按规则不选，只从 523.77 记样本。"
+    },
+    {
+      "type": "relative_weakness",
+      "symbol": "MU",
+      "direction": "put",
+      "time": "11:22",
+      "action": "none",
+      "why": "The chip mega cap nearest the 3% line: 782.68 -> 752.97 (-3.8% from its open, -5.7% day), still just past it. Listed to compare the least extended name with the most extended (AMD) at the close.",
+      "why_zh": "离「3% 线」最近的芯片大盘股：美光比开盘低 3.8%（当天 -5.7%），也刚好过线。记下来，收盘时和跌得最多的 AMD 对比，看过线多少有没有差别。"
+    },
+    {
+      "type": "sector_move",
+      "symbol": "COST",
+      "direction": "call",
+      "time": "11:22",
+      "action": "none",
+      "why": "Where the money went: COST +1.2% from its open (+2.7% beyond SPY), WMT +0.9%, HD +1.1%, LLY +0.7% while QQQ is -2.4%. A defensive rotation with no company news; COST is above $1,000 (shadow sample only) and WMT / HD report next week.",
+      "why_zh": "钱去了防御板块：纳指跌 2.4% 的时候好市多比开盘高 1.2%、沃尔玛 +0.9%、家得宝 +1.1%、礼来 +0.7%。是板块轮动，没有公司自己的消息；好市多股价过千只能记影子，沃尔玛和家得宝下周财报。"
+    },
+    {
+      "type": "sector_intraday",
+      "symbol": "CRWV",
+      "direction": "put",
+      "time": "11:22",
+      "action": "none",
+      "why": "Neocloud financing leg: CRWV 56.05 -> 50.66 (-9.6% from its open), Nebius -17% at its low; Benzinga 10:58 cites Nebius's outlook, the Nvidia turmoil and Nscale's wider loss (it said this morning it needs more financing). Not a mega cap, far past the line.",
+      "why_zh": "新云这条线在跌融资：CoreWeave 比开盘低 9.6%，Nebius 最低跌 17%（展望弱、英伟达风波、Nscale 亏损扩大并说还需要融资）。不是大盘股，也早就过线，只记录。"
     }
-  ]
+  ],
+  "check_1121": "11:22 ET: no pick. The put mirror is armed and has no eligible name. Both 10:17 lines were crossed (SMH 475.23, below 480.56, new low 473.26, -4.9% from its open and -5.3% on the day; AMD 523.77, below 532.51, at its low, -7.6% from its open and -10.5% on the day), so the selling outlived the 10:30 window. But the mirror takes the weakest chip mega cap that is not yet 3% from its open, and none is: AMD -7.6%, NVDA -6.5% (158.81, reports Tuesday), INTC -5.2%, AVGO -4.9%, MU -3.8%, TSM -3.6%; MRVL -6.6% and ARM -6.4% the same. The 10:17 conditional named AMD on price levels alone and left that line out; it was written wrong, and AMD is scored as a sample from 523.77 instead. No in-session headline on any of them: Barclays kept NVDA at Overweight and cut its target to $210 (10:40); Benzinga 10:58 ties the neocloud leg (Nebius about -17% at the low, CRWV -9.6% from its open) to Nebius's outlook, the Nvidia turmoil and Nscale's wider loss. Index: SPY 748.62 (-1.5% from its open, low 747.88), QQQ -2.4%, IWM -1.1%; TLT +0.3% from its open. Call side: the money went to staples and health care, not to a name with news: COST +1.2% from its open (+2.7% beyond SPY), HD +1.1%, WMT +0.9%, LLY +0.7%, META +0.4%; relative strength with no company news is an opportunity, not a pick (COST and LLY are above $1,000 as well; WMT and HD report next week on dates not verified). TSLA 386.50 (-3.9% from its open). Prices: Alpaca consolidated tape to 11:06, IEX after (Webull not connected).",
+  "conditional_1316": "13:16 scores the mirror sample (AMD from 523.77, SMH from 475.23, NVDA from 158.81) and the 10:17 opportunities. A pick then needs news that breaks in the session on a name still within 3% of its open; no bounce calls on chips (SMH is below its 20-day and 100-day averages) and no puts on names already 4-8% below their opens. If SPY loses 747.88 with the staples rolling over too, the day has turned from an AI liquidation into a broad one: note it, the index puts are not ours to pick on a Friday (the put hand trades Monday to Thursday)."
 }
