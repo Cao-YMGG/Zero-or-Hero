@@ -1,7 +1,28 @@
 {
- "as_of": "2026-11-13T13:15-05:00",
+ "as_of": "2026-11-13T13:46-05:00",
  "since": "2026-11-12T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-13 13:42",
+   "symbols": [
+    "AMD",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "AMD Stock Has Outrun Nvidia 5X Since 2024. But There\u2019s a Valuation Catch",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63259929/amd-stock-nvidia-valuation-catch"
+  },
+  {
+   "time": "11-13 13:27",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "How Did Dell Servers With Restricted NVIDIA Chips End Up in China?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63259145/how-did-dell-servers-with-restricted-nvidia-chips-end-up-in-china"
+  },
   {
    "time": "11-13 13:01",
    "symbols": [

@@ -1,4 +1,4 @@
-# Headlines since 2026-11-12 16:00 ET (as of 2026-11-13 13:15 ET)
+# Headlines since 2026-11-12 16:00 ET (as of 2026-11-13 13:46 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -16,6 +16,8 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-13 07:31 | ORCL | rating | President Capital Adjusts Oracle Price Target to $323 |
 | 11-13 07:30 | TSLA | rating | GLJ Research Reiterates Sell on Tesla, Maintains $24.86 Price Target |
 | 11-13 06:31 | AVGO | downgrade | Rothschild & Co Redburn Downgrades Broadcom to Neutral |
+| 11-13 13:42 | AMD NVDA |  | AMD Stock Has Outrun Nvidia 5X Since 2024. But There’s a Valuation Catch |
+| 11-13 13:27 | NVDA |  | How Did Dell Servers With Restricted NVIDIA Chips End Up in China? |
 | 11-13 13:01 | AMZN CAT |  | CNBC Halftime Report Final: Caterpillar, Amazon, eBay |
 | 11-13 12:53 | NVDA |  | Bessent Points Finger at Lutnick as White House Feud Over Nvidia Erupts |
 | 11-13 12:41 | UNH |  | UnitedHealthcare Policy Assessment Urges Clearer Provider Guidance |
