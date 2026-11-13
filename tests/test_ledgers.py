@@ -464,6 +464,145 @@ class OpportunityScoreTest(unittest.TestCase):
         self.assertAlmostEqual(put["entry_close_pct"], 1.98, places=2)
         self.assertAlmostEqual(put["open_close_pct"], 1.0, places=2)
 
+    def test_score_against_spy_and_grades(self):
+        from zoh.research.opportunities import grade_of, score, window_pct
+        bars = [{"t": "2026-11-13T14:30:00Z", "o": 100, "h": 100, "l": 97, "c": 99},
+                {"t": "2026-11-13T15:17:00Z", "o": 98, "h": 98.5, "l": 95, "c": 96},
+                {"t": "2026-11-13T20:59:00Z", "o": 96, "h": 96.5, "l": 95.5, "c": 96.04}]
+        spy = [{"t": "2026-11-13T14:30:00Z", "o": 760, "h": 760, "l": 750, "c": 752},
+               {"t": "2026-11-13T15:17:00Z", "o": 750, "h": 752, "l": 745, "c": 748},
+               {"t": "2026-11-13T20:59:00Z", "o": 748, "h": 749, "l": 741, "c": 742.5}]
+        self.assertAlmostEqual(window_pct(spy, "10:17"), -1.0)
+        put = score(bars, "10:17", "put", spy)                 # the stock fell 2% while SPY fell 1%
+        self.assertAlmostEqual(put["entry_close_pct"], 2.0)
+        self.assertAlmostEqual(put["spy_pct"], -1.0)
+        self.assertAlmostEqual(put["vs_spy_pct"], 1.0)         # only half of it was the stock's own
+        self.assertEqual(put["grade"], "paid")
+        call = score(bars, "10:17", "call", spy)
+        self.assertAlmostEqual(call["vs_spy_pct"], -1.0)
+        self.assertEqual(call["grade"], "wrong")
+        self.assertNotIn("spy_pct", score(bars, "10:17", "put"))   # no index bars: the old columns only
+        self.assertEqual([grade_of(x) for x in (1.0, 0.99, 0.01, 0.0, -2.0)], ["paid", "right", "right", "wrong", "wrong"])
+
+    def test_pick_and_its_hand_listed_twin_are_one_idea(self):
+        import json as _json
+        from zoh.research.opportunities import collect
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "bias" / "intraday").mkdir(parents=True)
+            (root / "bias" / "2026-11-13.json").write_text(_json.dumps({
+                "sniper": {"symbol": "TSLA", "direction": "call", "catalyst": "merger talks"},
+                "opportunities": [{"type": "company_news", "symbol": "TSLA", "direction": "call", "time": "09:31"},
+                                  {"type": "gapdown_rebound", "symbol": "AMD", "direction": "call", "time": "10:00"},
+                                  {"type": "company_news", "symbol": "TSLA", "direction": "put", "time": "09:31"}]}))
+            got = collect("2026-11-13", root, {"variants": []})
+        self.assertEqual([(o["symbol"], o["direction"], o["type"], o["source"]) for o in got],
+                         [("TSLA", "call", "company_news", "sniper"), ("AMD", "call", "gapdown_rebound", "premarket"),
+                          ("TSLA", "put", "company_news", "premarket")])
+        self.assertTrue(all("pick" not in o for o in got))
+
+    def test_repeats_ideas_and_the_record_by_type(self):
+        from zoh.research import opportunities as opp
+
+        def row(date, t, kind, sym, direction, move, vs=None, action="none", source="intraday"):
+            return {"date": date, "time": t, "type": kind, "symbol": sym, "direction": direction, "action": action,
+                    "source": source, "entry_close_pct": str(move), "best_after_entry_pct": "0",
+                    "vs_spy_pct": "" if vs is None else str(vs)}
+        rows = [row("2026-11-12", "09:31", "sniper", "AMD", "call", 3.0, 2.5, "shadow", "sniper"),
+                row("2026-11-12", "09:31", "analyst_upgrade", "AMD", "call", 3.0, 2.5, source="premarket"),
+                row("2026-11-13", "10:17", "relative_weakness", "AMD", "put", -1.0, -0.5),
+                row("2026-11-13", "11:22", "relative_weakness", "AMD", "put", 0.5, 0.2),     # the same idea again
+                row("2026-11-13", "10:17", "upgrade", "MSFT", "call", 0.4, 1.0)]
+        opp.mark_repeats(rows)
+        self.assertEqual([r["repeat"] for r in rows], ["0", "1", "0", "1", "0"])
+        one = opp.ideas(rows)
+        self.assertEqual([(r["symbol"], r["type"], r["action"], r["source"]) for r in one],
+                         [("AMD", "analyst", "shadow", "sniper"), ("AMD", "relative_weakness", "none", "intraday"),
+                          ("MSFT", "analyst", "none", "intraday")])
+        by = opp.board(rows)
+        self.assertEqual(by["analyst"]["n"], 2)
+        self.assertAlmostEqual(by["analyst"]["right"], 1.0)
+        self.assertAlmostEqual(by["analyst"]["paid"], 0.5)          # +3.0% pays an option, +0.4% does not
+        self.assertAlmostEqual(by["analyst"]["vs_spy"], 1.75)
+        self.assertAlmostEqual(by["analyst"]["wo_best"], 0.4)
+        self.assertAlmostEqual(by["relative_weakness"]["right"], 0.0)   # scored at its first mention only
+        text = opp.scoreboard(rows, small=2)
+        self.assertIn("5 rows, 3 ideas", text)
+        self.assertIn("| analyst | 2 | 100% | 50% | +1.70% | +0.40% | +1.75% | 100% |", text)
+        self.assertIn("other types (fewer than 3 ideas each)", opp.scoreboard(rows, small=3))
+        zh = opp.summary_zh(rows, min_n=1)
+        self.assertIn("累计 3 个想法", zh[0])
+        self.assertIn("评级变动", zh[1])
+        self.assertEqual(opp.summary_zh([]), [])
+
+    def test_rescore_gives_open_rows_the_real_close(self):
+        from zoh.research import opportunities as opp
+
+        class Api:
+            asked = []
+
+            def stock_bars(self, symbol, start, end, feed="iex", **k):
+                Api.asked.append((symbol, feed))
+                last = 707 if symbol == "SPY" else 49.0
+                return [{"t": "2026-10-29T13:30:00Z", "o": 700 if symbol == "SPY" else 50, "h": 708, "l": 48, "c": 700},
+                        {"t": "2026-10-29T14:00:00Z", "o": 700 if symbol == "SPY" else 50, "h": 708, "l": 48, "c": 700},
+                        {"t": "2026-10-29T19:59:00Z", "o": last, "h": last, "l": last, "c": last}]
+        rows = [{"date": "2026-10-29", "time": "10:00", "type": "sector_move", "symbol": "XLF", "direction": "put",
+                 "entry_close_pct": "0.50", "close": "49.75"},                       # scored at 15:48, not the close
+                {"date": "2026-10-29", "time": "10:00", "type": "analyst", "symbol": "V", "direction": "call",
+                 "entry_close_pct": "2.00", "spy_pct": "1.0", "vs_spy_pct": "1.0", "grade": "paid", "final": "1"},
+                {"date": "2026-10-29", "time": "11:00", "type": "sector_move", "symbol": "XLF", "direction": "put",
+                 "entry_close_pct": "0.10"}]
+        opp.rescore(Api(), rows, today=date(2026, 11, 13))
+        first = rows[0]
+        self.assertEqual((first["close"], first["entry_close_pct"], first["grade"], first["final"]), (49.0, 2.0, "paid", "1"))
+        self.assertEqual((first["spy_pct"], first["vs_spy_pct"]), (1.0, 3.0))    # a put up 2% while SPY rose 1%
+        self.assertEqual(rows[1]["entry_close_pct"], "2.00")                     # final rows are left alone
+        self.assertEqual([r["repeat"] for r in rows], ["0", "0", "1"])
+        self.assertEqual(sorted(set(Api.asked)), [("SPY", "sip"), ("XLF", "sip")])   # one read per symbol and day
+
+    def test_a_row_scored_before_the_bell_is_not_final(self):
+        from zoh.research.opportunities import score
+        early = [{"t": "2026-11-13T14:30:00Z", "o": 100, "h": 101, "l": 99, "c": 100},
+                 {"t": "2026-11-13T20:47:00Z", "o": 101, "h": 101, "l": 101, "c": 101}]
+        self.assertEqual(score(early, "09:31", "call")["final"], "0")
+        full = early + [{"t": "2026-11-13T20:59:00Z", "o": 102, "h": 102, "l": 102, "c": 102}]
+        self.assertEqual(score(full, "09:31", "call")["final"], "1")
+        self.assertEqual(score(full, "09:31", "call", closed=False)["final"], "0")   # a 15:59 run is still early
+        from zoh.research.opportunities import session_over
+        at = lambda h, m: datetime(2026, 11, 13, h, m, tzinfo=ET)
+        self.assertFalse(session_over(date(2026, 11, 13), at(15, 59)))
+        self.assertTrue(session_over(date(2026, 11, 13), at(16, 1)))
+        self.assertTrue(session_over(date(2026, 11, 12), at(9, 0)))
+
+    def test_discord_lines_grade_and_compare(self):
+        import csv as _csv
+        from zoh import notify
+        from zoh.research.opportunities import FIELDS
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            rows = [{"date": "2026-11-13", "time": "10:17", "type": "relative_weakness", "symbol": "AMD", "direction": "put",
+                     "entry_close_pct": "2.10", "best_after_entry_pct": "3.00", "vs_spy_pct": "1.30", "grade": "paid"},
+                    {"date": "2026-11-13", "time": "10:17", "type": "sector_intraday", "symbol": "SMH", "direction": "put",
+                     "entry_close_pct": "0.40", "best_after_entry_pct": "1.50", "vs_spy_pct": "-0.20", "grade": "right"},
+                    {"date": "2026-11-13", "time": "11:22", "type": "relative_weakness", "symbol": "AMD", "direction": "put",
+                     "entry_close_pct": "0.10", "best_after_entry_pct": "0.70", "vs_spy_pct": "0.05", "grade": "right"},
+                    {"date": "2026-11-12", "time": "09:31", "type": "analyst", "symbol": "AMD", "direction": "call",
+                     "entry_close_pct": "-1.00", "best_after_entry_pct": "0.20"}]
+            with (root / "opportunities.csv").open("w", newline="") as f:
+                w = _csv.DictWriter(f, fieldnames=FIELDS)
+                w.writeheader()
+                w.writerows(rows)
+            lines = notify.scored_lines("2026-11-13", root)
+            old = notify.scored_lines("2026-11-12", root)
+        self.assertTrue(lines[0].startswith("💰 AMD 看跌｜板块里最弱：10:17 起到收盘 +2.10%，比大盘多 1.30%"))
+        self.assertIn("✅ SMH 看跌", lines[1])
+        self.assertIn("比大盘少 0.20%，只是跟着大盘", lines[1])
+        self.assertIn("另有 1 条是同一想法后来再提", lines[2])
+        self.assertTrue(any(l.startswith("累计 3 个想法") for l in lines))
+        self.assertTrue(old[0].startswith("❌ AMD 看涨｜评级变动"))       # a row from before the new columns still posts
+        self.assertEqual(notify.scored_lines("2026-11-10", root), [])
+
     def test_collect_reads_all_three_sources(self):
         import json as _json
         from zoh.research.opportunities import collect

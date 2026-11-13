@@ -108,12 +108,16 @@ VERDICTS = {"right": "对", "wrong": "错", "missed": "漏判", "open": "未定"
 CALLS = {"premarket_spy": "盘前 SPY", "premarket_sniper": "盘前狙击", "premarket_rotation": "盘前轮动",
          "intraday_pick": "盘中选股"}
 TYPES = {"analyst_upgrade": "评级上调", "contract_customer": "大合同/大客户", "peer_readthrough": "同行带动",
-         "sector_intraday": "盘中板块消息", "sector_move": "盘中板块消息", "rotation_laggard": "轮动补涨",
+         "sector_intraday": "盘中板块消息", "sector_move": "板块轮动", "rotation_laggard": "轮动补涨",
          "financing_fade": "借钱搞 AI 被抛", "sell_the_news": "利好出货", "news_heating": "热门板块利好",
          "pre_earnings_drift": "财报前买预期", "beat_drift": "大超预期后漂移", "gapdown_rebound": "低开反弹",
          "selloff_pushback": "大跌后卖方护盘", "event_fade": "行业大会当天被卖", "product_launch": "新产品",
          "investor_day": "投资者日", "ma_target": "被收购方", "ma_acquirer": "收购方", "open_drive": "开盘冲劲",
-         "macro_day": "宏观数据日", "company_news": "公司消息", "intraday": "盘中选股"}
+         "macro_day": "宏观数据日", "company_news": "公司消息", "intraday": "盘中选股", "sniper": "开盘狙击",
+         "analyst": "评级变动", "relative_weakness": "板块里最弱", "relative_strength": "逆势领涨",
+         "sympathy": "跟涨跟跌", "put_mirror": "看跌镜像", "earnings_reaction": "财报后反应", "buyback": "回购",
+         "turning_bounce": "转向板块的反弹"}
+GRADES = {"paid": "💰", "right": "✅", "wrong": "❌"}
 EXITS_CN = {"half": "3 倍卖一半", "trail": "跟踪止盈", "time": "收盘前卖出", "expired": "到期作废",
             "take_profit": "止盈", "stop_loss": "止损", "time_noquote": "无报价按 0"}
 
@@ -197,18 +201,41 @@ def opportunities_message(data, title="机会"):
 def _rows(path, day):
     if not path.exists():
         return []
-    return [r for r in csv.DictReader(path.open()) if r.get("date") == day]
+    with path.open() as f:
+        return [r for r in csv.DictReader(f) if r.get("date") == day]
 
 
 def scored_lines(day, root=None):
+    """The day's ideas, one line each: 💰 moved 1% or more the idea's way (about what a same-day option
+    needs), ✅ right side but less, ❌ wrong; with the move against SPY over the same minutes, so a put on
+    a day everything fell is not counted as skill. Later mentions of the same idea are left out, and the
+    running record follows (owner, 2026-11-13: "the scoring could be better")."""
+    from .research.opportunities import grade_of, summary_zh
     root = Path(root or journal.JOURNAL_DIR)
-    out = []
-    for o in _rows(root / "opportunities.csv", day):
+    path = root / "opportunities.csv"
+    out, seen, repeats = [], set(), 0
+    for o in sorted(_rows(path, day), key=lambda o: o.get("time", "")):
+        key = (o["symbol"], o["direction"])
+        if key in seen:
+            repeats += 1
+            continue
+        seen.add(key)
         pct = float(o["entry_close_pct"])
-        out.append(f"{'✅' if pct > 0 else '❌'} {o['symbol']} {_dir(o['direction'])}｜"
-                   f"{TYPES.get(o['type'], o['type'])}：{o['time']} 起到收盘 {pct:+.2f}%"
+        rel = o.get("vs_spy_pct")
+        against = ""
+        if rel not in (None, ""):
+            rel = float(rel)
+            against = f"，比大盘{'多' if rel >= 0 else '少'} {abs(rel):.2f}%" + ("，只是跟着大盘" if pct > 0 >= rel else "")
+        out.append(f"{GRADES[o.get('grade') or grade_of(pct)]} {o['symbol']} {_dir(o['direction'])}｜"
+                   f"{TYPES.get(o['type'], o['type'])}：{o['time']} 起到收盘 {pct:+.2f}%{against}"
                    f"（中间最好 {float(o['best_after_entry_pct']):+.2f}%）")
-    return out
+    if not out:
+        return out
+    if repeats:
+        out.append(f"（另有 {repeats} 条是同一想法后来再提，不重复算）")
+    with path.open() as f:
+        all_rows = list(csv.DictReader(f))
+    return out + ["💰 顺方向涨跌 1% 以上，够期权赚钱；✅ 方向对但不够；❌ 方向错"] + summary_zh(all_rows)
 
 
 def day_message(day, root=None, with_opportunities=True):
@@ -247,7 +274,7 @@ def day_message(day, root=None, with_opportunities=True):
                                           for g in calls))
     scored = scored_lines(day, root)
     if with_opportunities and scored:
-        lines += ["机会打分（从记录时间到收盘，按方向算）："] + scored
+        lines += ["机会打分（从记录时间到收盘，按方向算，并和大盘比）："] + scored
     return "\n".join(lines)
 
 
@@ -275,7 +302,7 @@ def main():
         post(day_message(day, with_opportunities=not split), "review")
         scored = scored_lines(day)
         if split and scored:
-            post("\n".join([f"**💡 机会打分 {day}**（从记录时间到收盘，按方向算）"] + scored), "opportunities")
+            post("\n".join([f"**💡 机会打分 {day}**（从记录时间到收盘，按方向算，并和大盘比）"] + scored), "opportunities")
         return
     if args.kind == "check":
         path = Path(args.file) if args.file else journal.JOURNAL_DIR / "checks" / f"{day}.json"
