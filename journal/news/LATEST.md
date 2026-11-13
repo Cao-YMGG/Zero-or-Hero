@@ -1,4 +1,4 @@
-# Headlines since 2026-11-12 16:00 ET (as of 2026-11-13 15:16 ET)
+# Headlines since 2026-11-12 16:00 ET (as of 2026-11-13 15:26 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -16,6 +16,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-13 07:31 | ORCL | rating | President Capital Adjusts Oracle Price Target to $323 |
 | 11-13 07:30 | TSLA | rating | GLJ Research Reiterates Sell on Tesla, Maintains $24.86 Price Target |
 | 11-13 06:31 | AVGO | downgrade | Rothschild & Co Redburn Downgrades Broadcom to Neutral |
+| 11-13 15:14 | MSFT |  | Microsoft Says Infrastructure Stabilizes As Queued Messages Drain And Traffic Rebalances, With No ETA For Full Recovery |
 | 11-13 15:06 | NVDA TSLA V |  | Nancy Pelosi’s Nvidia Bet Just Cost Her Most Of A Year’s Pay — Thanks To Jensen Huang |
 | 11-13 15:01 | TSLA |  | Texas Attorney General Threatens Potential Tesla-SpaceX Merger |
 | 11-13 15:01 | NFLX |  | Netflix Announces New Animated Series 'PLANESWALKER' Based on Magic: The Gathering |

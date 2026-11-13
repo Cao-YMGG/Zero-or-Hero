@@ -1,7 +1,17 @@
 {
- "as_of": "2026-11-13T15:16-05:00",
+ "as_of": "2026-11-13T15:26-05:00",
  "since": "2026-11-12T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-13 15:14",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Says Infrastructure Stabilizes As Queued Messages Drain And Traffic Rebalances, With No ETA For Full Recovery",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63265115/microsoft-says-infrastructure-stabilizes-queued-messages-drain-and-traffic-rebalances-no-eta-full-re"
+  },
   {
    "time": "11-13 15:06",
    "symbols": [
