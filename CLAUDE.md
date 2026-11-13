@@ -254,6 +254,10 @@ scored against purely mechanical variants.
    the most visible: on 2026-10-21 GOOGL was picked on "OpenAI models on Google Cloud" while a
    06:53 headline (Google Cloud to scale to 960K Rubin GPUs) read as another capex jump; GOOGL
    fell 2-3% and NVDA, the seller on the other side, rose. Capex headlines cut both ways.
+   Read them again at the 08:30 re-read, the whole news file for the candidate's symbol and not its top lines: on
+   2026-11-13 a 07:42 Bloomberg interview (Texas' next attorney general vowing "tremendous scrutiny" of the
+   Tesla-SpaceX deal) was posted a minute after the 07:41 news read, sat in the 08:33 refresh unread, and the TSLA
+   call sniper fell 3.4% from its open.
    A mega cap moving >= 2% pre-market with no visible headline is a question, not a non-event:
    search its own news and its peers' overnight results (SK Hynix/Samsung/TSMC for memory and
    chips, ASML for equipment) before writing "no headline". On 2026-10-28 MU gapped +3.5% on
