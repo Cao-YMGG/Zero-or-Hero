@@ -454,6 +454,26 @@ in EVOLUTION.md.
    only to someone who sold into the 11:35 low). With OPENGATE.md's Friday rows (10 of the 27
    put signals fell outside the ledger's days and were mostly losers) count this one too before touching the weekday rule.
 
+66. **The SPY call never takes a side (2026-11-14, owner: "review the week's problems").** Since the bar went to p_up >= 0.60
+   / <= 0.40 on 10-23: 16 sessions, 0 calls, 0 puts, so claude_bias and claude_confirm have had no trade in three weeks. This
+   week p_up was 0.54 / 0.44 / 0.53 / 0.50 / 0.53 and SPY closed above its open on four of the five days (+1.45%, +0.26%,
+   +0.40%, +0.43%, -0.75%; graded missed, ok, ok, ok, missed). Compute the calibration buckets over all sessions since 10-05
+   (p_up against the share of closes above the open) and how many days a 0.57 / 0.43 bar would have called and what they did;
+   if the buckets carry no information either way, say so and retire the two variants' slots instead of lowering the bar.
+67. **Put ideas in an up week (2026-11-14).** Week of 11-09 (SPY +2.6%, SMH +4.9%): 92 ideas, 27 paid, 26 right, 39 wrong.
+   Calls 54: 22 paid, 17 wrong, +0.34% against SPY. Puts 38: 5 paid, 22 wrong, -0.72% against SPY. Pre-market ideas 49: 20
+   paid; after 10:00, 43: 7 paid. Listed when already 3% or more its way from the open, 18: 10 wrong. Rating changes 10: 7
+   paid, 0 wrong, +1.88% against SPY. Split the whole log the same way (direction by the week's SPY sign, listed before or
+   after 10:00, extension at listing) before changing a habit: one week is one tape.
+68. **The rotation map says last week's story (2026-11-14).** Graded this week: wrong, half, wrong, right, wrong. It had chips
+   `turning` Monday to Wednesday while SMH led (+4.9%, +1.1%, +0.5% open to close), and listed the bounce as `heating` on
+   Friday morning, the day it was sold (-2.6%). The states are built from 1-week and 1-month returns, so they flip after the
+   move. Score every morning's heating / cooling list since 10-05 against the same day's open-to-close by theme: if heating
+   themes do not beat cooling ones the same day, the map stays as a filter on our own picks (THEMES.md, item 56) and stops
+   being graded as a forecast. Also from this week: the new SMH gate on stock_open_drive (item 62) was open on both losing
+   days (11-09 SMH 463.96 against a 536.94 average, 11-11 483.63 against 526.53), so it would have blocked neither loss; the
+   ledger has one win and four losses in a row (+267, -150, -71, -53, -160) and a fifth pauses it.
+
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
   live entry) and intraday pick (10) since 10-01 on real option minute bars, 10% costs each way. Snipers,
