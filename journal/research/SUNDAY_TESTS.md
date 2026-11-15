@@ -548,6 +548,34 @@ in EVOLUTION.md.
    theme-days -0.02%, beat SPY 50%; turning 465, +0.13%, 54%; last 3 months heating 84, -0.07%, 50%; turning 119, -0.19%,
    50%. DECISION: the map stays as context and as the filter of THEMES.md; it is not a same-day forecast and a line in
    CLAUDE.md 2b says so. The premarket_rotation grade keeps being written, as a record of the read, not as evidence.
+69. **The slow drift after an upgrade, and the option that holds it (2026-11-15, owner: "think: what else could work?").**
+   DONE 11-15 (SLOWDRIFT.md, zoh/research/slowdrift.py). The stock, from the open of day 0, on the 62 upgrade headlines of
+   two years that were not against the rating at 09:32: +1.08% to the close of day 0 (63% up), +2.86% by day +3 (70%),
+   +3.01% by day +5 (66%; +2.42% without the best two), +4.75% by day +10 (70%; +3.81% without the best two); the same 25
+   stocks on every other day: +0.03%, +0.52%, +0.84%, +1.63%. The last 3 months, 9 events: +3.38% by day +5 (8 up), +5.67%
+   by day +10. Downgrades do nothing the put's way (33 events: +0.37% day 0, -0.68% by day +5). So the edge is a week-long
+   drift, and same-day contracts 3-5% out of the money ask it for one day's 4%.
+   A call on the Friday nearest three weeks out (18-28 days), costs 5% each way, upgrades over two years (50-60 events;
+   avg / without the best / without the best two): 0.60 delta bought at the first trade 09:31-10:00 and sold at the close
+   of day +5: +12% / +9% / +5%; day +10: +23% / +17% / +13%. 0.45 delta: +12% / +7% / +3% and +22% / +14% / +8%; bought at the
+   day-0 close: +14% / +10% / +7% and +31% / +23% / +16%. 0.30 delta: +17% / +13% / +9% and +29% / +20% / +13%. Every single-leg
+   cell is positive without its best two; wins are 42-52%. By year (0.45 delta, day-0 close, day +5): 2024 +18% (11
+   trades, -1% without the best), 2025 +11% (21, +2%), 2026 +14% (28, +8%). The last 3 months, 9 events, day +5: +8% to
+   +21%, positive without the best two when bought at the close (+7% to +12%); day +10 is +46% to +104% on one or two
+   trades (negative without the best two). At 10% costs each way day +5 is flat (+1% to +6%; -2% to -7% without the best
+   two) and day +10 still +10% to +25% (+2% to +5%). The 0.60 / 0.30 debit vertical loses (-9% to +5% at 5% costs, -17% to
+   -36% at 10%): two legs of costs and a capped tail. Downgrades lose in every cell (-11% to -25%).
+   What it costs: one 0.45-delta contract three weeks out is $814 at the median ($495-$1,475 for the middle half; 2 of
+   60 under $250), 0.30 delta $455 (14 of 60 under $250). A $500 ledger cannot hold it.
+   DECISION: rating_open (nearest expiry, 0.45 delta, carried with the trail; +19% / +12% / +5% on the same events at 10%
+   costs) starts on 11-16 as planned and is the first live sample of this drift. The three-week version is a candidate
+   for a second shadow (`rating_slow`: an expiry at least two weeks out, one contract near 0.45 delta, sold at the close
+   of day +5 or +10); it needs two things the bot does not have (an expiry floor in days and a day-count exit), so it is
+   added with tests when a slot opens (leader_follow retires at its next trade). If the shadow holds, the question for
+   the owner is the ledger's size, not the rule. Left to test: a put credit spread under the stock on the same events
+   (the stock is 2% or more lower after five days on a quarter of them), and the same drift on the pre-earnings window
+   (RUNUP.md: +1.6% median over ten days).
+
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
   live entry) and intraday pick (10) since 10-01 on real option minute bars, 10% costs each way. Snipers,
