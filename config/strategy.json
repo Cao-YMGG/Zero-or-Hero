@@ -105,41 +105,6 @@
       ]
     },
     {
-      "id": "rebound_scanner",
-      "universe": [
-        "META",
-        "NVDA",
-        "TSLA",
-        "AMZN",
-        "AMD",
-        "RKLB",
-        "CRDO",
-        "HOOD",
-        "INTC",
-        "GOOGL",
-        "AAPL",
-        "COIN",
-        "SMCI",
-        "PLTR",
-        "AVGO",
-        "MU"
-      ],
-      "signal": "gap",
-      "sides": [
-        "down"
-      ],
-      "fade": true,
-      "after_minutes": 15,
-      "min_gap_pct": 2.0,
-      "target_delta": 0.08,
-      "take_profit": null,
-      "stop_loss": null,
-      "trail_after": 1.0,
-      "trail_giveback": 0.4,
-      "entry_cutoff": "10:30",
-      "days": "non_event"
-    },
-    {
       "id": "nvda_gapdown_put",
       "universe": [
         "NVDA"
@@ -182,6 +147,25 @@
       "trail_after": null,
       "entry_cutoff": "10:00",
       "shadow_risk": 1.0
+    },
+    {
+      "id": "rating_open",
+      "signal": "catalyst",
+      "classes": [
+        "upgrade",
+        "target"
+      ],
+      "contracts": 2,
+      "real_risk": 0,
+      "after_minutes": 1,
+      "move_pct": 0.0,
+      "target_delta": 0.45,
+      "take_profit": null,
+      "stop_loss": null,
+      "trail_after": 0.5,
+      "trail_giveback": 0.4,
+      "half_at": 2.0,
+      "entry_cutoff": "10:00"
     },
     {
       "id": "catalyst_intraday",

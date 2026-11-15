@@ -1,0 +1,9258 @@
+[
+{
+"study": "upgrade",
+"sym": "AMD",
+"day": "2024-03-07",
+"expiry": "2024-03-08",
+"kind": "put",
+"spot": 211.99,
+"swing": null,
+"headline": "DZ Bank Downgrades Advanced Micro Devices to Hold, Announces $200 Price Target",
+"picks": {
+"d0.30": {
+"contract": "AMD240308P00207500",
+"strike": 207.5,
+"delta": 0.313,
+"px": 2.03,
+"exits_10": {
+"trail2x": -0.4035,
+"trail1.5x": -0.4035,
+"trail1.6x": -0.4035,
+"trail2x_tight5x": -0.4035,
+"half2_trail": -0.4035,
+"half3_trail": -0.4035,
+"hold": -0.4035,
+"half3_arm1.5": -0.4035,
+"half2_arm1.5": -0.4035,
+"half1.7_arm1.5": -0.4035,
+"half3_give0.5": -0.4035
+},
+"peak_10": 1.249,
+"exits_5": {
+"trail2x": -0.3404,
+"trail1.5x": -0.3404,
+"trail1.6x": -0.3404,
+"trail2x_tight5x": -0.3404,
+"half2_trail": -0.3404,
+"half3_trail": -0.3404,
+"hold": -0.3404,
+"half3_arm1.5": -0.3404,
+"half2_arm1.5": -0.3404,
+"half1.7_arm1.5": -0.3404,
+"half3_give0.5": -0.3404
+},
+"peak_5": 1.382,
+"carry_10": {
+"half2_arm1.5": -0.9642,
+"half3_arm1.5": -0.9642,
+"trail2x": -0.9642,
+"hold": -0.9642
+},
+"carry_5": {
+"half2_arm1.5": -0.9625,
+"half3_arm1.5": -0.9625,
+"trail2x": -0.9625,
+"hold": -0.9625
+}
+},
+"d0.45": {
+"contract": "AMD240308P00210000",
+"strike": 210.0,
+"delta": 0.412,
+"px": 3.05,
+"exits_10": {
+"trail2x": -0.3186,
+"trail1.5x": -0.3186,
+"trail1.6x": -0.3186,
+"trail2x_tight5x": -0.3186,
+"half2_trail": -0.3186,
+"half3_trail": -0.3186,
+"hold": -0.3186,
+"half3_arm1.5": -0.3186,
+"half2_arm1.5": -0.3186,
+"half1.7_arm1.5": -0.3186,
+"half3_give0.5": -0.3186
+},
+"peak_10": 1.18,
+"exits_5": {
+"trail2x": -0.2465,
+"trail1.5x": -0.2465,
+"trail1.6x": -0.2465,
+"trail2x_tight5x": -0.2465,
+"half2_trail": -0.2465,
+"half3_trail": -0.2465,
+"hold": -0.2465,
+"half3_arm1.5": -0.2465,
+"half2_arm1.5": -0.2465,
+"half1.7_arm1.5": -0.2465,
+"half3_give0.5": -0.2465
+},
+"peak_5": 1.305,
+"carry_10": {
+"half2_arm1.5": -0.6566,
+"half3_arm1.5": -0.6566,
+"trail2x": -0.6566,
+"hold": -0.6566
+},
+"carry_5": {
+"half2_arm1.5": -0.6203,
+"half3_arm1.5": -0.6203,
+"trail2x": -0.6203,
+"hold": -0.6203
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "COIN",
+"day": "2024-03-08",
+"expiry": "2024-03-08",
+"kind": "call",
+"spot": 248.69,
+"swing": null,
+"headline": "Goldman Sachs Upgrades Coinbase Glb to Neutral, Announces $282 Price Target",
+"picks": {
+"d0.30": {
+"contract": "COIN240308C00257500",
+"strike": 257.5,
+"delta": 0.286,
+"px": 2.51,
+"exits_10": {
+"trail2x": 1.1351,
+"trail1.5x": 1.1351,
+"trail1.6x": 1.1351,
+"trail2x_tight5x": 1.1351,
+"half2_trail": 1.1188,
+"half3_trail": 1.624,
+"hold": -0.9641,
+"half3_arm1.5": 1.624,
+"half2_arm1.5": 1.1188,
+"half1.7_arm1.5": 0.9363,
+"half3_give0.5": 1.624
+},
+"peak_10": 4.401,
+"exits_5": {
+"trail2x": 1.361,
+"trail1.5x": 1.361,
+"trail1.6x": 1.361,
+"trail2x_tight5x": 1.361,
+"half2_trail": 1.2078,
+"half3_trail": 1.7035,
+"hold": -0.9621,
+"half3_arm1.5": 1.7035,
+"half2_arm1.5": 1.2078,
+"half1.7_arm1.5": 1.0637,
+"half3_give0.5": 1.7035
+},
+"peak_5": 4.866
+},
+"d0.45": {
+"contract": "COIN240308C00250000",
+"strike": 250.0,
+"delta": 0.467,
+"px": 4.25,
+"exits_10": {
+"trail2x": 1.3102,
+"trail1.5x": 1.3102,
+"trail1.6x": 1.3102,
+"trail2x_tight5x": 1.3102,
+"half2_trail": 1.1754,
+"half3_trail": 1.6981,
+"hold": 0.0492,
+"half3_arm1.5": 1.6981,
+"half2_arm1.5": 1.1754,
+"half1.7_arm1.5": 1.0599,
+"half3_give0.5": 1.4526
+},
+"peak_10": 3.937,
+"exits_5": {
+"trail2x": 1.5546,
+"trail1.5x": 1.5546,
+"trail1.6x": 1.5546,
+"trail2x_tight5x": 1.5546,
+"half2_trail": 1.2779,
+"half3_trail": 1.8473,
+"hold": 0.1602,
+"half3_arm1.5": 1.8473,
+"half2_arm1.5": 1.2779,
+"half1.7_arm1.5": 1.1948,
+"half3_give0.5": 1.5759
+},
+"peak_5": 4.354
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "COIN",
+"day": "2024-03-12",
+"expiry": "2024-03-15",
+"kind": "call",
+"spot": 259.75,
+"swing": null,
+"headline": "Raymond James Upgrades Coinbase Glb to Market Perform",
+"picks": {
+"d0.30": {
+"contract": "COIN240315C00277500",
+"strike": 277.5,
+"delta": 0.309,
+"px": 5.73,
+"exits_10": {
+"trail2x": -0.5873,
+"trail1.5x": -0.5873,
+"trail1.6x": -0.5873,
+"trail2x_tight5x": -0.5873,
+"half2_trail": -0.5873,
+"half3_trail": -0.5873,
+"hold": -0.5873,
+"half3_arm1.5": -0.5873,
+"half2_arm1.5": -0.5873,
+"half1.7_arm1.5": -0.5873,
+"half3_give0.5": -0.5873
+},
+"peak_10": 0.814,
+"exits_5": {
+"trail2x": -0.5437,
+"trail1.5x": -0.5437,
+"trail1.6x": -0.5437,
+"trail2x_tight5x": -0.5437,
+"half2_trail": -0.5437,
+"half3_trail": -0.5437,
+"hold": -0.5437,
+"half3_arm1.5": -0.5437,
+"half2_arm1.5": -0.5437,
+"half1.7_arm1.5": -0.5437,
+"half3_give0.5": -0.5437
+},
+"peak_5": 0.9,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+}
+},
+"d0.45": {
+"contract": "COIN240315C00265000",
+"strike": 265.0,
+"delta": 0.449,
+"px": 9,
+"exits_10": {
+"trail2x": -0.4118,
+"trail1.5x": -0.4118,
+"trail1.6x": -0.4118,
+"trail2x_tight5x": -0.4118,
+"half2_trail": -0.4118,
+"half3_trail": -0.4118,
+"hold": -0.4118,
+"half3_arm1.5": -0.4118,
+"half2_arm1.5": -0.4118,
+"half1.7_arm1.5": -0.4118,
+"half3_give0.5": -0.4118
+},
+"peak_10": 0.85,
+"exits_5": {
+"trail2x": -0.3496,
+"trail1.5x": -0.3496,
+"trail1.6x": -0.3496,
+"trail2x_tight5x": -0.3496,
+"half2_trail": -0.3496,
+"half3_trail": -0.3496,
+"hold": -0.3496,
+"half3_arm1.5": -0.3496,
+"half2_arm1.5": -0.3496,
+"half1.7_arm1.5": -0.3496,
+"half3_give0.5": -0.3496
+},
+"peak_5": 0.94,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "AVGO",
+"day": "2024-03-21",
+"expiry": "2024-03-22",
+"kind": "call",
+"spot": 1332.51,
+"swing": null,
+"headline": "TD Cowen Upgrades Broadcom to Outperform, Raises Price Target to $1500",
+"picks": {
+"d0.30": {
+"contract": "AVGO240322C01352500",
+"strike": 1352.5,
+"delta": 0.287,
+"px": 6.1,
+"exits_10": {
+"trail2x": 1.8838,
+"trail1.5x": 1.8838,
+"trail1.6x": 1.8838,
+"trail2x_tight5x": 2.8495,
+"half2_trail": 1.582,
+"half3_trail": 2.1252,
+"hold": 1.1461,
+"half3_arm1.5": 2.1252,
+"half2_arm1.5": 1.582,
+"half1.7_arm1.5": 1.3003,
+"half3_give0.5": 1.8905
+},
+"peak_10": 5.428,
+"exits_5": {
+"trail2x": 2.1889,
+"trail1.5x": 2.1889,
+"trail1.6x": 2.1889,
+"trail2x_tight5x": 3.2568,
+"half2_trail": 1.655,
+"half3_trail": 2.4559,
+"hold": 1.3731,
+"half3_arm1.5": 2.4559,
+"half2_arm1.5": 1.655,
+"half1.7_arm1.5": 1.5437,
+"half3_give0.5": 2.1963
+},
+"peak_5": 6.003,
+"carry_10": {
+"half2_arm1.5": 1.582,
+"half3_arm1.5": 2.1252,
+"trail2x": 1.8838,
+"hold": -0.827
+},
+"carry_5": {
+"half2_arm1.5": 1.655,
+"half3_arm1.5": 2.4559,
+"trail2x": 2.1889,
+"hold": -0.8087
+}
+},
+"d0.45": {
+"contract": "AVGO240322C01340000",
+"strike": 1340.0,
+"delta": 0.435,
+"px": 13.2,
+"exits_10": {
+"trail2x": 1.3554,
+"trail1.5x": 1.3554,
+"trail1.6x": 1.3554,
+"trail2x_tight5x": 1.3554,
+"half2_trail": 1.2004,
+"half3_trail": 1.7118,
+"hold": 0.3636,
+"half3_arm1.5": 1.7118,
+"half2_arm1.5": 1.2004,
+"half1.7_arm1.5": 1.0455,
+"half3_give0.5": 1.4648
+},
+"peak_10": 3.997,
+"exits_5": {
+"trail2x": 1.6046,
+"trail1.5x": 1.6046,
+"trail1.6x": 1.6046,
+"trail2x_tight5x": 1.6046,
+"half2_trail": 1.3373,
+"half3_trail": 1.8171,
+"hold": 0.5079,
+"half3_arm1.5": 1.8171,
+"half2_arm1.5": 1.3373,
+"half1.7_arm1.5": 1.2276,
+"half3_give0.5": 1.544
+},
+"peak_5": 4.42,
+"carry_10": {
+"half2_arm1.5": 1.2004,
+"half3_arm1.5": 1.7118,
+"trail2x": 1.3554,
+"hold": 0.0035
+},
+"carry_5": {
+"half2_arm1.5": 1.3373,
+"half3_arm1.5": 1.8171,
+"trail2x": 1.6046,
+"hold": 0.1097
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "ANET",
+"day": "2024-04-12",
+"expiry": "2024-04-12",
+"kind": "put",
+"spot": 276.62,
+"swing": null,
+"headline": "Rosenblatt Downgrades Arista Networks to Sell, Announces $210 Price Target",
+"picks": {
+"d0.30": {
+"contract": "ANET240412P00275000",
+"strike": 275.0,
+"delta": 0.381,
+"px": 1.5,
+"exits_10": {
+"trail2x": 0.9364,
+"trail1.5x": -0.0455,
+"trail1.6x": -0.0455,
+"trail2x_tight5x": 0.9364,
+"half2_trail": 1.0318,
+"half3_trail": 1.6155,
+"hold": 0.4564,
+"half3_arm1.5": -0.0455,
+"half2_arm1.5": -0.0455,
+"half1.7_arm1.5": -0.0455,
+"half3_give0.5": 1.4518
+},
+"peak_10": 3.295,
+"exits_5": {
+"trail2x": 1.1413,
+"trail1.5x": 0.0556,
+"trail1.6x": 0.0556,
+"trail2x_tight5x": 1.1413,
+"half2_trail": 1.2468,
+"half3_trail": 1.5786,
+"hold": 0.6105,
+"half3_arm1.5": 0.0556,
+"half2_arm1.5": 0.0556,
+"half1.7_arm1.5": 0.4537,
+"half3_give0.5": 1.3976
+},
+"peak_5": 3.643
+},
+"d0.45": {
+"contract": "ANET240412P00275000",
+"strike": 275.0,
+"delta": 0.381,
+"px": 1.5,
+"exits_10": {
+"trail2x": 0.9364,
+"trail1.5x": -0.0455,
+"trail1.6x": -0.0455,
+"trail2x_tight5x": 0.9364,
+"half2_trail": 1.0318,
+"half3_trail": 1.6155,
+"hold": 0.4564,
+"half3_arm1.5": -0.0455,
+"half2_arm1.5": -0.0455,
+"half1.7_arm1.5": -0.0455,
+"half3_give0.5": 1.4518
+},
+"peak_10": 3.295,
+"exits_5": {
+"trail2x": 1.1413,
+"trail1.5x": 0.0556,
+"trail1.6x": 0.0556,
+"trail2x_tight5x": 1.1413,
+"half2_trail": 1.2468,
+"half3_trail": 1.5786,
+"hold": 0.6105,
+"half3_arm1.5": 0.0556,
+"half2_arm1.5": 0.0556,
+"half1.7_arm1.5": 0.4537,
+"half3_give0.5": 1.3976
+},
+"peak_5": 3.643
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "AMD",
+"day": "2024-04-16",
+"expiry": "2024-04-19",
+"kind": "call",
+"spot": 162.99,
+"swing": null,
+"headline": "HSBC Upgrades Advanced Micro Devices to Buy, Announces $225 Price Target",
+"picks": {
+"d0.30": {
+"contract": "AMD240419C00167500",
+"strike": 167.5,
+"delta": 0.325,
+"px": 1.9,
+"exits_10": {
+"trail2x": -0.3239,
+"trail1.5x": -0.3239,
+"trail1.6x": -0.3239,
+"trail2x_tight5x": -0.3239,
+"half2_trail": -0.3239,
+"half3_trail": -0.3239,
+"hold": -0.3239,
+"half3_arm1.5": -0.3239,
+"half2_arm1.5": -0.3239,
+"half1.7_arm1.5": -0.3239,
+"half3_give0.5": -0.3239
+},
+"peak_10": 0.887,
+"exits_5": {
+"trail2x": -0.2524,
+"trail1.5x": -0.2524,
+"trail1.6x": -0.2524,
+"trail2x_tight5x": -0.2524,
+"half2_trail": -0.2524,
+"half3_trail": -0.2524,
+"hold": -0.2524,
+"half3_arm1.5": -0.2524,
+"half2_arm1.5": -0.2524,
+"half1.7_arm1.5": -0.2524,
+"half3_give0.5": -0.2524
+},
+"peak_5": 0.981,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+}
+},
+"d0.45": {
+"contract": "AMD240419C00165000",
+"strike": 165.0,
+"delta": 0.427,
+"px": 2.85,
+"exits_10": {
+"trail2x": -0.2737,
+"trail1.5x": -0.2737,
+"trail1.6x": -0.2737,
+"trail2x_tight5x": -0.2737,
+"half2_trail": -0.2737,
+"half3_trail": -0.2737,
+"hold": -0.2737,
+"half3_arm1.5": -0.2737,
+"half2_arm1.5": -0.2737,
+"half1.7_arm1.5": -0.2737,
+"half3_give0.5": -0.2737
+},
+"peak_10": 0.904,
+"exits_5": {
+"trail2x": -0.1968,
+"trail1.5x": -0.1968,
+"trail1.6x": -0.1968,
+"trail2x_tight5x": -0.1968,
+"half2_trail": -0.1968,
+"half3_trail": -0.1968,
+"hold": -0.1968,
+"half3_arm1.5": -0.1968,
+"half2_arm1.5": -0.1968,
+"half1.7_arm1.5": -0.1968,
+"half3_give0.5": -0.1968
+},
+"peak_5": 1.0,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "TSLA",
+"day": "2024-04-24",
+"expiry": "2024-04-26",
+"kind": "call",
+"spot": 162.95,
+"swing": null,
+"headline": "B of A Securities Upgrades Tesla to Buy, Maintains $220 Price Target",
+"picks": {
+"d0.30": {
+"contract": "TSLA240426C00167500",
+"strike": 167.5,
+"delta": 0.324,
+"px": 1.9,
+"exits_10": {
+"trail2x": -0.6383,
+"trail1.5x": 0.0077,
+"trail1.6x": 0.0077,
+"trail2x_tight5x": -0.6383,
+"half2_trail": -0.6383,
+"half3_trail": -0.6383,
+"hold": -0.6383,
+"half3_arm1.5": 0.0077,
+"half2_arm1.5": 0.0077,
+"half1.7_arm1.5": 0.3651,
+"half3_give0.5": -0.6383
+},
+"peak_10": 1.722,
+"exits_5": {
+"trail2x": -0.6,
+"trail1.5x": 0.1143,
+"trail1.6x": 0.1143,
+"trail2x_tight5x": -0.6,
+"half2_trail": -0.6,
+"half3_trail": -0.6,
+"hold": -0.6,
+"half3_arm1.5": 0.1143,
+"half2_arm1.5": 0.1143,
+"half1.7_arm1.5": 0.4357,
+"half3_give0.5": -0.6
+},
+"peak_5": 1.905,
+"carry_10": {
+"half2_arm1.5": 0.0077,
+"half3_arm1.5": 0.0077,
+"trail2x": 0.1325,
+"hold": -0.6856
+},
+"carry_5": {
+"half2_arm1.5": 0.1143,
+"half3_arm1.5": 0.1143,
+"trail2x": 0.2524,
+"hold": -0.6524
+}
+},
+"d0.45": {
+"contract": "TSLA240426C00165000",
+"strike": 165.0,
+"delta": 0.423,
+"px": 2.74,
+"exits_10": {
+"trail2x": -0.5581,
+"trail1.5x": -0.0295,
+"trail1.6x": -0.0295,
+"trail2x_tight5x": -0.5581,
+"half2_trail": -0.5581,
+"half3_trail": -0.5581,
+"hold": -0.5581,
+"half3_arm1.5": -0.0295,
+"half2_arm1.5": -0.0295,
+"half1.7_arm1.5": -0.0295,
+"half3_give0.5": -0.5581
+},
+"peak_10": 1.621,
+"exits_5": {
+"trail2x": -0.5113,
+"trail1.5x": 0.0732,
+"trail1.6x": 0.0732,
+"trail2x_tight5x": -0.5113,
+"half2_trail": -0.5113,
+"half3_trail": -0.5113,
+"hold": -0.5113,
+"half3_arm1.5": 0.0732,
+"half2_arm1.5": 0.0732,
+"half1.7_arm1.5": 0.4331,
+"half3_give0.5": -0.5113
+},
+"peak_5": 1.793,
+"carry_10": {
+"half2_arm1.5": -0.0295,
+"half3_arm1.5": -0.0295,
+"trail2x": 0.2392,
+"hold": -0.1161
+},
+"carry_5": {
+"half2_arm1.5": 0.0732,
+"half3_arm1.5": 0.0732,
+"trail2x": 0.3704,
+"hold": -0.0226
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "AAPL",
+"day": "2024-04-29",
+"expiry": "2024-05-03",
+"kind": "call",
+"spot": 173.73,
+"swing": null,
+"headline": "Bernstein Upgrades Apple to Outperform, Announces $195 Price Target",
+"picks": {
+"d0.30": {
+"contract": "AAPL240503C00180000",
+"strike": 180.0,
+"delta": 0.251,
+"px": 1.29,
+"exits_10": {
+"trail2x": -0.1628,
+"trail1.5x": -0.1628,
+"trail1.6x": -0.1628,
+"trail2x_tight5x": -0.1628,
+"half2_trail": -0.1628,
+"half3_trail": -0.1628,
+"hold": -0.1628,
+"half3_arm1.5": -0.1628,
+"half2_arm1.5": -0.1628,
+"half1.7_arm1.5": -0.1628,
+"half3_give0.5": -0.1628
+},
+"peak_10": 1.262,
+"exits_5": {
+"trail2x": -0.0742,
+"trail1.5x": -0.0742,
+"trail1.6x": -0.0742,
+"trail2x_tight5x": -0.0742,
+"half2_trail": -0.0742,
+"half3_trail": -0.0742,
+"hold": -0.0742,
+"half3_arm1.5": -0.0742,
+"half2_arm1.5": -0.0742,
+"half1.7_arm1.5": -0.0742,
+"half3_give0.5": -0.0742
+},
+"peak_5": 1.396,
+"carry_10": {
+"half2_arm1.5": 1.981,
+"half3_arm1.5": 1.981,
+"trail2x": 1.1882,
+"hold": 1.6638
+},
+"carry_5": {
+"half2_arm1.5": 2.2964,
+"half3_arm1.5": 2.2964,
+"trail2x": 1.4197,
+"hold": 1.9457
+}
+},
+"d0.45": {
+"contract": "AAPL240503C00175000",
+"strike": 175.0,
+"delta": 0.458,
+"px": 3.2,
+"exits_10": {
+"trail2x": -0.2125,
+"trail1.5x": -0.2125,
+"trail1.6x": -0.2125,
+"trail2x_tight5x": -0.2125,
+"half2_trail": -0.2125,
+"half3_trail": -0.2125,
+"hold": -0.2125,
+"half3_arm1.5": -0.2125,
+"half2_arm1.5": -0.2125,
+"half1.7_arm1.5": -0.2125,
+"half3_give0.5": -0.2125
+},
+"peak_10": 1.069,
+"exits_5": {
+"trail2x": -0.1292,
+"trail1.5x": -0.1292,
+"trail1.6x": -0.1292,
+"trail2x_tight5x": -0.1292,
+"half2_trail": -0.1292,
+"half3_trail": -0.1292,
+"hold": -0.1292,
+"half3_arm1.5": -0.1292,
+"half2_arm1.5": -0.1292,
+"half1.7_arm1.5": -0.1292,
+"half3_give0.5": -0.1292
+},
+"peak_5": 1.182,
+"carry_10": {
+"half2_arm1.5": 1.5581,
+"half3_arm1.5": 1.3523,
+"trail2x": 1.3523,
+"hold": 1.3523
+},
+"carry_5": {
+"half2_arm1.5": 1.8288,
+"half3_arm1.5": 1.8288,
+"trail2x": 1.6012,
+"hold": 1.6012
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "MU",
+"day": "2024-05-20",
+"expiry": "2024-05-24",
+"kind": "call",
+"spot": 127.23,
+"swing": null,
+"headline": "Morgan Stanley Upgrades Micron Technology to Equal-Weight, Raises Price Target to $130",
+"picks": {
+"d0.30": {
+"contract": "MU240524C00133000",
+"strike": 133.0,
+"delta": 0.291,
+"px": 1.68,
+"exits_10": {
+"trail2x": -0.138,
+"trail1.5x": -0.138,
+"trail1.6x": -0.138,
+"trail2x_tight5x": -0.138,
+"half2_trail": -0.138,
+"half3_trail": -0.138,
+"hold": -0.138,
+"half3_arm1.5": -0.138,
+"half2_arm1.5": -0.138,
+"half1.7_arm1.5": -0.138,
+"half3_give0.5": -0.138
+},
+"peak_10": 1.33,
+"exits_5": {
+"trail2x": -0.0468,
+"trail1.5x": -0.0468,
+"trail1.6x": -0.0468,
+"trail2x_tight5x": -0.0468,
+"half2_trail": -0.0468,
+"half3_trail": -0.0468,
+"hold": -0.0468,
+"half3_arm1.5": -0.0468,
+"half2_arm1.5": -0.0468,
+"half1.7_arm1.5": -0.0468,
+"half3_give0.5": -0.0468
+},
+"peak_5": 1.47,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+}
+},
+"d0.45": {
+"contract": "MU240524C00129000",
+"strike": 129.0,
+"delta": 0.443,
+"px": 3.05,
+"exits_10": {
+"trail2x": -0.0611,
+"trail1.5x": -0.0611,
+"trail1.6x": -0.0611,
+"trail2x_tight5x": -0.0611,
+"half2_trail": -0.0611,
+"half3_trail": -0.0611,
+"hold": -0.0611,
+"half3_arm1.5": -0.0611,
+"half2_arm1.5": -0.0611,
+"half1.7_arm1.5": -0.0611,
+"half3_give0.5": -0.0611
+},
+"peak_10": 1.221,
+"exits_5": {
+"trail2x": 0.0383,
+"trail1.5x": 0.0383,
+"trail1.6x": 0.0383,
+"trail2x_tight5x": 0.0383,
+"half2_trail": 0.0383,
+"half3_trail": 0.0383,
+"hold": 0.0383,
+"half3_arm1.5": 0.0383,
+"half2_arm1.5": 0.0383,
+"half1.7_arm1.5": 0.0383,
+"half3_give0.5": 0.0383
+},
+"peak_5": 1.35,
+"carry_10": {
+"half2_arm1.5": -0.9463,
+"half3_arm1.5": -0.9463,
+"trail2x": -0.9463,
+"hold": -0.9463
+},
+"carry_5": {
+"half2_arm1.5": -0.9407,
+"half3_arm1.5": -0.9407,
+"trail2x": -0.9407,
+"hold": -0.9407
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "TSLA",
+"day": "2024-07-12",
+"expiry": "2024-07-12",
+"kind": "put",
+"spot": 234.41,
+"swing": null,
+"headline": "UBS Downgrades Tesla to Sell, Raises Price Target to $197",
+"picks": {
+"d0.30": {
+"contract": "TSLA240712P00230000",
+"strike": 230.0,
+"delta": 0.31,
+"px": 1.9,
+"exits_10": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_10": 0.913,
+"exits_5": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_5": 1.01
+},
+"d0.45": {
+"contract": "TSLA240712P00232500",
+"strike": 232.5,
+"delta": 0.41,
+"px": 2.79,
+"exits_10": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_10": 0.909,
+"exits_5": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_5": 1.005
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "PLTR",
+"day": "2024-07-16",
+"expiry": "2024-07-19",
+"kind": "put",
+"spot": 27.97,
+"swing": null,
+"headline": "Mizuho Downgrades Palantir Technologies to Underperform, Raises Price Target to $22",
+"picks": {
+"d0.30": {
+"contract": "PLTR240719P00027000",
+"strike": 27.0,
+"delta": 0.26,
+"px": 0.26,
+"exits_10": {
+"trail2x": -0.7203,
+"trail1.5x": -0.7203,
+"trail1.6x": -0.7203,
+"trail2x_tight5x": -0.7203,
+"half2_trail": -0.7203,
+"half3_trail": -0.7203,
+"hold": -0.7203,
+"half3_arm1.5": -0.7203,
+"half2_arm1.5": -0.7203,
+"half1.7_arm1.5": -0.7203,
+"half3_give0.5": -0.7203
+},
+"peak_10": 1.038,
+"exits_5": {
+"trail2x": -0.707,
+"trail1.5x": -0.707,
+"trail1.6x": -0.707,
+"trail2x_tight5x": -0.707,
+"half2_trail": -0.707,
+"half3_trail": -0.707,
+"hold": -0.707,
+"half3_arm1.5": -0.707,
+"half2_arm1.5": -0.707,
+"half1.7_arm1.5": -0.707,
+"half3_give0.5": -0.707
+},
+"peak_5": 1.148,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+}
+},
+"d0.45": {
+"contract": "PLTR240719P00028000",
+"strike": 28.0,
+"delta": 0.496,
+"px": 0.66,
+"exits_10": {
+"trail2x": -0.6281,
+"trail1.5x": -0.6281,
+"trail1.6x": -0.6281,
+"trail2x_tight5x": -0.6281,
+"half2_trail": -0.6281,
+"half3_trail": -0.6281,
+"hold": -0.6281,
+"half3_arm1.5": -0.6281,
+"half2_arm1.5": -0.6281,
+"half1.7_arm1.5": -0.6281,
+"half3_give0.5": -0.6281
+},
+"peak_10": 1.054,
+"exits_5": {
+"trail2x": -0.5887,
+"trail1.5x": -0.5887,
+"trail1.6x": -0.5887,
+"trail2x_tight5x": -0.5887,
+"half2_trail": -0.5887,
+"half3_trail": -0.5887,
+"hold": -0.5887,
+"half3_arm1.5": -0.5887,
+"half2_arm1.5": -0.5887,
+"half1.7_arm1.5": -0.5887,
+"half3_give0.5": -0.5887
+},
+"peak_5": 1.165,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "QCOM",
+"day": "2024-07-17",
+"expiry": "2024-07-19",
+"kind": "put",
+"spot": 199.06,
+"swing": null,
+"headline": "HSBC Downgrades Qualcomm to Hold, Announces $200 Price Target",
+"picks": {
+"d0.30": {
+"contract": "QCOM240719P00195000",
+"strike": 195.0,
+"delta": 0.313,
+"px": 1.83,
+"exits_10": {
+"trail2x": 0.6542,
+"trail1.5x": 0.6542,
+"trail1.6x": 0.6542,
+"trail2x_tight5x": 0.6542,
+"half2_trail": 0.8398,
+"half3_trail": 0.6542,
+"hold": 0.6542,
+"half3_arm1.5": 0.6542,
+"half2_arm1.5": 0.8398,
+"half1.7_arm1.5": 0.6878,
+"half3_give0.5": 0.6542
+},
+"peak_10": 2.459,
+"exits_5": {
+"trail2x": 0.8293,
+"trail1.5x": 0.8293,
+"trail1.6x": 0.8293,
+"trail2x_tight5x": 0.8293,
+"half2_trail": 0.9776,
+"half3_trail": 0.8293,
+"hold": 0.8293,
+"half3_arm1.5": 0.8293,
+"half2_arm1.5": 0.9776,
+"half1.7_arm1.5": 0.7972,
+"half3_give0.5": 0.8293
+},
+"peak_5": 2.719,
+"carry_10": {
+"half2_arm1.5": 0.7481,
+"half3_arm1.5": 0.4709,
+"trail2x": 0.4709,
+"hold": 2.8852
+},
+"carry_5": {
+"half2_arm1.5": 0.8763,
+"half3_arm1.5": 0.6266,
+"trail2x": 0.6266,
+"hold": 3.2964
+}
+},
+"d0.45": {
+"contract": "QCOM240719P00197500",
+"strike": 197.5,
+"delta": 0.424,
+"px": 3,
+"exits_10": {
+"trail2x": 0.4727,
+"trail1.5x": 0.4727,
+"trail1.6x": 0.4727,
+"trail2x_tight5x": 0.4727,
+"half2_trail": 0.7468,
+"half3_trail": 0.4727,
+"hold": 0.4727,
+"half3_arm1.5": 0.4727,
+"half2_arm1.5": 0.7468,
+"half1.7_arm1.5": 0.6064,
+"half3_give0.5": 0.4727
+},
+"peak_10": 2.021,
+"exits_5": {
+"trail2x": 0.6286,
+"trail1.5x": 0.6286,
+"trail1.6x": 0.6286,
+"trail2x_tight5x": 0.6286,
+"half2_trail": 0.903,
+"half3_trail": 0.6286,
+"hold": 0.6286,
+"half3_arm1.5": 0.6286,
+"half2_arm1.5": 0.903,
+"half1.7_arm1.5": 0.7763,
+"half3_give0.5": 0.6286
+},
+"peak_5": 2.235,
+"carry_10": {
+"half2_arm1.5": 0.4741,
+"half3_arm1.5": -0.0727,
+"trail2x": -0.0727,
+"hold": 2.0027
+},
+"carry_5": {
+"half2_arm1.5": 0.6014,
+"half3_arm1.5": 0.0254,
+"trail2x": 0.0254,
+"hold": 2.3205
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "INTC",
+"day": "2024-08-02",
+"expiry": "2024-08-02",
+"kind": "put",
+"spot": 21.54,
+"swing": null,
+"headline": "B of A Securities Downgrades Intel to Underperform, Lowers Price Target to $23",
+"picks": {
+"d0.30": {
+"contract": "INTC240802P00021000",
+"strike": 21.0,
+"delta": 0.382,
+"px": 0.62,
+"exits_10": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_10": 1.214,
+"exits_5": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_5": 1.343
+},
+"d0.45": {
+"contract": "INTC240802P00021000",
+"strike": 21.0,
+"delta": 0.382,
+"px": 0.62,
+"exits_10": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_10": 1.214,
+"exits_5": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_5": 1.343
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "COIN",
+"day": "2024-09-06",
+"expiry": "2024-09-06",
+"kind": "call",
+"spot": 163.53,
+"swing": null,
+"headline": "Barclays Upgrades Coinbase Glb to Equal-Weight, Lowers Price Target to $169",
+"picks": {
+"d0.30": {
+"contract": "COIN240906C00167500",
+"strike": 167.5,
+"delta": 0.239,
+"px": 0.75,
+"exits_10": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_10": 1.091,
+"exits_5": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_5": 1.206
+},
+"d0.45": {
+"contract": "COIN240906C00165000",
+"strike": 165.0,
+"delta": 0.38,
+"px": 1.2,
+"exits_10": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_10": 1.227,
+"exits_5": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_5": 1.357
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "ORCL",
+"day": "2024-09-10",
+"expiry": "2024-09-13",
+"kind": "call",
+"spot": 154.71,
+"swing": null,
+"headline": "JMP Securities Upgrades Oracle to Market Outperform, Announces $175 Price Target",
+"picks": {
+"d0.30": {
+"contract": "ORCL240913C00157500",
+"strike": 157.5,
+"delta": 0.357,
+"px": 1.68,
+"exits_10": {
+"trail2x": 0.2662,
+"trail1.5x": 0.2662,
+"trail1.6x": 0.2662,
+"trail2x_tight5x": 0.2662,
+"half2_trail": 0.668,
+"half3_trail": 0.2662,
+"hold": -0.3182,
+"half3_arm1.5": 0.2662,
+"half2_arm1.5": 0.668,
+"half1.7_arm1.5": 0.5341,
+"half3_give0.5": 0.013
+},
+"peak_10": 2.143,
+"exits_5": {
+"trail2x": 0.4002,
+"trail1.5x": 0.4002,
+"trail1.6x": 0.4002,
+"trail2x_tight5x": 0.4002,
+"half2_trail": 0.8445,
+"half3_trail": 0.4002,
+"hold": -0.246,
+"half3_arm1.5": 0.4002,
+"half2_arm1.5": 0.8445,
+"half1.7_arm1.5": 0.5618,
+"half3_give0.5": 0.1202
+},
+"peak_5": 2.37,
+"carry_10": {
+"half2_arm1.5": 0.668,
+"half3_arm1.5": 0.2662,
+"trail2x": 0.2662,
+"hold": 1.0308
+},
+"carry_5": {
+"half2_arm1.5": 0.8445,
+"half3_arm1.5": 0.4002,
+"trail2x": 0.4002,
+"hold": 1.2457
+}
+},
+"d0.45": {
+"contract": "ORCL240913C00155000",
+"strike": 155.0,
+"delta": 0.493,
+"px": 2.66,
+"exits_10": {
+"trail2x": -0.231,
+"trail1.5x": 0.0766,
+"trail1.6x": 0.0766,
+"trail2x_tight5x": -0.231,
+"half2_trail": -0.231,
+"half3_trail": -0.231,
+"hold": -0.231,
+"half3_arm1.5": 0.0766,
+"half2_arm1.5": 0.0766,
+"half1.7_arm1.5": 0.4718,
+"half3_give0.5": -0.231
+},
+"peak_10": 1.907,
+"exits_5": {
+"trail2x": 0.1905,
+"trail1.5x": 0.1905,
+"trail1.6x": 0.1905,
+"trail2x_tight5x": 0.1905,
+"half2_trail": 0.6276,
+"half3_trail": 0.1905,
+"hold": -0.1497,
+"half3_arm1.5": 0.1905,
+"half2_arm1.5": 0.6276,
+"half1.7_arm1.5": 0.4796,
+"half3_give0.5": 0.0374
+},
+"peak_5": 2.109,
+"carry_10": {
+"half2_arm1.5": 0.0766,
+"half3_arm1.5": 0.0766,
+"trail2x": 2.2297,
+"hold": 1.0762
+},
+"carry_5": {
+"half2_arm1.5": 0.6276,
+"half3_arm1.5": 0.1905,
+"trail2x": 0.1905,
+"hold": 1.2959
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "CRM",
+"day": "2024-09-24",
+"expiry": "2024-09-27",
+"kind": "call",
+"spot": 271.04,
+"swing": null,
+"headline": "Piper Sandler Upgrades Salesforce to Overweight, Raises Price Target to $325",
+"picks": {
+"d0.30": {
+"contract": "CRM240927C00275000",
+"strike": 275.0,
+"delta": 0.29,
+"px": 1.25,
+"exits_10": {
+"trail2x": -0.4109,
+"trail1.5x": -0.4109,
+"trail1.6x": -0.4109,
+"trail2x_tight5x": -0.4109,
+"half2_trail": -0.4109,
+"half3_trail": -0.4109,
+"hold": -0.4109,
+"half3_arm1.5": -0.4109,
+"half2_arm1.5": -0.4109,
+"half1.7_arm1.5": -0.4109,
+"half3_give0.5": -0.4109
+},
+"peak_10": 1.178,
+"exits_5": {
+"trail2x": -0.3486,
+"trail1.5x": -0.3486,
+"trail1.6x": -0.3486,
+"trail2x_tight5x": -0.3486,
+"half2_trail": -0.3486,
+"half3_trail": -0.3486,
+"hold": -0.3486,
+"half3_arm1.5": -0.3486,
+"half2_arm1.5": -0.3486,
+"half1.7_arm1.5": -0.3486,
+"half3_give0.5": -0.3486
+},
+"peak_5": 1.303,
+"carry_10": {
+"half2_arm1.5": 0.7705,
+"half3_arm1.5": 0.5055,
+"trail2x": 0.5055,
+"hold": -0.1164
+},
+"carry_5": {
+"half2_arm1.5": 0.8457,
+"half3_arm1.5": 0.6648,
+"trail2x": 0.6648,
+"hold": -0.0229
+}
+},
+"d0.45": {
+"contract": "CRM240927C00272500",
+"strike": 272.5,
+"delta": 0.418,
+"px": 2,
+"exits_10": {
+"trail2x": -0.3291,
+"trail1.5x": -0.3291,
+"trail1.6x": -0.3291,
+"trail2x_tight5x": -0.3291,
+"half2_trail": -0.3291,
+"half3_trail": -0.3291,
+"hold": -0.3291,
+"half3_arm1.5": -0.3291,
+"half2_arm1.5": -0.3291,
+"half1.7_arm1.5": -0.3291,
+"half3_give0.5": -0.3291
+},
+"peak_10": 1.182,
+"exits_5": {
+"trail2x": -0.2581,
+"trail1.5x": -0.2581,
+"trail1.6x": -0.2581,
+"trail2x_tight5x": -0.2581,
+"half2_trail": -0.2581,
+"half3_trail": -0.2581,
+"hold": -0.2581,
+"half3_arm1.5": -0.2581,
+"half2_arm1.5": -0.2581,
+"half1.7_arm1.5": -0.2581,
+"half3_give0.5": -0.2581
+},
+"peak_5": 1.307,
+"carry_10": {
+"half2_arm1.5": 0.7693,
+"half3_arm1.5": 0.3295,
+"trail2x": 0.3295,
+"hold": 0.6159
+},
+"carry_5": {
+"half2_arm1.5": 0.8005,
+"half3_arm1.5": 0.4702,
+"trail2x": 0.4702,
+"hold": 0.7869
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "GOOGL",
+"day": "2024-10-30",
+"expiry": "2024-11-01",
+"kind": "call",
+"spot": 181.36,
+"swing": null,
+"headline": "Seaport Global Upgrades Alphabet to Buy, Announces $200 Price Target",
+"picks": {
+"d0.30": {
+"contract": "GOOGL241101C00185000",
+"strike": 185.0,
+"delta": 0.305,
+"px": 1.3,
+"exits_10": {
+"trail2x": -0.965,
+"trail1.5x": -0.965,
+"trail1.6x": -0.965,
+"trail2x_tight5x": -0.965,
+"half2_trail": -0.965,
+"half3_trail": -0.965,
+"hold": -0.965,
+"half3_arm1.5": -0.965,
+"half2_arm1.5": -0.965,
+"half1.7_arm1.5": -0.965,
+"half3_give0.5": -0.965
+},
+"peak_10": 0.629,
+"exits_5": {
+"trail2x": -0.9634,
+"trail1.5x": -0.9634,
+"trail1.6x": -0.9634,
+"trail2x_tight5x": -0.9634,
+"half2_trail": -0.9634,
+"half3_trail": -0.9634,
+"hold": -0.9634,
+"half3_arm1.5": -0.9634,
+"half2_arm1.5": -0.9634,
+"half1.7_arm1.5": -0.9634,
+"half3_give0.5": -0.9634
+},
+"peak_5": 0.696,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+}
+},
+"d0.45": {
+"contract": "GOOGL241101C00182500",
+"strike": 182.5,
+"delta": 0.44,
+"px": 2.15,
+"exits_10": {
+"trail2x": -0.9429,
+"trail1.5x": -0.9429,
+"trail1.6x": -0.9429,
+"trail2x_tight5x": -0.9429,
+"half2_trail": -0.9429,
+"half3_trail": -0.9429,
+"hold": -0.9429,
+"half3_arm1.5": -0.9429,
+"half2_arm1.5": -0.9429,
+"half1.7_arm1.5": -0.9429,
+"half3_give0.5": -0.9429
+},
+"peak_10": 0.666,
+"exits_5": {
+"trail2x": -0.938,
+"trail1.5x": -0.938,
+"trail1.6x": -0.938,
+"trail2x_tight5x": -0.938,
+"half2_trail": -0.938,
+"half3_trail": -0.938,
+"hold": -0.938,
+"half3_arm1.5": -0.938,
+"half2_arm1.5": -0.938,
+"half1.7_arm1.5": -0.938,
+"half3_give0.5": -0.938
+},
+"peak_5": 0.736,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "AMD",
+"day": "2024-12-09",
+"expiry": "2024-12-13",
+"kind": "put",
+"spot": 134.07,
+"swing": null,
+"headline": "B of A Securities Downgrades Advanced Micro Devices to Neutral, Lowers Price Target to $15",
+"picks": {
+"d0.30": {
+"contract": "AMD241213P00131000",
+"strike": 131.0,
+"delta": 0.319,
+"px": 1.49,
+"exits_10": {
+"trail2x": 0.5815,
+"trail1.5x": 0.5815,
+"trail1.6x": 0.5815,
+"trail2x_tight5x": 0.5815,
+"half2_trail": 0.5815,
+"half3_trail": 0.5815,
+"hold": 0.5815,
+"half3_arm1.5": 0.5815,
+"half2_arm1.5": 0.5815,
+"half1.7_arm1.5": 0.5815,
+"half3_give0.5": 0.5815
+},
+"peak_10": 1.592,
+"exits_5": {
+"trail2x": 0.7488,
+"trail1.5x": 0.7488,
+"trail1.6x": 0.7488,
+"trail2x_tight5x": 0.7488,
+"half2_trail": 0.7488,
+"half3_trail": 0.7488,
+"hold": 0.7488,
+"half3_arm1.5": 0.7488,
+"half2_arm1.5": 0.7488,
+"half1.7_arm1.5": 0.7549,
+"half3_give0.5": 0.7488
+},
+"peak_5": 1.761,
+"carry_10": {
+"half2_arm1.5": 0.7984,
+"half3_arm1.5": 0.5924,
+"trail2x": 0.5924,
+"hold": 1.5534
+},
+"carry_5": {
+"half2_arm1.5": 0.9128,
+"half3_arm1.5": 1.4137,
+"trail2x": 0.7609,
+"hold": 1.8236
+}
+},
+"d0.45": {
+"contract": "AMD241213P00133000",
+"strike": 133.0,
+"delta": 0.427,
+"px": 2.18,
+"exits_10": {
+"trail2x": 0.5388,
+"trail1.5x": 0.5388,
+"trail1.6x": 0.5388,
+"trail2x_tight5x": 0.5388,
+"half2_trail": 0.5388,
+"half3_trail": 0.5388,
+"hold": 0.5388,
+"half3_arm1.5": 0.5388,
+"half2_arm1.5": 0.5388,
+"half1.7_arm1.5": 0.5388,
+"half3_give0.5": 0.5388
+},
+"peak_10": 1.546,
+"exits_5": {
+"trail2x": 0.7016,
+"trail1.5x": 0.7016,
+"trail1.6x": 0.7016,
+"trail2x_tight5x": 0.7016,
+"half2_trail": 0.7016,
+"half3_trail": 0.7016,
+"hold": 0.7016,
+"half3_arm1.5": 0.7016,
+"half2_arm1.5": 0.7016,
+"half1.7_arm1.5": 0.7016,
+"half3_give0.5": 0.7016
+},
+"peak_5": 1.71,
+"carry_10": {
+"half2_arm1.5": 0.7508,
+"half3_arm1.5": 0.475,
+"trail2x": 0.475,
+"hold": 1.5033
+},
+"carry_5": {
+"half2_arm1.5": 0.824,
+"half3_arm1.5": 0.6311,
+"trail2x": 0.6311,
+"hold": 1.7682
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "MU",
+"day": "2024-12-19",
+"expiry": "2024-12-20",
+"kind": "put",
+"spot": 88.65,
+"swing": null,
+"headline": "B of A Securities Downgrades Micron Technology to Neutral, Lowers Price Target to $110",
+"picks": {
+"d0.30": {
+"contract": "MU241220P00086000",
+"strike": 86.0,
+"delta": 0.287,
+"px": 0.93,
+"exits_10": {
+"trail2x": 0.1525,
+"trail1.5x": 0.0029,
+"trail1.6x": 0.0029,
+"trail2x_tight5x": 0.1525,
+"half2_trail": 0.5836,
+"half3_trail": 0.1525,
+"hold": -0.0323,
+"half3_arm1.5": 0.0029,
+"half2_arm1.5": 0.0029,
+"half1.7_arm1.5": 0.4252,
+"half3_give0.5": -0.0147
+},
+"peak_10": 2.015,
+"exits_5": {
+"trail2x": 0.1091,
+"trail1.5x": 0.1091,
+"trail1.6x": 0.1091,
+"trail2x_tight5x": 0.1091,
+"half2_trail": 0.576,
+"half3_trail": 0.1091,
+"hold": 0.0701,
+"half3_arm1.5": 0.1091,
+"half2_arm1.5": 0.576,
+"half1.7_arm1.5": 0.576,
+"half3_give0.5": -0.1147
+},
+"peak_5": 2.228,
+"carry_10": {
+"half2_arm1.5": 0.0029,
+"half3_arm1.5": 0.0029,
+"trail2x": 0.1525,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": 0.576,
+"half3_arm1.5": 0.1091,
+"trail2x": 0.1091,
+"hold": -1.0
+}
+},
+"d0.45": {
+"contract": "MU241220P00088000",
+"strike": 88.0,
+"delta": 0.435,
+"px": 1.6,
+"exits_10": {
+"trail2x": 0.1557,
+"trail1.5x": -0.0284,
+"trail1.6x": -0.0284,
+"trail2x_tight5x": 0.1557,
+"half2_trail": 0.1557,
+"half3_trail": 0.1557,
+"hold": 0.1557,
+"half3_arm1.5": -0.0284,
+"half2_arm1.5": -0.0284,
+"half1.7_arm1.5": 0.3423,
+"half3_give0.5": 0.1557
+},
+"peak_10": 1.928,
+"exits_5": {
+"trail2x": 0.2497,
+"trail1.5x": 0.0744,
+"trail1.6x": 0.0744,
+"trail2x_tight5x": 0.2497,
+"half2_trail": 0.6427,
+"half3_trail": 0.2497,
+"hold": 0.278,
+"half3_arm1.5": 0.0744,
+"half2_arm1.5": 0.0744,
+"half1.7_arm1.5": 0.4844,
+"half3_give0.5": 0.0574
+},
+"peak_5": 2.132,
+"carry_10": {
+"half2_arm1.5": -0.0284,
+"half3_arm1.5": -0.0284,
+"trail2x": 0.2784,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": 0.0744,
+"half3_arm1.5": 0.0744,
+"trail2x": 0.2497,
+"hold": -1.0
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "GOOGL",
+"day": "2025-01-02",
+"expiry": "2025-01-03",
+"kind": "put",
+"spot": 190.1,
+"swing": null,
+"headline": "JMP Securities Downgrades Alphabet to Market Perform, Maintains Price Target to $220",
+"picks": {
+"d0.30": {
+"contract": "GOOGL250103P00187500",
+"strike": 187.5,
+"delta": 0.263,
+"px": 0.68,
+"exits_10": {
+"trail2x": -0.242,
+"trail1.5x": -0.0013,
+"trail1.6x": -0.0013,
+"trail2x_tight5x": -0.242,
+"half2_trail": -0.242,
+"half3_trail": -0.242,
+"hold": -0.242,
+"half3_arm1.5": -0.0013,
+"half2_arm1.5": -0.0013,
+"half1.7_arm1.5": -0.0013,
+"half3_give0.5": -0.242
+},
+"peak_10": 1.672,
+"exits_5": {
+"trail2x": -0.1618,
+"trail1.5x": -0.0287,
+"trail1.6x": 0.1043,
+"trail2x_tight5x": -0.1618,
+"half2_trail": -0.1618,
+"half3_trail": -0.1618,
+"hold": -0.1618,
+"half3_arm1.5": -0.0287,
+"half2_arm1.5": -0.0287,
+"half1.7_arm1.5": -0.0287,
+"half3_give0.5": -0.1618
+},
+"peak_5": 1.849,
+"carry_10": {
+"half2_arm1.5": -0.0013,
+"half3_arm1.5": -0.0013,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -0.0287,
+"half3_arm1.5": -0.0287,
+"trail2x": -1.0,
+"hold": -1.0
+}
+},
+"d0.45": {
+"contract": "GOOGL250103P00190000",
+"strike": 190.0,
+"delta": 0.486,
+"px": 1.6,
+"exits_10": {
+"trail2x": -0.1051,
+"trail1.5x": -0.1051,
+"trail1.6x": -0.1051,
+"trail2x_tight5x": -0.1051,
+"half2_trail": -0.1051,
+"half3_trail": -0.1051,
+"hold": -0.1051,
+"half3_arm1.5": -0.1051,
+"half2_arm1.5": -0.1051,
+"half1.7_arm1.5": -0.1051,
+"half3_give0.5": -0.1051
+},
+"peak_10": 1.483,
+"exits_5": {
+"trail2x": -0.0104,
+"trail1.5x": -0.05,
+"trail1.6x": -0.05,
+"trail2x_tight5x": -0.0104,
+"half2_trail": -0.0104,
+"half3_trail": -0.0104,
+"hold": -0.0104,
+"half3_arm1.5": -0.05,
+"half2_arm1.5": -0.05,
+"half1.7_arm1.5": -0.05,
+"half3_give0.5": -0.0104
+},
+"peak_5": 1.64,
+"carry_10": {
+"half2_arm1.5": -0.9943,
+"half3_arm1.5": -0.9943,
+"trail2x": -0.9943,
+"hold": -0.9943
+},
+"carry_5": {
+"half2_arm1.5": -0.05,
+"half3_arm1.5": -0.05,
+"trail2x": -0.994,
+"hold": -0.994
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "UBER",
+"day": "2025-01-02",
+"expiry": "2025-01-03",
+"kind": "put",
+"spot": 61.88,
+"swing": null,
+"headline": "JMP Securities Downgrades Uber Technologies to Market Perform, Maintains Price Target to $",
+"picks": {
+"d0.30": {
+"contract": "UBER250103P00061000",
+"strike": 61.0,
+"delta": 0.275,
+"px": 0.26,
+"exits_10": {
+"trail2x": -0.8601,
+"trail1.5x": -0.8601,
+"trail1.6x": -0.8601,
+"trail2x_tight5x": -0.8601,
+"half2_trail": -0.8601,
+"half3_trail": -0.8601,
+"hold": -0.8601,
+"half3_arm1.5": -0.8601,
+"half2_arm1.5": -0.8601,
+"half1.7_arm1.5": -0.8601,
+"half3_give0.5": -0.8601
+},
+"peak_10": 1.322,
+"exits_5": {
+"trail2x": -0.8535,
+"trail1.5x": -0.8535,
+"trail1.6x": -0.8535,
+"trail2x_tight5x": -0.8535,
+"half2_trail": -0.8535,
+"half3_trail": -0.8535,
+"hold": -0.8535,
+"half3_arm1.5": -0.8535,
+"half2_arm1.5": -0.8535,
+"half1.7_arm1.5": -0.8535,
+"half3_give0.5": -0.8535
+},
+"peak_5": 1.462,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+}
+},
+"d0.45": {
+"contract": "UBER250103P00062000",
+"strike": 62.0,
+"delta": 0.527,
+"px": 0.66,
+"exits_10": {
+"trail2x": -0.7893,
+"trail1.5x": -0.7893,
+"trail1.6x": -0.7893,
+"trail2x_tight5x": -0.7893,
+"half2_trail": -0.7893,
+"half3_trail": -0.7893,
+"hold": -0.7893,
+"half3_arm1.5": -0.7893,
+"half2_arm1.5": -0.7893,
+"half1.7_arm1.5": -0.7893,
+"half3_give0.5": -0.7893
+},
+"peak_10": 1.017,
+"exits_5": {
+"trail2x": -0.7691,
+"trail1.5x": -0.7691,
+"trail1.6x": -0.7691,
+"trail2x_tight5x": -0.7691,
+"half2_trail": -0.7691,
+"half3_trail": -0.7691,
+"hold": -0.7691,
+"half3_arm1.5": -0.7691,
+"half2_arm1.5": -0.7691,
+"half1.7_arm1.5": -0.7691,
+"half3_give0.5": -0.7691
+},
+"peak_5": 1.124,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "AMD",
+"day": "2025-01-10",
+"expiry": "2025-01-10",
+"kind": "put",
+"spot": 117.76,
+"swing": null,
+"headline": "Goldman Sachs Downgrades Advanced Micro Devices to Neutral, Lowers Price Target to $129",
+"picks": {
+"d0.30": {
+"contract": "AMD250110P00116000",
+"strike": 116.0,
+"delta": 0.267,
+"px": 0.48,
+"exits_10": {
+"trail2x": 0.5511,
+"trail1.5x": 0.5511,
+"trail1.6x": 0.5511,
+"trail2x_tight5x": 0.5511,
+"half2_trail": 0.8239,
+"half3_trail": 1.3097,
+"hold": -0.4886,
+"half3_arm1.5": 1.3097,
+"half2_arm1.5": 0.8239,
+"half1.7_arm1.5": 0.6534,
+"half3_give0.5": 1.3097
+},
+"peak_10": 3.17,
+"exits_5": {
+"trail2x": 0.7153,
+"trail1.5x": 0.7153,
+"trail1.6x": 0.7153,
+"trail2x_tight5x": 0.7153,
+"half2_trail": 1.0169,
+"half3_trail": 1.4504,
+"hold": -0.4345,
+"half3_arm1.5": 1.4504,
+"half2_arm1.5": 1.0169,
+"half1.7_arm1.5": 0.7436,
+"half3_give0.5": 1.4504
+},
+"peak_5": 3.506
+},
+"d0.45": {
+"contract": "AMD250110P00117000",
+"strike": 117.0,
+"delta": 0.392,
+"px": 0.81,
+"exits_10": {
+"trail2x": 0.5859,
+"trail1.5x": 0.5859,
+"trail1.6x": 0.5859,
+"trail2x_tight5x": 0.5859,
+"half2_trail": 0.8636,
+"half3_trail": 0.5859,
+"hold": 0.202,
+"half3_arm1.5": 0.5859,
+"half2_arm1.5": 0.8636,
+"half1.7_arm1.5": 0.7323,
+"half3_give0.5": 0.2828
+},
+"peak_10": 2.677,
+"exits_5": {
+"trail2x": 0.7537,
+"trail1.5x": 0.7537,
+"trail1.6x": 0.7537,
+"trail2x_tight5x": 0.7537,
+"half2_trail": 0.9156,
+"half3_trail": 0.7537,
+"hold": 0.3292,
+"half3_arm1.5": 0.7537,
+"half2_arm1.5": 0.9156,
+"half1.7_arm1.5": 0.776,
+"half3_give0.5": 0.4186
+},
+"peak_5": 2.96
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "NFLX",
+"day": "2025-01-16",
+"expiry": "2025-01-17",
+"kind": "call",
+"spot": 862.01,
+"swing": null,
+"headline": "Seaport Global Upgrades Netflix to Buy, Announces $955 Price Target",
+"picks": {
+"d0.30": {
+"contract": "NFLX250117C00870000",
+"strike": 870.0,
+"delta": 0.289,
+"px": 2.52,
+"exits_10": {
+"trail2x": 0.1526,
+"trail1.5x": 0.1526,
+"trail1.6x": 0.1526,
+"trail2x_tight5x": 0.1526,
+"half2_trail": 0.599,
+"half3_trail": 0.1526,
+"hold": -0.789,
+"half3_arm1.5": 0.1526,
+"half2_arm1.5": 0.599,
+"half1.7_arm1.5": 0.5341,
+"half3_give0.5": 0.0227
+},
+"peak_10": 2.045,
+"exits_5": {
+"trail2x": 0.2746,
+"trail1.5x": 0.2746,
+"trail1.6x": 0.2746,
+"trail2x_tight5x": 0.2746,
+"half2_trail": 0.6964,
+"half3_trail": 0.2746,
+"hold": -0.7666,
+"half3_arm1.5": 0.2746,
+"half2_arm1.5": 0.6964,
+"half1.7_arm1.5": 0.5133,
+"half3_give0.5": 0.131
+},
+"peak_5": 2.262,
+"carry_10": {
+"half2_arm1.5": 0.599,
+"half3_arm1.5": 0.1526,
+"trail2x": 0.1526,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": 0.6964,
+"half3_arm1.5": 0.2746,
+"trail2x": 0.2746,
+"hold": -1.0
+}
+},
+"d0.45": {
+"contract": "NFLX250117C00865000",
+"strike": 865.0,
+"delta": 0.414,
+"px": 3.92,
+"exits_10": {
+"trail2x": -0.7808,
+"trail1.5x": 0.1167,
+"trail1.6x": 0.1167,
+"trail2x_tight5x": -0.7808,
+"half2_trail": -0.7808,
+"half3_trail": -0.7808,
+"hold": -0.7808,
+"half3_arm1.5": 0.1167,
+"half2_arm1.5": 0.1167,
+"half1.7_arm1.5": 0.4454,
+"half3_give0.5": -0.7808
+},
+"peak_10": 1.878,
+"exits_5": {
+"trail2x": 0.2348,
+"trail1.5x": 0.2348,
+"trail1.6x": 0.2348,
+"trail2x_tight5x": 0.2348,
+"half2_trail": 0.656,
+"half3_trail": 0.2348,
+"hold": -0.7577,
+"half3_arm1.5": 0.2348,
+"half2_arm1.5": 0.656,
+"half1.7_arm1.5": 0.4772,
+"half3_give0.5": 0.004
+},
+"peak_5": 2.077,
+"carry_10": {
+"half2_arm1.5": 0.1167,
+"half3_arm1.5": 0.1167,
+"trail2x": -0.9954,
+"hold": -0.9954
+},
+"carry_5": {
+"half2_arm1.5": 0.656,
+"half3_arm1.5": 0.2348,
+"trail2x": 0.2348,
+"hold": -0.9951
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "AAPL",
+"day": "2025-01-21",
+"expiry": "2025-01-24",
+"kind": "put",
+"spot": 223.56,
+"swing": null,
+"headline": "Jefferies Downgrades Apple to Underperform, Lowers Price Target to $200.75",
+"picks": {
+"d0.30": {
+"contract": "AAPL250124P00220000",
+"strike": 220.0,
+"delta": 0.316,
+"px": 1.62,
+"exits_10": {
+"trail2x": -0.1212,
+"trail1.5x": -0.1212,
+"trail1.6x": -0.1212,
+"trail2x_tight5x": -0.1212,
+"half2_trail": -0.1212,
+"half3_trail": -0.1212,
+"hold": -0.1212,
+"half3_arm1.5": -0.1212,
+"half2_arm1.5": -0.1212,
+"half1.7_arm1.5": -0.1212,
+"half3_give0.5": -0.1212
+},
+"peak_10": 1.49,
+"exits_5": {
+"trail2x": -0.0282,
+"trail1.5x": -0.0282,
+"trail1.6x": -0.0282,
+"trail2x_tight5x": -0.0282,
+"half2_trail": -0.0282,
+"half3_trail": -0.0282,
+"hold": -0.0282,
+"half3_arm1.5": -0.0282,
+"half2_arm1.5": -0.0282,
+"half1.7_arm1.5": -0.0282,
+"half3_give0.5": -0.0282
+},
+"peak_5": 1.648,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -0.0282,
+"half3_arm1.5": -0.0282,
+"trail2x": -1.0,
+"hold": -1.0
+}
+},
+"d0.45": {
+"contract": "AAPL250124P00222500",
+"strike": 222.5,
+"delta": 0.438,
+"px": 2.52,
+"exits_10": {
+"trail2x": -0.0584,
+"trail1.5x": -0.0584,
+"trail1.6x": -0.0584,
+"trail2x_tight5x": -0.0584,
+"half2_trail": -0.0584,
+"half3_trail": -0.0584,
+"hold": -0.0584,
+"half3_arm1.5": -0.0584,
+"half2_arm1.5": -0.0584,
+"half1.7_arm1.5": -0.0584,
+"half3_give0.5": -0.0584
+},
+"peak_10": 1.429,
+"exits_5": {
+"trail2x": 0.0412,
+"trail1.5x": -0.0019,
+"trail1.6x": 0.0412,
+"trail2x_tight5x": 0.0412,
+"half2_trail": 0.0412,
+"half3_trail": 0.0412,
+"hold": 0.0412,
+"half3_arm1.5": -0.0019,
+"half2_arm1.5": -0.0019,
+"half1.7_arm1.5": -0.0019,
+"half3_give0.5": 0.0412
+},
+"peak_5": 1.58,
+"carry_10": {
+"half2_arm1.5": -0.8994,
+"half3_arm1.5": -0.8994,
+"trail2x": -0.8994,
+"hold": -0.8994
+},
+"carry_5": {
+"half2_arm1.5": -0.0019,
+"half3_arm1.5": -0.0019,
+"trail2x": -0.8887,
+"hold": -0.8887
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "NFLX",
+"day": "2025-01-23",
+"expiry": "2025-01-24",
+"kind": "call",
+"spot": 959.2,
+"swing": null,
+"headline": "Wolfe Research Upgrades Netflix to Outperform, Announces $1100 Price Target",
+"picks": {
+"d0.30": {
+"contract": "NFLX250124C00975000",
+"strike": 975.0,
+"delta": 0.318,
+"px": 6.5,
+"exits_10": {
+"trail2x": 0.328,
+"trail1.5x": 0.0825,
+"trail1.6x": 0.0825,
+"trail2x_tight5x": 0.328,
+"half2_trail": 0.328,
+"half3_trail": 0.328,
+"hold": 0.328,
+"half3_arm1.5": 0.0825,
+"half2_arm1.5": 0.0825,
+"half1.7_arm1.5": 0.3972,
+"half3_give0.5": 0.328
+},
+"peak_10": 1.825,
+"exits_5": {
+"trail2x": 0.1971,
+"trail1.5x": -0.0256,
+"trail1.6x": 0.1971,
+"trail2x_tight5x": 0.1971,
+"half2_trail": 0.6077,
+"half3_trail": 0.1971,
+"hold": 0.4685,
+"half3_arm1.5": -0.0256,
+"half2_arm1.5": -0.0256,
+"half1.7_arm1.5": -0.0256,
+"half3_give0.5": -0.0396
+},
+"peak_5": 2.018,
+"carry_10": {
+"half2_arm1.5": 0.0825,
+"half3_arm1.5": 0.0825,
+"trail2x": -0.9119,
+"hold": -0.9119
+},
+"carry_5": {
+"half2_arm1.5": -0.0256,
+"half3_arm1.5": -0.0256,
+"trail2x": 0.1971,
+"hold": -0.9026
+}
+},
+"d0.45": {
+"contract": "NFLX250124C00965000",
+"strike": 965.0,
+"delta": 0.436,
+"px": 10.27,
+"exits_10": {
+"trail2x": 0.4141,
+"trail1.5x": 0.0357,
+"trail1.6x": 0.0357,
+"trail2x_tight5x": 0.4141,
+"half2_trail": 0.4141,
+"half3_trail": 0.4141,
+"hold": 0.4141,
+"half3_arm1.5": 0.0357,
+"half2_arm1.5": 0.0357,
+"half1.7_arm1.5": 0.3743,
+"half3_give0.5": 0.4141
+},
+"peak_10": 1.757,
+"exits_5": {
+"trail2x": 0.5637,
+"trail1.5x": -0.0309,
+"trail1.6x": 0.1453,
+"trail2x_tight5x": 0.5637,
+"half2_trail": 0.5637,
+"half3_trail": 0.5637,
+"hold": 0.5637,
+"half3_arm1.5": -0.0309,
+"half2_arm1.5": -0.0309,
+"half1.7_arm1.5": -0.0309,
+"half3_give0.5": 0.5637
+},
+"peak_5": 1.943,
+"carry_10": {
+"half2_arm1.5": 0.0357,
+"half3_arm1.5": 0.0357,
+"trail2x": -0.1834,
+"hold": -0.1834
+},
+"carry_5": {
+"half2_arm1.5": -0.0309,
+"half3_arm1.5": -0.0309,
+"trail2x": -0.097,
+"hold": -0.097
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "COIN",
+"day": "2025-01-29",
+"expiry": "2025-01-31",
+"kind": "call",
+"spot": 285.5,
+"swing": null,
+"headline": "Mizuho Upgrades Coinbase Glb to Neutral, Raises Price Target to $290",
+"picks": {
+"d0.30": {
+"contract": "COIN250131C00297500",
+"strike": 297.5,
+"delta": 0.315,
+"px": 4.4,
+"exits_10": {
+"trail2x": -0.2283,
+"trail1.5x": -0.2283,
+"trail1.6x": -0.2283,
+"trail2x_tight5x": -0.2283,
+"half2_trail": -0.2283,
+"half3_trail": -0.2283,
+"hold": -0.2283,
+"half3_arm1.5": -0.2283,
+"half2_arm1.5": -0.2283,
+"half1.7_arm1.5": -0.2283,
+"half3_give0.5": -0.2283
+},
+"peak_10": 1.097,
+"exits_5": {
+"trail2x": -0.1466,
+"trail1.5x": -0.1466,
+"trail1.6x": -0.1466,
+"trail2x_tight5x": -0.1466,
+"half2_trail": -0.1466,
+"half3_trail": -0.1466,
+"hold": -0.1466,
+"half3_arm1.5": -0.1466,
+"half2_arm1.5": -0.1466,
+"half1.7_arm1.5": -0.1466,
+"half3_give0.5": -0.1466
+},
+"peak_5": 1.213,
+"carry_10": {
+"half2_arm1.5": 0.5992,
+"half3_arm1.5": 0.1901,
+"trail2x": 0.1901,
+"hold": -0.9917
+},
+"carry_5": {
+"half2_arm1.5": 0.6604,
+"half3_arm1.5": 0.316,
+"trail2x": 0.316,
+"hold": -0.9913
+}
+},
+"d0.45": {
+"contract": "COIN250131C00290000",
+"strike": 290.0,
+"delta": 0.435,
+"px": 6.8,
+"exits_10": {
+"trail2x": -0.1638,
+"trail1.5x": -0.1638,
+"trail1.6x": -0.1638,
+"trail2x_tight5x": -0.1638,
+"half2_trail": -0.1638,
+"half3_trail": -0.1638,
+"hold": -0.1638,
+"half3_arm1.5": -0.1638,
+"half2_arm1.5": -0.1638,
+"half1.7_arm1.5": -0.1638,
+"half3_give0.5": -0.1638
+},
+"peak_10": 1.119,
+"exits_5": {
+"trail2x": -0.0753,
+"trail1.5x": -0.0753,
+"trail1.6x": -0.0753,
+"trail2x_tight5x": -0.0753,
+"half2_trail": -0.0753,
+"half3_trail": -0.0753,
+"hold": -0.0753,
+"half3_arm1.5": -0.0753,
+"half2_arm1.5": -0.0753,
+"half1.7_arm1.5": -0.0753,
+"half3_give0.5": -0.0753
+},
+"peak_5": 1.237,
+"carry_10": {
+"half2_arm1.5": 0.6243,
+"half3_arm1.5": 0.2032,
+"trail2x": 0.2032,
+"hold": -0.8785
+},
+"carry_5": {
+"half2_arm1.5": 0.6731,
+"half3_arm1.5": 0.3305,
+"trail2x": 0.3305,
+"hold": -0.8656
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "MSFT",
+"day": "2025-03-13",
+"expiry": "2025-03-14",
+"kind": "call",
+"spot": 384.53,
+"swing": null,
+"headline": "DA Davidson Upgrades Microsoft to Buy, Raises Price Target to $450",
+"picks": {
+"d0.30": {
+"contract": "MSFT250314C00390000",
+"strike": 390.0,
+"delta": 0.28,
+"px": 1.56,
+"exits_10": {
+"trail2x": -0.9161,
+"trail1.5x": -0.9161,
+"trail1.6x": -0.9161,
+"trail2x_tight5x": -0.9161,
+"half2_trail": -0.9161,
+"half3_trail": -0.9161,
+"hold": -0.9161,
+"half3_arm1.5": -0.9161,
+"half2_arm1.5": -0.9161,
+"half1.7_arm1.5": -0.9161,
+"half3_give0.5": -0.9161
+},
+"peak_10": 0.729,
+"exits_5": {
+"trail2x": -0.9084,
+"trail1.5x": -0.9084,
+"trail1.6x": -0.9084,
+"trail2x_tight5x": -0.9084,
+"half2_trail": -0.9084,
+"half3_trail": -0.9084,
+"hold": -0.9084,
+"half3_arm1.5": -0.9084,
+"half2_arm1.5": -0.9084,
+"half1.7_arm1.5": -0.9084,
+"half3_give0.5": -0.9084
+},
+"peak_5": 0.806,
+"carry_10": {
+"half2_arm1.5": -0.9942,
+"half3_arm1.5": -0.9942,
+"trail2x": -0.9942,
+"hold": -0.9942
+},
+"carry_5": {
+"half2_arm1.5": -0.9939,
+"half3_arm1.5": -0.9939,
+"trail2x": -0.9939,
+"hold": -0.9939
+}
+},
+"d0.45": {
+"contract": "MSFT250314C00385000",
+"strike": 385.0,
+"delta": 0.486,
+"px": 3.67,
+"exits_10": {
+"trail2x": -0.8662,
+"trail1.5x": -0.8662,
+"trail1.6x": -0.8662,
+"trail2x_tight5x": -0.8662,
+"half2_trail": -0.8662,
+"half3_trail": -0.8662,
+"hold": -0.8662,
+"half3_arm1.5": -0.8662,
+"half2_arm1.5": -0.8662,
+"half1.7_arm1.5": -0.8662,
+"half3_give0.5": -0.8662
+},
+"peak_10": 0.767,
+"exits_5": {
+"trail2x": -0.8521,
+"trail1.5x": -0.8521,
+"trail1.6x": -0.8521,
+"trail2x_tight5x": -0.8521,
+"half2_trail": -0.8521,
+"half3_trail": -0.8521,
+"hold": -0.8521,
+"half3_arm1.5": -0.8521,
+"half2_arm1.5": -0.8521,
+"half1.7_arm1.5": -0.8521,
+"half3_give0.5": -0.8521
+},
+"peak_5": 0.848,
+"carry_10": {
+"half2_arm1.5": -0.2509,
+"half3_arm1.5": -0.2509,
+"trail2x": -0.2509,
+"hold": -0.2509
+},
+"carry_5": {
+"half2_arm1.5": -0.1717,
+"half3_arm1.5": -0.1717,
+"trail2x": -0.1717,
+"hold": -0.1717
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "TSLA",
+"day": "2025-03-19",
+"expiry": "2025-03-21",
+"kind": "call",
+"spot": 232.6,
+"swing": null,
+"headline": "Cantor Fitzgerald Upgrades Tesla to Overweight, Maintains Price Target to $425",
+"picks": {
+"d0.30": {
+"contract": "TSLA250321C00242500",
+"strike": 242.5,
+"delta": 0.301,
+"px": 3.2,
+"exits_10": {
+"trail2x": -0.0668,
+"trail1.5x": -0.0668,
+"trail1.6x": -0.0668,
+"trail2x_tight5x": -0.0668,
+"half2_trail": -0.0668,
+"half3_trail": -0.0668,
+"hold": -0.0668,
+"half3_arm1.5": -0.0668,
+"half2_arm1.5": -0.0668,
+"half1.7_arm1.5": -0.0668,
+"half3_give0.5": -0.0668
+},
+"peak_10": 1.33,
+"exits_5": {
+"trail2x": 0.032,
+"trail1.5x": 0.032,
+"trail1.6x": 0.032,
+"trail2x_tight5x": 0.032,
+"half2_trail": 0.032,
+"half3_trail": 0.032,
+"hold": 0.032,
+"half3_arm1.5": 0.032,
+"half2_arm1.5": 0.032,
+"half1.7_arm1.5": 0.032,
+"half3_give0.5": 0.032
+},
+"peak_5": 1.47,
+"carry_10": {
+"half2_arm1.5": -0.0284,
+"half3_arm1.5": -0.0284,
+"trail2x": -0.0284,
+"hold": -0.0284
+},
+"carry_5": {
+"half2_arm1.5": -0.0189,
+"half3_arm1.5": -0.0189,
+"trail2x": 0.0744,
+"hold": 0.0744
+}
+},
+"d0.45": {
+"contract": "TSLA250321C00235000",
+"strike": 235.0,
+"delta": 0.462,
+"px": 6.04,
+"exits_10": {
+"trail2x": -0.0315,
+"trail1.5x": -0.0315,
+"trail1.6x": -0.0315,
+"trail2x_tight5x": -0.0315,
+"half2_trail": -0.0315,
+"half3_trail": -0.0315,
+"hold": -0.0315,
+"half3_arm1.5": -0.0315,
+"half2_arm1.5": -0.0315,
+"half1.7_arm1.5": -0.0315,
+"half3_give0.5": -0.0315
+},
+"peak_10": 1.294,
+"exits_5": {
+"trail2x": 0.071,
+"trail1.5x": 0.071,
+"trail1.6x": 0.071,
+"trail2x_tight5x": 0.071,
+"half2_trail": 0.071,
+"half3_trail": 0.071,
+"hold": 0.071,
+"half3_arm1.5": 0.071,
+"half2_arm1.5": 0.071,
+"half1.7_arm1.5": 0.071,
+"half3_give0.5": 0.071
+},
+"peak_5": 1.431,
+"carry_10": {
+"half2_arm1.5": 0.5375,
+"half3_arm1.5": 0.5375,
+"trail2x": 0.5375,
+"hold": 0.5375
+},
+"carry_5": {
+"half2_arm1.5": 0.7002,
+"half3_arm1.5": 0.7002,
+"trail2x": 0.7002,
+"hold": 0.7002
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "SMCI",
+"day": "2025-03-21",
+"expiry": "2025-03-21",
+"kind": "call",
+"spot": 39.6,
+"swing": null,
+"headline": "JP Morgan Upgrades Super Micro Computer to Neutral, Raises Price Target to $45",
+"picks": {
+"d0.30": {
+"contract": "SMCI250321C00040500",
+"strike": 40.5,
+"delta": 0.315,
+"px": 0.35,
+"exits_10": {
+"trail2x": 0.1688,
+"trail1.5x": 0.1688,
+"trail1.6x": 0.1688,
+"trail2x_tight5x": 0.1688,
+"half2_trail": 0.613,
+"half3_trail": 0.1688,
+"hold": 2.3662,
+"half3_arm1.5": 0.1688,
+"half2_arm1.5": 0.613,
+"half1.7_arm1.5": 0.5429,
+"half3_give0.5": 0.0052
+},
+"peak_10": 4.675,
+"exits_5": {
+"trail2x": 0.2925,
+"trail1.5x": 0.2925,
+"trail1.6x": 0.2925,
+"trail2x_tight5x": 0.2925,
+"half2_trail": 0.7061,
+"half3_trail": 0.2925,
+"hold": 2.7224,
+"half3_arm1.5": 0.2925,
+"half2_arm1.5": 0.7061,
+"half1.7_arm1.5": 0.5122,
+"half3_give0.5": 0.1116
+},
+"peak_5": 5.17
+},
+"d0.45": {
+"contract": "SMCI250321C00040000",
+"strike": 40.0,
+"delta": 0.419,
+"px": 0.52,
+"exits_10": {
+"trail2x": 2.0839,
+"trail1.5x": -0.0087,
+"trail1.6x": -0.0087,
+"trail2x_tight5x": 2.0839,
+"half2_trail": 1.549,
+"half3_trail": 2.076,
+"hold": 2.0839,
+"half3_arm1.5": -0.0087,
+"half2_arm1.5": -0.0087,
+"half1.7_arm1.5": 0.4397,
+"half3_give0.5": 2.076
+},
+"peak_10": 3.934,
+"exits_5": {
+"trail2x": 0.0962,
+"trail1.5x": 0.0962,
+"trail1.6x": 0.0962,
+"trail2x_tight5x": 0.0962,
+"half2_trail": 0.592,
+"half3_trail": 0.0962,
+"hold": 2.4103,
+"half3_arm1.5": 0.0962,
+"half2_arm1.5": 0.592,
+"half1.7_arm1.5": 0.418,
+"half3_give0.5": 0.0614
+},
+"peak_5": 4.35
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "AAPL",
+"day": "2025-04-09",
+"expiry": "2025-04-11",
+"kind": "call",
+"spot": 174.09,
+"swing": null,
+"headline": "Jefferies Upgrades Apple to Hold, Lowers Price Target to $167.88",
+"picks": {
+"d0.30": {
+"contract": "AAPL250411C00182500",
+"strike": 182.5,
+"delta": 0.304,
+"px": 2.74,
+"exits_10": {
+"trail2x": 1.2694,
+"trail1.5x": 1.2694,
+"trail1.6x": 1.2694,
+"trail2x_tight5x": 1.2694,
+"half2_trail": 1.2918,
+"half3_trail": 1.6427,
+"hold": 3.7777,
+"half3_arm1.5": 1.6427,
+"half2_arm1.5": 1.2918,
+"half1.7_arm1.5": 1.0051,
+"half3_give0.5": 1.4784
+},
+"peak_10": 5.569,
+"exits_5": {
+"trail2x": 1.5096,
+"trail1.5x": 1.5096,
+"trail1.6x": 1.5096,
+"trail2x_tight5x": 1.5096,
+"half2_trail": 1.5343,
+"half3_trail": 1.8959,
+"hold": 4.2833,
+"half3_arm1.5": 1.8959,
+"half2_arm1.5": 1.5343,
+"half1.7_arm1.5": 1.1909,
+"half3_give0.5": 1.7143
+},
+"peak_5": 6.158,
+"carry_10": {
+"half2_arm1.5": 1.2918,
+"half3_arm1.5": 1.6427,
+"trail2x": 1.2694,
+"hold": 3.6762
+},
+"carry_5": {
+"half2_arm1.5": 1.5343,
+"half3_arm1.5": 1.8959,
+"trail2x": 1.5096,
+"hold": 4.171
+}
+},
+"d0.45": {
+"contract": "AAPL250411C00177500",
+"strike": 177.5,
+"delta": 0.431,
+"px": 4.7,
+"exits_10": {
+"trail2x": 0.8714,
+"trail1.5x": 0.8714,
+"trail1.6x": 0.8714,
+"trail2x_tight5x": 0.8714,
+"half2_trail": 0.9976,
+"half3_trail": 1.4955,
+"hold": 2.5896,
+"half3_arm1.5": 1.4955,
+"half2_arm1.5": 0.9976,
+"half1.7_arm1.5": 0.8992,
+"half3_give0.5": 2.3545
+},
+"peak_10": 4.091,
+"exits_5": {
+"trail2x": 1.0694,
+"trail1.5x": 1.0694,
+"trail1.6x": 1.0694,
+"trail2x_tight5x": 1.0694,
+"half2_trail": 1.1002,
+"half3_trail": 1.671,
+"hold": 2.9694,
+"half3_arm1.5": 1.671,
+"half2_arm1.5": 1.1002,
+"half1.7_arm1.5": 0.901,
+"half3_give0.5": 2.621
+},
+"peak_5": 4.524,
+"carry_10": {
+"half2_arm1.5": 0.9976,
+"half3_arm1.5": 1.4955,
+"trail2x": 0.8714,
+"hold": 2.5687
+},
+"carry_5": {
+"half2_arm1.5": 1.1002,
+"half3_arm1.5": 1.671,
+"trail2x": 1.0694,
+"hold": 2.9463
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "AMZN",
+"day": "2025-04-21",
+"expiry": "2025-04-25",
+"kind": "put",
+"spot": 169.06,
+"swing": null,
+"headline": "Raymond James Downgrades Amazon.com to Outperform, Lowers Price Target to $195",
+"picks": {
+"d0.30": {
+"contract": "AMZN250425P00165000",
+"strike": 165.0,
+"delta": 0.331,
+"px": 2.28,
+"exits_10": {
+"trail2x": 0.0263,
+"trail1.5x": 0.0263,
+"trail1.6x": 0.0263,
+"trail2x_tight5x": 0.0263,
+"half2_trail": 0.0263,
+"half3_trail": 0.0263,
+"hold": 0.0263,
+"half3_arm1.5": 0.0263,
+"half2_arm1.5": 0.0263,
+"half1.7_arm1.5": 0.0263,
+"half3_give0.5": 0.0263
+},
+"peak_10": 1.292,
+"exits_5": {
+"trail2x": 0.1349,
+"trail1.5x": 0.1349,
+"trail1.6x": 0.1349,
+"trail2x_tight5x": 0.1349,
+"half2_trail": 0.1349,
+"half3_trail": 0.1349,
+"hold": 0.1349,
+"half3_arm1.5": 0.1349,
+"half2_arm1.5": 0.1349,
+"half1.7_arm1.5": 0.1349,
+"half3_give0.5": 0.1349
+},
+"peak_5": 1.429,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+}
+},
+"d0.45": {
+"contract": "AMZN250425P00167500",
+"strike": 167.5,
+"delta": 0.425,
+"px": 3.15,
+"exits_10": {
+"trail2x": 0.039,
+"trail1.5x": 0.039,
+"trail1.6x": 0.039,
+"trail2x_tight5x": 0.039,
+"half2_trail": 0.039,
+"half3_trail": 0.039,
+"hold": 0.039,
+"half3_arm1.5": 0.039,
+"half2_arm1.5": 0.039,
+"half1.7_arm1.5": 0.039,
+"half3_give0.5": 0.039
+},
+"peak_10": 1.268,
+"exits_5": {
+"trail2x": 0.1489,
+"trail1.5x": 0.1489,
+"trail1.6x": 0.1489,
+"trail2x_tight5x": 0.1489,
+"half2_trail": 0.1489,
+"half3_trail": 0.1489,
+"hold": 0.1489,
+"half3_arm1.5": 0.1489,
+"half2_arm1.5": 0.1489,
+"half1.7_arm1.5": 0.1489,
+"half3_give0.5": 0.1489
+},
+"peak_5": 1.402,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "ANET",
+"day": "2025-04-29",
+"expiry": "2025-05-02",
+"kind": "call",
+"spot": 80.27,
+"swing": null,
+"headline": "Rosenblatt Upgrades Arista Networks to Neutral, Raises Price Target to $85",
+"picks": {
+"d0.30": {
+"contract": "ANET250502C00083000",
+"strike": 83.0,
+"delta": 0.307,
+"px": 0.95,
+"exits_10": {
+"trail2x": -0.0526,
+"trail1.5x": -0.0526,
+"trail1.6x": -0.0526,
+"trail2x_tight5x": -0.0526,
+"half2_trail": -0.0526,
+"half3_trail": -0.0526,
+"hold": -0.0526,
+"half3_arm1.5": -0.0526,
+"half2_arm1.5": -0.0526,
+"half1.7_arm1.5": -0.0526,
+"half3_give0.5": -0.0526
+},
+"peak_10": 0.99,
+"exits_5": {
+"trail2x": 0.0476,
+"trail1.5x": 0.0476,
+"trail1.6x": 0.0476,
+"trail2x_tight5x": 0.0476,
+"half2_trail": 0.0476,
+"half3_trail": 0.0476,
+"hold": 0.0476,
+"half3_arm1.5": 0.0476,
+"half2_arm1.5": 0.0476,
+"half1.7_arm1.5": 0.0476,
+"half3_give0.5": 0.0476
+},
+"peak_5": 1.095,
+"carry_10": {
+"half2_arm1.5": 5.1579,
+"half3_arm1.5": 5.1579,
+"trail2x": 6.1483,
+"hold": 6.1483
+},
+"carry_5": {
+"half2_arm1.5": 5.8095,
+"half3_arm1.5": 5.8095,
+"trail2x": 6.9048,
+"hold": 6.9048
+}
+},
+"d0.45": {
+"contract": "ANET250502C00082000",
+"strike": 82.0,
+"delta": 0.38,
+"px": 1.3,
+"exits_10": {
+"trail2x": -0.0874,
+"trail1.5x": -0.0874,
+"trail1.6x": -0.0874,
+"trail2x_tight5x": -0.0874,
+"half2_trail": -0.0874,
+"half3_trail": -0.0874,
+"hold": -0.0874,
+"half3_arm1.5": -0.0874,
+"half2_arm1.5": -0.0874,
+"half1.7_arm1.5": -0.0874,
+"half3_give0.5": -0.0874
+},
+"peak_10": 1.007,
+"exits_5": {
+"trail2x": 0.0092,
+"trail1.5x": 0.0092,
+"trail1.6x": 0.0092,
+"trail2x_tight5x": 0.0092,
+"half2_trail": 0.0092,
+"half3_trail": 0.0092,
+"hold": 0.0092,
+"half3_arm1.5": 0.0092,
+"half2_arm1.5": 0.0092,
+"half1.7_arm1.5": 0.0092,
+"half3_give0.5": 0.0092
+},
+"peak_5": 1.114,
+"carry_10": {
+"half2_arm1.5": 4.1483,
+"half3_arm1.5": 4.1483,
+"trail2x": 4.8909,
+"hold": 4.8909
+},
+"carry_5": {
+"half2_arm1.5": 4.693,
+"half3_arm1.5": 4.693,
+"trail2x": 5.5143,
+"hold": 5.5143
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "AAPL",
+"day": "2025-05-02",
+"expiry": "2025-05-02",
+"kind": "put",
+"spot": 203.22,
+"swing": null,
+"headline": "Jefferies Downgrades Apple to Underperform, Raises Price Target to $170.62",
+"picks": {
+"d0.30": {
+"contract": "AAPL250502P00200000",
+"strike": 200.0,
+"delta": 0.218,
+"px": 0.53,
+"exits_10": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_10": 1.05,
+"exits_5": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_5": 1.161
+},
+"d0.45": {
+"contract": "AAPL250502P00202500",
+"strike": 202.5,
+"delta": 0.428,
+"px": 1.35,
+"exits_10": {
+"trail2x": -0.9865,
+"trail1.5x": -0.9865,
+"trail1.6x": -0.9865,
+"trail2x_tight5x": -0.9865,
+"half2_trail": -0.9865,
+"half3_trail": -0.9865,
+"hold": -0.9865,
+"half3_arm1.5": -0.9865,
+"half2_arm1.5": -0.9865,
+"half1.7_arm1.5": -0.9865,
+"half3_give0.5": -0.9865
+},
+"peak_10": 1.006,
+"exits_5": {
+"trail2x": -0.9859,
+"trail1.5x": -0.9859,
+"trail1.6x": -0.9859,
+"trail2x_tight5x": -0.9859,
+"half2_trail": -0.9859,
+"half3_trail": -0.9859,
+"hold": -0.9859,
+"half3_arm1.5": -0.9859,
+"half2_arm1.5": -0.9859,
+"half1.7_arm1.5": -0.9859,
+"half3_give0.5": -0.9859
+},
+"peak_5": 1.113
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "CRM",
+"day": "2025-05-29",
+"expiry": "2025-05-30",
+"kind": "put",
+"spot": 258.63,
+"swing": null,
+"headline": "RBC Capital Downgrades Salesforce to Sector Perform, Lowers Price Target to $275",
+"picks": {
+"d0.30": {
+"contract": "CRM250530P00252500",
+"strike": 252.5,
+"delta": 0.301,
+"px": 2.45,
+"exits_10": {
+"trail2x": -0.9499,
+"trail1.5x": -0.9499,
+"trail1.6x": -0.9499,
+"trail2x_tight5x": -0.9499,
+"half2_trail": -0.9499,
+"half3_trail": -0.9499,
+"hold": -0.9499,
+"half3_arm1.5": -0.9499,
+"half2_arm1.5": -0.9499,
+"half1.7_arm1.5": -0.9499,
+"half3_give0.5": -0.9499
+},
+"peak_10": 0.798,
+"exits_5": {
+"trail2x": -0.9456,
+"trail1.5x": -0.9456,
+"trail1.6x": -0.9456,
+"trail2x_tight5x": -0.9456,
+"half2_trail": -0.9456,
+"half3_trail": -0.9456,
+"hold": -0.9456,
+"half3_arm1.5": -0.9456,
+"half2_arm1.5": -0.9456,
+"half1.7_arm1.5": -0.9456,
+"half3_give0.5": -0.9456
+},
+"peak_5": 0.883,
+"carry_10": {
+"half2_arm1.5": -0.9963,
+"half3_arm1.5": -0.9963,
+"trail2x": -0.9963,
+"hold": -0.9963
+},
+"carry_5": {
+"half2_arm1.5": -0.9961,
+"half3_arm1.5": -0.9961,
+"trail2x": -0.9961,
+"hold": -0.9961
+}
+},
+"d0.45": {
+"contract": "CRM250530P00257500",
+"strike": 257.5,
+"delta": 0.447,
+"px": 3.39,
+"exits_10": {
+"trail2x": -0.9131,
+"trail1.5x": -0.9131,
+"trail1.6x": -0.9131,
+"trail2x_tight5x": -0.9131,
+"half2_trail": -0.9131,
+"half3_trail": -0.9131,
+"hold": -0.9131,
+"half3_arm1.5": -0.9131,
+"half2_arm1.5": -0.9131,
+"half1.7_arm1.5": -0.9131,
+"half3_give0.5": -0.9131
+},
+"peak_10": 1.207,
+"exits_5": {
+"trail2x": -0.9039,
+"trail1.5x": -0.9039,
+"trail1.6x": -0.9039,
+"trail2x_tight5x": -0.9039,
+"half2_trail": -0.9039,
+"half3_trail": -0.9039,
+"hold": -0.9039,
+"half3_arm1.5": -0.9039,
+"half2_arm1.5": -0.9039,
+"half1.7_arm1.5": -0.9039,
+"half3_give0.5": -0.9039
+},
+"peak_5": 1.334,
+"carry_10": {
+"half2_arm1.5": -0.9973,
+"half3_arm1.5": -0.9973,
+"trail2x": -0.9973,
+"hold": -0.9973
+},
+"carry_5": {
+"half2_arm1.5": -0.9972,
+"half3_arm1.5": -0.9972,
+"trail2x": -0.9972,
+"hold": -0.9972
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "TSLA",
+"day": "2025-06-09",
+"expiry": "2025-06-13",
+"kind": "put",
+"spot": 282.08,
+"swing": null,
+"headline": "Baird Downgrades Tesla to Neutral, Maintains Price Target to $320",
+"picks": {
+"d0.30": {
+"contract": "TSLA250613P00267500",
+"strike": 267.5,
+"delta": 0.286,
+"px": 5.49,
+"exits_10": {
+"trail2x": -0.8703,
+"trail1.5x": -0.8703,
+"trail1.6x": -0.8703,
+"trail2x_tight5x": -0.8703,
+"half2_trail": -0.8703,
+"half3_trail": -0.8703,
+"hold": -0.8703,
+"half3_arm1.5": -0.8703,
+"half2_arm1.5": -0.8703,
+"half1.7_arm1.5": -0.8703,
+"half3_give0.5": -0.8703
+},
+"peak_10": 0.894,
+"exits_5": {
+"trail2x": -0.8566,
+"trail1.5x": -0.8566,
+"trail1.6x": -0.8566,
+"trail2x_tight5x": -0.8566,
+"half2_trail": -0.8566,
+"half3_trail": -0.8566,
+"hold": -0.8566,
+"half3_arm1.5": -0.8566,
+"half2_arm1.5": -0.8566,
+"half1.7_arm1.5": -0.8566,
+"half3_give0.5": -0.8566
+},
+"peak_5": 0.989,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+}
+},
+"d0.45": {
+"contract": "TSLA250613P00280000",
+"strike": 280.0,
+"delta": 0.45,
+"px": 9.55,
+"exits_10": {
+"trail2x": -0.8415,
+"trail1.5x": -0.8415,
+"trail1.6x": -0.8415,
+"trail2x_tight5x": -0.8415,
+"half2_trail": -0.8415,
+"half3_trail": -0.8415,
+"hold": -0.8415,
+"half3_arm1.5": -0.8415,
+"half2_arm1.5": -0.8415,
+"half1.7_arm1.5": -0.8415,
+"half3_give0.5": -0.8415
+},
+"peak_10": 0.865,
+"exits_5": {
+"trail2x": -0.8247,
+"trail1.5x": -0.8247,
+"trail1.6x": -0.8247,
+"trail2x_tight5x": -0.8247,
+"half2_trail": -0.8247,
+"half3_trail": -0.8247,
+"hold": -0.8247,
+"half3_arm1.5": -0.8247,
+"half2_arm1.5": -0.8247,
+"half1.7_arm1.5": -0.8247,
+"half3_give0.5": -0.8247
+},
+"peak_5": 0.957,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "ORCL",
+"day": "2025-06-13",
+"expiry": "2025-06-13",
+"kind": "call",
+"spot": 203.01,
+"swing": null,
+"headline": "BMO Capital Upgrades Oracle to Outperform, Raises Price Target to $235",
+"picks": {
+"d0.30": {
+"contract": "ORCL250613C00205000",
+"strike": 205.0,
+"delta": 0.364,
+"px": 1.34,
+"exits_10": {
+"trail2x": 5.3318,
+"trail1.5x": 5.3318,
+"trail1.6x": 5.3318,
+"trail2x_tight5x": 3.5794,
+"half2_trail": 3.1733,
+"half3_trail": 3.6923,
+"hold": 5.3318,
+"half3_arm1.5": 3.6923,
+"half2_arm1.5": 3.1733,
+"half1.7_arm1.5": 3.0176,
+"half3_give0.5": 3.6923
+},
+"peak_10": 7.083,
+"exits_5": {
+"trail2x": 6.0018,
+"trail1.5x": 6.0018,
+"trail1.6x": 6.0018,
+"trail2x_tight5x": 4.064,
+"half2_trail": 3.5137,
+"half3_trail": 4.0673,
+"hold": 6.0018,
+"half3_arm1.5": 4.0673,
+"half2_arm1.5": 3.5137,
+"half1.7_arm1.5": 3.4428,
+"half3_give0.5": 4.0673
+},
+"peak_5": 7.832
+},
+"d0.45": {
+"contract": "ORCL250613C00205000",
+"strike": 205.0,
+"delta": 0.364,
+"px": 1.34,
+"exits_10": {
+"trail2x": 5.3318,
+"trail1.5x": 5.3318,
+"trail1.6x": 5.3318,
+"trail2x_tight5x": 3.5794,
+"half2_trail": 3.1733,
+"half3_trail": 3.6923,
+"hold": 5.3318,
+"half3_arm1.5": 3.6923,
+"half2_arm1.5": 3.1733,
+"half1.7_arm1.5": 3.0176,
+"half3_give0.5": 3.6923
+},
+"peak_10": 7.083,
+"exits_5": {
+"trail2x": 6.0018,
+"trail1.5x": 6.0018,
+"trail1.6x": 6.0018,
+"trail2x_tight5x": 4.064,
+"half2_trail": 3.5137,
+"half3_trail": 4.0673,
+"hold": 6.0018,
+"half3_arm1.5": 4.0673,
+"half2_arm1.5": 3.5137,
+"half1.7_arm1.5": 3.4428,
+"half3_give0.5": 4.0673
+},
+"peak_5": 7.832
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "GOOGL",
+"day": "2025-06-27",
+"expiry": "2025-06-27",
+"kind": "call",
+"spot": 174.37,
+"swing": null,
+"headline": "JMP Securities Upgrades Alphabet to Market Outperform, Maintains Price Target to $220",
+"picks": {
+"d0.30": {
+"contract": "GOOGL250627C00175000",
+"strike": 175.0,
+"delta": 0.345,
+"px": 0.36,
+"exits_10": {
+"trail2x": -0.9495,
+"trail1.5x": -0.0682,
+"trail1.6x": -0.0682,
+"trail2x_tight5x": -0.9495,
+"half2_trail": -0.9495,
+"half3_trail": -0.9495,
+"hold": -0.9495,
+"half3_arm1.5": -0.0682,
+"half2_arm1.5": -0.0682,
+"half1.7_arm1.5": -0.0682,
+"half3_give0.5": -0.9495
+},
+"peak_10": 7.682,
+"exits_5": {
+"trail2x": -0.9471,
+"trail1.5x": 0.0304,
+"trail1.6x": 0.0304,
+"trail2x_tight5x": -0.9471,
+"half2_trail": -0.9471,
+"half3_trail": -0.9471,
+"hold": -0.9471,
+"half3_arm1.5": 0.0304,
+"half2_arm1.5": 0.0304,
+"half1.7_arm1.5": 0.4325,
+"half3_give0.5": -0.9471
+},
+"peak_5": 8.495
+},
+"d0.45": {
+"contract": "GOOGL250627C00175000",
+"strike": 175.0,
+"delta": 0.345,
+"px": 0.36,
+"exits_10": {
+"trail2x": -0.9495,
+"trail1.5x": -0.0682,
+"trail1.6x": -0.0682,
+"trail2x_tight5x": -0.9495,
+"half2_trail": -0.9495,
+"half3_trail": -0.9495,
+"hold": -0.9495,
+"half3_arm1.5": -0.0682,
+"half2_arm1.5": -0.0682,
+"half1.7_arm1.5": -0.0682,
+"half3_give0.5": -0.9495
+},
+"peak_10": 7.682,
+"exits_5": {
+"trail2x": -0.9471,
+"trail1.5x": 0.0304,
+"trail1.6x": 0.0304,
+"trail2x_tight5x": -0.9471,
+"half2_trail": -0.9471,
+"half3_trail": -0.9471,
+"hold": -0.9471,
+"half3_arm1.5": 0.0304,
+"half2_arm1.5": 0.0304,
+"half1.7_arm1.5": 0.4325,
+"half3_give0.5": -0.9471
+},
+"peak_5": 8.495
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "MSFT",
+"day": "2025-07-09",
+"expiry": "2025-07-11",
+"kind": "call",
+"spot": 500.85,
+"swing": null,
+"headline": "Oppenheimer Upgrades Microsoft to Outperform, Announces $600 Price Target",
+"picks": {
+"d0.30": {
+"contract": "MSFT250711C00505000",
+"strike": 505.0,
+"delta": 0.326,
+"px": 1.89,
+"exits_10": {
+"trail2x": -0.3506,
+"trail1.5x": -0.0216,
+"trail1.6x": -0.0216,
+"trail2x_tight5x": -0.3506,
+"half2_trail": -0.3506,
+"half3_trail": -0.3506,
+"hold": -0.3506,
+"half3_arm1.5": -0.0216,
+"half2_arm1.5": -0.0216,
+"half1.7_arm1.5": -0.0216,
+"half3_give0.5": -0.3506
+},
+"peak_10": 1.649,
+"exits_5": {
+"trail2x": -0.2819,
+"trail1.5x": 0.0819,
+"trail1.6x": 0.0819,
+"trail2x_tight5x": -0.2819,
+"half2_trail": -0.2819,
+"half3_trail": -0.2819,
+"hold": -0.2819,
+"half3_arm1.5": 0.0819,
+"half2_arm1.5": 0.0819,
+"half1.7_arm1.5": 0.4385,
+"half3_give0.5": -0.2819
+},
+"peak_5": 1.824,
+"carry_10": {
+"half2_arm1.5": -0.0216,
+"half3_arm1.5": -0.0216,
+"trail2x": -0.9856,
+"hold": -0.9856
+},
+"carry_5": {
+"half2_arm1.5": 0.0819,
+"half3_arm1.5": 0.0819,
+"trail2x": -0.9849,
+"hold": -0.9849
+}
+},
+"d0.45": {
+"contract": "MSFT250711C00502500",
+"strike": 502.5,
+"delta": 0.434,
+"px": 3,
+"exits_10": {
+"trail2x": -0.2882,
+"trail1.5x": -0.2882,
+"trail1.6x": -0.2882,
+"trail2x_tight5x": -0.2882,
+"half2_trail": -0.2882,
+"half3_trail": -0.2882,
+"hold": -0.2882,
+"half3_arm1.5": -0.2882,
+"half2_arm1.5": -0.2882,
+"half1.7_arm1.5": -0.2882,
+"half3_give0.5": -0.2882
+},
+"peak_10": 1.489,
+"exits_5": {
+"trail2x": -0.2129,
+"trail1.5x": -0.05,
+"trail1.6x": -0.05,
+"trail2x_tight5x": -0.2129,
+"half2_trail": -0.2129,
+"half3_trail": -0.2129,
+"hold": -0.2129,
+"half3_arm1.5": -0.05,
+"half2_arm1.5": -0.05,
+"half1.7_arm1.5": -0.05,
+"half3_give0.5": -0.2129
+},
+"peak_5": 1.647,
+"carry_10": {
+"half2_arm1.5": -0.5936,
+"half3_arm1.5": -0.5936,
+"trail2x": -0.5936,
+"hold": -0.5936
+},
+"carry_5": {
+"half2_arm1.5": -0.05,
+"half3_arm1.5": -0.05,
+"trail2x": -0.5506,
+"hold": -0.5506
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "AMD",
+"day": "2025-07-10",
+"expiry": "2025-07-11",
+"kind": "call",
+"spot": 144.67,
+"swing": null,
+"headline": "HSBC Upgrades Advanced Micro Devices to Buy, Announces $200 Price Target",
+"picks": {
+"d0.30": {
+"contract": "AMD250711C00147000",
+"strike": 147.0,
+"delta": 0.273,
+"px": 0.62,
+"exits_10": {
+"trail2x": -0.6437,
+"trail1.5x": -0.063,
+"trail1.6x": -0.063,
+"trail2x_tight5x": -0.6437,
+"half2_trail": -0.6437,
+"half3_trail": -0.6437,
+"hold": -0.6437,
+"half3_arm1.5": -0.063,
+"half2_arm1.5": -0.063,
+"half1.7_arm1.5": -0.063,
+"half3_give0.5": -0.6437
+},
+"peak_10": 1.65,
+"exits_5": {
+"trail2x": -0.606,
+"trail1.5x": 0.0361,
+"trail1.6x": 0.0361,
+"trail2x_tight5x": -0.606,
+"half2_trail": -0.606,
+"half3_trail": -0.606,
+"hold": -0.606,
+"half3_arm1.5": 0.0361,
+"half2_arm1.5": 0.0361,
+"half1.7_arm1.5": 0.4301,
+"half3_give0.5": -0.606
+},
+"peak_5": 1.824,
+"carry_10": {
+"half2_arm1.5": -0.063,
+"half3_arm1.5": -0.063,
+"trail2x": -0.868,
+"hold": -0.868
+},
+"carry_5": {
+"half2_arm1.5": 0.0361,
+"half3_arm1.5": 0.0361,
+"trail2x": -0.8618,
+"hold": -0.8618
+}
+},
+"d0.45": {
+"contract": "AMD250711C00145000",
+"strike": 145.0,
+"delta": 0.465,
+"px": 1.18,
+"exits_10": {
+"trail2x": -0.5077,
+"trail1.5x": -0.0293,
+"trail1.6x": -0.5077,
+"trail2x_tight5x": -0.5077,
+"half2_trail": -0.5077,
+"half3_trail": -0.5077,
+"hold": -0.5077,
+"half3_arm1.5": -0.0293,
+"half2_arm1.5": -0.0293,
+"half1.7_arm1.5": -0.0293,
+"half3_give0.5": -0.5077
+},
+"peak_10": 1.505,
+"exits_5": {
+"trail2x": -0.4556,
+"trail1.5x": -0.0186,
+"trail1.6x": -0.0186,
+"trail2x_tight5x": -0.4556,
+"half2_trail": -0.4556,
+"half3_trail": -0.4556,
+"hold": -0.4556,
+"half3_arm1.5": -0.0186,
+"half2_arm1.5": -0.0186,
+"half1.7_arm1.5": -0.0186,
+"half3_give0.5": -0.4556
+},
+"peak_5": 1.664,
+"carry_10": {
+"half2_arm1.5": -0.0293,
+"half3_arm1.5": -0.0293,
+"trail2x": 0.1995,
+"hold": 0.1995
+},
+"carry_5": {
+"half2_arm1.5": -0.0186,
+"half3_arm1.5": -0.0186,
+"trail2x": 0.3265,
+"hold": 0.3265
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "COIN",
+"day": "2025-08-04",
+"expiry": "2025-08-08",
+"kind": "put",
+"spot": 315.36,
+"swing": null,
+"headline": "Compass Point Downgrades Coinbase Global to Sell, Lowers Price Target to $248",
+"picks": {
+"d0.30": {
+"contract": "COIN250808P00302500",
+"strike": 302.5,
+"delta": 0.283,
+"px": 4.5,
+"exits_10": {
+"trail2x": -0.4782,
+"trail1.5x": -0.4782,
+"trail1.6x": -0.4782,
+"trail2x_tight5x": -0.4782,
+"half2_trail": -0.4782,
+"half3_trail": -0.4782,
+"hold": -0.4782,
+"half3_arm1.5": -0.4782,
+"half2_arm1.5": -0.4782,
+"half1.7_arm1.5": -0.4782,
+"half3_give0.5": -0.4782
+},
+"peak_10": 1.042,
+"exits_5": {
+"trail2x": -0.423,
+"trail1.5x": -0.423,
+"trail1.6x": -0.423,
+"trail2x_tight5x": -0.423,
+"half2_trail": -0.423,
+"half3_trail": -0.423,
+"hold": -0.423,
+"half3_arm1.5": -0.423,
+"half2_arm1.5": -0.423,
+"half1.7_arm1.5": -0.423,
+"half3_give0.5": -0.423
+},
+"peak_5": 1.152,
+"carry_10": {
+"half2_arm1.5": 0.5836,
+"half3_arm1.5": 0.1091,
+"trail2x": 0.1091,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": 0.6587,
+"half3_arm1.5": 0.2265,
+"trail2x": 0.2265,
+"hold": -1.0
+}
+},
+"d0.45": {
+"contract": "COIN250808P00312500",
+"strike": 312.5,
+"delta": 0.439,
+"px": 8.81,
+"exits_10": {
+"trail2x": -0.4381,
+"trail1.5x": -0.4381,
+"trail1.6x": -0.4381,
+"trail2x_tight5x": -0.4381,
+"half2_trail": -0.4381,
+"half3_trail": -0.4381,
+"hold": -0.4381,
+"half3_arm1.5": -0.4381,
+"half2_arm1.5": -0.4381,
+"half1.7_arm1.5": -0.4381,
+"half3_give0.5": -0.4381
+},
+"peak_10": 0.943,
+"exits_5": {
+"trail2x": -0.3787,
+"trail1.5x": -0.3787,
+"trail1.6x": -0.3787,
+"trail2x_tight5x": -0.3787,
+"half2_trail": -0.3787,
+"half3_trail": -0.3787,
+"hold": -0.3787,
+"half3_arm1.5": -0.3787,
+"half2_arm1.5": -0.3787,
+"half1.7_arm1.5": -0.3787,
+"half3_give0.5": -0.3787
+},
+"peak_5": 1.042,
+"carry_10": {
+"half2_arm1.5": 0.0216,
+"half3_arm1.5": 0.0216,
+"trail2x": -0.714,
+"hold": -0.714
+},
+"carry_5": {
+"half2_arm1.5": 0.1297,
+"half3_arm1.5": 0.1297,
+"trail2x": -0.6837,
+"hold": -0.6837
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "PLTR",
+"day": "2025-08-05",
+"expiry": "2025-08-08",
+"kind": "call",
+"spot": 174.62,
+"swing": null,
+"headline": "Deutsche Bank Upgrades Palantir Technologies to Hold, Raises Price Target to $160",
+"picks": {
+"d0.30": {
+"contract": "PLTR250808C00182500",
+"strike": 182.5,
+"delta": 0.29,
+"px": 2.29,
+"exits_10": {
+"trail2x": -0.7856,
+"trail1.5x": -0.7856,
+"trail1.6x": -0.7856,
+"trail2x_tight5x": -0.7856,
+"half2_trail": -0.7856,
+"half3_trail": -0.7856,
+"hold": -0.7856,
+"half3_arm1.5": -0.7856,
+"half2_arm1.5": -0.7856,
+"half1.7_arm1.5": -0.7856,
+"half3_give0.5": -0.7856
+},
+"peak_10": 0.74,
+"exits_5": {
+"trail2x": -0.7629,
+"trail1.5x": -0.7629,
+"trail1.6x": -0.7629,
+"trail2x_tight5x": -0.7629,
+"half2_trail": -0.7629,
+"half3_trail": -0.7629,
+"hold": -0.7629,
+"half3_arm1.5": -0.7629,
+"half2_arm1.5": -0.7629,
+"half1.7_arm1.5": -0.7629,
+"half3_give0.5": -0.7629
+},
+"peak_5": 0.818,
+"carry_10": {
+"half2_arm1.5": 0.1433,
+"half3_arm1.5": 0.1433,
+"trail2x": 0.6792,
+"hold": 0.6792
+},
+"carry_5": {
+"half2_arm1.5": 0.6357,
+"half3_arm1.5": 0.2643,
+"trail2x": 0.2643,
+"hold": 0.8569
+}
+},
+"d0.45": {
+"contract": "PLTR250808C00177500",
+"strike": 177.5,
+"delta": 0.433,
+"px": 4.2,
+"exits_10": {
+"trail2x": -0.6961,
+"trail1.5x": -0.6961,
+"trail1.6x": -0.6961,
+"trail2x_tight5x": -0.6961,
+"half2_trail": -0.6961,
+"half3_trail": -0.6961,
+"hold": -0.6961,
+"half3_arm1.5": -0.6961,
+"half2_arm1.5": -0.6961,
+"half1.7_arm1.5": -0.6961,
+"half3_give0.5": -0.6961
+},
+"peak_10": 0.752,
+"exits_5": {
+"trail2x": -0.6639,
+"trail1.5x": -0.6639,
+"trail1.6x": -0.6639,
+"trail2x_tight5x": -0.6639,
+"half2_trail": -0.6639,
+"half3_trail": -0.6639,
+"hold": -0.6639,
+"half3_arm1.5": -0.6639,
+"half2_arm1.5": -0.6639,
+"half1.7_arm1.5": -0.6639,
+"half3_give0.5": -0.6639
+},
+"peak_5": 0.832,
+"carry_10": {
+"half2_arm1.5": 0.9529,
+"half3_arm1.5": 0.8994,
+"trail2x": 0.8994,
+"hold": 0.8994
+},
+"carry_5": {
+"half2_arm1.5": -0.0737,
+"half3_arm1.5": -0.0737,
+"trail2x": 1.1003,
+"hold": 1.1003
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "LITE",
+"day": "2025-08-13",
+"expiry": "2025-08-15",
+"kind": "call",
+"spot": 126.47,
+"swing": null,
+"headline": "B of A Securities Upgrades Lumentum Holdings to Neutral, Raises Price Target to $135",
+"picks": {
+"d0.30": {
+"contract": "LITE250815C00130000",
+"strike": 130.0,
+"delta": 0.392,
+"px": 2.9,
+"exits_10": {
+"trail2x": -0.9577,
+"trail1.5x": -0.9577,
+"trail1.6x": -0.9577,
+"trail2x_tight5x": -0.9577,
+"half2_trail": -0.9577,
+"half3_trail": -0.9577,
+"hold": -0.9577,
+"half3_arm1.5": -0.9577,
+"half2_arm1.5": -0.9577,
+"half1.7_arm1.5": -0.9577,
+"half3_give0.5": -0.9577
+},
+"peak_10": 0.945,
+"exits_5": {
+"trail2x": -0.954,
+"trail1.5x": -0.954,
+"trail1.6x": -0.954,
+"trail2x_tight5x": -0.954,
+"half2_trail": -0.954,
+"half3_trail": -0.954,
+"hold": -0.954,
+"half3_arm1.5": -0.954,
+"half2_arm1.5": -0.954,
+"half1.7_arm1.5": -0.954,
+"half3_give0.5": -0.954
+},
+"peak_5": 1.045,
+"carry_10": {
+"half2_arm1.5": -0.9937,
+"half3_arm1.5": -0.9937,
+"trail2x": -0.9937,
+"hold": -0.9937
+},
+"carry_5": {
+"half2_arm1.5": -0.9934,
+"half3_arm1.5": -0.9934,
+"trail2x": -0.9934,
+"hold": -0.9934
+}
+},
+"d0.45": {
+"contract": "LITE250815C00130000",
+"strike": 130.0,
+"delta": 0.392,
+"px": 2.9,
+"exits_10": {
+"trail2x": -0.9577,
+"trail1.5x": -0.9577,
+"trail1.6x": -0.9577,
+"trail2x_tight5x": -0.9577,
+"half2_trail": -0.9577,
+"half3_trail": -0.9577,
+"hold": -0.9577,
+"half3_arm1.5": -0.9577,
+"half2_arm1.5": -0.9577,
+"half1.7_arm1.5": -0.9577,
+"half3_give0.5": -0.9577
+},
+"peak_10": 0.945,
+"exits_5": {
+"trail2x": -0.954,
+"trail1.5x": -0.954,
+"trail1.6x": -0.954,
+"trail2x_tight5x": -0.954,
+"half2_trail": -0.954,
+"half3_trail": -0.954,
+"hold": -0.954,
+"half3_arm1.5": -0.954,
+"half2_arm1.5": -0.954,
+"half1.7_arm1.5": -0.954,
+"half3_give0.5": -0.954
+},
+"peak_5": 1.045,
+"carry_10": {
+"half2_arm1.5": -0.9937,
+"half3_arm1.5": -0.9937,
+"trail2x": -0.9937,
+"hold": -0.9937
+},
+"carry_5": {
+"half2_arm1.5": -0.9934,
+"half3_arm1.5": -0.9934,
+"trail2x": -0.9934,
+"hold": -0.9934
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "AMD",
+"day": "2025-09-04",
+"expiry": "2025-09-05",
+"kind": "put",
+"spot": 159.63,
+"swing": null,
+"headline": "Seaport Global Downgrades Advanced Micro Devices to Neutral",
+"picks": {
+"d0.30": {
+"contract": "AMD250905P00157500",
+"strike": 157.5,
+"delta": 0.347,
+"px": 1.36,
+"exits_10": {
+"trail2x": -0.7894,
+"trail1.5x": -0.7894,
+"trail1.6x": -0.7894,
+"trail2x_tight5x": -0.7894,
+"half2_trail": -0.7894,
+"half3_trail": -0.7894,
+"hold": -0.7894,
+"half3_arm1.5": -0.7894,
+"half2_arm1.5": -0.7894,
+"half1.7_arm1.5": -0.7894,
+"half3_give0.5": -0.7894
+},
+"peak_10": 1.143,
+"exits_5": {
+"trail2x": -0.7672,
+"trail1.5x": -0.7672,
+"trail1.6x": -0.7672,
+"trail2x_tight5x": -0.7672,
+"half2_trail": -0.7672,
+"half3_trail": -0.7672,
+"hold": -0.7672,
+"half3_arm1.5": -0.7672,
+"half2_arm1.5": -0.7672,
+"half1.7_arm1.5": -0.7672,
+"half3_give0.5": -0.7672
+},
+"peak_5": 1.264,
+"carry_10": {
+"half2_arm1.5": 1.3553,
+"half3_arm1.5": 1.8185,
+"trail2x": 1.6049,
+"hold": 2.9104
+},
+"carry_5": {
+"half2_arm1.5": 1.6045,
+"half3_arm1.5": 2.0103,
+"trail2x": 1.8806,
+"hold": 3.3242
+}
+},
+"d0.45": {
+"contract": "AMD250905P00160000",
+"strike": 160.0,
+"delta": 0.52,
+"px": 2.4,
+"exits_10": {
+"trail2x": -0.6898,
+"trail1.5x": -0.6898,
+"trail1.6x": -0.6898,
+"trail2x_tight5x": -0.6898,
+"half2_trail": -0.6898,
+"half3_trail": -0.6898,
+"hold": -0.6898,
+"half3_arm1.5": -0.6898,
+"half2_arm1.5": -0.6898,
+"half1.7_arm1.5": -0.6898,
+"half3_give0.5": -0.6898
+},
+"peak_10": 1.115,
+"exits_5": {
+"trail2x": -0.6569,
+"trail1.5x": -0.6569,
+"trail1.6x": -0.6569,
+"trail2x_tight5x": -0.6569,
+"half2_trail": -0.6569,
+"half3_trail": -0.6569,
+"hold": -0.6569,
+"half3_arm1.5": -0.6569,
+"half2_arm1.5": -0.6569,
+"half1.7_arm1.5": -0.6569,
+"half3_give0.5": -0.6569
+},
+"peak_5": 1.233,
+"carry_10": {
+"half2_arm1.5": 1.5705,
+"half3_arm1.5": 2.0375,
+"trail2x": 2.0614,
+"hold": 2.0614
+},
+"carry_5": {
+"half2_arm1.5": 1.7897,
+"half3_arm1.5": 2.2006,
+"trail2x": 2.3853,
+"hold": 2.3853
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "TSLA",
+"day": "2025-09-19",
+"expiry": "2025-09-19",
+"kind": "call",
+"spot": 425.28,
+"swing": null,
+"headline": "Baird Upgrades Tesla to Outperform, Raises Price Target to $548",
+"picks": {
+"d0.30": {
+"contract": "TSLA250919C00432500",
+"strike": 432.5,
+"delta": 0.266,
+"px": 1.8,
+"exits_10": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_10": 1.041,
+"exits_5": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_5": 1.151
+},
+"d0.45": {
+"contract": "TSLA250919C00427500",
+"strike": 427.5,
+"delta": 0.422,
+"px": 3.2,
+"exits_10": {
+"trail2x": -0.9565,
+"trail1.5x": -0.9565,
+"trail1.6x": -0.9565,
+"trail2x_tight5x": -0.9565,
+"half2_trail": -0.9565,
+"half3_trail": -0.9565,
+"hold": -0.9565,
+"half3_arm1.5": -0.9565,
+"half2_arm1.5": -0.9565,
+"half1.7_arm1.5": -0.9565,
+"half3_give0.5": -0.9565
+},
+"peak_10": 1.168,
+"exits_5": {
+"trail2x": -0.9524,
+"trail1.5x": -0.9524,
+"trail1.6x": -0.9524,
+"trail2x_tight5x": -0.9524,
+"half2_trail": -0.9524,
+"half3_trail": -0.9524,
+"hold": -0.9524,
+"half3_arm1.5": -0.9524,
+"half2_arm1.5": -0.9524,
+"half1.7_arm1.5": -0.9524,
+"half3_give0.5": -0.9524
+},
+"peak_5": 1.292
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "ADBE",
+"day": "2025-09-24",
+"expiry": "2025-09-26",
+"kind": "put",
+"spot": 354.56,
+"swing": null,
+"headline": "Morgan Stanley Downgrades Adobe to Equal-Weight, Lowers Price Target to $450",
+"picks": {
+"d0.30": {
+"contract": "ADBE250926P00347500",
+"strike": 347.5,
+"delta": 0.282,
+"px": 2.28,
+"exits_10": {
+"trail2x": -0.4258,
+"trail1.5x": -0.4258,
+"trail1.6x": -0.4258,
+"trail2x_tight5x": -0.4258,
+"half2_trail": -0.4258,
+"half3_trail": -0.4258,
+"hold": -0.4258,
+"half3_arm1.5": -0.4258,
+"half2_arm1.5": -0.4258,
+"half1.7_arm1.5": -0.4258,
+"half3_give0.5": -0.4258
+},
+"peak_10": 1.31,
+"exits_5": {
+"trail2x": -0.3651,
+"trail1.5x": -0.3651,
+"trail1.6x": -0.3651,
+"trail2x_tight5x": -0.3651,
+"half2_trail": -0.3651,
+"half3_trail": -0.3651,
+"hold": -0.3651,
+"half3_arm1.5": -0.3651,
+"half2_arm1.5": -0.3651,
+"half1.7_arm1.5": -0.3651,
+"half3_give0.5": -0.3651
+},
+"peak_5": 1.448,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+}
+},
+"d0.45": {
+"contract": "ADBE250926P00352500",
+"strike": 352.5,
+"delta": 0.421,
+"px": 3.5,
+"exits_10": {
+"trail2x": -0.2052,
+"trail1.5x": -0.0065,
+"trail1.6x": -0.2052,
+"trail2x_tight5x": -0.2052,
+"half2_trail": -0.2052,
+"half3_trail": -0.2052,
+"hold": -0.2052,
+"half3_arm1.5": -0.0065,
+"half2_arm1.5": -0.0065,
+"half1.7_arm1.5": -0.0065,
+"half3_give0.5": -0.2052
+},
+"peak_10": 1.505,
+"exits_5": {
+"trail2x": -0.1211,
+"trail1.5x": -0.0384,
+"trail1.6x": -0.0384,
+"trail2x_tight5x": -0.1211,
+"half2_trail": -0.1211,
+"half3_trail": -0.1211,
+"hold": -0.1211,
+"half3_arm1.5": -0.0384,
+"half2_arm1.5": -0.0384,
+"half1.7_arm1.5": -0.0384,
+"half3_give0.5": -0.1211
+},
+"peak_5": 1.665,
+"carry_10": {
+"half2_arm1.5": -0.0065,
+"half3_arm1.5": -0.0065,
+"trail2x": -0.9948,
+"hold": -0.9948
+},
+"carry_5": {
+"half2_arm1.5": -0.0384,
+"half3_arm1.5": -0.0384,
+"trail2x": -0.9946,
+"hold": -0.9946
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "COIN",
+"day": "2025-10-03",
+"expiry": "2025-10-03",
+"kind": "call",
+"spot": 376.34,
+"swing": null,
+"headline": "Rothschild & Co Upgrades Coinbase Global to Buy, Raises Price Target to $417",
+"picks": {
+"d0.30": {
+"contract": "COIN251003C00382500",
+"strike": 382.5,
+"delta": 0.322,
+"px": 2.63,
+"exits_10": {
+"trail2x": -0.9378,
+"trail1.5x": -0.9378,
+"trail1.6x": -0.9378,
+"trail2x_tight5x": -0.9378,
+"half2_trail": -0.9378,
+"half3_trail": -0.9378,
+"hold": -0.9378,
+"half3_arm1.5": -0.9378,
+"half2_arm1.5": -0.9378,
+"half1.7_arm1.5": -0.9378,
+"half3_give0.5": -0.9378
+},
+"peak_10": 1.142,
+"exits_5": {
+"trail2x": -0.9312,
+"trail1.5x": -0.9312,
+"trail1.6x": -0.9312,
+"trail2x_tight5x": -0.9312,
+"half2_trail": -0.9312,
+"half3_trail": -0.9312,
+"hold": -0.9312,
+"half3_arm1.5": -0.9312,
+"half2_arm1.5": -0.9312,
+"half1.7_arm1.5": -0.9312,
+"half3_give0.5": -0.9312
+},
+"peak_5": 1.263
+},
+"d0.45": {
+"contract": "COIN251003C00377500",
+"strike": 377.5,
+"delta": 0.466,
+"px": 4,
+"exits_10": {
+"trail2x": -0.4027,
+"trail1.5x": -0.4027,
+"trail1.6x": -0.4027,
+"trail2x_tight5x": -0.4027,
+"half2_trail": -0.4027,
+"half3_trail": -0.4027,
+"hold": -0.4027,
+"half3_arm1.5": -0.4027,
+"half2_arm1.5": -0.4027,
+"half1.7_arm1.5": -0.4027,
+"half3_give0.5": -0.4027
+},
+"peak_10": 1.309,
+"exits_5": {
+"trail2x": -0.3395,
+"trail1.5x": -0.3395,
+"trail1.6x": -0.3395,
+"trail2x_tight5x": -0.3395,
+"half2_trail": -0.3395,
+"half3_trail": -0.3395,
+"hold": -0.3395,
+"half3_arm1.5": -0.3395,
+"half2_arm1.5": -0.3395,
+"half1.7_arm1.5": -0.3395,
+"half3_give0.5": -0.3395
+},
+"peak_5": 1.448
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "MU",
+"day": "2025-10-06",
+"expiry": "2025-10-10",
+"kind": "call",
+"spot": 195.46,
+"swing": null,
+"headline": "Morgan Stanley Upgrades Micron Technology to Overweight, Raises Price Target to $220",
+"picks": {
+"d0.30": {
+"contract": "MU251010C00202500",
+"strike": 202.5,
+"delta": 0.32,
+"px": 2.75,
+"exits_10": {
+"trail2x": -0.4347,
+"trail1.5x": -0.0182,
+"trail1.6x": -0.0182,
+"trail2x_tight5x": -0.4347,
+"half2_trail": -0.4347,
+"half3_trail": -0.4347,
+"hold": -0.4347,
+"half3_arm1.5": -0.0182,
+"half2_arm1.5": -0.0182,
+"half1.7_arm1.5": -0.0182,
+"half3_give0.5": -0.4347
+},
+"peak_10": 1.63,
+"exits_5": {
+"trail2x": -0.3749,
+"trail1.5x": 0.0758,
+"trail1.6x": 0.0758,
+"trail2x_tight5x": -0.3749,
+"half2_trail": -0.3749,
+"half3_trail": -0.3749,
+"hold": -0.3749,
+"half3_arm1.5": 0.0758,
+"half2_arm1.5": 0.0758,
+"half1.7_arm1.5": 0.395,
+"half3_give0.5": -0.3749
+},
+"peak_5": 1.803,
+"carry_10": {
+"half2_arm1.5": -0.0182,
+"half3_arm1.5": -0.0182,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": 0.0758,
+"half3_arm1.5": 0.0758,
+"trail2x": -1.0,
+"hold": -1.0
+}
+},
+"d0.45": {
+"contract": "MU251010C00197500",
+"strike": 197.5,
+"delta": 0.454,
+"px": 4.46,
+"exits_10": {
+"trail2x": -0.4643,
+"trail1.5x": -0.4643,
+"trail1.6x": -0.4643,
+"trail2x_tight5x": -0.4643,
+"half2_trail": -0.4643,
+"half3_trail": -0.4643,
+"hold": -0.4643,
+"half3_arm1.5": -0.4643,
+"half2_arm1.5": -0.4643,
+"half1.7_arm1.5": -0.4643,
+"half3_give0.5": -0.4643
+},
+"peak_10": 1.438,
+"exits_5": {
+"trail2x": -0.4076,
+"trail1.5x": -0.0445,
+"trail1.6x": -0.4076,
+"trail2x_tight5x": -0.4076,
+"half2_trail": -0.4076,
+"half3_trail": -0.4076,
+"hold": -0.4076,
+"half3_arm1.5": -0.0445,
+"half2_arm1.5": -0.0445,
+"half1.7_arm1.5": -0.0445,
+"half3_give0.5": -0.4076
+},
+"peak_5": 1.59,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -0.0445,
+"half3_arm1.5": -0.0445,
+"trail2x": -1.0,
+"hold": -1.0
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "AMD",
+"day": "2025-10-07",
+"expiry": "2025-10-10",
+"kind": "call",
+"spot": 217.37,
+"swing": null,
+"headline": "Jefferies Upgrades Advanced Micro Devices to Buy, Raises Price Target to $300",
+"picks": {
+"d0.30": {
+"contract": "AMD251010C00227500",
+"strike": 227.5,
+"delta": 0.31,
+"px": 3.5,
+"exits_10": {
+"trail2x": -0.7031,
+"trail1.5x": -0.7031,
+"trail1.6x": -0.7031,
+"trail2x_tight5x": -0.7031,
+"half2_trail": -0.7031,
+"half3_trail": -0.7031,
+"hold": -0.7031,
+"half3_arm1.5": -0.7031,
+"half2_arm1.5": -0.7031,
+"half1.7_arm1.5": -0.7031,
+"half3_give0.5": -0.7031
+},
+"peak_10": 0.935,
+"exits_5": {
+"trail2x": -0.6717,
+"trail1.5x": -0.6717,
+"trail1.6x": -0.6717,
+"trail2x_tight5x": -0.6717,
+"half2_trail": -0.6717,
+"half3_trail": -0.6717,
+"hold": -0.6717,
+"half3_arm1.5": -0.6717,
+"half2_arm1.5": -0.6717,
+"half1.7_arm1.5": -0.6717,
+"half3_give0.5": -0.6717
+},
+"peak_5": 1.034,
+"carry_10": {
+"half2_arm1.5": 0.9426,
+"half3_arm1.5": 1.444,
+"trail2x": 0.8397,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": 1.0318,
+"half3_arm1.5": 1.6587,
+"trail2x": 1.0344,
+"hold": -1.0
+}
+},
+"d0.45": {
+"contract": "AMD251010C00220000",
+"strike": 220.0,
+"delta": 0.459,
+"px": 6,
+"exits_10": {
+"trail2x": -0.6291,
+"trail1.5x": -0.6291,
+"trail1.6x": -0.6291,
+"trail2x_tight5x": -0.6291,
+"half2_trail": -0.6291,
+"half3_trail": -0.6291,
+"hold": -0.6291,
+"half3_arm1.5": -0.6291,
+"half2_arm1.5": -0.6291,
+"half1.7_arm1.5": -0.6291,
+"half3_give0.5": -0.6291
+},
+"peak_10": 0.884,
+"exits_5": {
+"trail2x": -0.5898,
+"trail1.5x": -0.5898,
+"trail1.6x": -0.5898,
+"trail2x_tight5x": -0.5898,
+"half2_trail": -0.5898,
+"half3_trail": -0.5898,
+"hold": -0.5898,
+"half3_arm1.5": -0.5898,
+"half2_arm1.5": -0.5898,
+"half1.7_arm1.5": -0.5898,
+"half3_give0.5": -0.5898
+},
+"peak_5": 0.977,
+"carry_10": {
+"half2_arm1.5": 0.83,
+"half3_arm1.5": 0.6159,
+"trail2x": 0.6159,
+"hold": -0.9955
+},
+"carry_5": {
+"half2_arm1.5": 0.9,
+"half3_arm1.5": 1.4014,
+"trail2x": 0.7869,
+"hold": -0.9952
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "NFLX",
+"day": "2025-10-07",
+"expiry": "2025-10-10",
+"kind": "call",
+"spot": 1186.87,
+"swing": null,
+"headline": "Seaport Global Upgrades Netflix to Buy, Announces $1385 Price Target",
+"picks": {
+"d0.30": {
+"contract": "NFLX251010C01207500",
+"strike": 1207.5,
+"delta": 0.307,
+"px": 7.6,
+"exits_10": {
+"trail2x": -0.1388,
+"trail1.5x": -0.1388,
+"trail1.6x": -0.1388,
+"trail2x_tight5x": -0.1388,
+"half2_trail": -0.1388,
+"half3_trail": -0.1388,
+"hold": -0.1388,
+"half3_arm1.5": -0.1388,
+"half2_arm1.5": -0.1388,
+"half1.7_arm1.5": -0.1388,
+"half3_give0.5": -0.1388
+},
+"peak_10": 1.389,
+"exits_5": {
+"trail2x": -0.0476,
+"trail1.5x": -0.006,
+"trail1.6x": -0.0476,
+"trail2x_tight5x": -0.0476,
+"half2_trail": -0.0476,
+"half3_trail": -0.0476,
+"hold": -0.0476,
+"half3_arm1.5": -0.006,
+"half2_arm1.5": -0.006,
+"half1.7_arm1.5": -0.006,
+"half3_give0.5": -0.0476
+},
+"peak_5": 1.536,
+"carry_10": {
+"half2_arm1.5": -0.0559,
+"half3_arm1.5": -0.0559,
+"trail2x": 1.1531,
+"hold": 0.5492
+},
+"carry_5": {
+"half2_arm1.5": -0.006,
+"half3_arm1.5": -0.006,
+"trail2x": 1.381,
+"hold": 0.7131
+}
+},
+"d0.45": {
+"contract": "NFLX251010C01192500",
+"strike": 1192.5,
+"delta": 0.448,
+"px": 12.59,
+"exits_10": {
+"trail2x": -0.0837,
+"trail1.5x": -0.0837,
+"trail1.6x": -0.0837,
+"trail2x_tight5x": -0.0837,
+"half2_trail": -0.0837,
+"half3_trail": -0.0837,
+"hold": -0.0837,
+"half3_arm1.5": -0.0837,
+"half2_arm1.5": -0.0837,
+"half1.7_arm1.5": -0.0837,
+"half3_give0.5": -0.0837
+},
+"peak_10": 1.332,
+"exits_5": {
+"trail2x": 0.0133,
+"trail1.5x": 0.0133,
+"trail1.6x": 0.0133,
+"trail2x_tight5x": 0.0133,
+"half2_trail": 0.0133,
+"half3_trail": 0.0133,
+"hold": 0.0133,
+"half3_arm1.5": 0.0133,
+"half2_arm1.5": 0.0133,
+"half1.7_arm1.5": 0.0133,
+"half3_give0.5": 0.0133
+},
+"peak_5": 1.473,
+"carry_10": {
+"half2_arm1.5": 1.0406,
+"half3_arm1.5": 1.6515,
+"trail2x": 1.0536,
+"hold": 1.0536
+},
+"carry_5": {
+"half2_arm1.5": -0.0514,
+"half3_arm1.5": -0.0514,
+"trail2x": 1.2709,
+"hold": 1.2709
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "AMD",
+"day": "2025-10-14",
+"expiry": "2025-10-17",
+"kind": "call",
+"spot": 221.0,
+"swing": null,
+"headline": "Wolfe Research Upgrades Advanced Micro Devices to Outperform, Announces $300 Price Target",
+"picks": {
+"d0.30": {
+"contract": "AMD251017C00227500",
+"strike": 227.5,
+"delta": 0.327,
+"px": 2.77,
+"exits_10": {
+"trail2x": -0.3354,
+"trail1.5x": -0.3354,
+"trail1.6x": -0.3354,
+"trail2x_tight5x": -0.3354,
+"half2_trail": -0.3354,
+"half3_trail": -0.3354,
+"hold": -0.3354,
+"half3_arm1.5": -0.3354,
+"half2_arm1.5": -0.3354,
+"half1.7_arm1.5": -0.3354,
+"half3_give0.5": -0.3354
+},
+"peak_10": 1.359,
+"exits_5": {
+"trail2x": -0.2651,
+"trail1.5x": -0.0201,
+"trail1.6x": -0.2651,
+"trail2x_tight5x": -0.2651,
+"half2_trail": -0.2651,
+"half3_trail": -0.2651,
+"hold": -0.2651,
+"half3_arm1.5": -0.0201,
+"half2_arm1.5": -0.0201,
+"half1.7_arm1.5": -0.0201,
+"half3_give0.5": -0.2651
+},
+"peak_5": 1.502,
+"carry_10": {
+"half2_arm1.5": 1.1119,
+"half3_arm1.5": 1.6214,
+"trail2x": 1.2153,
+"hold": 0.787
+},
+"carry_5": {
+"half2_arm1.5": -0.0201,
+"half3_arm1.5": -0.0201,
+"trail2x": 1.4497,
+"hold": 0.9761
+}
+},
+"d0.45": {
+"contract": "AMD251017C00222500",
+"strike": 222.5,
+"delta": 0.464,
+"px": 4.35,
+"exits_10": {
+"trail2x": -0.2853,
+"trail1.5x": -0.2853,
+"trail1.6x": -0.2853,
+"trail2x_tight5x": -0.2853,
+"half2_trail": -0.2853,
+"half3_trail": -0.2853,
+"hold": -0.2853,
+"half3_arm1.5": -0.2853,
+"half2_arm1.5": -0.2853,
+"half1.7_arm1.5": -0.2853,
+"half3_give0.5": -0.2853
+},
+"peak_10": 1.317,
+"exits_5": {
+"trail2x": -0.2096,
+"trail1.5x": -0.2096,
+"trail1.6x": -0.2096,
+"trail2x_tight5x": -0.2096,
+"half2_trail": -0.2096,
+"half3_trail": -0.2096,
+"hold": -0.2096,
+"half3_arm1.5": -0.2096,
+"half2_arm1.5": -0.2096,
+"half1.7_arm1.5": -0.2096,
+"half3_give0.5": -0.2096
+},
+"peak_5": 1.456,
+"carry_10": {
+"half2_arm1.5": 0.9984,
+"half3_arm1.5": 1.5298,
+"trail2x": 0.9467,
+"hold": 1.0784
+},
+"carry_5": {
+"half2_arm1.5": 1.0851,
+"half3_arm1.5": 1.5947,
+"trail2x": 1.1527,
+"hold": 1.2983
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "AAPL",
+"day": "2025-10-20",
+"expiry": "2025-10-24",
+"kind": "call",
+"spot": 258.0,
+"swing": null,
+"headline": "Loop Capital Upgrades Apple to Buy, Raises Price Target to $315",
+"picks": {
+"d0.30": {
+"contract": "AAPL251024C00262500",
+"strike": 262.5,
+"delta": 0.3,
+"px": 1.55,
+"exits_10": {
+"trail2x": 1.0111,
+"trail1.5x": 1.0111,
+"trail1.6x": 1.0111,
+"trail2x_tight5x": 1.0111,
+"half2_trail": 1.0059,
+"half3_trail": 1.0111,
+"hold": 1.0111,
+"half3_arm1.5": 1.0111,
+"half2_arm1.5": 1.0059,
+"half1.7_arm1.5": 0.9346,
+"half3_give0.5": 1.0111
+},
+"peak_10": 2.28,
+"exits_5": {
+"trail2x": 1.224,
+"trail1.5x": 1.224,
+"trail1.6x": 1.224,
+"trail2x_tight5x": 1.224,
+"half2_trail": 1.1393,
+"half3_trail": 1.224,
+"hold": 1.224,
+"half3_arm1.5": 1.224,
+"half2_arm1.5": 1.1393,
+"half1.7_arm1.5": 0.9759,
+"half3_give0.5": 1.224
+},
+"peak_5": 2.522,
+"carry_10": {
+"half2_arm1.5": 0.7446,
+"half3_arm1.5": 0.4886,
+"trail2x": 0.4886,
+"hold": -0.5672
+},
+"carry_5": {
+"half2_arm1.5": 0.8504,
+"half3_arm1.5": 0.6461,
+"trail2x": 0.6461,
+"hold": -0.5214
+}
+},
+"d0.45": {
+"contract": "AAPL251024C00260000",
+"strike": 260.0,
+"delta": 0.412,
+"px": 2.43,
+"exits_10": {
+"trail2x": 0.835,
+"trail1.5x": 0.835,
+"trail1.6x": 0.835,
+"trail2x_tight5x": 0.835,
+"half2_trail": 0.9242,
+"half3_trail": 0.835,
+"hold": 0.835,
+"half3_arm1.5": 0.835,
+"half2_arm1.5": 0.9242,
+"half1.7_arm1.5": 0.7677,
+"half3_give0.5": 0.835
+},
+"peak_10": 2.037,
+"exits_5": {
+"trail2x": 1.0292,
+"trail1.5x": 1.0292,
+"trail1.6x": 1.0292,
+"trail2x_tight5x": 1.0292,
+"half2_trail": 1.0218,
+"half3_trail": 1.0292,
+"hold": 1.0292,
+"half3_arm1.5": 1.0292,
+"half2_arm1.5": 1.0218,
+"half1.7_arm1.5": 0.9361,
+"half3_give0.5": 1.0292
+},
+"peak_5": 2.253,
+"carry_10": {
+"half2_arm1.5": 0.5455,
+"half3_arm1.5": 0.0774,
+"trail2x": 0.0774,
+"hold": 0.1414
+},
+"carry_5": {
+"half2_arm1.5": 0.6029,
+"half3_arm1.5": 0.1915,
+"trail2x": 0.1915,
+"hold": 0.2622
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "SMCI",
+"day": "2025-11-05",
+"expiry": "2025-11-07",
+"kind": "call",
+"spot": 45.37,
+"swing": null,
+"headline": "KGI Securities Upgrades Super Micro Computer to Outperform, Announces $60 Price Target",
+"picks": {
+"d0.30": {
+"contract": "SMCI251107C00047500",
+"strike": 47.5,
+"delta": 0.296,
+"px": 0.65,
+"exits_10": {
+"trail2x": -0.9301,
+"trail1.5x": -0.9301,
+"trail1.6x": -0.9301,
+"trail2x_tight5x": -0.9301,
+"half2_trail": -0.9301,
+"half3_trail": -0.9301,
+"hold": -0.9301,
+"half3_arm1.5": -0.9301,
+"half2_arm1.5": -0.9301,
+"half1.7_arm1.5": -0.9301,
+"half3_give0.5": -0.9301
+},
+"peak_10": 0.831,
+"exits_5": {
+"trail2x": -0.9267,
+"trail1.5x": -0.9267,
+"trail1.6x": -0.9267,
+"trail2x_tight5x": -0.9267,
+"half2_trail": -0.9267,
+"half3_trail": -0.9267,
+"hold": -0.9267,
+"half3_arm1.5": -0.9267,
+"half2_arm1.5": -0.9267,
+"half1.7_arm1.5": -0.9267,
+"half3_give0.5": -0.9267
+},
+"peak_5": 0.919,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+}
+},
+"d0.45": {
+"contract": "SMCI251107C00046000",
+"strike": 46.0,
+"delta": 0.46,
+"px": 1.42,
+"exits_10": {
+"trail2x": -0.9078,
+"trail1.5x": -0.9078,
+"trail1.6x": -0.9078,
+"trail2x_tight5x": -0.9078,
+"half2_trail": -0.9078,
+"half3_trail": -0.9078,
+"hold": -0.9078,
+"half3_arm1.5": -0.9078,
+"half2_arm1.5": -0.9078,
+"half1.7_arm1.5": -0.9078,
+"half3_give0.5": -0.9078
+},
+"peak_10": 0.634,
+"exits_5": {
+"trail2x": -0.8994,
+"trail1.5x": -0.8994,
+"trail1.6x": -0.8994,
+"trail2x_tight5x": -0.8994,
+"half2_trail": -0.8994,
+"half3_trail": -0.8994,
+"hold": -0.8994,
+"half3_arm1.5": -0.8994,
+"half2_arm1.5": -0.8994,
+"half1.7_arm1.5": -0.8994,
+"half3_give0.5": -0.8994
+},
+"peak_5": 0.701,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "NFLX",
+"day": "2025-12-08",
+"expiry": "2025-12-12",
+"kind": "put",
+"spot": 98.82,
+"swing": null,
+"headline": "Rosenblatt Downgrades Netflix to Neutral, Lowers Price Target to $105",
+"picks": {
+"d0.30": {
+"contract": "NFLX251212P00096500",
+"strike": 96.5,
+"delta": 0.31,
+"px": 1.02,
+"exits_10": {
+"trail2x": 0.2594,
+"trail1.5x": 0.2594,
+"trail1.6x": 0.2594,
+"trail2x_tight5x": 0.2594,
+"half2_trail": 0.6324,
+"half3_trail": 0.2594,
+"hold": 0.2914,
+"half3_arm1.5": 0.2594,
+"half2_arm1.5": 0.6324,
+"half1.7_arm1.5": 0.492,
+"half3_give0.5": 0.2914
+},
+"peak_10": 2.126,
+"exits_5": {
+"trail2x": 0.3926,
+"trail1.5x": 0.3926,
+"trail1.6x": 0.3926,
+"trail2x_tight5x": 0.3926,
+"half2_trail": 0.712,
+"half3_trail": 0.3926,
+"hold": 0.4281,
+"half3_arm1.5": 0.3926,
+"half2_arm1.5": 0.712,
+"half1.7_arm1.5": 0.5966,
+"half3_give0.5": 0.4281
+},
+"peak_5": 2.351,
+"carry_10": {
+"half2_arm1.5": 0.6324,
+"half3_arm1.5": 0.2594,
+"trail2x": 0.2594,
+"hold": 0.0588
+},
+"carry_5": {
+"half2_arm1.5": 0.712,
+"half3_arm1.5": 0.3926,
+"trail2x": 0.3926,
+"hold": 0.1709
+}
+},
+"d0.45": {
+"contract": "NFLX251212P00098500",
+"strike": 98.5,
+"delta": 0.465,
+"px": 1.86,
+"exits_10": {
+"trail2x": 0.1701,
+"trail1.5x": 0.1701,
+"trail1.6x": 0.1701,
+"trail2x_tight5x": 0.1701,
+"half2_trail": 0.1701,
+"half3_trail": 0.1701,
+"hold": 0.1701,
+"half3_arm1.5": 0.1701,
+"half2_arm1.5": 0.1701,
+"half1.7_arm1.5": 0.4428,
+"half3_give0.5": 0.1701
+},
+"peak_10": 1.782,
+"exits_5": {
+"trail2x": 0.2939,
+"trail1.5x": 0.2939,
+"trail1.6x": 0.2939,
+"trail2x_tight5x": 0.2939,
+"half2_trail": 0.2939,
+"half3_trail": 0.2939,
+"hold": 0.2939,
+"half3_arm1.5": 0.2939,
+"half2_arm1.5": 0.2939,
+"half1.7_arm1.5": 0.4982,
+"half3_give0.5": 0.2939
+},
+"peak_5": 1.97,
+"carry_10": {
+"half2_arm1.5": 0.0601,
+"half3_arm1.5": 0.0601,
+"trail2x": 0.4076,
+"hold": 0.4736
+},
+"carry_5": {
+"half2_arm1.5": 0.1723,
+"half3_arm1.5": 0.1723,
+"trail2x": 0.5566,
+"hold": 0.6295
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "ADBE",
+"day": "2026-01-05",
+"expiry": "2026-01-09",
+"kind": "put",
+"spot": 329.42,
+"swing": null,
+"headline": "Jefferies Downgrades Adobe to Hold, Lowers Price Target to $400",
+"picks": {
+"d0.30": {
+"contract": "ADBE260109P00322500",
+"strike": 322.5,
+"delta": 0.261,
+"px": 1.8,
+"exits_10": {
+"trail2x": -0.4955,
+"trail1.5x": -0.4955,
+"trail1.6x": -0.4955,
+"trail2x_tight5x": -0.4955,
+"half2_trail": -0.4955,
+"half3_trail": -0.4955,
+"hold": -0.4955,
+"half3_arm1.5": -0.4955,
+"half2_arm1.5": -0.4955,
+"half1.7_arm1.5": -0.4955,
+"half3_give0.5": -0.4955
+},
+"peak_10": 1.032,
+"exits_5": {
+"trail2x": -0.4421,
+"trail1.5x": -0.4421,
+"trail1.6x": -0.4421,
+"trail2x_tight5x": -0.4421,
+"half2_trail": -0.4421,
+"half3_trail": -0.4421,
+"hold": -0.4421,
+"half3_arm1.5": -0.4421,
+"half2_arm1.5": -0.4421,
+"half1.7_arm1.5": -0.4421,
+"half3_give0.5": -0.4421
+},
+"peak_5": 1.141,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+}
+},
+"d0.45": {
+"contract": "ADBE260109P00327500",
+"strike": 327.5,
+"delta": 0.426,
+"px": 3.6,
+"exits_10": {
+"trail2x": -0.525,
+"trail1.5x": -0.525,
+"trail1.6x": -0.525,
+"trail2x_tight5x": -0.525,
+"half2_trail": -0.525,
+"half3_trail": -0.525,
+"hold": -0.525,
+"half3_arm1.5": -0.525,
+"half2_arm1.5": -0.525,
+"half1.7_arm1.5": -0.525,
+"half3_give0.5": -0.525
+},
+"peak_10": 1.125,
+"exits_5": {
+"trail2x": -0.4747,
+"trail1.5x": -0.4747,
+"trail1.6x": -0.4747,
+"trail2x_tight5x": -0.4747,
+"half2_trail": -0.4747,
+"half3_trail": -0.4747,
+"hold": -0.4747,
+"half3_arm1.5": -0.4747,
+"half2_arm1.5": -0.4747,
+"half1.7_arm1.5": -0.4747,
+"half3_give0.5": -0.4747
+},
+"peak_5": 1.244,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "ADBE",
+"day": "2026-01-09",
+"expiry": "2026-01-09",
+"kind": "put",
+"spot": 333.36,
+"swing": null,
+"headline": "BMO Capital Downgrades Adobe to Market Perform, Lowers Price Target to $375",
+"picks": {
+"d0.30": {
+"contract": "ADBE260109P00330000",
+"strike": 330.0,
+"delta": 0.262,
+"px": 0.86,
+"exits_10": {
+"trail2x": 0.4746,
+"trail1.5x": 0.4746,
+"trail1.6x": 0.4746,
+"trail2x_tight5x": 0.4746,
+"half2_trail": 0.8076,
+"half3_trail": 0.4746,
+"hold": -0.9789,
+"half3_arm1.5": 0.4746,
+"half2_arm1.5": 0.8076,
+"half1.7_arm1.5": 0.7267,
+"half3_give0.5": 0.1892
+},
+"peak_10": 2.768,
+"exits_5": {
+"trail2x": 0.6307,
+"trail1.5x": -0.1163,
+"trail1.6x": -0.1163,
+"trail2x_tight5x": 0.6307,
+"half2_trail": 0.9095,
+"half3_trail": 1.3461,
+"hold": -0.9779,
+"half3_arm1.5": -0.1163,
+"half2_arm1.5": -0.1163,
+"half1.7_arm1.5": -0.1163,
+"half3_give0.5": 1.1883
+},
+"peak_5": 3.061
+},
+"d0.45": {
+"contract": "ADBE260109P00332500",
+"strike": 332.5,
+"delta": 0.443,
+"px": 2.14,
+"exits_10": {
+"trail2x": -0.9745,
+"trail1.5x": 0.0323,
+"trail1.6x": 0.0323,
+"trail2x_tight5x": -0.9745,
+"half2_trail": -0.9745,
+"half3_trail": -0.9745,
+"hold": -0.9745,
+"half3_arm1.5": 0.0323,
+"half2_arm1.5": 0.0323,
+"half1.7_arm1.5": 0.4089,
+"half3_give0.5": -0.9745
+},
+"peak_10": 1.785,
+"exits_5": {
+"trail2x": -0.9733,
+"trail1.5x": 0.1415,
+"trail1.6x": 0.1415,
+"trail2x_tight5x": -0.9733,
+"half2_trail": -0.9733,
+"half3_trail": -0.9733,
+"hold": -0.9733,
+"half3_arm1.5": 0.1415,
+"half2_arm1.5": 0.1415,
+"half1.7_arm1.5": 0.4692,
+"half3_give0.5": -0.9733
+},
+"peak_5": 1.974
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "AMD",
+"day": "2026-01-13",
+"expiry": "2026-01-16",
+"kind": "call",
+"spot": 219.52,
+"swing": null,
+"headline": "Keybanc Upgrades Advanced Micro Devices to Overweight, Announces $270 Price Target",
+"picks": {
+"d0.30": {
+"contract": "AMD260116C00225000",
+"strike": 225.0,
+"delta": 0.312,
+"px": 2.06,
+"exits_10": {
+"trail2x": 0.267,
+"trail1.5x": 0.267,
+"trail1.6x": 0.267,
+"trail2x_tight5x": 0.267,
+"half2_trail": 0.267,
+"half3_trail": 0.267,
+"hold": 0.267,
+"half3_arm1.5": 0.267,
+"half2_arm1.5": 0.267,
+"half1.7_arm1.5": 0.267,
+"half3_give0.5": 0.267
+},
+"peak_10": 1.489,
+"exits_5": {
+"trail2x": 0.4011,
+"trail1.5x": -0.0425,
+"trail1.6x": 0.4011,
+"trail2x_tight5x": 0.4011,
+"half2_trail": 0.4011,
+"half3_trail": 0.4011,
+"hold": 0.4011,
+"half3_arm1.5": -0.0425,
+"half2_arm1.5": -0.0425,
+"half1.7_arm1.5": -0.0425,
+"half3_give0.5": 0.4011
+},
+"peak_5": 1.647,
+"carry_10": {
+"half2_arm1.5": 1.9987,
+"half3_arm1.5": 2.2966,
+"trail2x": 2.1774,
+"hold": 1.8199
+},
+"carry_5": {
+"half2_arm1.5": -0.0425,
+"half3_arm1.5": -0.0425,
+"trail2x": 2.5136,
+"hold": 2.1184
+}
+},
+"d0.45": {
+"contract": "AMD260116C00220000",
+"strike": 220.0,
+"delta": 0.49,
+"px": 3.8,
+"exits_10": {
+"trail2x": 0.1971,
+"trail1.5x": 0.1971,
+"trail1.6x": 0.1971,
+"trail2x_tight5x": 0.1971,
+"half2_trail": 0.1971,
+"half3_trail": 0.1971,
+"hold": 0.1971,
+"half3_arm1.5": 0.1971,
+"half2_arm1.5": 0.1971,
+"half1.7_arm1.5": 0.1971,
+"half3_give0.5": 0.1971
+},
+"peak_10": 1.356,
+"exits_5": {
+"trail2x": 0.3238,
+"trail1.5x": 0.3238,
+"trail1.6x": 0.3238,
+"trail2x_tight5x": 0.3238,
+"half2_trail": 0.3238,
+"half3_trail": 0.3238,
+"hold": 0.3238,
+"half3_arm1.5": 0.3238,
+"half2_arm1.5": 0.3238,
+"half1.7_arm1.5": 0.3238,
+"half3_give0.5": 0.3238
+},
+"peak_5": 1.5,
+"carry_10": {
+"half2_arm1.5": 1.3921,
+"half3_arm1.5": 1.6925,
+"trail2x": 1.349,
+"hold": 1.6053
+},
+"carry_5": {
+"half2_arm1.5": -0.3619,
+"half3_arm1.5": -0.3619,
+"trail2x": 1.5976,
+"hold": 1.881
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "INTC",
+"day": "2026-01-13",
+"expiry": "2026-01-16",
+"kind": "call",
+"spot": 46.16,
+"swing": null,
+"headline": "Keybanc Upgrades Intel to Overweight, Announces $60 Price Target",
+"picks": {
+"d0.30": {
+"contract": "INTC260116C00048000",
+"strike": 48.0,
+"delta": 0.313,
+"px": 0.67,
+"exits_10": {
+"trail2x": 0.2212,
+"trail1.5x": 0.2212,
+"trail1.6x": 0.2212,
+"trail2x_tight5x": 0.2212,
+"half2_trail": 0.2212,
+"half3_trail": 0.2212,
+"hold": 0.2212,
+"half3_arm1.5": 0.2212,
+"half2_arm1.5": 0.2212,
+"half1.7_arm1.5": 0.4654,
+"half3_give0.5": 0.2212
+},
+"peak_10": 1.905,
+"exits_5": {
+"trail2x": 0.3504,
+"trail1.5x": 0.3504,
+"trail1.6x": 0.3504,
+"trail2x_tight5x": 0.3504,
+"half2_trail": 0.6812,
+"half3_trail": 0.3504,
+"hold": 0.3504,
+"half3_arm1.5": 0.3504,
+"half2_arm1.5": 0.6812,
+"half1.7_arm1.5": 0.5529,
+"half3_give0.5": 0.3504
+},
+"peak_5": 2.107,
+"carry_10": {
+"half2_arm1.5": 0.6242,
+"half3_arm1.5": 0.209,
+"trail2x": 0.209,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": 0.6745,
+"half3_arm1.5": 0.3369,
+"trail2x": 0.3369,
+"hold": -1.0
+}
+},
+"d0.45": {
+"contract": "INTC260116C00047000",
+"strike": 47.0,
+"delta": 0.412,
+"px": 0.92,
+"exits_10": {
+"trail2x": 0.2362,
+"trail1.5x": 0.2362,
+"trail1.6x": 0.2362,
+"trail2x_tight5x": 0.2362,
+"half2_trail": 0.2362,
+"half3_trail": 0.2362,
+"hold": 0.2362,
+"half3_arm1.5": 0.2362,
+"half2_arm1.5": 0.2362,
+"half1.7_arm1.5": 0.4718,
+"half3_give0.5": 0.2362
+},
+"peak_10": 1.876,
+"exits_5": {
+"trail2x": 0.367,
+"trail1.5x": 0.367,
+"trail1.6x": 0.367,
+"trail2x_tight5x": 0.367,
+"half2_trail": 0.6866,
+"half3_trail": 0.367,
+"hold": 0.367,
+"half3_arm1.5": 0.367,
+"half2_arm1.5": 0.6866,
+"half1.7_arm1.5": 0.544,
+"half3_give0.5": 0.367
+},
+"peak_5": 2.075,
+"carry_10": {
+"half2_arm1.5": 0.6453,
+"half3_arm1.5": 0.2806,
+"trail2x": 0.2806,
+"hold": -0.8666
+},
+"carry_5": {
+"half2_arm1.5": 0.7112,
+"half3_arm1.5": 0.4161,
+"trail2x": 0.4161,
+"hold": -0.8551
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "STX",
+"day": "2026-01-16",
+"expiry": "2026-01-16",
+"kind": "call",
+"spot": 335,
+"swing": null,
+"headline": "Susquehanna Upgrades Seagate Technology Hldgs to Neutral, Raises Price Target to $280",
+"picks": {
+"d0.30": {
+"contract": "STX260116C00342500",
+"strike": 342.5,
+"delta": 0.204,
+"px": 1,
+"exits_10": {
+"trail2x": -0.9182,
+"trail1.5x": -0.9182,
+"trail1.6x": -0.9182,
+"trail2x_tight5x": -0.9182,
+"half2_trail": -0.9182,
+"half3_trail": -0.9182,
+"hold": -0.9182,
+"half3_arm1.5": -0.9182,
+"half2_arm1.5": -0.9182,
+"half1.7_arm1.5": -0.9182,
+"half3_give0.5": -0.9182
+},
+"peak_10": 0.082,
+"exits_5": {
+"trail2x": -0.9143,
+"trail1.5x": -0.9143,
+"trail1.6x": -0.9143,
+"trail2x_tight5x": -0.9143,
+"half2_trail": -0.9143,
+"half3_trail": -0.9143,
+"hold": -0.9143,
+"half3_arm1.5": -0.9143,
+"half2_arm1.5": -0.9143,
+"half1.7_arm1.5": -0.9143,
+"half3_give0.5": -0.9143
+},
+"peak_5": 0.086
+},
+"d0.45": {
+"contract": "STX260116C00335000",
+"strike": 335.0,
+"delta": 0.505,
+"px": 3.6,
+"exits_10": {
+"trail2x": -0.9949,
+"trail1.5x": -0.9949,
+"trail1.6x": -0.9949,
+"trail2x_tight5x": -0.9949,
+"half2_trail": -0.9949,
+"half3_trail": -0.9949,
+"hold": -0.9949,
+"half3_arm1.5": -0.9949,
+"half2_arm1.5": -0.9949,
+"half1.7_arm1.5": -0.9949,
+"half3_give0.5": -0.9949
+},
+"peak_10": 0.698,
+"exits_5": {
+"trail2x": -0.9947,
+"trail1.5x": -0.9947,
+"trail1.6x": -0.9947,
+"trail2x_tight5x": -0.9947,
+"half2_trail": -0.9947,
+"half3_trail": -0.9947,
+"hold": -0.9947,
+"half3_arm1.5": -0.9947,
+"half2_arm1.5": -0.9947,
+"half1.7_arm1.5": -0.9947,
+"half3_give0.5": -0.9947
+},
+"peak_5": 0.772
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "INTC",
+"day": "2026-01-20",
+"expiry": "2026-01-23",
+"kind": "call",
+"spot": 47.85,
+"swing": null,
+"headline": "HSBC Upgrades Intel to Hold, Raises Price Target to $50",
+"picks": {
+"d0.30": {
+"contract": "INTC260123C00051000",
+"strike": 51.0,
+"delta": 0.311,
+"px": 1.04,
+"exits_10": {
+"trail2x": 0.0227,
+"trail1.5x": -0.0009,
+"trail1.6x": 0.0227,
+"trail2x_tight5x": 0.0227,
+"half2_trail": 0.0227,
+"half3_trail": 0.0227,
+"hold": 0.0227,
+"half3_arm1.5": -0.0009,
+"half2_arm1.5": -0.0009,
+"half1.7_arm1.5": -0.0009,
+"half3_give0.5": 0.0227
+},
+"peak_10": 1.573,
+"exits_5": {
+"trail2x": 0.131,
+"trail1.5x": 0.044,
+"trail1.6x": 0.044,
+"trail2x_tight5x": 0.131,
+"half2_trail": 0.131,
+"half3_trail": 0.131,
+"hold": 0.131,
+"half3_arm1.5": 0.044,
+"half2_arm1.5": 0.044,
+"half1.7_arm1.5": 0.3919,
+"half3_give0.5": 0.131
+},
+"peak_5": 1.74,
+"carry_10": {
+"half2_arm1.5": -0.0009,
+"half3_arm1.5": -0.0009,
+"trail2x": -0.9135,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": 0.044,
+"half3_arm1.5": 0.044,
+"trail2x": -0.9084,
+"hold": -1.0
+}
+},
+"d0.45": {
+"contract": "INTC260123C00049000",
+"strike": 49.0,
+"delta": 0.439,
+"px": 1.65,
+"exits_10": {
+"trail2x": 0.0165,
+"trail1.5x": 0.0165,
+"trail1.6x": 0.0165,
+"trail2x_tight5x": 0.0165,
+"half2_trail": 0.0165,
+"half3_trail": 0.0165,
+"hold": 0.0165,
+"half3_arm1.5": 0.0165,
+"half2_arm1.5": 0.0165,
+"half1.7_arm1.5": 0.0165,
+"half3_give0.5": 0.0165
+},
+"peak_10": 1.458,
+"exits_5": {
+"trail2x": 0.1241,
+"trail1.5x": -0.0185,
+"trail1.6x": -0.0185,
+"trail2x_tight5x": 0.1241,
+"half2_trail": 0.1241,
+"half3_trail": 0.1241,
+"hold": 0.1241,
+"half3_arm1.5": -0.0185,
+"half2_arm1.5": -0.0185,
+"half1.7_arm1.5": -0.0185,
+"half3_give0.5": 0.1241
+},
+"peak_5": 1.612,
+"carry_10": {
+"half2_arm1.5": 0.1455,
+"half3_arm1.5": -0.8066,
+"trail2x": -0.8066,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -0.0185,
+"half3_arm1.5": -0.0185,
+"trail2x": -0.7861,
+"hold": -1.0
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "ARM",
+"day": "2026-01-21",
+"expiry": "2026-01-23",
+"kind": "call",
+"spot": 112.51,
+"swing": null,
+"headline": "Susquehanna Upgrades ARM Holdings to Positive, Maintains Price Target to $150",
+"picks": {
+"d0.30": {
+"contract": "ARM260123C00116000",
+"strike": 116.0,
+"delta": 0.297,
+"px": 1.12,
+"exits_10": {
+"trail2x": 0.1542,
+"trail1.5x": 0.1542,
+"trail1.6x": 0.1542,
+"trail2x_tight5x": 0.1542,
+"half2_trail": 0.5852,
+"half3_trail": 0.1542,
+"hold": -0.1088,
+"half3_arm1.5": 0.1542,
+"half2_arm1.5": 0.5852,
+"half1.7_arm1.5": 0.4683,
+"half3_give0.5": 0.0519
+},
+"peak_10": 2.25,
+"exits_5": {
+"trail2x": 0.2764,
+"trail1.5x": 0.2764,
+"trail1.6x": 0.2764,
+"trail2x_tight5x": 0.2764,
+"half2_trail": 0.648,
+"half3_trail": 0.2764,
+"hold": -0.0145,
+"half3_arm1.5": 0.2764,
+"half2_arm1.5": 0.648,
+"half1.7_arm1.5": 0.5551,
+"half3_give0.5": 0.1633
+},
+"peak_5": 2.488,
+"carry_10": {
+"half2_arm1.5": 0.5852,
+"half3_arm1.5": 0.1542,
+"trail2x": 0.1542,
+"hold": -0.9594
+},
+"carry_5": {
+"half2_arm1.5": 0.648,
+"half3_arm1.5": 0.2764,
+"trail2x": 0.2764,
+"hold": -0.9575
+}
+},
+"d0.45": {
+"contract": "ARM260123C00114000",
+"strike": 114.0,
+"delta": 0.42,
+"px": 1.9,
+"exits_10": {
+"trail2x": -0.1215,
+"trail1.5x": -0.0828,
+"trail1.6x": -0.0828,
+"trail2x_tight5x": -0.1215,
+"half2_trail": -0.1215,
+"half3_trail": -0.1215,
+"hold": -0.1215,
+"half3_arm1.5": -0.0828,
+"half2_arm1.5": -0.0828,
+"half1.7_arm1.5": 0.3199,
+"half3_give0.5": -0.1215
+},
+"peak_10": 1.766,
+"exits_5": {
+"trail2x": -0.0286,
+"trail1.5x": 0.0143,
+"trail1.6x": 0.0143,
+"trail2x_tight5x": -0.0286,
+"half2_trail": -0.0286,
+"half3_trail": -0.0286,
+"hold": -0.0286,
+"half3_arm1.5": 0.0143,
+"half2_arm1.5": 0.0143,
+"half1.7_arm1.5": 0.3643,
+"half3_give0.5": -0.0286
+},
+"peak_5": 1.952,
+"carry_10": {
+"half2_arm1.5": -0.0828,
+"half3_arm1.5": -0.0828,
+"trail2x": 0.2402,
+"hold": -0.4617
+},
+"carry_5": {
+"half2_arm1.5": 0.0143,
+"half3_arm1.5": 0.0143,
+"trail2x": 0.3714,
+"hold": -0.4048
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "UBER",
+"day": "2026-02-05",
+"expiry": "2026-02-06",
+"kind": "call",
+"spot": 73.4,
+"swing": null,
+"headline": "Citizens Upgrades Uber Technologies to Market Outperform, Announces $100 Price Target",
+"picks": {
+"d0.30": {
+"contract": "UBER260206C00075000",
+"strike": 75.0,
+"delta": 0.344,
+"px": 0.83,
+"exits_10": {
+"trail2x": 0.3505,
+"trail1.5x": 0.3505,
+"trail1.6x": 0.3505,
+"trail2x_tight5x": 0.3505,
+"half2_trail": 0.6906,
+"half3_trail": 0.3505,
+"hold": -0.2114,
+"half3_arm1.5": 0.3505,
+"half2_arm1.5": 0.6906,
+"half1.7_arm1.5": 0.5427,
+"half3_give0.5": 0.035
+},
+"peak_10": 2.425,
+"exits_5": {
+"trail2x": 0.4934,
+"trail1.5x": -0.0734,
+"trail1.6x": 0.4934,
+"trail2x_tight5x": 0.4934,
+"half2_trail": 0.7877,
+"half3_trail": 0.4934,
+"hold": -0.1279,
+"half3_arm1.5": -0.0734,
+"half2_arm1.5": -0.0734,
+"half1.7_arm1.5": -0.0734,
+"half3_give0.5": 0.1446
+},
+"peak_5": 2.682,
+"carry_10": {
+"half2_arm1.5": 0.6906,
+"half3_arm1.5": 0.3505,
+"trail2x": 0.3505,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -0.0734,
+"half3_arm1.5": -0.0734,
+"trail2x": 0.4934,
+"hold": -1.0
+}
+},
+"d0.45": {
+"contract": "UBER260206C00074000",
+"strike": 74.0,
+"delta": 0.451,
+"px": 1.3,
+"exits_10": {
+"trail2x": 0.1517,
+"trail1.5x": 0.1517,
+"trail1.6x": 0.1517,
+"trail2x_tight5x": 0.1517,
+"half2_trail": 0.5986,
+"half3_trail": 0.1517,
+"hold": -0.1692,
+"half3_arm1.5": 0.1517,
+"half2_arm1.5": 0.5986,
+"half1.7_arm1.5": 0.457,
+"half3_give0.5": -0.0119
+},
+"peak_10": 2.077,
+"exits_5": {
+"trail2x": 0.2736,
+"trail1.5x": 0.2736,
+"trail1.6x": 0.2736,
+"trail2x_tight5x": 0.2736,
+"half2_trail": 0.6912,
+"half3_trail": 0.2736,
+"hold": -0.0813,
+"half3_arm1.5": 0.2736,
+"half2_arm1.5": 0.6912,
+"half1.7_arm1.5": 0.6112,
+"half3_give0.5": 0.0927
+},
+"peak_5": 2.297,
+"carry_10": {
+"half2_arm1.5": 0.5986,
+"half3_arm1.5": 0.1517,
+"trail2x": 0.1517,
+"hold": -0.6664
+},
+"carry_5": {
+"half2_arm1.5": 0.6912,
+"half3_arm1.5": 0.2736,
+"trail2x": 0.2736,
+"hold": -0.6311
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "ORCL",
+"day": "2026-02-09",
+"expiry": "2026-02-13",
+"kind": "call",
+"spot": 149.68,
+"swing": null,
+"headline": "DA Davidson Upgrades Oracle to Buy, Maintains Price Target to $180",
+"picks": {
+"d0.30": {
+"contract": "ORCL260213C00157500",
+"strike": 157.5,
+"delta": 0.295,
+"px": 2.33,
+"exits_10": {
+"trail2x": 0.5977,
+"trail1.5x": 0.5977,
+"trail1.6x": 0.5977,
+"trail2x_tight5x": 0.5977,
+"half2_trail": 0.8119,
+"half3_trail": 0.5977,
+"hold": 0.5977,
+"half3_arm1.5": 0.5977,
+"half2_arm1.5": 0.8119,
+"half1.7_arm1.5": 0.6767,
+"half3_give0.5": 0.5977
+},
+"peak_10": 2.121,
+"exits_5": {
+"trail2x": 0.7668,
+"trail1.5x": 0.7668,
+"trail1.6x": 0.7668,
+"trail2x_tight5x": 0.7668,
+"half2_trail": 0.8872,
+"half3_trail": 0.7668,
+"hold": 0.7668,
+"half3_arm1.5": 0.7668,
+"half2_arm1.5": 0.8872,
+"half1.7_arm1.5": 0.7377,
+"half3_give0.5": 0.7668
+},
+"peak_5": 2.345,
+"carry_10": {
+"half2_arm1.5": 0.97,
+"half3_arm1.5": 1.5283,
+"trail2x": 0.9138,
+"hold": -0.2275
+},
+"carry_5": {
+"half2_arm1.5": 1.0619,
+"half3_arm1.5": 1.5823,
+"trail2x": 1.1163,
+"hold": -0.1457
+}
+},
+"d0.45": {
+"contract": "ORCL260213C00152500",
+"strike": 152.5,
+"delta": 0.439,
+"px": 4.3,
+"exits_10": {
+"trail2x": 0.4156,
+"trail1.5x": 0.4156,
+"trail1.6x": 0.4156,
+"trail2x_tight5x": 0.4156,
+"half2_trail": 0.4156,
+"half3_trail": 0.4156,
+"hold": 0.4156,
+"half3_arm1.5": 0.4156,
+"half2_arm1.5": 0.4156,
+"half1.7_arm1.5": 0.5641,
+"half3_give0.5": 0.4156
+},
+"peak_10": 1.724,
+"exits_5": {
+"trail2x": 0.5654,
+"trail1.5x": 0.5654,
+"trail1.6x": 0.5654,
+"trail2x_tight5x": 0.5654,
+"half2_trail": 0.5654,
+"half3_trail": 0.5654,
+"hold": 0.5654,
+"half3_arm1.5": 0.5654,
+"half2_arm1.5": 0.5654,
+"half1.7_arm1.5": 0.6349,
+"half3_give0.5": 0.5654
+},
+"peak_5": 1.906,
+"carry_10": {
+"half2_arm1.5": 0.7886,
+"half3_arm1.5": 0.5222,
+"trail2x": 0.5222,
+"hold": 0.3719
+},
+"carry_5": {
+"half2_arm1.5": 0.9011,
+"half3_arm1.5": 0.6833,
+"trail2x": 0.6833,
+"hold": 0.5171
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "QCOM",
+"day": "2026-02-24",
+"expiry": "2026-02-27",
+"kind": "call",
+"spot": 143.12,
+"swing": null,
+"headline": "Wells Fargo Upgrades Qualcomm to Equal-Weight, Raises Price Target to $150",
+"picks": {
+"d0.30": {
+"contract": "QCOM260227C00147000",
+"strike": 147.0,
+"delta": 0.27,
+"px": 0.98,
+"exits_10": {
+"trail2x": 0.1187,
+"trail1.5x": 0.0853,
+"trail1.6x": 0.0853,
+"trail2x_tight5x": 0.1187,
+"half2_trail": 0.1187,
+"half3_trail": 0.1187,
+"hold": 0.1187,
+"half3_arm1.5": 0.0853,
+"half2_arm1.5": 0.0853,
+"half1.7_arm1.5": 0.3984,
+"half3_give0.5": 0.1187
+},
+"peak_10": 1.837,
+"exits_5": {
+"trail2x": 0.2002,
+"trail1.5x": 0.2002,
+"trail1.6x": 0.2002,
+"trail2x_tight5x": 0.2002,
+"half2_trail": 0.6156,
+"half3_trail": 0.2002,
+"hold": 0.2371,
+"half3_arm1.5": 0.2002,
+"half2_arm1.5": 0.6156,
+"half1.7_arm1.5": 0.5464,
+"half3_give0.5": -0.1968
+},
+"peak_5": 2.031,
+"carry_10": {
+"half2_arm1.5": 0.0853,
+"half3_arm1.5": 0.0853,
+"trail2x": -0.9907,
+"hold": -0.9907
+},
+"carry_5": {
+"half2_arm1.5": 0.6156,
+"half3_arm1.5": 0.2002,
+"trail2x": 0.2002,
+"hold": -0.9903
+}
+},
+"d0.45": {
+"contract": "QCOM260227C00144000",
+"strike": 144.0,
+"delta": 0.456,
+"px": 2.21,
+"exits_10": {
+"trail2x": -0.0708,
+"trail1.5x": -0.0708,
+"trail1.6x": -0.0708,
+"trail2x_tight5x": -0.0708,
+"half2_trail": -0.0708,
+"half3_trail": -0.0708,
+"hold": -0.0708,
+"half3_arm1.5": -0.0708,
+"half2_arm1.5": -0.0708,
+"half1.7_arm1.5": -0.0708,
+"half3_give0.5": -0.0708
+},
+"peak_10": 1.37,
+"exits_5": {
+"trail2x": 0.0276,
+"trail1.5x": -0.0748,
+"trail1.6x": 0.0276,
+"trail2x_tight5x": 0.0276,
+"half2_trail": 0.0276,
+"half3_trail": 0.0276,
+"hold": 0.0276,
+"half3_arm1.5": -0.0748,
+"half2_arm1.5": -0.0748,
+"half1.7_arm1.5": -0.0748,
+"half3_give0.5": 0.0276
+},
+"peak_5": 1.515,
+"carry_10": {
+"half2_arm1.5": -0.9959,
+"half3_arm1.5": -0.9959,
+"trail2x": -0.9959,
+"hold": -0.9959
+},
+"carry_5": {
+"half2_arm1.5": -0.0748,
+"half3_arm1.5": -0.0748,
+"trail2x": -0.9957,
+"hold": -0.9957
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "ORCL",
+"day": "2026-02-25",
+"expiry": "2026-02-27",
+"kind": "call",
+"spot": 149.6,
+"swing": null,
+"headline": "Oppenheimer Upgrades Oracle to Outperform, Announces $185 Price Target",
+"picks": {
+"d0.30": {
+"contract": "ORCL260227C00155000",
+"strike": 155.0,
+"delta": 0.312,
+"px": 1.97,
+"exits_10": {
+"trail2x": -0.3396,
+"trail1.5x": -0.3396,
+"trail1.6x": -0.3396,
+"trail2x_tight5x": -0.3396,
+"half2_trail": -0.3396,
+"half3_trail": -0.3396,
+"hold": -0.3396,
+"half3_arm1.5": -0.3396,
+"half2_arm1.5": -0.3396,
+"half1.7_arm1.5": -0.3396,
+"half3_give0.5": -0.3396
+},
+"peak_10": 1.375,
+"exits_5": {
+"trail2x": -0.2698,
+"trail1.5x": -0.0355,
+"trail1.6x": -0.2698,
+"trail2x_tight5x": -0.2698,
+"half2_trail": -0.2698,
+"half3_trail": -0.2698,
+"hold": -0.2698,
+"half3_arm1.5": -0.0355,
+"half2_arm1.5": -0.0355,
+"half1.7_arm1.5": -0.0355,
+"half3_give0.5": -0.2698
+},
+"peak_5": 1.52,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -0.0355,
+"half3_arm1.5": -0.0355,
+"trail2x": -1.0,
+"hold": -1.0
+}
+},
+"d0.45": {
+"contract": "ORCL260227C00152500",
+"strike": 152.5,
+"delta": 0.404,
+"px": 2.88,
+"exits_10": {
+"trail2x": -0.3295,
+"trail1.5x": -0.3295,
+"trail1.6x": -0.3295,
+"trail2x_tight5x": -0.3295,
+"half2_trail": -0.3295,
+"half3_trail": -0.3295,
+"hold": -0.3295,
+"half3_arm1.5": -0.3295,
+"half2_arm1.5": -0.3295,
+"half1.7_arm1.5": -0.3295,
+"half3_give0.5": -0.3295
+},
+"peak_10": 1.307,
+"exits_5": {
+"trail2x": -0.2586,
+"trail1.5x": -0.2586,
+"trail1.6x": -0.2586,
+"trail2x_tight5x": -0.2586,
+"half2_trail": -0.2586,
+"half3_trail": -0.2586,
+"hold": -0.2586,
+"half3_arm1.5": -0.2586,
+"half2_arm1.5": -0.2586,
+"half1.7_arm1.5": -0.2586,
+"half3_give0.5": -0.2586
+},
+"peak_5": 1.445,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "NFLX",
+"day": "2026-03-06",
+"expiry": "2026-03-06",
+"kind": "call",
+"spot": 99.79,
+"swing": null,
+"headline": "CFRA Upgrades Netflix to Buy, Announces $115 Price Target",
+"picks": {
+"d0.30": {
+"contract": "NFLX260306C00101000",
+"strike": 101.0,
+"delta": 0.218,
+"px": 0.19,
+"exits_10": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_10": 0.732,
+"exits_5": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_5": 0.8
+},
+"d0.45": {
+"contract": "NFLX260306C00100000",
+"strike": 100.0,
+"delta": 0.453,
+"px": 0.56,
+"exits_10": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_10": 0.57,
+"exits_5": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_5": 0.63
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "ARM",
+"day": "2026-03-20",
+"expiry": "2026-03-20",
+"kind": "call",
+"spot": 138.38,
+"swing": null,
+"headline": "HSBC Upgrades ARM Holdings to Buy, Raises Price Target to $205",
+"picks": {
+"d0.30": {
+"contract": "ARM260320C00140000",
+"strike": 140.0,
+"delta": 0.357,
+"px": 1,
+"exits_10": {
+"trail2x": -0.9909,
+"trail1.5x": -0.9909,
+"trail1.6x": -0.9909,
+"trail2x_tight5x": -0.9909,
+"half2_trail": -0.9909,
+"half3_trail": -0.9909,
+"hold": -0.9909,
+"half3_arm1.5": -0.9909,
+"half2_arm1.5": -0.9909,
+"half1.7_arm1.5": -0.9909,
+"half3_give0.5": -0.9909
+},
+"peak_10": 0.712,
+"exits_5": {
+"trail2x": -0.9905,
+"trail1.5x": -0.9905,
+"trail1.6x": -0.9905,
+"trail2x_tight5x": -0.9905,
+"half2_trail": -0.9905,
+"half3_trail": -0.9905,
+"hold": -0.9905,
+"half3_arm1.5": -0.9905,
+"half2_arm1.5": -0.9905,
+"half1.7_arm1.5": -0.9905,
+"half3_give0.5": -0.9905
+},
+"peak_5": 0.787
+},
+"d0.45": {
+"contract": "ARM260320C00139000",
+"strike": 139.0,
+"delta": 0.445,
+"px": 1.33,
+"exits_10": {
+"trail2x": -0.9932,
+"trail1.5x": -0.9932,
+"trail1.6x": -0.9932,
+"trail2x_tight5x": -0.9932,
+"half2_trail": -0.9932,
+"half3_trail": -0.9932,
+"hold": -0.9932,
+"half3_arm1.5": -0.9932,
+"half2_arm1.5": -0.9932,
+"half1.7_arm1.5": -0.9932,
+"half3_give0.5": -0.9932
+},
+"peak_10": 0.818,
+"exits_5": {
+"trail2x": -0.9928,
+"trail1.5x": -0.9928,
+"trail1.6x": -0.9928,
+"trail2x_tight5x": -0.9928,
+"half2_trail": -0.9928,
+"half3_trail": -0.9928,
+"hold": -0.9928,
+"half3_arm1.5": -0.9928,
+"half2_arm1.5": -0.9928,
+"half1.7_arm1.5": -0.9928,
+"half3_give0.5": -0.9928
+},
+"peak_5": 0.905
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "ARM",
+"day": "2026-03-26",
+"expiry": "2026-03-27",
+"kind": "call",
+"spot": 161.21,
+"swing": null,
+"headline": "Needham Upgrades ARM Holdings to Buy, Announces $200 Price Target",
+"picks": {
+"d0.30": {
+"contract": "ARM260327C00167500",
+"strike": 167.5,
+"delta": 0.261,
+"px": 1.41,
+"exits_10": {
+"trail2x": -0.9304,
+"trail1.5x": -0.9304,
+"trail1.6x": -0.9304,
+"trail2x_tight5x": -0.9304,
+"half2_trail": -0.9304,
+"half3_trail": -0.9304,
+"hold": -0.9304,
+"half3_arm1.5": -0.9304,
+"half2_arm1.5": -0.9304,
+"half1.7_arm1.5": -0.9304,
+"half3_give0.5": -0.9304
+},
+"peak_10": 0.957,
+"exits_5": {
+"trail2x": -0.9257,
+"trail1.5x": -0.9257,
+"trail1.6x": -0.9257,
+"trail2x_tight5x": -0.9257,
+"half2_trail": -0.9257,
+"half3_trail": -0.9257,
+"hold": -0.9257,
+"half3_arm1.5": -0.9257,
+"half2_arm1.5": -0.9257,
+"half1.7_arm1.5": -0.9257,
+"half3_give0.5": -0.9257
+},
+"peak_5": 1.059,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+}
+},
+"d0.45": {
+"contract": "ARM260327C00162500",
+"strike": 162.5,
+"delta": 0.449,
+"px": 2.75,
+"exits_10": {
+"trail2x": -0.8929,
+"trail1.5x": -0.8929,
+"trail1.6x": -0.8929,
+"trail2x_tight5x": -0.8929,
+"half2_trail": -0.8929,
+"half3_trail": -0.8929,
+"hold": -0.8929,
+"half3_arm1.5": -0.8929,
+"half2_arm1.5": -0.8929,
+"half1.7_arm1.5": -0.8929,
+"half3_give0.5": -0.8929
+},
+"peak_10": 1.086,
+"exits_5": {
+"trail2x": -0.8816,
+"trail1.5x": -0.8816,
+"trail1.6x": -0.8816,
+"trail2x_tight5x": -0.8816,
+"half2_trail": -0.8816,
+"half3_trail": -0.8816,
+"hold": -0.8816,
+"half3_arm1.5": -0.8816,
+"half2_arm1.5": -0.8816,
+"half1.7_arm1.5": -0.8816,
+"half3_give0.5": -0.8816
+},
+"peak_5": 1.201,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "NFLX",
+"day": "2026-04-06",
+"expiry": "2026-04-10",
+"kind": "call",
+"spot": 102.58,
+"swing": null,
+"headline": "Goldman Sachs Upgrades Netflix to Buy, Raises Price Target to $120",
+"picks": {
+"d0.30": {
+"contract": "NFLX260410C00104000",
+"strike": 104.0,
+"delta": 0.332,
+"px": 0.68,
+"exits_10": {
+"trail2x": -0.7714,
+"trail1.5x": -0.7714,
+"trail1.6x": -0.7714,
+"trail2x_tight5x": -0.7714,
+"half2_trail": -0.7714,
+"half3_trail": -0.7714,
+"hold": -0.7714,
+"half3_arm1.5": -0.7714,
+"half2_arm1.5": -0.7714,
+"half1.7_arm1.5": -0.7714,
+"half3_give0.5": -0.7714
+},
+"peak_10": 0.758,
+"exits_5": {
+"trail2x": -0.7479,
+"trail1.5x": -0.7479,
+"trail1.6x": -0.7479,
+"trail2x_tight5x": -0.7479,
+"half2_trail": -0.7479,
+"half3_trail": -0.7479,
+"hold": -0.7479,
+"half3_arm1.5": -0.7479,
+"half2_arm1.5": -0.7479,
+"half1.7_arm1.5": -0.7479,
+"half3_give0.5": -0.7479
+},
+"peak_5": 0.838,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+}
+},
+"d0.45": {
+"contract": "NFLX260410C00103000",
+"strike": 103.0,
+"delta": 0.446,
+"px": 0.94,
+"exits_10": {
+"trail2x": -0.7563,
+"trail1.5x": -0.7563,
+"trail1.6x": -0.7563,
+"trail2x_tight5x": -0.7563,
+"half2_trail": -0.7563,
+"half3_trail": -0.7563,
+"hold": -0.7563,
+"half3_arm1.5": -0.7563,
+"half2_arm1.5": -0.7563,
+"half1.7_arm1.5": -0.7563,
+"half3_give0.5": -0.7563
+},
+"peak_10": 0.801,
+"exits_5": {
+"trail2x": -0.7305,
+"trail1.5x": -0.7305,
+"trail1.6x": -0.7305,
+"trail2x_tight5x": -0.7305,
+"half2_trail": -0.7305,
+"half3_trail": -0.7305,
+"hold": -0.7305,
+"half3_arm1.5": -0.7305,
+"half2_arm1.5": -0.7305,
+"half1.7_arm1.5": -0.7305,
+"half3_give0.5": -0.7305
+},
+"peak_5": 0.886,
+"carry_10": {
+"half2_arm1.5": -0.9903,
+"half3_arm1.5": -0.9903,
+"trail2x": -0.9903,
+"hold": -0.9903
+},
+"carry_5": {
+"half2_arm1.5": -0.9899,
+"half3_arm1.5": -0.9899,
+"trail2x": -0.9899,
+"hold": -0.9899
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "ANET",
+"day": "2026-04-07",
+"expiry": "2026-04-10",
+"kind": "call",
+"spot": 128.18,
+"swing": null,
+"headline": "Rosenblatt Upgrades Arista Networks to Buy, Raises Price Target to $180",
+"picks": {
+"d0.30": {
+"contract": "ANET260410C00133000",
+"strike": 133.0,
+"delta": 0.326,
+"px": 1.99,
+"exits_10": {
+"trail2x": 0.439,
+"trail1.5x": 0.439,
+"trail1.6x": 0.439,
+"trail2x_tight5x": 0.439,
+"half2_trail": 0.439,
+"half3_trail": 0.439,
+"hold": 0.439,
+"half3_arm1.5": 0.439,
+"half2_arm1.5": 0.439,
+"half1.7_arm1.5": 0.439,
+"half3_give0.5": 0.439
+},
+"peak_10": 1.439,
+"exits_5": {
+"trail2x": 0.5913,
+"trail1.5x": 0.5913,
+"trail1.6x": 0.5913,
+"trail2x_tight5x": 0.5913,
+"half2_trail": 0.5913,
+"half3_trail": 0.5913,
+"hold": 0.5913,
+"half3_arm1.5": 0.5913,
+"half2_arm1.5": 0.5913,
+"half1.7_arm1.5": 0.5913,
+"half3_give0.5": 0.5913
+},
+"peak_5": 1.591,
+"carry_10": {
+"half2_arm1.5": 4.7561,
+"half3_arm1.5": 4.7561,
+"trail2x": 5.3728,
+"hold": 5.3728
+},
+"carry_5": {
+"half2_arm1.5": 5.3652,
+"half3_arm1.5": 5.3652,
+"trail2x": 6.0471,
+"hold": 6.0471
+}
+},
+"d0.45": {
+"contract": "ANET260410C00130000",
+"strike": 130.0,
+"delta": 0.426,
+"px": 2.5,
+"exits_10": {
+"trail2x": 0.7182,
+"trail1.5x": 0.7182,
+"trail1.6x": 0.7182,
+"trail2x_tight5x": 0.7182,
+"half2_trail": 0.7182,
+"half3_trail": 0.7182,
+"hold": 0.7182,
+"half3_arm1.5": 0.7182,
+"half2_arm1.5": 0.7182,
+"half1.7_arm1.5": 0.7182,
+"half3_give0.5": 0.7182
+},
+"peak_10": 1.757,
+"exits_5": {
+"trail2x": 0.9,
+"trail1.5x": 0.9,
+"trail1.6x": 0.9,
+"trail2x_tight5x": 0.9,
+"half2_trail": 0.9,
+"half3_trail": 0.9,
+"hold": 0.9,
+"half3_arm1.5": 0.9,
+"half2_arm1.5": 0.9,
+"half1.7_arm1.5": 0.9,
+"half3_give0.5": 0.9
+},
+"peak_5": 1.943,
+"carry_10": {
+"half2_arm1.5": 4.5456,
+"half3_arm1.5": 4.5456,
+"trail2x": 5.1985,
+"hold": 5.1985
+},
+"carry_5": {
+"half2_arm1.5": 5.1325,
+"half3_arm1.5": 5.1325,
+"trail2x": 5.8545,
+"hold": 5.8545
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "ARM",
+"day": "2026-04-07",
+"expiry": "2026-04-10",
+"kind": "put",
+"spot": 143.72,
+"swing": null,
+"headline": "Morgan Stanley Downgrades ARM Holdings to Equal-Weight, Raises Price Target to $150",
+"picks": {
+"d0.30": {
+"contract": "ARM260410P00138000",
+"strike": 138.0,
+"delta": 0.29,
+"px": 2.15,
+"exits_10": {
+"trail2x": -0.315,
+"trail1.5x": -0.0106,
+"trail1.6x": -0.315,
+"trail2x_tight5x": -0.315,
+"half2_trail": -0.315,
+"half3_trail": -0.315,
+"hold": -0.315,
+"half3_arm1.5": -0.0106,
+"half2_arm1.5": -0.0106,
+"half1.7_arm1.5": -0.0106,
+"half3_give0.5": -0.315
+},
+"peak_10": 1.56,
+"exits_5": {
+"trail2x": -0.2425,
+"trail1.5x": 0.01,
+"trail1.6x": 0.01,
+"trail2x_tight5x": -0.2425,
+"half2_trail": -0.2425,
+"half3_trail": -0.2425,
+"hold": -0.2425,
+"half3_arm1.5": 0.01,
+"half2_arm1.5": 0.01,
+"half1.7_arm1.5": 0.3677,
+"half3_give0.5": -0.2425
+},
+"peak_5": 1.725,
+"carry_10": {
+"half2_arm1.5": -0.0106,
+"half3_arm1.5": -0.0106,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": 0.01,
+"half3_arm1.5": 0.01,
+"trail2x": -1.0,
+"hold": -1.0
+}
+},
+"d0.45": {
+"contract": "ARM260410P00143000",
+"strike": 143.0,
+"delta": 0.458,
+"px": 3.9,
+"exits_10": {
+"trail2x": -0.2133,
+"trail1.5x": -0.1378,
+"trail1.6x": -0.2133,
+"trail2x_tight5x": -0.2133,
+"half2_trail": -0.2133,
+"half3_trail": -0.2133,
+"hold": -0.2133,
+"half3_arm1.5": -0.1378,
+"half2_arm1.5": -0.1378,
+"half1.7_arm1.5": -0.1378,
+"half3_give0.5": -0.2133
+},
+"peak_10": 1.552,
+"exits_5": {
+"trail2x": -0.13,
+"trail1.5x": -0.0465,
+"trail1.6x": -0.0465,
+"trail2x_tight5x": -0.13,
+"half2_trail": -0.13,
+"half3_trail": -0.13,
+"hold": -0.13,
+"half3_arm1.5": -0.0465,
+"half2_arm1.5": -0.0465,
+"half1.7_arm1.5": 0.3351,
+"half3_give0.5": -0.13
+},
+"peak_5": 1.717,
+"carry_10": {
+"half2_arm1.5": -0.1378,
+"half3_arm1.5": -0.1378,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -0.0465,
+"half3_arm1.5": -0.0465,
+"trail2x": -1.0,
+"hold": -1.0
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "AVGO",
+"day": "2026-04-08",
+"expiry": "2026-04-08",
+"kind": "put",
+"spot": 349.87,
+"swing": null,
+"headline": "Seaport Global Downgrades Broadcom to Neutral",
+"picks": {
+"d0.30": {
+"contract": "AVGO260408P00347500",
+"strike": 347.5,
+"delta": 0.334,
+"px": 1.26,
+"exits_10": {
+"trail2x": 0.7792,
+"trail1.5x": 0.7792,
+"trail1.6x": 0.7792,
+"trail2x_tight5x": 0.7792,
+"half2_trail": 1.1006,
+"half3_trail": 1.5649,
+"hold": -0.9928,
+"half3_arm1.5": 1.5649,
+"half2_arm1.5": 1.1006,
+"half1.7_arm1.5": 0.776,
+"half3_give0.5": 1.487
+},
+"peak_10": 3.351,
+"exits_5": {
+"trail2x": 0.9675,
+"trail1.5x": 0.9675,
+"trail1.6x": 0.9675,
+"trail2x_tight5x": 0.9675,
+"half2_trail": 1.007,
+"half3_trail": 1.5455,
+"hold": -0.9924,
+"half3_arm1.5": 1.5455,
+"half2_arm1.5": 1.007,
+"half1.7_arm1.5": 0.8598,
+"half3_give0.5": 1.4594
+},
+"peak_5": 3.705
+},
+"d0.45": {
+"contract": "AVGO260408P00350000",
+"strike": 350.0,
+"delta": 0.507,
+"px": 2.14,
+"exits_10": {
+"trail2x": 0.1661,
+"trail1.5x": 0.1661,
+"trail1.6x": 0.1661,
+"trail2x_tight5x": 0.1661,
+"half2_trail": 0.6115,
+"half3_trail": 0.1661,
+"hold": -0.935,
+"half3_arm1.5": 0.1661,
+"half2_arm1.5": 0.6115,
+"half1.7_arm1.5": 0.4911,
+"half3_give0.5": 0.0552
+},
+"peak_10": 2.275,
+"exits_5": {
+"trail2x": 0.2895,
+"trail1.5x": 0.2895,
+"trail1.6x": 0.2895,
+"trail2x_tight5x": 0.2895,
+"half2_trail": 0.6489,
+"half3_trail": 0.2895,
+"hold": -0.9288,
+"half3_arm1.5": 0.2895,
+"half2_arm1.5": 0.6489,
+"half1.7_arm1.5": 0.5537,
+"half3_give0.5": 0.1669
+},
+"peak_5": 2.516
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "COIN",
+"day": "2026-04-08",
+"expiry": "2026-04-10",
+"kind": "put",
+"spot": 186.79,
+"swing": null,
+"headline": "Barclays Downgrades Coinbase Global to Underweight, Lowers Price Target to $140",
+"picks": {
+"d0.30": {
+"contract": "COIN260410P00180000",
+"strike": 180.0,
+"delta": 0.277,
+"px": 2.18,
+"exits_10": {
+"trail2x": 1.5521,
+"trail1.5x": 1.5521,
+"trail1.6x": 1.5521,
+"trail2x_tight5x": 1.5521,
+"half2_trail": 1.3457,
+"half3_trail": 1.8092,
+"hold": 1.5521,
+"half3_arm1.5": 1.8092,
+"half2_arm1.5": 1.3457,
+"half1.7_arm1.5": 1.1768,
+"half3_give0.5": 1.8092
+},
+"peak_10": 3.066,
+"exits_5": {
+"trail2x": 1.8222,
+"trail1.5x": 1.8222,
+"trail1.6x": 1.8222,
+"trail2x_tight5x": 1.8222,
+"half2_trail": 1.4383,
+"half3_trail": 1.9509,
+"hold": 1.8222,
+"half3_arm1.5": 1.9509,
+"half2_arm1.5": 1.4383,
+"half1.7_arm1.5": 1.2723,
+"half3_give0.5": 1.9509
+},
+"peak_5": 3.391,
+"carry_10": {
+"half2_arm1.5": 1.3739,
+"half3_arm1.5": 1.8374,
+"trail2x": 1.6084,
+"hold": 3.6914
+},
+"carry_5": {
+"half2_arm1.5": 1.4694,
+"half3_arm1.5": 1.982,
+"trail2x": 1.8844,
+"hold": 4.1879
+}
+},
+"d0.45": {
+"contract": "COIN260410P00185000",
+"strike": 185.0,
+"delta": 0.429,
+"px": 4.06,
+"exits_10": {
+"trail2x": 1.2248,
+"trail1.5x": 1.2248,
+"trail1.6x": 1.2248,
+"trail2x_tight5x": 1.2248,
+"half2_trail": 1.1754,
+"half3_trail": 1.2248,
+"hold": 1.2248,
+"half3_arm1.5": 1.2248,
+"half2_arm1.5": 1.1754,
+"half1.7_arm1.5": 0.9689,
+"half3_give0.5": 1.2248
+},
+"peak_10": 2.418,
+"exits_5": {
+"trail2x": 1.4602,
+"trail1.5x": 1.4602,
+"trail1.6x": 1.4602,
+"trail2x_tight5x": 1.4602,
+"half2_trail": 1.2786,
+"half3_trail": 1.4602,
+"hold": 1.4602,
+"half3_arm1.5": 1.4602,
+"half2_arm1.5": 1.2786,
+"half1.7_arm1.5": 1.087,
+"half3_give0.5": 1.4602
+},
+"peak_5": 2.674,
+"carry_10": {
+"half2_arm1.5": 1.8455,
+"half3_arm1.5": 2.2939,
+"trail2x": 2.5649,
+"hold": 2.5649
+},
+"carry_5": {
+"half2_arm1.5": 2.0196,
+"half3_arm1.5": 2.6424,
+"trail2x": 2.9422,
+"hold": 2.9422
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "TSLA",
+"day": "2026-04-14",
+"expiry": "2026-04-15",
+"kind": "call",
+"spot": 360.97,
+"swing": null,
+"headline": "UBS Upgrades Tesla to Neutral, Maintains Price Target to $352",
+"picks": {
+"d0.30": {
+"contract": "TSLA260415C00365000",
+"strike": 365.0,
+"delta": 0.322,
+"px": 1.75,
+"exits_10": {
+"trail2x": 0.4727,
+"trail1.5x": 0.4727,
+"trail1.6x": 0.4727,
+"trail2x_tight5x": 0.4727,
+"half2_trail": 0.7392,
+"half3_trail": 0.4727,
+"hold": 0.426,
+"half3_arm1.5": 0.4727,
+"half2_arm1.5": 0.7392,
+"half1.7_arm1.5": 0.613,
+"half3_give0.5": 0.2249
+},
+"peak_10": 2.455,
+"exits_5": {
+"trail2x": 0.6286,
+"trail1.5x": 0.6286,
+"trail1.6x": 0.6286,
+"trail2x_tight5x": 0.6286,
+"half2_trail": 0.8147,
+"half3_trail": 0.6286,
+"hold": 0.5769,
+"half3_arm1.5": 0.6286,
+"half2_arm1.5": 0.8147,
+"half1.7_arm1.5": 0.6751,
+"half3_give0.5": 0.3546
+},
+"peak_5": 2.714,
+"carry_10": {
+"half2_arm1.5": 0.7392,
+"half3_arm1.5": 0.4727,
+"trail2x": 0.4727,
+"hold": 12.6052
+},
+"carry_5": {
+"half2_arm1.5": 0.8147,
+"half3_arm1.5": 0.6286,
+"trail2x": 0.6286,
+"hold": 14.0449
+}
+},
+"d0.45": {
+"contract": "TSLA260415C00362500",
+"strike": 362.5,
+"delta": 0.432,
+"px": 2.61,
+"exits_10": {
+"trail2x": 0.2853,
+"trail1.5x": 0.2853,
+"trail1.6x": 0.2853,
+"trail2x_tight5x": 0.2853,
+"half2_trail": 0.6442,
+"half3_trail": 0.2853,
+"hold": 0.4107,
+"half3_arm1.5": 0.2853,
+"half2_arm1.5": 0.6442,
+"half1.7_arm1.5": 0.5047,
+"half3_give0.5": 0.4107
+},
+"peak_10": 2.163,
+"exits_5": {
+"trail2x": 0.4213,
+"trail1.5x": 0.4213,
+"trail1.6x": 0.4213,
+"trail2x_tight5x": 0.4213,
+"half2_trail": 0.7159,
+"half3_trail": 0.4213,
+"hold": 0.5599,
+"half3_arm1.5": 0.4213,
+"half2_arm1.5": 0.7159,
+"half1.7_arm1.5": 0.6033,
+"half3_give0.5": 0.5599
+},
+"peak_5": 2.392,
+"carry_10": {
+"half2_arm1.5": 0.6442,
+"half3_arm1.5": 0.2853,
+"trail2x": 0.2853,
+"hold": 9.0313
+},
+"carry_5": {
+"half2_arm1.5": 0.7159,
+"half3_arm1.5": 0.4213,
+"trail2x": 0.4213,
+"hold": 10.0929
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "TSLA",
+"day": "2026-06-05",
+"expiry": "2026-06-05",
+"kind": "call",
+"spot": 423.69,
+"swing": null,
+"headline": "JP Morgan Upgrades Tesla to Neutral, Raises Price Target to $475",
+"picks": {
+"d0.30": {
+"contract": "TSLA260605C00430000",
+"strike": 430.0,
+"delta": 0.264,
+"px": 1.54,
+"exits_10": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_10": 0.781,
+"exits_5": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_5": 0.864
+},
+"d0.45": {
+"contract": "TSLA260605C00425000",
+"strike": 425.0,
+"delta": 0.447,
+"px": 2.98,
+"exits_10": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_10": 0.777,
+"exits_5": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_5": 0.859
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "ADBE",
+"day": "2026-06-12",
+"expiry": "2026-06-12",
+"kind": "put",
+"spot": 202.12,
+"swing": null,
+"headline": "Stifel Downgrades Adobe to Hold, Lowers Price Target to $200",
+"picks": {
+"d0.30": {
+"contract": "ADBE260612P00197500",
+"strike": 197.5,
+"delta": 0.288,
+"px": 1.6,
+"exits_10": {
+"trail2x": -1.0,
+"trail1.5x": -0.1307,
+"trail1.6x": -0.1307,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -0.1307,
+"half2_arm1.5": -0.1307,
+"half1.7_arm1.5": -0.1307,
+"half3_give0.5": -1.0
+},
+"peak_10": 1.647,
+"exits_5": {
+"trail2x": -1.0,
+"trail1.5x": -0.0387,
+"trail1.6x": -0.0387,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -0.0387,
+"half2_arm1.5": -0.0387,
+"half1.7_arm1.5": 0.3911,
+"half3_give0.5": -1.0
+},
+"peak_5": 1.821
+},
+"d0.45": {
+"contract": "ADBE260612P00200000",
+"strike": 200.0,
+"delta": 0.4,
+"px": 2.7,
+"exits_10": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_10": 1.455,
+"exits_5": {
+"trail2x": -1.0,
+"trail1.5x": -0.0785,
+"trail1.6x": -0.0785,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -0.0785,
+"half2_arm1.5": -0.0785,
+"half1.7_arm1.5": -0.0785,
+"half3_give0.5": -1.0
+},
+"peak_5": 1.608
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "META",
+"day": "2026-07-07",
+"expiry": "2026-07-08",
+"kind": "call",
+"spot": 608.37,
+"swing": null,
+"headline": "Erste Group Upgrades Meta Platforms to Buy",
+"picks": {
+"d0.30": {
+"contract": "META260708C00620000",
+"strike": 620.0,
+"delta": 0.292,
+"px": 3.7,
+"exits_10": {
+"trail2x": 0.2405,
+"trail1.5x": 0.2405,
+"trail1.6x": 0.2405,
+"trail2x_tight5x": 0.2405,
+"half2_trail": 0.6419,
+"half3_trail": 0.2405,
+"hold": -0.1265,
+"half3_arm1.5": 0.2405,
+"half2_arm1.5": 0.6419,
+"half1.7_arm1.5": 0.4982,
+"half3_give0.5": 0.0283
+},
+"peak_10": 2.079,
+"exits_5": {
+"trail2x": 0.3718,
+"trail1.5x": 0.3718,
+"trail1.6x": 0.3718,
+"trail2x_tight5x": 0.3718,
+"half2_trail": 0.8156,
+"half3_trail": 0.3718,
+"hold": -0.0341,
+"half3_arm1.5": 0.3718,
+"half2_arm1.5": 0.8156,
+"half1.7_arm1.5": 0.6102,
+"half3_give0.5": 0.1371
+},
+"peak_5": 2.299,
+"carry_10": {
+"half2_arm1.5": 0.6419,
+"half3_arm1.5": 0.2405,
+"trail2x": 0.2405,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": 0.8156,
+"half3_arm1.5": 0.3718,
+"trail2x": 0.3718,
+"hold": -1.0
+}
+},
+"d0.45": {
+"contract": "META260708C00612500",
+"strike": 612.5,
+"delta": 0.43,
+"px": 6.65,
+"exits_10": {
+"trail2x": -0.0871,
+"trail1.5x": 0.0827,
+"trail1.6x": 0.0827,
+"trail2x_tight5x": -0.0871,
+"half2_trail": -0.0871,
+"half3_trail": -0.0871,
+"hold": -0.0871,
+"half3_arm1.5": 0.0827,
+"half2_arm1.5": 0.0827,
+"half1.7_arm1.5": 0.41,
+"half3_give0.5": -0.0871
+},
+"peak_10": 1.809,
+"exits_5": {
+"trail2x": 0.0095,
+"trail1.5x": 0.1973,
+"trail1.6x": 0.1973,
+"trail2x_tight5x": 0.0095,
+"half2_trail": 0.0095,
+"half3_trail": 0.0095,
+"hold": 0.0095,
+"half3_arm1.5": 0.1973,
+"half2_arm1.5": 0.1973,
+"half1.7_arm1.5": 0.4728,
+"half3_give0.5": 0.0095
+},
+"peak_5": 2.0,
+"carry_10": {
+"half2_arm1.5": 0.0827,
+"half3_arm1.5": 0.0827,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": 0.1973,
+"half3_arm1.5": 0.1973,
+"trail2x": -1.0,
+"hold": -1.0
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "CRM",
+"day": "2026-07-09",
+"expiry": "2026-07-10",
+"kind": "put",
+"spot": 157.21,
+"swing": null,
+"headline": "Keybanc Downgrades Salesforce to Sector Weight",
+"picks": {
+"d0.30": {
+"contract": "CRM260710P00155000",
+"strike": 155.0,
+"delta": 0.329,
+"px": 1.15,
+"exits_10": {
+"trail2x": -0.9368,
+"trail1.5x": -0.9368,
+"trail1.6x": -0.9368,
+"trail2x_tight5x": -0.9368,
+"half2_trail": -0.9368,
+"half3_trail": -0.9368,
+"hold": -0.9368,
+"half3_arm1.5": -0.9368,
+"half2_arm1.5": -0.9368,
+"half1.7_arm1.5": -0.9368,
+"half3_give0.5": -0.9368
+},
+"peak_10": 0.818,
+"exits_5": {
+"trail2x": -0.9337,
+"trail1.5x": -0.9337,
+"trail1.6x": -0.9337,
+"trail2x_tight5x": -0.9337,
+"half2_trail": -0.9337,
+"half3_trail": -0.9337,
+"hold": -0.9337,
+"half3_arm1.5": -0.9337,
+"half2_arm1.5": -0.9337,
+"half1.7_arm1.5": -0.9337,
+"half3_give0.5": -0.9337
+},
+"peak_5": 0.905,
+"carry_10": {
+"half2_arm1.5": -0.9921,
+"half3_arm1.5": -0.9921,
+"trail2x": -0.9921,
+"hold": -0.9921
+},
+"carry_5": {
+"half2_arm1.5": -0.9917,
+"half3_arm1.5": -0.9917,
+"trail2x": -0.9917,
+"hold": -0.9917
+}
+},
+"d0.45": {
+"contract": "CRM260710P00157500",
+"strike": 157.5,
+"delta": 0.517,
+"px": 2.16,
+"exits_10": {
+"trail2x": -0.9242,
+"trail1.5x": -0.9242,
+"trail1.6x": -0.9242,
+"trail2x_tight5x": -0.9242,
+"half2_trail": -0.9242,
+"half3_trail": -0.9242,
+"hold": -0.9242,
+"half3_arm1.5": -0.9242,
+"half2_arm1.5": -0.9242,
+"half1.7_arm1.5": -0.9242,
+"half3_give0.5": -0.9242
+},
+"peak_10": 0.489,
+"exits_5": {
+"trail2x": -0.9162,
+"trail1.5x": -0.9162,
+"trail1.6x": -0.9162,
+"trail2x_tight5x": -0.9162,
+"half2_trail": -0.9162,
+"half3_trail": -0.9162,
+"hold": -0.9162,
+"half3_arm1.5": -0.9162,
+"half2_arm1.5": -0.9162,
+"half1.7_arm1.5": -0.9162,
+"half3_give0.5": -0.9162
+},
+"peak_5": 0.54,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "STX",
+"day": "2026-07-10",
+"expiry": "2026-07-10",
+"kind": "call",
+"spot": 879.75,
+"swing": null,
+"headline": "Wells Fargo Upgrades Seagate Technology Hldgs to Overweight, Raises Price Target to $1100",
+"picks": {
+"d0.30": {
+"contract": "STX260710C00900000",
+"strike": 900.0,
+"delta": 0.333,
+"px": 9.4,
+"exits_10": {
+"trail2x": 0.1315,
+"trail1.5x": -0.0426,
+"trail1.6x": -0.0426,
+"trail2x_tight5x": 0.1315,
+"half2_trail": 0.6116,
+"half3_trail": 0.1315,
+"hold": -0.0426,
+"half3_arm1.5": -0.0426,
+"half2_arm1.5": -0.0426,
+"half1.7_arm1.5": 0.3317,
+"half3_give0.5": -0.0426
+},
+"peak_10": 2.193,
+"exits_5": {
+"trail2x": 0.0588,
+"trail1.5x": 0.0588,
+"trail1.6x": 0.0588,
+"trail2x_tight5x": 0.0588,
+"half2_trail": 0.5448,
+"half3_trail": 0.0588,
+"hold": 0.0588,
+"half3_arm1.5": 0.0588,
+"half2_arm1.5": 0.5448,
+"half1.7_arm1.5": 0.4678,
+"half3_give0.5": 0.0588
+},
+"peak_5": 2.426
+},
+"d0.45": {
+"contract": "STX260710C00885000",
+"strike": 885.0,
+"delta": 0.468,
+"px": 16.73,
+"exits_10": {
+"trail2x": 0.4989,
+"trail1.5x": 0.4989,
+"trail1.6x": 0.4989,
+"trail2x_tight5x": 0.4989,
+"half2_trail": 0.4989,
+"half3_trail": 0.4989,
+"hold": 0.4989,
+"half3_arm1.5": 0.4989,
+"half2_arm1.5": 0.4989,
+"half1.7_arm1.5": 0.695,
+"half3_give0.5": 0.4989
+},
+"peak_10": 1.891,
+"exits_5": {
+"trail2x": 0.6576,
+"trail1.5x": 0.6576,
+"trail1.6x": 0.6576,
+"trail2x_tight5x": 0.6576,
+"half2_trail": 0.8744,
+"half3_trail": 0.6576,
+"hold": 0.6576,
+"half3_arm1.5": 0.6576,
+"half2_arm1.5": 0.8744,
+"half1.7_arm1.5": 0.8744,
+"half3_give0.5": 0.6576
+},
+"peak_5": 2.091
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "AAPL",
+"day": "2026-07-14",
+"expiry": "2026-07-15",
+"kind": "put",
+"spot": 312.83,
+"swing": null,
+"headline": "Keybanc Downgrades Apple to Underweight, Announces $250 Price Target",
+"picks": {
+"d0.30": {
+"contract": "AAPL260715P00310000",
+"strike": 310.0,
+"delta": 0.304,
+"px": 1.1,
+"exits_10": {
+"trail2x": -0.7992,
+"trail1.5x": -0.7992,
+"trail1.6x": -0.7992,
+"trail2x_tight5x": -0.7992,
+"half2_trail": -0.7992,
+"half3_trail": -0.7992,
+"hold": -0.7992,
+"half3_arm1.5": -0.7992,
+"half2_arm1.5": -0.7992,
+"half1.7_arm1.5": -0.7992,
+"half3_give0.5": -0.7992
+},
+"peak_10": 0.885,
+"exits_5": {
+"trail2x": -0.7779,
+"trail1.5x": -0.7779,
+"trail1.6x": -0.7779,
+"trail2x_tight5x": -0.7779,
+"half2_trail": -0.7779,
+"half3_trail": -0.7779,
+"hold": -0.7779,
+"half3_arm1.5": -0.7779,
+"half2_arm1.5": -0.7779,
+"half1.7_arm1.5": -0.7779,
+"half3_give0.5": -0.7779
+},
+"peak_5": 0.979,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+}
+},
+"d0.45": {
+"contract": "AAPL260715P00312500",
+"strike": 312.5,
+"delta": 0.472,
+"px": 1.93,
+"exits_10": {
+"trail2x": -0.7329,
+"trail1.5x": -0.7329,
+"trail1.6x": -0.7329,
+"trail2x_tight5x": -0.7329,
+"half2_trail": -0.7329,
+"half3_trail": -0.7329,
+"hold": -0.7329,
+"half3_arm1.5": -0.7329,
+"half2_arm1.5": -0.7329,
+"half1.7_arm1.5": -0.7329,
+"half3_give0.5": -0.7329
+},
+"peak_10": 0.89,
+"exits_5": {
+"trail2x": -0.7047,
+"trail1.5x": -0.7047,
+"trail1.6x": -0.7047,
+"trail2x_tight5x": -0.7047,
+"half2_trail": -0.7047,
+"half3_trail": -0.7047,
+"hold": -0.7047,
+"half3_arm1.5": -0.7047,
+"half2_arm1.5": -0.7047,
+"half1.7_arm1.5": -0.7047,
+"half3_give0.5": -0.7047
+},
+"peak_5": 0.984,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "PLTR",
+"day": "2026-08-04",
+"expiry": "2026-08-07",
+"kind": "call",
+"spot": 146.63,
+"swing": null,
+"headline": "Deutsche Bank Upgrades Palantir Technologies to Buy, Maintains Price Target to $200",
+"picks": {
+"d0.30": {
+"contract": "PLTR260807C00155000",
+"strike": 155.0,
+"delta": 0.289,
+"px": 2.33,
+"exits_10": {
+"trail2x": 2.4062,
+"trail1.5x": 2.4062,
+"trail1.6x": 2.4062,
+"trail2x_tight5x": 2.4062,
+"half2_trail": 1.7583,
+"half3_trail": 2.2043,
+"hold": 2.4062,
+"half3_arm1.5": 2.2043,
+"half2_arm1.5": 1.7583,
+"half1.7_arm1.5": 1.5581,
+"half3_give0.5": 2.2043
+},
+"peak_10": 3.782,
+"exits_5": {
+"trail2x": 2.7666,
+"trail1.5x": 2.7666,
+"trail1.6x": 2.7666,
+"trail2x_tight5x": 2.7666,
+"half2_trail": 1.8871,
+"half3_trail": 2.4074,
+"hold": 2.7666,
+"half3_arm1.5": 2.4074,
+"half2_arm1.5": 1.8871,
+"half1.7_arm1.5": 1.8288,
+"half3_give0.5": 2.4074
+},
+"peak_5": 4.182,
+"carry_10": {
+"half2_arm1.5": 1.2579,
+"half3_arm1.5": 1.7039,
+"trail2x": 1.4054,
+"hold": 4.7343
+},
+"carry_5": {
+"half2_arm1.5": 1.3337,
+"half3_arm1.5": 1.8541,
+"trail2x": 1.6599,
+"hold": 5.3411
+}
+},
+"d0.45": {
+"contract": "PLTR260807C00149000",
+"strike": 149.0,
+"delta": 0.454,
+"px": 4.65,
+"exits_10": {
+"trail2x": 1.5689,
+"trail1.5x": 1.5689,
+"trail1.6x": 1.5689,
+"trail2x_tight5x": 1.5689,
+"half2_trail": 1.2962,
+"half3_trail": 1.5689,
+"hold": 1.5689,
+"half3_arm1.5": 1.5689,
+"half2_arm1.5": 1.2962,
+"half1.7_arm1.5": 1.1405,
+"half3_give0.5": 1.5689
+},
+"peak_10": 2.77,
+"exits_5": {
+"trail2x": 1.8408,
+"trail1.5x": 1.8408,
+"trail1.6x": 1.8408,
+"trail2x_tight5x": 1.8408,
+"half2_trail": 1.4302,
+"half3_trail": 1.9283,
+"hold": 1.8408,
+"half3_arm1.5": 1.9283,
+"half2_arm1.5": 1.4302,
+"half1.7_arm1.5": 1.296,
+"half3_give0.5": 1.9283
+},
+"peak_5": 3.063,
+"carry_10": {
+"half2_arm1.5": 0.8695,
+"half3_arm1.5": 0.7155,
+"trail2x": 0.7155,
+"hold": 2.9413
+},
+"carry_5": {
+"half2_arm1.5": 0.9584,
+"half3_arm1.5": 1.4565,
+"trail2x": 0.8971,
+"hold": 3.3584
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "AAPL",
+"day": "2026-08-10",
+"expiry": "2026-08-10",
+"kind": "put",
+"spot": 305.44,
+"swing": null,
+"headline": "Jefferies Downgrades Apple to Underperform, Lowers Price Target to $263.66",
+"picks": {
+"d0.30": {
+"contract": "AAPL260810P00302500",
+"strike": 302.5,
+"delta": 0.255,
+"px": 0.7,
+"exits_10": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_10": 0.69,
+"exits_5": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_5": 0.763
+},
+"d0.45": {
+"contract": "AAPL260810P00305000",
+"strike": 305.0,
+"delta": 0.458,
+"px": 1.56,
+"exits_10": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_10": 0.719,
+"exits_5": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_5": 0.795
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "META",
+"day": "2026-08-25",
+"expiry": "2026-08-26",
+"kind": "call",
+"spot": 566.86,
+"swing": null,
+"headline": "Meta Platforms Rolls Out New Account Security Features For WhatsApp; Upgrades Two-Step Sec",
+"picks": {
+"d0.30": {
+"contract": "META260826C00575000",
+"strike": 575.0,
+"delta": 0.296,
+"px": 2.72,
+"exits_10": {
+"trail2x": -0.1908,
+"trail1.5x": -0.1908,
+"trail1.6x": -0.1908,
+"trail2x_tight5x": -0.1908,
+"half2_trail": -0.1908,
+"half3_trail": -0.1908,
+"hold": -0.1908,
+"half3_arm1.5": -0.1908,
+"half2_arm1.5": -0.1908,
+"half1.7_arm1.5": -0.1908,
+"half3_give0.5": -0.1908
+},
+"peak_10": 0.902,
+"exits_5": {
+"trail2x": -0.1052,
+"trail1.5x": -0.1052,
+"trail1.6x": -0.1052,
+"trail2x_tight5x": -0.1052,
+"half2_trail": -0.1052,
+"half3_trail": -0.1052,
+"hold": -0.1052,
+"half3_arm1.5": -0.1052,
+"half2_arm1.5": -0.1052,
+"half1.7_arm1.5": -0.1052,
+"half3_give0.5": -0.1052
+},
+"peak_5": 0.998,
+"carry_10": {
+"half2_arm1.5": 2.3825,
+"half3_arm1.5": 2.3825,
+"trail2x": 1.5388,
+"hold": -0.3713
+},
+"carry_5": {
+"half2_arm1.5": 2.7405,
+"half3_arm1.5": 2.7405,
+"trail2x": 1.8074,
+"hold": -0.3048
+}
+},
+"d0.45": {
+"contract": "META260826C00570000",
+"strike": 570.0,
+"delta": 0.417,
+"px": 4.23,
+"exits_10": {
+"trail2x": -0.0754,
+"trail1.5x": -0.0754,
+"trail1.6x": -0.0754,
+"trail2x_tight5x": -0.0754,
+"half2_trail": -0.0754,
+"half3_trail": -0.0754,
+"hold": -0.0754,
+"half3_arm1.5": -0.0754,
+"half2_arm1.5": -0.0754,
+"half1.7_arm1.5": -0.0754,
+"half3_give0.5": -0.0754
+},
+"peak_10": 0.967,
+"exits_5": {
+"trail2x": 0.0224,
+"trail1.5x": 0.0224,
+"trail1.6x": 0.0224,
+"trail2x_tight5x": 0.0224,
+"half2_trail": 0.0224,
+"half3_trail": 0.0224,
+"hold": 0.0224,
+"half3_arm1.5": 0.0224,
+"half2_arm1.5": 0.0224,
+"half1.7_arm1.5": 0.0224,
+"half3_give0.5": 0.0224
+},
+"peak_5": 1.069,
+"carry_10": {
+"half2_arm1.5": 2.0,
+"half3_arm1.5": 2.0,
+"trail2x": 1.3733,
+"hold": 0.2573
+},
+"carry_5": {
+"half2_arm1.5": 2.3175,
+"half3_arm1.5": 2.3175,
+"trail2x": 1.6245,
+"hold": 0.3903
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "META",
+"day": "2026-09-10",
+"expiry": "2026-09-11",
+"kind": "call",
+"spot": 653.81,
+"swing": null,
+"headline": "JP Morgan Upgrades Meta Platforms to Overweight, Raises Price Target to $820",
+"picks": {
+"d0.30": {
+"contract": "META260911C00667500",
+"strike": 667.5,
+"delta": 0.299,
+"px": 4.62,
+"exits_10": {
+"trail2x": -0.853,
+"trail1.5x": -0.853,
+"trail1.6x": -0.853,
+"trail2x_tight5x": -0.853,
+"half2_trail": -0.853,
+"half3_trail": -0.853,
+"hold": -0.853,
+"half3_arm1.5": -0.853,
+"half2_arm1.5": -0.853,
+"half1.7_arm1.5": -0.853,
+"half3_give0.5": -0.853
+},
+"peak_10": 0.992,
+"exits_5": {
+"trail2x": -0.8375,
+"trail1.5x": -0.8375,
+"trail1.6x": -0.8375,
+"trail2x_tight5x": -0.8375,
+"half2_trail": -0.8375,
+"half3_trail": -0.8375,
+"hold": -0.8375,
+"half3_arm1.5": -0.8375,
+"half2_arm1.5": -0.8375,
+"half1.7_arm1.5": -0.8375,
+"half3_give0.5": -0.8375
+},
+"peak_5": 1.097,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+}
+},
+"d0.45": {
+"contract": "META260911C00657500",
+"strike": 657.5,
+"delta": 0.45,
+"px": 8.46,
+"exits_10": {
+"trail2x": -0.793,
+"trail1.5x": -0.793,
+"trail1.6x": -0.793,
+"trail2x_tight5x": -0.793,
+"half2_trail": -0.793,
+"half3_trail": -0.793,
+"hold": -0.793,
+"half3_arm1.5": -0.793,
+"half2_arm1.5": -0.793,
+"half1.7_arm1.5": -0.793,
+"half3_give0.5": -0.793
+},
+"peak_10": 0.964,
+"exits_5": {
+"trail2x": -0.7711,
+"trail1.5x": -0.7711,
+"trail1.6x": -0.7711,
+"trail2x_tight5x": -0.7711,
+"half2_trail": -0.7711,
+"half3_trail": -0.7711,
+"hold": -0.7711,
+"half3_arm1.5": -0.7711,
+"half2_arm1.5": -0.7711,
+"half1.7_arm1.5": -0.7711,
+"half3_give0.5": -0.7711
+},
+"peak_5": 1.066,
+"carry_10": {
+"half2_arm1.5": -0.9989,
+"half3_arm1.5": -0.9989,
+"trail2x": -0.9989,
+"hold": -0.9989
+},
+"carry_5": {
+"half2_arm1.5": -0.9989,
+"half3_arm1.5": -0.9989,
+"trail2x": -0.9989,
+"hold": -0.9989
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "COIN",
+"day": "2026-09-14",
+"expiry": "2026-09-18",
+"kind": "call",
+"spot": 184.81,
+"swing": null,
+"headline": "Compass Point Upgrades Coinbase Global to Neutral, Raises Price Target to $177",
+"picks": {
+"d0.30": {
+"contract": "COIN260918C00197500",
+"strike": 197.5,
+"delta": 0.291,
+"px": 3.5,
+"exits_10": {
+"trail2x": 0.1875,
+"trail1.5x": 0.1875,
+"trail1.6x": 0.1875,
+"trail2x_tight5x": 0.1875,
+"half2_trail": 0.1875,
+"half3_trail": 0.1875,
+"hold": 0.1875,
+"half3_arm1.5": 0.1875,
+"half2_arm1.5": 0.1875,
+"half1.7_arm1.5": 0.1875,
+"half3_give0.5": 0.1875
+},
+"peak_10": 1.332,
+"exits_5": {
+"trail2x": 0.3132,
+"trail1.5x": 0.3132,
+"trail1.6x": 0.3132,
+"trail2x_tight5x": 0.3132,
+"half2_trail": 0.3132,
+"half3_trail": 0.3132,
+"hold": 0.3132,
+"half3_arm1.5": 0.3132,
+"half2_arm1.5": 0.3132,
+"half1.7_arm1.5": 0.3132,
+"half3_give0.5": 0.3132
+},
+"peak_5": 1.473,
+"carry_10": {
+"half2_arm1.5": -0.9922,
+"half3_arm1.5": -0.9922,
+"trail2x": -0.9922,
+"hold": -0.9922
+},
+"carry_5": {
+"half2_arm1.5": -0.9918,
+"half3_arm1.5": -0.9918,
+"trail2x": -0.9918,
+"hold": -0.9918
+}
+},
+"d0.45": {
+"contract": "COIN260918C00187500",
+"strike": 187.5,
+"delta": 0.472,
+"px": 7.18,
+"exits_10": {
+"trail2x": 0.1053,
+"trail1.5x": 0.1053,
+"trail1.6x": 0.1053,
+"trail2x_tight5x": 0.1053,
+"half2_trail": 0.1053,
+"half3_trail": 0.1053,
+"hold": 0.1053,
+"half3_arm1.5": 0.1053,
+"half2_arm1.5": 0.1053,
+"half1.7_arm1.5": 0.1053,
+"half3_give0.5": 0.1053
+},
+"peak_10": 1.185,
+"exits_5": {
+"trail2x": 0.2223,
+"trail1.5x": 0.2223,
+"trail1.6x": 0.2223,
+"trail2x_tight5x": 0.2223,
+"half2_trail": 0.2223,
+"half3_trail": 0.2223,
+"hold": 0.2223,
+"half3_arm1.5": 0.2223,
+"half2_arm1.5": 0.2223,
+"half1.7_arm1.5": 0.2223,
+"half3_give0.5": 0.2223
+},
+"peak_5": 1.311,
+"carry_10": {
+"half2_arm1.5": -0.2878,
+"half3_arm1.5": -0.2878,
+"trail2x": -0.2878,
+"hold": -0.2878
+},
+"carry_5": {
+"half2_arm1.5": -0.2124,
+"half3_arm1.5": -0.2124,
+"trail2x": -0.2124,
+"hold": -0.2124
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "NFLX",
+"day": "2026-09-18",
+"expiry": "2026-09-18",
+"kind": "put",
+"spot": 70.45,
+"swing": null,
+"headline": "Wells Fargo Downgrades Netflix to Underweight, Lowers Price Target to $57",
+"picks": {
+"d0.30": {
+"contract": "NFLX260918P00069000",
+"strike": 69.0,
+"delta": 0.221,
+"px": 0.25,
+"exits_10": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_10": 0.687,
+"exits_5": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_5": 0.76
+},
+"d0.45": {
+"contract": "NFLX260918P00070000",
+"strike": 70.0,
+"delta": 0.402,
+"px": 0.56,
+"exits_10": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_10": 0.731,
+"exits_5": {
+"trail2x": -1.0,
+"trail1.5x": -1.0,
+"trail1.6x": -1.0,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -1.0,
+"half2_arm1.5": -1.0,
+"half1.7_arm1.5": -1.0,
+"half3_give0.5": -1.0
+},
+"peak_5": 0.808
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "MSFT",
+"day": "2026-09-23",
+"expiry": "2026-09-23",
+"kind": "call",
+"spot": 503.09,
+"swing": null,
+"headline": "Stifel Upgrades Microsoft to Buy, Raises Price Target to $575",
+"picks": {
+"d0.30": {
+"contract": "MSFT260923C00507500",
+"strike": 507.5,
+"delta": 0.238,
+"px": 0.85,
+"exits_10": {
+"trail2x": 0.0492,
+"trail1.5x": 0.0492,
+"trail1.6x": 0.0492,
+"trail2x_tight5x": 0.0492,
+"half2_trail": 0.7952,
+"half3_trail": 1.0647,
+"hold": -1.0,
+"half3_arm1.5": 1.0647,
+"half2_arm1.5": 0.7952,
+"half1.7_arm1.5": 0.7952,
+"half3_give0.5": 1.0647
+},
+"peak_10": 3.08,
+"exits_5": {
+"trail2x": 0.1602,
+"trail1.5x": 0.1602,
+"trail1.6x": 0.1602,
+"trail2x_tight5x": 0.1602,
+"half2_trail": 0.9852,
+"half3_trail": 1.2832,
+"hold": -1.0,
+"half3_arm1.5": 1.2832,
+"half2_arm1.5": 0.9852,
+"half1.7_arm1.5": 0.9852,
+"half3_give0.5": 1.2832
+},
+"peak_5": 3.406
+},
+"d0.45": {
+"contract": "MSFT260923C00505000",
+"strike": 505.0,
+"delta": 0.382,
+"px": 1.64,
+"exits_10": {
+"trail2x": -0.107,
+"trail1.5x": -0.107,
+"trail1.6x": -0.107,
+"trail2x_tight5x": -0.107,
+"half2_trail": 0.4817,
+"half3_trail": -0.107,
+"hold": -1.0,
+"half3_arm1.5": -0.107,
+"half2_arm1.5": 0.4817,
+"half1.7_arm1.5": 0.4817,
+"half3_give0.5": -0.107
+},
+"peak_10": 2.37,
+"exits_5": {
+"trail2x": -0.0125,
+"trail1.5x": -0.0125,
+"trail1.6x": -0.0125,
+"trail2x_tight5x": -0.0125,
+"half2_trail": 0.6385,
+"half3_trail": -0.0125,
+"hold": -1.0,
+"half3_arm1.5": -0.0125,
+"half2_arm1.5": 0.6385,
+"half1.7_arm1.5": 0.6385,
+"half3_give0.5": -0.0125
+},
+"peak_5": 2.62
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "NFLX",
+"day": "2026-09-29",
+"expiry": "2026-10-02",
+"kind": "call",
+"spot": 71,
+"swing": null,
+"headline": "Deutsche Bank Upgrades Netflix to Buy, Lowers Price Target to $95",
+"picks": {
+"d0.30": {
+"contract": "NFLX261002C00072000",
+"strike": 72.0,
+"delta": 0.337,
+"px": 0.5,
+"exits_10": {
+"trail2x": -0.4436,
+"trail1.5x": -0.4436,
+"trail1.6x": -0.4436,
+"trail2x_tight5x": -0.4436,
+"half2_trail": -0.4436,
+"half3_trail": -0.4436,
+"hold": -0.4436,
+"half3_arm1.5": -0.4436,
+"half2_arm1.5": -0.4436,
+"half1.7_arm1.5": -0.4436,
+"half3_give0.5": -0.4436
+},
+"peak_10": 1.015,
+"exits_5": {
+"trail2x": -0.3848,
+"trail1.5x": -0.3848,
+"trail1.6x": -0.3848,
+"trail2x_tight5x": -0.3848,
+"half2_trail": -0.3848,
+"half3_trail": -0.3848,
+"hold": -0.3848,
+"half3_arm1.5": -0.3848,
+"half2_arm1.5": -0.3848,
+"half1.7_arm1.5": -0.3848,
+"half3_give0.5": -0.3848
+},
+"peak_5": 1.122,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+}
+},
+"d0.45": {
+"contract": "NFLX261002C00071000",
+"strike": 71.0,
+"delta": 0.506,
+"px": 0.88,
+"exits_10": {
+"trail2x": -0.405,
+"trail1.5x": -0.405,
+"trail1.6x": -0.405,
+"trail2x_tight5x": -0.405,
+"half2_trail": -0.405,
+"half3_trail": -0.405,
+"hold": -0.405,
+"half3_arm1.5": -0.405,
+"half2_arm1.5": -0.405,
+"half1.7_arm1.5": -0.405,
+"half3_give0.5": -0.405
+},
+"peak_10": 0.976,
+"exits_5": {
+"trail2x": -0.342,
+"trail1.5x": -0.342,
+"trail1.6x": -0.342,
+"trail2x_tight5x": -0.342,
+"half2_trail": -0.342,
+"half3_trail": -0.342,
+"hold": -0.342,
+"half3_arm1.5": -0.342,
+"half2_arm1.5": -0.342,
+"half1.7_arm1.5": -0.342,
+"half3_give0.5": -0.342
+},
+"peak_5": 1.08,
+"carry_10": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": -1.0,
+"half3_arm1.5": -1.0,
+"trail2x": -1.0,
+"hold": -1.0
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "MSFT",
+"day": "2026-10-05",
+"expiry": "2026-10-05",
+"kind": "call",
+"spot": 528.1,
+"swing": null,
+"headline": "Melius Upgrades Microsoft to Buy With $665 Target on AI Security Demand",
+"picks": {
+"d0.30": {
+"contract": "MSFT261005C00532500",
+"strike": 532.5,
+"delta": 0.265,
+"px": 1.1,
+"exits_10": {
+"trail2x": -1.0,
+"trail1.5x": -0.1074,
+"trail1.6x": -0.1074,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -0.1074,
+"half2_arm1.5": -0.1074,
+"half1.7_arm1.5": -0.1074,
+"half3_give0.5": -1.0
+},
+"peak_10": 1.636,
+"exits_5": {
+"trail2x": -1.0,
+"trail1.5x": -0.013,
+"trail1.6x": -0.013,
+"trail2x_tight5x": -1.0,
+"half2_trail": -1.0,
+"half3_trail": -1.0,
+"hold": -1.0,
+"half3_arm1.5": -0.013,
+"half2_arm1.5": -0.013,
+"half1.7_arm1.5": 0.3983,
+"half3_give0.5": -1.0
+},
+"peak_5": 1.81
+},
+"d0.45": {
+"contract": "MSFT261005C00530000",
+"strike": 530.0,
+"delta": 0.388,
+"px": 1.77,
+"exits_10": {
+"trail2x": -0.9846,
+"trail1.5x": -0.0108,
+"trail1.6x": -0.0108,
+"trail2x_tight5x": -0.9846,
+"half2_trail": -0.9846,
+"half3_trail": -0.9846,
+"hold": -0.9846,
+"half3_arm1.5": -0.0108,
+"half2_arm1.5": -0.0108,
+"half1.7_arm1.5": -0.0108,
+"half3_give0.5": -0.9846
+},
+"peak_10": 1.636,
+"exits_5": {
+"trail2x": -0.9839,
+"trail1.5x": 0.0632,
+"trail1.6x": 0.0632,
+"trail2x_tight5x": -0.9839,
+"half2_trail": -0.9839,
+"half3_trail": -0.9839,
+"hold": -0.9839,
+"half3_arm1.5": 0.0632,
+"half2_arm1.5": 0.0632,
+"half1.7_arm1.5": 0.4364,
+"half3_give0.5": -0.9839
+},
+"peak_5": 1.81
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "PLTR",
+"day": "2026-10-08",
+"expiry": "2026-10-09",
+"kind": "call",
+"spot": 199.41,
+"swing": null,
+"headline": "Goldman Sachs Upgrades Palantir Technologies to Buy, Announces $230 Price Target",
+"picks": {
+"d0.30": {
+"contract": "PLTR261009C00205000",
+"strike": 205.0,
+"delta": 0.304,
+"px": 1.94,
+"exits_10": {
+"trail2x": -0.8735,
+"trail1.5x": -0.8735,
+"trail1.6x": -0.8735,
+"trail2x_tight5x": -0.8735,
+"half2_trail": -0.8735,
+"half3_trail": -0.8735,
+"hold": -0.8735,
+"half3_arm1.5": -0.8735,
+"half2_arm1.5": -0.8735,
+"half1.7_arm1.5": -0.8735,
+"half3_give0.5": -0.8735
+},
+"peak_10": 1.016,
+"exits_5": {
+"trail2x": -0.8601,
+"trail1.5x": -0.8601,
+"trail1.6x": -0.8601,
+"trail2x_tight5x": -0.8601,
+"half2_trail": -0.8601,
+"half3_trail": -0.8601,
+"hold": -0.8601,
+"half3_arm1.5": -0.8601,
+"half2_arm1.5": -0.8601,
+"half1.7_arm1.5": -0.8601,
+"half3_give0.5": -0.8601
+},
+"peak_5": 1.124,
+"carry_10": {
+"half2_arm1.5": 0.2399,
+"half3_arm1.5": 0.2399,
+"trail2x": 0.2399,
+"hold": 0.2399
+},
+"carry_5": {
+"half2_arm1.5": 0.3711,
+"half3_arm1.5": 0.3711,
+"trail2x": 0.3711,
+"hold": 0.3711
+}
+},
+"d0.45": {
+"contract": "PLTR261009C00200000",
+"strike": 200.0,
+"delta": 0.49,
+"px": 4.14,
+"exits_10": {
+"trail2x": -0.7292,
+"trail1.5x": -0.7292,
+"trail1.6x": -0.7292,
+"trail2x_tight5x": -0.7292,
+"half2_trail": -0.7292,
+"half3_trail": -0.7292,
+"hold": -0.7292,
+"half3_arm1.5": -0.7292,
+"half2_arm1.5": -0.7292,
+"half1.7_arm1.5": -0.7292,
+"half3_give0.5": -0.7292
+},
+"peak_10": 0.972,
+"exits_5": {
+"trail2x": -0.7006,
+"trail1.5x": -0.7006,
+"trail1.6x": -0.7006,
+"trail2x_tight5x": -0.7006,
+"half2_trail": -0.7006,
+"half3_trail": -0.7006,
+"hold": -0.7006,
+"half3_arm1.5": -0.7006,
+"half2_arm1.5": -0.7006,
+"half1.7_arm1.5": -0.7006,
+"half3_give0.5": -0.7006
+},
+"peak_5": 1.075,
+"carry_10": {
+"half2_arm1.5": 0.5613,
+"half3_arm1.5": 0.5613,
+"trail2x": 0.5613,
+"hold": 0.5613
+},
+"carry_5": {
+"half2_arm1.5": 0.7265,
+"half3_arm1.5": 0.7265,
+"trail2x": 0.7265,
+"hold": 0.7265
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "CRM",
+"day": "2026-10-12",
+"expiry": "2026-10-16",
+"kind": "call",
+"spot": 237.5,
+"swing": null,
+"headline": "B of A Securities Upgrades Salesforce to Buy, Raises Price Target to $285",
+"picks": {
+"d0.30": {
+"contract": "CRM261016C00245000",
+"strike": 245.0,
+"delta": 0.28,
+"px": 2.05,
+"exits_10": {
+"trail2x": -0.7206,
+"trail1.5x": -0.7206,
+"trail1.6x": -0.7206,
+"trail2x_tight5x": -0.7206,
+"half2_trail": -0.7206,
+"half3_trail": -0.7206,
+"hold": -0.7206,
+"half3_arm1.5": -0.7206,
+"half2_arm1.5": -0.7206,
+"half1.7_arm1.5": -0.7206,
+"half3_give0.5": -0.7206
+},
+"peak_10": 1.237,
+"exits_5": {
+"trail2x": -0.6911,
+"trail1.5x": -0.6911,
+"trail1.6x": -0.6911,
+"trail2x_tight5x": -0.6911,
+"half2_trail": -0.6911,
+"half3_trail": -0.6911,
+"hold": -0.6911,
+"half3_arm1.5": -0.6911,
+"half2_arm1.5": -0.6911,
+"half1.7_arm1.5": -0.6911,
+"half3_give0.5": -0.6911
+},
+"peak_5": 1.368,
+"carry_10": {
+"half2_arm1.5": -0.0022,
+"half3_arm1.5": -0.0022,
+"trail2x": 0.2652,
+"hold": -0.9956
+},
+"carry_5": {
+"half2_arm1.5": 0.1034,
+"half3_arm1.5": 0.1034,
+"trail2x": 0.3991,
+"hold": -0.9954
+}
+},
+"d0.45": {
+"contract": "CRM261016C00240000",
+"strike": 240.0,
+"delta": 0.428,
+"px": 3.7,
+"exits_10": {
+"trail2x": -0.6329,
+"trail1.5x": -0.6329,
+"trail1.6x": -0.6329,
+"trail2x_tight5x": -0.6329,
+"half2_trail": -0.6329,
+"half3_trail": -0.6329,
+"hold": -0.6329,
+"half3_arm1.5": -0.6329,
+"half2_arm1.5": -0.6329,
+"half1.7_arm1.5": -0.6329,
+"half3_give0.5": -0.6329
+},
+"peak_10": 1.106,
+"exits_5": {
+"trail2x": -0.5941,
+"trail1.5x": -0.5941,
+"trail1.6x": -0.5941,
+"trail2x_tight5x": -0.5941,
+"half2_trail": -0.5941,
+"half3_trail": -0.5941,
+"hold": -0.5941,
+"half3_arm1.5": -0.5941,
+"half2_arm1.5": -0.5941,
+"half1.7_arm1.5": -0.5941,
+"half3_give0.5": -0.5941
+},
+"peak_5": 1.223,
+"carry_10": {
+"half2_arm1.5": -0.0138,
+"half3_arm1.5": -0.0138,
+"trail2x": 0.4373,
+"hold": -0.6241
+},
+"carry_5": {
+"half2_arm1.5": -0.0219,
+"half3_arm1.5": -0.0219,
+"trail2x": 0.5894,
+"hold": -0.5843
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "TSLA",
+"day": "2026-10-26",
+"expiry": "2026-10-26",
+"kind": "call",
+"spot": 385.91,
+"swing": null,
+"headline": "Barclays Upgrades Tesla to Overweight",
+"picks": {
+"d0.30": {
+"contract": "TSLA261026C00392500",
+"strike": 392.5,
+"delta": 0.294,
+"px": 2.14,
+"exits_10": {
+"trail2x": -0.4189,
+"trail1.5x": -0.0059,
+"trail1.6x": -0.0059,
+"trail2x_tight5x": -0.4189,
+"half2_trail": -0.4189,
+"half3_trail": -0.4189,
+"hold": -0.4189,
+"half3_arm1.5": -0.0059,
+"half2_arm1.5": -0.0059,
+"half1.7_arm1.5": -0.0059,
+"half3_give0.5": -0.4189
+},
+"peak_10": 1.835,
+"exits_5": {
+"trail2x": 0.0401,
+"trail1.5x": -0.0952,
+"trail1.6x": -0.0022,
+"trail2x_tight5x": 0.0401,
+"half2_trail": 0.5305,
+"half3_trail": 0.0401,
+"hold": -0.3574,
+"half3_arm1.5": -0.0952,
+"half2_arm1.5": -0.0952,
+"half1.7_arm1.5": -0.0952,
+"half3_give0.5": -0.0276
+},
+"peak_5": 2.029
+},
+"d0.45": {
+"contract": "TSLA261026C00387500",
+"strike": 387.5,
+"delta": 0.458,
+"px": 4.41,
+"exits_10": {
+"trail2x": 0.1967,
+"trail1.5x": 0.1967,
+"trail1.6x": 0.1967,
+"trail2x_tight5x": 0.1967,
+"half2_trail": 0.1967,
+"half3_trail": 0.1967,
+"hold": 0.1967,
+"half3_arm1.5": 0.1967,
+"half2_arm1.5": 0.1967,
+"half1.7_arm1.5": 0.4675,
+"half3_give0.5": 0.1967
+},
+"peak_10": 1.8,
+"exits_5": {
+"trail2x": 0.3233,
+"trail1.5x": 0.3233,
+"trail1.6x": 0.3233,
+"trail2x_tight5x": 0.3233,
+"half2_trail": 0.3233,
+"half3_trail": 0.3233,
+"hold": 0.3233,
+"half3_arm1.5": 0.3233,
+"half2_arm1.5": 0.3233,
+"half1.7_arm1.5": 0.5828,
+"half3_give0.5": 0.3233
+},
+"peak_5": 1.99
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "AAPL",
+"day": "2026-11-05",
+"expiry": "2026-11-06",
+"kind": "put",
+"spot": 352.97,
+"swing": null,
+"headline": "DBS Downgrades Apple to Sell Rating",
+"picks": {
+"d0.30": {
+"contract": "AAPL261106P00350000",
+"strike": 350.0,
+"delta": 0.346,
+"px": 1.81,
+"exits_10": {
+"trail2x": 1.6128,
+"trail1.5x": 1.6128,
+"trail1.6x": 1.6128,
+"trail2x_tight5x": 1.6128,
+"half2_trail": 1.3438,
+"half3_trail": 1.8094,
+"hold": 1.6128,
+"half3_arm1.5": 1.8094,
+"half2_arm1.5": 1.3438,
+"half1.7_arm1.5": 1.1833,
+"half3_give0.5": 1.8094
+},
+"peak_10": 3.707,
+"exits_5": {
+"trail2x": 1.8892,
+"trail1.5x": 1.8892,
+"trail1.6x": 1.8892,
+"trail2x_tight5x": 1.8892,
+"half2_trail": 1.4694,
+"half3_trail": 1.9692,
+"hold": 1.8892,
+"half3_arm1.5": 1.9692,
+"half2_arm1.5": 1.4694,
+"half1.7_arm1.5": 1.3769,
+"half3_give0.5": 1.9692
+},
+"peak_5": 4.099,
+"carry_10": {
+"half2_arm1.5": 1.5178,
+"half3_arm1.5": 1.9834,
+"trail2x": 1.9608,
+"hold": 1.9292
+},
+"carry_5": {
+"half2_arm1.5": 1.6618,
+"half3_arm1.5": 2.1617,
+"trail2x": 2.2741,
+"hold": 2.2391
+}
+},
+"d0.45": {
+"contract": "AAPL261106P00352500",
+"strike": 352.5,
+"delta": 0.471,
+"px": 2.77,
+"exits_10": {
+"trail2x": 1.2744,
+"trail1.5x": 1.2744,
+"trail1.6x": 1.2744,
+"trail2x_tight5x": 1.2744,
+"half2_trail": 1.1547,
+"half3_trail": 1.6657,
+"hold": 1.2744,
+"half3_arm1.5": 1.6657,
+"half2_arm1.5": 1.1547,
+"half1.7_arm1.5": 1.0011,
+"half3_give0.5": 1.6657
+},
+"peak_10": 3.175,
+"exits_5": {
+"trail2x": 1.515,
+"trail1.5x": 1.515,
+"trail1.6x": 1.515,
+"trail2x_tight5x": 1.515,
+"half2_trail": 1.2995,
+"half3_trail": 1.8008,
+"hold": 1.515,
+"half3_arm1.5": 1.8008,
+"half2_arm1.5": 1.2995,
+"half1.7_arm1.5": 1.1313,
+"half3_give0.5": 1.8008
+},
+"peak_5": 3.511,
+"carry_10": {
+"half2_arm1.5": 1.0957,
+"half3_arm1.5": 1.6067,
+"trail2x": 1.1562,
+"hold": 1.6879
+},
+"carry_5": {
+"half2_arm1.5": 1.2341,
+"half3_arm1.5": 1.7355,
+"trail2x": 1.3844,
+"hold": 1.9723
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "ARM",
+"day": "2026-11-05",
+"expiry": "2026-11-06",
+"kind": "put",
+"spot": 170.53,
+"swing": null,
+"headline": "President Capital Downgrades Arm Holdings ADR to Neutral",
+"picks": {
+"d0.30": {
+"contract": "ARM261106P00165000",
+"strike": 165.0,
+"delta": 0.295,
+"px": 2.14,
+"exits_10": {
+"trail2x": 0.3458,
+"trail1.5x": 0.3458,
+"trail1.6x": 0.3458,
+"trail2x_tight5x": 0.3458,
+"half2_trail": 0.9155,
+"half3_trail": 0.3458,
+"hold": 0.2043,
+"half3_arm1.5": 0.3458,
+"half2_arm1.5": 0.9155,
+"half1.7_arm1.5": 0.5236,
+"half3_give0.5": 0.1852
+},
+"peak_10": 2.485,
+"exits_5": {
+"trail2x": 0.4882,
+"trail1.5x": 0.4882,
+"trail1.6x": 0.4882,
+"trail2x_tight5x": 0.4882,
+"half2_trail": 0.7482,
+"half3_trail": 0.4882,
+"hold": 0.3318,
+"half3_arm1.5": 0.4882,
+"half2_arm1.5": 0.7482,
+"half1.7_arm1.5": 0.6002,
+"half3_give0.5": 0.3106
+},
+"peak_5": 2.748,
+"carry_10": {
+"half2_arm1.5": 0.9155,
+"half3_arm1.5": 0.3458,
+"trail2x": 0.3458,
+"hold": -1.0
+},
+"carry_5": {
+"half2_arm1.5": 0.7482,
+"half3_arm1.5": 0.4882,
+"trail2x": 0.4882,
+"hold": -1.0
+}
+},
+"d0.45": {
+"contract": "ARM261106P00170000",
+"strike": 170.0,
+"delta": 0.468,
+"px": 4,
+"exits_10": {
+"trail2x": 0.0227,
+"trail1.5x": 0.1127,
+"trail1.6x": 0.1127,
+"trail2x_tight5x": 0.0227,
+"half2_trail": 0.0227,
+"half3_trail": 0.0227,
+"hold": 0.0227,
+"half3_arm1.5": 0.1127,
+"half2_arm1.5": 0.1127,
+"half1.7_arm1.5": 0.5106,
+"half3_give0.5": 0.0227
+},
+"peak_10": 1.908,
+"exits_5": {
+"trail2x": 0.2305,
+"trail1.5x": 0.2305,
+"trail1.6x": 0.2305,
+"trail2x_tight5x": 0.2305,
+"half2_trail": 0.6704,
+"half3_trail": 0.2305,
+"hold": 0.131,
+"half3_arm1.5": 0.2305,
+"half2_arm1.5": 0.6704,
+"half1.7_arm1.5": 0.4917,
+"half3_give0.5": 0.045
+},
+"peak_5": 2.11,
+"carry_10": {
+"half2_arm1.5": 0.1127,
+"half3_arm1.5": 0.1127,
+"trail2x": -0.9673,
+"hold": -0.9673
+},
+"carry_5": {
+"half2_arm1.5": 0.6704,
+"half3_arm1.5": 0.2305,
+"trail2x": 0.2305,
+"hold": -0.9643
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "QCOM",
+"day": "2026-11-10",
+"expiry": "2026-11-13",
+"kind": "put",
+"spot": 168.08,
+"swing": null,
+"headline": "Freedom Broker Downgrades Qualcomm to Hold",
+"picks": {
+"d0.30": {
+"contract": "QCOM261113P00162500",
+"strike": 162.5,
+"delta": 0.3,
+"px": 2.28,
+"exits_10": {
+"trail2x": -0.7093,
+"trail1.5x": -0.7093,
+"trail1.6x": -0.7093,
+"trail2x_tight5x": -0.7093,
+"half2_trail": -0.7093,
+"half3_trail": -0.7093,
+"hold": -0.7093,
+"half3_arm1.5": -0.7093,
+"half2_arm1.5": -0.7093,
+"half1.7_arm1.5": -0.7093,
+"half3_give0.5": -0.7093
+},
+"peak_10": 0.678,
+"exits_5": {
+"trail2x": -0.6786,
+"trail1.5x": -0.6786,
+"trail1.6x": -0.6786,
+"trail2x_tight5x": -0.6786,
+"half2_trail": -0.6786,
+"half3_trail": -0.6786,
+"hold": -0.6786,
+"half3_arm1.5": -0.6786,
+"half2_arm1.5": -0.6786,
+"half1.7_arm1.5": -0.6786,
+"half3_give0.5": -0.6786
+},
+"peak_5": 0.75,
+"carry_10": {
+"half2_arm1.5": -0.9841,
+"half3_arm1.5": -0.9841,
+"trail2x": -0.9841,
+"hold": -0.9841
+},
+"carry_5": {
+"half2_arm1.5": -0.9833,
+"half3_arm1.5": -0.9833,
+"trail2x": -0.9833,
+"hold": -0.9833
+}
+},
+"d0.45": {
+"contract": "QCOM261113P00165000",
+"strike": 165.0,
+"delta": 0.354,
+"px": 2.2,
+"exits_10": {
+"trail2x": -0.55,
+"trail1.5x": -0.55,
+"trail1.6x": -0.55,
+"trail2x_tight5x": -0.55,
+"half2_trail": -0.55,
+"half3_trail": -0.55,
+"hold": -0.55,
+"half3_arm1.5": -0.55,
+"half2_arm1.5": -0.55,
+"half1.7_arm1.5": -0.55,
+"half3_give0.5": -0.55
+},
+"peak_10": 0.978,
+"exits_5": {
+"trail2x": -0.5024,
+"trail1.5x": -0.5024,
+"trail1.6x": -0.5024,
+"trail2x_tight5x": -0.5024,
+"half2_trail": -0.5024,
+"half3_trail": -0.5024,
+"hold": -0.5024,
+"half3_arm1.5": -0.5024,
+"half2_arm1.5": -0.5024,
+"half1.7_arm1.5": -0.5024,
+"half3_give0.5": -0.5024
+},
+"peak_5": 1.082,
+"carry_10": {
+"half2_arm1.5": -0.9835,
+"half3_arm1.5": -0.9835,
+"trail2x": -0.9835,
+"hold": -0.9835
+},
+"carry_5": {
+"half2_arm1.5": -0.9827,
+"half3_arm1.5": -0.9827,
+"trail2x": -0.9827,
+"hold": -0.9827
+}
+}
+}
+},
+{
+"study": "upgrade",
+"sym": "AAPL",
+"day": "2026-11-11",
+"expiry": "2026-11-11",
+"kind": "call",
+"spot": 352.54,
+"swing": null,
+"headline": "China Renaissance Upgrades Apple to Buy From Hold",
+"picks": {
+"d0.30": {
+"contract": "AAPL261111C00355000",
+"strike": 355.0,
+"delta": 0.282,
+"px": 0.73,
+"exits_10": {
+"trail2x": -0.6077,
+"trail1.5x": -0.6077,
+"trail1.6x": -0.6077,
+"trail2x_tight5x": -0.6077,
+"half2_trail": -0.6077,
+"half3_trail": -0.6077,
+"hold": -0.6077,
+"half3_arm1.5": -0.6077,
+"half2_arm1.5": -0.6077,
+"half1.7_arm1.5": -0.6077,
+"half3_give0.5": -0.6077
+},
+"peak_10": 1.21,
+"exits_5": {
+"trail2x": -0.5662,
+"trail1.5x": -0.5662,
+"trail1.6x": -0.5662,
+"trail2x_tight5x": -0.5662,
+"half2_trail": -0.5662,
+"half3_trail": -0.5662,
+"hold": -0.5662,
+"half3_arm1.5": -0.5662,
+"half2_arm1.5": -0.5662,
+"half1.7_arm1.5": -0.5662,
+"half3_give0.5": -0.5662
+},
+"peak_5": 1.339
+},
+"d0.45": {
+"contract": "AAPL261111C00352500",
+"strike": 352.5,
+"delta": 0.506,
+"px": 1.78,
+"exits_10": {
+"trail2x": 0.2778,
+"trail1.5x": 0.2778,
+"trail1.6x": 0.2778,
+"trail2x_tight5x": 0.2778,
+"half2_trail": 0.2778,
+"half3_trail": 0.2778,
+"hold": 0.2778,
+"half3_arm1.5": 0.2778,
+"half2_arm1.5": 0.2778,
+"half1.7_arm1.5": 0.2778,
+"half3_give0.5": 0.2778
+},
+"peak_10": 1.549,
+"exits_5": {
+"trail2x": 0.4131,
+"trail1.5x": 0.4131,
+"trail1.6x": 0.4131,
+"trail2x_tight5x": 0.4131,
+"half2_trail": 0.4131,
+"half3_trail": 0.4131,
+"hold": 0.4131,
+"half3_arm1.5": 0.4131,
+"half2_arm1.5": 0.4131,
+"half1.7_arm1.5": 0.4131,
+"half3_give0.5": 0.4131
+},
+"peak_5": 1.713
+}
+}
+}
+]

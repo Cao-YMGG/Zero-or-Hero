@@ -406,6 +406,12 @@ class Bot:
             # intraday picks were skipped while cheaper, further-OTM strikes were listed.
             candidates = self.nearest_chain(underlying, direction, spot, now, width=STOCK_WIDTH)
         min_delta = variant.get("min_delta", self.config.get("min_delta", MIN_DELTA))
+        # "contracts" fixes a shadow-only sample at that many contracts of the target delta, whatever
+        # they cost (rating_open, 2026-11-15): the stake had been choosing the strike, 0.06-0.10 delta
+        # on a $90 budget, and the question is what the picks are worth near the money.
+        fixed = variant.get("contracts") if own is None and not variant.get("real_risk") else None
+        if fixed:
+            budget = float("inf")
         pick = select_contract(candidates, variant.get("target_delta", 0.3), budget, min_delta=min_delta)
         if not pick:
             log(f"{variant['id']}: {direction} signal but nothing affordable within ${budget:.0f} "
@@ -414,7 +420,7 @@ class Bot:
         spread = spread_of(pick)
         wide = spread > self.config.get("max_spread", MAX_SPREAD)
         entry = round_limit((pick["ask"] + pick["bid"]) / 2) if wide else pick["ask"]
-        qty = contracts_for(budget, entry)
+        qty = fixed or contracts_for(budget, entry)
         if own is not None:
             qty = cap_contracts(qty, self.config.get("ledgers", {}))
         log(f"{variant['id']}: {direction} signal @ {spot:.2f} -> {pick['symbol']} "

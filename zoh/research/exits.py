@@ -50,6 +50,7 @@ EXITS = {
 DELTAS = {"rebound": (0.05, 0.08, 0.15, 0.30), "rebound_tt": (0.05, 0.08, 0.15, 0.30),
           "meta_follow2": (0.10, 0.20, 0.30), "upgrade": (0.10, 0.20, 0.30)}
 SWINGS = (0.5, 1.0)
+CARRY_RULES = ("trail2x", "hold")   # the rules also run carried to expiry (a study may extend this)
 
 
 def bid(c, slip):
@@ -151,7 +152,7 @@ def price(api, sym, day, expiry, entry_t, spot, kind, study, swing, **extra):
                 for slip in SLIPS:
                     entry = max(b["c"] * (1 + slip), b["c"] + 0.01)
                     pick[f"carry_{int(slip * 100)}"] = {r: round(run(path + later, entry, slip, r) - 1, 4)
-                                                       for r in ("trail2x", "hold")}
+                                                       for r in CARRY_RULES}
         row["picks"][label] = pick
     time.sleep(0.1)
     return row if row["picks"] else None

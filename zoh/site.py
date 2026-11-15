@@ -49,12 +49,13 @@ svg text { fill:var(--muted); font-size:11px; }
 
 # Plain-language names for the dashboard; unknown ids fall back to the id itself.
 NAMES = {
-    "rebound_scanner": ("低开反弹", "大盘股低开 ≥2%，15 分钟后买看涨，赌当天收复"),
+    "rebound_scanner": ("低开反弹", "已退役（2026-11-15：真实期权价两年 -33%、近 3 个月 -38%，实盘影子 9 笔 -36%）"),
     "rebound_scanner_wide": ("低开反弹·宽追踪", "已退役（2026-11-03：低开反弹近 3 个月真实期权价 -38%，宽追踪没有独立证据）"),
     "rebound_scanner_any": ("低开反弹·每天", "已退役（真实期权价重测为负，2026-10-18）"),
     "gapup_fade": ("高开回落", "已退役（真实期权价重测为负，2026-10-18）"),
     "nvda_gapdown_put": ("NVDA 低开走弱", "NVDA 低开、10:00 仍在开盘价下方，买当天到期看跌（约 0.4 delta），3 倍止盈"),
     "catalyst_open": ("开盘狙击", "盘前选的有新消息的股票，09:31 开盘就买"),
+    "rating_open": ("评级狙击·近价", "盘前狙击里只做评级变动（上调评级、上调目标价），买约 0.45 delta 两张，2 倍卖一半、其余追踪；只记影子"),
     "catalyst_open_near": ("开盘狙击·近价", "已退役（真实期权价重测为负，2026-10-18）"),
     "catalyst_intraday": ("盘中狙击", "盘中检查发现的新消息股票，立刻买"),
     "catalyst_intraday_arm15": ("盘中狙击·早锁利", "同盘中狙击，只记影子：涨到 1.5 倍就开始跟踪止盈（原规则 2 倍）"),

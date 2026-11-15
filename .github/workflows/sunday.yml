@@ -1,6 +1,6 @@
 name: Research - Sunday tests
 
-# Weekly-review studies on real option prices (zoh/research/exits.py, coolcpi.py, feeds.py).
+# Weekly-review studies on real option prices (zoh/research/exits.py, coolcpi.py, feeds.py, week46.py).
 # Run by hand (Actions -> Run workflow) on a weekend; "all" or one module.
 # Do not run during market hours: it shares the API key with the live bot.
 
@@ -8,8 +8,11 @@ on:
   workflow_dispatch:
     inputs:
       module:
-        description: "exits, coolcpi, feeds or all"
+        description: "exits, coolcpi, feeds, week46 or all (all = the first three)"
         default: "all"
+      args:
+        description: "extra arguments for a single module, e.g. --upgrades for week46 (the two-year rating replay, hours)"
+        default: ""
 
 permissions:
   contents: write
@@ -19,9 +22,9 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        module: [exits, coolcpi, feeds]
+        module: [exits, coolcpi, feeds, week46]
     runs-on: ubuntu-latest
-    timeout-minutes: 240
+    timeout-minutes: 350
     concurrency:
       group: sunday-${{ matrix.module }}-${{ github.ref }}
       cancel-in-progress: true
@@ -30,16 +33,18 @@ jobs:
       APCA_API_SECRET_KEY: ${{ secrets.APCA_API_SECRET_KEY }}
     steps:
       - uses: actions/checkout@v4
-        if: inputs.module == 'all' || inputs.module == matrix.module
+        if: (inputs.module == 'all' && matrix.module != 'week46') || inputs.module == matrix.module
       - uses: actions/setup-python@v5
-        if: inputs.module == 'all' || inputs.module == matrix.module
+        if: (inputs.module == 'all' && matrix.module != 'week46') || inputs.module == matrix.module
         with:
           python-version: "3.12"
       - name: Study
-        if: inputs.module == 'all' || inputs.module == matrix.module
-        run: python -m zoh.research.${{ matrix.module }}
+        if: (inputs.module == 'all' && matrix.module != 'week46') || inputs.module == matrix.module
+        env:
+          STUDY_ARGS: ${{ inputs.module == matrix.module && inputs.args || '' }}
+        run: python -m zoh.research.${{ matrix.module }} $STUDY_ARGS
       - name: Commit results
-        if: inputs.module == 'all' || inputs.module == matrix.module
+        if: (inputs.module == 'all' && matrix.module != 'week46') || inputs.module == matrix.module
         run: |
           git config user.name "zoh-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
