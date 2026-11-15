@@ -114,6 +114,18 @@ class ContextTests(unittest.TestCase):
         self.assertIsNone(evaluate_signal(rising, variant, put_ctx))  # price disagrees
         self.assertIsNone(evaluate_signal(rising, variant, day_context(self.day, {})))
 
+    def test_catalyst_classes_keep_a_variant_to_rating_changes(self):
+        rising = make_bars([700 + i * 0.6 for i in range(20)])
+        rating = {"signal": "catalyst", "after_minutes": 1, "move_pct": 0.0, "classes": ["upgrade", "target"]}
+        every = {"signal": "catalyst", "after_minutes": 1, "move_pct": 0.0}
+        for cls, want in (("upgrade", "call"), ("target", "call"), ("news", None), (None, None)):
+            sniper = {"symbol": "META", "direction": "call", "catalyst": "x"}
+            if cls:
+                sniper["class"] = cls
+            ctx = day_context(self.day, {}, bias={"sniper": sniper})
+            self.assertEqual(evaluate_signal(rising, rating, ctx), want, cls)
+            self.assertEqual(evaluate_signal(rising, every, ctx), "call", cls)   # catalyst_open takes every class
+
     def test_weekday_filter(self):
         bars = make_bars([100 + i * 0.05 for i in range(15)])
         variant = {"signal": "momentum", "after_minutes": 10, "threshold_pct": 0.15,

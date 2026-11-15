@@ -256,10 +256,16 @@ def signal_catalyst(bars, variant, ctx):
     """Trade Claude's pre-market single-stock pick once its price confirms after the open.
 
     `bars` here are the picked stock's bars (the bot swaps them in); fires when the move from
-    the open, in the picked direction, reaches move_pct after N minutes.
+    the open, in the picked direction, reaches move_pct after N minutes. A variant with `classes`
+    only takes picks whose `class` (upgrade, target, news) is listed.
     """
     pick = sniper_pick(ctx)
     if not pick or not bars:
+        return None
+    # "classes" keeps a variant to some kinds of catalyst (rating_open, 2026-11-15: 13 rating-change
+    # snipers were right on 10 and +0.9% open to close, 10 company-news ones right on 5 and -0.5%).
+    classes = variant.get("classes")
+    if classes and pick.get("class") not in classes:
         return None
     if bars[-1]["t"].time() < minutes_after_open(variant.get("after_minutes", 15)):
         return None

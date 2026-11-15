@@ -58,6 +58,13 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
   leader +4.0% from its open) was picked at 11:03, topped minutes later and closed 2.5% lower; the
   0.25-delta 255C went 0.43 -> 0.01 (-$84). Without in-session news of its own, an extended leader
   goes into `opportunities`, not `picks`.
+  A pick is late by construction (weekly review 2026-11-15, journal/research/WEEK46.md): on the 17 intraday picks the
+  stock was right open to close on 16 and right from the pick on 6 (-0.37% to the close; one of 17 went 1% further).
+  So a pick says what is still to come (news not yet out, a level not yet reached, a session not yet open), not what
+  the stock has done. No pick at the 13:16 check-in since 2026-11-16: the 8 picks made after 13:00 were right from the
+  pick on 1 (-0.62%, the 0.2-delta option -40%) against 4 of the 7 made before 11:00 (+0.11%, +4%), and of the 16
+  ideas listed after 12:00 one paid. The 13:16 file lists what it would have picked as an opportunity with conviction
+  `yes`; the pick comes back when 10 of those hold 4 or more that went 1% further their way.
   A pick on a stock above ~$1,000 is a shadow sample only: the 20% stake (~$92) buys nothing at the 0.06-delta
   floor (2026-11-09 LLY at 1,410: catalyst_intraday found nothing affordable, only the hero shadow bought the
   1470C), so say so in the pick and prefer a sub-$700 name when one carries the same news.
@@ -182,6 +189,10 @@ scored against purely mechanical variants.
    gap: pre-market news is mostly priced at the open, OVERNIGHT.md). Honest values sit near
    0.50-0.58 most days; a call needs >= 0.60, a put <= 0.40 (since 2026-10-23, owner talk).
    Calibration is scored weekly (buckets of p_up vs how often SPY closed above its open).
+   Scored 2026-11-15 (WEEK46.md): 16 mornings since the bar, every p_up between 0.44 and 0.54, Brier 0.243 against
+   0.250 for a flat 0.50; the side leaned to was right 9 of 13, one more than 'always up' on the same days. The bar is not what
+   keeps the call at `none`; an estimate that never leaves 0.45-0.55 is. Do not lower the bar. When the evidence is
+   one-sided (data, yields, futures and breadth the same way), write the number that says so.
    Decide `call`, `put` or `none`. Prefer `none` when evidence is mixed: a skipped day costs
    nothing, a coin flip costs the spread and theta.
 2b. Rotation map: with Webull daily bars, compute 1-week and 1-month returns for theme
@@ -189,6 +200,11 @@ scored against purely mechanical variants.
    (LITE, CIEN), power (GEV, VST), internet (META, GOOGL, MSFT, AMZN, AAPL), plus SPY/QQQ —
    and record which themes are heating up (money flowing in) and cooling (flowing out).
    Add newly hot themes (e.g. a new AI supply-chain link) as they appear.
+   The map is context and a filter on our own picks, not a same-day forecast (WEEK46.md, 2026-11-15): on 30 mornings
+   the names I listed as heating beat the ones listed as cooling open to close on 13 (0 of 5 in the week of 11-09, when
+   it had chips cooling through a +4.9% week and heating on the day they were sold), and the theme model's heating
+   themes beat SPY the next day on 50% of 771 theme-days. It is built from one-week and one-month returns, so it says
+   what has happened. Do not lean the SPY call or a sniper on it alone.
    Also run `python -m zoh.research.themes --today` (Alpaca daily bars, keys in the workflows and
    usually in this container; five turn flags and five heat flags per theme, journal/research/
    THEMES.md 2026-11-04) and record each theme's state in `rotation`. `turning` (>= 3 turn flags;
@@ -236,6 +252,18 @@ scored against purely mechanical variants.
    in a cooling theme tends to fade. scan mega caps with same-day options for a fresh,
    non-earnings catalyst (Webull PRE_MARKET movers + news, and that morning's analyst upgrades/downgrades on mega caps, e.g. 24/7 Wall St. "top analyst research calls"; 2026-10-05 Melius upgraded MSFT to Buy, gap only +0.9%, and it ran +1.5% from the open in 15 minutes). Name at most one stock with
    direction and catalyst in `sniper`; see journal/bias/README.md for the bar it must clear.
+   Every sniper carries `class` (journal/bias/README.md): `upgrade` (a rating change), `target` (a target raise or cut
+   with the rating kept) or `news` (product, contract, partnership, monthly sales, a report of talks, a statement).
+   Weekly review 2026-11-15 (WEEK46.md, real option prices): the 13 rating-change snipers were right open to close on
+   10 (+0.91%) and at 0.45 delta, half out at 2x and a trail from 1.5x, made +17% (+7% without the best, -4% without
+   the best two; 10 entries); the 10 company-news snipers were right on 5 (-0.46%) and lost 56-71% at every strike and
+   exit (7 entries). When a rating change and a company-news item both qualify, name the rating change; a
+   company-news sniper is named at confidence 0.25 or lower. rating_open (shadow, two contracts nearest 0.45 delta
+   whatever they cost) trades only `upgrade` and `target`; catalyst_open trades every class at 0.10 delta, so the split
+   keeps being measured. Ten entries make a candidate, not a rule. The same strike and exit on every upgrade headline
+   of two years (62 events, not my picks): -9% sold on day one, +19% / +12% / +5% carried to expiry with the trail on;
+   the last 3 months, 10 events, +12% / -9% / -17%. Downgrades lose at every strike (33 events, -16% to -40%): a put
+   sniper on a downgrade alone is not a rating_open kind of trade.
    Since 2026-11-09 (owner) the sniper and the intraday picks are shadow-only: catalyst_open and
    catalyst_intraday carry real_risk 0 and the hero shadows keep the full-ledger samples. 14 live
    snipers ran -13% (-35% without the best one) and 13 intraday picks -30% (SNIPERS_REAL.md); real

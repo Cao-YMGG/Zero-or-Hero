@@ -882,3 +882,57 @@ class LedgerSizingTest(unittest.TestCase):
         orders, vstate = self._enter_ledger(pricey, cfg)
         self.assertNotIn("shadow", vstate)
         self.assertEqual(orders, [])
+
+
+class RatingOpenTest(unittest.TestCase):
+    """Weekly review 2026-11-15: a shadow sample of the rating-change snipers near the money."""
+
+    def test_config(self):
+        config = json.loads((journal.ROOT / "config" / "strategy.json").read_text())
+        by_id = {v["id"]: v for v in config["variants"]}
+        v = by_id["rating_open"]
+        self.assertEqual((v["signal"], v["classes"], v["contracts"]), ("catalyst", ["upgrade", "target"], 2))
+        self.assertEqual((v["target_delta"], v["half_at"], v["trail_after"]), (0.45, 2.0, 0.5))
+        self.assertEqual(v.get("real_risk", 0), 0)
+        self.assertNotIn("rating_open", config["ledgers"]["variants"])
+        self.assertNotIn("rebound_scanner", by_id)          # retired the same day
+        self.assertLessEqual(len(config["variants"]), 12)
+
+    def test_fixed_contracts_buy_the_target_delta_whatever_it_costs(self):
+        """2026-11-12: AMD at 568 on an upgrade. The $78 stake found nothing at 0.06 delta or more and the day
+        gave no sample; the 0.45-delta 575C cost $979."""
+        cands = [{"symbol": "AMD261113C00617500", "strike": 617.5, "ask": 1.65, "bid": 1.60, "delta": 0.10, "quote_time": None},
+                 {"symbol": "AMD261113C00575000", "strike": 575, "ask": 9.79, "bid": 9.60, "delta": 0.45, "quote_time": None}]
+        orders = []
+
+        class FakeBot(botmod.Bot):
+            def __init__(self):
+                self.api, self.dry_run, self.underlying = None, False, "SPY"
+                self.today, self.earnings = date(2026, 11, 12), {}
+                self.config = {"backtest": {"start_equity": 500}}
+                self.state = {"equity_start": 391.0, "risk_per_trade": 0.2, "champion": "nvda_gapdown_put",
+                              "real_underlyings": []}
+
+            def nearest_chain(self, underlying, direction, spot, now, width):
+                return cands
+
+            def _order(self, symbol, qty, side, kind, tag, limit=None):
+                orders.append((symbol, qty, limit))
+                return qty, limit
+
+        now = datetime(2026, 11, 12, 9, 32, tzinfo=ET)
+        rating = {"id": "rating_open", "signal": "catalyst", "contracts": 2, "real_risk": 0, "target_delta": 0.45}
+        vstate = {}
+        FakeBot().try_enter(rating, vstate, "call", 568.0, now, underlying="AMD")
+        self.assertEqual((vstate["shadow"]["contract"], vstate["shadow"]["qty"]), ("AMD261113C00575000", 2))
+        self.assertNotIn("real", vstate)
+        self.assertEqual(orders, [])
+        # without "contracts" the same stake buys nothing near the money: the 0.10-delta contract costs $165
+        vstate = {}
+        FakeBot().try_enter({"id": "catalyst_open", "signal": "catalyst", "real_risk": 0, "target_delta": 0.1},
+                            vstate, "call", 568.0, now, underlying="AMD")
+        self.assertNotIn("shadow", vstate)
+        # a variant that trades real money keeps its stake: "contracts" is for shadow samples only
+        vstate = {}
+        FakeBot().try_enter({**rating, "real_risk": 0.2}, vstate, "call", 568.0, now, underlying="AMD")
+        self.assertNotIn("shadow", vstate)

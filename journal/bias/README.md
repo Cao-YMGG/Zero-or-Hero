@@ -24,6 +24,11 @@ appears; the `claude_bias` / `claude_confirm` variants trade it in shadow mode.
   "sniper": {                     // optional: at most ONE single stock with a fresh catalyst
     "symbol": "META", "direction": "call",
     "catalyst": "Muse hit #1 on the US App Store over the weekend; Wells Fargo PT raise",
+    "class": "target",            // since 2026-11-16: "upgrade" (a rating change by a broker), "target" (a
+                                  // target raise or cut with the rating kept), "news" (product, contract,
+                                  // partnership, monthly sales, a report of talks, a company statement).
+                                  // When both exist, the rating change is the class. rating_open only
+                                  // trades "upgrade" and "target"; catalyst_open trades every class.
     "confidence": 0.6
   },                              // or null when nothing qualifies (most days)
   "opportunities": [              // since 2026-10-29: every opportunity spotted, traded or not
@@ -66,6 +71,14 @@ most days that have a fresh catalyst with a small gap, an upgrade being the most
 (journal/research/ANALYST.md: upgrades carry, downgrades do not). `catalyst_open` buys a
 ~0.1-delta option at the open (from 09:31, as long as the stock is not against the pick) and
 trails; `catalyst_sniper` keeps the 1% confirmation. Null only when nothing qualifies.
+`rating_open` (shadow only, since 2026-11-16) takes the same pick only when its `class` is `upgrade` or
+`target` and buys two contracts nearest 0.45 delta, whatever they cost: half out at 2x, the rest trails
+from 1.5x. On real option prices to 2026-11-13 (journal/research/WEEK46.md) the 13 rating-change snipers
+were right on 10 (+0.9% open to close) and made +17% at 0.45 delta (+7% without the best, -4% without
+the best two, 10 entries); the 10 company-news snipers were right on 5 (-0.5%) and lost 56-71% at every
+strike. Every upgrade headline of two years at the same strike and exit (62 events): -9% sold on day one,
++19% / +12% / +5% carried to expiry; downgrades lose at every strike. A missing or unknown `class` is treated
+as not a rating change.
 On a `put` day with aligned macro evidence the sniper may be a put (`"direction": "put"`): a
 mega cap without good news of its own that is exposed to the day's driver (rates, a cooling
 theme, a peer's miss), gap under ~4%. Both catalyst variants trade puts the same way

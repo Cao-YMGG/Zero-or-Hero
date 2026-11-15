@@ -281,19 +281,39 @@ in EVOLUTION.md.
    bot logs 'no retry, fresh ask X vs Y') with a retry capped at +25% / +50% / uncapped, and every filled entry with a
    hypothetical +25% worse fill, by family (SPY/QQQ open-drive vs single-stock catalyst). Proposal if it pays: slack
    by family (index 0DTE 0.5, single stock 0.1), owner's call because it raises the entry price of real orders.
+   11-15: not replayed. The index slack (50%) has been live since 11-09 and no real index entry has gone unfilled since;
+   the bot's 'no retry' log lines are in the Actions logs, not in the repo, so the replay needs them saved first. Left open,
+   low priority: the three real buys of the week filled 2-8% below the first ask.
 56. **The turning-theme filter's cost on catalyst days (2026-11-09).** AMD +7.4% open to close (+13.3% day) on an
    Oppenheimer upgrade and the NVDA-alternative trade, AVGO +4.6%, MU +4.3%: all in the turning chip theme, all
    un-pickable by the rule (28 calls on turning names won 21%, -68% avg). Split those 28 by cause: own catalyst (upgrade,
    contract, product) vs bounce-buying without news vs sector sympathy. If the own-catalyst subset is not negative, the
    filter should exempt it (keep blocking bounces and sympathy). Also list every turning-theme catalyst day since 10-01
    with the 0.2-delta same-day call result, so the filter's cost has a number next to its benefit.
-57. **Sniper by catalyst class (2026-11-09).** WMT call on two target raises (JPM $145 06:33, UBS $149 11:04): +0.9% open
+   11-15: not split by hand yet. The class table of item 57 covers the same ground from the other side: a rating change
+   is the catalyst class that pays in any theme state (13 snipers, 10 right, +0.91%), and three of this week's were on
+   names the map had as cooling (AAPL 11-11, AMD 11-12). The exemption of 11-09 stays; the 28-trade split is left open.
+57. **Sniper by catalyst class (2026-11-09).** DONE 11-15 (WEEK46.md). WMT call on two target raises (JPM $145 06:33, UBS $149 11:04): +0.9% open
    to close, all of it after 14:00; the 131C 0.24 -> 0.19 carried. 10-16 and 11-02 were the same class (target raise /
    small-broker upgrade) and also went nowhere by the check-in. Table every pre-market sniper since 10-01 by class
    (major-broker upgrade, target raise only, product/trial/contract, priced offering, other) with stock open to close,
    the live option result and the hero result. If 'target raise only' is negative on >= 8 samples, the checklist demotes
    it: a target raise alone goes to `opportunities`, the sniper needs an upgrade, a product or a contract.
-
+   RESULT 11-15 (18 snipers with a live entry of 24; real option minute bars, 10% costs; avg / without the best / without
+   the best two). At the stock, open to close its way: rating changes (upgrade or target) 13 picks, 10 right, +0.91%;
+   company news 10 picks, 5 right, -0.46%. Target raises alone: 6 picks, 5 right, +0.70%, so the pre-written bar ('target
+   raise only negative on 8 or more') is not met and the class is not demoted. The class that loses is company news:
+   0.10 delta live rule -61% / -82% / -98% (7 entries, 14% win), 0.45 delta -63% / -74% / -87%. Rating changes: 0.10 delta
+   +24% / -3% / -24% (10 entries, 50% win), 0.45 delta with half out at 2x +17% / +7% / -4% (60% win), carried +22% / +12% /
+   +6%. DECISION: every sniper carries `class`; when both exist the rating change is named; a company-news sniper is
+   named at 0.25 or lower; new shadow rating_open (rating changes only, two contracts nearest 0.45 delta, half at 2x,
+   trail from 1.5x). Not a ban: catalyst_open keeps trading every class, so the split is measured live. Ten entries are a
+   candidate. Out of sample, every strict upgrade / downgrade headline of two years on 25 large caps (95 events, bought
+   09:32 when the stock is not against the rating, nearest expiry): upgrades, 62 events, 0.45 delta with half at 2x:
+   sold day one -9% / -14% / -17%, carried to expiry with the trail on +19% / +12% / +5% (52% win); 0.30 delta carried
+   +25% / +17% / +9%; the last 3 months, 10 upgrades, 0.45 delta carried +12% / -9% / -17%. Downgrades, 33 events: -16% to
+   -40% at both strikes, carried or not. So the base rate agrees with the ten picks only when the contract is carried
+   (rating_open carries, as every catalyst variant does), and the recent quarter is one trade from negative.
 58. **Put-mirror live sample ledger (2026-11-10).** The 11:00 confirmation gave its first clean loss: SMH lost its 479.00 open at
    11:5x (not armed at 10:16 or 11:21), MU the name; untradable (the day's one catalyst entry went to AMZN at 10:18) and scored
    as a sample: MU 714.56 at 11:21 / 707.10 at 13:17 -> 725.11 close (+1.5% / +2.5% against the put, best for the put +2.1% at
@@ -309,7 +329,8 @@ in EVOLUTION.md.
    no pick. AMD as the name: 532.51 at 10:17 -> 534.06 close (+0.3% against the put, best -2.3% at the 520.01 low of 11:50); from
    11:22, 523.77 -> 534.06 (+2.0% against). MU from 10:17 (764.43, the one name inside the line then): +1.8% against; from 11:22
    +3.4% against. Scored as: armed early, nothing left in it by the check-ins. Six rows: 1 win, 1 loss, 1 flat, 3 not traded.
-59. **The pick extension line by the name's own range (2026-11-10).** AMZN 11-02 (picked +4.0% from its open -> 255C -98%) and
+   11-15: six rows, unchanged; the rule stays until ten.
+59. **The pick extension line by the name's own range (2026-11-10).** DONE 11-15 (WEEK46.md). AMZN 11-02 (picked +4.0% from its open -> 255C -98%) and
    AMZN 11-10 (picked +2.0% from its open on a 06:38 catalyst plus a 09:55 piece -> 277.5C -64% at the close, topped 272.88 within
    minutes) both topped right after the pick. The 3% line was set on chips (AMD/MU days of 5-7%); a platform name's normal day is
    ~2%, so +2.0% on AMZN is already an extended move. Test on the 13 intraday picks plus the 10:16 / 11:21 / 13:16 opportunity rows
@@ -322,7 +343,18 @@ in EVOLUTION.md.
    +2.0%, MU +3.4%, SMH +2.4%, CRWV +4.9%). Five put samples from 10:17 and none right at the official close. The other side
    of the same day: META, the no-news leader at +0.6% from its open at 10:17, closed +2.3% (+1.7% from the check), a call the
    'relative strength is not a catalyst' rule passed on. Add them to the table with their own-range multiples.
-60. **A trail for the open-drive family (2026-11-11).** First live trade under the 0.35-delta ledger rule: stock_open_drive TSLA
+   RESULT 11-15 (17 intraday picks, entry-minute prices). Thirteen of the 17 were already one average range or more from
+   the open (their way) at the pick: from the pick -0.38%, the 0.2-delta option -15%; the four under one range -0.35% and
+   -74%. The own-range line does not separate anything: nearly every pick is past it. What separates is the clock and
+   the flat distance. Under 2% its way: 5 picks, 3 right from the pick, +0.10%, option +13% / -27% / -36%; 2-3%: 7 picks,
+   3 right, -0.07%, option -48%, no winner; 3% or more: 5 picks, 0 right, -1.26%, -42%. Before 11:00: 7 picks, 4 right,
+   +0.11%, option +4%; after 13:00: 8 picks, 1 right, -0.62%, option -40% / -46% / -52%. All 17: right open to close on 16
+   (+2.01%), right from the pick on 6 (-0.37%), one went 1% further. The opportunity log agrees: listed by 10:00, 101
+   ideas, 37% paid, +0.25% against SPY; 10:01-12:00, 62 ideas, 21%, -0.18%; after 12:00, 16 ideas, 6%, -0.31%.
+   DECISION (the week's one filter change): no pick at the 13:16 check-in from 11-16; it lists what it would have picked
+   as an opportunity with conviction `yes`, and the pick returns when 10 of those hold 4 or more that went 1% further.
+   The 3% line stays as it is (the 2-3% bucket is 7 picks).
+60. **A trail for the open-drive family (2026-11-11).** DONE 11-15 (WEEK46.md). First live trade under the 0.35-delta ledger rule: stock_open_drive TSLA
    392.5C 1.69 at 10:01 -> 3.73 at 10:56 (+121%, TSLA 395.43) -> 0.09 at the 15:45 market sell (-$160, the ledger $493 -> $333);
    11-04 the same variant's TSLA 392.5C went 3.3x -> 0.01 and 11-09 spy_open_drive's 753C sold half at 4x and trailed the rest
    (+280%, the shadow's only big win). The family has half_at 3.0 and no trail (spy_open_drive_put trails after 2x). SELLK.md
@@ -353,7 +385,19 @@ in EVOLUTION.md.
    catalyst_intraday_hero 5); four of the eleven traded at 1.25x or better first. The trail legs on the same picks: catalyst_open
    17 trades 41% win -11%, catalyst_intraday 13 trades 54% win -4%. Sunday: the per-$1 table, and whether the heroes have
    answered what they were set up to answer (the bar for retiring is 20 live shadow trades; they have 11).
-
+   RESULT 11-15, on the 0.35-delta strike and the ledgers' own days (opengate.json to 11-12). NVDA / TSLA calls: all 29
+   trades hold +69% / +39% / +12%, trail from 2x +31% / +8% / -5%, all out at 3x +16% / +8% / 0%, half at 3x + trail +36% /
+   +18% / +2%; the last 3 months, 12 trades, are negative under every exit (hold -31%, take3 -13%, trail -20%, half3 +
+   trail -18%; without the best -36% to -46%). SPY calls, 16 trades: all out at 3x +64% / +51% / +38% against hold +69% /
+   +37% / +11%. SPY puts, 17: trail +21% / +1% / -18% against hold +39% / -5% / -28%. DECISION: no change. The exit is
+   not what is wrong with stock_open_drive: nothing beats hold over the full sample and nothing is positive in the last
+   three months. With the SMH gate open the last 3 months are 7 trades, 43% win, +3% / -20% / -42% (gate shut: 5 trades,
+   -78%); the 11-11 loss (-95%, gate open) is not in the replay's rows and takes the seven to about -9%. The ledger is at
+   one win and four losses in a row; the fifth pauses it. The heroes: 11 trades, 0 wins, -$4,110; six traded at 1.5x or
+   better first (TSM 7.06x, AMD 2.53x, AVGO 1.88x, MSFT 1.84x, LLY 1.64x, AAPL 1.54x); with the small leg's trail the same
+   stakes come to about -$508 (from the recorded peaks). On real prices the hero rule (0.10 delta held to expiry) is 18
+   snipers, 0 wins, -95%. Holding to expiry is what turns them to zero, not the size. They stay as they are until 20
+   trades (the bar), 6 and 5 now.
 61. **Were the drops traceable? (owner, 2026-11-13 talk: "these drops all had signs you could follow").** DONE 11-12 evening
    (owner: "do not wait for Sunday, compute it now"; journal/research/DROPS.md, zoh/research/drops.py), result at the end. Test the claim both
    ways, not only on the days that fell. (a) Events: every day since 2024-02 with SPY <= -1.5% close to close or SMH <= -4%, and
@@ -437,35 +481,60 @@ in EVOLUTION.md.
    tail. No evening state helps: the SMH split flips sign between the two periods. About six signals a year, at most half
    of $500 each, paused after five losses in a row; the owner chose it on 11-05 as a tail position with these odds in view.
 
-63. **A release pop that fades before the bell (2026-11-13).** October PPI came in a tenth light at 08:30; SPY went from +0.39%
+63. **A release pop that fades before the bell (2026-11-13).** DONE 11-15 (WEEK46.md). October PPI came in a tenth light at 08:30; SPY went from +0.39%
    to +0.71% by 08:33, was back at +0.39% at the 09:30 open, and the open was the day's high (-0.75% open to close, -1.96% at the low). The bias
    was final at 08:37 and never saw the fade. Test on every 08:30 release day since 2024-02 (CPI, PPI, NFP, claims on big
    days; SIP pre-market minutes): the 08:31-08:40 extreme against the opening print; when half or more of the pop (or drop) is
    gone by the open, how often does open-to-close run against the first reaction, against days where it held? If it has lift,
    the checklist gets a 09:20 read on release days (the bias file may be rewritten until 09:30) and p_up moves on it.
-64. **The entry minute of the open sniper (2026-11-13).** catalyst_open bought TSLA at 09:32:01 on the first closed bar (403.12
+   RESULT 11-15 (the calendar only holds CPI and jobs days since 2025-10, plus the 11-13 PPI: 26 days, 25 with a first
+   reaction of 0.15% or more; SIP minutes, the 08:29 print, the 08:30-08:40 extreme and the 09:30 opening print from the
+   same unadjusted bars). Half or more of the reaction gone by the open: 16 days, open to close with the first reaction
+   on 7, avg -0.19%, against it by 0.5% or more on 3. More than half still there: 9 days, with it on 4, avg -0.34%,
+   against by 0.5% or more on 2. No lift either way: a pop that fades before the bell says nothing about open to close.
+   No 09:20 read is added and p_up does not move on it; 11-13 was one day.
+64. **The entry minute of the open sniper (2026-11-13).** DONE 11-15 (WEEK46.md). catalyst_open bought TSLA at 09:32:01 on the first closed bar (403.12
    against a 401.20 open: the 'not against the pick' gate passed) one minute after the day's high (404.40); 398.5 a minute
    later, -2.85% open to close. The gate reads one bar. Replay the 17 catalyst_open entries and the sniper days since 10-01 on
    minute bars: enter on the first closed bar (now), or only once the stock has held above its open for 5 closed bars, or above
    the first 5 minutes' high; compare the option entry price, the share of days entered, and the result with the same exit.
    SNIPERS_REAL.md found 09:40 and 10:00 entries no better on average; this asks about the gate, not the clock.
+   RESULT 11-15, on the stock (24 sniper days, minute bars; the option leg was not replayed). Live gate (first minute
+   09:32-10:00 at or beyond the open): enters 18 of 24 at +0.38% from the open, 11 right from the entry, +0.30% to the
+   close. Five closed minutes in a row beyond the open: 15 of 24, at +0.98%, 10 right, +0.18%; on the 15 days both
+   entered the live gate made +0.74% and the five-minute gate +0.18%, so waiting costs more than it screens. A close
+   beyond the first five minutes' extreme: 11 of 24, at +0.90%, 9 right, +0.76%: fewer and better, on eleven entries.
+   DECISION: the live gate stays; the breakout gate is a candidate to re-run when there are 20 entries.
 65. **Friday and the put hand (2026-11-13).** SPY was 753.85 at 10:00, 0.82% below its 760.07 open, on a Friday: the put hand's
    signal with its weekday off. SPY fell to 745.20 by 11:35 and closed 754.37 (+0.07% from the 10:00 print: the put paid
    only to someone who sold into the 11:35 low). With OPENGATE.md's Friday rows (10 of the 27
    put signals fell outside the ledger's days and were mostly losers) count this one too before touching the weekday rule.
-
-66. **The SPY call never takes a side (2026-11-14, owner: "review the week's problems").** Since the bar went to p_up >= 0.60
+   11-15: counted, nothing changed. Item 60's put row is the reference (17 put trades on the ledger's days: trail +21% /
+   +1% / -18%).
+66. **The SPY call never takes a side (2026-11-14, owner: "review the week's problems").** DONE 11-15 (WEEK46.md). Since the bar went to p_up >= 0.60
    / <= 0.40 on 10-23: 16 sessions, 0 calls, 0 puts, so claude_bias and claude_confirm have had no trade in three weeks. This
    week p_up was 0.54 / 0.44 / 0.53 / 0.50 / 0.53 and SPY closed above its open on four of the five days (+1.45%, +0.26%,
    +0.40%, +0.43%, -0.75%; graded missed, ok, ok, ok, missed). Compute the calibration buckets over all sessions since 10-05
    (p_up against the share of closes above the open) and how many days a 0.57 / 0.43 bar would have called and what they did;
    if the buckets carry no information either way, say so and retire the two variants' slots instead of lowering the bar.
-67. **Put ideas in an up week (2026-11-14).** Week of 11-09 (SPY +2.6%, SMH +4.9%): 92 ideas, 27 paid, 26 right, 39 wrong.
+   RESULT 11-15: 16 mornings since the bar, p_up between 0.44 and 0.54 on every one, so no bar above 0.55 would have
+   called a day (0.57 / 0.43: none). Brier 0.243 (0.250 for a flat 0.50). Buckets: 0.50-0.55, 13 mornings, 10 closed above
+   the open (+0.17%); 0.45-0.50, 2 mornings, 0 above (-2.47%); under 0.45, 1 morning, above (+0.22%). The side leaned to
+   was right on 9 of 13, 'always up' on 8 of the same 13. The five days that took a side (all before 10-23) were right
+   open to close on 4. DECISION: the bar stays and the variant stays: the estimate is what never moves, and 16 mornings
+   do not show the lean is worth more than the tape's drift. A line in CLAUDE.md step 3 says so.
+67. **Put ideas in an up week (2026-11-14).** DONE 11-15 (WEEK46.md). Week of 11-09 (SPY +2.6%, SMH +4.9%): 92 ideas, 27 paid, 26 right, 39 wrong.
    Calls 54: 22 paid, 17 wrong, +0.34% against SPY. Puts 38: 5 paid, 22 wrong, -0.72% against SPY. Pre-market ideas 49: 20
    paid; after 10:00, 43: 7 paid. Listed when already 3% or more its way from the open, 18: 10 wrong. Rating changes 10: 7
    paid, 0 wrong, +1.88% against SPY. Split the whole log the same way (direction by the week's SPY sign, listed before or
    after 10:00, extension at listing) before changing a habit: one week is one tape.
-68. **The rotation map says last week's story (2026-11-14).** Graded this week: wrong, half, wrong, right, wrong. It had chips
+   RESULT 11-15 (179 ideas, 12 sessions). By the tape: calls on days SPY closed above its open 69 ideas, 39% paid,
+   +0.31% against SPY; puts on those days 54, 24%, -0.24%; calls on days it closed below 34 ideas, 3% paid, 79% wrong;
+   puts on those days 22, 45% paid, +0.42%. By the clock: see item 59. By type: analyst 13 ideas, 54% paid, 1 wrong,
+   +1.42% against SPY (+1.04% without the best); company_news 46, 35%, -0.04%; sector_move 22, 9%, -0.14%;
+   relative_weakness 14, 14%, -0.44%; rotation_laggard 9, 11%, -0.59%. The ideas mostly follow the day: a put list in an
+   up week is the post-mortem's `tide`. No habit changed on one week; the 13:16 pick (item 59) is the only change.
+68. **The rotation map says last week's story (2026-11-14).** DONE 11-15 (WEEK46.md). Graded this week: wrong, half, wrong, right, wrong. It had chips
    `turning` Monday to Wednesday while SMH led (+4.9%, +1.1%, +0.5% open to close), and listed the bounce as `heating` on
    Friday morning, the day it was sold (-2.6%). The states are built from 1-week and 1-month returns, so they flip after the
    move. Score every morning's heating / cooling list since 10-05 against the same day's open-to-close by theme: if heating
@@ -473,7 +542,12 @@ in EVOLUTION.md.
    being graded as a forecast. Also from this week: the new SMH gate on stock_open_drive (item 62) was open on both losing
    days (11-09 SMH 463.96 against a 536.94 average, 11-11 483.63 against 526.53), so it would have blocked neither loss; the
    ledger has one win and four losses in a row (+267, -150, -71, -53, -160) and a fifth pauses it.
-
+   RESULT 11-15. My own lists, 30 mornings: heating beat cooling open to close on 13 (0 of 5 this week); against SPY the
+   heating names averaged -0.05% and the cooling names -0.44% (below SPY on 19 of 30: the cooling list has some
+   information, the heating list none). The theme model, next day's basket open to close less SPY's: heating 771
+   theme-days -0.02%, beat SPY 50%; turning 465, +0.13%, 54%; last 3 months heating 84, -0.07%, 50%; turning 119, -0.19%,
+   50%. DECISION: the map stays as context and as the filter of THEMES.md; it is not a same-day forecast and a line in
+   CLAUDE.md 2b says so. The premarket_rotation grade keeps being written, as a record of the read, not as evidence.
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
   live entry) and intraday pick (10) since 10-01 on real option minute bars, 10% costs each way. Snipers,
