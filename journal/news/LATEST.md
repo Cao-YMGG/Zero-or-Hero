@@ -1,4 +1,4 @@
-# Headlines since 2026-11-13 16:00 ET (as of 2026-11-16 10:32 ET)
+# Headlines since 2026-11-13 16:00 ET (as of 2026-11-16 11:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -18,6 +18,14 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-14 15:01 | ASML | target up | UBS Reiterates Buy Rating and Raises Price Target for ASML |
 | 11-13 18:01 | VST | rating | Vistra Maintains Growth Outlook Amid Market Volatility Following Texas Midterm Elections |
 | 11-13 16:33 | NVDA | target down | Rosenblatt Maintains Buy on NVIDIA, Lowers Price Target to $300 |
+| 11-16 11:01 | XOM |  | ExxonMobil Commences Production at Uaru Development in Guyana |
+| 11-16 11:01 | PLTR |  | Palantir Technologies Faces Potential Competition for NHS Data Contract |
+| 11-16 11:01 | CVX |  | Chevron Charters Supertanker to Transport Strategic Petroleum Reserve Crude to California |
+| 11-16 11:01 | NVDA |  | IBM, Fermilab, NVIDIA Announce Plans For New Co-Design Platform To Accelerate The Development Of Next-Generation, Modular Quantum Computers |
+| 11-16 11:01 | TSLA |  | Tesla Announces €3 Billion Expansion of German Gigafactory |
+| 11-16 11:01 | MSFT |  | Microsoft Addresses Recent 365 Service Disruption |
+| 11-16 10:48 | LLY |  | Eli Lilly Agrees to Buy Calytrix Bio for Up to $1.5 Billion As ObesityWeek Data Roll In |
+| 11-16 10:45 | NVDA |  | Why Is Applied Digital Stock Falling on Monday? |
 | 11-16 10:30 | VST |  | Here's How Much $100 Invested In Vistra 5 Years Ago Would Be Worth Today |
 | 11-16 10:26 | NVDA |  | Bloom Energy Shares Drop: What’s Going On With the AI Power Stock Monday? |
 | 11-16 10:24 | CVX XOM |  | ExxonMobil Starts Production At Uaru, Raising Guyana’s Installed Capacity To 1.1M Barrels Per Day |
