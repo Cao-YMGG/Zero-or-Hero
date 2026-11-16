@@ -125,3 +125,4 @@ date,variant,mode,contract,entry_price,exit_price,peak,exit_reason
 2026-11-13,catalyst_open_hero,shadow,AMD261113C00617500,1.65,0,4.17,time
 2026-11-13,catalyst_intraday_hero,shadow,AVGO261113C00377500,1.49,0,2.8,time
 2026-11-16,meta_follow2,shadow,META261116P00612500,0.49,0.57,1.04,trail
+2026-11-16,leader_follow,shadow,AMD261116C00555000,0.64,0,0.64,time

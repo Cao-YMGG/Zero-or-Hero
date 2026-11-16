@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "done": false,
+  "done": true,
   "variants": {
     "claude_bias": {},
     "meta_follow2": {
@@ -11,16 +11,7 @@
     "leader_follow": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "AMD261116C00555000",
-        "direction": "call",
-        "entry_time": "2026-11-16T09:46:32-05:00",
-        "entry_price": 0.64,
-        "peak": 0.64,
-        "qty": 1,
-        "last": 0,
-        "last_time": "2026-11-16T15:16:15-05:00"
-      }
+      "closed": true
     },
     "nvda_gapdown_put": {},
     "catalyst_open": {},
