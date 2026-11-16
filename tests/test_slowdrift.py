@@ -47,6 +47,54 @@ class SlowDrift(unittest.TestCase):
         self.assertEqual(len(s.returns(rows, "late", None, 5, 0.05, vertical=True)[0]), 2)
         self.assertEqual(s.cell([0.5, -0.25, -0.25]), "3 | 33% | +0% / -25% / -25%")
 
+    def test_gather_keeps_the_gated_events_and_resumes(self):
+        import tempfile
+        import time
+        from datetime import datetime
+        from pathlib import Path
+        from zoh.research import exits
+        calls = []
+
+        def events(api, sym, start, end):
+            calls.append(sym)
+            return [(date(2026, 3, 2), "call", "Big Bank Upgrades X to Buy"),          # kept
+                    (date(2026, 3, 9), "call", "Big Bank Raises X Price Target"),       # not a strict rating headline
+                    (date(2026, 3, 16), "call", "Big Bank Upgrades X to Buy")]          # against the rating at 09:32
+
+        def spot(api, sym, day, t):
+            up = day != date(2026, 3, 16)
+            t0 = datetime(day.year, day.month, day.day, 9, 30)
+            bars = [{"t": t0, "o": 100.0, "c": 100.0}, {"t": t0.replace(minute=31), "o": 100.0, "c": 100.4 if up else 99.5}]
+            return bars, bars
+
+        old = exits.rating_events, exits.spot_at
+        exits.rating_events, exits.spot_at = events, spot
+        try:
+            with tempfile.TemporaryDirectory() as tmp:
+                path = Path(tmp) / "events.json"
+                quiet = lambda *a, **k: None
+                first = s.gather(None, ["AAA", "BBB"], path, deadline=time.time() - 1, log=quiet)    # no time at all
+                self.assertEqual((first["done"], calls), ([], []))
+                got = s.gather(None, ["AAA", "BBB"], path, log=quiet)
+                self.assertEqual(got["done"], ["AAA", "BBB"])
+                self.assertEqual([(e["sym"], e["day"], e["spot"]) for e in got["events"]],
+                                 [("AAA", "2026-03-02", 100.4), ("BBB", "2026-03-02", 100.4)])
+                s.gather(None, ["AAA", "BBB", "CCC"], path, log=quiet)                               # only the new symbol is read
+                self.assertEqual(calls, ["AAA", "BBB", "CCC"])
+        finally:
+            exits.rating_events, exits.spot_at = old
+
+    def test_the_wide_universe_is_out_of_sample(self):
+        from zoh.analyst import SYMBOLS
+        self.assertFalse(set(s.WIDE) & set(SYMBOLS))
+        self.assertEqual(len(s.WIDE), len(set(s.WIDE)))
+        rows = [{"day": "2026-03-02", "kind": "call", "early": {},
+                 "late": {"d0.30": {"strike": 30, "delta": 0.3, "px": 1.2, "out": {"5": [1.8, True]}}}},
+                {"day": "2026-03-03", "kind": "call", "early": {},
+                 "late": {"d0.30": {"strike": 300, "delta": 0.3, "px": 6.0, "out": {"5": [3.0, True]}}}}]
+        self.assertEqual(len(s.returns(rows, "late", "d0.30", 5, 0.05)[0]), 2)
+        self.assertEqual(len(s.returns(rows, "late", "d0.30", 5, 0.05, cap=250)[0]), 1)    # the $600 contract is out
+
 
 if __name__ == "__main__":
     unittest.main()
