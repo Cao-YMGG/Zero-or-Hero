@@ -1,7 +1,321 @@
 {
- "as_of": "2026-11-16T08:31-05:00",
+ "as_of": "2026-11-16T10:02-05:00",
  "since": "2026-11-13T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-16 09:46",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "President Trump Says No One Has Proved Alice Huang Is A Chinese Spy",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/FXI"
+  },
+  {
+   "time": "11-16 09:44",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "President Trump Says May Talk To Xi About Nvidia",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/NVDA"
+  },
+  {
+   "time": "11-16 09:41",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "President Trump Says Lutnick Might Have Delayed Putting Megaspeed On List",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/NVDA"
+  },
+  {
+   "time": "11-16 09:40",
+   "symbols": [
+    "HD",
+    "NVDA",
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Nvidia Is the AI Chatbots\u2019 Top Stock Pick As Earnings Land This Week",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/previews/26/11/63292090/nvidia-is-the-ai-chatbots-top-stock-pick-as-earnings-land-this-week"
+  },
+  {
+   "time": "11-16 09:36",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Trump Says Nvidia\u2019s Huang Learned A Lesson; Says Wouldn\u2019t Mind Seeing Huang\u2019s Reinstatement",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/FXI"
+  },
+  {
+   "time": "11-16 09:32",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "rating",
+   "headline": "BofA Securities Adjusts Robinhood Markets PT to $151 From $156, Maintains Buy Rating",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/bofa-securities-adjusts-robinhood-markets-pt-to-151-from-156-maintains-buy-rating-ce785edfd88ff62d"
+  },
+  {
+   "time": "11-16 09:32",
+   "symbols": [
+    "CIEN"
+   ],
+   "rating": "",
+   "headline": "Ciena Appoints Greg Friesen as Executive Vice President and Chief Product Officer",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/technology/telecommunications"
+  },
+  {
+   "time": "11-16 09:32",
+   "symbols": [
+    "CIEN"
+   ],
+   "rating": "",
+   "headline": "TD Cowen Adjusts Price Target on Ciena to $375 From $400",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/td-cowen-adjusts-price-target-on-ciena-to-375-from-400-ce785edfd889f026"
+  },
+  {
+   "time": "11-16 09:32",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa and Samsung Launch Scan to Pay QR Functionality in Asia Pacific",
+   "source": "fiscal.ai",
+   "url": "https://cxp.asia/2026/11/16/visa-and-samsung-launch-scan-to-pay-qr-functionality-on-samsung-wallet-across-asia-pacific/"
+  },
+  {
+   "time": "11-16 09:31",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "BofA Adjusts Price Target on Coinbase Global",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/bofa-adjusts-price-target-on-coinbase-global-to-177-from-203-keeps-buy-rating-ce785edfd88ff225"
+  },
+  {
+   "time": "11-16 09:31",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "Walmart Appoints Caterpillar CEO Joe Creed to Board",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/walmart-appoints-caterpillar-ceo-joe-creed-to-board-ce785edfd880f32d"
+  },
+  {
+   "time": "11-16 09:31",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "Caterpillar Standardizes Advanced Safety Technologies on Construction Equipment",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1004757502/caterpillar-makes-advanced-safety-technologies-standard-on-construction-equipment"
+  },
+  {
+   "time": "11-16 09:31",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank of America Adjusts Price Target on Coinbase Global",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/bofa-adjusts-price-target-on-coinbase-global-to-177-from-203-keeps-buy-rating-ce785edfd88ff225"
+  },
+  {
+   "time": "11-16 09:31",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank of America Names Salvation Army of Augusta as 2026 Neighborhood Builders Recipient",
+   "source": "fiscal.ai",
+   "url": "https://augustaceo.com/news/2026/11/bank-america-names-salvation-army-augusta-its-augusta-aiken-2026-neighborhood-builders/"
+  },
+  {
+   "time": "11-16 09:31",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "rating",
+   "headline": "TD Cowen Adjusts Broadcom Price Target to $425 From $475",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/td-cowen-adjusts-broadcom-price-target-to-425-from-475-ce785edfd880ff21"
+  },
+  {
+   "time": "11-16 09:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Pesta & Pesta Wealth Management Adds Goldman Sachs Custody Solutions",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/pesta--pesta-wealth-management-elevates-high-net-worth-offerings-with-addition-of-goldman-sachs-custody-solutions-302938955.html"
+  },
+  {
+   "time": "11-16 09:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Shore Medical Center and Shore Physicians Group Select Oracle Health's AI-Powered EHR",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/new-jersey-based-shore-medical-center-and-shore-physicians-group-select-oracle-healths-new-ai-powered-ehr-to-create-a-more-connected-experience-for-patients-and-care-teams-302940524.html"
+  },
+  {
+   "time": "11-16 09:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Corvex Signs $103 Million Agreement for NVIDIA Blackwell Capacity",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/corvex-signs-103-million-take-or-pay-agreement-for-nvidia-blackwell-capacity-21-million-of-annual-contract-revenue-per-megawatt-302940368.html"
+  },
+  {
+   "time": "11-16 09:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart Appoints Caterpillar CEO Joe Creed to Board of Directors",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.at/nachrichten/aktien/walmart-appoints-caterpillar-ceo-joe-creed-to-board-of-directors-1036768778"
+  },
+  {
+   "time": "11-16 09:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Blackstone Digital Infrastructure Trust to Acquire 75% Interest in AWS Data Center Joint Ventures",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/subject/merger-acquisition"
+  },
+  {
+   "time": "11-16 09:31",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Secures Multi-Year Agreements for Low-Carbon Data Center Materials",
+   "source": "fiscal.ai",
+   "url": "https://sustainabilitymag.com/news/why-meta-is-expanding-us-clean-industrial-supply-chains"
+  },
+  {
+   "time": "11-16 09:31",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "ExxonMobil Announces Cash Tender Offers for Outstanding Notes",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/energy"
+  },
+  {
+   "time": "11-16 09:30",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Steve Eisman Says Slower AI Spending Could Help Big Tech and Hurt CoreWeave",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63291088/coreweave-ai-slowdown"
+  },
+  {
+   "time": "11-16 09:16",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel Stock Falls as Shareholders Sue Over PC Slump Behind 29% One-Day Drop",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63290500/intel-stock-falls-as-shareholders-sue-over-pc-slump-behind-29-one-day-drop"
+  },
+  {
+   "time": "11-16 09:07",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "downgrade",
+   "headline": "Nvidia Gets 10 Bank Downgrades After Huang Exit: What to Expect Ahead of Q3 Results",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/downgrades/26/11/63290113/nvidia-downgrades-huang-exit-third-quarter-earnings-preview"
+  },
+  {
+   "time": "11-16 09:07",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "ExxonMobil Tender Priority: Pioneer 1.900% 2030s First, Then Pioneer 2.150% 2031s, Exxon 3.482% 2030s & 4.227% 2040s; Pricing Nov 20 At 14:00 ET",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/XOM"
+  },
+  {
+   "time": "11-16 09:06",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "ExxonMobil Launches Cash Tender Offers For Up To $3B Of Exxon & Pioneer Notes Due 2030\u20132040; Expires Nov 20",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/XOM"
+  },
+  {
+   "time": "11-16 09:06",
+   "symbols": [
+    "ASML",
+    "NVDA",
+    "TSM"
+   ],
+   "rating": "",
+   "headline": "EXCLUSIVE: Huang\u2019s Exit Echoes Profumo, but Intelligence Expert Says Chip CEOs Are the New Spy Targets",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63290031/nvidia-jensen-huang-profumo-espionage-risk-adam-irwin-heligan"
+  },
+  {
+   "time": "11-16 09:01",
+   "symbols": [
+    "ASML"
+   ],
+   "rating": "",
+   "headline": "ASML Reports Weekly Share Buyback Transactions",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/16/3403452/0/en/asml-reports-transactions-under-its-current-share-buyback-program.html"
+  },
+  {
+   "time": "11-16 09:00",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla To Invest Additional \u20ac3B In Its Gr\u00fcnheide Gigfactory In Germany - FAZ",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63289648/tesla-invest-additional-3b-its-gr-nheide-gigfactory-germany-faz"
+  },
+  {
+   "time": "11-16 09:00",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "",
+   "headline": "Here\u2019s How Much You Would Have Made Owning Seagate Technology Hldgs Stock In The Last 15 Years",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63289579/here-s-how-much-you-would-have-made-owning-seagate-technology-hldgs-stock-last-15-years"
+  },
   {
    "time": "11-16 08:21",
    "symbols": [

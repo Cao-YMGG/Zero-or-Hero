@@ -1,9 +1,12 @@
-# Headlines since 2026-11-13 16:00 ET (as of 2026-11-16 08:31 ET)
+# Headlines since 2026-11-13 16:00 ET (as of 2026-11-16 10:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-16 09:32 | HOOD | rating | BofA Securities Adjusts Robinhood Markets PT to $151 From $156, Maintains Buy Rating |
+| 11-16 09:31 | AVGO | rating | TD Cowen Adjusts Broadcom Price Target to $425 From $475 |
+| 11-16 09:07 | NVDA | downgrade | Nvidia Gets 10 Bank Downgrades After Huang Exit: What to Expect Ahead of Q3 Results |
 | 11-16 08:19 | COST | target up | Evercore ISI Group Maintains Outperform on Costco Wholesale, Raises Price Target to $1200 |
 | 11-16 08:03 | HD | downgrade | Zelman & Assoc Downgrades Home Depot to Underperform |
 | 11-16 07:53 | NVDA | target down | TD Cowen Maintains Buy on NVIDIA, Lowers Price Target to $200 |
@@ -13,6 +16,34 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-14 15:01 | ASML | target up | UBS Reiterates Buy Rating and Raises Price Target for ASML |
 | 11-13 18:01 | VST | rating | Vistra Maintains Growth Outlook Amid Market Volatility Following Texas Midterm Elections |
 | 11-13 16:33 | NVDA | target down | Rosenblatt Maintains Buy on NVIDIA, Lowers Price Target to $300 |
+| 11-16 09:46 | NVDA |  | President Trump Says No One Has Proved Alice Huang Is A Chinese Spy |
+| 11-16 09:44 | NVDA |  | President Trump Says May Talk To Xi About Nvidia |
+| 11-16 09:41 | NVDA |  | President Trump Says Lutnick Might Have Delayed Putting Megaspeed On List |
+| 11-16 09:40 | HD NVDA WMT |  | Nvidia Is the AI Chatbots’ Top Stock Pick As Earnings Land This Week |
+| 11-16 09:36 | NVDA |  | Trump Says Nvidia’s Huang Learned A Lesson; Says Wouldn’t Mind Seeing Huang’s Reinstatement |
+| 11-16 09:32 | CIEN |  | Ciena Appoints Greg Friesen as Executive Vice President and Chief Product Officer |
+| 11-16 09:32 | CIEN |  | TD Cowen Adjusts Price Target on Ciena to $375 From $400 |
+| 11-16 09:32 | V |  | Visa and Samsung Launch Scan to Pay QR Functionality in Asia Pacific |
+| 11-16 09:31 | COIN |  | BofA Adjusts Price Target on Coinbase Global |
+| 11-16 09:31 | CAT |  | Walmart Appoints Caterpillar CEO Joe Creed to Board |
+| 11-16 09:31 | CAT |  | Caterpillar Standardizes Advanced Safety Technologies on Construction Equipment |
+| 11-16 09:31 | BAC |  | Bank of America Adjusts Price Target on Coinbase Global |
+| 11-16 09:31 | BAC |  | Bank of America Names Salvation Army of Augusta as 2026 Neighborhood Builders Recipient |
+| 11-16 09:31 | GS |  | Pesta & Pesta Wealth Management Adds Goldman Sachs Custody Solutions |
+| 11-16 09:31 | ORCL |  | Shore Medical Center and Shore Physicians Group Select Oracle Health's AI-Powered EHR |
+| 11-16 09:31 | NVDA |  | Corvex Signs $103 Million Agreement for NVIDIA Blackwell Capacity |
+| 11-16 09:31 | WMT |  | Walmart Appoints Caterpillar CEO Joe Creed to Board of Directors |
+| 11-16 09:31 | AMZN |  | Blackstone Digital Infrastructure Trust to Acquire 75% Interest in AWS Data Center Joint Ventures |
+| 11-16 09:31 | META |  | Meta Secures Multi-Year Agreements for Low-Carbon Data Center Materials |
+| 11-16 09:31 | XOM |  | ExxonMobil Announces Cash Tender Offers for Outstanding Notes |
+| 11-16 09:30 | AMZN |  | Steve Eisman Says Slower AI Spending Could Help Big Tech and Hurt CoreWeave |
+| 11-16 09:16 | INTC |  | Intel Stock Falls as Shareholders Sue Over PC Slump Behind 29% One-Day Drop |
+| 11-16 09:07 | XOM |  | ExxonMobil Tender Priority: Pioneer 1.900% 2030s First, Then Pioneer 2.150% 2031s, Exxon 3.482% 2030s & 4.227% 2040s; Pricing Nov 20 At 14:00 ET |
+| 11-16 09:06 | XOM |  | ExxonMobil Launches Cash Tender Offers For Up To $3B Of Exxon & Pioneer Notes Due 2030–2040; Expires Nov 20 |
+| 11-16 09:06 | ASML NVDA TSM |  | EXCLUSIVE: Huang’s Exit Echoes Profumo, but Intelligence Expert Says Chip CEOs Are the New Spy Targets |
+| 11-16 09:01 | ASML |  | ASML Reports Weekly Share Buyback Transactions |
+| 11-16 09:00 | TSLA |  | Tesla To Invest Additional €3B In Its Grünheide Gigfactory In Germany - FAZ |
+| 11-16 09:00 | STX |  | Here’s How Much You Would Have Made Owning Seagate Technology Hldgs Stock In The Last 15 Years |
 | 11-16 08:21 | AMZN |  | Uber Riders in Vegas Can Now Get Driverless Zoox Robotaxi |
 | 11-16 08:03 | NVDA TSLA |  | Tesla-SpaceX Merger Is 'Almost Inconceivable' to Avoid, Says Elon Musk Biographer — 'You'll Know More' on Dec. 3 |
 | 11-16 08:01 | GEV |  | Coatue Management LLC Reduces Stake in GE Vernova |
