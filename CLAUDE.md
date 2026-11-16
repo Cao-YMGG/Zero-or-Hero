@@ -264,6 +264,11 @@ scored against purely mechanical variants.
    of two years (62 events, not my picks): -9% sold on day one, +19% / +12% / +5% carried to expiry with the trail on;
    the last 3 months, 10 events, +12% / -9% / -17%. Downgrades lose at every strike (33 events, -16% to -40%): a put
    sniper on a downgrade alone is not a rating_open kind of trade.
+   Those 62 are the 25 names we trade, picked because they had moved. Out of sample (SLOWDRIFT_WIDE.md, 2026-11-16: 278
+   upgrades on 105 other large caps) the stock is +0.88% from the open on day 0 and flat after it (+0.22% from the 09:32
+   price to that close; day +10 no better than any other day), and a three-week call loses 11-15% at every strike. So
+   treat an upgrade as a one-day, first-minutes effect until SUNDAY_TESTS 70 has run rating_open's own rule on those
+   events; do not quote the 25 names' carry as evidence, and do not add a slower version.
    Since 2026-11-09 (owner) the sniper and the intraday picks are shadow-only: catalyst_open and
    catalyst_intraday carry real_risk 0 and the hero shadows keep the full-ledger samples. 14 live
    snipers ran -13% (-35% without the best one) and 13 intraday picks -30% (SNIPERS_REAL.md); real

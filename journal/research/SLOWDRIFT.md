@@ -1,5 +1,7 @@
 # The drift after a rating change, and the option that holds it
 
+**Out of sample this does not hold** (SLOWDRIFT_WIDE.md, 2026-11-16): on 105 other large caps the stock gains on day 0 and nothing after, and the same calls lose. The 25 names below were chosen as the ones we trade, which is to say the winners of these two years.
+
 95 rating headlines of two years on 25 large caps (journal/research/week46_upgrades.json: a strict '<firm> upgrades / downgrades <stock>' headline before 09:30, the stock not against the rating at 09:32). See zoh/research/slowdrift.py. `a / b / c` = average / without the best / without the best two.
 
 ## 1. The stock, from the open of day 0, signed the rating's way

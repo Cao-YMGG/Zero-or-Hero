@@ -367,6 +367,11 @@ def main():
     if a.wide:
         extra["where"] = extra["where"].replace("names listed", f"names listed, {data.get('symbols_done', '?')} read so far")
     text = report(data, **extra)
+    if not a.wide and WIDE_OUT.exists():
+        head, rest = text.split("\n", 1)
+        text = (f"{head}\n\n**Out of sample this does not hold** (SLOWDRIFT_WIDE.md, 2026-11-16): on 105 other large caps "
+                "the stock gains on day 0 and nothing after, and the same calls lose. The 25 names below were chosen as "
+                "the ones we trade, which is to say the winners of these two years.\n" + rest)
     out.write_text(text)
     print(text)
 
