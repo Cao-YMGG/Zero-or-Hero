@@ -61,50 +61,6 @@
       "entry_cutoff": "14:00"
     },
     {
-      "id": "leader_follow",
-      "universe": [
-        "META",
-        "AAPL",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "NVDA",
-        "TSLA",
-        "AVGO",
-        "AMD",
-        "MU",
-        "NFLX",
-        "ORCL",
-        "CRM",
-        "PLTR",
-        "INTC",
-        "COIN"
-      ],
-      "any_expiry": true,
-      "pick": "strongest",
-      "signal": "momentum",
-      "relative": true,
-      "sides": [
-        "up"
-      ],
-      "after_minutes": 15,
-      "threshold_pct": 1.5,
-      "target_delta": 0.2,
-      "take_profit": null,
-      "stop_loss": null,
-      "trail_after": 1.0,
-      "trail_giveback": 0.4,
-      "entry_cutoff": "14:00",
-      "days": "non_event",
-      "skip_after_report_days": 3,
-      "weekdays": [
-        0,
-        1,
-        2,
-        3
-      ]
-    },
-    {
       "id": "nvda_gapdown_put",
       "universe": [
         "NVDA"
