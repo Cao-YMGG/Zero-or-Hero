@@ -345,6 +345,19 @@ def ideas(rows):
     return sorted(out, key=lambda r: (r["date"], r["time"]))
 
 
+LATE_FROM = "13:00"      # CLAUDE.md, 2026-11-16: no pick at the 13:16 check-in; it lists the would-be pick instead
+LATE_BAR = (10, 4)       # the pick comes back when 10 would-be picks hold 4 that went 1% further their way
+
+
+def late_picks(rows):
+    """The 13:16 check-in's would-be picks (intraday rows from 13:00 on with conviction yes), every mention
+    kept: they usually repeat a morning idea, and ideas() keeps only the first mention, which would drop
+    the very rows the comeback bar counts (11-16: MU put at 13:17 after the same put at 10:19)."""
+    return sorted((r for r in rows if r.get("source") == "intraday" and r.get("time", "") >= LATE_FROM
+                   and r.get("conviction") == "yes" and r.get("entry_close_pct") not in (None, "")),
+                  key=lambda r: (r["date"], r["time"]))
+
+
 def _num(r, key):
     return float(r[key]) if r.get(key) not in (None, "") else None
 
@@ -408,6 +421,18 @@ def scoreboard(rows, small=3, reviews=()):
         out += ["", f"## {title}", ""] + HEAD
         for k, s in sorted(board(rows, key).items(), key=lambda kv: -kv[1]["n"]):
             out.append(_line(k or ("not stated" if key == "conviction" else "-"), s))
+    late = late_picks(rows)
+    if late:
+        held = sum(float(r["entry_close_pct"]) >= PAID for r in late)
+        need, hold = LATE_BAR
+        out += ["", "## The 13:16 would-be picks (the comeback bar)", "",
+                f"No pick at the 13:16 check-in since 2026-11-16 (CLAUDE.md); the file lists what it would have picked with "
+                f"conviction yes. The pick comes back when {need} of these hold {hold} or more that went 1% further their "
+                f"way. So far {len(late)} logged, {held} went 1% further. Every mention counts here, also one that repeats "
+                "a morning idea.", "",
+                "| date | time | stock | way | move to the close | vs SPY |", "|---|---|---|---|---|---|"]
+        out += [f"| {r['date']} | {r['time']} | {r['symbol']} | {r['direction']} | {_pts(_num(r, 'entry_close_pct'))} | "
+                f"{_pts(_num(r, 'vs_spy_pct'))} |" for r in late]
     for title, part in (("By type", one), (f"By type, last {len(recent)} sessions", [r for r in one if r["date"] in recent])):
         by = {}
         for r in part:
