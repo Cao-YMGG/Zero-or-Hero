@@ -1,4 +1,4 @@
-# Headlines since 2026-11-13 16:00 ET (as of 2026-11-16 12:03 ET)
+# Headlines since 2026-11-13 16:00 ET (as of 2026-11-16 12:33 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -19,6 +19,10 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-14 15:01 | ASML | target up | UBS Reiterates Buy Rating and Raises Price Target for ASML |
 | 11-13 18:01 | VST | rating | Vistra Maintains Growth Outlook Amid Market Volatility Following Texas Midterm Elections |
 | 11-13 16:33 | NVDA | target down | Rosenblatt Maintains Buy on NVIDIA, Lowers Price Target to $300 |
+| 11-16 12:30 | NVDA |  | Why Is Cerebras Systems Stock Falling on Monday? |
+| 11-16 12:25 | NVDA |  | OpenAI CEO Altman Says AI Industry Made 'Terrible Pitch' To Public About AI |
+| 11-16 12:21 | NVDA |  | Openai CEO Sam Altman Says AI Revolution Without Ex-Nvidia CEO Huang Is ‘Hard To Imagine’ |
+| 11-16 12:10 | AMZN |  | Global Mofy Stock Nearly Triples as Investors Eye Its Latest AI Investment |
 | 11-16 12:00 | NVDA |  | Jensen Huang Launched Nvidia in a Denny’s: Tribute Plaque Briefly Removed After Scandal |
 | 11-16 12:00 | NVDA TSLA |  | Jensen Huang Boasted in 2024 He Managed 'Not to Get Fired' in 31 Years at Nvidia — An Affair Scandal Ended His Run 2 Years Later |
 | 11-16 11:58 | NVDA |  | Huang Reportedly Weighs Comeback As Bessent Seeks Nvidia Shake-Up; Anthropic's Upcoming IPO; Trump To Meet Putin And Xi |

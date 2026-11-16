@@ -1,7 +1,47 @@
 {
- "as_of": "2026-11-16T12:03-05:00",
+ "as_of": "2026-11-16T12:33-05:00",
  "since": "2026-11-13T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-16 12:30",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Why Is Cerebras Systems Stock Falling on Monday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63306971/why-is-cerebras-systems-stock-falling-on-monday"
+  },
+  {
+   "time": "11-16 12:25",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "OpenAI CEO Altman Says AI Industry Made 'Terrible Pitch' To Public About AI",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63306688/openai-ceo-altman-says-ai-industry-made-terrible-pitch-public-about-ai"
+  },
+  {
+   "time": "11-16 12:21",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Openai CEO Sam Altman Says AI Revolution Without Ex-Nvidia CEO Huang Is \u2018Hard To Imagine\u2019",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63306419/openai-ceo-sam-altman-says-ai-revolution-without-ex-nvidia-ceo-huang-hard-imagine"
+  },
+  {
+   "time": "11-16 12:10",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Global Mofy Stock Nearly Triples as Investors Eye Its Latest AI Investment",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63305804/global-mofy-stock-nearly-triples-as-investors-eye-its-latest-ai-investment"
+  },
   {
    "time": "11-16 12:00",
    "symbols": [
