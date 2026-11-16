@@ -19,6 +19,8 @@ An intraday pick is right about the day and late for it: the stock had made its 
 | under 2% its way | 5 | 3 | +0.10% | 5 | 60% | +13% / -27% / -36% |
 | 2-3% | 7 | 3 | -0.07% | 7 | 0% | -48% / -56% / -65% |
 | 3% or more | 5 | 0 | -1.26% | 5 | 0% | -42% / -49% / -58% |
+| under one of its own average ranges | 4 | 1 | -0.35% | 4 | 25% | -74% / -100% / -100% |
+| one average range or more | 13 | 5 | -0.38% | 13 | 15% | -15% / -30% / -33% |
 | picked before 11:00 | 7 | 4 | +0.11% | 7 | 29% | +4% / -24% / -29% |
 | picked 11:00-13:00 | 2 | 1 | -1.09% | 2 | 0% | -99% / -100% / - |
 | picked after 13:00 | 8 | 1 | -0.62% | 8 | 12% | -40% / -46% / -52% |
@@ -153,13 +155,13 @@ The ledgers' own days from opengate.json (NVDA / TSLA calls at +0.8%, SPY calls 
 
 ## 6. The SPY call (item 66)
 
-30 mornings since 2026-10-05; 5 took a side (the last on 2026-10-22), right open to close on 4. Since the bar went to 0.60 / 0.40 on 2026-10-23: 16 mornings with a p_up, between 0.44 and 0.54, so none reached the bar, and none would have at 0.57 / 0.43. Brier 0.243 (0.250 for always 0.50). SPY closed above its open on 11 of the 16; the side I leaned to was right on 9 of 13; 'always up' on 8 of the same 13.
+30 mornings since 2026-10-05; 5 took a side (the last on 2026-10-22), right open to close on 4. Since the bar went to 0.60 / 0.40 on 2026-10-23: 16 mornings with a p_up, between 0.44 and 0.54, so none reached the bar, and none would have at 0.57 / 0.43. Brier 0.240 (0.250 for always 0.50). SPY closed above its open on 12 of the 16; the side I leaned to was right on 10 of 13; 'always up' on 9 of the same 13.
 
 | p_up | mornings | closed above the open | avg open to close |
 |---|---|---|---|
-| 0.00-0.45 | 1 | 1 | +0.22% |
-| 0.45-0.50 | 2 | 0 | -2.47% |
-| 0.50-0.55 | 13 | 10 | +0.17% |
+| 0.00-0.45 | 1 | 1 | +0.26% |
+| 0.45-0.50 | 2 | 0 | -2.49% |
+| 0.50-0.55 | 13 | 11 | +0.17% |
 
 ## 7. The opportunity log, split (12 sessions; item 67)
 
@@ -192,7 +194,7 @@ The ledgers' own days from opengate.json (NVDA / TSLA calls at +0.8%, SPY calls 
 
 ## 8. The rotation map as a same-day forecast (item 68)
 
-My own lists, 30 mornings: the heating names beat the cooling names open to close on 13 (this week 0 of 5); against SPY the heating names averaged -0.05% and the cooling names -0.44% (below SPY on 19 mornings).
+My own lists, 30 mornings: the heating names beat the cooling names open to close on 12 (this week 0 of 5); against SPY the heating names averaged -0.07% and the cooling names -0.45% (below SPY on 20 mornings).
 
 The theme model's state at a close against the basket's next open-to-close, less SPY's:
 
@@ -201,9 +203,9 @@ The theme model's state at a close against the basket's next open-to-close, less
 | last 3 months | heating | 84 | -0.073% | 50% |
 | last 3 months | neutral | 457 | -0.021% | 49% |
 | last 3 months | turning | 119 | -0.193% | 50% |
-| two years | heating | 771 | -0.021% | 50% |
-| two years | neutral | 3874 | -0.006% | 51% |
-| two years | turning | 465 | +0.135% | 54% |
+| two years | heating | 772 | -0.025% | 50% |
+| two years | neutral | 3864 | -0.006% | 51% |
+| two years | turning | 464 | +0.132% | 53% |
 
 ## 9. A release pop that fades before the bell (item 63)
 
@@ -211,5 +213,5 @@ The theme model's state at a close against the basket's next open-to-close, less
 
 | at the 09:30 open | days | open to close with the first reaction: right | avg | open to close against it by 0.5% or more |
 |---|---|---|---|---|
-| half or more of the reaction gone | 16 | 7 | -0.19% | 3 |
+| half or more of the reaction gone | 16 | 8 | -0.19% | 3 |
 | more than half still there | 9 | 4 | -0.34% | 2 |

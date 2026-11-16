@@ -490,7 +490,7 @@ in EVOLUTION.md.
    RESULT 11-15 (the calendar only holds CPI and jobs days since 2025-10, plus the 11-13 PPI: 26 days, 25 with a first
    reaction of 0.15% or more; SIP minutes, the 08:29 print, the 08:30-08:40 extreme and the 09:30 opening print from the
    same unadjusted bars). Half or more of the reaction gone by the open: 16 days, open to close with the first reaction
-   on 7, avg -0.19%, against it by 0.5% or more on 3. More than half still there: 9 days, with it on 4, avg -0.34%,
+   on 8, avg -0.19%, against it by 0.5% or more on 3. More than half still there: 9 days, with it on 4, avg -0.34%,
    against by 0.5% or more on 2. No lift either way: a pop that fades before the bell says nothing about open to close.
    No 09:20 read is added and p_up does not move on it; 11-13 was one day.
 64. **The entry minute of the open sniper (2026-11-13).** DONE 11-15 (WEEK46.md). catalyst_open bought TSLA at 09:32:01 on the first closed bar (403.12
@@ -518,9 +518,9 @@ in EVOLUTION.md.
    (p_up against the share of closes above the open) and how many days a 0.57 / 0.43 bar would have called and what they did;
    if the buckets carry no information either way, say so and retire the two variants' slots instead of lowering the bar.
    RESULT 11-15: 16 mornings since the bar, p_up between 0.44 and 0.54 on every one, so no bar above 0.55 would have
-   called a day (0.57 / 0.43: none). Brier 0.243 (0.250 for a flat 0.50). Buckets: 0.50-0.55, 13 mornings, 10 closed above
+   called a day (0.57 / 0.43: none). Brier 0.240 (0.250 for a flat 0.50). Buckets: 0.50-0.55, 13 mornings, 11 closed above
    the open (+0.17%); 0.45-0.50, 2 mornings, 0 above (-2.47%); under 0.45, 1 morning, above (+0.22%). The side leaned to
-   was right on 9 of 13, 'always up' on 8 of the same 13. The five days that took a side (all before 10-23) were right
+   was right on 10 of 13, 'always up' on 9 of the same 13. The five days that took a side (all before 10-23) were right
    open to close on 4. DECISION: the bar stays and the variant stays: the estimate is what never moves, and 16 mornings
    do not show the lean is worth more than the tape's drift. A line in CLAUDE.md step 3 says so.
 67. **Put ideas in an up week (2026-11-14).** DONE 11-15 (WEEK46.md). Week of 11-09 (SPY +2.6%, SMH +4.9%): 92 ideas, 27 paid, 26 right, 39 wrong.
@@ -542,10 +542,10 @@ in EVOLUTION.md.
    being graded as a forecast. Also from this week: the new SMH gate on stock_open_drive (item 62) was open on both losing
    days (11-09 SMH 463.96 against a 536.94 average, 11-11 483.63 against 526.53), so it would have blocked neither loss; the
    ledger has one win and four losses in a row (+267, -150, -71, -53, -160) and a fifth pauses it.
-   RESULT 11-15. My own lists, 30 mornings: heating beat cooling open to close on 13 (0 of 5 this week); against SPY the
-   heating names averaged -0.05% and the cooling names -0.44% (below SPY on 19 of 30: the cooling list has some
-   information, the heating list none). The theme model, next day's basket open to close less SPY's: heating 771
-   theme-days -0.02%, beat SPY 50%; turning 465, +0.13%, 54%; last 3 months heating 84, -0.07%, 50%; turning 119, -0.19%,
+   RESULT 11-15. My own lists, 30 mornings: heating beat cooling open to close on 12 (0 of 5 this week); against SPY the
+   heating names averaged -0.07% and the cooling names -0.45% (below SPY on 20 of 30: the cooling list has some
+   information, the heating list none). The theme model, next day's basket open to close less SPY's: heating 772
+   theme-days -0.02%, beat SPY 50%; turning 464, +0.13%, 53%; last 3 months heating 84, -0.07%, 50%; turning 119, -0.19%,
    50%. DECISION: the map stays as context and as the filter of THEMES.md; it is not a same-day forecast and a line in
    CLAUDE.md 2b says so. The premarket_rotation grade keeps being written, as a record of the read, not as evidence.
 69. **The slow drift after an upgrade, and the option that holds it (2026-11-15, owner: "think: what else could work?").**

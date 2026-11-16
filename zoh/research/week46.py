@@ -22,7 +22,7 @@ from pathlib import Path
 
 from .. import journal
 from ..alpaca import Alpaca, AlpacaError
-from ..realopt import ET, hhmm
+from ..realopt import ET, hhmm, last_day
 from ..runup import daily
 from . import exits, opengate, opportunities, snipers, themes
 
@@ -115,7 +115,7 @@ def hero_pairs(root=journal.ROOT):
 def bias_calibration(api, root=journal.ROOT):
     files = sorted(glob.glob(str(root / "journal" / "bias" / "2026-*.json")))
     first = date.fromisoformat(json.loads(Path(files[0]).read_text())["date"])
-    spy = daily(api, ["SPY"], first - timedelta(days=7), date.today())["SPY"]
+    spy = daily(api, ["SPY"], first - timedelta(days=7), last_day())["SPY"]
     oc = {d.isoformat(): c / o - 1 for d, o, c in spy}
     cc = {b[0].isoformat(): b[2] / a[2] - 1 for a, b in zip(spy, spy[1:])}
     rows = []
@@ -194,7 +194,7 @@ def rotation_map(api, root=journal.ROOT):
     syms = sorted({s for v in MAP.values() for s in v} | {"SPY"})
     files = sorted(glob.glob(str(root / "journal" / "bias" / "2026-*.json")))
     first = date.fromisoformat(json.loads(Path(files[0]).read_text())["date"])
-    oc = {s: {d.isoformat(): c / o - 1 for d, o, c in v} for s, v in daily(api, syms, first, date.today()).items()}
+    oc = {s: {d.isoformat(): c / o - 1 for d, o, c in v} for s, v in daily(api, syms, first, last_day()).items()}
 
     def side(lines, d):
         names = set()
@@ -247,7 +247,7 @@ def pick_tables(api, rows):
             out["intraday"].append(item)
     syms = sorted({i["sym"] for i in out["intraday"]})
     try:
-        bars = api.daily_bars_multi(syms, date(2026, 8, 20), date.today())
+        bars = api.daily_bars_multi(syms, date(2026, 8, 20), last_day())
     except AlpacaError:
         bars = {}
     for i in out["intraday"]:
@@ -295,7 +295,7 @@ def entry_gates(api, rows):
 def release_fade(api, root=journal.ROOT):
     cal = json.loads(Path(root / "config" / "macro_events.json").read_text())
     days = sorted({d for k in ("CPI", "NFP") for d in cal.get(k, [])} | {"2026-11-13"})   # 11-13 = PPI, the case
-    spy = {d.isoformat(): (o, c) for d, o, c in daily(api, ["SPY"], date(2025, 10, 1), date.today())["SPY"]}
+    spy = {d.isoformat(): (o, c) for d, o, c in daily(api, ["SPY"], date(2025, 10, 1), last_day())["SPY"]}
     out = []
     for d in days:
         if d not in spy:

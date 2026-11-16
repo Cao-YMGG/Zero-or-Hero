@@ -84,6 +84,15 @@ class SlowDrift(unittest.TestCase):
         finally:
             exits.rating_events, exits.spot_at = old
 
+    def test_last_day_is_read_in_market_time(self):
+        from datetime import datetime
+        from zoh.realopt import ET, last_day
+        # 03:47 UTC on Monday is 22:47 on Sunday in New York: Sunday has not ended there
+        self.assertEqual(last_day(datetime(2026, 11, 15, 22, 47, tzinfo=ET)), date(2026, 11, 14))
+        self.assertEqual(last_day(datetime(2026, 11, 16, 0, 10, tzinfo=ET)), date(2026, 11, 14))   # ended 10 minutes ago
+        self.assertEqual(last_day(datetime(2026, 11, 16, 0, 40, tzinfo=ET)), date(2026, 11, 15))
+        self.assertEqual(last_day(datetime(2026, 11, 16, 16, 30, tzinfo=ET)), date(2026, 11, 15))
+
     def test_the_wide_universe_is_out_of_sample(self):
         from zoh.analyst import SYMBOLS
         self.assertFalse(set(s.WIDE) & set(SYMBOLS))

@@ -189,8 +189,8 @@ scored against purely mechanical variants.
    gap: pre-market news is mostly priced at the open, OVERNIGHT.md). Honest values sit near
    0.50-0.58 most days; a call needs >= 0.60, a put <= 0.40 (since 2026-10-23, owner talk).
    Calibration is scored weekly (buckets of p_up vs how often SPY closed above its open).
-   Scored 2026-11-15 (WEEK46.md): 16 mornings since the bar, every p_up between 0.44 and 0.54, Brier 0.243 against
-   0.250 for a flat 0.50; the side leaned to was right 9 of 13, one more than 'always up' on the same days. The bar is not what
+   Scored 2026-11-15 (WEEK46.md): 16 mornings since the bar, every p_up between 0.44 and 0.54, Brier 0.240 against
+   0.250 for a flat 0.50; the side leaned to was right 10 of 13, one more than 'always up' on the same days. The bar is not what
    keeps the call at `none`; an estimate that never leaves 0.45-0.55 is. Do not lower the bar. When the evidence is
    one-sided (data, yields, futures and breadth the same way), write the number that says so.
    Decide `call`, `put` or `none`. Prefer `none` when evidence is mixed: a skipped day costs
@@ -201,9 +201,9 @@ scored against purely mechanical variants.
    and record which themes are heating up (money flowing in) and cooling (flowing out).
    Add newly hot themes (e.g. a new AI supply-chain link) as they appear.
    The map is context and a filter on our own picks, not a same-day forecast (WEEK46.md, 2026-11-15): on 30 mornings
-   the names I listed as heating beat the ones listed as cooling open to close on 13 (0 of 5 in the week of 11-09, when
+   the names I listed as heating beat the ones listed as cooling open to close on 12 (0 of 5 in the week of 11-09, when
    it had chips cooling through a +4.9% week and heating on the day they were sold), and the theme model's heating
-   themes beat SPY the next day on 50% of 771 theme-days. It is built from one-week and one-month returns, so it says
+   themes beat SPY the next day on 50% of 772 theme-days. It is built from one-week and one-month returns, so it says
    what has happened. Do not lean the SPY call or a sniper on it alone.
    Also run `python -m zoh.research.themes --today` (Alpaca daily bars, keys in the workflows and
    usually in this container; five turn flags and five heat flags per theme, journal/research/
