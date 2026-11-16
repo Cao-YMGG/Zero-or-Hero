@@ -44,6 +44,18 @@
    "conviction": "no",
    "why": "The only name with in-session news of its own: Trump at 09:36-09:46 said he \"wouldn't mind\" Huang's reinstatement and may talk to Xi about Nvidia; 159.00 -> 163.00 in ten minutes, back to 160.04 (+0.65% from its open) after the FT export-rules line. Cannot be picked (reports tomorrow, the bot refuses it); listed to see whether a faded in-session pop pays from here.",
    "why_zh": "唯一有盘中自己消息的股票：特朗普 09:36–09:46 说「不介意」黄仁勋复职、可能和习近平谈英伟达，股价十分钟从 159 冲到 163，金融时报那条出口规则的消息出来后又回到 160（比开盘高 0.65%）。明天财报，按规则不能选，机器人也会拒绝；列出来看「冲高回落之后」还赚不赚钱。我不看好。"
+  },
+  {
+   "type": "relative_strength",
+   "symbol": "AVGO",
+   "direction": "call",
+   "time": "11:22",
+   "action": "none",
+   "conviction": "maybe",
+   "why": "The strongest chip mega cap as the sector regains its open: 332.72 -> 335.44 (+0.8% from its open, at the day's high; -3.3% on the day) with SMH back above 467.68, and news of its own from this morning (ByteDance AI-processor work, Coatue adding) against TD Cowen's target cut to 425. Not picked: nothing broke in the session, the bounce has no headline, NVDA reports tomorrow and Warsh speaks at 12:00. The morning listed the same call at the open as a 'no'.",
+   "why_zh": "板块回到开盘价上方时最强的芯片大盘股：博通比开盘高 0.8%、在当天最高（当天仍 -3.3%），今早有自己的消息（和字节跳动合作 AI 处理器、Coatue 加仓），另一边是 TD Cowen 把目标价降到 425。不选：盘中没有新消息，这次反弹没有标题撑着，明天英伟达财报，12:00 Warsh 讲话。早上开盘时我把同一个想法记成「不看好」，现在是「也许」。"
   }
- ]
+ ],
+ "check_1121": "11:22 ET: no pick. The put mirror did not arm: SMH is back above its open (469.15 against 467.68, +0.3%; low 462.19 soon after the 10:19 check), which was the written no-put line. The names went with it: MU 735.60 (its open is 735.31; 722.61 at 10:19, so +1.8% against the put idea), AMD 512.07 (+1.7% from its open), AVGO 335.44 (+0.8%, at its high of the day), NVDA 159.28 (+0.2%), MRVL +0.3%, TSM 378.62 (-0.4%). The index bounced with them, SPY 746.26 (-0.46% from its open, low 743.31), QQQ 668.42 (-0.38%, low 663.07), while the morning's havens faded from their opens: XLP -0.5%, XLV -0.5%, WMT -1.2%, UNH -0.5%, LLY +0.1% (1,457.72, was 1,464.57) and TLT gave back its gain. So the hour reversed the 10:19 picture on both sides, and all four 10:19 ideas are against me so far: MU put +1.8% against, META put +1.1% against (623.48 -> 630.13, low 620.14), LLY call -0.5%, NVDA call -0.5% (160.04 -> 159.28). The mega caps that were weakest from their opens are still below them but off the lows: META -1.6%, GOOGL -1.8%, TSLA -1.5%, PLTR -1.1%, ORCL -1.1%. Call side: nothing qualifies. News since 10:19 is thin (Barclays lifts its LLY target to 1,550 at 10:24, a target raise on a name that is fading; Morgan Stanley cuts its NVDA target to 267; Palantir may face competition for the NHS data contract, 11:01); no name is 2% beyond SPY on news that broke in the session, and the chip bounce has no headline of its own behind it. The FT export-rules line of 09:46 still has no detail and no follow-through.",
+ "conditional_1316": "13:16 makes no pick (rule since today); it scores the 10:19 and 11:22 rows and lists what it would have picked as an opportunity with conviction yes. What decides the afternoon: Warsh at 12:00 with a December hike priced; whether SMH holds its open (467.68) after noon or the 10:30 bounce was the whole of it (Friday's bounce at the same hour held to the close); SPY against 749.72 (its open) and 743.31 (the low). A would-be pick needs news that breaks in the session on a name within 3% of its open; no puts on chips while SMH is above its open, no calls on the havens that are fading from theirs."
 }
