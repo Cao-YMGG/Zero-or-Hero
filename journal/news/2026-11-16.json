@@ -1,7 +1,69 @@
 {
- "as_of": "2026-11-16T13:16-05:00",
+ "as_of": "2026-11-16T13:46-05:00",
  "since": "2026-11-13T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-16 13:40",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia Board Not Considering Jensen Huang Comeback, Source Says",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63311788/nvidia-board-not-considering-jensen-huang-comeback-source-says"
+  },
+  {
+   "time": "11-16 13:35",
+   "symbols": [
+    "AAPL",
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVDA? \u2018I Wouldn\u2019t Touch It With a Barge Pole,\u2019 Says Quantum Strategy\u2019s David Roche",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63311476/nvidia-david-roche"
+  },
+  {
+   "time": "11-16 13:32",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Vice President Vance Confirms Earlier Comments From President Trump, Says U.S. Cannot Confirm Whether Alice Huang Is A Chinese Spy",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/FXI"
+  },
+  {
+   "time": "11-16 13:30",
+   "symbols": [
+    "NVDA",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Backs Jensen Huang With One Word After Saying Hiring Him Would Be 'An Honor' and Signing a Petition to Reinstate the Ousted Nvidia CEO",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/movers-shakers/26/11/63311041/elon-musk-backs-jensen-huang-with-one-word-after-saying-hiring-him-would-be-an-honor-and-signing-a-petition-to-reinstate-the-ousted-nvidia-ceo"
+  },
+  {
+   "time": "11-16 13:22",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon\u2019s Big Week: First a New James Bond, Then Anthropic\u2019s IPO",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63310662/amazon-anthropic-ipo-pattinson"
+  },
+  {
+   "time": "11-16 13:15",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Boeing Stock Dips Monday: What\u2019s Going On?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63310232/boeing-stock-dips-monday-whats-going-on"
+  },
   {
    "time": "11-16 13:01",
    "symbols": [

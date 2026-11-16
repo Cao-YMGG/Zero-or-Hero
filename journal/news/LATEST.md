@@ -1,4 +1,4 @@
-# Headlines since 2026-11-13 16:00 ET (as of 2026-11-16 13:16 ET)
+# Headlines since 2026-11-13 16:00 ET (as of 2026-11-16 13:46 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -19,6 +19,12 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-14 15:01 | ASML | target up | UBS Reiterates Buy Rating and Raises Price Target for ASML |
 | 11-13 18:01 | VST | rating | Vistra Maintains Growth Outlook Amid Market Volatility Following Texas Midterm Elections |
 | 11-13 16:33 | NVDA | target down | Rosenblatt Maintains Buy on NVIDIA, Lowers Price Target to $300 |
+| 11-16 13:40 | NVDA |  | Nvidia Board Not Considering Jensen Huang Comeback, Source Says |
+| 11-16 13:35 | AAPL NVDA |  | NVDA? ‘I Wouldn’t Touch It With a Barge Pole,’ Says Quantum Strategy’s David Roche |
+| 11-16 13:32 | NVDA |  | Vice President Vance Confirms Earlier Comments From President Trump, Says U.S. Cannot Confirm Whether Alice Huang Is A Chinese Spy |
+| 11-16 13:30 | NVDA TSLA |  | Elon Musk Backs Jensen Huang With One Word After Saying Hiring Him Would Be 'An Honor' and Signing a Petition to Reinstate the Ousted Nvidia CEO |
+| 11-16 13:22 | AMZN |  | Amazon’s Big Week: First a New James Bond, Then Anthropic’s IPO |
+| 11-16 13:15 | AMZN |  | Boeing Stock Dips Monday: What’s Going On? |
 | 11-16 13:01 | LLY |  | CNBC Halftime Report Final Trades: Berkshire Hathaway, Eli Lilly, Cisco Systems |
 | 11-16 12:58 | NVDA TSM |  | Semiconductor Sell-Off Slams TSMC Stock: What Investors Should Know |
 | 11-16 12:58 | META |  | Why Is DraftKings Stock Falling on Monday? |
