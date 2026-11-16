@@ -1,0 +1,49 @@
+{
+ "date": "2026-11-16",
+ "picks": [],
+ "check_1016": "10:19 ET: no pick. The gap was sold further and the selling moved from chips to the names that had not gapped: SPY 749.72 -> 744.67 (-0.67% from its open, -1.29% on the day, low 744.00, under Friday's 747.88 low), QQQ -0.88% from its open (-2.2% day), IWM -0.5%; staples and health care up (XLP +0.8%, XLV +0.7%), TLT +0.4% and oil -2.6%, so it is not a rates move. From their opens: META -2.6% (640.39 -> 623.48), TSLA -2.5%, PLTR -2.5%, GOOGL -2.3%, ORCL -2.0%, MSFT -1.3%, AMZN -1.2%, AAPL -0.8%; chips, already 4-7% lower at the bell, are mixed: MU -1.7% (-7.2% day), MRVL -1.5%, TSM -1.3% (-5.9%), INTC -0.9%, AVGO -0.7% (-4.8%), NVDA +0.65% and AMD +1.1% (503.42 -> 508.97 after 526.20). SMH 467.68 -> 465.67 (-0.43% from its open, high 473.32, low 462.56). In-session news, all on Nvidia and its sector: 09:36-09:46 Trump (\"wouldn't mind\" Huang's reinstatement, may talk to Xi about Nvidia) lifted NVDA to 163.00 and AMD to 526.20; 09:46 a one-line Benzinga relay of the Financial Times, \"US moves to tighten AI chip export rules\" (no detail found), and both gave the pop back. NVDA reports tomorrow, so it cannot be picked either way. No chip put now: the two names the FT line hits hardest are above their opens, so the tape has not confirmed it, and MU's own negatives (Kioxia's pricing warning, the DRAM suit) were known before the bell and sit in a -5.5% gap. No put on META or GOOGL: neither has a headline of its own since the open (Webull and Benzinga feeds read; Italy's EUR 805M fine on Meta is from Sunday and it opened -0.2%), and relative weakness without news is the worst type on our record (14 ideas, 14% paid). The day's leader with news of its own is LLY (+0.6% from its open, +1.5% on the day, a record 1,475.25; Calytrix deal and the ObesityWeek data), not picked: above $1,000, Friday options only, and nothing about it is still to come. The morning sniper is wrong on its own terms: PLTR was below its open at 10:00 (165.66 -> 161.51) and neither catalyst_open nor rating_open entered by the 10:00 cutoff (state as of 10:02). leader_follow's shadow bought an AMD 555 call at 09:46 on the Trump pop (0.64, last 0.09 at 10:02).",
+ "conditional_1121": "Put mirror (11:21 judges it). The name is the weakest chip mega cap that is below its open, within 3% of it and not in a report window: MU now (open 735.31, 722.61 at 10:17; past the 3% line under 713.25), TSM second (open 380.10, 375.22; line 368.70). NVDA is left out (reports tomorrow). Put on MU if at 11:21 SMH is below 465.67 (its 10:17 price, and so below its 467.68 open) and MU is below 722.61 but not under 713.25; if MU is already past its line, the same test on TSM (below 375.22, not under 368.70); if both are past it, no pick and a sample. Stronger if AMD has lost its open (503.42) by then, weaker if NVDA and AMD are both still above theirs. No put if SMH is back above 467.68. Call side: nothing qualifies now; a call at 11:21 needs news that breaks in the session on a name within 3% of its open (a White House line on Huang or on the export rules would be one, but not on NVDA itself). Warsh speaks at 12:00, after that check.",
+ "structure": "Second leg of the AI liquidation: chips gapped 4-7% lower and found buyers at the bell, the mega caps that opened flat are catching down, defensives are bid, bonds up. NVDA's first report without Huang is tomorrow after the close; monthly expiry week.",
+ "opportunities": [
+  {
+   "type": "sector_intraday",
+   "symbol": "MU",
+   "direction": "put",
+   "time": "10:19",
+   "action": "none",
+   "conviction": "maybe",
+   "why": "Mirror candidate: the weakest chip mega cap from its open (735.31 -> 722.61, -1.7%; -7.2% on the day) with SMH back below its open after the Trump pop failed, and an in-session sector negative (FT 09:46, tighter AI chip export rules) on top of Kioxia's pricing warning. Not picked at 10:19: NVDA and AMD are above their opens, so the FT line is not confirmed by the tape, and MU's own negatives were in the gap. 11:21 judges it on the levels in conditional_1121.",
+   "why_zh": "看跌镜像的候选：美光是今天从开盘算最弱的芯片大盘股（比开盘低 1.7%，当天 -7.2%），半导体 ETF 在特朗普讲话拉起来之后又跌回开盘价下方，09:46 还有金融时报「美国要收紧 AI 芯片出口规则」。10:19 不选：这条消息最该打到的英伟达和 AMD 反而在开盘价上方，说明盘面没认；美光自己的利空（Kioxia 降价警告）开盘前就知道了，已经在 5.5% 的低开里。11:21 按写好的价位再判断。"
+  },
+  {
+   "type": "relative_weakness",
+   "symbol": "META",
+   "direction": "put",
+   "time": "10:19",
+   "action": "none",
+   "conviction": "no",
+   "why": "Control. The weakest mega cap from its open (640.39 -> 623.48, -2.6%, at the low) on a day it opened flat, with no headline of its own since the bell; GOOGL (-2.3%) and TSLA (-2.5%) the same shape. Listed because relative weakness without news is the type that has paid least (14 ideas, 14%).",
+   "why_zh": "对照样本。Meta 今天平开，开盘后跌了 2.6%，是大盘股里从开盘算最弱的，但开盘后没有它自己的新消息（意大利罚款是周日的事）；谷歌、特斯拉也是同样的走法。这种「没消息的相对弱势」是我们记录里最不赚钱的一类，列出来只为继续计数，我不看好。"
+  },
+  {
+   "type": "relative_strength",
+   "symbol": "LLY",
+   "direction": "call",
+   "time": "10:19",
+   "action": "none",
+   "conviction": "maybe",
+   "why": "The day's leader with news of its own: 1455.93 -> 1464.57 (+0.6% from its open, +1.5% on the day, record 1,475.25) while SPY is -0.67% from its open; Calytrix deal (up to $1.5B) and the ObesityWeek data, health care bid (XLV +0.7%, UNH +1.3%, ABBV +1.1%). Not picked: above $1,000 (a shadow sample only, Friday options), nothing still to come, and the same shape on 11-09 (LLY at a high, picked 13:19) expired worthless.",
+   "why_zh": "今天的领涨股，而且有自己的消息：礼来比开盘高 0.6%、当天 +1.5%、创新高，而 SPY 比开盘低 0.7%；最多 15 亿美元收购 Calytrix，加上周末的减肥药数据，医药板块有人买。不选：股价过千只能当样本、只有周五到期的期权、后面没有还没出来的东西；11-09 同样的形状（创新高时选的）最后归零。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "NVDA",
+   "direction": "call",
+   "time": "10:19",
+   "action": "none",
+   "conviction": "no",
+   "why": "The only name with in-session news of its own: Trump at 09:36-09:46 said he \"wouldn't mind\" Huang's reinstatement and may talk to Xi about Nvidia; 159.00 -> 163.00 in ten minutes, back to 160.04 (+0.65% from its open) after the FT export-rules line. Cannot be picked (reports tomorrow, the bot refuses it); listed to see whether a faded in-session pop pays from here.",
+   "why_zh": "唯一有盘中自己消息的股票：特朗普 09:36–09:46 说「不介意」黄仁勋复职、可能和习近平谈英伟达，股价十分钟从 159 冲到 163，金融时报那条出口规则的消息出来后又回到 160（比开盘高 0.65%）。明天财报，按规则不能选，机器人也会拒绝；列出来看「冲高回落之后」还赚不赚钱。我不看好。"
+  }
+ ]
+}
