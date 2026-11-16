@@ -1,7 +1,67 @@
 {
- "as_of": "2026-11-16T15:16-05:00",
+ "as_of": "2026-11-16T17:29-05:00",
  "since": "2026-11-13T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-16 16:31",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Chevron Nears $5 Billion Purchase of Majority Stake in Blackstone-Backed Beacon Offshore",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/chevron-nears-5-billion-purchase-of-majority-stake-in-blackstone-backed-beacon-offshore-ce785edfdd80ff2c"
+  },
+  {
+   "time": "11-16 16:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Tahari Parfums Launches Holiday Fragrance Gift Sets at Walmart",
+   "source": "fiscal.ai",
+   "url": "https://www.einpresswire.com/article/957067560/tahari-parfums-launches-men-s-and-women-s-holiday-fragrance-gift-sets-at-walmart"
+  },
+  {
+   "time": "11-16 16:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Once Upon a Coconut Expands Nationwide at Walmart",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/once-upon-a-coconut-reaches-4-500-walmart-stores-in-largest-retail-expansion-to-date-302939969.html"
+  },
+  {
+   "time": "11-16 16:31",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Releases iOS 27.3 Developer Beta Featuring 'Face Unlock' for iPhone Duo",
+   "source": "fiscal.ai",
+   "url": "https://newsfilter.io/articles/apple-adds-face-unlock-to-the-iphone-duo-but-its-not-face-id-4bcfeb7f1ab45ccd98350e3cc94c1985"
+  },
+  {
+   "time": "11-16 16:31",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Appoints 26-Year Veteran Corey Fugman to Lead Payments and Wallet Unit",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/qv14pwk/"
+  },
+  {
+   "time": "11-16 16:31",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank of America Experiences Online Account Access Issues",
+   "source": "fiscal.ai",
+   "url": "https://newsfilter.io/articles/customers-at-some-of-the-u-s-s-largest-banks-are-reporting-difficulty-accessing-4d5f007270e35126bfa22d0015e4c0fb"
+  },
   {
    "time": "11-16 15:02",
    "symbols": [
@@ -31,40 +91,6 @@
    "headline": "Mubadala Investment Co. PJSC Increases Stake in UnitedHealth Group",
    "source": "fiscal.ai",
    "url": "https://www.moomoo.com/news/flash/1004769360/mubadala-investment-co-pjsc-raises-share-stake-in-unitedhealth-group"
-  },
-  {
-   "time": "11-16 15:00",
-   "symbols": [
-    "NVDA",
-    "TSLA"
-   ],
-   "rating": "",
-   "headline": "Sen. John Kennedy\u2019s Jaw Is \u2018Stuck on the Floor\u2019 After Jensen Huang\u2019s Nvidia Exit: If You\u2019re Going to Have an Affair, \u2018Make Sure It\u2019s Not With a Chinese Spy\u2019",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/11/63317156/sen-john-kennedys-jaw-is-stuck-on-the-floor-after-jensen-huangs-nvidia-exit-if-youre-going-to-have-an-affair-make-sure-its-not-with-a"
-  },
-  {
-   "time": "11-16 14:36",
-   "symbols": [
-    "NVDA",
-    "PLTR"
-   ],
-   "rating": "",
-   "headline": "Palantir Dips as Anthropic IPO, Nvidia Turmoil and Rate Hike Bets Rattle Tech",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63315498/palantir-dips-as-anthropic-ipo-nvidia-turmoil-and-rate-hike-bets-rattle-tech"
-  },
-  {
-   "time": "11-16 14:30",
-   "symbols": [
-    "AMD",
-    "AVGO",
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "Nvidia China Trouble Could Spill Over to These AI Chip Stocks",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63315070/nvidia-china-chip-stock-fallout"
   },
   {
    "time": "11-16 14:02",
@@ -197,190 +223,6 @@
    "url": "https://www.prnewswire.com/news-releases/thread-ai-joins-the-microsoft-for-startups-pegasus-program-to-deliver-its-ai-workflow-orchestration-platform-on-microsoft-marketplace-302940646.html"
   },
   {
-   "time": "11-16 13:40",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "Nvidia Board Not Considering Jensen Huang Comeback, Source Says",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63311788/nvidia-board-not-considering-jensen-huang-comeback-source-says"
-  },
-  {
-   "time": "11-16 13:35",
-   "symbols": [
-    "AAPL",
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "NVDA? \u2018I Wouldn\u2019t Touch It With a Barge Pole,\u2019 Says Quantum Strategy\u2019s David Roche",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63311476/nvidia-david-roche"
-  },
-  {
-   "time": "11-16 13:32",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "Vice President Vance Confirms Earlier Comments From President Trump, Says U.S. Cannot Confirm Whether Alice Huang Is A Chinese Spy",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/quote/FXI"
-  },
-  {
-   "time": "11-16 13:30",
-   "symbols": [
-    "NVDA",
-    "TSLA"
-   ],
-   "rating": "",
-   "headline": "Elon Musk Backs Jensen Huang With One Word After Saying Hiring Him Would Be 'An Honor' and Signing a Petition to Reinstate the Ousted Nvidia CEO",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/movers-shakers/26/11/63311041/elon-musk-backs-jensen-huang-with-one-word-after-saying-hiring-him-would-be-an-honor-and-signing-a-petition-to-reinstate-the-ousted-nvidia-ceo"
-  },
-  {
-   "time": "11-16 13:22",
-   "symbols": [
-    "AMZN"
-   ],
-   "rating": "",
-   "headline": "Amazon\u2019s Big Week: First a New James Bond, Then Anthropic\u2019s IPO",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63310662/amazon-anthropic-ipo-pattinson"
-  },
-  {
-   "time": "11-16 13:15",
-   "symbols": [
-    "AMZN"
-   ],
-   "rating": "",
-   "headline": "Boeing Stock Dips Monday: What\u2019s Going On?",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63310232/boeing-stock-dips-monday-whats-going-on"
-  },
-  {
-   "time": "11-16 13:01",
-   "symbols": [
-    "LLY"
-   ],
-   "rating": "",
-   "headline": "CNBC Halftime Report Final Trades: Berkshire Hathaway, Eli Lilly, Cisco Systems",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/quote/BRK/B"
-  },
-  {
-   "time": "11-16 12:58",
-   "symbols": [
-    "NVDA",
-    "TSM"
-   ],
-   "rating": "",
-   "headline": "Semiconductor Sell-Off Slams TSMC Stock: What Investors Should Know",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63309104/semiconductor-sell-off-slams-tsmc-stock-what-investors-should-know"
-  },
-  {
-   "time": "11-16 12:58",
-   "symbols": [
-    "META"
-   ],
-   "rating": "",
-   "headline": "Why Is DraftKings Stock Falling on Monday?",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63309083/why-is-draftkings-stock-falling-on-monday"
-  },
-  {
-   "time": "11-16 12:39",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "'Nvidia board is not considering bringing Jensen Huang back as CEO' -CNBC Report",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63307640/nvidia-board-not-considering-bringing-jensen-huang-back-ceo-cnbc-report"
-  },
-  {
-   "time": "11-16 12:35",
-   "symbols": [
-    "META"
-   ],
-   "rating": "",
-   "headline": "4 Communication Services Stocks With Whale Alerts In Today\u2019s Session",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/options/26/11/63307338/4-communication-services-stocks-whale-alerts-today-s-session"
-  },
-  {
-   "time": "11-16 12:30",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "Why Is Cerebras Systems Stock Falling on Monday?",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63306971/why-is-cerebras-systems-stock-falling-on-monday"
-  },
-  {
-   "time": "11-16 12:25",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "OpenAI CEO Altman Says AI Industry Made 'Terrible Pitch' To Public About AI",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63306688/openai-ceo-altman-says-ai-industry-made-terrible-pitch-public-about-ai"
-  },
-  {
-   "time": "11-16 12:21",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "Openai CEO Sam Altman Says AI Revolution Without Ex-Nvidia CEO Huang Is \u2018Hard To Imagine\u2019",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63306419/openai-ceo-sam-altman-says-ai-revolution-without-ex-nvidia-ceo-huang-hard-imagine"
-  },
-  {
-   "time": "11-16 12:10",
-   "symbols": [
-    "AMZN"
-   ],
-   "rating": "",
-   "headline": "Global Mofy Stock Nearly Triples as Investors Eye Its Latest AI Investment",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63305804/global-mofy-stock-nearly-triples-as-investors-eye-its-latest-ai-investment"
-  },
-  {
-   "time": "11-16 12:00",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "Jensen Huang Launched Nvidia in a Denny\u2019s: Tribute Plaque Briefly Removed After Scandal",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/large-cap/26/11/63304982/jensen-huang-launched-nvidia-in-a-dennys-tribute-plaque-briefly-removed-after-scandal"
-  },
-  {
-   "time": "11-16 12:00",
-   "symbols": [
-    "NVDA",
-    "TSLA"
-   ],
-   "rating": "",
-   "headline": "Jensen Huang Boasted in 2024 He Managed 'Not to Get Fired' in 31 Years at Nvidia \u2014 An Affair Scandal Ended His Run 2 Years Later",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63304978/jensen-huang-boasted-in-2024-he-managed-not-to-get-fired-in-31-years-at-nvidia-an-affair-scandal-ended-his-run-2-years-later"
-  },
-  {
-   "time": "11-16 11:39",
-   "symbols": [
-    "INTC"
-   ],
-   "rating": "",
-   "headline": "Intel Reports Share Stake Of 1.3M Ordinary Shares In Iren Limited",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63303716/intel-reports-share-stake-1-3m-ordinary-shares-iren-limited"
-  },
-  {
    "time": "11-16 11:31",
    "symbols": [
     "ARM"
@@ -389,36 +231,6 @@
    "headline": "Mubadala Investment Co. Pjsc Reduces Stake in Arm Holdings PLC",
    "source": "fiscal.ai",
    "url": "https://www.moomoo.com/news/flash/1004769207/mubadala-investment-co-pjsc-cuts-share-stake-in-arm-holdings"
-  },
-  {
-   "time": "11-16 11:30",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "Jensen Huang Said 'I Don't Have an Endgame' Weeks Before Quitting Nvidia After 33 Years \u2014 Now Allies Are Building a 'War Room' for His Comeback",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63303105/jensen-huang-said-i-dont-have-an-endgame-weeks-before-quitting-nvidia-after-33-years-now-allies-are-building-a-war-room-for-his-comeback"
-  },
-  {
-   "time": "11-16 11:22",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "Michael Burry Smells a Rat in Nvidia\u2019s Vanishing Singapore Revenue",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63302458/michael-burry-smells-a-rat-in-nvidias-vanishing-singapore-revenue"
-  },
-  {
-   "time": "11-16 11:20",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "target down",
-   "headline": "UBS Maintains Buy on NVIDIA, Lowers Price Target to $240",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63302299/ubs-maintains-buy-nvidia-lowers-price-target-240"
   },
   {
    "time": "11-16 11:01",
@@ -453,16 +265,6 @@
   {
    "time": "11-16 11:01",
    "symbols": [
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "IBM, Fermilab, NVIDIA Announce Plans For New Co-Design Platform To Accelerate The Development Of Next-Generation, Modular Quantum Computers",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63300915/ibm-fermilab-nvidia-announce-plans-new-co-design-platform-accelerate-development-next-generation-mod"
-  },
-  {
-   "time": "11-16 11:01",
-   "symbols": [
     "TSLA"
    ],
    "rating": "",
@@ -479,139 +281,6 @@
    "headline": "Microsoft Addresses Recent 365 Service Disruption",
    "source": "fiscal.ai",
    "url": "https://businesschief.com/news/microsoft-outage-loss-could-total-us-700m-analysts-say"
-  },
-  {
-   "time": "11-16 10:48",
-   "symbols": [
-    "LLY"
-   ],
-   "rating": "",
-   "headline": "Eli Lilly Agrees to Buy Calytrix Bio for Up to $1.5 Billion As ObesityWeek Data Roll In",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/m-a/26/11/63299707/eli-lilly-agrees-to-buy-calytrix-bio-for-up-to-1-5-billion-as-obesityweek-data-roll-in"
-  },
-  {
-   "time": "11-16 10:45",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "Why Is Applied Digital Stock Falling on Monday?",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63299337/why-is-applied-digital-stock-falling-on-monday"
-  },
-  {
-   "time": "11-16 10:30",
-   "symbols": [
-    "VST"
-   ],
-   "rating": "",
-   "headline": "Here's How Much $100 Invested In Vistra 5 Years Ago Would Be Worth Today",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63297643/here-s-how-much-100-invested-vistra-5-years-ago-would-be-worth-today"
-  },
-  {
-   "time": "11-16 10:26",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "Bloom Energy Shares Drop: What\u2019s Going On With the AI Power Stock Monday?",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63297209/bloom-energy-shares-drop-whats-going-on-with-the-ai-power-stock-monday"
-  },
-  {
-   "time": "11-16 10:24",
-   "symbols": [
-    "CVX",
-    "XOM"
-   ],
-   "rating": "",
-   "headline": "ExxonMobil Starts Production At Uaru, Raising Guyana\u2019s Installed Capacity To 1.1M Barrels Per Day",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/quote/XOM"
-  },
-  {
-   "time": "11-16 10:24",
-   "symbols": [
-    "LLY"
-   ],
-   "rating": "target up",
-   "headline": "Barclays Maintains Overweight on Eli Lilly, Raises Price Target to $1550",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63297043/barclays-maintains-overweight-eli-lilly-raises-price-target-1550"
-  },
-  {
-   "time": "11-16 10:24",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "target down",
-   "headline": "Morgan Stanley Maintains Overweight on NVIDIA, Lowers Price Target to $267",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63297015/morgan-stanley-maintains-overweight-nvidia-lowers-price-target-267"
-  },
-  {
-   "time": "11-16 10:12",
-   "symbols": [
-    "AMZN"
-   ],
-   "rating": "",
-   "headline": "Robert Pattinson Named As New James Bond",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63295689/robert-pattinson-named-new-james-bond"
-  },
-  {
-   "time": "11-16 09:46",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "President Trump Says No One Has Proved Alice Huang Is A Chinese Spy",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/quote/FXI"
-  },
-  {
-   "time": "11-16 09:44",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "President Trump Says May Talk To Xi About Nvidia",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/quote/NVDA"
-  },
-  {
-   "time": "11-16 09:41",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "President Trump Says Lutnick Might Have Delayed Putting Megaspeed On List",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/quote/NVDA"
-  },
-  {
-   "time": "11-16 09:40",
-   "symbols": [
-    "HD",
-    "NVDA",
-    "WMT"
-   ],
-   "rating": "",
-   "headline": "Nvidia Is the AI Chatbots\u2019 Top Stock Pick As Earnings Land This Week",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/previews/26/11/63292090/nvidia-is-the-ai-chatbots-top-stock-pick-as-earnings-land-this-week"
-  },
-  {
-   "time": "11-16 09:36",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "Trump Says Nvidia\u2019s Huang Learned A Lesson; Says Wouldn\u2019t Mind Seeing Huang\u2019s Reinstatement",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/quote/FXI"
   },
   {
    "time": "11-16 09:32",
@@ -784,68 +453,6 @@
    "url": "https://www.businesswire.com/newsroom/industry/energy"
   },
   {
-   "time": "11-16 09:30",
-   "symbols": [
-    "AMZN"
-   ],
-   "rating": "",
-   "headline": "Steve Eisman Says Slower AI Spending Could Help Big Tech and Hurt CoreWeave",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63291088/coreweave-ai-slowdown"
-  },
-  {
-   "time": "11-16 09:16",
-   "symbols": [
-    "INTC"
-   ],
-   "rating": "",
-   "headline": "Intel Stock Falls as Shareholders Sue Over PC Slump Behind 29% One-Day Drop",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63290500/intel-stock-falls-as-shareholders-sue-over-pc-slump-behind-29-one-day-drop"
-  },
-  {
-   "time": "11-16 09:07",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "downgrade",
-   "headline": "Nvidia Gets 10 Bank Downgrades After Huang Exit: What to Expect Ahead of Q3 Results",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/downgrades/26/11/63290113/nvidia-downgrades-huang-exit-third-quarter-earnings-preview"
-  },
-  {
-   "time": "11-16 09:07",
-   "symbols": [
-    "XOM"
-   ],
-   "rating": "",
-   "headline": "ExxonMobil Tender Priority: Pioneer 1.900% 2030s First, Then Pioneer 2.150% 2031s, Exxon 3.482% 2030s & 4.227% 2040s; Pricing Nov 20 At 14:00 ET",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/quote/XOM"
-  },
-  {
-   "time": "11-16 09:06",
-   "symbols": [
-    "XOM"
-   ],
-   "rating": "",
-   "headline": "ExxonMobil Launches Cash Tender Offers For Up To $3B Of Exxon & Pioneer Notes Due 2030\u20132040; Expires Nov 20",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/quote/XOM"
-  },
-  {
-   "time": "11-16 09:06",
-   "symbols": [
-    "ASML",
-    "NVDA",
-    "TSM"
-   ],
-   "rating": "",
-   "headline": "EXCLUSIVE: Huang\u2019s Exit Echoes Profumo, but Intelligence Expert Says Chip CEOs Are the New Spy Targets",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/11/63290031/nvidia-jensen-huang-profumo-espionage-risk-adam-irwin-heligan"
-  },
-  {
    "time": "11-16 09:01",
    "symbols": [
     "ASML"
@@ -854,67 +461,6 @@
    "headline": "ASML Reports Weekly Share Buyback Transactions",
    "source": "fiscal.ai",
    "url": "https://www.globenewswire.com/news-release/2026/11/16/3403452/0/en/asml-reports-transactions-under-its-current-share-buyback-program.html"
-  },
-  {
-   "time": "11-16 09:00",
-   "symbols": [
-    "TSLA"
-   ],
-   "rating": "",
-   "headline": "Tesla To Invest Additional \u20ac3B In Its Gr\u00fcnheide Gigfactory In Germany - FAZ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63289648/tesla-invest-additional-3b-its-gr-nheide-gigfactory-germany-faz"
-  },
-  {
-   "time": "11-16 09:00",
-   "symbols": [
-    "STX"
-   ],
-   "rating": "",
-   "headline": "Here\u2019s How Much You Would Have Made Owning Seagate Technology Hldgs Stock In The Last 15 Years",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63289579/here-s-how-much-you-would-have-made-owning-seagate-technology-hldgs-stock-last-15-years"
-  },
-  {
-   "time": "11-16 08:21",
-   "symbols": [
-    "AMZN"
-   ],
-   "rating": "",
-   "headline": "Uber Riders in Vegas Can Now Get Driverless Zoox Robotaxi",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63287514/uber-riders-in-vegas-can-now-get-driverless-zoox-robotaxi"
-  },
-  {
-   "time": "11-16 08:19",
-   "symbols": [
-    "COST"
-   ],
-   "rating": "target up",
-   "headline": "Evercore ISI Group Maintains Outperform on Costco Wholesale, Raises Price Target to $1200",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63287330/evercore-isi-group-maintains-outperform-costco-wholesale-raises-price-target-1200"
-  },
-  {
-   "time": "11-16 08:03",
-   "symbols": [
-    "HD"
-   ],
-   "rating": "downgrade",
-   "headline": "Zelman & Assoc Downgrades Home Depot to Underperform",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63286316/zelman-assoc-downgrades-home-depot-underperform"
-  },
-  {
-   "time": "11-16 08:03",
-   "symbols": [
-    "NVDA",
-    "TSLA"
-   ],
-   "rating": "",
-   "headline": "Tesla-SpaceX Merger Is 'Almost Inconceivable' to Avoid, Says Elon Musk Biographer \u2014 'You'll Know More' on Dec. 3",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/11/63286305/tesla-spacex-merger-is-almost-inconceivable-to-avoid-says-elon-musk-biographer-youll-know-more-on-dec-3"
   },
   {
    "time": "11-16 08:01",
@@ -975,26 +521,6 @@
    "headline": "Microsoft Verifies InTouch123 Inc. in Partner Center",
    "source": "fiscal.ai",
    "url": "https://natlawreview.com/press-releases/microsoft-verifies-referna-partner-center"
-  },
-  {
-   "time": "11-16 07:53",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "target down",
-   "headline": "TD Cowen Maintains Buy on NVIDIA, Lowers Price Target to $200",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63285602/td-cowen-maintains-buy-nvidia-lowers-price-target-200"
-  },
-  {
-   "time": "11-16 07:34",
-   "symbols": [
-    "HD"
-   ],
-   "rating": "",
-   "headline": "How To Earn $500 A Month From Home Depot Stock Ahead of Q3 Earnings",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/dividends/26/11/63285005/how-to-earn-500-a-month-from-home-depot-stock-ahead-of-q3-earnings-3"
   },
   {
    "time": "11-16 07:32",
@@ -1087,68 +613,6 @@
    "url": "https://www.moomoo.com/news/flash/1004739565/coatue-management-raises-share-stake-in-broadcom-by-14-0"
   },
   {
-   "time": "11-16 07:28",
-   "symbols": [
-    "AMZN",
-    "CAT"
-   ],
-   "rating": "",
-   "headline": "EBay, Amazon, Caterpillar and More on CNBC\u2019s \u2018Final Trades\u2019",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63284659/ebay-amazon-caterpillar-on-cnbc-final-trades"
-  },
-  {
-   "time": "11-16 07:23",
-   "symbols": [
-    "LLY"
-   ],
-   "rating": "",
-   "headline": "Lilly To Acquire Closely Held Neoplasm Therapy Developer Calytrix Bio For Up To $1.5B In Cash",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/m/26/11/63284535/lilly-acquire-closely-held-neoplasm-therapy-developer-calytrix-bio-1-5b-cash"
-  },
-  {
-   "time": "11-16 07:17",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "DOJ Warns Elizabeth Warren of \u2018Significant Legal Consequences\u2019 Ahead of Potential Probes Into Trump, Corporate Allies: 'Strong Smoke \u200bSignal'",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/11/63284205/doj-warns-elizabeth-warren-of-significant-legal-consequences-ahead-of-potential-probes-into-trump-corporate-allies-strong-smoke-signal"
-  },
-  {
-   "time": "11-16 07:11",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "target down",
-   "headline": "Mizuho Maintains Outperform on NVIDIA, Lowers Price Target to $220",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63283899/mizuho-maintains-outperform-nvidia-lowers-price-target-220"
-  },
-  {
-   "time": "11-16 07:05",
-   "symbols": [
-    "META",
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "'Soft Recession or Something More Dramatic:' Former SEC Chair Gary Gensler Warns AI Boom Could End in Dot-Com-Scale Bust \u2014 'They Loaned Too Much Money, Too Fast'",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63283689/soft-recession-or-something-more-dramatic-former-sec-chair-gary-gensler-warns-ai-boom-could-end-in-dot-com-scale-bust-they-loaned-too-much-money-too-fast"
-  },
-  {
-   "time": "11-16 07:03",
-   "symbols": [
-    "AMZN"
-   ],
-   "rating": "",
-   "headline": "Amazon\u2019s Zoox Robotaxis Now Available On Uber In Las Vegas",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/quote/AMZN"
-  },
-  {
    "time": "11-16 06:32",
    "symbols": [
     "GS"
@@ -1239,183 +703,6 @@
    "url": "https://news.futunn.com/post/1004607529/bnp-paribas-adjusts-price-target-on-walmart-to-144-from"
   },
   {
-   "time": "11-16 05:52",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "Dan Ives Dismisses Jensen Huang's Nvidia Comeback Speculation, Floats Tim Cook and Rene Haas for Top Job: 'Gone for Good'",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/11/63281183/dan-ives-dismisses-jensen-huangs-nvidia-comeback-speculation-floats-tim-cook-and-rene-haas-for-top-job-gone-for-good"
-  },
-  {
-   "time": "11-16 05:46",
-   "symbols": [
-    "GOOGL",
-    "MSFT"
-   ],
-   "rating": "",
-   "headline": "From Coding to Finance and Life Sciences: Box CEO Aaron Levie Says AI Agents Are Getting the Skills to Transform Professional Work",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63281039/from-coding-to-finance-and-life-sciences-box-ceo-aaron-levie-says-ai-agents-are-getting-the-skills-to-transform-professional-work"
-  },
-  {
-   "time": "11-16 05:33",
-   "symbols": [
-    "TSLA"
-   ],
-   "rating": "",
-   "headline": "\u2018That Math Is Obvious and Trivial\u2019: Elon Musk Says Solar Will Supply 100% of Civilization\u2019s Energy as SpaceX and Tesla Ramp Up Manufacturing",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63280915/that-math-is-obvious-and-trivial-elon-musk-says-solar-will-supply-100-of-civilizations-energy-as-spacex-and-tesla-ramp-up-manufacturing"
-  },
-  {
-   "time": "11-16 05:17",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "House Intel Chair Says It\u2019s \u2018Premature\u2019 to Blame Howard Lutnick Over Nvidia China Chip Scandal After Scott Bessent Declares \u2018Commerce Has the Pen\u2019",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/11/63280740/house-intel-chair-says-its-premature-to-blame-howard-lutnick-over-nvidia-china-chip-scandal-after-scott-bessent-declares-commerce-has-the-pen"
-  },
-  {
-   "time": "11-16 05:00",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "Big Short Investor Michael Burry Takes Aim at Nvidia's Jensen Huang \u2014 Says 'Sad That It Took a Lurid Affair' to Expose How Chinese Firms Accessed Restricted AI Chips",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/11/63280517/big-short-investor-michael-burry-takes-aim-at-nvidias-jensen-huang-says-sad-that-it-took-a-lurid-affair-to-expose-how-chinese-firms-accessed-restricted-ai-chips"
-  },
-  {
-   "time": "11-16 04:06",
-   "symbols": [
-    "MSFT",
-    "NVDA",
-    "PLTR"
-   ],
-   "rating": "",
-   "headline": "Elizabeth Warren Takes Aim at Big Tech Billionaires Over China AI Access \u2014 '...Put Our National Security Above Their Bottom Line'",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63280126/elizabeth-warren-big-tech-ceos-us-national-security-china-ai-technology"
-  },
-  {
-   "time": "11-16 03:09",
-   "symbols": [
-    "ARM",
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "Scott Bessent Gives Nvidia 10 Days to Explain China Chip Concerns, Calls for External CEO to Replace Jensen Huang: 'Dramatic Shakeup'",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/11/63279833/scott-bessent-gives-nvidia-10-days-to-explain-china-chip-concerns-calls-for-external-ceo-to-replace-jensen-huang-dramatic-shakeup"
-  },
-  {
-   "time": "11-16 02:57",
-   "symbols": [
-    "MU",
-    "SMCI"
-   ],
-   "rating": "",
-   "headline": "Chip Stocks Have 'Flushed Out Everybody:' Ryan Detrick Calls the 17% SOXX Rebound a Historic 'Buying Thrust'",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/11/63279788/chip-stocks-have-flushed-out-everybody-ryan-detrick-calls-the-17-soxx-rebound-a-historic-buying-thrust"
-  },
-  {
-   "time": "11-16 02:33",
-   "symbols": [
-    "JPM"
-   ],
-   "rating": "",
-   "headline": "America's AI Boom Has a Hidden Cost \u2014 Top Economist Warns Inflation Is Rising, Capital Is Being Sucked Away, and the Rest of the Economy Is Falling Behind",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63279667/moodys-economist-warns-ai-spending-squeezing-us-growth-investment-slowdown"
-  },
-  {
-   "time": "11-16 02:17",
-   "symbols": [
-    "TSLA"
-   ],
-   "rating": "",
-   "headline": "Elon Musk Admits Tesla Cybercab's $300 Monthly Fee Is Too High \u2014 MKBHD Says His Headshave Bet Isn't Over as Deliveries Remain Invite-Only",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63279519/elon-musk-admits-tesla-cybercabs-300-monthly-fee-is-too-high-mkbhd-says-his-headshave-bet-isnt-over-as-deliveries-remain-invite-only"
-  },
-  {
-   "time": "11-16 01:58",
-   "symbols": [
-    "INTC"
-   ],
-   "rating": "",
-   "headline": "Intel Stock Down 3.8% Overnight on Robinhood as Lip-Bu Tan Faces Lawsuit Over PC Slowdown Disclosure",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63279415/intel-lip-bu-tan-shareholder-lawsuit-pc"
-  },
-  {
-   "time": "11-16 01:50",
-   "symbols": [
-    "HD"
-   ],
-   "rating": "",
-   "headline": "Home Depot Likely To Report Higher Q3 Earnings; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/63279388/home-depot-likely-to-report-higher-q3-earnings-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call"
-  },
-  {
-   "time": "11-16 01:41",
-   "symbols": [
-    "LLY"
-   ],
-   "rating": "",
-   "headline": "Reported Saturday, Lilly Presents Eloralintide Phase 2 Exit Interview Results, With 74% Reporting Fewer Cravings, 52% Less Food Noise, Alongside EloraTZP, Retatrutide, Zepbound And Foundayo Data At ObesityWeek 2026",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63279301/reported-saturday-lilly-presents-eloralintide-phase-2-exit-interview-results-74-reporting-fewer-crav"
-  },
-  {
-   "time": "11-16 01:31",
-   "symbols": [
-    "AMZN",
-    "MSFT",
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "'Trump Administration to Name Nvidia Among AI \u2018National Champions\u2019' - WSJ Exclusive",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63279232/trump-administration-name-nvidia-among-ai-national-champions-wsj-exclusive"
-  },
-  {
-   "time": "11-16 01:29",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "What Big Money Bought In Q3 While Friday The 13th Lived Up To Its Name",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/opinion/26/11/63279213/what-big-money-bought-in-q3-while-friday-the-13th-lived-up-to-its-name"
-  },
-  {
-   "time": "11-16 00:31",
-   "symbols": [
-    "RKLB"
-   ],
-   "rating": "",
-   "headline": "Reported Saturday, Rocket Lab Completes 100th Electron Launch, Fastest Commercial Rocket To Reach Milestone, Deploying YAMATSUMI-II SAR Satellite For iQPS",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/quote/RKLB"
-  },
-  {
-   "time": "11-15 23:32",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "\u2018The FBI Doesn\u2019t Take Petitions\u2019: Anthony Scaramucci Says \u2018Stop Comparing\u2019 Jensen Huang With Sam Altman",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63278668/the-fbi-doesnt-take-petitions-anthony-scaramucci-says-stop-comparing-jensen-huang-with-sam-altman"
-  },
-  {
    "time": "11-15 21:01",
    "symbols": [
     "SNDK"
@@ -1496,49 +783,6 @@
    "url": "https://erlich.lawyer/category/california-employment-law/"
   },
   {
-   "time": "11-15 20:45",
-   "symbols": [
-    "ARM",
-    "NVDA",
-    "TSLA"
-   ],
-   "rating": "",
-   "headline": "Jensen Huang Could Return to Nvidia as Silicon Valley Plans \u2018War Room,\u2019 While Anthony Scaramucci Says \u2018Not Happening\u2019",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63278302/jensen-huang-nvidia-comeback-scaramucci"
-  },
-  {
-   "time": "11-15 15:20",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "Financial Times Reported Sunday, Jensen Huang Discusses Comeback As Nvidia CEO With Allies",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63277576/financial-times-reported-sunday-jensen-huang-discusses-comeback-nvidia-ceo-allies"
-  },
-  {
-   "time": "11-15 11:45",
-   "symbols": [
-    "HD",
-    "WMT"
-   ],
-   "rating": "",
-   "headline": "Walmart Stock Forms a Golden Cross as Valuation Worries Linger Ahead of Earnings",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/11/63277313/walmart-stock-forms-a-golden-cross-as-valuation-worries-linger-ahead-of-earnings"
-  },
-  {
-   "time": "11-15 09:09",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "Nvidia Stock Faces First Earnings Since Jensen Huang\u2019s Ouster as Options Signal a Big Move",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/11/63277138/nvidia-stock-faces-first-earnings-since-jensen-huangs-ouster-as-options-signal-a-big-move"
-  },
-  {
    "time": "11-15 09:01",
    "symbols": [
     "GS"
@@ -1567,89 +811,6 @@
    "headline": "Bakong Payment System Enables Visa Virtual Card Creation",
    "source": "fiscal.ai",
    "url": "https://www.prnewswire.com/apac/news-releases/cambodia-takes-bakong-global-connecting-asean-with-japan-and-africa-302939651.html"
-  },
-  {
-   "time": "11-15 08:59",
-   "symbols": [
-    "TSLA"
-   ],
-   "rating": "",
-   "headline": "This Week in TSLA: 24/7 Robotaxis, Cybertruck-Based SUV, $10 Billion Solar Bet and More",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63277093/this-week-in-tsla-24-7-robotaxis-cybertruck-based-suv-10-billion-solar-bet-and-more"
-  },
-  {
-   "time": "11-15 07:07",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "Nvidia Partner Megaspeed Breaks Silence on Alice Huang, Launches Probe Into China Chip Supply Links",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63276977/nvidia-partner-megaspeed-breaks-silence-on-alice-huang-launches-probe-into-china-chip-supply-links"
-  },
-  {
-   "time": "11-15 07:01",
-   "symbols": [
-    "AAPL",
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "Apple\u2019s Tim Cook Legacy, Nvidia\u2019s Jensen Huang Question and the $5 Trillion Crown: This Weekend in Appleverse",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63276957/weekend-tech-roundup-apple-nvidia-jensen-huang-tim-cook"
-  },
-  {
-   "time": "11-15 02:35",
-   "symbols": [
-    "GEV"
-   ],
-   "rating": "",
-   "headline": "Trump's Manufacturing Boom Claims Are 'Not True,' Peter Schiff Says as Factory Spending Falls Over 21%",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/economic-data/26/11/63276651/trumps-manufacturing-boom-claims-are-not-true-peter-schiff-says-as-factory-spending-falls-over-21"
-  },
-  {
-   "time": "11-15 02:29",
-   "symbols": [
-    "NVDA",
-    "TSLA"
-   ],
-   "rating": "",
-   "headline": "Dan Ives Says Nvidia Turmoil Could Hand Big Tech an Unexpected AI Advantage as Hyperscalers Gain, Dismisses \u2018Blue Tidal Wave\u2019 Reaction",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63276639/dan-ives-says-nvidia-turmoil-could-hand-big-tech-an-unexpected-ai-advantage-as-hyperscalers-gain-dismisses-blue-tidal-wave-reaction"
-  },
-  {
-   "time": "11-15 01:46",
-   "symbols": [
-    "NVDA",
-    "TSLA"
-   ],
-   "rating": "",
-   "headline": "Elon Musk Backs Jensen Huang Comeback as Petition to Reinstate Ex-NVIDIA CEO Surpasses 135,000 Signatures",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63276610/nvidia-jensen-huang-reinstate-ceo-petition-elon-musk-investors"
-  },
-  {
-   "time": "11-15 01:14",
-   "symbols": [
-    "GOOGL"
-   ],
-   "rating": "",
-   "headline": "SpaceX\u2019s Starship Makes History With First-Ever Mechazilla Catch \u2014 Musk, Hegseth and Trump Jr. React",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/space/26/11/63276573/spacex-starship-ship-42-catch-reactions-musk-nasa-hegseth"
-  },
-  {
-   "time": "11-14 23:32",
-   "symbols": [
-    "META"
-   ],
-   "rating": "",
-   "headline": "Meta Faces $887 Million Fine in Italy as Regulator Says Facebook Accessed Users\u2019 Photos Without Consent",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63276213/italy-fines-meta-805-million-android-photo-privacy"
   },
   {
    "time": "11-14 21:01",
@@ -1682,16 +843,6 @@
    "url": "https://infosertecla.com/2026/11/14/aws-abre-su-primera-region-en-chile-con-mas-de-usd-4-000-m/"
   },
   {
-   "time": "11-14 15:30",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "VOO & Chill: Inflows Stay Strong as Risk-Off Sentiment Pressures the S&P 500",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63274193/voo-chill-inflows-stay-strong-as-risk-off-sentiment-pressures-the-sp-500"
-  },
-  {
    "time": "11-14 15:01",
    "symbols": [
     "ASML"
@@ -1700,27 +851,6 @@
    "headline": "UBS Reiterates Buy Rating and Raises Price Target for ASML",
    "source": "fiscal.ai",
    "url": "https://www.moomoo.com/hans/news/post/75849098/asml-gains-as-analyst-optimism-builds-on-stronger-2026-outlook"
-  },
-  {
-   "time": "11-14 10:00",
-   "symbols": [
-    "HOOD"
-   ],
-   "rating": "",
-   "headline": "From FTX Collapse to Anthropic IPO: The $40 Billion Sam Bankman-Fried Never Saw",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63273860/from-ftx-collapse-to-anthropic-ipo-the-40-billion-sam-bankman-fried-never-saw"
-  },
-  {
-   "time": "11-14 09:47",
-   "symbols": [
-    "NVDA",
-    "TSLA"
-   ],
-   "rating": "",
-   "headline": "Elon Musk On X: Jensen Drove Supply Chain Brilliantly At Nvidia, But Many Of Those Deals Were A Handshake With Jensen, Not A Written Contract. Without Jensen, At Least Some Of Those Critical Deals Will Be Lost",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63273843/elon-musk-x-jensen-drove-supply-chain-brilliantly-nvidia-many-those-deals-were-handshake-jensen-not-"
   },
   {
    "time": "11-14 09:01",
@@ -1763,48 +893,6 @@
    "url": "https://www.cobramcourier.com.au/world/microsoft-services-fully-recover-after-global-outage/"
   },
   {
-   "time": "11-14 03:00",
-   "symbols": [
-    "AAPL",
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "'Nvidia Will Die Without Jensen' Doesn't Add Up, Says Anthony Scaramucci, Pointing to Apple's Post-Steve Jobs Success: 'Great Entrepreneurs...'",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63273511/anthony-scaramucci-nvidia-jensen-huang"
-  },
-  {
-   "time": "11-14 01:59",
-   "symbols": [
-    "NVDA",
-    "TSLA"
-   ],
-   "rating": "",
-   "headline": "Gary Black Says Tesla Board Would Be Reluctant to Hire Jensen Huang, Warns Against Bringing Ex-Nvidia Chief Into Elon Musk's Empire",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63273462/gary-black-tesla-board-jensen-huang"
-  },
-  {
-   "time": "11-14 01:28",
-   "symbols": [
-    "MSFT"
-   ],
-   "rating": "",
-   "headline": "FAA Resumes Flights After Nationwide Ground Stop, Says No Link to Microsoft Outage or Cyberattack; Marjorie Taylor Greene Slams Duffy's $50 Billion Ask (UPDATED)",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/11/63273371/faa-lifts-nationwide-ground-stop-telecommunications-outage"
-  },
-  {
-   "time": "11-14 01:03",
-   "symbols": [
-    "HOOD"
-   ],
-   "rating": "",
-   "headline": "Robinhood Gets Its Day at the Supreme Court Over 2021 IPO Disclosures: Here\u2019s What You Should Know (UPDATED)",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/legal/26/11/63273423/supreme-court-robinhood-ipo-investor-lawsuit-appeal"
-  },
-  {
    "time": "11-13 22:01",
    "symbols": [
     "INTC"
@@ -1813,27 +901,6 @@
    "headline": "Class Action Lawsuit Filed Against Intel Corporation",
    "source": "fiscal.ai",
    "url": "https://www.globenewswire.com/news-release/2026/11/14/3403029/0/en/intc-investor-alert-robbins-geller-rudman-dowd-llp-files-class-action-lawsuit-against-intel-corporation-and-announces-opportunity-for-investors-with-substantial-losses-to-lead-the-.html"
-  },
-  {
-   "time": "11-13 21:38",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "Elon Musk Says He Is \u2018Signing\u2019 Petition to Reinstate Jensen Huang as Nvidia Employees Rally Behind Former CEO",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63273186/elon-musk-jensen-huang-nvidia"
-  },
-  {
-   "time": "11-13 21:34",
-   "symbols": [
-    "META",
-    "V"
-   ],
-   "rating": "",
-   "headline": "ChatGPT Wallet Lets OpenAI's Dots AI Agents Shop On Your Behalf Without Accessing Actual Card Details",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63273173/chatgpt-wallet-openais-dots"
   },
   {
    "time": "11-13 19:01",
@@ -1854,16 +921,6 @@
    "headline": "Vistra Maintains Growth Outlook Amid Market Volatility Following Texas Midterm Elections",
    "source": "fiscal.ai",
    "url": "https://texas24news.com/politics/vistra-maintains-growth-outlook-as-texas-election-results-trigger-share-price-volatility"
-  },
-  {
-   "time": "11-13 18:00",
-   "symbols": [
-    "TSM"
-   ],
-   "rating": "",
-   "headline": "$1000 Invested In Taiwan Semiconductor 5 Years Ago Would Be Worth This Much Today",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63272450/1000-invested-taiwan-semiconductor-5-years-ago-would-be-worth-much-today"
   },
   {
    "time": "11-13 17:32",
@@ -1914,36 +971,6 @@
    "headline": "Epic Games Files Response Brief in Supreme Court Contempt Case Against Apple",
    "source": "fiscal.ai",
    "url": "https://appleosophy.com/wire/0f4obpw/"
-  },
-  {
-   "time": "11-13 17:00",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "Bitcoin, Ethereum, XRP Bottom Calls Get Louder but Prediction Markets Disagree",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63271367/bitcoin-ethereum-xrp-bottom-calls-get-louder-but-prediction-markets-disagree"
-  },
-  {
-   "time": "11-13 16:48",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "",
-   "headline": "\u2018Nvidia Letting Jensen Go is Terrible for America\u2019: Podcaster Lex Fridman Compares Chipmaker to Apple Firing Steve Jobs",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63271091/nvidia-letting-jensen-go-is-terrible-for-america-podcaster-lex-fridman-compares-chipmaker-to-apple-firing-steve-jobs"
-  },
-  {
-   "time": "11-13 16:33",
-   "symbols": [
-    "NVDA"
-   ],
-   "rating": "target down",
-   "headline": "Rosenblatt Maintains Buy on NVIDIA, Lowers Price Target to $300",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63270399/rosenblatt-maintains-buy-nvidia-lowers-price-target-300"
   },
   {
    "time": "11-13 16:31",
