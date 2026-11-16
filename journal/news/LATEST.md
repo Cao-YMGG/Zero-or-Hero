@@ -1,4 +1,4 @@
-# Headlines since 2026-11-13 16:00 ET (as of 2026-11-16 17:29 ET)
+# Headlines since 2026-11-13 16:00 ET (as of 2026-11-16 17:49 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -11,6 +11,9 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-16 06:31 | COST | downgrade | Northcoast Downgrades Costco Wholesale to Neutral |
 | 11-14 15:01 | ASML | target up | UBS Reiterates Buy Rating and Raises Price Target for ASML |
 | 11-13 18:01 | VST | rating | Vistra Maintains Growth Outlook Amid Market Volatility Following Texas Midterm Elections |
+| 11-16 17:31 | LITE |  | Lumentum Shares Decline Amidst Export Policy Risks and Industry Volatility |
+| 11-16 17:31 | AMZN |  | Instagram Launches Integration for Amazon Affiliate Links |
+| 11-16 17:31 | MSFT |  | Class Action Lawsuit Filed Against Microsoft Following Global 365 Outage |
 | 11-16 16:31 | CVX |  | Chevron Nears $5 Billion Purchase of Majority Stake in Blackstone-Backed Beacon Offshore |
 | 11-16 16:31 | WMT |  | Tahari Parfums Launches Holiday Fragrance Gift Sets at Walmart |
 | 11-16 16:31 | WMT |  | Once Upon a Coconut Expands Nationwide at Walmart |

@@ -1,7 +1,37 @@
 {
- "as_of": "2026-11-16T17:29-05:00",
+ "as_of": "2026-11-16T17:49-05:00",
  "since": "2026-11-13T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-16 17:31",
+   "symbols": [
+    "LITE"
+   ],
+   "rating": "",
+   "headline": "Lumentum Shares Decline Amidst Export Policy Risks and Industry Volatility",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8858823/jabil-coherent-fabrinet-ttm-technologies-and-lumentum-shares-plummet-what-you-need-to-know"
+  },
+  {
+   "time": "11-16 17:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Instagram Launches Integration for Amazon Affiliate Links",
+   "source": "fiscal.ai",
+   "url": "https://newsfilter.io/articles/instagram-now-lets-creators-add-amazon-affiliate-links-in-reels-and-feed-posts-2c6d5f0747ae5ab0a3c96b0d6d701a1b"
+  },
+  {
+   "time": "11-16 17:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Class Action Lawsuit Filed Against Microsoft Following Global 365 Outage",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.ca/news-releases/microsoft-outage-triggers-canada-wide-class-action-lawsuit-852582849.html"
+  },
   {
    "time": "11-16 16:31",
    "symbols": [
