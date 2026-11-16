@@ -1,9 +1,11 @@
-# Headlines since 2026-11-13 16:00 ET (as of 2026-11-16 10:02 ET)
+# Headlines since 2026-11-13 16:00 ET (as of 2026-11-16 10:32 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-16 10:24 | LLY | target up | Barclays Maintains Overweight on Eli Lilly, Raises Price Target to $1550 |
+| 11-16 10:24 | NVDA | target down | Morgan Stanley Maintains Overweight on NVIDIA, Lowers Price Target to $267 |
 | 11-16 09:32 | HOOD | rating | BofA Securities Adjusts Robinhood Markets PT to $151 From $156, Maintains Buy Rating |
 | 11-16 09:31 | AVGO | rating | TD Cowen Adjusts Broadcom Price Target to $425 From $475 |
 | 11-16 09:07 | NVDA | downgrade | Nvidia Gets 10 Bank Downgrades After Huang Exit: What to Expect Ahead of Q3 Results |
@@ -16,6 +18,10 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-14 15:01 | ASML | target up | UBS Reiterates Buy Rating and Raises Price Target for ASML |
 | 11-13 18:01 | VST | rating | Vistra Maintains Growth Outlook Amid Market Volatility Following Texas Midterm Elections |
 | 11-13 16:33 | NVDA | target down | Rosenblatt Maintains Buy on NVIDIA, Lowers Price Target to $300 |
+| 11-16 10:30 | VST |  | Here's How Much $100 Invested In Vistra 5 Years Ago Would Be Worth Today |
+| 11-16 10:26 | NVDA |  | Bloom Energy Shares Drop: What’s Going On With the AI Power Stock Monday? |
+| 11-16 10:24 | CVX XOM |  | ExxonMobil Starts Production At Uaru, Raising Guyana’s Installed Capacity To 1.1M Barrels Per Day |
+| 11-16 10:12 | AMZN |  | Robert Pattinson Named As New James Bond |
 | 11-16 09:46 | NVDA |  | President Trump Says No One Has Proved Alice Huang Is A Chinese Spy |
 | 11-16 09:44 | NVDA |  | President Trump Says May Talk To Xi About Nvidia |
 | 11-16 09:41 | NVDA |  | President Trump Says Lutnick Might Have Delayed Putting Megaspeed On List |

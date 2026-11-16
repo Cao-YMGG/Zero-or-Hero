@@ -1,7 +1,68 @@
 {
- "as_of": "2026-11-16T10:02-05:00",
+ "as_of": "2026-11-16T10:32-05:00",
  "since": "2026-11-13T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-16 10:30",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "",
+   "headline": "Here's How Much $100 Invested In Vistra 5 Years Ago Would Be Worth Today",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63297643/here-s-how-much-100-invested-vistra-5-years-ago-would-be-worth-today"
+  },
+  {
+   "time": "11-16 10:26",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Bloom Energy Shares Drop: What\u2019s Going On With the AI Power Stock Monday?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63297209/bloom-energy-shares-drop-whats-going-on-with-the-ai-power-stock-monday"
+  },
+  {
+   "time": "11-16 10:24",
+   "symbols": [
+    "CVX",
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "ExxonMobil Starts Production At Uaru, Raising Guyana\u2019s Installed Capacity To 1.1M Barrels Per Day",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/XOM"
+  },
+  {
+   "time": "11-16 10:24",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "target up",
+   "headline": "Barclays Maintains Overweight on Eli Lilly, Raises Price Target to $1550",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63297043/barclays-maintains-overweight-eli-lilly-raises-price-target-1550"
+  },
+  {
+   "time": "11-16 10:24",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "target down",
+   "headline": "Morgan Stanley Maintains Overweight on NVIDIA, Lowers Price Target to $267",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63297015/morgan-stanley-maintains-overweight-nvidia-lowers-price-target-267"
+  },
+  {
+   "time": "11-16 10:12",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Robert Pattinson Named As New James Bond",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63295689/robert-pattinson-named-new-james-bond"
+  },
   {
    "time": "11-16 09:46",
    "symbols": [
