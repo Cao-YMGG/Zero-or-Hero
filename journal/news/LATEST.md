@@ -1,166 +1,105 @@
-# Headlines since 2026-11-12 16:00 ET (as of 2026-11-13 15:26 ET)
+# Headlines since 2026-11-13 16:00 ET (as of 2026-11-16 07:41 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
-| 11-13 11:20 | HOOD | target down | Goldman Sachs Maintains Buy on Robinhood Markets, Lowers Price Target to $115 |
-| 11-13 11:13 | WMT | target up | Wells Fargo Maintains Overweight on Walmart, Raises Price Target to $135 |
-| 11-13 11:02 | COST | target up | BofA Securities Raises Price Target on Costco Wholesale |
-| 11-13 10:40 | NVDA | target down | Barclays Maintains Overweight on NVIDIA, Lowers Price Target to $210 |
-| 11-13 10:31 | XOM | target up | Barclays Maintains Overweight on ExxonMobil Holdings, Raises Price Target to $206 |
-| 11-13 09:35 | NVDA | downgrade | Truist Securities Downgrades NVIDIA to Hold, Lowers Price Target to $174 |
-| 11-13 09:31 | CVX | target up | Barclays Maintains Chevron Hold Rating and Raises Price Target |
-| 11-13 08:07 | AVGO | downgrade | Rothschild & Co Downgrades Broadcom to Neutral, Lowers Price Target to $398 |
-| 11-13 07:32 | GS | upgrade | Goldman Sachs Upgrades DT Midstream to Neutral |
-| 11-13 07:31 | ORCL | rating | President Capital Adjusts Oracle Price Target to $323 |
-| 11-13 07:30 | TSLA | rating | GLJ Research Reiterates Sell on Tesla, Maintains $24.86 Price Target |
-| 11-13 06:31 | AVGO | downgrade | Rothschild & Co Redburn Downgrades Broadcom to Neutral |
-| 11-13 15:14 | MSFT |  | Microsoft Says Infrastructure Stabilizes As Queued Messages Drain And Traffic Rebalances, With No ETA For Full Recovery |
-| 11-13 15:06 | NVDA TSLA V |  | Nancy Pelosi’s Nvidia Bet Just Cost Her Most Of A Year’s Pay — Thanks To Jensen Huang |
-| 11-13 15:01 | TSLA |  | Texas Attorney General Threatens Potential Tesla-SpaceX Merger |
-| 11-13 15:01 | NFLX |  | Netflix Announces New Animated Series 'PLANESWALKER' Based on Magic: The Gathering |
-| 11-13 15:01 | NFLX |  | Netflix Renews 'Virgin River' for Ninth Season |
-| 11-13 15:01 | GS |  | Goldman Sachs Advises TruGreen and CD&R on Transaction |
-| 11-13 14:58 | AVGO NVDA |  | QUICK SPARK: Broadcom Scores Historic Win Over Nvidia as AVGO-NVDA Gap Explodes |
-| 11-13 14:51 | META |  | 'Meta Testing New Prediction-Market App With Employees'- WSJ |
-| 11-13 14:45 | NVDA TSLA |  | Elon Musk's SpaceX–Tesla Merger 'Almost Inconceivable' to Avoid, Biographer Says |
-| 11-13 14:25 | AMZN |  | Amazon Issues An Update On Labour Proceedings In Delta, BC |
-| 11-13 14:15 | NVDA |  | CNBC Reporter Seema Mody Posts On X "Nvidia board to @CNBC:"We are in the process of selecting a search firm for the NVIDIA CEO role. We have not formally engaged any potential candidates. Any speculation regarding individual candidates, whether internal or external, is premature." |
-| 11-13 14:02 | CRM |  | Salesforce Ventures Participates in LangChain Funding Round |
-| 11-13 14:01 | ORCL |  | Department of Veterans Affairs and Department of War Go-Live on Oracle Health Information Network |
-| 11-13 14:01 | CAT |  | Levi & Korsinsky Investigates Caterpillar Inc. Following Third Quarter Results |
-| 11-13 14:01 | ARM |  | Nvidia Board Approaches Arm CEO Rene Haas for Potential Succession |
-| 11-13 14:01 | AAPL |  | Apple Launches HomeView Smart Home Hub |
-| 11-13 14:01 | MSFT |  | Microsoft Experiences Widespread Global Service Outage |
-| 11-13 14:00 | HOOD |  | 'US Supreme Court to consider lawsuit over Robinhood's 2021 IPO'- Reuters |
-| 11-13 14:00 | GE |  | Warburg Pincus Made 55% On Its First Fund. Now It Wants $5 Billion More |
-| 11-13 13:51 | HOOD |  | Klarna Hires Robinhood Executive As CFO |
-| 11-13 13:42 | AMD NVDA |  | AMD Stock Has Outrun Nvidia 5X Since 2024. But There’s a Valuation Catch |
-| 11-13 13:27 | NVDA |  | How Did Dell Servers With Restricted NVIDIA Chips End Up in China? |
-| 11-13 13:01 | AMZN CAT |  | CNBC Halftime Report Final: Caterpillar, Amazon, eBay |
-| 11-13 12:53 | NVDA |  | Bessent Points Finger at Lutnick as White House Feud Over Nvidia Erupts |
-| 11-13 12:41 | UNH |  | UnitedHealthcare Policy Assessment Urges Clearer Provider Guidance |
-| 11-13 12:39 | TSLA |  | SpaceX, Tesla Merger Could Hit Democratic Roadblock: Jay Woods Unsure if Elon Musk Can 'Work His Magic' |
-| 11-13 12:36 | MSFT NVDA |  | Analyst Shrugs Off Nebius Data Center Delay As 'Slight Blemish' on Strong Quarter |
-| 11-13 12:32 | CAT |  | Live On CNBC, Kevin Simpson Announces Bought More Caterpillar |
-| 11-13 12:13 | COIN |  | Is Bitcoin the Better Gold? These 3 Factors Say Yes |
-| 11-13 12:11 | MSFT TSLA |  | 'OpenAI disbands its robotics team as its general models start running robots'- Fortune |
-| 11-13 12:10 | HOOD |  | Robinhood Stock Falls on 48% Crypto Volume Drop, Goldman Target Cut, Bitcoin Slide |
-| 11-13 11:56 | ARM NVDA |  | 'Arm boss Rene Haas approached in Nvidia CEO search'- Financial Times |
-| 11-13 11:46 | SMCI |  | Super Micro Computer Spokesperson Says Responsive To Inquiries And Has Fully Cooperated With US And Taiwanese Officials; Megaspeed Is Not, And Has Never Been, A Supermicro Customer; Voluntarily Provided Information And Engaging With All Requests From Singapore Authorities To Date |
-| 11-13 11:38 | V |  | Bill Ackman Is a Fan of ‘Remarkable Story’ of Anthropic, but He’s Not Buying Stock at IPO |
-| 11-13 11:26 | NVDA |  | Why Is Applied Digital Stock Falling on Friday? |
-| 11-13 11:22 | MSFT |  | Microsoft Stock in Focus as Massive 365 Outage Hits Outlook, Teams and Copilot: What Investors Should Know |
-| 11-13 11:14 | NVDA |  | Michael Burry Says WSJ Missed the Real Nvidia Story |
-| 11-13 11:08 | AMD AVGO NVDA SMCI |  | Super Micro Extends DOJ-Probe Selloff as Nvidia, Nasdaq Slide |
-| 11-13 11:05 | AMZN |  | Amazon Introduces Alexa for Shopping, Your Personalized, Agentic AI Assistant On Amazon |
-| 11-13 11:02 | NVDA |  | NVIDIA Faces Multiple US Department of Justice Probes |
-| 11-13 11:02 | COST |  | Kirkland Signature Launches Prebiotic Soda |
-| 11-13 11:01 | TSLA |  | Form Energy Appoints Former Tesla Executive Jon McNeill to Board of Directors |
-| 11-13 11:01 | ORCL |  | Oracle Enhances Primavera Unifier with AI Capabilities |
-| 11-13 11:01 | WMT |  | Store Recalls Report Identifies Walmart in 81 Official U.S. Recalls for 2026 |
-| 11-13 10:58 | MSFT NVDA |  | Nebius Stock Falls Nearly 17%; Weak Outlook, Nvidia Turmoil and Nscale’s Wider Loss Rattle Neoclouds |
-| 11-13 10:56 | MSFT |  | Microsoft Just Relived the CrowdStrike Nightmare. But There’s One Crucial Difference |
-| 11-13 10:49 | NVDA |  | Bitcoin Could Crash Below $10,000, Peter Schiff Warns: ‘Get the Hell Out’ |
-| 11-13 10:23 | GOOGL |  | Your AI Health Advice May Be Influenced by Drug Ads, Study Finds |
-| 11-13 10:18 | MU |  | Micron, Moody’s, Digital Realty and a Health Care Stock on CNBC’s ‘Final Trades’ |
-| 11-13 10:15 | LITE |  | Here’s How Much You Would Have Made Owning Lumentum Holdings Stock In The Last 5 Years |
-| 11-13 10:14 | NVDA |  | Michael Burry Posts On X "My Thesis On NVIDIA Was Not About Illicit Affairs Because It Goes Far Beyond Illicit Affairs." |
-| 11-13 10:09 | NVDA |  | Gene Munster Says This is Nvidia’s Biggest ‘Long-Term Challenge’ After Replacing Jensen Huang |
-| 11-13 10:04 | MSFT V |  | OpenAI Introduces ChatGPT Wallet; Built In Partnership With American Express, MasterCard, And Visa, ChatGPT Wallet Will Initially Be Available Through Dots⁠ For ChatGPT Pro Subscribers In The US |
-| 11-13 09:51 | NVDA |  | Options Traders Expect Nvidia's Biggest Earnings Move Since 2024 |
-| 11-13 09:50 | TSLA |  | 'Elon Musk’s AI Group Guts Grok Video Generation Team'- The Information |
-| 11-13 09:50 | MSFT |  | Microsoft Outage Hit More Than Outlook: Even Its Cybersecurity Defenses Were Affected |
-| 11-13 09:42 | NVDA |  | Colette Kress’ First Nvidia Earnings Call Without Jensen Huang: 5 Things Investors Need to Hear |
-| 11-13 09:38 | META ORCL |  | Meta’s TikTok Threat Just Became Bigger Than Oracle |
-| 11-13 09:33 | JPM |  | JPMorgan Chase's Indirect Stake in Ubisoft Surpasses 10% |
-| 11-13 09:31 | LLY |  | EU Regulator Advises Additional Contraception Precautions for Mounjaro Patients |
-| 11-13 09:31 | PLTR |  | South Korea's National Pension Service Increases Exposure to Defense and Space Stocks |
-| 11-13 09:22 | NVDA |  | Jim Cramer Questions If Jensen Huang Betrayed Nvidia Shareholders, Says Former CEO Let Investors Down: ‘Yes. End Of Story’ |
-| 11-13 09:15 | LLY |  | Here’s How Much You Would Have Made Owning Eli Lilly Stock In The Last 5 Years |
-| 11-13 09:06 | ORCL |  | Oracle Commodity Holding Corp. Increases Private Placement to $150,000 |
-| 11-13 08:30 | NVDA |  | SemiAnalysis Suspects US Intelligence Role in Jensen Huang’s Exit as China Chip Crackdown Looms |
-| 11-13 08:29 | META |  | Newsmax Delivers Its Strongest Quarter Since Going Public |
-| 11-13 08:26 | NVDA |  | Jensen Huang Faces Subpoena Threat As 3 Republican-Led House Committees Demand Closed-Door Testimony Over Nvidia’s China Ties |
-| 11-13 08:02 | JPM |  | JPMorgan Chase Blocking AI Shopping Agent Payments |
-| 11-13 08:01 | SNDK |  | National Pension Service of Korea Discloses Increase in SanDisk Shareholdings |
-| 11-13 08:01 | NVDA |  | NVIDIA Confirms South Korea GPU Supply Commitment |
-| 11-13 08:01 | TSLA |  | Tesla Releases Cybertruck RC Racer Model |
-| 11-13 07:42 | TSLA |  | 'Texas’ Next AG Vows ‘Tremendous Scrutiny’ of Tesla-SpaceX Deal' - Bloomberg Interview |
-| 11-13 07:33 | NVDA |  | Jensen Huang Divorce Odds Hit 37%, but Top Lawyer Says Couple May Wait Out Scandal |
-| 11-13 07:32 | GS |  | Goldman Sachs Publishes 2027 Global Equity Strategy Outlook |
-| 11-13 07:32 | GS |  | Goldman Sachs Adjusts Price Target on Williams Companies |
-| 11-13 07:32 | GS |  | Goldman Sachs Adjusts Price Target for Siemens Energy |
-| 11-13 07:32 | COIN |  | South Korea's National Pension Service Reduces Stake in Coinbase |
-| 11-13 07:31 | CVX |  | Analyst Betty Jiang Updates Chevron Price Target |
-| 11-13 07:31 | AMZN |  | Amazon Bedrock Expands Model Offerings with OpenAI and Google DeepMind Integration |
-| 11-13 07:15 | MSFT NVDA |  | Chamath Palihapitiya Says Nvidia Oversight Would Be A ‘Disaster’ After Jensen Huang's Exit, Warns Against Repeating Microsoft’s DOJ Era |
-| 11-13 06:35 | TSM |  | TSMC Confirms Employee Data Leak Through Cloud Provider, Hackers Reportedly Demand 3 Bitcoins to Withhold 46,000 Records |
-| 11-13 06:33 | AMZN META |  | 'Amazon’s plan to own the world’s product data and fight AI shopping agents' - Reuters Exclusive |
-| 11-13 06:32 | HD |  | Piper Sandler Adjusts Price Target on Home Depot to $371 From $378 |
-| 11-13 06:32 | WMT |  | Wells Fargo Adjusts Price Target on Walmart to $135 From $120 |
-| 11-13 06:32 | HOOD |  | Goldman Sachs Adjusts Price Target on Robinhood Markets to $115 From $128 |
-| 11-13 06:31 | NVDA |  | NVIDIA-Linked Chinese AI Projects Face Increased US Scrutiny |
-| 11-13 06:31 | INTC |  | Intel and Cornelis Networks Extend Collaboration on HPC and AI Platforms |
-| 11-13 06:31 | MSFT |  | Cohesity Expands Data Resilience Capabilities for Microsoft Ecosystem |
-| 11-13 06:31 | XOM |  | ExxonMobil Named in Report on Fossil Fuel Lobbying at COP31 Climate Summit |
-| 11-13 06:31 | V |  | UQPAY Secures Visa Associate Membership in Australia |
-| 11-13 05:34 | AMZN |  | Kevin O’Leary Backs Elon Musk’s Starlink as United CEO Calls It ‘Biggest Near-Term Competitive Advantage’ in 100 Years, Says Amazon Leo Is ‘A Mistake’ |
-| 11-13 05:33 | AMZN |  | Ed Bastian Says Delta Will Take ‘Nuanced’ Approach to AI Agents, Warns Oil Shock May Not Be ‘Behind Us’ |
-| 11-13 05:10 | MSFT NVDA |  | Nvidia-Backed Nscale Warns It Needs More 'Financing' Amid $44.6B Anthropic Contract Ahead of US IPO As Nine-Month Loss Widens to $1.69 Billion |
-| 11-13 04:42 | NVDA |  | Jensen Huang Repeatedly Said ‘Whatever’ and ‘I Don’t Care’ as Affair Scandal Shatters His Image, Dims Star Power in Taiwan: Report |
-| 11-13 04:14 | AMZN MSFT ORCL |  | Cerebras (CBRS) Stock Is Trending Pre-Market: Here's Why |
-| 11-13 04:09 | MSFT |  | Microsoft Outlook Outage Hits Colorado Jail, Forces Families to Post Bail In Person to Secure Release |
-| 11-13 03:54 | NVDA |  | Alice Huang-Linked Firms Joined DeepSeek's $15.8 Billion Funding Round In Bid to Access Nvidia Blackwell Chips Despite US Curbs: Report |
-| 11-13 03:30 | NVDA |  | Trump Says Ex-Nvidia CEO Jensen Huang Is ‘Going Through Hell’ After Resignation: ‘He Called Me’ |
-| 11-13 03:24 | AMZN |  | Elon Musk Predicted Trouble For Delta Over SpaceX Starlink Snub: CEO Ed Bastian Says Airline Is Playing ‘Long Game’ |
-| 11-13 03:21 | GOOGL |  | Reported Earlier, South Korea Says Google Removed Map Coordinates, Will Delete Military And Security Facility Street View Imagery Under February Data Export Permit |
-| 11-13 03:10 | MSFT |  | Microsoft 365 Incident: Microsoft Not Aware Of Malicious Activity, Sees Stability Gains After Partial Patch, Working To Expand Fix To Active Regions |
-| 11-13 02:55 | NVDA |  | Trump Tech Advisor David Sacks Says ‘Spy Narrative Is Collapsing’ as US Officials Question Evidence Against Nvidia’s Jensen Huang |
-| 11-13 01:45 | NVDA TSLA |  | Anthony Scaramucci Rips Howard Lutnick Over Nvidia Chip Crackdown: ‘Incompetence Is Random. This Broke The Same Way Every Time’ |
-| 11-13 01:34 | AAPL NVDA |  | Trump Urged Jensen Huang To ‘Keep Fighting’ for His Nvidia CEO Job Two Days Before Resignation: Report |
-| 11-13 01:18 | JPM |  | Vertiv Holdings (VRT) Stock Is Trending After Hours: Here's Why |
-| 11-13 00:48 | NVDA |  | Nvidia Funded AI Boom Under Jensen Huang, but Gary Marcus Questions if New CEO Will Keep Writing the Checks: ‘Whole Thing Might Collapse’ |
-| 11-13 00:17 | NVDA |  | Elizabeth Warren, GOP Senator Turn the Heat on Jensen Huang, Howard Lutnick Over Nvidia-China Spy Concerns — ‘Huang’s Decision to Resign From Nvidia Does Not Absolve Him’ |
-| 11-12 23:41 | MSFT |  | Microsoft Outage Triggers Chaos Across Outlook, Teams and Copilot — Spills Over to OpenAI and Anthropic (UPDATED) |
-| 11-12 23:38 | TSLA |  | Tesla (TSLA) Stock Trends After Hours As SpaceX Merger Talks Heat Up, Elon Musk Extends Cybertruck Production |
-| 11-12 23:26 | NVDA TSLA |  | Michael Burry Hints At Bigger Nvidia Asia ‘Reveal’ As Jensen Huang’s ‘Deer In The Headlights’ Dig At Colette Kress Resurfaces |
-| 11-12 23:15 | NVDA |  | Alice Huang, Who Allegedly Spied for China, Had Stakes in Businesses Linked to Nvidia Rival Huawei: Report |
-| 11-12 22:24 | NVDA |  | Nvidia Stock Trends After Hours As Colette Kress Vows To Build On ‘Foundation’ Laid By Ousted CEO Jensen Huang |
-| 11-12 22:06 | NVDA |  | Mike Johnson Sees Growing Support For China Chip Restrictions As Nvidia’s Jensen Huang Exit Rocks Washington: ‘Developing Consensus in Congress’ |
-| 11-12 22:01 | XOM |  | ExxonMobil to Evaluate Seven Areas in Venezuela for Potential Oil and Gas Projects |
-| 11-12 22:01 | JPM |  | JPMorgan Chase & Co. Reports Change in Voting Rights in K+S Aktiengesellschaft |
-| 11-12 22:01 | AAPL |  | Apple Releases HomeView Software 27.2 |
-| 11-12 20:47 | NVDA |  | Jim Cramer Says Interim Nvidia CEO Colette Kress Leads With ‘Steel Fist’ After Jensen Huang Exit: ‘Absolutely The One You Need Right Now’ |
-| 11-12 20:03 | JPM V |  | The Wall Street Journal Reported JPMorgan Chase Blocking Some Agentic Purchases With Chase Cards; Merchants Have Complained To Visa, Mastercard About Higher Fees From Certain Agentic Transactions |
-| 11-12 20:01 | CRM |  | Veylo and Thunderyard Solutions Continue Strategic Partnership for Federal AI Modernization |
-| 11-12 19:01 | GS |  | Goldman Sachs International Discloses Dealings in DCC Energy PLC |
-| 11-12 19:01 | LLY |  | Eli Lilly Presents New Clinical Data at ACR Convergence 2026 |
-| 11-12 18:45 | WDC |  | If You Invested $1000 In Western Digital Stock 10 Years Ago, You Would Have This Much Today |
-| 11-12 18:30 | TSLA |  | Tesla Launches Over 20 New Merchandise Products for Holidays and Some are Already Sold Out: Here’s the List |
-| 11-12 18:01 | SMCI |  | Supermicro Faces DOJ Investigation Over Alleged Smuggling to China |
-| 11-12 18:01 | RKLB |  | Rocket Lab Announces Upcoming 100th Electron Rocket Launch |
-| 11-12 17:32 | NVDA TSLA |  | From AI Chips to Rocket Ships: Will Jensen Huang Join Elon Musk? |
-| 11-12 17:32 | XOM |  | ExxonMobil Advances Next Phase of Guyana Development with Longtail |
-| 11-12 17:31 | HOOD |  | Robinhood Markets, Inc. Reports October 2026 Operating Data |
-| 11-12 17:31 | V |  | Visa Expands Stablecoin Settlement Capabilities with Anchorage Digital |
-| 11-12 17:31 | V |  | Visa Direct Integrates with AviaGames for Real-Time Payouts |
-| 11-12 17:31 | LLY |  | Eli Lilly Breaks Ground on $3.5 Billion Manufacturing Facility in Pennsylvania |
-| 11-12 17:31 | PLTR |  | Palantir Officer Shyam Sankar Files Notice of Proposed Stock Sale |
-| 11-12 17:31 | PLTR |  | Tampa General Hospital Partners with Palantir for Reliability Management System |
-| 11-12 17:31 | CAT |  | Caterpillar Awarded $50 Million Annualized Contract for Data Center Energy Storage |
-| 11-12 17:31 | JPM |  | XTI Aerospace Secures Credit Facility Amendment with JPMorgan Chase Bank |
-| 11-12 17:31 | MSFT |  | Microsoft 365 Experiences Service Outage |
-| 11-12 17:19 | RKLB |  | Rocket Lab's 100th Electron Rocket Scheduled For Launch At The End Of This Week |
-| 11-12 17:00 | NVDA |  | Jensen Huang Drops Out of Top 10 Richest, Elon Musk Now 6.3x Richer Than Former Nvidia CEO |
-| 11-12 16:45 | UNH |  | If You Invested $1000 In UnitedHealth Group Stock 20 Years Ago, You Would Have This Much Today |
-| 11-12 16:43 | XOM |  | ExxonMobil Announces $12.5B Final Investment Decision For Longtail Gas Development Offshore Guyana, Targets 2030 Start-Up |
-| 11-12 16:32 | INTC |  | Intel Collaborates with RadixArk to Optimize AI Inference |
-| 11-12 16:31 | CRM |  | Arbisoft Expands Salesforce Practice with New Certifications and Native Apps |
-| 11-12 16:31 | GEV |  | GE Vernova Raises 2026 Financial Guidance |
-| 11-12 16:31 | AMD |  | Arena Physica Collaborates with AMD to Train Heaviside Foundation Model |
-| 11-12 16:31 | MU |  | Micron Technology Announces Upcoming Investor Event Participation |
-| 11-12 16:31 | TSLA |  | Tesla and SpaceX Merger Negotiations Reportedly Progressing |
-| 11-12 16:02 | TSLA |  | QUICK SPARK: Tesla Stock Has Best 5-Day Rally in Over a Year as Elon Musk Pushes for SpaceX Merger by December |
-| 11-12 16:00 | NVDA TSLA |  | Would a Tesla–SpaceX Merger Be Bullish for Bitcoin? Careful What You Wish For |
+| 11-16 07:31 | PLTR | upgrade | Phillip Securities Upgrades Palantir Technologies to Buy |
+| 11-16 07:11 | NVDA | target down | Mizuho Maintains Outperform on NVIDIA, Lowers Price Target to $220 |
+| 11-16 06:31 | COST | downgrade | Northcoast Downgrades Costco Wholesale to Neutral |
+| 11-14 15:01 | ASML | target up | UBS Reiterates Buy Rating and Raises Price Target for ASML |
+| 11-13 18:01 | VST | rating | Vistra Maintains Growth Outlook Amid Market Volatility Following Texas Midterm Elections |
+| 11-13 16:33 | NVDA | target down | Rosenblatt Maintains Buy on NVIDIA, Lowers Price Target to $300 |
+| 11-16 07:34 | HD |  | How To Earn $500 A Month From Home Depot Stock Ahead of Q3 Earnings |
+| 11-16 07:32 | VST |  | HSBC Adjusts Price Target on Vistra to $175.20 From $190 |
+| 11-16 07:31 | COIN |  | H100 Group Partners With Coinbase for Balance Sheet Management |
+| 11-16 07:31 | COIN |  | Coinbase and Broadridge Publish Proposed Standard for Onchain Shareholder Communications |
+| 11-16 07:31 | WMT |  | Walmart and Operation Homefront Partner for Holiday Support |
+| 11-16 07:31 | LLY |  | Eli Lilly and Company to Acquire Calytrix Bio |
+| 11-16 07:31 | LLY |  | Barclays Adjusts Price Target on Eli Lilly and Company |
+| 11-16 07:31 | GS |  | Goldman Sachs Forecasts Oil Market Surplus for 2027 |
+| 11-16 07:31 | AVGO |  | Coatue Management Increases Stake in Broadcom |
+| 11-16 07:28 | AMZN CAT |  | EBay, Amazon, Caterpillar and More on CNBC’s ‘Final Trades’ |
+| 11-16 07:23 | LLY |  | Lilly To Acquire Closely Held Neoplasm Therapy Developer Calytrix Bio For Up To $1.5B In Cash |
+| 11-16 07:17 | NVDA |  | DOJ Warns Elizabeth Warren of ‘Significant Legal Consequences’ Ahead of Potential Probes Into Trump, Corporate Allies: 'Strong Smoke ​Signal' |
+| 11-16 07:05 | META NVDA |  | 'Soft Recession or Something More Dramatic:' Former SEC Chair Gary Gensler Warns AI Boom Could End in Dot-Com-Scale Bust — 'They Loaned Too Much Money, Too Fast' |
+| 11-16 07:03 | AMZN |  | Amazon’s Zoox Robotaxis Now Available On Uber In Las Vegas |
+| 11-16 06:32 | GS |  | Goldman Sachs and Banco Santander Reportedly Selling Risk Transfers for Loan Portfolios |
+| 11-16 06:32 | NVDA |  | NVIDIA Faces Potential Lawsuits Following CEO Resignation |
+| 11-16 06:31 | MU |  | Micron, Samsung, and SK Hynix Fail to Dismiss DRAM Price-Fixing Lawsuit |
+| 11-16 06:31 | TSLA |  | Unplugged Performance Proposes Investor-Backed Plan to Continue Cybertruck Production |
+| 11-16 06:31 | AAPL |  | KakaoBank Launches Apple Pay in South Korea |
+| 11-16 06:31 | AVGO |  | ByteDance Collaborating with Broadcom on Advanced AI Processor Development |
+| 11-16 06:31 | LLY |  | Eli Lilly Participates in $100 Million Series A Financing for Seawolf Therapeutics |
+| 11-16 06:31 | WMT |  | BNP Paribas Adjusts Price Target on Walmart to $144 From $137 |
+| 11-16 05:52 | NVDA |  | Dan Ives Dismisses Jensen Huang's Nvidia Comeback Speculation, Floats Tim Cook and Rene Haas for Top Job: 'Gone for Good' |
+| 11-16 05:46 | GOOGL MSFT |  | From Coding to Finance and Life Sciences: Box CEO Aaron Levie Says AI Agents Are Getting the Skills to Transform Professional Work |
+| 11-16 05:33 | TSLA |  | ‘That Math Is Obvious and Trivial’: Elon Musk Says Solar Will Supply 100% of Civilization’s Energy as SpaceX and Tesla Ramp Up Manufacturing |
+| 11-16 05:17 | NVDA |  | House Intel Chair Says It’s ‘Premature’ to Blame Howard Lutnick Over Nvidia China Chip Scandal After Scott Bessent Declares ‘Commerce Has the Pen’ |
+| 11-16 05:00 | NVDA |  | Big Short Investor Michael Burry Takes Aim at Nvidia's Jensen Huang — Says 'Sad That It Took a Lurid Affair' to Expose How Chinese Firms Accessed Restricted AI Chips |
+| 11-16 04:06 | MSFT NVDA PLTR |  | Elizabeth Warren Takes Aim at Big Tech Billionaires Over China AI Access — '...Put Our National Security Above Their Bottom Line' |
+| 11-16 03:09 | ARM NVDA |  | Scott Bessent Gives Nvidia 10 Days to Explain China Chip Concerns, Calls for External CEO to Replace Jensen Huang: 'Dramatic Shakeup' |
+| 11-16 02:57 | MU SMCI |  | Chip Stocks Have 'Flushed Out Everybody:' Ryan Detrick Calls the 17% SOXX Rebound a Historic 'Buying Thrust' |
+| 11-16 02:33 | JPM |  | America's AI Boom Has a Hidden Cost — Top Economist Warns Inflation Is Rising, Capital Is Being Sucked Away, and the Rest of the Economy Is Falling Behind |
+| 11-16 02:17 | TSLA |  | Elon Musk Admits Tesla Cybercab's $300 Monthly Fee Is Too High — MKBHD Says His Headshave Bet Isn't Over as Deliveries Remain Invite-Only |
+| 11-16 01:58 | INTC |  | Intel Stock Down 3.8% Overnight on Robinhood as Lip-Bu Tan Faces Lawsuit Over PC Slowdown Disclosure |
+| 11-16 01:50 | HD |  | Home Depot Likely To Report Higher Q3 Earnings; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call |
+| 11-16 01:41 | LLY |  | Reported Saturday, Lilly Presents Eloralintide Phase 2 Exit Interview Results, With 74% Reporting Fewer Cravings, 52% Less Food Noise, Alongside EloraTZP, Retatrutide, Zepbound And Foundayo Data At ObesityWeek 2026 |
+| 11-16 01:31 | AMZN MSFT NVDA |  | 'Trump Administration to Name Nvidia Among AI ‘National Champions’' - WSJ Exclusive |
+| 11-16 01:29 | NVDA |  | What Big Money Bought In Q3 While Friday The 13th Lived Up To Its Name |
+| 11-16 00:31 | RKLB |  | Reported Saturday, Rocket Lab Completes 100th Electron Launch, Fastest Commercial Rocket To Reach Milestone, Deploying YAMATSUMI-II SAR Satellite For iQPS |
+| 11-15 23:32 | NVDA |  | ‘The FBI Doesn’t Take Petitions’: Anthony Scaramucci Says ‘Stop Comparing’ Jensen Huang With Sam Altman |
+| 11-15 21:01 | SNDK |  | SanDisk Shares Decline Following Kioxia Pricing Warning |
+| 11-15 21:01 | NFLX |  | Netflix Clarifies Extra Member Pricing and Availability in Kenya |
+| 11-15 21:01 | GEV |  | GE Vernova Achieves Hydrogen Fuel Compatibility Milestones for Gas Turbines |
+| 11-15 21:01 | XOM |  | ExxonMobil Updates Production Timelines for Guyana Projects |
+| 11-15 21:01 | V |  | Visa Partners with OpenAI and Others to Launch ChatGPT Wallet |
+| 11-15 21:01 | HOOD |  | Louisiana Court Issues Temporary Restraining Order Against Robinhood and Other Event Contract Operators |
+| 11-15 21:01 | AMZN |  | Vulcan Rocket Failure Impacts Amazon Kuiper Satellite Mission |
+| 11-15 21:01 | COST |  | Costco Cited $870,000 for Misclassifying California Delivery Drivers |
+| 11-15 20:45 | ARM NVDA TSLA |  | Jensen Huang Could Return to Nvidia as Silicon Valley Plans ‘War Room,’ While Anthony Scaramucci Says ‘Not Happening’ |
+| 11-15 15:20 | NVDA |  | Financial Times Reported Sunday, Jensen Huang Discusses Comeback As Nvidia CEO With Allies |
+| 11-15 11:45 | HD WMT |  | Walmart Stock Forms a Golden Cross as Valuation Worries Linger Ahead of Earnings |
+| 11-15 09:09 | NVDA |  | Nvidia Stock Faces First Earnings Since Jensen Huang’s Ouster as Options Signal a Big Move |
+| 11-15 09:01 | GS |  | Goldman Sachs Projects 2.8% Global GDP Growth for 2027 |
+| 11-15 09:01 | AAPL |  | Basic Support for Apple M5 SoC Expected in Linux 7.5 Kernel |
+| 11-15 09:01 | V |  | Bakong Payment System Enables Visa Virtual Card Creation |
+| 11-15 08:59 | TSLA |  | This Week in TSLA: 24/7 Robotaxis, Cybertruck-Based SUV, $10 Billion Solar Bet and More |
+| 11-15 07:07 | NVDA |  | Nvidia Partner Megaspeed Breaks Silence on Alice Huang, Launches Probe Into China Chip Supply Links |
+| 11-15 07:01 | AAPL NVDA |  | Apple’s Tim Cook Legacy, Nvidia’s Jensen Huang Question and the $5 Trillion Crown: This Weekend in Appleverse |
+| 11-15 02:35 | GEV |  | Trump's Manufacturing Boom Claims Are 'Not True,' Peter Schiff Says as Factory Spending Falls Over 21% |
+| 11-15 02:29 | NVDA TSLA |  | Dan Ives Says Nvidia Turmoil Could Hand Big Tech an Unexpected AI Advantage as Hyperscalers Gain, Dismisses ‘Blue Tidal Wave’ Reaction |
+| 11-15 01:46 | NVDA TSLA |  | Elon Musk Backs Jensen Huang Comeback as Petition to Reinstate Ex-NVIDIA CEO Surpasses 135,000 Signatures |
+| 11-15 01:14 | GOOGL |  | SpaceX’s Starship Makes History With First-Ever Mechazilla Catch — Musk, Hegseth and Trump Jr. React |
+| 11-14 23:32 | META |  | Meta Faces $887 Million Fine in Italy as Regulator Says Facebook Accessed Users’ Photos Without Consent |
+| 11-14 21:01 | UNH |  | Senators Launch Inquiry into Health Insurers' Prior Authorization Pledges |
+| 11-14 21:01 | LLY |  | Eli Lilly Presents New Clinical Data for Cardiometabolic Portfolio at ObesityWeek 2026 |
+| 11-14 21:01 | AMZN |  | AWS Launches First Infrastructure Region in Chile |
+| 11-14 15:30 | NVDA |  | VOO & Chill: Inflows Stay Strong as Risk-Off Sentiment Pressures the S&P 500 |
+| 11-14 10:00 | HOOD |  | From FTX Collapse to Anthropic IPO: The $40 Billion Sam Bankman-Fried Never Saw |
+| 11-14 09:47 | NVDA TSLA |  | Elon Musk On X: Jensen Drove Supply Chain Brilliantly At Nvidia, But Many Of Those Deals Were A Handshake With Jensen, Not A Written Contract. Without Jensen, At Least Some Of Those Critical Deals Will Be Lost |
+| 11-14 09:01 | RKLB |  | Rocket Lab Completes 100th Electron Rocket Launch |
+| 11-14 09:01 | TSLA |  | Tesla Opens Cybercab Pre-orders for Select Customers |
+| 11-14 09:01 | META |  | Italian Data Protection Authority Fines Meta €805 Million |
+| 11-14 09:01 | MSFT |  | Microsoft Restores Services Following Global Outage |
+| 11-14 03:00 | AAPL NVDA |  | 'Nvidia Will Die Without Jensen' Doesn't Add Up, Says Anthony Scaramucci, Pointing to Apple's Post-Steve Jobs Success: 'Great Entrepreneurs...' |
+| 11-14 01:59 | NVDA TSLA |  | Gary Black Says Tesla Board Would Be Reluctant to Hire Jensen Huang, Warns Against Bringing Ex-Nvidia Chief Into Elon Musk's Empire |
+| 11-14 01:28 | MSFT |  | FAA Resumes Flights After Nationwide Ground Stop, Says No Link to Microsoft Outage or Cyberattack; Marjorie Taylor Greene Slams Duffy's $50 Billion Ask (UPDATED) |
+| 11-14 01:03 | HOOD |  | Robinhood Gets Its Day at the Supreme Court Over 2021 IPO Disclosures: Here’s What You Should Know (UPDATED) |
+| 11-13 22:01 | INTC |  | Class Action Lawsuit Filed Against Intel Corporation |
+| 11-13 21:38 | NVDA |  | Elon Musk Says He Is ‘Signing’ Petition to Reinstate Jensen Huang as Nvidia Employees Rally Behind Former CEO |
+| 11-13 21:34 | META V |  | ChatGPT Wallet Lets OpenAI's Dots AI Agents Shop On Your Behalf Without Accessing Actual Card Details |
+| 11-13 19:01 | JPM |  | JPMorgan Chase Declares Dividends on Series II, OO, and PP Preferred Stock |
+| 11-13 18:00 | TSM |  | $1000 Invested In Taiwan Semiconductor 5 Years Ago Would Be Worth This Much Today |
+| 11-13 17:32 | AMZN |  | Amazon YVR2 Fulfillment Center Workers Covered by Binding Collective Agreement |
+| 11-13 17:32 | AMD |  | AMD Insider Sells Shares Worth Over $5 Million |
+| 11-13 17:31 | COST |  | Costco Wholesale Insider Executes Share Sale |
+| 11-13 17:31 | WDC |  | Western Digital Corporation Officer Files Form 144 for Stock Sale |
+| 11-13 17:31 | AAPL |  | Epic Games Files Response Brief in Supreme Court Contempt Case Against Apple |
+| 11-13 17:00 | NVDA |  | Bitcoin, Ethereum, XRP Bottom Calls Get Louder but Prediction Markets Disagree |
+| 11-13 16:48 | NVDA |  | ‘Nvidia Letting Jensen Go is Terrible for America’: Podcaster Lex Fridman Compares Chipmaker to Apple Firing Steve Jobs |
+| 11-13 16:31 | GS |  | Goldman Sachs Adjusts Price Target on Applied Materials |
+| 11-13 16:31 | HOOD |  | US Supreme Court to Consider Robinhood Appeal in IPO Disclosure Lawsuit |
+| 11-13 16:31 | BAC |  | Bank of America Corporation Discloses Position in easyJet plc |
+| 11-13 16:31 | AAPL |  | Apple Releases tvOS 27.2.1 Update |
+| 11-13 16:31 | AMZN |  | Amazon Developing 'World Product Graph' to Expand Shopping Data |
