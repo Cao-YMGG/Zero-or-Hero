@@ -1,4 +1,4 @@
-# Headlines since 2026-11-13 16:00 ET (as of 2026-11-16 11:33 ET)
+# Headlines since 2026-11-13 16:00 ET (as of 2026-11-16 12:03 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -19,6 +19,10 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-14 15:01 | ASML | target up | UBS Reiterates Buy Rating and Raises Price Target for ASML |
 | 11-13 18:01 | VST | rating | Vistra Maintains Growth Outlook Amid Market Volatility Following Texas Midterm Elections |
 | 11-13 16:33 | NVDA | target down | Rosenblatt Maintains Buy on NVIDIA, Lowers Price Target to $300 |
+| 11-16 12:00 | NVDA |  | Jensen Huang Launched Nvidia in a Denny’s: Tribute Plaque Briefly Removed After Scandal |
+| 11-16 12:00 | NVDA TSLA |  | Jensen Huang Boasted in 2024 He Managed 'Not to Get Fired' in 31 Years at Nvidia — An Affair Scandal Ended His Run 2 Years Later |
+| 11-16 11:58 | NVDA |  | Huang Reportedly Weighs Comeback As Bessent Seeks Nvidia Shake-Up; Anthropic's Upcoming IPO; Trump To Meet Putin And Xi |
+| 11-16 11:39 | INTC |  | Intel Reports Share Stake Of 1.3M Ordinary Shares In Iren Limited |
 | 11-16 11:31 | ARM |  | Mubadala Investment Co. Pjsc Reduces Stake in Arm Holdings PLC |
 | 11-16 11:30 | NVDA |  | Jensen Huang Said 'I Don't Have an Endgame' Weeks Before Quitting Nvidia After 33 Years — Now Allies Are Building a 'War Room' for His Comeback |
 | 11-16 11:22 | NVDA |  | Michael Burry Smells a Rat in Nvidia’s Vanishing Singapore Revenue |

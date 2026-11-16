@@ -18,8 +18,8 @@
         "entry_price": 0.64,
         "peak": 0.64,
         "qty": 1,
-        "last": 0.01,
-        "last_time": "2026-11-16T11:33:07-05:00"
+        "last": 0,
+        "last_time": "2026-11-16T12:03:29-05:00"
       }
     },
     "nvda_gapdown_put": {},

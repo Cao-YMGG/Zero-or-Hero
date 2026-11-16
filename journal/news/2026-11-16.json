@@ -1,7 +1,48 @@
 {
- "as_of": "2026-11-16T11:33-05:00",
+ "as_of": "2026-11-16T12:03-05:00",
  "since": "2026-11-13T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-16 12:00",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Jensen Huang Launched Nvidia in a Denny\u2019s: Tribute Plaque Briefly Removed After Scandal",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/large-cap/26/11/63304982/jensen-huang-launched-nvidia-in-a-dennys-tribute-plaque-briefly-removed-after-scandal"
+  },
+  {
+   "time": "11-16 12:00",
+   "symbols": [
+    "NVDA",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Jensen Huang Boasted in 2024 He Managed 'Not to Get Fired' in 31 Years at Nvidia \u2014 An Affair Scandal Ended His Run 2 Years Later",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63304978/jensen-huang-boasted-in-2024-he-managed-not-to-get-fired-in-31-years-at-nvidia-an-affair-scandal-ended-his-run-2-years-later"
+  },
+  {
+   "time": "11-16 11:58",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Huang Reportedly Weighs Comeback As Bessent Seeks Nvidia Shake-Up; Anthropic's Upcoming IPO; Trump To Meet Putin And Xi",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/opinion/26/11/63304818/huang-reportedly-weighs-comeback-as-bessent-seeks-nvidia-shake-up-anthropics-upcoming-ipo-trump-to-meet-putin-and-xi"
+  },
+  {
+   "time": "11-16 11:39",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel Reports Share Stake Of 1.3M Ordinary Shares In Iren Limited",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63303716/intel-reports-share-stake-1-3m-ordinary-shares-iren-limited"
+  },
   {
    "time": "11-16 11:31",
    "symbols": [
