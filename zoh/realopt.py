@@ -40,6 +40,15 @@ def has_same_day_expiry(sym, day):
     return sym in MWF and day >= MWF_SINCE and day.weekday() in (0, 2)
 
 
+def last_day(now=None):
+    """The last calendar day whose daily bars the free SIP feed will serve. Alpaca reads a bare date
+    in market time and refuses anything younger than 15 minutes, so `date.today()` on a UTC machine
+    asks for a day that has not ended in New York (2026-11-16: a study on GitHub lost its run to
+    that 403, and research.week46 fell back to IEX bars without saying so)."""
+    now = now or datetime.now(ET)
+    return (now - timedelta(minutes=30)).date() - timedelta(days=1)
+
+
 def daily_raw(api, sym, start, end):
     params = {"symbols": sym, "timeframe": "1Day", "start": start.isoformat(), "end": end.isoformat(),
               "feed": "sip", "limit": 10000, "adjustment": "raw"}

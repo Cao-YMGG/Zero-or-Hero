@@ -43,8 +43,8 @@ jobs:
         env:
           STUDY_ARGS: ${{ inputs.module == matrix.module && inputs.args || '' }}
         run: python -m zoh.research.${{ matrix.module }} $STUDY_ARGS
-      - name: Commit results
-        if: (inputs.module == 'all' && matrix.module != 'week46' && matrix.module != 'slowdrift') || inputs.module == matrix.module
+      - name: Commit results   # also after a failed study: what it saved on the way (event lists) is hours of paging
+        if: always() && ((inputs.module == 'all' && matrix.module != 'week46' && matrix.module != 'slowdrift') || inputs.module == matrix.module)
         run: |
           git config user.name "zoh-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

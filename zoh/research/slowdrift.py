@@ -23,7 +23,7 @@ from datetime import date, datetime, timedelta
 from .. import journal
 from ..alpaca import Alpaca, AlpacaError
 from ..analyst import SYMBOLS
-from ..realopt import ET, START, daily_raw, hhmm, implied_vol, occ, option_minutes
+from ..realopt import ET, START, daily_raw, hhmm, implied_vol, last_day, occ, option_minutes
 from ..strategy import bs_delta
 from . import exits
 from .verticals import option_daily
@@ -116,7 +116,8 @@ def stock_paths(api, syms, start, end):
     for s in syms:
         try:
             out[s] = daily_raw(api, s, start, end)
-        except AlpacaError:
+        except AlpacaError as e:
+            print(f"{s}: daily bars failed ({e})", flush=True)
             out[s] = []
     return out
 
@@ -220,8 +221,7 @@ def collect(api, events=None, symbols=None, log=print):
     events = json.loads(EVENTS.read_text()) if events is None else events
     syms = sorted({e["sym"] for e in events})
     first = min(date.fromisoformat(e["day"]) for e in events)
-    end = date.today() - timedelta(days=1)
-    paths = stock_paths(api, syms, first - timedelta(days=5), end)
+    paths = stock_paths(api, syms, first - timedelta(days=5), last_day())
     rows = []
     for ev in sorted(events, key=lambda e: e["day"]):
         r = one_event(api, ev, paths.get(ev["sym"], []))
@@ -234,7 +234,7 @@ def collect(api, events=None, symbols=None, log=print):
 def drift(api, events, symbols=SYMBOLS):
     """Open of day 0 to the close of day +k, signed the rating's way, against the same stocks on other days."""
     syms = sorted(set(symbols) | {"SPY"})
-    bars = api.daily_bars_multi(syms, date(2024, 2, 1), date.today() - timedelta(days=1))
+    bars = api.daily_bars_multi(syms, date(2024, 2, 1), last_day())
     B = {s: [(b["t"][:10], b["o"], b["c"]) for b in v] for s, v in bars.items()}
     idx = {s: {d: i for i, (d, _, _) in enumerate(v)} for s, v in B.items()}
     marked = {(e["sym"], e["day"]) for e in events}
