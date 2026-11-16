@@ -1,7 +1,137 @@
 {
- "as_of": "2026-11-16T13:46-05:00",
+ "as_of": "2026-11-16T14:16-05:00",
  "since": "2026-11-13T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-16 14:02",
+   "symbols": [
+    "CRDO"
+   ],
+   "rating": "",
+   "headline": "TD Cowen Adjusts Price Target for Credo Technology Group Holding Ltd",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1004753131/td-cowen-maintains-credo-technology-crdous-with-buy-rating-cuts"
+  },
+  {
+   "time": "11-16 14:02",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Supermicro Participates in MLPerf Training v6.1 Benchmarks",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/16/3403869/0/en/mlcommons-releases-mlperf-training-v6-1-results-spotlighting-recent-advances-in-ai-training.html"
+  },
+  {
+   "time": "11-16 14:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase and Other Major Banks Experience Online Banking Outages",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8859950/customers-at-some-of-the-nation-s-largest-banks-are-reporting-difficulty-accessing-accounts-online"
+  },
+  {
+   "time": "11-16 14:01",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "rating",
+   "headline": "Goldman Sachs Adjusts Rocket Lab Price Target to $68",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1004753335/goldman-sachs-maintains-rocket-lab-rklbus-with-hold-rating-raises"
+  },
+  {
+   "time": "11-16 14:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple and OpenEvidence Launch Virtual Health AI Research Study",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/news/artificial-intelligence/2026/apple-and-openevidence-seek-200000-consumers-for-health-ai-study/"
+  },
+  {
+   "time": "11-16 14:01",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "Philippine Airlines Finalizes Order for 15 Boeing 787-10 Aircraft and GEnx-1B Engines",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/2026/11/17/news/national/pal-finalizes-deal-for-15-dreamliners-ge-engines/2471026"
+  },
+  {
+   "time": "11-16 14:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amnesty International Reports Continued Labor Issues at Amazon Saudi Arabia Facilities",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/2026/11/17/business/foreign-business/amnesty-amazons-migrant-workers-still-being-exploited/2471194"
+  },
+  {
+   "time": "11-16 14:01",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "",
+   "headline": "Court Grants Intervention in Broadcom and VMware Legal Case",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/16/3404028/25851/en/acc-granted-leave-to-intervene-before-eu-general-court-in-broadcom-legal-privilege-case.html"
+  },
+  {
+   "time": "11-16 14:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Announces Quantum Computing Collaborations with IBM and Fermilab",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/16/3403878/0/en/nvidia-announces-collaboration-with-ibm-and-fermi-national-accelerator-laboratory-to-launch-quantum-classical-codesign-platform-plus-error-correction-breakthrough-to-advance-practi.html"
+  },
+  {
+   "time": "11-16 14:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Introduces Nemotron for Science Platform",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/16/3403880/0/en/nvidia-introduces-nemotron-for-science-to-accelerate-discoveries-with-agents.html"
+  },
+  {
+   "time": "11-16 14:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Launches Vera CPU Platform for High-Performance Computing",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/16/3403879/0/en/nvidia-expands-vera-cpu-platform-to-accelerate-scientific-discovery.html"
+  },
+  {
+   "time": "11-16 14:01",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "Graid Technology Announces VROC Support for AMD EPYC Platforms",
+   "source": "fiscal.ai",
+   "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70143180-graid-technology-inc-graid-technology-extends-vroc-to-amd-epyc-platforms-expanding-choice-in-enterprise-raid-200.htm"
+  },
+  {
+   "time": "11-16 14:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Thread AI Joins Microsoft for Startups Pegasus Program",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/thread-ai-joins-the-microsoft-for-startups-pegasus-program-to-deliver-its-ai-workflow-orchestration-platform-on-microsoft-marketplace-302940646.html"
+  },
   {
    "time": "11-16 13:40",
    "symbols": [

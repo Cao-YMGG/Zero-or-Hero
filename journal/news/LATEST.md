@@ -1,9 +1,10 @@
-# Headlines since 2026-11-13 16:00 ET (as of 2026-11-16 13:46 ET)
+# Headlines since 2026-11-13 16:00 ET (as of 2026-11-16 14:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-16 14:01 | RKLB | rating | Goldman Sachs Adjusts Rocket Lab Price Target to $68 |
 | 11-16 11:20 | NVDA | target down | UBS Maintains Buy on NVIDIA, Lowers Price Target to $240 |
 | 11-16 10:24 | LLY | target up | Barclays Maintains Overweight on Eli Lilly, Raises Price Target to $1550 |
 | 11-16 10:24 | NVDA | target down | Morgan Stanley Maintains Overweight on NVIDIA, Lowers Price Target to $267 |
@@ -19,6 +20,18 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-14 15:01 | ASML | target up | UBS Reiterates Buy Rating and Raises Price Target for ASML |
 | 11-13 18:01 | VST | rating | Vistra Maintains Growth Outlook Amid Market Volatility Following Texas Midterm Elections |
 | 11-13 16:33 | NVDA | target down | Rosenblatt Maintains Buy on NVIDIA, Lowers Price Target to $300 |
+| 11-16 14:02 | CRDO |  | TD Cowen Adjusts Price Target for Credo Technology Group Holding Ltd |
+| 11-16 14:02 | SMCI |  | Supermicro Participates in MLPerf Training v6.1 Benchmarks |
+| 11-16 14:01 | JPM |  | JPMorgan Chase and Other Major Banks Experience Online Banking Outages |
+| 11-16 14:01 | AAPL |  | Apple and OpenEvidence Launch Virtual Health AI Research Study |
+| 11-16 14:01 | GE |  | Philippine Airlines Finalizes Order for 15 Boeing 787-10 Aircraft and GEnx-1B Engines |
+| 11-16 14:01 | AMZN |  | Amnesty International Reports Continued Labor Issues at Amazon Saudi Arabia Facilities |
+| 11-16 14:01 | AVGO |  | Court Grants Intervention in Broadcom and VMware Legal Case |
+| 11-16 14:01 | NVDA |  | NVIDIA Announces Quantum Computing Collaborations with IBM and Fermilab |
+| 11-16 14:01 | NVDA |  | NVIDIA Introduces Nemotron for Science Platform |
+| 11-16 14:01 | NVDA |  | NVIDIA Launches Vera CPU Platform for High-Performance Computing |
+| 11-16 14:01 | AMD |  | Graid Technology Announces VROC Support for AMD EPYC Platforms |
+| 11-16 14:01 | MSFT |  | Thread AI Joins Microsoft for Startups Pegasus Program |
 | 11-16 13:40 | NVDA |  | Nvidia Board Not Considering Jensen Huang Comeback, Source Says |
 | 11-16 13:35 | AAPL NVDA |  | NVDA? ‘I Wouldn’t Touch It With a Barge Pole,’ Says Quantum Strategy’s David Roche |
 | 11-16 13:32 | NVDA |  | Vice President Vance Confirms Earlier Comments From President Trump, Says U.S. Cannot Confirm Whether Alice Huang Is A Chinese Spy |
