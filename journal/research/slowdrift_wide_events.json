@@ -1,0 +1,3625 @@
+{
+"done": [
+"CSCO",
+"COP",
+"BAC",
+"LOW",
+"TEAM",
+"SNOW",
+"HON",
+"VST",
+"DDOG",
+"CVS",
+"WMT",
+"ZS",
+"AMAT",
+"T",
+"ADI",
+"GS",
+"LLY",
+"LRCX",
+"SBUX",
+"CVX",
+"SNAP",
+"ABNB",
+"CMG",
+"JPM",
+"MDB",
+"MSTR",
+"CAT",
+"ISRG",
+"NOW",
+"NET",
+"SLB",
+"UPS",
+"PYPL",
+"BLK",
+"OXY",
+"KLAC",
+"DIS",
+"NIO",
+"AMGN",
+"HD",
+"ABBV",
+"CIEN",
+"PFE",
+"ROKU",
+"LMT",
+"UNH",
+"DELL",
+"MA",
+"F",
+"TGT",
+"INTU",
+"SHOP",
+"GILD",
+"CVNA",
+"BMY",
+"IBM",
+"APP",
+"TMO",
+"GM",
+"RBLX",
+"SPOT",
+"ABT",
+"RTX",
+"HOOD",
+"ON",
+"GE",
+"DASH",
+"RIVN",
+"GEV",
+"MRNA",
+"BKNG",
+"SOFI",
+"TSM",
+"LULU",
+"VZ",
+"KO",
+"PEP",
+"PINS",
+"COST",
+"PG",
+"MCD",
+"COF",
+"FDX",
+"PDD",
+"DE",
+"ASML",
+"JNJ",
+"WDAY",
+"V",
+"PANW",
+"BA",
+"AXP",
+"MS",
+"C",
+"JD",
+"MRVL",
+"MRK",
+"BABA",
+"CRWD",
+"XOM",
+"COHR",
+"TXN",
+"WFC",
+"NKE",
+"SCHW"
+],
+"events": [
+{
+"sym": "CSCO",
+"day": "2024-05-13",
+"kind": "call",
+"spot": 48.38,
+"headline": "Exane BNP Paribas Upgrades Cisco Systems to Neutral, Announces $50 Price Target"
+},
+{
+"sym": "CSCO",
+"day": "2024-08-16",
+"kind": "call",
+"spot": 48.98,
+"headline": "HSBC Upgrades Cisco Systems to Buy, Raises Price Target to $58"
+},
+{
+"sym": "CSCO",
+"day": "2024-10-16",
+"kind": "call",
+"spot": 55.27,
+"headline": "Citigroup Upgrades Cisco Systems to Buy, Raises Price Target to $62"
+},
+{
+"sym": "CSCO",
+"day": "2024-11-11",
+"kind": "call",
+"spot": 59.22,
+"headline": "JP Morgan Upgrades Cisco Systems to Overweight, Raises Price Target to $66"
+},
+{
+"sym": "CSCO",
+"day": "2025-05-15",
+"kind": "call",
+"spot": 63.36,
+"headline": "Wells Fargo Upgrades Cisco Systems to Overweight, Raises Price Target to $75"
+},
+{
+"sym": "CSCO",
+"day": "2025-08-15",
+"kind": "put",
+"spot": 67.9,
+"headline": "HSBC Downgrades Cisco Systems to Hold, Announces $69 Price Target"
+},
+{
+"sym": "COP",
+"day": "2024-12-05",
+"kind": "call",
+"spot": 105.22,
+"headline": "JP Morgan Upgrades ConocoPhillips to Overweight, Raises Price Target to $123"
+},
+{
+"sym": "COP",
+"day": "2025-02-10",
+"kind": "put",
+"spot": 98.56,
+"headline": "Raymond James Downgrades ConocoPhillips to Outperform, Lowers Price Target to $124"
+},
+{
+"sym": "COP",
+"day": "2026-11-11",
+"kind": "put",
+"spot": 135.86,
+"headline": "Bernstein Downgrades ConocoPhillips to Market Perform"
+},
+{
+"sym": "COP",
+"day": "2026-11-12",
+"kind": "put",
+"spot": 137.93,
+"headline": "Bernstein Downgrades ConocoPhillips to Market Perform, Lowers Price Target to $122"
+},
+{
+"sym": "BAC",
+"day": "2024-04-19",
+"kind": "call",
+"spot": 36.33,
+"headline": "Wolfe Research Upgrades Bank of America to Outperform, Announces $42 Price Target"
+},
+{
+"sym": "BAC",
+"day": "2024-06-14",
+"kind": "call",
+"spot": 39.13,
+"headline": "Keefe, Bruyette & Woods Upgrades Bank of America to Outperform, Raises Price Target to $46"
+},
+{
+"sym": "BAC",
+"day": "2024-07-09",
+"kind": "call",
+"spot": 40.78,
+"headline": "Piper Sandler Upgrades Bank of America to Neutral, Raises Price Target to $42"
+},
+{
+"sym": "BAC",
+"day": "2024-09-03",
+"kind": "call",
+"spot": 40.78,
+"headline": "Deutsche Bank Upgrades Bank of America to Buy, Announces $45 Price Target"
+},
+{
+"sym": "BAC",
+"day": "2024-11-08",
+"kind": "call",
+"spot": 45.2,
+"headline": "Citigroup Upgrades Bank of America to Buy, Raises Price Target to $54"
+},
+{
+"sym": "BAC",
+"day": "2025-01-07",
+"kind": "call",
+"spot": 46.47,
+"headline": "UBS Upgrades Bank of America to Buy, Announces $53 Price Target"
+},
+{
+"sym": "BAC",
+"day": "2025-03-07",
+"kind": "call",
+"spot": 41.36,
+"headline": "Baird Upgrades Bank of America to Outperform, Raises Price Target to $50"
+},
+{
+"sym": "BAC",
+"day": "2026-06-12",
+"kind": "call",
+"spot": 55.53,
+"headline": "BofA Securities Upgrades Intel to Buy"
+},
+{
+"sym": "BAC",
+"day": "2026-09-01",
+"kind": "put",
+"spot": 61.91,
+"headline": "Bank of America Downgrades Barclays to Neutral From Buy"
+},
+{
+"sym": "BAC",
+"day": "2026-10-15",
+"kind": "call",
+"spot": 51.69,
+"headline": "Baird Upgrades Bank of America to Outperform, Maintains Price Target to $62"
+},
+{
+"sym": "LOW",
+"day": "2024-03-27",
+"kind": "put",
+"spot": 252.26,
+"headline": "DA Davidson Downgrades Lowe's Companies to Neutral, Maintains Price Target to $270"
+},
+{
+"sym": "LOW",
+"day": "2024-09-24",
+"kind": "call",
+"spot": 266.58,
+"headline": "Oppenheimer Upgrades Lowe's Companies to Outperform, Raises Price Target to $305"
+},
+{
+"sym": "LOW",
+"day": "2026-01-07",
+"kind": "call",
+"spot": 255.59,
+"headline": "Barclays Upgrades Lowe's Companies to Overweight, Announces $285 Price Target"
+},
+{
+"sym": "TEAM",
+"day": "2025-01-10",
+"kind": "call",
+"spot": 248.51,
+"headline": "BMO Capital Upgrades Atlassian to Outperform, Raises Price Target to $292"
+},
+{
+"sym": "TEAM",
+"day": "2025-04-14",
+"kind": "call",
+"spot": 207.14,
+"headline": "Baird Upgrades Atlassian to Outperform, Lowers Price Target to $225"
+},
+{
+"sym": "SNOW",
+"day": "2024-02-15",
+"kind": "put",
+"spot": 233.54,
+"headline": "HSBC Downgrades Snowflake to Hold, Announces $214 Price Target"
+},
+{
+"sym": "SNOW",
+"day": "2024-02-29",
+"kind": "put",
+"spot": 180.83,
+"headline": "Morgan Stanley Downgrades Snowflake to Equal-Weight, Lowers Price Target to $175"
+},
+{
+"sym": "SNOW",
+"day": "2024-04-05",
+"kind": "call",
+"spot": 153.1,
+"headline": "Rosenblatt Upgrades Snowflake to Buy, Announces $185 Price Target"
+},
+{
+"sym": "SNOW",
+"day": "2025-01-07",
+"kind": "call",
+"spot": 167.6,
+"headline": "Wells Fargo Upgrades Snowflake to Overweight, Raises Price Target to $200"
+},
+{
+"sym": "SNOW",
+"day": "2026-05-29",
+"kind": "call",
+"spot": 243.1,
+"headline": "HSBC Upgrades Snowflake to Buy, Raises Price Target to $289"
+},
+{
+"sym": "HON",
+"day": "2024-04-16",
+"kind": "put",
+"spot": 192.44,
+"headline": "Deutsche Bank Downgrades Honeywell Intl to Hold, Lowers Price Target to $215"
+},
+{
+"sym": "HON",
+"day": "2025-02-07",
+"kind": "call",
+"spot": 212.29,
+"headline": "Deutsche Bank Upgrades Honeywell Intl to Buy, Raises Price Target to $260"
+},
+{
+"sym": "HON",
+"day": "2025-11-18",
+"kind": "put",
+"spot": 190.97,
+"headline": "B of A Securities Downgrades Honeywell Intl to Underperform, Lowers Price Target to $205"
+},
+{
+"sym": "HON",
+"day": "2026-07-28",
+"kind": "call",
+"spot": 251.2,
+"headline": "B of A Securities Upgrades Honeywell Intl to Neutral, Raises Price Target to $265"
+},
+{
+"sym": "VST",
+"day": "2025-03-04",
+"kind": "call",
+"spot": 125.23,
+"headline": "B of A Securities Upgrades Vistra to Buy, Lowers Price Target to $152"
+},
+{
+"sym": "DDOG",
+"day": "2024-04-23",
+"kind": "call",
+"spot": 125.7,
+"headline": "Wells Fargo Upgrades Datadog to Overweight, Raises Price Target to $150"
+},
+{
+"sym": "DDOG",
+"day": "2024-05-08",
+"kind": "call",
+"spot": 115.47,
+"headline": "Baird Upgrades Datadog to Outperform, Raises Price Target to $140"
+},
+{
+"sym": "DDOG",
+"day": "2024-06-14",
+"kind": "put",
+"spot": 117.66,
+"headline": "Monness, Crespi, Hardt Downgrades Datadog to Sell, Announces $98 Price Target"
+},
+{
+"sym": "DDOG",
+"day": "2025-01-29",
+"kind": "put",
+"spot": 147.22,
+"headline": "Stifel Downgrades Datadog to Hold, Lowers Price Target to $140"
+},
+{
+"sym": "DDOG",
+"day": "2025-02-18",
+"kind": "put",
+"spot": 127.23,
+"headline": "Wolfe Research Downgrades Datadog to Peer Perform"
+},
+{
+"sym": "DDOG",
+"day": "2026-05-08",
+"kind": "call",
+"spot": 187.9,
+"headline": "Citigroup Upgrades Datadog to Market Outperform"
+},
+{
+"sym": "DDOG",
+"day": "2026-07-21",
+"kind": "put",
+"spot": 256.61,
+"headline": "Jefferies Downgrades Datadog to Hold From Buy, Adjusts Price Target to $280 From $210"
+},
+{
+"sym": "DDOG",
+"day": "2026-10-19",
+"kind": "call",
+"spot": 263.19,
+"headline": "Bernstein Upgrades Datadog to Outperform, Sets Price Target at $350"
+},
+{
+"sym": "CVS",
+"day": "2024-05-02",
+"kind": "put",
+"spot": 56.01,
+"headline": "UBS Downgrades CVS Health to Neutral, Lowers Price Target to $60"
+},
+{
+"sym": "CVS",
+"day": "2024-10-04",
+"kind": "call",
+"spot": 64.2,
+"headline": "TD Cowen Upgrades CVS Health to Buy, Raises Price Target to $85"
+},
+{
+"sym": "CVS",
+"day": "2024-12-03",
+"kind": "call",
+"spot": 60.0,
+"headline": "Deutsche Bank Upgrades CVS Health to Buy, Maintains Price Target to $66"
+},
+{
+"sym": "CVS",
+"day": "2025-08-14",
+"kind": "call",
+"spot": 66.78,
+"headline": "Baird Upgrades CVS Health to Outperform, Raises Price Target to $82"
+},
+{
+"sym": "CVS",
+"day": "2025-08-18",
+"kind": "call",
+"spot": 70.36,
+"headline": "UBS Upgrades CVS Health to Buy, Raises Price Target to $79"
+},
+{
+"sym": "CVS",
+"day": "2026-05-07",
+"kind": "call",
+"spot": 87.6,
+"headline": "CFRA Upgrades CVS Health to Buy and Raises Price Target to $100"
+},
+{
+"sym": "WMT",
+"day": "2026-08-04",
+"kind": "put",
+"spot": 109.05,
+"headline": "Oppenheimer Downgrades Walmart to Perform"
+},
+{
+"sym": "WMT",
+"day": "2026-10-15",
+"kind": "call",
+"spot": 120.67,
+"headline": "Deutsche Bank Upgrades Walmart to Buy, Raises Price Target to $136"
+},
+{
+"sym": "ZS",
+"day": "2024-05-28",
+"kind": "put",
+"spot": 168.68,
+"headline": "Rosenblatt Downgrades Zscaler to Neutral, Announces $190 Price Target"
+},
+{
+"sym": "ZS",
+"day": "2024-06-14",
+"kind": "call",
+"spot": 185.35,
+"headline": "JP Morgan Upgrades Zscaler to Overweight, Raises Price Target to $230"
+},
+{
+"sym": "ZS",
+"day": "2025-03-06",
+"kind": "call",
+"spot": 203.56,
+"headline": "Rosenblatt Upgrades Zscaler to Buy, Raises Price Target to $235"
+},
+{
+"sym": "ZS",
+"day": "2025-03-07",
+"kind": "call",
+"spot": 207.31,
+"headline": "B of A Securities Upgrades Zscaler to Buy, Raises Price Target to $240"
+},
+{
+"sym": "ZS",
+"day": "2025-06-13",
+"kind": "call",
+"spot": 304.22,
+"headline": "Wells Fargo Upgrades Zscaler to Overweight, Raises Price Target to $385"
+},
+{
+"sym": "ZS",
+"day": "2025-12-01",
+"kind": "put",
+"spot": 246.01,
+"headline": "Bernstein Downgrades Zscaler to Market Perform, Announces $264 Price Target"
+},
+{
+"sym": "ZS",
+"day": "2026-04-09",
+"kind": "put",
+"spot": 131.63,
+"headline": "BTIG Downgrades Zscaler to Neutral"
+},
+{
+"sym": "ZS",
+"day": "2026-05-28",
+"kind": "put",
+"spot": 123.7,
+"headline": "Evercore ISI Group Downgrades Zscaler to In-Line"
+},
+{
+"sym": "ZS",
+"day": "2026-06-01",
+"kind": "call",
+"spot": 145.26,
+"headline": "Guggenheim Upgrades Zscaler to Buy, Announces $214 Price Target"
+},
+{
+"sym": "AMAT",
+"day": "2024-05-13",
+"kind": "put",
+"spot": 208,
+"headline": "Jefferies Downgrades Applied Mat to Hold, Lowers Price Target to $210"
+},
+{
+"sym": "AMAT",
+"day": "2025-08-20",
+"kind": "put",
+"spot": 161.79,
+"headline": "Daiwa Capital Downgrades Applied Mat to Neutral, Lowers Price Target to $170"
+},
+{
+"sym": "AMAT",
+"day": "2026-05-18",
+"kind": "put",
+"spot": 435.76,
+"headline": "Morgan Stanley Downgrades Applied Materials to Equal-Weight, Announces $502 Price Target"
+},
+{
+"sym": "T",
+"day": "2024-03-05",
+"kind": "call",
+"spot": 17.07,
+"headline": "Wolfe Research Upgrades AT&T to Outperform, Announces $21 Price Target"
+},
+{
+"sym": "T",
+"day": "2024-04-29",
+"kind": "call",
+"spot": 17.06,
+"headline": "Barclays Upgrades AT&T to Overweight, Maintains Price Target to $20"
+},
+{
+"sym": "T",
+"day": "2025-10-01",
+"kind": "put",
+"spot": 28.03,
+"headline": "Barclays Downgrades AT&T to Equal-Weight, Maintains Price Target to $30"
+},
+{
+"sym": "T",
+"day": "2025-11-12",
+"kind": "call",
+"spot": 25.51,
+"headline": "Keybanc Upgrades AT&T to Overweight, Announces $30 Price Target"
+},
+{
+"sym": "T",
+"day": "2026-08-03",
+"kind": "put",
+"spot": 23.61,
+"headline": "CIBC Downgrades TELUS to Neutral From Outperform, Cuts Price Target to CA$15 From CA$24"
+},
+{
+"sym": "ADI",
+"day": "2025-07-21",
+"kind": "call",
+"spot": 243.46,
+"headline": "Seaport Global Upgrades Analog Devices to Neutral"
+},
+{
+"sym": "ADI",
+"day": "2026-01-15",
+"kind": "call",
+"spot": 301.89,
+"headline": "Wells Fargo Upgrades Analog Devices to Overweight, Raises Price Target to $340"
+},
+{
+"sym": "ADI",
+"day": "2026-02-19",
+"kind": "call",
+"spot": 348.78,
+"headline": "Needham Upgrades Analog Devices to Buy, Announces $400 Price Target"
+},
+{
+"sym": "ADI",
+"day": "2026-08-20",
+"kind": "call",
+"spot": 381.64,
+"headline": "Bernstein Upgrades Analog Devices to Outperform"
+},
+{
+"sym": "GS",
+"day": "2024-11-26",
+"kind": "put",
+"spot": 596.23,
+"headline": "HSBC Downgrades Goldman Sachs Gr to Hold, Raises Price Target to $608"
+},
+{
+"sym": "GS",
+"day": "2025-01-06",
+"kind": "put",
+"spot": 583.97,
+"headline": "UBS Downgrades Goldman Sachs Gr to Neutral, Announces $610 Price Target"
+},
+{
+"sym": "GS",
+"day": "2026-05-08",
+"kind": "put",
+"spot": 933.32,
+"headline": "Goldman Sachs Downgrades EPAM Systems to Neutral"
+},
+{
+"sym": "GS",
+"day": "2026-06-01",
+"kind": "call",
+"spot": 1018.22,
+"headline": "Goldman Sachs Upgrades Travel + Leisure to Buy From Neutral"
+},
+{
+"sym": "GS",
+"day": "2026-06-04",
+"kind": "call",
+"spot": 1056,
+"headline": "Goldman Sachs Upgrades Plains GP to Neutral From Sell"
+},
+{
+"sym": "GS",
+"day": "2026-07-08",
+"kind": "call",
+"spot": 1034.47,
+"headline": "Goldman Sachs Upgrades RH to Neutral From Sell, Lifts Price Target to $155"
+},
+{
+"sym": "GS",
+"day": "2026-07-09",
+"kind": "put",
+"spot": 1051,
+"headline": "Goldman Sachs Downgrades Madison Square Garden Entertainment to Hold, Raises Price Target "
+},
+{
+"sym": "GS",
+"day": "2026-07-21",
+"kind": "call",
+"spot": 1077.12,
+"headline": "HSBC Upgrades Goldman Sachs to Hold From Reduce, Adjusts Price Target to $995"
+},
+{
+"sym": "GS",
+"day": "2026-09-11",
+"kind": "call",
+"spot": 1035.15,
+"headline": "Goldman Sachs Upgrades Element Solutions to Buy"
+},
+{
+"sym": "LLY",
+"day": "2024-02-21",
+"kind": "put",
+"spot": 736.02,
+"headline": "DZ Bank Downgrades Eli Lilly to Hold, Announces $820 Price Target"
+},
+{
+"sym": "LLY",
+"day": "2025-11-10",
+"kind": "call",
+"spot": 945.17,
+"headline": "Leerink Partners Upgrades Eli Lilly to Outperform, Raises Price Target to $1104"
+},
+{
+"sym": "LRCX",
+"day": "2025-09-02",
+"kind": "put",
+"spot": 95.55,
+"headline": "Morgan Stanley Downgrades Lam Research to Underweight, Lowers Price Target to $92"
+},
+{
+"sym": "SBUX",
+"day": "2024-07-16",
+"kind": "put",
+"spot": 71.64,
+"headline": "Evercore ISI Group Downgrades Starbucks to In-Line, Lowers Price Target to $80"
+},
+{
+"sym": "SBUX",
+"day": "2024-08-13",
+"kind": "call",
+"spot": 91.79,
+"headline": "Baird Upgrades Starbucks to Outperform, Raises Price Target to $110"
+},
+{
+"sym": "SBUX",
+"day": "2024-08-14",
+"kind": "call",
+"spot": 95.4,
+"headline": "Stifel Upgrades Starbucks to Buy, Raises Price Target to $110"
+},
+{
+"sym": "SBUX",
+"day": "2024-09-24",
+"kind": "put",
+"spot": 95.01,
+"headline": "Jefferies Downgrades Starbucks to Underperform, Lowers Price Target to $76"
+},
+{
+"sym": "SBUX",
+"day": "2024-09-26",
+"kind": "call",
+"spot": 98.59,
+"headline": "Bernstein Upgrades Starbucks to Outperform, Raises Price Target to $115"
+},
+{
+"sym": "SBUX",
+"day": "2024-11-13",
+"kind": "put",
+"spot": 96.8,
+"headline": "Redburn Atlantic Downgrades Starbucks to Sell, Lowers Price Target to $77"
+},
+{
+"sym": "SBUX",
+"day": "2025-04-07",
+"kind": "put",
+"spot": 77.22,
+"headline": "Baird Downgrades Starbucks to Neutral, Lowers Price Target to $85"
+},
+{
+"sym": "SBUX",
+"day": "2025-04-09",
+"kind": "call",
+"spot": 79.37,
+"headline": "Jefferies Upgrades Starbucks to Hold, Maintains Price Target to $76"
+},
+{
+"sym": "SBUX",
+"day": "2025-08-12",
+"kind": "call",
+"spot": 94.52,
+"headline": "Baird Upgrades Starbucks to Outperform, Raises Price Target to $115"
+},
+{
+"sym": "SBUX",
+"day": "2026-01-15",
+"kind": "call",
+"spot": 92.41,
+"headline": "BWG Global Upgrades Starbucks to Positive"
+},
+{
+"sym": "SBUX",
+"day": "2026-05-14",
+"kind": "call",
+"spot": 108.5,
+"headline": "TD Cowen Upgrades Starbucks to Buy, Raises Price Target to $120"
+},
+{
+"sym": "CVX",
+"day": "2024-02-06",
+"kind": "put",
+"spot": 152.16,
+"headline": "DZ Bank Downgrades Chevron to Hold, Announces $160 Price Target"
+},
+{
+"sym": "CVX",
+"day": "2025-04-11",
+"kind": "put",
+"spot": 135.3,
+"headline": "Scotiabank Downgrades Chevron to Sector Perform, Lowers Price Target to $143"
+},
+{
+"sym": "CVX",
+"day": "2025-04-23",
+"kind": "put",
+"spot": 136.97,
+"headline": "Barclays Downgrades Chevron to Equal-Weight, Lowers Price Target to $152"
+},
+{
+"sym": "CVX",
+"day": "2025-12-01",
+"kind": "call",
+"spot": 152.31,
+"headline": "HSBC Upgrades Chevron to Buy, Raises Price Target to $169"
+},
+{
+"sym": "SNAP",
+"day": "2024-10-23",
+"kind": "call",
+"spot": 10.31,
+"headline": "JMP Securities Upgrades Snap to Market Outperform, Announces $17 Price Target"
+},
+{
+"sym": "SNAP",
+"day": "2025-02-05",
+"kind": "put",
+"spot": 11.14,
+"headline": "Wells Fargo Downgrades Snap to Equal-Weight, Lowers Price Target to $11"
+},
+{
+"sym": "ABNB",
+"day": "2024-02-14",
+"kind": "put",
+"spot": 145.99,
+"headline": "DA Davidson Downgrades Airbnb to Neutral, Announces $145 Price Target"
+},
+{
+"sym": "ABNB",
+"day": "2024-04-24",
+"kind": "call",
+"spot": 165.39,
+"headline": "Mizuho Upgrades Airbnb to Buy, Raises Price Target to $200"
+},
+{
+"sym": "ABNB",
+"day": "2024-05-28",
+"kind": "call",
+"spot": 146.25,
+"headline": "Wedbush Upgrades Airbnb to Outperform, Raises Price Target to $165"
+},
+{
+"sym": "ABNB",
+"day": "2024-11-12",
+"kind": "put",
+"spot": 135.07,
+"headline": "Phillip Securities Downgrades Airbnb to Reduce, Announces $120 Price Target"
+},
+{
+"sym": "ABNB",
+"day": "2025-03-10",
+"kind": "call",
+"spot": 135.37,
+"headline": "Jefferies Upgrades Airbnb to Buy, Raises Price Target to $185"
+},
+{
+"sym": "ABNB",
+"day": "2025-12-17",
+"kind": "call",
+"spot": 134.76,
+"headline": "RBC Capital Upgrades Airbnb to Outperform, Raises Price Target to $170"
+},
+{
+"sym": "ABNB",
+"day": "2026-01-08",
+"kind": "call",
+"spot": 136.56,
+"headline": "Cantor Fitzgerald Upgrades Airbnb to Neutral, Raises Price Target to $141"
+},
+{
+"sym": "ABNB",
+"day": "2026-01-09",
+"kind": "call",
+"spot": 140.75,
+"headline": "Barclays Upgrades Airbnb to Equal-Weight, Raises Price Target to $120"
+},
+{
+"sym": "ABNB",
+"day": "2026-04-22",
+"kind": "call",
+"spot": 146.9,
+"headline": "Wells Fargo Upgrades Airbnb to Overweight, Raises Price Target to $178"
+},
+{
+"sym": "ABNB",
+"day": "2026-05-04",
+"kind": "call",
+"spot": 143.21,
+"headline": "Oppenheimer Upgrades Airbnb to Outperform, Announces $180 Price Target"
+},
+{
+"sym": "ABNB",
+"day": "2026-08-07",
+"kind": "call",
+"spot": 169.32,
+"headline": "Wedbush Upgrades Airbnb to Outperform"
+},
+{
+"sym": "ABNB",
+"day": "2026-11-09",
+"kind": "call",
+"spot": 193.49,
+"headline": "Rothschild & Co Upgrades Airbnb to Neutral, Raises Price Target to $190"
+},
+{
+"sym": "CMG",
+"day": "2025-08-12",
+"kind": "call",
+"spot": 42.85,
+"headline": "Piper Sandler Upgrades Chipotle Mexican Grill to Overweight, Lowers Price Target to $50"
+},
+{
+"sym": "CMG",
+"day": "2026-03-20",
+"kind": "call",
+"spot": 33.72,
+"headline": "Mizuho Upgrades Chipotle Mexican Grill to Outperform, Raises Price Target to $40"
+},
+{
+"sym": "CMG",
+"day": "2026-06-03",
+"kind": "put",
+"spot": 28.43,
+"headline": "Morgan Stanley Downgrades Chipotle Mexican Grill to Equal-Weight, Lowers Price Target to $"
+},
+{
+"sym": "CMG",
+"day": "2026-06-05",
+"kind": "call",
+"spot": 29.28,
+"headline": "JPMorgan Upgrades Chipotle Mexican Grill to Overweight"
+},
+{
+"sym": "CMG",
+"day": "2026-08-24",
+"kind": "put",
+"spot": 36.41,
+"headline": "Baird Downgrades Chipotle Mexican Grill to Neutral, Lowers Price Target to $40"
+},
+{
+"sym": "CMG",
+"day": "2026-10-21",
+"kind": "put",
+"spot": 28.79,
+"headline": "TD Cowen Downgrades Chipotle Mexican Grill to Hold, Lowers Price Target to $32"
+},
+{
+"sym": "JPM",
+"day": "2026-08-27",
+"kind": "put",
+"spot": 353.62,
+"headline": "JPMorgan Chase Downgrades Williams-Sonoma to 'Neutral'"
+},
+{
+"sym": "MDB",
+"day": "2024-03-08",
+"kind": "call",
+"spot": 396.55,
+"headline": "DA Davidson Upgrades MongoDB to Buy, Raises Price Target to $430"
+},
+{
+"sym": "MDB",
+"day": "2024-03-19",
+"kind": "put",
+"spot": 345.72,
+"headline": "Redburn Atlantic Downgrades MongoDB to Sell, Announces $295 Price Target"
+},
+{
+"sym": "MDB",
+"day": "2024-06-03",
+"kind": "call",
+"spot": 246.76,
+"headline": "Guggenheim Upgrades MongoDB to Neutral"
+},
+{
+"sym": "MDB",
+"day": "2024-12-16",
+"kind": "put",
+"spot": 261.26,
+"headline": "Monness, Crespi, Hardt Downgrades MongoDB to Sell, Announces $220 Price Target"
+},
+{
+"sym": "MDB",
+"day": "2025-03-06",
+"kind": "put",
+"spot": 204.36,
+"headline": "Wells Fargo Downgrades MongoDB to Equal-Weight, Lowers Price Target to $225"
+},
+{
+"sym": "MDB",
+"day": "2026-03-03",
+"kind": "put",
+"spot": 232.88,
+"headline": "Baird Downgrades MongoDB to Neutral, Lowers Price Target to $260"
+},
+{
+"sym": "MDB",
+"day": "2026-03-05",
+"kind": "call",
+"spot": 255.86,
+"headline": "Scotiabank Upgrades MongoDB to Sector Outperform, Raises Price Target to $310"
+},
+{
+"sym": "CAT",
+"day": "2024-10-14",
+"kind": "put",
+"spot": 390.47,
+"headline": "Morgan Stanley Downgrades Caterpillar to Underweight, Lowers Price Target to $332"
+},
+{
+"sym": "CAT",
+"day": "2025-01-13",
+"kind": "call",
+"spot": 353.58,
+"headline": "Evercore ISI Group Upgrades Caterpillar to In-Line, Announces $365 Price Target"
+},
+{
+"sym": "CAT",
+"day": "2025-02-03",
+"kind": "call",
+"spot": 365.01,
+"headline": "UBS Upgrades Caterpillar to Neutral, Raises Price Target to $385"
+},
+{
+"sym": "CAT",
+"day": "2025-05-01",
+"kind": "call",
+"spot": 311.46,
+"headline": "Baird Upgrades Caterpillar to Neutral, Raises Price Target to $309"
+},
+{
+"sym": "CAT",
+"day": "2025-05-13",
+"kind": "call",
+"spot": 349.37,
+"headline": "Baird Upgrades Caterpillar to Outperform, Raises Price Target to $395"
+},
+{
+"sym": "CAT",
+"day": "2025-08-07",
+"kind": "put",
+"spot": 424.71,
+"headline": "Morgan Stanley Downgrades Caterpillar to Underweight, Raises Price Target to $350"
+},
+{
+"sym": "ISRG",
+"day": "2025-06-09",
+"kind": "put",
+"spot": 520,
+"headline": "Deutsche Bank Downgrades Intuitive Surgical to Sell, Lowers Price Target to $440"
+},
+{
+"sym": "ISRG",
+"day": "2026-07-28",
+"kind": "call",
+"spot": 369.55,
+"headline": "UBS Upgrades Intuitive Surgical to Buy From Neutral, Adjusts Price Target to $500 From $55"
+},
+{
+"sym": "NOW",
+"day": "2024-04-15",
+"kind": "put",
+"spot": 767.19,
+"headline": "Guggenheim Downgrades ServiceNow to Neutral"
+},
+{
+"sym": "NOW",
+"day": "2025-12-15",
+"kind": "put",
+"spot": 793.31,
+"headline": "Keybanc Downgrades ServiceNow to Underweight, Announces $775 Price Target"
+},
+{
+"sym": "NOW",
+"day": "2025-12-16",
+"kind": "call",
+"spot": 775.01,
+"headline": "Guggenheim Upgrades ServiceNow to Neutral"
+},
+{
+"sym": "NOW",
+"day": "2026-04-10",
+"kind": "put",
+"spot": 87.97,
+"headline": "UBS Downgrades ServiceNow to Neutral, Lowers Price Target to $100"
+},
+{
+"sym": "NOW",
+"day": "2026-07-01",
+"kind": "call",
+"spot": 104.12,
+"headline": "Guggenheim Upgrades ServiceNow to Buy From Neutral"
+},
+{
+"sym": "NET",
+"day": "2024-02-13",
+"kind": "put",
+"spot": 99.58,
+"headline": "DZ Bank Downgrades Cloudflare to Hold, Announces $110 Price Target"
+},
+{
+"sym": "NET",
+"day": "2025-01-17",
+"kind": "call",
+"spot": 120.1,
+"headline": "Citigroup Upgrades Cloudflare to Buy, Raises Price Target to $145"
+},
+{
+"sym": "NET",
+"day": "2025-02-03",
+"kind": "put",
+"spot": 132.53,
+"headline": "Baird Downgrades Cloudflare to Neutral, Raises Price Target to $140"
+},
+{
+"sym": "UPS",
+"day": "2024-04-03",
+"kind": "call",
+"spot": 151.65,
+"headline": "Redburn Atlantic Upgrades United Parcel Service to Buy, Announces $180 Price Target"
+},
+{
+"sym": "UPS",
+"day": "2024-04-25",
+"kind": "call",
+"spot": 148.19,
+"headline": "HSBC Upgrades United Parcel Service to Buy, Raises Price Target to $170"
+},
+{
+"sym": "UPS",
+"day": "2024-10-21",
+"kind": "put",
+"spot": 133.37,
+"headline": "Barclays Downgrades United Parcel Service to Underweight, Maintains Price Target to $120"
+},
+{
+"sym": "UPS",
+"day": "2024-12-10",
+"kind": "call",
+"spot": 129.72,
+"headline": "BMO Capital Upgrades United Parcel Service to Outperform, Lowers Price Target to $150"
+},
+{
+"sym": "UPS",
+"day": "2025-01-31",
+"kind": "put",
+"spot": 114.98,
+"headline": "Baird Downgrades United Parcel Service to Neutral, Lowers Price Target to $130"
+},
+{
+"sym": "UPS",
+"day": "2025-09-19",
+"kind": "put",
+"spot": 85.05,
+"headline": "BMO Capital Downgrades United Parcel Service to Market Perform, Lowers Price Target to $96"
+},
+{
+"sym": "UPS",
+"day": "2026-01-08",
+"kind": "put",
+"spot": 104.13,
+"headline": "Wolfe Research Downgrades United Parcel Service to Peer Perform"
+},
+{
+"sym": "PYPL",
+"day": "2024-07-02",
+"kind": "call",
+"spot": 58.9,
+"headline": "Susquehanna Upgrades PayPal Holdings to Positive, Maintains Price Target to $71"
+},
+{
+"sym": "PYPL",
+"day": "2024-07-18",
+"kind": "put",
+"spot": 60.52,
+"headline": "William Blair Downgrades PayPal Holdings to Market Perform"
+},
+{
+"sym": "PYPL",
+"day": "2024-07-31",
+"kind": "call",
+"spot": 65.11,
+"headline": "Bernstein Upgrades PayPal Holdings to Outperform, Raises Price Target to $78"
+},
+{
+"sym": "PYPL",
+"day": "2024-10-10",
+"kind": "put",
+"spot": 79.46,
+"headline": "Bernstein Downgrades PayPal Holdings to Market Perform, Raises Price Target to $80"
+},
+{
+"sym": "PYPL",
+"day": "2024-12-09",
+"kind": "call",
+"spot": 92.58,
+"headline": "B of A Securities Upgrades PayPal Holdings to Buy, Raises Price Target to $103"
+},
+{
+"sym": "PYPL",
+"day": "2025-04-17",
+"kind": "put",
+"spot": 60.29,
+"headline": "Seaport Global Downgrades PayPal Holdings to Sell, Announces $49 Price Target"
+},
+{
+"sym": "PYPL",
+"day": "2025-07-14",
+"kind": "call",
+"spot": 71.96,
+"headline": "Seaport Global Upgrades PayPal Holdings to Neutral"
+},
+{
+"sym": "PYPL",
+"day": "2026-01-13",
+"kind": "put",
+"spot": 57,
+"headline": "Daiwa Capital Downgrades PayPal Holdings to Neutral, Lowers Price Target to $61"
+},
+{
+"sym": "PYPL",
+"day": "2026-02-04",
+"kind": "put",
+"spot": 41.12,
+"headline": "Canaccord Genuity Downgrades PayPal Holdings to Hold, Lowers Price Target to $42"
+},
+{
+"sym": "OXY",
+"day": "2025-01-31",
+"kind": "put",
+"spot": 47.95,
+"headline": "Goldman Sachs Downgrades Occidental Petroleum to Sell, Lowers Price Target to $45"
+},
+{
+"sym": "OXY",
+"day": "2025-03-10",
+"kind": "put",
+"spot": 46.97,
+"headline": "Raymond James Downgrades Occidental Petroleum to Outperform, Lowers Price Target to $64"
+},
+{
+"sym": "OXY",
+"day": "2025-04-11",
+"kind": "put",
+"spot": 36.3,
+"headline": "Scotiabank Downgrades Occidental Petroleum to Sector Perform, Announces $40 Price Target"
+},
+{
+"sym": "OXY",
+"day": "2025-08-18",
+"kind": "put",
+"spot": 43.85,
+"headline": "Morgan Stanley Downgrades Occidental Petroleum to Equal-Weight, Maintains Price Target to "
+},
+{
+"sym": "OXY",
+"day": "2025-10-03",
+"kind": "call",
+"spot": 45.01,
+"headline": "HSBC Upgrades Occidental Petroleum to Buy, Raises Price Target to $55"
+},
+{
+"sym": "OXY",
+"day": "2025-12-08",
+"kind": "put",
+"spot": 41.5,
+"headline": "JP Morgan Downgrades Occidental Petroleum to Underweight, Lowers Price Target to $44"
+},
+{
+"sym": "OXY",
+"day": "2026-03-12",
+"kind": "call",
+"spot": 56.91,
+"headline": "Piper Sandler Upgrades Occidental Petroleum to Overweight, Raises Price Target to $66"
+},
+{
+"sym": "OXY",
+"day": "2026-03-20",
+"kind": "call",
+"spot": 59.78,
+"headline": "JP Morgan Upgrades Occidental Petroleum to Neutral, Announces $63 Price Target"
+},
+{
+"sym": "OXY",
+"day": "2026-07-08",
+"kind": "call",
+"spot": 53.08,
+"headline": "Evercore ISI Group Upgrades Occidental Petroleum to Outperform, Raises Price Target to $65"
+},
+{
+"sym": "OXY",
+"day": "2026-10-19",
+"kind": "call",
+"spot": 62.48,
+"headline": "Roth Capital Upgrades Occidental Petroleum to Buy"
+},
+{
+"sym": "KLAC",
+"day": "2025-03-28",
+"kind": "put",
+"spot": 683.68,
+"headline": "Jefferies Downgrades KLA to Hold, Announces $725 Price Target"
+},
+{
+"sym": "KLAC",
+"day": "2026-07-09",
+"kind": "call",
+"spot": 239.23,
+"headline": "Analyst Shane Brett Upgrades KLA Corporation to Buy"
+},
+{
+"sym": "DIS",
+"day": "2024-02-08",
+"kind": "call",
+"spot": 107.12,
+"headline": "Needham Upgrades Walt Disney to Buy, Announces $120 Price Target"
+},
+{
+"sym": "DIS",
+"day": "2024-03-25",
+"kind": "call",
+"spot": 118.43,
+"headline": "Barclays Upgrades Walt Disney to Overweight, Raises Price Target to $135"
+},
+{
+"sym": "DIS",
+"day": "2024-05-21",
+"kind": "call",
+"spot": 103.26,
+"headline": "Redburn Atlantic Upgrades Walt Disney to Neutral, Announces $100 Price Target"
+},
+{
+"sym": "DIS",
+"day": "2024-08-08",
+"kind": "put",
+"spot": 84.67,
+"headline": "Seaport Global Downgrades Walt Disney to Neutral"
+},
+{
+"sym": "NIO",
+"day": "2024-10-28",
+"kind": "call",
+"spot": 5.43,
+"headline": "Macquarie Upgrades NIO to Outperform, Announces $6.6 Price Target"
+},
+{
+"sym": "NIO",
+"day": "2024-11-25",
+"kind": "put",
+"spot": 4.76,
+"headline": "Goldman Sachs Downgrades NIO to Sell, Lowers Price Target to $3.9"
+},
+{
+"sym": "NIO",
+"day": "2025-08-26",
+"kind": "call",
+"spot": 6.62,
+"headline": "JP Morgan Upgrades NIO to Overweight, Raises Price Target to $8"
+},
+{
+"sym": "NIO",
+"day": "2026-03-13",
+"kind": "call",
+"spot": 5.78,
+"headline": "HSBC Upgrades NIO to Buy, Raises Price Target to $6.8"
+},
+{
+"sym": "NIO",
+"day": "2026-07-13",
+"kind": "call",
+"spot": 4.89,
+"headline": "Goldman Sachs Upgrades NIO to Buy, Announces $7 Price Target"
+},
+{
+"sym": "AMGN",
+"day": "2024-08-07",
+"kind": "put",
+"spot": 316.18,
+"headline": "Wells Fargo Downgrades Amgen to Equal-Weight, Raises Price Target to $335"
+},
+{
+"sym": "AMGN",
+"day": "2026-09-08",
+"kind": "put",
+"spot": 405.96,
+"headline": "BMO Capital Downgrades Amgen to Market Perform"
+},
+{
+"sym": "AMGN",
+"day": "2026-09-10",
+"kind": "put",
+"spot": 386.57,
+"headline": "HSBC Downgrades Amgen to Hold From Buy"
+},
+{
+"sym": "HD",
+"day": "2024-02-21",
+"kind": "put",
+"spot": 360.38,
+"headline": "HSBC Downgrades Home Depot to Reduce, Announces $323 Price Target"
+},
+{
+"sym": "HD",
+"day": "2025-11-14",
+"kind": "put",
+"spot": 363.82,
+"headline": "Stifel Downgrades Home Depot to Hold, Lowers Price Target to $370"
+},
+{
+"sym": "ABBV",
+"day": "2024-06-05",
+"kind": "call",
+"spot": 163.23,
+"headline": "HSBC Upgrades AbbVie to Buy, Announces $185 Price Target"
+},
+{
+"sym": "ABBV",
+"day": "2024-11-22",
+"kind": "call",
+"spot": 174.47,
+"headline": "Leerink Partners Upgrades AbbVie to Outperform, Announces $206 Price Target"
+},
+{
+"sym": "ABBV",
+"day": "2025-12-10",
+"kind": "call",
+"spot": 225.44,
+"headline": "HSBC Upgrades AbbVie to Buy, Raises Price Target to $265"
+},
+{
+"sym": "ABBV",
+"day": "2026-01-08",
+"kind": "put",
+"spot": 230.94,
+"headline": "Wolfe Research Downgrades AbbVie to Peer Perform"
+},
+{
+"sym": "CIEN",
+"day": "2024-06-12",
+"kind": "call",
+"spot": 48.41,
+"headline": "Morgan Stanley Upgrades Ciena to Overweight, Raises Price Target to $55"
+},
+{
+"sym": "CIEN",
+"day": "2024-12-13",
+"kind": "call",
+"spot": 87.56,
+"headline": "B of A Securities Upgrades Ciena to Buy, Raises Price Target to $95"
+},
+{
+"sym": "CIEN",
+"day": "2025-09-05",
+"kind": "put",
+"spot": 115.18,
+"headline": "B. Riley Securities Downgrades Ciena to Neutral, Raises Price Target to $113"
+},
+{
+"sym": "CIEN",
+"day": "2026-03-06",
+"kind": "call",
+"spot": 300.5,
+"headline": "B of A Securities Upgrades Ciena to Buy, Raises Price Target to $355"
+},
+{
+"sym": "PFE",
+"day": "2026-07-06",
+"kind": "put",
+"spot": 24.01,
+"headline": "HSBC Downgrades Pfizer to Hold, Lowers Price Target to $28"
+},
+{
+"sym": "PFE",
+"day": "2026-11-06",
+"kind": "put",
+"spot": 28.71,
+"headline": "DZ Bank Downgrades Pfizer to Hold From Buy"
+},
+{
+"sym": "ROKU",
+"day": "2024-02-27",
+"kind": "put",
+"spot": 62.05,
+"headline": "Wells Fargo Downgrades Roku to Underweight, Lowers Price Target to $51"
+},
+{
+"sym": "ROKU",
+"day": "2024-04-29",
+"kind": "call",
+"spot": 57.51,
+"headline": "Seaport Global Upgrades Roku to Buy, Announces $74 Price Target"
+},
+{
+"sym": "ROKU",
+"day": "2024-08-23",
+"kind": "call",
+"spot": 64.64,
+"headline": "Guggenheim Upgrades Roku to Buy, Announces $75 Price Target"
+},
+{
+"sym": "ROKU",
+"day": "2025-02-14",
+"kind": "call",
+"spot": 103.28,
+"headline": "Wells Fargo Upgrades Roku to Overweight, Raises Price Target to $129"
+},
+{
+"sym": "ROKU",
+"day": "2025-02-20",
+"kind": "call",
+"spot": 94.85,
+"headline": "Jefferies Upgrades Roku to Hold, Raises Price Target to $100"
+},
+{
+"sym": "ROKU",
+"day": "2025-04-07",
+"kind": "call",
+"spot": 54.33,
+"headline": "Redburn Atlantic Upgrades Roku to Buy, Announces $100 Price Target"
+},
+{
+"sym": "ROKU",
+"day": "2025-06-17",
+"kind": "call",
+"spot": 84.81,
+"headline": "Loop Capital Upgrades Roku to Buy, Raises Price Target to $100"
+},
+{
+"sym": "ROKU",
+"day": "2025-11-03",
+"kind": "call",
+"spot": 109.45,
+"headline": "Piper Sandler Upgrades Roku to Overweight, Raises Price Target to $135"
+},
+{
+"sym": "ROKU",
+"day": "2025-12-11",
+"kind": "call",
+"spot": 110.9,
+"headline": "Jefferies Upgrades Roku to Buy, Raises Price Target to $135"
+},
+{
+"sym": "ROKU",
+"day": "2026-01-08",
+"kind": "call",
+"spot": 113.0,
+"headline": "Evercore ISI Group Upgrades Roku to Outperform, Raises Price Target to $145"
+},
+{
+"sym": "ROKU",
+"day": "2026-08-07",
+"kind": "put",
+"spot": 151.94,
+"headline": "Seaport Global Downgrades Roku to Neutral"
+},
+{
+"sym": "LMT",
+"day": "2024-07-31",
+"kind": "call",
+"spot": 543.48,
+"headline": "B of A Securities Upgrades Lockheed Martin to Buy, Raises Price Target to $635"
+},
+{
+"sym": "LMT",
+"day": "2024-08-05",
+"kind": "call",
+"spot": 561.43,
+"headline": "RBC Capital Upgrades Lockheed Martin to Outperform, Raises Price Target to $600"
+},
+{
+"sym": "LMT",
+"day": "2025-03-24",
+"kind": "put",
+"spot": 424.88,
+"headline": "B of A Securities Downgrades Lockheed Martin to Neutral, Lowers Price Target to $485"
+},
+{
+"sym": "LMT",
+"day": "2025-12-16",
+"kind": "put",
+"spot": 478.79,
+"headline": "Morgan Stanley Downgrades Lockheed Martin to Equal-Weight, Lowers Price Target to $543"
+},
+{
+"sym": "LMT",
+"day": "2025-12-19",
+"kind": "put",
+"spot": 465.12,
+"headline": "JP Morgan Downgrades Lockheed Martin to Neutral, Raises Price Target to $515"
+},
+{
+"sym": "LMT",
+"day": "2026-09-08",
+"kind": "call",
+"spot": 535.4,
+"headline": "UBS Upgrades Lockheed Martin to Buy From Neutral, Adjusts Price Target"
+},
+{
+"sym": "UNH",
+"day": "2024-07-17",
+"kind": "call",
+"spot": 559.9,
+"headline": "Jefferies Upgrades UnitedHealth Group to Buy, Raises Price Target to $647"
+},
+{
+"sym": "UNH",
+"day": "2025-07-31",
+"kind": "put",
+"spot": 258.76,
+"headline": "Baird Downgrades UnitedHealth Group to Underperform, Lowers Price Target to $198"
+},
+{
+"sym": "UNH",
+"day": "2026-06-04",
+"kind": "call",
+"spot": 395.35,
+"headline": "B of A Securities Upgrades UnitedHealth Group to Buy, Raises Price Target to $450"
+},
+{
+"sym": "DELL",
+"day": "2024-08-13",
+"kind": "call",
+"spot": 97.9,
+"headline": "Barclays Upgrades Dell Technologies to Equal-Weight, Announces $97 Price Target"
+},
+{
+"sym": "DELL",
+"day": "2025-11-17",
+"kind": "put",
+"spot": 123.56,
+"headline": "Morgan Stanley Downgrades Dell Technologies to Underweight, Lowers Price Target to $110"
+},
+{
+"sym": "DELL",
+"day": "2026-06-01",
+"kind": "call",
+"spot": 436.5,
+"headline": "Morgan Stanley Upgrades Dell Technologies to Equal-Weight, Raises Price Target to $448"
+},
+{
+"sym": "DELL",
+"day": "2026-10-14",
+"kind": "put",
+"spot": 533.12,
+"headline": "Barclays Downgrades Dell Technologies to Equalweight"
+},
+{
+"sym": "MA",
+"day": "2025-01-14",
+"kind": "put",
+"spot": 505.58,
+"headline": "Seaport Global Downgrades Mastercard to Neutral"
+},
+{
+"sym": "F",
+"day": "2024-09-25",
+"kind": "put",
+"spot": 10.57,
+"headline": "Morgan Stanley Downgrades Ford Motor to Equal-Weight, Lowers Price Target to $12"
+},
+{
+"sym": "F",
+"day": "2024-10-01",
+"kind": "call",
+"spot": 10.75,
+"headline": "Goldman Sachs Upgrades Ford Motor to Buy, Raises Price Target to $13"
+},
+{
+"sym": "F",
+"day": "2024-11-07",
+"kind": "put",
+"spot": 10.95,
+"headline": "Bernstein Downgrades Ford Motor to Market Perform, Announces $11 Price Target (CORRECTED)"
+},
+{
+"sym": "F",
+"day": "2024-11-08",
+"kind": "put",
+"spot": 10.9,
+"headline": "CORRECTED: Bernstein Downgrades Ford Motor to Market Perform, Announces $11 Price Target ("
+},
+{
+"sym": "F",
+"day": "2024-12-16",
+"kind": "put",
+"spot": 10.03,
+"headline": "Jefferies Downgrades Ford Motor to Underperform, Lowers Price Target to $9"
+},
+{
+"sym": "F",
+"day": "2026-01-08",
+"kind": "call",
+"spot": 13.92,
+"headline": "Piper Sandler Upgrades Ford Motor to Overweight, Raises Price Target to $16"
+},
+{
+"sym": "TGT",
+"day": "2024-05-07",
+"kind": "call",
+"spot": 161.5,
+"headline": "Citigroup Upgrades Target to Buy"
+},
+{
+"sym": "TGT",
+"day": "2024-11-26",
+"kind": "put",
+"spot": 127.85,
+"headline": "Daiwa Capital Downgrades Target to Neutral, Announces $130 Price Target"
+},
+{
+"sym": "TGT",
+"day": "2026-03-04",
+"kind": "call",
+"spot": 125.65,
+"headline": "Bernstein Upgrades Target to Market Perform, Raises Price Target to $116"
+},
+{
+"sym": "INTU",
+"day": "2026-06-02",
+"kind": "put",
+"spot": 328.34,
+"headline": "Goldman Sachs Downgrades Intuit to Sell From Neutral, Adjusts Price Target to $276 From $5"
+},
+{
+"sym": "SHOP",
+"day": "2024-04-19",
+"kind": "call",
+"spot": 71.39,
+"headline": "Morgan Stanley Upgrades Shopify to Overweight, Raises Price Target to $85"
+},
+{
+"sym": "SHOP",
+"day": "2024-04-29",
+"kind": "call",
+"spot": 73.9,
+"headline": "Citigroup Upgrades Shopify to Buy, Raises Price Target to $105"
+},
+{
+"sym": "SHOP",
+"day": "2024-05-22",
+"kind": "call",
+"spot": 59.05,
+"headline": "Goldman Sachs Upgrades Shopify to Buy, Raises Price Target to $74"
+},
+{
+"sym": "SHOP",
+"day": "2024-06-14",
+"kind": "call",
+"spot": 65.98,
+"headline": "Evercore ISI Group Upgrades Shopify to Outperform, Announces $75 Price Target"
+},
+{
+"sym": "SHOP",
+"day": "2024-07-16",
+"kind": "call",
+"spot": 68.31,
+"headline": "B of A Securities Upgrades Shopify to Buy, Raises Price Target to $82"
+},
+{
+"sym": "SHOP",
+"day": "2024-12-06",
+"kind": "call",
+"spot": 118.52,
+"headline": "Loop Capital Upgrades Shopify to Buy, Announces $140 Price Target"
+},
+{
+"sym": "SHOP",
+"day": "2025-07-22",
+"kind": "put",
+"spot": 126.06,
+"headline": "Loop Capital Downgrades Shopify to Hold, Maintains Price Target to $120"
+},
+{
+"sym": "SHOP",
+"day": "2026-02-17",
+"kind": "call",
+"spot": 114.52,
+"headline": "Truist Securities Upgrades Shopify to Buy, Raises Price Target to $150"
+},
+{
+"sym": "SHOP",
+"day": "2026-07-10",
+"kind": "call",
+"spot": 130.02,
+"headline": "Stifel Upgrades Shopify to Buy, Raises Price Target to $150"
+},
+{
+"sym": "SHOP",
+"day": "2026-07-13",
+"kind": "call",
+"spot": 125.88,
+"headline": "Jefferies Upgrades Shopify to Buy, Raises Price Target to $160"
+},
+{
+"sym": "SHOP",
+"day": "2026-07-21",
+"kind": "put",
+"spot": 120.43,
+"headline": "Rothschild & Co Downgrades Shopify to Neutral, Lowers Price Target to $130"
+},
+{
+"sym": "SHOP",
+"day": "2026-08-17",
+"kind": "put",
+"spot": 152.41,
+"headline": "Phillip Securities Downgrades Shopify to Accumulate From Buy"
+},
+{
+"sym": "GILD",
+"day": "2024-10-21",
+"kind": "call",
+"spot": 86.8,
+"headline": "Leerink Partners Upgrades Gilead Sciences to Outperform, Raises Price Target to $96"
+},
+{
+"sym": "GILD",
+"day": "2025-02-18",
+"kind": "call",
+"spot": 105.21,
+"headline": "Deutsche Bank Upgrades Gilead Sciences to Buy, Raises Price Target to $120"
+},
+{
+"sym": "GILD",
+"day": "2025-07-25",
+"kind": "call",
+"spot": 116.6,
+"headline": "Needham Upgrades Gilead Sciences to Buy, Announces $133 Price Target"
+},
+{
+"sym": "GILD",
+"day": "2025-08-08",
+"kind": "call",
+"spot": 118.7,
+"headline": "Truist Securities Upgrades Gilead Sciences to Buy, Raises Price Target to $127"
+},
+{
+"sym": "CVNA",
+"day": "2024-02-23",
+"kind": "call",
+"spot": 71.13,
+"headline": "William Blair Upgrades Carvana to Outperform"
+},
+{
+"sym": "CVNA",
+"day": "2024-03-08",
+"kind": "call",
+"spot": 86.46,
+"headline": "RBC Capital Upgrades Carvana to Sector Perform, Raises Price Target to $90"
+},
+{
+"sym": "CVNA",
+"day": "2024-05-02",
+"kind": "call",
+"spot": 120.29,
+"headline": "JP Morgan Upgrades Carvana to Overweight, Raises Price Target to $130"
+},
+{
+"sym": "CVNA",
+"day": "2024-07-10",
+"kind": "call",
+"spot": 133.12,
+"headline": "Needham Upgrades Carvana to Buy, Announces $160 Price Target"
+},
+{
+"sym": "CVNA",
+"day": "2024-11-05",
+"kind": "call",
+"spot": 231.11,
+"headline": "Morgan Stanley Upgrades Carvana to Equal-Weight, Raises Price Target to $260"
+},
+{
+"sym": "CVNA",
+"day": "2025-03-25",
+"kind": "call",
+"spot": 222.94,
+"headline": "Morgan Stanley Upgrades Carvana to Overweight, Raises Price Target to $280"
+},
+{
+"sym": "CVNA",
+"day": "2025-10-01",
+"kind": "call",
+"spot": 388.86,
+"headline": "Jefferies Upgrades Carvana to Buy, Raises Price Target to $475"
+},
+{
+"sym": "CVNA",
+"day": "2025-11-24",
+"kind": "call",
+"spot": 321.58,
+"headline": "Wedbush Upgrades Carvana to Outperform, Raises Price Target to $400"
+},
+{
+"sym": "BMY",
+"day": "2024-02-06",
+"kind": "put",
+"spot": 47.75,
+"headline": "Redburn Atlantic Downgrades Bristol-Myers Squibb to Neutral, Lowers Price Target to $54"
+},
+{
+"sym": "BMY",
+"day": "2024-11-12",
+"kind": "call",
+"spot": 59.96,
+"headline": "Leerink Partners Upgrades Bristol-Myers Squibb to Outperform, Raises Price Target to $73"
+},
+{
+"sym": "BMY",
+"day": "2025-12-12",
+"kind": "call",
+"spot": 52.31,
+"headline": "Guggenheim Upgrades Bristol-Myers Squibb to Buy, Announces $62 Price Target"
+},
+{
+"sym": "IBM",
+"day": "2026-01-05",
+"kind": "call",
+"spot": 297.03,
+"headline": "Jefferies Upgrades IBM to Buy, Raises Price Target to $360"
+},
+{
+"sym": "IBM",
+"day": "2026-02-25",
+"kind": "call",
+"spot": 234.71,
+"headline": "UBS Upgrades IBM to Neutral, Maintains Price Target to $236"
+},
+{
+"sym": "APP",
+"day": "2026-01-26",
+"kind": "call",
+"spot": 550.43,
+"headline": "Needham Upgrades AppLovin to Buy, Announces $700 Price Target"
+},
+{
+"sym": "APP",
+"day": "2026-08-11",
+"kind": "put",
+"spot": 325.61,
+"headline": "B of A Securities Downgrades AppLovin to Neutral, Lowers Price Target to $400"
+},
+{
+"sym": "TMO",
+"day": "2025-09-11",
+"kind": "call",
+"spot": 484,
+"headline": "Barclays Upgrades Thermo Fisher Scientific to Overweight, Raises Price Target to $550"
+},
+{
+"sym": "TMO",
+"day": "2025-12-01",
+"kind": "call",
+"spot": 595.71,
+"headline": "HSBC Upgrades Thermo Fisher Scientific to Buy, Raises Price Target to $670"
+},
+{
+"sym": "GM",
+"day": "2025-04-10",
+"kind": "put",
+"spot": 43.86,
+"headline": "UBS Downgrades General Motors to Neutral, Lowers Price Target to $51"
+},
+{
+"sym": "GM",
+"day": "2026-01-08",
+"kind": "call",
+"spot": 83.23,
+"headline": "Piper Sandler Upgrades General Motors to Overweight, Raises Price Target to $98"
+},
+{
+"sym": "GM",
+"day": "2026-03-25",
+"kind": "call",
+"spot": 77.92,
+"headline": "Wolfe Research Upgrades General Motors to Outperform, Announces $96 Price Target"
+},
+{
+"sym": "GM",
+"day": "2026-07-27",
+"kind": "call",
+"spot": 85.1,
+"headline": "Jefferies Upgrades General Motors to Buy, Raises Price Target to $99"
+},
+{
+"sym": "GM",
+"day": "2026-09-22",
+"kind": "put",
+"spot": 84.67,
+"headline": "Equita Sim Downgrades Gentili Mosconi to Hold"
+},
+{
+"sym": "RBLX",
+"day": "2024-02-08",
+"kind": "call",
+"spot": 45.77,
+"headline": "Goldman Sachs Upgrades Roblox to Neutral, Raises Price Target to $48"
+},
+{
+"sym": "RBLX",
+"day": "2024-04-23",
+"kind": "call",
+"spot": 36.5,
+"headline": "JP Morgan Upgrades Roblox to Overweight, Raises Price Target to $48"
+},
+{
+"sym": "RBLX",
+"day": "2025-10-31",
+"kind": "put",
+"spot": 117.63,
+"headline": "Benchmark Downgrades Roblox to Hold"
+},
+{
+"sym": "RBLX",
+"day": "2025-12-12",
+"kind": "put",
+"spot": 90.58,
+"headline": "JP Morgan Downgrades Roblox to Neutral, Lowers Price Target to $100"
+},
+{
+"sym": "RBLX",
+"day": "2026-02-09",
+"kind": "call",
+"spot": 70.69,
+"headline": "Roth Capital Upgrades Roblox to Buy, Raises Price Target to $84"
+},
+{
+"sym": "RBLX",
+"day": "2026-06-29",
+"kind": "call",
+"spot": 51.96,
+"headline": "Arete Upgrades Roblox to Buy From Neutral, Adjusts Price Target to $95 From $75"
+},
+{
+"sym": "SPOT",
+"day": "2024-02-07",
+"kind": "call",
+"spot": 231.57,
+"headline": "DZ Bank Upgrades Spotify Technology to Hold, Announces $240 Price Target"
+},
+{
+"sym": "SPOT",
+"day": "2024-07-24",
+"kind": "call",
+"spot": 335.1,
+"headline": "Goldman Sachs Upgrades Spotify Technology to Buy, Raises Price Target to $425"
+},
+{
+"sym": "SPOT",
+"day": "2024-11-13",
+"kind": "put",
+"spot": 453.87,
+"headline": "Phillip Securities Downgrades Spotify Technology to Accumulate, Raises Price Target to $48"
+},
+{
+"sym": "SPOT",
+"day": "2025-01-17",
+"kind": "put",
+"spot": 485.97,
+"headline": "Wolfe Research Downgrades Spotify Technology to Peer Perform"
+},
+{
+"sym": "SPOT",
+"day": "2026-01-23",
+"kind": "call",
+"spot": 513.03,
+"headline": "Goldman Sachs Upgrades Spotify Technology to Buy, Lowers Price Target to $700"
+},
+{
+"sym": "SPOT",
+"day": "2026-10-26",
+"kind": "put",
+"spot": 574.15,
+"headline": "Phillip Securities Downgrades Spotify Technology to Accumulate"
+},
+{
+"sym": "SPOT",
+"day": "2026-10-28",
+"kind": "put",
+"spot": 543.15,
+"headline": "President Capital Management Downgrades Spotify Technology to Neutral From Buy"
+},
+{
+"sym": "ABT",
+"day": "2025-07-18",
+"kind": "call",
+"spot": 122.79,
+"headline": "Jefferies Upgrades Abbott Laboratories to Buy, Raises Price Target to $145"
+},
+{
+"sym": "ABT",
+"day": "2026-05-11",
+"kind": "put",
+"spot": 84.26,
+"headline": "Daiwa Downgrades Abbott Laboratories to Neutral"
+},
+{
+"sym": "ABT",
+"day": "2026-10-27",
+"kind": "put",
+"spot": 102.72,
+"headline": "Argus Research Downgrades Abbott Laboratories to Hold"
+},
+{
+"sym": "RTX",
+"day": "2024-10-03",
+"kind": "call",
+"spot": 124.79,
+"headline": "Deutsche Bank Upgrades RTX to Hold, Raises Price Target to $129"
+},
+{
+"sym": "RTX",
+"day": "2025-01-02",
+"kind": "call",
+"spot": 117.09,
+"headline": "Deutsche Bank Upgrades RTX to Buy, Raises Price Target to $140"
+},
+{
+"sym": "RTX",
+"day": "2025-01-21",
+"kind": "call",
+"spot": 122.98,
+"headline": "Citigroup Upgrades RTX to Buy, Raises Price Target to $153"
+},
+{
+"sym": "RTX",
+"day": "2025-02-24",
+"kind": "call",
+"spot": 125.51,
+"headline": "UBS Upgrades RTX to Buy, Raises Price Target to $147"
+},
+{
+"sym": "RTX",
+"day": "2026-01-05",
+"kind": "put",
+"spot": 187.21,
+"headline": "UBS Downgrades RTX to Neutral, Lowers Price Target to $199"
+},
+{
+"sym": "RTX",
+"day": "2026-06-04",
+"kind": "call",
+"spot": 178.47,
+"headline": "Jefferies Upgrades RTX Corporation to Buy from Hold"
+},
+{
+"sym": "RTX",
+"day": "2026-10-13",
+"kind": "put",
+"spot": 185.19,
+"headline": "Deutsche Bank Downgrades RTX to Hold from Buy"
+},
+{
+"sym": "HOOD",
+"day": "2024-06-26",
+"kind": "call",
+"spot": 23.04,
+"headline": "Wolfe Research Upgrades Robinhood Markets to Outperform, Announces $29 Price Target"
+},
+{
+"sym": "HOOD",
+"day": "2024-09-06",
+"kind": "call",
+"spot": 19.93,
+"headline": "Barclays Upgrades Robinhood Markets to Equal-Weight, Raises Price Target to $20"
+},
+{
+"sym": "HOOD",
+"day": "2024-11-18",
+"kind": "call",
+"spot": 33.55,
+"headline": "Needham Upgrades Robinhood Markets to Buy, Announces $40 Price Target"
+},
+{
+"sym": "HOOD",
+"day": "2024-11-25",
+"kind": "call",
+"spot": 39.46,
+"headline": "Morgan Stanley Upgrades Robinhood Markets to Overweight, Raises Price Target to $55"
+},
+{
+"sym": "HOOD",
+"day": "2025-01-07",
+"kind": "call",
+"spot": 43.07,
+"headline": "JP Morgan Upgrades Robinhood Markets to Neutral, Raises Price Target to $43"
+},
+{
+"sym": "ON",
+"day": "2025-01-10",
+"kind": "put",
+"spot": 55.83,
+"headline": "Truist Securities Downgrades ON Semiconductor to Hold, Lowers Price Target to $60"
+},
+{
+"sym": "ON",
+"day": "2026-04-13",
+"kind": "call",
+"spot": 70.45,
+"headline": "B of A Securities Upgrades ON Semiconductor to Buy, Raises Price Target to $85"
+},
+{
+"sym": "GE",
+"day": "2024-03-08",
+"kind": "call",
+"spot": 169.73,
+"headline": "JP Morgan Upgrades General Electric to Overweight, Raises Price Target to $180"
+},
+{
+"sym": "GE",
+"day": "2024-04-09",
+"kind": "call",
+"spot": 156.69,
+"headline": "TD Cowen Upgrades GE Aero to Buy, Raises Price Target to $180"
+},
+{
+"sym": "GE",
+"day": "2026-10-21",
+"kind": "put",
+"spot": 301.75,
+"headline": "President Capital Downgrades GE Aerospace to Neutral"
+},
+{
+"sym": "DASH",
+"day": "2024-03-04",
+"kind": "call",
+"spot": 132.08,
+"headline": "RBC Capital Upgrades DoorDash to Outperform, Raises Price Target to $175"
+},
+{
+"sym": "DASH",
+"day": "2024-04-11",
+"kind": "call",
+"spot": 139.75,
+"headline": "MoffettNathanson Upgrades DoorDash to Buy"
+},
+{
+"sym": "DASH",
+"day": "2024-09-25",
+"kind": "call",
+"spot": 146.32,
+"headline": "Keybanc Upgrades DoorDash to Overweight, Announces $177 Price Target"
+},
+{
+"sym": "DASH",
+"day": "2025-07-15",
+"kind": "put",
+"spot": 237.2,
+"headline": "Jefferies Downgrades DoorDash to Hold, Raises Price Target to $250"
+},
+{
+"sym": "RIVN",
+"day": "2024-02-23",
+"kind": "put",
+"spot": 10.88,
+"headline": "UBS Downgrades Rivian Automotive to Sell, Lowers Price Target to $8"
+},
+{
+"sym": "RIVN",
+"day": "2024-02-26",
+"kind": "put",
+"spot": 10.11,
+"headline": "Truist Securities Downgrades Rivian Automotive to Hold, Lowers Price Target to $11"
+},
+{
+"sym": "RIVN",
+"day": "2024-03-15",
+"kind": "call",
+"spot": 11.12,
+"headline": "Piper Sandler Upgrades Rivian Automotive to Overweight, Raises Price Target to $21"
+},
+{
+"sym": "RIVN",
+"day": "2024-04-16",
+"kind": "call",
+"spot": 8.39,
+"headline": "UBS Upgrades Rivian Automotive to Neutral, Maintains Price Target to $9"
+},
+{
+"sym": "RIVN",
+"day": "2024-12-18",
+"kind": "put",
+"spot": 14.37,
+"headline": "Baird Downgrades Rivian Automotive to Neutral, Lowers Price Target to $16"
+},
+{
+"sym": "RIVN",
+"day": "2025-02-24",
+"kind": "put",
+"spot": 12.12,
+"headline": "B of A Securities Downgrades Rivian Automotive to Underperform, Lowers Price Target to $10"
+},
+{
+"sym": "RIVN",
+"day": "2025-03-20",
+"kind": "put",
+"spot": 11.06,
+"headline": "Piper Sandler Downgrades Rivian Automotive to Neutral, Lowers Price Target to $13"
+},
+{
+"sym": "RIVN",
+"day": "2025-05-14",
+"kind": "put",
+"spot": 14.56,
+"headline": "Jefferies Downgrades Rivian Automotive to Hold, Maintains Price Target to $16"
+},
+{
+"sym": "RIVN",
+"day": "2025-12-18",
+"kind": "call",
+"spot": 18.66,
+"headline": "Baird Upgrades Rivian Automotive to Outperform, Raises Price Target to $25"
+},
+{
+"sym": "RIVN",
+"day": "2026-01-14",
+"kind": "put",
+"spot": 17.89,
+"headline": "UBS Downgrades Rivian Automotive to Sell, Raises Price Target to $15"
+},
+{
+"sym": "RIVN",
+"day": "2026-03-10",
+"kind": "call",
+"spot": 16.75,
+"headline": "TD Cowen Upgrades Rivian Automotive to Buy, Raises Price Target to $20"
+},
+{
+"sym": "RIVN",
+"day": "2026-04-01",
+"kind": "call",
+"spot": 15.76,
+"headline": "DA Davidson Upgrades Rivian Automotive to Neutral, Maintains Price Target to $14"
+},
+{
+"sym": "RIVN",
+"day": "2026-11-02",
+"kind": "call",
+"spot": 12.89,
+"headline": "UBS Upgrades Rivian Automotive to Buy, Maintains Price Target to $17"
+},
+{
+"sym": "GEV",
+"day": "2024-09-17",
+"kind": "call",
+"spot": 238.88,
+"headline": "B of A Securities Upgrades GE Vernova to Buy, Raises Price Target to $300"
+},
+{
+"sym": "GEV",
+"day": "2024-10-04",
+"kind": "put",
+"spot": 253.74,
+"headline": "HSBC Downgrades GE Vernova to Hold, Raises Price Target to $255"
+},
+{
+"sym": "GEV",
+"day": "2025-03-05",
+"kind": "call",
+"spot": 318.36,
+"headline": "Guggenheim Upgrades GE Vernova to Buy, Announces $380 Price Target"
+},
+{
+"sym": "GEV",
+"day": "2025-05-29",
+"kind": "put",
+"spot": 478.85,
+"headline": "Jefferies Downgrades GE Vernova to Hold, Raises Price Target to $517"
+},
+{
+"sym": "GEV",
+"day": "2025-12-11",
+"kind": "put",
+"spot": 700.61,
+"headline": "Seaport Global Downgrades GE Vernova to Neutral"
+},
+{
+"sym": "GEV",
+"day": "2025-12-18",
+"kind": "call",
+"spot": 650.5,
+"headline": "Jefferies Upgrades GE Vernova to Buy, Raises Price Target to $815"
+},
+{
+"sym": "GEV",
+"day": "2026-01-09",
+"kind": "put",
+"spot": 622.65,
+"headline": "Baird Downgrades GE Vernova to Neutral, Lowers Price Target to $649"
+},
+{
+"sym": "GEV",
+"day": "2026-03-09",
+"kind": "call",
+"spot": 796.2,
+"headline": "Rothschild & Co Upgrades GE Vernova to Buy, Raises Price Target to $1100"
+},
+{
+"sym": "GEV",
+"day": "2026-10-30",
+"kind": "call",
+"spot": 851.58,
+"headline": "HSBC Upgrades GE Vernova to Buy with $1,100 Price Target"
+},
+{
+"sym": "MRNA",
+"day": "2024-08-05",
+"kind": "put",
+"spot": 78.79,
+"headline": "RBC Capital Downgrades Moderna to Sector Perform, Lowers Price Target to $90"
+},
+{
+"sym": "MRNA",
+"day": "2025-02-18",
+"kind": "put",
+"spot": 32.3,
+"headline": "Barclays Downgrades Moderna to Equal-Weight, Lowers Price Target to $45"
+},
+{
+"sym": "MRNA",
+"day": "2026-08-25",
+"kind": "call",
+"spot": 144.65,
+"headline": "Wolfe Upgrades Moderna to Peer Perform From Underperform"
+},
+{
+"sym": "MRNA",
+"day": "2026-08-28",
+"kind": "call",
+"spot": 137.51,
+"headline": "Argus Research Upgrades Moderna to Buy, Announces $180 Price Target"
+},
+{
+"sym": "MRNA",
+"day": "2026-09-30",
+"kind": "put",
+"spot": 185.65,
+"headline": "Citigroup Downgrades Moderna to Sell, Raises Price Target to $80"
+},
+{
+"sym": "MRNA",
+"day": "2026-10-27",
+"kind": "put",
+"spot": 190.88,
+"headline": "William Blair Downgrades Moderna to Market Perform"
+},
+{
+"sym": "BKNG",
+"day": "2024-07-12",
+"kind": "call",
+"spot": 3960.79,
+"headline": "Benchmark Upgrades Booking Holdings to Buy, Announces $4700 Price Target"
+},
+{
+"sym": "BKNG",
+"day": "2025-11-24",
+"kind": "call",
+"spot": 4846.99,
+"headline": "B of A Securities Upgrades Booking Holdings to Buy, Maintains Price Target to $6000"
+},
+{
+"sym": "SOFI",
+"day": "2024-04-05",
+"kind": "call",
+"spot": 7.32,
+"headline": "Keefe, Bruyette & Woods Upgrades SoFi Techs to Market Perform, Raises Price Target to $7.5"
+},
+{
+"sym": "SOFI",
+"day": "2024-12-09",
+"kind": "put",
+"spot": 15.61,
+"headline": "B of A Securities Downgrades SoFi Techs to Underperform, Maintains Price Target to $12"
+},
+{
+"sym": "SOFI",
+"day": "2025-01-02",
+"kind": "put",
+"spot": 14.71,
+"headline": "Keefe, Bruyette & Woods Downgrades SoFi Techs to Underperform, Raises Price Target to $8"
+},
+{
+"sym": "TSM",
+"day": "2026-06-24",
+"kind": "call",
+"spot": 435.36,
+"headline": "S&P Upgrades TSMC's Outlook to Positive"
+},
+{
+"sym": "LULU",
+"day": "2024-02-09",
+"kind": "put",
+"spot": 465.33,
+"headline": "Exane BNP Paribas Downgrades Lululemon Athletica to Underperform, Announces $415 Price Tar"
+},
+{
+"sym": "LULU",
+"day": "2025-01-07",
+"kind": "call",
+"spot": 407.32,
+"headline": "Bernstein Upgrades Lululemon Athletica to Outperform"
+},
+{
+"sym": "LULU",
+"day": "2025-01-10",
+"kind": "call",
+"spot": 395.13,
+"headline": "Needham Upgrades Lululemon Athletica to Buy, Announces $475 Price Target"
+},
+{
+"sym": "LULU",
+"day": "2025-03-28",
+"kind": "put",
+"spot": 300.54,
+"headline": "Raymond James Downgrades Lululemon Athletica to Market Perform"
+},
+{
+"sym": "LULU",
+"day": "2025-09-25",
+"kind": "put",
+"spot": 176.62,
+"headline": "Needham Downgrades Lululemon Athletica to Hold, Maintains Price Target to $192"
+},
+{
+"sym": "LULU",
+"day": "2025-12-12",
+"kind": "call",
+"spot": 211.59,
+"headline": "Jefferies Upgrades Lululemon Athletica to Hold, Raises Price Target to $170"
+},
+{
+"sym": "LULU",
+"day": "2026-06-05",
+"kind": "put",
+"spot": 110.42,
+"headline": "BTIG Downgrades Lululemon Athletica to Neutral"
+},
+{
+"sym": "LULU",
+"day": "2026-07-16",
+"kind": "put",
+"spot": 114.7,
+"headline": "Truist Securities Downgrades Lululemon Athletica to Sell, Lowers Price Target to $94"
+},
+{
+"sym": "LULU",
+"day": "2026-10-08",
+"kind": "put",
+"spot": 90.84,
+"headline": "BTIG Analyst Downgrades lululemon athletica to Hold"
+},
+{
+"sym": "VZ",
+"day": "2024-10-24",
+"kind": "put",
+"spot": 42.06,
+"headline": "Keybanc Downgrades Verizon Communications to Sector Weight"
+},
+{
+"sym": "KO",
+"day": "2025-01-30",
+"kind": "call",
+"spot": 63.93,
+"headline": "Jefferies Upgrades Coca-Cola to Buy, Raises Price Target to $75"
+},
+{
+"sym": "PEP",
+"day": "2024-03-18",
+"kind": "call",
+"spot": 167.07,
+"headline": "Morgan Stanley Upgrades PepsiCo to Overweight, Announces $190 Price Target"
+},
+{
+"sym": "PEP",
+"day": "2026-09-28",
+"kind": "put",
+"spot": 127.25,
+"headline": "Deutsche Bank Downgrades PepsiCo to Hold, Lowers Price Target to $138"
+},
+{
+"sym": "PINS",
+"day": "2024-11-11",
+"kind": "call",
+"spot": 30.71,
+"headline": "Wedbush Upgrades Pinterest to Outperform, Announces $38 Price Target"
+},
+{
+"sym": "PINS",
+"day": "2024-12-10",
+"kind": "put",
+"spot": 31.95,
+"headline": "Piper Sandler Downgrades Pinterest to Neutral, Lowers Price Target to $36"
+},
+{
+"sym": "PINS",
+"day": "2025-01-13",
+"kind": "put",
+"spot": 29.46,
+"headline": "Jefferies Downgrades Pinterest to Hold, Lowers Price Target to $32"
+},
+{
+"sym": "PINS",
+"day": "2025-03-24",
+"kind": "call",
+"spot": 33.79,
+"headline": "Guggenheim Upgrades Pinterest to Buy, Raises Price Target to $40"
+},
+{
+"sym": "PINS",
+"day": "2025-11-05",
+"kind": "put",
+"spot": 26.3,
+"headline": "Rosenblatt Downgrades Pinterest to Neutral, Lowers Price Target to $30"
+},
+{
+"sym": "PINS",
+"day": "2025-12-08",
+"kind": "put",
+"spot": 26.95,
+"headline": "Wedbush Downgrades Pinterest to Neutral, Lowers Price Target to $30"
+},
+{
+"sym": "PINS",
+"day": "2026-02-13",
+"kind": "put",
+"spot": 13.99,
+"headline": "Baird Downgrades Pinterest to Neutral, Lowers Price Target to $20"
+},
+{
+"sym": "COST",
+"day": "2024-04-03",
+"kind": "put",
+"spot": 708.23,
+"headline": "Gordon Haskett Downgrades Costco Wholesale to Accumulate, Announces $775 Price Target"
+},
+{
+"sym": "PG",
+"day": "2024-03-11",
+"kind": "call",
+"spot": 162.09,
+"headline": "Truist Securities Upgrades Procter & Gamble to Buy, Raises Price Target to $175"
+},
+{
+"sym": "PG",
+"day": "2024-07-24",
+"kind": "put",
+"spot": 165.99,
+"headline": "Jefferies Downgrades Procter & Gamble to Hold, Lowers Price Target to $175"
+},
+{
+"sym": "PG",
+"day": "2024-11-25",
+"kind": "call",
+"spot": 178.44,
+"headline": "DA Davidson Upgrades Procter & Gamble to Buy, Raises Price Target to $209"
+},
+{
+"sym": "PG",
+"day": "2025-07-14",
+"kind": "put",
+"spot": 155.35,
+"headline": "Evercore ISI Group Downgrades Procter & Gamble to In-Line, Lowers Price Target to $170"
+},
+{
+"sym": "PG",
+"day": "2026-01-23",
+"kind": "call",
+"spot": 150.87,
+"headline": "JP Morgan Upgrades Procter & Gamble to Overweight, Raises Price Target to $165"
+},
+{
+"sym": "PG",
+"day": "2026-07-30",
+"kind": "put",
+"spot": 143.4,
+"headline": "HSBC Downgrades Procter & Gamble to Hold From Buy"
+},
+{
+"sym": "MCD",
+"day": "2024-03-25",
+"kind": "put",
+"spot": 279.74,
+"headline": "Argus Research Downgrades McDonald's to Hold"
+},
+{
+"sym": "MCD",
+"day": "2026-02-13",
+"kind": "call",
+"spot": 335.06,
+"headline": "Argus Research Upgrades McDonald's to Buy, Announces $380 Price Target"
+},
+{
+"sym": "COF",
+"day": "2024-04-04",
+"kind": "call",
+"spot": 146.78,
+"headline": "Wolfe Research Upgrades Capital One Finl to Outperform, Announces $189 Price Target"
+},
+{
+"sym": "COF",
+"day": "2025-02-19",
+"kind": "call",
+"spot": 204.26,
+"headline": "B of A Securities Upgrades Capital One Finl to Buy, Raises Price Target to $235"
+},
+{
+"sym": "COF",
+"day": "2025-03-11",
+"kind": "call",
+"spot": 166.49,
+"headline": "Baird Upgrades Capital One Finl to Outperform, Raises Price Target to $200"
+},
+{
+"sym": "FDX",
+"day": "2024-12-03",
+"kind": "put",
+"spot": 292.73,
+"headline": "Bernstein Downgrades FedEx to Market Perform, Lowers Price Target to $316"
+},
+{
+"sym": "FDX",
+"day": "2025-02-03",
+"kind": "put",
+"spot": 255.24,
+"headline": "Loop Capital Downgrades FedEx to Hold, Lowers Price Target to $283"
+},
+{
+"sym": "FDX",
+"day": "2025-03-21",
+"kind": "put",
+"spot": 217.76,
+"headline": "Loop Capital Downgrades FedEx to Sell, Lowers Price Target to $221"
+},
+{
+"sym": "FDX",
+"day": "2025-03-24",
+"kind": "call",
+"spot": 237.19,
+"headline": "Jefferies Upgrades FedEx to Buy, Lowers Price Target to $275"
+},
+{
+"sym": "FDX",
+"day": "2026-02-03",
+"kind": "call",
+"spot": 351.65,
+"headline": "Wells Fargo Upgrades FedEx to Overweight, Raises Price Target to $380"
+},
+{
+"sym": "PDD",
+"day": "2024-05-24",
+"kind": "call",
+"spot": 161.02,
+"headline": "Goldman Sachs Upgrades PDD Holdings to Buy, Raises Price Target to $184"
+},
+{
+"sym": "PDD",
+"day": "2025-05-28",
+"kind": "put",
+"spot": 100.29,
+"headline": "China Renaissance Downgrades PDD Holdings to Hold, Announces $107 Price Target"
+},
+{
+"sym": "PDD",
+"day": "2026-05-28",
+"kind": "put",
+"spot": 83.45,
+"headline": "Barclays Downgrades PDD Holdings to Equalweight"
+},
+{
+"sym": "PDD",
+"day": "2026-06-24",
+"kind": "put",
+"spot": 75.64,
+"headline": "Daiwa Capital Downgrades PDD Holdings to Hold"
+},
+{
+"sym": "PDD",
+"day": "2026-09-08",
+"kind": "put",
+"spot": 80.15,
+"headline": "Arete Research Downgrades PDD Holdings to Hold"
+},
+{
+"sym": "DE",
+"day": "2026-08-31",
+"kind": "call",
+"spot": 650.58,
+"headline": "Baird Upgrades Deere to Outperform, Raises Price Target to $800"
+},
+{
+"sym": "ASML",
+"day": "2024-02-20",
+"kind": "call",
+"spot": 918.63,
+"headline": "Redburn Atlantic Upgrades ASML Holding to Neutral"
+},
+{
+"sym": "ASML",
+"day": "2025-06-26",
+"kind": "put",
+"spot": 799.71,
+"headline": "Jefferies Downgrades ASML Holding to Hold"
+},
+{
+"sym": "ASML",
+"day": "2026-01-05",
+"kind": "call",
+"spot": 1220.72,
+"headline": "Bernstein Upgrades ASML Holding to Outperform, Raises Price Target to $1528"
+},
+{
+"sym": "ASML",
+"day": "2026-01-29",
+"kind": "call",
+"spot": 1460.22,
+"headline": "Barclays Upgrades ASML Holding to Overweight"
+},
+{
+"sym": "ASML",
+"day": "2026-06-30",
+"kind": "call",
+"spot": 1919.01,
+"headline": "Bank Degroof Petercam Upgrades ASML to Buy and Raises Price Target"
+},
+{
+"sym": "ASML",
+"day": "2026-07-17",
+"kind": "call",
+"spot": 1737.85,
+"headline": "DZ Bank Upgrades ASML to Buy and Increases Price Target"
+},
+{
+"sym": "JNJ",
+"day": "2025-04-09",
+"kind": "call",
+"spot": 144.32,
+"headline": "Goldman Sachs Upgrades Johnson & Johnson to Buy, Raises Price Target to $172"
+},
+{
+"sym": "JNJ",
+"day": "2025-09-23",
+"kind": "call",
+"spot": 175.58,
+"headline": "Guggenheim Upgrades Johnson & Johnson to Buy, Raises Price Target to $206"
+},
+{
+"sym": "JNJ",
+"day": "2025-10-03",
+"kind": "call",
+"spot": 187.41,
+"headline": "Wells Fargo Upgrades Johnson & Johnson to Overweight, Raises Price Target to $212"
+},
+{
+"sym": "JNJ",
+"day": "2026-01-28",
+"kind": "call",
+"spot": 228.17,
+"headline": "Morgan Stanley Upgrades Johnson & Johnson to Overweight, Raises Price Target to $262"
+},
+{
+"sym": "WDAY",
+"day": "2025-01-08",
+"kind": "call",
+"spot": 251.59,
+"headline": "Deutsche Bank Upgrades Workday to Buy, Raises Price Target to $300"
+},
+{
+"sym": "WDAY",
+"day": "2025-02-19",
+"kind": "put",
+"spot": 256.25,
+"headline": "Morgan Stanley Downgrades Workday to Equal-Weight, Lowers Price Target to $275"
+},
+{
+"sym": "WDAY",
+"day": "2025-07-10",
+"kind": "put",
+"spot": 232.99,
+"headline": "Piper Sandler Downgrades Workday to Underweight, Lowers Price Target to $235"
+},
+{
+"sym": "WDAY",
+"day": "2025-09-18",
+"kind": "call",
+"spot": 238.56,
+"headline": "Guggenheim Upgrades Workday to Buy, Announces $285 Price Target"
+},
+{
+"sym": "WDAY",
+"day": "2026-02-17",
+"kind": "call",
+"spot": 145.71,
+"headline": "Rosenblatt Upgrades Workday to Buy, Lowers Price Target to $180"
+},
+{
+"sym": "WDAY",
+"day": "2026-02-25",
+"kind": "put",
+"spot": 118.79,
+"headline": "Evercore ISI Group Downgrades Workday to In-Line, Lowers Price Target to $160"
+},
+{
+"sym": "PANW",
+"day": "2024-02-21",
+"kind": "put",
+"spot": 269.51,
+"headline": "Loop Capital Downgrades Palo Alto Networks to Hold, Announces $300 Price Target"
+},
+{
+"sym": "PANW",
+"day": "2024-07-18",
+"kind": "put",
+"spot": 327.72,
+"headline": "Redburn Atlantic Downgrades Palo Alto Networks to Neutral, Lowers Price Target to $325"
+},
+{
+"sym": "PANW",
+"day": "2025-01-08",
+"kind": "put",
+"spot": 168.26,
+"headline": "Deutsche Bank Downgrades Palo Alto Networks to Hold, Lowers Price Target to $190"
+},
+{
+"sym": "PANW",
+"day": "2025-07-31",
+"kind": "put",
+"spot": 177.13,
+"headline": "Keybanc Downgrades Palo Alto Networks to Sector Weight"
+},
+{
+"sym": "PANW",
+"day": "2025-08-12",
+"kind": "call",
+"spot": 171.99,
+"headline": "Piper Sandler Upgrades Palo Alto Networks to Overweight, Raises Price Target to $225"
+},
+{
+"sym": "PANW",
+"day": "2025-10-13",
+"kind": "call",
+"spot": 214.72,
+"headline": "BTIG Upgrades Palo Alto Networks to Buy, Announces $248 Price Target"
+},
+{
+"sym": "PANW",
+"day": "2026-09-08",
+"kind": "put",
+"spot": 327.46,
+"headline": "Phillip Securities Downgrades Palo Alto Networks to Neutral"
+},
+{
+"sym": "PANW",
+"day": "2026-09-17",
+"kind": "put",
+"spot": 360.88,
+"headline": "Bernstein Downgrades Palo Alto Networks to Market Perform"
+},
+{
+"sym": "BA",
+"day": "2024-02-23",
+"kind": "put",
+"spot": 199.81,
+"headline": "Northcoast Research Downgrades Boeing to Neutral"
+},
+{
+"sym": "BA",
+"day": "2024-09-03",
+"kind": "put",
+"spot": 166.9,
+"headline": "Wells Fargo Downgrades Boeing to Underweight, Lowers Price Target to $119"
+},
+{
+"sym": "BA",
+"day": "2026-08-03",
+"kind": "call",
+"spot": 225,
+"headline": "BNP Paribas Upgrades Boeing to Outperform"
+},
+{
+"sym": "BA",
+"day": "2026-08-11",
+"kind": "call",
+"spot": 235.98,
+"headline": "Argus Research Upgrades Boeing to Buy, Announces $265 Price Target"
+},
+{
+"sym": "AXP",
+"day": "2024-08-21",
+"kind": "put",
+"spot": 249.25,
+"headline": "B of A Securities Downgrades American Express to Neutral, Maintains Price Target to $263"
+},
+{
+"sym": "AXP",
+"day": "2025-04-23",
+"kind": "call",
+"spot": 263.69,
+"headline": "Redburn Atlantic Upgrades American Express to Neutral, Lowers Price Target to $255"
+},
+{
+"sym": "MS",
+"day": "2024-07-17",
+"kind": "put",
+"spot": 105.0,
+"headline": "Oppenheimer Downgrades Morgan Stanley to Perform"
+},
+{
+"sym": "MS",
+"day": "2024-11-26",
+"kind": "put",
+"spot": 130.13,
+"headline": "HSBC Downgrades Morgan Stanley to Hold, Raises Price Target to $131"
+},
+{
+"sym": "MS",
+"day": "2026-04-07",
+"kind": "call",
+"spot": 166.09,
+"headline": "UBS Upgrades Morgan Stanley to Buy, Raises Price Target to $196"
+},
+{
+"sym": "MS",
+"day": "2026-05-21",
+"kind": "call",
+"spot": 198.41,
+"headline": "Morgan Stanley Analyst Upgrades Paramount Skydance to Overweight"
+},
+{
+"sym": "MS",
+"day": "2026-06-01",
+"kind": "call",
+"spot": 207.63,
+"headline": "Morgan Stanley Upgrades Dell Technologies to Equalweight"
+},
+{
+"sym": "MS",
+"day": "2026-06-10",
+"kind": "call",
+"spot": 209.21,
+"headline": "Morgan Stanley Upgrades Western Midstream Partners to Equal Weight"
+},
+{
+"sym": "MS",
+"day": "2026-06-22",
+"kind": "put",
+"spot": 225.45,
+"headline": "Morgan Stanley Downgrades Cleveland-Cliffs to Equalweight"
+},
+{
+"sym": "MS",
+"day": "2026-06-30",
+"kind": "put",
+"spot": 209.6,
+"headline": "Oppenheimer Downgrades Morgan Stanley to Underperform"
+},
+{
+"sym": "MS",
+"day": "2026-07-08",
+"kind": "put",
+"spot": 219.59,
+"headline": "Morgan Stanley Downgrades Vale SA to Hold"
+},
+{
+"sym": "MS",
+"day": "2026-08-10",
+"kind": "call",
+"spot": 216.77,
+"headline": "Morgan Stanley Upgrades Lincoln Electric to Equalweight"
+},
+{
+"sym": "MS",
+"day": "2026-08-19",
+"kind": "put",
+"spot": 215.85,
+"headline": "Morgan Stanley Downgrades Baidu to Underweight"
+},
+{
+"sym": "MS",
+"day": "2026-09-04",
+"kind": "call",
+"spot": 217.57,
+"headline": "Morgan Stanley Upgrades Shell to Overweight"
+},
+{
+"sym": "MS",
+"day": "2026-09-28",
+"kind": "put",
+"spot": 195.13,
+"headline": "Morgan Stanley Downgrades Ericsson to Underweight"
+},
+{
+"sym": "MS",
+"day": "2026-10-23",
+"kind": "put",
+"spot": 180.71,
+"headline": "Morgan Stanley Downgrades Vonovia to Underweight"
+},
+{
+"sym": "MS",
+"day": "2026-11-09",
+"kind": "put",
+"spot": 184.96,
+"headline": "Morgan Stanley Downgrades PDD Holdings to Equal-Weight"
+},
+{
+"sym": "C",
+"day": "2024-02-14",
+"kind": "call",
+"spot": 53.84,
+"headline": "Piper Sandler Upgrades Citigroup to Overweight, Raises Price Target to $63"
+},
+{
+"sym": "C",
+"day": "2024-03-14",
+"kind": "call",
+"spot": 58.45,
+"headline": "Goldman Sachs Upgrades Citigroup to Buy, Announces $68 Price Target"
+},
+{
+"sym": "C",
+"day": "2024-12-03",
+"kind": "call",
+"spot": 72.53,
+"headline": "Keefe, Bruyette & Woods Upgrades Citigroup to Outperform, Raises Price Target to $82"
+},
+{
+"sym": "C",
+"day": "2026-06-30",
+"kind": "put",
+"spot": 140.97,
+"headline": "Oppenheimer Downgrades Citigroup to Perform"
+},
+{
+"sym": "C",
+"day": "2026-11-09",
+"kind": "put",
+"spot": 121.13,
+"headline": "Citi Downgrades Global Tech Stocks to Neutral"
+},
+{
+"sym": "JD",
+"day": "2024-10-21",
+"kind": "call",
+"spot": 39.54,
+"headline": "Loop Capital Upgrades JD.com to Buy, Lowers Price Target to $48"
+},
+{
+"sym": "JD",
+"day": "2024-12-09",
+"kind": "call",
+"spot": 40.81,
+"headline": "Bernstein Upgrades JD.com to Outperform, Raises Price Target to $46"
+},
+{
+"sym": "JD",
+"day": "2026-06-24",
+"kind": "put",
+"spot": 25.54,
+"headline": "Daiwa Capital Downgrades JD.com to Hold"
+},
+{
+"sym": "MRVL",
+"day": "2025-08-29",
+"kind": "put",
+"spot": 63.94,
+"headline": "B of A Securities Downgrades Marvell Tech to Neutral, Lowers Price Target to $78"
+},
+{
+"sym": "MRVL",
+"day": "2025-12-08",
+"kind": "put",
+"spot": 90.14,
+"headline": "Benchmark Downgrades Marvell Tech to Hold"
+},
+{
+"sym": "MRVL",
+"day": "2026-01-05",
+"kind": "call",
+"spot": 93.62,
+"headline": "Melius Research Upgrades Marvell Tech to Buy, Announces $135 Price Target"
+},
+{
+"sym": "MRVL",
+"day": "2026-03-06",
+"kind": "call",
+"spot": 85.71,
+"headline": "B of A Securities Upgrades Marvell Technology to Buy, Raises Price Target to $110"
+},
+{
+"sym": "MRVL",
+"day": "2026-04-09",
+"kind": "call",
+"spot": 119.65,
+"headline": "Barclays Upgrades Marvell Technology to Overweight, Raises Price Target to $150"
+},
+{
+"sym": "MRVL",
+"day": "2026-11-03",
+"kind": "put",
+"spot": 171.8,
+"headline": "B of A Securities Downgrades Marvell Technology to Neutral, Lowers Price Target to $225"
+},
+{
+"sym": "MRK",
+"day": "2025-01-08",
+"kind": "put",
+"spot": 100.12,
+"headline": "Truist Securities Downgrades Merck & Co to Hold, Lowers Price Target to $110"
+},
+{
+"sym": "MRK",
+"day": "2025-05-14",
+"kind": "put",
+"spot": 76.98,
+"headline": "Citigroup Downgrades Merck & Co to Neutral, Lowers Price Target to $84"
+},
+{
+"sym": "MRK",
+"day": "2025-11-24",
+"kind": "call",
+"spot": 100.11,
+"headline": "Wells Fargo Upgrades Merck & Co to Overweight, Raises Price Target to $125"
+},
+{
+"sym": "MRK",
+"day": "2025-12-18",
+"kind": "call",
+"spot": 99.74,
+"headline": "BMO Capital Upgrades Merck & Co to Outperform, Raises Price Target to $130"
+},
+{
+"sym": "MRK",
+"day": "2026-01-08",
+"kind": "call",
+"spot": 110.78,
+"headline": "Wolfe Research Upgrades Merck & Co to Outperform, Announces $135 Price Target"
+},
+{
+"sym": "BABA",
+"day": "2024-02-08",
+"kind": "put",
+"spot": 71.79,
+"headline": "Macquarie Downgrades Alibaba Gr Holding to Neutral, Announces $85.4 Price Target"
+},
+{
+"sym": "BABA",
+"day": "2024-10-07",
+"kind": "call",
+"spot": 117.48,
+"headline": "Macquarie Upgrades Alibaba Gr Hldgs to Outperform"
+},
+{
+"sym": "CRWD",
+"day": "2024-07-22",
+"kind": "put",
+"spot": 278.39,
+"headline": "Guggenheim Downgrades CrowdStrike Holdings to Neutral"
+},
+{
+"sym": "CRWD",
+"day": "2024-07-23",
+"kind": "put",
+"spot": 264.84,
+"headline": "HSBC Downgrades CrowdStrike Holdings to Hold, Lowers Price Target to $302"
+},
+{
+"sym": "CRWD",
+"day": "2024-08-30",
+"kind": "call",
+"spot": 282,
+"headline": "HSBC Upgrades CrowdStrike Holdings to Buy, Raises Price Target to $339"
+},
+{
+"sym": "CRWD",
+"day": "2024-11-27",
+"kind": "put",
+"spot": 352.35,
+"headline": "HSBC Downgrades CrowdStrike Holdings to Hold, Announces $347 Price Target"
+},
+{
+"sym": "CRWD",
+"day": "2025-07-14",
+"kind": "put",
+"spot": 463.88,
+"headline": "Morgan Stanley Downgrades CrowdStrike Holdings to Equal-Weight, Raises Price Target to $49"
+},
+{
+"sym": "CRWD",
+"day": "2025-09-25",
+"kind": "call",
+"spot": 479.47,
+"headline": "Scotiabank Upgrades CrowdStrike Holdings to Sector Outperform, Raises Price Target to $600"
+},
+{
+"sym": "CRWD",
+"day": "2026-03-02",
+"kind": "call",
+"spot": 379.52,
+"headline": "Piper Sandler Upgrades CrowdStrike Holdings to Overweight, Maintains Price Target to $520"
+},
+{
+"sym": "CRWD",
+"day": "2026-03-30",
+"kind": "call",
+"spot": 380.98,
+"headline": "Wolfe Research Upgrades CrowdStrike Holdings to Outperform, Announces $450 Price Target"
+},
+{
+"sym": "CRWD",
+"day": "2026-06-05",
+"kind": "put",
+"spot": 692.5,
+"headline": "Berenberg Downgrades CrowdStrike to Hold From Buy, Adjusts Price Target to $720"
+},
+{
+"sym": "XOM",
+"day": "2024-06-07",
+"kind": "put",
+"spot": 113.55,
+"headline": "Truist Securities Downgrades Exxon Mobil to Hold, Lowers Price Target to $124"
+},
+{
+"sym": "XOM",
+"day": "2024-09-24",
+"kind": "put",
+"spot": 117.81,
+"headline": "Redburn Atlantic Downgrades Exxon Mobil to Neutral, Raises Price Target to $120"
+},
+{
+"sym": "XOM",
+"day": "2026-06-16",
+"kind": "call",
+"spot": 140.37,
+"headline": "B of A Securities Upgrades Exxon Mobil to Buy, Announces $154 Price Target"
+},
+{
+"sym": "XOM",
+"day": "2026-11-04",
+"kind": "put",
+"spot": 172.65,
+"headline": "DZ Bank Downgrades Exxon Mobil to Sell"
+},
+{
+"sym": "COHR",
+"day": "2025-03-24",
+"kind": "call",
+"spot": 72.81,
+"headline": "Raymond James Upgrades Coherent to Strong Buy, Lowers Price Target to $91"
+},
+{
+"sym": "COHR",
+"day": "2025-08-14",
+"kind": "put",
+"spot": 89.3,
+"headline": "B of A Securities Downgrades Coherent to Neutral, Raises Price Target to $105"
+},
+{
+"sym": "TXN",
+"day": "2025-04-22",
+"kind": "put",
+"spot": 145.44,
+"headline": "Barclays Downgrades Texas Instruments to Underweight, Lowers Price Target to $125"
+},
+{
+"sym": "TXN",
+"day": "2025-07-28",
+"kind": "call",
+"spot": 189.19,
+"headline": "Wolfe Research Upgrades Texas Instruments to Outperform, Announces $230 Price Target"
+},
+{
+"sym": "TXN",
+"day": "2026-01-28",
+"kind": "call",
+"spot": 207.84,
+"headline": "B of A Securities Upgrades Texas Instruments to Neutral, Raises Price Target to $235"
+},
+{
+"sym": "TXN",
+"day": "2026-04-23",
+"kind": "call",
+"spot": 268.4,
+"headline": "B of A Securities Upgrades Texas Instruments to Buy, Raises Price Target to $320"
+},
+{
+"sym": "WFC",
+"day": "2025-04-08",
+"kind": "call",
+"spot": 64.86,
+"headline": "Piper Sandler Upgrades Wells Fargo to Overweight, Announces $77 Price Target"
+},
+{
+"sym": "WFC",
+"day": "2026-02-13",
+"kind": "call",
+"spot": 85.84,
+"headline": "Baird Upgrades Wells Fargo to Neutral, Maintains Price Target to $85"
+},
+{
+"sym": "WFC",
+"day": "2026-05-11",
+"kind": "put",
+"spot": 75.61,
+"headline": "Wells Fargo Downgrades Nike to Equalweight"
+},
+{
+"sym": "WFC",
+"day": "2026-05-20",
+"kind": "put",
+"spot": 74.21,
+"headline": "Wells Fargo Downgrades Clearwater Analytics to Equal Weight"
+},
+{
+"sym": "WFC",
+"day": "2026-06-08",
+"kind": "put",
+"spot": 81.72,
+"headline": "Wells Fargo Downgrades W. R. Berkley to Underweight"
+},
+{
+"sym": "WFC",
+"day": "2026-06-17",
+"kind": "call",
+"spot": 85.4,
+"headline": "Wells Fargo Upgrades Carter's to Equalweight"
+},
+{
+"sym": "WFC",
+"day": "2026-07-28",
+"kind": "put",
+"spot": 87.34,
+"headline": "Wells Fargo Downgrades Levi Strauss & Co. to Equalweight"
+},
+{
+"sym": "WFC",
+"day": "2026-08-03",
+"kind": "put",
+"spot": 87.3,
+"headline": "Wells Fargo Downgrades eBay to Underweight"
+},
+{
+"sym": "WFC",
+"day": "2026-08-06",
+"kind": "put",
+"spot": 89.53,
+"headline": "Wells Fargo Downgrades Insulet to Equalweight"
+},
+{
+"sym": "WFC",
+"day": "2026-08-07",
+"kind": "put",
+"spot": 86.25,
+"headline": "Wells Fargo Downgrades Gap to Equal Weight"
+},
+{
+"sym": "WFC",
+"day": "2026-08-26",
+"kind": "put",
+"spot": 84.35,
+"headline": "Wells Fargo Downgrades GoDaddy to Underweight"
+},
+{
+"sym": "WFC",
+"day": "2026-08-31",
+"kind": "put",
+"spot": 85.99,
+"headline": "Wells Fargo Downgrades PG&E to Equalweight"
+},
+{
+"sym": "WFC",
+"day": "2026-09-10",
+"kind": "call",
+"spot": 89.69,
+"headline": "Wells Fargo Upgrades Synopsys to Overweight"
+},
+{
+"sym": "WFC",
+"day": "2026-10-07",
+"kind": "call",
+"spot": 80.52,
+"headline": "Wells Fargo Upgrades Cleveland-Cliffs to Overweight"
+},
+{
+"sym": "WFC",
+"day": "2026-10-08",
+"kind": "call",
+"spot": 80.02,
+"headline": "TD Cowen Upgrades Wells Fargo to Buy From Hold"
+},
+{
+"sym": "NKE",
+"day": "2024-02-16",
+"kind": "put",
+"spot": 104.45,
+"headline": "Oppenheimer Downgrades Nike to Perform, Announces $110 Price Target"
+},
+{
+"sym": "NKE",
+"day": "2024-03-22",
+"kind": "put",
+"spot": 93.31,
+"headline": "RBC Capital Downgrades Nike to Sector Perform, Lowers Price Target to $100"
+},
+{
+"sym": "NKE",
+"day": "2024-04-11",
+"kind": "call",
+"spot": 91.44,
+"headline": "B of A Securities Upgrades Nike to Buy, Raises Price Target to $113"
+},
+{
+"sym": "NKE",
+"day": "2024-06-21",
+"kind": "call",
+"spot": 96.17,
+"headline": "Oppenheimer Upgrades Nike to Outperform, Raises Price Target to $120"
+},
+{
+"sym": "NKE",
+"day": "2024-08-16",
+"kind": "call",
+"spot": 83.35,
+"headline": "Williams Trading Upgrades Nike to Buy, Raises Price Target to $93"
+},
+{
+"sym": "NKE",
+"day": "2024-12-20",
+"kind": "put",
+"spot": 75.81,
+"headline": "Telsey Advisory Group Downgrades Nike to Market Perform, Lowers Price Target to $80"
+},
+{
+"sym": "NKE",
+"day": "2025-02-07",
+"kind": "put",
+"spot": 70.39,
+"headline": "Citigroup Downgrades Nike to Neutral, Lowers Price Target to $72"
+},
+{
+"sym": "NKE",
+"day": "2025-02-24",
+"kind": "call",
+"spot": 79.27,
+"headline": "Jefferies Upgrades Nike to Buy, Raises Price Target to $115"
+},
+{
+"sym": "NKE",
+"day": "2025-04-30",
+"kind": "put",
+"spot": 54.87,
+"headline": "Wells Fargo Downgrades Nike to Equal-Weight, Lowers Price Target to $55"
+},
+{
+"sym": "NKE",
+"day": "2025-07-28",
+"kind": "call",
+"spot": 79.61,
+"headline": "JP Morgan Upgrades Nike to Overweight, Raises Price Target to $93"
+},
+{
+"sym": "NKE",
+"day": "2025-10-02",
+"kind": "call",
+"spot": 75.36,
+"headline": "Keybanc Upgrades Nike to Overweight, Announces $90 Price Target"
+},
+{
+"sym": "NKE",
+"day": "2026-04-01",
+"kind": "put",
+"spot": 46.22,
+"headline": "B of A Securities Downgrades Nike to Neutral, Lowers Price Target to $55"
+},
+{
+"sym": "NKE",
+"day": "2026-04-10",
+"kind": "put",
+"spot": 43.52,
+"headline": "Piper Sandler Downgrades Nike to Neutral, Lowers Price Target to $50"
+},
+{
+"sym": "NKE",
+"day": "2026-05-08",
+"kind": "put",
+"spot": 44.14,
+"headline": "Wells Fargo Downgrades NIKE, Inc. to Equalweight"
+},
+{
+"sym": "NKE",
+"day": "2026-06-10",
+"kind": "put",
+"spot": 43.4,
+"headline": "RBC Downgrades Nike to Sector Perform and Lowers Price Target"
+},
+{
+"sym": "NKE",
+"day": "2026-08-26",
+"kind": "put",
+"spot": 39.3,
+"headline": "Truist Downgrades NIKE to Hold From Buy, Adjusts Price Target to $42 From $47"
+},
+{
+"sym": "NKE",
+"day": "2026-09-10",
+"kind": "put",
+"spot": 36.95,
+"headline": "Analyst Downgrades Nike to Sell"
+},
+{
+"sym": "NKE",
+"day": "2026-10-05",
+"kind": "put",
+"spot": 33.41,
+"headline": "S&P Downgrades Nike From A+ To A On Protracted Turnaround, Expected Steep Cash Flow Declin"
+},
+{
+"sym": "SCHW",
+"day": "2024-07-17",
+"kind": "put",
+"spot": 65.94,
+"headline": "TD Cowen Downgrades Charles Schwab to Hold, Lowers Price Target to $71"
+},
+{
+"sym": "SCHW",
+"day": "2026-07-20",
+"kind": "put",
+"spot": 100.54,
+"headline": "BMO Capital Downgrades Charles Schwab to Market Perform, Maintains Price Target to $105"
+}
+]
+}
