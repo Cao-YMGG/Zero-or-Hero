@@ -1,4 +1,4 @@
-# Headlines since 2026-11-13 16:00 ET (as of 2026-11-16 14:46 ET)
+# Headlines since 2026-11-13 16:00 ET (as of 2026-11-16 15:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -20,6 +20,10 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-14 15:01 | ASML | target up | UBS Reiterates Buy Rating and Raises Price Target for ASML |
 | 11-13 18:01 | VST | rating | Vistra Maintains Growth Outlook Amid Market Volatility Following Texas Midterm Elections |
 | 11-13 16:33 | NVDA | target down | Rosenblatt Maintains Buy on NVIDIA, Lowers Price Target to $300 |
+| 11-16 15:02 | JPM |  | JPMorgan Chase Discloses 5.22% Stake in Sibanye-Stillwater |
+| 11-16 15:02 | AMD |  | AMD-Powered Lux Supercomputer Opens to Scientific Users |
+| 11-16 15:02 | UNH |  | Mubadala Investment Co. PJSC Increases Stake in UnitedHealth Group |
+| 11-16 15:00 | NVDA TSLA |  | Sen. John Kennedy’s Jaw Is ‘Stuck on the Floor’ After Jensen Huang’s Nvidia Exit: If You’re Going to Have an Affair, ‘Make Sure It’s Not With a Chinese Spy’ |
 | 11-16 14:36 | NVDA PLTR |  | Palantir Dips as Anthropic IPO, Nvidia Turmoil and Rate Hike Bets Rattle Tech |
 | 11-16 14:30 | AMD AVGO NVDA |  | Nvidia China Trouble Could Spill Over to These AI Chip Stocks |
 | 11-16 14:02 | CRDO |  | TD Cowen Adjusts Price Target for Credo Technology Group Holding Ltd |
