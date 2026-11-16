@@ -1,7 +1,47 @@
 {
- "as_of": "2026-11-16T11:02-05:00",
+ "as_of": "2026-11-16T11:33-05:00",
  "since": "2026-11-13T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-16 11:31",
+   "symbols": [
+    "ARM"
+   ],
+   "rating": "",
+   "headline": "Mubadala Investment Co. Pjsc Reduces Stake in Arm Holdings PLC",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/flash/1004769207/mubadala-investment-co-pjsc-cuts-share-stake-in-arm-holdings"
+  },
+  {
+   "time": "11-16 11:30",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Jensen Huang Said 'I Don't Have an Endgame' Weeks Before Quitting Nvidia After 33 Years \u2014 Now Allies Are Building a 'War Room' for His Comeback",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63303105/jensen-huang-said-i-dont-have-an-endgame-weeks-before-quitting-nvidia-after-33-years-now-allies-are-building-a-war-room-for-his-comeback"
+  },
+  {
+   "time": "11-16 11:22",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Michael Burry Smells a Rat in Nvidia\u2019s Vanishing Singapore Revenue",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63302458/michael-burry-smells-a-rat-in-nvidias-vanishing-singapore-revenue"
+  },
+  {
+   "time": "11-16 11:20",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "target down",
+   "headline": "UBS Maintains Buy on NVIDIA, Lowers Price Target to $240",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63302299/ubs-maintains-buy-nvidia-lowers-price-target-240"
+  },
   {
    "time": "11-16 11:01",
    "symbols": [

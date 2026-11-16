@@ -1,9 +1,10 @@
-# Headlines since 2026-11-13 16:00 ET (as of 2026-11-16 11:02 ET)
+# Headlines since 2026-11-13 16:00 ET (as of 2026-11-16 11:33 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-16 11:20 | NVDA | target down | UBS Maintains Buy on NVIDIA, Lowers Price Target to $240 |
 | 11-16 10:24 | LLY | target up | Barclays Maintains Overweight on Eli Lilly, Raises Price Target to $1550 |
 | 11-16 10:24 | NVDA | target down | Morgan Stanley Maintains Overweight on NVIDIA, Lowers Price Target to $267 |
 | 11-16 09:32 | HOOD | rating | BofA Securities Adjusts Robinhood Markets PT to $151 From $156, Maintains Buy Rating |
@@ -18,6 +19,9 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-14 15:01 | ASML | target up | UBS Reiterates Buy Rating and Raises Price Target for ASML |
 | 11-13 18:01 | VST | rating | Vistra Maintains Growth Outlook Amid Market Volatility Following Texas Midterm Elections |
 | 11-13 16:33 | NVDA | target down | Rosenblatt Maintains Buy on NVIDIA, Lowers Price Target to $300 |
+| 11-16 11:31 | ARM |  | Mubadala Investment Co. Pjsc Reduces Stake in Arm Holdings PLC |
+| 11-16 11:30 | NVDA |  | Jensen Huang Said 'I Don't Have an Endgame' Weeks Before Quitting Nvidia After 33 Years — Now Allies Are Building a 'War Room' for His Comeback |
+| 11-16 11:22 | NVDA |  | Michael Burry Smells a Rat in Nvidia’s Vanishing Singapore Revenue |
 | 11-16 11:01 | XOM |  | ExxonMobil Commences Production at Uaru Development in Guyana |
 | 11-16 11:01 | PLTR |  | Palantir Technologies Faces Potential Competition for NHS Data Contract |
 | 11-16 11:01 | CVX |  | Chevron Charters Supertanker to Transport Strategic Petroleum Reserve Crude to California |
