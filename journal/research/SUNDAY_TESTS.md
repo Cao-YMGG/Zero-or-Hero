@@ -575,6 +575,28 @@ in EVOLUTION.md.
    the owner is the ledger's size, not the rule. Left to test: a put credit spread under the stock on the same events
    (the stock is 2% or more lower after five days on a quarter of them), and the same drift on the pre-earnings window
    (RUNUP.md: +1.6% median over ten days).
+   OUT OF SAMPLE, 11-16 (SLOWDRIFT_WIDE.md; owner: "which factors can change?", the first one changed was the universe):
+   the same events on 105 large caps outside the 25 (502 headlines, 278 upgrades). It does not hold. The stock: +0.88% from
+   the open to the close of day 0 (62% up; the same stocks on other days +0.04%), then nothing: +0.97% by day +5 against
+   +0.53% on any day, +0.96% by day +10 against +1.01%. Most of day 0 is over by the entry: from the 09:32 price to that
+   close the stock adds +0.22% (52% up; +0.38% and 55% on the first 25 names). The three-week call, 5% costs: 0.45 delta
+   bought at the day-0 close -11% / -13% / -14% sold on day +5 and -11% / -15% / -17% on day +10 (274 trades, 30-32% wins);
+   0.60 delta -14% and -11%; 0.30 delta -11% and -12%; bought early -1% to -23%; every cell negative, each of the three
+   years negative (-16%, -16%, -1%), and -11% on the 256 exits that had a real trade (so the intrinsic floor is not what
+   sinks it). The last 3 months, 16 events: -19% to -32% on day +5. Technology names outside the 25 (86 upgrades): the stock
+   -0.01% by day +5, the call -20%; everything else (188): +1.02%, -7%. Contracts a $500 ledger can hold ($250 or less):
+   0.45 delta 101 trades, +0% / -4% / -9% on day +5, -12% on day +10; 0.30 delta 156 trades, -8% and -15%.
+   What the first table was: zoh.analyst.SYMBOLS is the list of names we trade, chosen in 2026 because they had moved;
+   a week-long drift after good news on the winners of two years is what picking winners looks like. DECISION: `rating_slow`
+   is withdrawn; no ledger question goes to the owner. rating_open stays a shadow because it costs nothing and its exact
+   rule has not been run on these events, but its support is now my ten picks and a biased 62: item 70.
+70. **rating_open's own rule on the out-of-sample events (2026-11-16).** rating_open (nearest expiry, 0.45 delta, half out
+   at 2x, trail from 1.5x, carried) was added on the 25 names' numbers (+19% / +12% / +5% carried, 62 upgrades) and on ten
+   picks of mine (+17% / +7% / -4%). Item 69 found the 25 names are a biased sample for anything past day 0. Run the same
+   pricing (week46.upgrades_near's rule) on journal/research/slowdrift_wide_events.json (278 upgrades, 105 names; about an
+   hour on Actions, outside market hours). Bar written before the run: if the carried result is negative without the
+   best two over two years, rating_open is retired at the next weekly review whatever its live trades say (it will have
+   three or four); if it is positive there too, it stays and the 25 names stop being quoted as its evidence.
 
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a

@@ -77,8 +77,9 @@ from 1.5x. On real option prices to 2026-11-13 (journal/research/WEEK46.md) the 
 were right on 10 (+0.9% open to close) and made +17% at 0.45 delta (+7% without the best, -4% without
 the best two, 10 entries); the 10 company-news snipers were right on 5 (-0.5%) and lost 56-71% at every
 strike. Every upgrade headline of two years at the same strike and exit (62 events): -9% sold on day one,
-+19% / +12% / +5% carried to expiry; downgrades lose at every strike. A missing or unknown `class` is treated
-as not a rating change.
++19% / +12% / +5% carried to expiry; downgrades lose at every strike. Those are the 25 names we trade; on 105
+other large caps (278 upgrades, SLOWDRIFT_WIDE.md) the stock gains 0.9% on day 0 and nothing after, so the carry
+is unproven (SUNDAY_TESTS 70). A missing or unknown `class` is treated as not a rating change.
 On a `put` day with aligned macro evidence the sniper may be a put (`"direction": "put"`): a
 mega cap without good news of its own that is exposed to the day's driver (rates, a cooling
 theme, a peer's miss), gap under ~4%. Both catalyst variants trade puts the same way
