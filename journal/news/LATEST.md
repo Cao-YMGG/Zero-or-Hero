@@ -1,15 +1,26 @@
-# Headlines since 2026-11-13 16:00 ET (as of 2026-11-16 07:41 ET)
+# Headlines since 2026-11-13 16:00 ET (as of 2026-11-16 08:31 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-16 08:19 | COST | target up | Evercore ISI Group Maintains Outperform on Costco Wholesale, Raises Price Target to $1200 |
+| 11-16 08:03 | HD | downgrade | Zelman & Assoc Downgrades Home Depot to Underperform |
+| 11-16 07:53 | NVDA | target down | TD Cowen Maintains Buy on NVIDIA, Lowers Price Target to $200 |
 | 11-16 07:31 | PLTR | upgrade | Phillip Securities Upgrades Palantir Technologies to Buy |
 | 11-16 07:11 | NVDA | target down | Mizuho Maintains Outperform on NVIDIA, Lowers Price Target to $220 |
 | 11-16 06:31 | COST | downgrade | Northcoast Downgrades Costco Wholesale to Neutral |
 | 11-14 15:01 | ASML | target up | UBS Reiterates Buy Rating and Raises Price Target for ASML |
 | 11-13 18:01 | VST | rating | Vistra Maintains Growth Outlook Amid Market Volatility Following Texas Midterm Elections |
 | 11-13 16:33 | NVDA | target down | Rosenblatt Maintains Buy on NVIDIA, Lowers Price Target to $300 |
+| 11-16 08:21 | AMZN |  | Uber Riders in Vegas Can Now Get Driverless Zoox Robotaxi |
+| 11-16 08:03 | NVDA TSLA |  | Tesla-SpaceX Merger Is 'Almost Inconceivable' to Avoid, Says Elon Musk Biographer — 'You'll Know More' on Dec. 3 |
+| 11-16 08:01 | GEV |  | Coatue Management LLC Reduces Stake in GE Vernova |
+| 11-16 08:01 | CRM |  | eGain Launches Trusted Knowledge Service Supporting Salesforce Knowledge |
+| 11-16 08:01 | ORCL |  | FIOR Joins Oracle Partner Program |
+| 11-16 08:01 | V |  | Visa Launches Visa Cargo Solutions at ALMAC 2026 |
+| 11-16 08:01 | MSFT |  | Microsoft Authorizes Parallels Desktop for Windows on Apple Silicon |
+| 11-16 08:01 | MSFT |  | Microsoft Verifies InTouch123 Inc. in Partner Center |
 | 11-16 07:34 | HD |  | How To Earn $500 A Month From Home Depot Stock Ahead of Q3 Earnings |
 | 11-16 07:32 | VST |  | HSBC Adjusts Price Target on Vistra to $175.20 From $190 |
 | 11-16 07:31 | COIN |  | H100 Group Partners With Coinbase for Balance Sheet Management |

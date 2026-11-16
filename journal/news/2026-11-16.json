@@ -1,7 +1,118 @@
 {
- "as_of": "2026-11-16T07:41-05:00",
+ "as_of": "2026-11-16T08:31-05:00",
  "since": "2026-11-13T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-16 08:21",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Uber Riders in Vegas Can Now Get Driverless Zoox Robotaxi",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63287514/uber-riders-in-vegas-can-now-get-driverless-zoox-robotaxi"
+  },
+  {
+   "time": "11-16 08:19",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "target up",
+   "headline": "Evercore ISI Group Maintains Outperform on Costco Wholesale, Raises Price Target to $1200",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63287330/evercore-isi-group-maintains-outperform-costco-wholesale-raises-price-target-1200"
+  },
+  {
+   "time": "11-16 08:03",
+   "symbols": [
+    "HD"
+   ],
+   "rating": "downgrade",
+   "headline": "Zelman & Assoc Downgrades Home Depot to Underperform",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63286316/zelman-assoc-downgrades-home-depot-underperform"
+  },
+  {
+   "time": "11-16 08:03",
+   "symbols": [
+    "NVDA",
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla-SpaceX Merger Is 'Almost Inconceivable' to Avoid, Says Elon Musk Biographer \u2014 'You'll Know More' on Dec. 3",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63286305/tesla-spacex-merger-is-almost-inconceivable-to-avoid-says-elon-musk-biographer-youll-know-more-on-dec-3"
+  },
+  {
+   "time": "11-16 08:01",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "Coatue Management LLC Reduces Stake in GE Vernova",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/flash/1004740596/coatue-management-llc-cuts-share-stake-in-ge-vernova-by"
+  },
+  {
+   "time": "11-16 08:01",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "eGain Launches Trusted Knowledge Service Supporting Salesforce Knowledge",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/16/3403290/0/en/egain-launches-trusted-knowledge-service-to-make-enterprise-knowledge-ai-ready-without-replacing-existing-platforms.html"
+  },
+  {
+   "time": "11-16 08:01",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "FIOR Joins Oracle Partner Program",
+   "source": "fiscal.ai",
+   "url": "https://aimagazine.com/news/fiors-ncsc-tested-gateway-gives-ai-agents-quantum-passports"
+  },
+  {
+   "time": "11-16 08:01",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Launches Visa Cargo Solutions at ALMAC 2026",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/2026/11/16/tmt-newswire/media-outreach-newswire/visa-and-airport-authority-hong-kong-launch-industry-first-integrated-air-cargo-data-and-card-payment-solution-in-hong-kong/2470874"
+  },
+  {
+   "time": "11-16 08:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Authorizes Parallels Desktop for Windows on Apple Silicon",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/best-windows-software-for-mac-2026-parallels-named-top-pick-for-easy-setup-and-mac-integration-by-software-experts-302939773.html"
+  },
+  {
+   "time": "11-16 08:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Verifies InTouch123 Inc. in Partner Center",
+   "source": "fiscal.ai",
+   "url": "https://natlawreview.com/press-releases/microsoft-verifies-referna-partner-center"
+  },
+  {
+   "time": "11-16 07:53",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "target down",
+   "headline": "TD Cowen Maintains Buy on NVIDIA, Lowers Price Target to $200",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63285602/td-cowen-maintains-buy-nvidia-lowers-price-target-200"
+  },
   {
    "time": "11-16 07:34",
    "symbols": [
