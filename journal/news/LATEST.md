@@ -1,4 +1,4 @@
-# Headlines since 2026-11-13 16:00 ET (as of 2026-11-16 14:16 ET)
+# Headlines since 2026-11-13 16:00 ET (as of 2026-11-16 14:46 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -20,6 +20,8 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-14 15:01 | ASML | target up | UBS Reiterates Buy Rating and Raises Price Target for ASML |
 | 11-13 18:01 | VST | rating | Vistra Maintains Growth Outlook Amid Market Volatility Following Texas Midterm Elections |
 | 11-13 16:33 | NVDA | target down | Rosenblatt Maintains Buy on NVIDIA, Lowers Price Target to $300 |
+| 11-16 14:36 | NVDA PLTR |  | Palantir Dips as Anthropic IPO, Nvidia Turmoil and Rate Hike Bets Rattle Tech |
+| 11-16 14:30 | AMD AVGO NVDA |  | Nvidia China Trouble Could Spill Over to These AI Chip Stocks |
 | 11-16 14:02 | CRDO |  | TD Cowen Adjusts Price Target for Credo Technology Group Holding Ltd |
 | 11-16 14:02 | SMCI |  | Supermicro Participates in MLPerf Training v6.1 Benchmarks |
 | 11-16 14:01 | JPM |  | JPMorgan Chase and Other Major Banks Experience Online Banking Outages |
