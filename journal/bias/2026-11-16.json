@@ -1,0 +1,162 @@
+{
+ "date": "2026-11-16",
+ "bias": "none",
+ "confidence": 0.3,
+ "p_up": 0.48,
+ "summary": "AI-chain liquidation gap: at 08:31 SPY 748.93 (-0.72%), QQQ -1.43%, SMH -4.0% (AMD -5.7%, MU -6.3%, TSM -4.9%, NVDA -3.8%), after Taiwan -3.4%, Korea -3.6% and Japan's chip names -5% to -10% overnight; defensives bid (WMT +1.1%, JNJ +1.1%, XLP +0.7%, XLV +0.6%), Dow futures flat, Europe flat to up. SPY sits where it traded after Friday's close (749.51), so the gap is two sessions old. Yields flat today (10Y 5.13-5.14%) after +29bp last week with a December hike priced; Warsh speaks at 12:00; NVDA reports Tuesday after the close, Anthropic prices Wednesday, monthly expiry Friday. Open to close is not one-sided: no call, p_up 0.48.",
+ "reasons": [
+  "Gap, 08:31 ET (Webull, vs Friday's close): SPY 748.93 (-0.72%), QQQ 670.14 (-1.43%), SMH 467.15 (-4.03%), IWM -0.52%, VIXY +1.8%, TLT +0.11%, USO -1.4%; XLP +0.7%, XLV +0.6%, XLF +0.1%, XLE -0.7%. Friday after-hours SPY was 749.51 (FAA ground stop at 16:01) and the night session 752.28: the pre-market weakened from the night, it did not recover (the OVERNIGHT.md lean does not apply).",
+  "What is new since Friday: Asia sold chips (Taiex -3.4%, Kospi -3.6%, Nikkei -1.6% to -2.4% on Q3 GDP -0.1%; SK Hynix -5.6%, Tokyo Electron -5.2%, Advantest -10%), Kioxia's pricing warning (memory), a DRAM price-fixing suit that survived dismissal (MU), an Intel class action over PC disclosures, Bessent giving Nvidia ten days to explain China chip sales and asking for an outside CEO (03:09), two more NVDA target cuts (Mizuho 220, TD Cowen 200), Gensler on a dot-com-scale AI bust, China's October output and retail sales missing. Investors are also said to be raising cash for the Anthropic IPO (Polcari).",
+  "Rates and dollar: 10Y 5.13-5.14% (-1bp today, +29bp last week), 2Y 4.75-4.88% (+35bp last week), a 25bp hike priced for December, DXY near 19-month highs (no level found). WTI ~88.3 (-0.25%), Brent ~95.5-96: tanker mine reports in Hormuz. VIX level not found (CNBC quote pages would not load); VIXY +1.8%.",
+  "For: the last two -0.6% to -0.8% gaps (11-10, 11-12) were bought and closed above the open; mega-cap gap-downs do not keep falling on average (DROPS.md: gaps <= -5% closed above the open 52% of the time); the index outside AI is green; NVDA's report tomorrow may hold sellers back. Against: Friday's open was the high with chips sold all session; Asia's chip selloff is fresh; Warsh at noon with a hike priced; de-risking into NVDA and the Anthropic pricing.",
+  "Drop lights at Friday's close: stretched, breadth, rates. `stretched` (SMH 12% or more below its 20-day high while SPY is down under 1.5% in five sessions) marks big days in either direction (a -1.5% SPY day within five sessions 55-60% of the time, +1.5% days as often): p_up is not moved on it. Theme model: all ten themes neutral.",
+  "p_up 0.48: the evidence is one-sided for the gap, not for open to close. Calibration note (WEEK46.md): my p_up has not left 0.44-0.54 in 16 mornings; today I looked for a one-sided case for a put (futures, Asia, yields last week, dollar) and it fails on breadth and on what gaps did last week.",
+  "Gap-downs of 2% or more among the names we watch, none with a rule behind it today: AMD -5.7%, MU -6.3%, TSM -4.9%, INTC -5.3% (class action), AVGO -4.2%, NVDA -3.8% (reports tomorrow: no entry by rule), ORCL -3.2%, ARM, MRVL, LITE, CIEN -5% to -6% at 07:41. rebound_scanner was retired on 11-15.",
+  "Earnings window: NVDA and HD report Tuesday (no sniper, no entries today; Zelman cut HD to Underperform at 08:03), LOW and TGT Wednesday, WMT Thursday (Webull calendar: 2026-11-19; today is outside its no-go days). Retail sales Tuesday 08:30, FOMC minutes Wednesday 14:00.",
+  "Empire State (08:30): consensus 17.6 after 25.5; the print was not on the wires I could read at 08:32. No market move at 08:30-08:31 in SPY (748.9).",
+  "Inputs: Webull read-only snapshots (07:41 and 08:31) and daily bars; Benzinga via Alpaca (journal/news/LATEST.md 07:41 and 08:31); CNBC live blog 07:39; Investing.com pre-market movers; two morning notes (Tanko 05:06, Polcari). The Phillip Securities upgrade of PLTR is Benzinga's headline only: not confirmed elsewhere."
+ ],
+ "events": [
+  "08:30 ET Empire State manufacturing (consensus 17.6, prior 25.5): print not read by 08:32",
+  "12:00 ET Fed Chair Warsh speaks (San Francisco Fed); a 25bp December hike is priced",
+  "Tuesday: October retail sales 08:30, HD before the open, NVDA after the close (first report since Huang's resignation; options imply about 8.6%)",
+  "Wednesday: FOMC minutes 14:00, LOW and TGT, Anthropic prices ($70-78, about $1.4T); Thursday: WMT before the open, Anthropic trades",
+  "Friday: monthly options expiry; spy_open_drive, spy_open_drive_put and stock_open_drive skip the week",
+  "Trump-Xi summit in Shenzhen this week (headline risk for chips and the Nvidia China inquiry)"
+ ],
+ "inputs": {
+  "es_futures_pct": -0.72,
+  "nq_futures_pct": -1.43,
+  "vix": null,
+  "wti": 88.3,
+  "wti_pct": -0.25,
+  "brent": 95.7,
+  "us10y": 5.135,
+  "us10y_change_bp": -1,
+  "us2y": 4.86,
+  "us2y_change_bp": 0,
+  "dxy_pct": null,
+  "vixy_pct": 1.8,
+  "overnight": "es/nq fields are the SPY and QQQ pre-market moves at 08:31 ET (Webull). 07:41: SPY 749.15 (-0.69%), QQQ -1.45%, SMH -3.9%, AMD 507.0 (-5.1%), NVDA 157.54 (-3.3%), AVGO -3.8%, MU -5.8%, TSM -5.2%, INTC -5.3%, ORCL -3.3%, TSLA -1.4%, PLTR 165.49 (-1.5%), META -0.9%, AMZN -0.9%, GOOGL -0.8%, MSFT flat, AAPL +0.4%, WMT 129.50 (+1.1%), LLY +0.9%, UNH +1.1%, JNJ +1.4%, V +0.9%, COST +0.5%, JPM +0.1%. 08:31: SPY 748.93, QQQ 670.14, SMH 467.15, NVDA 156.65 (-3.8%), AMD 503.59 (-5.7%), AVGO -4.2%, MU -6.3%, TSM -4.9%, PLTR 165.95 (-1.2%), WMT 129.44 (+1.1%), V +0.5%, LLY +0.5%, JNJ +1.1%, META -0.5%, MSFT +0.2%, AAPL +0.4%, AMZN -1.2%, GOOGL -0.7%, TSLA -1.3%, COST +0.25%. Night session (Webull): SPY 752.28, QQQ 674.82. Yields, oil and Asia from the morning notes and CNBC; the 2Y is quoted between 4.75% and 4.88% by different sources. VIX and DXY levels were not found."
+ },
+ "rotation": {
+  "heating": [
+   "consumer: +2.9% 1w / +11.7% 1m (COST +5.0% / +13.3%, HD +1.5% / +13.1%, WMT +2.0% / +8.7%); WMT +1.1% pre-market, reports Thursday",
+   "health: +4.5% 1w / +9.5% 1m (LLY +6.7% / +15.5% at a 52-week high, JNJ +3.5% / +12.8%, UNH +3.4% / +0.2%); LLY buys Calytrix (up to $1.5B), FT: JNJ in talks for Ollin (up to $3.4B)",
+   "staples and banks: XLP +2.5% / +6.5%, XLF +2.7% / +6.2% (JPM +3.5% / +3.2%, GS +5.9% / +2.8%)",
+   "payments and platforms holding up this morning: V +0.5%, MA +0.7%, AAPL +0.4%, MSFT +0.2% with QQQ -1.4%"
+  ],
+  "cooling": [
+   "GPU: NVDA -12.7% 1w / -25.0% 1m, -3.8% pre-market; reports Tuesday; Treasury's ten-day demand, two more target cuts",
+   "CPU: +11.4% 1w but -21.5% 1m (AMD +18.9% / -5.0% and -5.7% pre-market after Friday's -8.75%; INTC +6.0% / -37.4%, class action; ARM +9.1% / -22.2%)",
+   "memory and disk: memory +9.4% 1w / -26.5% 1m (MU -6.3% pre-market: Kioxia pricing warning, price-fixing suit), disk +13.3% / -20.3%",
+   "optical +13.0% 1w / -26.3% 1m, custom and foundry +11.8% / -13.3% (AVGO -4.2% pre-market despite the ByteDance processor report; TSM -4.9% after -3% to -5.7% in Taipei), power +5.2% / -13.5% (GEV -3.8% at 07:41, Coatue cut its stake)",
+   "software: +3.7% 1w / -16.5% 1m (NOW -31%, PLTR -16.2%, CRM -11.7%); internet +2.9% / -4.4% (META -12.9%, GOOGL -15.3% on the month)"
+  ],
+  "note": "Last week's bounce in every chip link (+9% to +13%) is being given back for the second session; on a month the money has gone to consumer, health, staples and banks. SPY +2.6% 1w / -2.3% 1m, QQQ +3.6% / -6.6%, SMH +4.9% / -12.9%, IWM +1.4% / +0.9%, XLE +5.4% / -2.4%, XLI +3.8% / +0.5%. The map is context, not a forecast for today (WEEK46.md: heating beat cooling on 12 of 30 mornings).",
+  "theme_state": {
+   "turning": [],
+   "heating": [],
+   "neutral": [
+    "chips",
+    "internet",
+    "software",
+    "banks",
+    "health",
+    "energy",
+    "consumer",
+    "industrials",
+    "power",
+    "optical"
+   ],
+   "lights": [
+    "stretched",
+    "breadth",
+    "rates"
+   ],
+   "source": "python -m zoh.research.themes --today and drops --today, bars to 2026-11-13 (chips, software, power, optical: BREADTH turn flag; internet: PERIPH; heat flags: banks BREADTH_UP and RATIO_HIGH, health and consumer BREADTH_UP, industrials BREADTH_UP and PERIPH_UP)",
+   "filter": "No theme is turning: no theme filter on picks today. `stretched` is lit: it marks big days either way, p_up is not moved on it."
+  },
+  "events": [
+   "NVDA reports Tuesday after the close: no chip sniper on the report's read-through today",
+   "Anthropic IPO prices Wednesday: cash-raising is cited for AI weakness"
+  ]
+ },
+ "sniper": {
+  "symbol": "PLTR",
+  "direction": "call",
+  "class": "upgrade",
+  "confidence": 0.25,
+  "catalyst": "Own news from the last day: Phillip Securities upgrades Palantir to Buy (Benzinga via Alpaca, 07:31 ET; the same broker had cut it to Neutral on 10-12 with a $215 target; not confirmed on a second source). PLTR 165.95 at 08:31 (-1.2%) with QQQ -1.4%: it moved from -1.5% to -1.2% after the note while QQQ did not, so the upgrade is not in the price. Median target 235 (Webull, 22 of 33 buy or strong buy); the stock is -16% on the month. Against it: a small broker (its AMZN upgrade of 11-02 topped within minutes), an AI name on an AI liquidation morning, a 04:06 Warren headline on China AI access that tags PLTR, software cooling. Shadow only (catalyst_open 0.10 delta, hero, and rating_open two contracts near 0.45 delta); the entry needs PLTR at or above its open between 09:31 and 10:00.",
+  "wrong_if": "PLTR is below its open at 10:00, or QQQ is more than 0.5% below its open at 10:00 (the liquidation is still running and the upgrade is noise)."
+ },
+ "opportunities": [
+  {
+   "type": "analyst",
+   "symbol": "PLTR",
+   "direction": "call",
+   "time": "09:31",
+   "action": "shadow",
+   "conviction": "yes",
+   "why": "Sniper (see sniper): Phillip Securities upgrade to Buy at 07:31, stock -1.2% pre-market against QQQ -1.4%, 42% under the median target. Confidence 0.25: small broker, AI name on a liquidation morning.",
+   "why_zh": "狙击（见上）：辉立证券 07:31 把 Palantir 上调到买入，盘前只跌 1.2%（纳指跌 1.4%），消息还没进价格。信心低：小券商，而且今天是 AI 抛售日。只记影子。"
+  },
+  {
+   "type": "analyst",
+   "symbol": "WMT",
+   "direction": "call",
+   "time": "10:00",
+   "action": "none",
+   "conviction": "maybe",
+   "why": "BNP raises its target to 144 from 137 (06:31); +1.1% pre-market with the defensive bid; consumer +11.7% on the month. Not the sniper: a target raise is the weaker class, the stock is 2% under the median target (132) and already up, and it reports Thursday. Last Monday the same idea made +0.9% from the open.",
+   "why_zh": "法巴把沃尔玛目标价从 137 提到 144，盘前 +1.1%，防守股今天有人买。没选它当狙击：只是上调目标价，股价已经贴着分析师目标中位数，而且周四财报。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "V",
+   "direction": "call",
+   "time": "10:00",
+   "action": "none",
+   "conviction": "maybe",
+   "why": "Visa is a launch partner of OpenAI's ChatGPT Wallet (Friday evening and Sunday); +0.5% pre-market, Mastercard +0.7%; 6% under the median target. Company news is the class that has not paid (10 snipers, 5 right).",
+   "why_zh": "Visa 是 OpenAI「ChatGPT 钱包」的首批合作方，盘前 +0.5%。公司消息这一类历史上不怎么准，所以只记不选。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "LLY",
+   "direction": "call",
+   "time": "10:00",
+   "action": "none",
+   "conviction": "maybe",
+   "why": "Lilly buys Calytrix Bio for up to $1.5B in cash and showed new obesity data at ObesityWeek on Saturday; +0.5% pre-market at a 52-week high; health +9.5% on the month. Above $1,000: a sample only.",
+   "why_zh": "礼来最多 15 亿美元现金收购 Calytrix，周六还公布了新的减肥药数据；盘前 +0.5%，在一年新高。股价过千，只能当样本。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "AVGO",
+   "direction": "call",
+   "time": "10:00",
+   "action": "none",
+   "conviction": "no",
+   "why": "ByteDance is developing an advanced AI processor with Broadcom and Coatue raised its stake (06:31-07:31), but AVGO is -4.2% pre-market with every chip. A control for good news against the day's tide.",
+   "why_zh": "字节跳动和博通合作开发 AI 芯片，Coatue 加仓，但博通盘前跟着芯片跌 4.2%。我不看好：好消息逆着当天的潮水，记下来当对照。"
+  },
+  {
+   "type": "gapdown_rebound",
+   "symbol": "AMD",
+   "direction": "call",
+   "time": "10:00",
+   "action": "none",
+   "conviction": "no",
+   "why": "Gap -5.7% after Friday's -8.75% with no news of its own; large-cap gaps of 5% or more close above the open about half the time. The day's one control past the 3% line; on Friday the same idea lost 1.1% from 10:00 because the sector was sold from the open.",
+   "why_zh": "AMD 周五跌 8.75% 之后今天再低开 5.7%，没有自己的坏消息。低开这么多的股票一半会收在开盘价上，但我不看好，只当对照：周五同样的想法就错了。"
+  }
+ ],
+ "generated_at": "2026-11-16T08:34:05-05:00",
+ "zh": {
+  "summary": "今早又是 AI 链抛售：08:31 标普 ETF 盘前 -0.7%，纳指 ETF -1.4%，半导体 ETF -4%（AMD -5.7%、美光 -6.3%、台积电 -4.9%、英伟达 -3.8%）。起因是亚洲芯片股昨夜大跌（台湾 -3.4%、韩国 -3.6%，日本设备股 -5% 到 -10%），加上财政部要求英伟达十天内解释对华芯片、英特尔被集体诉讼、存储芯片的降价警告。防守股有人买（沃尔玛、强生 +1.1%），道指期货持平，欧洲不跌。",
+  "spy": "不下注，收在开盘价上方的概率给 48%。缺口本身是一边倒的，但开盘之后不是：标普现在的价位和周五盘后一样，上周两次类似的低开都被买回来，而周五那次开盘就是最高点。利率今天没动（十年期 5.13%），中午 12 点联储主席讲话，明天盘后英伟达财报。",
+  "sniper": "Palantir 看涨（辉立证券 07:31 上调到买入）。盘前只跌 1.2%，比纳指少，离分析师目标中位数还有四成空间。信心 0.25：小券商的上调，又是 AI 股票撞上 AI 抛售日。10:00 如果它在开盘价下方就算错。只记影子，不下真单。",
+  "rotation": "上周芯片各环节反弹了 9% 到 13%，这两天正在吐回去；看一个月，钱去的是消费（+11.7%）、医疗（+9.5%）、必需消费和银行。今天没有真单可下：本周是月度期权到期周，开盘跟随三本账不做；英伟达明天财报，低开看跌那条机器人会拒绝。"
+ }
+}
