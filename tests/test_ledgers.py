@@ -645,6 +645,25 @@ class OpportunityScoreTest(unittest.TestCase):
         self.assertIn("；不看好，当对照）", notify.opportunity_lines([{"symbol": "AVGO", "direction": "put", "type": "analyst",
                                                               "why_zh": "下调评级", "conviction": "no"}])[0])
 
+    def test_the_1316_would_be_picks_keep_their_repeats(self):
+        from zoh.research import opportunities as opp
+
+        def row(time, sym, move, conviction, source="intraday", day="2026-11-16"):
+            return {"date": day, "time": time, "type": "sector_intraday", "symbol": sym, "direction": "put",
+                    "action": "none", "source": source, "entry_close_pct": str(move), "vs_spy_pct": "0.26",
+                    "best_after_entry_pct": "0.9", "conviction": conviction}
+        rows = [row("10:19", "MU", 0.52, "maybe"), row("13:17", "MU", 0.53, "yes"),       # repeats the morning idea
+                row("13:17", "AMD", 1.40, "yes", day="2026-11-17"), row("13:17", "TSM", 2.0, "maybe"),
+                row("12:10", "INTC", 3.0, "yes"), row("13:20", "NVDA", 1.5, "yes", source="premarket")]
+        late = opp.late_picks(rows)
+        self.assertEqual([(r["date"], r["symbol"]) for r in late], [("2026-11-16", "MU"), ("2026-11-17", "AMD")])
+        self.assertEqual([r["symbol"] for r in opp.ideas(rows) if r["symbol"] == "MU"], ["MU"])  # ideas() keeps the 10:19 one
+        text = opp.scoreboard(rows, small=1)
+        self.assertIn("## The 13:16 would-be picks (the comeback bar)", text)
+        self.assertIn("So far 2 logged, 1 went 1% further.", text)
+        self.assertIn("| 2026-11-16 | 13:17 | MU | put | +0.53% | +0.26% |", text)
+        self.assertNotIn("would-be picks", opp.scoreboard(rows[:1], small=1))
+
     def test_discord_lines_grade_and_compare(self):
         import csv as _csv
         from zoh import notify
