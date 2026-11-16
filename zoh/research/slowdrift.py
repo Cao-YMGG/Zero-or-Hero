@@ -15,14 +15,17 @@ entry, daily closes after). A contract with no trade on its exit day is valued a
 """
 import argparse
 import json
+import random
 import statistics
-from datetime import date, timedelta
+import time
+from datetime import date, datetime, timedelta
 
 from .. import journal
 from ..alpaca import Alpaca, AlpacaError
 from ..analyst import SYMBOLS
-from ..realopt import daily_raw, hhmm, implied_vol, occ, option_minutes
+from ..realopt import ET, START, daily_raw, hhmm, implied_vol, occ, option_minutes
 from ..strategy import bs_delta
+from . import exits
 from .verticals import option_daily
 
 DIR = journal.ROOT / "journal" / "research"
@@ -32,6 +35,17 @@ HORIZONS = (3, 5, 10)
 TARGETS = (0.60, 0.45, 0.30)
 WEEKS_OUT, LO, HI = 21, 12, 40          # calendar days to the expiry: nearest 21, between 12 and 40
 COSTS = (0.05, 0.10)
+CAP = 250                               # what half of a $500 ledger buys: one contract at $2.50 or less
+
+# Out of sample: large caps with listed weeklies that are NOT among the 25 names the drift was found on.
+WIDE = ["JPM", "GS", "BAC", "MS", "C", "WFC", "V", "MA", "AXP", "SCHW", "BLK", "COF", "PYPL", "HOOD", "SOFI",
+        "UNH", "LLY", "JNJ", "ABBV", "MRK", "PFE", "TMO", "ABT", "AMGN", "GILD", "BMY", "CVS", "ISRG", "MRNA",
+        "XOM", "CVX", "COP", "SLB", "OXY", "CAT", "GE", "HON", "DE", "RTX", "LMT", "BA", "UPS", "FDX", "GEV", "VST",
+        "WMT", "COST", "HD", "LOW", "TGT", "MCD", "NKE", "SBUX", "DIS", "ABNB", "BKNG", "DASH", "CMG", "LULU", "KO",
+        "PEP", "PG", "GM", "F", "RIVN", "NIO", "BABA", "PDD", "JD", "TSM", "ASML", "AMAT", "LRCX", "KLAC", "MRVL",
+        "TXN", "ADI", "ON", "NOW", "INTU", "PANW", "CRWD", "SNOW", "SHOP", "DELL", "IBM", "CSCO", "NET", "DDOG", "ZS",
+        "MDB", "TEAM", "WDAY", "RBLX", "ROKU", "SNAP", "PINS", "SPOT", "CVNA", "APP", "CIEN", "COHR", "MSTR", "T", "VZ"]
+WIDE_EVENTS, WIDE_DATA, WIDE_OUT = DIR / "slowdrift_wide_events.json", DIR / "slowdrift_wide.json", DIR / "SLOWDRIFT_WIDE.md"
 
 
 def trio(xs):
@@ -120,7 +134,7 @@ def one_event(api, ev, bars):
     if not exits:
         return None
     last = max(exits.values())
-    for expiry in fridays(day)[:3]:
+    for expiry in fridays(day):
         if expiry <= last:
             continue
         grid = {occ(sym, expiry, k, kind): k for k in strikes(spot_open)}
@@ -165,8 +179,45 @@ def one_event(api, ev, bars):
     return None
 
 
-def collect(api, log=print):
-    events = json.loads(EVENTS.read_text())
+def gather(api, symbols, path, deadline=None, log=print):
+    """Rating events for `symbols`, the same way exits.py found the first 25 names': a strict headline before
+    09:30 and the stock not against the rating at 09:32. Saved after every symbol, so a run resumes; stops
+    at `deadline` (time.time()) and says how far it got."""
+    saved = json.loads(path.read_text()) if path.exists() else {"done": [], "events": []}
+    end = datetime.now(ET).date() - timedelta(days=1)
+    for sym in symbols:
+        if sym in saved["done"]:
+            continue
+        if deadline and time.time() > deadline:
+            log(f"out of time after {len(saved['done'])} of {len(symbols)} symbols", flush=True)
+            break
+        try:
+            found = exits.rating_events(api, sym, START, end)
+        except AlpacaError as e:
+            log(f"{sym}: news failed ({e}), left for the next run", flush=True)
+            continue
+        kept = 0
+        for day, kind, head in found:
+            if not exits.STRICT.search(head):
+                continue
+            try:
+                bars, _ = exits.spot_at(api, sym, day, hhmm("09:32"))
+            except AlpacaError:
+                continue
+            b = exits.at_or_after(bars, hhmm("09:31"), 3) if bars else None
+            if not b or (1 if kind == "call" else -1) * (b["c"] / bars[0]["o"] - 1) < 0:
+                continue
+            saved["events"].append({"sym": sym, "day": day.isoformat(), "kind": kind, "spot": round(b["c"], 2),
+                                    "headline": head[:90]})
+            kept += 1
+        saved["done"].append(sym)
+        path.write_text(json.dumps(saved, indent=0) + "\n")
+        log(f"{sym}: {kept} events ({len(saved['done'])} of {len(symbols)} symbols)", flush=True)
+    return saved
+
+
+def collect(api, events=None, symbols=None, log=print):
+    events = json.loads(EVENTS.read_text()) if events is None else events
     syms = sorted({e["sym"] for e in events})
     first = min(date.fromisoformat(e["day"]) for e in events)
     end = date.today() - timedelta(days=1)
@@ -177,12 +228,12 @@ def collect(api, log=print):
         if r:
             rows.append(r)
             log(f"{ev['day']} {ev['sym']} {ev['kind']} expiry {r['expiry']} early {list(r['early'])}", flush=True)
-    return {"rows": rows, "events": len(events), "drift": drift(api, events)}
+    return {"rows": rows, "events": len(events), "drift": drift(api, events, symbols or SYMBOLS)}
 
 
-def drift(api, events):
+def drift(api, events, symbols=SYMBOLS):
     """Open of day 0 to the close of day +k, signed the rating's way, against the same stocks on other days."""
-    syms = sorted(set(SYMBOLS) | {"SPY"})
+    syms = sorted(set(symbols) | {"SPY"})
     bars = api.daily_bars_multi(syms, date(2024, 2, 1), date.today() - timedelta(days=1))
     B = {s: [(b["t"][:10], b["o"], b["c"]) for b in v] for s, v in bars.items()}
     idx = {s: {d: i for i, (d, _, _) in enumerate(v)} for s, v in B.items()}
@@ -208,18 +259,21 @@ def drift(api, events):
                     ex.append(s * (a - q))
             out[f"{label} | {k}"] = {"raw": raw, "excess": ex}
     for k in (0, 1, 3, 5, 10):
-        raw = [m for s in SYMBOLS for d in idx.get(s, {}) if (s, d) not in marked
+        raw = [m for s in symbols for d in idx.get(s, {}) if (s, d) not in marked
                for m in [move(s, d, k)] if m is not None]
         out[f"baseline | {k}"] = {"n": len(raw), "avg": statistics.mean(raw), "up": sum(x > 0 for x in raw) / len(raw)}
     return out
 
 
-def returns(rows, entry, label, horizon, cost, kind="call", since=None, vertical=False):
+def returns(rows, entry, label, horizon, cost, kind="call", since=None, vertical=False, cap=None):
+    """Returns of one structure; `cap` keeps the trades whose one contract cost at most that many dollars."""
     xs, floor = [], 0
     for r in rows:
         if r["kind"] != kind or (since and r["day"] < since):
             continue
         legs = r[entry]
+        if cap and not vertical and (label not in legs or legs[label]["px"] * 100 > cap):
+            continue
         h = str(horizon)
         if vertical:
             a, b = legs.get("d0.60"), legs.get("d0.30")
@@ -238,12 +292,13 @@ def returns(rows, entry, label, horizon, cost, kind="call", since=None, vertical
     return xs, floor
 
 
-def report(data):
+def report(data, title="The drift after a rating change, and the option that holds it", where=None):
     rows = json.loads(json.dumps(data["rows"]))        # horizons become string keys either way
     d = data["drift"]
     pct = lambda x, n=2: f"{x * 100:+.{n}f}%"
-    L = ["# The drift after a rating change, and the option that holds it", "",
-         f"{data['events']} rating headlines of two years on 25 large caps (journal/research/week46_upgrades.json: a strict "
+    where = where or "25 large caps (journal/research/week46_upgrades.json"
+    L = [f"# {title}", "",
+         f"{data['events']} rating headlines of two years on {where}: a strict "
          "'<firm> upgrades / downgrades <stock>' headline before 09:30, the stock not against the rating at 09:32). "
          "See zoh/research/slowdrift.py. `a / b / c` = average / without the best / without the best two.", "",
          "## 1. The stock, from the open of day 0, signed the rating's way", "",
@@ -273,21 +328,46 @@ def report(data):
                             fl = f if h == 5 else fl
                         L.append(f"| {ename} | {sname} | {cells[0]} | {cells[1]} | {cells[2]} | {fl} |")
                 L.append("")
+    calls = [r for r in rows if r["kind"] == "call"]
+    L += [f"## What one contract costs, and the trades a $500 ledger could hold (one contract at ${CAP} or less)", "",
+          "Upgrades, bought at the day-0 close, costs 5% each way.", "",
+          "| strike | median cost of one contract | trades at or under the cap | sold day +5: n / win / a / b / c | sold day +10 |",
+          "|---|---|---|---|---|"]
+    for label in ("d0.60", "d0.45", "d0.30"):
+        px = sorted(r["late"][label]["px"] * 100 for r in calls if label in r["late"])
+        if px:
+            L.append(f"| {label[1:]} delta | ${statistics.median(px):,.0f} | {sum(p <= CAP for p in px)} of {len(px)} | "
+                     f"{cell(returns(rows, 'late', label, 5, 0.05, cap=CAP)[0])} | {cell(returns(rows, 'late', label, 10, 0.05, cap=CAP)[0])} |")
     return "\n".join(L) + "\n"
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--report", action="store_true")
+    ap.add_argument("--wide", action="store_true", help="the out-of-sample universe (WIDE) instead of the first 25 names")
+    ap.add_argument("--budget", type=float, default=300, help="minutes of news paging before --wide moves on")
     a = ap.parse_args()
-    if a.report:
-        data = json.loads(DATA.read_text())
-    else:
-        data = collect(Alpaca())
-        DATA.write_text(json.dumps(data, indent=0, default=str) + "\n")
-        data = json.loads(DATA.read_text())
-    text = report(data)
-    OUT.write_text(text)
+    data_path, out = (WIDE_DATA, WIDE_OUT) if a.wide else (DATA, OUT)
+    extra = {}
+    if a.wide:
+        order = WIDE[:]
+        random.Random(46).shuffle(order)            # a run that stops early still holds a mix of sectors
+        extra = {"title": "The drift after a rating change, out of sample",
+                 "where": f"large caps outside the 25 the drift was found on ({len(WIDE)} names listed in slowdrift.WIDE"}
+    if not a.report:
+        api = Alpaca()
+        if a.wide:
+            saved = gather(api, order, WIDE_EVENTS, deadline=time.time() + a.budget * 60)
+            data = collect(api, saved["events"], saved["done"])
+            data["symbols_done"] = len(saved["done"])
+        else:
+            data = collect(api)
+        data_path.write_text(json.dumps(data, indent=0, default=str) + "\n")
+    data = json.loads(data_path.read_text())
+    if a.wide:
+        extra["where"] = extra["where"].replace("names listed", f"names listed, {data.get('symbols_done', '?')} read so far")
+    text = report(data, **extra)
+    out.write_text(text)
     print(text)
 
 

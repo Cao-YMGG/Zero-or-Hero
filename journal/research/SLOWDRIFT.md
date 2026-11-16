@@ -105,3 +105,12 @@
 | the day-0 close | 0.30 delta | 33 | 24% | -21% / -31% / -35% | 32 | 31% | -14% / -29% / -35% | 30 | 23% | -10% / -33% / -45% | 1 |
 | the day-0 close | 0.60 / 0.30 vertical | 33 | 0% | -40% / -41% / -42% | 32 | 9% | -41% / -43% / -45% | 30 | 20% | -40% / -42% / -45% | 3 |
 
+## What one contract costs, and the trades a $500 ledger could hold (one contract at $250 or less)
+
+Upgrades, bought at the day-0 close, costs 5% each way.
+
+| strike | median cost of one contract | trades at or under the cap | sold day +5: n / win / a / b / c | sold day +10 |
+|---|---|---|---|---|
+| 0.60 delta | $1,172 | 0 of 60 | 0 | - | - / - / - | 0 | - | - / - / - |
+| 0.45 delta | $814 | 2 of 60 | 2 | 0% | -85% / -91% / - | 2 | 0% | -97% / -98% / - |
+| 0.30 delta | $455 | 14 of 60 | 14 | 36% | +1% / -21% / -35% | 14 | 21% | -24% / -46% / -63% |
