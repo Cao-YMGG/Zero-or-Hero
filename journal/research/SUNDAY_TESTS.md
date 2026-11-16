@@ -597,6 +597,18 @@ in EVOLUTION.md.
    hour on Actions, outside market hours). Bar written before the run: if the carried result is negative without the
    best two over two years, rating_open is retired at the next weekly review whatever its live trades say (it will have
    three or four); if it is positive there too, it stays and the 25 names stop being quoted as its evidence.
+71. **The put mirror that is off at 11:21 and back on after noon (2026-11-16).** The 10:16 file wrote "no put if SMH is
+   back above its open" and at 11:22 it was (469.15 against 467.68, after a 462.19 low); the mirror stayed off. After
+   12:39 (CNBC: Nvidia's board is not considering Huang's return) SMH went back under its open and closed 461.90 (-1.45%
+   open to close); the 10:19 candidate MU went 735.60 at 11:22 -> 719.02 (-2.3%), the 13:17 would-be put 723.30 -> 719.02
+   (-0.6%). One day, so a test, not a rule. Question: on days the morning filed chips as cooling or turning and SMH was
+   below its open by 10:30, split by where SMH is at 11:20 (below its open / back above it) and ask how often SMH closes
+   below its open, and what a 0.2-delta same-day put on the weakest chip mega cap within 3% of its open makes from 11:20
+   and from 12:30 to the close (real option bars, 10% costs each way; last 3 months first, without the best one and two).
+   Bar, written before the run: if the "back above at 11:20" days close below the open on at least 55% and the 12:30 put
+   is positive without its best two over the last 3 months, the 11:21 check-in keeps a re-arm line for 12:30 and the
+   13:16 file scores it; otherwise the no-put line stays as written. Also counts toward the 13:16 comeback bar: the
+   would-be pick of 11-16 (MU put, conviction yes) went 0.6% its way, not 1% (1 of 10 logged, 0 held 1%).
 
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
