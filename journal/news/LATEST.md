@@ -1,4 +1,4 @@
-# Headlines since 2026-11-16 16:00 ET (as of 2026-11-17 13:46 ET)
+# Headlines since 2026-11-16 16:00 ET (as of 2026-11-17 14:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -8,6 +8,19 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-17 09:32 | GS | target up | Goldman Sachs Raises WPP Price Target, Maintains Sell Rating |
 | 11-17 08:02 | LITE | rating | B. Riley Adjusts Lumentum Price Target to $659 |
 | 11-16 20:01 | COST | target up | Evercore ISI Group Raises Costco Wholesale Price Target to $1,200 |
+| 11-17 14:02 | TSLA |  | Viking Global Investors Increases Stake in Tesla |
+| 11-17 14:02 | JPM |  | JPMorgan-Led Banks Reduce Borrowing Costs for CCC Intelligent Solutions Debt Deal |
+| 11-17 14:02 | VST |  | Bernstein Adjusts Price Target on Vistra to $182 |
+| 11-17 14:02 | MSFT |  | Microsoft Launches AI Transparency Initiative |
+| 11-17 14:02 | META |  | JPMorgan Blocks Meta's 'Muse' AI Agent from Customer Accounts |
+| 11-17 14:01 | CRDO |  | Credo Technology Shares Rise on Potential U.S. Ban on Chinese Optical Transceivers |
+| 11-17 14:01 | CIEN |  | Ciena and Internet2 Set Industry Record for Longest Terrestrial 800 Gb/s Coherent Pluggable Link |
+| 11-17 14:01 | COIN |  | Wirex Launches Tokenized Stocks Issued by Coinbase on Base Network |
+| 11-17 14:01 | CRM |  | Salesforce Shares Decline Amid Broader Tech Selloff |
+| 11-17 14:01 | BAC |  | Bank of America Releases 2026 Business Owner Report |
+| 11-17 14:01 | UNH |  | UnitedHealth Group Shares Decline Following Proposed Medicare Advantage Audit Framework |
+| 11-17 14:01 | AAPL |  | Apple Reportedly Nearing Long-Term DRAM Supply Agreement With Samsung |
+| 11-17 14:01 | LLY |  | Eli Lilly Expands Access to Obesity Care via Teladoc Health Partnership |
 | 11-17 11:03 | GE |  | Unison Named One of Newsweek's America's Greatest Workplaces in Manufacturing 2026 |
 | 11-17 11:01 | XOM |  | ExxonMobil Authorizes Saipem to Proceed with Longtail Project in Guyana |
 | 11-17 11:01 | LITE |  | Lumentum Shares Rise Amid Reports of Potential Chinese Import Restrictions |

@@ -1,7 +1,137 @@
 {
- "as_of": "2026-11-17T13:46-05:00",
+ "as_of": "2026-11-17T14:16-05:00",
  "since": "2026-11-16T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-17 14:02",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Viking Global Investors Increases Stake in Tesla",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/TSLA261106C350000-US?chain_id=Name1K9-3FXPhg.1lfo5sg&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2F151699427%22%7D"
+  },
+  {
+   "time": "11-17 14:02",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan-Led Banks Reduce Borrowing Costs for CCC Intelligent Solutions Debt Deal",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/jpmorgan-led-banks-cut-borrowing-costs-on-2-85-billion-debt-deal-for-ccc-intelligent-solutions-acqu-ce785edcda80f22c"
+  },
+  {
+   "time": "11-17 14:02",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "",
+   "headline": "Bernstein Adjusts Price Target on Vistra to $182",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/bernstein-adjusts-price-target-on-vistra-to-182-from-181-ce785edfd080f623"
+  },
+  {
+   "time": "11-17 14:02",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Launches AI Transparency Initiative",
+   "source": "fiscal.ai",
+   "url": "https://stockhouse.com/news/newswire/2026/11/17/microsoft-launches-ai-transparency-initiative-with-40-organisations"
+  },
+  {
+   "time": "11-17 14:02",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Blocks Meta's 'Muse' AI Agent from Customer Accounts",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8879129/you-dont-want-rogue-agents-jamie-dimon-shuts-metas-muse-ai-agent-out-of-jpmorgan-what-it-means-for-meta-stock"
+  },
+  {
+   "time": "11-17 14:01",
+   "symbols": [
+    "CRDO"
+   ],
+   "rating": "",
+   "headline": "Credo Technology Shares Rise on Potential U.S. Ban on Chinese Optical Transceivers",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/community/feed/credo-technology-crdo-us-increased-5-02-in-premarket-trading-117632328073222"
+  },
+  {
+   "time": "11-17 14:01",
+   "symbols": [
+    "CIEN"
+   ],
+   "rating": "",
+   "headline": "Ciena and Internet2 Set Industry Record for Longest Terrestrial 800 Gb/s Coherent Pluggable Link",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/press-releases/8876089/ciena-and-internet2-reach-industry-record-for-longest-terrestrial-800-gb-s-coherent-pluggable-link"
+  },
+  {
+   "time": "11-17 14:01",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Wirex Launches Tokenized Stocks Issued by Coinbase on Base Network",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/wirex-now-powers-tokenized-stocks-302942480.html"
+  },
+  {
+   "time": "11-17 14:01",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce Shares Decline Amid Broader Tech Selloff",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/2026111776/why-salesforces-stock-is-leading-sp-500-decliners-amid-tech-jitters"
+  },
+  {
+   "time": "11-17 14:01",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank of America Releases 2026 Business Owner Report",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/bank-of-america-study-business-owners-bet-on-growth-and-ai-despite-rising-costs-302941549.html"
+  },
+  {
+   "time": "11-17 14:01",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "UnitedHealth Group Shares Decline Following Proposed Medicare Advantage Audit Framework",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8878165/stocks-pressured-by-weakness-in-software-and-health-insurance-stocks"
+  },
+  {
+   "time": "11-17 14:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Reportedly Nearing Long-Term DRAM Supply Agreement With Samsung",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/k4cb19g/"
+  },
+  {
+   "time": "11-17 14:01",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly Expands Access to Obesity Care via Teladoc Health Partnership",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/17/3404602/0/en/teladoc-health-expands-comprehensive-weight-care-program-with-employer-contribution-option-for-glp-1-medications.html"
+  },
   {
    "time": "11-17 13:01",
    "symbols": [
