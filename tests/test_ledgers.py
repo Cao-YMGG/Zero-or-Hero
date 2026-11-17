@@ -550,7 +550,8 @@ class OpportunityScoreTest(unittest.TestCase):
         rows = [{"date": "2026-10-29", "time": "10:00", "type": "sector_move", "symbol": "XLF", "direction": "put",
                  "entry_close_pct": "0.50", "close": "49.75"},                       # scored at 15:48, not the close
                 {"date": "2026-10-29", "time": "10:00", "type": "analyst", "symbol": "V", "direction": "call",
-                 "entry_close_pct": "2.00", "spy_pct": "1.0", "vs_spy_pct": "1.0", "grade": "paid", "final": "1"},
+                 "entry_close_pct": "2.00", "spy_pct": "1.0", "vs_spy_pct": "1.0", "grade": "paid", "final": "1",
+                 "from_extreme_pct": "0.5"},                                        # final and filled: not read again
                 {"date": "2026-10-29", "time": "11:00", "type": "sector_move", "symbol": "XLF", "direction": "put",
                  "entry_close_pct": "0.10"}]
         opp.rescore(Api(), rows, today=date(2026, 11, 13))
@@ -644,6 +645,43 @@ class OpportunityScoreTest(unittest.TestCase):
         self.assertIn("不看好（当对照）的 2 个：够赚钱 100%", zh[-1])
         self.assertIn("；不看好，当对照）", notify.opportunity_lines([{"symbol": "AVGO", "direction": "put", "type": "analyst",
                                                               "why_zh": "下调评级", "conviction": "no"}])[0])
+
+    def test_from_extreme_says_how_far_the_idea_was_from_the_days_best_price(self):
+        from zoh.research import opportunities as opp
+
+        def bar(hhmm, o, h, l, c):
+            return {"t": f"2026-11-17T{hhmm}:00-05:00", "o": o, "h": h, "l": l, "c": c}
+        bars = [bar("09:30", 100, 101, 99.5, 100.5), bar("09:31", 100.5, 102, 100, 101.8),
+                bar("10:17", 101.8, 102, 101.5, 101.9), bar("15:59", 101, 101.2, 100.8, 101)]
+        self.assertEqual(opp.from_extreme(bars, "10:17", "call"), 0.2)      # 102 high before, entry 101.8
+        self.assertEqual(opp.from_extreme(bars, "10:17", "put"), 2.26)      # 99.5 low before
+        self.assertEqual(opp.from_extreme(bars, "09:30", "call"), opp.NO_BARS)
+        s = opp.score(bars, "10:17", "call")
+        self.assertEqual(s["from_extreme_pct"], 0.2)
+
+        def row(sym, extreme, move):
+            return {"date": "2026-11-17", "time": "10:17", "type": "analyst", "symbol": sym, "direction": "call",
+                    "action": "none", "source": "intraday", "entry_close_pct": str(move), "vs_spy_pct": "0",
+                    "best_after_entry_pct": "0", "conviction": "maybe", "from_extreme_pct": extreme}
+        text = opp.scoreboard([row("COST", "0.1", -1.0), row("AVGO", "1.6", 1.2), row("CSCO", "first", -1.3),
+                               row("MDT", "", -0.9)], small=1)
+        self.assertIn("| at the day's extreme (under 0.25%) | 1 | 0% |", text)
+        self.assertIn("| 1% or more from it | 1 | 100% |", text)
+        self.assertIn("| listed in the first minute | 1 |", text)
+
+    def test_rescore_fills_the_new_column_on_final_rows_without_rescoring_them(self):
+        from zoh.research import opportunities as opp
+
+        class Api:
+            def stock_bars(self, symbol, start, end, feed="iex"):
+                return [{"t": "2026-11-13T14:30:00Z", "o": 100, "h": 103, "l": 99, "c": 101},
+                        {"t": "2026-11-13T15:17:00Z", "o": 102, "h": 102.5, "l": 101, "c": 102},
+                        {"t": "2026-11-13T20:59:00Z", "o": 90, "h": 90, "l": 90, "c": 90}]
+        rows = [{"date": "2026-11-13", "time": "10:17", "symbol": "AMD", "direction": "call", "final": "1",
+                 "entry_close_pct": "2.10", "grade": "paid"}]
+        opp.rescore(Api(), rows, today=date(2026, 11, 14))
+        self.assertEqual(rows[0]["from_extreme_pct"], 0.98)                # 103 high before 10:17, entry 102
+        self.assertEqual((rows[0]["entry_close_pct"], rows[0]["grade"]), ("2.10", "paid"))   # final row kept
 
     def test_the_1316_would_be_picks_keep_their_repeats(self):
         from zoh.research import opportunities as opp

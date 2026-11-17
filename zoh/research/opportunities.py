@@ -37,7 +37,12 @@ CSV_PATH = journal.JOURNAL_DIR / "opportunities.csv"
 BOARD_PATH = journal.JOURNAL_DIR / "research" / "OPPORTUNITY_SCORES.md"
 FIELDS = ["date", "time", "type", "symbol", "direction", "action", "source", "open", "entry",
           "close", "open_close_pct", "entry_close_pct", "best_after_entry_pct", "why",
-          "spy_pct", "vs_spy_pct", "grade", "repeat", "final", "conviction"]
+          "spy_pct", "vs_spy_pct", "grade", "repeat", "final", "conviction", "from_extreme_pct"]
+# from_extreme_pct (2026-11-17): how far the stock was from the day's best price so far, the idea's way, when
+# the idea was listed: a call's distance under the session high before its time, a put's above the low; 0 = listed
+# at the extreme; NO_BARS when it was listed in the first minute. The post-mortems' top cause is `chased` (7 of 25
+# on 11-17) and the 11-17 wrong ideas were listed at the day's high (CSCO at 09:31, COST at 10:17).
+NO_BARS = "first"
 # Since 2026-11-13 (owner: "the scoring could be better"). Before, a row was right when the stock
 # closed a cent the idea's way: 56% of 205 rows were "right" and only 29% moved the 1% a same-day
 # option needs; every put looked right on a down day; 43 rows were the same idea listed again at a
@@ -157,6 +162,19 @@ def _after(bars, entry_hhmm):
             .astimezone(ET).time() >= time(h, m)]
 
 
+def from_extreme(bars, entry_hhmm, direction):
+    """Distance in % from the session's best price before `entry_hhmm`, the idea's way, to the entry price
+    (the open of the first bar at or after it): >= 0, 0 = at the high for a call or the low for a put."""
+    after = _after(bars or [], entry_hhmm)
+    before = bars[:len(bars) - len(after)] if after else []
+    if not after or not before:
+        return NO_BARS
+    entry = after[0]["o"]
+    if direction == "call":
+        return round(max(0.0, (max(b["h"] for b in before) / entry - 1) * 100), 2)
+    return round(max(0.0, (1 - min(b["l"] for b in before) / entry) * 100), 2)
+
+
 def window_pct(bars, entry_hhmm):
     """Plain move, in %, from the first bar at or after the entry time to the last close."""
     after = _after(bars or [], entry_hhmm)
@@ -184,7 +202,8 @@ def score(bars, entry_hhmm, direction, spy_bars=None, closed=True):
     out = {"open": round(open_, 2), "entry": round(entry, 2), "close": round(close, 2),
            "open_close_pct": round(sign * (close / open_ - 1) * 100, 2),
            "entry_close_pct": round(sign * (close / entry - 1) * 100, 2),
-           "best_after_entry_pct": round(sign * (best / entry - 1) * 100, 2)}
+           "best_after_entry_pct": round(sign * (best / entry - 1) * 100, 2),
+           "from_extreme_pct": from_extreme(bars, entry_hhmm, direction)}
     out["grade"] = grade_of(out["entry_close_pct"])
     last = datetime.fromisoformat(bars[-1]["t"].replace("Z", "+00:00")).astimezone(ET).time()
     out["final"] = "1" if closed and last >= FINAL_FROM else "0"
@@ -253,6 +272,10 @@ def rescore(api, rows, today=None, now=None):
         return cache[(symbol, day)]
     for r in rows:
         if r.get("final") == "1":
+            if r.get("from_extreme_pct") in (None, ""):      # the 11-17 column, filled once on old rows
+                b = bars(r["symbol"], r["date"])
+                if b:
+                    r["from_extreme_pct"] = from_extreme(b, r["time"], r["direction"])
             continue
         new = score(bars(r["symbol"], r["date"]), r["time"], r["direction"], bars("SPY", r["date"]),
                     closed=session_over(datetime.fromisoformat(r["date"]).date(), now))
@@ -421,6 +444,22 @@ def scoreboard(rows, small=3, reviews=()):
         out += ["", f"## {title}", ""] + HEAD
         for k, s in sorted(board(rows, key).items(), key=lambda kv: -kv[1]["n"]):
             out.append(_line(k or ("not stated" if key == "conviction" else "-"), s))
+    near = {}
+    for r in one:
+        v = r.get("from_extreme_pct")
+        if v in (None, ""):
+            continue
+        key = ("listed in the first minute" if v == NO_BARS else "at the day's extreme (under 0.25%)" if float(v) < 0.25
+               else "0.25% to 1% from it" if float(v) < 1 else "1% or more from it")
+        near.setdefault(key, []).append(r)
+    if near:
+        out += ["", "## By distance from the day's best price when listed (since 2026-11-17)", "",
+                "How far the stock was from its session high (a call) or low (a put) before the listed time: an idea listed "
+                "at the extreme is one the day's move has already been made for (the post-mortems' top cause is `chased`).",
+                ""] + HEAD
+        for k in ("listed in the first minute", "at the day's extreme (under 0.25%)", "0.25% to 1% from it", "1% or more from it"):
+            if k in near:
+                out.append(_line(k, stats(near[k])))
     late = late_picks(rows)
     if late:
         held = sum(float(r["entry_close_pct"]) >= PAID for r in late)
