@@ -6,31 +6,31 @@
 
 | group | ideas | right | paid (>= +1%) | avg move | avg w/o best | avg vs SPY | beat SPY |
 |---|---|---|---|---|---|---|---|
-| all ideas | 201 | 51% | 27% | -0.00% | -0.04% | +0.03% | 49% |
+| all ideas | 201 | 52% | 27% | -0.00% | -0.04% | +0.04% | 49% |
 
 ## By source
 
 | group | ideas | right | paid (>= +1%) | avg move | avg w/o best | avg vs SPY | beat SPY |
 |---|---|---|---|---|---|---|---|
-| premarket | 100 | 53% | 32% | +0.21% | +0.14% | +0.19% | 54% |
-| intraday | 84 | 46% | 19% | -0.26% | -0.32% | -0.20% | 40% |
-| sniper | 11 | 64% | 45% | +0.08% | -0.26% | +0.52% | 64% |
+| premarket | 100 | 54% | 32% | +0.23% | +0.15% | +0.21% | 55% |
+| intraday | 84 | 46% | 19% | -0.28% | -0.33% | -0.21% | 40% |
+| sniper | 11 | 64% | 45% | +0.11% | -0.23% | +0.53% | 64% |
 | review | 6 | 67% | 17% | -0.15% | -0.40% | -0.21% | 50% |
 
 ## By direction
 
 | group | ideas | right | paid (>= +1%) | avg move | avg w/o best | avg vs SPY | beat SPY |
 |---|---|---|---|---|---|---|---|
-| call | 116 | 47% | 24% | -0.15% | -0.21% | +0.10% | 47% |
-| put | 85 | 56% | 31% | +0.19% | +0.11% | -0.05% | 51% |
+| call | 116 | 48% | 25% | -0.13% | -0.19% | +0.11% | 48% |
+| put | 85 | 56% | 29% | +0.17% | +0.08% | -0.06% | 51% |
 
 ## By action (picked or only listed)
 
 | group | ideas | right | paid (>= +1%) | avg move | avg w/o best | avg vs SPY | beat SPY |
 |---|---|---|---|---|---|---|---|
-| none | 184 | 51% | 27% | +0.02% | -0.02% | +0.02% | 48% |
+| none | 184 | 52% | 27% | +0.02% | -0.02% | +0.02% | 48% |
 | real | 10 | 50% | 30% | -0.33% | -0.64% | +0.16% | 60% |
-| shadow | 6 | 50% | 33% | -0.17% | -0.90% | +0.14% | 50% |
+| shadow | 6 | 50% | 33% | -0.12% | -0.84% | +0.16% | 50% |
 | bot | 1 | 100% | 0% | +0.10% | - | +0.76% | 100% |
 
 ## By conviction (what I thought when I listed it; stated since 2026-11-13)
@@ -38,9 +38,9 @@
 | group | ideas | right | paid (>= +1%) | avg move | avg w/o best | avg vs SPY | beat SPY |
 |---|---|---|---|---|---|---|---|
 | not stated | 155 | 54% | 28% | +0.10% | +0.05% | +0.08% | 48% |
-| no | 21 | 43% | 24% | -0.44% | -0.61% | -0.38% | 43% |
-| yes | 16 | 50% | 31% | -0.27% | -0.52% | +0.15% | 56% |
-| maybe | 9 | 33% | 0% | -0.31% | -0.46% | +0.03% | 56% |
+| no | 21 | 48% | 24% | -0.43% | -0.60% | -0.34% | 48% |
+| yes | 16 | 50% | 31% | -0.25% | -0.50% | +0.16% | 56% |
+| maybe | 9 | 33% | 0% | -0.33% | -0.49% | -0.01% | 56% |
 
 ## The 13:16 would-be picks (the comeback bar)
 
@@ -54,19 +54,19 @@ No pick at the 13:16 check-in since 2026-11-16 (CLAUDE.md); the file lists what 
 
 | group | ideas | right | paid (>= +1%) | avg move | avg w/o best | avg vs SPY | beat SPY |
 |---|---|---|---|---|---|---|---|
-| company_news | 52 | 54% | 33% | -0.19% | -0.34% | -0.06% | 54% |
+| company_news | 52 | 54% | 33% | -0.19% | -0.34% | -0.05% | 54% |
 | sector_move | 22 | 45% | 9% | -0.36% | -0.46% | -0.14% | 27% |
-| analyst | 19 | 63% | 37% | +0.97% | +0.61% | +0.97% | 68% |
-| sector_intraday | 16 | 62% | 44% | +0.46% | +0.22% | +0.13% | 56% |
+| analyst | 19 | 63% | 37% | +0.96% | +0.60% | +0.93% | 68% |
+| sector_intraday | 16 | 62% | 38% | +0.34% | +0.09% | +0.05% | 56% |
 | relative_weakness | 15 | 40% | 13% | -0.51% | -0.63% | -0.48% | 40% |
 | gapdown_rebound | 10 | 40% | 10% | -0.73% | -0.94% | -0.35% | 30% |
 | rotation_laggard | 9 | 33% | 11% | -1.38% | -1.83% | -0.59% | 33% |
 | peer_readthrough | 9 | 44% | 44% | +1.35% | +0.59% | +0.93% | 56% |
-| sympathy | 9 | 56% | 33% | +0.12% | -0.15% | +0.16% | 44% |
+| sympathy | 9 | 67% | 33% | +0.31% | +0.06% | +0.33% | 56% |
 | financing_fade | 8 | 62% | 38% | +0.53% | +0.22% | -0.13% | 50% |
 | sell_the_news | 6 | 50% | 17% | -1.64% | -2.87% | -1.67% | 50% |
-| earnings_reaction | 6 | 83% | 33% | +1.70% | +0.89% | +1.13% | 67% |
-| relative_strength | 5 | 80% | 20% | +0.49% | +0.18% | +0.01% | 40% |
+| earnings_reaction | 6 | 83% | 33% | +1.72% | +0.92% | +1.18% | 67% |
+| relative_strength | 5 | 80% | 40% | +0.65% | +0.38% | +0.13% | 40% |
 | ma_acquirer | 3 | 67% | 33% | +2.47% | +0.29% | +2.17% | 67% |
 | news_heating | 3 | 0% | 0% | -0.64% | -0.92% | +0.08% | 67% |
 | other types (fewer than 3 ideas each) | 9 | 22% | 22% | -0.81% | -1.23% | -0.42% | 44% |
@@ -75,23 +75,23 @@ No pick at the 13:16 check-in since 2026-11-16 (CLAUDE.md); the file lists what 
 
 | group | ideas | right | paid (>= +1%) | avg move | avg w/o best | avg vs SPY | beat SPY |
 |---|---|---|---|---|---|---|---|
-| company_news | 51 | 53% | 31% | -0.21% | -0.36% | -0.08% | 53% |
+| company_news | 51 | 53% | 31% | -0.22% | -0.37% | -0.08% | 53% |
 | sector_move | 21 | 48% | 10% | -0.31% | -0.41% | -0.09% | 29% |
-| analyst | 17 | 59% | 41% | +1.00% | +0.59% | +0.96% | 65% |
+| analyst | 17 | 59% | 41% | +1.00% | +0.59% | +0.91% | 65% |
 | relative_weakness | 15 | 40% | 13% | -0.51% | -0.63% | -0.48% | 40% |
-| sector_intraday | 13 | 62% | 46% | +0.56% | +0.27% | +0.11% | 54% |
-| sympathy | 9 | 56% | 33% | +0.12% | -0.15% | +0.16% | 44% |
-| earnings_reaction | 5 | 100% | 40% | +2.07% | +1.15% | +1.36% | 80% |
+| sector_intraday | 13 | 62% | 38% | +0.41% | +0.11% | +0.02% | 54% |
+| sympathy | 9 | 67% | 33% | +0.31% | +0.06% | +0.33% | 56% |
+| earnings_reaction | 5 | 100% | 40% | +2.09% | +1.18% | +1.43% | 80% |
 | peer_readthrough | 5 | 80% | 80% | +3.09% | +2.01% | +2.12% | 80% |
 | rotation_laggard | 5 | 20% | 20% | -1.74% | -2.74% | -0.62% | 20% |
 | sell_the_news | 5 | 40% | 20% | -2.09% | -3.74% | -2.14% | 40% |
-| relative_strength | 5 | 80% | 20% | +0.49% | +0.18% | +0.01% | 40% |
+| relative_strength | 5 | 80% | 40% | +0.65% | +0.38% | +0.13% | 40% |
 | gapdown_rebound | 3 | 0% | 0% | -1.29% | -1.71% | -0.99% | 0% |
 | other types (fewer than 3 ideas each) | 8 | 38% | 25% | -0.39% | -0.82% | -0.62% | 38% |
 
 ## Why the wrong ones were wrong
 
-20 of 98 wrong ideas have a post-mortem (journal/opportunity_reviews.csv, written each evening since 2026-11-13). One cause each; a cause that keeps coming back is a habit to change.
+20 of 97 wrong ideas have a post-mortem (journal/opportunity_reviews.csv, written each evening since 2026-11-13). One cause each; a cause that keeps coming back is a habit to change.
 
 | cause | 中文 | wrong ideas | share | avg move | types it shows up in |
 |---|---|---|---|---|---|
