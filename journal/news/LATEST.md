@@ -1,4 +1,4 @@
-# Headlines since 2026-11-16 16:00 ET (as of 2026-11-17 14:46 ET)
+# Headlines since 2026-11-16 16:00 ET (as of 2026-11-17 15:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -8,6 +8,12 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-17 09:32 | GS | target up | Goldman Sachs Raises WPP Price Target, Maintains Sell Rating |
 | 11-17 08:02 | LITE | rating | B. Riley Adjusts Lumentum Price Target to $659 |
 | 11-16 20:01 | COST | target up | Evercore ISI Group Raises Costco Wholesale Price Target to $1,200 |
+| 11-17 15:02 | CRM |  | Salesforce and Microsoft Announce Copilotforce Partnership |
+| 11-17 15:01 | AMD |  | AMD Gains Market Momentum Amid Nvidia Leadership Transition |
+| 11-17 15:01 | META |  | Meta Testing Standalone Messaging App 'Direct' |
+| 11-17 15:01 | AAPL |  | Apple Reports Widespread Internal and Consumer Service Outages |
+| 11-17 15:01 | V |  | Visa Releases Fall 2026 Biannual Threats Report on AI-Enabled Fraud |
+| 11-17 15:01 | AVGO |  | Broadcom to Invest $1 Billion in Anthropic IPO |
 | 11-17 14:02 | TSLA |  | Viking Global Investors Increases Stake in Tesla |
 | 11-17 14:02 | JPM |  | JPMorgan-Led Banks Reduce Borrowing Costs for CCC Intelligent Solutions Debt Deal |
 | 11-17 14:02 | VST |  | Bernstein Adjusts Price Target on Vistra to $182 |

@@ -1,7 +1,67 @@
 {
- "as_of": "2026-11-17T14:46-05:00",
+ "as_of": "2026-11-17T15:16-05:00",
  "since": "2026-11-16T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-17 15:02",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce and Microsoft Announce Copilotforce Partnership",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/salesforce-microsoft-launch-copilotforce-partnership-ce785edcdd80f227"
+  },
+  {
+   "time": "11-17 15:01",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD Gains Market Momentum Amid Nvidia Leadership Transition",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8881290/nvidias-leadership-crisis-could-be-a-major-opportunity-for-amd-stock"
+  },
+  {
+   "time": "11-17 15:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Testing Standalone Messaging App 'Direct'",
+   "source": "fiscal.ai",
+   "url": "https://newscord.org/article/meta-tests-direct-standalone-instagram-messaging-app-without-account-in-thailand--Story_20261117_MetalaunchesDirectas387ae1a0"
+  },
+  {
+   "time": "11-17 15:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Reports Widespread Internal and Consumer Service Outages",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/lu3evxk/"
+  },
+  {
+   "time": "11-17 15:01",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Releases Fall 2026 Biannual Threats Report on AI-Enabled Fraud",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/press-releases/8878703/visa-report-ai-enabled-fraud-and-third-party-attacks-are-scaling-worldwide"
+  },
+  {
+   "time": "11-17 15:01",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "",
+   "headline": "Broadcom to Invest $1 Billion in Anthropic IPO",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/2026111767/if-you-own-a-nasdaq-100-fund-youll-own-anthropic-shares-after-15-trading-days-whether-you-want-to-or-not"
+  },
   {
    "time": "11-17 14:02",
    "symbols": [
