@@ -1,7 +1,47 @@
 {
- "as_of": "2026-11-17T07:41-05:00",
+ "as_of": "2026-11-17T08:32-05:00",
  "since": "2026-11-16T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-17 08:02",
+   "symbols": [
+    "LITE"
+   ],
+   "rating": "rating",
+   "headline": "B. Riley Adjusts Lumentum Price Target to $659",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/b-riley-adjusts-pt-on-lumentum-to-659-from-770-keeps-neutral-rating-ce785edcd88cf627"
+  },
+  {
+   "time": "11-17 08:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta, Amazon, and Google Lobbying Fails to Stop China Data Center Curbs",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/amazon-google-meta-lobbying-fails-to-stop-trump-from-pursuing-china-data-center-curbs-ce785edcd88df327"
+  },
+  {
+   "time": "11-17 08:01",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova Announces SF6-Free Technology for Space-Constrained High-Voltage Substations",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/ja/news/flash/1004860615/ge-vernova-launches-sf6-free-compact-switchgear-for-space-constrained"
+  },
+  {
+   "time": "11-17 08:01",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Coda and Visa Partner to Enhance Gaming Commerce in Southeast Asia",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/apac/news-releases/coda-and-visa-partner-to-deliver-seamless-and-trusted-gaming-commerce-across-southeast-asia-302942078.html"
+  },
   {
    "time": "11-17 07:33",
    "symbols": [
