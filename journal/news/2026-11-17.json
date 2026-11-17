@@ -1,7 +1,17 @@
 {
- "as_of": "2026-11-17T16:19-05:00",
+ "as_of": "2026-11-17T16:40-05:00",
  "since": "2026-11-16T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-17 16:31",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Oxide Computer Company Integrates Micron Data Center Memory and Storage",
+   "source": "fiscal.ai",
+   "url": "https://www.finanznachrichten.de/nachrichten-aktien/micron-technology-inc.htm"
+  },
   {
    "time": "11-17 15:02",
    "symbols": [
