@@ -54,6 +54,18 @@
    "conviction": "no",
    "why": "The only chip mega cap up from its open (335.99 -> 338.00, +0.6%; +1.4% on the day) while SMH is -1.5%; no news of its own. Relative strength is not a catalyst; listed as a control.",
    "why_zh": "芯片大盘股里唯一比开盘高的（博通 +0.6%，当天 +1.4%），半导体 ETF 却跌了 1.5%；没有自己的消息。相对强势不是理由，记成对照。"
+  },
+  {
+   "type": "sector_intraday",
+   "symbol": "INTC",
+   "direction": "put",
+   "time": "11:23",
+   "action": "none",
+   "conviction": "no",
+   "why": "The only chip mega cap below its open and still within 3% of it (55.155 -> 54.01, -2.1%; low 52.42) while SMH is -2.0%; not named in the 10:17 conditional and no news of its own since the bell (the class action and Nvidia's stake cut are older). Listed to score the mirror's next-in-line name.",
+   "why_zh": "芯片大盘股里唯一还没跌过 3% 线的（英特尔比开盘低 2.1%），半导体 ETF 比开盘低 2%。不选：早上写好的条件里没有它，开盘后也没有它自己的新消息（集体诉讼、英伟达减持都是旧闻）。记下来看看「排在后面的那一只」表现如何。"
   }
- ]
+ ],
+ "check_1121": "11:23 ET: no pick. The selling widened after 10:17 and bottomed before 11:00: SPY 731.92 (-0.89% from its 738.49 open, -1.09% on the day, low 727.00), QQQ 653.84 (-1.33%, low 646.65), IWM -1.0%, XLF -0.9%, XLV -0.1%, TLT +0.4% from its open (bonds bid: risk-off, not rates). Software is the center: IGV -3.2% from its open, CRM 209.13 -> 194.69 (-6.9%, -9.4% on the day), NOW -5.5% (-6.9% day), ORCL -3.4%, and MSFT 514.00 -> 500.01 (-2.7%, -3.5% day) on its own Ignite day. Reports cite slow AI monetization and tighter IT budgets; no single headline found (Benzinga, Webull, web). Chips: SMH 465.63 -> 456.18 (-2.0% from its open, low 445.32), MU -5.0% (low 666.88), MRVL -3.4%, AMD 511.00 -> 494.19 (-3.3%), TSM 372.03 -> 359.86 (-3.3%), INTC -2.1%, NVDA -1.1% (low 150.33, reports tonight); AVGO is the one chip name up from its open (+0.5%). The put mirror's sector condition holds (SMH under 458.46, its 10:17 price) but both written names are past the 3% line (TSM under 360.87, AMD under 495.67), so by the 10:17 conditional there is no pick; INTC was not named and has no news of its own since the bell. Same shape as 11-13: the selling outran the line before the check. Scored as samples from here: TSM 359.86, AMD 494.19, SMH 456.18. The 10:17 rows so far: TSM put 363.23 -> 359.86 (-0.9% its way), ORCL put 116.12 -> 114.88 (-1.1% its way, a 'no'), CRM put (control) 199.15 -> 194.69 (-2.2% its way), COST call 1121.19 -> 1114.34 (-0.6% against), AVGO call 338.00 -> 337.51 (flat). A Benzinga item at 11:01, 'Walmart Reports Q3 Performance and Raises Fiscal 2027 Outlook', is not a report (WMT reports Thursday and trades -0.8% with no reaction): read as a mislabeled summary, not news.",
+ "conditional_1316": "13:16 makes no pick (rule since 11-16); it lists what it would have picked with conviction yes and scores the 10:17 and 11:23 rows. What decides the afternoon: whether SPY holds above 727.00 (the morning low) and SMH above 445.32 into NVDA's report; a would-be pick needs news that breaks in the session on a name within 3% of its open. No calls on software or chips on a bounce; puts only with a new headline."
 }
