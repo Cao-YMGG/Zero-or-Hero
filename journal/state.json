@@ -1,18 +1,9 @@
 {
-  "date": "2026-11-16",
-  "done": true,
+  "date": "2026-11-17",
+  "done": false,
   "variants": {
     "claude_bias": {},
-    "meta_follow2": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "leader_follow": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
+    "meta_follow2": {},
     "nvda_gapdown_put": {},
     "catalyst_open": {},
     "catalyst_open_hero": {},

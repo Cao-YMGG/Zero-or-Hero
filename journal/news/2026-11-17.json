@@ -1,7 +1,97 @@
 {
- "as_of": "2026-11-17T08:32-05:00",
+ "as_of": "2026-11-17T10:02-05:00",
  "since": "2026-11-16T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-17 09:32",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "target up",
+   "headline": "Goldman Sachs Raises WPP Price Target, Maintains Sell Rating",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-raises-wpp-pt-affirms-sell-rating-ce785edcdb88f321"
+  },
+  {
+   "time": "11-17 09:32",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "Aegis Critical Energy Defence Corp. Announces Strategic Partnership with GE Vernova and SK On",
+   "source": "fiscal.ai",
+   "url": "https://www.newsfilecorp.com/release/324409/Aegis-Congratulates-SEETEL-on-GE-Vernova-and-SK-On-Partnership-and-Receives-First-Payment-on-14-Unit-GGV-Energy-Order"
+  },
+  {
+   "time": "11-17 09:32",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "Homer City Generation Completes Delivery of First Two GE Vernova 7HA.02 Turbines",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/energy/oil-gas"
+  },
+  {
+   "time": "11-17 09:32",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Expands Grocery Delivery to Include Prepared Meals",
+   "source": "fiscal.ai",
+   "url": "https://stockhouse.com/news/newswire/2026/11/17/amazon-adds-prepared-meals-to-same-day-grocery-delivery"
+  },
+  {
+   "time": "11-17 09:31",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Chevron Technical Center Enters Three-Year Commercial Agreement with UptimeAI",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.com/news/chevron-signs-3-year-agreement-with-uptimeai-scaling-expertise-to-22887761"
+  },
+  {
+   "time": "11-17 09:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Commences Ignite 2026 Conference",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/17/3404380/0/en/microsoft-selects-haivision-video-contribution-ecosystem-and-makito-one-video-transport-platform-to-power-global-live-event-productions.html"
+  },
+  {
+   "time": "11-17 09:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Announces CFO Transition",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/dow-jones/202611174825/jpmorgan-chase-names-bregje-de-best-to-succeed-jeremy-barnum-as-chief-financial-officer-2nd-update"
+  },
+  {
+   "time": "11-17 09:31",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Lilly Announces New Office Location in Florence, Italy",
+   "source": "fiscal.ai",
+   "url": "https://www.milanofinanza.it/news/lilly-porta-in-manifattura-tabacchi-un-nuovo-modo-di-lavorare-insieme-202611171456583790"
+  },
+  {
+   "time": "11-17 09:01",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "",
+   "headline": "Kratos Defense & Security Solutions Enters Long-Term Agreement with Seagate Space",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1004164702/kratos-teams-up-with-seagate-space-for-offshore-launch-project"
+  },
   {
    "time": "11-17 08:02",
    "symbols": [

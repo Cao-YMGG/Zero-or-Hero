@@ -1,11 +1,20 @@
-# Headlines since 2026-11-16 16:00 ET (as of 2026-11-17 08:32 ET)
+# Headlines since 2026-11-16 16:00 ET (as of 2026-11-17 10:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-17 09:32 | GS | target up | Goldman Sachs Raises WPP Price Target, Maintains Sell Rating |
 | 11-17 08:02 | LITE | rating | B. Riley Adjusts Lumentum Price Target to $659 |
 | 11-16 20:01 | COST | target up | Evercore ISI Group Raises Costco Wholesale Price Target to $1,200 |
+| 11-17 09:32 | GEV |  | Aegis Critical Energy Defence Corp. Announces Strategic Partnership with GE Vernova and SK On |
+| 11-17 09:32 | GEV |  | Homer City Generation Completes Delivery of First Two GE Vernova 7HA.02 Turbines |
+| 11-17 09:32 | AMZN |  | Amazon Expands Grocery Delivery to Include Prepared Meals |
+| 11-17 09:31 | CVX |  | Chevron Technical Center Enters Three-Year Commercial Agreement with UptimeAI |
+| 11-17 09:31 | MSFT |  | Microsoft Commences Ignite 2026 Conference |
+| 11-17 09:31 | JPM |  | JPMorgan Chase Announces CFO Transition |
+| 11-17 09:31 | LLY |  | Lilly Announces New Office Location in Florence, Italy |
+| 11-17 09:01 | STX |  | Kratos Defense & Security Solutions Enters Long-Term Agreement with Seagate Space |
 | 11-17 08:01 | META |  | Meta, Amazon, and Google Lobbying Fails to Stop China Data Center Curbs |
 | 11-17 08:01 | GEV |  | GE Vernova Announces SF6-Free Technology for Space-Constrained High-Voltage Substations |
 | 11-17 08:01 | V |  | Coda and Visa Partner to Enhance Gaming Commerce in Southeast Asia |
