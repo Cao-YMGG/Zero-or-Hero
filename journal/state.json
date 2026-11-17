@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "done": false,
+  "done": true,
   "variants": {
     "claude_bias": {},
     "meta_follow2": {},
