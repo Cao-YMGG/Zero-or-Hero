@@ -1,0 +1,446 @@
+{
+ "as_of": "2026-11-17T07:41-05:00",
+ "since": "2026-11-16T16:00-05:00",
+ "headlines": [
+  {
+   "time": "11-17 07:33",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Elon Musk Hints at Robotaxi Expansion for Model Y Owners",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/TSLA261106C350000-US?chain_id=Name1K9-3FXPhg.1lfo5sg&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2F151699427%22%7D"
+  },
+  {
+   "time": "11-17 07:32",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "Senator Elizabeth Warren Calls for Breakup of Healthcare Conglomerates Including UnitedHealth",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/BK2999?chain_id=Name1K9-3FXPhg.1lfo9d0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A107%2C%22f%22%3A%22www.moomoo.com%2Fetfs%2FJPXN-US%22%7D"
+  },
+  {
+   "time": "11-17 07:32",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Issues Warning to Chip Buyers Regarding US Export Compliance",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/nvidia-cautions-chip-buyers-over-potential-us-legal-action-tied-to-remote-access-for-chinese-firms-ce785edfd08af42c"
+  },
+  {
+   "time": "11-17 07:31",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa and Mastercard Urge Approval of $38 Billion Swipe Fee Settlement",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/visa-mastercard-calls-on-us-judge-to-clear-38-billion-swipe-fees-settlement-with-merchants-ce785edcd98af021"
+  },
+  {
+   "time": "11-17 07:31",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank of America Reports Normal Operations Amid Industry-Wide Banking Disruptions",
+   "source": "fiscal.ai",
+   "url": "https://cybermagazine.com/news/us-bank-outages-why-critical-infrastructure-keeps-failing"
+  },
+  {
+   "time": "11-17 07:31",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Alliance for Creativity and Entertainment Shuts Down Illegal Streaming Service Dizigom",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/17/3404307/0/en/ace-secures-shutdown-of-major-turkish-piracy-service-dizigom.html"
+  },
+  {
+   "time": "11-17 07:31",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD Shares Decline Following New Export Restrictions on AI Chips",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/community/feed/the-capital-breakdown-tuesday-november-17-2026-117631511494661"
+  },
+  {
+   "time": "11-17 07:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart China Signs Strategic Cooperation Agreement for 15th Five-Year Plan",
+   "source": "fiscal.ai",
+   "url": "https://www.chinadailyasia.com/article/642824"
+  },
+  {
+   "time": "11-17 07:31",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Chevron Declares Dividend with Ex-Dividend Date Set for November 18, 2026",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1004808924/chevron-to-go-ex-dividend-on-november-18th-2026-with"
+  },
+  {
+   "time": "11-17 07:31",
+   "symbols": [
+    "HD"
+   ],
+   "rating": "",
+   "headline": "The Home Depot Reports Third Quarter Fiscal 2026 Results and Updates Guidance",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.ca/news-releases/the-home-depot-announces-third-quarter-fiscal-2026-results-updates-fiscal-2026-guidance-846132573.html"
+  },
+  {
+   "time": "11-17 07:01",
+   "symbols": [
+    "TSM"
+   ],
+   "rating": "",
+   "headline": "TSMC Proposes $500 Million Investment Fund for AI Semiconductor Startups",
+   "source": "fiscal.ai",
+   "url": "https://www.varindia.com/news/tsmc-s-ai-ambition-building-the-next-nvidia"
+  },
+  {
+   "time": "11-17 06:32",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Mizuho Adjusts Price Target on Costco Wholesale to $1,150 From $1,100",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/mizuho-adjusts-price-target-on-costco-wholesale-to-1-150-from-1-100-ce785edcd98df024"
+  },
+  {
+   "time": "11-17 06:32",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Issues Gold Price Forecast for 2027",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/dow-jones/202611172056/goldman-sees-gold-rising-above-4600-an-ounce-by-end-2027-on-central-bank-buying"
+  },
+  {
+   "time": "11-17 06:32",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Adjusts Price Target for Tyson Foods",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-price-target-on-tyson-foods-to-70-from-62-ce785edcd98df12d"
+  },
+  {
+   "time": "11-17 06:32",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Participates in Bajaj Finance Share Offering",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/blackrock-goldman-sachs-nomura-buy-into-bajaj-finance-share-offering-ce785edfd089f42c"
+  },
+  {
+   "time": "11-17 06:31",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Nvidia Reduces Stake in Intel Corporation",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/nvidia-raises-spacex-stake-cuts-intel-holding-ce785edfd081f720"
+  },
+  {
+   "time": "11-17 06:31",
+   "symbols": [
+    "HD"
+   ],
+   "rating": "",
+   "headline": "The Home Depot Announces Executive Leadership Changes",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/the-home-depot-names-richard-mcphail-as-ceo-effective-november-23-2026-302941068.html"
+  },
+  {
+   "time": "11-17 06:31",
+   "symbols": [
+    "HD"
+   ],
+   "rating": "",
+   "headline": "The Home Depot Reports Third Quarter 2026 Financial Results",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.ca/fr/news-releases/home-depot-annonce-ses-resultats-du-troisieme-trimestre-et-met-a-jour-ses-perspectives-au-sujet-de-l-exercice-2026-853325861.html"
+  },
+  {
+   "time": "11-17 06:31",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Situational Awareness Fund Liquidates Micron Technology Stake",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8870481/leopold-aschenbrenners-situational-awareness-reports-92-drop-in-holdings-exits-micron-stake"
+  },
+  {
+   "time": "11-17 06:31",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "Former Caterpillar CFO Andrew Bonfield Appointed to BP Board",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/bp-names-new-directors-as-restructuring-continues-ce785edfd18df020"
+  },
+  {
+   "time": "11-17 06:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Increases Stake in Ashtead Technology",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/rns/ashtead-technology-holdings--at./holding-s-in-company/9878133"
+  },
+  {
+   "time": "11-17 06:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Reports Widespread Banking Disruption Due to Software Bug",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.lk/2026/11/17/why-us-banks-faced-widespread-outages-on-monday/"
+  },
+  {
+   "time": "11-17 06:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Expands Use of Haivision Live Video Ecosystem",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1004882664/microsoft-selects-haivision-video-contribution-ecosystem-and-makito-one-video"
+  },
+  {
+   "time": "11-17 06:31",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank of America Customers Affected by Technical Disruption",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.lk/2026/11/17/why-us-banks-faced-widespread-outages-on-monday/"
+  },
+  {
+   "time": "11-17 06:31",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Berkshire Hathaway Reduces Stake in Bank of America",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/community/feed/berkshire-s-q3-a-surprise-software-bet-and-a-longer-117630967218582"
+  },
+  {
+   "time": "11-17 06:31",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly and Stipple Bio Sign Oncology Research and Licensing Agreement",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1004868284/eli-lilly-stipple-bio-sign-oncology-research-deal"
+  },
+  {
+   "time": "11-17 06:31",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Faces French Trial Over Alleged Planned Obsolescence",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/2026/11/17/world/apple-faces-french-trial-over-alleged-planned-obsolescence-of-iphones-source/2471819"
+  },
+  {
+   "time": "11-17 06:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Establishes National Security and Export Control Oversight Committee",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/17/3404362/0/en/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee.html"
+  },
+  {
+   "time": "11-16 22:02",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Former Robinhood Engineer Pleads Guilty to Wire Fraud",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/ex-robinhood-engineer-pleads-guilty-to-wire-fraud-over-crypto-futures-trades-ce785edfdf8bf221"
+  },
+  {
+   "time": "11-16 22:01",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "SanDisk Shares Decline Following Commerce Department Regulatory Update",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8857083/micron-sk-hynix-and-sandisk-shares-plummet-what-you-need-to-know"
+  },
+  {
+   "time": "11-16 22:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Releases Preliminary Report on Recent 365 Service Outage",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.ca/news-releases/microsoft-outage-triggers-canada-wide-class-action-lawsuit-852582849.html"
+  },
+  {
+   "time": "11-16 20:01",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "target up",
+   "headline": "Evercore ISI Group Raises Costco Wholesale Price Target to $1,200",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1004752446/costco-price-target-raised-to-1200-00-share-from-1100?futusource=news_newspage_recommend"
+  },
+  {
+   "time": "11-16 20:01",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Western Digital Corporation Announces Participation in Upcoming Investor Conferences",
+   "source": "fiscal.ai",
+   "url": "https://newsfilter.io/latest/news"
+  },
+  {
+   "time": "11-16 20:01",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "UnitedHealthcare of Ohio Remains in State Marketplace for 2027",
+   "source": "fiscal.ai",
+   "url": "https://insurancenewsnet.com/oarticle/health-insurers-leave-ohio-marketplace"
+  },
+  {
+   "time": "11-16 19:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Teamsters Organize Rally for Terminated Amazon Delivery Drivers in New York City",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/teamsters-rally-to-support-amazon-e-bike-delivery-drivers-illegally-fired-by-company-302941100.html"
+  },
+  {
+   "time": "11-16 17:31",
+   "symbols": [
+    "LITE"
+   ],
+   "rating": "",
+   "headline": "Lumentum Shares Decline Amidst Export Policy Risks and Industry Volatility",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8858823/jabil-coherent-fabrinet-ttm-technologies-and-lumentum-shares-plummet-what-you-need-to-know"
+  },
+  {
+   "time": "11-16 17:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Instagram Launches Integration for Amazon Affiliate Links",
+   "source": "fiscal.ai",
+   "url": "https://newsfilter.io/articles/instagram-now-lets-creators-add-amazon-affiliate-links-in-reels-and-feed-posts-2c6d5f0747ae5ab0a3c96b0d6d701a1b"
+  },
+  {
+   "time": "11-16 17:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Class Action Lawsuit Filed Against Microsoft Following Global 365 Outage",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.ca/news-releases/microsoft-outage-triggers-canada-wide-class-action-lawsuit-852582849.html"
+  },
+  {
+   "time": "11-16 16:31",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Chevron Nears $5 Billion Purchase of Majority Stake in Blackstone-Backed Beacon Offshore",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/chevron-nears-5-billion-purchase-of-majority-stake-in-blackstone-backed-beacon-offshore-ce785edfdd80ff2c"
+  },
+  {
+   "time": "11-16 16:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Tahari Parfums Launches Holiday Fragrance Gift Sets at Walmart",
+   "source": "fiscal.ai",
+   "url": "https://www.einpresswire.com/article/957067560/tahari-parfums-launches-men-s-and-women-s-holiday-fragrance-gift-sets-at-walmart"
+  },
+  {
+   "time": "11-16 16:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Once Upon a Coconut Expands Nationwide at Walmart",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/once-upon-a-coconut-reaches-4-500-walmart-stores-in-largest-retail-expansion-to-date-302939969.html"
+  },
+  {
+   "time": "11-16 16:31",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Releases iOS 27.3 Developer Beta Featuring 'Face Unlock' for iPhone Duo",
+   "source": "fiscal.ai",
+   "url": "https://newsfilter.io/articles/apple-adds-face-unlock-to-the-iphone-duo-but-its-not-face-id-4bcfeb7f1ab45ccd98350e3cc94c1985"
+  },
+  {
+   "time": "11-16 16:31",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Appoints 26-Year Veteran Corey Fugman to Lead Payments and Wallet Unit",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/qv14pwk/"
+  },
+  {
+   "time": "11-16 16:31",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank of America Experiences Online Account Access Issues",
+   "source": "fiscal.ai",
+   "url": "https://newsfilter.io/articles/customers-at-some-of-the-u-s-s-largest-banks-are-reporting-difficulty-accessing-4d5f007270e35126bfa22d0015e4c0fb"
+  }
+ ]
+}
