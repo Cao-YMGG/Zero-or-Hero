@@ -1,9 +1,10 @@
-# Headlines since 2026-11-16 16:00 ET (as of 2026-11-17 12:34 ET)
+# Headlines since 2026-11-16 16:00 ET (as of 2026-11-17 13:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-17 13:01 | ASML | rating | Bernstein Research Maintains Outperform Rating on ASML |
 | 11-17 09:32 | GS | target up | Goldman Sachs Raises WPP Price Target, Maintains Sell Rating |
 | 11-17 08:02 | LITE | rating | B. Riley Adjusts Lumentum Price Target to $659 |
 | 11-16 20:01 | COST | target up | Evercore ISI Group Raises Costco Wholesale Price Target to $1,200 |
