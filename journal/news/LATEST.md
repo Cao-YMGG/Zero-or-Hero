@@ -1,4 +1,4 @@
-# Headlines since 2026-11-16 16:00 ET (as of 2026-11-17 11:02 ET)
+# Headlines since 2026-11-16 16:00 ET (as of 2026-11-17 11:33 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -7,6 +7,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-17 09:32 | GS | target up | Goldman Sachs Raises WPP Price Target, Maintains Sell Rating |
 | 11-17 08:02 | LITE | rating | B. Riley Adjusts Lumentum Price Target to $659 |
 | 11-16 20:01 | COST | target up | Evercore ISI Group Raises Costco Wholesale Price Target to $1,200 |
+| 11-17 11:03 | GE |  | Unison Named One of Newsweek's America's Greatest Workplaces in Manufacturing 2026 |
 | 11-17 11:01 | XOM |  | ExxonMobil Authorizes Saipem to Proceed with Longtail Project in Guyana |
 | 11-17 11:01 | LITE |  | Lumentum Shares Rise Amid Reports of Potential Chinese Import Restrictions |
 | 11-17 11:01 | GEV |  | GE Vernova Enters Strategic Partnership for AI Data Center Infrastructure |
