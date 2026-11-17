@@ -1,0 +1,59 @@
+{
+ "date": "2026-11-17",
+ "picks": [],
+ "check_1016": "10:17 ET: no pick. The pre-market chip bounce was sold at the bell and software is the day's weak spot: SPY 736.97 (-0.21% from its 738.49 open, -0.40% on the day), QQQ 659.05 (-0.54% from its open), IWM -0.2%; SMH 465.63 -> 458.46 (-1.54% from its open, -0.75% on the day), IGV 98.36 -> 96.25 (-2.15%); TLT -0.1%, XLE +0.5% from its open. From their opens: MU -4.0% (726.00 -> 696.75), CRM -4.8% (209.13 -> 199.15, -7.3% on the day), MRVL -3.0%, ORCL -2.4%, TSM -2.4%, AMD -2.1%, NVDA -1.9% (reports tonight), CSCO -1.9% (96.84 -> 94.99), UNH -1.8% (-4.9% on the day), INTC -1.2%, MSFT -0.5%, GOOGL -0.2%; up from their opens: HD +2.5% (report day), GE +1.5%, COST +1.0%, AMZN +0.8%, AVGO +0.6% (+1.4% on the day), AAPL +0.6%, WMT +0.8%. In-session news is thin: Microsoft opened Ignite 2026 at 09:31 (an AI-agents conference; the likeliest cause of the software selling, not confirmed: no Salesforce or Oracle headline of its own in the Benzinga feed or Webull since the bell), JPMorgan named a CFO transition (09:31). The morning sniper is wrong on its own terms: CSCO opened at 96.84 (+2.5% on the day) and was below its open from the first minutes, so catalyst_open and rating_open did not enter (state at 10:02 shows no entry). No call: nothing has fresh news and is moving; COST is the leader with news (Stifel's Buy initiation, two target raises) but it is above $1,000 and its news was before the bell. No put now: the chip names below their opens have no news of their own since 09:30, MU and CRM are past the 3% line, and NVDA is excluded.",
+ "conditional_1121": "Put mirror (11:21 judges it). The morning filed chips as cooling on the month and their pre-market bounce as positioning before NVDA; SMH is now below its 465.63 open. The candidate is the weakest chip mega cap below its open, within 3% of it and outside a report window: TSM (open 372.03, 363.23 at 10:17, past the line under 360.87; nearest expiry Friday). Put on TSM if at 11:21 SMH is below 458.46 (its 10:17 price) and TSM is below 363.23 but not under 360.87. AMD is second (open 511.00, 500.24, line 495.67) but its nearest expiry is Wednesday, so the shadow would carry through NVDA's report tonight: only if TSM is already past its line. No put if SMH is back above 461.90 (Monday's close). Software (IGV -2.2%, ORCL -2.4%) is not part of the mirror: no theme call this morning, and no headline found. Call side: a call at 11:21 needs news that breaks in the session.",
+ "structure": "A gap-up in chips sold from the open, software sold harder (Microsoft's Ignite day), health still sold (UNH), retail and consumer bid (HD after its report, COST, WMT, AMZN). NVDA reports after the close; monthly expiry Friday; LOW and TGT report tomorrow.",
+ "opportunities": [
+  {
+   "type": "sector_intraday",
+   "symbol": "TSM",
+   "direction": "put",
+   "time": "10:17",
+   "action": "none",
+   "conviction": "maybe",
+   "why": "Mirror candidate: the weakest chip mega cap within 3% of its open (372.03 -> 363.23, -2.4%; -2.7% on the day) with SMH -1.5% from its open after a pre-market bounce; NVDA reports tonight and Nvidia warned chip buyers on export compliance this morning. Not picked: no news of TSM's own since the bell; 11:21 judges it on the levels in conditional_1121.",
+   "why_zh": "看跌镜像的候选：台积电是还没跌过 3% 线的芯片大盘股里最弱的（比开盘低 2.4%），半导体 ETF 盘前反弹后开盘就被卖，现在比开盘低 1.5%。不选：开盘后台积电没有自己的新消息；11:21 按写好的价位再判断。"
+  },
+  {
+   "type": "sector_intraday",
+   "symbol": "ORCL",
+   "direction": "put",
+   "time": "10:17",
+   "action": "none",
+   "conviction": "no",
+   "why": "Software is the day's weakest group (IGV -2.2% from its open, CRM -4.8%, ORCL 118.96 -> 116.12, -2.4%); the likeliest cause is Microsoft's Ignite AI-agents conference (09:31), not confirmed; no headline of Oracle's own. Listed to see whether an unexplained sector move keeps going.",
+   "why_zh": "软件股是今天最弱的一组（软件 ETF 比开盘低 2.2%，Salesforce -4.8%，甲骨文 -2.4%）。最可能的原因是微软今天开的 AI 智能体大会，没确认；甲骨文没有自己的消息。列出来看「说不清原因的板块下跌」会不会继续，不看好。"
+  },
+  {
+   "type": "sector_intraday",
+   "symbol": "CRM",
+   "direction": "put",
+   "time": "10:17",
+   "action": "none",
+   "conviction": "no",
+   "why": "Control past the 3% line: Salesforce 209.13 -> 199.15 (-4.8% from its open, -7.3% on the day) with no headline of its own found. The check-in's one 'chased' control.",
+   "why_zh": "对照：Salesforce 已经比开盘低 4.8%（当天 -7.3%），过了 3% 线，也没找到它自己的消息。按规则是追在延伸处的对照，今天只列这一个。"
+  },
+  {
+   "type": "analyst",
+   "symbol": "COST",
+   "direction": "call",
+   "time": "10:17",
+   "action": "none",
+   "conviction": "maybe",
+   "why": "The day's leader with news of its own: Stifel initiates at Buy, Mizuho raises its target to 1,150, Evercore to 1,200; 1110.49 -> 1121.19 (+1.0% from its open, a record) while SPY is -0.2%. Not picked: above $1,000 (a shadow sample only), the news came before the bell, Friday options only.",
+   "why_zh": "今天的领涨股，有自己的消息：Stifel 首次覆盖给买入，Mizuho、Evercore 都提了目标价；比开盘高 1.0%、创新高，而标普在跌。不选：股价过千只能当样本，消息是开盘前出的，只有周五到期的期权。"
+  },
+  {
+   "type": "relative_strength",
+   "symbol": "AVGO",
+   "direction": "call",
+   "time": "10:17",
+   "action": "none",
+   "conviction": "no",
+   "why": "The only chip mega cap up from its open (335.99 -> 338.00, +0.6%; +1.4% on the day) while SMH is -1.5%; no news of its own. Relative strength is not a catalyst; listed as a control.",
+   "why_zh": "芯片大盘股里唯一比开盘高的（博通 +0.6%，当天 +1.4%），半导体 ETF 却跌了 1.5%；没有自己的消息。相对强势不是理由，记成对照。"
+  }
+ ]
+}
