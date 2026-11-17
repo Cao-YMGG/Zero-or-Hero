@@ -1,4 +1,4 @@
-# Headlines since 2026-11-16 16:00 ET (as of 2026-11-17 10:32 ET)
+# Headlines since 2026-11-16 16:00 ET (as of 2026-11-17 11:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -7,6 +7,13 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-17 09:32 | GS | target up | Goldman Sachs Raises WPP Price Target, Maintains Sell Rating |
 | 11-17 08:02 | LITE | rating | B. Riley Adjusts Lumentum Price Target to $659 |
 | 11-16 20:01 | COST | target up | Evercore ISI Group Raises Costco Wholesale Price Target to $1,200 |
+| 11-17 11:01 | XOM |  | ExxonMobil Authorizes Saipem to Proceed with Longtail Project in Guyana |
+| 11-17 11:01 | LITE |  | Lumentum Shares Rise Amid Reports of Potential Chinese Import Restrictions |
+| 11-17 11:01 | GEV |  | GE Vernova Enters Strategic Partnership for AI Data Center Infrastructure |
+| 11-17 11:01 | V |  | Visa Canada Releases Agentic Commerce Readiness Report |
+| 11-17 11:01 | WMT |  | Walmart Reports Q3 Performance and Raises Fiscal 2027 Outlook |
+| 11-17 11:01 | NVDA |  | Rockwell Automation Launches GPU-Enabled Industrial Computing with NVIDIA |
+| 11-17 11:01 | META |  | Meta Testing Internal Prediction Market App 'Takes' |
 | 11-17 09:32 | GEV |  | Aegis Critical Energy Defence Corp. Announces Strategic Partnership with GE Vernova and SK On |
 | 11-17 09:32 | GEV |  | Homer City Generation Completes Delivery of First Two GE Vernova 7HA.02 Turbines |
 | 11-17 09:32 | AMZN |  | Amazon Expands Grocery Delivery to Include Prepared Meals |

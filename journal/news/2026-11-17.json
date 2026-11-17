@@ -1,7 +1,77 @@
 {
- "as_of": "2026-11-17T10:32-05:00",
+ "as_of": "2026-11-17T11:02-05:00",
  "since": "2026-11-16T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-17 11:01",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "ExxonMobil Authorizes Saipem to Proceed with Longtail Project in Guyana",
+   "source": "fiscal.ai",
+   "url": "https://www.milanofinanza.it/news/saipem-via-libera-al-progetto-longtail-in-guyana-contratto-da-1-5-miliardi-di-dollari-202611171241087723"
+  },
+  {
+   "time": "11-17 11:01",
+   "symbols": [
+    "LITE"
+   ],
+   "rating": "",
+   "headline": "Lumentum Shares Rise Amid Reports of Potential Chinese Import Restrictions",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/2026111761/coherent-and-lumentum-stocks-climb-as-potential-us-import-ban-threatens-chinese-rivals"
+  },
+  {
+   "time": "11-17 11:01",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova Enters Strategic Partnership for AI Data Center Infrastructure",
+   "source": "fiscal.ai",
+   "url": "https://irw-press.com/de/aegis-gratuliert-seetel-zur-partnerschaft-mit-ge-vernova-und-sk-on-und-erhaelt-erste-zahlung-zum-auftrag-ueber-14-batteriespeicher-von-ggv-energy/"
+  },
+  {
+   "time": "11-17 11:01",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Canada Releases Agentic Commerce Readiness Report",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/17/3404531/0/en/visa-ranked-most-trusted-among-24-brands-in-canada-to-handle-agentic-transactions-new-research-finds.html"
+  },
+  {
+   "time": "11-17 11:01",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart Reports Q3 Performance and Raises Fiscal 2027 Outlook",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.ca/news-releases/retail-s-1-013-trillion-holiday-forecast-meets-its-first-earnings-test-857040835.html"
+  },
+  {
+   "time": "11-17 11:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Rockwell Automation Launches GPU-Enabled Industrial Computing with NVIDIA",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.ca/news-releases/rockwell-automation-expands-edge-computing-options-for-industrial-ai-with-nvidia-gpus-847579242.html"
+  },
+  {
+   "time": "11-17 11:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Testing Internal Prediction Market App 'Takes'",
+   "source": "fiscal.ai",
+   "url": "https://cdcgaming.com/brief/meta-tests-prediction-market-app-with-employees/"
+  },
   {
    "time": "11-17 09:32",
    "symbols": [
