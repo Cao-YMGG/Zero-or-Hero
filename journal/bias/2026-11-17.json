@@ -1,0 +1,166 @@
+{
+ "date": "2026-11-17",
+ "bias": "none",
+ "confidence": 0.3,
+ "p_up": 0.5,
+ "summary": "Flat index, split tape: at 08:32 SPY 739.25 (-0.09% from Monday's 739.95 close after -1.91%), QQQ +0.30%, SMH +1.26% (AMD +1.8%, MRVL +3.9%, NVDA +1.1% into its report tonight), while the havens are sold (XLV -1.1% with UNH -2.7% on Warren's breakup call, LLY -1.4%, XLP -0.5%, HD -2.2% after its report, WMT -1.2%). October retail sales: headline +0.2% as expected, ex-autos and control +0.6% (0.4% expected), import prices +1.1% (0.7%): a hot consumer with a December hike already priced; TLT and SPY did not move on it. NVDA after the close decides the next leg. Mixed: no call, p_up 0.50.",
+ "reasons": [
+  "Pre-market 08:32 ET (Webull, vs Monday's close): SPY 739.25 (-0.09%), QQQ 663.74 (+0.30%), SMH 467.70 (+1.26%), IWM -0.51%, XLF -0.57%, XLV -1.11%, XLP -0.54%, XLE +0.50%, TLT +0.05%, USO +1.5%, UUP -0.1%, VIXY -1.8%. 07:48: SPY 739.83, QQQ +0.44%, SMH +1.58%: the chip bounce has faded a little since.",
+  "Night session (Webull): SPY 737.89 (-0.28%), QQQ -0.11%; the pre-market recovered to about the close. The OVERNIGHT.md lean needs the night down 0.3% or more: just short, not applied.",
+  "Monday: SPY -1.30% open to close, -1.91% on the day, the low near the close after CNBC said Nvidia's board is not considering Huang's return; SMH -5.11%. VIX about 22.9 at Monday's close (Rio Times briefing; not confirmed on a second source); VIXY -1.8% this morning.",
+  "08:30: retail sales +0.2% m/m (consensus +0.2%), ex-autos +0.6% (0.4%), control +0.6% (0.4%; September revised to +0.1%), import prices +1.1% (0.7%), export prices +1.1% (0.5%) (Webull macro calendar). Hot spending and import prices argue for yields up, but TLT and SPY were flat in the first two minutes. Fed: Waller on payments 09:10, Hammack 09:30, Williams 14:25.",
+  "Overnight: futures were -0.1% to -0.45% early (Reuters, 05:23) and recovered to flat; KOSPI -1.4%, Hang Seng -0.3%, DAX -0.6% to -0.8%. 10Y about 5.14% (-0.7bp), DXY about 103.5, WTI about 88.7, Brent quoted 91.5 to 95 (sources disagree).",
+  "News of the day: HD reported (comps +2.2%, adjusted EPS 3.86 vs 3.84, GAAP 3.72, FY comps raised to about 1.4%, EPS growth about 2%) and trades -2.2%; Senator Warren calls for breaking up health conglomerates (UNH -2.7%); a software bug disrupted JPM and BAC customers (JPM -0.8%); Meta, Amazon and Google failed to stop China data-center curbs (08:01; META -0.9%); Nvidia set up an export-control oversight committee and warned chip buyers on compliance; 13Fs: Citadel added Marvell (+729%), Nvidia cut its Intel stake.",
+  "For an up day: chips bounce into NVDA, Monday's -1.9% after a -0.7% Friday, the night sold and the pre-market bought it back, the data say the consumer is fine. Against: the havens that held Monday are being sold now, hot import prices with a hike priced, the China data-center curbs on the platforms, and positioning ahead of NVDA tonight; the last three sessions' opens were the highs. Not one-sided: p_up 0.50.",
+  "Drop lights at Monday's close: breadth and rates (stretched is off: SPY -1.7% over five sessions). Theme model: all ten themes neutral (chips, internet, software, power, optical carry the BREADTH turn flag; health and consumer BREADTH_UP heat flags).",
+  "Gap-downs of 2% or more among the names we watch: UNH -2.7% (Warren), HD -2.2% (report day, no sniper by rule). rebound_scanner is retired; no rule trades them.",
+  "Dossiers: AMD and META not in play for the sniper today (AMD's bounce has no news of its own; META's own news this morning is the China curbs, a negative). NVDA reports tonight: no NVDA trade by rule, and no chip sniper on the read-through."
+ ],
+ "events": [
+  "08:30 ET retail sales (+0.2%, control +0.6%), import prices (+1.1%); 09:15 industrial production (consensus +0.1%); 10:00 NAHB (29), business inventories",
+  "Fed: Waller 09:10 (payments), Hammack 09:30 (Treasury market), Williams 14:25; a 25bp December hike is priced",
+  "HD reported before the open; NVDA after the close (first report without Huang; about 9% implied move); Wednesday: LOW, TGT, FOMC minutes 14:00, Anthropic prices; Thursday: WMT",
+  "Monthly options expiry Friday: spy_open_drive, spy_open_drive_put and stock_open_drive skip the week; nvda_gapdown_put does not run on a Tuesday or on NVDA's report day"
+ ],
+ "inputs": {
+  "es_futures_pct": -0.09,
+  "nq_futures_pct": 0.3,
+  "vix": 22.9,
+  "wti": 88.7,
+  "wti_pct": null,
+  "brent": null,
+  "us10y": 5.14,
+  "us10y_change_bp": -1,
+  "us2y": null,
+  "us2y_change_bp": null,
+  "dxy_pct": null,
+  "vixy_pct": -1.8,
+  "overnight": "es/nq fields are the SPY and QQQ pre-market moves at 08:32 ET (Webull). VIX is Monday's close from one briefing. Night session SPY 737.89 (-0.28%), QQQ 660.99 (-0.11%). Retail sales read from the Webull macro calendar at 08:32."
+ },
+ "rotation": {
+  "heating": [
+   "consumer +1.7% 1w / +11.0% 1m (COST +4.5/+12.8, WMT +2.2/+8.1, HD -1.7/+12.2); this morning WMT -1.2%, HD -2.2% after its report, COST -0.6%",
+   "health +1.8% / +9.1% (LLY +1.5/+14.0, JNJ +0.2/+10.6, UNH +3.6/+2.6); this morning UNH -2.7% (Warren), LLY -1.4%, XLV -1.1%",
+   "staples XLP +1.9% / +5.7%; energy +2.5% on the week (XLE +2.8% / -6.7%)"
+  ],
+  "cooling": [
+   "GPU -12.6% / -27.1% (NVDA), memory -5.3% / -28.0% (MU -1.9/-18.2, SNDK -8.7/-37.7), optical -6.4% / -28.2%, CPU -4.5% / -22.0%, power -5.4% / -15.7%",
+   "software -2.3% / -15.4% (NOW -30%, PLTR -13.8%), internet -2.3% / -4.9% (GOOGL -16.7%, META -11.7% on the month), industrials -3.9% / -9.1% (CAT -21.7%)",
+   "custom and foundry -1.8% / -14.8% (AVGO +4.4/+1.4 is the exception, MRVL -6.0/-36.2); networking CSCO -4.2% / -12.0%"
+  ],
+  "note": "This morning reverses the month: the chip names bounce 1-4% before NVDA's report and the month's havens (health, consumer, staples) are sold. SPY -1.7% 1w / -3.1% 1m, QQQ -2.6% / -6.8%, SMH -5.2% / -14.4%, IWM -3.4% / +0.9%, XLF +0.3% / +4.8%. Computed from official daily bars to 11-16 (Alpaca SIP; Webull bars were not pulled this morning). The map is context, not a forecast (heating beat cooling on 13 of 31 mornings).",
+  "theme_state": {
+   "turning": [],
+   "heating": [],
+   "neutral": [
+    "chips",
+    "internet",
+    "software",
+    "banks",
+    "health",
+    "energy",
+    "consumer",
+    "industrials",
+    "power",
+    "optical"
+   ],
+   "lights": [
+    "breadth",
+    "rates"
+   ],
+   "source": "python -m zoh.research.themes --today and drops --today, bars to 2026-11-16",
+   "filter": "No theme is turning: no theme filter on picks today."
+  },
+  "events": [
+   "NVDA reports after the close: no chip sniper on the read-through, no NVDA trade",
+   "HD reported; LOW and TGT tomorrow, WMT Thursday: no sniper on LOW or TGT today"
+  ]
+ },
+ "sniper": {
+  "symbol": "CSCO",
+  "direction": "call",
+  "class": "upgrade",
+  "confidence": 0.3,
+  "catalyst": "Own news from the last day: HSBC upgrades Cisco to Buy (Benzinga via Alpaca, 06:31 ET) and DZ Bank raises it to Buy from Hold (dailytradealert's table; not seen on Benzinga). It is the third session after the report (record revenue +24%, FY27 raised, a margin squeeze, about eight target cuts and -6.4% on 11-13): sell-side pushback after a post-earnings selloff. CSCO 96.10 at 08:32 (+1.7%; the chips are +1.3%, so part of the gap is the sector), median target 128.5 (Webull, 18 of 28 buy or strong buy), -12% on the month. Against it: HSBC had already upgraded Cisco to Buy in May 2026, so it must have cut it in between (not found); CEO Chuck Robbins filed a notice of a proposed stock sale last night (20:01); NVDA tonight can swing AI-infrastructure names either way; upgrades on names outside our 25 add +0.88% open to close on day 0 and only +0.22% after 09:32 (SLOWDRIFT_WIDE.md). Shadow only (catalyst_open about 0.10 delta, the hero, rating_open two contracts near 0.45 delta); the entry needs CSCO at or above its open between 09:31 and 10:00.",
+  "wrong_if": "CSCO is below its open at 10:00, or it gives back the gap to under Monday's close 94.52 before 11:00."
+ },
+ "opportunities": [
+  {
+   "type": "analyst",
+   "symbol": "CSCO",
+   "direction": "call",
+   "time": "09:31",
+   "action": "shadow",
+   "conviction": "yes",
+   "why": "Sniper (see sniper): HSBC upgrades Cisco to Buy (Benzinga 06:31) and DZ Bank Hold -> Buy (dailytradealert), the third session after a -6.4% post-earnings day with about eight target cuts; median target 128.5 against ~96; +1.7% pre-market.",
+   "why_zh": "狙击（见上）：汇丰和德国 DZ 银行今早都把思科从持有上调到买入。思科上周财报收入创纪录、上调了全年指引，但因为利润率被压、目标价被下调一圈，第二天跌了 6.4%；今天是财报后第三个交易日，券商开始反过来唱多。分析师目标中位数 128.5，现价约 96。"
+  },
+  {
+   "type": "analyst",
+   "symbol": "MDT",
+   "direction": "call",
+   "time": "10:00",
+   "action": "none",
+   "conviction": "maybe",
+   "why": "Piper Sandler upgrades Medtronic to Overweight (Benzinga 06:32) and the FDA cleared its Hugo robotic system for general surgery the same morning; MDT flat pre-market (102.95). Not named: health care is being sold this morning (UNH -2.7%, LLY -1.4%, XLV -1.1%) and it only has Friday options.",
+   "why_zh": "派杰把美敦力从中性上调到增持，也是一次评级上调。没选它当狙击：今早医疗板块在被卖（联合健康 -2.7%、礼来 -1.6%），它也只有周五到期的期权。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "UNH",
+   "direction": "put",
+   "time": "10:00",
+   "action": "none",
+   "conviction": "no",
+   "why": "Senator Warren calls for breaking up health-care conglomerates including UnitedHealth (07:32); UNH -2.7% pre-market. A politician's call, not a company action (yesterday's lesson on NVDA and Trump); listed as a control.",
+   "why_zh": "参议员沃伦呼吁拆分包括联合健康在内的医疗集团，盘前 -2.7%。这是政客的表态，不是公司自己的事（昨天英伟达和特朗普那条的教训），记成对照，不看好。"
+  },
+  {
+   "type": "earnings_reaction",
+   "symbol": "HD",
+   "direction": "put",
+   "time": "10:00",
+   "action": "none",
+   "conviction": "maybe",
+   "why": "Home Depot reported before the open: comps +2.2%, adjusted EPS 3.86 against 3.84 but GAAP 3.72, FY comps guidance ~+1.4% (from flat to +2%), EPS growth ~2% against sales ~4.5%; -1.7% pre-market. Lowe's and Target report tomorrow. Report day: no sniper by rule.",
+   "why_zh": "家得宝盘前公布财报：同店 +2.2%，调整后每股收益略好于预期，但全年利润增速只有约 2%、远低于收入增速；盘前 -1.7%。明天劳氏和塔吉特也报。财报当天按规则不当狙击，只记录。"
+  },
+  {
+   "type": "analyst",
+   "symbol": "WMT",
+   "direction": "call",
+   "time": "10:00",
+   "action": "none",
+   "conviction": "maybe",
+   "why": "Stifel initiates Walmart at Buy (an initiation, not a rating change; Wells Fargo raised its target to 135 on Friday); reports Thursday, so a pre-earnings drift idea (RUNUP.md: +1.6% median over ten days). WMT -0.8% pre-market with the defensives sold.",
+   "why_zh": "Stifel 首次覆盖沃尔玛给买入（是首次覆盖，不是上调）；周四财报，算财报前的上涨窗口。但今早防守股在被卖，盘前 -0.8%。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "JPM",
+   "direction": "put",
+   "time": "10:00",
+   "action": "none",
+   "conviction": "no",
+   "why": "A software bug disrupted JPMorgan and Bank of America customers overnight; JPM -0.6% pre-market. Outages usually fade (MSFT 11-13); control.",
+   "why_zh": "摩根大通、美国银行昨夜软件故障，客户受影响；盘前 -0.6%。这类故障通常很快被忘掉（上周五微软宕机就是），记成对照。"
+  },
+  {
+   "type": "sympathy",
+   "symbol": "MRVL",
+   "direction": "call",
+   "time": "10:00",
+   "action": "none",
+   "conviction": "no",
+   "why": "Marvell +6.4% pre-market with chips bouncing before Nvidia's report; the only headline is Citadel's 13F (stake +729%, a Q3 filing). Past the 3% line before the open: the day's one control of that kind.",
+   "why_zh": "美满电子盘前 +6.4%，芯片在英伟达财报前反弹；唯一的新闻是城堡基金三季度持仓报告里它加仓了七倍多，是旧数据。开盘前就已经涨过 3%，按规则是追高的对照，今天只列这一个。"
+  }
+ ],
+ "generated_at": "2026-11-17T08:34:23-05:00",
+ "zh": {
+  "summary": "今早大盘基本平：标普 ETF 盘前 739.25，和昨天收盘差不多（昨天 -1.9%）。里面是分裂的：芯片在英伟达今晚财报前反弹（半导体 ETF +1.3%、AMD +1.8%、美满 +3.9%），前几天有人买的防守股反过来被卖（联合健康 -2.7%，因为参议员沃伦呼吁拆分医疗集团；礼来 -1.4%；家得宝财报后 -2.2%；沃尔玛 -1.2%）。08:30 的零售数据比预期热一点（扣掉汽车和汽油 +0.6%，预期 0.4%），进口价格也偏高，但出来后股债都没动。",
+  "spy": "不下注，收在开盘价上方的概率给 50%。往上的理由：芯片反弹、连跌两天后的修复、消费数据不差；往下的理由：防守股在被卖、物价偏热而加息已经定价、平台公司的对华数据中心限制。真正的方向要等今晚英伟达财报。",
+  "sniper": "思科看涨。汇丰今早把它上调到买入（另一家德国 DZ 银行也上调了）。思科上周财报收入创纪录，但因为利润率被压、一圈目标价下调，第二天跌了 6.4%；现在券商开始反过来唱多。盘前 +1.7%，离分析师目标中位数还有三成多。信心 0.3：汇丰五月已经上调过一次，中间怎么变的没查到；CEO 昨晚报备了要卖股票。10:00 如果在开盘价下方就算错。只记影子。",
+  "rotation": "一个月看，钱在消费、医疗、必需消费；AI 硬件各环节（显卡、存储、光模块、电力）都在流出。但今早反过来：芯片反弹，防守股被卖。没有哪个主题在「转向」，今天没有主题过滤。"
+ }
+}
