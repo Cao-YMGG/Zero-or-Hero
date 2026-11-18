@@ -45,6 +45,12 @@ each part, one line each: the date, what happened, what it suggested, where it s
   -3.5% from its open at 10:17, was -7.7% by noon with no new headline. NVDA beat and raised and was sold from the
   bell (-4.6% from its open by noon); the chip gap (+2%) was gone by 10:00.
 
+- 2026-11-18, after the market (the column added that evening, 213 ideas): the 23 picked ideas +0.48% (65%
+  positive), the 190 listed and not picked -0.07%; but the 27 controls I had marked `no` since 11-13 came to +0.55%
+  (52% positive, +0.34% without the best), no worse than the picks. Four days. It cuts against "the pick bar
+  separates" (T6) at the level of my conviction; controls are no longer listed, so this stays an open question
+  for a Sunday test on the log, not a rule.
+
 ## Sniper and pre-market reading
 - 2026-10-05 MSFT: Melius upgraded it to Buy, gap only +0.9%, and it ran +1.5% from the open in 15 minutes. The first
   case of what R4 measures.
