@@ -1,14 +1,20 @@
-# Headlines since 2026-11-17 16:00 ET (as of 2026-11-18 07:41 ET)
+# Headlines since 2026-11-17 16:00 ET (as of 2026-11-18 08:31 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-18 08:01 | CAT | rating | Morgan Stanley Maintains Hold Rating on Caterpillar |
+| 11-18 08:01 | HOOD | target down | Evercore ISI Lowers Price Target on Robinhood Markets, Inc. |
 | 11-18 07:32 | INTC | initiate | Intel Initiates New Round of Global Workforce Reductions |
 | 11-18 07:31 | TSLA | rating | Barclays Maintains Tesla Buy Rating |
 | 11-18 07:31 | CRM | rating | BTIG Adjusts Salesforce Price Target to $250 |
 | 11-18 06:31 | TSLA | downgrade | Tesla Receives Analyst Downgrade to Sell |
 | 11-17 17:01 | ARM | rating | Morgan Stanley Maintains Hold Rating and $212 Price Target for Arm Holdings |
+| 11-18 08:01 | GS |  | Goldman Sachs Raises 2027 Global AI Project Financing Forecast to $545 Billion |
+| 11-18 08:01 | ORCL |  | Oracle Launches New AI Capabilities for Primavera Cloud |
+| 11-18 08:01 | NVDA |  | NVIDIA Faces SEC Investigation and Delays Quarterly 10-Q Filing |
+| 11-18 08:01 | AAPL |  | Apple Services Experience Outage Following Internal Update |
 | 11-18 07:31 | NVDA |  | NVIDIA Co-Founder Jensen Huang Retains Director Nomination Rights |
 | 11-18 07:31 | ORCL |  | CISA Issues Advisory for Critical Oracle Java Vulnerability |
 | 11-18 07:31 | V |  | Visa and Lianlian DigiTech Complete First Live B2B Agentic Commerce Transaction |

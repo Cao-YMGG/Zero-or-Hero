@@ -1,7 +1,67 @@
 {
- "as_of": "2026-11-18T07:41-05:00",
+ "as_of": "2026-11-18T08:31-05:00",
  "since": "2026-11-17T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-18 08:01",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "rating",
+   "headline": "Morgan Stanley Maintains Hold Rating on Caterpillar",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1005034657/morgan-stanley-maintains-caterpillar-catus-with-hold-rating-maintains-target"
+  },
+  {
+   "time": "11-18 08:01",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "target down",
+   "headline": "Evercore ISI Lowers Price Target on Robinhood Markets, Inc.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/options/HOOD261120P78000-US"
+  },
+  {
+   "time": "11-18 08:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Raises 2027 Global AI Project Financing Forecast to $545 Billion",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1005027916/goldman-sachs-raises-2027-ai-project-financing-forecast-by-over"
+  },
+  {
+   "time": "11-18 08:01",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Launches New AI Capabilities for Primavera Cloud",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/new-oracle-primavera-cloud-ai-capabilities-help-construction-teams-improve-project-planning-and-risk-management-302943017.html"
+  },
+  {
+   "time": "11-18 08:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Faces SEC Investigation and Delays Quarterly 10-Q Filing",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/2026111879/why-nvidia-broke-with-its-usual-practice-in-holding-back-its-quarterly-sec-report"
+  },
+  {
+   "time": "11-18 08:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Services Experience Outage Following Internal Update",
+   "source": "fiscal.ai",
+   "url": "https://www.euro2day.gr/news/world/article/2380680/update-prokalese-haos-se-yphresies-ths-apple-se-ex.html"
+  },
   {
    "time": "11-18 07:32",
    "symbols": [
