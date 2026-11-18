@@ -71,6 +71,10 @@ most days that have a fresh catalyst with a small gap, an upgrade being the most
 (journal/research/ANALYST.md: upgrades carry, downgrades do not). `catalyst_open` buys a
 ~0.1-delta option at the open (from 09:31, as long as the stock is not against the pick) and
 trails; `catalyst_sniper` keeps the 1% confirmation. Null only when nothing qualifies.
+Since 2026-11-18 the sniper is named only on a broker's rating or target change (`class` upgrade or target); a
+company-news item goes into `opportunities` as `company_news` and the sniper is null that morning. The lists are
+short: at most four ideas in the morning file and three in the 10:16 file, each `yes` or `maybe`, no controls. The
+10:16 check-in is the only one of the day and judges the put mirror itself (CLAUDE.md, SUNDAY_TESTS 72-74).
 `rating_open` (shadow only, since 2026-11-16) takes the same pick only when its `class` is `upgrade` or
 `target` and buys two contracts nearest 0.45 delta, whatever they cost: half out at 2x, the rest trails
 from 1.5x. On real option prices to 2026-11-13 (journal/research/WEEK46.md) the 13 rating-change snipers
