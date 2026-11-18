@@ -111,12 +111,26 @@ How a thing moves between shelves:
 - **T1. One check-in a day, at 10:16** (since 2026-11-18). Over the 251 scored ideas, those listed at the 10:16 check
   were right 57%, paid 31%, +0.43% (123 ideas, positive on 10 of 14 days); those listed 10:45-12:00 32%, 8%, -0.83%
   (38, positive on 2 of 12 days); after 12:00 42%, 12%, -0.19% (26). The 17 intraday picks to 11-13 were right open to
-  close on 16 and right from the pick on 6. Three weeks of a falling market. Test: SUNDAY_TESTS 74(b). Sent back (the
-  11:21 check-in returns) if a mechanical entry at 11:21 is no worse than at 10:16 over two years or in rising months.
+  close on 16 and right from the pick on 6. Three weeks of a falling market. Checked the same evening on two years of
+  5-minute bars (stock moves, SUNDAY_TESTS 74): the case the 11:21 check-in was added for, SMH above its open at 10:15
+  and below it at 11:20 in a falling month, lost (16 days, the weakest chip name 38% right, -0.36%, SMH itself
+  -0.14%); on days SMH was already below its open at 10:15, a put on SMH from 10:15 made +0.31% and from 11:20 +0.19%
+  (99 days); in rising months no hour was positive (a put on SMH on the days it was below its open at that hour: -0.09%
+  from 10:15, -0.04% from 11:20, -0.11% from 13:15). The bar written
+  that morning ("back if 11:21 is no worse than 10:16 in rising months") was badly put: it is a tie at nothing, and
+  there is nothing for a later check-in to buy. Stays on trial; comes back only if the option-price run of item 74
+  shows a later entry that makes money.
 - **T2. The put mirror, judged at 10:16.** Mirror ideas listed at the 10:16 check were right on 10 of 12 (+1.70%, 7
   days); judged at 11:21, on 2 of 8 (-0.72%). After the market the type is -0.32%: what paid was the theme continuing
-  down, not the choice of name. Test: SUNDAY_TESTS 74(a, c). Back to an idea, not a pick, if the 10:16 entry is not
-  positive without its best two; if the ETF does as well as the weakest name, the mirror buys the ETF.
+  down, not the choice of name. Checked the same evening on two years of 5-minute bars (stock moves): with SMH
+  below its open at 10:15, a put on the weakest chip name made +0.67% to the close in falling months (SMH's one-month
+  return negative: 99 days, 58% right, +0.51% without the best two; SMH itself +0.31%) and lost in rising months (151
+  days, 46% right, -0.23%); the gap up adds nothing (51 days, +0.69%). One side only, so it carries a condition: the
+  theme ETF's one-month return is negative. But the last 3 months fail the bar written before the run (23 such days,
+  39% right, +0.22%, -0.40% without the best two; since 2026-05, 37 days, 46% right, -0.12% without the best two).
+  So since 2026-11-19 the mirror is an **idea, not a pick**: listed at 10:16 when its condition holds, scored, not
+  bought. It becomes a pick again, as a Switch on the falling month, only if the option-price run of SUNDAY_TESTS 74 is
+  positive without its best two over the last 3 months; that run also settles the weakest name against the ETF.
 - **T3. Not at the extreme; priced past 3%.** Ideas listed within 0.25% of the day's extreme paid 14-20% (43 ideas)
   against 23-33% off it (144): no idea and no pick at the day's extreme. A pre-market catalyst counts as priced once
   the stock is >= 3% from its open by the check-in (one case, AMZN 11-02), though ideas already 3% their way paid 29%
@@ -161,17 +175,17 @@ How a thing moves between shelves:
   - Scan big intraday movers (Webull MIN_5 / DAY_1 rankings and snapshots, read-only) and the news since the open.
     Never touch the pre-market file after 09:30.
   - At most one pick, appended to `journal/bias/intraday/<today>.json` (schema in journal/bias/README.md) and pushed to
-    main; most check-ins add none. A pick needs a cause still unfolding: news that broke in the session, a sector
+    main; most check-ins add none. A pick needs a cause still unfolding: news that broke in the session, or a sector
     catalyst from the same day (then the strongest mega cap of that sector may be picked without in-session news of
-    its own; owner, 2026-10-21: "we need samples"), or the put mirror; and the tape agreeing (T5). Never inside a
+    its own; owner, 2026-10-21: "we need samples"); and the tape agreeing (T5). Never inside a
     report window (R3), never on relative strength with no news anywhere behind it, never at the day's extreme (T3).
   - Look at both sides (owner, 2026-11-03). Call side, the day's leader: a large cap up >= 2% beyond SPY while its
     sector or the index is flat or red; without in-session news of its own, a leader already >= 3% from its open goes
-    into `opportunities`, not `picks`. Put side, the mirror (T2): when the morning filed a theme as cooling or turning
-    and its ETF is already below its open after a gap up or a bounce, the weakest mega cap of that theme that is below
-    its own open and outside a report window is the put pick, strongest when a sector negative broke the same morning
-    (target cuts across the group, a raise of capital, dilution). The check-in judges it itself and writes no
-    conditional line. Calls on a turning theme's names: S3.
+    into `opportunities`, not `picks`. Put side, the mirror (T2): when a theme's ETF is down over the last month and
+    already below its open at the check-in, the weakest mega cap of that theme that is below its own open and outside
+    a report window is listed as an idea (`yes` or `maybe`), not picked, strongest when a sector negative broke the
+    same morning (target cuts across the group, a raise of capital, dilution). No conditional line for later. Calls on
+    a turning theme's names: S3.
   - A pick on a stock above ~$1,000 is a shadow sample only (the 20% stake, ~$92, buys nothing at the 0.06-delta
     floor): say so in the pick and prefer a sub-$700 name when one carries the same news.
   - Ideas that do not clear the bar go into the file's `opportunities` (T6: at most three, `yes` or `maybe`; no orders;
