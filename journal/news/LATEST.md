@@ -1,4 +1,4 @@
-# Headlines since 2026-11-17 16:00 ET (as of 2026-11-18 13:45 ET)
+# Headlines since 2026-11-17 16:00 ET (as of 2026-11-18 14:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -13,6 +13,18 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-18 07:31 | CRM | rating | BTIG Adjusts Salesforce Price Target to $250 |
 | 11-18 06:31 | TSLA | downgrade | Tesla Receives Analyst Downgrade to Sell |
 | 11-17 17:01 | ARM | rating | Morgan Stanley Maintains Hold Rating and $212 Price Target for Arm Holdings |
+| 11-18 14:03 | MSFT |  | Microsoft and Intel Announce Joint Infrastructure Investments |
+| 11-18 14:03 | MSFT |  | Ema Launches AI Employees for HR, IT, and Finance on Microsoft Marketplace |
+| 11-18 14:02 | COIN |  | Coinbase Expands Bitcoin-Backed Loan Availability to All 50 U.S. States |
+| 11-18 14:02 | AMD |  | OpenAI Integrates Frontier Model Feedback Tools with AMD Hardware |
+| 11-18 14:01 | SMCI |  | Supermicro Begins Shipping New All-Flash AI Storage Servers |
+| 11-18 14:01 | INTC |  | Microsoft and Intel Expand Collaboration on Xeon and CXL Technologies |
+| 11-18 14:01 | TSLA |  | Roamly Announces Insurance Coverage for Tesla Cybercab |
+| 11-18 14:01 | BAC |  | Alaska Air Group and Bank of America Refresh Atmos™ Rewards Visa® Business Card |
+| 11-18 14:01 | V |  | Visa Launches 'Tap to Pay' in the Democratic Republic of Congo |
+| 11-18 14:01 | META |  | Meta's Muse AI Agent Faces Operational and Privacy Scrutiny |
+| 11-18 14:01 | NVDA |  | NVIDIA Announces Expanded Multiyear Supply Chain Commitments |
+| 11-18 14:01 | AMZN |  | Infoblox Integrates Threat Defense with Amazon Route 53 DNS Firewall |
 | 11-18 11:02 | NFLX |  | Parks Associates Names Netflix Top US SVOD Service for Second Consecutive Year |
 | 11-18 11:02 | HD |  | UBS Adjusts Price Target on Home Depot to $417 From $420 |
 | 11-18 11:01 | GS |  | Goldman Sachs & Co. LLC Acts as Lead Placement Agent for ChronoScale Financing |
