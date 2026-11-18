@@ -1,14 +1,14 @@
 {
- "started": "2026-11-18T20:48:38+00:00",
- "finished": "2026-11-18T20:49:46+00:00",
- "events": 40,
- "symbols": 39,
+ "started": "2026-11-18T20:50:42+00:00",
+ "finished": "2026-11-18T21:47:18+00:00",
+ "events": 4455,
+ "symbols": 563,
  "symbolsWithSpotErrors": 0,
  "byStatus": {
-  "NO_BARS": 7,
-  "OK": 28,
-  "NO_EXPIRY": 5
+  "NO_EXPIRY": 580,
+  "OK": 3118,
+  "NO_BARS": 757
  },
- "requests": 115,
+ "requests": 5649,
  "httpErrors": 0
 }
