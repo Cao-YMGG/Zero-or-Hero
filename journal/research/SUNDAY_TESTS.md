@@ -633,6 +633,35 @@ in EVOLUTION.md.
    without its best two and no worse than the within-3% group over the last three weeks, the conviction rule "past the
    3% line is a no" comes out of CLAUDE.md and "at the extreme" replaces it; the pick rule's own 3% line (a pre-market
    catalyst is priced) is tested separately.
+   **72 run the same day (2026-11-18, stock moves, the log and daily bars only).** (a) After the market (stock move
+   minus 60-day beta times SPY over the same minutes; average beta 1.9): all 251 ideas +0.04%, 51% positive. Types with
+   20 or more: company_news +0.22% (63 ideas, +0.12% without the best, 56% positive), sector_move -0.48% (26, 27%
+   positive), sector_intraday -0.32% (24; raw +0.78%). analyst +0.70% (19 ideas, one short of 20; +0.52% without the
+   best). By what I did with them: the 219 listed but not picked -0.06% (48% positive), the 31 picks and snipers +0.65%
+   (71%); the 11 snipers +1.15% (9 of 11). (b) Upgrades open to close, 340 events pooled: SPY above its 20-day average
+   the evening before +0.85% (220), below +1.06% (120); after an up session +0.81% (176), after a down one +1.04% (164);
+   after the market +0.82% to +0.86% in every state. The bar for a state filter (0% or less in one state, +1% or more in
+   the other) is not met: no filter. Also run: where SPY stood against its own open when an idea was listed does not
+   separate them (with it 97 ideas +0.07%, against it 90 ideas +0.11%), and SPY's own direction so far continued on 7 of
+   14 days at 10:15, 6 at 11:20 and 3 at 13:15. What does separate is the time of listing: 10:16 check 123 ideas, 57%
+   right, 31% paid, +0.43% (10 of 14 days positive); 10:45-12:00 38 ideas, 32%, 8%, -0.83% (2 of 12 days); after 12:00
+   26 ideas, 42%, 12%, -0.19%; morning list 64 ideas, 58%, 41%, +0.01% (calls +0.61%, the 15 puts -1.96%).
+   **Applied 2026-11-18 (owner: "change it your way"; the once-a-week limit waived by the owner for this):** the 11:21
+   and 13:16 check-ins are off and the 10:16 one judges the put mirror; lists are four ideas in the morning and three at
+   10:16, no controls; sector_move is no longer listed; the sniper is named only on a rating or target change. All of it
+   rests on stock moves in three weeks of a falling market (SPY -4.4% on the month): items 73 and 74 are the checks.
+74. **The 10:16 put mirror and the time of day, on real option prices (2026-11-18).** Mirror ideas listed at the 10:16
+   check were right on 10 of 12 (+1.70%, +1.17% without the best two, 7 days: 11-03 to 11-17), the ones judged at 11:21
+   on 2 of 8 (-0.72%); all puts listed at 10:16 +1.20% (53 ideas, 12 of 14 days positive) while SPY fell from 10:16 to
+   the close on 9 of those 14 days, and after the market the type is -0.32%: what paid was the sector continuing down,
+   not the choice of the weakest name. Questions, real option bars, 10% costs each way, last 3 months first and without
+   the best one and two: (a) on every day since 2025-11 that SMH gapped up or bounced and was below its open at 10:15
+   with its one-month return negative, a 0.2-delta put bought at 10:16 on the weakest chip mega cap below its open,
+   against the same on SMH or QQQ itself and on the name with the tightest same-day spread; (b) the same entry at 11:21
+   and 13:16; (c) the same on months when SMH's one-month return was positive (does the mirror need a falling theme?).
+   Bar, written before the run: the 10:16 entry positive without its best two over the last 3 months and better than
+   the 11:21 entry, or the mirror goes back to being an idea, not a pick; if the index or ETF put does as well as the
+   weakest name, the mirror buys the ETF (same-day expiry, tighter spread). Until it has run the mirror stays shadow-only.
 
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
