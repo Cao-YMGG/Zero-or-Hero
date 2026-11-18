@@ -683,6 +683,48 @@ class OpportunityScoreTest(unittest.TestCase):
         self.assertEqual(rows[0]["from_extreme_pct"], 0.98)                # 103 high before 10:17, entry 102
         self.assertEqual((rows[0]["entry_close_pct"], rows[0]["grade"]), ("2.10", "paid"))   # final row kept
 
+    def test_after_the_market_takes_beta_times_spy_out(self):
+        from zoh.research import opportunities as opp
+        spy = [{"t": f"2026-09-{d:02d}T04:00:00Z", "c": 100 * (1.01 if d % 2 else 0.995) ** d} for d in range(1, 29)]
+        spy += [{"t": f"2026-10-{d:02d}T04:00:00Z", "c": spy[-1]["c"] * (1.004 if d % 3 else 0.99) ** d} for d in range(1, 21)]
+        stock = [{"t": b["t"], "c": 50.0} for b in spy]
+        for i in range(1, len(spy)):                                     # the stock moves twice SPY, every day
+            stock[i]["c"] = stock[i - 1]["c"] * (1 + 2 * (spy[i]["c"] / spy[i - 1]["c"] - 1))
+        self.assertEqual(opp.beta_of(stock, spy, "2026-10-21"), 2.0)
+        self.assertIsNone(opp.beta_of(stock[:10], spy, "2026-10-21"))    # too few days: no beta, no number
+        self.assertEqual(opp.after_market(-0.56, -0.59, "call", 2.0), 0.62)    # fell less than twice SPY: tide
+        self.assertEqual(opp.after_market(1.20, -0.50, "put", 2.0), 0.2)       # a put on a down tape keeps little
+
+        class Api:
+            def daily_bars_multi(self, symbols, start, end, feed="sip"):
+                return {"AMAT": stock, "SPY": spy}
+        rows = [{"date": "2026-10-21", "symbol": "AMAT", "direction": "call", "entry_close_pct": "-0.56", "spy_pct": "-0.59"},
+                {"date": "2026-10-21", "symbol": "NEW", "direction": "call", "entry_close_pct": "1.0", "spy_pct": "0.2"},
+                {"date": "2026-10-21", "symbol": "AMAT", "direction": "put", "entry_close_pct": "0.4", "spy_pct": "",
+                 "after_mkt_pct": ""}]
+        opp.fill_after_market(Api(), rows)
+        self.assertEqual((rows[0]["beta"], rows[0]["after_mkt_pct"]), (2.0, 0.62))
+        self.assertNotIn("after_mkt_pct", rows[1])                       # no daily bars for it: left empty
+        self.assertEqual(rows[2]["after_mkt_pct"], "")                   # no SPY window on the row: left empty
+
+    def test_a_pick_leads_the_idea_it_repeats(self):
+        from zoh.research import opportunities as opp
+
+        def row(time, kind, action, move, source="intraday", conviction="maybe"):
+            return {"date": "2026-11-18", "time": time, "type": kind, "symbol": "TSM", "direction": "put", "action": action,
+                    "source": source, "entry_close_pct": str(move), "vs_spy_pct": "0.1", "best_after_entry_pct": "1.0",
+                    "grade": opp.grade_of(move), "conviction": conviction, "after_mkt_pct": str(move), "final": "1"}
+        rows = [row("10:17", "sector_intraday", "none", 0.26), row("11:24", "intraday", "shadow", -0.90, conviction="yes")]
+        one = opp.ideas(rows)
+        self.assertEqual(len(one), 1)
+        self.assertEqual((one[0]["time"], one[0]["action"], one[0]["grade"], one[0]["type"], one[0]["conviction"]),
+                         ("11:24", "shadow", "wrong", "sector_intraday", "yes"))
+        self.assertEqual([r["symbol"] for r in opp.to_review("2026-11-18", rows)], ["TSM"])   # the pick owes a post-mortem
+        self.assertEqual(len(opp.ideas(rows[:1])), 1)                    # without a pick the first mention stands
+        text = opp.scoreboard(rows, small=1)
+        self.assertIn("## After the market (since 2026-11-18, all rows)", text)
+        self.assertIn("| picked (sniper or intraday pick) | 1 | 0% | -0.90% |", text)
+
     def test_the_1316_would_be_picks_keep_their_repeats(self):
         from zoh.research import opportunities as opp
 
