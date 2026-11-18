@@ -72,7 +72,7 @@ No pick at the 13:16 check-in since 2026-11-16 (CLAUDE.md); the file lists what 
 | peer_readthrough | 11 | 45% | 45% | +1.36% | +0.75% | +1.09% | 64% |
 | gapdown_rebound | 10 | 40% | 10% | -0.73% | -0.94% | -0.35% | 30% |
 | rotation_laggard | 9 | 33% | 11% | -1.38% | -1.83% | -0.59% | 33% |
-| sympathy | 9 | 67% | 33% | +0.31% | +0.06% | +0.33% | 56% |
+| sympathy | 9 | 67% | 33% | +0.31% | +0.05% | +0.33% | 56% |
 | financing_fade | 8 | 62% | 38% | +0.53% | +0.22% | -0.13% | 50% |
 | sell_the_news | 6 | 50% | 17% | -1.64% | -2.87% | -1.67% | 50% |
 | earnings_reaction | 6 | 83% | 33% | +1.72% | +0.92% | +1.18% | 67% |
@@ -90,7 +90,7 @@ No pick at the 13:16 check-in since 2026-11-16 (CLAUDE.md); the file lists what 
 | relative_weakness | 17 | 41% | 18% | -0.14% | -0.53% | -0.14% | 41% |
 | sector_move | 16 | 56% | 6% | -0.22% | -0.35% | +0.09% | 31% |
 | sector_intraday | 15 | 53% | 27% | +0.02% | -0.27% | -0.30% | 47% |
-| sympathy | 9 | 67% | 33% | +0.31% | +0.06% | +0.33% | 56% |
+| sympathy | 9 | 67% | 33% | +0.31% | +0.05% | +0.33% | 56% |
 | relative_strength | 6 | 83% | 50% | +0.80% | +0.62% | +0.40% | 50% |
 | peer_readthrough | 5 | 60% | 60% | +2.36% | +1.10% | +1.61% | 80% |
 | sell_the_news | 5 | 40% | 20% | -2.09% | -3.74% | -2.14% | 40% |
@@ -101,15 +101,15 @@ No pick at the 13:16 check-in since 2026-11-16 (CLAUDE.md); the file lists what 
 
 ## Why the wrong ones were wrong
 
-25 of 102 wrong ideas have a post-mortem (journal/opportunity_reviews.csv, written each evening since 2026-11-13). One cause each; a cause that keeps coming back is a habit to change.
+30 of 102 wrong ideas have a post-mortem (journal/opportunity_reviews.csv, written each evening since 2026-11-13). One cause each; a cause that keeps coming back is a habit to change.
 
 | cause | 中文 | wrong ideas | share | avg move | types it shows up in |
 |---|---|---|---|---|---|
-| chased | 追在延伸处 | 7 | 28% | -1.83% | relative_weakness 2, sector_intraday 2, company_news 2 |
-| priced_in | 已经在价格里 | 4 | 16% | -1.79% | company_news 3, analyst 1 |
-| tide | 被大盘带走 | 4 | 16% | -1.00% | analyst 3, company_news 1 |
-| noise | 没有可学的 | 3 | 12% | -0.22% | gapdown_rebound 1, sector_move 1, analyst 1 |
-| no_catalyst | 没有自己的消息 | 2 | 8% | -1.53% | company_news 1, relative_weakness 1 |
-| reversal | 逆势 | 2 | 8% | -1.91% | gapdown_rebound 1, sector_intraday 1 |
-| timing | 时间不对 | 2 | 8% | -1.16% | company_news 1, gapdown_rebound 1 |
-| misread_news | 消息读反了 | 1 | 4% | -2.22% | company_news 1 |
+| chased | 追在延伸处 | 9 | 30% | -1.78% | sector_intraday 4, relative_weakness 2, company_news 2 |
+| tide | 被大盘带走 | 5 | 17% | -0.91% | analyst 4, company_news 1 |
+| priced_in | 已经在价格里 | 4 | 13% | -1.79% | company_news 3, analyst 1 |
+| noise | 没有可学的 | 4 | 13% | -0.23% | gapdown_rebound 1, sector_move 1, analyst 1 |
+| no_catalyst | 没有自己的消息 | 3 | 10% | -1.25% | relative_weakness 2, company_news 1 |
+| reversal | 逆势 | 2 | 7% | -1.91% | gapdown_rebound 1, sector_intraday 1 |
+| timing | 时间不对 | 2 | 7% | -1.16% | company_news 1, gapdown_rebound 1 |
+| misread_news | 消息读反了 | 1 | 3% | -2.22% | company_news 1 |
