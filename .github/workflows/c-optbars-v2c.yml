@@ -1,0 +1,40 @@
+name: claude-c straddles v2c (branch c/optbars only)
+
+# claude-c's research fetch: ATM straddle at the pre-earnings close. Own branch only; never main or claude/**.
+on:
+  push:
+    branches: ["c/optbars"]
+    paths: ["exchange/claude-c/optbars/request-v2c.json", "exchange/claude-c/optbars/straddles.py",
+            ".github/workflows/c-optbars-v2c.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: c-optbars-v2c
+  cancel-in-progress: false
+
+jobs:
+  straddles:
+    runs-on: ubuntu-latest
+    timeout-minutes: 200
+    env:
+      APCA_API_KEY_ID: ${{ secrets.APCA_API_KEY_ID }}
+      APCA_API_SECRET_KEY: ${{ secrets.APCA_API_SECRET_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch straddles
+        timeout-minutes: 180
+        run: python exchange/claude-c/optbars/straddles.py exchange/claude-c/optbars/request-v2c.json exchange/claude-c/optbars/out-v2c
+      - name: Commit results to c/optbars
+        if: always()
+        run: |
+          git config user.name "claude-c-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add exchange/claude-c/optbars/out-v2c || exit 0
+          git diff --cached --quiet && exit 0
+          git commit -m "c/optbars: v2c straddles $(date -u +%FT%TZ)"
+          for i in 1 2 3; do git pull --rebase origin c/optbars && git push origin HEAD:c/optbars && break; sleep 5; done
