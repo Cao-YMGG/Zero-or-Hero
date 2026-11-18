@@ -1,6 +1,15 @@
 {
  "date": "2026-11-18",
- "picks": [],
+ "picks": [
+  {
+   "time": "11:24",
+   "symbol": "TSM",
+   "direction": "put",
+   "confidence": 0.25,
+   "catalyst": "Put mirror armed on the levels written at 10:17. The morning filed chips as the month's coolest theme and their +2% gap as a read-through of NVDA's beat; NVDA was sold from the bell on that beat (159.23 -> 151.91, -4.6% from its open, with a WSJ report of an SEC probe and a delayed 10-Q this morning) and SMH is 468.00 -> 455.35 (-2.7% from its open, -1.0% on the day), back under 458 after its 10:00 bounce failed. TSM is the weakest chip mega cap below its open that is still inside the 3% line and outside a report window: 367.78 -> 358.18 (-2.6%, the +2.3% gap gone, now -0.4% on the day; line 356.75). SPY is at its session low (-0.76% from its open), bonds are bid (TLT +0.7%). Against it: no news of TSM's own since the bell; it is only 0.4% above the 3% line, so this is close to a chase; SMH is sitting on its 10:00 low (453.83) and a second hold there would bounce it; the 20-year auction (13:00) and FOMC minutes (14:00) can turn the afternoon. TSM's nearest expiry is Friday. Shadow only. Wrong if TSM is back above 364.17 or SMH above 461.76 (their 10:17 prices) by 13:16.",
+   "catalyst_zh": "看跌镜像按 10:17 写好的价位触发了：英伟达财报超预期却从开盘一路被卖（比开盘低 4.6%，今早还有证监会调查的报道），芯片板块高开 2% 后现在比开盘低 2.7%，10 点的反弹没站住。台积电是还没跌过 3% 线的芯片大盘股里最弱的（比开盘低 2.6%），选它看跌。风险：台积电自己没有坏消息，离 3% 线只差 0.4%，接近追跌；板块正踩在 10 点的低点上，守住就会反弹。只记影子，信心 0.25。"
+  }
+ ],
  "check_1016": "10:17 ET: no pick. NVDA's beat was sold at the bell and the chip complex dropped 3% in the first half hour, then bounced: SMH 468.00 open, low 453.83 (-3.0%), 461.76 now (-1.3% from its open, +0.4% on the day). NVDA 159.23 -> 154.64 (-2.9% from its open, -0.5% on the day; excluded, first day after its report). Index flat: SPY 733.49 -> 732.19 (-0.18%; low 728.58), QQQ -0.11%, IWM +1.05% from its open, IGV +0.84% (software bounces), XLE -1.2%, XLF -0.5%, XLV -0.2%, XLP +0.2%. From their opens: MRVL -3.3%, UNH -3.5% (-4.3% on the day), CRM -2.0% (IGV up), AMAT -1.2% (low 342.32, -3.6%), TSM -1.0% (low 356.77), INTC -0.9%, MU -0.85% (low 691.25, -3.8%), JPM -0.1%; up: AMZN +1.6% (+2.4% on the day, at its high), AMD +0.8%, AVGO +0.6% (+2.9% on the day), GOOGL +0.1% (+1.1%), AAPL +0.6%, TSLA -0.3%. In-session news is thin: Benzinga since 09:30 has an Amazon Ads holiday program, Oracle life-science agents, Supermicro servers on AMD EPYC, an insider buy at TSM, Argus upgrading Elevance to Buy, Erste downgrading GE Vernova; the CRM security advisory (malicious code through a third-party Optimizely script) was posted at 03:20 ET, before the bell, with a Business Insider report of new job cuts. The morning sniper is wrong on its own line: AMAT opened 354.97 and was below its open within minutes (low 342.32), state shows no catalyst_open entry. No call: AMZN is the day's leader (+2.4% with SPY flat) but has no news of its own since the bell; the likeliest driver is Anthropic pricing its IPO tonight (Amazon is one of its largest backers; 7x oversubscribed per Benzinga), which lands after today's options expire. No put: CRM's news is from before the bell and UNH has no new headline and is past the 3% line.",
  "conditional_1121": "Put mirror (11:21 judges it). The morning called the chip gap a read-through on a cooling theme and wrote this line; SMH was below its 468.00 open by 10:00 and has bounced off a -3.0% low. The candidate is the weakest chip mega cap below its open, within 3% of it and outside a report window: AMAT is weakest (-1.2%) but carries fresh good news of its own (Bernstein's top pick) and is the morning's call, so skip it; TSM next (open 367.78, 364.17 at 10:17, the 3% line 356.75; nearest expiry Friday). Put on TSM if at 11:21 SMH is below 458.00 (back under the middle of the bounce) and TSM is below 364.17 but not under 356.75. MU is the alternate with a same-day expiry (open 718.48, 712.37 at 10:17, line 696.93): only if TSM is already past its line. No put if SMH is back above 465.00, or if the early low (453.83) breaks by more than 1% before 11:21 (then the move is spent and every candidate is past the line). Call side: AMZN needs in-session news of its own (an Anthropic pricing leak before the close would count) and still to be within 3% of its open (259.81; line 267.60).",
  "opportunities": [
@@ -43,6 +52,28 @@
    "conviction": "no",
    "why": "Control (past the 3% line): UNH 386.30 -> 372.76 (-3.5% from its open, -4.3% on the day, -9.5% in two sessions) with no new headline since Tuesday's Warren break-up call and the CMS anti-fraud rule; Argus upgraded Elevance to Buy at 08:02. An idea past the 3% line is a 'no' by construction.",
    "why_zh": "对照（已经跌过 3% 线）：联合健康比开盘低 3.5%，两天跌了约 9.5%，开盘后没有新消息（还是昨天沃伦要拆分医疗集团、医保反欺诈新规那两条）。跌过 3% 的一律算追高对照。"
+  },
+  {
+   "type": "sector_intraday",
+   "symbol": "MU",
+   "direction": "put",
+   "time": "11:24",
+   "action": "none",
+   "conviction": "no",
+   "why": "Control (past the 3% line): MU 718.48 -> 692.84 (-3.6% from its open, -2.7% on the day), the mirror's alternate with a same-day expiry; not used because TSM is still inside its line. One chased control per check-in.",
+   "why_zh": "对照（已经跌过 3% 线）：美光比开盘低 3.6%，是看跌镜像的备选（有当天到期的期权）。台积电还没跌过 3% 线，所以用台积电，美光只记成追跌对照。"
+  },
+  {
+   "type": "sector_intraday",
+   "symbol": "INTC",
+   "direction": "put",
+   "time": "11:24",
+   "action": "none",
+   "conviction": "maybe",
+   "why": "The weakest chip large cap still inside the 3% line by a hair (55.39 -> 53.87, -2.7%; -2.4% on the day) with news of its own this morning (a new round of global workforce cuts, 07:32). Not the mirror's name: the 10:17 line named TSM, and a layoff headline reads either way.",
+   "why_zh": "英特尔比开盘低 2.7%，是没过 3% 线的芯片股里跌得最多的，今早还宣布了新一轮全球裁员。没选它：10:17 定的是台积电，而且裁员消息可好可坏。"
   }
- ]
+ ],
+ "check_1121": "11:24 ET: pick TSM put (mirror armed). SPY 733.49 -> 727.93 (-0.76% from its open, at the session low 726.80), QQQ -0.97%, IWM +0.5%, IGV -0.1%, XLY +0.8%, XLE -2.0%, XLV -0.8% (UNH -5.8% from its open, -6.6% on the day, still no new headline), XLF -0.6%; TLT +0.7% on the day. Chips from their opens: MRVL -5.4%, NVDA -4.6%, MU -3.6% (past its line), INTC -2.7%, TSM -2.6%, LRCX -2.5%, AMAT -2.1% (the morning's call: wrong), ARM -1.5%, AMD -0.9%, AVGO +0.1% (+2.4% on the day). SMH 455.35, under the 458.00 trigger and above the 453.83 low; the 10:17 conditions for TSM all hold (SMH < 458.00; TSM < 364.17 and > 356.75; SMH not above 465; the low not broken by 1%). No in-session news on any chip name (Benzinga via Alpaca, 10:17-11:22: nothing on NVDA, TSM, MU, MRVL, INTC, AMD, AVGO). Call side: AMZN is still the leader (259.81 -> 263.21, +1.3% from its open, +2.1% on the day) with no news of its own; not picked, listed at 10:17. CRM is now -3.3% from its open (past the line; listed at 10:17).",
+ "conditional_1316": "13:16 scores both and does not pick (rule since 2026-11-16). TSM put: right so far if TSM is below 358.18 at 13:16; wrong on its own line if TSM is above 364.17 or SMH above 461.76. Events before then: 13:00 20-year auction. If SMH holds 453.83 and is back above 458 at 13:16, the mirror was a chase at the low; if it breaks 453.83, note how far TSM goes past its 3% line (356.75). A would-be 13:16 pick is listed with conviction yes only if something new breaks."
 }
