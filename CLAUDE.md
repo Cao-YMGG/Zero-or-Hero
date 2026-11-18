@@ -59,8 +59,8 @@ How a thing moves between shelves:
   reporting within 10 trading days is a pre-earnings drift candidate until then; peers' reports are read-through
   catalysts (TSMC/ASML for chips, big banks for financials). Check `config/earnings.json` and the Webull earnings
   calendar, which can move dates.
-- **R4. A broker's rating change is a day-0, first-minutes effect.** Upgrades are +0.85% open to close over 340 events
-  of two years (62 on our 25 names, 278 on 105 other large caps), the same with SPY above or below its 20-day average
+- **R4. A broker's rating change is a day-0, first-minutes effect.** Upgrades are +0.92% open to close over 340 events
+  of two years (62 on our 25 names, 278 on 105 other large caps; +0.84% after the market), the same with SPY above or below its 20-day average
   the evening before (+0.85% / +1.06%) and after up or down sessions (+0.81% / +1.04%). Out of sample it is +0.88% from
   the open but only +0.22% from the 09:32 price, nothing more by day +10, and a three-week call loses 11-15% at every
   strike (SLOWDRIFT_WIDE.md). Downgrades lose at every strike (33 events, -16% to -40%). So the sniper is named only on a
