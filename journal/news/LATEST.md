@@ -1,4 +1,4 @@
-# Headlines since 2026-11-17 16:00 ET (as of 2026-11-18 14:46 ET)
+# Headlines since 2026-11-17 16:00 ET (as of 2026-11-18 15:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -13,6 +13,11 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-18 07:31 | CRM | rating | BTIG Adjusts Salesforce Price Target to $250 |
 | 11-18 06:31 | TSLA | downgrade | Tesla Receives Analyst Downgrade to Sell |
 | 11-17 17:01 | ARM | rating | Morgan Stanley Maintains Hold Rating and $212 Price Target for Arm Holdings |
+| 11-18 15:01 | NFLX |  | Executive Kira Goldberg Departs Netflix for Skydance |
+| 11-18 15:01 | JPM |  | Wells Fargo to Name JPMorgan Executive Allison Beer as COO |
+| 11-18 15:01 | MSFT |  | Splashtop Joins Microsoft Virus Initiative |
+| 11-18 15:01 | AMZN |  | Amazon Announces $7 Billion Renewable Energy Investment in India |
+| 11-18 15:01 | AAPL |  | Apple Announces Finalists for 2026 App Store Awards |
 | 11-18 14:03 | MSFT |  | Microsoft and Intel Announce Joint Infrastructure Investments |
 | 11-18 14:03 | MSFT |  | Ema Launches AI Employees for HR, IT, and Finance on Microsoft Marketplace |
 | 11-18 14:02 | COIN |  | Coinbase Expands Bitcoin-Backed Loan Availability to All 50 U.S. States |

@@ -1,7 +1,57 @@
 {
- "as_of": "2026-11-18T14:46-05:00",
+ "as_of": "2026-11-18T15:16-05:00",
  "since": "2026-11-17T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-18 15:01",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Executive Kira Goldberg Departs Netflix for Skydance",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/2026/11/19/business/foreign-business/skydance-names-paramount-wb-film-unit-heads/2473436"
+  },
+  {
+   "time": "11-18 15:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "Wells Fargo to Name JPMorgan Executive Allison Beer as COO",
+   "source": "fiscal.ai",
+   "url": "https://www.fidelity.com/news/article/company-news/202611180923MIDNIGHTUSEQUITY_A3756531"
+  },
+  {
+   "time": "11-18 15:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Splashtop Joins Microsoft Virus Initiative",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/18/3406049/0/en/splashtop-joins-microsoft-virus-initiative-strengthening-protection-for-microsoft-environments.html"
+  },
+  {
+   "time": "11-18 15:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Announces $7 Billion Renewable Energy Investment in India",
+   "source": "fiscal.ai",
+   "url": "https://energydigital.com/news/amazon-to-invest-us-7bn-in-renewable-energy-in-india-by-2030"
+  },
+  {
+   "time": "11-18 15:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Announces Finalists for 2026 App Store Awards",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/oy1ri1h/"
+  },
   {
    "time": "11-18 14:03",
    "symbols": [
