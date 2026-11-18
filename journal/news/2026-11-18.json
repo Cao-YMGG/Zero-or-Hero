@@ -1,7 +1,57 @@
 {
- "as_of": "2026-11-18T10:32-05:00",
+ "as_of": "2026-11-18T11:02-05:00",
  "since": "2026-11-17T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-18 11:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs & Co. LLC Acts as Lead Placement Agent for ChronoScale Financing",
+   "source": "fiscal.ai",
+   "url": "https://www.fidelity.com/news/article/technology/202611180815PRIMZONEFULLFEED9880351"
+  },
+  {
+   "time": "11-18 11:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Ducommun Incorporated to Participate in Goldman Sachs Industrials & Materials Conference",
+   "source": "fiscal.ai",
+   "url": "https://newsfilter.io/articles/ducommun-to-participate-in-goldman-sachs-industrials-and-materials-conference-35961006fdfa524899db3e1a17c91338"
+  },
+  {
+   "time": "11-18 11:01",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "ExxonMobil Foundation Announces Winners of STEM Africa Regional Finals",
+   "source": "fiscal.ai",
+   "url": "https://africa.com/apo/mentes-brilhantes-wins-year-3-exxonmobil-foundation-science-technology-engineering-and-mathematics-stem-africa-regional-finals"
+  },
+  {
+   "time": "11-18 11:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "BCG and Microsoft Expand Collaboration for AI-Powered Business Reimagination",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/bcg-and-microsoft-expand-collaboration-with-new-model-for-ai-powered-business-reimagination-302943516.html"
+  },
+  {
+   "time": "11-18 11:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Akamai Integrates Enterprise Security with Microsoft Edge for Business on Mobile",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/globe-newswire/9879516/akamai-extends-its-enterprise-security-controls-to-microsoft-edge-for-business-browser-on-mobile"
+  },
   {
    "time": "11-18 09:32",
    "symbols": [

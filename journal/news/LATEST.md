@@ -1,4 +1,4 @@
-# Headlines since 2026-11-17 16:00 ET (as of 2026-11-18 10:32 ET)
+# Headlines since 2026-11-17 16:00 ET (as of 2026-11-18 11:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -13,6 +13,11 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-18 07:31 | CRM | rating | BTIG Adjusts Salesforce Price Target to $250 |
 | 11-18 06:31 | TSLA | downgrade | Tesla Receives Analyst Downgrade to Sell |
 | 11-17 17:01 | ARM | rating | Morgan Stanley Maintains Hold Rating and $212 Price Target for Arm Holdings |
+| 11-18 11:01 | GS |  | Goldman Sachs & Co. LLC Acts as Lead Placement Agent for ChronoScale Financing |
+| 11-18 11:01 | GS |  | Ducommun Incorporated to Participate in Goldman Sachs Industrials & Materials Conference |
+| 11-18 11:01 | XOM |  | ExxonMobil Foundation Announces Winners of STEM Africa Regional Finals |
+| 11-18 11:01 | MSFT |  | BCG and Microsoft Expand Collaboration for AI-Powered Business Reimagination |
+| 11-18 11:01 | MSFT |  | Akamai Integrates Enterprise Security with Microsoft Edge for Business on Mobile |
 | 11-18 09:32 | AMZN |  | Amazon Ads Expands Holiday Sponsorship Program |
 | 11-18 09:31 | CRM |  | Salesforce Issues Security Advisory Regarding Optimizely Script Incident |
 | 11-18 09:31 | COIN |  | HSK Chain and Coinbase's Base Announce Strategic Collaboration |
