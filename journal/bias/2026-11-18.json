@@ -1,0 +1,156 @@
+{
+ "date": "2026-11-18",
+ "bias": "none",
+ "confidence": 0.3,
+ "p_up": 0.49,
+ "summary": "Chips up on NVDA's beat, the index barely: at 08:32 SPY 734.18 (+0.24% vs Tuesday's 732.44 close after -1.01%), QQQ +0.69%, SMH +2.05% (NVDA +3.1%, TSM +2.8%, ARM +2.3%, MRVL +2.2%, AVGO +1.9%, AMD +1.8%, MU +1.8%), VIXY -3.0%, oil -0.5%, TLT +0.1%. Against it: the night had SPY +0.47% and half is gone, retail is sold after its reports (LOW -5.0%, HD -1.7%, WMT -1.0% into Thursday; Target raised its guidance and traded -3.8% at 07:48), health and staples keep falling, a December hike is fully priced with the 10Y at 5.09%, and the 20Y auction (13:00) and FOMC minutes (14:00) come in the afternoon. Mixed: no call, p_up 0.49.",
+ "reasons": [
+  "Pre-market 08:32 ET (Webull, vs Tuesday's close): SPY 734.18 (+0.24%), QQQ 661.46 (+0.69%), SMH 469.52 (+2.05%), IWM -0.33%, XLF -0.19%, XLV -0.62%, XLP -0.55%, XLE -0.69%, IGV +0.63%, TLT +0.13%, USO -0.48%, UUP +0.20%, VIXY -2.95%, GLD -1.9%. At 07:48: SPY 733.76, QQQ +0.59%, SMH +1.93%: steady since.",
+  "Night session (Webull): SPY 735.87 (+0.47%), QQQ +0.94%, SMH +2.34%; the pre-market has given back half. The OVERNIGHT.md lean needs the night down 0.3% or more: not applied.",
+  "Tuesday: SPY -0.81% open to close (738.39 -> 732.44), -1.01% on the day; software was sold hardest (CRM -9.5%, INTU -7.2%, NOW -6.5%, IBM -4.7%, ADBE -4.2% close to close) on a run of service outages; VIX closed 25.5 (the other side's facts; 22.9 Monday). The last three sessions' opens were near the day's highs.",
+  "NVDA after Tuesday's close (no NVDA trade today: first day after its report): revenue 115.84B vs 109.1B expected, adjusted EPS 2.68 vs 2.48, Q4 guide 130B +-3% vs 125.2B (with an extra week), gross-margin guide 71-72% (74.9% this quarter), FY28 growth raised to 75%; the board rules out Huang's return; the SEC is running a civil probe of its disclosures (WSJ) and the 10-Q is delayed. Morgan Stanley (260) and Piper (230) cut targets, Rosenblatt kept 300. NVDA +3.1% pre-market after trading up to about 163 after hours.",
+  "Retail reports this morning: Target raised its FY adjusted EPS guide to 10.65-11.40 (10.55 expected) and traded 153.50 (-3.8%) at 07:48 (the 08:32 Webull quote shows the close and looks stale); Lowe's -5.0%; TJX also reported. Walmart reports Thursday before the open. No 08:30 US data today.",
+  "Rates and the Fed: 10Y 5.09%, 2Y 4.79% (Benzinga 04:51 ET), CME prices a December hike at 100%. 13:00 20-year auction (last high yield 5.469%), 13:35 Barr, 14:00 minutes of the Oct 27-28 FOMC, 14:30 Williams, 16:15 Kashkari. Gold -1.9% pre-market. Abroad: EWY +1.6%, EWT +0.6% pre-market; EWJ -0.2%, FXI -1.0%.",
+  "For an up day: NVDA beat and raised and the chip complex is bid, VIX and oil are falling, two down days in a row. Against: the night's gain is half gone, the consumer names are sold on their own reports, havens (health, staples) keep falling, a hike is priced and the auction and minutes come after 13:00, and the NVDA probe headlines keep coming. Not one-sided: p_up 0.49.",
+  "Drop lights at Tuesday's close: breadth only (stretched off: SPY -2.3% over five sessions). Theme model: all ten themes neutral (turn flags: chips BREADTH; internet BREADTH+PERIPH; software BREADTH+RATIO_LOW; power, optical BREADTH. Heat flags: health BREADTH_UP; energy REL_STRONG; industrials, power, optical PERIPH_UP).",
+  "Put-mirror line for the check-ins: chips gapped about +2% in a -16% month on NVDA's read-through. If SMH is back below its open by 11:00, the weakest chip mega cap already below its open (not NVDA, first day after its report) is the put candidate; the 10:16 check names it, the 11:21 check judges it.",
+  "Rating changes on large caps found by 08:32: none. Analyst notes only: Bernstein names AMAT its top equipment pick (Outperform, 600), keeps Outperform on KLAC and LRCX; BTIG cuts CRM to 250 from 300; Morgan Stanley and Piper cut NVDA targets; a downgrade of TSLA to Sell (firm not named in the headline), Barclays keeps Buy on TSLA; Evercore cuts HOOD's target."
+ ],
+ "events": [
+  "No 08:30 US data; 10:00 pending home sales (consensus -2%, prior -7.3%); 10:30 EIA crude (consensus -0.5M)",
+  "13:00 20-year bond auction; Fed: Barr 13:35, FOMC minutes 14:00, Williams 14:30, Kashkari 16:15; Lagarde at DealBook 09:25",
+  "Reports: TGT, LOW, TJX before the open (no sniper on TGT or LOW today); PANW after the close; WMT Thursday before the open (no sniper on WMT today); NVDA's first day after its report (no NVDA trade); Anthropic's IPO prices today (Broadcom $1B, Altimeter $5B)",
+  "Monthly options expiry Friday: spy_open_drive, spy_open_drive_put and stock_open_drive skip the week; nvda_gapdown_put is refused on NVDA's first day after its report (and NVDA is gapping up)"
+ ],
+ "inputs": {
+  "es_futures_pct": 0.24,
+  "nq_futures_pct": 0.69,
+  "vix": 25.5,
+  "wti": null,
+  "wti_pct": null,
+  "brent": null,
+  "us10y": 5.09,
+  "us10y_change_bp": null,
+  "us2y": 4.79,
+  "us2y_change_bp": null,
+  "dxy_pct": 0.2,
+  "vixy_pct": -2.95,
+  "overnight": "es/nq fields are the SPY and QQQ pre-market moves at 08:32 ET (Webull); dxy_pct is UUP. VIX is Tuesday's close from the other side's exchange file. Night session SPY 735.87 (+0.47%), QQQ +0.94%. Yields from a Benzinga pre-market wrap (04:51 ET); oil only as USO (-0.5%; Benzinga 01:37 ET: WTI -1.25%, Brent -0.67%)."
+ },
+ "rotation": {
+  "heating": [
+   "energy +2.3% 1w / -4.6% 1m (XLE +1.8 / -6.5); this morning XOM -0.75%, CVX -0.6%, oil down",
+   "consumer +0.8% / +9.5% and staples XLP +0.5% / +4.9%; this morning sold on the retail reports (LOW -5.0%, HD -1.7%, WMT -1.0%, COST -0.6%, XLP -0.55%)",
+   "health -2.4% / +5.0% (XLV -1.9 / +5.5): the month's gain is leaking (UNH -5.4% Tuesday)"
+  ],
+  "cooling": [
+   "GPU -8.0% / -28.4% (NVDA), memory -4.5% / -31.6%, optical -3.5% / -28.0%, CPU -2.1% / -22.0%, disk -0.7% / -21.6%, power -2.6% / -14.6%; SMH -4.9% / -16.1%",
+   "software -4.7% / -17.9% (CRM, NOW, ORCL, ADBE), internet -3.0% / -7.0%, banks -3.2% / -0.9%, industrials -2.9% / -8.2%"
+  ],
+  "note": "This morning the month's losers bounce on NVDA (chips +2%) and the month's havens are sold again (retail on its reports, health, staples). SPY -2.3% 1w / -4.4% 1m, QQQ -2.6% / -8.5%, IWM -4.1% / -0.8%, XLF -2.1% / +3.7%. Computed from official daily bars to 11-17 (Alpaca SIP; Webull bars were not pulled this morning). The map is context, not a forecast (heating beat cooling on 12 of 30 mornings in WEEK46.md).",
+  "theme_state": {
+   "turning": [],
+   "heating": [],
+   "neutral": [
+    "chips",
+    "internet",
+    "software",
+    "banks",
+    "health",
+    "energy",
+    "consumer",
+    "industrials",
+    "power",
+    "optical"
+   ],
+   "lights": [
+    "breadth"
+   ],
+   "source": "python -m zoh.research.themes --today and drops --today, bars to 2026-11-17",
+   "filter": "No theme is turning: no theme filter on picks today."
+  },
+  "events": [
+   "NVDA's first day after its report: no NVDA trade; chip names may be picked only on news of their own",
+   "TGT, LOW reported; WMT Thursday: no sniper on TGT, LOW or WMT today"
+  ]
+ },
+ "sniper": {
+  "symbol": "AVGO",
+  "direction": "call",
+  "class": "news",
+  "confidence": 0.2,
+  "catalyst": "Own news from the last day: Broadcom commits $1B to Anthropic's IPO as one of its strategic technology suppliers (Benzinga via Alpaca, 11-17 20:01 ET), the evening NVDA beat and raised (a Futurum analyst on CNBC this morning: AMD and Broadcom can catch up while Nvidia changes CEOs). AVGO 348.15 at 08:32 (+1.9%; SMH +2.05%, so the gap is the sector, not the news), median target 530 (Webull; low 398), Rothschild cut it to Neutral on 11-13, reports Dec 9 (outside the 10-day window). Against it: company news is the weak class (10 such snipers right on 5, -56% to -71% on real prices), chips are the month's coolest theme and good news there tends to fade, and Anthropic's own listing tomorrow may pull money out of AI hardware. Shadow only (catalyst_open about 0.10 delta and the hero; rating_open does not take the news class); the entry needs AVGO at or above its open between 09:31 and 10:00.",
+  "wrong_if": "AVGO is below its open at 10:00, or it is back under Tuesday's close 341.60 before 11:00."
+ },
+ "opportunities": [
+  {
+   "type": "company_news",
+   "symbol": "AVGO",
+   "direction": "call",
+   "time": "09:31",
+   "action": "shadow",
+   "conviction": "maybe",
+   "why": "Sniper (see sniper): Broadcom commits $1B to Anthropic's IPO as one of its strategic suppliers (Benzinga via Alpaca, 11-17 20:01), the morning after NVDA beat and raised; +1.7% pre-market with SMH +1.9%, so most of the gap is the sector. Median target 530 against ~347. Company news, not a rating change: confidence 0.2.",
+   "why_zh": "狙击（见上）：博通答应在 Anthropic 上市时认购 10 亿美元，算是大客户之间绑得更紧；同时英伟达昨晚财报超预期，芯片今早一起涨。盘前 +1.7%，和芯片板块差不多，所以涨的大部分是板块不是它自己的消息。分析师目标中位数 530，现价约 347。只是公司消息，不是评级上调，信心 0.2。"
+  },
+  {
+   "type": "analyst",
+   "symbol": "AMAT",
+   "direction": "call",
+   "time": "10:00",
+   "action": "none",
+   "conviction": "maybe",
+   "why": "Bernstein names Applied Materials its top U.S. chip-equipment pick, Outperform kept, target 600 (Benzinga via Alpaca, 07:31) against ~355; +1.7% pre-market, the same as LRCX and KLAC (Bernstein kept Outperform on both). Not a rating change and the target is not shown as raised, so not the sniper.",
+   "why_zh": "伯恩斯坦把应用材料列为美国芯片设备股的首选，维持跑赢大盘、目标价 600（现价约 355）。盘前 +1.7%，和同行泛林、科磊一样。不是评级上调，也看不出目标价是新提的，所以不当狙击。"
+  },
+  {
+   "type": "peer_readthrough",
+   "symbol": "AMD",
+   "direction": "call",
+   "time": "10:00",
+   "action": "none",
+   "conviction": "maybe",
+   "why": "NVDA's beat read through to the other AI chip makers; a Futurum analyst on CNBC said AMD and Broadcom can catch up while Nvidia changes CEOs. AMD +1.5% pre-market. No news of its own (an insider sold $5M last night), so not a sniper.",
+   "why_zh": "英伟达财报好，带动其他 AI 芯片；有分析师在电视上说英伟达换 CEO 期间 AMD 和博通能追上来。AMD 盘前 +1.5%。它自己没有新消息（昨晚还有内部人卖股票），所以不当狙击。"
+  },
+  {
+   "type": "peer_readthrough",
+   "symbol": "TSM",
+   "direction": "call",
+   "time": "10:00",
+   "action": "none",
+   "conviction": "no",
+   "why": "Control: the biggest gap among NVDA's suppliers (+2.7% pre-market after -3.7% Tuesday) with no news of its own; listed to see whether the largest read-through gap keeps going or fills.",
+   "why_zh": "对照：英伟达供应链里盘前涨得最多的（+2.7%，昨天 -3.7%），自己没有消息；记下来看最大的那个缺口是继续涨还是回补。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "CRM",
+   "direction": "call",
+   "time": "10:00",
+   "action": "none",
+   "conviction": "no",
+   "why": "Control: Salesforce and Microsoft announced a 'Copilotforce' partnership after Tuesday's -9.5% day, but BTIG cut its target to 250 from 300 at 07:31 and CRM is -0.6% pre-market; software is the month's worst theme after chips.",
+   "why_zh": "对照：Salesforce 昨天跌了 9.5%，收盘后宣布和微软合作，但今早 BTIG 把目标价从 300 降到 250，盘前还是 -0.6%；软件是这个月除芯片外最弱的一块。"
+  },
+  {
+   "type": "analyst",
+   "symbol": "TSLA",
+   "direction": "put",
+   "time": "10:00",
+   "action": "none",
+   "conviction": "no",
+   "why": "Control: a downgrade to Sell (Benzinga 06:31, firm not named in the headline) while Barclays kept Buy; TSLA +0.5% pre-market. Downgrades lost at every strike in two years of headlines (33 events), and today is not a put day.",
+   "why_zh": "对照：有分析师把特斯拉降到卖出（标题里没写是哪家），同时巴克莱维持买入；盘前 +0.5%。过去两年的降级在每个行权价上都亏，而且今天不是看跌日。"
+  }
+ ],
+ "generated_at": "2026-11-18T08:32:56-05:00",
+ "zh": {
+  "summary": "英伟达昨晚财报超预期，今早芯片一起涨（半导体 ETF 盘前 +2%，英伟达 +3%），但大盘只涨一点：标普 ETF 盘前 734.18，比昨天收盘 +0.24%（昨天 -1%）。夜盘一度 +0.5%，现在回吐了一半。零售股财报后被卖：劳氏 -5%，塔吉特上调了全年指引却一度 -3.8%，家得宝 -1.7%，沃尔玛明天财报前 -1%。医疗、必需消费这些前几周的避风港还在跌。10 年期国债收益率 5.09%，市场已经认定 12 月加息；下午 1 点有 20 年国债拍卖，2 点公布美联储上次会议纪要。",
+  "spy": "不下注，收在开盘价上方的概率给 49%。往上的理由：英伟达财报好、芯片在涨、恐慌指数和油价都在降、已经连跌两天。往下的理由：夜盘的涨幅回吐了一半、零售财报普遍被卖、避风港还在跌、下午的国债拍卖和会议纪要可能把利率再推高、英伟达的证监会调查消息还没停。两边差不多，不赌。",
+  "sniper": "博通看涨，信心只有 0.2。消息：博通答应在 Anthropic 上市时认购 10 亿美元，是它的技术供应商之一，客户关系更紧；同时英伟达财报带动整个芯片板块。问题是：博通盘前 +1.9%，和芯片板块一样，看不出自己的消息多涨了什么；「公司消息」这一类狙击过去 10 次只对一半、期权亏五到七成；芯片是这个月最冷的板块，好消息容易冲高回落；Anthropic 明天上市，可能把钱从 AI 硬件里抽走。10:00 在开盘价下方、或 11:00 前跌回昨收 341.60 以下就算错。只记影子，不下真单。",
+  "rotation": "一个月看，钱在能源、消费、必需消费，AI 硬件各环节（显卡、存储、光模块、CPU）和软件都在流出。今早反过来：芯片因为英伟达反弹，消费和医疗被卖。没有哪个主题在「转向」，今天没有主题过滤。",
+  "heating": "能源、消费、必需消费",
+  "cooling": "显卡、存储、光模块、CPU、软件"
+ }
+}
