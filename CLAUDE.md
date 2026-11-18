@@ -31,8 +31,8 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
   owner) because the routine fired 41 minutes late both times; if it starts before 08:00, research
   first and re-read the live pre-market numbers after 08:30; on 08:30 release days read the print
   before the SPY call.
-- Weekdays ~10:16, ~11:21 and ~13:16 ET: intraday check-ins (the 11:21 one since 2026-11-05, owner:
-  the put mirror armed between 10:45 and 11:30 three sessions running). Scan big intraday movers (Webull MIN_5 /
+- Weekdays ~10:16 ET: the intraday check-in, the only one since 2026-11-18 (owner: "change it your way"; the 11:21
+  and 13:16 check-ins are off, numbers further down this paragraph). Scan big intraday movers (Webull MIN_5 /
   DAY_1 rankings, read-only) and breaking news; if one has a fresh catalyst still unfolding,
   append one pick to `journal/bias/intraday/<today>.json` (schema in journal/bias/README.md)
   and push to main. Read journal/news/LATEST.md for headlines since the open. Never touch the pre-market file after 09:30.
@@ -63,8 +63,11 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
   So a pick says what is still to come (news not yet out, a level not yet reached, a session not yet open), not what
   the stock has done. No pick at the 13:16 check-in since 2026-11-16: the 8 picks made after 13:00 were right from the
   pick on 1 (-0.62%, the 0.2-delta option -40%) against 4 of the 7 made before 11:00 (+0.11%, +4%), and of the 16
-  ideas listed after 12:00 one paid. The 13:16 file lists what it would have picked as an opportunity with conviction
-  `yes`; the pick comes back when 10 of those hold 4 or more that went 1% further their way.
+  ideas listed after 12:00 one paid. Since 2026-11-18 there is no check-in after 10:16 at all. Over the 251 scored
+  ideas of 10-29 to 11-17, those listed at the 10:16 check were right 57%, paid 31% and averaged +0.43% (123 ideas,
+  positive on 10 of 14 days); those listed 10:45-12:00 were right 32%, paid 8%, -0.83% (38 ideas, positive on 2 of 12
+  days); after 12:00, 42%, 12%, -0.19% (26). The 13:16 comeback bar is retired with it (one would-be pick logged, +0.5%, short of
+  the 1%); a later pick comes back only from a Sunday test on history, not from daily samples.
   A pick on a stock above ~$1,000 is a shadow sample only: the 20% stake (~$92) buys nothing at the 0.06-delta
   floor (2026-11-09 LLY at 1,410: catalyst_intraday found nothing affordable, only the hero shadow bought the
   1470C), so say so in the pick and prefer a sub-$700 name when one carries the same news.
@@ -80,10 +83,11 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
   The mirror arms around 11:00, between the check-ins: on 11-02, 11-03 and 11-04 SMH crossed below
   its open between 10:45 and 11:30, after the 10:16 check and long before 13:16 (11-04: MRVL -0.7%
   from its open at 10:20 with SMH still above its open; MU -2 to -3% at 11:00 and -3.4% at the
-  close while the 13:20 check found the sector already bouncing off its 11:30 low). Until an 11:30
-  check-in existed the mirror went unjudged; since 2026-11-05 the 11:21 check-in judges it, the 10:16
-  file still writes a conditional line (what would arm it and which name is weakest) and the 13:16
-  check scores both. Theme state (next paragraph of 2b) is a filter on
+  close while the 13:20 check found the sector already bouncing off its 11:30 low). From 2026-11-05 to
+  11-18 an 11:21 check-in judged it. That was late: mirror ideas listed at the 10:16 check were right on 10
+  of 12 (+1.70%, 7 days), the ones judged at 11:21 on 2 of 8 (-0.72%); on 11-18 TSM was listed at 10:17 at
+  364.17, deferred, and picked at 11:24 at 358.18. Since 2026-11-18 the 10:16 check-in judges the mirror
+  itself (theme ETF already below its open after a gap up or a bounce) and writes no conditional line. Theme state (next paragraph of 2b) is a filter on
   our own picks: no call pick on a `turning` theme's names on a bounce, sympathy or relative
   strength; a name with a same-day catalyst of its own (major-broker upgrade, contract, product) may
   be picked while SUNDAY_TESTS 56 splits the 28-trade sample (owner, 2026-11-09: the blanket ban cost
@@ -116,8 +120,20 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
   if the bar allowed, `maybe`, `no` = a control, listed because it fits a type or to watch a line. Say what I think
   before the close; never fill it in afterwards. The record splits by it: if the `no` ideas pay as often as the `yes`
   ones, the pick bar is not adding anything and that goes to SUNDAY_TESTS. Six of the thirteen wrong ideas that day
-  were `chased` (puts listed at 10:17 and 11:22 on names already 3-10% below their opens): an idea past the 3% line
-  is a `no` by construction, and one such control per check-in is enough.
+  were `chased` (puts listed at 10:17 and 11:22 on names already 3-10% below their opens). Measured on the whole log
+  on 2026-11-18, the 3% line is not the marker: ideas already 3% or more their way from the open paid 29% (51 ideas,
+  +0.34%), no worse than the rest, while ideas listed within 0.25% of the day's extreme paid 14-20% (43 ideas) against
+  23-33% off it (144). So no idea and no pick at the day's extreme; the 3% line stays only in the pick rule for a
+  pre-market catalyst (untested on option prices, SUNDAY_TESTS 73).
+  What the log says about me (2026-11-18, SUNDAY_TESTS 72): whether an idea is right is mostly the market. With SPY
+  moving the idea's way over the same minutes, 76% right and +1.19% (127 ideas); against, 27% and -1.08% (124); and
+  neither SPY's 20-day state the evening before nor where SPY stands against its open at 10:15, 11:20 or 13:15 tells
+  which day it is (7, 6 and 3 of 14 days continued). After taking the market out (stock move minus beta times SPY), the
+  219 ideas listed but not picked come to -0.06% (48% positive) and the 31 picks and snipers to +0.65% (71%): the pick
+  bar separates, the long list does not. So since 2026-11-18 the lists are short and carry no controls: at most four
+  ideas in the morning file and three at 10:16, each one I would pick if the bar allowed (`yes`) or one step short
+  (`maybe`); no idea listed to argue against it; no morning put idea unless it is a put day (15 morning puts: right on
+  5, -1.96%). A miss that is right after the market is `tide`: not a lesson about the stock.
 - Sundays 09:52 ET: weekly deep review (full protocol below, population cleanup, backtests).
 
 ## Noise gate (applies to the daily review)
@@ -257,8 +273,14 @@ scored against purely mechanical variants.
    Weekly review 2026-11-15 (WEEK46.md, real option prices): the 13 rating-change snipers were right open to close on
    10 (+0.91%) and at 0.45 delta, half out at 2x and a trail from 1.5x, made +17% (+7% without the best, -4% without
    the best two; 10 entries); the 10 company-news snipers were right on 5 (-0.46%) and lost 56-71% at every strike and
-   exit (7 entries). When a rating change and a company-news item both qualify, name the rating change; a
-   company-news sniper is named at confidence 0.25 or lower. rating_open (shadow, two contracts nearest 0.45 delta
+   exit (7 entries). Since 2026-11-18 a company-news item is not named as the sniper at all: it goes into
+   `opportunities` (type company_news) and the sniper is null on a morning without a broker's rating or target change on
+   a qualifying name (11-18: AMAT was named on "top pick, rating kept" with the against-case written out, and opened at
+   its high). After taking the market out, the 11 scored snipers came to +1.15% (9 of 11 positive) and upgrades to
+   +0.85% open to close over 340 events of two years, the same with SPY above or below its 20-day average (+0.85% /
+   +1.06%) and after up or down sessions (+0.81% / +1.04%): no market-state filter (SUNDAY_TESTS 72). Raw, the sniper
+   was right on 6 of 6 days SPY closed above its open and 1 of 5 below; the entry gate (stock at or above its open,
+   09:31-10:00) is the only tide filter and kept us out on 11-16, 11-17 and 11-18. rating_open (shadow, two contracts nearest 0.45 delta
    whatever they cost) trades only `upgrade` and `target`; catalyst_open trades every class at 0.10 delta, so the split
    keeps being measured. Ten entries make a candidate, not a rule. The same strike and exit on every upgrade headline
    of two years (62 events, not my picks): -9% sold on day one, +19% / +12% / +5% carried to expiry with the trail on;
@@ -288,7 +310,8 @@ scored against purely mechanical variants.
    found), the chip selloff reversed by 10:00, money left the haven and AAPL fell 1.4% from the
    open: the real 355C went 0.36 -> 0.01 (-$140, 17% of the ledger). Low confidence is not the
    filter (the 0.35 picks LITE and META made +$45 and +$322); a missing catalyst is.
-   Bolder since 2026-10-21 (owner: "we need samples"): name a sniper on most days. A heavy
+   Bolder since 2026-10-21 (owner: "we need samples"): name a sniper on most days (since 2026-11-18 only on a
+   rating or target change, see the class rule above). A heavy
    catalyst (upgrade, big contract, a major customer's statement) qualifies with a pre-market
    gap up to ~3%; the 1.5% caution from 2026-10-16 now applies only to weak catalysts (target
    raises, minor items). Read every headline on the candidate from the last 24 hours, not only
@@ -320,7 +343,7 @@ scored against purely mechanical variants.
    has trended up and the 10-07 put day lost.
 4. Write `journal/bias/<today>.json` in the schema from `journal/bias/README.md`, commit
    ("bias: <date> <call|put|none>") and push to `main` before 09:30 ET. Fill `opportunities` with
-   every idea of the morning by type (journal/research/OPPORTUNITIES.md: rotation laggard,
+   the ideas of the morning I would back (at most four since 2026-11-18, no controls) by type (journal/research/OPPORTUNITIES.md: rotation laggard,
    financing fade, sell the news in a cooling theme, pre-earnings drift, M&A target/acquirer...),
    traded or not; the close scores them in journal/opportunities.csv (owner, 2026-10-29). Also fill
    the `zh` block and each opportunity's `why_zh` in plain Chinese (journal/bias/README.md): the
