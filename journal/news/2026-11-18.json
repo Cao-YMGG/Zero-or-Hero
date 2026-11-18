@@ -1,0 +1,376 @@
+{
+ "as_of": "2026-11-18T07:41-05:00",
+ "since": "2026-11-17T16:00-05:00",
+ "headlines": [
+  {
+   "time": "11-18 07:32",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "initiate",
+   "headline": "Intel Initiates New Round of Global Workforce Reductions",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/INTC-US?chain_id=Name1K9-3FXPhg.1lfr19g&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2F%E5%97%A1%E5%98%9B%E5%91%A2%E5%91%97%E5%92%AA%E5%90%BD-104750470%22%7D"
+  },
+  {
+   "time": "11-18 07:31",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "rating",
+   "headline": "Barclays Maintains Tesla Buy Rating",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/TSLA-US?chain_id=Name1K9-3FXPhg.1lfqtp0&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Fjosh-spence-ao-73464826%22%7D"
+  },
+  {
+   "time": "11-18 07:31",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "rating",
+   "headline": "BTIG Adjusts Salesforce Price Target to $250",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/btig-adjusts-price-target-on-salesforce-to-250-from-300-ce785eddd88cf224"
+  },
+  {
+   "time": "11-18 07:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Co-Founder Jensen Huang Retains Director Nomination Rights",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/nvidia-co-founder-jensen-huang-retains-right-to-nominate-two-directors-ce785eddd989f120"
+  },
+  {
+   "time": "11-18 07:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "CISA Issues Advisory for Critical Oracle Java Vulnerability",
+   "source": "fiscal.ai",
+   "url": "https://cybermagazine.com/news/java4shell-critical-java-flaw-demands-urgent-patching"
+  },
+  {
+   "time": "11-18 07:31",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa and Lianlian DigiTech Complete First Live B2B Agentic Commerce Transaction",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/apac/news-releases/lianlian-digitech-and-visa-advance-trusted-b2b-agentic-commerce-for-small-and-medium-sized-businesses-302943632.html"
+  },
+  {
+   "time": "11-18 06:32",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platforms COO Javier Olivan Sells Shares Worth Over $1 Million",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/meta-platforms-insider-sold-shares-worth-1-004-132-according-to-a-recent-sec-filing-ce785edcd080f424"
+  },
+  {
+   "time": "11-18 06:32",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "South Korean Regulator Orders Apple to Designate Legal Representatives",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/korea-regulator-cites-customer-complaints-orders-apple-google-alibaba-openai-to-designate-legal-ce785edcd08efe23"
+  },
+  {
+   "time": "11-18 06:32",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Updates Operating System to Restrict Accessibility Tool Usage",
+   "source": "fiscal.ai",
+   "url": "https://www.fidelity.com/news/article/company-news/202611180600RTRSNEWSCOMBINED_L6N46Y1DP_1"
+  },
+  {
+   "time": "11-18 06:32",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "UnitedHealthcare Expands Program to Compensate Pharmacists for Medical Services",
+   "source": "fiscal.ai",
+   "url": "https://www.fidelity.com/news/article/company-news/202611180600RTRSNEWSCOMBINED_L6N46Y1DP_1"
+  },
+  {
+   "time": "11-18 06:32",
+   "symbols": [
+    "HD"
+   ],
+   "rating": "",
+   "headline": "Analysts Adjust Price Targets for The Home Depot Following Quarterly Results",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/bernstein-adjusts-price-target-on-home-depot-to-360-from-357-ce785eddd98fff24"
+  },
+  {
+   "time": "11-18 06:31",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "BNP Paribas Adjusts Price Target on GE Vernova",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/bnp-paribas-adjusts-price-target-on-ge-vernova-to-797-from-1-090-ce785eddd981f420"
+  },
+  {
+   "time": "11-18 06:31",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir Technologies Director Executes Stock Sale",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/palantir-technologies-insider-sold-shares-worth-2-693-099-according-to-a-recent-sec-filing-ce785edcd08ff026"
+  },
+  {
+   "time": "11-18 06:31",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa and Alipay+ Announce Scan to Pay Interoperability in Asia Pacific",
+   "source": "fiscal.ai",
+   "url": "https://www.kipost.net/news/articleViewAmp.html?idxno=343439"
+  },
+  {
+   "time": "11-18 06:31",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Expands 'Agentic Ready' Program to Acceptance Ecosystem",
+   "source": "fiscal.ai",
+   "url": "https://investingnews.com/visa-expands-agentic-ready-to-help-scale-trusted-ai-commerce-globally/"
+  },
+  {
+   "time": "11-18 06:31",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Triple-A Collaborates with Visa to Support Stablecoin Prefunding for Visa Direct",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261117cn99949/triple-a-powers-stablecoin-prefunding-for-visa-direct-in-asia-pacific"
+  },
+  {
+   "time": "11-18 06:31",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Investor Rights Firm Investigates Salesforce's Acquisition of Braze, Inc.",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261118ny00863/are-sgry-brze-ccc-obtaining-fair-deals-for-their-shareholders"
+  },
+  {
+   "time": "11-18 06:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Hosts Wealth Client Event Ahead of Anthropic IPO",
+   "source": "fiscal.ai",
+   "url": "https://www.fidelity.com/news/article/default/202611180500RTRSNEWSCOMBINED_L6N46Y153_1"
+  },
+  {
+   "time": "11-18 06:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Alternatives Leads $280 Million Series C Funding for Payhawk",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/18/3405403/0/en/payhawk-raises-280m-at-a-2b-valuation-as-it-evolves-into-the-global-finance-os-for-the-ai-era.html"
+  },
+  {
+   "time": "11-18 06:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase and PYMNTS Release Report on Cash Management and Fraud Risk",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/back-office/cfo/2026/62percent-of-cfos-say-their-teams-can-absorb-fraud-losses-without-disruption/"
+  },
+  {
+   "time": "11-18 06:31",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel AMX Technology Integrated into TRUSTA AI Scaler Toolkit",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261118hk01048/trusta-debuts-at-supercomputing-2026-with-upgraded-ai-scaler-toolkit"
+  },
+  {
+   "time": "11-18 06:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Establishes Export Control Committee and Delays 10-Q Filing",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/2026111879/why-nvidia-broke-with-its-usual-practice-in-holding-back-its-quarterly-sec-report"
+  },
+  {
+   "time": "11-18 06:31",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "Mozambique Approves Amended Development Plan for Rovuma LNG Project",
+   "source": "fiscal.ai",
+   "url": "https://www.rigzone.com/news/wire/mozambique_approves_amended_plan_for_rovuma_lng-18-nov-2026-185108-article/"
+  },
+  {
+   "time": "11-18 06:31",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "downgrade",
+   "headline": "Tesla Receives Analyst Downgrade to Sell",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/community/feed/tesla-receives-a-downgrade-to-sell-by-gil-rotsein-the-117636526047238?chain_id=Name1K9-3FXPhg.1lfqmo0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A109%2C%22f%22%3A%22www.moomoo.com%2Fsectors%2FDeepSeek-Beneficiaries-BK23585%22%7D"
+  },
+  {
+   "time": "11-18 06:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Jeff Bezos Discusses Casting Process for New James Bond Film",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/2026/11/18/entertainment-lifestyle/jeff-bezos-says-the-new-james-bond-wasnt-picked-until-friday/2472851/amp"
+  },
+  {
+   "time": "11-18 06:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "StackGen Launches Shipyard on Microsoft Marketplace",
+   "source": "fiscal.ai",
+   "url": "https://cioinfluence.com/machine-learning/shipyard-by-stackgen-now-available-in-microsoft-marketplace/"
+  },
+  {
+   "time": "11-17 22:01",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Urges Shareholder Participation for 2026 Annual Meeting",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/TSLA-US/announcement?chain_id=Name1K9-3FXPhg.1l4tp40&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A107,%22f%22%3A%22www.moomoo.com%2Fetfs%2FTSLS-US%22%7D"
+  },
+  {
+   "time": "11-17 22:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Transamerica Expands AI Partnership with Amazon Web Services",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/transamerica-expands-strategic-relationship-with-aws-to-scale-responsible-ai-capabilities-302942296.html"
+  },
+  {
+   "time": "11-17 20:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Teamsters Rally Following Amazon's Termination of Delivery Partner",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/teamsters-rally-for-200-e-bike-drivers-terminated-by-amazon-in-new-york-302942866.html"
+  },
+  {
+   "time": "11-17 19:01",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Partners with Wonder for Branded Restaurant Concept",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/wonder-unveils-wonder-create-empowering-anyone-with-an-idea-to-launch-their-own-restaurant-302942888.html"
+  },
+  {
+   "time": "11-17 19:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Reports Financial Results for Third Quarter Fiscal 2027",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/17/3405200/0/en/nvidia-announces-financial-results-for-third-quarter-fiscal-2027.html"
+  },
+  {
+   "time": "11-17 18:01",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "",
+   "headline": "TXU Energy Commits $100,000 to Winter Warmth Campaign",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261117da99051/txu-energy-commits-100000-to-help-texas-families-stay-warm-and-supported-this-winter"
+  },
+  {
+   "time": "11-17 18:01",
+   "symbols": [
+    "CRDO"
+   ],
+   "rating": "",
+   "headline": "Credo Technology Group Holding Reaches Patent Agreement With Marvell",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1004941851/credo-technology-shares-rise-after-patent-settlement-news"
+  },
+  {
+   "time": "11-17 17:31",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD Insider Executes $5.06 Million Share Sale",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/advanced-micro-devices-insider-sold-shares-worth-5-060-653-according-to-a-recent-sec-filing-ce785edcdf89f625"
+  },
+  {
+   "time": "11-17 17:31",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Insider Sale by Baiju Prafulkumar Bhatt Living Trust",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/flash/1004943826/form-144-robinhood-hoodus-director-proposes-to-sell-5-million"
+  },
+  {
+   "time": "11-17 17:01",
+   "symbols": [
+    "ARM"
+   ],
+   "rating": "rating",
+   "headline": "Morgan Stanley Maintains Hold Rating and $212 Price Target for Arm Holdings",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1004900071/morgan-stanley-maintains-arm-holdings-armus-with-hold-rating-maintains"
+  },
+  {
+   "time": "11-17 16:31",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Oxide Computer Company Integrates Micron Data Center Memory and Storage",
+   "source": "fiscal.ai",
+   "url": "https://www.finanznachrichten.de/nachrichten-aktien/micron-technology-inc.htm"
+  }
+ ]
+}
