@@ -1,0 +1,48 @@
+{
+ "date": "2026-11-18",
+ "picks": [],
+ "check_1016": "10:17 ET: no pick. NVDA's beat was sold at the bell and the chip complex dropped 3% in the first half hour, then bounced: SMH 468.00 open, low 453.83 (-3.0%), 461.76 now (-1.3% from its open, +0.4% on the day). NVDA 159.23 -> 154.64 (-2.9% from its open, -0.5% on the day; excluded, first day after its report). Index flat: SPY 733.49 -> 732.19 (-0.18%; low 728.58), QQQ -0.11%, IWM +1.05% from its open, IGV +0.84% (software bounces), XLE -1.2%, XLF -0.5%, XLV -0.2%, XLP +0.2%. From their opens: MRVL -3.3%, UNH -3.5% (-4.3% on the day), CRM -2.0% (IGV up), AMAT -1.2% (low 342.32, -3.6%), TSM -1.0% (low 356.77), INTC -0.9%, MU -0.85% (low 691.25, -3.8%), JPM -0.1%; up: AMZN +1.6% (+2.4% on the day, at its high), AMD +0.8%, AVGO +0.6% (+2.9% on the day), GOOGL +0.1% (+1.1%), AAPL +0.6%, TSLA -0.3%. In-session news is thin: Benzinga since 09:30 has an Amazon Ads holiday program, Oracle life-science agents, Supermicro servers on AMD EPYC, an insider buy at TSM, Argus upgrading Elevance to Buy, Erste downgrading GE Vernova; the CRM security advisory (malicious code through a third-party Optimizely script) was posted at 03:20 ET, before the bell, with a Business Insider report of new job cuts. The morning sniper is wrong on its own line: AMAT opened 354.97 and was below its open within minutes (low 342.32), state shows no catalyst_open entry. No call: AMZN is the day's leader (+2.4% with SPY flat) but has no news of its own since the bell; the likeliest driver is Anthropic pricing its IPO tonight (Amazon is one of its largest backers; 7x oversubscribed per Benzinga), which lands after today's options expire. No put: CRM's news is from before the bell and UNH has no new headline and is past the 3% line.",
+ "conditional_1121": "Put mirror (11:21 judges it). The morning called the chip gap a read-through on a cooling theme and wrote this line; SMH was below its 468.00 open by 10:00 and has bounced off a -3.0% low. The candidate is the weakest chip mega cap below its open, within 3% of it and outside a report window: AMAT is weakest (-1.2%) but carries fresh good news of its own (Bernstein's top pick) and is the morning's call, so skip it; TSM next (open 367.78, 364.17 at 10:17, the 3% line 356.75; nearest expiry Friday). Put on TSM if at 11:21 SMH is below 458.00 (back under the middle of the bounce) and TSM is below 364.17 but not under 356.75. MU is the alternate with a same-day expiry (open 718.48, 712.37 at 10:17, line 696.93): only if TSM is already past its line. No put if SMH is back above 465.00, or if the early low (453.83) breaks by more than 1% before 11:21 (then the move is spent and every candidate is past the line). Call side: AMZN needs in-session news of its own (an Anthropic pricing leak before the close would count) and still to be within 3% of its open (259.81; line 267.60).",
+ "opportunities": [
+  {
+   "type": "sector_intraday",
+   "symbol": "TSM",
+   "direction": "put",
+   "time": "10:17",
+   "action": "none",
+   "conviction": "maybe",
+   "why": "Mirror candidate: SMH below its open after a +2% NVDA gap, dropped 3% in the first half hour and bounced; TSM is the weakest chip mega cap within 3% of its open (367.78 -> 364.17, -1.0%; low 356.77) once AMAT (fresh Bernstein top-pick) is set aside. Not picked: no news of TSM's own since the bell (an insider buy at 09:02); 11:21 judges it on the levels in conditional_1121.",
+   "why_zh": "看跌镜像的候选：英伟达财报后芯片高开 2%，开盘半小时跌了 3% 又反弹，半导体 ETF 现在比开盘低 1.3%。台积电是没跌过 3% 线的芯片大盘股里最弱的（应用材料更弱，但它今早有券商唱多，且是我们早上看涨的那只，跳过）。不选：台积电开盘后没有自己的坏消息；11:21 按写好的价位再判断。"
+  },
+  {
+   "type": "relative_strength",
+   "symbol": "AMZN",
+   "direction": "call",
+   "time": "10:17",
+   "action": "none",
+   "conviction": "maybe",
+   "why": "The day's leader: AMZN 259.81 -> 263.99 (+1.6% from its open, +2.4% on the day, at its high) with SPY flat and chips red. No news of its own since the bell (an Amazon Ads holiday program); the likeliest driver is Anthropic pricing its IPO tonight (825M shares at $70-78, 7x oversubscribed; Amazon is one of its largest backers), which comes after today's options expire. Not picked: no in-session news of its own.",
+   "why_zh": "今天领涨的大盘股：亚马逊比开盘 +1.6%、全天 +2.4%，在当天高点，而大盘平、芯片在跌。开盘后它没有自己的新闻；最可能的原因是 Anthropic 今晚定价上市（超额认购约 7 倍），亚马逊是它最大的股东之一，但定价在收盘后，今天到期的期权吃不到。没有盘中自己的消息，不选。"
+  },
+  {
+   "type": "relative_weakness",
+   "symbol": "CRM",
+   "direction": "put",
+   "time": "10:17",
+   "action": "none",
+   "conviction": "maybe",
+   "why": "CRM 193.07 -> 189.29 (-2.0% from its open, -2.7% on the day) while IGV is +0.8% from its open: weak inside a software bounce after Tuesday's -9.5%. News is from before the bell: a security advisory on malicious code injected through a third-party Optimizely script on Salesforce-branded sites (03:20 ET), Business Insider on new job cuts (01:41), BTIG target 300 -> 250 (07:23). Not picked: no news since the bell.",
+   "why_zh": "Salesforce 比开盘低 2%，而软件板块比开盘涨 0.8%：板块反弹它不跟。坏消息都是开盘前的：凌晨 3 点发了安全公告（第三方脚本被注入恶意代码，影响部分官网），商业内幕报道它又在裁员，BTIG 下调目标价。开盘后没有新消息，不选。"
+  },
+  {
+   "type": "relative_weakness",
+   "symbol": "UNH",
+   "direction": "put",
+   "time": "10:17",
+   "action": "none",
+   "conviction": "no",
+   "why": "Control (past the 3% line): UNH 386.30 -> 372.76 (-3.5% from its open, -4.3% on the day, -9.5% in two sessions) with no new headline since Tuesday's Warren break-up call and the CMS anti-fraud rule; Argus upgraded Elevance to Buy at 08:02. An idea past the 3% line is a 'no' by construction.",
+   "why_zh": "对照（已经跌过 3% 线）：联合健康比开盘低 3.5%，两天跌了约 9.5%，开盘后没有新消息（还是昨天沃伦要拆分医疗集团、医保反欺诈新规那两条）。跌过 3% 的一律算追高对照。"
+  }
+ ]
+}
