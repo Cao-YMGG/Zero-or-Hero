@@ -662,6 +662,30 @@ in EVOLUTION.md.
    Bar, written before the run: the 10:16 entry positive without its best two over the last 3 months and better than
    the 11:21 entry, or the mirror goes back to being an idea, not a pick; if the index or ETF put does as well as the
    weakest name, the mirror buys the ETF (same-day expiry, tighter spread). Until it has run the mirror stays shadow-only.
+   **Stock-move version run 2026-11-18 after the close** (5-minute bars, SIP, 2024-11-01 to 2026-11-18, SMH, QQQ and
+   11 chip names; a put from the entry time to the close on the chip name furthest below its own open; falling month =
+   SMH's close against 22 sessions earlier). Days SMH is below its open at the entry time, two years:
+   | month | entry | days | weakest name: right / paid / avg / without best two | SMH itself |
+   |---|---|---|---|---|
+   | falling | 10:15 | 99 | 58% / 38% / +0.67% / +0.51% | +0.31% |
+   | falling | 11:20 | 100 | 49% / 33% / +0.31% / +0.16% | +0.15% |
+   | falling | 13:15 | 91 | 48% / 24% / +0.17% / +0.04% | +0.11% |
+   | rising | 10:15 | 151 | 46% / 25% / -0.23% / -0.32% | -0.09% |
+   | rising | 11:20 | 139 | 48% / 17% / -0.02% / -0.09% | -0.04% |
+   | rising | 13:15 | 134 | 46% / 16% / -0.22% / -0.27% | -0.11% |
+   Requiring a gap up of 0.3% or more adds nothing (falling, 10:15: 51 days, 53% right, +0.69%, +0.37% without the best
+   two; rising, 71 days, -0.34%). Every day regardless of SMH (falling, 10:15): 173 days, +0.25%. Last 3 months
+   (63 sessions), falling, SMH below its open at 10:15: 23 days, 39% right, 30% paid, +0.22%, **-0.40% without the best
+   two** (median -0.43%); with the gap up, 15 days, 40%, +0.07%, -0.64%. By half-year (falling, 10:15): 2024-11 to
+   2025-04, 41 days, 66% right, +0.76% (+0.50%); 2025-11 to 2026-04, 18 days, 61%, +1.28% (+0.43%); since 2026-05, 37
+   days, 46%, +0.29% (-0.12%). The late-arming case (SMH above its open at 10:15, below at 11:20, falling month): 16
+   days, 38% right, -0.36% (-1.10% without the best two), SMH -0.14%. Same days, later entry (falling, armed at 10:15):
+   SMH put +0.31% from 10:15, +0.19% from 11:20.
+   **Read:** (c) is answered on stock moves: the mirror needs a falling theme (one side only: a condition, not a rule).
+   (b): earlier is better in falling months and a late-arming mirror loses; nothing for a later check-in to buy. (a):
+   the last 3 months fail the bar (not positive without the best two), so from 11-19 the mirror is an idea, not a pick,
+   with the falling-month condition written in (CLAUDE.md T2, PR #130). Still owed: the same on real option prices,
+   which decides whether it is picked again and whether it buys the name or the ETF.
 
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
