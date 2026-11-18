@@ -1,4 +1,4 @@
-# Headlines since 2026-11-17 16:00 ET (as of 2026-11-18 11:02 ET)
+# Headlines since 2026-11-17 16:00 ET (as of 2026-11-18 11:33 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -13,6 +13,8 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-18 07:31 | CRM | rating | BTIG Adjusts Salesforce Price Target to $250 |
 | 11-18 06:31 | TSLA | downgrade | Tesla Receives Analyst Downgrade to Sell |
 | 11-17 17:01 | ARM | rating | Morgan Stanley Maintains Hold Rating and $212 Price Target for Arm Holdings |
+| 11-18 11:02 | NFLX |  | Parks Associates Names Netflix Top US SVOD Service for Second Consecutive Year |
+| 11-18 11:02 | HD |  | UBS Adjusts Price Target on Home Depot to $417 From $420 |
 | 11-18 11:01 | GS |  | Goldman Sachs & Co. LLC Acts as Lead Placement Agent for ChronoScale Financing |
 | 11-18 11:01 | GS |  | Ducommun Incorporated to Participate in Goldman Sachs Industrials & Materials Conference |
 | 11-18 11:01 | XOM |  | ExxonMobil Foundation Announces Winners of STEM Africa Regional Finals |

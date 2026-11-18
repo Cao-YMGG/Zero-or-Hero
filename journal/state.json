@@ -8,8 +8,23 @@
     "catalyst_open": {},
     "catalyst_open_hero": {},
     "rating_open": {},
-    "catalyst_intraday": {},
-    "catalyst_intraday_hero": {},
+    "catalyst_intraday": {
+      "attempts": 3
+    },
+    "catalyst_intraday_hero": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "TSM261120P00340000",
+        "direction": "put",
+        "entry_time": "2026-11-18T11:24:56-05:00",
+        "entry_price": 2.38,
+        "peak": 2.45,
+        "qty": 1,
+        "last": 2.2,
+        "last_time": "2026-11-18T11:33:15-05:00"
+      }
+    },
     "spy_open_drive": {},
     "spy_open_drive_put": {},
     "stock_open_drive": {}

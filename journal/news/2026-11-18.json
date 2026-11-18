@@ -1,7 +1,27 @@
 {
- "as_of": "2026-11-18T11:02-05:00",
+ "as_of": "2026-11-18T11:33-05:00",
  "since": "2026-11-17T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-18 11:02",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Parks Associates Names Netflix Top US SVOD Service for Second Consecutive Year",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/parks-associates-average-base-monthly-subscription-streaming-service-price-in-the-us-reaches-11-08--up-just-8-since-2022--302943884.html"
+  },
+  {
+   "time": "11-18 11:02",
+   "symbols": [
+    "HD"
+   ],
+   "rating": "",
+   "headline": "UBS Adjusts Price Target on Home Depot to $417 From $420",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/ubs-adjusts-price-target-on-home-depot-to-417-from-420-keeps-buy-rating-ce785eddda8af32d"
+  },
   {
    "time": "11-18 11:01",
    "symbols": [
