@@ -686,6 +686,29 @@ in EVOLUTION.md.
    the last 3 months fail the bar (not positive without the best two), so from 11-19 the mirror is an idea, not a pick,
    with the falling-month condition written in (CLAUDE.md T2, PR #130). Still owed: the same on real option prices,
    which decides whether it is picked again and whether it buys the name or the ETF.
+   **Nine sectors, same evening (owner: "this is only the chip sector").** The same run on the sector ETF and its mega
+   caps: software (IGV: MSFT, ORCL, CRM, NOW, ADBE, PLTR), internet (QQQ: META, GOOGL, AMZN, AAPL, NFLX, TSLA), banks
+   (XLF: JPM, GS, BAC, MS, WFC), health care (XLV: UNH, LLY, JNJ, ABBV, MRK), energy (XLE: XOM, CVX, COP, SLB), consumer
+   (XLY: HD, MCD, NKE, LOW, SBUX), staples (XLP: WMT, COST, PG, KO, PEP), industrials (XLI: CAT, GE, BA, HON, UNP).
+   Put on the weakest name from 10:15, ETF below its open, two years:
+   | sector | falling months: days / right / avg / without best two | rising months: days / avg |
+   |---|---|---|
+   | chips | 99 / 58% / +0.67% / +0.51% | 151 / -0.23% |
+   | software | 109 / 56% / +0.30% / +0.20% | 144 / -0.14% |
+   | internet | 83 / 60% / +0.13% / -0.01% | 152 / +0.29% |
+   | energy | 96 / 52% / +0.07% / -0.03% | 143 / +0.13% |
+   | health care | 105 / 47% / -0.01% / -0.11% | 122 / -0.10% |
+   | consumer | 105 / 51% / -0.02% / -0.08% | 139 / +0.07% |
+   | staples | 117 / 49% / -0.02% / -0.06% | 133 / +0.12% |
+   | industrials | 97 / 39% / -0.17% / -0.24% | 157 / +0.12% |
+   | banks | 95 / 38% / -0.31% / -0.38% | 140 / +0.01% |
+   | the eight without chips | 807 / 49% / 0.00% / -0.02% | 1130 / +0.07% |
+   Without chips no entry hour differs (falling: 10:15 0.00%, 11:20 +0.02%, 13:15 +0.03%) and a late-arming mirror is
+   -0.02% (165 days); the every-day control is 0.00% (1,468). Last 3 months, falling: software +0.80% (11 days, +0.18%
+   without the best two), staples +0.36% (13), chips +0.22% (-0.40%), the eight together -0.02% (123). **Read:** the
+   mirror is a chip pattern (and perhaps a software one), not a theme rule; one clearly positive sector of nine may be
+   luck or chips' drawdowns in the window. CLAUDE.md T2 now lists it for chips and software only (PR #131). The
+   option-price run should cover chips and software and report both.
 
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
