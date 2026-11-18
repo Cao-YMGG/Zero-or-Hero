@@ -37,7 +37,8 @@ CSV_PATH = journal.JOURNAL_DIR / "opportunities.csv"
 BOARD_PATH = journal.JOURNAL_DIR / "research" / "OPPORTUNITY_SCORES.md"
 FIELDS = ["date", "time", "type", "symbol", "direction", "action", "source", "open", "entry",
           "close", "open_close_pct", "entry_close_pct", "best_after_entry_pct", "why",
-          "spy_pct", "vs_spy_pct", "grade", "repeat", "final", "conviction", "from_extreme_pct"]
+          "spy_pct", "vs_spy_pct", "grade", "repeat", "final", "conviction", "from_extreme_pct", "beta",
+          "after_mkt_pct"]
 # from_extreme_pct (2026-11-17): how far the stock was from the day's best price so far, the idea's way, when
 # the idea was listed: a call's distance under the session high before its time, a put's above the low; 0 = listed
 # at the extreme; NO_BARS when it was listed in the first minute. The post-mortems' top cause is `chased` (7 of 25
@@ -286,6 +287,54 @@ def rescore(api, rows, today=None, now=None):
     return mark_repeats(rows)
 
 
+# ---- after the market (2026-11-18) -----------------------------------------------------------
+# 251 ideas: 76% right when SPY moved their way over the same minutes, 27% when it moved against, and
+# these names carry about twice SPY's move. `vs_spy_pct` takes one SPY off; `after_mkt_pct` takes beta
+# times SPY off, so what is left is the stock's own part: the only part a pick can claim.
+BETA_DAYS, BETA_LEAST = 60, 30
+
+
+def beta_of(stock_days, spy_days, day, n=BETA_DAYS, least=BETA_LEAST):
+    """Slope of the stock's daily returns on SPY's over the n sessions before `day` (daily bars with
+    "t" and "c", oldest first). None with fewer than `least` returns or a flat SPY."""
+    spy = {b["t"][:10]: b["c"] for b in spy_days}
+    both = [(b["t"][:10], b["c"]) for b in stock_days if b["t"][:10] in spy and b["t"][:10] < day][-(n + 1):]
+    pairs = [(both[i][1] / both[i - 1][1] - 1, spy[both[i][0]] / spy[both[i - 1][0]] - 1) for i in range(1, len(both))]
+    if len(pairs) < least:
+        return None
+    my, mx = sum(y for y, _ in pairs) / len(pairs), sum(x for _, x in pairs) / len(pairs)
+    var = sum((x - mx) ** 2 for _, x in pairs)
+    return round(sum((y - my) * (x - mx) for y, x in pairs) / var, 2) if var else None
+
+
+def after_market(move, spy, direction, beta):
+    """The idea's move with beta times SPY's move over the same minutes taken out, signed the idea's way."""
+    return round(move - beta * (1 if direction == "call" else -1) * spy, 2)
+
+
+def fill_after_market(api, rows, now=None):
+    """beta and after_mkt_pct on every scored row that lacks them (old rows once, new rows as they come).
+    One daily-bars call for all the symbols; a row whose beta cannot be had is left empty."""
+    need = [r for r in rows if r.get("after_mkt_pct") in (None, "") and r.get("entry_close_pct") not in (None, "")
+            and r.get("spy_pct") not in (None, "")]
+    if not need:
+        return rows
+    now = now or datetime.now(ET)
+    first = datetime.fromisoformat(min(r["date"] for r in need)).replace(tzinfo=ET)
+    try:
+        daily = api.daily_bars_multi(sorted({r["symbol"] for r in need} | {"SPY"}), first - timedelta(days=130),
+                                     now - timedelta(minutes=20))
+    except AlpacaError as e:
+        print(f"opportunities: no daily bars for the betas: {e}")
+        return rows
+    for r in need:
+        b = beta_of(daily.get(r["symbol"], []), daily.get("SPY", []), r["date"])
+        if b is not None:
+            r["beta"] = b
+            r["after_mkt_pct"] = after_market(float(r["entry_close_pct"]), float(r["spy_pct"]), r["direction"], b)
+    return rows
+
+
 # ---- the daily post-mortem ------------------------------------------------------------------
 
 def load_reviews(path=None):
@@ -345,18 +394,22 @@ def cause_counts(reviews, since=None):
 # ---- the record by type ---------------------------------------------------------------------
 
 def ideas(rows):
-    """One row per idea: the first mention of a stock and direction on a day. A pick logged as plain
-    "sniper" / "intraday" next to a hand-written twin of the same minute takes the twin's type and
-    keeps its own action; type aliases are merged."""
+    """One row per idea: the first mention of a stock and direction on a day, or the pick when one of the
+    mentions was picked (11-18: TSM put listed at 10:17, picked at 11:24; the record kept the 10:17 line
+    and lost the pick and its post-mortem). A pick logged as plain "sniper" / "intraday" takes the type of a
+    hand-written mention of the same idea and keeps its own action; type aliases are merged."""
     groups = {}
     for r in rows:
         groups.setdefault((r["date"], r["symbol"], r["direction"]), []).append(r)
     out = []
     for g in groups.values():
         g.sort(key=lambda r: r["time"])
-        first = [r for r in g if r["time"] == g[0]["time"]]
-        base = dict(first[0])
-        named = [r["type"] for r in first if r["type"] not in GENERIC]
+        picked = [r for r in g if r.get("action") in ("real", "shadow") or r.get("source") == "sniper"]
+        lead = picked[0]["time"] if picked else g[0]["time"]
+        first = [r for r in g if r["time"] == lead]
+        base = dict(picked[0] if picked else first[0])
+        named = ([r["type"] for r in first if r["type"] not in GENERIC]
+                 or [r["type"] for r in g if r["type"] not in GENERIC])
         base["type"] = canonical(named[0] if named else base["type"])
         acted = [r["action"] for r in first if r.get("action") in ("real", "shadow")]
         base["action"] = acted[0] if acted else base.get("action") or "none"
@@ -460,6 +513,31 @@ def scoreboard(rows, small=3, reviews=()):
         for k in ("listed in the first minute", "at the day's extreme (under 0.25%)", "0.25% to 1% from it", "1% or more from it"):
             if k in near:
                 out.append(_line(k, stats(near[k])))
+    net = [r for r in one if r.get("after_mkt_pct") not in (None, "")]
+    if net:
+        def after(label, rs):
+            v, raw = [float(r["after_mkt_pct"]) for r in rs], [float(r["entry_close_pct"]) for r in rs]
+            return (f"| {label} | {len(v)} | {_pct(sum(x > 0 for x in v) / len(v))} | {_pts(sum(v) / len(v))} | "
+                    f"{_pts(sum(sorted(v)[:-1]) / (len(v) - 1)) if len(v) > 1 else '-'} | {_pts(sum(raw) / len(raw))} |")
+        out += ["", "## After the market (since 2026-11-18, all rows)", "",
+                "The move with beta times SPY's move over the same minutes taken out (60-day beta; these names carry about "
+                "twice SPY). An idea is mostly a bet on the market that day; this is what is left for the stock itself. A "
+                "group earns attention when it is positive here, not when the tape happened to go its way.", "",
+                "| group | ideas | positive after the market | avg after the market | w/o best | avg raw move |",
+                "|---|---|---|---|---|---|", after("all ideas", net)]
+        took = [r for r in net if r.get("action") in ("real", "shadow")]
+        rest = [r for r in net if r.get("action") not in ("real", "shadow")]
+        if took:
+            out.append(after("picked (sniper or intraday pick)", took))
+        if rest:
+            out.append(after("listed, not picked", rest))
+        for key, word in (("direction", ""), ("conviction", "conviction "), ("type", "")):
+            groups = {}
+            for r in net:
+                groups.setdefault(r.get(key) or "", []).append(r)
+            for k, rs in sorted(groups.items(), key=lambda kv: -len(kv[1])):
+                if k and (key != "type" or len(rs) >= small):
+                    out.append(after(f"{word}{k}", rs))
     late = late_picks(rows)
     if late:
         held = sum(float(r["entry_close_pct"]) >= PAID for r in late)
@@ -524,6 +602,12 @@ def summary_zh(rows, min_n=8, reviews=None):
         say = lambda k, word: f"{word}的 {told[k]['n']} 个：够赚钱 {_pct(told[k]['paid'])}、比大盘 {_pts(told[k]['vs_spy'])}"
         lines.append("我的判断：" + "；".join([say("yes", "看好")] + ([say("maybe", "拿不准")] if told.get("maybe") else [])
                                          + [say("no", "不看好（当对照）")]))
+    net = [r for r in one if r.get("after_mkt_pct") not in (None, "")]
+    took = [float(r["after_mkt_pct"]) for r in net if r.get("action") in ("real", "shadow")]
+    rest = [float(r["after_mkt_pct"]) for r in net if r.get("action") not in ("real", "shadow")]
+    if took and rest:
+        lines.append(f"扣掉大盘之后：选了的 {len(took)} 个平均 {_pts(sum(took) / len(took))}，"
+                     f"只列没选的 {len(rest)} 个平均 {_pts(sum(rest) / len(rest))}")
     causes = cause_counts(load_reviews() if reviews is None else reviews)
     if causes:
         lines.append("看错的原因（累计）：" + "、".join(f"{CAUSES.get(c, c).split('：')[0]} {n} 次" for c, n in causes[:3]))
@@ -560,7 +644,7 @@ def main(day=None, backfill_only=False):
         added += 1
     if not rows:
         return
-    save_rows(rescore(api, rows))
+    save_rows(fill_after_market(api, rescore(api, rows)))
     try:
         BOARD_PATH.parent.mkdir(parents=True, exist_ok=True)
         BOARD_PATH.write_text(scoreboard(rows, reviews=load_reviews()))
