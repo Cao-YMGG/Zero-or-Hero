@@ -609,6 +609,30 @@ in EVOLUTION.md.
    is positive without its best two over the last 3 months, the 11:21 check-in keeps a re-arm line for 12:30 and the
    13:16 file scores it; otherwise the no-put line stays as written. Also counts toward the 13:16 comeback bar: the
    would-be pick of 11-16 (MU put, conviction yes) went 0.6% its way, not 1% (1 of 10 logged, 0 held 1%).
+72. **The ideas are bets on the index (2026-11-18, owner: "think about why").** 251 scored ideas since 10-29: when SPY
+   moved the idea's way over the same minutes, 76% right, 46% paid, +1.19% (127 ideas); when it moved against, 27% right,
+   9% paid, -1.08% (124). Calls -0.03% on average, puts +0.21%. The 11 scored snipers were all calls: right on 6 of 6
+   days SPY closed above its open (+1.51%), on 1 of 5 days it closed below (-2.11%). The 15 ideas I marked yes or maybe
+   since 11-13 were 11 calls (0 right) and 4 puts (4 right) over three down sessions; the 21 controls were 13 puts. So
+   "the controls beat my picks" is the direction mix on down days, and the pick itself has added nothing beyond the
+   market. SPY closed below its open on 11-13, 11-16, 11-17 and is below it on 11-18, each with the high in the first
+   minutes; SMH gap-ups since 10-14 closed above the open 5 of 10 (-0.46%). Questions: (a) score every idea on the stock
+   minus its beta times SPY over the same minutes (60-day beta), by type and conviction: is anything left? (b) on the 62 +
+   278 upgrade events of two years, does day-0 open to close depend on the market's state the evening before (SPY above or
+   below its 20-day average; the prior session's open-to-close sign)? Bar, written before the run: if (a) leaves no type
+   above +0.2% after beta with 20 or more ideas, the idea list goes down to the types that pass and the rest stop being
+   listed; if (b) shows upgrades at or under 0% open to close in one state and +1% or more in the other with 40 or more
+   events each, the sniper is named only in the good state (the shadow keeps both). No rule changes before that.
+73. **The 3% line as a "no by construction" (2026-11-18).** Intraday ideas by how far the stock had already gone the
+   idea's way from its open when listed: 3% or more, 51 ideas, 47% right, 29% paid, +0.34%; 1-3%, 67, 55%, 22%, +0.18%;
+   0-1%, 33, 42%, 15%, -0.41%; against or flat, 36, 50%, 25%, +0.02%. The line came from one day (11-13: six puts past it
+   were wrong) and one call (AMZN 11-02); on 11-18 the UNH control (-3.5% from its open at 10:17) was -7.7% by noon. The
+   log's other cut says something different: listed within 0.25% of the day's extreme, 52 ideas, 17% paid. Question: on
+   real option prices (0.2 delta, nearest expiry, 10% costs each way), ideas past the 3% line split by whether they were
+   at the day's extreme when listed (under 0.25%) or off it. Bar: if the past-3%-and-off-the-extreme group is positive
+   without its best two and no worse than the within-3% group over the last three weeks, the conviction rule "past the
+   3% line is a no" comes out of CLAUDE.md and "at the extreme" replaces it; the pick rule's own 3% line (a pre-market
+   catalyst is priced) is tested separately.
 
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
