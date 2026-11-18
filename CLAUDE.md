@@ -46,6 +46,8 @@ How a thing moves between shelves:
 - A Rule whose last-3-month number turns negative at a weekly review goes back on trial.
 - Prefer a rule that reacts to what the market does today (an entry gate, a state switch) to one that forecasts from
   last week.
+- A test says which sectors it covered, and a rule is written no wider than its test. Most of what was tested here
+  was chips and tech mega caps; the put mirror held on chips and on nothing else of nine sectors (2026-11-18).
 
 ## Rules (held in rising and falling markets)
 - **R1. The gap is priced at the open.** OVERNIGHT.md (2024-02+): the night move barely predicts open to close (SPY
@@ -131,6 +133,13 @@ How a thing moves between shelves:
   So since 2026-11-19 the mirror is an **idea, not a pick**: listed at 10:16 when its condition holds, scored, not
   bought. It becomes a pick again, as a Switch on the falling month, only if the option-price run of SUNDAY_TESTS 74 is
   positive without its best two over the last 3 months; that run also settles the weakest name against the ETF.
+  It is a chip pattern, not a theme rule (owner, 2026-11-18: "this is only the chip sector"). The same test on eight
+  other sectors, two years, falling months: software +0.30% (109 days, 56% right, +0.20% without the best two),
+  internet mega caps +0.13% (-0.01%), energy +0.07%, health care -0.01%, consumer -0.02%, staples -0.02%, industrials
+  -0.17%, banks -0.31%; the eight together 807 days, 49% right, 0.00%, no entry hour better than another, and a
+  late-arming mirror -0.05% (181 days). One clearly positive sector out of nine may be luck or just chips' drawdowns
+  in this window. So the idea is listed for chips (SMH) and software (IGV) only, and nothing learned on chips is
+  written as "a theme" before it has been run on the other sectors.
 - **T3. Not at the extreme; priced past 3%.** Ideas listed within 0.25% of the day's extreme paid 14-20% (43 ideas)
   against 23-33% off it (144): no idea and no pick at the day's extreme. A pre-market catalyst counts as priced once
   the stock is >= 3% from its open by the check-in (one case, AMZN 11-02), though ideas already 3% their way paid 29%
@@ -181,11 +190,11 @@ How a thing moves between shelves:
     report window (R3), never on relative strength with no news anywhere behind it, never at the day's extreme (T3).
   - Look at both sides (owner, 2026-11-03). Call side, the day's leader: a large cap up >= 2% beyond SPY while its
     sector or the index is flat or red; without in-session news of its own, a leader already >= 3% from its open goes
-    into `opportunities`, not `picks`. Put side, the mirror (T2): when a theme's ETF is down over the last month and
-    already below its open at the check-in, the weakest mega cap of that theme that is below its own open and outside
-    a report window is listed as an idea (`yes` or `maybe`), not picked, strongest when a sector negative broke the
-    same morning (target cuts across the group, a raise of capital, dilution). No conditional line for later. Calls on
-    a turning theme's names: S3.
+    into `opportunities`, not `picks`. Put side, the mirror (T2), chips and software only: when SMH or IGV is down over
+    the last month and already below its open at the check-in, the weakest chip or software mega cap that is below its
+    own open and outside a report window is listed as an idea (`yes` or `maybe`), not picked, strongest when a sector
+    negative broke the same morning (target cuts across the group, a raise of capital, dilution). No other sector; no
+    conditional line for later. Calls on a turning theme's names: S3.
   - A pick on a stock above ~$1,000 is a shadow sample only (the 20% stake, ~$92, buys nothing at the 0.06-delta
     floor): say so in the pick and prefer a sub-$700 name when one carries the same news.
   - Ideas that do not clear the bar go into the file's `opportunities` (T6: at most three, `yes` or `maybe`; no orders;
