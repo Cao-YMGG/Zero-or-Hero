@@ -115,7 +115,8 @@ How a thing moves between shelves:
   5-minute bars (stock moves, SUNDAY_TESTS 74): the case the 11:21 check-in was added for, SMH above its open at 10:15
   and below it at 11:20 in a falling month, lost (16 days, the weakest chip name 38% right, -0.36%, SMH itself
   -0.14%); on days SMH was already below its open at 10:15, a put on SMH from 10:15 made +0.31% and from 11:20 +0.19%
-  (99 days); in rising months no hour was positive (10:15 -0.09%, 11:20 -0.06%, 13:15 -0.11% on SMH). The bar written
+  (99 days); in rising months no hour was positive (a put on SMH on the days it was below its open at that hour: -0.09%
+  from 10:15, -0.04% from 11:20, -0.11% from 13:15). The bar written
   that morning ("back if 11:21 is no worse than 10:16 in rising months") was badly put: it is a tie at nothing, and
   there is nothing for a later check-in to buy. Stays on trial; comes back only if the option-price run of item 74
   shows a later entry that makes money.
