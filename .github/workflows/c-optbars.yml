@@ -1,0 +1,38 @@
+name: claude-c option bars (branch c/optbars only)
+
+# claude-c's research fetch. Runs only on its own branch c/optbars; never on main or claude/**.
+on:
+  push:
+    branches: ["c/optbars"]
+    paths: ["exchange/claude-c/optbars/request.json", "exchange/claude-c/optbars/fetch.py",
+            ".github/workflows/c-optbars.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: c-optbars
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    env:
+      APCA_API_KEY_ID: ${{ secrets.APCA_API_KEY_ID }}
+      APCA_API_SECRET_KEY: ${{ secrets.APCA_API_SECRET_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch option bars
+        run: python exchange/claude-c/optbars/fetch.py exchange/claude-c/optbars/request.json exchange/claude-c/optbars/out
+      - name: Commit results to c/optbars
+        run: |
+          git config user.name "claude-c-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add exchange/claude-c/optbars/out
+          git diff --cached --quiet && exit 0
+          git commit -m "c/optbars: results $(date -u +%FT%TZ)"
+          for i in 1 2 3; do git pull --rebase origin c/optbars && git push origin HEAD:c/optbars && break; sleep 5; done
