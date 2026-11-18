@@ -215,8 +215,15 @@ report the same evening: strike and stake rules, exit rules, filters, a variant'
 status, population changes within the bars above. Only what touches real money (Webull, live
 trading, the readiness verdict) waits for the owner. Filters change at most once a week, from a
 SUNDAY_TESTS item with numbers: one day's loss produces an item, not a new rule in this file.
-Owner, 2026-11-18 ("你想想，按你方向改" / "你可以今天做"): the once-a-week limit was lifted for that day's changes
-(one check-in, short lists, sniper on rating changes only, the shelves above). It stands again from 11-19.
+Owner, 2026-11-18 ("你想想，按你方向改" / "你可以今天做" / "是要归你自己管控的"; asked whether this line may be
+written here, the owner answered "可以写"): the shelves are Claude's to run. What sits on which shelf, when a test
+runs, what goes back, and which of the paper experiment's routines run and how often are decided here without asking
+first. Every such decision is written down the same day (EVOLUTION.md and the evening check, in plain Chinese), and
+the owner can undo any of it with a word. The once-a-week limit was lifted for that day's changes (one check-in, short
+lists, sniper on rating changes only, the shelves); from 11-19 it stands again as a brake Claude keeps on itself:
+nothing moves onto the Rules or Switches shelf more than once a week, and only through a test; a thing on trial moves
+when its test has run. Nothing here widens what Claude may touch: real money (Webull, live trading, the readiness
+verdict) is the owner's alone, and the hard limits at the top of this file stand.
 
 ## Evolution protocol (weekly review session)
 1. Read `journal/REVIEW.md`, `journal/trades.csv`, `journal/equity.csv`, `journal/BACKTEST.md`,
