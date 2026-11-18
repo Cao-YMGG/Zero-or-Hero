@@ -14,7 +14,7 @@
   "For an up day: NVDA beat and raised and the chip complex is bid, VIX and oil are falling, two down days in a row. Against: the night's gain is half gone, the consumer names are sold on their own reports, havens (health, staples) keep falling, a hike is priced and the auction and minutes come after 13:00, and the NVDA probe headlines keep coming. Not one-sided: p_up 0.49.",
   "Drop lights at Tuesday's close: breadth only (stretched off: SPY -2.3% over five sessions). Theme model: all ten themes neutral (turn flags: chips BREADTH; internet BREADTH+PERIPH; software BREADTH+RATIO_LOW; power, optical BREADTH. Heat flags: health BREADTH_UP; energy REL_STRONG; industrials, power, optical PERIPH_UP).",
   "Put-mirror line for the check-ins: chips gapped about +2% in a -16% month on NVDA's read-through. If SMH is back below its open by 11:00, the weakest chip mega cap already below its open (not NVDA, first day after its report) is the put candidate; the 10:16 check names it, the 11:21 check judges it.",
-  "Rating changes on large caps found by 08:32: none. Analyst notes only: Bernstein names AMAT its top equipment pick (Outperform, 600), keeps Outperform on KLAC and LRCX; BTIG cuts CRM to 250 from 300; Morgan Stanley and Piper cut NVDA targets; a downgrade of TSLA to Sell (firm not named in the headline), Barclays keeps Buy on TSLA; Evercore cuts HOOD's target."
+  "Rating changes on large caps found by 08:32: none. Analyst notes only: Bernstein names AMAT its top equipment pick (Outperform, 600), keeps Outperform on KLAC and LRCX; BTIG cuts CRM to 250 from 300; Morgan Stanley and Piper cut NVDA targets; a downgrade of TSLA to Sell (firm not named in the headline), Barclays keeps Buy on TSLA; Evercore cuts HOOD's target. Sniper changed at 08:37 from AVGO to AMAT: AVGO's Anthropic headline was posted at 15:01 ET Tuesday (Alpaca times are UTC) and priced that day."
  ],
  "events": [
   "No 08:30 US data; 10:00 pending home sales (consensus -2%, prior -7.3%); 10:30 EIA crude (consensus -0.5M)",
@@ -75,33 +75,33 @@
   ]
  },
  "sniper": {
-  "symbol": "AVGO",
+  "symbol": "AMAT",
   "direction": "call",
   "class": "news",
   "confidence": 0.2,
-  "catalyst": "Own news from the last day: Broadcom commits $1B to Anthropic's IPO as one of its strategic technology suppliers (Benzinga via Alpaca, 11-17 20:01 ET), the evening NVDA beat and raised (a Futurum analyst on CNBC this morning: AMD and Broadcom can catch up while Nvidia changes CEOs). AVGO 348.15 at 08:32 (+1.9%; SMH +2.05%, so the gap is the sector, not the news), median target 530 (Webull; low 398), Rothschild cut it to Neutral on 11-13, reports Dec 9 (outside the 10-day window). Against it: company news is the weak class (10 such snipers right on 5, -56% to -71% on real prices), chips are the month's coolest theme and good news there tends to fade, and Anthropic's own listing tomorrow may pull money out of AI hardware. Shadow only (catalyst_open about 0.10 delta and the hero; rating_open does not take the news class); the entry needs AVGO at or above its open between 09:31 and 10:00.",
-  "wrong_if": "AVGO is below its open at 10:00, or it is back under Tuesday's close 341.60 before 11:00."
+  "catalyst": "Own news from this morning: Bernstein names Applied Materials its top pick among U.S. chip-equipment stocks, Outperform kept, target 600 (Benzinga via Alpaca, 07:31 ET), against ~355 at 08:32 (+1.7%; LRCX and KLAC, where Bernstein only kept Outperform, are up about as much, and SMH +2.05%). It is the fourth session after AMAT's report (record quarter, FY27 equipment spending seen +30%) and the roughly eight target cuts of 11-13 (JPM 660 -> 500, Wells 500, TD Cowen 500); a top-pick call is the sell side pushing back. Class news, not target: Bernstein's 600 is the target it set on 11-13, not a new raise, so rating_open does not take it. Median target 565 (Webull). Against it: the gap is the sector's, the analyst note keeps the rating, chips are the month's coolest theme and good news there tends to fade, AMAT only has Friday options. Replaces AVGO (written at 08:32): its $1B Anthropic commitment came out at 15:01 ET on Tuesday, during the session, and AVGO rose 2.5% that day while SMH fell 0.4%, so it was priced by the close. Shadow only (catalyst_open about 0.10 delta, nearest expiry, and the hero); the entry needs AMAT at or above its open between 09:31 and 10:00.",
+  "wrong_if": "AMAT is below its open at 10:00, or it is back under Tuesday's close 349.23 before 11:00."
  },
  "opportunities": [
-  {
-   "type": "company_news",
-   "symbol": "AVGO",
-   "direction": "call",
-   "time": "09:31",
-   "action": "shadow",
-   "conviction": "maybe",
-   "why": "Sniper (see sniper): Broadcom commits $1B to Anthropic's IPO as one of its strategic suppliers (Benzinga via Alpaca, 11-17 20:01), the morning after NVDA beat and raised; +1.7% pre-market with SMH +1.9%, so most of the gap is the sector. Median target 530 against ~347. Company news, not a rating change: confidence 0.2.",
-   "why_zh": "狙击（见上）：博通答应在 Anthropic 上市时认购 10 亿美元，算是大客户之间绑得更紧；同时英伟达昨晚财报超预期，芯片今早一起涨。盘前 +1.7%，和芯片板块差不多，所以涨的大部分是板块不是它自己的消息。分析师目标中位数 530，现价约 347。只是公司消息，不是评级上调，信心 0.2。"
-  },
   {
    "type": "analyst",
    "symbol": "AMAT",
    "direction": "call",
+   "time": "09:31",
+   "action": "shadow",
+   "conviction": "maybe",
+   "why": "Sniper (see sniper): Bernstein names Applied Materials its top U.S. chip-equipment pick, Outperform kept, target 600 (Benzinga 07:31) against ~355, the fourth session after the report and about eight target cuts on 11-13; +1.7% pre-market, about the same as LRCX, KLAC and SMH. Not a rating change and the 600 is not new, so class news at confidence 0.2.",
+   "why_zh": "狙击（见上）：伯恩斯坦今早把应用材料列为美国芯片设备股的首选，维持跑赢大盘、目标价 600（现价约 355）。它上周财报后被八家左右下调目标价，今天是财报后第四个交易日，算是券商开始唱多。盘前 +1.7%，和同行、和芯片板块差不多。不是评级上调，600 也不是新提的目标价，所以只算公司消息，信心 0.2。"
+  },
+  {
+   "type": "company_news",
+   "symbol": "AVGO",
+   "direction": "call",
    "time": "10:00",
    "action": "none",
-   "conviction": "maybe",
-   "why": "Bernstein names Applied Materials its top U.S. chip-equipment pick, Outperform kept, target 600 (Benzinga via Alpaca, 07:31) against ~355; +1.7% pre-market, the same as LRCX and KLAC (Bernstein kept Outperform on both). Not a rating change and the target is not shown as raised, so not the sniper.",
-   "why_zh": "伯恩斯坦把应用材料列为美国芯片设备股的首选，维持跑赢大盘、目标价 600（现价约 355）。盘前 +1.7%，和同行泛林、科磊一样。不是评级上调，也看不出目标价是新提的，所以不当狙击。"
+   "conviction": "no",
+   "why": "Control: Broadcom commits $1B to Anthropic's IPO as a strategic supplier (Benzinga via Alpaca, 15:01 ET Tuesday, during the session: AVGO +2.5% that day while SMH fell 0.4%), then NVDA beat after the close; +1.9% pre-market with SMH +2.05%. The news was priced by Tuesday's close, so it is listed to see whether a priced company headline still adds anything on the sector's gap day. Median target 530 against ~348.",
+   "why_zh": "对照：博通答应在 Anthropic 上市时认购 10 亿美元，但这条消息是昨天下午 3 点盘中出来的，当天博通就涨了 2.5%（芯片板块跌 0.4%），收盘时已经反映了。今早 +1.9% 和芯片板块一样。记下来看一条已经被消化的公司消息，在板块大涨的这天还有没有额外作用。"
   },
   {
    "type": "peer_readthrough",
@@ -148,7 +148,7 @@
  "zh": {
   "summary": "英伟达昨晚财报超预期，今早芯片一起涨（半导体 ETF 盘前 +2%，英伟达 +3%），但大盘只涨一点：标普 ETF 盘前 734.18，比昨天收盘 +0.24%（昨天 -1%）。夜盘一度 +0.5%，现在回吐了一半。零售股财报后被卖：劳氏 -5%，塔吉特上调了全年指引却一度 -3.8%，家得宝 -1.7%，沃尔玛明天财报前 -1%。医疗、必需消费这些前几周的避风港还在跌。10 年期国债收益率 5.09%，市场已经认定 12 月加息；下午 1 点有 20 年国债拍卖，2 点公布美联储上次会议纪要。",
   "spy": "不下注，收在开盘价上方的概率给 49%。往上的理由：英伟达财报好、芯片在涨、恐慌指数和油价都在降、已经连跌两天。往下的理由：夜盘的涨幅回吐了一半、零售财报普遍被卖、避风港还在跌、下午的国债拍卖和会议纪要可能把利率再推高、英伟达的证监会调查消息还没停。两边差不多，不赌。",
-  "sniper": "博通看涨，信心只有 0.2。消息：博通答应在 Anthropic 上市时认购 10 亿美元，是它的技术供应商之一，客户关系更紧；同时英伟达财报带动整个芯片板块。问题是：博通盘前 +1.9%，和芯片板块一样，看不出自己的消息多涨了什么；「公司消息」这一类狙击过去 10 次只对一半、期权亏五到七成；芯片是这个月最冷的板块，好消息容易冲高回落；Anthropic 明天上市，可能把钱从 AI 硬件里抽走。10:00 在开盘价下方、或 11:00 前跌回昨收 341.60 以下就算错。只记影子，不下真单。",
+  "sniper": "应用材料（芯片设备）看涨，信心只有 0.2。消息：伯恩斯坦今早 7:31 把它列为美国芯片设备股的首选，维持跑赢大盘、目标价 600，现价约 355。上周财报后八家左右下调了它的目标价，今天券商开始反过来唱多。问题：它盘前 +1.7%，和同行、和整个芯片板块一样，看不出这条消息多带来什么；评级没变、目标价也不是新提的，只能算公司消息，这一类过去对一半、期权亏五到七成；芯片是这个月最冷的板块。原来写的博通换掉了：它那条 10 亿美元认购 Anthropic 的消息是昨天下午盘中出来的，当天就涨了 2.5%，已经被消化。10:00 在开盘价下方、或 11:00 前跌回昨收 349.23 以下就算错。只记影子。",
   "rotation": "一个月看，钱在能源、消费、必需消费，AI 硬件各环节（显卡、存储、光模块、CPU）和软件都在流出。今早反过来：芯片因为英伟达反弹，消费和医疗被卖。没有哪个主题在「转向」，今天没有主题过滤。",
   "heating": "能源、消费、必需消费",
   "cooling": "显卡、存储、光模块、CPU、软件"
