@@ -14,7 +14,7 @@
   "For an up day: NVDA beat and raised and the chip complex is bid, VIX and oil are falling, two down days in a row. Against: the night's gain is half gone, the consumer names are sold on their own reports, havens (health, staples) keep falling, a hike is priced and the auction and minutes come after 13:00, and the NVDA probe headlines keep coming. Not one-sided: p_up 0.49.",
   "Drop lights at Tuesday's close: breadth only (stretched off: SPY -2.3% over five sessions). Theme model: all ten themes neutral (turn flags: chips BREADTH; internet BREADTH+PERIPH; software BREADTH+RATIO_LOW; power, optical BREADTH. Heat flags: health BREADTH_UP; energy REL_STRONG; industrials, power, optical PERIPH_UP).",
   "Put-mirror line for the check-ins: chips gapped about +2% in a -16% month on NVDA's read-through. If SMH is back below its open by 11:00, the weakest chip mega cap already below its open (not NVDA, first day after its report) is the put candidate; the 10:16 check names it, the 11:21 check judges it.",
-  "Rating changes on large caps found by 08:32: none. Analyst notes only: Bernstein names AMAT its top equipment pick (Outperform, 600), keeps Outperform on KLAC and LRCX; BTIG cuts CRM to 250 from 300; Morgan Stanley and Piper cut NVDA targets; a downgrade of TSLA to Sell (firm not named in the headline), Barclays keeps Buy on TSLA; Evercore cuts HOOD's target. Sniper changed at 08:37 from AVGO to AMAT: AVGO's Anthropic headline was posted at 15:01 ET Tuesday (Alpaca times are UTC) and priced that day."
+  "Rating changes on large caps found by 08:32: none. Analyst notes only: Bernstein names AMAT its top equipment pick (Outperform, 600), keeps Outperform on KLAC and LRCX; BTIG cuts CRM to 250 from 300; Morgan Stanley and Piper cut NVDA targets; a downgrade of TSLA to Sell (firm not named in the headline), Barclays keeps Buy on TSLA; Evercore cuts HOOD's target. Sniper changed at 08:34 from AVGO to AMAT: AVGO's Anthropic headline was posted at 15:01 ET Tuesday (Alpaca times are UTC) and priced that day."
  ],
  "events": [
   "No 08:30 US data; 10:00 pending home sales (consensus -2%, prior -7.3%); 10:30 EIA crude (consensus -0.5M)",
@@ -130,8 +130,8 @@
    "time": "10:00",
    "action": "none",
    "conviction": "no",
-   "why": "Control: Salesforce and Microsoft announced a 'Copilotforce' partnership after Tuesday's -9.5% day, but BTIG cut its target to 250 from 300 at 07:31 and CRM is -0.6% pre-market; software is the month's worst theme after chips.",
-   "why_zh": "对照：Salesforce 昨天跌了 9.5%，收盘后宣布和微软合作，但今早 BTIG 把目标价从 300 降到 250，盘前还是 -0.6%；软件是这个月除芯片外最弱的一块。"
+   "why": "Control: Salesforce and Microsoft announced a 'Copilotforce' partnership at 15:02 ET Tuesday, during the -9.5% day, and BTIG cut its target to 250 from 300 at 07:31 today; CRM -1.1% pre-market. Software is the month's worst theme after chips.",
+   "why_zh": "对照：Salesforce 和微软的合作是昨天下午盘中宣布的，它当天照样跌了 9.5%；今早 BTIG 把目标价从 300 降到 250，盘前 -1.1%。软件是这个月除芯片外最弱的一块。"
   },
   {
    "type": "analyst",
