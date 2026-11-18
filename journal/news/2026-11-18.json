@@ -1,7 +1,147 @@
 {
- "as_of": "2026-11-18T08:31-05:00",
+ "as_of": "2026-11-18T10:02-05:00",
  "since": "2026-11-17T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-18 09:32",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Ads Expands Holiday Sponsorship Program",
+   "source": "fiscal.ai",
+   "url": "https://stockhouse.com/news/newswire/2026/11/18/amazon-ads-brings-back-holiday-sponsorship-program-with-google-sharkninja-and"
+  },
+  {
+   "time": "11-18 09:31",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce Issues Security Advisory Regarding Optimizely Script Incident",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/CRM-US?chain_id=Name1K9-3FXPhg.1lfqtp0&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Fjames-browny-70653748%22%7D"
+  },
+  {
+   "time": "11-18 09:31",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "downgrade",
+   "headline": "Erste Group Downgrades GE Vernova to Hold From Buy",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/erste-group-downgrades-ge-vernova-to-hold-from-buy-ce785edddb8af52c"
+  },
+  {
+   "time": "11-18 09:31",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "HSK Chain and Coinbase's Base Announce Strategic Collaboration",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/2026/11/18/tmt-newswire/pr-newswire/hsk-chain-and-base-collaborate-to-connect-asias-premier-onchain-asset-with-global-liquidity/2472839/amp"
+  },
+  {
+   "time": "11-18 09:31",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Teladoc Health Expands Weight Care Program with Employer Contribution Option for GLP-1s",
+   "source": "fiscal.ai",
+   "url": "https://easternherald.com/press-release/teladoc-health-expands-comprehensive-weight-care-program-with-employer-contribution-option-for-glp-1-medications/"
+  },
+  {
+   "time": "11-18 09:31",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Costco Wholesale Opens New Location in NE Edmonton",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/18/3405752/0/en/costco-wholesale-opens-new-location-in-ne-edmonton.html"
+  },
+  {
+   "time": "11-18 09:31",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Analysts Note Costco Sales Boost from Emergency-Prep Purchases",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/20261118108/costco-is-benefiting-from-apocalyptic-concerns-as-customers-stock-up-on-goods-analysts-say"
+  },
+  {
+   "time": "11-18 09:31",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Loblaw Companies Limited Integrates Product Catalogue with Meta's Muse AI",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/18/3405602/0/en/loblaw-becomes-first-canadian-retailer-to-bring-ai-powered-shopping-to-meta-s-muse.html"
+  },
+  {
+   "time": "11-18 09:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Introduces Life Sciences AI Agents for Clinical Trials",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/oracle-life-sciences-ai-agents-bring-ai-assisted-operational-intelligence-and-coordination-to-clinical-trials-302943185.html"
+  },
+  {
+   "time": "11-18 09:31",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "Supermicro Expands All-Flash Storage Server Portfolio with AMD EPYC 9006 Processors",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/in/news-releases/supermicro-ships-first-all-flash-storage-servers-delivering-pcie-gen-6-performance-and-broad-software-defined-storage-support-for-ai-training-and-inference-302943398.html"
+  },
+  {
+   "time": "11-18 09:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Happy Cappy Medicated Shampoo Expands Retail Presence to Walmart Neighborhood Markets",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/happy-cappy-medicated-shampoo-reaches-more-than-600-walmart-neighborhood-markets-302943899.html"
+  },
+  {
+   "time": "11-18 09:02",
+   "symbols": [
+    "ASML"
+   ],
+   "rating": "upgrade",
+   "headline": "AlphaValue/Baader Europe Upgrades ASML to Add Rating",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/alphavalue-baader-europe-upgrades-asml-to-add-rating-ce785edddb8ff22d"
+  },
+  {
+   "time": "11-18 09:02",
+   "symbols": [
+    "TSM"
+   ],
+   "rating": "",
+   "headline": "Insider Purchases Shares of Taiwan Semiconductor Manufacturing Company",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/taiwan-semiconductor-manufacturing-co-insider-bought-shares-worth-500-039-according-to-a-recent-se-ce785eddd888f726"
+  },
+  {
+   "time": "11-18 09:01",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "",
+   "headline": "Seagate Technology Announces Participation in Upcoming Investor Conferences",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/technology/telecommunications"
+  },
   {
    "time": "11-18 08:01",
    "symbols": [

@@ -1,9 +1,11 @@
-# Headlines since 2026-11-17 16:00 ET (as of 2026-11-18 08:31 ET)
+# Headlines since 2026-11-17 16:00 ET (as of 2026-11-18 10:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-18 09:31 | GEV | downgrade | Erste Group Downgrades GE Vernova to Hold From Buy |
+| 11-18 09:02 | ASML | upgrade | AlphaValue/Baader Europe Upgrades ASML to Add Rating |
 | 11-18 08:01 | CAT | rating | Morgan Stanley Maintains Hold Rating on Caterpillar |
 | 11-18 08:01 | HOOD | target down | Evercore ISI Lowers Price Target on Robinhood Markets, Inc. |
 | 11-18 07:32 | INTC | initiate | Intel Initiates New Round of Global Workforce Reductions |
@@ -11,6 +13,18 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-18 07:31 | CRM | rating | BTIG Adjusts Salesforce Price Target to $250 |
 | 11-18 06:31 | TSLA | downgrade | Tesla Receives Analyst Downgrade to Sell |
 | 11-17 17:01 | ARM | rating | Morgan Stanley Maintains Hold Rating and $212 Price Target for Arm Holdings |
+| 11-18 09:32 | AMZN |  | Amazon Ads Expands Holiday Sponsorship Program |
+| 11-18 09:31 | CRM |  | Salesforce Issues Security Advisory Regarding Optimizely Script Incident |
+| 11-18 09:31 | COIN |  | HSK Chain and Coinbase's Base Announce Strategic Collaboration |
+| 11-18 09:31 | LLY |  | Teladoc Health Expands Weight Care Program with Employer Contribution Option for GLP-1s |
+| 11-18 09:31 | COST |  | Costco Wholesale Opens New Location in NE Edmonton |
+| 11-18 09:31 | COST |  | Analysts Note Costco Sales Boost from Emergency-Prep Purchases |
+| 11-18 09:31 | META |  | Loblaw Companies Limited Integrates Product Catalogue with Meta's Muse AI |
+| 11-18 09:31 | ORCL |  | Oracle Introduces Life Sciences AI Agents for Clinical Trials |
+| 11-18 09:31 | AMD |  | Supermicro Expands All-Flash Storage Server Portfolio with AMD EPYC 9006 Processors |
+| 11-18 09:31 | WMT |  | Happy Cappy Medicated Shampoo Expands Retail Presence to Walmart Neighborhood Markets |
+| 11-18 09:02 | TSM |  | Insider Purchases Shares of Taiwan Semiconductor Manufacturing Company |
+| 11-18 09:01 | STX |  | Seagate Technology Announces Participation in Upcoming Investor Conferences |
 | 11-18 08:01 | GS |  | Goldman Sachs Raises 2027 Global AI Project Financing Forecast to $545 Billion |
 | 11-18 08:01 | ORCL |  | Oracle Launches New AI Capabilities for Primavera Cloud |
 | 11-18 08:01 | NVDA |  | NVIDIA Faces SEC Investigation and Delays Quarterly 10-Q Filing |
