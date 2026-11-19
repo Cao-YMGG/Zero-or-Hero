@@ -105,4 +105,12 @@ each part, one line each: the date, what happened, what it suggested, where it s
   an upgrade that gaps 3% or more (+1.83% on 22 events since May, -0.02% from 09:32 on 48 earlier ones); not buying
   the oversold ETF in a calm market (-0.03% against +0.44% in 2017-2026, +0.28% against +0.31% in 2005-2016).
   Suggested nothing; kept as a reminder of how good a pattern can look in one window.
+- 2026-11-19: SPY gapped +1.0% and closed at its low, -2.9% open to close; the fifth session in a row with the high
+  in the opening minutes. I had cited the first four as a reason that morning. On twenty years of daily bars the run
+  says nothing: after 2, 3, 4 and 5 sessions closing below the open SPY closed above its open 55%, 52-55%, 51-54% and
+  52-54% of the time, against 54% on every day; a gap up of 1% or more closed above its open 59-61% of the time
+  (261 days). The day after an open-to-close of -2% or worse: 61% up, +0.36% (77 days, 2004-2016) and 57%, +0.45%
+  (51 days, 2016-2026). Stands as a base rate for the next morning's `p_up`, not a rule; SUNDAY_TESTS 80.
+- 2026-11-19 AMD: listed as the put mirror at 10:18 (533.64); a short seller's report at about 10:25 took it to 470.75.
+  Counted as luck in the post-mortem; no rule can be made of a report nobody could know of.
 

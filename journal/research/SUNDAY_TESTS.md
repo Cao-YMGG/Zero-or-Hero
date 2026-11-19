@@ -781,6 +781,16 @@ in EVOLUTION.md.
    RUN 2026-11-19 (OVERSOLD.md): (a) passed: 1,337 trades, 74% win, +0.37%, rising +0.28%, falling +0.51%; losing
    years 2008 and 2011. (b) failed: calm +0.28% (173) against +0.31% (365). (c) 46 quarters, correlation -0.14; taken
    after a good stretch +0.24%, skipped +0.58%. The rule goes on trial as a shadow record; the switch is dropped.
+80. **Streaks and the day after a big down day (2026-11-19).** Run the evening SPY closed -2.9% from its open, on SPY
+   and QQQ daily bars 2004-2026 (two samples, 2004-2016 and 2016-2026), read without a bar written first: a run of 2
+   to 5 sessions closing below the open says nothing about the next one (51-55% up against 54%); a gap up of 1% or
+   more closed above its open 59-61% of the time; the day after an open-to-close of -2% or worse SPY closed above its
+   open 61% (+0.36%, 77 days) and 57% (+0.45%, 51 days), QQQ 52% and 60%. For Sunday: (a) add the streak line to R1
+   (it is a twenty-year negative result; the weekly move onto the Rules shelf was used on 11-19 for R4); (b) the
+   bounce after a -2% day, with the bar written here before any further cut: split on SPY's one-month return and on
+   VIXY's level, IWM and DIA as the names not looked at; a Switch candidate for `p_up` only if it is at least 58% up
+   and +0.25% on IWM and DIA together in both halves of the sample. Until then it is a base rate quoted in the
+   morning file, not a reason to bet.
 
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
