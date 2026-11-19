@@ -742,6 +742,21 @@ in EVOLUTION.md.
    over the last 3 months and over the whole period, in rising and in falling months, and as an account ahead of SPY
    held over the same span. My guess before the run: it fails (a 3.6-day hold pays theta, and volatility falls on the
    bounce). If it fails it stays an observation and is not run again.
+78. **Rating changes from a price a buyer can have, two years (2026-11-19).** Tonight's ungated sample is short: the
+   news endpoint returned nothing before 2026-04-29 (and 33 of the 125 gated events of the same window were not in
+   it), so 124 upgrades and 121 downgrades, 2026-05 to 2026-11. In it: every upgrade bought at the 09:30 VWAP +0.26%
+   after 0.1% (52% right, -0.08% without the best five); 44% pass the 09:32 gate and those are +1.24% from the open
+   but +0.54% from 09:32 (-0.13% without the best five); with the gap under 3% (a rating change alone, 100 events)
+   -0.05% ungated and +0.03% gated from 09:32; the gap of 3% or more (22, mostly the day after a report) +1.83%.
+   Downgrades: nothing from the open (+0.03%), but short from 10:00 +0.38% (58% right, +0.22% without the best five,
+   both halves and both kinds of month positive). That last one is the best of fourteen cells looked at after the
+   fact, so it is tested where it has not been looked at: the gated two-year sample (slowdrift_wide_events.json, 502
+   events on 105 names, 377 of them before 2026-04-29), minute bars, from 09:32, 09:35, 09:45 and 10:00 to the close,
+   after 0.1%. Bars, written before the run: (a) downgrades, short from 10:00, events before 2026-04-29: at least
+   +0.20% and positive without the best five, in rising and in falling months; then it is an observation worth an
+   option-price run, otherwise it is dropped. (b) upgrades with the gap under 3%, from 09:32, all two years: at least
+   +0.30% and positive without the best five, in both kinds of month; otherwise R4 is rewritten to say the open-to-
+   close number is the gate's own first two minutes and goes back on trial.
 
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
