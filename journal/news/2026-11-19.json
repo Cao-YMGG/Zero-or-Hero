@@ -1,7 +1,17 @@
 {
- "as_of": "2026-11-19T10:02-05:00",
+ "as_of": "2026-11-19T10:32-05:00",
  "since": "2026-11-18T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-19 10:02",
+   "symbols": [
+    "ARM"
+   ],
+   "rating": "",
+   "headline": "Arm Holdings Chief Architect Reports Insider Share Sale",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/ARM-US?chain_id=Name1K9-3FXPhg.1lftp60&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Fkheldarx-103578968%22%7D"
+  },
   {
    "time": "11-19 09:31",
    "symbols": [
