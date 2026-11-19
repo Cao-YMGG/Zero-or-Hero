@@ -1,0 +1,396 @@
+{
+ "as_of": "2026-11-19T07:41-05:00",
+ "since": "2026-11-18T16:00-05:00",
+ "headlines": [
+  {
+   "time": "11-19 07:32",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "rating",
+   "headline": "Cantor Fitzgerald Maintains $250 Price Target on NVIDIA",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/NVDA-US?chain_id=Name1K9-3FXPhg.1lftekg&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FCRWD-US%2Fcommunity%22%7D"
+  },
+  {
+   "time": "11-19 07:32",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "US Commerce Department Expedited H200 China Export Approvals for NVIDIA",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/nvidia-s-h200-china-export-approvals-were-rushed-by-us-commerce-department-ce785ed2d98af026"
+  },
+  {
+   "time": "11-19 07:32",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Alternatives Co-Leads $300 Million Series C Funding for MegaRobo",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/megarobo-sammelt-fast-200-millionen-us-dollar-an-neuen-finanzmitteln-ein-um-eine-intelligente-infrastruktur-fur-die-physische-welt-aufzubauen-302945373.html"
+  },
+  {
+   "time": "11-19 07:32",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Adjusts Price Target on Palo Alto Networks",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-price-target-on-palo-alto-networks-to-440-from-390-ce785ed2d981f126"
+  },
+  {
+   "time": "11-19 07:31",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "rating",
+   "headline": "Goldman Sachs Maintains Buy Rating on Broadcom, Adjusts Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/AVGO-US?chain_id=Name1K9-3FXPhg.1lftekg&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Fjun-8888-102742817%22%7D"
+  },
+  {
+   "time": "11-19 07:31",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Russian Espionage Case Involves Palantir Employees",
+   "source": "fiscal.ai",
+   "url": "https://htsyndication.com/hindustan-times/article/russian-man-accused-of-spying-targeted-workers-of-palantir%2C-which-is-aiding-ukraine-s-war-effort%3A-report/106206927"
+  },
+  {
+   "time": "11-19 07:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart Raises Fiscal Year Guidance Amid 3Q Earnings Beat",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/dow-jones/202611194370/walmart-raises-fiscal-year-guidance-amid-3q-earnings-beat"
+  },
+  {
+   "time": "11-19 07:31",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "UnitedHealth Group Shares Decline Following Introduction of CRUSH Rule",
+   "source": "fiscal.ai",
+   "url": "https://www.baystreet.ca/stockstowatch/24434/Watch-Anthropic-Okta-UNH-and-More"
+  },
+  {
+   "time": "11-19 07:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Web Services Hong Kong Receives Sustainable Technology Adoption Award",
+   "source": "fiscal.ai",
+   "url": "https://www.media-outreach.com/news/hong-kong/2026/11/19/502651/dual-engines-driving-the-green-transition-wgo-hosts-the-sustainable-finance-award-and-sustainable-enterprise-award-to-honour-cross-sector-pioneers/"
+  },
+  {
+   "time": "11-19 07:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Announces AI Innovations and Salesforce Partnership at Ignite",
+   "source": "fiscal.ai",
+   "url": "https://aimagazine.com/news/microsoft-unveils-copilot-workspaces-and-salesforce-deal"
+  },
+  {
+   "time": "11-19 06:32",
+   "symbols": [
+    "HD"
+   ],
+   "rating": "",
+   "headline": "Barclays Adjusts Price Target on Home Depot to $412 From $420",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/barclays-adjusts-price-target-on-home-depot-to-412-from-420-ce785ed2d98cf72d"
+  },
+  {
+   "time": "11-19 06:32",
+   "symbols": [
+    "HD"
+   ],
+   "rating": "target up",
+   "headline": "DA Davidson Maintains Buy Rating on Home Depot and Raises Price Target to $390",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/HD-US?chain_id=Name1K9-3FXPhg.1lftekg&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Fjun-8888-102742817%22%7D"
+  },
+  {
+   "time": "11-19 06:32",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Fubon Securities Adjusts Price Target on Intel",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/fubon-securities-adjusts-price-target-on-intel-to-66-from-105-ce785ed2d98cf027"
+  },
+  {
+   "time": "11-19 06:32",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel Secures First External Customer for 18A Chip Technology",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1005163104/intel-shares-rise-pre-bell-on-signing-first-external-customer"
+  },
+  {
+   "time": "11-19 06:31",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla to Continue Boosting Production at China Factory",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/tesla-to-continue-boosting-production-at-china-factory-ce785ed2d98bf024"
+  },
+  {
+   "time": "11-19 06:31",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platforms Suspends Issuance of New Non-Voting Class C Stock Pending Court Ruling",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/meta-agrees-to-hold-off-on-issuing-new-stock-until-court-decision-ce785ed2d88bf626"
+  },
+  {
+   "time": "11-19 06:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Reports Widespread Banking Disruptions",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.lk/category/international/"
+  },
+  {
+   "time": "11-19 06:31",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Developers Reconsider Canadian LNG Site Previously Jettisoned by Chevron",
+   "source": "fiscal.ai",
+   "url": "https://calgaryherald.com/category/business/energy/"
+  },
+  {
+   "time": "11-19 06:01",
+   "symbols": [
+    "ARM"
+   ],
+   "rating": "",
+   "headline": "Arm Names ByteDance and Oracle as Customers for AI Data Centre Chips",
+   "source": "fiscal.ai",
+   "url": "https://stockanalysis.com/private/bytedance/"
+  },
+  {
+   "time": "11-19 03:02",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "",
+   "headline": "Stalexport Autostrady Subsidiary Announces Planned Group Layoffs",
+   "source": "fiscal.ai",
+   "url": "https://pap-mediaroom.pl/biznes-i-finanse/stalexport-autostrady-sa-412026-uchwala-o-zamiarze-przeprowadzenia-procedury"
+  },
+  {
+   "time": "11-18 22:01",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD CEO Lisa Su Comments on Nvidia Leadership Transition",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8899114/amd-shares-climb-as-ceo-lisa-su-brushes-off-nvidia-s-huang-turmoil-but-the-real-opening-isn-t-demand"
+  },
+  {
+   "time": "11-18 22:01",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "GE Aerospace Joins Initiative to Develop High-Speed Flight Test Corridor",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/18/3405864/0/en/supersonic-rule-and-launch-corridor-push-shift-focus-to-inland-test-airspace.html"
+  },
+  {
+   "time": "11-18 20:01",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "initiate",
+   "headline": "Salesforce Initiates New Round of Layoffs",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8905443/crm-stock-layoffs-what-to-know-as-salesforce-reportedly-begins-more-job-cuts"
+  },
+  {
+   "time": "11-18 20:01",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "iFAST Global Bank Expands Multi-Currency Visa Debit Card Access",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/18/3405424/0/en/ifast-global-bank-expands-multi-currency-visa-debit-card-access-to-overseas-customers.html"
+  },
+  {
+   "time": "11-18 19:01",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "GE Aerospace Commits $100,000 to Embry-Riddle to Support Transitioning Service Members",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/ge-aerospace-commits-100k-to-embry-riddle-to-support-transitioning-service-members-302944413.html"
+  },
+  {
+   "time": "11-18 19:01",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Happy Cappy Medicated Shampoo & Body Wash Expands Distribution to Walmart Stores",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/happy-cappy-medicated-shampoo-reaches-more-than-600-walmart-neighborhood-markets-302943899.html"
+  },
+  {
+   "time": "11-18 19:01",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly Participates in VitriVax $87 Million Series C Financing",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/health/pharmaceutical"
+  },
+  {
+   "time": "11-18 17:32",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova Secures New Wind Energy Order from wpd in Germany",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/GEV-US?chain_id=Name1K9-3FXPhg.1lfkhs0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FDHR-US%2Fearnings%22%7D"
+  },
+  {
+   "time": "11-18 17:32",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "AMD Insider Executes Significant Share Sale",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/advanced-micro-devices-insider-sold-shares-worth-35-489-904-according-to-a-recent-sec-filing-ce785edddf89f121"
+  },
+  {
+   "time": "11-18 17:31",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce Launches AgentExchange Marketplace",
+   "source": "fiscal.ai",
+   "url": "https://businessnewswire.org/salesforce-agentexchange-the-small-business-game-changer/"
+  },
+  {
+   "time": "11-18 17:31",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Lowers 2026 Advertising Revenue Target and Provides Soft Q4 Guidance",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8898467/as-netflix-stock-hovers-near-its-52-week-low-analyst-sentiment-remains-mixed-here-s-why"
+  },
+  {
+   "time": "11-18 17:31",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "FGPG Selected to Design and Produce Chevron's Interactive Brand Activation at the 2026 Los Angeles Auto Show",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/fgpg-selected-to-design-and-produce-presenting-sponsor-chevrons-interactive-brand-activation-at-the-2026-los-angeles-auto-show-302944204.html"
+  },
+  {
+   "time": "11-18 16:32",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan-led Banks Reduce Yield on Proofpoint Bond",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/JPM-US?chain_id=Name1K9-3FXPhg.1lfrpt0&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Fbuy-low-sell-low-107785341%22%7D"
+  },
+  {
+   "time": "11-18 16:32",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "UBS Adjusts Meta Platforms Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/META-US?chain_id=Name1K9-3FXPhg.1lfrtdg&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Fequity-investor-74339429%2Fpost%2Fall%22%7D"
+  },
+  {
+   "time": "11-18 16:32",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Reports Indicate Meta Proposed Ending News Blackout in Canada",
+   "source": "fiscal.ai",
+   "url": "https://newsfilter.io/articles/minister-says-discussions-with-meta-confidential-following-reports-of-possible-d88ccd8ccd8c5cc388ed918f1cc8b03a"
+  },
+  {
+   "time": "11-18 16:31",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Micron Sees Tighter Memory Supply Through 2028 as AI Demand Remains Strong, RBC Says",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1005067452/micron-sees-tighter-memory-supply-through-2028-as-ai-demand"
+  },
+  {
+   "time": "11-18 16:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Fly By Jing Launches Exclusive Hot Sauce Gift Set at Walmart",
+   "source": "fiscal.ai",
+   "url": "https://www.einnews.com/pr_news/957500075/the-holidays-just-got-hotter-fly-by-jing-spices-up-walmart-s-gift-aisle"
+  },
+  {
+   "time": "11-18 16:31",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Releases HomeView Software 27.2.1 Update",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/gwm546z/"
+  },
+  {
+   "time": "11-18 16:31",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Health Canada Approves Mounjaro for Cardiovascular Risk Reduction",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.ca/news-releases/health-canada-approves-lilly-s-mounjaro-r-tirzepatide-to-reduce-cardiovascular-risk-in-adults-with-type-2-diabetes-898711954.html"
+  }
+ ]
+}
