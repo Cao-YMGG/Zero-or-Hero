@@ -731,6 +731,17 @@ in EVOLUTION.md.
    later) at least +0.30% to the close after cost over 300 or more events, positive in both kinds of month and in
    both groups of names and without its best five; then a shadow variant buys the stock (not an option) at the open
    and sells at the close, and R4 is rewritten on the ungated numbers either way.
+77. **The oversold-ETF rule, as an account and on option prices (2026-11-19, OVERSOLD.md).** RSI(2) below 10 at the
+   close with the close above the 200-day average, out at the first close above the 5-day average: 1,145 trades on 14
+   ETFs over ten years, 70% win, +0.37% a trade after cost, positive in rising and falling months and in eight of ten
+   years. But as an account 4-7% a year against 14% for SPY held (the money is idle most days), half of it gone when
+   bought the next morning, and the last 3 months are negative (39 trades, -0.40%). Two things owed, neither urgent:
+   (a) on real option prices since 2024-02 (SPY, QQQ, SMH, XLK): the call nearest 0.70 delta expiring 2 to 4 weeks
+   out, bought at 15:50 on the signal day, sold at the close that ends the stock trade, 10% costs; (b) the same
+   trades run as a $500 ledger, one contract at a time. Bar, written before the run: positive without its best two
+   over the last 3 months and over the whole period, in rising and in falling months, and as an account ahead of SPY
+   held over the same span. My guess before the run: it fails (a 3.6-day hold pays theta, and volatility falls on the
+   bounce). If it fails it stays an observation and is not run again.
 
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
