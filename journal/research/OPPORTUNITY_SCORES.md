@@ -13,7 +13,7 @@
 | group | ideas | right | paid (>= +1%) | avg move | avg w/o best | avg vs SPY | beat SPY |
 |---|---|---|---|---|---|---|---|
 | premarket | 104 | 52% | 30% | +0.04% | -0.03% | +0.13% | 53% |
-| intraday | 96 | 47% | 19% | -0.17% | -0.26% | -0.10% | 42% |
+| intraday | 96 | 47% | 19% | -0.18% | -0.26% | -0.10% | 42% |
 | sniper | 12 | 58% | 42% | +0.05% | -0.26% | +0.49% | 67% |
 | review | 6 | 67% | 17% | -0.15% | -0.40% | -0.21% | 50% |
 
@@ -40,7 +40,7 @@
 | not stated | 150 | 52% | 26% | +0.04% | -0.01% | +0.04% | 47% |
 | no | 27 | 52% | 30% | -0.07% | -0.31% | +0.03% | 52% |
 | yes | 23 | 52% | 22% | -0.20% | -0.37% | +0.12% | 61% |
-| maybe | 18 | 33% | 17% | -0.71% | -1.23% | -0.06% | 44% |
+| maybe | 18 | 33% | 17% | -0.72% | -1.23% | -0.06% | 44% |
 
 ## By distance from the day's best price when listed (since 2026-11-17)
 
@@ -49,7 +49,7 @@ How far the stock was from its session high (a call) or low (a put) before the l
 | group | ideas | right | paid (>= +1%) | avg move | avg w/o best | avg vs SPY | beat SPY |
 |---|---|---|---|---|---|---|---|
 | at the day's extreme (under 0.25%) | 53 | 43% | 13% | -0.47% | -0.56% | -0.50% | 38% |
-| 0.25% to 1% from it | 89 | 58% | 34% | +0.43% | +0.35% | +0.46% | 56% |
+| 0.25% to 1% from it | 89 | 58% | 34% | +0.43% | +0.34% | +0.46% | 56% |
 | 1% or more from it | 76 | 46% | 24% | -0.35% | -0.45% | -0.08% | 47% |
 
 ## After the market (since 2026-11-18, all rows)
@@ -65,7 +65,7 @@ The move with beta times SPY's move over the same minutes taken out (60-day beta
 | put | 92 | 48% | -0.30% | -0.37% | +0.24% |
 | conviction no | 27 | 52% | +0.55% | +0.34% | -0.07% |
 | conviction yes | 23 | 65% | +0.48% | +0.35% | -0.20% |
-| conviction maybe | 18 | 28% | +0.01% | -0.28% | -0.71% |
+| conviction maybe | 18 | 28% | +0.01% | -0.28% | -0.72% |
 | company_news | 57 | 54% | +0.17% | +0.06% | -0.42% |
 | sector_move | 23 | 26% | -0.45% | -0.58% | -0.51% |
 | analyst | 21 | 62% | +0.59% | +0.48% | +0.86% |
@@ -74,7 +74,7 @@ The move with beta times SPY's move over the same minutes taken out (60-day beta
 | peer_readthrough | 11 | 64% | +0.63% | +0.21% | +1.36% |
 | gapdown_rebound | 10 | 60% | +0.59% | +0.33% | -0.73% |
 | rotation_laggard | 9 | 33% | -0.77% | -1.16% | -1.38% |
-| sympathy | 9 | 33% | +0.15% | -0.31% | -0.50% |
+| sympathy | 9 | 33% | +0.15% | -0.31% | -0.51% |
 | financing_fade | 8 | 25% | -0.92% | -1.21% | +0.53% |
 | sell_the_news | 6 | 50% | -1.38% | -1.88% | -1.64% |
 | earnings_reaction | 6 | 67% | +0.23% | -0.17% | +1.72% |
@@ -97,12 +97,12 @@ No pick at the 13:16 check-in since 2026-11-16 (CLAUDE.md); the file lists what 
 | company_news | 57 | 53% | 28% | -0.42% | -0.56% | -0.15% | 53% |
 | sector_move | 23 | 43% | 9% | -0.51% | -0.61% | -0.19% | 26% |
 | analyst | 21 | 62% | 33% | +0.86% | +0.53% | +0.83% | 67% |
-| sector_intraday | 20 | 55% | 30% | +0.43% | +0.02% | +0.12% | 50% |
+| sector_intraday | 20 | 55% | 30% | +0.43% | +0.02% | +0.11% | 50% |
 | relative_weakness | 17 | 41% | 18% | -0.14% | -0.53% | -0.14% | 41% |
 | peer_readthrough | 11 | 45% | 45% | +1.36% | +0.75% | +1.09% | 64% |
 | gapdown_rebound | 10 | 40% | 10% | -0.73% | -0.94% | -0.35% | 30% |
 | rotation_laggard | 9 | 33% | 11% | -1.38% | -1.83% | -0.59% | 33% |
-| sympathy | 9 | 56% | 22% | -0.50% | -0.86% | -0.14% | 44% |
+| sympathy | 9 | 56% | 22% | -0.51% | -0.86% | -0.14% | 44% |
 | financing_fade | 8 | 62% | 38% | +0.53% | +0.22% | -0.13% | 50% |
 | sell_the_news | 6 | 50% | 17% | -1.64% | -2.87% | -1.67% | 50% |
 | earnings_reaction | 6 | 83% | 33% | +1.72% | +0.92% | +1.18% | 67% |
@@ -118,9 +118,9 @@ No pick at the 13:16 check-in since 2026-11-16 (CLAUDE.md); the file lists what 
 | company_news | 50 | 56% | 28% | -0.28% | -0.44% | -0.18% | 50% |
 | analyst | 19 | 58% | 37% | +0.88% | +0.51% | +0.81% | 63% |
 | relative_weakness | 17 | 41% | 18% | -0.14% | -0.53% | -0.14% | 41% |
-| sector_intraday | 15 | 47% | 20% | +0.16% | -0.41% | -0.14% | 40% |
-| sector_move | 13 | 54% | 0% | -0.46% | -0.53% | -0.30% | 23% |
-| sympathy | 9 | 56% | 22% | -0.50% | -0.86% | -0.14% | 44% |
+| sector_intraday | 15 | 47% | 20% | +0.15% | -0.41% | -0.15% | 40% |
+| sector_move | 13 | 54% | 0% | -0.47% | -0.53% | -0.30% | 23% |
+| sympathy | 9 | 56% | 22% | -0.51% | -0.86% | -0.14% | 44% |
 | relative_strength | 6 | 83% | 50% | +0.80% | +0.62% | +0.40% | 50% |
 | peer_readthrough | 4 | 50% | 50% | +1.10% | -0.03% | +0.86% | 75% |
 | sell_the_news | 4 | 25% | 0% | -3.74% | -5.24% | -3.10% | 25% |
