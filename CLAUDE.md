@@ -48,6 +48,9 @@ How a thing moves between shelves:
   last week.
 - A test says which sectors it covered, and a rule is written no wider than its test. Most of what was tested here
   was chips and tech mega caps; the put mirror held on chips and on nothing else of nine sectors (2026-11-18).
+- A test also runs the rule as an account (annual return, worst fall, days with money in) next to SPY held over the
+  same span. A per-trade average hides idle money: the oversold-ETF rule is +0.37% a trade over ten years and 4-7% a
+  year as an account against 14% for SPY held (OVERSOLD.md, 2026-11-19).
 
 ## Rules (held in rising and falling markets)
 - **R1. The gap is priced at the open.** OVERNIGHT.md (2024-02+): the night move barely predicts open to close (SPY
