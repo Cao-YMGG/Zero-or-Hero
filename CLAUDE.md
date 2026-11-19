@@ -174,6 +174,10 @@ How a thing moves between shelves:
   one I would pick if the bar allowed (`yes`) or one step short (`maybe`); no idea listed to argue against it; no
   morning put idea unless it is a put day (15 morning puts: right on 5, -1.96%). After the market the 219 ideas listed
   but not picked came to -0.06% (48% positive), the 31 picks and snipers to +0.65% (71%).
+  An idea whose own `why` names the reason it fails is a control under another name: leave it out, and say the
+  reason in `reasons` instead. The list may be empty. (11-19: INTC call listed with "the gap is past the priced line"
+  while I predicted to the other side that it would close below its open, AMZN call with "the listing may be the day
+  the news is sold"; both lost 5% from 10:00.)
 - **T7. Sniper gap limits**: a heavy catalyst (an upgrade by a major broker) qualifies with a pre-market gap up to
   ~3%, a weak one (a target raise) up to ~1.5%. From a handful of mornings.
 
