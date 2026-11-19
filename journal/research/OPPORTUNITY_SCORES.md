@@ -1,19 +1,19 @@
 # Opportunity scores
 
-264 rows, 213 ideas after dropping later mentions of the same stock and direction on the same day, 2026-10-29 to 2026-11-18 (15 sessions). Moves are the stock from the listed time to the close, signed the idea's way. `right` = closed the right side of the entry; `paid` = moved at least +1% the idea's way, about what a same-day 0.35-delta option needs (OPENGATE.md); `avg vs SPY` = the move minus what SPY did over the same minutes, signed the same way, so a put on a day everything fell gets no credit for the tape; `beat SPY` = share with that number above zero. A type earns attention at 20 ideas with `paid` and `avg vs SPY` both above the all-ideas line, and without its best idea. Rebuilt by `python -m zoh.research.opportunities`.
+270 rows, 218 ideas after dropping later mentions of the same stock and direction on the same day, 2026-10-29 to 2026-11-19 (16 sessions). Moves are the stock from the listed time to the close, signed the idea's way. `right` = closed the right side of the entry; `paid` = moved at least +1% the idea's way, about what a same-day 0.35-delta option needs (OPENGATE.md); `avg vs SPY` = the move minus what SPY did over the same minutes, signed the same way, so a put on a day everything fell gets no credit for the tape; `beat SPY` = share with that number above zero. A type earns attention at 20 ideas with `paid` and `avg vs SPY` both above the all-ideas line, and without its best idea. Rebuilt by `python -m zoh.research.opportunities`.
 
 ## All ideas
 
 | group | ideas | right | paid (>= +1%) | avg move | avg w/o best | avg vs SPY | beat SPY |
 |---|---|---|---|---|---|---|---|
-| all ideas | 213 | 51% | 25% | -0.00% | -0.04% | +0.06% | 49% |
+| all ideas | 218 | 50% | 25% | -0.05% | -0.09% | +0.04% | 49% |
 
 ## By source
 
 | group | ideas | right | paid (>= +1%) | avg move | avg w/o best | avg vs SPY | beat SPY |
 |---|---|---|---|---|---|---|---|
-| premarket | 101 | 53% | 31% | +0.20% | +0.13% | +0.21% | 54% |
-| intraday | 94 | 47% | 18% | -0.23% | -0.29% | -0.15% | 41% |
+| premarket | 104 | 52% | 30% | +0.06% | -0.01% | +0.14% | 53% |
+| intraday | 96 | 47% | 19% | -0.18% | -0.27% | -0.11% | 42% |
 | sniper | 12 | 58% | 42% | +0.05% | -0.26% | +0.49% | 67% |
 | review | 6 | 67% | 17% | -0.15% | -0.40% | -0.21% | 50% |
 
@@ -21,14 +21,14 @@
 
 | group | ideas | right | paid (>= +1%) | avg move | avg w/o best | avg vs SPY | beat SPY |
 |---|---|---|---|---|---|---|---|
-| call | 122 | 48% | 25% | -0.12% | -0.18% | +0.14% | 50% |
-| put | 91 | 55% | 26% | +0.15% | +0.07% | -0.06% | 48% |
+| call | 126 | 47% | 24% | -0.27% | -0.33% | +0.07% | 48% |
+| put | 92 | 55% | 27% | +0.24% | +0.15% | +0.00% | 49% |
 
 ## By action (picked or only listed)
 
 | group | ideas | right | paid (>= +1%) | avg move | avg w/o best | avg vs SPY | beat SPY |
 |---|---|---|---|---|---|---|---|
-| none | 189 | 51% | 26% | +0.02% | -0.02% | +0.04% | 48% |
+| none | 194 | 50% | 26% | -0.04% | -0.08% | +0.03% | 47% |
 | real | 13 | 54% | 23% | -0.22% | -0.44% | +0.12% | 62% |
 | shadow | 10 | 50% | 20% | -0.18% | -0.59% | +0.11% | 60% |
 | bot | 1 | 100% | 0% | +0.10% | - | +0.76% | 100% |
@@ -40,7 +40,7 @@
 | not stated | 150 | 52% | 26% | +0.04% | -0.01% | +0.04% | 47% |
 | no | 27 | 52% | 30% | -0.07% | -0.31% | +0.03% | 52% |
 | yes | 23 | 52% | 22% | -0.20% | -0.37% | +0.12% | 61% |
-| maybe | 13 | 38% | 15% | -0.06% | -0.31% | +0.22% | 54% |
+| maybe | 18 | 33% | 17% | -0.63% | -1.15% | +0.00% | 44% |
 
 ## By distance from the day's best price when listed (since 2026-11-17)
 
@@ -49,8 +49,8 @@ How far the stock was from its session high (a call) or low (a put) before the l
 | group | ideas | right | paid (>= +1%) | avg move | avg w/o best | avg vs SPY | beat SPY |
 |---|---|---|---|---|---|---|---|
 | at the day's extreme (under 0.25%) | 53 | 43% | 13% | -0.47% | -0.56% | -0.50% | 38% |
-| 0.25% to 1% from it | 86 | 59% | 34% | +0.48% | +0.40% | +0.47% | 57% |
-| 1% or more from it | 74 | 47% | 24% | -0.23% | -0.33% | -0.03% | 49% |
+| 0.25% to 1% from it | 89 | 58% | 34% | +0.44% | +0.35% | +0.47% | 56% |
+| 1% or more from it | 76 | 46% | 24% | -0.34% | -0.44% | -0.08% | 47% |
 
 ## After the market (since 2026-11-18, all rows)
 
@@ -58,24 +58,24 @@ The move with beta times SPY's move over the same minutes taken out (60-day beta
 
 | group | ideas | positive after the market | avg after the market | w/o best | avg raw move |
 |---|---|---|---|---|---|
-| all ideas | 213 | 48% | -0.01% | -0.04% | -0.00% |
+| all ideas | 218 | 48% | -0.00% | -0.03% | -0.05% |
 | picked (sniper or intraday pick) | 23 | 65% | +0.48% | +0.35% | -0.20% |
-| listed, not picked | 190 | 46% | -0.07% | -0.10% | +0.02% |
-| call | 122 | 48% | +0.21% | +0.16% | -0.12% |
-| put | 91 | 48% | -0.29% | -0.36% | +0.15% |
+| listed, not picked | 195 | 46% | -0.06% | -0.09% | -0.04% |
+| call | 126 | 48% | +0.22% | +0.17% | -0.27% |
+| put | 92 | 48% | -0.30% | -0.37% | +0.24% |
 | conviction no | 27 | 52% | +0.55% | +0.34% | -0.07% |
 | conviction yes | 23 | 65% | +0.48% | +0.35% | -0.20% |
-| conviction maybe | 13 | 23% | -0.07% | -0.48% | -0.06% |
-| company_news | 55 | 55% | +0.11% | -0.01% | -0.23% |
-| sector_move | 22 | 23% | -0.48% | -0.62% | -0.36% |
+| conviction maybe | 18 | 28% | +0.01% | -0.28% | -0.63% |
+| company_news | 57 | 54% | +0.17% | +0.06% | -0.39% |
+| sector_move | 23 | 26% | -0.45% | -0.58% | -0.53% |
 | analyst | 21 | 62% | +0.59% | +0.48% | +0.86% |
-| sector_intraday | 19 | 42% | -0.31% | -0.43% | +0.02% |
+| sector_intraday | 20 | 40% | -0.34% | -0.45% | +0.43% |
 | relative_weakness | 17 | 53% | +0.11% | -0.26% | -0.14% |
 | peer_readthrough | 11 | 64% | +0.63% | +0.21% | +1.36% |
 | gapdown_rebound | 10 | 60% | +0.59% | +0.33% | -0.73% |
 | rotation_laggard | 9 | 33% | -0.77% | -1.16% | -1.38% |
+| sympathy | 9 | 33% | +0.15% | -0.31% | -0.49% |
 | financing_fade | 8 | 25% | -0.92% | -1.21% | +0.53% |
-| sympathy | 8 | 38% | +0.43% | -0.06% | +0.10% |
 | sell_the_news | 6 | 50% | -1.38% | -1.88% | -1.64% |
 | earnings_reaction | 6 | 67% | +0.23% | -0.17% | +1.72% |
 | relative_strength | 6 | 50% | +0.31% | -0.14% | +0.80% |
@@ -94,16 +94,16 @@ No pick at the 13:16 check-in since 2026-11-16 (CLAUDE.md); the file lists what 
 
 | group | ideas | right | paid (>= +1%) | avg move | avg w/o best | avg vs SPY | beat SPY |
 |---|---|---|---|---|---|---|---|
-| company_news | 55 | 55% | 29% | -0.23% | -0.37% | -0.05% | 55% |
-| sector_move | 22 | 45% | 9% | -0.36% | -0.46% | -0.14% | 27% |
+| company_news | 57 | 53% | 28% | -0.39% | -0.53% | -0.13% | 53% |
+| sector_move | 23 | 43% | 9% | -0.53% | -0.63% | -0.22% | 26% |
 | analyst | 21 | 62% | 33% | +0.86% | +0.53% | +0.83% | 67% |
-| sector_intraday | 19 | 53% | 26% | +0.02% | -0.20% | -0.18% | 47% |
+| sector_intraday | 20 | 55% | 30% | +0.43% | +0.02% | +0.13% | 50% |
 | relative_weakness | 17 | 41% | 18% | -0.14% | -0.53% | -0.14% | 41% |
 | peer_readthrough | 11 | 45% | 45% | +1.36% | +0.75% | +1.09% | 64% |
 | gapdown_rebound | 10 | 40% | 10% | -0.73% | -0.94% | -0.35% | 30% |
 | rotation_laggard | 9 | 33% | 11% | -1.38% | -1.83% | -0.59% | 33% |
+| sympathy | 9 | 56% | 22% | -0.49% | -0.84% | -0.14% | 44% |
 | financing_fade | 8 | 62% | 38% | +0.53% | +0.22% | -0.13% | 50% |
-| sympathy | 8 | 62% | 25% | +0.10% | -0.22% | +0.16% | 50% |
 | sell_the_news | 6 | 50% | 17% | -1.64% | -2.87% | -1.67% | 50% |
 | earnings_reaction | 6 | 83% | 33% | +1.72% | +0.92% | +1.18% | 67% |
 | relative_strength | 6 | 83% | 50% | +0.80% | +0.62% | +0.40% | 50% |
@@ -115,23 +115,21 @@ No pick at the 13:16 check-in since 2026-11-16 (CLAUDE.md); the file lists what 
 
 | group | ideas | right | paid (>= +1%) | avg move | avg w/o best | avg vs SPY | beat SPY |
 |---|---|---|---|---|---|---|---|
-| company_news | 52 | 54% | 27% | -0.28% | -0.44% | -0.10% | 54% |
+| company_news | 50 | 56% | 28% | -0.25% | -0.41% | -0.15% | 50% |
 | analyst | 19 | 58% | 37% | +0.88% | +0.51% | +0.81% | 63% |
 | relative_weakness | 17 | 41% | 18% | -0.14% | -0.53% | -0.14% | 41% |
-| sector_move | 16 | 56% | 6% | -0.22% | -0.35% | +0.09% | 31% |
-| sector_intraday | 15 | 47% | 20% | -0.11% | -0.41% | -0.39% | 40% |
-| sympathy | 8 | 62% | 25% | +0.10% | -0.22% | +0.16% | 50% |
+| sector_intraday | 15 | 47% | 20% | +0.16% | -0.41% | -0.13% | 40% |
+| sector_move | 13 | 54% | 0% | -0.50% | -0.57% | -0.34% | 23% |
+| sympathy | 9 | 56% | 22% | -0.49% | -0.84% | -0.14% | 44% |
 | relative_strength | 6 | 83% | 50% | +0.80% | +0.62% | +0.40% | 50% |
-| peer_readthrough | 5 | 60% | 60% | +2.36% | +1.10% | +1.61% | 80% |
-| sell_the_news | 5 | 40% | 20% | -2.09% | -3.74% | -2.14% | 40% |
-| rotation_laggard | 4 | 0% | 0% | -2.74% | -3.44% | -1.36% | 0% |
-| earnings_reaction | 4 | 100% | 25% | +2.14% | +0.93% | +1.32% | 75% |
+| peer_readthrough | 4 | 50% | 50% | +1.10% | -0.03% | +0.86% | 75% |
+| sell_the_news | 4 | 25% | 0% | -3.74% | -5.24% | -3.10% | 25% |
 | gapdown_rebound | 3 | 0% | 0% | -1.29% | -1.71% | -0.99% | 0% |
-| other types (fewer than 3 ideas each) | 8 | 38% | 25% | -0.39% | -0.82% | -0.62% | 38% |
+| other types (fewer than 3 ideas each) | 11 | 36% | 18% | -0.34% | -0.63% | -0.28% | 36% |
 
 ## Why the wrong ones were wrong
 
-31 of 104 wrong ideas have a post-mortem (journal/opportunity_reviews.csv, written each evening since 2026-11-13). One cause each; a cause that keeps coming back is a habit to change.
+31 of 108 wrong ideas have a post-mortem (journal/opportunity_reviews.csv, written each evening since 2026-11-13). One cause each; a cause that keeps coming back is a habit to change.
 
 | cause | 中文 | wrong ideas | share | avg move | types it shows up in |
 |---|---|---|---|---|---|

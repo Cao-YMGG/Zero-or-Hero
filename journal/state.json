@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "done": false,
+  "done": true,
   "variants": {
     "catalyst_intraday_hero@2026-11-18": {
       "entered": true,
@@ -13,9 +13,10 @@
         "entry_price": 2.38,
         "peak": 2.67,
         "qty": 1,
-        "last": 1.17,
-        "last_time": "2026-11-19T15:16:33-05:00"
-      }
+        "last": 1.52,
+        "last_time": "2026-11-19T15:45:16-05:00"
+      },
+      "hold": true
     },
     "claude_bias": {},
     "meta_follow2": {},
