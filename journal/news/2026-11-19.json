@@ -1,7 +1,47 @@
 {
- "as_of": "2026-11-19T10:32-05:00",
+ "as_of": "2026-11-19T11:02-05:00",
  "since": "2026-11-18T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-19 11:01",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "EndoSoft Launches Argus MedGPT on Oracle Cloud Marketplace",
+   "source": "fiscal.ai",
+   "url": "https://www.einpresswire.com/article/957053964/argus-medgpt-patient-chart-review-tool-and-endosoft-fhir-engine-now-available-on-oracle-cloud-marketplace"
+  },
+  {
+   "time": "11-19 11:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Profound Launches Integrations for Microsoft Teams and Microsoft 365",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/19/3406573/0/en/profound-brings-your-ai-marketer-into-microsoft-teams-and-microsoft-365.html"
+  },
+  {
+   "time": "11-19 11:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Acts as Underwriter for Anthropic IPO",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/19/3406547/0/en/anthropic-ant-debuts-on-nasdaq-today-graniteshares-2x-long-and-2x-short-anthropic-etfs-expected-to-launch-november-23.html"
+  },
+  {
+   "time": "11-19 11:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Reports Cyberattack on Third-Party Vendors",
+   "source": "fiscal.ai",
+   "url": "https://wjno.iheart.com/content/2026-11-19-jpmorganchase-says-vendor-cyberattack-exposed-customer-data/"
+  },
   {
    "time": "11-19 10:02",
    "symbols": [
