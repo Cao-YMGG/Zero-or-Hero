@@ -129,15 +129,15 @@ No pick at the 13:16 check-in since 2026-11-16 (CLAUDE.md); the file lists what 
 
 ## Why the wrong ones were wrong
 
-31 of 108 wrong ideas have a post-mortem (journal/opportunity_reviews.csv, written each evening since 2026-11-13). One cause each; a cause that keeps coming back is a habit to change.
+35 of 108 wrong ideas have a post-mortem (journal/opportunity_reviews.csv, written each evening since 2026-11-13). One cause each; a cause that keeps coming back is a habit to change.
 
 | cause | 中文 | wrong ideas | share | avg move | types it shows up in |
 |---|---|---|---|---|---|
-| chased | 追在延伸处 | 9 | 29% | -1.78% | sector_intraday 4, relative_weakness 2, company_news 2 |
-| tide | 被大盘带走 | 5 | 16% | -0.91% | analyst 4, company_news 1 |
-| priced_in | 已经在价格里 | 4 | 13% | -1.79% | company_news 3, analyst 1 |
-| noise | 没有可学的 | 4 | 13% | -0.23% | gapdown_rebound 1, sector_move 1, analyst 1 |
-| no_catalyst | 没有自己的消息 | 3 | 10% | -1.25% | relative_weakness 2, company_news 1 |
-| timing | 时间不对 | 3 | 10% | -1.07% | company_news 1, gapdown_rebound 1, sector_intraday 1 |
+| chased | 追在延伸处 | 9 | 26% | -1.78% | sector_intraday 4, relative_weakness 2, company_news 2 |
+| tide | 被大盘带走 | 7 | 20% | -2.02% | analyst 4, company_news 2, sector_move 1 |
+| priced_in | 已经在价格里 | 6 | 17% | -2.98% | company_news 4, analyst 1, sympathy 1 |
+| noise | 没有可学的 | 4 | 11% | -0.23% | gapdown_rebound 1, sector_move 1, analyst 1 |
+| no_catalyst | 没有自己的消息 | 3 | 9% | -1.25% | relative_weakness 2, company_news 1 |
+| timing | 时间不对 | 3 | 9% | -1.07% | company_news 1, gapdown_rebound 1, sector_intraday 1 |
 | reversal | 逆势 | 2 | 6% | -1.91% | gapdown_rebound 1, sector_intraday 1 |
 | misread_news | 消息读反了 | 1 | 3% | -2.22% | company_news 1 |
