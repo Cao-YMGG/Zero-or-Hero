@@ -20,6 +20,9 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
   only on days its condition held at the last close (stock_open_drive: SMH below its 20-day average, 2026-11-13). Real entries on SPY/QQQ contracts are
   re-quoted once up to 50% above the first ask (10% on single stocks, bot.retry_slack). Weekly-review studies: `.github/workflows/sunday.yml`
   (run by hand) and `zoh/research/` (exits.py, scanners.py, ...).
+  On 2026-11-19 the Alpaca news endpoint returned nothing before 2026-04-29 (and a quarter of the stored rating
+  events since then were missing): event studies older than that use the stored event files
+  (journal/research/slowdrift_wide_events.json, exits.json), not a fresh news pull.
 - `journal/`: written by GitHub Actions — `trades.csv`, `equity.csv`, `REVIEW.md`,
   `BACKTEST.md`, `state.json`. Do not hand-edit trade history.
 - API keys live only in GitHub Secrets; this container usually has none, so anything that
@@ -43,7 +46,13 @@ How a thing moves between shelves:
 - A test covers rising and falling months separately (split on SPY's or the theme's one-month return), leads with the
   last 3 months and reports the average without its best one and two. Both sides pass: a Rule. One side only: a Switch
   with that side as its condition. Otherwise it stays an observation.
-- A Rule whose last-3-month number turns negative at a weekly review goes back on trial.
+- A Rule whose last-3-month number turns negative at a weekly review goes back on trial, unless it has ten or more
+  years behind it in both kinds of market: such a rule is not stopped for one losing quarter (next line).
+- "It has been working" is not evidence that it will. On the oversold-ETF rule over two separate decades (85
+  quarters) one quarter's result against the next is -0.10 and -0.14, and taking it only after a good stretch was
+  worse than taking it after a bad one; a calm-market switch found on one decade was gone on the other (OVERSOLD.md,
+  2026-11-19). Every option rule here has under three years of real prices, too few quarters for its last three
+  months to say much either way. A state switch counts only once it holds on years it was not found on.
 - Prefer a rule that reacts to what the market does today (an entry gate, a state switch) to one that forecasts from
   last week.
 - A test says which sectors it covered, and a rule is written no wider than its test. Most of what was tested here
@@ -64,15 +73,20 @@ How a thing moves between shelves:
   reporting within 10 trading days is a pre-earnings drift candidate until then; peers' reports are read-through
   catalysts (TSMC/ASML for chips, big banks for financials). Check `config/earnings.json` and the Webull earnings
   calendar, which can move dates.
-- **R4. A broker's rating change is a day-0, first-minutes effect.** Upgrades are +0.92% open to close over 340 events
-  of two years (62 on our 25 names, 278 on 105 other large caps; +0.84% after the market), the same with SPY above or below its 20-day average
-  the evening before (+0.85% / +1.06%) and after up or down sessions (+0.81% / +1.04%). Out of sample it is +0.88% from
-  the open but only +0.22% from the 09:32 price, nothing more by day +10, and a three-week call loses 11-15% at every
-  strike (SLOWDRIFT_WIDE.md). Downgrades lose at every strike (33 events, -16% to -40%). So the sniper is named only on a
-  broker's rating or target change; no slower version; a put sniper on a downgrade alone is not a trade. What it has
-  not shown is money at option prices: the same strike and exit on the 62 events is -9% sold on day one (+19% / +12% /
-  +5% carried to expiry with the trail on; last 3 months, 10 events, +12% / -9% / -17%). Do not quote the 25 names'
-  carry as evidence. rating_open is on trial (T4).
+- **R4. A broker's rating change is in the price by 09:32.** Two years of strict pre-market headlines on 105 large
+  caps outside our 25, minute bars, after 0.1% a round trip (RATING_BUYABLE.md, SUNDAY_TESTS 76 and 78; the sample
+  holds only events where the stock was not against the rating at 09:32). Upgrades with a gap under 3%: +0.61% from
+  the open, and all of it is the gate's own first two minutes: from 09:32, the first price a buyer who waits for the
+  gate can have, +0.04% (219 events, 50% right, -0.13% without the best five; SPY month rising -0.04%, falling
+  +0.20% and -0.20% without the best five), -0.01% from 10:00. Every upgrade bought at the 09:30 VWAP with no gate
+  (124 events, 2026-05 to 2026-11): +0.26%, -0.08% without the best five, -0.05% with the gap under 3%. Downgrades
+  shorted from 09:32: -0.02% (153 events). Nothing more by day +10, and a three-week call loses 11-15% at every strike
+  (SLOWDRIFT_WIDE.md); puts on downgrades lose at every strike (33 events, -16% to -40%); at option prices the 62
+  events on our own names are -9% sold on day one (do not quote their carry to expiry as evidence). The "+0.92% open
+  to close over 340 events" quoted here until 2026-11-19 was that selection. So: a rating change is not a reason to
+  expect the stock to go on after 09:32; no slower version; a put sniper on a downgrade alone is not a trade. The
+  sniper is still named only on a rating or target change, for the shadow samples T4 needs, not because the class has
+  shown an edge at a price that can be bought.
 - **R5. A single-stock idea is mostly a bet on the market that day, and the day cannot be told in advance.** Upgrades on
   days SPY closed above its open: +1.34% (our names +2.53%); below it: +0.37% (-0.19%). The 251 scored ideas of 10-29
   to 11-17 (average beta 1.9): 76% right and +1.19% when SPY moved their way over the same minutes, 27% and -1.08% when
@@ -150,7 +164,9 @@ How a thing moves between shelves:
 - **T4. rating_open** (shadow: two contracts nearest 0.45 delta whatever they cost, half out at 2x, the rest trails
   from 1.5x; classes `upgrade` and `target` only). On real option prices to 11-13 the 13 rating-change snipers were
   right on 10 (+0.91%) and made +17% (+7% without the best, -4% without the best two; 10 entries); the 10 company-news
-  snipers were right on 5 (-0.46%) and lost 56-71% at every strike. Ten entries make a candidate. Test: SUNDAY_TESTS 70.
+  snipers were right on 5 (-0.46%) and lost 56-71% at every strike. Ten entries make a candidate. Test:
+  SUNDAY_TESTS 70. Its stock-level basis is gone (R4, 2026-11-19): from 09:32 a rating change is worth +0.04% to
+  +0.11%, so a pass would have to come from the option's shape, not from drift. My guess before the run: it fails.
 - **T5. The pick bar: the tape must already agree** (the stock moving the pick's way from its open or since the
   headline), and a pick says what is still to come (news not yet out, a level not yet reached), not what the stock has
   done. From two option trades and the 17 picks above.
