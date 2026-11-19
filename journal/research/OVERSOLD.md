@@ -61,4 +61,46 @@ Rule A, 14 ETFs, five slots, by year: 2017 +6%, 2018 -9%, 2019 +5%, 2020 -2%, 20
 6. Every "method" from here on is measured as an account against SPY held over the same years, not only per trade.
    Per-trade averages made rule A look better than it is.
 
-Shelf: observation with a test owed (SUNDAY_TESTS 77). Not executed; nothing in config changes.
+## The decade not looked at: 2005-2016 (added the same night, SUNDAY_TESTS 79)
+
+Owner: "but sometimes the strategy is right and at another time it does not work." Same rule, same 14 ETFs, daily
+bars 2004-01 to 2016-12 from Yahoo's public chart endpoint (adjusted), bars written before the run.
+
+| | 2017-2026 | 2005-2016 |
+|---|---|---|
+| trades | 1,145 | 1,337 |
+| win | 70% | 74% |
+| avg after 0.05% | +0.37% | **+0.37%** |
+| without the best five | +0.35% | +0.36% |
+| SPY month rising / falling | +0.33% / +0.42% | +0.28% / +0.51% |
+| losing years | 2018 -0.89%, 2020 -0.13%, 2022 -0.29% | 2008 -0.59%, 2011 -0.63% |
+| as an account, five slots, at the close | +5.3% a year, worst fall -17.1% | +4.7% a year, worst fall -14.9% |
+| bought at the next open instead | +3.9% a year | +3.8% a year |
+| SPY held | +14.4% a year, worst fall -33.8% | +7.6% a year, worst fall -55.2% |
+
+Bar (a) (at least +0.20% a trade, both kinds of month): **passed**. The rule is the same on two decades that share
+no trade.
+
+Can the good stretches be told beforehand?
+
+| | 2017-2026 | 2005-2016 |
+|---|---|---|
+| quarters positive | 31 of 39 | 35 of 46 |
+| this quarter against the next (correlation) | -0.10 | -0.14 |
+| next quarter after a winning one / after a losing one | +0.12% / +0.49% | +0.30% / +0.25% |
+| taken only when its last 20 finished entries averaged above zero: taken / skipped | +0.24% / +0.44% | +0.24% / +0.58% |
+| SPY 20-day volatility under 9% / 9% or more (per entry day) | -0.03% (182) / +0.44% (364) | +0.28% (173) / +0.31% (365) |
+
+- "It has been working" told nothing about the next stretch in either decade; stopping after a bad stretch gave up
+  the better entries both times. Holding SMH, QQQ or NVDA over the night or through the day, 2017-2026, 40 quarters:
+  correlations between -0.16 and +0.24, none separable from zero.
+- The calm-market state that split the last decade so cleanly (8 of the 12 worst entries came within 2% of a one-year
+  high) did nothing in the decade before. Bar (b): **failed**. It was one decade's pattern.
+- So for this rule the losing stretches are not a signal that it has stopped working and not something a filter
+  removes. They are its cost, and they come in the years the index falls for months (2008, 2011, 2018, 2022).
+
+Shelf: the rule has passed the two-sided bar on twenty years, so it is no longer only an observation; it is **on
+trial as a shadow record** (stock, not options: one line a day at the close, no orders) until SUNDAY_TESTS 77 has run
+on option prices. Nothing in config changes. It is not a way to beat SPY held; what it has shown is about a third to
+two thirds of the index's return with a quarter to a half of its worst fall, money in the market under half the days
+(interest on the idle cash not counted).

@@ -100,3 +100,9 @@ each part, one line each: the date, what happened, what it suggested, where it s
   (-0.46%). A line about the season, not a rule.
 - The pre-market routine moved from 08:50 to 08:20 (10-31) and to 07:40 (11-02, owner) because it fired 41 minutes
   late both times.
+- 2026-11-19 (night research, three patterns found after the fact and then run on data they were not found on; all
+  three failed): shorting a downgrade from 10:00 (+0.38% on 121 events since May, -0.15% on 153 earlier ones); buying
+  an upgrade that gaps 3% or more (+1.83% on 22 events since May, -0.02% from 09:32 on 48 earlier ones); not buying
+  the oversold ETF in a calm market (-0.03% against +0.44% in 2017-2026, +0.28% against +0.31% in 2005-2016).
+  Suggested nothing; kept as a reminder of how good a pattern can look in one window.
+

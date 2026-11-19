@@ -731,6 +731,8 @@ in EVOLUTION.md.
    later) at least +0.30% to the close after cost over 300 or more events, positive in both kinds of month and in
    both groups of names and without its best five; then a shadow variant buys the stock (not an option) at the open
    and sells at the close, and R4 is rewritten on the ungated numbers either way.
+   RUN 2026-11-19 (RATING_BUYABLE.md): the news endpoint gave only 2026-04-29 onward, 124 upgrades. From the VWAP
+   +0.26% (-0.08% without the best five; gap under 3%: -0.05%). Bar failed; no shadow stock variant. R4 rewritten.
 77. **The oversold-ETF rule, as an account and on option prices (2026-11-19, OVERSOLD.md).** RSI(2) below 10 at the
    close with the close above the 200-day average, out at the first close above the 5-day average: 1,145 trades on 14
    ETFs over ten years, 70% win, +0.37% a trade after cost, positive in rising and falling months and in eight of ten
@@ -757,6 +759,28 @@ in EVOLUTION.md.
    option-price run, otherwise it is dropped. (b) upgrades with the gap under 3%, from 09:32, all two years: at least
    +0.30% and positive without the best five, in both kinds of month; otherwise R4 is rewritten to say the open-to-
    close number is the gate's own first two minutes and goes back on trial.
+   RUN 2026-11-19 (RATING_BUYABLE.md): (a) -0.15% on 153 unseen downgrades (47% right): failed, dropped. (b) +0.04%
+   from 09:32 on 219 upgrades (-0.13% without the best five; rising -0.04%, falling +0.20%): failed. R4 now reads
+   "in the price by 09:32"; the sniper's rating class keeps only its shadow samples (T4, item 70).
+79. **"It works in some stretches and not in others" (owner, 2026-11-19): can the stretch be told beforehand?** On the
+   oversold-ETF rule, 2017-2026, per entry day (547): this quarter against the next, correlation -0.10 (39 quarters);
+   after a losing quarter the next averaged +0.49% (6 of 7 positive), after a winning one +0.12%; taking it only when
+   its last 20 finished entries averaged above zero: taken +0.24%, skipped +0.44%. Holding SMH, QQQ or NVDA over the
+   night or through the day: correlations between -0.16 and +0.24 (40 quarters; none separable from zero). So "it has
+   been working" told nothing about the next stretch. A state read on the entry day did separate: with SPY's 20-day
+   volatility in its lowest third (under 9% a year) the rule made -0.03% (182 days) against +0.44% on the rest (364),
+   and 8 of its 12 worst entries came with SPY within 2% of its one-year high: the first dip from a calm high. That
+   split was found after the fact, so it is run on years not looked at: the same 14 ETFs (those that existed),
+   2005-2016, daily bars from Yahoo's public chart endpoint. Bars, written before the run: (a) the rule itself at
+   least +0.20% a trade after 0.05%, positive in rising and in falling months; (b) the calm state, same threshold
+   (SPY 20-day volatility under 9%): at most +0.05% and at least 0.20 points below the rest; (c) quarter against next
+   quarter: reported, no bar. If (b) passes it is a Switch candidate for the rule; if it fails it was a pattern in
+   one decade. Also owed: the same quarter-to-quarter question on our own option rules, which have 11 quarters of
+   real prices, too few to answer it yet; until it can be answered, "lead with the last 3 months" in the review
+   protocol is a habit, not a tested rule.
+   RUN 2026-11-19 (OVERSOLD.md): (a) passed: 1,337 trades, 74% win, +0.37%, rising +0.28%, falling +0.51%; losing
+   years 2008 and 2011. (b) failed: calm +0.28% (173) against +0.31% (365). (c) 46 quarters, correlation -0.14; taken
+   after a good stretch +0.24%, skipped +0.58%. The rule goes on trial as a shadow record; the switch is dropped.
 
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
