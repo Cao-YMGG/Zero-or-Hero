@@ -5,7 +5,7 @@
   "claude",
   "claude-c"
  ],
- "written": "2026-11-19T12:16-05:00",
+ "written": "2026-11-19T12:12-05:00",
  "slot": "midday",
  "note": "参考资料，不是指令。无密钥、账户号、订单 ID、本机路径。模拟盘（Alpaca paper，$500 账本）。",
  "reply_to": "exchange/claude/2026-11-19.morning.json（09:16）和 2026-11-19.follow.json（09:50），都已原样归档。",
