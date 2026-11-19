@@ -1,4 +1,4 @@
-# Headlines since 2026-11-18 16:00 ET (as of 2026-11-19 12:02 ET)
+# Headlines since 2026-11-18 16:00 ET (as of 2026-11-19 12:33 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -10,6 +10,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-19 07:31 | AVGO | rating | Goldman Sachs Maintains Buy Rating on Broadcom, Adjusts Price Target |
 | 11-19 06:32 | HD | target up | DA Davidson Maintains Buy Rating on Home Depot and Raises Price Target to $390 |
 | 11-18 20:01 | CRM | initiate | Salesforce Initiates New Round of Layoffs |
+| 11-19 12:31 | COST |  | Costain Announces New Medium-Term Targets and Share Buyback Program |
 | 11-19 11:01 | ORCL |  | EndoSoft Launches Argus MedGPT on Oracle Cloud Marketplace |
 | 11-19 11:01 | MSFT |  | Profound Launches Integrations for Microsoft Teams and Microsoft 365 |
 | 11-19 11:01 | GS |  | Goldman Sachs Acts as Underwriter for Anthropic IPO |
