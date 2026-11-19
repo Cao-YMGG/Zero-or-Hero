@@ -1,7 +1,67 @@
 {
- "as_of": "2026-11-19T14:46-05:00",
+ "as_of": "2026-11-19T15:16-05:00",
  "since": "2026-11-18T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-19 15:02",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "Boeing and GE Aerospace expand digital tracking to combat unapproved parts",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/GE-US?chain_id=Name1K9-3FXPhg.1lfu780&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FGD-US%22%7D"
+  },
+  {
+   "time": "11-19 15:01",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Enables Stablecoin Funding for Cross-Border Payouts in APAC",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/news/cross-border-payments/2026/visa-direct-brings-cross-border-payment-stablecoins-to-apac/"
+  },
+  {
+   "time": "11-19 15:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Named Associate Sponsor for Wreaths Across America Radio",
+   "source": "fiscal.ai",
+   "url": "https://markets.businessinsider.com/news/stocks/wreaths-across-america-radio-is-proud-to-announce-the-2026-escort-to-arlington-coverage-sponsors-1036784720"
+  },
+  {
+   "time": "11-19 15:01",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank of America Named to 2026 Fortune Best Workplaces for Parents List",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/19/3406926/0/en/announcing-the-fortune-best-workplaces-for-parents-in-2026.html"
+  },
+  {
+   "time": "11-19 15:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "The Goldman Sachs Group, Inc. Files Voting Rights Notification Regarding CECONOMY AG",
+   "source": "fiscal.ai",
+   "url": "https://www.eqs-news.com/news/voting-rights/the-goldman-sachs-group-inc-wilmington-de-united-states-of-america-usa/b25c2ba2-88ea-4085-a3f4-9bd292b73818_en"
+  },
+  {
+   "time": "11-19 15:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Camera and Photos Software Chief Jon McCormack Departs",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/pe7xh2x/"
+  },
   {
    "time": "11-19 14:02",
    "symbols": [

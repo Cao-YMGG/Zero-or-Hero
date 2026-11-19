@@ -1,4 +1,4 @@
-# Headlines since 2026-11-18 16:00 ET (as of 2026-11-19 14:46 ET)
+# Headlines since 2026-11-18 16:00 ET (as of 2026-11-19 15:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -10,6 +10,12 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-19 07:31 | AVGO | rating | Goldman Sachs Maintains Buy Rating on Broadcom, Adjusts Price Target |
 | 11-19 06:32 | HD | target up | DA Davidson Maintains Buy Rating on Home Depot and Raises Price Target to $390 |
 | 11-18 20:01 | CRM | initiate | Salesforce Initiates New Round of Layoffs |
+| 11-19 15:02 | GE |  | Boeing and GE Aerospace expand digital tracking to combat unapproved parts |
+| 11-19 15:01 | V |  | Visa Enables Stablecoin Funding for Cross-Border Payouts in APAC |
+| 11-19 15:01 | JPM |  | JPMorgan Chase Named Associate Sponsor for Wreaths Across America Radio |
+| 11-19 15:01 | BAC |  | Bank of America Named to 2026 Fortune Best Workplaces for Parents List |
+| 11-19 15:01 | GS |  | The Goldman Sachs Group, Inc. Files Voting Rights Notification Regarding CECONOMY AG |
+| 11-19 15:01 | AAPL |  | Apple Camera and Photos Software Chief Jon McCormack Departs |
 | 11-19 14:02 | TSLA |  | Tesla Developing Steering Wheel-Free Model Y Version |
 | 11-19 14:02 | TSLA |  | Tesla Commences Commercial Operation of Megapack System in Oita, Japan |
 | 11-19 14:01 | COIN |  | Coinbase Plans to Launch In-House Prediction Markets in H1 2027 |
