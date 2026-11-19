@@ -1,0 +1,42 @@
+{
+ "date": "2026-11-19",
+ "picks": [],
+ "check_1016": {
+  "time": "10:18",
+  "pick": null,
+  "note": "No pick. SPY 733.78, -0.5% from its 737.54 open and near the day's low after a +1.0% gap: the fifth session in a row with the high in the opening minutes. QQQ -0.5%, SMH -0.2% from its open (+2.8% on the day), IGV +0.3%. Scan: Alpaca IEX snapshots of 150 large caps and sector ETFs (open to now); the Webull rankings were not read this time, to keep the check quick. Biggest movers from the open: ZS +6.0%, BABA +5.5%, PDD +5.2% (report day), CRWD +3.2%, NET +2.9% (security software after Palo Alto's results); down: UNH -3.8% (second day of the Medicare audit rule), ARM -2.7% and AMAT -2.4% (gap-ups sold). NVDA is the mega-cap leader (+1.5% from its open, 2.0 points beyond SPY) on the pre-market H200 export headline, which has no second source, and against it Benzinga 09:31: analyst downgrades after the CEO's resignation, Daiwa target 185 from 245. Not picked: nothing still to come that I can name (T5), and the cause is one unconfirmed headline.",
+  "note_zh": "不选股。标普高开 1% 后又是开盘几分钟见高点，现在比开盘低 0.5%，连续第五天。英伟达是大盘股里最强的（比开盘高 1.5%），但靠的是一条没有第二来源的出口消息，同时开盘后还有券商下调评级，我说不出“接下来还会发生什么”，所以只记想法。"
+ },
+ "opportunities": [
+  {
+   "type": "company_news",
+   "symbol": "NVDA",
+   "direction": "call",
+   "time": "10:18",
+   "action": "none",
+   "conviction": "yes",
+   "why": "Mega-cap leader: 155.22, +1.5% from its 152.90 open while SPY is -0.5%, mid-range (1.8% below the day's high), on the Commerce H200 export headline of 07:32; it is holding that against analyst downgrades at 09:31 and a Daiwa target cut. Second session after its report. One step from a pick: the headline has a single source and there is no event still to come.",
+   "why_zh": "英伟达比开盘高 1.5%，而大盘比开盘低 0.5%。早上的出口获批消息在撑着它，开盘后有券商下调评级它也没跌回去。差的一步：消息只有一个来源，后面也没有能指望的新事件。"
+  },
+  {
+   "type": "sector_move",
+   "symbol": "CRWD",
+   "direction": "call",
+   "time": "10:18",
+   "action": "none",
+   "conviction": "maybe",
+   "why": "Security software is the day's strongest group after Palo Alto's results last night (ZS +6.0%, NET +2.9%, CRWD +3.2% from the open); CRWD is its largest name with weekly options, 1.4% below its high. Already past 3% from its open with no news of its own, so an idea, not a pick.",
+   "why_zh": "昨晚 Palo Alto 财报好，今天网络安全股最强（Zscaler 比开盘高 6%，CrowdStrike 高 3.2%）。CrowdStrike 自己没有新消息，而且已经涨过 3%，只记想法。"
+  },
+  {
+   "type": "sector_intraday",
+   "symbol": "AMD",
+   "direction": "put",
+   "time": "10:18",
+   "action": "none",
+   "conviction": "maybe",
+   "why": "Put mirror, listed not bought (T2): SMH is down 16% over a month and 0.2% below its open. AMD is the weakest chip mega cap below its own open that is not at the day's low (533.64, -1.4% from 541.23, 0.5% above the low); ARM (-2.7%) and AMAT (-2.4%) are weaker but within 0.25% of their lows. The condition is barely on: SMH is +2.8% on the day and this morning's sector news is good, not bad.",
+   "why_zh": "看跌镜像（只记分、不买）：半导体 ETF 这个月跌了 16%，今天高开后已经跌回开盘价下面一点。AMD 是芯片大盘股里比开盘跌得多、又没贴着当天最低点的那只（比开盘低 1.4%）。条件只是勉强成立：板块今天整体还是涨的，早上的消息也是好消息。"
+  }
+ ]
+}
