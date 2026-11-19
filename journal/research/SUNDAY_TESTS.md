@@ -791,6 +791,14 @@ in EVOLUTION.md.
    VIXY's level, IWM and DIA as the names not looked at; a Switch candidate for `p_up` only if it is at least 58% up
    and +0.25% on IWM and DIA together in both halves of the sample. Until then it is a base rate quoted in the
    morning file, not a reason to bet.
+81. **Were our real fills at real prices? (2026-11-19, from the other side's fill audit.)** On 11-19 the paper broker's
+   quotes for same-day SPY puts stood at the previous close from 09:40 to 10:00 (a 733 put booked at 5.61 while it
+   traded at 1.82-2.31), and their orders filled there; their 232 earlier SPY fills were all inside the minute's
+   traded range. We placed no order that day. Owed: every real fill of ours since 2026-10-13 against the option's
+   minute bars around the fill (inside the range of the minute before to the minute after, or not), and the same for
+   the shadow entry quotes of 11-19 had a rule fired. If any real fill is outside the range, a check goes into the
+   bot before the order (the quote against the contract's latest trade, skip when they differ by more than a set
+   share) as a bug fix; if none is, the item closes with the count.
 
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
