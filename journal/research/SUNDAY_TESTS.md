@@ -709,6 +709,28 @@ in EVOLUTION.md.
    mirror is a chip pattern (and perhaps a software one), not a theme rule; one clearly positive sector of nine may be
    luck or chips' drawdowns in the window. CLAUDE.md T2 now lists it for chips and software only (PR #131). The
    option-price run should cover chips and software and report both.
+75. **Holds across the night instead of same-day options (2026-11-18, owner: "we need methods that can really be
+   used").** OVERNIGHT_HOLD.md: over ten years SMH made +29% a year overnight and +2.5% in the daytime, NVDA +50% and
+   +10%, AMD +53% and +9%, AVGO +39% and -0.3%, AMZN +28% and -3%; in falling months the overnight leg was still
+   positive on the chip names (AMD +0.165% a night, AVGO +0.168%, SMH +0.051%, after cost); SPY's overnight leg does not
+   beat holding it. Every rule here trades the daytime leg. Question, real option bars, two years, 10% costs each way,
+   rising and falling months apart, last 3 months first, without the best one and two: a call nearest 0.50 delta on the
+   nearest expiry at least two days out, bought at 15:50 and sold at 09:35 the next session, on SMH, NVDA, AMD, AVGO
+   (and AAPL, XLV as the names where the night made nothing), every night; against the same call bought at 10:00 and
+   sold at 15:45. Bar, written before the run: the overnight call positive without its best two in both kinds of month
+   on at least three of the four chip names and better than its daytime twin, or it stays an observation. If it
+   passes, a shadow variant holds one such call a night; nothing real before 20 shadow nights.
+76. **The upgrade bought at the open, without the 09:32 gate (2026-11-18).** R4's 340 events were kept only when the
+   stock was not against the rating at 09:32 (slowdrift.gather), so "+0.92% from the open" is conditioned on the first
+   two minutes; a person buying at the open cannot apply that gate. Collected the same evening: every strict pre-market
+   upgrade or downgrade headline since 2024-02 on the same 130 names, ungated, with the first print, the 09:30
+   minute's VWAP, 09:31, 09:32, 09:35 and 10:00, and the opening auction where the API gives it. Question: the stock
+   from each of those prices to the close (and to 10:00 and 12:00), minus SPY over the same minutes, by rising and
+   falling month, by sector (the 25 tech-heavy names against the 105 others), by gap size, last 3 months first, after
+   0.1% a round trip. Bar, written before the numbers are read: from a price a person can get (the 09:30 VWAP or
+   later) at least +0.30% to the close after cost over 300 or more events, positive in both kinds of month and in
+   both groups of names and without its best five; then a shadow variant buys the stock (not an option) at the open
+   and sells at the close, and R4 is rewritten on the ungated numbers either way.
 
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
