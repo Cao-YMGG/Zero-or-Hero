@@ -1,0 +1,114 @@
+{
+ "date": "2026-11-19",
+ "bias": "none",
+ "confidence": 0.2,
+ "p_up": 0.48,
+ "summary": "No SPY bet: a +1.1% gap up on chip and AI headlines into the Anthropic listing; the gap is priced at the open and the last four sessions peaked in the opening minutes.",
+ "reasons": [
+  "Pre-market (Webull, 08:32 ET): SPY +1.14%, QQQ +1.95%, SMH +2.7%, IGV +2.7%, IWM +0.6%; defensives red (XLP -0.7%, XLV -0.5%). VIXY -3.2%.",
+  "Why up: Anthropic (ANT) lists on Nasdaq today (Benzinga: futures rise as Wall Street awaits the listing); Benzinga 07:32 ET: the Commerce Department expedited H200 China export approvals for NVIDIA (NVDA pre-market +1.5%; I could not confirm it elsewhere, and a web result says NVIDIA halted H200 sales as the 11-16 export rule takes effect today); Intel's first external 18A customer and Microsoft as a packaging customer (INTC +4.5%); MU +5% (RBC: tighter memory supply through 2028), GOOGL +3.8%, AMZN +2.3% (both hold Anthropic stakes).",
+  "08:30 jobless claims and the Philadelphia Fed survey: I could not find the prints in the sources I have (web search and Webull news returned nothing dated today). SPY did not move on them: 738.83 at 07:42, 738.51 at 08:32.",
+  "R1: the gap is in the opening price; open to close is what p_up measures, and 11-13, 11-16, 11-17 and 11-18 all made their high in the first minutes. A one-day unwind of the month's rotation (chips and software up, staples down) has reversed intraday before; nothing known this morning tells whether it holds. p_up 0.48, no bet.",
+  "Yesterday (Benzinga): S&P 500 flat, dollar index 103.79 (a 19-month high, seventh gain in a row), oil -5.1%, gold -2.9%, Treasury yields lower. This morning by ETF only: TLT -0.3% (yields up a little), USO +1.9%, UUP +0.0%. Web search returned nothing dated today, so there are no futures, VIX, yield or crude levels in this file.",
+  "Sniper null: no rating or target change qualifies. AVGO (Goldman keeps Buy, adjusts its target) gaps +2.8%, over the ~1.5% limit for a target change; HD (DA Davidson raises to $390, Barclays cuts to $412) is red pre-market; Cantor only maintains its NVDA target. Since last night R4 reads 'a rating change is in the price by 09:32' (two years, 219 upgrades: +0.04% from 09:32), so the class is named for shadow samples only.",
+  "Report window (R3): WMT reported this morning (beat, raised the year, -1.6% pre-market): no idea on it today or tomorrow. NVDA reported 11-17 after the close, so today is its second session after: allowed. AVGO reports 12-09. No >= 2% pre-market down gap in the rebound_scanner universe.",
+  "Dossiers: AMD +2.7% pre-market after +5.3% yesterday on the OpenAI chip-design note; nothing new of its own this morning. META +1.6%: it suspended new Class C issuance pending a court ruling; no product news.",
+  "Theme states at the 11-18 close: chips neutral with two turn flags, software turning (three flags), breadth light lit. Described, not forecast (R6)."
+ ],
+ "events": [
+  "08:30 weekly jobless claims and Philadelphia Fed survey",
+  "10:00 leading index",
+  "11:00 Kansas City Fed",
+  "13:00 10-year TIPS auction",
+  "Fed: Hammack 08:50, Jefferson 09:25, Goolsbee 12:30, Barr 14:15, Barkin 16:00, Paulson 18:30",
+  "Anthropic (ANT) begins trading on Nasdaq",
+  "WMT reported before the open; monthly expiry is tomorrow"
+ ],
+ "inputs": {
+  "spy_premarket_pct": 1.14,
+  "qqq_premarket_pct": 1.95,
+  "es_futures_pct": null,
+  "vix": null,
+  "vixy_premarket_pct": -3.2,
+  "wti_pct": null,
+  "uso_premarket_pct": 1.9,
+  "us10y": null,
+  "us10y_change_bp": null,
+  "us2y_change_bp": null,
+  "tlt_premarket_pct": -0.3,
+  "dxy_pct": null,
+  "uup_premarket_pct": 0.0,
+  "overnight": "No dated overnight coverage found by web search; Benzinga via Alpaca and Webull only. Dollar index 103.79 at Wednesday's close."
+ },
+ "rotation": {
+  "heating": [
+   "consumer and staples (WMT/COST/HD +8.5% 1m, XLP +3.9% 1m; -0.6% 1w)",
+   "discretionary ETF (XLY +3.2% 1m)"
+  ],
+  "cooling": [
+   "memory (-32% 1m, -17% 1w)",
+   "GPU (NVDA -30% 1m, -13% 1w)",
+   "optical (-28% 1m)",
+   "disk (-22% 1m)",
+   "CPU (-20% 1m)",
+   "power (-15% 1m)",
+   "software (IGV -9% 1m)",
+   "energy (-9% 1m, -4% yesterday)",
+   "health (UNH -10% yesterday)"
+  ],
+  "note": "Over a month money sat in consumer and staples while memory, GPU, optical, disk and CPU lost 20-32%. This morning is the reverse of that: chips +3%, software +2.6%, staples and Walmart red. One morning; the map describes and does not forecast.",
+  "theme_state": {
+   "chips": "neutral (REL_WEAK, BREADTH)",
+   "software": "turning (REL_WEAK, BREADTH, RATIO_LOW)",
+   "internet": "neutral (PERIPH)",
+   "optical": "neutral (REL_WEAK, BREADTH; PERIPH_UP)",
+   "power": "neutral (BREADTH; PERIPH_UP)",
+   "energy": "neutral (BREADTH)",
+   "banks": "neutral",
+   "health": "neutral",
+   "consumer": "neutral",
+   "industrials": "neutral (PERIPH_UP)",
+   "lights": "breadth lit at the 11-18 close; stretched not lit"
+  }
+ },
+ "sniper": null,
+ "opportunities": [
+  {
+   "type": "company_news",
+   "symbol": "NVDA",
+   "direction": "call",
+   "time": "10:00",
+   "why": "Commerce expedited H200 China export approvals (Benzinga 07:32 ET, not confirmed elsewhere); second session after its report, which was sold -5.2% open to close; gap only +1.5%",
+   "why_zh": "消息说美国商务部加快批准英伟达 H200 芯片对华出口（只有一个来源，没法另外证实）。财报后昨天从开盘被卖了 5%，今天盘前只高开 1.5%",
+   "conviction": "maybe",
+   "action": "none"
+  },
+  {
+   "type": "company_news",
+   "symbol": "INTC",
+   "direction": "call",
+   "time": "10:00",
+   "why": "First external customer for 18A and Microsoft named for advanced packaging; gap +4.5% is past the line where a pre-market catalyst counts as priced",
+   "why_zh": "英特尔最先进的 18A 工艺拿到第一个外部客户，微软成为先进封装客户。但盘前已经高开 4.5%，好消息可能已经在价格里",
+   "conviction": "maybe",
+   "action": "none"
+  },
+  {
+   "type": "sympathy",
+   "symbol": "AMZN",
+   "direction": "call",
+   "time": "10:00",
+   "why": "Anthropic lists today and Amazon is one of its largest holders; +2.3% pre-market after +3.8% yesterday, so the listing may be the day the news is sold",
+   "why_zh": "Anthropic 今天上市，亚马逊是大股东之一。昨天已涨 3.8%，今天盘前再涨 2.3%，上市当天也可能是“利好出尽”",
+   "conviction": "maybe",
+   "action": "none"
+  }
+ ],
+ "zh": {
+  "summary": "今天不下注。标普盘前高开约 1.1%、纳指约 1.9%，靠的是芯片和 AI 的消息加上 Anthropic 今天上市；但高开那一段开盘就已经算进价格里，而且过去四天都是开盘几分钟就见当天高点。8:30 的初请失业金和费城联储数据我没查到具体数字，但标普在数据前后没动。",
+  "sniper": "今天不点名。没有合格的评级或目标价变动：博通只是高盛调目标价，但盘前已涨 2.8%，超过线；家得宝两家券商一升一降。另外昨晚用两年数据验过：评级变动到 9:32 就已经在价格里，之后买等于抛硬币，所以这一类现在只为攒影子样本。",
+  "heating": "必需消费、零售（这一个月是钱躲进来的地方，今天盘前反而在跌）",
+  "cooling": "存储、GPU、光模块、硬盘、CPU、电力、软件、能源、医疗（这一个月跌得最多；今天盘前芯片和软件在反弹）"
+ },
+ "generated_at": "2026-11-19T08:32:23-05:00"
+}
