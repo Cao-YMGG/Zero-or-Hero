@@ -1,4 +1,4 @@
-# Headlines since 2026-11-18 16:00 ET (as of 2026-11-19 07:41 ET)
+# Headlines since 2026-11-18 16:00 ET (as of 2026-11-19 08:32 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -8,6 +8,8 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-19 07:31 | AVGO | rating | Goldman Sachs Maintains Buy Rating on Broadcom, Adjusts Price Target |
 | 11-19 06:32 | HD | target up | DA Davidson Maintains Buy Rating on Home Depot and Raises Price Target to $390 |
 | 11-18 20:01 | CRM | initiate | Salesforce Initiates New Round of Layoffs |
+| 11-19 08:02 | NVDA |  | Daiwa Securities Adjusts Price Target on Nvidia to $185 From $245 |
+| 11-19 08:01 | JPM |  | JPMorgan Chase Increases Stake in Irish Residential Properties REIT |
 | 11-19 07:32 | NVDA |  | US Commerce Department Expedited H200 China Export Approvals for NVIDIA |
 | 11-19 07:32 | GS |  | Goldman Sachs Alternatives Co-Leads $300 Million Series C Funding for MegaRobo |
 | 11-19 07:32 | GS |  | Goldman Sachs Adjusts Price Target on Palo Alto Networks |

@@ -1,7 +1,27 @@
 {
- "as_of": "2026-11-19T07:41-05:00",
+ "as_of": "2026-11-19T08:32-05:00",
  "since": "2026-11-18T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-19 08:02",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Daiwa Securities Adjusts Price Target on Nvidia to $185 From $245",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/NVDA-US?chain_id=Name1K9-3FXPhg.1lftllg&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Falex-gui-102899785%22%7D"
+  },
+  {
+   "time": "11-19 08:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Increases Stake in Irish Residential Properties REIT",
+   "source": "fiscal.ai",
+   "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70176261-irish-residential-properties-reit-plc-holding-s-in-company-015.htm"
+  },
   {
    "time": "11-19 07:32",
    "symbols": [
