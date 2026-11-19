@@ -1,4 +1,4 @@
-# Headlines since 2026-11-18 16:00 ET (as of 2026-11-19 13:45 ET)
+# Headlines since 2026-11-18 16:00 ET (as of 2026-11-19 14:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -10,6 +10,16 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-19 07:31 | AVGO | rating | Goldman Sachs Maintains Buy Rating on Broadcom, Adjusts Price Target |
 | 11-19 06:32 | HD | target up | DA Davidson Maintains Buy Rating on Home Depot and Raises Price Target to $390 |
 | 11-18 20:01 | CRM | initiate | Salesforce Initiates New Round of Layoffs |
+| 11-19 14:02 | TSLA |  | Tesla Developing Steering Wheel-Free Model Y Version |
+| 11-19 14:02 | TSLA |  | Tesla Commences Commercial Operation of Megapack System in Oita, Japan |
+| 11-19 14:01 | COIN |  | Coinbase Plans to Launch In-House Prediction Markets in H1 2027 |
+| 11-19 14:01 | AMD |  | Advanced Micro Devices Shares Decline Following Hunterbrook Media Report on China Ties |
+| 11-19 14:01 | V |  | Visa Launches 'Visa Recurrent' for Recurring Payment Management |
+| 11-19 14:01 | CVX |  | Chevron Selects GEP SMART for Global Digital Procurement Transformation |
+| 11-19 14:01 | AMZN |  | Teleport Achieves AWS Security Competency Status |
+| 11-19 14:01 | NFLX |  | Netflix Announces Grendel Animated Series |
+| 11-19 14:01 | JPM |  | J.P. Morgan Asset Management Launches JPMorgan All Country Research Enhanced Equity ETF (JALL) |
+| 11-19 14:01 | AAPL |  | Apple Announces 2026 Black Friday Shopping Event |
 | 11-19 12:31 | COST |  | Costain Announces New Medium-Term Targets and Share Buyback Program |
 | 11-19 11:01 | ORCL |  | EndoSoft Launches Argus MedGPT on Oracle Cloud Marketplace |
 | 11-19 11:01 | MSFT |  | Profound Launches Integrations for Microsoft Teams and Microsoft 365 |

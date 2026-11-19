@@ -1,7 +1,107 @@
 {
- "as_of": "2026-11-19T13:45-05:00",
+ "as_of": "2026-11-19T14:16-05:00",
  "since": "2026-11-18T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-19 14:02",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Developing Steering Wheel-Free Model Y Version",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/TSLA-US?chain_id=Name1K9-3FXPhg.1lfu3ng&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2F600104-SH%22%7D"
+  },
+  {
+   "time": "11-19 14:02",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Commences Commercial Operation of Megapack System in Oita, Japan",
+   "source": "fiscal.ai",
+   "url": "https://www.newsfilecorp.com/release/324736/Japans-Battery-Storage-Boom-KULRs-14.8M-Order-Highlights-Growth-Opportunity-Alongside-Tesla-Energy-Vault-and-Fluence"
+  },
+  {
+   "time": "11-19 14:01",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Coinbase Plans to Launch In-House Prediction Markets in H1 2027",
+   "source": "fiscal.ai",
+   "url": "https://ch.marketscreener.com/boerse-nachrichten/coinbase-plant-im-ersten-halbjahr-2027-eigene-prognosemaerkte-zu-starten-ce785ed2dc89f32d"
+  },
+  {
+   "time": "11-19 14:01",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "Advanced Micro Devices Shares Decline Following Hunterbrook Media Report on China Ties",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/advanced-micro-devices-shares-fall-amid-hunterbrook-media-report-on-china-ties-ce785ed2dd8ff126"
+  },
+  {
+   "time": "11-19 14:01",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Launches 'Visa Recurrent' for Recurring Payment Management",
+   "source": "fiscal.ai",
+   "url": "https://glenbrook.com/payments-news/all-payments-news/"
+  },
+  {
+   "time": "11-19 14:01",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Chevron Selects GEP SMART for Global Digital Procurement Transformation",
+   "source": "fiscal.ai",
+   "url": "https://procurementmag.com/news/vendor-insight-agentic-ai-transform-source-to-pay-platforms"
+  },
+  {
+   "time": "11-19 14:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Teleport Achieves AWS Security Competency Status",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/19/3406533/0/en/teleport-achieves-aws-security-competency-in-identity-and-access-management-category.html"
+  },
+  {
+   "time": "11-19 14:01",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Announces Grendel Animated Series",
+   "source": "fiscal.ai",
+   "url": "https://www.avclub.com/article-type/news"
+  },
+  {
+   "time": "11-19 14:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "J.P. Morgan Asset Management Launches JPMorgan All Country Research Enhanced Equity ETF (JALL)",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/jp-morgan-asset-management-launches-jpmorgan-all-country-research-enhanced-equity-etf-jall-on-nyse-arca-302944783.html"
+  },
+  {
+   "time": "11-19 14:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Announces 2026 Black Friday Shopping Event",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/b3dp95q/"
+  },
   {
    "time": "11-19 12:31",
    "symbols": [
