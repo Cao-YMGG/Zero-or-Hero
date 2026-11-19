@@ -226,6 +226,8 @@ How a thing moves between shelves:
   SPY call vs the open-to-close move, the sniper and intraday picks (stock move and option result),
   the morning predictions right/wrong, real fills vs the broker, one lesson. Push it to main; the
   Notify workflow posts it to Discord (owner, 2026-11-02: "you have to check after the close too").
+  Also run `python -m zoh.research.oversold --today` and push journal/oversold.csv: the oversold-ETF rule's shadow
+  record (stock, no orders; on trial since 2026-11-19, OVERSOLD.md, SUNDAY_TESTS 77).
 - Weekdays 17:43 ET: opportunity post-mortem (owner, 2026-11-13: "set a task: improve it every day, and when you
   are wrong work out why you read it wrong"). `python -m zoh.research.opportunities` scores the day's ideas to the
   real close (paid = 1% or more the idea's way, right, wrong; each against SPY over the same minutes), then
