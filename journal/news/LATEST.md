@@ -1,13 +1,19 @@
-# Headlines since 2026-11-18 16:00 ET (as of 2026-11-19 08:32 ET)
+# Headlines since 2026-11-18 16:00 ET (as of 2026-11-19 10:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-19 09:31 | NVDA | downgrade | NVIDIA Receives Analyst Downgrades Following CEO Resignation |
 | 11-19 07:32 | NVDA | rating | Cantor Fitzgerald Maintains $250 Price Target on NVIDIA |
 | 11-19 07:31 | AVGO | rating | Goldman Sachs Maintains Buy Rating on Broadcom, Adjusts Price Target |
 | 11-19 06:32 | HD | target up | DA Davidson Maintains Buy Rating on Home Depot and Raises Price Target to $390 |
 | 11-18 20:01 | CRM | initiate | Salesforce Initiates New Round of Layoffs |
+| 11-19 09:31 | META |  | UBS Raises Meta Platforms Price Target Following Muse AI Adoption |
+| 11-19 09:31 | CRM |  | Salesforce Selected for U.S. Department of Commerce AI Export Program |
+| 11-19 09:31 | MSFT |  | Microsoft Integrates IDEMIA Mobile Driver's License Verification into Entra |
+| 11-19 09:31 | COST |  | Costco Wholesale Opens New Warehouse in Lloydminster, Alberta |
+| 11-19 09:02 | TSM |  | TSMC Tightens Restrictions on Chinese Chip Designers Following New US Rules |
 | 11-19 08:02 | NVDA |  | Daiwa Securities Adjusts Price Target on Nvidia to $185 From $245 |
 | 11-19 08:01 | JPM |  | JPMorgan Chase Increases Stake in Irish Residential Properties REIT |
 | 11-19 07:32 | NVDA |  | US Commerce Department Expedited H200 China Export Approvals for NVIDIA |

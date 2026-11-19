@@ -1,7 +1,67 @@
 {
- "as_of": "2026-11-19T08:32-05:00",
+ "as_of": "2026-11-19T10:02-05:00",
  "since": "2026-11-18T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-19 09:31",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "UBS Raises Meta Platforms Price Target Following Muse AI Adoption",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/META-US?chain_id=Name1K9-3FXPhg.1lfti50&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Flouou-70661856%22%7D"
+  },
+  {
+   "time": "11-19 09:31",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce Selected for U.S. Department of Commerce AI Export Program",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/press-releases/8914938/salesforce-to-lead-consortium-bringing-trusted-american-si-to-global-markets"
+  },
+  {
+   "time": "11-19 09:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Integrates IDEMIA Mobile Driver's License Verification into Entra",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/idemia-public-security-to-bring-mobile-drivers-license-verification-to-the-microsoft-entra-verified-id-ecosystem-302945574.html"
+  },
+  {
+   "time": "11-19 09:31",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Costco Wholesale Opens New Warehouse in Lloydminster, Alberta",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/19/3406679/0/en/costco-wholesale-opens-new-location-in-lloydminster.html"
+  },
+  {
+   "time": "11-19 09:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "downgrade",
+   "headline": "NVIDIA Receives Analyst Downgrades Following CEO Resignation",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/20261119102/nvidias-turmoil-has-me-spooked-should-i-sell-my-stocks-and-buy-real-estate-or-ride-out-the-storm"
+  },
+  {
+   "time": "11-19 09:02",
+   "symbols": [
+    "TSM"
+   ],
+   "rating": "",
+   "headline": "TSMC Tightens Restrictions on Chinese Chip Designers Following New US Rules",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/tsmc-tightening-restrictions-on-chinese-chip-designers-in-response-to-new-us-rules-ce785ed2db81f72d"
+  },
   {
    "time": "11-19 08:02",
    "symbols": [
