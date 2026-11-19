@@ -1,7 +1,17 @@
 {
- "as_of": "2026-11-19T11:02-05:00",
+ "as_of": "2026-11-19T11:32-05:00",
  "since": "2026-11-18T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-19 11:02",
+   "symbols": [
+    "HD"
+   ],
+   "rating": "rating",
+   "headline": "Longbow Research Adjusts Home Depot Price Target to $385 From $415",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/longbow-research-adjusts-home-depot-price-target-to-385-from-415-ce785ed2da80f725"
+  },
   {
    "time": "11-19 11:01",
    "symbols": [

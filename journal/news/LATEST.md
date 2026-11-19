@@ -1,9 +1,10 @@
-# Headlines since 2026-11-18 16:00 ET (as of 2026-11-19 11:02 ET)
+# Headlines since 2026-11-18 16:00 ET (as of 2026-11-19 11:32 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-19 11:02 | HD | rating | Longbow Research Adjusts Home Depot Price Target to $385 From $415 |
 | 11-19 09:31 | NVDA | downgrade | NVIDIA Receives Analyst Downgrades Following CEO Resignation |
 | 11-19 07:32 | NVDA | rating | Cantor Fitzgerald Maintains $250 Price Target on NVIDIA |
 | 11-19 07:31 | AVGO | rating | Goldman Sachs Maintains Buy Rating on Broadcom, Adjusts Price Target |
