@@ -13,8 +13,8 @@
         "entry_price": 2.38,
         "peak": 18.65,
         "qty": 1,
-        "last": 15.33,
-        "last_time": "2026-11-20T12:45:01-05:00"
+        "last": 17.32,
+        "last_time": "2026-11-20T13:15:36-05:00"
       }
     },
     "claude_bias": {},
@@ -26,10 +26,10 @@
         "direction": "put",
         "entry_time": "2026-11-20T12:27:05-05:00",
         "entry_price": 0.74,
-        "peak": 0.89,
+        "peak": 1,
         "qty": 1,
-        "last": 0.83,
-        "last_time": "2026-11-20T12:45:01-05:00"
+        "last": 0.82,
+        "last_time": "2026-11-20T13:15:36-05:00"
       }
     },
     "nvda_gapdown_put": {
