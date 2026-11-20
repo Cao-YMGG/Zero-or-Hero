@@ -799,6 +799,35 @@ in EVOLUTION.md.
    the shadow entry quotes of 11-19 had a rule fired. If any real fill is outside the range, a check goes into the
    bot before the order (the quote against the contract's latest trade, skip when they differ by more than a set
    share) as a bug fix; if none is, the item closes with the count.
+   Note 11-20: in this container the option *snapshot* endpoint is 15 minutes behind with current time stamps (the
+   141 put showed 2.56 at 10:03 when it traded 1.30-1.57); only minute bars older than 15 minutes are true. The bot's
+   own quote at 10:01 (1.28) matched the traded range, so the workflow's quotes were live that day.
+82. **The other side of our own trades: selling instead of buying (2026-11-20, owner: "if I want to find the gold
+   mine, what methods do you have?").** Two months of records say the buyer of same-day options loses on average (the
+   shadow record about -22% a trade; every buying rule tested on real prices is negative or lives on one or two
+   trades; 14 trades were right on direction and still expired at zero). The seller collects that. Test on the real
+   option minute bars we hold (2024-02 on), SPY first, same-day expiry, defined risk only: a credit spread that sells
+   the option nearest 0.30 delta and buys the one five points further out, one spread, entered at 10:00, held to
+   15:45 or closed when it costs twice the credit to buy back. Three versions: (a) both sides every day (call spread
+   and put spread); (b) only the side against the 10:00 move from the open; (c) only on days SPY is within 0.5% of
+   its open at 10:00, the days the open-drive rule stays out. Costs 10% of each leg's price each way (5% as a
+   bracket). Reported per trade, without the best five and also without the worst five (a seller's risk sits in the
+   worst days), by rising and falling months, the worst day and the worst month, and as a $5,000 account doing one
+   spread a day next to SPY held. Bar, written before the run: positive after costs over the whole span and over the
+   last 3 months, in rising and in falling months, the worst month no worse than three average months of gain, and
+   every calendar year above zero. It need not beat SPY held, but the note says by how much it does not. 2026-11-19
+   and 11-20 (SPY -2.9% and -3.2% open to close) are in the sample and are the days that decide it. If it passes: a
+   shadow variant only; a real ledger waits for the owner, who would need a permission level and a margin account for
+   spreads (owner, 11-20: "you have to start by buying before you can sell"). My guess before the run: positive on
+   average, with the worst two weeks taking back most of it.
+83. **Shadow fills that real money could not get (2026-11-20).** nvda_gapdown_put: the real limit order for the 141
+   put at 1.28 (10:01:12) was cancelled unfilled; the contract traded 1.20-1.46 in that minute, its low was 1.28 and
+   1.30 in the next two, and the single-stock re-quote cap (10%) did not reach it. The shadow booked 1.28 and took
+   +208%. Owed, with item 81: since 2026-10-13, every real entry cancelled unfilled, what its shadow made, and what a
+   re-quote of 20% or 30% above the first ask would have paid and made. Bars, written first: (a) if the shadows of
+   unfilled real entries average above the filled ones, those shadow rows are flagged and left out of every
+   readiness and promotion number; (b) the single-stock cap moves only if the re-quoted fills, at the higher price,
+   are positive without their best two.
 
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
