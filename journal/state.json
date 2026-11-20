@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-19",
-  "done": true,
+  "date": "2026-11-20",
+  "done": false,
   "variants": {
     "catalyst_intraday_hero@2026-11-18": {
       "entered": true,
@@ -11,16 +11,26 @@
         "direction": "put",
         "entry_time": "2026-11-18T11:24:56-05:00",
         "entry_price": 2.38,
-        "peak": 2.67,
+        "peak": 6.44,
         "qty": 1,
-        "last": 1.52,
-        "last_time": "2026-11-19T15:45:16-05:00"
-      },
-      "hold": true
+        "last": 2.41,
+        "last_time": "2026-11-20T10:01:10-05:00"
+      }
     },
     "claude_bias": {},
     "meta_follow2": {},
-    "nvda_gapdown_put": {},
+    "nvda_gapdown_put": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "NVDA261120P00141000",
+        "direction": "put",
+        "entry_time": "2026-11-20T10:01:10-05:00",
+        "entry_price": 1.28,
+        "peak": 1.28,
+        "qty": 1
+      }
+    },
     "catalyst_open": {},
     "catalyst_open_hero": {},
     "rating_open": {},

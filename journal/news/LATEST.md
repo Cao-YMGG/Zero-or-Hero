@@ -1,10 +1,17 @@
-# Headlines since 2026-11-19 16:00 ET (as of 2026-11-20 08:32 ET)
+# Headlines since 2026-11-19 16:00 ET (as of 2026-11-20 10:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
 | 11-20 07:31 | JPM | downgrade | JPMorgan Downgrades Scout24 Amid AI Risk Concerns |
+| 11-20 09:33 | WMT |  | Analysts Adjust Price Targets for Walmart Inc. |
+| 11-20 09:32 | VST |  | Morgan Stanley and Goldman Sachs Adjust Price Targets for Vistra Corp. |
+| 11-20 09:32 | CIEN |  | Blue Planet, a Division of Ciena, Wins 2026 Fierce Network Innovation Award |
+| 11-20 09:31 | SNDK |  | LongPoint Asset Management Launches Savvy Double Leveraged Single Stock ETF for SanDisk |
+| 11-20 09:31 | COST |  | Costco Wholesale Opens New Location in East Windsor |
+| 11-20 09:31 | AMZN |  | ScaleCapacity Enters Multi-Year Strategic Collaboration Agreement with AWS |
+| 11-20 09:01 | TSM |  | TSMC Subsidiary Invests in Anthropic |
 | 11-20 08:02 | UNH |  | Analyst Actions: HSBC and TD Cowen Update Ratings on UnitedHealth Group |
 | 11-20 08:01 | MU |  | Purpose Investments Launches Purpose Micron (MU) Yield Shares ETF |
 | 11-20 08:01 | AAPL |  | Apple Developer Academy Showcase in Pohang |

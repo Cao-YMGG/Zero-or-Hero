@@ -1,7 +1,77 @@
 {
- "as_of": "2026-11-20T08:32-05:00",
+ "as_of": "2026-11-20T10:02-05:00",
  "since": "2026-11-19T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-20 09:33",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Analysts Adjust Price Targets for Walmart Inc.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/morgan-stanley-adjusts-price-target-on-walmart-to-135-from-125-keeps-overweight-rating-ce785ed3db8bf426"
+  },
+  {
+   "time": "11-20 09:32",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "",
+   "headline": "Morgan Stanley and Goldman Sachs Adjust Price Targets for Vistra Corp.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/morgan-stanley-adjusts-price-target-on-vistra-to-211-from-224-ce785ed3db89f527"
+  },
+  {
+   "time": "11-20 09:32",
+   "symbols": [
+    "CIEN"
+   ],
+   "rating": "",
+   "headline": "Blue Planet, a Division of Ciena, Wins 2026 Fierce Network Innovation Award",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/20/3407446/0/en/forge-s-fierce-network-announces-winners-of-the-2026-fierce-network-innovation-awards.html"
+  },
+  {
+   "time": "11-20 09:31",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "LongPoint Asset Management Launches Savvy Double Leveraged Single Stock ETF for SanDisk",
+   "source": "fiscal.ai",
+   "url": "https://www.newsfilecorp.com/release/324894/LongPoint-Adds-New-Double-Leveraged-Single-Stock-ETFs"
+  },
+  {
+   "time": "11-20 09:31",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Costco Wholesale Opens New Location in East Windsor",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/20/3407457/0/en/costco-wholesale-opens-new-location-in-east-windsor.html"
+  },
+  {
+   "time": "11-20 09:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "ScaleCapacity Enters Multi-Year Strategic Collaboration Agreement with AWS",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/scalecapacity-signs-multi-year-strategic-collaboration-agreement-with-aws-to-accelerate-amazon-connect-customer-adoption-302945831.html"
+  },
+  {
+   "time": "11-20 09:01",
+   "symbols": [
+    "TSM"
+   ],
+   "rating": "",
+   "headline": "TSMC Subsidiary Invests in Anthropic",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/TSM-US?chain_id=Name1K9-3FXPhg.1lfvvg0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FSTLD-US%22%7D"
+  },
   {
    "time": "11-20 08:02",
    "symbols": [
