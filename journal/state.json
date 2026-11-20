@@ -11,10 +11,10 @@
         "direction": "put",
         "entry_time": "2026-11-18T11:24:56-05:00",
         "entry_price": 2.38,
-        "peak": 19.89,
+        "peak": 20.08,
         "qty": 1,
-        "last": 18.1,
-        "last_time": "2026-11-20T14:46:56-05:00"
+        "last": 18.73,
+        "last_time": "2026-11-20T15:17:22-05:00"
       }
     },
     "claude_bias": {},

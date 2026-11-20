@@ -1,7 +1,37 @@
 {
- "as_of": "2026-11-20T14:46-05:00",
+ "as_of": "2026-11-20T15:17-05:00",
  "since": "2026-11-19T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-20 15:02",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "rating",
+   "headline": "Citi Maintains Buy Rating and $265 Price Target on Palantir",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/PLTR-US?chain_id=Name1K9-3FXPhg.1lg0kj0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FNFLX-CA%22%7D"
+  },
+  {
+   "time": "11-20 15:01",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "UK Trade Remedies Authority Proposes Higher Anti-dumping Duties on Chinese Excavators",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/uk-trade-remedies-authority-proposes-higher-anti-dumping-duties-on-chinese-excavators-ce785ed3da8cf427"
+  },
+  {
+   "time": "11-20 15:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Compute Exchange Announces Live GPU Capacity Auction at NVIDIA GTC DC",
+   "source": "fiscal.ai",
+   "url": "https://www.einnews.com/pr_news/957765130/compute-exchange-announces-live-gpu-capacity-auction-at-nvidia-gtc-dc"
+  },
   {
    "time": "11-20 14:02",
    "symbols": [

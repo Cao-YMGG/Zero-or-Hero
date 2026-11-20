@@ -1,11 +1,14 @@
-# Headlines since 2026-11-19 16:00 ET (as of 2026-11-20 14:46 ET)
+# Headlines since 2026-11-19 16:00 ET (as of 2026-11-20 15:17 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-20 15:02 | PLTR | rating | Citi Maintains Buy Rating and $265 Price Target on Palantir |
 | 11-20 14:01 | CRDO | rating | Stifel Maintains Buy Rating on Credo Technology, Adjusts Price Target to $250 |
 | 11-20 07:31 | JPM | downgrade | JPMorgan Downgrades Scout24 Amid AI Risk Concerns |
+| 11-20 15:01 | CAT |  | UK Trade Remedies Authority Proposes Higher Anti-dumping Duties on Chinese Excavators |
+| 11-20 15:01 | NVDA |  | Compute Exchange Announces Live GPU Capacity Auction at NVIDIA GTC DC |
 | 11-20 14:02 | JPM |  | JPMorgan Chase CEO Plans Strategy to Offset UK Bank Tax Increase |
 | 11-20 14:01 | NVDA |  | NVIDIA Subject to Congressional Probe Regarding China Sales |
 | 11-20 14:01 | NVDA |  | California Attorney General Launches Investigation into NVIDIA |
