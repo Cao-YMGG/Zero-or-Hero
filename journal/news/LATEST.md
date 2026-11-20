@@ -1,10 +1,19 @@
-# Headlines since 2026-11-19 16:00 ET (as of 2026-11-20 10:33 ET)
+# Headlines since 2026-11-19 16:00 ET (as of 2026-11-20 11:03 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
 | 11-20 07:31 | JPM | downgrade | JPMorgan Downgrades Scout24 Amid AI Risk Concerns |
+| 11-20 11:02 | HOOD |  | Robinhood Markets Faces Shareholder Proposal Regarding Proxy Voting Platform |
+| 11-20 11:02 | JPM |  | JPMorgan Chase and Citigroup Assisting PayPo with Potential IPO |
+| 11-20 11:02 | TSLA |  | Tesla Plans Live Optimus Demonstration |
+| 11-20 11:01 | WMT |  | Walmart Canada Raises Over $3.9 Million for Canadian Red Cross |
+| 11-20 11:01 | PLTR |  | Palantir Co-Hosts Defense Technology Summit |
+| 11-20 11:01 | V |  | Visa and Other Financial Institutions Report Third-Party Cyberattack |
+| 11-20 11:01 | GS |  | Goldman Sachs Updates Investment Outlook for India and China |
+| 11-20 11:01 | MSFT |  | Danaher Collaborates with Microsoft to Advance AI-Powered Scientific Instrument Connectivity |
+| 11-20 11:01 | NVDA |  | 5C Group Joins NVIDIA Partner Network as Data Center Partner |
 | 11-20 09:33 | WMT |  | Analysts Adjust Price Targets for Walmart Inc. |
 | 11-20 09:32 | VST |  | Morgan Stanley and Goldman Sachs Adjust Price Targets for Vistra Corp. |
 | 11-20 09:32 | CIEN |  | Blue Planet, a Division of Ciena, Wins 2026 Fierce Network Innovation Award |

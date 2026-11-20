@@ -11,10 +11,10 @@
         "direction": "put",
         "entry_time": "2026-11-18T11:24:56-05:00",
         "entry_price": 2.38,
-        "peak": 9.62,
+        "peak": 13.44,
         "qty": 1,
-        "last": 9.53,
-        "last_time": "2026-11-20T10:33:06-05:00"
+        "last": 13.44,
+        "last_time": "2026-11-20T11:03:31-05:00"
       }
     },
     "claude_bias": {},
@@ -22,16 +22,7 @@
     "nvda_gapdown_put": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "NVDA261120P00141000",
-        "direction": "put",
-        "entry_time": "2026-11-20T10:01:10-05:00",
-        "entry_price": 1.28,
-        "peak": 3.78,
-        "qty": 1,
-        "last": 3.78,
-        "last_time": "2026-11-20T10:33:06-05:00"
-      }
+      "closed": true
     },
     "catalyst_open": {},
     "catalyst_open_hero": {},
