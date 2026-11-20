@@ -1,0 +1,22 @@
+{
+ "date": "2026-11-20",
+ "picks": [],
+ "check_1016": {
+  "time": "10:18",
+  "pick": null,
+  "note": "No pick. SPY opened 713.56 (-0.3%, the pre-market -1.0% was bought before the bell) and is 713.02, -0.1% from its open; QQQ -0.5%. The selling is in AI hardware only: SMH -2.4% from its open (-4.5% on the day), AVGO -5.5%, MU -4.0%, AMAT -3.6%, ARM -3.1%, NVDA -2.6%, and the optical and disk names -4 to -5%. Money went to software and defensives: NOW and TEAM +5.1% from the open, CRM +2.6%, ADBE +2.4%, GOOGL +2.0%, WMT +2.0%, XLP and XLV +0.8%, TLT +0.8% on the day. Scan by Alpaca IEX snapshots of 150 large caps; Webull rankings not read. No headline since 09:30 on GOOGL, NOW, TEAM, CRM, ADBE or AVGO in the Benzinga feed, so the leaders are relative strength without a cause I can name: not a pick and not an idea. WMT is in its report window. nvda_gapdown_put fired at 10:01: the real limit order for the 141 put at 1.28 was cancelled unfilled; the shadow booked 1.28.",
+  "note_zh": "不选股。标普开盘时已把盘前的跌幅收回大半（低开 0.3%），现在基本平；跌的只有 AI 硬件：半导体 ETF 比开盘再跌 2.4%，博通 −5.5%、美光 −4.0%。钱去了软件和防守股（ServiceNow、Atlassian 比开盘高 5%，谷歌、沃尔玛高 2%）。领涨的这几只开盘后都没有自己的消息，我说不出原因，所以既不选也不列。英伟达低开看跌的真单 10:01 挂了但没成交。"
+ },
+ "opportunities": [
+  {
+   "type": "sector_intraday",
+   "symbol": "MU",
+   "direction": "put",
+   "time": "10:18",
+   "action": "none",
+   "conviction": "maybe",
+   "why": "Put mirror, listed not bought (T2): SMH is down 20% over a month and 2.4% below its open, on a morning when chip stocks fell around the world. Among chip mega caps below their own open and not at the day's low, MU is the weakest (638.56, -4.0% from 665.15, 1.0% above its low); AVGO, AMAT and ARM are weaker but within 0.1% of their lows.",
+   "why_zh": "看跌镜像（只记分、不买）：半导体 ETF 一个月跌了 20%，今天比开盘再跌 2.4%，早上全球芯片股都在跌。芯片大盘股里比开盘跌得最多、又没贴着当天最低点的是美光（比开盘低 4.0%）。"
+  }
+ ]
+}
