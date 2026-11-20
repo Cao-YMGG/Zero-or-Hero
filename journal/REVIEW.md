@@ -1,4 +1,4 @@
-# Review — 2026-11-19
+# Review — 2026-11-20
 
 - Champion: **nvda_gapdown_put**
 - Equity: **$385.40** (phase zero-or-hero)
@@ -8,16 +8,16 @@
 
 | variant | n | win% | avg/trade | sum | best | worst | all-time n | all-time avg |
 |---|---|---|---|---|---|---|---|---|
-| nvda_gapdown_put 👑 | 2 | 100% | +125.4% | +251% | +203% | +48% | 2 | +125.4% |
+| nvda_gapdown_put 👑 | 3 | 100% | +152.9% | +459% | +208% | +48% | 3 | +152.9% |
 | spy_open_drive | 2 | 50% | +89.9% | +180% | +280% | -100% | 2 | +89.9% |
 | claude_bias | 5 | 80% | +76.1% | +380% | +141% | -97% | 5 | +76.1% |
-| meta_follow2 | 9 | 56% | +15.8% | +142% | +259% | -99% | 9 | +15.8% |
+| catalyst_intraday_hero | 6 | 17% | +37.1% | +222% | +721% | -100% | 6 | +37.1% |
+| meta_follow2 | 10 | 60% | +19.1% | +191% | +259% | -99% | 10 | +19.1% |
 | stock_open_drive | 5 | 40% | +0.3% | +1% | +230% | -100% | 5 | +0.3% |
 | rating_open | 0 | 0% | +0.0% | +0% | +0% | +0% | 0 | +0.0% |
 | spy_open_drive_put | 0 | 0% | +0.0% | +0% | +0% | +0% | 0 | +0.0% |
 | catalyst_intraday | 13 | 54% | -4.3% | -56% | +299% | -100% | 13 | -4.3% |
 | catalyst_open | 17 | 41% | -10.9% | -185% | +339% | -100% | 17 | -10.9% |
-| catalyst_intraday_hero | 5 | 0% | -99.6% | -498% | -98% | -100% | 5 | -99.6% |
 | catalyst_open_hero | 6 | 0% | -100.0% | -600% | -100% | -100% | 6 | -100.0% |
 
 ## Ledgers (one $500 virtual account per variant, real paper orders)

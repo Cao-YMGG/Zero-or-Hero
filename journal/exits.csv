@@ -128,3 +128,4 @@ date,variant,mode,contract,entry_price,exit_price,peak,exit_reason
 2026-11-16,leader_follow,shadow,AMD261116C00555000,0.64,0,0.64,time
 2026-11-20,nvda_gapdown_put,shadow,NVDA261120P00141000,1.28,3.94,3.94,take_profit
 2026-11-20,meta_follow2,shadow,META261120P00557500,0.74,1.1,1.92,trail
+2026-11-20,catalyst_intraday_hero,shadow,TSM261120P00340000,2.38,19.53,20.08,time
