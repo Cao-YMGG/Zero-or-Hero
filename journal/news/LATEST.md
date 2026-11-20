@@ -1,10 +1,13 @@
-# Headlines since 2026-11-19 16:00 ET (as of 2026-11-20 07:41 ET)
+# Headlines since 2026-11-19 16:00 ET (as of 2026-11-20 08:32 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
 | 11-20 07:31 | JPM | downgrade | JPMorgan Downgrades Scout24 Amid AI Risk Concerns |
+| 11-20 08:02 | UNH |  | Analyst Actions: HSBC and TD Cowen Update Ratings on UnitedHealth Group |
+| 11-20 08:01 | MU |  | Purpose Investments Launches Purpose Micron (MU) Yield Shares ETF |
+| 11-20 08:01 | AAPL |  | Apple Developer Academy Showcase in Pohang |
 | 11-20 07:32 | VST |  | Goldman Sachs Adjusts Price Target on Vistra to $183 From $200 |
 | 11-20 07:32 | UNH |  | HSBC Adjusts Price Target on UnitedHealth to $385 From $380 |
 | 11-20 07:31 | AAPL |  | Apple Developing Autonomous AI Agent |

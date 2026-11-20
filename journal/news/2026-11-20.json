@@ -1,7 +1,37 @@
 {
- "as_of": "2026-11-20T07:41-05:00",
+ "as_of": "2026-11-20T08:32-05:00",
  "since": "2026-11-19T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-20 08:02",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "Analyst Actions: HSBC and TD Cowen Update Ratings on UnitedHealth Group",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/hsbc-adjusts-price-target-on-unitedhealth-to-385-from-380-ce785ed3d88bf226"
+  },
+  {
+   "time": "11-20 08:01",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Purpose Investments Launches Purpose Micron (MU) Yield Shares ETF",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/20/3407363/0/en/purpose-investments-launches-purpose-anthropic-ant-yield-shares-etf-and-purpose-micron-mu-yield-shares-etf.html"
+  },
+  {
+   "time": "11-20 08:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Developer Academy Showcase in Pohang",
+   "source": "fiscal.ai",
+   "url": "https://www.koreaherald.com/article/10944423"
+  },
   {
    "time": "11-20 07:32",
    "symbols": [
