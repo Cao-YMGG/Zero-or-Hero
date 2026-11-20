@@ -1,7 +1,77 @@
 {
- "as_of": "2026-11-20T13:46-05:00",
+ "as_of": "2026-11-20T14:16-05:00",
  "since": "2026-11-19T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-20 14:02",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase CEO Plans Strategy to Offset UK Bank Tax Increase",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/jpmorgan-chase-ceo-plans-to-offset-uk-bank-tax-increase-ce785ed3dd8bff2c"
+  },
+  {
+   "time": "11-20 14:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Subject to Congressional Probe Regarding China Sales",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/nvidia-subject-to-congressional-probe-over-ties-to-commerce-department-possible-china-sales-ce785ed3d888f620"
+  },
+  {
+   "time": "11-20 14:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "California Attorney General Launches Investigation into NVIDIA",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/2026/11/21/business/foreign-business/california-probes-nvidia-over-china-chips-access/2475093"
+  },
+  {
+   "time": "11-20 14:01",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank of America Strategists Warn of Potential 'Doom Loop' Risk",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/20261120130/bankof-america-strategist-warns-doom-loop-could-hit-stocks-with-wall-street-underpricing-hard-landing-risks"
+  },
+  {
+   "time": "11-20 14:01",
+   "symbols": [
+    "CRDO"
+   ],
+   "rating": "rating",
+   "headline": "Stifel Maintains Buy Rating on Credo Technology, Adjusts Price Target to $250",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1005332839/stifel-maintains-credo-technology-crdous-with-buy-rating-cuts-target"
+  },
+  {
+   "time": "11-20 14:01",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Coinbase Submits Comment Letter Supporting CFTC Proposal on Event Contracts",
+   "source": "fiscal.ai",
+   "url": "https://cdcgaming.com/brief/coinbase-strongly-supports-cftc-proposal-to-include-event-contracts-in-swap-definition/"
+  },
+  {
+   "time": "11-20 14:01",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "Law Firms Announce Securities Investigations into Advanced Micro Devices, Inc.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/20/3407759/0/en/amd-investors-have-opportunity-to-join-advanced-micro-devices-inc-fraud-investigation-with-sbs-law.html"
+  },
   {
    "time": "11-20 11:02",
    "symbols": [

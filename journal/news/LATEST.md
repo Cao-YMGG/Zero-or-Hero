@@ -1,10 +1,17 @@
-# Headlines since 2026-11-19 16:00 ET (as of 2026-11-20 13:46 ET)
+# Headlines since 2026-11-19 16:00 ET (as of 2026-11-20 14:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-20 14:01 | CRDO | rating | Stifel Maintains Buy Rating on Credo Technology, Adjusts Price Target to $250 |
 | 11-20 07:31 | JPM | downgrade | JPMorgan Downgrades Scout24 Amid AI Risk Concerns |
+| 11-20 14:02 | JPM |  | JPMorgan Chase CEO Plans Strategy to Offset UK Bank Tax Increase |
+| 11-20 14:01 | NVDA |  | NVIDIA Subject to Congressional Probe Regarding China Sales |
+| 11-20 14:01 | NVDA |  | California Attorney General Launches Investigation into NVIDIA |
+| 11-20 14:01 | BAC |  | Bank of America Strategists Warn of Potential 'Doom Loop' Risk |
+| 11-20 14:01 | COIN |  | Coinbase Submits Comment Letter Supporting CFTC Proposal on Event Contracts |
+| 11-20 14:01 | AMD |  | Law Firms Announce Securities Investigations into Advanced Micro Devices, Inc. |
 | 11-20 11:02 | HOOD |  | Robinhood Markets Faces Shareholder Proposal Regarding Proxy Voting Platform |
 | 11-20 11:02 | JPM |  | JPMorgan Chase and Citigroup Assisting PayPo with Potential IPO |
 | 11-20 11:02 | TSLA |  | Tesla Plans Live Optimus Demonstration |
