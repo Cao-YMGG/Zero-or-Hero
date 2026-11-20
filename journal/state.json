@@ -11,26 +11,17 @@
         "direction": "put",
         "entry_time": "2026-11-18T11:24:56-05:00",
         "entry_price": 2.38,
-        "peak": 18.65,
+        "peak": 19.89,
         "qty": 1,
-        "last": 16.86,
-        "last_time": "2026-11-20T14:16:28-05:00"
+        "last": 18.1,
+        "last_time": "2026-11-20T14:46:56-05:00"
       }
     },
     "claude_bias": {},
     "meta_follow2": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "META261120P00557500",
-        "direction": "put",
-        "entry_time": "2026-11-20T12:27:05-05:00",
-        "entry_price": 0.74,
-        "peak": 1,
-        "qty": 1,
-        "last": 0.89,
-        "last_time": "2026-11-20T14:16:28-05:00"
-      }
+      "closed": true
     },
     "nvda_gapdown_put": {
       "attempts": 1,
