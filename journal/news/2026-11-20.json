@@ -1,0 +1,356 @@
+{
+ "as_of": "2026-11-20T07:41-05:00",
+ "since": "2026-11-19T16:00-05:00",
+ "headlines": [
+  {
+   "time": "11-20 07:32",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Adjusts Price Target on Vistra to $183 From $200",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-price-target-on-vistra-to-183-from-200-ce785ed3d88df322"
+  },
+  {
+   "time": "11-20 07:32",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "HSBC Adjusts Price Target on UnitedHealth to $385 From $380",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/hsbc-adjusts-price-target-on-unitedhealth-to-385-from-380-ce785ed3d88bf226"
+  },
+  {
+   "time": "11-20 07:31",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Developing Autonomous AI Agent",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/AAPL-US?chain_id=Name1K9-3FXPhg.1lg030g&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FPDD-US%22%7D"
+  },
+  {
+   "time": "11-20 07:31",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Receives Regulatory Approval for Assisted Driving in Italy",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/tesla-secures-approval-for-assisted-driving-in-italy-ce785ed3d88ef127"
+  },
+  {
+   "time": "11-20 07:31",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "GE Aerospace Recommends Shareholders Reject \u201cMini-Tender\u201d Offer by Potemkin Limited",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/globe-newswire/9881999/ge-aerospace-recommends-shareholders-reject-mini-tender-offer-by-potemkin-limited"
+  },
+  {
+   "time": "11-20 07:31",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Omdia Analysis Shows Netflix Outperforms YouTube in Daily Viewing Time Across Latin American Markets",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.co.kr/newsRead.php?no=1047710"
+  },
+  {
+   "time": "11-20 07:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "downgrade",
+   "headline": "JPMorgan Downgrades Scout24 Amid AI Risk Concerns",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.at/nachrichten/aktien/aktie-im-blick-scout24-bricht-ein-nachdem-jpmorgan-die-debatte-um-ki-risiken-wieder-aufflammen-lasst-1036787004"
+  },
+  {
+   "time": "11-20 07:31",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Seismic Research Vessel Commences Operations for Chevron-HELLENiQ ENERGY Joint Venture",
+   "source": "fiscal.ai",
+   "url": "https://www.euro2day.gr/news/economy/article/2381065/ypen-xekinoyn-oi-seismikes-ereynes-sto-notio-ionio.html"
+  },
+  {
+   "time": "11-20 06:32",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Democrats Open Probe Into Nvidia Influence on US Megaspeed Investigation",
+   "source": "fiscal.ai",
+   "url": "https://www.fidelity.com/news/article/technology/202611200600PR_NEWS_USPR_____SF03279"
+  },
+  {
+   "time": "11-20 06:32",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Nvidia Eyes Inception Acquisition to Strengthen Nemotron AI Models",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/nvidia-eyes-inception-acquisition-to-strengthen-nemotron-ai-models-ce785ed3d98bf025"
+  },
+  {
+   "time": "11-20 06:32",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Warns of China-Linked Accounts Targeting Taiwan Elections on Threads",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/meta-platforms-warned-threads-being-used-by-china-to-influence-taiwan-local-elections-ce785ed2d081f627"
+  },
+  {
+   "time": "11-20 06:32",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platforms CFO Executes Insider Share Sale",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/META-US?chain_id=Name1K9-3FXPhg.1lfvvg0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FSTLD-US%22%7D"
+  },
+  {
+   "time": "11-20 06:32",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Arete Adjusts Price Target on Western Digital to $693 From $650",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/arete-adjusts-price-target-on-western-digital-to-693-from-650-ce785ed3d98ff324"
+  },
+  {
+   "time": "11-20 06:31",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "DZ Bank Adjusts Price Target on Palantir Technologies to $220 From $210",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/dz-bank-adjusts-price-target-on-palantir-technologies-to-220-from-210-ce785ed3d98ef42d"
+  },
+  {
+   "time": "11-20 06:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "The Goldman Sachs Group, Inc. Discloses Major Holding in Siltronic AG",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.at/nachrichten/aktien/eqs-pvr-siltronic-ag-release-according-to-article-40-section-1-of-the-wphg-[the-german-securities-trading-act]-with-the-objective-of-europe-wide-distribution-1036787343"
+  },
+  {
+   "time": "11-20 06:31",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Chevron and HELLENiQ ENERGY Receive NAVTEX Approval for Seismic Research in Greece",
+   "source": "fiscal.ai",
+   "url": "https://www.euro2day.gr/amp/news/economy/article/2381065/ypen-xekinoyn-oi-seismikes-ereynes-sto-notio-ionio.html"
+  },
+  {
+   "time": "11-20 06:31",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Costco Issues Recall for Cheese Product in Ontario Due to E. Coli Risk",
+   "source": "fiscal.ai",
+   "url": "https://calgarysun.com/category/business/money-news/"
+  },
+  {
+   "time": "11-20 06:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Web Services Provides Technical Support for Walt Disney Imagineering R&D",
+   "source": "fiscal.ai",
+   "url": "https://www.media-outreach.com/news/hong-kong/2026/11/20/503008/aws-%E5%8A%A9%E5%8A%9B%E8%BF%AA%E5%A3%AB%E5%B0%BC%E5%B9%BB%E6%83%B3%E5%B7%A5%E7%A8%8B%E3%80%80%E6%8F%AD%E9%96%8B-%E3%80%8A%E6%98%9F%E7%90%83%E5%A4%A7%E6%88%B0%E3%80%8Banzellans-%E6%A9%9F%E6%A2%B0/"
+  },
+  {
+   "time": "11-19 22:02",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Serves as Financial Advisor in BILL Acquisition",
+   "source": "fiscal.ai",
+   "url": "https://www.fidelity.com/news/article/mergers-and-acquisitions/202611191746BIZWIRE_USPR_____20261119_BW835477"
+  },
+  {
+   "time": "11-19 22:02",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Adjusts Price Target for Kuaishou Technology",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-kuaishou-technology-s-price-target-to-hk-29-ce785ed2de88f022"
+  },
+  {
+   "time": "11-19 22:01",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Whale Rock Capital Management Exits Western Digital Position",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8926082/whale-rock-dumps-western-digital-buy-the-ai-storage-dip-for-113-upside"
+  },
+  {
+   "time": "11-19 22:01",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "General Medicine Integrates GLP-1 Weight Management Care into LillyDirect",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/general-medicine-brings-its-glp-1-weight-management-care-to-lillydirect-302945780.html"
+  },
+  {
+   "time": "11-19 20:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Reevaluating 2030 Net Zero Emissions Goal",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/2026/11/20/world/americas-emea/meta-says-reevaluating-2030-net-zero-target-amid-ai-buildout/2474624"
+  },
+  {
+   "time": "11-19 20:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Third Point LLC Exits Entire Stake in Amazon",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8926361/dan-loebs-third-point-exits-its-entire-stake-in-amazon-stock-where-it-invested-instead"
+  },
+  {
+   "time": "11-19 19:02",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "ISS Recommends Shareholders Vote Against Tesla Chair Robyn Denholm",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/TSLA-US?chain_id=Name1K9-3FXPhg.1lfula0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FENPH-US%22%7D"
+  },
+  {
+   "time": "11-19 19:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "The Goldman Sachs Group, Inc. Files Voting Rights Announcement",
+   "source": "fiscal.ai",
+   "url": "https://www.eqs-news.com/news/voting-rights/the-goldman-sachs-group-inc-wilmington-de-united-states-of-america-usa/b25c2ba2-88ea-4085-a3f4-9bd292b73818_en"
+  },
+  {
+   "time": "11-19 17:32",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta to Price Muse Charm AI Device at $300",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/META-US?chain_id=Name1K9-3FXPhg.1lfuhpg&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Fvchong-888-105336580%22%7D"
+  },
+  {
+   "time": "11-19 17:32",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Director Baiju Bhatt Sells Robinhood Markets, Inc. Shares",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hant/news/post/1005229393/robinhood-hoodus-director-sells-us-4-79-million-in-common"
+  },
+  {
+   "time": "11-19 17:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA to Present at 30th Annual UBS Global Technology and AI Conference",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/19/3407166/0/en/nvidia-announces-upcoming-event-for-financial-community.html"
+  },
+  {
+   "time": "11-19 17:31",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "U.K. Tribunal Orders Government to Confirm Secret Demand for Apple Customer Data",
+   "source": "fiscal.ai",
+   "url": "https://newsfilter.io/articles/u-k-government-forced-to-disclose-secret-apple-backdoor-order-89f07cb47e5859b18ddafa5e02d91f83"
+  },
+  {
+   "time": "11-19 16:31",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "TechnipFMC Awarded Subsea Contract for ExxonMobil's Longtail Project",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/energy/oil-gas"
+  },
+  {
+   "time": "11-19 16:31",
+   "symbols": [
+    "HD"
+   ],
+   "rating": "",
+   "headline": "The Home Depot Declares Quarterly Cash Dividend",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/the-home-depot-declares-quarterly-dividend-of-2-33--302946007.html"
+  },
+  {
+   "time": "11-19 16:31",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank of America Chicago Marathon Extends Partnership with Nike",
+   "source": "fiscal.ai",
+   "url": "https://investingnews.com/bank-of-america-chicago-marathon-and-nike-extend-partnership-through-2036/"
+  },
+  {
+   "time": "11-19 16:31",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Micron Technology Schedules Fiscal First Quarter 2027 Earnings Call",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1005226276/micron-technology-to-report-fiscal-first-quarter-results-on-december"
+  },
+  {
+   "time": "11-19 16:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Anthropic IPO Valuation and Amazon's Stake Disclosure",
+   "source": "fiscal.ai",
+   "url": "https://newsfilter.io/articles/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test-a8f2d6fda3135f21896995b1454f23c1"
+  }
+ ]
+}
