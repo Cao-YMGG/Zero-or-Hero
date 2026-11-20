@@ -1,0 +1,82 @@
+{
+ "date": "2026-11-20",
+ "bias": "none",
+ "confidence": 0.2,
+ "p_up": 0.56,
+ "summary": "No SPY bet: a second day of AI-trade selling gaps SPY -1.0% and QQQ -2.0%; the day after a -2% open-to-close SPY has closed above its open 57-61% of the time, which is a base rate under the bar, and nothing this morning says today is one of those.",
+ "reasons": [
+  "Pre-market (Webull, 08:32 ET): SPY 708.74 (-1.00% from 715.87), QQQ -1.95%, SMH -3.6%, IWM -0.4%; TLT +0.7% (yields lower), USO -0.8%, UUP -0.2%, VIXY +3.2%. Stocks by Alpaca IEX prints at 08:30: NVDA -3.6%, META -3.6%, INTC -4.9%, MSFT -2.7%, AMZN -2.5%, TSLA -2.6%, MU -5.2%, ORCL -3.3%, PLTR -4.0%, TSM -6.0%, GOOGL -0.7%; AMD about -6% (press reports).",
+  "Why: the AI trade is being sold for a second day (Reuters via MarketScreener, CNBC): Anthropic -7% pre-market after its debut, chip stocks lower around the world, NVDA at its lowest in more than a year, AMD still falling after Thursday's short report; earlier Benzinga had futures lower as Trump weighs an Iran decision. Thursday the S&P 500 fell 2.0% (sixth decline in a row), the Dow closed under 50,000, the 10-year yield 5.05%.",
+  "Base rates, from twenty years of daily bars (checked last night, no bar written first, so context and not a rule): the day after an open-to-close of -2% or worse SPY closed above its open 61% (77 days, 2004-2016) and 57% (51 days, 2016-2026); a run of sessions closing below the open says nothing about the next one (51-55% against 54%). R1: the gap is in the opening price. That makes p_up 0.56, under the 0.60 a call needs; bonds are bid this morning, which Thursday they were not.",
+  "No US release at 08:30. Later: 09:45 flash PMIs (one calendar, not confirmed), 10:00 state employment. Monthly options expiry. INTU and ROST trade their reports (ROST -9% after hours).",
+  "Sniper null: no rating change on a mega cap. Only small target changes (DZ Bank on PLTR, Arete on WDC, HSBC on UNH by $5, Goldman's cut on VST), and PLTR is -4% pre-market. Since 11-19 R4 reads 'a rating change is in the price by 09:32'.",
+  "No ideas listed this morning (T6, the line added last night: an idea I can already argue against is a control). Every candidate is a call on a name gapping down with the group; R2 and the idea log say that is a coin flip on the market's direction (gapdown_rebound: 0 of 3).",
+  "Pre-market down gaps of 2% or more among the large caps: NVDA, META, INTC, MSFT, AMZN, TSLA, MU, ORCL, PLTR, TSM, AMD. nvda_gapdown_put (real ledger) can fire at 10:00 if NVDA is still under its open; the other side found the paper broker quoting Thursday's 09:40-10:00 index puts at the prior close, so any fill today is checked against the contract's traded prices at the review.",
+  "Dossiers: AMD has no news of its own beyond the short report (its largest days are group days); META: the Muse Charm device priced at $300 (Benzinga, Thursday 17:32) and a CFO share sale, stock -3.6% with the group.",
+  "Theme states at the 11-19 close: chips neutral (two turn flags), software turning, consumer the only one with a heat flag; breadth light lit, stretched not lit (SPY is down 5.4% in five sessions). Described, not forecast (R6)."
+ ],
+ "events": [
+  "09:45 flash PMIs (unconfirmed)",
+  "10:00 state employment",
+  "monthly options expiry",
+  "INTU and ROST report reactions",
+  "SNDK begins trading after its 8-for-1 split"
+ ],
+ "inputs": {
+  "spy_premarket_pct": -1.0,
+  "qqq_premarket_pct": -1.95,
+  "es_futures_pct": -1.0,
+  "vix": null,
+  "vixy_premarket_pct": 3.2,
+  "wti_pct": null,
+  "uso_premarket_pct": -0.8,
+  "us10y": 5.05,
+  "us10y_change_bp": null,
+  "us2y_change_bp": null,
+  "tlt_premarket_pct": 0.7,
+  "dxy_pct": null,
+  "uup_premarket_pct": -0.2,
+  "overnight": "Chip stocks fell around the world; Anthropic -7% pre-market; S&P futures about -1%, Nasdaq-100 futures about -1.9% at 08:00 (press). The 10-year level is Thursday's close; this morning's change is read from TLT only."
+ },
+ "rotation": {
+  "heating": [
+   "consumer (WMT/COST/HD +8.0% 1m, -1.1% 1w): the only basket up on the month",
+   "staples ETF (XLP +3.2% 1m)"
+  ],
+  "cooling": [
+   "memory (-35% 1m, -17% 1w)",
+   "GPU (NVDA -34% 1m)",
+   "optical (-32% 1m)",
+   "CPU (-25% 1m)",
+   "disk (-23% 1m)",
+   "power (-19% 1m)",
+   "software (IGV -12% 1m)",
+   "energy (-9% 1m)",
+   "health (-12% 1w)",
+   "industrials (-7% 1w)"
+  ],
+  "note": "Every basket is down on the week (SPY -5.4%, QQQ -6.3%, SMH -10.8%); money has not rotated, it has left. The month's losers are the AI hardware chain, and they lead lower again this morning.",
+  "theme_state": {
+   "chips": "neutral (REL_WEAK, BREADTH)",
+   "software": "turning (REL_WEAK, BREADTH, RATIO_LOW)",
+   "internet": "neutral (BREADTH, PERIPH)",
+   "optical": "neutral (REL_WEAK, BREADTH; PERIPH_UP)",
+   "power": "neutral (BREADTH; PERIPH_UP)",
+   "energy": "neutral (BREADTH)",
+   "consumer": "neutral (REL_STRONG)",
+   "banks": "neutral",
+   "health": "neutral",
+   "industrials": "neutral (PERIPH_UP)",
+   "lights": "breadth lit at the 11-19 close; stretched not lit"
+  }
+ },
+ "sniper": null,
+ "opportunities": [],
+ "zh": {
+  "summary": "今天不下注。AI 板块连续第二天被卖，标普盘前低开约 1%、纳指约 2%。二十年数据里，大跌日的第二天有 57–61% 收在开盘价上方，所以我把概率写成 0.56，但这只是底数，够不上下注的线（0.60），今天早上也没有别的东西说明今天就是会反弹的那种日子。",
+  "sniper": "今天不点名：没有券商调整大盘股的评级，只有几家小幅改目标价，分量太轻。早上的想法清单也是空的：能列的都是“跟着板块低开的股票赌反弹”，这种我自己就说得出它为什么会失败，按昨晚新加的规矩不列。",
+  "heating": "零售三家（沃尔玛、好市多、家得宝）是一个月里唯一上涨的；必需消费也还是正的",
+  "cooling": "存储、GPU、光模块、CPU、硬盘、电力、软件；这一周所有板块都在跌，钱不是在轮动，是在离场"
+ },
+ "generated_at": "2026-11-20T08:33:46-05:00"
+}
