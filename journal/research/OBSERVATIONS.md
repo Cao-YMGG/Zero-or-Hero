@@ -99,7 +99,7 @@ each part, one line each: the date, what happened, what it suggested, where it s
   its open on 10 of 25 sessions but averaged -0.22% open to close, and SMH's gap-ups closed above the open on 5 of 10
   (-0.46%). A line about the season, not a rule.
 - The pre-market routine moved from 08:50 to 08:20 (10-31) and to 07:40 (11-02, owner) because it fired 41 minutes
-  late both times.
+  late both times. Since 11-21 it starts at 07:57, one wake instead of two; not later, for the same reason.
 - 2026-11-19 (night research, three patterns found after the fact and then run on data they were not found on; all
   three failed): shorting a downgrade from 10:00 (+0.38% on 121 events since May, -0.15% on 153 earlier ones); buying
   an upgrade that gaps 3% or more (+1.83% on 22 events since May, -0.02% from 09:32 on 48 earlier ones); not buying
