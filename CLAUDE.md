@@ -201,9 +201,16 @@ How a thing moves between shelves:
 - No paid data (owner, 2026-10-16). Every Discord-facing text in plain Chinese (owner, 2026-11-02).
 
 ## Cadence
-- Weekdays 07:40 ET: pre-market bias (procedure below). If it starts before 08:00, research first and re-read the live
-  pre-market numbers after 08:30; on 08:30 release days read the print before the SPY call.
+Three wakes of the long conversation on a weekday since 2026-11-21 (owner: "tidy up the scheduled tasks"; seven
+before): 07:57, 12:10 (the midday exchange file) and 16:35, plus the 10:26 hand-over while the fresh-session trial runs.
+- Weekdays 07:57 ET: the pre-market round, one wake (before, 07:40 and again at 08:30): research first; after 08:30
+  start the bot and re-read the live pre-market numbers (on 08:30 release days read the print before the SPY call);
+  then the bias (procedure below) and the morning exchange file. It stays before 08:00 because the routine fired 41
+  minutes late twice in October (owner, 2026-11-02).
 - Weekdays ~10:16 ET: the intraday check-in, the only one of the day (T1):
+  - During the fresh-session trial (from 2026-11-23, five sessions; journal/research/FRESH_SESSION_TRIAL.md) a new
+    session with no memory does this check from the files alone at 10:16 and hands its file over in its reply; the
+    long conversation checks and pushes it at 10:26, or does the check itself if nothing usable came.
   - Scan big intraday movers (Webull MIN_5 / DAY_1 rankings and snapshots, read-only) and the news since the open.
     Never touch the pre-market file after 09:30.
   - At most one pick, appended to `journal/bias/intraday/<today>.json` (schema in journal/bias/README.md) and pushed to
@@ -222,7 +229,9 @@ How a thing moves between shelves:
     floor): say so in the pick and prefer a sub-$700 name when one carries the same news.
   - Ideas that do not clear the bar go into the file's `opportunities` (T6: at most three, `yes` or `maybe`; no orders;
     scored at the close). Picks carry `catalyst_zh` and opportunities `why_zh`.
-- Weekdays 16:35 ET: daily post-market review and light evolution. Grade every closed trade
+- Weekdays 16:35 ET: the evening round, one wake for three jobs (before, three wakes at 16:35, 17:10 and 17:43): the
+  daily review, the evening exchange file for the other Claude (on main by 17:15), the opportunity post-mortem.
+  First the daily post-market review and light evolution. Grade every closed trade
   (real and shadow) and the day's pre-market calls in `journal/grades.csv` with the rubric in
   `journal/GRADING.md` (process score out of 10, separate from the result; peaks from
   `journal/exits.csv`). A win with a low score is luck, not evidence. Then write the post-market
@@ -232,8 +241,9 @@ How a thing moves between shelves:
   Notify workflow posts it to Discord (owner, 2026-11-02: "you have to check after the close too").
   Also run `python -m zoh.research.oversold --today` and push journal/oversold.csv: the oversold-ETF rule's shadow
   record (stock, no orders; on trial since 2026-11-19, OVERSOLD.md, SUNDAY_TESTS 77).
-- Weekdays 17:43 ET: opportunity post-mortem (owner, 2026-11-13: "set a task: improve it every day, and when you
-  are wrong work out why you read it wrong"). `python -m zoh.research.opportunities` scores the day's ideas to the
+- Last in the evening round (until 2026-11-20 its own wake at 17:43): the opportunity post-mortem (owner, 2026-11-13:
+  "set a task: improve it every day, and when you are wrong work out why you read it wrong").
+  `python -m zoh.research.opportunities` scores the day's ideas to the
   real close (paid = 1% or more the idea's way, right, wrong; each against SPY over the same minutes), then
   `--review` lists what owes a post-mortem: every wrong idea and every pick. Each gets one row in
   journal/opportunity_reviews.csv through `--add-reviews`: one cause from the fixed list (chased, no_catalyst,
