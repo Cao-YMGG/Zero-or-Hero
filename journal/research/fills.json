@@ -1,0 +1,23 @@
+{
+ "run": "2026-11-22",
+ "since": "2026-10-13",
+ "fills": {"n": 51, "buys": 30, "sells": 21, "inside": 43, "outside": 8,
+  "outside_rows": [
+   {"date": "2026-10-22", "contract": "UNH261023C00430000", "side": "buy", "fill": 0.52, "low": 0.32, "high": 0.44},
+   {"date": "2026-10-29", "contract": "V261030C00420000", "side": "buy", "fill": 0.70, "low": 0.27, "high": 0.63},
+   {"date": "2026-10-29", "contract": "COIN261030C00185000", "side": "buy", "fill": 0.70, "low": 0.60, "high": 0.60},
+   {"date": "2026-10-29", "contract": "COIN261030C00185000", "side": "sell", "fill": 0.29, "low": 0.32, "high": 0.32},
+   {"date": "2026-10-29", "contract": "ORCL261030P00134000", "side": "buy", "fill": 0.64, "low": 0.61, "high": 0.62},
+   {"date": "2026-10-30", "contract": "GEV261030C00935000", "side": "buy", "fill": 2.15, "low": 0.07, "high": 0.72},
+   {"date": "2026-10-30", "contract": "AMZN261030P00235000", "side": "buy", "fill": 0.18, "low": 0.15, "high": 0.17},
+   {"date": "2026-11-09", "contract": "WMT261113C00131000", "side": "buy", "fill": 0.24, "low": 0.18, "high": 0.20}]},
+ "unfilled": {"orders": 7, "contracts": 6, "shadow_avg": 0.365, "filled_real_avg": -0.014, "filled_real_median": -0.959,
+  "rows": [
+   {"date": "2026-10-23", "variant": "catalyst_intraday", "contract": "ORCL261023C00128000", "limit": 0.24, "shadow": 0.2917},
+   {"date": "2026-10-28", "variant": "catalyst_intraday", "contract": "AMAT261030C00445000", "limit": 1.32, "shadow": -1.0},
+   {"date": "2026-11-06", "variant": "catalyst_open", "contract": "LLY261106C01430000", "limit": 0.91, "shadow": -1.0},
+   {"date": "2026-11-06", "variant": "catalyst_intraday", "contract": "GE261106C00330000", "limit": 0.54, "shadow": -0.9815},
+   {"date": "2026-11-09", "variant": "spy_open_drive", "contract": "SPY261109C00753000", "limit": 0.37, "shadow": 2.7973},
+   {"date": "2026-11-20", "variant": "nvda_gapdown_put", "contract": "NVDA261120P00141000", "limit": 1.28, "shadow": 2.0781}],
+  "requote_30pct_single_stock": {"n": 5, "avg": -0.28, "without_best_two": -1.0}}
+}

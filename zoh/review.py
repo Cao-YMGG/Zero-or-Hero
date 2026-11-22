@@ -22,10 +22,25 @@ def score(trades):
             "avg": sum(pnl) / len(pnl), "total": sum(pnl), "best": max(pnl), "worst": min(pnl)}
 
 
-def leaderboard(config, trades):
+def unfilled_keys(unfilled):
+    return {(u["date"], u["variant"], u["contract"]) for u in unfilled}
+
+
+def left_out(trades, unfilled):
+    """Shadow rows whose real order was cancelled unfilled: a price real money could not get."""
+    keys = unfilled_keys(unfilled)
+    if not keys:
+        return []
+    return [t for t in trades if t["mode"] == "shadow"
+            and ((t.get("entry_time") or t.get("date") or "")[:10], t["variant"], t.get("contract")) in keys]
+
+
+def leaderboard(config, trades, unfilled=()):
+    skip = {id(t) for t in left_out(trades, unfilled)}
     rows = []
     for variant in config["variants"]:
-        mine = [t for t in trades if t["variant"] == variant["id"] and t["mode"] == "shadow"]
+        mine = [t for t in trades if t["variant"] == variant["id"] and t["mode"] == "shadow"
+                and id(t) not in skip]
         rows.append({"id": variant["id"], "all": score(mine), "recent": score(mine[-WINDOW:])})
     return sorted(rows, key=lambda r: r["recent"]["avg"], reverse=True)
 
@@ -42,7 +57,7 @@ def promotion(config, board):
     return None
 
 
-def render(config, board, trades, equity, promoted, book=None):
+def render(config, board, trades, equity, promoted, book=None, unfilled=()):
     real = [t for t in trades if t["mode"] == "real"]
     real_pnl = sum(float(t["pnl"]) for t in real)
     last = equity[-1] if equity else None
@@ -64,6 +79,11 @@ def render(config, board, trades, equity, promoted, book=None):
         lines.append(f"| {r['id']}{mark} | {rec['n']} | {rec['win_rate']:.0%} | {rec['avg']:+.1%} "
                      f"| {rec['total']:+.0%} | {rec['best']:+.0%} | {rec['worst']:+.0%} "
                      f"| {a['n']} | {a['avg']:+.1%} |")
+    out = left_out(trades, unfilled)
+    if out:
+        lines += ["", f"Left out above: {len(out)} shadow trades whose real order was cancelled unfilled "
+                  "(journal/unfilled.csv): " + ", ".join(
+                      f"{t['variant']} {t['contract']} {float(t['pnl_pct']):+.0%}" for t in out) + "."]
     cfg = config.get("ledgers")
     if cfg and book is not None:
         lines += ["", "## Ledgers (one $%d virtual account per variant, real paper orders)" % cfg.get("base", 500), "",
@@ -88,7 +108,8 @@ def render(config, board, trades, equity, promoted, book=None):
 def main():
     config = journal.load_config()
     trades = journal.read_trades()
-    board = leaderboard(config, trades)
+    unfilled = journal.read_unfilled()
+    board = leaderboard(config, trades, unfilled)
     promoted = promotion(config, board)
     if promoted:
         old, new = promoted
@@ -99,7 +120,7 @@ def main():
                     f"- `{new['id']}` replaces `{old['id']}` as champion: last {WINDOW} shadow "
                     f"trades avg {new['recent']['avg']:+.1%} vs {old['recent']['avg']:+.1%} "
                     f"(n={new['recent']['n']} / {old['recent']['n']}).\n")
-    text = render(config, board, trades, journal.read_equity(), promoted, ledgers.load())
+    text = render(config, board, trades, journal.read_equity(), promoted, ledgers.load(), unfilled)
     (journal.JOURNAL_DIR / "REVIEW.md").write_text(text)
     print(text)
 

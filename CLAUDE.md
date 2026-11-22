@@ -18,8 +18,11 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
   same way; before, 20% of the ledger at 0.15 delta bought strikes 2-5% out that went to zero with the
   direction right (14 of 134 graded trades, STRIKEBUDGET.md). A ledger variant with `real_when` trades real
   only on days its condition held at the last close (stock_open_drive: SMH below its 20-day average, 2026-11-13). Real entries on SPY/QQQ contracts are
-  re-quoted once up to 50% above the first ask (10% on single stocks, bot.retry_slack). Weekly-review studies: `.github/workflows/sunday.yml`
-  (run by hand) and `zoh/research/` (exits.py, scanners.py, ...).
+  re-quoted once up to 50% above the first ask (10% on single stocks, bot.retry_slack). A real entry cancelled
+  unfilled is written to journal/unfilled.csv and its shadow row is left out of the leaderboard and the promotion
+  rule (six such shadows averaged +36% against -1% for the filled ones); an ask more than double a print of the
+  last 15 minutes gets no real order (bot.MAX_OVER_LAST; FILLS.md, 2026-11-22). Weekly-review studies:
+  `.github/workflows/sunday.yml` (run by hand) and `zoh/research/` (exits.py, scanners.py, sellside.py, ...).
   On 2026-11-19 the Alpaca news endpoint returned nothing before 2026-04-29 (and a quarter of the stored rating
   events since then were missing): event studies older than that use the stored event files
   (journal/research/slowdrift_wide_events.json, exits.json), not a fresh news pull.
@@ -52,11 +55,17 @@ How a thing moves between shelves:
   quarters) one quarter's result against the next is -0.10 and -0.14, and taking it only after a good stretch was
   worse than taking it after a bad one; a calm-market switch found on one decade was gone on the other (OVERSOLD.md,
   2026-11-19). Every option rule here has under three years of real prices, too few quarters for its last three
-  months to say much either way. A state switch counts only once it holds on years it was not found on.
+  months to say much either way. A state switch counts only once it holds on years it was not found on. A short
+  record that looks good is the usual way in: rating_open came from ten picks (+17%) and made -17% on 260 events it
+  was not found on; the overnight call read +7.8% a night after 31 nights and -5% after 63 (WEEK47.md).
 - Prefer a rule that reacts to what the market does today (an entry gate, a state switch) to one that forecasts from
   last week.
 - A test says which sectors it covered, and a rule is written no wider than its test. Most of what was tested here
   was chips and tech mega caps; the put mirror held on chips and on nothing else of nine sectors (2026-11-18).
+- A test charges what the contract costs and shows a bracket. 10% of the price a side fits thin single-stock
+  weeklies (our real fills were 3% to 20% from the nearest print, FILLS.md) and is several times too much for SPY
+  and QQQ same-day contracts (a cent a leg). A result that changes sign inside the bracket is a statement about
+  costs, not about the rule (SELLSIDE.md, 2026-11-22).
 - A test also runs the rule as an account (annual return, worst fall, days with money in) next to SPY held over the
   same span. A per-trade average hides idle money: the oversold-ETF rule is +0.37% a trade over ten years and 4-7% a
   year as an account against 14% for SPY held (OVERSOLD.md, 2026-11-19).
@@ -82,11 +91,13 @@ How a thing moves between shelves:
   (124 events, 2026-05 to 2026-11): +0.26%, -0.08% without the best five, -0.05% with the gap under 3%. Downgrades
   shorted from 09:32: -0.02% (153 events). Nothing more by day +10, and a three-week call loses 11-15% at every strike
   (SLOWDRIFT_WIDE.md); puts on downgrades lose at every strike (33 events, -16% to -40%); at option prices the 62
-  events on our own names are -9% sold on day one (do not quote their carry to expiry as evidence). The "+0.92% open
+  events on our own names are -9% sold on day one (do not quote their carry to expiry as evidence), and on 260
+  upgrades of the 105 other names the call nearest 0.45 delta made -18% sold on day one and -17% carried (-20%
+  without the best two; 2024 -32%, 2025 -27%, 2026 +6%; WEEK47.md): rating_open is retired. The "+0.92% open
   to close over 340 events" quoted here until 2026-11-19 was that selection. So: a rating change is not a reason to
   expect the stock to go on after 09:32; no slower version; a put sniper on a downgrade alone is not a trade. The
-  sniper is still named only on a rating or target change, for the shadow samples T4 needs, not because the class has
-  shown an edge at a price that can be bought.
+  sniper is still named only on a rating or target change, for catalyst_open's shadow record up to S2's bar, not
+  because the class has shown an edge at a price that can be bought.
 - **R5. A single-stock idea is mostly a bet on the market that day, and the day cannot be told in advance.** Upgrades on
   days SPY closed above its open: +1.34% (our names +2.53%); below it: +0.37% (-0.19%). The 251 scored ideas of 10-29
   to 11-17 (average beta 1.9): 76% right and +1.19% when SPY moved their way over the same minutes, 27% and -1.08% when
@@ -105,6 +116,13 @@ How a thing moves between shelves:
   over five sessions) has lift: a -1.5% SPY day within five sessions 55-60% of the time against 23-27% (15 runs since
   2020), and +1.5% days just as often: big days, not down days. Record all of them; say what they are in `reasons`; do
   not move `p_up`, the SPY call or a sniper on them alone.
+- **R7. SPY's same-day options are priced about right; what either side loses is the quote.** SELLSIDE.md (705
+  sessions, 2024-02 to 2026-11, 1,400 spreads, rising and falling months alike): selling the option nearest 0.30
+  delta at 10:00 with a five-point wing, out at 15:45 or at twice the credit, makes +$2.5 a spread at the trade
+  price both ways (about $445 at risk), -$2.3 at a cent a leg, -$15 at 10% a side; only against the 10:00 move, only
+  with it, only on flat days and without the stop are no different, and at no cost the last 3 months and the falling
+  months are still below zero. So the seller has no edge either: no selling variant, and a buying rule needs a
+  reason for direction that is worth more than the quote. Covered: SPY only, 10:00 entries only.
 
 ## Switches (on only while the condition holds)
 - **S1. stock_open_drive places real orders only after an evening with SMH below its 20-day average** (`real_when` in
@@ -123,50 +141,21 @@ How a thing moves between shelves:
   yields and dollar up, futures red). Then: a mega cap with no good news of its own, in a cooling theme or carrying a
   fresh negative (rate-sensitive, leveraged AI build-out, a peer's miss), gap under ~4%. Two days of evidence only
   (10-14 would have paid, the 10-07 put day lost). Intraday picks may be puts on any day.
-- **S5. The three open-drive ledgers skip the week of monthly expiry** (`skip_opex_week` in config). A retest on real
-  prices is owed; the other side's same-day SPY puts on 11-16 are a known counter-case.
+- **S5. The three open-drive ledgers skip the week of monthly expiry** (`skip_opex_week` in config). Retested on real
+  prices 2026-11-22 (WEEK47.md): expiry weeks 30 trades, -34% (-70% without the best two); other weeks 138, +8%
+  (+0%); worse in each of three years. The other side's same-day SPY puts on 11-16 are a known counter-case.
 
 ## On trial (weeks, not years; shadow money only)
-- **T1. One check-in a day, at 10:16** (since 2026-11-18). Over the 251 scored ideas, those listed at the 10:16 check
-  were right 57%, paid 31%, +0.43% (123 ideas, positive on 10 of 14 days); those listed 10:45-12:00 32%, 8%, -0.83%
-  (38, positive on 2 of 12 days); after 12:00 42%, 12%, -0.19% (26). The 17 intraday picks to 11-13 were right open to
-  close on 16 and right from the pick on 6. Three weeks of a falling market. Checked the same evening on two years of
-  5-minute bars (stock moves, SUNDAY_TESTS 74): the case the 11:21 check-in was added for, SMH above its open at 10:15
-  and below it at 11:20 in a falling month, lost (16 days, the weakest chip name 38% right, -0.36%, SMH itself
-  -0.14%); on days SMH was already below its open at 10:15, a put on SMH from 10:15 made +0.31% and from 11:20 +0.19%
-  (99 days); in rising months no hour was positive (a put on SMH on the days it was below its open at that hour: -0.09%
-  from 10:15, -0.04% from 11:20, -0.11% from 13:15). The bar written
-  that morning ("back if 11:21 is no worse than 10:16 in rising months") was badly put: it is a tie at nothing, and
-  there is nothing for a later check-in to buy. Stays on trial; comes back only if the option-price run of item 74
-  shows a later entry that makes money.
-- **T2. The put mirror, judged at 10:16.** Mirror ideas listed at the 10:16 check were right on 10 of 12 (+1.70%, 7
-  days); judged at 11:21, on 2 of 8 (-0.72%). After the market the type is -0.32%: what paid was the theme continuing
-  down, not the choice of name. Checked the same evening on two years of 5-minute bars (stock moves): with SMH
-  below its open at 10:15, a put on the weakest chip name made +0.67% to the close in falling months (SMH's one-month
-  return negative: 99 days, 58% right, +0.51% without the best two; SMH itself +0.31%) and lost in rising months (151
-  days, 46% right, -0.23%); the gap up adds nothing (51 days, +0.69%). One side only, so it carries a condition: the
-  theme ETF's one-month return is negative. But the last 3 months fail the bar written before the run (23 such days,
-  39% right, +0.22%, -0.40% without the best two; since 2026-05, 37 days, 46% right, -0.12% without the best two).
-  So since 2026-11-19 the mirror is an **idea, not a pick**: listed at 10:16 when its condition holds, scored, not
-  bought. It becomes a pick again, as a Switch on the falling month, only if the option-price run of SUNDAY_TESTS 74 is
-  positive without its best two over the last 3 months; that run also settles the weakest name against the ETF.
-  It is a chip pattern, not a theme rule (owner, 2026-11-18: "this is only the chip sector"). The same test on eight
-  other sectors, two years, falling months: software +0.30% (109 days, 56% right, +0.20% without the best two),
-  internet mega caps +0.13% (-0.01%), energy +0.07%, health care -0.01%, consumer -0.02%, staples -0.02%, industrials
-  -0.17%, banks -0.31%; the eight together 807 days, 49% right, 0.00%, no entry hour better than another, and a
-  late-arming mirror -0.05% (181 days). One clearly positive sector out of nine may be luck or just chips' drawdowns
-  in this window. So the idea is listed for chips (SMH) and software (IGV) only, and nothing learned on chips is
-  written as "a theme" before it has been run on the other sectors.
+T1, T2 and T4 left this shelf on 2026-11-22, when their tests ran on real option prices (SUNDAY_TESTS 70 and 74,
+WEEK47.md). The single check-in at 10:16 is plain cadence now: a later entry made nothing on stock moves (two years
+of 5-minute bars) and lost on options (chips, 11:21: -14%, -21% without the best two). The put mirror is an
+observation: +0.67% on the stock in falling months (chips, 99 days), not there in the last 3 months, and on option
+prices -22% without its best two at 10:16 (96 days; the last 3 months -36%), no better on SMH, on a QQQ put, on
+software or at 0.35 delta. rating_open is retired (R4). The numbers stay where they are.
 - **T3. Not at the extreme; priced past 3%.** Ideas listed within 0.25% of the day's extreme paid 14-20% (43 ideas)
   against 23-33% off it (144): no idea and no pick at the day's extreme. A pre-market catalyst counts as priced once
   the stock is >= 3% from its open by the check-in (one case, AMZN 11-02), though ideas already 3% their way paid 29%
   (51 ideas), no worse than the rest. Test: SUNDAY_TESTS 73.
-- **T4. rating_open** (shadow: two contracts nearest 0.45 delta whatever they cost, half out at 2x, the rest trails
-  from 1.5x; classes `upgrade` and `target` only). On real option prices to 11-13 the 13 rating-change snipers were
-  right on 10 (+0.91%) and made +17% (+7% without the best, -4% without the best two; 10 entries); the 10 company-news
-  snipers were right on 5 (-0.46%) and lost 56-71% at every strike. Ten entries make a candidate. Test:
-  SUNDAY_TESTS 70. Its stock-level basis is gone (R4, 2026-11-19): from 09:32 a rating change is worth +0.04% to
-  +0.11%, so a pass would have to come from the option's shape, not from drift. My guess before the run: it fails.
 - **T5. The pick bar: the tape must already agree** (the stock moving the pick's way from its open or since the
   headline), and a pick says what is still to come (news not yet out, a level not yet reached), not what the stock has
   done. From two option trades and the 17 picks above.
@@ -207,7 +196,7 @@ before): 07:57, 12:10 (the midday exchange file) and 16:35, plus the 10:26 hand-
   start the bot and re-read the live pre-market numbers (on 08:30 release days read the print before the SPY call);
   then the bias (procedure below) and the morning exchange file. It stays before 08:00 because the routine fired 41
   minutes late twice in October (owner, 2026-11-02).
-- Weekdays ~10:16 ET: the intraday check-in, the only one of the day (T1):
+- Weekdays ~10:16 ET: the intraday check-in, the only one of the day:
   - During the fresh-session trial (from 2026-11-23, five sessions; journal/research/FRESH_SESSION_TRIAL.md) a new
     session with no memory does this check from the files alone at 10:16 and hands its file over in its reply; the
     long conversation checks and pushes it at 10:26, or does the check itself if nothing usable came.
@@ -220,11 +209,10 @@ before): 07:57, 12:10 (the midday exchange file) and 16:35, plus the 10:26 hand-
     report window (R3), never on relative strength with no news anywhere behind it, never at the day's extreme (T3).
   - Look at both sides (owner, 2026-11-03). Call side, the day's leader: a large cap up >= 2% beyond SPY while its
     sector or the index is flat or red; without in-session news of its own, a leader already >= 3% from its open goes
-    into `opportunities`, not `picks`. Put side, the mirror (T2), chips and software only: when SMH or IGV is down over
-    the last month and already below its open at the check-in, the weakest chip or software mega cap that is below its
-    own open and outside a report window is listed as an idea (`yes` or `maybe`), not picked, strongest when a sector
-    negative broke the same morning (target cuts across the group, a raise of capital, dilution). No other sector; no
-    conditional line for later. Calls on a turning theme's names: S3.
+    into `opportunities`, not `picks`. Put side: a put idea needs a cause of its own like any other idea
+    (news that broke in the session, target cuts across a group, a raise of capital, dilution). The put mirror
+    (the weakest chip or software name while its ETF is below its open in a falling month) is no longer listed,
+    as an idea or a pick (SUNDAY_TESTS 74, 2026-11-22). Calls on a turning theme's names: S3.
   - A pick on a stock above ~$1,000 is a shadow sample only (the 20% stake, ~$92, buys nothing at the 0.06-delta
     floor): say so in the pick and prefer a sub-$700 name when one carries the same news.
   - Ideas that do not clear the bar go into the file's `opportunities` (T6: at most three, `yes` or `maybe`; no orders;
@@ -337,7 +325,11 @@ scored against purely mechanical variants.
    is not what keeps the call at `none`; an estimate that never leaves 0.45-0.55 is. Do not lower the bar. When the
    evidence is one-sided (data, yields, futures and breadth the same way), write the number that says so. Decide
    `call`, `put` or `none`; prefer `none` when evidence is mixed: a skipped day costs nothing, a coin flip costs the
-   spread and theta.
+   spread and theta. A base rate goes into `reasons` with its sample and never carries the estimate across a bar by
+   itself. The one on file: the day after an open-to-close of -2% or worse in a falling month SPY closed above its
+   open 64% and 61% of the time (2004-2016 and 2016-2026, 111 days; IWM and DIA 59% and 64%), and in a rising month
+   it did not; a streak of sessions closing below the open says nothing about the next (SUNDAY_TESTS 80). On
+   2026-11-20 it was quoted, `p_up` went to 0.56 and SPY fell 3.2% from its open.
 2b. Rotation map (context and a filter on our own picks, R6): with Webull or Alpaca daily bars, compute 1-week and
    1-month returns for theme baskets: GPU (NVDA), CPU (AMD, INTC, ARM), memory (MU, SNDK), disk storage (WDC, STX;
    keep these two apart), optical (LITE, CIEN), power (GEV, VST), internet (META, GOOGL, MSFT, AMZN, AAPL), plus
@@ -357,7 +349,7 @@ scored against purely mechanical variants.
    XOM, WMT, COST, V...; mostly Friday expiries, so the sniper buys the nearest one). Scan Webull PRE_MARKET movers
    and news and that morning's analyst calls. Outside the report window (R3); a put only on a put day (S4); calls on
    a turning theme's names per S3; the reading habits above before naming it. Shadow-only (S2): catalyst_open trades
-   every class at 0.10 delta and its hero the full ledger, rating_open the two rating classes (T4).
+   every class at 0.10 delta and its hero the full ledger.
 4. Write `journal/bias/<today>.json` in the schema from `journal/bias/README.md`, commit
    ("bias: <date> <call|put|none>") and push to `main` before 09:30 ET. Fill `opportunities` with the ideas of the
    morning I would back (T6: at most four, no controls) by type (journal/research/OPPORTUNITIES.md), traded or not;

@@ -1,7 +1,8 @@
 # Weekly test list
 
 The Sunday review works through this list on **real option prices** (Alpaca option bars,
-zoh/realopt.py / realopt2.py helpers), costs 10% of the option price (5% as a bracket).
+zoh/realopt.py / realopt2.py helpers), costs 10% of the option price (5% as a bracket; on SPY and QQQ
+same-day contracts also a cent a leg, since 10% a side is several times what their quote costs: SELLSIDE.md).
 Lead with the last 3 months; 2026 and the full period are context. A rule that is positive
 recently but negative over two years is a candidate; the reverse is a reject.
 After each run, move the item to "Done" with the headline numbers, and record the result
@@ -623,6 +624,12 @@ in EVOLUTION.md.
    above +0.2% after beta with 20 or more ideas, the idea list goes down to the types that pass and the rest stop being
    listed; if (b) shows upgrades at or under 0% open to close in one state and +1% or more in the other with 40 or more
    events each, the sniper is named only in the good state (the shadow keeps both). No rule changes before that.
+   **RUN 2026-11-22 (WEEK47.md, week47.json).** 260 of the 278 upgrades priced. The rule (0.45 delta, half out at 2x,
+   trail from 1.5x), carried: -17% / -19% / -20% (average / without the best / without the best two); sold on day
+   one -18% / -20% / -20%; at 5% costs -6% / -7% / -9%; last 3 months (16 events) -9% / -25% / -40%; 2024 -32%, 2025
+   -27%, 2026 +6% (-2% without the best two). 0.30 delta and plain holding are no better. **Bar: retired.**
+   rating_open is out of the config (population 10), T4 is off the trial shelf, and the ten picks it was added on
+   are no longer quoted. My guess before the run (it fails) held.
 73. **The 3% line as a "no by construction" (2026-11-18).** Intraday ideas by how far the stock had already gone the
    idea's way from its open when listed: 3% or more, 51 ideas, 47% right, 29% paid, +0.34%; 1-3%, 67, 55%, 22%, +0.18%;
    0-1%, 33, 42%, 15%, -0.41%; against or flat, 36, 50%, 25%, +0.02%. The line came from one day (11-13: six puts past it
@@ -709,6 +716,14 @@ in EVOLUTION.md.
    mirror is a chip pattern (and perhaps a software one), not a theme rule; one clearly positive sector of nine may be
    luck or chips' drawdowns in the window. CLAUDE.md T2 now lists it for chips and software only (PR #131). The
    option-price run should cover chips and software and report both.
+   **Option-price run 2026-11-22 (WEEK47.md).** Falling months, the ETF below its open at 10:15, a put on the weakest
+   name, nearest expiry, sold at 15:45, 10% costs. Chips at 10:16, 0.20 delta: 96 trades, 26% win, +4% / -15% / -22%;
+   last 3 months (23) -36% / -45% / -52%; with the live exit -1% / -12% / -14%; 0.35 delta -10% / -15% / -19%. SMH
+   itself +9% / -7% / -19% (last 3 months -6% / -19% / -29%); a QQQ same-day put on the same mornings -10% / -21% /
+   -28%. Software, weakest name: -16% / -21% / -25% (live exit -3% / -5% / -7%). Chips at 11:21: -14% / -18% / -21%.
+   **Bar not met** (nothing positive without its best two, on any leg, strike, exit or hour). The mirror goes from
+   the trial shelf to the observations and is no longer listed as an idea; the later check-in stays off (T1's
+   question is answered: there is nothing for it to buy).
 75. **Holds across the night instead of same-day options (2026-11-18, owner: "we need methods that can really be
    used").** OVERNIGHT_HOLD.md: over ten years SMH made +29% a year overnight and +2.5% in the daytime, NVDA +50% and
    +10%, AMD +53% and +9%, AVGO +39% and -0.3%, AMZN +28% and -3%; in falling months the overnight leg was still
@@ -720,6 +735,11 @@ in EVOLUTION.md.
    sold at 15:45. Bar, written before the run: the overnight call positive without its best two in both kinds of month
    on at least three of the four chip names and better than its daytime twin, or it stays an observation. If it
    passes, a shadow variant holds one such call a night; nothing real before 20 shadow nights.
+   **First cut 2026-11-22, last 3 months only (WEEK47.md).** 63 nights, SMH / NVDA / AMD / AVGO, 228 night calls:
+   before any cost -5% / -7% / -8% a night, at 2% a side -9%, at 10% -23%; the daytime twin -10% before costs. The
+   stocks' own night was -0.07% in the window. By SMH's month: rising (28 nights) -16%, falling (35) +4% / +1% /
+   -1%, before costs. Negative on its last three months before costs, so it is a reject and the two-year run is
+   not owed. (At 31 nights the same table read +7.8% a night; the other 32 took it to -5%.) AAPL and XLV not run.
 76. **The upgrade bought at the open, without the 09:32 gate (2026-11-18).** R4's 340 events were kept only when the
    stock was not against the rating at 09:32 (slowdrift.gather), so "+0.92% from the open" is conditioned on the first
    two minutes; a person buying at the open cannot apply that gate. Collected the same evening: every strict pre-market
@@ -791,6 +811,14 @@ in EVOLUTION.md.
    VIXY's level, IWM and DIA as the names not looked at; a Switch candidate for `p_up` only if it is at least 58% up
    and +0.25% on IWM and DIA together in both halves of the sample. Until then it is a base rate quoted in the
    morning file, not a reason to bet.
+   **RUN 2026-11-22 (WEEK47.md).** (a) The streak line waits a week: this week's one move onto the Rules shelf is R7
+   (item 82). (b) IWM and DIA together, the day after each one's own -2% day: 2004-2016, 237 days, 57% up, +0.39%;
+   2016-2026, 156 days, 64%, +0.42%. **Bar not met** (57% in the first half, a point under 58%). By the split
+   written with the bar: in a falling month 59% and 64% up, +0.54% in both halves; in a rising month 52% and 60%,
+   -0.04% and +0.02%. On option prices there is no sample to speak of: ten such mornings on SPY since 2024-02, a
+   0.35-delta call from 10:00 to 15:45, a cent a leg: +30% / -46% / -58%, all of it 2025-04-09. So it stays a base
+   rate for the morning file, in falling months only, and never moves `p_up` across the call bar by itself.
+   Brier, 21 mornings: 0.243 against 0.250 for a flat 0.50 (week 47 alone 0.253).
 81. **Were our real fills at real prices? (2026-11-19, from the other side's fill audit.)** On 11-19 the paper broker's
    quotes for same-day SPY puts stood at the previous close from 09:40 to 10:00 (a 733 put booked at 5.61 while it
    traded at 1.82-2.31), and their orders filled there; their 232 earlier SPY fills were all inside the minute's
@@ -802,6 +830,11 @@ in EVOLUTION.md.
    Note 11-20: in this container the option *snapshot* endpoint is 15 minutes behind with current time stamps (the
    141 put showed 2.56 at 10:03 when it traded 1.30-1.57); only minute bars older than 15 minutes are true. The bot's
    own quote at 10:01 (1.28) matched the traded range, so the workflow's quotes were live that day.
+   **RUN 2026-11-22 (FILLS.md, fills.json).** 51 real fills: 43 inside, 8 outside, all eight on thin single-stock
+   contracts bought by the sniper, the pick or leader_follow; seven are 3% to 20% from the nearest print, one (GEV
+   935C, 10-30) was bought at 2.15 against prints of 0.07 to 0.72 and cost $215 of the $650 lost since 10-13. Every
+   SPY, TSLA and NVDA fill is inside. The check is in the bot (`MAX_OVER_LAST`: an ask more than double a print of
+   the last 15 minutes is treated like a wide quote). Closed.
 82. **The other side of our own trades: selling instead of buying (2026-11-20, owner: "if I want to find the gold
    mine, what methods do you have?").** Two months of records say the buyer of same-day options loses on average (the
    shadow record about -22% a trade; every buying rule tested on real prices is negative or lives on one or two
@@ -820,6 +853,15 @@ in EVOLUTION.md.
    shadow variant only; a real ledger waits for the owner, who would need a permission level and a margin account for
    spreads (owner, 11-20: "you have to start by buying before you can sell"). My guess before the run: positive on
    average, with the worst two weeks taking back most of it.
+   **RUN 2026-11-22 (SELLSIDE.md, sellside.json, zoh/research/sellside.py).** 705 sessions, 1,400 spreads. Per
+   spread, version (a): 10% a side -$15.4 (1 month of 34 above zero), 5% -$7.9, 2% -$4.0, a cent a leg -$2.3, the
+   trade price both ways +$2.5 on about $445 at risk. (b) against the 10:00 move: -$16.3 at 10%, +$1.1 at no
+   cost; with the move -$14.6 and +$4.0. (c) flat days: -$14.1 and +$3.0. Without the stop, a cent a leg: 72% win,
+   -$2.9, worst spread -$462. 2026-11-19 and 11-20: the put spreads stopped at -$88 and -$93, the call spreads kept
+   +$87 and +$80. **Bar not met at any cost**; even at no cost the last 3 months and the falling months are below
+   zero. My guess (positive on average, the worst weeks taking most of it back) was wrong: there is no average to
+   take back. No shadow variant. It becomes R7 in CLAUDE.md: SPY's same-day options are priced about right, and what
+   either side loses is the quote.
 83. **Shadow fills that real money could not get (2026-11-20).** nvda_gapdown_put: the real limit order for the 141
    put at 1.28 (10:01:12) was cancelled unfilled; the contract traded 1.20-1.46 in that minute, its low was 1.28 and
    1.30 in the next two, and the single-stock re-quote cap (10%) did not reach it. The shadow booked 1.28 and took
@@ -829,6 +871,21 @@ in EVOLUTION.md.
    readiness and promotion number; (b) the single-stock cap moves only if the re-quoted fills, at the higher price,
    are positive without their best two.
 
+   **RUN 2026-11-22 (FILLS.md).** Seven orders on six contracts. Their shadows: +29%, -100%, -100%, -98%, +280%,
+   +208%: +36% on average against -1% for the 32 filled real rows. **(a) met:** the rows are flagged in
+   journal/unfilled.csv (the bot writes each miss from now on) and left out of the leaderboard, the promotion rule
+   and the dashboard. **(b) not met:** five single-stock re-quotes at 30% above the first ask: -28% on average,
+   -100% without the best two. The 10% cap stays.
+84. **S5 retest (2026-11-22, WEEK47.md).** The stored open-drive trades at 0.35 delta, half at 3x and the rest held:
+   expiry weeks 30 trades, 20% win, -34% / -59% / -70%; other weeks 138, 38%, +8% / +4% / +0%; expiry weeks are
+   the worse in each of 2024, 2025 and 2026. The skip stays. Not asked but seen: the other weeks' last 3 months are
+   -13% / -36% / -51% (23 trades), and 2024 and 2025 are negative; the family is positive in 2026 only. For next
+   Sunday, bar written now: if the open-drive trades of the last 6 months (other weeks, 0.35 delta, the live exit)
+   are negative without their best two on SPY and on NVDA and TSLA alike, the two call ledgers go back to
+   shadow-only until 10 shadow signals win 4.
+85. **Not run this week:** 73 (the 3% line on option prices) and 77 (the oversold rule on option prices and as a
+   $500 ledger). Both guesses stand at "fails"; five option tests failed this week and neither would change what
+   is traded. They stay open, behind 84.
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
   live entry) and intraday pick (10) since 10-01 on real option minute bars, 10% costs each way. Snipers,
