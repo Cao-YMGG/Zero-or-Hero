@@ -168,7 +168,7 @@ class RealGateTest(unittest.TestCase):
 class SpreadGateTest(unittest.TestCase):
     """A quote wider than MAX_SPREAD gets no real order; the shadow books the mid (GE 330C 0.09/0.54, 11-06)."""
 
-    def _enter(self, bid, ask):
+    def _enter(self, bid, ask, last=None, last_time=None):
         orders = []
 
         class FakeBot(botmod.Bot):
@@ -187,7 +187,8 @@ class SpreadGateTest(unittest.TestCase):
         vstate = {}
         old = botmod.chain_candidates
         botmod.chain_candidates = lambda *a, **k: [{"symbol": "SPY261106C00740000", "strike": 740, "ask": ask,
-                                                    "bid": bid, "delta": 0.13, "quote_time": None}]
+                                                    "bid": bid, "delta": 0.13, "quote_time": None,
+                                                    "last": last, "last_time": last_time}]
         try:
             b.try_enter({"id": "spy_open_drive", "target_delta": 0.15}, vstate, "call", 736.0,
                         datetime(2026, 11, 6, 10, 21, tzinfo=ET))
@@ -206,6 +207,28 @@ class SpreadGateTest(unittest.TestCase):
         orders, vstate = self._enter(bid=0.50, ask=0.54)
         self.assertEqual(orders, [("SPY261106C00740000", 1, 0.54)])
         self.assertEqual(vstate["shadow"]["entry_price"], 0.54)
+
+    def test_an_ask_far_above_the_last_print_is_shadow_only(self):
+        """2026-10-30 GEV 935C: asked 2.19 two minutes after a print at 0.07; bought at 2.15, expired
+        at zero. The spread alone need not show it (a bid just under the ask): the last print does."""
+        orders, vstate = self._enter(bid=0.50, ask=0.54, last=0.07, last_time="2026-11-06T15:19:00Z")
+        self.assertEqual(orders, [])
+        self.assertEqual(vstate["shadow"]["entry_price"], 0.52)   # the mid, as for a wide quote
+
+    def test_an_old_print_or_a_near_one_does_not_stop_the_order(self):
+        orders, _ = self._enter(bid=0.50, ask=0.54, last=0.07, last_time="2026-11-06T14:30:00Z")   # 51 minutes old
+        self.assertEqual(orders, [("SPY261106C00740000", 1, 0.54)])
+        orders, _ = self._enter(bid=0.50, ask=0.54, last=0.40, last_time="2026-11-06T15:20:00Z")   # 35% above
+        self.assertEqual(orders, [("SPY261106C00740000", 1, 0.54)])
+
+    def test_over_last_trade(self):
+        now = datetime(2026, 11, 6, 10, 21, tzinfo=ET)
+        q = {"ask": 2.19, "last": 0.07, "last_time": "2026-11-06T15:19:00Z"}
+        self.assertAlmostEqual(botmod.over_last_trade(q, now), 2.19 / 0.07 - 1)
+        self.assertEqual(botmod.over_last_trade({**q, "last_time": None}, now), 0.0)
+        self.assertEqual(botmod.over_last_trade({**q, "last": 0}, now), 0.0)
+        self.assertEqual(botmod.over_last_trade({**q, "last_time": "2026-11-06T15:30:00Z"}, now), 0.0)  # after now
+        self.assertEqual(botmod.over_last_trade({**q, "last_time": "not a time"}, now), 0.0)
 
     def test_spread_of(self):
         self.assertAlmostEqual(botmod.spread_of({"ask": 0.54, "bid": 0.09}), 0.8333, places=3)
@@ -959,6 +982,39 @@ class LedgerSizingTest(unittest.TestCase):
             botmod.chain_candidates = old
         return orders, vstate
 
+    def test_an_unfilled_real_entry_is_written_down(self):
+        """2026-11-09: the real order for the SPY call went unfilled and the shadow made +280%. The
+        miss is recorded so the review can leave that shadow row out (SUNDAY_TESTS 83)."""
+        cands = [{"symbol": "SPY261109C00750000", "strike": 750, "ask": 1.80, "bid": 1.78, "delta": 0.36, "quote_time": None}]
+        cfg = {"base": 500, "dead": 50, "risk": 0.5, "one_contract_cap": 0.5, "pause_after": 5, "max_contracts": 1}
+        missed = []
+
+        class FakeBot(botmod.Bot):
+            def __init__(self):
+                self.api, self.dry_run, self.underlying = None, False, "SPY"
+                self.today = date(2026, 11, 9)
+                self.config = {"backtest": {"start_equity": 500}, "ledgers": cfg}
+                self.state = {"equity_start": 457.0, "risk_per_trade": 0.2, "champion": "nvda_gapdown_put",
+                              "real_underlyings": [],
+                              "ledgers": {"spy_open_drive": {"equity": 410.0, "paused": False, "generation": 1}}}
+
+            def _buy_entry(self, symbol, qty, ask):
+                return 0, None
+
+        vstate = {}
+        old, old_log = botmod.chain_candidates, botmod.journal.append_unfilled
+        botmod.chain_candidates = lambda *a, **k: cands
+        botmod.journal.append_unfilled = missed.append
+        try:
+            FakeBot().try_enter({"id": "spy_open_drive", "target_delta": 0.35}, vstate, "call", 747.5,
+                                datetime(2026, 11, 9, 10, 1, tzinfo=ET))
+        finally:
+            botmod.chain_candidates, botmod.journal.append_unfilled = old, old_log
+        self.assertNotIn("real", vstate)
+        self.assertEqual(vstate["shadow"]["contract"], "SPY261109C00750000")
+        self.assertEqual(missed, [{"date": "2026-11-09", "variant": "spy_open_drive",
+                                   "contract": "SPY261109C00750000", "limit": 1.80}])
+
     def test_ledger_variant_buys_one_near_the_money_contract_off_its_ledger(self):
         """2026-11-09 10:01: SPY 747.5. The old 20% / 0.15-delta rule bought the 753C at 0.37; half the
         $410 ledger ($205) now buys the 0.35-delta 750C at 1.80, one contract, shadow and real alike."""
@@ -984,17 +1040,16 @@ class LedgerSizingTest(unittest.TestCase):
 
 
 class RatingOpenTest(unittest.TestCase):
-    """Weekly review 2026-11-15: a shadow sample of the rating-change snipers near the money."""
+    """Weekly review 2026-11-15: a shadow sample of the rating-change snipers near the money. Retired on
+    2026-11-22 by the bar written for it: on 260 upgrades it was not found on, its own rule made -17%
+    (-20% without the best two). The fixed-contracts and classes mechanics below stay for the next sample."""
 
     def test_config(self):
         config = json.loads((journal.ROOT / "config" / "strategy.json").read_text())
         by_id = {v["id"]: v for v in config["variants"]}
-        v = by_id["rating_open"]
-        self.assertEqual((v["signal"], v["classes"], v["contracts"]), ("catalyst", ["upgrade", "target"], 2))
-        self.assertEqual((v["target_delta"], v["half_at"], v["trail_after"]), (0.45, 2.0, 0.5))
-        self.assertEqual(v.get("real_risk", 0), 0)
+        self.assertNotIn("rating_open", by_id)
         self.assertNotIn("rating_open", config["ledgers"]["variants"])
-        self.assertNotIn("rebound_scanner", by_id)          # retired the same day
+        self.assertNotIn("rebound_scanner", by_id)          # retired 2026-11-15
         self.assertLessEqual(len(config["variants"]), 12)
 
     def test_fixed_contracts_buy_the_target_delta_whatever_it_costs(self):

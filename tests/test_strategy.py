@@ -253,6 +253,20 @@ class ReviewTests(unittest.TestCase):
         old, new = review.promotion(config, review.leaderboard(config, trades))
         self.assertEqual((old["id"], new["id"]), ("a", "b"))
 
+    def test_a_shadow_whose_real_order_went_unfilled_is_left_out(self):
+        """2026-11-20: the real NVDA put order was cancelled at 1.28 and the shadow booked +208%."""
+        config = {"champion": "a", "variants": [{"id": "a"}]}
+        win = {"variant": "a", "mode": "shadow", "pnl_pct": "2.08", "date": "2026-11-20",
+               "entry_time": "2026-11-20T10:01:10-05:00", "contract": "NVDA261120P00141000"}
+        loss = {"variant": "a", "mode": "shadow", "pnl_pct": "-1.0", "date": "2026-11-19",
+                "entry_time": "2026-11-19T10:01:10-05:00", "contract": "NVDA261119P00150000"}
+        missed = [{"date": "2026-11-20", "variant": "a", "contract": "NVDA261120P00141000", "limit": "1.28"}]
+        self.assertEqual(review.leaderboard(config, [win, loss])[0]["all"]["n"], 2)
+        board = review.leaderboard(config, [win, loss], missed)
+        self.assertEqual((board[0]["all"]["n"], board[0]["all"]["avg"]), (1, -1.0))
+        self.assertEqual(review.left_out([win, loss], missed), [win])
+        self.assertIn("Left out above: 1 shadow", review.render(config, board, [win, loss], [], None, unfilled=missed))
+
     def test_no_promotion_with_few_trades(self):
         config = {"champion": "a", "variants": [{"id": "a"}, {"id": "b"}]}
         trades = [{"variant": "b", "mode": "shadow", "pnl_pct": "0.4"}] * 10

@@ -114,3 +114,20 @@ each part, one line each: the date, what happened, what it suggested, where it s
 - 2026-11-19 AMD: listed as the put mirror at 10:18 (533.64); a short seller's report at about 10:25 took it to 470.75.
   Counted as luck in the post-mortem; no rule can be made of a report nobody could know of.
 
+- 2026-11-22 (weekly review, WEEK47.md): things that came off the trial shelf and stay here as observations.
+  - **The put mirror.** With SMH below its open at 10:15 in a falling month, a put on the weakest chip name made
+    +0.67% on the stock to the close (99 days, 58% right, two years); nothing in rising months, nothing in the last 3
+    months, nothing on seven other sectors. On option prices: 96 days, 0.20 delta held, +4% / -15% / -22% (average /
+    without the best / without the best two), last 3 months -36%; SMH itself, a QQQ put, software, 0.35 delta and the
+    11:21 entry are all negative without their best two. Not listed as an idea any more.
+  - **A call across the night.** Ten years of daily bars say the chip names made their money at night
+    (OVERNIGHT_HOLD.md). A 0.50-delta call bought at 15:50 and sold at 09:35 over the last 63 nights: -5% a night
+    before any cost (SMH, NVDA, AMD, AVGO; 228 calls), better than the same call held through the day (-10%) and
+    still a loss. After 31 nights it had read +7.8%.
+  - **The day after a -2% open-to-close.** In a falling month SPY closed above its open 64% and 61% of the time
+    (2004-2016, 2016-2026), IWM and DIA together 59% and 64%, +0.54%; in a rising month nothing. The pooled bar
+    (58% in both halves) failed by a point. On option prices there are ten such mornings since 2024-02 and all of the
+    gain is one of them (2025-04-09). A base rate for `reasons`.
+  - **The open-drive family by year** (opengate.json, 0.35 delta, outside expiry weeks): 2024 -33% a trade, 2025
+    -10%, 2026 +37% (+22% without the best two), last 3 months -13% (-51% without the best two). SUNDAY_TESTS 84
+    carries the bar for the call ledgers.

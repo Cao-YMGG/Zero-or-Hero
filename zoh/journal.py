@@ -15,6 +15,9 @@ LEDGER_PATH = JOURNAL_DIR / "ledger.json"
 EXITS_PATH = JOURNAL_DIR / "exits.csv"
 EXIT_FIELDS = ["date", "variant", "mode", "contract", "entry_price", "exit_price", "peak", "exit_reason"]
 BIAS_DIR = JOURNAL_DIR / "bias"
+# Real entries that were cancelled unfilled while the shadow booked the same quote (SUNDAY_TESTS 83).
+UNFILLED_PATH = JOURNAL_DIR / "unfilled.csv"
+UNFILLED_FIELDS = ["date", "variant", "contract", "limit", "note"]
 
 TRADE_FIELDS = ["date", "variant", "mode", "contract", "direction", "entry_time", "entry_price",
                 "exit_time", "exit_price", "qty", "pnl", "pnl_pct", "exit_reason", "phase",
@@ -121,6 +124,23 @@ def append_trade(row):
         if new:
             writer.writeheader()
         writer.writerow({k: row.get(k, "") for k in TRADE_FIELDS})
+
+
+def append_unfilled(row):
+    """A real entry order that did not fill. Its shadow row is a price real money could not get:
+    2026-11-09 SPY 753C (shadow +280%) and 2026-11-20 NVDA 141P (+208%) both ran away from a limit at
+    the first ask. review.leaderboard leaves such rows out."""
+    JOURNAL_DIR.mkdir(exist_ok=True)
+    new = not UNFILLED_PATH.exists()
+    with UNFILLED_PATH.open("a", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=UNFILLED_FIELDS)
+        if new:
+            writer.writeheader()
+        writer.writerow({k: row.get(k, "") for k in UNFILLED_FIELDS})
+
+
+def read_unfilled():
+    return _read(UNFILLED_PATH)
 
 
 def append_exit(row):

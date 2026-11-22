@@ -154,7 +154,7 @@ def bias_card(bias):
 
 def leaderboard_card(config, trades):
     rows = []
-    for r in leaderboard(config, trades):
+    for r in leaderboard(config, trades, journal.read_unfilled()):
         a = r["all"]
         champ = ' <span class="badge champ">冠军</span>' if r["id"] == config["champion"] else ""
         cls = "up" if a["avg"] > 0 else "down" if a["avg"] < 0 else "muted"

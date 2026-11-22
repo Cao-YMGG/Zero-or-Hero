@@ -221,6 +221,12 @@ INDEX_RETRY_SLACK = 0.50  # SPY/QQQ/IWM contracts: the fresh ask is a real selle
 # 0.28/0.91 (LLY) and 0.09/0.54 (GE). A quote that wide has no seller at the ask: no real order,
 # and the shadow books the mid so it stops overstating the loss. Config "max_spread" overrides.
 MAX_SPREAD = 0.5  # (ask - bid) / ask above this: shadow at the mid, no real order
+# 2026-10-30: the GEV 935C was bought at 2.15 while its three prints of the first eleven minutes
+# were 0.72, 0.07 and 0.30; it expired at zero and cost $215, a third of all real losses to
+# 2026-11-20 (FILLS.md, SUNDAY_TESTS 81). An ask more than double a print of the last quarter hour
+# is a quote nobody is trading at: treated like a wide quote.
+MAX_OVER_LAST = 1.0
+LAST_TRADE_WINDOW = timedelta(minutes=15)
 # The same morning the $92 budget bought a 0.03-delta LLY call. Below this |delta| a contract is
 # not the strategy: the pick is "nothing affordable". Config or variant "min_delta" overrides.
 MIN_DELTA = 0.06
@@ -232,6 +238,21 @@ def spread_of(quote):
     if ask <= 0 or bid is None or bid < 0:
         return 0.0
     return (ask - bid) / ask
+
+
+def over_last_trade(quote, now):
+    """How far the ask stands above the contract's latest print (0.5 = 50% above), or 0 when there
+    is no print from the last quarter of an hour to compare with."""
+    last, when, ask = quote.get("last") or 0, quote.get("last_time"), quote.get("ask") or 0
+    if last <= 0 or ask <= 0 or not when:
+        return 0.0
+    try:
+        t = datetime.fromisoformat(str(when).replace("Z", "+00:00"))
+    except ValueError:
+        return 0.0
+    if t.tzinfo is None or not timedelta(0) <= now - t <= LAST_TRADE_WINDOW:
+        return 0.0
+    return ask / last - 1
 
 
 def retry_slack(symbol):
@@ -260,9 +281,11 @@ def chain_candidates(api, underlying, expiry, kind, spot, now, width=0.03):
                 bid, ask = quote.get("bp") or 0, quote.get("ap") or 0
                 iv = implied_vol((bid + ask) / 2 if bid else ask, spot, strike, years, kind) or 0.16
             delta = bs_delta(spot, strike, years, iv, kind)
+        trade = snap.get("latestTrade") or {}
         candidates.append({"symbol": symbol, "strike": strike, "ask": quote.get("ap") or 0,
                            "bid": quote.get("bp") or 0, "delta": delta,
-                           "quote_time": quote.get("t")})
+                           "quote_time": quote.get("t"),
+                           "last": trade.get("p") or 0, "last_time": trade.get("t")})
     return candidates
 
 
@@ -418,14 +441,17 @@ class Bot:
                 f"at delta >= {min_delta:.2f}")
             return
         spread = spread_of(pick)
-        wide = spread > self.config.get("max_spread", MAX_SPREAD)
+        over = over_last_trade(pick, now)
+        wide = (spread > self.config.get("max_spread", MAX_SPREAD)
+                or over > self.config.get("max_over_last", MAX_OVER_LAST))
         entry = round_limit((pick["ask"] + pick["bid"]) / 2) if wide else pick["ask"]
         qty = fixed or contracts_for(budget, entry)
         if own is not None:
             qty = cap_contracts(qty, self.config.get("ledgers", {}))
         log(f"{variant['id']}: {direction} signal @ {spot:.2f} -> {pick['symbol']} "
             f"bid={pick['bid']} ask={pick['ask']} delta={pick['delta']:.2f} spread={spread:.0%} qty={qty}"
-            + (f" (wide quote: shadow at the mid {entry}, no real order)" if wide else ""))
+            + (f" (wide quote{f', ask {over:.0%} above the last print' if over > MAX_OVER_LAST else ''}: "
+               f"shadow at the mid {entry}, no real order)" if wide else ""))
         vstate["entered"] = True
         vstate["shadow"] = {"contract": pick["symbol"], "direction": direction,
                             "entry_time": now.isoformat(timespec="seconds"),
@@ -465,6 +491,11 @@ class Bot:
                 vstate["real"] = {"contract": pick["symbol"], "qty": filled, "underlying": underlying,
                                   "entry_price": price,
                                   "entry_time": now_et().isoformat(timespec="seconds")}
+            else:
+                # The shadow keeps a price the real order could not get: flag it, so the review
+                # leaves the row out (5 such shadows averaged +64% against -1% for the filled ones).
+                journal.append_unfilled({"date": self.today.isoformat(), "variant": variant["id"],
+                                         "contract": pick["symbol"], "limit": pick["ask"]})
 
     def _buy_entry(self, symbol, qty, ask):
         """Limit buy at the ask; when that is unfilled after 90 s, re-quote once and pay the fresh

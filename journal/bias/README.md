@@ -27,8 +27,9 @@ appears; the `claude_bias` / `claude_confirm` variants trade it in shadow mode.
     "class": "target",            // since 2026-11-16: "upgrade" (a rating change by a broker), "target" (a
                                   // target raise or cut with the rating kept), "news" (product, contract,
                                   // partnership, monthly sales, a report of talks, a company statement).
-                                  // When both exist, the rating change is the class. rating_open only
-                                  // trades "upgrade" and "target"; catalyst_open trades every class.
+                                  // When both exist, the rating change is the class. catalyst_open
+                                  // trades every class (rating_open, which took only the rating
+                                  // classes, was retired on 2026-11-22).
     "confidence": 0.6
   },                              // or null when nothing qualifies (most days)
   "opportunities": [              // since 2026-10-29: every opportunity spotted, traded or not
@@ -74,16 +75,15 @@ trails; `catalyst_sniper` keeps the 1% confirmation. Null only when nothing qual
 Since 2026-11-18 the sniper is named only on a broker's rating or target change (`class` upgrade or target); a
 company-news item goes into `opportunities` as `company_news` and the sniper is null that morning. The lists are
 short: at most four ideas in the morning file and three in the 10:16 file, each `yes` or `maybe`, no controls. The
-10:16 check-in is the only one of the day and judges the put mirror itself (CLAUDE.md, SUNDAY_TESTS 72-74).
-`rating_open` (shadow only, since 2026-11-16) takes the same pick only when its `class` is `upgrade` or
-`target` and buys two contracts nearest 0.45 delta, whatever they cost: half out at 2x, the rest trails
-from 1.5x. On real option prices to 2026-11-13 (journal/research/WEEK46.md) the 13 rating-change snipers
-were right on 10 (+0.9% open to close) and made +17% at 0.45 delta (+7% without the best, -4% without
-the best two, 10 entries); the 10 company-news snipers were right on 5 (-0.5%) and lost 56-71% at every
-strike. Every upgrade headline of two years at the same strike and exit (62 events): -9% sold on day one,
-+19% / +12% / +5% carried to expiry; downgrades lose at every strike. Those are the 25 names we trade; on 105
-other large caps (278 upgrades, SLOWDRIFT_WIDE.md) the stock gains 0.9% on day 0 and nothing after, so the carry
-is unproven (SUNDAY_TESTS 70). A missing or unknown `class` is treated as not a rating change.
+10:16 check-in is the only one of the day. The put mirror is no longer listed, as an idea or a pick, since
+2026-11-22: on option prices it lost on every leg, strike and hour (CLAUDE.md, SUNDAY_TESTS 72-74).
+`rating_open` (shadow only, 2026-11-16 to 2026-11-22) took the same pick when its `class` was `upgrade` or
+`target` and bought two contracts nearest 0.45 delta. It was added on ten picks of ours (+17%, -4% without the
+best two) and retired by the bar written for it: on 260 upgrades of 105 large caps it was not found on, the same
+contract and exit made -17% carried to expiry, -20% without the best two, and lost in 2024 and 2025
+(journal/research/WEEK47.md, SUNDAY_TESTS 70). A rating change is in the price by 09:32 (CLAUDE.md R4); the sniper
+is still named on one, for catalyst_open's shadow record, not because the class has shown an edge.
+A missing or unknown `class` is treated as not a rating change.
 On a `put` day with aligned macro evidence the sniper may be a put (`"direction": "put"`): a
 mega cap without good news of its own that is exposed to the day's driver (rates, a cooling
 theme, a peer's miss), gap under ~4%. Both catalyst variants trade puts the same way

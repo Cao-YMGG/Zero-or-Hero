@@ -1,0 +1,7 @@
+date,variant,contract,limit,note
+2026-10-23,catalyst_intraday,ORCL261023C00128000,0.24,backfilled 2026-11-22 from the broker's order list
+2026-10-28,catalyst_intraday,AMAT261030C00445000,1.32,backfilled 2026-11-22 from the broker's order list
+2026-11-06,catalyst_open,LLY261106C01430000,0.91,backfilled 2026-11-22 from the broker's order list
+2026-11-06,catalyst_intraday,GE261106C00330000,0.54,backfilled 2026-11-22 from the broker's order list
+2026-11-09,spy_open_drive,SPY261109C00753000,0.37,backfilled 2026-11-22 from the broker's order list
+2026-11-20,nvda_gapdown_put,NVDA261120P00141000,1.28,backfilled 2026-11-22 from the broker's order list

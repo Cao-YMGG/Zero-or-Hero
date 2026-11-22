@@ -105,25 +105,6 @@
       "shadow_risk": 1.0
     },
     {
-      "id": "rating_open",
-      "signal": "catalyst",
-      "classes": [
-        "upgrade",
-        "target"
-      ],
-      "contracts": 2,
-      "real_risk": 0,
-      "after_minutes": 1,
-      "move_pct": 0.0,
-      "target_delta": 0.45,
-      "take_profit": null,
-      "stop_loss": null,
-      "trail_after": 0.5,
-      "trail_giveback": 0.4,
-      "half_at": 2.0,
-      "entry_cutoff": "10:00"
-    },
-    {
       "id": "catalyst_intraday",
       "source": "intraday",
       "real_risk": 0,
