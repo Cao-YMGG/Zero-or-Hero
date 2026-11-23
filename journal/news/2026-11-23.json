@@ -1,0 +1,476 @@
+{
+ "as_of": "2026-11-23T07:58-05:00",
+ "since": "2026-11-20T16:00-05:00",
+ "headlines": [
+  {
+   "time": "11-23 07:32",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Former CEO Jensen Huang Agrees to Senate Testimony",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/NVDA-US?chain_id=Name1K9-3FXPhg.1lg7sk0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A107%2C%22f%22%3A%22www.moomoo.com%2Fetfs%2FFAZ-US%22%7D"
+  },
+  {
+   "time": "11-23 07:31",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "Infosys and GE Vernova Collaborate on Digital Solutions for Utilities",
+   "source": "fiscal.ai",
+   "url": "https://energydigital.com/news/infosys-mitrankur-majumdar-on-uk-grid-balancing-solutions"
+  },
+  {
+   "time": "11-23 07:31",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "DXL Adopts Meta's Muse AI Agent for Customer Engagement",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/dxl-expands-customer-reach-through-metas-ai-agent-muse-with-commercetools-302948173.html"
+  },
+  {
+   "time": "11-23 06:33",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "rating",
+   "headline": "JPMorgan Chase Maintains Neutral Rating on Tesla",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.ch/analyse/tesla-neutral-1122624"
+  },
+  {
+   "time": "11-23 06:32",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Announces December Rollout for FSD V15",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/tesla-set-to-roll-out-fsd-v15-in-december-ce7851dad88af52c"
+  },
+  {
+   "time": "11-23 06:32",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "Morgan Stanley Adjusts Price Target on Sandisk to $218 From $218.75",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/morgan-stanley-adjusts-price-target-on-sandisk-to-218-from-218-75-ce7851dad88ff227"
+  },
+  {
+   "time": "11-23 06:32",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "TD Cowen Adjusts Price Target on Salesforce",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/td-cowen-adjusts-price-target-on-salesforce-to-275-from-300-ce7851dad88cf020"
+  },
+  {
+   "time": "11-23 06:32",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Morgan Stanley and Loop Capital Adjust Price Targets for Meta Platforms",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/morgan-stanley-adjusts-price-target-on-meta-platforms-to-720-from-820-ce7851dad88af427"
+  },
+  {
+   "time": "11-23 06:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart and Other Retailers Contacted Regarding Potential Grubhub Acquisition",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/walmart-others-contacted-about-potential-acquisition-of-grubhub-ce7851dad98ef42c"
+  },
+  {
+   "time": "11-23 06:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Trump Administration Pushes for Reinstatement of Jensen Huang as NVIDIA CEO",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/2026112333/nvidia-stock-bounces-as-trump-administration-pushes-for-rehiring-of-jensen-huang"
+  },
+  {
+   "time": "11-23 06:31",
+   "symbols": [
+    "HD"
+   ],
+   "rating": "",
+   "headline": "Guggenheim Adjusts Price Target on Home Depot to $400 From $425",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/guggenheim-adjusts-price-target-on-home-depot-to-400-from-425-ce7851dad88cf322"
+  },
+  {
+   "time": "11-23 06:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Confirms Full Funding for OpenAI Infrastructure Contract",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hant/news/post/1005475056/oracle-dismisses-reports-it-lacks-funding-to-fulfill-openai-contract"
+  },
+  {
+   "time": "11-23 06:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Kuiper Satellite Launch Status Update",
+   "source": "fiscal.ai",
+   "url": "https://news.europawire.eu/arianespace-halts-ariane-6-va271-countdown-after-ground-systems-technical-event/eu-press-release/2026/11/23/11/59/05/189178/"
+  },
+  {
+   "time": "11-23 06:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft and Audi Launch Mobile Work Agent for In-Vehicle Productivity",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/23/3408055/0/en/audi-debuts-cerence-ai-s-mobile-work-agent-bringing-enterprise-trusted-access-to-microsoft-365-to-the-car.html"
+  },
+  {
+   "time": "11-23 06:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "The Goldman Sachs Group, Inc. Files Major Shareholding Notification in Himalaya Shipping Ltd.",
+   "source": "fiscal.ai",
+   "url": "https://live.euronext.com/en/markets/oslo/equities/company-news"
+  },
+  {
+   "time": "11-23 06:31",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Digbi Health Joins Lilly Employer Connect Program",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/23/3408117/0/en/digbi-health-joins-lilly-employer-connect-to-expand-employer-access-to-obesity-medicines-with-lifestyle-care-matched-to-each-member-s-biology.html"
+  },
+  {
+   "time": "11-23 06:31",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly and Company Acquires LoQus23 Therapeutics",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/23/3408071/0/en/loqus23-therapeutics-acquired-by-lilly-to-accelerate-development-of-novel-small-molecule-therapy-for-huntington-s-disease.html"
+  },
+  {
+   "time": "11-22 21:01",
+   "symbols": [
+    "LITE"
+   ],
+   "rating": "",
+   "headline": "Lumentum CEO Addresses Marvell Merger Status Amid Market Volatility",
+   "source": "fiscal.ai",
+   "url": "https://www.streetinsider.com/news.php?id=27383011&classic=1"
+  },
+  {
+   "time": "11-22 21:01",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Coinbase Contributes x402 Payments Protocol to Autonomous AI Framework",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-competitors-team-to-prevent-agentic-fragmentation/"
+  },
+  {
+   "time": "11-22 21:01",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "ExxonMobil and Partners Approve $4 Billion Redevelopment for Kizomba A and B",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/XOM-US?chain_id=Name1K9-3FXPhg.1lg6ie0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FUBS-US%22%7D"
+  },
+  {
+   "time": "11-22 21:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Taiwan Authorities Investigate Fake Threads Accounts for Alleged Election Interference",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/taiwan-flags-fake-threads-accounts-over-alleged-election-interference-ce785ed3d18ff02d"
+  },
+  {
+   "time": "11-22 21:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft to Retire Microsoft To Do App in 2027",
+   "source": "fiscal.ai",
+   "url": "https://infosertecla.com/2026/11/22/microsoft-cerrara-to-do-el-30-de-junio-de-2027/"
+  },
+  {
+   "time": "11-22 21:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Launches Alpamayo 2 Edge Vision-Language-Action Model",
+   "source": "fiscal.ai",
+   "url": "https://af.net/realtime/nvidia-launches-2b-parameter-alpamayo-2-edge-vla-for-drive-thor/"
+  },
+  {
+   "time": "11-22 21:01",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "",
+   "headline": "Broadcom Faces Unconfirmed Reports of Google Chip Order Reductions",
+   "source": "fiscal.ai",
+   "url": "https://world.storm.mg/articles/1183977"
+  },
+  {
+   "time": "11-22 09:01",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Supermicro and Other Server Manufacturers Reportedly Raising Prices on AI Servers Post-Contract",
+   "source": "fiscal.ai",
+   "url": "https://www.euro2day.gr/amp/news/world/article/2381262/akomh-kai-45-pio-akrivoi-oi-servers-ai-mhnes-meta.html"
+  },
+  {
+   "time": "11-22 09:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Signs 10-Year Lease for Flagship 'Meta Lab' Store on Fifth Avenue",
+   "source": "fiscal.ai",
+   "url": "https://www.milanofinanza.it/news/usa-la-fifth-avenue-riconquista-il-primato-mondiale-del-lusso-affitti-a-2-700-dollari-al-metro-202611181411468120"
+  },
+  {
+   "time": "11-22 09:01",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Congressional Testimony Regarding VA Healthcare Modernization Contract",
+   "source": "fiscal.ai",
+   "url": "https://www.einpresswire.com/article/958334498/committee-cliff-notes-weekly-recap-week-of-november-16-2026"
+  },
+  {
+   "time": "11-22 09:01",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Glows.ai Joins Intel's Innovation Pass Program at SC26",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/jp/news-releases/konstsc2624365gpu24ai-302947653.html"
+  },
+  {
+   "time": "11-21 21:02",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Coinbase Chief Policy Officer Defends Industry Political Engagement",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/COIN-US?chain_id=Name1K9-3FXPhg.1lg48jg&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FBP-US%22%7D"
+  },
+  {
+   "time": "11-21 21:02",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Provides Update on Data Center Infrastructure Progress",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/ORCL-US?chain_id=Name1K9-3FXPhg.1lg38v0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FORCL-US%2Fcommunity%22%7D"
+  },
+  {
+   "time": "11-21 21:01",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix to Adapt Harlan Coben's 'The Innocent' into TV Series",
+   "source": "fiscal.ai",
+   "url": "https://www.thefussylibrarian.com/newswire/for-readers/2026/11/21/pop-culture-news-for-readers-november-21-2026"
+  },
+  {
+   "time": "11-21 21:01",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "SanDisk Shares Decline Amid Weak NAND Flash Price Outlook",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/20261121114/micron-and-sandisk-stocks-might-look-like-bargains-but-analysts-say-thats-actually-a-red-flag"
+  },
+  {
+   "time": "11-21 21:01",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Ensign CEO Reports 5 of 15 Venezuela Rigs Contracted to Chevron",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/CVX-US?chain_id=Name1K9-3FXPhg.1lg41ig&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FWDS-US%22%7D"
+  },
+  {
+   "time": "11-21 21:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Implements Stricter Export Compliance Measures",
+   "source": "fiscal.ai",
+   "url": "https://newsfilter.io/articles/a-tale-of-two-nvidias-31e13cb6115d54abbce07240edb573d0"
+  },
+  {
+   "time": "11-21 21:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Protests Held at Meta's Hyderabad Office Over Instagram Account Restrictions",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.lk/2026/11/21/indian-opposition-youth-congress-workers-storm-meta-office-over-instagram-restrictions/"
+  },
+  {
+   "time": "11-21 21:01",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Costco Opens New Warehouse in Wasaga Beach, Canada",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/21/3407904/0/en/costco-wholesale-opens-new-location-in-wasaga-beach-the-4th-of-4-new-openings-this-week-in-canada.html"
+  },
+  {
+   "time": "11-21 09:01",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "TIGHITCO Latin America Achieves Caterpillar Supplier Excellence Certification",
+   "source": "fiscal.ai",
+   "url": "https://natlawreview.com/press-releases/tighitco-achieves-excellent-level-certification-through-caterpillar-supplier"
+  },
+  {
+   "time": "11-21 09:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "Vertiv Launches ATLAS Lab to Validate NVIDIA AI Infrastructure",
+   "source": "fiscal.ai",
+   "url": "https://datacentremagazine.com/news/this-weeks-top-five-stories-in-the-data-centre-industry-21-november-2026"
+  },
+  {
+   "time": "11-20 22:01",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Sponsors Inaugural Cameroon Fintech Week",
+   "source": "fiscal.ai",
+   "url": "https://panafricanvisions.com/2026/11/cameroon-fintech-week-2026-draws-visa-wave-mtn-citi-and-global-industry-leaders-to-douala/"
+  },
+  {
+   "time": "11-20 20:02",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce Set to Exceed Earnings Estimates Amid Low Bar, Agentforce Demand, Oppenheimer Says",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/salesforce-set-to-exceed-earnings-estimates-amid-low-bar-agentforce-demand-oppenheimer-says-ce785ed3dd89ff24"
+  },
+  {
+   "time": "11-20 20:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase & Co. Discloses Increased Voting Rights in Ceres Power",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/rns/ceres-power-holdings--cwr/holding-s-in-company/9887325"
+  },
+  {
+   "time": "11-20 18:02",
+   "symbols": [
+    "VST"
+   ],
+   "rating": "",
+   "headline": "Morgan Stanley Revises Rating on Vistra to Neutral",
+   "source": "fiscal.ai",
+   "url": "https://ch.marketscreener.com/boerse-nachrichten/vistra-corp-morgan-stanley-revidiert-seine-meinung-und-wendet-sich-an-neutral-ce785ed3db88f727"
+  },
+  {
+   "time": "11-20 17:31",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Coatue Management Discloses Significant Stake in Salesforce",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8941412/coatue-management-just-bought-8-million-shares-of-salesforce-stock-why-investors-should-care"
+  },
+  {
+   "time": "11-20 16:32",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Opens First Retail Location in Argentina",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/tesla-opens-first-argentina-retail-location-in-buenos-aires-ce785ed3dd81f625"
+  },
+  {
+   "time": "11-20 16:31",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle CFO Addresses Data Center Expansion Strategy Amid Political Pressure",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/20261120183/trump-is-trying-to-stop-big-techs-push-to-build-data-centers-outside-the-us"
+  },
+  {
+   "time": "11-20 16:31",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "",
+   "headline": "Alphabet Reportedly Bypassing Broadcom for HBM Procurement",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/community/feed/breaking-news-google-bypasses-broadcom-for-hbm-pressures-memory-margins-117649382768646"
+  },
+  {
+   "time": "11-20 16:01",
+   "symbols": [
+    "ASML"
+   ],
+   "rating": "",
+   "headline": "ASML Faces Potential Revenue Risk from U.S. Export Policy",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1005359134/asml-tumbles-on-us-china-export-fears-market-talk"
+  }
+ ]
+}

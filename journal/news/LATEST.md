@@ -1,70 +1,53 @@
-# Headlines since 2026-11-19 16:00 ET (as of 2026-11-20 15:59 ET)
+# Headlines since 2026-11-20 16:00 ET (as of 2026-11-23 07:58 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
-| 11-20 15:02 | PLTR | rating | Citi Maintains Buy Rating and $265 Price Target on Palantir |
-| 11-20 14:01 | CRDO | rating | Stifel Maintains Buy Rating on Credo Technology, Adjusts Price Target to $250 |
-| 11-20 07:31 | JPM | downgrade | JPMorgan Downgrades Scout24 Amid AI Risk Concerns |
-| 11-20 15:01 | CAT |  | UK Trade Remedies Authority Proposes Higher Anti-dumping Duties on Chinese Excavators |
-| 11-20 15:01 | NVDA |  | Compute Exchange Announces Live GPU Capacity Auction at NVIDIA GTC DC |
-| 11-20 14:02 | JPM |  | JPMorgan Chase CEO Plans Strategy to Offset UK Bank Tax Increase |
-| 11-20 14:01 | NVDA |  | NVIDIA Subject to Congressional Probe Regarding China Sales |
-| 11-20 14:01 | NVDA |  | California Attorney General Launches Investigation into NVIDIA |
-| 11-20 14:01 | BAC |  | Bank of America Strategists Warn of Potential 'Doom Loop' Risk |
-| 11-20 14:01 | COIN |  | Coinbase Submits Comment Letter Supporting CFTC Proposal on Event Contracts |
-| 11-20 14:01 | AMD |  | Law Firms Announce Securities Investigations into Advanced Micro Devices, Inc. |
-| 11-20 11:02 | HOOD |  | Robinhood Markets Faces Shareholder Proposal Regarding Proxy Voting Platform |
-| 11-20 11:02 | JPM |  | JPMorgan Chase and Citigroup Assisting PayPo with Potential IPO |
-| 11-20 11:02 | TSLA |  | Tesla Plans Live Optimus Demonstration |
-| 11-20 11:01 | WMT |  | Walmart Canada Raises Over $3.9 Million for Canadian Red Cross |
-| 11-20 11:01 | PLTR |  | Palantir Co-Hosts Defense Technology Summit |
-| 11-20 11:01 | V |  | Visa and Other Financial Institutions Report Third-Party Cyberattack |
-| 11-20 11:01 | GS |  | Goldman Sachs Updates Investment Outlook for India and China |
-| 11-20 11:01 | MSFT |  | Danaher Collaborates with Microsoft to Advance AI-Powered Scientific Instrument Connectivity |
-| 11-20 11:01 | NVDA |  | 5C Group Joins NVIDIA Partner Network as Data Center Partner |
-| 11-20 09:33 | WMT |  | Analysts Adjust Price Targets for Walmart Inc. |
-| 11-20 09:32 | VST |  | Morgan Stanley and Goldman Sachs Adjust Price Targets for Vistra Corp. |
-| 11-20 09:32 | CIEN |  | Blue Planet, a Division of Ciena, Wins 2026 Fierce Network Innovation Award |
-| 11-20 09:31 | SNDK |  | LongPoint Asset Management Launches Savvy Double Leveraged Single Stock ETF for SanDisk |
-| 11-20 09:31 | COST |  | Costco Wholesale Opens New Location in East Windsor |
-| 11-20 09:31 | AMZN |  | ScaleCapacity Enters Multi-Year Strategic Collaboration Agreement with AWS |
-| 11-20 09:01 | TSM |  | TSMC Subsidiary Invests in Anthropic |
-| 11-20 08:02 | UNH |  | Analyst Actions: HSBC and TD Cowen Update Ratings on UnitedHealth Group |
-| 11-20 08:01 | MU |  | Purpose Investments Launches Purpose Micron (MU) Yield Shares ETF |
-| 11-20 08:01 | AAPL |  | Apple Developer Academy Showcase in Pohang |
-| 11-20 07:32 | VST |  | Goldman Sachs Adjusts Price Target on Vistra to $183 From $200 |
-| 11-20 07:32 | UNH |  | HSBC Adjusts Price Target on UnitedHealth to $385 From $380 |
-| 11-20 07:31 | AAPL |  | Apple Developing Autonomous AI Agent |
-| 11-20 07:31 | TSLA |  | Tesla Receives Regulatory Approval for Assisted Driving in Italy |
-| 11-20 07:31 | GE |  | GE Aerospace Recommends Shareholders Reject “Mini-Tender” Offer by Potemkin Limited |
-| 11-20 07:31 | NFLX |  | Omdia Analysis Shows Netflix Outperforms YouTube in Daily Viewing Time Across Latin American Markets |
-| 11-20 07:31 | CVX |  | Seismic Research Vessel Commences Operations for Chevron-HELLENiQ ENERGY Joint Venture |
-| 11-20 06:32 | NVDA |  | Democrats Open Probe Into Nvidia Influence on US Megaspeed Investigation |
-| 11-20 06:32 | NVDA |  | Nvidia Eyes Inception Acquisition to Strengthen Nemotron AI Models |
-| 11-20 06:32 | META |  | Meta Warns of China-Linked Accounts Targeting Taiwan Elections on Threads |
-| 11-20 06:32 | META |  | Meta Platforms CFO Executes Insider Share Sale |
-| 11-20 06:32 | WDC |  | Arete Adjusts Price Target on Western Digital to $693 From $650 |
-| 11-20 06:31 | PLTR |  | DZ Bank Adjusts Price Target on Palantir Technologies to $220 From $210 |
-| 11-20 06:31 | GS |  | The Goldman Sachs Group, Inc. Discloses Major Holding in Siltronic AG |
-| 11-20 06:31 | CVX |  | Chevron and HELLENiQ ENERGY Receive NAVTEX Approval for Seismic Research in Greece |
-| 11-20 06:31 | COST |  | Costco Issues Recall for Cheese Product in Ontario Due to E. Coli Risk |
-| 11-20 06:31 | AMZN |  | Amazon Web Services Provides Technical Support for Walt Disney Imagineering R&D |
-| 11-19 22:02 | GS |  | Goldman Sachs Serves as Financial Advisor in BILL Acquisition |
-| 11-19 22:02 | GS |  | Goldman Sachs Adjusts Price Target for Kuaishou Technology |
-| 11-19 22:01 | WDC |  | Whale Rock Capital Management Exits Western Digital Position |
-| 11-19 22:01 | LLY |  | General Medicine Integrates GLP-1 Weight Management Care into LillyDirect |
-| 11-19 20:01 | META |  | Meta Reevaluating 2030 Net Zero Emissions Goal |
-| 11-19 20:01 | AMZN |  | Third Point LLC Exits Entire Stake in Amazon |
-| 11-19 19:02 | TSLA |  | ISS Recommends Shareholders Vote Against Tesla Chair Robyn Denholm |
-| 11-19 19:01 | GS |  | The Goldman Sachs Group, Inc. Files Voting Rights Announcement |
-| 11-19 17:32 | META |  | Meta to Price Muse Charm AI Device at $300 |
-| 11-19 17:32 | HOOD |  | Director Baiju Bhatt Sells Robinhood Markets, Inc. Shares |
-| 11-19 17:31 | NVDA |  | NVIDIA to Present at 30th Annual UBS Global Technology and AI Conference |
-| 11-19 17:31 | AAPL |  | U.K. Tribunal Orders Government to Confirm Secret Demand for Apple Customer Data |
-| 11-19 16:31 | XOM |  | TechnipFMC Awarded Subsea Contract for ExxonMobil's Longtail Project |
-| 11-19 16:31 | HD |  | The Home Depot Declares Quarterly Cash Dividend |
-| 11-19 16:31 | BAC |  | Bank of America Chicago Marathon Extends Partnership with Nike |
-| 11-19 16:31 | MU |  | Micron Technology Schedules Fiscal First Quarter 2027 Earnings Call |
-| 11-19 16:31 | AMZN |  | Anthropic IPO Valuation and Amazon's Stake Disclosure |
+| 11-23 06:33 | JPM | rating | JPMorgan Chase Maintains Neutral Rating on Tesla |
+| 11-23 07:32 | NVDA |  | NVIDIA Former CEO Jensen Huang Agrees to Senate Testimony |
+| 11-23 07:31 | GEV |  | Infosys and GE Vernova Collaborate on Digital Solutions for Utilities |
+| 11-23 07:31 | META |  | DXL Adopts Meta's Muse AI Agent for Customer Engagement |
+| 11-23 06:32 | TSLA |  | Tesla Announces December Rollout for FSD V15 |
+| 11-23 06:32 | SNDK |  | Morgan Stanley Adjusts Price Target on Sandisk to $218 From $218.75 |
+| 11-23 06:32 | CRM |  | TD Cowen Adjusts Price Target on Salesforce |
+| 11-23 06:32 | META |  | Morgan Stanley and Loop Capital Adjust Price Targets for Meta Platforms |
+| 11-23 06:31 | WMT |  | Walmart and Other Retailers Contacted Regarding Potential Grubhub Acquisition |
+| 11-23 06:31 | NVDA |  | Trump Administration Pushes for Reinstatement of Jensen Huang as NVIDIA CEO |
+| 11-23 06:31 | HD |  | Guggenheim Adjusts Price Target on Home Depot to $400 From $425 |
+| 11-23 06:31 | ORCL |  | Oracle Confirms Full Funding for OpenAI Infrastructure Contract |
+| 11-23 06:31 | AMZN |  | Amazon Kuiper Satellite Launch Status Update |
+| 11-23 06:31 | MSFT |  | Microsoft and Audi Launch Mobile Work Agent for In-Vehicle Productivity |
+| 11-23 06:31 | GS |  | The Goldman Sachs Group, Inc. Files Major Shareholding Notification in Himalaya Shipping Ltd. |
+| 11-23 06:31 | LLY |  | Digbi Health Joins Lilly Employer Connect Program |
+| 11-23 06:31 | LLY |  | Eli Lilly and Company Acquires LoQus23 Therapeutics |
+| 11-22 21:01 | LITE |  | Lumentum CEO Addresses Marvell Merger Status Amid Market Volatility |
+| 11-22 21:01 | COIN |  | Coinbase Contributes x402 Payments Protocol to Autonomous AI Framework |
+| 11-22 21:01 | XOM |  | ExxonMobil and Partners Approve $4 Billion Redevelopment for Kizomba A and B |
+| 11-22 21:01 | META |  | Taiwan Authorities Investigate Fake Threads Accounts for Alleged Election Interference |
+| 11-22 21:01 | MSFT |  | Microsoft to Retire Microsoft To Do App in 2027 |
+| 11-22 21:01 | NVDA |  | NVIDIA Launches Alpamayo 2 Edge Vision-Language-Action Model |
+| 11-22 21:01 | AVGO |  | Broadcom Faces Unconfirmed Reports of Google Chip Order Reductions |
+| 11-22 09:01 | SMCI |  | Supermicro and Other Server Manufacturers Reportedly Raising Prices on AI Servers Post-Contract |
+| 11-22 09:01 | META |  | Meta Signs 10-Year Lease for Flagship 'Meta Lab' Store on Fifth Avenue |
+| 11-22 09:01 | ORCL |  | Congressional Testimony Regarding VA Healthcare Modernization Contract |
+| 11-22 09:01 | INTC |  | Glows.ai Joins Intel's Innovation Pass Program at SC26 |
+| 11-21 21:02 | COIN |  | Coinbase Chief Policy Officer Defends Industry Political Engagement |
+| 11-21 21:02 | ORCL |  | Oracle Provides Update on Data Center Infrastructure Progress |
+| 11-21 21:01 | NFLX |  | Netflix to Adapt Harlan Coben's 'The Innocent' into TV Series |
+| 11-21 21:01 | SNDK |  | SanDisk Shares Decline Amid Weak NAND Flash Price Outlook |
+| 11-21 21:01 | CVX |  | Ensign CEO Reports 5 of 15 Venezuela Rigs Contracted to Chevron |
+| 11-21 21:01 | NVDA |  | NVIDIA Implements Stricter Export Compliance Measures |
+| 11-21 21:01 | META |  | Protests Held at Meta's Hyderabad Office Over Instagram Account Restrictions |
+| 11-21 21:01 | COST |  | Costco Opens New Warehouse in Wasaga Beach, Canada |
+| 11-21 09:01 | CAT |  | TIGHITCO Latin America Achieves Caterpillar Supplier Excellence Certification |
+| 11-21 09:01 | NVDA |  | Vertiv Launches ATLAS Lab to Validate NVIDIA AI Infrastructure |
+| 11-20 22:01 | V |  | Visa Sponsors Inaugural Cameroon Fintech Week |
+| 11-20 20:02 | CRM |  | Salesforce Set to Exceed Earnings Estimates Amid Low Bar, Agentforce Demand, Oppenheimer Says |
+| 11-20 20:01 | JPM |  | JPMorgan Chase & Co. Discloses Increased Voting Rights in Ceres Power |
+| 11-20 18:02 | VST |  | Morgan Stanley Revises Rating on Vistra to Neutral |
+| 11-20 17:31 | CRM |  | Coatue Management Discloses Significant Stake in Salesforce |
+| 11-20 16:32 | TSLA |  | Tesla Opens First Retail Location in Argentina |
+| 11-20 16:31 | ORCL |  | Oracle CFO Addresses Data Center Expansion Strategy Amid Political Pressure |
+| 11-20 16:31 | AVGO |  | Alphabet Reportedly Bypassing Broadcom for HBM Procurement |
+| 11-20 16:01 | ASML |  | ASML Faces Potential Revenue Risk from U.S. Export Policy |
