@@ -1,0 +1,89 @@
+{
+ "date": "2026-11-23",
+ "bias": "none",
+ "confidence": 0.3,
+ "p_up": 0.58,
+ "summary": "No SPY bet: a relief bounce gaps SPY +2.5% and QQQ +3.5% after the worst week in 18 months. The base rates for such a morning lean up (61-64% after a -2% day in a falling month) but a base rate does not cross the bar by itself, and the gap is in the opening price.",
+ "reasons": [
+  "Pre-market (Webull, 08:31 ET): SPY 707.17 (+2.52% from 689.81), QQQ +3.47%, SMH +5.7%, IGV +2.3%, IWM +2.3%, DIA +1.8%; XLF +1.6%, XLP +0.3%, XLV +0.3%, XLE +0.3%; TLT +0.0% (flat; the 10-year a few bp higher by press reports), USO -2.8%, UUP +0.3%, GLD +2.9%, VIXY -7.8%. Stocks: NVDA +8.2%, AMD +4.4%, MU +5.3%, TSM +5.9%, AVGO +4.7%, GOOGL +5.3%, META +3.8%, MSFT +2.9%, AMZN +3.4%, TSLA +4.8%, AAPL +1.5%, ORCL +4.5%; UNH -6.5%.",
+  "Why up: no single piece of news. Reuters, Fortune and Investing.com all describe a relief bounce and short covering after Friday (S&P 500 -3.7%, Nasdaq -5.3%, all three indexes in correction, VIX near 36 to 40); chips lead it (SK Hynix ADR, Lam, Marvell +7-10%); Asian authorities supported their markets overnight; Brent is down 1.3% to 4.5% depending on the hour (about $88-91).",
+  "Rates and the dollar: the 10-year closed Friday near 4.91-4.94% after a flight into bonds and is about 4.95% this morning (+4-5 bp); the dollar index is flat near 103.9, a 19-month high; press reports say a December rate hike is being priced. Not a tailwind for stocks.",
+  "Base rates, with their samples (context; none of them carries p_up over the bar by itself, CLAUDE.md step 3): the day after an open-to-close of -2% or worse in a falling month SPY closed above its open 64% and 61% of the time (2004-2016 and 2016-2026, 111 days). A gap up of 1% or more closed above its open 59-61% (261 days). Both together, a gap up of 1% or more the morning after such a day: 17 days in 2004-2016 (71% up, +1.17%) and 8 in 2016-2026 (7 up, +1.14%); that cut was made this morning after seeing the gap, on 25 days, so it is an observation for Sunday, not evidence.",
+  "Against: R1, the gap is priced at the open (night move against open-to-close: correlation -0.11). The last gap up in this fall, +1.0% on 11-19, closed at its low (-2.9% open to close); on 11-20 the same base rate was quoted, p_up was 0.56 and SPY fell 3.2% from its open. On option prices the ten such mornings since 2024-02 made money on one (2025-04-09).",
+  "No US release at 08:30 today. This week: Tuesday ADI before the open, Dell and Workday after the close; Wednesday Deere and, by press previews, PCE; Thursday closed, Friday a half day. Treasury sells 2-, 5- and 7-year notes in a holiday week (dates not confirmed by search); HPE reports after today's close.",
+  "Sniper null: no rating change on a mega cap this morning. JPMorgan keeps Neutral on TSLA; target changes only on META (Morgan Stanley, Loop), CRM (TD Cowen), HD (Guggenheim cuts to $400) and SNDK, and every one of those names gaps 2% to 5% with the market, over the limit for a target change (T7).",
+  "No ideas listed (T6). The two headlines that looked like company news did not survive a second source: Benzinga 06:31 'Trump Administration Pushes for Reinstatement of Jensen Huang' is not confirmed anywhere (Nvidia's chairman said last Tuesday the board will not reinstate him; the Senate testimony was reported 11-18 to 11-20), and Oracle's 'OpenAI contract fully funded' statement is dated Friday 11-20 and is in Friday's close. What is left is calls on names gapping up 4-8% with the group in two turning themes (S3).",
+  "UNH -6.5% pre-market with no headline of its own found today (CMS's audit proposal is from 11-16, its star-ratings lawsuit from 11-20): an open question for the 10:16 check, not a morning idea (no morning put unless it is a put day).",
+  "Report window (R3): CRWD reported this morning and is buying Zscaler (no idea today or tomorrow); ADI, DELL and WDAY report tomorrow, DE on Wednesday. None of our 25 names reports within the next few sessions; CRM and MRVL are about a week out, AVGO and ORCL in the second week of December.",
+  "Theme states at the 11-20 close: chips turning and software turning (three flags each); lights lit: turning, breadth. SMH is 30% under its 20-day high; `stretched` is not lit because SPY itself fell 8.6% in five sessions. Described, not forecast (R6)."
+ ],
+ "events": [
+  "No major 08:30 release",
+  "13:00 2-year note auction (holiday-week schedule, not confirmed)",
+  "HPE after the close",
+  "This week: ADI, DELL, WDAY Tuesday; DE and PCE Wednesday; closed Thursday; half day Friday"
+ ],
+ "inputs": {
+  "spy_premarket_pct": 2.52,
+  "qqq_premarket_pct": 3.47,
+  "es_futures_pct": 2.2,
+  "vix": 35.9,
+  "vixy_premarket_pct": -7.8,
+  "wti_pct": null,
+  "brent": "88.4-91.3 (-1.3% to -4.5%, sources differ)",
+  "uso_premarket_pct": -2.8,
+  "us10y": 4.95,
+  "us10y_change_bp": 4.6,
+  "us2y_change_bp": null,
+  "tlt_premarket_pct": 0.0,
+  "dxy": 103.9,
+  "dxy_pct": 0.09,
+  "uup_premarket_pct": 0.3,
+  "overnight": "Asia rebounded with official support; Europe higher (FTSE, DAX). Futures at 02:29 ET (Reuters): Nasdaq 100 +3.0%, S&P 500 +2.2%, Dow +1.6%. VIX is Friday's close."
+ },
+ "rotation": {
+  "heating": [
+   "consumer (WMT/COST/HD +5.8% 1m, -1.1% 1w)",
+   "staples (XLP +0.5% 1m, the only sector ETF above its 20-day average)",
+   "long bonds (TLT +2.6% 1w)"
+  ],
+  "cooling": [
+   "GPU (NVDA -41% 1m, -23% 1w)",
+   "memory (-40% 1m, -26% 1w)",
+   "optical (-33% 1m)",
+   "CPU (-28% 1m)",
+   "disk (-28% 1m)",
+   "software (-24% 1m)",
+   "power (-17% 1m)",
+   "industrials (-11% 1m)",
+   "banks (-9% 1m, -11% 1w)",
+   "energy (-9% 1m)",
+   "health (-8% 1m; UNH again today)",
+   "internet (-8% 1m)",
+   "gold (GLD -12.5% 1m)"
+  ],
+  "note": "A month of everything but staples and the big retailers being sold, led by AI hardware (SMH -24% 1m, -18% 1w; SPY -9.7% 1m). This morning is the reverse of the month for one morning: the most-sold groups bounce the most and staples lag. R6: the map says where the month's money went, not what today does.",
+  "theme_state": {
+   "chips": "turning (REL_WEAK, BREADTH, RATIO_LOW)",
+   "software": "turning (REL_WEAK, BREADTH, RATIO_LOW)",
+   "internet": "neutral (BREADTH, PERIPH)",
+   "optical": "neutral (REL_WEAK, BREADTH; PERIPH_UP)",
+   "power": "neutral (REL_WEAK, BREADTH; PERIPH_UP)",
+   "banks": "neutral (BREADTH)",
+   "energy": "neutral (BREADTH)",
+   "health": "neutral",
+   "consumer": "neutral (REL_STRONG, RATIO_HIGH)",
+   "industrials": "neutral",
+   "lights": "turning and breadth lit at the 11-20 close; stretched not lit"
+  }
+ },
+ "sniper": null,
+ "opportunities": [],
+ "zh": {
+  "summary": "今天不下注。上周是一年半里最差的一周，今早是反弹：标普盘前高开约 2.5%、纳指约 3.5%，芯片领涨。历史上这种早晨偏向收涨（大跌次日、月线向下时约六成），但我自己定的规矩是：光凭一个底数不能下注，而且高开那一段开盘就已经算进价格。我写 0.58，差一点不到下注线 0.60。",
+  "sniper": "今天不点名：早上没有大公司的评级变动，调目标价的几只（Meta、Salesforce、家得宝、闪迪）都跟着大盘高开 2% 到 5%，过了线。想法清单也空着：英伟达「政府推动黄仁勋复职」只有一个来源，董事会上周已说不请他回来；甲骨文「资金到位」是上周五的旧声明，已经在周五的收盘价里。",
+  "heating": "必需消费、大型零售（这一个月唯一没跌的地方）、长期国债",
+  "cooling": "GPU、存储、光模块、CPU、硬盘、软件、电力，以及工业、银行、能源、医疗、黄金（这一个月几乎全在跌；今早跌得最多的反弹最多）"
+ },
+ "generated_at": "2026-11-23T08:31:00-05:00"
+}
