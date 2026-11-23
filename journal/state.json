@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "done": false,
+  "done": true,
   "variants": {
     "claude_bias": {},
     "meta_follow2": {},
@@ -14,23 +14,7 @@
     "stock_open_drive": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "TSLA261123C00397500",
-        "direction": "call",
-        "entry_time": "2026-11-23T10:01:30-05:00",
-        "entry_price": 1.26,
-        "peak": 1.55,
-        "qty": 1,
-        "last": 0.04,
-        "last_time": "2026-11-23T15:17:06-05:00"
-      },
-      "real": {
-        "contract": "TSLA261123C00397500",
-        "qty": 1,
-        "underlying": "TSLA",
-        "entry_price": 1.23,
-        "entry_time": "2026-11-23T10:01:31-05:00"
-      }
+      "closed": true
     }
   },
   "generation": 1,
