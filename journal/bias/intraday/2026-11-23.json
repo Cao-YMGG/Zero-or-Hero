@@ -1,0 +1,12 @@
+{
+ "date": "2026-11-23",
+ "picks": [],
+ "check_1016": {
+  "time": "10:16",
+  "pick": null,
+  "note": "No pick, no ideas. Scan by Alpaca IEX snapshots of 129 large caps and 11 ETFs at 10:16 (no Webull in this session). The open was far above the 08:31 pre-market read: SPY gapped +4.9% (open 724.29), QQQ +7.6%, SMH +17.0%, NVDA +32.9%; Benzinga carries 'NVIDIA Reinstates Jensen Huang as President and CEO' stamped 09:31 ET, but the gap shows it was in the opening price (R1). Since the open the gap is being sold, not extended: SPY -0.2%, QQQ -0.5%, IWM -0.5%, SMH -1.2%, IGV -0.5%; NVDA -0.2% from its open and 1.7% under its high; DELL -8.8% (gap +35%, reports tomorrow, R3), AMD -4.9%, KLAC -4.5%, COHR -4.4%, TSM -3.7%, STX -3.0%, AVGO -2.9%; ZS -5.4% and CRWD -5.3% (CRWD reported this morning and is buying ZS, R3). So the one piece of news from around the bell has no tape behind it (T5) and a call on NVDA would be a chips call on a turning theme with the catalyst priced at +33% (S3, T3). The leaders from the open: UNH +4.3% and CVS +3.0% after gapping down 5.6% and 3.9% on the CMS star-ratings proposal (Benzinga 09:31-09:32 on CVS and Humana; UNH was already -6.5% at 08:31, so not in-session news): a bounce against the day's own negative headline, with no cause for the rise that I can name, 0.3-0.4% from the high; not an idea (gapdown_rebound has paid 1 of 10), and no put either (R2, and the tape is against it). TSLA +4.2% from its open on a +8.2% gap, its only headline pre-market (FSD V15 in December, 06:32), 0.1% from the day's high; MU +2.6% and TXN +2.0% (Cantor upgrade at 07:32, priced by 09:32 per R4) are also within 0.15% of their highs: nothing listed at the day's extreme (T3). Health care is the only sector ETF more than 1% above its open (XLV +1.3%, LLY +1.6%, ABBV +1.7%) with no headline behind it: relative strength, not a cause. ROKU had no bar today and was left out.",
+  "note_zh": "不选股，也不列想法。开盘比早上八点半看到的高得多：标普高开约 4.9%、纳指约 7.6%，英伟达高开约 33%（消息是董事会请黄仁勋回任 CEO），这一段开盘价里已经算进去了。开盘后是在往回卖：英伟达比开盘略低，AMD 跌 4.9%、戴尔跌 8.8%，大盘也略低于开盘，所以唯一的大消息没有走势配合。比开盘涨得最多的是联合健康（+4.3%）和特斯拉（+4.2%）：前者是坏消息低开后的反弹，说不出上涨的原因；后者只有盘前的旧消息，而且正贴着当天最高点，按规矩都不列。",
+  "by": "fresh-session"
+ },
+ "opportunities": []
+}
