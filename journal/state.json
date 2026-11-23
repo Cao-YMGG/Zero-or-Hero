@@ -19,10 +19,10 @@
         "direction": "call",
         "entry_time": "2026-11-23T10:01:30-05:00",
         "entry_price": 1.26,
-        "peak": 1.26,
+        "peak": 1.55,
         "qty": 1,
-        "last": 1.11,
-        "last_time": "2026-11-23T10:02:01-05:00"
+        "last": 1.55,
+        "last_time": "2026-11-23T10:32:25-05:00"
       },
       "real": {
         "contract": "TSLA261123C00397500",

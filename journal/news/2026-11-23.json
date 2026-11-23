@@ -1,7 +1,17 @@
 {
- "as_of": "2026-11-23T10:02-05:00",
+ "as_of": "2026-11-23T10:32-05:00",
  "since": "2026-11-20T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-23 10:31",
+   "symbols": [
+    "ASML"
+   ],
+   "rating": "",
+   "headline": "ASML Reports Share Buyback Transactions",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/23/3408374/0/en/asml-reports-transactions-under-its-current-share-buyback-program.html"
+  },
   {
    "time": "11-23 09:32",
    "symbols": [

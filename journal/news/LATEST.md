@@ -1,4 +1,4 @@
-# Headlines since 2026-11-20 16:00 ET (as of 2026-11-23 10:02 ET)
+# Headlines since 2026-11-20 16:00 ET (as of 2026-11-23 10:32 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -6,6 +6,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 |---|---|---|---|
 | 11-23 08:02 | GS | initiate | Goldman Sachs Initiates Coverage on Pinnacle Financial Partners |
 | 11-23 06:33 | JPM | rating | JPMorgan Chase Maintains Neutral Rating on Tesla |
+| 11-23 10:31 | ASML |  | ASML Reports Share Buyback Transactions |
 | 11-23 09:32 | COST |  | MY ARCADE Launches ATARI 55th Anniversary Edition GAMESTATION GO at Costco |
 | 11-23 09:31 | JPM |  | J.P. Morgan Private Bank Releases 2027 Global Investment Outlook |
 | 11-23 09:31 | JPM |  | J.P. Morgan Asset Management (Canada) Announces Estimated Annual Distributions |
