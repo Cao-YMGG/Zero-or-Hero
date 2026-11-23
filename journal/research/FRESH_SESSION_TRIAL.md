@@ -24,3 +24,4 @@ the daily jobs as well as the one long conversation that has done them since Oct
 
 | date | written at | by | pick | ideas | rule broken | missed | note |
 |---|---|---|---|---|---|---|---|
+| 2026-11-23 | 10:16 (reply at 10:17, 62 s) | fresh session, pushed as given at 10:27 | none | none | none | nothing; it found one thing the long conversation had not read (Cantor's upgrade of TXN, 07:32, outside our 25 names) | The day's news (NVDA reinstated Huang, NVDA +33% at the open, SPY +4.9%) was not in the 08:31 file; it read it from the opening prices and the 09:31 headline, checked each leader against R1, R3, S3, T3 and T5 by name, and listed nothing. Its numbers matched an Alpaca snapshot taken at 10:26. Alpaca only (129 large caps, 11 ETFs), no rankings. Cost $1.25 at list price, 86k tokens of context. |
