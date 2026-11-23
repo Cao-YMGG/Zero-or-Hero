@@ -1,8 +1,8 @@
-# Backtest — SPY 0DTE, 2025-11-24 → 2026-11-20 (250 days)
+# Backtest — SPY 0DTE, 2025-11-24 → 2026-11-23 (251 days)
 
 Model: Black-Scholes at IV 11%, slippage 1% + $0.01 each side, start $500, phase sizing from config. Option prices are modelled, not real quotes — use this to rank ideas.
 
-Realised intraday vol over the period: 10.5% (if far from the IV above, recalibrate `backtest.iv` against live quotes from `python -m zoh.check`).
+Realised intraday vol over the period: 10.6% (if far from the IV above, recalibrate `backtest.iv` against live quotes from `python -m zoh.check`).
 
 | variant | trades | win% | avg win | avg loss | expectancy/trade | best | final $ | peak $ | max DD | 2x / 5x / 10x | ruined |
 |---|---|---|---|---|---|---|---|---|---|---|---|
