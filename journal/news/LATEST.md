@@ -1,4 +1,4 @@
-# Headlines since 2026-11-20 16:00 ET (as of 2026-11-23 14:46 ET)
+# Headlines since 2026-11-20 16:00 ET (as of 2026-11-23 15:17 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -6,6 +6,8 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 |---|---|---|---|
 | 11-23 08:02 | GS | initiate | Goldman Sachs Initiates Coverage on Pinnacle Financial Partners |
 | 11-23 06:33 | JPM | rating | JPMorgan Chase Maintains Neutral Rating on Tesla |
+| 11-23 15:01 | V |  | Visa Launches New AI Agent Wallet 'Visa CLI' |
+| 11-23 15:01 | COST |  | Swical Energy® Extra Strength Launches at Costco Quebec |
 | 11-23 14:02 | WMT |  | Guggenheim Adjusts Price Target on Walmart |
 | 11-23 14:01 | WDC |  | Western Digital Corporation Declares 2026 Dividend |
 | 11-23 14:01 | GS |  | Goldman Sachs to Host 2026 Financial Services Conference |
