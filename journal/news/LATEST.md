@@ -1,4 +1,4 @@
-# Headlines since 2026-11-20 16:00 ET (as of 2026-11-23 13:46 ET)
+# Headlines since 2026-11-20 16:00 ET (as of 2026-11-23 14:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -6,6 +6,13 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 |---|---|---|---|
 | 11-23 08:02 | GS | initiate | Goldman Sachs Initiates Coverage on Pinnacle Financial Partners |
 | 11-23 06:33 | JPM | rating | JPMorgan Chase Maintains Neutral Rating on Tesla |
+| 11-23 14:02 | WMT |  | Guggenheim Adjusts Price Target on Walmart |
+| 11-23 14:01 | WDC |  | Western Digital Corporation Declares 2026 Dividend |
+| 11-23 14:01 | GS |  | Goldman Sachs to Host 2026 Financial Services Conference |
+| 11-23 14:01 | LLY |  | Eli Lilly Announces Innovation Day 2026 |
+| 11-23 14:01 | AMZN |  | Amazon Acquires AI Startup Decart |
+| 11-23 14:01 | TSLA |  | Tesla Releases New FSD v15 Self-Driving Software |
+| 11-23 14:01 | HD |  | The Home Depot to Present at the Morgan Stanley Global Consumer & Retail Conference |
 | 11-23 11:02 | CRM |  | Citigroup Adjusts Price Target on Salesforce |
 | 11-23 11:01 | V |  | Klarna Expands Partnership with Visa to Offer Flexible Payment Options |
 | 11-23 11:01 | XOM |  | ExxonMobil Announces Pricing Terms and Results of Cash Tender Offers |

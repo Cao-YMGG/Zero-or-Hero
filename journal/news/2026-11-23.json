@@ -1,7 +1,77 @@
 {
- "as_of": "2026-11-23T13:46-05:00",
+ "as_of": "2026-11-23T14:16-05:00",
  "since": "2026-11-20T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-23 14:02",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Guggenheim Adjusts Price Target on Walmart",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/WMT-US?chain_id=Name1K9-3FXPhg.1lg875g&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FMAR-US%22%7D"
+  },
+  {
+   "time": "11-23 14:01",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Western Digital Corporation Declares 2026 Dividend",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.ch/nachrichten/aktien/s-p-500-papier-western-digital-aktie-ueber-diese-dividendenzahlung-koennen-sich-western-digital-aktionaere-freuen-1036792434"
+  },
+  {
+   "time": "11-23 14:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs to Host 2026 Financial Services Conference",
+   "source": "fiscal.ai",
+   "url": "https://investingnews.com/charles-schwab-to-present-at-goldman-sachs-2026-financial-services-conference/"
+  },
+  {
+   "time": "11-23 14:01",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly Announces Innovation Day 2026",
+   "source": "fiscal.ai",
+   "url": "https://www.placera.se/pressmeddelanden/lilly-to-host-innovation-day-2026-20261123"
+  },
+  {
+   "time": "11-23 14:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Acquires AI Startup Decart",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/news/acquiring/2026/amazon-acquires-tech-and-staff-from-ai-startup-decart/"
+  },
+  {
+   "time": "11-23 14:01",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Releases New FSD v15 Self-Driving Software",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/dow-jones/202611236261/tesla-shares-gain-on-new-self-driving-software-amid-broader-market-rally"
+  },
+  {
+   "time": "11-23 14:01",
+   "symbols": [
+    "HD"
+   ],
+   "rating": "",
+   "headline": "The Home Depot to Present at the Morgan Stanley Global Consumer & Retail Conference",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/the-home-depot-participara-como-ponente-en-el-congreso-global-de-consumo-y-comercio-minorista-de-morgan-stanley-847013348.html"
+  },
   {
    "time": "11-23 11:02",
    "symbols": [
