@@ -131,3 +131,13 @@ each part, one line each: the date, what happened, what it suggested, where it s
   - **The open-drive family by year** (opengate.json, 0.35 delta, outside expiry weeks): 2024 -33% a trade, 2025
     -10%, 2026 +37% (+22% without the best two), last 3 months -13% (-51% without the best two). SUNDAY_TESTS 84
     carries the bar for the call ledgers.
+- 2026-11-23: two things from one morning.
+  - A cut made after seeing the gap: SPY gapping up 1% or more the morning after an open-to-close of -2% or worse closed
+    above its open on 12 of 17 days in 2004-2016 and 7 of 8 in 2016-2026 (+1.2% on average). Read at 08:10 with SPY
+    +2.5% pre-market, quoted in the file as context. That day: gap +5.0%, open to close -0.28%. The plainer base rate
+    it sits on (the day after a -2% day in a falling month, 61-64%) has been quoted twice since it went on file and was
+    wrong twice (11-20: -3.2%; 11-23: -0.28%), with `p_up` at 0.56 and 0.58.
+  - Benzinga 06:31 "Trump Administration Pushes for Reinstatement of Jensen Huang": no second source at 08:03, and
+    Nvidia's chairman had said six days earlier the board would not reinstate him. The board did, before the open; NVDA
+    opened +33% and closed 1.2% under its open. "Not confirmed" was accurate and the headline was true. Nothing to buy
+    either way: the move was before 09:31.
