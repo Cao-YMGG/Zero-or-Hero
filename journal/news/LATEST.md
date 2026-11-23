@@ -1,10 +1,24 @@
-# Headlines since 2026-11-20 16:00 ET (as of 2026-11-23 07:58 ET)
+# Headlines since 2026-11-20 16:00 ET (as of 2026-11-23 10:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-23 08:02 | GS | initiate | Goldman Sachs Initiates Coverage on Pinnacle Financial Partners |
 | 11-23 06:33 | JPM | rating | JPMorgan Chase Maintains Neutral Rating on Tesla |
+| 11-23 09:32 | COST |  | MY ARCADE Launches ATARI 55th Anniversary Edition GAMESTATION GO at Costco |
+| 11-23 09:31 | JPM |  | J.P. Morgan Private Bank Releases 2027 Global Investment Outlook |
+| 11-23 09:31 | JPM |  | J.P. Morgan Asset Management (Canada) Announces Estimated Annual Distributions |
+| 11-23 09:31 | CRM |  | Salesforce Integrates Net Zero Cloud with CDP |
+| 11-23 09:31 | COIN |  | Coinbase Ventures Participates in $11.5 Million Seed Funding for Q.security |
+| 11-23 09:31 | GS |  | Goldman Sachs Named Lead Market Maker for New AllianceBernstein ETF |
+| 11-23 09:31 | V |  | ACI Worldwide Partners with Visa to Enhance Issuing Capabilities |
+| 11-23 09:31 | NVDA |  | NVIDIA Reinstates Jensen Huang as President and CEO |
+| 11-23 09:01 | ARM |  | Arm CEO Rene Haas Extends Contract Through 2033 and Joins SoftBank Group Board |
+| 11-23 08:02 | GEV |  | GE Vernova Recognized for Gains in 2026 CPA-Zicklin Index |
+| 11-23 08:02 | GS |  | Goldman Sachs Identifies Market Recovery Catalysts |
+| 11-23 08:02 | GS |  | Goldman Sachs Updates Memory Chip Industry Outlook |
+| 11-23 08:01 | MSFT |  | Microsoft UAE and Space42 Release Report on Geospatial Agentic AI |
 | 11-23 07:32 | NVDA |  | NVIDIA Former CEO Jensen Huang Agrees to Senate Testimony |
 | 11-23 07:31 | GEV |  | Infosys and GE Vernova Collaborate on Digital Solutions for Utilities |
 | 11-23 07:31 | META |  | DXL Adopts Meta's Muse AI Agent for Customer Engagement |

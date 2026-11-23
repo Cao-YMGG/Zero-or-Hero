@@ -1,7 +1,147 @@
 {
- "as_of": "2026-11-23T07:58-05:00",
+ "as_of": "2026-11-23T10:02-05:00",
  "since": "2026-11-20T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-23 09:32",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "MY ARCADE Launches ATARI 55th Anniversary Edition GAMESTATION GO at Costco",
+   "source": "fiscal.ai",
+   "url": "https://www.einnews.com/pr_news/958098361/my-arcade-launches-the-atari-55th-anniversary-edition-gamestation-go-at-costco"
+  },
+  {
+   "time": "11-23 09:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "J.P. Morgan Private Bank Releases 2027 Global Investment Outlook",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/jp-morgan-nextlist-turns-10-the-books-stages-and-destinations-defining-whats-next-in-2027-302947579.html"
+  },
+  {
+   "time": "11-23 09:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "J.P. Morgan Asset Management (Canada) Announces Estimated Annual Distributions",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/23/3408222/0/fr/distributions-annuelles-estim%C3%A9es-des-gains-en-capital-r%C3%A9investis-des-fonds-n%C3%A9goci%C3%A9s-en-bourse-2026-de-jpmorgan-asset-management-canada-inc.html"
+  },
+  {
+   "time": "11-23 09:31",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce Integrates Net Zero Cloud with CDP",
+   "source": "fiscal.ai",
+   "url": "https://sustainabilitymag.com/news/cdp-businesses-need-consistency-clarity-and-confidence"
+  },
+  {
+   "time": "11-23 09:31",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Coinbase Ventures Participates in $11.5 Million Seed Funding for Q.security",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/23/3408334/0/en/q-security-launches-with-11-5m-to-make-enterprise-cryptography-quantum-safe.html"
+  },
+  {
+   "time": "11-23 09:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Named Lead Market Maker for New AllianceBernstein ETF",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/alliancebernstein-launches-ab-equity-income-etf-302947704.html"
+  },
+  {
+   "time": "11-23 09:31",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "ACI Worldwide Partners with Visa to Enhance Issuing Capabilities",
+   "source": "fiscal.ai",
+   "url": "https://fintechmagazine.com/news/smarter-payments-aci-worldwide-on-the-future-of-fintech"
+  },
+  {
+   "time": "11-23 09:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Reinstates Jensen Huang as President and CEO",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/23/3408381/0/en/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director.html"
+  },
+  {
+   "time": "11-23 09:01",
+   "symbols": [
+    "ARM"
+   ],
+   "rating": "",
+   "headline": "Arm CEO Rene Haas Extends Contract Through 2033 and Joins SoftBank Group Board",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/press-releases/8961824/arm-ceo-rene-haas-affirms-long-term-commitment-to-lead-companys-next-phase-of-growth"
+  },
+  {
+   "time": "11-23 08:02",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova Recognized for Gains in 2026 CPA-Zicklin Index",
+   "source": "fiscal.ai",
+   "url": "https://www.einnews.com/pr_news/958501177/2026-cpa-zicklin-index-finds-corporations-hold-firm-trendsetters-rises-to-114"
+  },
+  {
+   "time": "11-23 08:02",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Identifies Market Recovery Catalysts",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1005468100/when-will-the-correction-in-us-stocks-bottom-out-goldman"
+  },
+  {
+   "time": "11-23 08:02",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Updates Memory Chip Industry Outlook",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1005490284/global-research-picks-goldman-sachs-memory-chip-prices-may-drop"
+  },
+  {
+   "time": "11-23 08:02",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "initiate",
+   "headline": "Goldman Sachs Initiates Coverage on Pinnacle Financial Partners",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-initiates-coverage-on-pinnacle-financial-partners-with-buy-rating-113-price-target-ce7851dadb8df02d"
+  },
+  {
+   "time": "11-23 08:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft UAE and Space42 Release Report on Geospatial Agentic AI",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/23/3408140/0/en/from-data-to-decisions-space42-and-microsoft-uae-release-report-on-geospatial-agentic-ai-s-potential-to-help-governments-better-serve-society.html"
+  },
   {
    "time": "11-23 07:32",
    "symbols": [

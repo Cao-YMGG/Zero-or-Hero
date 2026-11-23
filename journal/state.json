@@ -1,32 +1,37 @@
 {
-  "date": "2026-11-20",
-  "done": true,
+  "date": "2026-11-23",
+  "done": false,
   "variants": {
-    "catalyst_intraday_hero@2026-11-18": {
-      "entered": true,
-      "carried": true,
-      "of": "catalyst_intraday_hero",
-      "closed": true
-    },
     "claude_bias": {},
-    "meta_follow2": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
-    "nvda_gapdown_put": {
-      "attempts": 1,
-      "entered": true,
-      "closed": true
-    },
+    "meta_follow2": {},
+    "nvda_gapdown_put": {},
     "catalyst_open": {},
     "catalyst_open_hero": {},
-    "rating_open": {},
     "catalyst_intraday": {},
     "catalyst_intraday_hero": {},
     "spy_open_drive": {},
     "spy_open_drive_put": {},
-    "stock_open_drive": {}
+    "stock_open_drive": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "TSLA261123C00397500",
+        "direction": "call",
+        "entry_time": "2026-11-23T10:01:30-05:00",
+        "entry_price": 1.26,
+        "peak": 1.26,
+        "qty": 1,
+        "last": 1.11,
+        "last_time": "2026-11-23T10:02:01-05:00"
+      },
+      "real": {
+        "contract": "TSLA261123C00397500",
+        "qty": 1,
+        "underlying": "TSLA",
+        "entry_price": 1.23,
+        "entry_time": "2026-11-23T10:01:31-05:00"
+      }
+    }
   },
   "generation": 1,
   "equity_start": 385.40000000000146,
