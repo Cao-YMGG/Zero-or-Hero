@@ -1,7 +1,47 @@
 {
- "as_of": "2026-11-23T10:32-05:00",
+ "as_of": "2026-11-23T11:02-05:00",
  "since": "2026-11-20T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-23 11:01",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Klarna Expands Partnership with Visa to Offer Flexible Payment Options",
+   "source": "fiscal.ai",
+   "url": "https://finviz.com/news/426304/klarna-expands-visa-partnership-to-offer-flexible-payment-options-across-four-major-markets"
+  },
+  {
+   "time": "11-23 11:01",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "ExxonMobil Announces Pricing Terms and Results of Cash Tender Offers",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/energy"
+  },
+  {
+   "time": "11-23 11:01",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "U.S. Government Proposes Significant Medicare Advantage Regulatory Changes",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/2026112362/unitedhealth-humana-and-cvs-stocks-slide-as-us-targets-medicare-advantage-ratings"
+  },
+  {
+   "time": "11-23 11:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "V2X Expands Collaboration with Microsoft to Advance AI-Powered Mission Operations",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/v2x-expands-collaboration-with-microsoft-to-advance-the-next-generation-of-ai-powered-mission-operations-302947723.html"
+  },
   {
    "time": "11-23 10:31",
    "symbols": [
