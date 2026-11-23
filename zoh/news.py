@@ -29,6 +29,21 @@ WATCH = [
     # non-tech mega caps (CLAUDE.md step 2b)
     "JPM", "GS", "BAC", "UNH", "LLY", "XOM", "CVX", "WMT", "COST", "HD", "CAT", "GE", "V",
 ]
+# Other large caps with weekly options: only their upgrades and downgrades are listed. The sniper may be
+# named on any of them (CLAUDE.md step 3b) and R4 was measured on them, but on 2026-11-23 Cantor's upgrade
+# of TXN was not in the file because TXN was not watched. The same names as research.slowdrift.WIDE less
+# the ones above (tests/test_news.py keeps the two lists in step).
+RATED_ONLY = [
+    "MS", "C", "WFC", "MA", "AXP", "SCHW", "BLK", "COF", "PYPL", "SOFI",
+    "JNJ", "ABBV", "MRK", "PFE", "TMO", "ABT", "AMGN", "GILD", "BMY", "CVS", "ISRG", "MRNA",
+    "COP", "SLB", "OXY", "HON", "DE", "RTX", "LMT", "BA", "UPS", "FDX",
+    "LOW", "TGT", "MCD", "NKE", "SBUX", "DIS", "ABNB", "BKNG", "DASH", "CMG", "LULU", "KO",
+    "PEP", "PG", "GM", "F", "RIVN", "NIO", "BABA", "PDD", "JD", "AMAT", "LRCX", "KLAC", "MRVL",
+    "TXN", "ADI", "ON", "NOW", "INTU", "PANW", "CRWD", "SNOW", "SHOP", "DELL", "IBM", "CSCO", "NET", "DDOG", "ZS",
+    "MDB", "TEAM", "WDAY", "RBLX", "ROKU", "SNAP", "PINS", "SPOT", "CVNA", "APP", "COHR", "MSTR", "T", "VZ",
+    "QCOM", "ADBE", "ANET", "UBER",
+]
+RATED_KINDS = ("upgrade", "downgrade")
 MAX_TAGGED = 4  # more symbols than this = a roundup, not news about the stock
 ROUNDUP = re.compile(r"stocks moving|movers|mid-day|pre-market session|after-market session|"
                      r"top wall street analyst|what's going on|why is .* (up|down|trading)", re.I)
@@ -88,6 +103,27 @@ def clean(items, watch):
     return rows
 
 
+def rated_only(api, start, end):
+    """Upgrades and downgrades on the large caps outside WATCH. Best effort: a failed request costs
+    these rows, not the file."""
+    items = []
+    for k in range(0, len(RATED_ONLY), 15):
+        try:
+            items += fetch(api, RATED_ONLY[k:k + 15], start, end)
+        except Exception as e:  # noqa: BLE001 - the watched names' headlines matter more than these
+            print(f"news: rating scan of {RATED_ONLY[k]}... failed: {e}")
+    rows = clean(sorted(items, key=lambda it: it.get("created_at", ""), reverse=True), set(RATED_ONLY))
+    return [r for r in rows if r["rating"] in RATED_KINDS]
+
+
+def merge(rows, extra):
+    """rows plus the extra ones not already there (a headline tagged with a watched and an unwatched
+    name comes back from both pulls), newest first."""
+    seen = {(r["time"], r["headline"]) for r in rows}
+    out = rows + [r for r in extra if (r["time"], r["headline"]) not in seen]
+    return sorted(out, key=lambda r: r["time"], reverse=True)
+
+
 def markdown(rows, start, now):
     lines = [f"# Headlines since {start:%Y-%m-%d %H:%M} ET (as of {now:%Y-%m-%d %H:%M} ET)", "",
              "Alpaca news (Benzinga). Rating changes first, then everything else, newest first.", "",
@@ -108,6 +144,7 @@ def refresh(api=None, start=None, quiet=False):
     for k in range(0, len(WATCH), 15):  # keep each request's symbol list short
         items += fetch(api, WATCH[k:k + 15], start, now)
     rows = clean(sorted(items, key=lambda it: it.get("created_at", ""), reverse=True), set(WATCH))
+    rows = merge(rows, rated_only(api, start, now))
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / f"{now.date()}.json").write_text(json.dumps(
         {"as_of": now.isoformat(timespec="minutes"), "since": start.isoformat(timespec="minutes"),

@@ -172,9 +172,10 @@ software or at 0.35 delta. rating_open is retired (R4). The numbers stay where t
 
 ## Reading habits (about my own misses, not the market: these do not expire)
 - Read journal/news/LATEST.md first (Benzinga via Alpaca, refreshed 08:40 ET and every 30 minutes in the session;
-  rating changes listed first), then web search. The Alpaca news endpoint takes any symbol. **Its times are UTC**: a
-  headline stamped 13:30-21:00 came out in yesterday's session and is in yesterday's close (11-18: AVGO's $1B Anthropic
-  line read as "last night", posted 15:01 ET).
+  rating changes listed first; since 2026-11-23 the upgrades and downgrades of about 100 other large caps are in it
+  too, after Cantor's upgrade of TXN went unread that morning), then web search. The Alpaca news endpoint takes any
+  symbol. **Its times are UTC**: a headline stamped 13:30-21:00 came out in yesterday's session and is in yesterday's
+  close (11-18: AVGO's $1B Anthropic line read as "last night", posted 15:01 ET).
 - Read every headline on the candidate from the last 24 hours, not only the most visible, and again at the 08:30
   re-read: the whole news file for its symbol, not its top lines.
 - A mega cap moving >= 2% pre-market with no visible headline is a question, not a non-event: search its own news and
