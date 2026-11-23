@@ -1,4 +1,4 @@
-# Headlines since 2026-11-20 16:00 ET (as of 2026-11-23 11:02 ET)
+# Headlines since 2026-11-20 16:00 ET (as of 2026-11-23 11:33 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -6,6 +6,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 |---|---|---|---|
 | 11-23 08:02 | GS | initiate | Goldman Sachs Initiates Coverage on Pinnacle Financial Partners |
 | 11-23 06:33 | JPM | rating | JPMorgan Chase Maintains Neutral Rating on Tesla |
+| 11-23 11:02 | CRM |  | Citigroup Adjusts Price Target on Salesforce |
 | 11-23 11:01 | V |  | Klarna Expands Partnership with Visa to Offer Flexible Payment Options |
 | 11-23 11:01 | XOM |  | ExxonMobil Announces Pricing Terms and Results of Cash Tender Offers |
 | 11-23 11:01 | UNH |  | U.S. Government Proposes Significant Medicare Advantage Regulatory Changes |
