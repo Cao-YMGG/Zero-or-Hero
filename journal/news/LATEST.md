@@ -1,4 +1,4 @@
-# Headlines since 2026-11-23 16:00 ET (as of 2026-11-24 13:45 ET)
+# Headlines since 2026-11-23 16:00 ET (as of 2026-11-24 14:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -12,6 +12,12 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-24 06:32 | WDC | initiate | BofA Securities Initiates Coverage of Western Digital with Buy Rating |
 | 11-24 06:32 | MU | downgrade | BNP Paribas Downgrades Micron Technology to Neutral |
 | 11-24 06:31 | CRWD | upgrade | Guggenheim Upgrades CrowdStrike to Buy with $280 Price Target |
+| 11-24 14:04 | WMT |  | Symbotic Announces $7 Billion Expansion of Walmart Automation Agreement |
+| 11-24 14:02 | HOOD |  | Robinhood Co-Leads $5 Million Seed Investment in Onchain Trading Platform Rialto |
+| 11-24 14:02 | BAC |  | Bank of America Corporation Reports Decrease in Voting Interest in Workspace Group PLC |
+| 11-24 14:02 | AAPL |  | Apple to Host Special Event at SoHo Store Marking 20 Years of (RED) Partnership |
+| 11-24 14:02 | NFLX |  | German Voice Actors Protest Netflix Over AI Usage |
+| 11-24 14:02 | V |  | Visa Opens New Representative Office in Cameroon |
 | 11-24 11:01 | XOM |  | ExxonMobil Guyana Oil Output Expected to Exceed 1 Million Barrels Per Day |
 | 11-24 11:01 | ORCL |  | Oracle Commodity Holding Restores Royalty on Pulacayo-Paca Silver Project |
 | 11-24 11:01 | HOOD |  | Robinhood Launches Cboe KPI Binary Options for Earnings Trading |

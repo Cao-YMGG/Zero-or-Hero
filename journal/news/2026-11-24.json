@@ -1,7 +1,67 @@
 {
- "as_of": "2026-11-24T13:45-05:00",
+ "as_of": "2026-11-24T14:16-05:00",
  "since": "2026-11-23T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-24 14:04",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Symbotic Announces $7 Billion Expansion of Walmart Automation Agreement",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/WMT-US?chain_id=Name1K9-3FXPhg.1lgbgkg&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FBA-US%2Fcommunity%22%7D"
+  },
+  {
+   "time": "11-24 14:02",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Robinhood Co-Leads $5 Million Seed Investment in Onchain Trading Platform Rialto",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/24/3409754/0/en/rialto-raises-5-million-from-tandem-by-offchain-and-robinhood-to-build-onchain-capital-markets.html"
+  },
+  {
+   "time": "11-24 14:02",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank of America Corporation Reports Decrease in Voting Interest in Workspace Group PLC",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/rns/workspace-group--wkp/holding-s-in-company/9891900"
+  },
+  {
+   "time": "11-24 14:02",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple to Host Special Event at SoHo Store Marking 20 Years of (RED) Partnership",
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/5vlet9t/"
+  },
+  {
+   "time": "11-24 14:02",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "German Voice Actors Protest Netflix Over AI Usage",
+   "source": "fiscal.ai",
+   "url": "https://ultimosegundo.ig.com.br/agencias/dw/2026-11-24/dubladores-alemaes-se-revoltam-contra-netflix-por-uso-de-ia.html"
+  },
+  {
+   "time": "11-24 14:02",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Opens New Representative Office in Cameroon",
+   "source": "fiscal.ai",
+   "url": "https://africa.com/apo/visa-strengthens-its-commitment-to-cameroon-with-the-opening-of-a-representative-office-in-douala"
+  },
   {
    "time": "11-24 11:01",
    "symbols": [
