@@ -1,7 +1,7 @@
 {
- "started": "2026-11-24T19:02:51+00:00",
- "finished": "2026-11-24T19:03:35+00:00",
- "candidates": 24,
+ "started": "2026-11-24T19:05:23+00:00",
+ "finished": "2026-11-24T19:06:19+00:00",
+ "candidates": 30,
  "symbols": [
   "AAPL",
   "AMZN",
@@ -15,9 +15,9 @@
  ],
  "byStatus": {
   "NO_TICK_CROSS": 4,
-  "NO_ENTRY_PRICE": 13,
+  "NO_ENTRY_PRICE": 19,
   "OK": 7
  },
- "requests": 75,
+ "requests": 93,
  "httpErrors": 0
 }
