@@ -278,7 +278,7 @@ def main(req_path, out_dir):
                 "start": z(et_dt(day, "09:30")), "end": z(et_dt(day, "16:00")), "limit": 10000, "sort": "asc"})
             for r in rs:
                 if code != 200:
-                    r.update(status="ERR_OPT_MIN", err="http=%s %s" % (code, err))
+                    r.update(status="ENTRY_PRICED", minuteEntry=False, minuteErr="http=%s %s" % (code, err))
                     continue
                 t = et_dt(day, r["tick"])
                 legs = {}
@@ -292,11 +292,14 @@ def main(req_path, out_dir):
                         _, _, x, gap = min(near, key=lambda n: (n[0], n[1]))
                         legs[side] = (x["c"], et(x["t"]).strftime("%H:%M"), x.get("v"), round(gap, 1))
                 if len(legs) < 2:
-                    r.update(status="NO_ENTRY_PRICE", legsFound=sorted(legs))
+                    # spec amendment 15:15 ET: the main result enters at the signal day's close, so the daily
+                    # closes are still fetched; the minute entry is only the side comparison.
+                    r.update(status="ENTRY_PRICED", minuteEntry=False, legsFound=sorted(legs))
                     continue
                 r.update(longEntry=legs["long"][0], longEntryT=legs["long"][1], longEntryV=legs["long"][2],
                          longGapMin=legs["long"][3], shortEntry=legs["short"][0], shortEntryT=legs["short"][1],
-                         shortEntryV=legs["short"][2], shortGapMin=legs["short"][3], status="ENTRY_PRICED")
+                         shortEntryV=legs["short"][2], shortGapMin=legs["short"][3], minuteEntry=True,
+                         status="ENTRY_PRICED")
         except Exception as e:  # noqa: BLE001
             for r in rs:
                 r.update(status="ERR_EXCEPTION", err="%s: %s" % (type(e).__name__, str(e)[:200]))
