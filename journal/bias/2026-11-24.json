@@ -1,0 +1,83 @@
+{
+ "date": "2026-11-24",
+ "bias": "none",
+ "confidence": 0.2,
+ "p_up": 0.5,
+ "summary": "No SPY bet: the day after Monday's 5% gap, SPY is -1.3% and QQQ -2.3% pre-market as chips give back part of it and two AI-hardware reports disappoint; nothing points one way from the open.",
+ "reasons": [
+  "Pre-market (Webull, 08:31 ET): SPY 712.9 (-1.30% from 722.29), QQQ -2.26%, SMH -5.0%, IGV -1.7%, IWM -0.9%, DIA -0.8%; XLV +0.7%, XLP +0.7%, XLF -0.2%, XLE +0.3%; TLT +0.3%, USO +0.7%, UUP -0.5%, GLD -0.2%, VIXY +5.3%. Stocks: NVDA -5.6%, AMD -5.5%, MU -7.1%, AVGO -4.4%, TSM -3.1%, INTC -6.4%, ORCL -3.6%, META -1.8%, AMZN -2.0%, MSFT -0.8%, GOOGL -1.0%, TSLA -1.3%, AAPL -0.5%; LLY +0.9%, WMT +0.1%.",
+  "Why down (Reuters via Investing.com, Benzinga, Yahoo live): profit taking in chips after Monday's Nvidia-led rally (NVDA +31.5% on the day); HPE beat but guided its first quarter and its AI margins short (-11% pre-market); ADI beat and guided below consensus (-10%); Benzinga also cites fresh Iran sanctions and Hormuz warnings from Treasury. Sanofi is buying Insmed for $41 billion.",
+  "Rates and data: the 10-year near 4.93% (sources disagree on the move); one aggregator puts December hike odds at 95% (single source, not confirmed). 10:00 Conference Board consumer confidence (consensus about 92) and Richmond Fed; 13:00 a $70 billion 5-year note auction (one source). Wednesday 08:30: October PCE and the second estimate of third-quarter GDP. Thursday closed, Friday a half day.",
+  "Monday: SPY gapped +5.0% and closed 0.28% under its open; the base rate quoted that morning (the day after a -2% day in a falling month) is now 0 for 2 since it went on file. R1: the gap is priced at the open; no base rate is quoted today. The selling deepened from 07:58 (SPY -0.9%) to 08:31 (-1.3%), all of it before the open.",
+  "Sniper null: no qualifying rating change. Bernstein initiates AMD at Buy and BofA initiates WDC at Buy: initiations, not rating changes (R4 was measured on upgrades and downgrades), and both gap down 4-5% with the group. BNP downgrades MU to Neutral: a put sniper needs a put day (S4). Guggenheim upgrades CRWD to Buy: CRWD reported Monday morning, so today is inside its report window (R3). Morgan Stanley's upgrade is of Millicom, not ours.",
+  "No ideas listed (T6). Every candidate is a call on a name gapping down with the chip group after a 15-30% day, or a name inside a report window; nothing with a cause of its own that is not already in the opening price.",
+  "Report window (R3): ADI reported this morning; DELL and WDAY report after today's close; HPE reported last night; CRWD reported Monday. DE reports Wednesday. None of our 25 names reports in the next week except as above; CRM and MRVL next week.",
+  "Theme states at the 11-23 close: chips neutral (BREADTH), software neutral (REL_WEAK, BREADTH), optical neutral with heat flags (REL_STRONG, PERIPH_UP), consumer BREADTH_UP; light lit: breadth. Neither chips nor software is `turning` any more after Monday. Described, not forecast (R6).",
+  "Pre-market down gaps of 2% or more among the large caps: NVDA, AMD, MU, AVGO, INTC, ORCL, TXN, ADI, HPE, DELL, MRVL, LITE, WDC, STX, SNDK, ARM, PLTR, TSM. nvda_gapdown_put (real ledger, $691) can fire at 10:00 if NVDA is still under its open."
+ ],
+ "events": [
+  "10:00 Conference Board consumer confidence",
+  "10:00 Richmond Fed manufacturing",
+  "13:00 5-year note auction (one source)",
+  "DELL and WDAY after the close",
+  "Wednesday 08:30 PCE and GDP; Thursday closed; Friday half day"
+ ],
+ "inputs": {
+  "spy_premarket_pct": -1.3,
+  "qqq_premarket_pct": -2.26,
+  "es_futures_pct": -0.5,
+  "vix": 26.6,
+  "vixy_premarket_pct": 5.3,
+  "wti_pct": -1.0,
+  "uso_premarket_pct": 0.7,
+  "us10y": 4.93,
+  "us10y_change_bp": null,
+  "us2y_change_bp": null,
+  "tlt_premarket_pct": 0.3,
+  "dxy_pct": null,
+  "uup_premarket_pct": -0.5,
+  "overnight": "TSMC limit-up in Taipei after the Nvidia news (Benzinga 04:31); US futures lower from the European morning: Nasdaq 100 about -1.2%, S&P 500 about -0.5% at the first reports. VIX is Monday's close."
+ },
+ "rotation": {
+  "heating": [
+   "consumer (WMT/COST/HD +8.6% 1m)",
+   "staples (XLP +2.4% 1m, above its 20-day average)",
+   "long bonds (TLT +2.9% 1w)"
+  ],
+  "cooling": [
+   "memory (-31% 1m)",
+   "optical (-23% 1m)",
+   "GPU (-22% 1m, +5.7% 1w)",
+   "CPU (-20% 1m)",
+   "software (-20% 1m)",
+   "disk (-16% 1m)",
+   "energy (-12% 1m)",
+   "power (-9% 1m)",
+   "health (-12% 1w)",
+   "banks (-6% 1w)"
+  ],
+  "note": "Monday's bounce turned the chip weeks positive (GPU +5.7%, disk +5.0% 1w) but every tech theme is still 15-31% down on the month and every sector ETF except staples is under its 20-day average; this morning the bounce is partly given back. R6: describes, does not forecast.",
+  "theme_state": {
+   "chips": "neutral (BREADTH)",
+   "software": "neutral (REL_WEAK, BREADTH)",
+   "internet": "neutral (BREADTH)",
+   "optical": "neutral (BREADTH; REL_STRONG, PERIPH_UP)",
+   "power": "neutral (BREADTH; PERIPH_UP)",
+   "banks": "neutral (REL_WEAK, BREADTH)",
+   "energy": "neutral (REL_WEAK, BREADTH)",
+   "health": "neutral (REL_WEAK)",
+   "consumer": "neutral (BREADTH_UP)",
+   "industrials": "neutral",
+   "lights": "breadth lit at the 11-23 close; stretched not lit"
+  }
+ },
+ "sniper": null,
+ "opportunities": [],
+ "zh": {
+  "summary": "今天不下注。昨天高开 5% 后，今早标普盘前 -1.3%、纳指 -2.3%，芯片在回吐昨天的大涨，惠普企业和亚德诺两家 AI 硬件公司的指引不及预期。开盘后往哪边走，看不出理由，我写 0.50。",
+  "sniper": "今天不点名：伯恩斯坦首次覆盖 AMD 给买入、美银首次覆盖西部数据给买入，都是首次覆盖、不是评级上调，而且两只都跟着芯片低开 4% 到 5%；法巴下调美光是降级，看跌只在看跌日做；古根海姆上调 CrowdStrike，但它昨天刚出财报，还在窗口里。想法清单也空着。",
+  "heating": "必需消费、大型零售、长期国债",
+  "cooling": "存储、光模块、GPU、CPU、软件、硬盘、能源、电力，医疗和银行这周也在跌"
+ },
+ "generated_at": "2026-11-24T08:31:12-05:00"
+}
