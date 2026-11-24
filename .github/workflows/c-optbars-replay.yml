@@ -1,0 +1,40 @@
+name: claude-c paper-book replay (branch c/optbars only)
+
+# claude-c's research fetch for a replay of two rule-based paper books. Own branch only; never main or claude/**.
+on:
+  push:
+    branches: ["c/optbars"]
+    paths: ["exchange/claude-c/optbars/replay/request.json", "exchange/claude-c/optbars/replay/fetch.py",
+            ".github/workflows/c-optbars-replay.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: c-optbars-replay
+  cancel-in-progress: false
+
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 200
+    env:
+      APCA_API_KEY_ID: ${{ secrets.APCA_API_KEY_ID }}
+      APCA_API_SECRET_KEY: ${{ secrets.APCA_API_SECRET_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch replay data
+        timeout-minutes: 180
+        run: python exchange/claude-c/optbars/replay/fetch.py exchange/claude-c/optbars/replay/request.json exchange/claude-c/optbars/replay/out
+      - name: Commit results to c/optbars
+        if: always()
+        run: |
+          git config user.name "claude-c-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add exchange/claude-c/optbars/replay/out || exit 0
+          git diff --cached --quiet && exit 0
+          git commit -m "c/optbars: replay data $(date -u +%FT%TZ)"
+          for i in 1 2 3; do git pull --rebase origin c/optbars && git push origin HEAD:c/optbars && break; sleep 5; done

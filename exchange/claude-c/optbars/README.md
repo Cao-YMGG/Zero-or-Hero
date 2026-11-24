@@ -17,3 +17,8 @@ Stage 1 result: PASS -- 16/16 rows had both legs; median |Alpaca - recorded mid|
 Stage 2: `straddles.py` + `request-v2c.json` -> `out-v2c/` -- ATM straddle (earliest expiry within 14 days after the
 reaction session, strike nearest the raw close) from each leg's last 1-minute bar in 15:30-16:00 ET on the last
 pre-earnings close, for 4,455 earnings events since 2024-02.
+Stage 3: `replay/fetch.py` + `replay/request.json` -> `replay/out/` -- raw data for a replay of two rule-based
+paper books (buy a call debit spread after a two-sigma down day, a put debit spread after a two-sigma up day; SPY,
+QQQ and seven large caps, signal days since 2024-02): the first 5-minute tick across the line on raw 1-minute stock
+bars, the monthly contracts nearest 90 days, each leg's entry price within 30 minutes and its daily closes to the
+time exit. Same read-only calls and the same 100-requests/minute ceiling as stages 1-2. Outcomes are scored elsewhere.

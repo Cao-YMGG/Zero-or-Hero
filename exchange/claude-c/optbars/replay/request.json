@@ -1,0 +1,247 @@
+{
+ "purpose": "claude-c replay of paper-dip-v1 / paper-rip-v1 (frozen spec 2026-11-24) -- SMOKE (24 spread candidates)",
+ "from": "2024-02-01",
+ "to": "2026-11-20",
+ "candidates": [
+  {
+   "id": "dip-AAPL-2024-02-02",
+   "book": "paper-dip-v1",
+   "sym": "AAPL",
+   "day": "2024-02-02",
+   "prevDay": "2024-02-01",
+   "sigma20": 0.013518,
+   "move": 0.03,
+   "qfqExtremePct": -4.073
+  },
+  {
+   "id": "dip-TSLA-2024-04-02",
+   "book": "paper-dip-v1",
+   "sym": "TSLA",
+   "day": "2024-04-02",
+   "prevDay": "2024-04-01",
+   "sigma20": 0.030603,
+   "move": 0.061206,
+   "qfqExtremePct": -6.729
+  },
+  {
+   "id": "rip-AMZN-2024-05-01",
+   "book": "paper-rip-v1",
+   "sym": "AMZN",
+   "day": "2024-05-01",
+   "prevDay": "2024-04-30",
+   "sigma20": 0.017589,
+   "move": 0.035179,
+   "qfqExtremePct": 5.8
+  },
+  {
+   "id": "dip-QQQ-2024-07-11",
+   "book": "paper-dip-v1",
+   "sym": "QQQ",
+   "day": "2024-07-11",
+   "prevDay": "2024-07-10",
+   "sigma20": 0.006868,
+   "move": 0.02,
+   "qfqExtremePct": -2.433
+  },
+  {
+   "id": "dip-SPY-2024-08-02",
+   "book": "paper-dip-v1",
+   "sym": "SPY",
+   "day": "2024-08-02",
+   "prevDay": "2024-08-01",
+   "sigma20": 0.00988,
+   "move": 0.02,
+   "qfqExtremePct": -2.654
+  },
+  {
+   "id": "rip-QQQ-2024-09-19",
+   "book": "paper-rip-v1",
+   "sym": "QQQ",
+   "day": "2024-09-19",
+   "prevDay": "2024-09-18",
+   "sigma20": 0.013203,
+   "move": 0.026406,
+   "qfqExtremePct": 3.137
+  },
+  {
+   "id": "dip-META-2024-11-15",
+   "book": "paper-dip-v1",
+   "sym": "META",
+   "day": "2024-11-15",
+   "prevDay": "2024-11-14",
+   "sigma20": 0.017375,
+   "move": 0.03475,
+   "qfqExtremePct": -4.446
+  },
+  {
+   "id": "rip-MSFT-2025-01-15",
+   "book": "paper-rip-v1",
+   "sym": "MSFT",
+   "day": "2025-01-15",
+   "prevDay": "2025-01-14",
+   "sigma20": 0.011825,
+   "move": 0.03,
+   "qfqExtremePct": 3.002
+  },
+  {
+   "id": "dip-TSLA-2025-02-25",
+   "book": "paper-dip-v1",
+   "sym": "TSLA",
+   "day": "2025-02-25",
+   "prevDay": "2025-02-24",
+   "sigma20": 0.030911,
+   "move": 0.061821,
+   "qfqExtremePct": -10.068
+  },
+  {
+   "id": "rip-META-2025-03-12",
+   "book": "paper-rip-v1",
+   "sym": "META",
+   "day": "2025-03-12",
+   "prevDay": "2025-03-11",
+   "sigma20": 0.020803,
+   "move": 0.041606,
+   "qfqExtremePct": 4.56
+  },
+  {
+   "id": "dip-NVDA-2025-04-07",
+   "book": "paper-dip-v1",
+   "sym": "NVDA",
+   "day": "2025-04-07",
+   "prevDay": "2025-04-04",
+   "sigma20": 0.038335,
+   "move": 0.076671,
+   "qfqExtremePct": -8.154
+  },
+  {
+   "id": "dip-GOOGL-2025-05-07",
+   "book": "paper-dip-v1",
+   "sym": "GOOGL",
+   "day": "2025-05-07",
+   "prevDay": "2025-05-06",
+   "sigma20": 0.027962,
+   "move": 0.055924,
+   "qfqExtremePct": -9.428
+  },
+  {
+   "id": "rip-META-2025-07-31",
+   "book": "paper-rip-v1",
+   "sym": "META",
+   "day": "2025-07-31",
+   "prevDay": "2025-07-30",
+   "sigma20": 0.010572,
+   "move": 0.03,
+   "qfqExtremePct": 12.88
+  },
+  {
+   "id": "dip-AMZN-2025-09-10",
+   "book": "paper-dip-v1",
+   "sym": "AMZN",
+   "day": "2025-09-10",
+   "prevDay": "2025-09-09",
+   "sigma20": 0.016439,
+   "move": 0.032879,
+   "qfqExtremePct": -3.838
+  },
+  {
+   "id": "rip-NVDA-2025-10-28",
+   "book": "paper-rip-v1",
+   "sym": "NVDA",
+   "day": "2025-10-28",
+   "prevDay": "2025-10-27",
+   "sigma20": 0.021218,
+   "move": 0.042436,
+   "qfqExtremePct": 6.089
+  },
+  {
+   "id": "dip-NVDA-2025-12-17",
+   "book": "paper-dip-v1",
+   "sym": "NVDA",
+   "day": "2025-12-17",
+   "prevDay": "2025-12-16",
+   "sigma20": 0.019117,
+   "move": 0.038234,
+   "qfqExtremePct": -4.169
+  },
+  {
+   "id": "rip-TSLA-2026-01-30",
+   "book": "paper-rip-v1",
+   "sym": "TSLA",
+   "day": "2026-01-30",
+   "prevDay": "2026-01-29",
+   "sigma20": 0.02377,
+   "move": 0.04754,
+   "qfqExtremePct": 5.598
+  },
+  {
+   "id": "rip-AMZN-2026-03-04",
+   "book": "paper-rip-v1",
+   "sym": "AMZN",
+   "day": "2026-03-04",
+   "prevDay": "2026-03-03",
+   "sigma20": 0.020792,
+   "move": 0.041584,
+   "qfqExtremePct": 4.221
+  },
+  {
+   "id": "rip-TSLA-2026-03-31",
+   "book": "paper-rip-v1",
+   "sym": "TSLA",
+   "day": "2026-03-31",
+   "prevDay": "2026-03-30",
+   "sigma20": 0.022365,
+   "move": 0.044729,
+   "qfqExtremePct": 5.08
+  },
+  {
+   "id": "rip-QQQ-2026-05-08",
+   "book": "paper-rip-v1",
+   "sym": "QQQ",
+   "day": "2026-05-08",
+   "prevDay": "2026-05-07",
+   "sigma20": 0.009099,
+   "move": 0.02,
+   "qfqExtremePct": 2.344
+  },
+  {
+   "id": "rip-GOOGL-2026-06-15",
+   "book": "paper-rip-v1",
+   "sym": "GOOGL",
+   "day": "2026-06-15",
+   "prevDay": "2026-06-12",
+   "sigma20": 0.016201,
+   "move": 0.032403,
+   "qfqExtremePct": 3.701
+  },
+  {
+   "id": "dip-AAPL-2026-07-31",
+   "book": "paper-dip-v1",
+   "sym": "AAPL",
+   "day": "2026-07-31",
+   "prevDay": "2026-07-30",
+   "sigma20": 0.017965,
+   "move": 0.03593,
+   "qfqExtremePct": -10.026
+  },
+  {
+   "id": "rip-TSLA-2026-10-02",
+   "book": "paper-rip-v1",
+   "sym": "TSLA",
+   "day": "2026-10-02",
+   "prevDay": "2026-10-01",
+   "sigma20": 0.025329,
+   "move": 0.050658,
+   "qfqExtremePct": 5.786
+  },
+  {
+   "id": "rip-AMZN-2026-11-04",
+   "book": "paper-rip-v1",
+   "sym": "AMZN",
+   "day": "2026-11-04",
+   "prevDay": "2026-11-03",
+   "sigma20": 0.023481,
+   "move": 0.046963,
+   "qfqExtremePct": 8.297
+  }
+ ]
+}
