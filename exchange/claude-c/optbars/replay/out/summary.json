@@ -1,0 +1,23 @@
+{
+ "started": "2026-11-24T19:02:51+00:00",
+ "finished": "2026-11-24T19:03:35+00:00",
+ "candidates": 24,
+ "symbols": [
+  "AAPL",
+  "AMZN",
+  "GOOGL",
+  "META",
+  "MSFT",
+  "NVDA",
+  "QQQ",
+  "SPY",
+  "TSLA"
+ ],
+ "byStatus": {
+  "NO_TICK_CROSS": 4,
+  "NO_ENTRY_PRICE": 13,
+  "OK": 7
+ },
+ "requests": 75,
+ "httpErrors": 0
+}
