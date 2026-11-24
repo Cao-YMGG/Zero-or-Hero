@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "done": false,
+  "done": true,
   "variants": {
     "claude_bias": {},
     "meta_follow2": {},
@@ -12,23 +12,7 @@
     "spy_open_drive": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "SPY261124C00724000",
-        "direction": "call",
-        "entry_time": "2026-11-24T10:01:27-05:00",
-        "entry_price": 1.74,
-        "peak": 1.74,
-        "qty": 1,
-        "last": 0.01,
-        "last_time": "2026-11-24T15:16:40-05:00"
-      },
-      "real": {
-        "contract": "SPY261124C00724000",
-        "qty": 1,
-        "underlying": "SPY",
-        "entry_price": 1.73,
-        "entry_time": "2026-11-24T10:01:28-05:00"
-      }
+      "closed": true
     },
     "spy_open_drive_put": {},
     "stock_open_drive": {}
