@@ -1,4 +1,4 @@
-# Headlines since 2026-11-23 16:00 ET (as of 2026-11-24 10:32 ET)
+# Headlines since 2026-11-23 16:00 ET (as of 2026-11-24 11:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -12,6 +12,10 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-24 06:32 | WDC | initiate | BofA Securities Initiates Coverage of Western Digital with Buy Rating |
 | 11-24 06:32 | MU | downgrade | BNP Paribas Downgrades Micron Technology to Neutral |
 | 11-24 06:31 | CRWD | upgrade | Guggenheim Upgrades CrowdStrike to Buy with $280 Price Target |
+| 11-24 11:01 | XOM |  | ExxonMobil Guyana Oil Output Expected to Exceed 1 Million Barrels Per Day |
+| 11-24 11:01 | ORCL |  | Oracle Commodity Holding Restores Royalty on Pulacayo-Paca Silver Project |
+| 11-24 11:01 | HOOD |  | Robinhood Launches Cboe KPI Binary Options for Earnings Trading |
+| 11-24 11:01 | MSFT |  | Microsoft Secures 51MW Geothermal Energy Contract in New Zealand |
 | 11-24 09:32 | AVGO |  | BNP Paribas Adjusts Broadcom Price Target |
 | 11-24 09:32 | CIEN |  | BNP Paribas Adjusts Ciena Price Target |
 | 11-24 09:32 | COIN |  | Form3 Partners with Coinbase Infrastructure to Enable Stablecoin Payments |
