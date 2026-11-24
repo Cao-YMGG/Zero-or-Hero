@@ -1,11 +1,25 @@
-# Headlines since 2026-11-20 16:00 ET (as of 2026-11-23 15:17 ET)
+# Headlines since 2026-11-20 16:00 ET (as of 2026-11-23 19:21 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-23 09:02 | PDD | upgrade | Bernstein Upgrades PDD Holdings to Buy |
 | 11-23 08:02 | GS | initiate | Goldman Sachs Initiates Coverage on Pinnacle Financial Partners |
+| 11-23 07:32 | TXN | upgrade | Cantor Fitzgerald Upgrades Texas Instruments to Overweight |
 | 11-23 06:33 | JPM | rating | JPMorgan Chase Maintains Neutral Rating on Tesla |
+| 11-23 06:32 | DIS | downgrade | Phillip Securities Downgrades Walt Disney to Accumulate |
+| 11-23 06:31 | PANW | upgrade | Phillip Securities Upgrades Palo Alto Networks to Buy |
+| 11-23 06:02 | PDD | upgrade | PDD Holdings Rating Upgraded to Outperform |
+| 11-23 19:01 | JPM |  | J.P. Morgan Asset Management Announces Listing Transfer for JPMorgan Active Bond ETF |
+| 11-23 17:32 | GS |  | Goldman Sachs to Host Industrials and Materials Conference |
+| 11-23 17:32 | GS |  | Goldman Sachs Updates Price Target for Dubai Electricity and Water Authority |
+| 11-23 17:31 | AAPL |  | Apple TV Withdraws from FIFA World Cup Bidding |
+| 11-23 17:31 | GE |  | GE Aerospace Announces Defense & Systems Leadership Transition |
+| 11-23 17:31 | INTC |  | Intel Announces Executive Participation in Upcoming Investor Conferences |
+| 11-23 16:31 | AMZN |  | Jury Reaches Verdict in Amazon's Lawsuit Against Northstar Commercial Partners |
+| 11-23 16:31 | AMZN |  | Amazon to Acquire AI Startup Decart |
+| 11-23 16:31 | WMT |  | Walmart Hosts Global E-commerce Hardlines Category Exchange |
 | 11-23 15:01 | V |  | Visa Launches New AI Agent Wallet 'Visa CLI' |
 | 11-23 15:01 | COST |  | Swical Energy® Extra Strength Launches at Costco Quebec |
 | 11-23 14:02 | WMT |  | Guggenheim Adjusts Price Target on Walmart |

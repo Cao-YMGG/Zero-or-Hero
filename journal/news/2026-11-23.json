@@ -1,7 +1,97 @@
 {
- "as_of": "2026-11-23T15:17-05:00",
+ "as_of": "2026-11-23T19:21-05:00",
  "since": "2026-11-20T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-23 19:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "J.P. Morgan Asset Management Announces Listing Transfer for JPMorgan Active Bond ETF",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/jp-morgan-asset-management-to-transfer-jpmorgan-active-bond-etf-jbnd-to-nyse-arca-from-nyse-302948671.html"
+  },
+  {
+   "time": "11-23 17:32",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs to Host Industrials and Materials Conference",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/stanley-black--decker-to-present-at-the-goldman-sachs-industrials-and-materials-conference-302948377.html"
+  },
+  {
+   "time": "11-23 17:32",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Updates Price Target for Dubai Electricity and Water Authority",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-lifts-dewa-pt-maintains-neutral-rating-ce7851dada8bf625"
+  },
+  {
+   "time": "11-23 17:31",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple TV Withdraws from FIFA World Cup Bidding",
+   "source": "fiscal.ai",
+   "url": "https://www.mactech.com/2026/11/23/news-items-you-should-check-out-out-november-23/amp/"
+  },
+  {
+   "time": "11-23 17:31",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "GE Aerospace Announces Defense & Systems Leadership Transition",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/globe-newswire/9883684/ge-aerospace-defense-systems-leadership-transition"
+  },
+  {
+   "time": "11-23 17:31",
+   "symbols": [
+    "INTC"
+   ],
+   "rating": "",
+   "headline": "Intel Announces Executive Participation in Upcoming Investor Conferences",
+   "source": "fiscal.ai",
+   "url": "https://finviz.com/news/426503/intel-corporation-to-participate-in-upcoming-investor-conferences"
+  },
+  {
+   "time": "11-23 16:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Jury Reaches Verdict in Amazon's Lawsuit Against Northstar Commercial Partners",
+   "source": "fiscal.ai",
+   "url": "https://markets.financialcontent.com/wral/article/lawfirmnewswire-2026-11-23-amazon-sought-40-million-from-brian-watson-and-northstar-commercial-partners-jury-awards-a-fraction-and-rejects-amazons-fraud-claim"
+  },
+  {
+   "time": "11-23 16:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon to Acquire AI Startup Decart",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/news/acquiring/2026/amazon-acquires-tech-and-staff-from-ai-startup-decart/"
+  },
+  {
+   "time": "11-23 16:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart Hosts Global E-commerce Hardlines Category Exchange",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/23/3408582/0/en/mersco-joins-walmart-s-hardlines-category-exchange-exploring-opportunities-in-backyard-play-expansion-and-peak-season-strategy.html"
+  },
   {
    "time": "11-23 15:01",
    "symbols": [
@@ -233,6 +323,16 @@
    "url": "https://www.globenewswire.com/news-release/2026/11/23/3408381/0/en/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director.html"
   },
   {
+   "time": "11-23 09:02",
+   "symbols": [
+    "PDD"
+   ],
+   "rating": "upgrade",
+   "headline": "Bernstein Upgrades PDD Holdings to Buy",
+   "source": "fiscal.ai",
+   "url": "https://ch.marketscreener.com/boerse-nachrichten/pdd-holdings-inc-von-bernstein-zum-kauf-angehoben-ce7851dadb8eff2d"
+  },
+  {
    "time": "11-23 09:01",
    "symbols": [
     "ARM"
@@ -303,6 +403,16 @@
    "url": "https://www.moomoo.com/stock/NVDA-US?chain_id=Name1K9-3FXPhg.1lg7sk0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A107%2C%22f%22%3A%22www.moomoo.com%2Fetfs%2FFAZ-US%22%7D"
   },
   {
+   "time": "11-23 07:32",
+   "symbols": [
+    "TXN"
+   ],
+   "rating": "upgrade",
+   "headline": "Cantor Fitzgerald Upgrades Texas Instruments to Overweight",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/cantor-fitzgerald-upgrades-texas-instruments-to-overweight-from-neutral-price-target-is-385-ce7851dadb88f62d"
+  },
+  {
    "time": "11-23 07:31",
    "symbols": [
     "GEV"
@@ -371,6 +481,16 @@
    "headline": "Morgan Stanley and Loop Capital Adjust Price Targets for Meta Platforms",
    "source": "fiscal.ai",
    "url": "https://www.marketscreener.com/news/morgan-stanley-adjusts-price-target-on-meta-platforms-to-720-from-820-ce7851dad88af427"
+  },
+  {
+   "time": "11-23 06:32",
+   "symbols": [
+    "DIS"
+   ],
+   "rating": "downgrade",
+   "headline": "Phillip Securities Downgrades Walt Disney to Accumulate",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/phillip-securities-downgrades-walt-disney-to-accumulate-price-target-is-130-ce7851dad88af524"
   },
   {
    "time": "11-23 06:31",
@@ -461,6 +581,26 @@
    "headline": "Eli Lilly and Company Acquires LoQus23 Therapeutics",
    "source": "fiscal.ai",
    "url": "https://www.globenewswire.com/news-release/2026/11/23/3408071/0/en/loqus23-therapeutics-acquired-by-lilly-to-accelerate-development-of-novel-small-molecule-therapy-for-huntington-s-disease.html"
+  },
+  {
+   "time": "11-23 06:31",
+   "symbols": [
+    "PANW"
+   ],
+   "rating": "upgrade",
+   "headline": "Phillip Securities Upgrades Palo Alto Networks to Buy",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/phillip-securities-upgrades-palo-alto-networks-to-buy-price-target-is-418-ce7851dad88af122"
+  },
+  {
+   "time": "11-23 06:02",
+   "symbols": [
+    "PDD"
+   ],
+   "rating": "upgrade",
+   "headline": "PDD Holdings Rating Upgraded to Outperform",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1005479559"
   },
   {
    "time": "11-22 21:01",
