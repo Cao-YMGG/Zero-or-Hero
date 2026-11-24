@@ -1,4 +1,4 @@
-# Review — 2026-11-23
+# Review — 2026-11-24
 
 - Champion: **nvda_gapdown_put**
 - Equity: **$385.35** (phase zero-or-hero)
