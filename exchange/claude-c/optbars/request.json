@@ -1,1463 +1,865 @@
 {
- "purpose": "claude-c: what a follower could fill at each alert post (alerts study 2026-11-24)",
+ "purpose": "claude-c: extended-hours stock bars around a public bot's posted fills",
  "jobs": [
   {
-   "id": "EvaPanda|QCOM-1021|O|2026-10-21T19:28",
+   "id": "A|2026-11-23",
+   "asset": "stock",
    "symbols": [
-    "QCOM261023C00185000"
+    "A"
    ],
    "timeframe": "1Min",
-   "start": "2026-10-21T19:26:00Z",
-   "end": "2026-10-21T19:59:00Z"
+   "start": "2026-11-23T21:00:00Z",
+   "end": "2026-11-23T21:21:00Z"
   },
   {
-   "id": "EvaPanda|QCOM-1021|C|2026-10-22T13:30",
+   "id": "AAOI|2026-11-05",
+   "asset": "stock",
    "symbols": [
-    "QCOM261023C00185000"
+    "AAOI"
    ],
    "timeframe": "1Min",
-   "start": "2026-10-22T13:28:00Z",
-   "end": "2026-10-22T14:01:00Z"
+   "start": "2026-11-05T21:05:00Z",
+   "end": "2026-11-05T21:25:00Z"
   },
   {
-   "id": "EvaPanda|QCOM-1021|DAY",
+   "id": "AAON|2026-11-09",
+   "asset": "stock",
    "symbols": [
-    "QCOM261023C00185000"
+    "AAON"
    ],
-   "timeframe": "1Day",
-   "start": "2026-10-21",
-   "end": "2026-10-23"
-  },
-  {
-   "id": "EvaPanda|MU-1026|O|2026-10-26T14:55",
-   "symbols": [
-    "MU261120C01220000"
-   ],
-   "timeframe": "1Min",
-   "start": "2026-10-26T14:53:00Z",
-   "end": "2026-10-26T15:26:00Z"
-  },
-  {
-   "id": "EvaPanda|MU-1026|C|2026-10-27T13:46",
-   "symbols": [
-    "MU261120C01220000"
-   ],
-   "timeframe": "1Min",
-   "start": "2026-10-27T13:44:00Z",
-   "end": "2026-10-27T14:17:00Z"
-  },
-  {
-   "id": "EvaPanda|MU-1026|C|2026-10-27T14:08",
-   "symbols": [
-    "MU261120C01220000"
-   ],
-   "timeframe": "1Min",
-   "start": "2026-10-27T14:06:00Z",
-   "end": "2026-10-27T14:39:00Z"
-  },
-  {
-   "id": "EvaPanda|MU-1026|DAY",
-   "symbols": [
-    "MU261120C01220000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-10-26",
-   "end": "2026-11-20"
-  },
-  {
-   "id": "EvaPanda|SPY-1027|O|2026-10-27T14:39",
-   "symbols": [
-    "SPY261030C00774000"
-   ],
-   "timeframe": "1Min",
-   "start": "2026-10-27T14:37:00Z",
-   "end": "2026-10-27T15:10:00Z"
-  },
-  {
-   "id": "EvaPanda|SPY-1027|C|2026-10-27T14:57",
-   "symbols": [
-    "SPY261030C00774000"
-   ],
-   "timeframe": "1Min",
-   "start": "2026-10-27T14:55:00Z",
-   "end": "2026-10-27T15:28:00Z"
-  },
-  {
-   "id": "EvaPanda|SPY-1027|C|2026-10-27T15:01",
-   "symbols": [
-    "SPY261030C00774000"
-   ],
-   "timeframe": "1Min",
-   "start": "2026-10-27T14:59:00Z",
-   "end": "2026-10-27T15:32:00Z"
-  },
-  {
-   "id": "EvaPanda|SPY-1027|C|2026-10-27T16:08",
-   "symbols": [
-    "SPY261030C00774000"
-   ],
-   "timeframe": "1Min",
-   "start": "2026-10-27T16:06:00Z",
-   "end": "2026-10-27T16:39:00Z"
-  },
-  {
-   "id": "EvaPanda|SPY-1027|DAY",
-   "symbols": [
-    "SPY261030C00774000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-10-27",
-   "end": "2026-10-30"
-  },
-  {
-   "id": "EvaPanda|GOOGL-1028|O|2026-10-28T18:34",
-   "symbols": [
-    "GOOGL261120C00375000"
-   ],
-   "timeframe": "1Min",
-   "start": "2026-10-28T18:32:00Z",
-   "end": "2026-10-28T19:05:00Z"
-  },
-  {
-   "id": "EvaPanda|GOOGL-1028|C|2026-10-28T19:35",
-   "symbols": [
-    "GOOGL261120C00375000"
-   ],
-   "timeframe": "1Min",
-   "start": "2026-10-28T19:33:00Z",
-   "end": "2026-10-28T20:06:00Z"
-  },
-  {
-   "id": "EvaPanda|GOOGL-1028|C|2026-10-29T13:36",
-   "symbols": [
-    "GOOGL261120C00375000"
-   ],
-   "timeframe": "1Min",
-   "start": "2026-10-29T13:34:00Z",
-   "end": "2026-10-29T14:07:00Z"
-  },
-  {
-   "id": "EvaPanda|GOOGL-1028|DAY",
-   "symbols": [
-    "GOOGL261120C00375000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-10-28",
-   "end": "2026-11-20"
-  },
-  {
-   "id": "EvaPanda|QQQ-1030|O|2026-10-30T19:27",
-   "symbols": [
-    "QQQ261106C00720000"
-   ],
-   "timeframe": "1Min",
-   "start": "2026-10-30T19:25:00Z",
-   "end": "2026-10-30T19:58:00Z"
-  },
-  {
-   "id": "EvaPanda|QQQ-1030|C|2026-10-30T19:52",
-   "symbols": [
-    "QQQ261106C00720000"
-   ],
-   "timeframe": "1Min",
-   "start": "2026-10-30T19:50:00Z",
-   "end": "2026-10-30T20:23:00Z"
-  },
-  {
-   "id": "EvaPanda|QQQ-1030|C|2026-11-02T14:31",
-   "symbols": [
-    "QQQ261106C00720000"
-   ],
-   "timeframe": "1Min",
-   "start": "2026-11-02T14:29:00Z",
-   "end": "2026-11-02T15:02:00Z"
-  },
-  {
-   "id": "EvaPanda|QQQ-1030|DAY",
-   "symbols": [
-    "QQQ261106C00720000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-10-30",
-   "end": "2026-11-06"
-  },
-  {
-   "id": "EvaPanda|SPY-1103|O|2026-11-03T20:15",
-   "symbols": [
-    "SPY261109P00730000"
-   ],
-   "timeframe": "1Min",
-   "start": "2026-11-03T20:13:00Z",
-   "end": "2026-11-03T20:46:00Z"
-  },
-  {
-   "id": "EvaPanda|SPY-1103|C|2026-11-04T14:31",
-   "symbols": [
-    "SPY261109P00730000"
-   ],
-   "timeframe": "1Min",
-   "start": "2026-11-04T14:29:00Z",
-   "end": "2026-11-04T15:02:00Z"
-  },
-  {
-   "id": "EvaPanda|SPY-1103|DAY",
-   "symbols": [
-    "SPY261109P00730000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-11-03",
-   "end": "2026-11-09"
-  },
-  {
-   "id": "EvaPanda|IWM-1105|O|2026-11-05T19:43",
-   "symbols": [
-    "IWM261218C00290000"
-   ],
-   "timeframe": "1Min",
-   "start": "2026-11-05T19:41:00Z",
-   "end": "2026-11-05T20:14:00Z"
-  },
-  {
-   "id": "EvaPanda|IWM-1105|C|2026-11-06T17:45",
-   "symbols": [
-    "IWM261218C00290000"
-   ],
-   "timeframe": "1Min",
-   "start": "2026-11-06T17:43:00Z",
-   "end": "2026-11-06T18:16:00Z"
-  },
-  {
-   "id": "EvaPanda|IWM-1105|DAY",
-   "symbols": [
-    "IWM261218C00290000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-11-05",
-   "end": "2026-11-23"
-  },
-  {
-   "id": "EvaPanda|QQQ-1106|O|2026-11-06T16:19",
-   "symbols": [
-    "QQQ261120P00590000"
-   ],
-   "timeframe": "1Min",
-   "start": "2026-11-06T16:17:00Z",
-   "end": "2026-11-06T16:50:00Z"
-  },
-  {
-   "id": "EvaPanda|QQQ-1106|C|2026-11-06T20:57",
-   "symbols": [
-    "QQQ261120P00590000"
-   ],
-   "timeframe": "1Min",
-   "start": "2026-11-06T20:55:00Z",
-   "end": "2026-11-06T21:28:00Z"
-  },
-  {
-   "id": "EvaPanda|QQQ-1106|DAY",
-   "symbols": [
-    "QQQ261120P00590000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-11-06",
-   "end": "2026-11-20"
-  },
-  {
-   "id": "EvaPanda|GS-1110|O|2026-11-10T17:34",
-   "symbols": [
-    "GS261120C01000000"
-   ],
-   "timeframe": "1Min",
-   "start": "2026-11-10T17:32:00Z",
-   "end": "2026-11-10T18:05:00Z"
-  },
-  {
-   "id": "EvaPanda|GS-1110|C|2026-11-11T14:31",
-   "symbols": [
-    "GS261120C01000000"
-   ],
-   "timeframe": "1Min",
-   "start": "2026-11-11T14:29:00Z",
-   "end": "2026-11-11T15:02:00Z"
-  },
-  {
-   "id": "EvaPanda|GS-1110|DAY",
-   "symbols": [
-    "GS261120C01000000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-11-10",
-   "end": "2026-11-20"
-  },
-  {
-   "id": "EvaPanda|SPCX-1112|O|2026-11-12T20:45",
-   "symbols": [
-    "SPCX261120C00155000"
-   ],
-   "timeframe": "1Min",
-   "start": "2026-11-12T20:43:00Z",
-   "end": "2026-11-12T21:16:00Z"
-  },
-  {
-   "id": "EvaPanda|SPCX-1112|C|2026-11-16T15:05",
-   "symbols": [
-    "SPCX261120C00155000"
-   ],
-   "timeframe": "1Min",
-   "start": "2026-11-16T15:03:00Z",
-   "end": "2026-11-16T15:36:00Z"
-  },
-  {
-   "id": "EvaPanda|SPCX-1112|DAY",
-   "symbols": [
-    "SPCX261120C00155000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-11-12",
-   "end": "2026-11-20"
-  },
-  {
-   "id": "EvaPanda|SPCX-1113|O|2026-11-13T15:57",
-   "symbols": [
-    "SPCX261120C00155000"
-   ],
-   "timeframe": "1Min",
-   "start": "2026-11-13T15:55:00Z",
-   "end": "2026-11-13T16:28:00Z"
-  },
-  {
-   "id": "EvaPanda|SPCX-1113|C|2026-11-16T15:05",
-   "symbols": [
-    "SPCX261120C00155000"
-   ],
    "timeframe": "1Min",
-   "start": "2026-11-16T15:03:00Z",
-   "end": "2026-11-16T15:36:00Z"
-  },
-  {
-   "id": "EvaPanda|SPCX-1113|DAY",
-   "symbols": [
-    "SPCX261120C00155000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-11-13",
-   "end": "2026-11-20"
+   "start": "2026-11-09T20:56:00Z",
+   "end": "2026-11-09T21:21:00Z"
   },
   {
-   "id": "EvaPanda|AMZN-1117|O|2026-11-17T20:35",
+   "id": "ACM|2026-11-16",
+   "asset": "stock",
    "symbols": [
-    "AMZN261120C00270000"
+    "ACM"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-17T20:33:00Z",
-   "end": "2026-11-17T21:06:00Z"
+   "start": "2026-11-16T21:00:00Z",
+   "end": "2026-11-16T21:21:00Z"
   },
   {
-   "id": "EvaPanda|AMZN-1117|C|2026-11-18T14:31",
+   "id": "ALAB|2026-11-03",
+   "asset": "stock",
    "symbols": [
-    "AMZN261120C00270000"
+    "ALAB"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-18T14:29:00Z",
-   "end": "2026-11-18T15:02:00Z"
+   "start": "2026-11-03T21:00:00Z",
+   "end": "2026-11-03T21:20:00Z"
   },
   {
-   "id": "EvaPanda|AMZN-1117|C|2026-11-18T15:01",
+   "id": "AMAT|2026-11-12",
+   "asset": "stock",
    "symbols": [
-    "AMZN261120C00270000"
+    "AMAT"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-18T14:59:00Z",
-   "end": "2026-11-18T15:32:00Z"
+   "start": "2026-11-12T20:55:00Z",
+   "end": "2026-11-12T21:19:00Z"
   },
   {
-   "id": "EvaPanda|AMZN-1117|DAY",
+   "id": "AMD|2026-11-03",
+   "asset": "stock",
    "symbols": [
-    "AMZN261120C00270000"
+    "AMD"
    ],
-   "timeframe": "1Day",
-   "start": "2026-11-17",
-   "end": "2026-11-20"
-  },
-  {
-   "id": "EvaPanda|SPY-1119|O|2026-11-19T16:39",
-   "symbols": [
-    "SPY261119C00735000"
-   ],
    "timeframe": "1Min",
-   "start": "2026-11-19T16:37:00Z",
-   "end": "2026-11-19T17:10:00Z"
+   "start": "2026-11-03T21:10:00Z",
+   "end": "2026-11-03T21:30:00Z"
   },
   {
-   "id": "EvaPanda|SPY-1119|C|2026-11-19T16:41",
+   "id": "ANET|2026-11-03",
+   "asset": "stock",
    "symbols": [
-    "SPY261119C00735000"
+    "ANET"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-19T16:39:00Z",
-   "end": "2026-11-19T17:12:00Z"
+   "start": "2026-11-03T21:00:00Z",
+   "end": "2026-11-03T21:21:00Z"
   },
   {
-   "id": "EvaPanda|SPY-1119|C|2026-11-19T16:44",
+   "id": "APP|2026-11-04",
+   "asset": "stock",
    "symbols": [
-    "SPY261119C00735000"
+    "APP"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-19T16:42:00Z",
-   "end": "2026-11-19T17:15:00Z"
-  },
-  {
-   "id": "EvaPanda|SPY-1119|DAY",
-   "symbols": [
-    "SPY261119C00735000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-11-19",
-   "end": "2026-11-19"
+   "start": "2026-11-04T21:00:00Z",
+   "end": "2026-11-04T21:20:00Z"
   },
   {
-   "id": "EvaPanda|MU-1119|O|2026-11-19T19:29",
+   "id": "ARM|2026-11-04",
+   "asset": "stock",
    "symbols": [
-    "MU261218C01000000"
+    "ARM"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-19T19:27:00Z",
-   "end": "2026-11-19T20:00:00Z"
+   "start": "2026-11-04T20:59:00Z",
+   "end": "2026-11-04T21:19:00Z"
   },
   {
-   "id": "EvaPanda|MU-1119|O|2026-11-20T14:37",
+   "id": "ASTS|2026-11-09",
+   "asset": "stock",
    "symbols": [
-    "MU261218C01000000"
+    "ASTS"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-20T14:35:00Z",
-   "end": "2026-11-20T15:08:00Z"
+   "start": "2026-11-09T21:25:00Z",
+   "end": "2026-11-09T22:12:00Z"
   },
   {
-   "id": "EvaPanda|MU-1119|C|2026-11-23T15:01",
+   "id": "AXTI|2026-10-29",
+   "asset": "stock",
    "symbols": [
-    "MU261218C01000000"
+    "AXTI"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-23T14:59:00Z",
-   "end": "2026-11-23T15:32:00Z"
+   "start": "2026-10-29T20:00:00Z",
+   "end": "2026-10-29T20:21:00Z"
   },
   {
-   "id": "EvaPanda|MU-1119|C|2026-11-23T15:12",
+   "id": "B|2026-11-09",
+   "asset": "stock",
    "symbols": [
-    "MU261218C01000000"
+    "B"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-23T15:10:00Z",
-   "end": "2026-11-23T15:43:00Z"
+   "start": "2026-11-09T10:55:00Z",
+   "end": "2026-11-09T12:16:00Z"
   },
   {
-   "id": "EvaPanda|MU-1119|C|2026-11-24T14:57",
+   "id": "BBWI|2026-11-19",
+   "asset": "stock",
    "symbols": [
-    "MU261218C01000000"
+    "BBWI"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-24T14:55:00Z",
-   "end": "2026-11-24T15:28:00Z"
-  },
-  {
-   "id": "EvaPanda|MU-1119|DAY",
-   "symbols": [
-    "MU261218C01000000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-11-19",
-   "end": "2026-11-23"
+   "start": "2026-11-19T11:51:00Z",
+   "end": "2026-11-19T12:15:00Z"
   },
   {
-   "id": "EvaPanda|AAPL-1123|O|2026-11-23T17:14",
+   "id": "BJ|2026-11-20",
+   "asset": "stock",
    "symbols": [
-    "AAPL261218C00370000"
+    "BJ"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-23T17:12:00Z",
-   "end": "2026-11-23T17:45:00Z"
+   "start": "2026-11-20T11:40:00Z",
+   "end": "2026-11-20T12:20:00Z"
   },
   {
-   "id": "EvaPanda|AAPL-1123|C|2026-11-24T14:39",
+   "id": "BROS|2026-11-04",
+   "asset": "stock",
    "symbols": [
-    "AAPL261218C00370000"
+    "BROS"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-24T14:37:00Z",
-   "end": "2026-11-24T15:10:00Z"
+   "start": "2026-11-04T21:00:00Z",
+   "end": "2026-11-04T21:21:00Z"
   },
   {
-   "id": "EvaPanda|AAPL-1123|C|2026-11-24T14:51",
+   "id": "CAVA|2026-11-04",
+   "asset": "stock",
    "symbols": [
-    "AAPL261218C00370000"
+    "CAVA"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-24T14:49:00Z",
-   "end": "2026-11-24T15:22:00Z"
-  },
-  {
-   "id": "EvaPanda|AAPL-1123|DAY",
-   "symbols": [
-    "AAPL261218C00370000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-11-23",
-   "end": "2026-11-23"
+   "start": "2026-11-04T21:05:00Z",
+   "end": "2026-11-04T21:25:00Z"
   },
   {
-   "id": "EvaPanda|RDDT-1124|O|2026-11-24T20:31",
+   "id": "CBRS|2026-11-12",
+   "asset": "stock",
    "symbols": [
-    "RDDT261218C00105000"
+    "CBRS"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-24T20:29:00Z",
-   "end": "2026-11-24T21:02:00Z"
-  },
-  {
-   "id": "EvaPanda|RDDT-1124|DAY",
-   "symbols": [
-    "RDDT261218C00105000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-11-24",
-   "end": "2026-11-23"
+   "start": "2026-11-12T21:00:00Z",
+   "end": "2026-11-12T21:20:00Z"
   },
   {
-   "id": "Prophet|NVDA-0923|O|2026-09-23T16:40",
+   "id": "CDE|2026-11-04",
+   "asset": "stock",
    "symbols": [
-    "NVDA260925P00220000"
+    "CDE"
    ],
    "timeframe": "1Min",
-   "start": "2026-09-23T16:38:00Z",
-   "end": "2026-09-23T17:11:00Z"
+   "start": "2026-11-04T21:25:00Z",
+   "end": "2026-11-04T21:50:00Z"
   },
   {
-   "id": "Prophet|NVDA-0923|C|2026-09-24T14:13",
+   "id": "COHR|2026-11-04",
+   "asset": "stock",
    "symbols": [
-    "NVDA260925P00220000"
+    "COHR"
    ],
    "timeframe": "1Min",
-   "start": "2026-09-24T14:11:00Z",
-   "end": "2026-09-24T14:44:00Z"
+   "start": "2026-11-04T21:00:00Z",
+   "end": "2026-11-04T21:20:00Z"
   },
   {
-   "id": "Prophet|NVDA-0923|DAY",
+   "id": "CORZ|2026-11-05",
+   "asset": "stock",
    "symbols": [
-    "NVDA260925P00220000"
+    "CORZ"
    ],
-   "timeframe": "1Day",
-   "start": "2026-09-23",
-   "end": "2026-09-25"
-  },
-  {
-   "id": "Prophet|QCOM-0923|O|2026-09-23T16:50",
-   "symbols": [
-    "QCOM260925P00190000"
-   ],
    "timeframe": "1Min",
-   "start": "2026-09-23T16:48:00Z",
-   "end": "2026-09-23T17:21:00Z"
+   "start": "2026-11-05T11:55:00Z",
+   "end": "2026-11-05T12:44:00Z"
   },
   {
-   "id": "Prophet|QCOM-0923|C|2026-09-24T14:08",
+   "id": "COTY|2026-11-04",
+   "asset": "stock",
    "symbols": [
-    "QCOM260925P00190000"
+    "COTY"
    ],
    "timeframe": "1Min",
-   "start": "2026-09-24T14:06:00Z",
-   "end": "2026-09-24T14:39:00Z"
+   "start": "2026-11-04T21:25:00Z",
+   "end": "2026-11-04T21:46:00Z"
   },
   {
-   "id": "Prophet|QCOM-0923|C|2026-09-24T14:13",
+   "id": "CPNG|2026-11-03",
+   "asset": "stock",
    "symbols": [
-    "QCOM260925P00190000"
+    "CPNG"
    ],
    "timeframe": "1Min",
-   "start": "2026-09-24T14:11:00Z",
-   "end": "2026-09-24T14:44:00Z"
-  },
-  {
-   "id": "Prophet|QCOM-0923|DAY",
-   "symbols": [
-    "QCOM260925P00190000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-09-23",
-   "end": "2026-09-25"
+   "start": "2026-11-03T21:00:00Z",
+   "end": "2026-11-03T21:21:00Z"
   },
   {
-   "id": "Prophet|CRWD-0923|O|2026-09-23T16:51",
+   "id": "CRCL|2026-11-04",
+   "asset": "stock",
    "symbols": [
-    "CRWD260925P00250000"
+    "CRCL"
    ],
    "timeframe": "1Min",
-   "start": "2026-09-23T16:49:00Z",
-   "end": "2026-09-23T17:22:00Z"
-  },
-  {
-   "id": "Prophet|CRWD-0923|DAY",
-   "symbols": [
-    "CRWD260925P00250000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-09-23",
-   "end": "2026-09-25"
+   "start": "2026-11-04T11:20:00Z",
+   "end": "2026-11-04T12:27:00Z"
   },
   {
-   "id": "Prophet|GOOGL-0924|O|2026-09-24T19:52",
+   "id": "CRWV|2026-11-10",
+   "asset": "stock",
    "symbols": [
-    "GOOGL261002C00350000"
+    "CRWV"
    ],
    "timeframe": "1Min",
-   "start": "2026-09-24T19:50:00Z",
-   "end": "2026-09-24T20:23:00Z"
+   "start": "2026-11-10T21:00:00Z",
+   "end": "2026-11-10T22:45:00Z"
   },
   {
-   "id": "Prophet|GOOGL-0924|C|2026-09-25T16:48",
+   "id": "CSCO|2026-11-12",
+   "asset": "stock",
    "symbols": [
-    "GOOGL261002C00350000"
+    "CSCO"
    ],
    "timeframe": "1Min",
-   "start": "2026-09-25T16:46:00Z",
-   "end": "2026-09-25T17:19:00Z"
-  },
-  {
-   "id": "Prophet|GOOGL-0924|DAY",
-   "symbols": [
-    "GOOGL261002C00350000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-09-24",
-   "end": "2026-10-02"
+   "start": "2026-11-12T21:00:00Z",
+   "end": "2026-11-12T21:22:00Z"
   },
   {
-   "id": "Prophet|AVGO-1005|O|2026-10-05T19:02",
+   "id": "DAVE|2026-11-04",
+   "asset": "stock",
    "symbols": [
-    "AVGO261016C00380000"
+    "DAVE"
    ],
    "timeframe": "1Min",
-   "start": "2026-10-05T19:00:00Z",
-   "end": "2026-10-05T19:33:00Z"
+   "start": "2026-11-04T21:11:00Z",
+   "end": "2026-11-04T21:32:00Z"
   },
   {
-   "id": "Prophet|AVGO-1005|C|2026-10-06T13:59",
+   "id": "DDOG|2026-11-04",
+   "asset": "stock",
    "symbols": [
-    "AVGO261016C00380000"
+    "DDOG"
    ],
    "timeframe": "1Min",
-   "start": "2026-10-06T13:57:00Z",
-   "end": "2026-10-06T14:30:00Z"
+   "start": "2026-11-04T11:55:00Z",
+   "end": "2026-11-04T12:15:00Z"
   },
   {
-   "id": "Prophet|AVGO-1005|C|2026-10-06T14:23",
+   "id": "DLB|2026-11-17",
+   "asset": "stock",
    "symbols": [
-    "AVGO261016C00380000"
+    "DLB"
    ],
    "timeframe": "1Min",
-   "start": "2026-10-06T14:21:00Z",
-   "end": "2026-10-06T14:54:00Z"
+   "start": "2026-11-17T21:10:00Z",
+   "end": "2026-11-17T21:32:00Z"
   },
   {
-   "id": "Prophet|AVGO-1005|C|2026-10-06T15:29",
+   "id": "ELF|2026-11-04",
+   "asset": "stock",
    "symbols": [
-    "AVGO261016C00380000"
+    "ELF"
    ],
    "timeframe": "1Min",
-   "start": "2026-10-06T15:27:00Z",
-   "end": "2026-10-06T16:00:00Z"
-  },
-  {
-   "id": "Prophet|AVGO-1005|DAY",
-   "symbols": [
-    "AVGO261016C00380000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-10-05",
-   "end": "2026-10-16"
+   "start": "2026-11-04T21:00:00Z",
+   "end": "2026-11-04T21:20:00Z"
   },
   {
-   "id": "Prophet|NCLH-1007|O|2026-10-07T15:14",
+   "id": "FIG|2026-11-04",
+   "asset": "stock",
    "symbols": [
-    "NCLH261120C00017000"
+    "FIG"
    ],
    "timeframe": "1Min",
-   "start": "2026-10-07T15:12:00Z",
-   "end": "2026-10-07T15:45:00Z"
-  },
-  {
-   "id": "Prophet|NCLH-1007|DAY",
-   "symbols": [
-    "NCLH261120C00017000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-10-07",
-   "end": "2026-11-20"
+   "start": "2026-11-04T21:00:00Z",
+   "end": "2026-11-04T21:24:00Z"
   },
   {
-   "id": "Prophet|HOOD-1007|O|2026-10-07T19:35",
+   "id": "FIS|2026-11-04",
+   "asset": "stock",
    "symbols": [
-    "HOOD261016C00115000"
+    "FIS"
    ],
    "timeframe": "1Min",
-   "start": "2026-10-07T19:33:00Z",
-   "end": "2026-10-07T20:06:00Z"
-  },
-  {
-   "id": "Prophet|HOOD-1007|DAY",
-   "symbols": [
-    "HOOD261016C00115000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-10-07",
-   "end": "2026-10-16"
+   "start": "2026-11-04T12:25:00Z",
+   "end": "2026-11-04T12:45:00Z"
   },
   {
-   "id": "Prophet|HD-1008|O|2026-10-08T19:01",
+   "id": "FLY|2026-11-10",
+   "asset": "stock",
    "symbols": [
-    "HD261016C00305000"
+    "FLY"
    ],
    "timeframe": "1Min",
-   "start": "2026-10-08T18:59:00Z",
-   "end": "2026-10-08T19:32:00Z"
-  },
-  {
-   "id": "Prophet|HD-1008|DAY",
-   "symbols": [
-    "HD261016C00305000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-10-08",
-   "end": "2026-10-16"
+   "start": "2026-11-10T21:05:00Z",
+   "end": "2026-11-10T21:27:00Z"
   },
   {
-   "id": "Prophet|CSCO-1009|O|2026-10-09T18:15",
+   "id": "FN|2026-11-02",
+   "asset": "stock",
    "symbols": [
-    "CSCO261016C00120000"
+    "FN"
    ],
    "timeframe": "1Min",
-   "start": "2026-10-09T18:13:00Z",
-   "end": "2026-10-09T18:46:00Z"
-  },
-  {
-   "id": "Prophet|CSCO-1009|DAY",
-   "symbols": [
-    "CSCO261016C00120000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-10-09",
-   "end": "2026-10-16"
+   "start": "2026-11-02T21:10:00Z",
+   "end": "2026-11-02T21:38:00Z"
   },
   {
-   "id": "Prophet|AAPL-1009|O|2026-10-09T18:18",
+   "id": "FPS|2026-11-12",
+   "asset": "stock",
    "symbols": [
-    "AAPL261016C00340000"
+    "FPS"
    ],
    "timeframe": "1Min",
-   "start": "2026-10-09T18:16:00Z",
-   "end": "2026-10-09T18:49:00Z"
+   "start": "2026-11-12T11:25:00Z",
+   "end": "2026-11-12T11:48:00Z"
   },
   {
-   "id": "Prophet|AAPL-1009|C|2026-10-09T19:18",
+   "id": "GAP|2026-11-19",
+   "asset": "stock",
    "symbols": [
-    "AAPL261016C00340000"
+    "GAP"
    ],
    "timeframe": "1Min",
-   "start": "2026-10-09T19:16:00Z",
-   "end": "2026-10-09T19:49:00Z"
+   "start": "2026-11-19T21:10:00Z",
+   "end": "2026-11-19T21:42:00Z"
   },
   {
-   "id": "Prophet|AAPL-1009|DAY",
+   "id": "HBM|2026-11-12",
+   "asset": "stock",
    "symbols": [
-    "AAPL261016C00340000"
+    "HBM"
    ],
-   "timeframe": "1Day",
-   "start": "2026-10-09",
-   "end": "2026-10-16"
-  },
-  {
-   "id": "Prophet|AAPL-1030|O|2026-10-30T18:25",
-   "symbols": [
-    "AAPL261106P00320000"
-   ],
    "timeframe": "1Min",
-   "start": "2026-10-30T18:23:00Z",
-   "end": "2026-10-30T18:56:00Z"
+   "start": "2026-11-12T10:55:00Z",
+   "end": "2026-11-12T13:13:00Z"
   },
   {
-   "id": "Prophet|AAPL-1030|O|2026-10-30T19:56",
+   "id": "HIMS|2026-11-09",
+   "asset": "stock",
    "symbols": [
-    "AAPL261106P00320000"
+    "HIMS"
    ],
    "timeframe": "1Min",
-   "start": "2026-10-30T19:54:00Z",
-   "end": "2026-10-30T20:27:00Z"
+   "start": "2026-11-09T21:00:00Z",
+   "end": "2026-11-09T21:24:00Z"
   },
   {
-   "id": "Prophet|AAPL-1030|C|2026-11-02T19:34",
+   "id": "HPE|2026-11-23",
+   "asset": "stock",
    "symbols": [
-    "AAPL261106P00320000"
+    "HPE"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-02T19:32:00Z",
-   "end": "2026-11-02T20:05:00Z"
-  },
-  {
-   "id": "Prophet|AAPL-1030|DAY",
-   "symbols": [
-    "AAPL261106P00320000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-10-30",
-   "end": "2026-11-06"
+   "start": "2026-11-23T21:00:00Z",
+   "end": "2026-11-23T21:20:00Z"
   },
   {
-   "id": "Prophet|ASST-1030|O|2026-10-30T18:56",
+   "id": "HTFL|2026-11-12",
+   "asset": "stock",
    "symbols": [
-    "ASST261106P00020000"
+    "HTFL"
    ],
    "timeframe": "1Min",
-   "start": "2026-10-30T18:54:00Z",
-   "end": "2026-10-30T19:27:00Z"
+   "start": "2026-11-12T20:56:00Z",
+   "end": "2026-11-12T21:20:00Z"
   },
   {
-   "id": "Prophet|ASST-1030|C|2026-11-02T20:14",
+   "id": "HUBS|2026-11-04",
+   "asset": "stock",
    "symbols": [
-    "ASST261106P00020000"
+    "HUBS"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-02T20:12:00Z",
-   "end": "2026-11-02T20:45:00Z"
+   "start": "2026-11-04T21:00:00Z",
+   "end": "2026-11-04T22:08:00Z"
   },
   {
-   "id": "Prophet|ASST-1030|C|2026-11-02T20:57",
+   "id": "INFQ|2026-11-16",
+   "asset": "stock",
    "symbols": [
-    "ASST261106P00020000"
+    "INFQ"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-02T20:55:00Z",
-   "end": "2026-11-02T21:28:00Z"
-  },
-  {
-   "id": "Prophet|ASST-1030|DAY",
-   "symbols": [
-    "ASST261106P00020000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-10-30",
-   "end": "2026-11-06"
+   "start": "2026-11-16T21:00:00Z",
+   "end": "2026-11-16T21:21:00Z"
   },
   {
-   "id": "Prophet|UPS-1030|O|2026-10-30T19:06",
+   "id": "IREN|2026-11-05",
+   "asset": "stock",
    "symbols": [
-    "UPS270319C00115000"
+    "IREN"
    ],
    "timeframe": "1Min",
-   "start": "2026-10-30T19:04:00Z",
-   "end": "2026-10-30T19:37:00Z"
+   "start": "2026-11-05T20:56:00Z",
+   "end": "2026-11-05T21:29:00Z"
   },
   {
-   "id": "Prophet|UPS-1030|C|2026-11-04T20:20",
+   "id": "KLAR|2026-11-17",
+   "asset": "stock",
    "symbols": [
-    "UPS270319C00115000"
+    "KLAR"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-04T20:18:00Z",
-   "end": "2026-11-04T20:51:00Z"
+   "start": "2026-11-17T12:40:00Z",
+   "end": "2026-11-17T13:00:00Z"
   },
   {
-   "id": "Prophet|UPS-1030|C|2026-11-06T16:29",
+   "id": "LUNR|2026-11-12",
+   "asset": "stock",
    "symbols": [
-    "UPS270319C00115000"
+    "LUNR"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-06T16:27:00Z",
-   "end": "2026-11-06T17:00:00Z"
-  },
-  {
-   "id": "Prophet|UPS-1030|DAY",
-   "symbols": [
-    "UPS270319C00115000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-10-30",
-   "end": "2026-11-23"
+   "start": "2026-11-12T12:25:00Z",
+   "end": "2026-11-12T13:05:00Z"
   },
   {
-   "id": "Prophet|AMZN-1102|O|2026-11-02T19:44",
+   "id": "MCHP|2026-11-05",
+   "asset": "stock",
    "symbols": [
-    "AMZN261120P00240000"
+    "MCHP"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-02T19:42:00Z",
-   "end": "2026-11-02T20:15:00Z"
+   "start": "2026-11-05T21:10:00Z",
+   "end": "2026-11-05T21:30:00Z"
   },
   {
-   "id": "Prophet|AMZN-1102|C|2026-11-03T18:21",
+   "id": "MPWR|2026-10-29",
+   "asset": "stock",
    "symbols": [
-    "AMZN261120P00240000"
+    "MPWR"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-03T18:19:00Z",
-   "end": "2026-11-03T18:52:00Z"
-  },
-  {
-   "id": "Prophet|AMZN-1102|DAY",
-   "symbols": [
-    "AMZN261120P00240000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-11-02",
-   "end": "2026-11-20"
+   "start": "2026-10-29T19:56:00Z",
+   "end": "2026-10-29T20:17:00Z"
   },
   {
-   "id": "Prophet|GDX-1105|O|2026-11-05T15:39",
+   "id": "MRCY|2026-11-10",
+   "asset": "stock",
    "symbols": [
-    "GDX270115P00080000"
+    "MRCY"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-05T15:37:00Z",
-   "end": "2026-11-05T16:10:00Z"
+   "start": "2026-11-10T20:56:00Z",
+   "end": "2026-11-10T21:20:00Z"
   },
   {
-   "id": "Prophet|GDX-1105|C|2026-11-13T20:22",
+   "id": "MRNA|2026-11-06",
+   "asset": "stock",
    "symbols": [
-    "GDX270115P00080000"
+    "MRNA"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-13T20:20:00Z",
-   "end": "2026-11-13T20:53:00Z"
+   "start": "2026-11-06T11:40:00Z",
+   "end": "2026-11-06T12:16:00Z"
   },
   {
-   "id": "Prophet|GDX-1105|DAY",
+   "id": "MSI|2026-11-04",
+   "asset": "stock",
    "symbols": [
-    "GDX270115P00080000"
+    "MSI"
    ],
-   "timeframe": "1Day",
-   "start": "2026-11-05",
-   "end": "2026-11-23"
-  },
-  {
-   "id": "Prophet|CRM-1105|O|2026-11-05T16:53",
-   "symbols": [
-    "CRM261120P00200000"
-   ],
    "timeframe": "1Min",
-   "start": "2026-11-05T16:51:00Z",
-   "end": "2026-11-05T17:24:00Z"
+   "start": "2026-11-04T21:05:00Z",
+   "end": "2026-11-04T21:25:00Z"
   },
   {
-   "id": "Prophet|CRM-1105|C|2026-11-06T15:53",
+   "id": "MSI|2026-11-05",
+   "asset": "stock",
    "symbols": [
-    "CRM261120P00200000"
+    "MSI"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-06T15:51:00Z",
-   "end": "2026-11-06T16:24:00Z"
-  },
-  {
-   "id": "Prophet|CRM-1105|DAY",
-   "symbols": [
-    "CRM261120P00200000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-11-05",
-   "end": "2026-11-20"
+   "start": "2026-11-05T00:36:00Z",
+   "end": "2026-11-05T00:56:00Z"
   },
   {
-   "id": "Prophet|AAPL-1106|O|2026-11-06T19:52",
+   "id": "MSTR|2026-10-29",
+   "asset": "stock",
    "symbols": [
-    "AAPL261218P00320000"
+    "MSTR"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-06T19:50:00Z",
-   "end": "2026-11-06T20:23:00Z"
+   "start": "2026-10-29T19:56:00Z",
+   "end": "2026-10-29T21:04:00Z"
   },
   {
-   "id": "Prophet|AAPL-1106|O|2026-11-09T14:48",
+   "id": "MTSI|2026-11-05",
+   "asset": "stock",
    "symbols": [
-    "AAPL261218P00320000"
+    "MTSI"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-09T14:46:00Z",
-   "end": "2026-11-09T15:19:00Z"
+   "start": "2026-11-05T12:25:00Z",
+   "end": "2026-11-05T12:46:00Z"
   },
   {
-   "id": "Prophet|AAPL-1106|C|2026-11-20T17:34",
+   "id": "NBIS|2026-11-12",
+   "asset": "stock",
    "symbols": [
-    "AAPL261218P00320000"
+    "NBIS"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-20T17:32:00Z",
-   "end": "2026-11-20T18:05:00Z"
+   "start": "2026-11-12T12:06:00Z",
+   "end": "2026-11-12T12:26:00Z"
   },
   {
-   "id": "Prophet|AAPL-1106|C|2026-11-24T20:50",
+   "id": "NET|2026-11-05",
+   "asset": "stock",
    "symbols": [
-    "AAPL261218P00320000"
+    "NET"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-24T20:48:00Z",
-   "end": "2026-11-24T21:21:00Z"
-  },
-  {
-   "id": "Prophet|AAPL-1106|DAY",
-   "symbols": [
-    "AAPL261218P00320000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-11-06",
-   "end": "2026-11-23"
+   "start": "2026-11-05T21:10:00Z",
+   "end": "2026-11-05T21:30:00Z"
   },
   {
-   "id": "Prophet|INTC-1109|O|2026-11-09T20:15",
+   "id": "NVTS|2026-11-03",
+   "asset": "stock",
    "symbols": [
-    "INTC261120C00065000"
+    "NVTS"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-09T20:13:00Z",
-   "end": "2026-11-09T20:46:00Z"
+   "start": "2026-11-03T21:00:00Z",
+   "end": "2026-11-03T21:30:00Z"
   },
   {
-   "id": "Prophet|INTC-1109|C|2026-11-10T15:09",
+   "id": "ON|2026-11-02",
+   "asset": "stock",
    "symbols": [
-    "INTC261120C00065000"
+    "ON"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-10T15:07:00Z",
-   "end": "2026-11-10T15:40:00Z"
+   "start": "2026-11-02T21:05:00Z",
+   "end": "2026-11-02T21:25:00Z"
   },
   {
-   "id": "Prophet|INTC-1109|C|2026-11-10T15:52",
+   "id": "ONDS|2026-11-12",
+   "asset": "stock",
    "symbols": [
-    "INTC261120C00065000"
+    "ONDS"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-10T15:50:00Z",
-   "end": "2026-11-10T16:23:00Z"
-  },
-  {
-   "id": "Prophet|INTC-1109|DAY",
-   "symbols": [
-    "INTC261120C00065000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-11-09",
-   "end": "2026-11-20"
+   "start": "2026-11-12T12:55:00Z",
+   "end": "2026-11-12T13:21:00Z"
   },
   {
-   "id": "Prophet|CRWD-1110|O|2026-11-10T16:36",
+   "id": "OSCR|2026-11-05",
+   "asset": "stock",
    "symbols": [
-    "CRWD261120P00210000"
+    "OSCR"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-10T16:34:00Z",
-   "end": "2026-11-10T17:07:00Z"
+   "start": "2026-11-05T10:55:00Z",
+   "end": "2026-11-05T11:23:00Z"
   },
   {
-   "id": "Prophet|CRWD-1110|DAY",
+   "id": "PANW|2026-11-18",
+   "asset": "stock",
    "symbols": [
-    "CRWD261120P00210000"
+    "PANW"
    ],
-   "timeframe": "1Day",
-   "start": "2026-11-10",
-   "end": "2026-11-20"
-  },
-  {
-   "id": "Prophet|AMD-1110|O|2026-11-10T16:45",
-   "symbols": [
-    "AMD261113P00450000"
-   ],
    "timeframe": "1Min",
-   "start": "2026-11-10T16:43:00Z",
-   "end": "2026-11-10T17:16:00Z"
+   "start": "2026-11-18T21:00:00Z",
+   "end": "2026-11-18T21:20:00Z"
   },
   {
-   "id": "Prophet|AMD-1110|C|2026-11-10T17:12",
+   "id": "PINS|2026-10-29",
+   "asset": "stock",
    "symbols": [
-    "AMD261113P00450000"
+    "PINS"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-10T17:10:00Z",
-   "end": "2026-11-10T17:43:00Z"
-  },
-  {
-   "id": "Prophet|AMD-1110|DAY",
-   "symbols": [
-    "AMD261113P00450000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-11-10",
-   "end": "2026-11-13"
+   "start": "2026-10-29T20:05:00Z",
+   "end": "2026-10-29T20:27:00Z"
   },
   {
-   "id": "Prophet|NVDA-1110|O|2026-11-10T17:36",
+   "id": "POWL|2026-11-16",
+   "asset": "stock",
    "symbols": [
-    "NVDA261116P00150000"
+    "POWL"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-10T17:34:00Z",
-   "end": "2026-11-10T18:07:00Z"
-  },
-  {
-   "id": "Prophet|NVDA-1110|DAY",
-   "symbols": [
-    "NVDA261116P00150000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-11-10",
-   "end": "2026-11-16"
+   "start": "2026-11-16T21:00:00Z",
+   "end": "2026-11-16T21:21:00Z"
   },
   {
-   "id": "Prophet|AAPL-1112|O|2026-11-12T17:44",
+   "id": "RBLX|2026-10-29",
+   "asset": "stock",
    "symbols": [
-    "AAPL261120P00350000"
+    "RBLX"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-12T17:42:00Z",
-   "end": "2026-11-12T18:15:00Z"
+   "start": "2026-10-29T20:00:00Z",
+   "end": "2026-10-29T20:20:00Z"
   },
   {
-   "id": "Prophet|AAPL-1112|C|2026-11-13T20:45",
+   "id": "RGTI|2026-11-10",
+   "asset": "stock",
    "symbols": [
-    "AAPL261120P00350000"
+    "RGTI"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-13T20:43:00Z",
-   "end": "2026-11-13T21:16:00Z"
-  },
-  {
-   "id": "Prophet|AAPL-1112|DAY",
-   "symbols": [
-    "AAPL261120P00350000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-11-12",
-   "end": "2026-11-20"
+   "start": "2026-11-10T21:00:00Z",
+   "end": "2026-11-10T22:13:00Z"
   },
   {
-   "id": "Prophet|MSFT-1112|O|2026-11-12T18:45",
+   "id": "RIOT|2026-11-04",
+   "asset": "stock",
    "symbols": [
-    "MSFT261218P00450000"
+    "RIOT"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-12T18:43:00Z",
-   "end": "2026-11-12T19:16:00Z"
-  },
-  {
-   "id": "Prophet|MSFT-1112|DAY",
-   "symbols": [
-    "MSFT261218P00450000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-11-12",
-   "end": "2026-11-23"
+   "start": "2026-11-04T12:25:00Z",
+   "end": "2026-11-04T12:46:00Z"
   },
   {
-   "id": "Prophet|NVDA-1112|O|2026-11-12T19:48",
+   "id": "RIVN|2026-10-29",
+   "asset": "stock",
    "symbols": [
-    "NVDA270115P00100000"
+    "RIVN"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-12T19:46:00Z",
-   "end": "2026-11-12T20:19:00Z"
+   "start": "2026-10-29T19:57:00Z",
+   "end": "2026-10-29T20:37:00Z"
   },
   {
-   "id": "Prophet|NVDA-1112|DAY",
+   "id": "RKLB|2026-11-09",
+   "asset": "stock",
    "symbols": [
-    "NVDA270115P00100000"
+    "RKLB"
    ],
-   "timeframe": "1Day",
-   "start": "2026-11-12",
-   "end": "2026-11-23"
-  },
-  {
-   "id": "Prophet|HUT-1113|O|2026-11-13T20:41",
-   "symbols": [
-    "HUT270319P00045000"
-   ],
    "timeframe": "1Min",
-   "start": "2026-11-13T20:39:00Z",
-   "end": "2026-11-13T21:12:00Z"
+   "start": "2026-11-09T21:00:00Z",
+   "end": "2026-11-09T21:20:00Z"
   },
   {
-   "id": "Prophet|HUT-1113|C|2026-11-20T17:29",
+   "id": "ROST|2026-11-19",
+   "asset": "stock",
    "symbols": [
-    "HUT270319P00045000"
+    "ROST"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-20T17:27:00Z",
-   "end": "2026-11-20T18:00:00Z"
-  },
-  {
-   "id": "Prophet|HUT-1113|DAY",
-   "symbols": [
-    "HUT270319P00045000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-11-13",
-   "end": "2026-11-23"
+   "start": "2026-11-19T20:56:00Z",
+   "end": "2026-11-19T21:18:00Z"
   },
   {
-   "id": "Prophet|CRWD-1117|O|2026-11-17T20:13",
+   "id": "RUM|2026-11-11",
+   "asset": "stock",
    "symbols": [
-    "CRWD261127P00200000"
+    "RUM"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-17T20:11:00Z",
-   "end": "2026-11-17T20:44:00Z"
+   "start": "2026-11-11T12:25:00Z",
+   "end": "2026-11-11T12:45:00Z"
   },
   {
-   "id": "Prophet|CRWD-1117|O|2026-11-18T19:23",
+   "id": "SE|2026-11-10",
+   "asset": "stock",
    "symbols": [
-    "CRWD261127P00200000"
+    "SE"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-18T19:21:00Z",
-   "end": "2026-11-18T19:54:00Z"
+   "start": "2026-11-10T11:25:00Z",
+   "end": "2026-11-10T11:47:00Z"
   },
   {
-   "id": "Prophet|CRWD-1117|C|2026-11-23T14:46",
+   "id": "SITM|2026-11-04",
+   "asset": "stock",
    "symbols": [
-    "CRWD261127P00200000"
+    "SITM"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-23T14:44:00Z",
-   "end": "2026-11-23T15:17:00Z"
+   "start": "2026-11-04T21:05:00Z",
+   "end": "2026-11-04T21:30:00Z"
   },
   {
-   "id": "Prophet|CRWD-1117|C|2026-11-23T15:07",
+   "id": "SMCI|2026-11-03",
+   "asset": "stock",
    "symbols": [
-    "CRWD261127P00200000"
+    "SMCI"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-23T15:05:00Z",
-   "end": "2026-11-23T15:38:00Z"
-  },
-  {
-   "id": "Prophet|CRWD-1117|DAY",
-   "symbols": [
-    "CRWD261127P00200000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-11-17",
-   "end": "2026-11-23"
+   "start": "2026-11-03T21:00:00Z",
+   "end": "2026-11-03T21:48:00Z"
   },
   {
-   "id": "Prophet|S-1117|O|2026-11-17T20:52",
+   "id": "SNDK|2026-10-29",
+   "asset": "stock",
    "symbols": [
-    "S261127P00021000"
+    "SNDK"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-17T20:50:00Z",
-   "end": "2026-11-17T21:23:00Z"
+   "start": "2026-10-29T20:01:00Z",
+   "end": "2026-10-29T20:23:00Z"
   },
   {
-   "id": "Prophet|S-1117|O|2026-11-20T18:46",
+   "id": "SYM|2026-11-23",
+   "asset": "stock",
    "symbols": [
-    "S261127P00021000"
+    "SYM"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-20T18:44:00Z",
-   "end": "2026-11-20T19:17:00Z"
-  },
-  {
-   "id": "Prophet|S-1117|DAY",
-   "symbols": [
-    "S261127P00021000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-11-17",
-   "end": "2026-11-23"
+   "start": "2026-11-23T20:56:00Z",
+   "end": "2026-11-23T21:17:00Z"
   },
   {
-   "id": "Prophet|MU-1119|O|2026-11-19T17:17",
+   "id": "TEAM|2026-11-05",
+   "asset": "stock",
    "symbols": [
-    "MU261218P00450000"
+    "TEAM"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-19T17:15:00Z",
-   "end": "2026-11-19T17:48:00Z"
+   "start": "2026-11-05T21:00:00Z",
+   "end": "2026-11-05T21:20:00Z"
   },
   {
-   "id": "Prophet|MU-1119|C|2026-11-20T14:44",
+   "id": "TGT|2026-11-18",
+   "asset": "stock",
    "symbols": [
-    "MU261218P00450000"
+    "TGT"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-20T14:42:00Z",
-   "end": "2026-11-20T15:15:00Z"
+   "start": "2026-11-18T11:25:00Z",
+   "end": "2026-11-18T11:45:00Z"
   },
   {
-   "id": "Prophet|MU-1119|C|2026-11-20T20:58",
+   "id": "TOST|2026-11-03",
+   "asset": "stock",
    "symbols": [
-    "MU261218P00450000"
+    "TOST"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-20T20:56:00Z",
-   "end": "2026-11-20T21:29:00Z"
+   "start": "2026-11-03T21:06:00Z",
+   "end": "2026-11-03T21:27:00Z"
   },
   {
-   "id": "Prophet|MU-1119|DAY",
+   "id": "TTWO|2026-11-09",
+   "asset": "stock",
    "symbols": [
-    "MU261218P00450000"
+    "TTWO"
    ],
-   "timeframe": "1Day",
-   "start": "2026-11-19",
-   "end": "2026-11-23"
-  },
-  {
-   "id": "Prophet|CRWV-1120|O|2026-11-20T18:02",
-   "symbols": [
-    "CRWV270115P00020000"
-   ],
    "timeframe": "1Min",
-   "start": "2026-11-20T18:00:00Z",
-   "end": "2026-11-20T18:33:00Z"
-  },
-  {
-   "id": "Prophet|CRWV-1120|DAY",
-   "symbols": [
-    "CRWV270115P00020000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-11-20",
-   "end": "2026-11-23"
+   "start": "2026-11-09T21:00:00Z",
+   "end": "2026-11-09T21:20:00Z"
   },
   {
-   "id": "Prophet|GDX-1123|O|2026-11-23T16:40",
+   "id": "UBER|2026-11-04",
+   "asset": "stock",
    "symbols": [
-    "GDX261218P00070000"
+    "UBER"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-23T16:38:00Z",
-   "end": "2026-11-23T17:11:00Z"
+   "start": "2026-11-04T11:50:00Z",
+   "end": "2026-11-04T12:17:00Z"
   },
   {
-   "id": "Prophet|GDX-1123|C|2026-11-24T16:21",
+   "id": "VG|2026-11-10",
+   "asset": "stock",
    "symbols": [
-    "GDX261218P00070000"
+    "VG"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-24T16:19:00Z",
-   "end": "2026-11-24T16:52:00Z"
-  },
-  {
-   "id": "Prophet|GDX-1123|DAY",
-   "symbols": [
-    "GDX261218P00070000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-11-23",
-   "end": "2026-11-23"
+   "start": "2026-11-10T11:25:00Z",
+   "end": "2026-11-10T11:45:00Z"
   },
   {
-   "id": "Prophet|CRWD-1124|O|2026-11-24T15:07",
+   "id": "VIAV|2026-11-04",
+   "asset": "stock",
    "symbols": [
-    "CRWD261218P00180000"
+    "VIAV"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-24T15:05:00Z",
-   "end": "2026-11-24T15:38:00Z"
-  },
-  {
-   "id": "Prophet|CRWD-1124|DAY",
-   "symbols": [
-    "CRWD261218P00180000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-11-24",
-   "end": "2026-11-23"
+   "start": "2026-11-04T21:10:00Z",
+   "end": "2026-11-04T21:30:00Z"
   },
   {
-   "id": "Prophet|SNDK-1124|O|2026-11-24T15:34",
+   "id": "VRTX|2026-11-02",
+   "asset": "stock",
    "symbols": [
-    "SNDK270115P00050000"
+    "VRTX"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-24T15:32:00Z",
-   "end": "2026-11-24T16:05:00Z"
-  },
-  {
-   "id": "Prophet|SNDK-1124|DAY",
-   "symbols": [
-    "SNDK270115P00050000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-11-24",
-   "end": "2026-11-23"
+   "start": "2026-11-02T20:56:00Z",
+   "end": "2026-11-02T21:17:00Z"
   },
   {
-   "id": "Prophet|AMD-1124|O|2026-11-24T18:12",
+   "id": "WYNN|2026-11-05",
+   "asset": "stock",
    "symbols": [
-    "AMD261127P00350000"
+    "WYNN"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-24T18:10:00Z",
-   "end": "2026-11-24T18:43:00Z"
+   "start": "2026-11-05T20:56:00Z",
+   "end": "2026-11-05T21:17:00Z"
   },
   {
-   "id": "Prophet|AMD-1124|DAY",
+   "id": "XYZ|2026-11-03",
+   "asset": "stock",
    "symbols": [
-    "AMD261127P00350000"
+    "XYZ"
    ],
-   "timeframe": "1Day",
-   "start": "2026-11-24",
-   "end": "2026-11-23"
-  },
-  {
-   "id": "Prophet|BUG-1124|O|2026-11-24T20:03",
-   "symbols": [
-    "BUG261218P00047000"
-   ],
    "timeframe": "1Min",
-   "start": "2026-11-24T20:01:00Z",
-   "end": "2026-11-24T20:34:00Z"
-  },
-  {
-   "id": "Prophet|BUG-1124|DAY",
-   "symbols": [
-    "BUG261218P00047000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-11-24",
-   "end": "2026-11-23"
+   "start": "2026-11-03T21:00:00Z",
+   "end": "2026-11-03T21:27:00Z"
   },
   {
-   "id": "Prophet|AAPL-1124|O|2026-11-24T20:06",
+   "id": "ZM|2026-11-23",
+   "asset": "stock",
    "symbols": [
-    "AAPL261127P00340000"
+    "ZM"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-24T20:04:00Z",
-   "end": "2026-11-24T20:37:00Z"
-  },
-  {
-   "id": "Prophet|AAPL-1124|DAY",
-   "symbols": [
-    "AAPL261127P00340000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-11-24",
-   "end": "2026-11-23"
+   "start": "2026-11-23T21:00:00Z",
+   "end": "2026-11-23T21:24:00Z"
   },
   {
-   "id": "Prophet|ANT-1124|O|2026-11-24T20:45",
+   "id": "ZTS|2026-11-05",
+   "asset": "stock",
    "symbols": [
-    "ANT270115P00040000"
+    "ZTS"
    ],
    "timeframe": "1Min",
-   "start": "2026-11-24T20:43:00Z",
-   "end": "2026-11-24T21:16:00Z"
-  },
-  {
-   "id": "Prophet|ANT-1124|DAY",
-   "symbols": [
-    "ANT270115P00040000"
-   ],
-   "timeframe": "1Day",
-   "start": "2026-11-24",
-   "end": "2026-11-23"
+   "start": "2026-11-05T11:55:00Z",
+   "end": "2026-11-05T12:22:00Z"
   }
  ]
 }

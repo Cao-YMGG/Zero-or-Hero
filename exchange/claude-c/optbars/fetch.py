@@ -18,13 +18,14 @@ import urllib.request
 from datetime import datetime, timezone
 
 DATA = "https://data.alpaca.markets/v1beta1/options/bars"
+STOCK_DATA = "https://data.alpaca.markets/v2/stocks/bars"   # job "asset": "stock" -- raw, SIP feed (includes extended hours)
 MIN_GAP_S = 0.6
 MAX_PAGES = 50
 _last = [0.0]
 
 
-def _get(params):
-    req = urllib.request.Request(DATA + "?" + urllib.parse.urlencode(params), headers={
+def _get(params, url=DATA):
+    req = urllib.request.Request(url + "?" + urllib.parse.urlencode(params), headers={
         "APCA-API-KEY-ID": os.environ["APCA_API_KEY_ID"],
         "APCA-API-SECRET-KEY": os.environ["APCA_API_SECRET_KEY"],
         "Accept": "application/json"})
@@ -56,7 +57,11 @@ def run(job):
                   "end": job["end"], "limit": 10000, "sort": "asc"}
         if token:
             params["page_token"] = token
-        code, body = _get(params)
+        if job.get("asset") == "stock":
+            params.update({"adjustment": "raw", "feed": "sip"})
+            code, body = _get(params, STOCK_DATA)
+        else:
+            code, body = _get(params)
         pages += 1
         if code != 200:
             return {"id": job["id"], "ev": "ERR", "http": code, "error": body.get("error"), "pages": pages}
