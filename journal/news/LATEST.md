@@ -1,9 +1,10 @@
-# Headlines since 2026-11-23 16:00 ET (as of 2026-11-24 15:16 ET)
+# Headlines since 2026-11-23 16:00 ET (as of 2026-11-24 17:45 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-24 16:31 | NFLX | initiate | German Voice Actors Initiate Legal Action Against Netflix Over AI Training Clauses |
 | 11-24 09:32 | TSLA | initiate | Seaport Initiates Coverage of Tesla with Buy Rating |
 | 11-24 09:31 | AAPL | rating | J.P. Morgan Maintains Buy Rating and $355 Price Target for Apple |
 | 11-24 08:02 | INTU | downgrade | HSBC Downgrades Intuit to Hold From Buy |
@@ -12,6 +13,9 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-24 06:32 | WDC | initiate | BofA Securities Initiates Coverage of Western Digital with Buy Rating |
 | 11-24 06:32 | MU | downgrade | BNP Paribas Downgrades Micron Technology to Neutral |
 | 11-24 06:31 | CRWD | upgrade | Guggenheim Upgrades CrowdStrike to Buy with $280 Price Target |
+| 11-24 17:31 | AMZN |  | Amazon Teamsters in Chicago Rally for Delivery Protection Act |
+| 11-24 16:31 | WMT |  | Walmart Launches 'Muse' AI Shopping Assistant |
+| 11-24 16:31 | LLY |  | Eli Lilly Canada Sponsors Survey on Type 2 Diabetes Awareness |
 | 11-24 14:04 | WMT |  | Symbotic Announces $7 Billion Expansion of Walmart Automation Agreement |
 | 11-24 14:02 | HOOD |  | Robinhood Co-Leads $5 Million Seed Investment in Onchain Trading Platform Rialto |
 | 11-24 14:02 | BAC |  | Bank of America Corporation Reports Decrease in Voting Interest in Workspace Group PLC |

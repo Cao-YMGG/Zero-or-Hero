@@ -1,7 +1,47 @@
 {
- "as_of": "2026-11-24T15:16-05:00",
+ "as_of": "2026-11-24T17:45-05:00",
  "since": "2026-11-23T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-24 17:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Teamsters in Chicago Rally for Delivery Protection Act",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1005667173/amazon-teamsters-rally-on-cyber-monday-to-demand-passage-of"
+  },
+  {
+   "time": "11-24 16:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart Launches 'Muse' AI Shopping Assistant",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/news/retail/2026/walmart-turns-to-metas-muse-to-power-black-friday/"
+  },
+  {
+   "time": "11-24 16:31",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "initiate",
+   "headline": "German Voice Actors Initiate Legal Action Against Netflix Over AI Training Clauses",
+   "source": "fiscal.ai",
+   "url": "https://ultimosegundo.ig.com.br/agencias/dw/2026-11-24/dubladores-alemaes-se-revoltam-contra-netflix-por-uso-de-ia.html"
+  },
+  {
+   "time": "11-24 16:31",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly Canada Sponsors Survey on Type 2 Diabetes Awareness",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.ca/news-releases/early-action-after-a-type-2-diabetes-diagnosis-could-shape-health-for-decades-but-new-survey-reveals-weight-management-isn-t-always-part-of-the-plan-866989716.html"
+  },
   {
    "time": "11-24 14:04",
    "symbols": [
