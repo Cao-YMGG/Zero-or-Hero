@@ -141,3 +141,7 @@ each part, one line each: the date, what happened, what it suggested, where it s
     Nvidia's chairman had said six days earlier the board would not reinstate him. The board did, before the open; NVDA
     opened +33% and closed 1.2% under its open. "Not confirmed" was accurate and the headline was true. Nothing to buy
     either way: the move was before 09:31.
+- 2026-11-24 (pointed out by the other side at midday): on 11-20 and 11-24 SPY made its high of the day in the 10:00 minute, the
+  minute spy_open_drive buys its call (11-24: high 720.93 at 10:00, the 724 call bought at 1.73 expired; 11-20: high 718.29 at
+  10:00); on 11-23 the high came at 10:32. Two days. SUNDAY_TESTS 84 counts, on the stored open-drive days, how often the
+  10:00 minute was the day's extreme in the trade's direction.

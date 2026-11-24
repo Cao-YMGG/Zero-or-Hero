@@ -882,7 +882,8 @@ in EVOLUTION.md.
    -13% / -36% / -51% (23 trades), and 2024 and 2025 are negative; the family is positive in 2026 only. For next
    Sunday, bar written now: if the open-drive trades of the last 6 months (other weeks, 0.35 delta, the live exit)
    are negative without their best two on SPY and on NVDA and TSLA alike, the two call ledgers go back to
-   shadow-only until 10 shadow signals win 4.
+   shadow-only until 10 shadow signals win 4. Also count (added 11-24, from the other side's note): on how many of the
+   stored open-drive days the 10:00 minute was the day's high (calls) or low (puts); context for the result, not a bar.
 85. **Not run this week:** 73 (the 3% line on option prices) and 77 (the oversold rule on option prices and as a
    $500 ledger). Both guesses stand at "fails"; five option tests failed this week and neither would change what
    is traded. They stay open, behind 84.
