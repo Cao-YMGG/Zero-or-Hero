@@ -1,0 +1,12 @@
+{
+ "date": "2026-11-24",
+ "picks": [],
+ "check_1016": {
+  "time": "10:16",
+  "pick": null,
+  "note": "No pick, no ideas. Scan by Alpaca IEX snapshots of 129 large caps and 11 ETFs at 10:16 (140 of 141 with a bar today; no Webull in this session). The tape is a rotation out of chips into everything else: SPY gapped -1.0% and is +0.4% from its open, QQQ -1.7% / -0.2%, IWM +0.9%, XLV +2.1%, IGV +1.7%, XLP +1.4%, XLF +1.1%, while SMH gapped -4.1% and is -2.7% more from its open, 0.3% off its low. Chip and hardware names extend their gap downs: LITE -5.5%, DELL -5.2% (reports after the close, R3), COHR -5.2%, MRVL -4.3%, ARM -4.3%, MU -4.3%, AMD -4.0%, ADI -4.0% (reported this morning, R3), NVDA -3.2%, most within 0.5% of the day's low. The cause (HPE and ADI guidance, profit taking after Monday's +17% SMH day) is from before the open and was in the opening price (R1); the only in-session chip headlines are BNP Paribas target cuts at 09:32 (MRVL, COHR, AVGO, CIEN, WDC), a group follow-up to its MU downgrade and not news of a single name; a put would sit at the day's low (T3) after a gap (R2). Biggest mover: PINS +10.8% from its open (gap +1.1%), 3.0% under its high, with no headline in the Alpaca feed since yesterday's close or in LATEST.md: relative strength with no cause I can name. Software leads the call side (ADBE +4.9%, CRM +4.8%, INTU +4.8%, TEAM +4.7%, WDAY +4.2%, NOW +3.0%) with nothing behind it but the rotation: CRM's 09:31 headline (joins an industry AI-agent standard) is too thin to be a cause, INTU carries an HSBC downgrade, WDAY reports after the close (R3), and ADBE, INTU and WDAY are at the day's high (T3). Health care and staples (LLY +2.4%, AMGN +2.4%, ABT +3.3%, WMT +1.7%, KO +1.4%) are all within 0.3% of their highs with no news of their own. Nothing has a cause still unfolding with the tape behind it, so the list stays empty (T6).",
+  "note_zh": "不选股，也不列想法。今天是资金从芯片流向其他板块：芯片 ETF 低开 4% 后又跌了 2.7%，戴尔、美光、AMD、Lumentum 等跌 4% 到 5%，但下跌原因是开盘前就已知的消息，而且都贴着当天最低点。涨得最多的是 Pinterest（比开盘涨 10.8%），找不到任何新闻；软件股普遍涨 4% 到 5%，同样没有自己的消息，有几只还正好在当天最高点，所以都不列。",
+  "by": "fresh-session"
+ },
+ "opportunities": []
+}
