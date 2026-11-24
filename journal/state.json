@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-23",
-  "done": true,
+  "date": "2026-11-24",
+  "done": false,
   "variants": {
     "claude_bias": {},
     "meta_follow2": {},
@@ -9,16 +9,32 @@
     "catalyst_open_hero": {},
     "catalyst_intraday": {},
     "catalyst_intraday_hero": {},
-    "spy_open_drive": {},
-    "spy_open_drive_put": {},
-    "stock_open_drive": {
+    "spy_open_drive": {
       "attempts": 1,
       "entered": true,
-      "closed": true
-    }
+      "shadow": {
+        "contract": "SPY261124C00724000",
+        "direction": "call",
+        "entry_time": "2026-11-24T10:01:27-05:00",
+        "entry_price": 1.74,
+        "peak": 1.74,
+        "qty": 1,
+        "last": 1.41,
+        "last_time": "2026-11-24T10:02:29-05:00"
+      },
+      "real": {
+        "contract": "SPY261124C00724000",
+        "qty": 1,
+        "underlying": "SPY",
+        "entry_price": 1.73,
+        "entry_time": "2026-11-24T10:01:28-05:00"
+      }
+    },
+    "spy_open_drive_put": {},
+    "stock_open_drive": {}
   },
   "generation": 1,
-  "equity_start": 385.40000000000146,
+  "equity_start": 385.27999999999884,
   "phase": "zero-or-hero",
   "risk_per_trade": 0.2,
   "champion": "nvda_gapdown_put",
@@ -36,9 +52,9 @@
       "gated": false
     },
     "stock_open_drive": {
-      "equity": 333.0,
+      "equity": 211.0,
       "generation": 1,
-      "paused": false,
+      "paused": true,
       "gated": false
     },
     "spy_open_drive_put": {

@@ -1,14 +1,29 @@
-# Headlines since 2026-11-23 16:00 ET (as of 2026-11-24 07:58 ET)
+# Headlines since 2026-11-23 16:00 ET (as of 2026-11-24 10:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-24 09:32 | TSLA | initiate | Seaport Initiates Coverage of Tesla with Buy Rating |
+| 11-24 09:31 | AAPL | rating | J.P. Morgan Maintains Buy Rating and $355 Price Target for Apple |
+| 11-24 08:02 | INTU | downgrade | HSBC Downgrades Intuit to Hold From Buy |
 | 11-24 07:32 | MS | upgrade | Morgan Stanley Upgrades Millicom International Cellular to Overweight |
 | 11-24 07:31 | AMD | initiate | Bernstein Initiates Coverage on AMD with Buy Rating |
 | 11-24 06:32 | WDC | initiate | BofA Securities Initiates Coverage of Western Digital with Buy Rating |
 | 11-24 06:32 | MU | downgrade | BNP Paribas Downgrades Micron Technology to Neutral |
 | 11-24 06:31 | CRWD | upgrade | Guggenheim Upgrades CrowdStrike to Buy with $280 Price Target |
+| 11-24 09:32 | AVGO |  | BNP Paribas Adjusts Broadcom Price Target |
+| 11-24 09:32 | CIEN |  | BNP Paribas Adjusts Ciena Price Target |
+| 11-24 09:32 | COIN |  | Form3 Partners with Coinbase Infrastructure to Enable Stablecoin Payments |
+| 11-24 09:32 | WDC |  | BNP Paribas Adjusts Price Target on Western Digital to $475 From $700 |
+| 11-24 09:31 | CRM |  | Salesforce Joins Industry Backing for Open Standard in AI Agent Context Sharing |
+| 11-24 09:03 | STX |  | BNP Paribas Adjusts Price Target on Seagate Technology |
+| 11-24 08:03 | META |  | Meta Abandons 2030 Net-Zero Emissions Goal |
+| 11-24 08:03 | V |  | Clapp Finance Launches Crypto Card on Visa Network |
+| 11-24 08:03 | V |  | Odola Fintech Platform to Offer Visa Debit Card for Migrant Workers |
+| 11-24 08:02 | AMD |  | BNP Paribas Adjusts Price Target for AMD |
+| 11-24 08:01 | JPM |  | JPMorgan Chase Increases Stake in Intertek Group PLC |
+| 11-24 08:01 | AAPL |  | Apple Announces Fifth Season of 'Ted Lasso' |
 | 11-24 07:32 | COIN |  | California Court Dismisses UST Class-Action Lawsuit Against Coinbase |
 | 11-24 07:32 | COIN |  | Goldman Sachs Adjusts Price Target on Coinbase Global |
 | 11-24 07:31 | TSLA |  | UBS Adjusts Price Target on Tesla to $430 |

@@ -1,7 +1,157 @@
 {
- "as_of": "2026-11-24T07:58-05:00",
+ "as_of": "2026-11-24T10:02-05:00",
  "since": "2026-11-23T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-24 09:32",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "",
+   "headline": "BNP Paribas Adjusts Broadcom Price Target",
+   "source": "fiscal.ai",
+   "url": "https://de.marketscreener.com/boerse-nachrichten/broadcom-inc-bnp-paribas-bleibt-neutral-ce7851dbdb8ffe27"
+  },
+  {
+   "time": "11-24 09:32",
+   "symbols": [
+    "CIEN"
+   ],
+   "rating": "",
+   "headline": "BNP Paribas Adjusts Ciena Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/bnp-paribas-adjusts-ciena-price-target-to-375-from-640-ce7851dbdb88f021"
+  },
+  {
+   "time": "11-24 09:32",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "initiate",
+   "headline": "Seaport Initiates Coverage of Tesla with Buy Rating",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/seaport-initiates-tesla-at-buy-with-475-price-target-ce7851dbd88ef222"
+  },
+  {
+   "time": "11-24 09:32",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Form3 Partners with Coinbase Infrastructure to Enable Stablecoin Payments",
+   "source": "fiscal.ai",
+   "url": "https://glenbrook.com/payments-news/all-payments-news/"
+  },
+  {
+   "time": "11-24 09:32",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "BNP Paribas Adjusts Price Target on Western Digital to $475 From $700",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/bnp-paribas-adjusts-price-target-on-western-digital-to-475-from-700-ce7851dbdb8df022"
+  },
+  {
+   "time": "11-24 09:31",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "rating",
+   "headline": "J.P. Morgan Maintains Buy Rating and $355 Price Target for Apple",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/AAPL-US?chain_id=Name1K9-3FXPhg.1lgakgg&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FPDD-US%22%7D"
+  },
+  {
+   "time": "11-24 09:31",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce Joins Industry Backing for Open Standard in AI Agent Context Sharing",
+   "source": "fiscal.ai",
+   "url": "https://www.einnews.com/pr_news/958671977/trust3-ai-joins-databricks-google-cloud-and-salesforce-backing-open-standard-for-sharing-context-with-ai-agents"
+  },
+  {
+   "time": "11-24 09:03",
+   "symbols": [
+    "STX"
+   ],
+   "rating": "",
+   "headline": "BNP Paribas Adjusts Price Target on Seagate Technology",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/bnp-paribas-adjusts-price-target-on-seagate-technology-to-835-from-1-275-ce7851dbdb8df021"
+  },
+  {
+   "time": "11-24 08:03",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Abandons 2030 Net-Zero Emissions Goal",
+   "source": "fiscal.ai",
+   "url": "https://wjno.iheart.com/content/2026-11-24-meta-drops-2030-net-zero-goal-amid-ai-expansion/"
+  },
+  {
+   "time": "11-24 08:03",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Clapp Finance Launches Crypto Card on Visa Network",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.ca/news-releases/clapp-finance-launches-crypto-card-with-0-transaction-fees-and-credit-line-spendings-867053021.html"
+  },
+  {
+   "time": "11-24 08:03",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Odola Fintech Platform to Offer Visa Debit Card for Migrant Workers",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/money-mobility/2026/worldremit-founder-launching-migrant-focused-fintech-odola/"
+  },
+  {
+   "time": "11-24 08:02",
+   "symbols": [
+    "AMD"
+   ],
+   "rating": "",
+   "headline": "BNP Paribas Adjusts Price Target for AMD",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/bnp-paribas-adjusts-price-target-on-advanced-micro-devices-to-650-from-960-ce7851dbd98afe22"
+  },
+  {
+   "time": "11-24 08:02",
+   "symbols": [
+    "INTU"
+   ],
+   "rating": "downgrade",
+   "headline": "HSBC Downgrades Intuit to Hold From Buy",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/hsbc-downgrades-intuit-to-hold-from-buy-292-price-target-ce7851dbd88cf420"
+  },
+  {
+   "time": "11-24 08:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Increases Stake in Intertek Group PLC",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/rns/intertek-group--itrk/holding-s-in-company/9891107"
+  },
+  {
+   "time": "11-24 08:01",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Announces Fifth Season of 'Ted Lasso'",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.at/nachrichten/aktien/apple-aktie-gefragt-apple-tv-verlangert-comedy-erfolg-ted-lasso-erneut-1036795052"
+  },
   {
    "time": "11-24 07:32",
    "symbols": [
