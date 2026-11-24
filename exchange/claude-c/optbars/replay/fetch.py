@@ -6,7 +6,8 @@ For each candidate (book, symbol, day) in request.json -- a day whose low / high
 prev close x (1 -/+ move) on adjusted daily bars -- this records, with raw (unadjusted) prices:
   - the first 5-minute tick (09:36, 09:41, ... 15:46 ET) whose 1-minute close is at or past the raw line;
   - the monthly expiry nearest 90 days (60..130) and the two strikes (long nearest the price, short nearest 2.5% further);
-  - each leg's first 1-minute close within 30 minutes of the tick;
+  - each leg's 1-minute close nearest the tick within +-60 minutes (ties -> the later bar);
+  - control rows (fixedTick) skip the line and enter at that tick;
   - each leg's daily closes from the signal day to 10 days past (expiry - 21 days).
 Scoring (exits, limits, statistics) is done elsewhere from these rows; nothing here decides a trade's outcome.
 Read-only: market data plus the read-only options contract list. Never touches orders or account endpoints.
@@ -33,7 +34,7 @@ TICKS = ["%02d:%02d" % divmod(m, 60) for m in range(9 * 60 + 36, 15 * 60 + 47, 5
 TARGET_DTE, DTE_MIN, DTE_MAX = 90, 60, 130
 WIDTH_PCT = 0.025
 TIME_EXIT_DAYS = 21
-ENTRY_WINDOW_MIN = 30
+ENTRY_WINDOW_MIN = 60   # +- minutes around the tick (spec amendment 15:05 ET; was 30 after only)
 
 
 def get(url, params):
@@ -206,6 +207,13 @@ def main(req_path, out_dir):
                 if not mins:
                     r["status"] = "NO_STOCK_MIN"
                     continue
+                if c.get("fixedTick"):   # control row: no line, enter at the fixed tick
+                    before = [p for m, p in mins if m <= c["fixedTick"]]
+                    if not before:
+                        r["status"] = "NO_TICK_CROSS"
+                        continue
+                    r.update(tick=c["fixedTick"], px=before[-1], pastLine=None, status="CROSSED")
+                    continue
                 tick, px = first_cross(mins, line, c["book"])
                 if tick is None:
                     r["status"] = "NO_TICK_CROSS"
@@ -257,34 +265,38 @@ def main(req_path, out_dir):
             r.update(status="ERR_EXCEPTION", err="%s: %s" % (type(e).__name__, str(e)[:200]))
             traceback.print_exc()
 
-    # 4. entry prices: each leg's first 1-minute close within 30 minutes of the tick (one request per day)
+    # 4. entry prices: each leg's 1-minute close nearest the tick, within +-60 minutes, ties -> the later bar
+    #    (spec amendment 15:05 ET: the first smoke run found 13/24 legs with no trade in the 30 minutes after the tick)
     picked_by_day = {}
     for r in rows.values():
         if r["status"] == "PICKED":
             picked_by_day.setdefault(r["day"], []).append(r)
     for day, rs in sorted(picked_by_day.items()):
         try:
-            t0 = min(et_dt(day, r["tick"]) for r in rs)
-            t1 = max(et_dt(day, r["tick"]) for r in rs) + timedelta(minutes=ENTRY_WINDOW_MIN)
             code, err, ob = bars_paged(DATA + "/v1beta1/options/bars", {
                 "symbols": ",".join(sorted({x for r in rs for x in (r["long"], r["short"])})), "timeframe": "1Min",
-                "start": z(t0), "end": z(t1), "limit": 10000, "sort": "asc"})
+                "start": z(et_dt(day, "09:30")), "end": z(et_dt(day, "16:00")), "limit": 10000, "sort": "asc"})
             for r in rs:
                 if code != 200:
                     r.update(status="ERR_OPT_MIN", err="http=%s %s" % (code, err))
                     continue
-                a, b = et_dt(day, r["tick"]), et_dt(day, r["tick"]) + timedelta(minutes=ENTRY_WINDOW_MIN)
+                t = et_dt(day, r["tick"])
                 legs = {}
                 for side in ("long", "short"):
-                    bs = sorted((x for x in ob.get(r[side], []) if a <= et(x["t"]) < b), key=lambda x: x["t"])
-                    if bs:
-                        legs[side] = (bs[0]["c"], et(bs[0]["t"]).strftime("%H:%M"), bs[0].get("v"))
+                    near = []
+                    for x in ob.get(r[side], []):
+                        gap = (et(x["t"]) - t).total_seconds() / 60.0
+                        if abs(gap) <= ENTRY_WINDOW_MIN:
+                            near.append((abs(gap), -gap, x, gap))
+                    if near:
+                        _, _, x, gap = min(near, key=lambda n: (n[0], n[1]))
+                        legs[side] = (x["c"], et(x["t"]).strftime("%H:%M"), x.get("v"), round(gap, 1))
                 if len(legs) < 2:
                     r.update(status="NO_ENTRY_PRICE", legsFound=sorted(legs))
                     continue
                 r.update(longEntry=legs["long"][0], longEntryT=legs["long"][1], longEntryV=legs["long"][2],
-                         shortEntry=legs["short"][0], shortEntryT=legs["short"][1], shortEntryV=legs["short"][2],
-                         status="ENTRY_PRICED")
+                         longGapMin=legs["long"][3], shortEntry=legs["short"][0], shortEntryT=legs["short"][1],
+                         shortEntryV=legs["short"][2], shortGapMin=legs["short"][3], status="ENTRY_PRICED")
         except Exception as e:  # noqa: BLE001
             for r in rs:
                 r.update(status="ERR_EXCEPTION", err="%s: %s" % (type(e).__name__, str(e)[:200]))

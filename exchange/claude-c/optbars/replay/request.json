@@ -1,5 +1,5 @@
 {
- "purpose": "claude-c replay of paper-dip-v1 / paper-rip-v1 (frozen spec 2026-11-24) -- SMOKE (24 spread candidates)",
+ "purpose": "claude-c replay of paper-dip-v1 / paper-rip-v1 (frozen spec 2026-11-24) -- SMOKE 2 (24 signal + 6 control)",
  "from": "2024-02-01",
  "to": "2026-11-20",
  "candidates": [
@@ -242,6 +242,66 @@
    "sigma20": 0.023481,
    "move": 0.046963,
    "qfqExtremePct": 8.297
+  },
+  {
+   "id": "ctl-dip-AAPL-2024-02-06",
+   "book": "paper-dip-v1",
+   "sym": "AAPL",
+   "day": "2024-02-06",
+   "prevDay": "2024-02-05",
+   "move": 0.0,
+   "control": true,
+   "fixedTick": "10:01"
+  },
+  {
+   "id": "ctl-dip-QQQ-2024-07-23",
+   "book": "paper-dip-v1",
+   "sym": "QQQ",
+   "day": "2024-07-23",
+   "prevDay": "2024-07-22",
+   "move": 0.0,
+   "control": true,
+   "fixedTick": "10:01"
+  },
+  {
+   "id": "ctl-rip-AMZN-2025-01-13",
+   "book": "paper-rip-v1",
+   "sym": "AMZN",
+   "day": "2025-01-13",
+   "prevDay": "2025-01-10",
+   "move": 0.0,
+   "control": true,
+   "fixedTick": "10:01"
+  },
+  {
+   "id": "ctl-rip-MSFT-2025-07-09",
+   "book": "paper-rip-v1",
+   "sym": "MSFT",
+   "day": "2025-07-09",
+   "prevDay": "2025-07-08",
+   "move": 0.0,
+   "control": true,
+   "fixedTick": "10:01"
+  },
+  {
+   "id": "ctl-rip-QQQ-2026-01-09",
+   "book": "paper-rip-v1",
+   "sym": "QQQ",
+   "day": "2026-01-09",
+   "prevDay": "2026-01-08",
+   "move": 0.0,
+   "control": true,
+   "fixedTick": "10:01"
+  },
+  {
+   "id": "ctl-rip-NVDA-2026-07-13",
+   "book": "paper-rip-v1",
+   "sym": "NVDA",
+   "day": "2026-07-13",
+   "prevDay": "2026-07-10",
+   "move": 0.0,
+   "control": true,
+   "fixedTick": "10:01"
   }
  ]
 }
