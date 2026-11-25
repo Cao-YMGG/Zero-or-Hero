@@ -1,4 +1,4 @@
-# Headlines since 2026-11-24 16:00 ET (as of 2026-11-25 10:32 ET)
+# Headlines since 2026-11-24 16:00 ET (as of 2026-11-25 11:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -7,6 +7,11 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-25 06:32 | WMT | initiate | William O'Neil Initiates Coverage on Walmart with Buy Rating |
 | 11-24 19:01 | TSLA | initiate | RBC Capital and Seaport Initiate Coverage of Tesla |
 | 11-24 16:31 | NFLX | initiate | German Voice Actors Initiate Legal Action Against Netflix Over AI Training Clauses |
+| 11-25 11:01 | GS |  | Goldman Sachs Reports Market Sentiment Indicator at Low Levels |
+| 11-25 11:01 | MU |  | Tradr ETFs Announces Upcoming Launch of Leveraged ETF Featuring Micron Technology, Inc. |
+| 11-25 11:01 | GEV |  | GE Vernova Launches Hypact-145g Hybrid Switchgear |
+| 11-25 11:01 | AVGO |  | UBS Adjusts Broadcom Price Target |
+| 11-25 11:01 | AMZN |  | Duracell and Amazon Partner for 'Power Playland on the Pier' Holiday Event |
 | 11-25 09:32 | TSLA |  | General Motors Korea to Adopt Tesla's North American Charging Standard |
 | 11-25 09:32 | LLY |  | Eli Lilly and Novo Nordisk Face Lawsuits Over Rare Eye Condition Linked to GLP-1 Drugs |
 | 11-25 09:31 | PLTR |  | Palantir Technologies Insiders Report Significant Stock Transactions |

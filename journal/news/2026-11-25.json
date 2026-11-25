@@ -1,7 +1,57 @@
 {
- "as_of": "2026-11-25T10:32-05:00",
+ "as_of": "2026-11-25T11:02-05:00",
  "since": "2026-11-24T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-25 11:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Reports Market Sentiment Indicator at Low Levels",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1005748082/goldman-sachs-market-sentiment-indicator-falls-to-low-levels-presenting"
+  },
+  {
+   "time": "11-25 11:01",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Tradr ETFs Announces Upcoming Launch of Leveraged ETF Featuring Micron Technology, Inc.",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/tradr-to-launch-six-new-leveraged-etfs-302949924.html"
+  },
+  {
+   "time": "11-25 11:01",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova Launches Hypact-145g Hybrid Switchgear",
+   "source": "fiscal.ai",
+   "url": "https://sustainabilitymag.com/news/how-ge-vernova-is-tackling-climate-harming-sf6-gas"
+  },
+  {
+   "time": "11-25 11:01",
+   "symbols": [
+    "AVGO"
+   ],
+   "rating": "",
+   "headline": "UBS Adjusts Broadcom Price Target",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1005768279/today-s-analyst-rating-ubs-cuts-its-price-target-cut"
+  },
+  {
+   "time": "11-25 11:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Duracell and Amazon Partner for 'Power Playland on the Pier' Holiday Event",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/in-partnership-with-amazon-duracell-brings-holiday-magic-to-chicago-with-power-playland-on-the-pier-302950562.html"
+  },
   {
    "time": "11-25 09:32",
    "symbols": [
