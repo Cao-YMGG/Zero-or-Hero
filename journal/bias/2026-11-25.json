@@ -1,0 +1,89 @@
+{
+ "date": "2026-11-25",
+ "bias": "none",
+ "confidence": 0.2,
+ "p_up": 0.48,
+ "summary": "No SPY bet: the AI and chip selling goes on for a second day (SPY -2.0%, QQQ -3.0%, SMH -5.0% pre-market) and October's PCE came in as expected on the headline with core a tenth hot (3.3% against 3.2%) and third-quarter GDP revised up to 4.3%; the gap is priced at the open and nothing says which way the session goes from there.",
+ "reasons": [
+  "Pre-market (Webull, 08:31 ET): SPY 704.16 (-2.03% from 718.78), QQQ -2.97%, SMH -5.0%, IGV -3.2%, IWM -1.4%, DIA -1.4%; XLV -0.1%, XLP +0.4%, XLF -0.7%, XLE -0.4%, XLI -1.4%; TLT +0.9%, USO +1.1%, UUP +0.3%, GLD -1.6%, VIXY +9.4%. Stocks: NVDA -5.6%, AMD -6.1%, MU -7.1%, AVGO -4.8%, TSM -5.2%, INTC -5.2%, ORCL -5.3%, META -1.9%, AMZN -3.4%, MSFT -3.2%, GOOGL -4.4%, TSLA -3.0%, AAPL -0.9%; LLY +0.0%, WMT +0.3%, KO +0.7%.",
+  "Why down (CNBC, Benzinga, investinglive): the AI sell-off returns for a second session, led by Nvidia (the board's probe of Jensen Huang after his return is still in the news) and Anthropic, which one report puts below its IPO price; Dell beat and raised but trades -5% to -8%, Workday beat and trades -5% to -10%; Ambarella -34%. Microsoft declared a 'code red' after a large outage (Benzinga 20:01). One aggregator puts December hike odds near 99.8% (single source, not confirmed).",
+  "08:30 data (BEA release pages, read 08:33): October PCE prices +0.3% on the month and 3.8% on the year (consensus 0.3% and 3.8%); core +0.3% and 3.3% (consensus 3.2%, September 3.1%); personal income +0.7%, spending +0.3%, real spending flat, saving rate 4.1%. Third-quarter GDP second estimate 4.3% annualized, up from 3.4%. A hot-leaning set for a Fed already priced to hike on 12-09, but SPY went from 705.22 at 08:00 to 704.16 at 08:31 and TLT rose (+0.9% from Tuesday's close): the print did not move the tape. Not a put day: futures red and core hot, but yields down, not up (S4 needs them aligned).",
+  "Monday and Tuesday: SPY gapped +5.0% and closed 0.28% under its open; on Tuesday it gapped -1.0% and closed +0.50% above its open. R1: the gap is priced at the open. No base rate is quoted today: the one on file (the day after an open-to-close of -2% or worse in a falling month) does not apply, Tuesday's open-to-close was positive.",
+  "Sniper: KO call, class target. BNP Paribas raises Coca-Cola's target to $107 from $102 (Benzinga 06:31, the rating not stated, so taken as kept); BNP also raised PepsiCo (to $160) and P&G (to $197). KO is +0.7% pre-market (under T7's 1.5% for a target raise), staples are the one heating group (XLP +4.5% 1m, above its 20-day average), no report inside the window. Against it: R4, a target change is in the price by 09:32 and the class has shown no edge at a price that can be bought; the stock sits 2% under its median target (100, Webull, 21 of 26 buy or strong buy) and near its one-year high (100.56); the nearest expiry is Friday's half day. Shadow only (S2).",
+  "No ideas listed (T6): every chip and AI name gaps down with the group; the names green or flat (KO, PG, PEP, WMT, COST, LLY, V) are relative strength, not a cause of their own, apart from the target raises in the sniper line. No morning put idea: not a put day.",
+  "Report window (R3): DELL, WDAY, ADSK and HPQ reported last night (today is the reaction day); DE reported this morning; ADI and HPE are on day two. CRM and MRVL report next week (MRVL 12-01). None of our 25 names reports this week.",
+  "Theme states at the 11-24 close: chips neutral (REL_WEAK, BREADTH), optical neutral (REL_WEAK, BREADTH; PERIPH_UP), software, internet, energy and power neutral (BREADTH), consumer neutral with heat flags (REL_STRONG, BREADTH_UP), health BREADTH_UP; light lit: breadth; stretched not lit. Described, not forecast (R6).",
+  "Pre-market down gaps of 3% or more among the large caps: NVDA, AMD, MU, SNDK, INTC, ARM, AVGO, TSM, ORCL, LITE, CIEN, WDC, STX, MRVL, GEV, VST, PLTR, GOOGL, MSFT, CAT, DELL, WDAY, DE. nvda_gapdown_put (real ledger, $691) can fire at 10:00 if NVDA is still 0.1% under its open; R2 says NVDA gaps of -3% or worse closed above their open 56% of the time."
+ ],
+ "events": [
+  "08:30 October PCE and personal income and spending",
+  "08:30 Q3 GDP second estimate",
+  "Reaction day for DELL, WDAY, ADSK, HPQ; DE before the open",
+  "Thursday closed (Thanksgiving); Friday half day, 13:00 close"
+ ],
+ "inputs": {
+  "spy_premarket_pct": -2.03,
+  "qqq_premarket_pct": -2.97,
+  "es_futures_pct": null,
+  "vix": 26.4,
+  "vixy_premarket_pct": 9.42,
+  "wti_pct": null,
+  "uso_premarket_pct": 1.13,
+  "us10y": null,
+  "us10y_change_bp": null,
+  "us2y_change_bp": null,
+  "tlt_premarket_pct": 0.86,
+  "dxy_pct": null,
+  "uup_premarket_pct": 0.27,
+  "overnight": "The selling started in the evening session after Dell and Workday and deepened through the night: at 08:00 ET SPY -1.9%, QQQ -2.8%, SMH -4.7% against Tuesday's close. VIX is Tuesday's close; yields from TLT only (no clean quote found)."
+ },
+ "rotation": {
+  "heating": [
+   "consumer (WMT/COST/HD +10.9% 1m, +3.1% 1w)",
+   "staples (XLP +4.5% 1m, above its 20-day average)",
+   "long bonds (TLT +2.4% 1w)"
+  ],
+  "cooling": [
+   "memory (-40% 1m, -17% 1w)",
+   "optical (-35% 1m)",
+   "CPU (-30% 1m, -10% 1w)",
+   "GPU (-28% 1m)",
+   "disk (-24% 1m)",
+   "power (-15% 1m)",
+   "software (-14% 1m)",
+   "energy (-12% 1m)",
+   "health (-6% 1w)",
+   "banks (-5% 1w)"
+  ],
+  "note": "SPY -6.1% and QQQ -10.4% on the month; SMH closed Tuesday 24.8% under its 20-day closing high. Every sector ETF but staples and health sits under its 20-day average; this morning the chips extend it. R6: describes, does not forecast.",
+  "theme_state": {
+   "chips": "neutral (REL_WEAK, BREADTH)",
+   "software": "neutral (BREADTH)",
+   "internet": "neutral (BREADTH)",
+   "optical": "neutral (REL_WEAK, BREADTH; PERIPH_UP)",
+   "power": "neutral (BREADTH; PERIPH_UP)",
+   "banks": "neutral",
+   "energy": "neutral (BREADTH)",
+   "health": "neutral (BREADTH_UP)",
+   "consumer": "neutral (REL_STRONG, BREADTH_UP)",
+   "industrials": "neutral",
+   "lights": "breadth lit at the 11-24 close; stretched not lit"
+  }
+ },
+ "sniper": {
+  "symbol": "KO",
+  "direction": "call",
+  "class": "target",
+  "confidence": 0.25,
+  "catalyst": "BNP Paribas raises Coca-Cola's price target to $107 from $102 (Benzinga via Alpaca, 06:31 ET; rating not stated). Same desk raised PEP and PG. KO 98.34 at 08:31 (+0.7% pre-market) in the one heating group, median target 100 (Webull), one-year high 100.56. R4: the class has no edge after 09:32; named for catalyst_open's shadow record only. Nearest expiry Friday (half day).",
+  "wrong_if": "KO is below its open at 10:00, or under Tuesday's close 97.62 before 11:00."
+ },
+ "opportunities": [],
+ "zh": {
+  "summary": "今天不下注。AI 和芯片股连续第二天被抛：盘前标普 -2.0%、纳指 -3.0%、芯片 ETF -5.0%。8:30 的通胀数据：核心通胀同比 3.3%，比预期高 0.1；三季度经济增速上修到 4.3%。数据偏热，但公布后标普盘前几乎没动，长期国债反而涨。低开已经算进开盘价，开盘后往哪边走看不出理由，我写 0.48。",
+  "sniper": "可口可乐看涨，只记影子。法巴今早把它的目标价从 107 上调（原 102），同时上调了百事和宝洁。盘前 +0.7%，必需消费是现在唯一在升温的一组。信心 0.25：目标价调整到 9:32 基本已经反映在价格里（我们查过两年），股价离分析师目标中位数 100 只差 2%，最近的期权是周五半天到期。10:00 如果在开盘价下方就算错。",
+  "heating": "大型零售、必需消费、长期国债",
+  "cooling": "存储、光模块、CPU、GPU、硬盘、电力、软件、能源，医疗和银行这周也在跌"
+ },
+ "generated_at": "2026-11-25T08:32:39-05:00"
+}
