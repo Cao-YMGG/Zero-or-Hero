@@ -133,3 +133,4 @@ date,variant,mode,contract,entry_price,exit_price,peak,exit_reason
 2026-11-23,stock_open_drive,real,TSLA261123C00397500,1.23,0.01,1.55,time
 2026-11-24,spy_open_drive,shadow,SPY261124C00724000,1.74,0.01,1.74,time
 2026-11-24,spy_open_drive,real,SPY261124C00724000,1.73,0.01,1.74,time
+2026-11-25,meta_follow2,shadow,META261125C00597500,0.68,2.46,4.22,trail
