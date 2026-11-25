@@ -1,7 +1,7 @@
-# Review — 2026-11-24
+# Review — 2026-11-25
 
 - Champion: **nvda_gapdown_put**
-- Equity: **$385.23** (phase zero-or-hero)
+- Equity: **$385.16** (phase zero-or-hero)
 - Real trades: 38, realised P&L $-1,057.00
 
 ## Shadow leaderboard (last 20 trades / all)
@@ -10,12 +10,12 @@
 |---|---|---|---|---|---|---|---|---|
 | nvda_gapdown_put 👑 | 2 | 100% | +125.4% | +251% | +203% | +48% | 2 | +125.4% |
 | claude_bias | 5 | 80% | +76.1% | +380% | +141% | -97% | 5 | +76.1% |
+| meta_follow2 | 11 | 64% | +41.1% | +452% | +262% | -99% | 11 | +41.1% |
 | catalyst_intraday_hero | 6 | 17% | +37.1% | +222% | +721% | -100% | 6 | +37.1% |
-| meta_follow2 | 10 | 60% | +19.1% | +191% | +259% | -99% | 10 | +19.1% |
 | catalyst_intraday | 10 | 60% | +11.3% | +113% | +299% | -100% | 10 | +11.3% |
 | spy_open_drive_put | 0 | 0% | +0.0% | +0% | +0% | +0% | 0 | +0.0% |
 | catalyst_open | 16 | 44% | -5.3% | -85% | +339% | -100% | 16 | -5.3% |
-| stock_open_drive | 6 | 33% | -16.1% | -96% | +230% | -100% | 6 | -16.1% |
+| stock_open_drive | 7 | 29% | -25.6% | -179% | +230% | -100% | 7 | -25.6% |
 | spy_open_drive | 2 | 0% | -99.7% | -199% | -99% | -100% | 2 | -99.7% |
 | catalyst_open_hero | 6 | 0% | -100.0% | -600% | -100% | -100% | 6 | -100.0% |
 
@@ -27,7 +27,7 @@ Left out above: 6 shadow trades whose real order was cancelled unfilled (journal
 |---|---|---|---|---|---|
 | nvda_gapdown_put | 1 | $691.00 | 1 | 0 | - |
 | spy_open_drive | 1 | $238.00 | 2 | 1 | - |
-| stock_open_drive | 1 | $211.00 | 6 | 5 | - |
+| stock_open_drive | 1 | $211.00 | 6 | 6 | - |
 | spy_open_drive_put | 1 | $500.00 | 0 | 0 | - |
 
 ## Last real trades
