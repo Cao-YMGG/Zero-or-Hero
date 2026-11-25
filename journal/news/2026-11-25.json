@@ -1,7 +1,47 @@
 {
- "as_of": "2026-11-25T13:45-05:00",
+ "as_of": "2026-11-25T14:15-05:00",
  "since": "2026-11-24T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-25 14:03",
+   "symbols": [
+    "ZS"
+   ],
+   "rating": "downgrade",
+   "headline": "Scotiabank Downgrades Zscaler to Sector Perform",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/scotiabank-downgrades-zscaler-to-sector-perform-from-sector-outperform-260-price-target-ce7851d8d98dfe26"
+  },
+  {
+   "time": "11-25 14:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "The Goldman Sachs Group, Inc. Discloses Increased Holding in ASOS PLC",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/rns/asos--asc/holding-s-in-company/9894201"
+  },
+  {
+   "time": "11-25 14:01",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Coinbase Wallet Launches Direct Deposit Feature for USDC",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1005793352"
+  },
+  {
+   "time": "11-25 14:01",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "J.P. Morgan Analyzes Potential Tesla-SpaceX Merger Impact on S&P 500 Eligibility",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/2026/11/26/business/foreign-business/possible-tesla-merger-could-aid-spacexs-sp-500-entry-jp-morgan-says/2478020"
+  },
   {
    "time": "11-25 11:01",
    "symbols": [

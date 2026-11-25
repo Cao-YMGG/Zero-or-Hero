@@ -1,12 +1,16 @@
-# Headlines since 2026-11-24 16:00 ET (as of 2026-11-25 13:45 ET)
+# Headlines since 2026-11-24 16:00 ET (as of 2026-11-25 14:15 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-25 14:03 | ZS | downgrade | Scotiabank Downgrades Zscaler to Sector Perform |
 | 11-25 06:32 | WMT | initiate | William O'Neil Initiates Coverage on Walmart with Buy Rating |
 | 11-24 19:01 | TSLA | initiate | RBC Capital and Seaport Initiate Coverage of Tesla |
 | 11-24 16:31 | NFLX | initiate | German Voice Actors Initiate Legal Action Against Netflix Over AI Training Clauses |
+| 11-25 14:01 | GS |  | The Goldman Sachs Group, Inc. Discloses Increased Holding in ASOS PLC |
+| 11-25 14:01 | COIN |  | Coinbase Wallet Launches Direct Deposit Feature for USDC |
+| 11-25 14:01 | TSLA |  | J.P. Morgan Analyzes Potential Tesla-SpaceX Merger Impact on S&P 500 Eligibility |
 | 11-25 11:01 | GS |  | Goldman Sachs Reports Market Sentiment Indicator at Low Levels |
 | 11-25 11:01 | MU |  | Tradr ETFs Announces Upcoming Launch of Leveraged ETF Featuring Micron Technology, Inc. |
 | 11-25 11:01 | GEV |  | GE Vernova Launches Hypact-145g Hybrid Switchgear |
