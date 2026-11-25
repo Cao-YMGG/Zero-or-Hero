@@ -145,3 +145,9 @@ each part, one line each: the date, what happened, what it suggested, where it s
   minute spy_open_drive buys its call (11-24: high 720.93 at 10:00, the 724 call bought at 1.73 expired; 11-20: high 718.29 at
   10:00); on 11-23 the high came at 10:32. Two days. SUNDAY_TESTS 84 counts, on the stored open-drive days, how often the
   10:00 minute was the day's extreme in the trade's direction.
+- 2026-11-25: SPY gapped -2.2% (core PCE 3.3% against 3.2%, GDP 4.3%, a second day of AI selling), made its low at 09:45 and
+  closed +1.9% from its open; SMH +4.9%, the morning's coolest groups led and the groups green before the open (KO, WMT,
+  COST, XLP, XLV) closed flat to down from their open. The morning's rotation order reversed in one session. meta_follow2's
+  trail sold its META call at 2.46 at 12:24 after a 4.22 peak; META closed +6.0% from its open and the call was worth
+  about 12 at 15:45. One trade: the trail exits were tested on 2.7 years (SUNDAY_TESTS 8: tighter or later arming was
+  worse on META); nothing to change from it. SUNDAY_TESTS 86 counts what SPY's large gaps down did over twenty years.

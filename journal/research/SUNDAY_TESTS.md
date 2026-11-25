@@ -887,6 +887,15 @@ in EVOLUTION.md.
 85. **Not run this week:** 73 (the 3% line on option prices) and 77 (the oversold rule on option prices and as a
    $500 ledger). Both guesses stand at "fails"; five option tests failed this week and neither would change what
    is traded. They stay open, behind 84.
+86. **SPY's large gaps down, open to close (2026-11-25).** That morning SPY gapped -2.2% after a second day of AI selling,
+   `p_up` was 0.48, and SPY closed +1.9% from its open (low at 09:45). R1 says the night move barely predicts the session
+   (corr -0.11), but that is over all nights; nothing on file says what the largest gaps do. On SPY daily bars 2005-2026:
+   gaps of -1.5% or worse and of -2% or worse, the share closing above the open, the average open to close, without the
+   best one and two, split rising and falling months (SPY's one-month return) and 2005-2016 against 2016-2026, last 3
+   months first. Bar written now: it goes on file as a base rate for the pre-market `reasons` only if both decades sit on
+   the same side at 55% or more with 40 or more days each; it never moves `p_up` across 0.60 or 0.40 by itself (pre-market
+   step 3), and if the decades disagree it is an observation. Context, not a bar: 11-20 (-3.2% from the open after a
+   gap up), 11-23 (+5.0% gap, -0.3%), 11-24 (-1.0% gap, +0.5%), 11-25 (-2.2% gap, +1.9%).
 ## Done
 - **Items 25, 29, 34 (2026-11-01), SNIPERS_REAL.md / snipers.json:** every pre-market sniper (13 with a
   live entry) and intraday pick (10) since 10-01 on real option minute bars, 10% costs each way. Snipers,
