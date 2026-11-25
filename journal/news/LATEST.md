@@ -1,4 +1,4 @@
-# Headlines since 2026-11-24 16:00 ET (as of 2026-11-25 07:58 ET)
+# Headlines since 2026-11-24 16:00 ET (as of 2026-11-25 10:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -7,6 +7,20 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-25 06:32 | WMT | initiate | William O'Neil Initiates Coverage on Walmart with Buy Rating |
 | 11-24 19:01 | TSLA | initiate | RBC Capital and Seaport Initiate Coverage of Tesla |
 | 11-24 16:31 | NFLX | initiate | German Voice Actors Initiate Legal Action Against Netflix Over AI Training Clauses |
+| 11-25 09:32 | TSLA |  | General Motors Korea to Adopt Tesla's North American Charging Standard |
+| 11-25 09:32 | LLY |  | Eli Lilly and Novo Nordisk Face Lawsuits Over Rare Eye Condition Linked to GLP-1 Drugs |
+| 11-25 09:31 | PLTR |  | Palantir Technologies Insiders Report Significant Stock Transactions |
+| 11-25 09:31 | META |  | Meta Deploys Autonomous Food Preparation System in London Office |
+| 11-25 09:31 | META |  | Meta and Amazon Conclude Discussions to Lift Muse Shopping Robot Blockade |
+| 11-25 09:31 | HD |  | The Home Depot Foundation Awards $150,000 Grant for Affordable Housing Project |
+| 11-25 09:31 | AMZN |  | Schneider Electric Integrates Industrial Intelligence Solutions with AWS |
+| 11-25 09:31 | MSFT |  | The AA Deploys Microsoft Dynamics 365 and Azure for Digital Workflow |
+| 11-25 09:31 | CVX |  | Chevron Faces Regulatory Probe Following Methane Emissions at Gorgon LNG Plant |
+| 11-25 09:04 | ORCL |  | Oracle Commodity Holding Corp. Restores 2% Royalty on Pulacayo-Paca Silver Project |
+| 11-25 09:04 | BAC |  | BacTech Environmental to Attend Ontario Critical Minerals Conference |
+| 11-25 09:04 | V |  | Verdera Energy Corp. to Present at Precious Metals & Critical Minerals Virtual Investor Conference |
+| 11-25 09:02 | TSM |  | President Trump to Preside Over TSMC Arizona Plant Expansion Ceremony |
+| 11-25 08:01 | GE |  | Malaysia Aviation Group Selects GE Aerospace GEnx Engines for New Boeing 787 Fleet |
 | 11-25 07:32 | GS |  | Goldman Sachs Adjusts Price Targets for Dell Technologies and Workday |
 | 11-25 07:32 | NVDA |  | NVIDIA CEO Jensen Huang Reportedly Apologizes to Staff and Enters Therapy |
 | 11-25 07:32 | JPM |  | JPMorgan Chase Evaluates UK Investment Strategy Following Bank Tax Increase |

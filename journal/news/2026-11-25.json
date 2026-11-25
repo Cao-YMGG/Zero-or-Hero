@@ -1,7 +1,147 @@
 {
- "as_of": "2026-11-25T07:58-05:00",
+ "as_of": "2026-11-25T10:02-05:00",
  "since": "2026-11-24T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-25 09:32",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "General Motors Korea to Adopt Tesla's North American Charging Standard",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/TSLA-CA?chain_id=Name1K9-3FXPhg.1l14fs0&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A107,%22f%22%3A%22www.moomoo.com%2Fetfs%2FEMDV-US%2Fnews%22%7D"
+  },
+  {
+   "time": "11-25 09:32",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly and Novo Nordisk Face Lawsuits Over Rare Eye Condition Linked to GLP-1 Drugs",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/novo-eli-lilly-face-lawsuits-in-us-over-rare-eye-condition-from-glp-1-drugs-ce7851d8d88cf020"
+  },
+  {
+   "time": "11-25 09:31",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir Technologies Insiders Report Significant Stock Transactions",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/palantir-technologies-insider-bought-shares-worth-122-253-519-according-to-a-recent-sec-filing-ce7851dbd180f720"
+  },
+  {
+   "time": "11-25 09:31",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Deploys Autonomous Food Preparation System in London Office",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/meta-deploys-autonomous-food-preparation-system-for-employees-in-london-office-ce7851d8d88ff725"
+  },
+  {
+   "time": "11-25 09:31",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta and Amazon Conclude Discussions to Lift Muse Shopping Robot Blockade",
+   "source": "fiscal.ai",
+   "url": "https://www.rootdata.com/news/844573"
+  },
+  {
+   "time": "11-25 09:31",
+   "symbols": [
+    "HD"
+   ],
+   "rating": "",
+   "headline": "The Home Depot Foundation Awards $150,000 Grant for Affordable Housing Project",
+   "source": "fiscal.ai",
+   "url": "https://www.einpresswire.com/article/958865194/mercy-house-and-community-development-partners-open-mesa-vista-86-affordable-homes-in-a-former-costa-mesa-motel-6"
+  },
+  {
+   "time": "11-25 09:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Schneider Electric Integrates Industrial Intelligence Solutions with AWS",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/globe-newswire/9884913/manufacturers-can-scale-industrial-intelligence-faster-with-schneider-electric-open-software-defined-automation-on-aws"
+  },
+  {
+   "time": "11-25 09:31",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "The AA Deploys Microsoft Dynamics 365 and Azure for Digital Workflow",
+   "source": "fiscal.ai",
+   "url": "https://aimagazine.com/news/why-the-aa-relies-on-microsoft-ai-for-vehicle-diagnostics"
+  },
+  {
+   "time": "11-25 09:31",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Chevron Faces Regulatory Probe Following Methane Emissions at Gorgon LNG Plant",
+   "source": "fiscal.ai",
+   "url": "https://michaelwest.com.au/huge-greenhouse-gas-plume-at-chevron-plant-deliberate/"
+  },
+  {
+   "time": "11-25 09:04",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Oracle Commodity Holding Corp. Restores 2% Royalty on Pulacayo-Paca Silver Project",
+   "source": "fiscal.ai",
+   "url": "https://www.newsfilecorp.com/release/325532/Oracle-Commodity-Holding-Revives-2-Royalty-on-PulacayoPaca-Silver-Mining-Project"
+  },
+  {
+   "time": "11-25 09:04",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "BacTech Environmental to Attend Ontario Critical Minerals Conference",
+   "source": "fiscal.ai",
+   "url": "https://www.thenewswire.com/press-releases/1kEjFR89M-bactech-environmental-to-attend-ontario-critical-minerals-conference-in-toronto.html"
+  },
+  {
+   "time": "11-25 09:04",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Verdera Energy Corp. to Present at Precious Metals & Critical Minerals Virtual Investor Conference",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/24/3409897/0/en/precious-metals-critical-minerals-virtual-investor-conference-agenda-announced-for-december-1-3.html"
+  },
+  {
+   "time": "11-25 09:02",
+   "symbols": [
+    "TSM"
+   ],
+   "rating": "",
+   "headline": "President Trump to Preside Over TSMC Arizona Plant Expansion Ceremony",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/trump-to-preside-over-taiwan-semiconductor-plant-expansion-ceremony-in-arizona-ce7851d8d98ef32c"
+  },
+  {
+   "time": "11-25 08:01",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "Malaysia Aviation Group Selects GE Aerospace GEnx Engines for New Boeing 787 Fleet",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/25/3410120/0/en/malaysia-aviation-group-selects-ge-aerospace-genx-engines-to-power-new-787-dreamliners.html"
+  },
   {
    "time": "11-25 07:32",
    "symbols": [
