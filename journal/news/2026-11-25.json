@@ -1,0 +1,246 @@
+{
+ "as_of": "2026-11-25T07:58-05:00",
+ "since": "2026-11-24T16:00-05:00",
+ "headlines": [
+  {
+   "time": "11-25 07:32",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Adjusts Price Targets for Dell Technologies and Workday",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-price-target-on-dell-technologies-to-510-from-590-ce7851dbd08ff12d"
+  },
+  {
+   "time": "11-25 07:32",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA CEO Jensen Huang Reportedly Apologizes to Staff and Enters Therapy",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/nvidia-s-huang-reportedly-apologizes-to-staff-says-he-is-in-therapy-ce7851dbd088f321"
+  },
+  {
+   "time": "11-25 07:32",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Evaluates UK Investment Strategy Following Bank Tax Increase",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/jpmorgan-weighs-scaling-back-uk-investments-after-bank-tax-increase-ce7851d8d98af721"
+  },
+  {
+   "time": "11-25 07:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart-Backed PhonePe Resumes IPO Process",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/walmart-backed-phonepe-resumes-ipo-process-seeks-up-to-15-billion-in-valuation-ce7851d8d98af326"
+  },
+  {
+   "time": "11-25 07:31",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "European Union Postpones Approval Discussion for Tesla's Self-Driving Technology",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/tesla-faces-delay-to-secure-eu-wide-approval-for-assisted-self-driving-tech-ce7851dbd088f425"
+  },
+  {
+   "time": "11-25 06:32",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "initiate",
+   "headline": "William O'Neil Initiates Coverage on Walmart with Buy Rating",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/william-o-neil-initiates-walmart-at-buy-ce7851dbd08af725"
+  },
+  {
+   "time": "11-25 06:32",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Flipkart CEO Kalyan Krishnamurthy to Step Down",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/walmart-owned-flipkart-s-chief-executive-steps-down-ce7851dbd180fe23"
+  },
+  {
+   "time": "11-25 06:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon to Launch Auto Marketplace in the UK",
+   "source": "fiscal.ai",
+   "url": "https://www.fidelity.com/news/article/default/202611250330PRIMZONEFULLFEED9884845"
+  },
+  {
+   "time": "11-25 06:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "AWS Representatives Participate in AI Infrastructure Roundtable in South Korea",
+   "source": "fiscal.ai",
+   "url": "https://www.koreaherald.com/article/10949349"
+  },
+  {
+   "time": "11-25 06:31",
+   "symbols": [
+    "PLTR"
+   ],
+   "rating": "",
+   "headline": "Palantir Technologies Executives Report Insider Stock Sales",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1005737209/palantir-technologies-insider-sold-shares-worth-37180171-according-to-a"
+  },
+  {
+   "time": "11-25 06:31",
+   "symbols": [
+    "BAC"
+   ],
+   "rating": "",
+   "headline": "Bank of America Marks 75th Anniversary in Switzerland",
+   "source": "fiscal.ai",
+   "url": "https://newsfilter.io/articles/bank-of-america-marks-75-years-in-switzerland-following-significant-expansion-cd5271a7786f58969a2e856f199edf4c"
+  },
+  {
+   "time": "11-25 06:31",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "SanDisk Chief Accounting Officer Discloses Stock Sale in SEC Filing",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1005735923/sandisk-insider-sold-shares-worth-2367206-according-to-a-recent"
+  },
+  {
+   "time": "11-25 06:31",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Participates in Korea-US AI Infrastructure Roundtable",
+   "source": "fiscal.ai",
+   "url": "https://www.koreaherald.com/article/10949349"
+  },
+  {
+   "time": "11-24 22:02",
+   "symbols": [
+    "GE"
+   ],
+   "rating": "",
+   "headline": "Dowty to Open \u00a319 Million Innovation Centre Backed by GE Aerospace",
+   "source": "fiscal.ai",
+   "url": "https://avi-go.com/news/articles/b5319a5970aa13c3035710aa90f5a967"
+  },
+  {
+   "time": "11-24 22:01",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "iwoca Launches Business Credit Card in Partnership with Visa and Enfuce",
+   "source": "fiscal.ai",
+   "url": "https://newsfilter.io/articles/iwoca-and-visa-launch-credit-card-to-widen-sme-funding-choice-1e102139b16f5b9c972166fc3d7c6ba1"
+  },
+  {
+   "time": "11-24 22:01",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Releases 2026 Sustainability Report",
+   "source": "fiscal.ai",
+   "url": "https://sustainabilitymag.com/news/inside-metas-commitment-to-sustainable-data-centres"
+  },
+  {
+   "time": "11-24 20:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Maverick Medical AI Integrates CodeAgent with Microsoft Dragon Copilot",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/24/3409926/0/en/maverick-medical-ai-surfaces-codeagent-within-microsoft-radiology-reporting-solutions-to-reduce-physician-rework.html"
+  },
+  {
+   "time": "11-24 20:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft Declares 'Code Red' Following Historic Outage",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/technology/2026/microsoft-sets-goal-of-one-hour-fixes-after-email-outage/"
+  },
+  {
+   "time": "11-24 19:01",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "initiate",
+   "headline": "RBC Capital and Seaport Initiate Coverage of Tesla",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/TSLA-US?chain_id=Name1K9-3FXPhg.1lgbumg&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FSNOW-US%2Fcommunity%22%7D"
+  },
+  {
+   "time": "11-24 19:01",
+   "symbols": [
+    "MU"
+   ],
+   "rating": "",
+   "headline": "Micron Discloses Increased Executive Security Expenses",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/20261124417/micron-boosted-ceo-sanjay-mehrotras-security-budget-by-2000-new-filing-shows"
+  },
+  {
+   "time": "11-24 17:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Teamsters in Chicago Rally for Delivery Protection Act",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1005667173/amazon-teamsters-rally-on-cyber-monday-to-demand-passage-of"
+  },
+  {
+   "time": "11-24 16:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart Launches 'Muse' AI Shopping Assistant",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/news/retail/2026/walmart-turns-to-metas-muse-to-power-black-friday/"
+  },
+  {
+   "time": "11-24 16:31",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "initiate",
+   "headline": "German Voice Actors Initiate Legal Action Against Netflix Over AI Training Clauses",
+   "source": "fiscal.ai",
+   "url": "https://ultimosegundo.ig.com.br/agencias/dw/2026-11-24/dubladores-alemaes-se-revoltam-contra-netflix-por-uso-de-ia.html"
+  },
+  {
+   "time": "11-24 16:31",
+   "symbols": [
+    "LLY"
+   ],
+   "rating": "",
+   "headline": "Eli Lilly Canada Sponsors Survey on Type 2 Diabetes Awareness",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.ca/news-releases/early-action-after-a-type-2-diabetes-diagnosis-could-shape-health-for-decades-but-new-survey-reveals-weight-management-isn-t-always-part-of-the-plan-866989716.html"
+  }
+ ]
+}

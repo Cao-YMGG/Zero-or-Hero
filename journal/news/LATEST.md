@@ -1,75 +1,30 @@
-# Headlines since 2026-11-23 16:00 ET (as of 2026-11-24 17:58 ET)
+# Headlines since 2026-11-24 16:00 ET (as of 2026-11-25 07:58 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
+| 11-25 06:32 | WMT | initiate | William O'Neil Initiates Coverage on Walmart with Buy Rating |
+| 11-24 19:01 | TSLA | initiate | RBC Capital and Seaport Initiate Coverage of Tesla |
 | 11-24 16:31 | NFLX | initiate | German Voice Actors Initiate Legal Action Against Netflix Over AI Training Clauses |
-| 11-24 09:32 | TSLA | initiate | Seaport Initiates Coverage of Tesla with Buy Rating |
-| 11-24 09:31 | AAPL | rating | J.P. Morgan Maintains Buy Rating and $355 Price Target for Apple |
-| 11-24 08:02 | INTU | downgrade | HSBC Downgrades Intuit to Hold From Buy |
-| 11-24 07:32 | MS | upgrade | Morgan Stanley Upgrades Millicom International Cellular to Overweight |
-| 11-24 07:31 | AMD | initiate | Bernstein Initiates Coverage on AMD with Buy Rating |
-| 11-24 06:32 | WDC | initiate | BofA Securities Initiates Coverage of Western Digital with Buy Rating |
-| 11-24 06:32 | MU | downgrade | BNP Paribas Downgrades Micron Technology to Neutral |
-| 11-24 06:31 | CRWD | upgrade | Guggenheim Upgrades CrowdStrike to Buy with $280 Price Target |
+| 11-25 07:32 | GS |  | Goldman Sachs Adjusts Price Targets for Dell Technologies and Workday |
+| 11-25 07:32 | NVDA |  | NVIDIA CEO Jensen Huang Reportedly Apologizes to Staff and Enters Therapy |
+| 11-25 07:32 | JPM |  | JPMorgan Chase Evaluates UK Investment Strategy Following Bank Tax Increase |
+| 11-25 07:31 | WMT |  | Walmart-Backed PhonePe Resumes IPO Process |
+| 11-25 07:31 | TSLA |  | European Union Postpones Approval Discussion for Tesla's Self-Driving Technology |
+| 11-25 06:32 | WMT |  | Flipkart CEO Kalyan Krishnamurthy to Step Down |
+| 11-25 06:31 | AMZN |  | Amazon to Launch Auto Marketplace in the UK |
+| 11-25 06:31 | AMZN |  | AWS Representatives Participate in AI Infrastructure Roundtable in South Korea |
+| 11-25 06:31 | PLTR |  | Palantir Technologies Executives Report Insider Stock Sales |
+| 11-25 06:31 | BAC |  | Bank of America Marks 75th Anniversary in Switzerland |
+| 11-25 06:31 | SNDK |  | SanDisk Chief Accounting Officer Discloses Stock Sale in SEC Filing |
+| 11-25 06:31 | AAPL |  | Apple Participates in Korea-US AI Infrastructure Roundtable |
+| 11-24 22:02 | GE |  | Dowty to Open £19 Million Innovation Centre Backed by GE Aerospace |
+| 11-24 22:01 | V |  | iwoca Launches Business Credit Card in Partnership with Visa and Enfuce |
+| 11-24 22:01 | META |  | Meta Releases 2026 Sustainability Report |
+| 11-24 20:01 | MSFT |  | Maverick Medical AI Integrates CodeAgent with Microsoft Dragon Copilot |
+| 11-24 20:01 | MSFT |  | Microsoft Declares 'Code Red' Following Historic Outage |
+| 11-24 19:01 | MU |  | Micron Discloses Increased Executive Security Expenses |
 | 11-24 17:31 | AMZN |  | Amazon Teamsters in Chicago Rally for Delivery Protection Act |
 | 11-24 16:31 | WMT |  | Walmart Launches 'Muse' AI Shopping Assistant |
 | 11-24 16:31 | LLY |  | Eli Lilly Canada Sponsors Survey on Type 2 Diabetes Awareness |
-| 11-24 14:04 | WMT |  | Symbotic Announces $7 Billion Expansion of Walmart Automation Agreement |
-| 11-24 14:02 | HOOD |  | Robinhood Co-Leads $5 Million Seed Investment in Onchain Trading Platform Rialto |
-| 11-24 14:02 | BAC |  | Bank of America Corporation Reports Decrease in Voting Interest in Workspace Group PLC |
-| 11-24 14:02 | AAPL |  | Apple to Host Special Event at SoHo Store Marking 20 Years of (RED) Partnership |
-| 11-24 14:02 | NFLX |  | German Voice Actors Protest Netflix Over AI Usage |
-| 11-24 14:02 | V |  | Visa Opens New Representative Office in Cameroon |
-| 11-24 11:01 | XOM |  | ExxonMobil Guyana Oil Output Expected to Exceed 1 Million Barrels Per Day |
-| 11-24 11:01 | ORCL |  | Oracle Commodity Holding Restores Royalty on Pulacayo-Paca Silver Project |
-| 11-24 11:01 | HOOD |  | Robinhood Launches Cboe KPI Binary Options for Earnings Trading |
-| 11-24 11:01 | MSFT |  | Microsoft Secures 51MW Geothermal Energy Contract in New Zealand |
-| 11-24 09:32 | AVGO |  | BNP Paribas Adjusts Broadcom Price Target |
-| 11-24 09:32 | CIEN |  | BNP Paribas Adjusts Ciena Price Target |
-| 11-24 09:32 | COIN |  | Form3 Partners with Coinbase Infrastructure to Enable Stablecoin Payments |
-| 11-24 09:32 | WDC |  | BNP Paribas Adjusts Price Target on Western Digital to $475 From $700 |
-| 11-24 09:31 | CRM |  | Salesforce Joins Industry Backing for Open Standard in AI Agent Context Sharing |
-| 11-24 09:03 | STX |  | BNP Paribas Adjusts Price Target on Seagate Technology |
-| 11-24 08:03 | META |  | Meta Abandons 2030 Net-Zero Emissions Goal |
-| 11-24 08:03 | V |  | Clapp Finance Launches Crypto Card on Visa Network |
-| 11-24 08:03 | V |  | Odola Fintech Platform to Offer Visa Debit Card for Migrant Workers |
-| 11-24 08:02 | AMD |  | BNP Paribas Adjusts Price Target for AMD |
-| 11-24 08:01 | JPM |  | JPMorgan Chase Increases Stake in Intertek Group PLC |
-| 11-24 08:01 | AAPL |  | Apple Announces Fifth Season of 'Ted Lasso' |
-| 11-24 07:32 | COIN |  | California Court Dismisses UST Class-Action Lawsuit Against Coinbase |
-| 11-24 07:32 | COIN |  | Goldman Sachs Adjusts Price Target on Coinbase Global |
-| 11-24 07:31 | TSLA |  | UBS Adjusts Price Target on Tesla to $430 |
-| 11-24 07:31 | JPM |  | J.P. Morgan Asset Management Announces November 2026 ETF Distributions |
-| 11-24 07:31 | AMZN |  | AWS CEO Matt Garman Advocates for Architectural Containment in AI Security |
-| 11-24 06:33 | META |  | Analysts Adjust Price Targets for Meta Platforms |
-| 11-24 06:33 | META |  | Meta Launches Muse AI in the UK |
-| 11-24 06:32 | INTC |  | BNP Paribas Adjusts Price Target on Intel to $60 From $70 |
-| 11-24 06:32 | GEV |  | Baird Adjusts Price Target on GE Vernova |
-| 11-24 06:32 | HOOD |  | Goldman Sachs Adjusts Price Target on Robinhood Markets to $114 From $115 |
-| 11-24 06:31 | GS |  | Goldman Sachs Acts as Financial Advisor to Insmed in Sanofi Acquisition |
-| 11-24 06:31 | GS |  | Goldman Sachs Adjusts Price Target on Coinbase Global |
-| 11-24 06:31 | BAC |  | Bank of America Releases 2027 Market Outlook on Potential Bull and Bear Surprises |
-| 11-24 06:31 | AMD |  | TrendForce Reports Growing Demand for AMD Helios AI Server Systems |
-| 11-24 06:31 | WMT |  | Walmart Updates Advertising and Operational Policies for AI Shopping Agents |
-| 11-24 06:31 | JPM |  | JPMorgan Chase Completes First Legally Binding Digital Gold Transactions |
-| 11-24 06:31 | AMZN |  | Amazon Web Services Collaborates with Great Ormond Street Hospital on Agentic AI Programme |
-| 11-24 06:31 | MSFT |  | Atos and Microsoft Extend Partnership for Digital Sovereignty |
-| 11-24 06:01 | TSM |  | TSMC Unit Seeks Texas Property Tax Concession for Proposed $22.6 Billion Chip Project |
-| 11-24 04:31 | TSM |  | TSMC Shares Surge to Limit-Up Following Nvidia CEO Reinstatement |
-| 11-23 22:01 | HOOD |  | Robinhood Included in Launch of OKXICE Tokenized Securities Venue |
-| 11-23 22:01 | UNH |  | UnitedHealth Group Faces Market Pressure Following CMS Medicare Advantage Audit Proposal |
-| 11-23 22:01 | PLTR |  | Palantir Technologies Inc. Receives Zero Score in 2026 CPA-Zicklin Index |
-| 11-23 20:01 | WMT |  | Walmart Insider Executes Share Sale |
-| 11-23 20:01 | LLY |  | Eli Lilly and Company to Present New Breast Cancer Portfolio Data at Upcoming Symposium |
-| 11-23 20:01 | AAPL |  | Apple Plans Return of (PRODUCT)RED Lineup |
-| 11-23 19:01 | JPM |  | J.P. Morgan Asset Management Announces Listing Transfer for JPMorgan Active Bond ETF |
-| 11-23 17:32 | GS |  | Goldman Sachs to Host Industrials and Materials Conference |
-| 11-23 17:32 | GS |  | Goldman Sachs Updates Price Target for Dubai Electricity and Water Authority |
-| 11-23 17:31 | AAPL |  | Apple TV Withdraws from FIFA World Cup Bidding |
-| 11-23 17:31 | GE |  | GE Aerospace Announces Defense & Systems Leadership Transition |
-| 11-23 17:31 | INTC |  | Intel Announces Executive Participation in Upcoming Investor Conferences |
-| 11-23 16:31 | AMZN |  | Jury Reaches Verdict in Amazon's Lawsuit Against Northstar Commercial Partners |
-| 11-23 16:31 | AMZN |  | Amazon to Acquire AI Startup Decart |
-| 11-23 16:31 | WMT |  | Walmart Hosts Global E-commerce Hardlines Category Exchange |
