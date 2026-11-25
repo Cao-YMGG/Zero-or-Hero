@@ -3,7 +3,20 @@
   "done": false,
   "variants": {
     "claude_bias": {},
-    "meta_follow2": {},
+    "meta_follow2": {
+      "attempts": 1,
+      "entered": true,
+      "shadow": {
+        "contract": "META261125C00597500",
+        "direction": "call",
+        "entry_time": "2026-11-25T12:01:14-05:00",
+        "entry_price": 0.68,
+        "peak": 0.98,
+        "qty": 1,
+        "last": 0.98,
+        "last_time": "2026-11-25T12:03:14-05:00"
+      }
+    },
     "nvda_gapdown_put": {},
     "catalyst_open": {
       "attempts": 1,
@@ -15,8 +28,8 @@
         "entry_price": 0.07,
         "peak": 0.07,
         "qty": 11,
-        "last": 0.01,
-        "last_time": "2026-11-25T11:33:00-05:00"
+        "last": 0.03,
+        "last_time": "2026-11-25T12:03:14-05:00"
       }
     },
     "catalyst_open_hero": {
@@ -29,8 +42,8 @@
         "entry_price": 0.07,
         "peak": 0.07,
         "qty": 55,
-        "last": 0.01,
-        "last_time": "2026-11-25T11:33:00-05:00"
+        "last": 0.03,
+        "last_time": "2026-11-25T12:03:14-05:00"
       }
     },
     "catalyst_intraday": {},
@@ -47,8 +60,8 @@
         "entry_price": 1.01,
         "peak": 1.01,
         "qty": 1,
-        "last": 0.1,
-        "last_time": "2026-11-25T11:33:00-05:00"
+        "last": 0.09,
+        "last_time": "2026-11-25T12:03:14-05:00"
       }
     }
   },
