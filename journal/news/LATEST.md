@@ -1,4 +1,4 @@
-# Headlines since 2026-11-24 16:00 ET (as of 2026-11-25 14:45 ET)
+# Headlines since 2026-11-24 16:00 ET (as of 2026-11-25 15:16 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -8,6 +8,8 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-25 06:32 | WMT | initiate | William O'Neil Initiates Coverage on Walmart with Buy Rating |
 | 11-24 19:01 | TSLA | initiate | RBC Capital and Seaport Initiate Coverage of Tesla |
 | 11-24 16:31 | NFLX | initiate | German Voice Actors Initiate Legal Action Against Netflix Over AI Training Clauses |
+| 11-25 15:02 | WDC |  | Analysts Adjust Price Targets for Western Digital Corporation |
+| 11-25 15:01 | COST |  | Supreme Court of British Columbia Rules in Class Action Regarding Supplement Labeling |
 | 11-25 14:01 | GS |  | The Goldman Sachs Group, Inc. Discloses Increased Holding in ASOS PLC |
 | 11-25 14:01 | COIN |  | Coinbase Wallet Launches Direct Deposit Feature for USDC |
 | 11-25 14:01 | TSLA |  | J.P. Morgan Analyzes Potential Tesla-SpaceX Merger Impact on S&P 500 Eligibility |

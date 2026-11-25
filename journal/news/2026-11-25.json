@@ -1,7 +1,27 @@
 {
- "as_of": "2026-11-25T14:45-05:00",
+ "as_of": "2026-11-25T15:16-05:00",
  "since": "2026-11-24T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-25 15:02",
+   "symbols": [
+    "WDC"
+   ],
+   "rating": "",
+   "headline": "Analysts Adjust Price Targets for Western Digital Corporation",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/WDC-US?chain_id=Name1K9-3FXPhg.1lge8h0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FWDC-US%22%7D"
+  },
+  {
+   "time": "11-25 15:01",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Supreme Court of British Columbia Rules in Class Action Regarding Supplement Labeling",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.ca/news-releases/in-canada-wide-class-action-b-c-supreme-court-rules-popular-canadian-glucosamine-sulfate-labelled-products-do-not-contain-glucosamine-sulfate-889683505.html"
+  },
   {
    "time": "11-25 14:03",
    "symbols": [
