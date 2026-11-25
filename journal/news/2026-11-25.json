@@ -1,7 +1,37 @@
 {
- "as_of": "2026-11-25T15:16-05:00",
+ "as_of": "2026-11-25T16:58-05:00",
  "since": "2026-11-24T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-25 16:31",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Cloud Maven, Inc. Launches LightningDocs Connector for Salesforce",
+   "source": "fiscal.ai",
+   "url": "https://www.einpresswire.com/article/956532192/cloud-maven-integrates-lightning-docs-to-simplify-loan-closings-in-salesforce"
+  },
+  {
+   "time": "11-25 16:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Doba Launches Seller Recruitment Campaign for Walmart Marketplace",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/25/3410238/0/en/doba-launches-seller-recruitment-campaign-to-help-retailers-start-selling-on-walmart-marketplace.html"
+  },
+  {
+   "time": "11-25 16:31",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "Kirby McInerney LLP Investigates UnitedHealth Group Inc. Following Medicare Advantage Audit Rule Proposal",
+   "source": "fiscal.ai",
+   "url": "https://www.quantisnow.com/insight/unitedhealth-group-inc-unh-investors-contact-kirby-mcinerney-llp-about-6806978"
+  },
   {
    "time": "11-25 15:02",
    "symbols": [
