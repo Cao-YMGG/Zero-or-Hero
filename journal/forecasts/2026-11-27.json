@@ -1,0 +1,41 @@
+{
+ "target_date": "2026-11-27",
+ "written": "2026-11-26T02:38:45-05:00",
+ "by": "long-session",
+ "note": "Next-trading-day forecast, written before the session and scored after it (owner, 2026-11-26: judge the environment, notice where it is moving, say how the next day goes and why). Friday is a half day, 13:00 close.",
+ "environment": {
+  "as_of": "2026-11-25 close (Alpaca SIP daily bars; script in the scratchpad, to go into the repo)",
+  "trend": "SPY 716.70: -3.2% vs its 20-day average, -5.4% vs 50-day, -1.9% vs 200-day; -6.9% on the month, -8.0% from its one-year high. QQQ -12.1% on the month; it touched 607.74 on 11-25, 20.3% under its one-year high, and closed 633.93 (-16.9%).",
+  "volatility": "SPY realized volatility 31% (20 days) against 20% (60 days) and 15% (one year); 10 of the last 20 sessions moved 1% or more close to close (21% of days over the year).",
+  "breadth": "27% of 133 large caps above their 20-day average, 37% above the 50-day, 43% above the 200-day; 2 of 14 sector ETFs above the 20-day.",
+  "correlation": "18 AI-chain names: average pairwise correlation 0.85 over 20 days against 0.54 in the 60 days before; 14 sector ETFs 0.56 against 0.23. Everything moves as one block.",
+  "leadership": "One month: XLP +5.9%, XLV +2.5%, XLU +1.8%, XLY +1.8%, XLF +1.1% against SMH -24.3%, XLK -17.8%, IGV -15.0%, XLE -10.7%. Best large caps APP, CMG, LOW, TGT, HD; worst SNDK -55%, MRVL -46%, LITE -45%, INTC -42%, DELL -41%.",
+  "cross_asset": "TLT +2.5% on the week; the 20-day SPY-TLT correlation turned negative (-0.13 against +0.20): bonds hedge again, the fear is growth and the AI trade, not inflation, although core PCE was 3.3% and the market prices a December 9 hike (85-94% in the reports found, not confirmed on CME). GLD -12% on the month, VIXY +34%.",
+  "gaps": "6 gaps of 0.5% or more in the last 10 sessions, 5 closed against the gap.",
+  "label": "A high-volatility correction led by the AI trade, everything correlated, money hiding in staples, health care, retail and long bonds; opening moves are often reversed in the session."
+ },
+ "movement": {
+  "seen": "11-25 was the first session against the trend: SPY filled a 2.2% gap (+1.9% open to close), SMH +4.9% open to close, while the groups that led the month (KO, WMT, COST, XLP, XLV) closed flat to down from their open. Asia followed on 11-26 but gave most of it back by the close (Kospi from about +1.5% to +0.3%, Nikkei from +1.6% to +0.9%). One session is not a turn.",
+  "turn_if": "By the 12-04 close: SMH stays above its 11-25 low (393.88) and closes above its 10-day average; XLP and XLV lag SPY over the week; the AI-chain 20-day correlation falls back under 0.70.",
+  "correction_on_if": "SPY closes below 695.45 (the 11-25 low) or QQQ closes below 610 (20% under its high).",
+  "p_spy_close_below_695_45_by_2026_12_04": 0.4,
+  "why_0_40": "Volatility alone, no direction view: a 3% fall at some close within five sessions with weekly volatility near 4%."
+ },
+ "forecast": {
+  "expected_gap": "Up about +0.5% to +0.8%: SPY 720.41 in the after-hours at 20:00 on 11-25 (+0.5%), S&P futures about +0.7% and Nasdaq futures +1.1% early on 11-26 (news reports; Webull futures not subscribed). Priced at the open (R1).",
+  "p_close_above_open": 0.45,
+  "p_close_above_previous_close_716_70": 0.65,
+  "p_abs_open_to_close_under_0_8pct": 0.65,
+  "why": [
+   "Against the session: across all nights the gap leans slightly the other way (R1, corr -0.11), and in this regime 5 of the last 6 gaps closed against themselves; the Thursday rebound in Asia was sold into; SPY is under its 200-day average with 27% breadth.",
+   "For it: the Friday after Thanksgiving closed above its open in 7 of the last 10 years (but +0.04% on average, too small to matter); Wednesday's reversal may bring short covering; thin trading can drift.",
+   "Size: holiday Fridays are quiet (|open to close| under 0.75% in 9 of 10 years), this regime is twice as volatile as normal, so I expect a quiet-leaning day with a real chance of a 1% swing.",
+   "What can move it: no data on Friday; news on Nvidia's board inquiry or the AI trade; early Black Friday retail reads; thin liquidity magnifies either."
+  ],
+  "wrong_if": "SPY gaps up and holds above its open all morning (the fade lean is wrong), or the gap fails and SPY trades under 716.70 before 11:00 (the close-above-716.70 call is in trouble).",
+  "bet": "none (0.45 is inside 0.41-0.59)"
+ },
+ "overnight": "Nothing directional should be held into the weekend: two-day volatility is large, the direction is near a coin flip, and the weekend carries the Nvidia inquiry, the Fed blackout (from 11-28) and Tuesday's ISM and Marvell report (12-01), with the jobs report on 12-04 and the Fed on 12-09. The only position carried is catalyst_open's KO 101 call (shadow, expires 11-27, last 0.01). No overnight rule has an edge on file (WEEK47.md: the overnight call read +7.8% a night after 31 nights and -5% after 63).",
+ "scoring": "At the 11-27 evening round: Brier score on the three probabilities, the gap range hit or miss; movement items checked at the 12-04 close.",
+ "zh": "周五（半天）：大概率高开 0.5% 到 0.8%。开盘以后往哪边，我给收在开盘价上方 0.45，略偏向高开被卖（最近 6 次跳空 5 次被反向收回，周四亚洲的反弹也在收盘前回吐大半），不下注。收在周三收盘 716.70 上方：0.65。全天大概率不大（开到收在 0.8% 以内：0.65），但现在的波动是平时的两倍，1% 的摆动随时可能。周末不拿方向单。"
+}
