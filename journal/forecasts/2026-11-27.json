@@ -19,7 +19,12 @@
   "turn_if": "By the 12-04 close: SMH stays above its 11-25 low (393.88) and closes above its 10-day average; XLP and XLV lag SPY over the week; the AI-chain 20-day correlation falls back under 0.70.",
   "correction_on_if": "SPY closes below 695.45 (the 11-25 low) or QQQ closes below 610 (20% under its high).",
   "p_spy_close_below_695_45_by_2026_12_04": 0.4,
-  "why_0_40": "Volatility alone, no direction view: a 3% fall at some close within five sessions with weekly volatility near 4%."
+  "why_0_40": "Volatility alone, no direction view: a 3% fall at some close within five sessions with weekly volatility near 4%.",
+  "revised": {
+   "time": "2026-11-26T02:42:47-05:00",
+   "p_spy_close_below_695_45_by_2026_12_04": 0.33,
+   "why": "Before the window opened: in states like now, a close 3% or more under day 0 within six sessions came 31% of the time (26% and 41% in the two decades), not the 40% I had worked out from volatility alone. The 0.40 stays on record; the 0.33 is scored too."
+  }
  },
  "forecast": {
   "expected_gap": "Up about +0.5% to +0.8%: SPY 720.41 in the after-hours at 20:00 on 11-25 (+0.5%), S&P futures about +0.7% and Nasdaq futures +1.1% early on 11-26 (news reports; Webull futures not subscribed). Priced at the open (R1).",

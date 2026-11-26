@@ -1,0 +1,16 @@
+{
+ "target": "SPY close on 2026-12-31 against the 2026-11-25 close 716.70 (24 sessions)",
+ "written": "2026-11-26T02:42:47-05:00",
+ "by": "long-session",
+ "p_up": 0.58,
+ "range_80pct": "about -6% to +7% (674 to 767), with a fatter left tail: in 2016-2026 the 10th percentile was -11%",
+ "base_rates": "Base rates from SPY daily closes 2004-2026 (Yahoo adjusted to 2016, Alpaca adjusted after; script horizons.py in the scratchpad, to go into the repo). 'States like now' = SPY 0-6% under its 200-day average, -4% to -10% on the month, 20-day volatility 22% or more, 5-15% under its one-year high (65 days, 14 episodes; now: -1.9%, -6.9%, 31%, -8.0%). Twenty-four sessions ahead: up 66% (70% / 59%; episodes 71% in both decades), median +2.6%, 10th to 90th percentile -6.1% to +7.2%. All days: up 67%. December (last November close to last December close) 2004-2025: up 15 of 22, median +1.3%; the two worst were 2018 (-8.8%) and 2022 (-5.8%).",
+ "why": [
+  "Base rate about two in three up: after falls like this, as volatility fades, the market has usually recovered within a month, in both decades.",
+  "I shade it to 0.58 because the two Decembers most like this one, 2018 and 2022, a Fed hiking into a tech-led fall, were the two worst of the last 22. Two cases are an anecdote, not a statistic, so the shading is small.",
+  "The month's events: the jobs report (12-04), the Fed on 12-09 (a hike mostly priced; what it says about 2027 matters more), CPI in the following days, quarterly expiry on 12-18, year-end flows.",
+  "The AI trade sets the tone: the chain moves as one block (correlation 0.85); a turn shows up as the chips holding their lows while the names start moving on their own news again."
+ ],
+ "wrong_if": "The fall resumes with SPY under 674 (-6%) before 12-09, or volatility falls back toward 20% with breadth above 50% (the usual recovery, then the shading was wrong).",
+ "zh": "到年底（12-31 收盘）：标普收在 716.70 上方，我给 0.58。相似环境下一个月后上涨的比例约三分之二，过去二十年两个十年都是这样：回调里波动一旦退下来，市场通常会收回一部分。我往下调了一点，因为最像今年的两个十二月，2018 和 2022 年（联储在加息、科技股带头跌），正好是过去 22 年最差的两个十二月（−8.8%、−5.8%）。只有两次，算不上统计，所以只调一点。幅度八成落在 −6% 到 +7%。关键事件：12-04 非农、12-09 议息（加息基本已定，重点是对明年的说法）、随后的通胀数据、12-18 季度交割、年底资金。"
+}

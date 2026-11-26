@@ -1,0 +1,16 @@
+{
+ "target": "SPY close on 2026-12-04 against the 2026-11-25 close 716.70 (6 sessions)",
+ "written": "2026-11-26T02:42:47-05:00",
+ "by": "long-session",
+ "p_up": 0.58,
+ "range_80pct": "about -4% to +5% (688 to 752)",
+ "p_close_3pct_under_716_70_at_some_close": 0.33,
+ "base_rates": "Base rates from SPY daily closes 2004-2026 (Yahoo adjusted to 2016, Alpaca adjusted after; script horizons.py in the scratchpad, to go into the repo). 'States like now' = SPY 0-6% under its 200-day average, -4% to -10% on the month, 20-day volatility 22% or more, 5-15% under its one-year high (65 days, 14 episodes; now: -1.9%, -6.9%, 31%, -8.0%). Six sessions ahead: up 57% (both decades 58% / 55%; episodes 57%), median +0.5%, 10th to 90th percentile -4.2% to +4.9%; a close 3% or more under day 0 within six sessions 31% (26% / 41%). All days: up 61%, -2.6% to +2.9%, 13%. The state widens the range more than it moves the odds.",
+ "why": [
+  "The market's normal upward drift holds in states like this, a little weaker; Friday's likely gap up (+0.5% to +0.8% in the after-hours and the futures) adds a small cushion.",
+  "The week is crowded with things that move it: ISM manufacturing and Marvell's report on 12-01 (a read on AI chips), the jobs report on 12-04 at the very end of the window (it decides how sure the December 9 hike is), and the Nvidia board inquiry; the Fed is silent from 11-28.",
+  "Volatility is twice normal, so the range is wide both ways."
+ ],
+ "wrong_if": "SPY closes under 695.45 (the 11-25 low) early in the week; the up call is then in trouble. A close back above the 200-day average (about 730) would say the correction is ending.",
+ "zh": "下周（到 12-04 收盘）：标普收在 716.70 上方，我给 0.58。和这次相似的环境，过去二十年一周后上涨的比例是 57%，和平常差不多，但幅度大得多（八成落在 −4% 到 +5%）。周五大概率高开，给了一点缓冲。这一周事情多：周二制造业数据和美满电子财报（AI 芯片的风向），周五非农（决定 12 月加息有多确定），还有英伟达董事会调查。周中某天收盘比 716.70 低 3% 以上的可能性约三分之一。"
+}
