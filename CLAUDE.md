@@ -26,6 +26,9 @@ Webull order/instruction/account tool. All trading goes through Alpaca paper onl
   On 2026-11-19 the Alpaca news endpoint returned nothing before 2026-04-29 (and a quarter of the stored rating
   events since then were missing): event studies older than that use the stored event files
   (journal/research/slowdrift_wide_events.json, exits.json), not a fresh news pull.
+- `zoh/research/environment.py` (since 2026-11-26): the market environment in seven readings each evening
+  (journal/environment/<date>.json; it describes, it is never a rule). `zoh/research/forecasts.py`: the day, week and
+  month forecasts in journal/forecasts/, each with checkable `claims`, scored into journal/forecasts/scores.csv.
 - `journal/`: written by GitHub Actions — `trades.csv`, `equity.csv`, `REVIEW.md`,
   `BACKTEST.md`, `state.json`. Do not hand-edit trade history.
 - API keys live only in GitHub Secrets; this container usually has none, so anything that
@@ -190,13 +193,30 @@ software or at 0.35 delta. rating_open is retired (R4). The numbers stay where t
 - Say what I think before the close (`conviction`); never fill it in afterwards. "I do not know" is an answer.
 - No paid data (owner, 2026-10-16). Every Discord-facing text in plain Chinese (owner, 2026-11-02).
 
+## Forecasts (owner, 2026-11-26: "judge the environment, notice where it is moving, say how the next day goes and why"; "by day, week and month")
+- Three horizons, each written before its window opens: the next trading day (every evening; journal/forecasts/<date>.json),
+  the week to Friday's close (Friday evenings; week_<date>.json), the next month to its last close (the evening of a month's last trading day;
+  month_<date>.json). Each file: `claims` in the schema of zoh/research/forecasts.py (`--check` before the push), the
+  reasons, what would make it wrong, and a `zh` line. The morning bias file's `p_up` is the day's close-above-open claim
+  revised with the night's news and the 08:30 data.
+- Never edited once its window opens. A revision before that is added beside the original (`revises`); both are scored.
+- The environment readings and base rates are context, not rules: a base rate goes into the reasons with its sample and
+  with how much it moves when "days like today" is drawn differently (on 2026-11-26 two reasonable definitions gave 42%
+  and 57% up a week later). A day's direction stays near 0.50 unless the evidence is one-sided (pre-market step 3).
+- Scored every evening (`--score`); the Sunday review reports each horizon's Brier score against 0.25 (always 0.50) and how
+  often the 80% ranges held. A horizon that has not beaten 0.25 after 40 scored claims is said to have no skill, plainly.
+- No orders from forecasts yet. A forecast ledger comes later and starts in shadow: an instrument that fits the horizon (no
+  same-day direction bet; 2-3 week options or ETF shares for a week, 1-2 months for a month), only when p >= 0.62 or
+  <= 0.38, written first as a SUNDAY_TESTS item with its bar.
+
 ## Cadence
 Three wakes of the long conversation on a weekday since 2026-11-21 (owner: "tidy up the scheduled tasks"; seven
 before): 07:57, 12:10 (the midday exchange file) and 16:35, plus the 10:26 hand-over while the fresh-session trial runs.
 - Weekdays 07:57 ET: the pre-market round, one wake (before, 07:40 and again at 08:30): research first; after 08:30
   start the bot and re-read the live pre-market numbers (on 08:30 release days read the print before the SPY call);
   then the bias (procedure below) and the morning exchange file. It stays before 08:00 because the routine fired 41
-  minutes late twice in October (owner, 2026-11-02).
+  minutes late twice in October (owner, 2026-11-02). Read last night's forecast for today first; when the night's news
+  or the 08:30 data change it, add the revised claims (`revises`) before 09:30 and keep the originals.
 - Weekdays ~10:16 ET: the intraday check-in, the only one of the day:
   - During the fresh-session trial (from 2026-11-23, five sessions; journal/research/FRESH_SESSION_TRIAL.md) a new
     session with no memory does this check from the files alone at 10:16 and hands its file over in its reply; the
@@ -230,6 +250,10 @@ before): 07:57, 12:10 (the midday exchange file) and 16:35, plus the 10:26 hand-
   Notify workflow posts it to Discord (owner, 2026-11-02: "you have to check after the close too").
   Also run `python -m zoh.research.oversold --today` and push journal/oversold.csv: the oversold-ETF rule's shadow
   record (stock, no orders; on trial since 2026-11-19, OVERSOLD.md, SUNDAY_TESTS 77).
+  Then the forecasts (section above): `python -m zoh.research.environment --today` (push journal/environment/),
+  `python -m zoh.research.forecasts --score` (push scores.csv), and the next trading day's forecast; on Fridays the
+  next week's, on a month's last trading day the next month's. The check carries the environment line, the day's scores and
+  tomorrow's numbers in plain Chinese.
 - Last in the evening round (until 2026-11-20 its own wake at 17:43): the opportunity post-mortem (owner, 2026-11-13:
   "set a task: improve it every day, and when you are wrong work out why you read it wrong").
   `python -m zoh.research.opportunities` scores the day's ideas to the
@@ -249,6 +273,7 @@ before): 07:57, 12:10 (the midday exchange file) and 16:35, plus the 10:26 hand-
   a control, was used from 11-13 to 11-18 and is no longer listed).
 - Sundays 09:52 ET: weekly deep review (full protocol below, population cleanup, backtests). It also walks the
   shelves: runs the owed tests, moves what passed or failed, and reads OBSERVATIONS.md for patterns worth a test.
+  It also reports the forecasts by horizon (`python -m zoh.research.forecasts --summary`) and what the misses had in common.
 
 ## Noise gate (applies to the daily review)
 One trade per variant per day is mostly luck, so daily changes are limited to additive ones:
