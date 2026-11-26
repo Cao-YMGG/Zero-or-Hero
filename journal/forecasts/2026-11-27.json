@@ -42,5 +42,54 @@
  },
  "overnight": "Nothing directional should be held into the weekend: two-day volatility is large, the direction is near a coin flip, and the weekend carries the Nvidia inquiry, the Fed blackout (from 11-28) and Tuesday's ISM and Marvell report (12-01), with the jobs report on 12-04 and the Fed on 12-09. The only position carried is catalyst_open's KO 101 call (shadow, expires 11-27, last 0.01). No overnight rule has an edge on file (WEEK47.md: the overnight call read +7.8% a night after 31 nights and -5% after 63).",
  "scoring": "At the 11-27 evening round: Brier score on the three probabilities, the gap range hit or miss; movement items checked at the 12-04 close.",
- "zh": "周五（半天）：大概率高开 0.5% 到 0.8%。开盘以后往哪边，我给收在开盘价上方 0.45，略偏向高开被卖（最近 6 次跳空 5 次被反向收回，周四亚洲的反弹也在收盘前回吐大半），不下注。收在周三收盘 716.70 上方：0.65。全天大概率不大（开到收在 0.8% 以内：0.65），但现在的波动是平时的两倍，1% 的摆动随时可能。周末不拿方向单。"
+ "zh": "周五（半天）：大概率高开 0.5% 到 0.8%。开盘以后往哪边，我给收在开盘价上方 0.45，略偏向高开被卖（最近 6 次跳空 5 次被反向收回，周四亚洲的反弹也在收盘前回吐大半），不下注。收在周三收盘 716.70 上方：0.65。全天大概率不大（开到收在 0.8% 以内：0.65），但现在的波动是平时的两倍，1% 的摆动随时可能。周末不拿方向单。",
+ "claims": [
+  {
+   "id": "oc_up",
+   "horizon": "day",
+   "p": 0.45,
+   "kind": "close_above_open",
+   "date": "2026-11-27",
+   "written": "2026-11-26T02:38:45-05:00"
+  },
+  {
+   "id": "above_prev",
+   "horizon": "day",
+   "p": 0.65,
+   "kind": "close_above",
+   "date": "2026-11-27",
+   "level": 716.7,
+   "written": "2026-11-26T02:38:45-05:00"
+  },
+  {
+   "id": "quiet",
+   "horizon": "day",
+   "p": 0.65,
+   "kind": "abs_open_close_under",
+   "date": "2026-11-27",
+   "pct": 0.8,
+   "written": "2026-11-26T02:38:45-05:00"
+  },
+  {
+   "id": "below_695",
+   "horizon": "week",
+   "p": 0.4,
+   "kind": "any_close_below",
+   "start": "2026-11-27",
+   "end": "2026-12-04",
+   "level": 695.45,
+   "written": "2026-11-26T02:38:45-05:00"
+  },
+  {
+   "id": "below_695_rev",
+   "horizon": "week",
+   "p": 0.33,
+   "kind": "any_close_below",
+   "start": "2026-11-27",
+   "end": "2026-12-04",
+   "level": 695.45,
+   "revises": "below_695",
+   "written": "2026-11-26T02:42:47-05:00"
+  }
+ ]
 }

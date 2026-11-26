@@ -12,5 +12,41 @@
   "Volatility is twice normal, so the range is wide both ways."
  ],
  "wrong_if": "SPY closes under 695.45 (the 11-25 low) early in the week; the up call is then in trouble. A close back above the 200-day average (about 730) would say the correction is ending.",
- "zh": "下周（到 12-04 收盘）：标普收在 716.70 上方，我给 0.58。和这次相似的环境，过去二十年一周后上涨的比例是 57%，和平常差不多，但幅度大得多（八成落在 −4% 到 +5%）。周五大概率高开，给了一点缓冲。这一周事情多：周二制造业数据和美满电子财报（AI 芯片的风向），周五非农（决定 12 月加息有多确定），还有英伟达董事会调查。周中某天收盘比 716.70 低 3% 以上的可能性约三分之一。"
+ "zh": "下周（到 12-04 收盘）：标普收在 716.70 上方，我给 0.58。和这次相似的环境，过去二十年一周后上涨的比例是 57%，和平常差不多，但幅度大得多（八成落在 −4% 到 +5%）。周五大概率高开，给了一点缓冲。这一周事情多：周二制造业数据和美满电子财报（AI 芯片的风向），周五非农（决定 12 月加息有多确定），还有英伟达董事会调查。周中某天收盘比 716.70 低 3% 以上的可能性约三分之一。",
+ "claims": [
+  {
+   "id": "up",
+   "horizon": "week",
+   "p": 0.58,
+   "kind": "close_above",
+   "date": "2026-12-04",
+   "level": 716.7,
+   "written": "2026-11-26T02:42:47-05:00"
+  },
+  {
+   "id": "range80",
+   "horizon": "week",
+   "p": 0.8,
+   "kind": "close_between",
+   "date": "2026-12-04",
+   "low": 688.0,
+   "high": 752.0,
+   "written": "2026-11-26T02:42:47-05:00"
+  },
+  {
+   "id": "up_rev",
+   "horizon": "week",
+   "p": 0.55,
+   "kind": "close_above",
+   "date": "2026-12-04",
+   "level": 716.7,
+   "revises": "up",
+   "written": "2026-11-26T03:01:09-05:00"
+  }
+ ],
+ "revision": {
+  "time": "2026-11-26T03:01:09-05:00",
+  "why": "Before the window opened: the base rate for days near today's state depends on how 'near' is drawn. With the wider state (0-6% under the 200-day, -4% to -10% on the month, volatility 22% or more, 5-15% under the high) SPY was higher 57% of the time six sessions later and 66% twenty-four sessions later; with today's own neighbourhood (zoh/research/environment.py, 38 days, 10 episodes, 2004-2026) 42% and 47%. Two reasonable definitions, fifteen to twenty points apart: the conditional base rate says little beyond the usual drift (61% and 67% on all days). The up probabilities come down to 0.55; the originals stay and are scored too.",
+  "note": "The close-3%-under claim (0.33) is scored once, in 2026-11-27.json (below_695_rev)."
+ }
 }
