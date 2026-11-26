@@ -1,58 +1,56 @@
-# Headlines since 2026-11-24 16:00 ET (as of 2026-11-25 17:21 ET)
+# Headlines since 2026-11-25 16:00 ET (as of 2026-11-26 16:55 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
 | time | symbols | rating | headline |
 |---|---|---|---|
-| 11-25 14:03 | ZS | downgrade | Scotiabank Downgrades Zscaler to Sector Perform |
-| 11-25 06:32 | WMT | initiate | William O'Neil Initiates Coverage on Walmart with Buy Rating |
-| 11-24 19:01 | TSLA | initiate | RBC Capital and Seaport Initiate Coverage of Tesla |
-| 11-24 16:31 | NFLX | initiate | German Voice Actors Initiate Legal Action Against Netflix Over AI Training Clauses |
+| 11-26 16:32 | JPM | target down | JPMorgan Chase Lowers Price Target for Vodafone |
+| 11-26 11:01 | AMZN | upgrade | Amazon Announces Quick Sight Upgrade and Autonomous Workload Build Capabilities |
+| 11-25 18:02 | RKLB | initiate | Mizuho Initiates Coverage on Rocket Lab with Underperform Rating |
+| 11-26 16:31 | GS |  | Goldman Sachs International Discloses Dealings in Permanent TSB Shares |
+| 11-26 15:01 | TSLA |  | Tesla Deploys Manual Battery Preconditioning Feature |
+| 11-26 15:01 | TSLA |  | EU Postpones Vote on Tesla Assisted Driving Approval |
+| 11-26 15:01 | GS |  | The Goldman Sachs Group, Inc. Discloses Major Holding in Hugo Boss AG |
+| 11-26 14:01 | COIN |  | Coinbase Ranked as Top-Tier Exchange in November 2026 CoinDesk Data Benchmark |
+| 11-26 14:01 | MSFT |  | Microsoft AI CEO Mustafa Suleyman Issues Warning on AI Safety Thresholds |
+| 11-26 14:01 | XOM |  | European Parliament Delays Methane Reporting Requirements for Fossil Fuel Importers |
+| 11-26 11:01 | JPM |  | JPMorgan Chase & Co. Discloses Change in Voting Rights for Delivery Hero SE |
+| 11-26 11:01 | JPM |  | JPMorgan Chase & Co. Reduces Stake in Gamma Communications PLC |
+| 11-26 09:32 | GS |  | Goldman Sachs Files Voting Rights Disclosure for LEG Immobilien SE |
+| 11-26 09:32 | GS |  | Goldman Sachs Affirms Buy Rating on Al Rajhi Bank |
+| 11-26 09:32 | GS |  | Goldman Sachs Adjusts Price Target for Munich Re |
+| 11-26 09:31 | CAT |  | India Approves $1.2 Billion Incentive Plan for Construction Equipment Manufacturers |
+| 11-26 09:31 | V |  | Visa Releases 2026 Holiday Spending Shift Survey for Canada |
+| 11-26 09:31 | JPM |  | Moloco Selects JPMorgan Chase and Goldman Sachs for IPO |
+| 11-26 08:01 | GS |  | Goldman Sachs Prime Broking Insights on Hedge Fund Positioning |
+| 11-26 08:01 | NVDA |  | NVIDIA and Kioxia Announce Collaboration to Extend GPU Memory Capacity |
+| 11-26 08:01 | CVX |  | Chevron Increases Investment in Argentina's Energy Infrastructure |
+| 11-26 08:01 | CVX |  | Chevron Partners with TPAO for Offshore Exploration in Guinea Bissau |
+| 11-26 08:01 | V |  | Visa Announces Plans for New 'Visa Flex Card' in Partnership with NBX |
+| 11-26 07:36 | SMCI |  | Supermicro Halts Server Shipments to Certain Southeast Asian Markets Following New US Export Controls |
+| 11-26 07:32 | NFLX |  | Netflix Announces Limited-Time 'Stranger Things' 10th Anniversary Cafe |
+| 11-26 07:32 | NFLX |  | Netflix Identified as Most Impersonated Brand in Black Friday Phishing Scams |
+| 11-26 06:32 | AAPL |  | Apple Removes Talkie AI App from App Store Worldwide |
+| 11-26 06:32 | AAPL |  | Apple to Open New Retail Store in Hyderabad, India |
+| 11-26 06:31 | NVDA |  | NVIDIA Orders Partners to Stop Server Shipments to ASEAN States |
+| 11-26 06:31 | NVDA |  | S&P Global Ratings Places NVIDIA on CreditWatch Negative |
+| 11-26 06:31 | GS |  | Goldman Sachs Releases Economic Outlook for Southern Europe |
+| 11-26 06:31 | V |  | Visa Launches New Version of Experimental AI Agent Wallet |
+| 11-26 06:31 | META |  | Meta and Philippine DICT Sign Memorandum of Understanding |
+| 11-26 06:31 | AMZN |  | AWS and Amazon CloudFront Support Global Launch of GTA VI |
+| 11-26 06:31 | AMZN |  | Amazon Responds to FTC Allegations Regarding 'Project Nessie' Pricing Tool |
+| 11-26 06:01 | TSM |  | TSMC Completes Registration of Paid-in Capital Reduction |
+| 11-25 22:02 | HD |  | Home Depot Insider Executes Sale of Company Shares |
+| 11-25 22:01 | WMT |  | Walmart Integrates Meta's Muse AI for Shopping |
+| 11-25 19:01 | MSFT |  | BNY and Microsoft Complete AI Agent Pilot for Treasury Trading |
+| 11-25 19:01 | NFLX |  | Netflix Cancels Development of Will Ferrell's 'The Hawk' |
+| 11-25 18:02 | CIEN |  | Evercore and BNP Paribas Adjust Ciena Price Targets |
+| 11-25 17:32 | META |  | Banks Arranging $4.5 Billion Loan for CoreWeave Secured by Meta-Linked GPUs |
+| 11-25 17:31 | HD |  | Home Depot Insider Executes Share Sale |
+| 11-25 17:31 | JPM |  | JPMorgan Chase Discloses Major Holding in Evotec SE |
+| 11-25 17:31 | JPM |  | JPMorgan Projects $450 Billion in AI-Related High-Grade Debt Issuance for 2027 |
+| 11-25 17:31 | SNDK |  | Tradr ETFs Announces Launch of Triple Threat Series Including Memory ETF Featuring SanDisk |
+| 11-25 17:31 | AMZN |  | Court Rules Against Amazon in Consumer Product Safety Act Litigation |
 | 11-25 16:31 | CRM |  | Cloud Maven, Inc. Launches LightningDocs Connector for Salesforce |
 | 11-25 16:31 | WMT |  | Doba Launches Seller Recruitment Campaign for Walmart Marketplace |
 | 11-25 16:31 | UNH |  | Kirby McInerney LLP Investigates UnitedHealth Group Inc. Following Medicare Advantage Audit Rule Proposal |
-| 11-25 15:02 | WDC |  | Analysts Adjust Price Targets for Western Digital Corporation |
-| 11-25 15:01 | COST |  | Supreme Court of British Columbia Rules in Class Action Regarding Supplement Labeling |
-| 11-25 14:01 | GS |  | The Goldman Sachs Group, Inc. Discloses Increased Holding in ASOS PLC |
-| 11-25 14:01 | COIN |  | Coinbase Wallet Launches Direct Deposit Feature for USDC |
-| 11-25 14:01 | TSLA |  | J.P. Morgan Analyzes Potential Tesla-SpaceX Merger Impact on S&P 500 Eligibility |
-| 11-25 11:01 | GS |  | Goldman Sachs Reports Market Sentiment Indicator at Low Levels |
-| 11-25 11:01 | MU |  | Tradr ETFs Announces Upcoming Launch of Leveraged ETF Featuring Micron Technology, Inc. |
-| 11-25 11:01 | GEV |  | GE Vernova Launches Hypact-145g Hybrid Switchgear |
-| 11-25 11:01 | AVGO |  | UBS Adjusts Broadcom Price Target |
-| 11-25 11:01 | AMZN |  | Duracell and Amazon Partner for 'Power Playland on the Pier' Holiday Event |
-| 11-25 09:32 | TSLA |  | General Motors Korea to Adopt Tesla's North American Charging Standard |
-| 11-25 09:32 | LLY |  | Eli Lilly and Novo Nordisk Face Lawsuits Over Rare Eye Condition Linked to GLP-1 Drugs |
-| 11-25 09:31 | PLTR |  | Palantir Technologies Insiders Report Significant Stock Transactions |
-| 11-25 09:31 | META |  | Meta Deploys Autonomous Food Preparation System in London Office |
-| 11-25 09:31 | META |  | Meta and Amazon Conclude Discussions to Lift Muse Shopping Robot Blockade |
-| 11-25 09:31 | HD |  | The Home Depot Foundation Awards $150,000 Grant for Affordable Housing Project |
-| 11-25 09:31 | AMZN |  | Schneider Electric Integrates Industrial Intelligence Solutions with AWS |
-| 11-25 09:31 | MSFT |  | The AA Deploys Microsoft Dynamics 365 and Azure for Digital Workflow |
-| 11-25 09:31 | CVX |  | Chevron Faces Regulatory Probe Following Methane Emissions at Gorgon LNG Plant |
-| 11-25 09:04 | ORCL |  | Oracle Commodity Holding Corp. Restores 2% Royalty on Pulacayo-Paca Silver Project |
-| 11-25 09:04 | BAC |  | BacTech Environmental to Attend Ontario Critical Minerals Conference |
-| 11-25 09:04 | V |  | Verdera Energy Corp. to Present at Precious Metals & Critical Minerals Virtual Investor Conference |
-| 11-25 09:02 | TSM |  | President Trump to Preside Over TSMC Arizona Plant Expansion Ceremony |
-| 11-25 08:01 | GE |  | Malaysia Aviation Group Selects GE Aerospace GEnx Engines for New Boeing 787 Fleet |
-| 11-25 07:32 | GS |  | Goldman Sachs Adjusts Price Targets for Dell Technologies and Workday |
-| 11-25 07:32 | NVDA |  | NVIDIA CEO Jensen Huang Reportedly Apologizes to Staff and Enters Therapy |
-| 11-25 07:32 | JPM |  | JPMorgan Chase Evaluates UK Investment Strategy Following Bank Tax Increase |
-| 11-25 07:31 | WMT |  | Walmart-Backed PhonePe Resumes IPO Process |
-| 11-25 07:31 | TSLA |  | European Union Postpones Approval Discussion for Tesla's Self-Driving Technology |
-| 11-25 06:32 | WMT |  | Flipkart CEO Kalyan Krishnamurthy to Step Down |
-| 11-25 06:31 | AMZN |  | Amazon to Launch Auto Marketplace in the UK |
-| 11-25 06:31 | AMZN |  | AWS Representatives Participate in AI Infrastructure Roundtable in South Korea |
-| 11-25 06:31 | PLTR |  | Palantir Technologies Executives Report Insider Stock Sales |
-| 11-25 06:31 | BAC |  | Bank of America Marks 75th Anniversary in Switzerland |
-| 11-25 06:31 | SNDK |  | SanDisk Chief Accounting Officer Discloses Stock Sale in SEC Filing |
-| 11-25 06:31 | AAPL |  | Apple Participates in Korea-US AI Infrastructure Roundtable |
-| 11-24 22:02 | GE |  | Dowty to Open £19 Million Innovation Centre Backed by GE Aerospace |
-| 11-24 22:01 | V |  | iwoca Launches Business Credit Card in Partnership with Visa and Enfuce |
-| 11-24 22:01 | META |  | Meta Releases 2026 Sustainability Report |
-| 11-24 20:01 | MSFT |  | Maverick Medical AI Integrates CodeAgent with Microsoft Dragon Copilot |
-| 11-24 20:01 | MSFT |  | Microsoft Declares 'Code Red' Following Historic Outage |
-| 11-24 19:01 | MU |  | Micron Discloses Increased Executive Security Expenses |
-| 11-24 17:31 | AMZN |  | Amazon Teamsters in Chicago Rally for Delivery Protection Act |
-| 11-24 16:31 | WMT |  | Walmart Launches 'Muse' AI Shopping Assistant |
-| 11-24 16:31 | LLY |  | Eli Lilly Canada Sponsors Survey on Type 2 Diabetes Awareness |

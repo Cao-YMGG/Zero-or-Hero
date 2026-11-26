@@ -1,0 +1,506 @@
+{
+ "as_of": "2026-11-26T16:55-05:00",
+ "since": "2026-11-25T16:00-05:00",
+ "headlines": [
+  {
+   "time": "11-26 16:32",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "target down",
+   "headline": "JPMorgan Chase Lowers Price Target for Vodafone",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/jpmorgan-lowers-vodafone-pt-maintains-underweight-rating-ce7851d8d08fff21"
+  },
+  {
+   "time": "11-26 16:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs International Discloses Dealings in Permanent TSB Shares",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/rns/permanent-tsb-group-holdings-cdi---ptsb/form-38-5a-permanent-tsb-group-holdings-plc/9895914"
+  },
+  {
+   "time": "11-26 15:01",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Tesla Deploys Manual Battery Preconditioning Feature",
+   "source": "fiscal.ai",
+   "url": "https://www.frandroid.com/marques/tesla/3341437_tesla-lance-enfin-une-fonction-que-ses-rivaux-proposaient-deja-depuis-des-annees-le-prechauffage-manuel-de-la-batterie"
+  },
+  {
+   "time": "11-26 15:01",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "EU Postpones Vote on Tesla Assisted Driving Approval",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.ch/nachrichten/aktien/eu-delays-vote-on-teslas-assisted-driving-system-to-december-15-reports-1036803762"
+  },
+  {
+   "time": "11-26 15:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "The Goldman Sachs Group, Inc. Discloses Major Holding in Hugo Boss AG",
+   "source": "fiscal.ai",
+   "url": "https://www.placera.se/pressmeddelanden/hugo-boss-hugo-boss-ag-release-according-to-article-40-section-1-of-the-wphg-the-german-securities-trading-act-with-the-objective-of-europe-wide-distribution-20261126"
+  },
+  {
+   "time": "11-26 14:01",
+   "symbols": [
+    "COIN"
+   ],
+   "rating": "",
+   "headline": "Coinbase Ranked as Top-Tier Exchange in November 2026 CoinDesk Data Benchmark",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1005921951/crypto-for-advisors-four-questions-to-ask-before-trusting-a"
+  },
+  {
+   "time": "11-26 14:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "Microsoft AI CEO Mustafa Suleyman Issues Warning on AI Safety Thresholds",
+   "source": "fiscal.ai",
+   "url": "https://af.net/fr/realtime/microsoft-ai-ceo-warns-labs-are-crossing-threshold-as-internal-models-break-containment/"
+  },
+  {
+   "time": "11-26 14:01",
+   "symbols": [
+    "XOM"
+   ],
+   "rating": "",
+   "headline": "European Parliament Delays Methane Reporting Requirements for Fossil Fuel Importers",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.at/nachrichten/aktien/eu-parlament-gibt-gruenes-licht-fuer-aufschub-von-klimaregeln-1036802896"
+  },
+  {
+   "time": "11-26 11:01",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "upgrade",
+   "headline": "Amazon Announces Quick Sight Upgrade and Autonomous Workload Build Capabilities",
+   "source": "fiscal.ai",
+   "url": "https://aithority.com/machine-learning/megazonecloud-launches-its-amazon-quick-center-of-excellence-to-turn-enterprise-data-into-autonomous-action/"
+  },
+  {
+   "time": "11-26 11:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase & Co. Discloses Change in Voting Rights for Delivery Hero SE",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.ch/nachrichten/aktien/eqs-pvr-delivery-hero-se-release-according-to-article-40-section-1-of-the-wphg-[the-german-securities-trading-act]-with-the-objective-of-europe-wide-distribution-1036803459"
+  },
+  {
+   "time": "11-26 11:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase & Co. Reduces Stake in Gamma Communications PLC",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/rns/gamma-communications--gama/holding-s-in-company/9895474"
+  },
+  {
+   "time": "11-26 09:32",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Files Voting Rights Disclosure for LEG Immobilien SE",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.ch/nachrichten/aktien/eqs-pvr-leg-immobilien-se-release-according-to-article-40-section-1-of-the-wphg-[the-german-securities-trading-act]-with-the-objective-of-europe-wide-distribution-1036802796"
+  },
+  {
+   "time": "11-26 09:32",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Affirms Buy Rating on Al Rajhi Bank",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-affirms-al-rajhi-bank-at-buy-trims-pt-ce7851d8d08ffe25"
+  },
+  {
+   "time": "11-26 09:32",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Adjusts Price Target for Munich Re",
+   "source": "fiscal.ai",
+   "url": "https://www.finanznachrichten.de/nachrichten-aktien/muenchener-rueckversicherungs-gesellschaft-ag.htm"
+  },
+  {
+   "time": "11-26 09:31",
+   "symbols": [
+    "CAT"
+   ],
+   "rating": "",
+   "headline": "India Approves $1.2 Billion Incentive Plan for Construction Equipment Manufacturers",
+   "source": "fiscal.ai",
+   "url": "https://realtynxt.com/infrastructure/2026-11-26/india-to-support-jcb-caterpillar-hitachi-under-12-bn-construction-equipment-incentive-scheme"
+  },
+  {
+   "time": "11-26 09:31",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Releases 2026 Holiday Spending Shift Survey for Canada",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/26/3410758/0/fr/cette-ann%C3%A9e-les-canadiens-veulent-en-avoir-pour-leur-argent-aux-f%C3%AAtes-mais-les-exp%C3%A9riences-et-les-%C3%A9v%C3%A9nements-sont-en-haut-de-leur-liste-de-souhaits-une-%C3%A9tude-visa.html"
+  },
+  {
+   "time": "11-26 09:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "Moloco Selects JPMorgan Chase and Goldman Sachs for IPO",
+   "source": "fiscal.ai",
+   "url": "https://stockanalysis.com/private/moloco/"
+  },
+  {
+   "time": "11-26 08:01",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Prime Broking Insights on Hedge Fund Positioning",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/20261126104/capital-preservation-rather-than-chasing-the-market-higher-is-how-hedge-funds-are-negotiating-market-volatility"
+  },
+  {
+   "time": "11-26 08:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA and Kioxia Announce Collaboration to Extend GPU Memory Capacity",
+   "source": "fiscal.ai",
+   "url": "https://natlawreview.com/press-releases/kioxia-and-nvidia-collaborate-expand-effective-high-bandwidth-memory"
+  },
+  {
+   "time": "11-26 08:01",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Chevron Increases Investment in Argentina's Energy Infrastructure",
+   "source": "fiscal.ai",
+   "url": "https://newsfilter.io/articles/latin-america-has-the-copper-and-energy-the-ai-build-out-needs-infrastructure-is-cfb3a66dd618589b924d043b1a1cd7fa"
+  },
+  {
+   "time": "11-26 08:01",
+   "symbols": [
+    "CVX"
+   ],
+   "rating": "",
+   "headline": "Chevron Partners with TPAO for Offshore Exploration in Guinea Bissau",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/flash/1005903439/turkish-energy-minister-turkey-s-tpao-partners-with-chevron-in"
+  },
+  {
+   "time": "11-26 08:01",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Announces Plans for New 'Visa Flex Card' in Partnership with NBX",
+   "source": "fiscal.ai",
+   "url": "https://news.europawire.eu/visa-and-nbx-plan-single-card-payments-from-traditional-currency-and-stablecoin-balances-across-five-european-markets/eu-press-release/2026/11/26/13/48/03/189766/"
+  },
+  {
+   "time": "11-26 07:36",
+   "symbols": [
+    "SMCI"
+   ],
+   "rating": "",
+   "headline": "Supermicro Halts Server Shipments to Certain Southeast Asian Markets Following New US Export Controls",
+   "source": "fiscal.ai",
+   "url": "https://www.newsmax.com/world/globaltalk/nvidia-chips-shipments/2026/11/26/id/1277608/"
+  },
+  {
+   "time": "11-26 07:32",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Announces Limited-Time 'Stranger Things' 10th Anniversary Cafe",
+   "source": "fiscal.ai",
+   "url": "http://www.excite.co.jp/news/article/Kyodo_prw_202611261116/"
+  },
+  {
+   "time": "11-26 07:32",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Identified as Most Impersonated Brand in Black Friday Phishing Scams",
+   "source": "fiscal.ai",
+   "url": "https://tecnologia.ig.com.br/2026-11-26/golpe-na-black-friday--netflix-lidera-lista-de-sites-suspeitos.html"
+  },
+  {
+   "time": "11-26 06:32",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Removes Talkie AI App from App Store Worldwide",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/minimax-s-talkie-removed-from-apple-app-store-worldwide-ce7851d8d18af721"
+  },
+  {
+   "time": "11-26 06:32",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple to Open New Retail Store in Hyderabad, India",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.ch/nachrichten/aktien/apple-to-open-new-store-in-hyderabad-expanding-indian-retail-business-1036802666"
+  },
+  {
+   "time": "11-26 06:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Orders Partners to Stop Server Shipments to ASEAN States",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/nvidia-orders-partners-to-stop-server-shipments-to-asean-states-ce7851d8de89f626"
+  },
+  {
+   "time": "11-26 06:31",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "S&P Global Ratings Places NVIDIA on CreditWatch Negative",
+   "source": "fiscal.ai",
+   "url": "https://wjno.iheart.com/content/2026-11-26-sp-huang-drama-could-hurt-nvidias-credit-rating/"
+  },
+  {
+   "time": "11-26 06:31",
+   "symbols": [
+    "GS"
+   ],
+   "rating": "",
+   "headline": "Goldman Sachs Releases Economic Outlook for Southern Europe",
+   "source": "fiscal.ai",
+   "url": "https://www.euro2day.gr/news/market/article/2382050/goldman-sachs-overweight-gia-ellhnikes-metohes-ta.html"
+  },
+  {
+   "time": "11-26 06:31",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa Launches New Version of Experimental AI Agent Wallet",
+   "source": "fiscal.ai",
+   "url": "https://glenbrook.com/payments-news/all-payments-news/"
+  },
+  {
+   "time": "11-26 06:31",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta and Philippine DICT Sign Memorandum of Understanding",
+   "source": "fiscal.ai",
+   "url": "https://www.pna.gov.ph/article/dict-meta-ink-pact-vs-online-scams-child-exploitation"
+  },
+  {
+   "time": "11-26 06:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "AWS and Amazon CloudFront Support Global Launch of GTA VI",
+   "source": "fiscal.ai",
+   "url": "https://money.udn.com/money/story/12987/9903872"
+  },
+  {
+   "time": "11-26 06:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Amazon Responds to FTC Allegations Regarding 'Project Nessie' Pricing Tool",
+   "source": "fiscal.ai",
+   "url": "http://www.milwaukeeindependent.com/featured/u-s-retail-expansion-ai-assisted-pricing-tools-accelerates-consumer-alarm-price-gouging/"
+  },
+  {
+   "time": "11-26 06:01",
+   "symbols": [
+    "TSM"
+   ],
+   "rating": "",
+   "headline": "TSMC Completes Registration of Paid-in Capital Reduction",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/tsmc-completes-registration-of-paid-in-capital-reduction-ce7851d8de81f525"
+  },
+  {
+   "time": "11-25 22:02",
+   "symbols": [
+    "HD"
+   ],
+   "rating": "",
+   "headline": "Home Depot Insider Executes Sale of Company Shares",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/home-depot-insider-sold-shares-worth-4-312-400-according-to-a-recent-sec-filing-ce7851d8da80f023"
+  },
+  {
+   "time": "11-25 22:01",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Walmart Integrates Meta's Muse AI for Shopping",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1005747401/ai-agents-go-shopping-walmart-integrates-meta-muse-and-sets"
+  },
+  {
+   "time": "11-25 19:01",
+   "symbols": [
+    "MSFT"
+   ],
+   "rating": "",
+   "headline": "BNY and Microsoft Complete AI Agent Pilot for Treasury Trading",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/news/artificial-intelligence/2026/bny-and-microsoft-let-ai-agents-haggle-over-treasurys/"
+  },
+  {
+   "time": "11-25 19:01",
+   "symbols": [
+    "NFLX"
+   ],
+   "rating": "",
+   "headline": "Netflix Cancels Development of Will Ferrell's 'The Hawk'",
+   "source": "fiscal.ai",
+   "url": "https://www.avclub.com/article-type/news"
+  },
+  {
+   "time": "11-25 18:02",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "initiate",
+   "headline": "Mizuho Initiates Coverage on Rocket Lab with Underperform Rating",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/RKLB-US?chain_id=Name1K9-3FXPhg.1lge8h0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FFN-US%22%7D"
+  },
+  {
+   "time": "11-25 18:02",
+   "symbols": [
+    "CIEN"
+   ],
+   "rating": "",
+   "headline": "Evercore and BNP Paribas Adjust Ciena Price Targets",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/CIEN-US?chain_id=Name1K9-3FXPhg.1lge8h0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FFN-US%22%7D"
+  },
+  {
+   "time": "11-25 17:32",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Banks Arranging $4.5 Billion Loan for CoreWeave Secured by Meta-Linked GPUs",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/META-US?chain_id=Name1K9-3FXPhg.1lgefi0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A107%2C%22f%22%3A%22www.moomoo.com%2Fetfs%2FFBL-US%22%7D"
+  },
+  {
+   "time": "11-25 17:31",
+   "symbols": [
+    "HD"
+   ],
+   "rating": "",
+   "headline": "Home Depot Insider Executes Share Sale",
+   "source": "fiscal.ai",
+   "url": "https://ch.marketscreener.com/boerse-nachrichten/home-depot-insiderin-verkaufte-aktien-im-wert-von-1-040-040-usd-wie-aus-einer-aktuellen-sec-meldung-ce7851d8da80ff23"
+  },
+  {
+   "time": "11-25 17:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Discloses Major Holding in Evotec SE",
+   "source": "fiscal.ai",
+   "url": "https://www.eqs-news.com/news/voting-rights/jpmorgan-chase-co-wilmington-delaware-united-states-of-america-usa/03588f88-fe2d-4a37-a6c2-272051fe89ca_en"
+  },
+  {
+   "time": "11-25 17:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Projects $450 Billion in AI-Related High-Grade Debt Issuance for 2027",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/jpmorgan-projects-450-billion-in-ai-high-grade-debt-issuance-for-2027-ce7851d8dd8aff20"
+  },
+  {
+   "time": "11-25 17:31",
+   "symbols": [
+    "SNDK"
+   ],
+   "rating": "",
+   "headline": "Tradr ETFs Announces Launch of Triple Threat Series Including Memory ETF Featuring SanDisk",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/tradr-to-launch-six-new-leveraged-etfs-302949924.html"
+  },
+  {
+   "time": "11-25 17:31",
+   "symbols": [
+    "AMZN"
+   ],
+   "rating": "",
+   "headline": "Court Rules Against Amazon in Consumer Product Safety Act Litigation",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/federal-court-rules-in-favor-of-cpsc-in-landmark-e-commerce-product-safety-case-302950855.html"
+  },
+  {
+   "time": "11-25 16:31",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Cloud Maven, Inc. Launches LightningDocs Connector for Salesforce",
+   "source": "fiscal.ai",
+   "url": "https://www.einpresswire.com/article/956532192/cloud-maven-integrates-lightning-docs-to-simplify-loan-closings-in-salesforce"
+  },
+  {
+   "time": "11-25 16:31",
+   "symbols": [
+    "WMT"
+   ],
+   "rating": "",
+   "headline": "Doba Launches Seller Recruitment Campaign for Walmart Marketplace",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/25/3410238/0/en/doba-launches-seller-recruitment-campaign-to-help-retailers-start-selling-on-walmart-marketplace.html"
+  },
+  {
+   "time": "11-25 16:31",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "Kirby McInerney LLP Investigates UnitedHealth Group Inc. Following Medicare Advantage Audit Rule Proposal",
+   "source": "fiscal.ai",
+   "url": "https://www.quantisnow.com/insight/unitedhealth-group-inc-unh-investors-contact-kirby-mcinerney-llp-about-6806978"
+  }
+ ]
+}
