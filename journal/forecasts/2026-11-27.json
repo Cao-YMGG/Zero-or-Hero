@@ -90,6 +90,80 @@
    "level": 695.45,
    "revises": "below_695",
    "written": "2026-11-26T02:42:47-05:00"
+  },
+  {
+   "id": "oc_up_calc",
+   "horizon": "day",
+   "p": 0.52,
+   "kind": "close_above_open",
+   "date": "2026-11-27",
+   "revises": "oc_up",
+   "written": "2026-11-26T13:23:50-05:00"
+  },
+  {
+   "id": "above_prev_calc",
+   "horizon": "day",
+   "p": 0.7,
+   "kind": "close_above",
+   "date": "2026-11-27",
+   "level": 716.7,
+   "revises": "above_prev",
+   "written": "2026-11-26T13:23:50-05:00"
+  },
+  {
+   "id": "quiet_calc",
+   "horizon": "day",
+   "p": 0.7,
+   "kind": "abs_open_close_under",
+   "date": "2026-11-27",
+   "pct": 0.8,
+   "revises": "quiet",
+   "written": "2026-11-26T13:23:50-05:00"
   }
- ]
+ ],
+ "calculated": {
+  "time": "2026-11-26T13:23:50-05:00",
+  "source": "SPY daily bars 2004-2026 (Yahoo to 2016, Alpaca after), scratchpad env/friday.py",
+  "rows": [
+   {
+    "case": "all days",
+    "n": 5502,
+    "close_above_open": 0.54,
+    "close_above_prev": 0.55,
+    "abs_oc_under_0_8": 0.75
+   },
+   {
+    "case": "gap up +0.3% to +1.2%",
+    "n": 1319,
+    "close_above_open": 0.54,
+    "close_above_prev": 0.79,
+    "abs_oc_under_0_8": 0.73
+   },
+   {
+    "case": "same gap, 20-day volatility >= 22%, SPY under its 200-day (both known the evening before)",
+    "n": 174,
+    "close_above_open": 0.53,
+    "close_above_prev": 0.71,
+    "abs_oc_under_0_8": 0.52,
+    "by_decade": "2004-2015: 51% / 69% / 50% (109); 2016-2026: 55% / 75% / 55% (65)"
+   },
+   {
+    "case": "the Friday after Thanksgiving (half day)",
+    "n": 22,
+    "close_above_open": 0.64,
+    "close_above_prev": 0.5,
+    "abs_oc_under_0_8": 0.86,
+    "note": "avg open to close +0.19%; the three with volatility >= 22%: 2 of 3 up, 2 of 3 under 0.8%"
+   },
+   {
+    "case": "the day after a reversal day (gap <= -1.5%, then +1.5% open to close)",
+    "n": 25,
+    "close_above_open": 0.44,
+    "close_above_prev": 0.48,
+    "abs_oc_under_0_8": 0.28,
+    "note": "13 of the 25 in 2008-2009"
+   }
+  ],
+  "reading": "The fade lean in the 0.45 is not in twenty years of data: gap-ups of this size in a high-volatility market under the 200-day closed above their open 53% of the time, in both decades (51%, 55%). The last six sessions (5 of 6 gaps closed against) are a small run, not a rate. Holiday Fridays lean up and quiet; the day after a reversal day leans down but its sample is mostly 2008. Revised before the window: close above open 0.52, close above 716.70 0.70 (given a gap up, which the after-hours and the futures point to), under 0.8% 0.70 (a high-volatility full day 52-55%, a half day is about three quarters as wide and holiday Fridays 86%)."
+ }
 }
