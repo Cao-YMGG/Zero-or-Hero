@@ -1,36 +1,18 @@
 {
   "date": "2026-11-27",
-  "done": false,
+  "done": true,
   "variants": {
     "catalyst_open@2026-11-25": {
       "entered": true,
       "carried": true,
       "of": "catalyst_open",
-      "shadow": {
-        "contract": "KO261127C00101000",
-        "direction": "call",
-        "entry_time": "2026-11-25T09:32:00-05:00",
-        "entry_price": 0.07,
-        "peak": 0.07,
-        "qty": 11,
-        "last": 0,
-        "last_time": "2026-11-27T12:32:50-05:00"
-      }
+      "closed": true
     },
     "catalyst_open_hero@2026-11-25": {
       "entered": true,
       "carried": true,
       "of": "catalyst_open_hero",
-      "shadow": {
-        "contract": "KO261127C00101000",
-        "direction": "call",
-        "entry_time": "2026-11-25T09:32:00-05:00",
-        "entry_price": 0.07,
-        "peak": 0.07,
-        "qty": 55,
-        "last": 0,
-        "last_time": "2026-11-27T12:32:50-05:00"
-      }
+      "closed": true
     },
     "claude_bias": {},
     "meta_follow2": {},
@@ -38,30 +20,12 @@
     "catalyst_open": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "WMT261127C00134000",
-        "direction": "call",
-        "entry_time": "2026-11-27T09:32:01-05:00",
-        "entry_price": 0.07,
-        "peak": 0.07,
-        "qty": 11,
-        "last": 0,
-        "last_time": "2026-11-27T12:32:50-05:00"
-      }
+      "closed": true
     },
     "catalyst_open_hero": {
       "attempts": 1,
       "entered": true,
-      "shadow": {
-        "contract": "WMT261127C00134000",
-        "direction": "call",
-        "entry_time": "2026-11-27T09:32:01-05:00",
-        "entry_price": 0.07,
-        "peak": 0.07,
-        "qty": 55,
-        "last": 0,
-        "last_time": "2026-11-27T12:32:50-05:00"
-      }
+      "closed": true
     },
     "catalyst_intraday": {},
     "catalyst_intraday_hero": {},
