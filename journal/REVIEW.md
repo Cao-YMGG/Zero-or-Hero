@@ -1,4 +1,4 @@
-# Review — 2026-11-26
+# Review — 2026-11-27
 
 - Champion: **nvda_gapdown_put**
 - Equity: **$385.16** (phase zero-or-hero)
@@ -14,10 +14,10 @@
 | catalyst_intraday_hero | 6 | 17% | +37.1% | +222% | +721% | -100% | 6 | +37.1% |
 | catalyst_intraday | 10 | 60% | +11.3% | +113% | +299% | -100% | 10 | +11.3% |
 | spy_open_drive_put | 0 | 0% | +0.0% | +0% | +0% | +0% | 0 | +0.0% |
-| catalyst_open | 16 | 44% | -5.3% | -85% | +339% | -100% | 16 | -5.3% |
+| catalyst_open | 18 | 39% | -15.8% | -285% | +339% | -100% | 18 | -15.8% |
 | stock_open_drive | 7 | 29% | -25.6% | -179% | +230% | -100% | 7 | -25.6% |
 | spy_open_drive | 2 | 0% | -99.7% | -199% | -99% | -100% | 2 | -99.7% |
-| catalyst_open_hero | 6 | 0% | -100.0% | -600% | -100% | -100% | 6 | -100.0% |
+| catalyst_open_hero | 8 | 0% | -100.0% | -800% | -100% | -100% | 8 | -100.0% |
 
 Left out above: 6 shadow trades whose real order was cancelled unfilled (journal/unfilled.csv): catalyst_intraday ORCL261023C00128000 +29%, catalyst_intraday AMAT261030C00445000 -100%, catalyst_open LLY261106C01430000 -100%, catalyst_intraday GE261106C00330000 -98%, spy_open_drive SPY261109C00753000 +280%, nvda_gapdown_put NVDA261120P00141000 +208%.
 
