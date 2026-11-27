@@ -1,0 +1,84 @@
+{
+ "date": "2026-11-27",
+ "bias": "none",
+ "confidence": 0.2,
+ "p_up": 0.58,
+ "summary": "No SPY bet: the AI names rebound before the half day (SPY +1.6%, QQQ +2.3%, SMH +3.9% pre-market); big gap-ups in a high-volatility market under the 200-day closed above their open about two times in three over twenty years, but a base rate does not carry the call across 0.60 by itself.",
+ "reasons": [
+  "Pre-market (Webull, 08:30 ET): SPY 728.33 (+1.62% from Wednesday's 716.70), QQQ +2.30%, SMH +3.9%, IGV +1.8%, IWM +1.4%, DIA +1.4%; XLV +0.2%, XLP -0.3%, XLF +1.0%, XLE +1.4%; TLT -0.5%, USO +0.6%, UUP +0.1%, GLD +2.0%, VIXY -4.8%. Stocks: NVDA +2.4%, AMD +4.4%, MU +5.6%, AVGO +3.3%, TSM +3.4%, MRVL +5.8%, META +3.2%, AMZN +2.5%, MSFT +1.9%, GOOGL +2.7%, TSLA +2.5%, AAPL +1.0%; WMT +0.0%, KO -0.6%, LLY -0.3%.",
+  "Why up (Yahoo live, Forbes, invezz): the AI shares that led the sell-off rebound after Wednesday's reversal (Nasdaq 100 futures +2.4% to +2.8% in the early hours); Micron says its high-bandwidth memory capacity is largely booked for next year (Benzinga 06:31). Against it: rate-hike worries and tariff talk linger (one report), Goldman Sachs warns of about $100 billion of systematic selling (Benzinga 06:31). No data today; the session closes at 13:00 (options 13:15).",
+  "Base rates (SPY daily bars 2004-2026, computed this morning): gap-ups of +1.2% to +2.5% with 20-day volatility of 22% or more and SPY under its 200-day closed above their open 65% of the time (69 days; 63% in 2004-2015, 69% in 2016-2026) and above the previous close 88%; their open-to-close move was under 0.8% only 35% of the time (a half day is narrower). The Friday after Thanksgiving closed above its open 14 of 22 times. R1: across all nights the gap leans slightly the other way (corr -0.11). The base rate is in the reasons and does not carry p_up across 0.60 by itself (pre-market step 3): 0.58.",
+  "Day forecast (journal/forecasts/2026-11-27.json): last night's file expected a gap of +0.5% to +0.8%; the gap is +1.6%. Revised before the window with the big-gap base rates: close above open 0.58 (was 0.45, then 0.52), close above 716.70 0.85 (was 0.65, then 0.70; 88% in the base rate, a little given back for a gap that can shrink by 09:30), open to close under 0.8% 0.50 (was 0.65, then 0.70; 35% on full days, a half day is narrower). All earlier numbers stay and are scored.",
+  "Sniper: WMT call, class target. Daiwa raises Walmart's target to $140 from $113 (Benzinga 06:32; rating not stated, taken as kept). WMT -0.2% pre-market, the consumer theme is the one heating theme (REL_STRONG, AT_HIGH, BREADTH_UP), WMT reported 11-19, outside the window. Against it: R4, a target change is in the price by 09:32 and the class has no edge; on Wednesday the defensive names lagged once the market turned up, and this morning the money is going the other way again; the nearest expiry is today's half day. Shadow only (S2).",
+  "No ideas listed (T6). MU (+6% pre-market on its HBM booking statement) is a company-news item already priced past 3% (T3); the chip names gap 3-7% with the group; nothing has a cause of its own that is not in the opening price.",
+  "Report window (R3): none of our names reports today; MRVL reports 12-01 after the close (Monday is the day before), CRM later next week.",
+  "Theme states at the 11-25 close: consumer heating (REL_STRONG, AT_HIGH, BREADTH_UP, RATIO_HIGH); chips neutral (REL_WEAK, BREADTH); software, banks, energy neutral (BREADTH); power and optical neutral (REL_WEAK, BREADTH; PERIPH_UP); health neutral (REL_STRONG); industrials neutral (RATIO_HIGH, PERIPH_UP). Light lit: breadth. Described, not forecast (R6).",
+  "Variants today (Friday): meta_follow2 can fire (META 2% above its open after 30 minutes; META is +3% pre-market). spy_open_drive and spy_open_drive_put trade Monday to Thursday only; stock_open_drive Monday and Wednesday only (and paused). nvda_gapdown_put needs a gap down (NVDA is up). catalyst_open shadows the WMT sniper. The bot sells same-day positions by 12:45."
+ ],
+ "events": [
+  "Half day: stocks close 13:00, options 13:15",
+  "Black Friday retail traffic reads over the weekend",
+  "Monday 11-30: Fed blackout from 11-28; Tuesday 12-01 ISM manufacturing and MRVL after the close; Friday 12-04 jobs report"
+ ],
+ "inputs": {
+  "spy_premarket_pct": 1.62,
+  "qqq_premarket_pct": 2.3,
+  "es_futures_pct": null,
+  "vix": 28.3,
+  "vixy_premarket_pct": -4.85,
+  "wti_pct": null,
+  "uso_premarket_pct": 0.64,
+  "us10y": null,
+  "us10y_change_bp": null,
+  "us2y_change_bp": null,
+  "tlt_premarket_pct": -0.54,
+  "dxy_pct": null,
+  "uup_premarket_pct": 0.1,
+  "overnight": "Futures rose through Thursday's holiday session and overnight, led by the Nasdaq 100. VIX is Wednesday's close (28.3, from the other side's file); yields from TLT only."
+ },
+ "rotation": {
+  "heating": [
+   "consumer (theme state heating: WMT/COST/HD +10.9% 1m)",
+   "staples (XLP +5.9% 1m)"
+  ],
+  "cooling": [
+   "memory (-40% 1m)",
+   "optical (-35% 1m)",
+   "CPU (-30% 1m)",
+   "GPU (-28% 1m)",
+   "disk (-24% 1m)",
+   "software (-15% 1m)",
+   "energy (-11% 1m)"
+  ],
+  "note": "The month's order is unchanged at the 11-25 close, but Wednesday reversed it for a session and this morning's pre-market does the same again (chips +4%, staples flat). R6: describes, does not forecast.",
+  "theme_state": {
+   "consumer": "heating (REL_STRONG, AT_HIGH, BREADTH_UP, RATIO_HIGH)",
+   "chips": "neutral (REL_WEAK, BREADTH)",
+   "software": "neutral (BREADTH)",
+   "internet": "neutral",
+   "banks": "neutral (BREADTH)",
+   "energy": "neutral (BREADTH)",
+   "health": "neutral (REL_STRONG)",
+   "industrials": "neutral (RATIO_HIGH, PERIPH_UP)",
+   "power": "neutral (REL_WEAK, BREADTH; PERIPH_UP)",
+   "optical": "neutral (REL_WEAK, BREADTH; PERIPH_UP)",
+   "lights": "breadth lit at the 11-25 close; stretched not lit"
+  }
+ },
+ "sniper": {
+  "symbol": "WMT",
+  "direction": "call",
+  "class": "target",
+  "confidence": 0.2,
+  "catalyst": "Daiwa raises Walmart's price target to $140 from $113 (Benzinga via Alpaca, 06:32 ET). WMT 131.94 at 08:30 (+0.0% pre-market), consumer theme heating, reported 11-19 (outside R3). R4: no edge after 09:32; named for catalyst_open's shadow record only. Nearest expiry today (half day).",
+  "wrong_if": "WMT is below its open at 10:00."
+ },
+ "opportunities": [],
+ "zh": {
+  "summary": "今天不下注。被抛了两天的 AI 股在半天市前反弹：盘前标普 +1.6%、纳指 +2.3%、芯片 ETF +3.9%。过去二十年里，像这样大幅高开、又在高波动回调中的日子，大约三次里两次收在开盘价上方，但只凭底数不能把判断推过 0.60，我写 0.58。",
+  "sniper": "沃尔玛看涨，只记影子。大和证券把目标价从 113 上调到 140，盘前基本没动，消费是现在唯一在升温的一组。信心 0.2：目标价调整到 9:32 已经反映在价格里；周三大盘一转涨，防守股就落后，今天钱又在往芯片走；最近的期权今天半天就到期。10:00 在开盘价下方就算错。",
+  "heating": "大型零售和必需消费",
+  "cooling": "存储、光模块、CPU、GPU、硬盘、软件、能源（这一个月）；但周三和今天盘前都是反过来"
+ },
+ "generated_at": "2026-11-27T08:30:20-05:00"
+}
