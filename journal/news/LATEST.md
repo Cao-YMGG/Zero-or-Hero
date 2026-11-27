@@ -1,4 +1,4 @@
-# Headlines since 2026-11-26 16:00 ET (as of 2026-11-27 10:32 ET)
+# Headlines since 2026-11-26 16:00 ET (as of 2026-11-27 11:02 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -8,6 +8,7 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-27 08:01 | CRM | downgrade | Erste Group Downgrades Salesforce to Hold |
 | 11-27 08:01 | SPOT | upgrade | Erste Group Upgrades Spotify Technology to Buy |
 | 11-26 16:32 | JPM | target down | JPMorgan Chase Lowers Price Target for Vodafone |
+| 11-27 11:01 | JPM |  | JPMorgan Chase Discloses Change in Voting Rights in Ashtead Technology |
 | 11-27 09:34 | GEV |  | GE Vernova Hitachi Nuclear Energy Co-Hosts Briefing for UK Small Modular Reactor Program |
 | 11-27 09:31 | META |  | Meta Cited in South African High Court Ruling Regarding Pseudonymous Content |
 | 11-27 09:31 | META |  | Meta Launches Instagram for TV in India |

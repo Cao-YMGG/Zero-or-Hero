@@ -1,7 +1,17 @@
 {
- "as_of": "2026-11-27T10:32-05:00",
+ "as_of": "2026-11-27T11:02-05:00",
  "since": "2026-11-26T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-27 11:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Discloses Change in Voting Rights in Ashtead Technology",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/rns/ashtead-technology-holdings--at./holding-s-in-company/9897534"
+  },
   {
    "time": "11-27 09:34",
    "symbols": [
