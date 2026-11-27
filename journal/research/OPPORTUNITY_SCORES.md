@@ -6,7 +6,7 @@
 
 | group | ideas | right | paid (>= +1%) | avg move | avg w/o best | avg vs SPY | beat SPY |
 |---|---|---|---|---|---|---|---|
-| all ideas | 221 | 51% | 25% | -0.03% | -0.07% | +0.04% | 49% |
+| all ideas | 221 | 51% | 25% | -0.03% | -0.06% | +0.04% | 49% |
 
 ## By source
 
@@ -14,7 +14,7 @@
 |---|---|---|---|---|---|---|---|
 | premarket | 104 | 52% | 30% | +0.04% | -0.03% | +0.13% | 53% |
 | intraday | 97 | 47% | 20% | -0.11% | -0.19% | -0.07% | 42% |
-| sniper | 14 | 57% | 36% | +0.06% | -0.21% | +0.27% | 64% |
+| sniper | 14 | 57% | 36% | +0.07% | -0.20% | +0.26% | 64% |
 | review | 6 | 67% | 17% | -0.15% | -0.40% | -0.21% | 50% |
 
 ## By direction
@@ -30,7 +30,7 @@
 |---|---|---|---|---|---|---|---|
 | none | 195 | 50% | 26% | -0.01% | -0.05% | +0.04% | 47% |
 | real | 13 | 54% | 23% | -0.22% | -0.44% | +0.12% | 62% |
-| shadow | 12 | 50% | 17% | -0.14% | -0.47% | -0.07% | 58% |
+| shadow | 12 | 50% | 17% | -0.13% | -0.46% | -0.09% | 58% |
 | bot | 1 | 100% | 0% | +0.10% | - | +0.76% | 100% |
 
 ## By conviction (what I thought when I listed it; stated since 2026-11-13)
@@ -39,7 +39,7 @@
 |---|---|---|---|---|---|---|---|
 | not stated | 150 | 52% | 26% | +0.04% | -0.01% | +0.04% | 47% |
 | no | 27 | 52% | 30% | -0.07% | -0.31% | +0.03% | 52% |
-| yes | 25 | 52% | 20% | -0.18% | -0.33% | +0.03% | 60% |
+| yes | 25 | 52% | 20% | -0.18% | -0.33% | +0.02% | 60% |
 | maybe | 19 | 37% | 21% | -0.33% | -0.80% | +0.13% | 47% |
 
 ## By distance from the day's best price when listed (since 2026-11-17)
@@ -109,7 +109,7 @@ No pick at the 13:16 check-in since 2026-11-16 (CLAUDE.md); the file lists what 
 | relative_strength | 6 | 83% | 50% | +0.80% | +0.62% | +0.40% | 50% |
 | ma_acquirer | 3 | 67% | 33% | +2.47% | +0.29% | +2.17% | 67% |
 | news_heating | 3 | 0% | 0% | -0.64% | -0.92% | +0.08% | 67% |
-| other types (fewer than 3 ideas each) | 11 | 27% | 18% | -0.65% | -0.97% | -0.53% | 45% |
+| other types (fewer than 3 ideas each) | 11 | 27% | 18% | -0.64% | -0.96% | -0.54% | 45% |
 
 ## By type, last 10 sessions
 
@@ -125,7 +125,7 @@ No pick at the 13:16 check-in since 2026-11-16 (CLAUDE.md); the file lists what 
 | sell_the_news | 3 | 33% | 0% | -3.86% | -6.17% | -3.52% | 33% |
 | gapdown_rebound | 3 | 0% | 0% | -1.29% | -1.71% | -0.99% | 0% |
 | relative_strength | 3 | 100% | 100% | +1.51% | +1.40% | +1.57% | 100% |
-| other types (fewer than 3 ideas each) | 4 | 75% | 0% | +0.51% | +0.35% | -0.28% | 50% |
+| other types (fewer than 3 ideas each) | 4 | 75% | 0% | +0.54% | +0.40% | -0.31% | 50% |
 
 ## Why the wrong ones were wrong
 
