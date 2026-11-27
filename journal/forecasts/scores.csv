@@ -1,0 +1,10 @@
+scored_on,file,claim,horizon,kind,p,outcome,brier,detail
+2026-11-27,2026-11-27.json,oc_up,day,close_above_open,0.45,1,0.3025,open 725.86 close 728.32
+2026-11-27,2026-11-27.json,above_prev,day,close_above,0.65,1,0.1225,close 728.32 against 716.7
+2026-11-27,2026-11-27.json,quiet,day,abs_open_close_under,0.65,1,0.1225,open to close +0.34%
+2026-11-27,2026-11-27.json,oc_up_calc,day,close_above_open,0.52,1,0.2304,open 725.86 close 728.32
+2026-11-27,2026-11-27.json,above_prev_calc,day,close_above,0.7,1,0.09,close 728.32 against 716.7
+2026-11-27,2026-11-27.json,quiet_calc,day,abs_open_close_under,0.7,1,0.09,open to close +0.34%
+2026-11-27,2026-11-27.json,oc_up_am,day,close_above_open,0.58,1,0.1764,open 725.86 close 728.32
+2026-11-27,2026-11-27.json,above_prev_am,day,close_above,0.85,1,0.0225,close 728.32 against 716.7
+2026-11-27,2026-11-27.json,quiet_am,day,abs_open_close_under,0.5,1,0.25,open to close +0.34%

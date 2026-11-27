@@ -1,0 +1,196 @@
+{
+ "date": "2026-11-27",
+ "trend": {
+  "close": 728.32,
+  "vs_20d": -0.0135,
+  "vs_50d": -0.0381,
+  "vs_200d": -0.0036,
+  "ret_1m": -0.057,
+  "ret_3m": -0.051,
+  "from_1y_high": -0.0652
+ },
+ "volatility": {
+  "vol_10d": 0.3397,
+  "vol_20d": 0.3158,
+  "vol_60d": 0.2013,
+  "vol_1y": 0.1496,
+  "big_days_20": 11,
+  "big_day_share_1y": 0.214
+ },
+ "breadth": {
+  "above_20d": 0.371,
+  "above_50d": 0.409,
+  "above_200d": 0.485,
+  "names": 132
+ },
+ "correlation": {
+  "ai_20d": 0.857,
+  "ai_60d_before": 0.54,
+  "etf_20d": 0.583,
+  "etf_60d_before": 0.22
+ },
+ "leadership": {
+  "etfs": {
+   "GLD": {
+    "ret_1w": -0.0023,
+    "ret_1m": -0.1047
+   },
+   "DIA": {
+    "ret_1w": 0.0354,
+    "ret_1m": -0.0315
+   },
+   "IGV": {
+    "ret_1w": 0.0149,
+    "ret_1m": -0.1285
+   },
+   "IWM": {
+    "ret_1w": 0.0362,
+    "ret_1m": -0.0267
+   },
+   "TLT": {
+    "ret_1w": 0.0114,
+    "ret_1m": 0.0077
+   },
+   "UUP": {
+    "ret_1w": 0.003,
+    "ret_1m": 0.0227
+   },
+   "QQQ": {
+    "ret_1w": 0.0092,
+    "ret_1m": -0.1028
+   },
+   "USO": {
+    "ret_1w": -0.0023,
+    "ret_1m": -0.1729
+   },
+   "VIXY": {
+    "ret_1w": -0.0616,
+    "ret_1m": 0.2615
+   },
+   "SMH": {
+    "ret_1w": -0.0166,
+    "ret_1m": -0.2248
+   },
+   "XLI": {
+    "ret_1w": 0.026,
+    "ret_1m": -0.0174
+   },
+   "XLK": {
+    "ret_1w": -0.0034,
+    "ret_1m": -0.1615
+   },
+   "XLP": {
+    "ret_1w": 0.0314,
+    "ret_1m": 0.0673
+   },
+   "XLE": {
+    "ret_1w": 0.0128,
+    "ret_1m": -0.0991
+   },
+   "XLU": {
+    "ret_1w": 0.0167,
+    "ret_1m": 0.0292
+   },
+   "XLV": {
+    "ret_1w": 0.038,
+    "ret_1m": 0.0249
+   },
+   "XLF": {
+    "ret_1w": 0.0284,
+    "ret_1m": 0.0184
+   },
+   "XLY": {
+    "ret_1w": 0.0353,
+    "ret_1m": 0.0402
+   },
+   "SPY": {
+    "ret_1w": 0.0174,
+    "ret_1m": -0.057
+   }
+  },
+  "defensive_1w": 0.0287,
+  "defensive_1m": 0.0405,
+  "tech_1w": -0.0017,
+  "tech_1m": -0.1716,
+  "best_1m": [
+   [
+    "APP",
+    0.5356
+   ],
+   [
+    "CMG",
+    0.299
+   ],
+   [
+    "LOW",
+    0.1918
+   ],
+   [
+    "CVNA",
+    0.1868
+   ],
+   [
+    "DIS",
+    0.1669
+   ]
+  ],
+  "worst_1m": [
+   [
+    "SNDK",
+    -0.5139
+   ],
+   [
+    "MRVL",
+    -0.4415
+   ],
+   [
+    "MSTR",
+    -0.4377
+   ],
+   [
+    "LITE",
+    -0.4369
+   ],
+   [
+    "DDOG",
+    -0.4047
+   ]
+  ]
+ },
+ "cross_asset": {
+  "spy_tlt_20d": -0.199,
+  "spy_tlt_60d_before": 0.189
+ },
+ "gaps": {
+  "sessions": 10,
+  "gaps": 6,
+  "closed_against": 4
+ },
+ "base_rates": {
+  "state": "within 3 points of today's distance from the 200-day and one-month return, 20-day volatility from 0.75x to 1.33x today's, within 4 points of today's distance from the one-year high",
+  "from": "2004-01-02",
+  "days": 25,
+  "episodes": 7,
+  "first": "2007-08-17",
+  "last": "2026-11-25",
+  "h6": {
+   "n": 22,
+   "up": 0.5,
+   "median": 0.0053,
+   "p10": -0.0465,
+   "p90": 0.0285,
+   "episodes_up": 0.333
+  },
+  "h24": {
+   "n": 22,
+   "up": 0.455,
+   "median": -0.0102,
+   "p10": -0.0452,
+   "p90": 0.0751,
+   "episodes_up": 0.5
+  },
+  "close_3pct_under_within_6": 0.318
+ },
+ "label_zh": "回调中（在 200 日均线下方，一个月跌 6%），颠簸很大（波动是一年平均的 2.1 倍），AI 股一起涨一起跌，钱躲进防守股，股债反着走，开盘方向常被盘中反过来。",
+ "changes_zh": []
+}
