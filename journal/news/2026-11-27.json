@@ -1,7 +1,117 @@
 {
- "as_of": "2026-11-27T07:58-05:00",
+ "as_of": "2026-11-27T10:02-05:00",
  "since": "2026-11-26T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-27 09:34",
+   "symbols": [
+    "GEV"
+   ],
+   "rating": "",
+   "headline": "GE Vernova Hitachi Nuclear Energy Co-Hosts Briefing for UK Small Modular Reactor Program",
+   "source": "fiscal.ai",
+   "url": "https://electricityinfo.org/category/topics/new-reactor-types/"
+  },
+  {
+   "time": "11-27 09:33",
+   "symbols": [
+    "ZS"
+   ],
+   "rating": "downgrade",
+   "headline": "B. Riley Downgrades Zscaler to Neutral",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/b-riley-downgrades-zscaler-to-neutral-from-buy-cuts-price-target-to-245-from-260-ce7851d9df8ff626"
+  },
+  {
+   "time": "11-27 09:31",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Cited in South African High Court Ruling Regarding Pseudonymous Content",
+   "source": "fiscal.ai",
+   "url": "https://www.einnews.com/pr_news/959345946/government-welcomes-high-court-ruling-against-pseudonymous-facebook-account"
+  },
+  {
+   "time": "11-27 09:31",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Launches Instagram for TV in India",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/meta-platforms-brings-instagram-for-tv-to-india-ce7851d9df8df327"
+  },
+  {
+   "time": "11-27 09:31",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan and BlackRock Contending to Manage Portion of Singapore's Public Pension Fund",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/jpmorgan-blackrock-contending-to-manage-portion-of-singapore-s-543-62-billion-public-pension-fund-ce7851d9df8df324"
+  },
+  {
+   "time": "11-27 09:31",
+   "symbols": [
+    "UNH"
+   ],
+   "rating": "",
+   "headline": "UnitedHealthcare to Close Medicare Advantage Plans in Idaho",
+   "source": "fiscal.ai",
+   "url": "https://insurancenewsnet.com/oarticle/health-insurers-are-dropping-idaho-medicare-advantage-plans-that-cover-tens-of-thousands-2"
+  },
+  {
+   "time": "11-27 09:01",
+   "symbols": [
+    "ASML"
+   ],
+   "rating": "",
+   "headline": "Dutch Government to Request US Non-Enforcement of MATCH Act",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/ja/news/post/1005989189"
+  },
+  {
+   "time": "11-27 08:01",
+   "symbols": [
+    "ORCL"
+   ],
+   "rating": "",
+   "headline": "Security Breach Reported at US Air Force Cloud One Platform",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/hackers-breach-us-air-force-cloud-platform-powered-by-microsoft-amazon-oracle-alphabet-ce7851d9df88f521"
+  },
+  {
+   "time": "11-27 08:01",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "downgrade",
+   "headline": "Erste Group Downgrades Salesforce to Hold",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1006000527/erste-group-downgrades-salesforce-crmus-to-hold-rating"
+  },
+  {
+   "time": "11-27 08:01",
+   "symbols": [
+    "NVDA"
+   ],
+   "rating": "",
+   "headline": "NVIDIA Faces New U.S. Export Controls and Regional Market Shifts",
+   "source": "fiscal.ai",
+   "url": "https://world.storm.mg/articles/1184970"
+  },
+  {
+   "time": "11-27 08:01",
+   "symbols": [
+    "SPOT"
+   ],
+   "rating": "upgrade",
+   "headline": "Erste Group Upgrades Spotify Technology to Buy",
+   "source": "fiscal.ai",
+   "url": "https://www.quantisnow.com/insight/spotify-upgraded-by-erste-group-6808105"
+  },
   {
    "time": "11-27 07:32",
    "symbols": [
