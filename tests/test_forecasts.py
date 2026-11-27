@@ -79,3 +79,39 @@ class Scoring(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class GapBuckets(unittest.TestCase):
+    bars = {"2026-11-25": (703.0, 716.70), "2026-11-27": (725.86, 728.32)}     # gap +1.28%
+
+    def test_a_bucket_counts_only_when_the_gap_is_in_it(self):
+        inside = dict(DAY, id="g1", if_gap=[1.0, 2.0])
+        outside = dict(DAY, id="g2", if_gap=[0.3, 1.0])
+        self.assertEqual(fc.outcome(inside, self.bars, "2026-11-27")[0], 1)
+        got, why = fc.outcome(outside, self.bars, "2026-11-27")
+        self.assertEqual(got, "void")
+        self.assertIn("+1.28%", why)
+
+    def test_void_rows_are_kept_out_of_the_score(self):
+        docs = {"f.json": doc(dict(DAY, id="g1", p=0.6, if_gap=[1.0, 2.0]), dict(DAY, id="g2", p=0.4, if_gap=[0.3, 1.0]))}
+        rows = fc.score(docs, {"SPY": self.bars}, set(), "2026-11-27", "2026-11-27")
+        self.assertEqual([(r["claim"], r["outcome"], r["brier"]) for r in rows], [("g1", 1, 0.16), ("g2", "void", "")])
+        self.assertIn("1 scored", fc.summary(rows)[0])
+
+    def test_validation_of_if_gap(self):
+        self.assertEqual(fc.validate(doc(dict(DAY, if_gap=[0.3, 1.0]))), [])
+        self.assertTrue(fc.validate(doc(dict(DAY, if_gap=[1.0, 0.3]))))
+        self.assertTrue(fc.validate(doc(dict(BELOW, if_gap=[0.3, 1.0]))))
+
+
+class Versions(unittest.TestCase):
+    def test_first_and_last_word(self):
+        docs = {"d.json": doc(dict(DAY, id="a", p=0.45), dict(DAY, id="b", p=0.52, revises="a"),
+                              dict(DAY, id="c", p=0.58, revises="b"), dict(ABOVE, id="x"))}
+        v = fc.versions(docs)
+        self.assertEqual([v[("d.json", k)] for k in "abcx"], ["first", "middle", "final", "both"])
+        rows = [{"file": "d.json", "claim": k, "horizon": "day", "outcome": 1, "brier": b}
+                for k, b in (("a", 0.3), ("b", 0.23), ("c", 0.17), ("x", 0.1))]
+        line = fc.by_version(rows, docs)
+        self.assertIn("first written 0.200 on 2", line)
+        self.assertIn("last before the open 0.135 on 2", line)

@@ -200,6 +200,10 @@ software or at 0.35 delta. rating_open is retired (R4). The numbers stay where t
   reasons, what would make it wrong, and a `zh` line. The morning bias file's `p_up` is the day's close-above-open claim
   revised with the night's news and the 08:30 data.
 - Never edited once its window opens. A revision before that is added beside the original (`revises`); both are scored.
+- The evening day forecast gives its close-above-open and size claims by opening gap (`if_gap` buckets, one claim each),
+  because the gap is unknown at night and moves the day's base rate most (11-27: written for +0.5% to +0.8%, it opened
+  +1.3%); the morning reads the bucket and revises only for news. `--summary` sets the first written word against the
+  last one before the open, so the revisions are scored too.
 - The environment readings and base rates are context, not rules: a base rate goes into the reasons with its sample and
   with how much it moves when "days like today" is drawn differently (on 2026-11-26 two reasonable definitions gave 42%
   and 57% up a week later). A day's direction stays near 0.50 unless the evidence is one-sided (pre-market step 3).
