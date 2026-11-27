@@ -1,0 +1,12 @@
+{
+ "date": "2026-11-27",
+ "picks": [],
+ "check_1016": {
+  "time": "10:17",
+  "pick": null,
+  "note": "No pick, no ideas. Scan by Alpaca IEX snapshots of 129 large caps and 11 ETFs at 10:17 (140 of 141 with a bar today; no Webull in this session). Half day (close 13:00). The pre-market rebound is being sold: SPY gapped +1.3% and is -0.5% from its open, QQQ +1.9% / -0.8%, SMH +2.9% / -1.7%, IGV +1.4% / -0.2%, IWM +1.1% / -0.1%; XLE +0.7%, XLP +0.5% from the open, TLT -0.4%. The chip and AI names that led the gap give most of it back (AMD -3.7%, LRCX -3.7%, AMAT -3.6%, ARM -3.9%, NVDA -3.3%, KLAC -3.0%, MRVL -2.4%, LITE -2.5% from the open), with MSTR -4.2%, HOOD -3.2% and COIN -2.4% on the crypto side; the only NVDA headline (new US export controls) is from 08:01, before the open, and Goldman's systematic-selling warning is from 06:31, so there is no in-session cause, and a fading gap is not a put idea by itself (R2; put mirror not listed). Biggest mover: PINS +4.6% from its open (gap +1.2%), 0.2% under the day's high (T3) with no headline since yesterday's London-office item: relative strength with nothing behind it. The other gainers (DELL +2.1%, COHR +2.1%, RBLX +1.9%, PYPL +1.9%, PANW +1.5%, V +1.5%) carry no in-session headline either and most sit within 0.1-0.5% of their highs; COP leads energy (+1.3%) at its high on no news. In-session headlines in the Alpaca feed and LATEST.md: B. Riley downgrades ZS (09:33, R4: in the price by 09:32), Snap-Linktree (minor), GE Vernova SMR briefing, Meta Instagram for TV in India: none moves its stock with a cause still unfolding. Nothing clears the bar, so the list stays empty (T6).",
+  "note_zh": "不选股，也不列想法。盘前的反弹开盘后被卖掉，芯片股把高开的涨幅吐回去大半，但没有开盘后的新消息，只是高开回落，按规则不做空。涨得最多的 Pinterest（比开盘涨 4.6%）没有任何新消息，又贴着当天最高点，其他上涨的股票也一样，所以都不列。",
+  "by": "fresh-session"
+ },
+ "opportunities": []
+}
