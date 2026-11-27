@@ -11,7 +11,10 @@ one checkable statement each:
   abs_open_close_under  date, pct            |close / open - 1| is under `pct` percent
   close_between         date, low, high      low <= close <= high (an 80% range has p 0.80)
   any_close_below       start, end, level    some close from start to end is under `level`
-Optional: "symbol" (SPY when absent), "revises" (the id of the claim it revises), "written" (when).
+Optional: "symbol" (SPY when absent), "revises" (the id of the claim it revises), "written" (when), and on the
+date kinds "if_gap": [low, high] in percent, a claim that only counts when that day's open sits between low (included)
+and high (excluded) of the previous close: the evening forecast can say "if it opens +0.3% to +1%, then p", one claim a
+gap bucket, and the morning only has to read which bucket it is in. A claim whose bucket did not happen is scored "void".
 
 Scoring reads unadjusted daily bars (levels are the prices people saw) and only sessions that have closed. A claim is
 scored once its last date has a bar; any_close_below resolves early on the first close under its level. Each scored
@@ -75,6 +78,12 @@ def validate(doc):
             problems.append(f"{name}: low must be under high")
         if kind == "any_close_below" and str(c.get("start")) > str(c.get("end")):
             problems.append(f"{name}: start must not be after end")
+        if "if_gap" in c:
+            g = c["if_gap"]
+            if kind == "any_close_below":
+                problems.append(f"{name}: if_gap only goes with the date kinds")
+            elif not (isinstance(g, list) and len(g) == 2 and all(isinstance(x, (int, float)) for x in g) and g[0] < g[1]):
+                problems.append(f"{name}: if_gap must be [low, high] in percent, low under high")
         if c.get("revises") and c["revises"] not in {x.get("id") for x in claims}:
             problems.append(f"{name}: revises an id that is not in the file")
     return problems
@@ -97,6 +106,14 @@ def outcome(claim, bars, through):
     if d not in bars:
         return None, "no closed session on that date yet" if through < d else "no session on that date"
     o, c = bars[d]
+    if "if_gap" in claim:
+        before = [x for x in bars if x < d]
+        if not before:
+            return None, "no previous close for the gap"
+        gap = (o / bars[max(before)][1] - 1) * 100
+        lo, hi = claim["if_gap"]
+        if not lo <= gap < hi:
+            return "void", f"gap {gap:+.2f}% outside {lo}..{hi}"
     if kind == "close_above_open":
         return int(c > o), f"open {o:.2f} close {c:.2f}"
     if kind == "close_above":
@@ -123,7 +140,7 @@ def score(docs, bars_by_symbol, done, today, through):
                 continue
             rows.append({"scored_on": today, "file": name, "claim": c["id"], "horizon": c["horizon"],
                          "kind": c["kind"], "p": c["p"], "outcome": got,
-                         "brier": round((c["p"] - got) ** 2, 4), "detail": detail})
+                         "brier": "" if got == "void" else round((c["p"] - got) ** 2, 4), "detail": detail})
     return rows
 
 
@@ -131,7 +148,7 @@ def summary(rows):
     """Plain lines per horizon: direction claims against 0.25, ranges against their stated rate."""
     out = []
     for h in HORIZONS:
-        mine = [r for r in rows if r["horizon"] == h]
+        mine = [r for r in rows if r["horizon"] == h and r["outcome"] != "void"]
         if not mine:
             continue
         direct = [r for r in mine if r["kind"] != "close_between"]
@@ -145,6 +162,32 @@ def summary(rows):
             line += f"; ranges held {hit} of {len(ranges)} (stated about {float(ranges[0]['p']):.0%})"
         out.append(line)
     return out or ["nothing scored yet"]
+
+
+def versions(docs):
+    """{(file, claim id): "first" | "final" | "middle"}: a claim nothing revised is final, one that revises nothing is
+    first (a claim never revised is both, and counted as first and as final)."""
+    out = {}
+    for name, doc in docs.items():
+        claims = doc.get("claims") or []
+        revised = {c.get("revises") for c in claims if c.get("revises")}
+        for c in claims:
+            first, final = not c.get("revises"), c.get("id") not in revised
+            out[(name, c.get("id"))] = "both" if first and final else "first" if first else "final" if final else "middle"
+    return out
+
+
+def by_version(rows, docs):
+    """Day claims: the first word (the evening) against the last one before the window opened (the morning), so the
+    weekly review can see whether the revisions helped or only followed the price."""
+    v = versions(docs)
+    pick = lambda want: [float(r["brier"]) for r in rows if r["horizon"] == "day" and r["outcome"] != "void"
+                         and v.get((r["file"], r["claim"])) in (want, "both")]
+    first, final = pick("first"), pick("final")
+    if not first:
+        return "day versions: nothing scored yet"
+    return (f"day versions: first written {sum(first) / len(first):.3f} on {len(first)}, "
+            f"last before the open {sum(final) / len(final):.3f} on {len(final)} (always 0.50: 0.250)")
 
 
 def load_docs():
@@ -215,6 +258,7 @@ def main():
         print(f"{len(rows)} new; " + " | ".join(summary(load_scores())))
     if args.summary:
         print("\n".join(summary(load_scores())))
+        print(by_version(load_scores(), load_docs()))
 
 
 if __name__ == "__main__":
