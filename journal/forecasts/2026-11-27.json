@@ -119,6 +119,35 @@
    "pct": 0.8,
    "revises": "quiet",
    "written": "2026-11-26T13:23:50-05:00"
+  },
+  {
+   "id": "oc_up_am",
+   "horizon": "day",
+   "p": 0.58,
+   "kind": "close_above_open",
+   "date": "2026-11-27",
+   "revises": "oc_up_calc",
+   "written": "2026-11-27T08:30:36-05:00"
+  },
+  {
+   "id": "above_prev_am",
+   "horizon": "day",
+   "p": 0.85,
+   "kind": "close_above",
+   "date": "2026-11-27",
+   "level": 716.7,
+   "revises": "above_prev_calc",
+   "written": "2026-11-27T08:30:36-05:00"
+  },
+  {
+   "id": "quiet_am",
+   "horizon": "day",
+   "p": 0.5,
+   "kind": "abs_open_close_under",
+   "date": "2026-11-27",
+   "pct": 0.8,
+   "revises": "quiet_calc",
+   "written": "2026-11-27T08:30:36-05:00"
   }
  ],
  "calculated": {
@@ -165,5 +194,9 @@
    }
   ],
   "reading": "The fade lean in the 0.45 is not in twenty years of data: gap-ups of this size in a high-volatility market under the 200-day closed above their open 53% of the time, in both decades (51%, 55%). The last six sessions (5 of 6 gaps closed against) are a small run, not a rate. Holiday Fridays lean up and quiet; the day after a reversal day leans down but its sample is mostly 2008. Revised before the window: close above open 0.52, close above 716.70 0.70 (given a gap up, which the after-hours and the futures point to), under 0.8% 0.70 (a high-volatility full day 52-55%, a half day is about three quarters as wide and holiday Fridays 86%)."
+ },
+ "morning_update": {
+  "time": "2026-11-27T08:30:36-05:00",
+  "why": "SPY is 728.33 at 08:30 (+1.6% on Wednesday's 716.70), twice the gap the evening forecast assumed (+0.5% to +0.8%): the AI names rebound (QQQ +2.3%, SMH +3.9%, NVDA +2.4%, MU +5.6% on its HBM booking statement). With a gap of +1.2% to +2.5% in a high-volatility market under the 200-day, SPY closed above its open 65% of the time (69 days, 63% and 69% in the two decades), above the previous close 88%, and moved under 0.8% open to close 35% (full days; a half day is narrower). The base rate does not carry the direction past 0.58 by itself (pre-market step 3)."
  }
 }
