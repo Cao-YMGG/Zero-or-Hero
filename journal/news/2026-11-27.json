@@ -1,7 +1,117 @@
 {
- "as_of": "2026-11-27T12:32-05:00",
+ "as_of": "2026-11-27T16:37-05:00",
  "since": "2026-11-26T16:00-05:00",
  "headlines": [
+  {
+   "time": "11-27 16:31",
+   "symbols": [
+    "HOOD"
+   ],
+   "rating": "",
+   "headline": "Federal Court Rules Robinhood Must Face Class-Action Lawsuit Over Event Contracts",
+   "source": "fiscal.ai",
+   "url": "https://dailycallernewsfoundation.org/2026/11/27/robinhood-dragged-to-court-for-sports-betting/"
+  },
+  {
+   "time": "11-27 16:31",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "OpenAI Files Counterclaims Against Apple in Trade Secret Dispute",
+   "source": "fiscal.ai",
+   "url": "https://newsfilter.io/articles/openai-countersues-apple-for-stealing-trade-secrets-0d87ce11b27055aa8258a54eec95e532"
+  },
+  {
+   "time": "11-27 15:02",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Officer Discloses Sale of 55,000 Shares",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/AAPL-US?chain_id=Name1K9-3FXPhg.1lgjh90&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Fchris-strazzeri-151367145%22%7D"
+  },
+  {
+   "time": "11-27 15:02",
+   "symbols": [
+    "AAPL"
+   ],
+   "rating": "",
+   "headline": "Apple Increases US Smartphone Market Share to 57% in Q3 2026",
+   "source": "fiscal.ai",
+   "url": "https://telcomagazine.com/news/apple-hits-57-share-as-q3-us-smartphone-shipments-fall-9"
+  },
+  {
+   "time": "11-27 15:01",
+   "symbols": [
+    "COST"
+   ],
+   "rating": "",
+   "headline": "Amskor Corp. Files Lawsuit Against Costco Wholesale Canada",
+   "source": "fiscal.ai",
+   "url": "https://newsfilter.io/articles/costcos-return-policy-pushed-a-toronto-rug-supplier-to-the-brink-lawsuit-alleges-edd0f989d1fd573c8aaa5af21c8162cb"
+  },
+  {
+   "time": "11-27 14:02",
+   "symbols": [
+    "META"
+   ],
+   "rating": "",
+   "headline": "Meta Platforms in Talks with JERA for Tokyo-Area Data Centers",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/anthropic-meta-others-tech-giants-in-talks-with-jera-to-build-tokyo-area-data-centers-ce7851d9de8df422"
+  },
+  {
+   "time": "11-27 14:01",
+   "symbols": [
+    "CRM"
+   ],
+   "rating": "",
+   "headline": "Salesforce Holiday Sales Forecast",
+   "source": "fiscal.ai",
+   "url": "https://newsfilter.io/articles/inflation-has-shoppers-hunting-for-value-that-bodes-well-for-black-friday-6f76218415ef561a9512842a4d06e577"
+  },
+  {
+   "time": "11-27 14:01",
+   "symbols": [
+    "RKLB"
+   ],
+   "rating": "",
+   "headline": "Rocket Lab COO Frank Klein Executes Stock Sale",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1006025903/have-rocket-lab-insiders-been-selling-stock"
+  },
+  {
+   "time": "11-27 14:01",
+   "symbols": [
+    "V"
+   ],
+   "rating": "",
+   "headline": "Visa and Rally Announce Strategic Collaboration to Launch Visa Fleet 2.0 in Europe and the UK",
+   "source": "fiscal.ai",
+   "url": "https://news.europawire.eu/visa-fleet-2-0-collaboration-with-rally-brings-ai-powered-expense-management-to-european-businesses/2026/11/27/17/59/03/190077/"
+  },
+  {
+   "time": "11-27 14:01",
+   "symbols": [
+    "TSLA"
+   ],
+   "rating": "",
+   "headline": "Unconfirmed Firmware Discovery Suggests Potential European Robotaxi Geofencing",
+   "source": "fiscal.ai",
+   "url": "https://www.basenor.com/blogs/news/tesla-robotaxi-geofences-found-in-firmware-for-9-european-cities"
+  },
+  {
+   "time": "11-27 14:01",
+   "symbols": [
+    "JPM"
+   ],
+   "rating": "",
+   "headline": "JPMorgan Chase Discloses 6.34% Stake in Sibanye-Stillwater",
+   "source": "fiscal.ai",
+   "url": "https://irw-press.com/en/notification-of-an-acquisition-of-beneficial-interest-in-securities-by-jpmorgan-chase-co-4/"
+  },
   {
    "time": "11-27 11:01",
    "symbols": [

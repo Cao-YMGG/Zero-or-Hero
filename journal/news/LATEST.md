@@ -1,4 +1,4 @@
-# Headlines since 2026-11-26 16:00 ET (as of 2026-11-27 12:32 ET)
+# Headlines since 2026-11-26 16:00 ET (as of 2026-11-27 16:37 ET)
 
 Alpaca news (Benzinga). Rating changes first, then everything else, newest first.
 
@@ -8,6 +8,17 @@ Alpaca news (Benzinga). Rating changes first, then everything else, newest first
 | 11-27 08:01 | CRM | downgrade | Erste Group Downgrades Salesforce to Hold |
 | 11-27 08:01 | SPOT | upgrade | Erste Group Upgrades Spotify Technology to Buy |
 | 11-26 16:32 | JPM | target down | JPMorgan Chase Lowers Price Target for Vodafone |
+| 11-27 16:31 | HOOD |  | Federal Court Rules Robinhood Must Face Class-Action Lawsuit Over Event Contracts |
+| 11-27 16:31 | AAPL |  | OpenAI Files Counterclaims Against Apple in Trade Secret Dispute |
+| 11-27 15:02 | AAPL |  | Apple Officer Discloses Sale of 55,000 Shares |
+| 11-27 15:02 | AAPL |  | Apple Increases US Smartphone Market Share to 57% in Q3 2026 |
+| 11-27 15:01 | COST |  | Amskor Corp. Files Lawsuit Against Costco Wholesale Canada |
+| 11-27 14:02 | META |  | Meta Platforms in Talks with JERA for Tokyo-Area Data Centers |
+| 11-27 14:01 | CRM |  | Salesforce Holiday Sales Forecast |
+| 11-27 14:01 | RKLB |  | Rocket Lab COO Frank Klein Executes Stock Sale |
+| 11-27 14:01 | V |  | Visa and Rally Announce Strategic Collaboration to Launch Visa Fleet 2.0 in Europe and the UK |
+| 11-27 14:01 | TSLA |  | Unconfirmed Firmware Discovery Suggests Potential European Robotaxi Geofencing |
+| 11-27 14:01 | JPM |  | JPMorgan Chase Discloses 6.34% Stake in Sibanye-Stillwater |
 | 11-27 11:01 | JPM |  | JPMorgan Chase Discloses Change in Voting Rights in Ashtead Technology |
 | 11-27 09:34 | GEV |  | GE Vernova Hitachi Nuclear Energy Co-Hosts Briefing for UK Small Modular Reactor Program |
 | 11-27 09:31 | META |  | Meta Cited in South African High Court Ruling Regarding Pseudonymous Content |
